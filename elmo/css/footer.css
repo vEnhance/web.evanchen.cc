@@ -1,0 +1,17 @@
+/*  *  *  *  *  *  *  *  *  *  *  *
+
+	footer
+
+ *  *  *  *  *  *  *  *  *  *  *  */
+
+#footer 
+{   
+	border-top: 1px dashed #006633;
+	border-bottom: 1px solid #66CCCC;
+	background-color: #66CCCC;
+	text-align: center;
+	padding: 0.2em;
+	font-size: 0.8em;
+	line-height: 2em;
+	white-space: nowrap;
+}

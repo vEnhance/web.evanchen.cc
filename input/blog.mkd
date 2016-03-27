@@ -1,0 +1,7 @@
+title: Blog
+menu-position: 200
+url: http://usamo.wordpress.com
+header: WordPress Blog: Power Overwhelming
+---
+
+[<h2>Click here for my WordPress blog</h2>](http://usamo.wordpress.com)

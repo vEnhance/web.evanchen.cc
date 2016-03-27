@@ -1,0 +1,87 @@
+title: Course Notes
+header: Mathematics Coursework and Lecture Notes
+menu-position: 50
+---
+
+During math classes, I like to LaTeX notes to these classes in real time.
+On this page, I've included copies of notes to current and past courses
+(or links to official lecture notes if I did not take notes myself).
+
+Currently, I live-TeX notes using latexmk and a heavily modified Vim editor.
+Since these notes are written *during* class, it is quite likely that they contain typos.
+Please send any corrections to me via email.
+For more polished exposition on some selected topics, see the [Napkin project](napkin.html).
+
+Some of the links are temporary Dropbox links.
+If you want to link these notes, you should always link to this page.
+The Dropbox links will expire at the end of each semester.
+
+## Massachusetts Institute of Technology
+* **(18.099) Seminar in Discrete Analysis**<br>
+  Taught by Peter Csikvari. Spring 2016.
+
+* **(18.217) Combinatorial Theory** [(official notes)](http://www.cis.upenn.edu/~cis610/sp06stanley.pdf)<br> 
+  Taught by Richard Stanley. Fall 2015.
+
+* **(18.434) Seminar in Theoretical CS** [(official notes)](http://math.mit.edu/~yuanzhou/teaching/18.434sp16/)<br>
+  Taught by Yuan Zhou. Spring 2016.
+
+* **(18.435) Quantum Computation** [(pdf)](notes/MIT-18-435.pdf)<br>
+  Taught by Seth Lloyd. Fall 2015.
+
+* **(18.757) Representations of Lie Algebras** [(temporary link)](https://www.dropbox.com/s/iefjlmqp8rwzh0c/MIT-18-757.pdf?dl=1)<br>
+  Taught by Laura Rider. Spring 2016.
+
+* **(18.950) Differential Geometry** [(pdf)](notes/MIT-18-950.pdf)<br>
+  Taught by Xin Zhou. Fall 2015.
+
+* **(SCUM) Student Colloqium in Mathematics** [(temporary link)](https://www.dropbox.com/s/936pn8h5l8cxgv2/SCUM.pdf?dl=1)<br>
+  Not a class, but free dinner and math lectures every Wednesday.
+
+* **(14.12) Economic Applications of Game Theory** <br>
+  Taught by Glenn Ellison. Fall 2015.
+
+* **(14.16) Strategy and Information** <br>
+  Taught by Mihai Manea. Spring 2016.
+
+## Harvard College
+* **(Math 55a) Honors Abstract and Linear Algebra** [(pdf)](notes/Harvard-55a.pdf)<br>
+  Taught by Dennis Gaitsgory. Fall 2014.
+
+* **(Math 55b) Honors Real and Complex Analysis** [(pdf)](notes/Harvard-55b.pdf)<br>
+  Taught by Dennis Gaitsgory. Spring 2015.
+
+* **(Math 129) Number Fields** [(pdf)](notes/Harvard-129.pdf)<br>
+  Taught by Mark Kisin. Spring 2015.
+
+* **(Math 137) Algebraic Geometry** [(pdf)](notes/Harvard-137.pdf)<br>
+  Taught by Yaim Cooper. Spring 2015.
+
+* **(Math 145a) Set Theory** [(pdf)](notes/Harvard-145a.pdf)<br>
+  Taught by Peter Koellner. Fall 2014.
+
+* **(Math 145b) Set Theory II** [(pdf)](notes/Harvard-145b.pdf)<br>
+  Taught by Peter Koellner. Spring 2015.
+
+* **(CS 125) Algorithms and Complexity** [(official notes)](http://people.seas.harvard.edu/~cs125/index.html)<br>
+  Taught by Michael Mitzenmacher and Salil Vadhan. Fall 2014.
+
+
+## University of California Berkeley
+* **(Math 104) Introduction to Real Analysis** [(pdf)](notes/UCB104.pdf)<br>
+  Taught by Charles Pugh. Fall 2013.
+
+* **(Math H113) Honors Introduction to Abstract Algebra** [(pdf)](notes/UCBH113.pdf)<br>
+  Taught by Kelli Talaska. Spring 2012.
+
+* **(Math 249) Algebraic Combinatorics** [(pdf)](notes/UCB249.pdf)<br>
+  Taught by Lauren Williams. Fall 2013.
+
+
+## San Jose State University
+* **(Math 179) Intro to Graph Theory** [(pdf)](notes/SJSU179.pdf)<br>
+  Taught by Wasin So. Spring 2013.
+
+* **(Math 275) Algebraic Topology** [(pdf)](notes/SJSU275.pdf)<br>
+  Taught by Richard Kulbelka. Fall 2012.
+

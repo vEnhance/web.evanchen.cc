@@ -1,0 +1,87 @@
+title: Publications
+header: Publications, Research Papers, and Lectures
+menu-position: 40
+---
+
+Here is information are my various research papers,
+lecture handouts, textbooks, and so on.
+
+## Major Writings
+My two largest projects at the moment are
+
+* My textbook [**Euclidean Geometry in Mathematical Olympiads**](geombook.html).
+  300 pages, accepted for publication by *MAA Problem Book Series*.
+  You can [purchase the ebook here][ebook].
+  Information on hard copies forthcoming.
+  
+* My personal exposition project [**An Infinitely Large Napkin**](napkin.html).  
+  600 pages, in progress.
+  Sample chapters (all fairly rough drafts):
+  [16](papers/napkin-sample-holomorphic.pdf),
+  [38](papers/napkin-sample-frob.pdf),
+  [51](papers/napkin-sample-force.pdf).
+
+Please see the links above for more information.
+
+
+## Research Publications
+
+* **Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication**.
+  [(pdf)][linnik]<br>
+  E. Chen, P. Park, and A. Swaminathan.
+  Published in [Research in Number Theory][rnut-link].
+  
+* **Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem**.
+  [(pdf)][grh]<br>
+  E. Chen, P. Park, and A. Swaminathan, submitted for publication. 
+  
+* **On Logarithmically Benford Sequences**
+  [(pdf)][benford]<br>
+  E. Chen, P. Park, and A. Swaminathan. To appear in *Proceedings of the AMS*.
+
+
+## Lectures
+Here are lecture notes for lectures, sessions, etc. that I have given, generally to high school students.
+These are in general easier than my Olympiad handouts.
+They also tend to leave out lots of details (after all, the handout usually accompanies a two-hour talk).
+
+To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
+
+#### Berkeley Math Circle -- Advanced Group
+* <b>AMC 12 Preparation</b> {{ hlink("BMC_AMC12Prep_2013") }}
+  TeX source contains answers.
+
+* <b>Barycentric Coordinates</b> {{ hlink("BMC_Bary") }}
+  A quick introduction to barycentric coordinates.
+
+* <b>Combinatorial Nullstellensatz</b> {{ hlink("BMC_Combo_Null") }}
+  Applies the combinatorial nullstellensatz to several olympiad-style problems.
+
+#### Berkeley Math Circle -- Intermediate and Intermediate II Group
+* <b>Triangle Centers</b> {{ hlink("BMC-TriCenter") }}
+  Standard fare on the Euler line and the nine-point circle.
+  Might be interesting to people starting out on olympiad geometry.
+
+* <b>Set Theory</b> {{ hlink("BMC-SetTheory") }}
+  Talked about ZFC and the construction of the ordinals.
+  Essentially equivalent to [this blog post of mine][ordinals].
+
+* <b>Parallelograms</b> {{ hlink("BMC_Parallelograms") }}
+  All you have to do is construct a parallelogram!
+
+* <b>BAMO Preparation</b> {{ hlink("BMC_Int_BAMO_Prep") }}
+  A combinatorially flavored practice session for the Bay Area Math Olympiad.
+
+#### Miscellaneous
+* <b>Combinatorial Nullstellensatz (SPARC)</b> {{ hlink("SPARC_Combo_Null_Slides") }}
+  Slides from an informal lecture I gave on the nullstellensatz at [SPARC 2013][sparc].
+
+
+[ordinal]: https://usamo.wordpress.com/2014/11/18/set-theory-part-2-constructing-the-ordinals/
+[sparc]: http://www.sparc-camp.org
+[linnik]: papers/1506.09170v3.pdf  
+[grh]: papers/1507.07122v2.pdf
+[benford]: papers/1507.02629v2.pdf
+[evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
+[rnut-link]: http://link.springer.com/article/10.1007/s40993-015-0028-0
+[ebook]: http://www.maa.org/ebooks/EGMO

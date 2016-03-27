@@ -1,0 +1,20 @@
+title: Home
+header: MIT Homepage of Evan Chen
+menu-position: 0
+---
+
+Hi, welcome to my site! 
+I am an MIT undergraduate, class of 2018.
+
++ If you're interested in math olympiads, see [my olympiad math handouts](olympiad.html).
++ If you're looking for other math reads,
+  you might try [my course notes](coursework.html) or [other resources](recommend.html).
++ If you want to find about more about me or my work,
+  you should check my [about page](about.html) and my [list of publications](publications.html).
++ If you're looking for my blog, [here it is](http://usamo.wordpress.com).
+
+I do math and not code:
+
+![Code is hard](http://stilldrinking.org/blog_images/code-horror.gif)
+
+That's about all.

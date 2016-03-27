@@ -1,0 +1,153 @@
+title: Geometry
+header: Euclidean Geometry in Mathematical Olympiads
+---
+
+**A [PDF version][ebook] of the book is available now!**
+Information on hard copies forthcoming.
+
+![Book cover][cover] 
+
+### Errata
+
+Here are all the mistakes that I am aware of.
+If you find another one, please let me know by email.
+
++ On page 34, in the solution to example 2.21, the phrase
+  "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$"
+  should be "we already know that lines $PQ$, $RS$, and $XY$ concur at a point".
++ On page 133, in Proposition 7.21, the last displayed equation should have
+  $S_A$ in place of $S_a$.
++ On page 174 and 175, in the names of Lemmas 9.11 and 9.12,
+  the word "Induces" should instead be "Induce".
+
+### Table of Contents
+Here is the most recent table of contents.
+
+<b>Preliminaries</b>
+<br> Section 0.1  The Structure of This Book
+<br> Section 0.2  Notations and Centers
+
+## Part I  Fundamentals
+<b>Chapter 1  Angle Chasing</b>
+<br> Section 1.1  Vanilla Angle Chasing
+<br> Section 1.2  Cyclic Quadrilaterals
+<br> Section 1.3  The Orthic Triangle
+<br> Section 1.4  The Incenter/Excenter Lemma
+<br> Section 1.5  Directed Angles
+<br> Section 1.6  Tangents to Circles and Phantom Points
+<br> Section 1.7  Solving a Problem from the IMO Shortlist
+<br> Section 1.8  Problems
+
+<b>Chapter 2  Circles</b>
+<br> Section 2.1  Orientations of Similar Triangles
+<br> Section 2.2  Power of a Point
+<br> Section 2.3  The Radical Axis and Radical Center
+<br> Section 2.4  Coaxal Circles
+<br> Section 2.5  Revisiting Tangents: The Incenter
+<br> Section 2.6  The Excircles
+<br> Section 2.7  Example Problems
+<br> Section 2.8  Problems
+
+<b>Chapter 3  Lengths and Ratios</b>
+<br> Section 3.1  The Extended Law of Sines
+<br> Section 3.2  Ceva's Theorem
+<br> Section 3.3  Directed Ratios of Lengths and Menelaus' Theorem
+<br> Section 3.4  The Centroid and the Medial Triangle
+<br> Section 3.5  Homothety and The Nine<br>Point Circle
+<br> Section 3.6  Example Problems
+<br> Section 3.7  Problems
+
+<b>Chapter 4  Assorted Configurations</b>
+<br> Section 4.1  Simson Lines Revisited
+<br> Section 4.2  Incircles and Excircles
+<br> Section 4.3  Midpoints of Altitudes
+<br> Section 4.4  Circles Inscribed in Segments
+<br> Section 4.5  More Incircle/Incenter Configurations
+<br> Section 4.6  Isogonal and Isotomic Conjugates
+<br> Section 4.7  Symmedians
+<br> Section 4.8  More on Mixtilinear Incircles
+<br> Section 4.9  Problems
+
+
+## Part II  Analytic Techniques
+<b>Chapter 5  Computational Geometry</b>
+<br> Section 5.1  Cartesian Coordinates
+<br> Section 5.2  Areas
+<br> Section 5.3  Trigonometry
+<br> Section 5.4  Ptolemy's Theorem
+<br> Section 5.5  Example Problems
+<br> Section 5.6  Problems
+
+<b>Chapter 6  Complex Numbers</b>
+<br> Section 6.1  What is a Complex Number?
+<br> Section 6.2  Adding and Multiplying Complex Numbers
+<br> Section 6.3  Collinearity and Perpendicularity
+<br> Section 6.4  The Unit Circle
+<br> Section 6.5  Useful Formulas
+<br> Section 6.6  Complex Incenter and Circumcenter
+<br> Section 6.7  Example Problems
+<br> Section 6.8  When to Not Use Complex Numbers
+<br> Section 6.9  Problems
+
+<b>Chapter 7  Barycentric Coordinates</b>
+<br> Section 7.1  Definitions and First Theorems
+<br> Section 7.2  Centers of the triangle
+<br> Section 7.3  Collinearity, Concurrence, and Points at Infinity
+<br> Section 7.4  Displacement Vectors
+<br> Section 7.5  A Demonstration from the IMO Shortlist
+<br> Section 7.6  Conway's Notations
+<br> Section 7.7  Displacement Vectors, Continued
+<br> Section 7.8  More Examples
+<br> Section 7.9  When to Not Use Barycentric Coordinates
+<br> Section 7.10  Problems
+
+
+## Part III  Farther from Kansas
+<b>Chapter 8  Inversion</b>
+<br> Section 8.1  Circles are Lines
+<br> Section 8.2  Where Do Clines Go?
+<br> Section 8.3  An Example from the USAMO
+<br> Section 8.4  Overlays and Orthogonal Circles
+<br> Section 8.5  More Overlays
+<br> Section 8.6  The Inversion Distance Formula
+<br> Section 8.7  More Example Problems
+<br> Section 8.8  When to Invert
+<br> Section 8.9  Problems
+
+<b>Chapter 9  Projective Geometry</b>
+<br> Section 9.1  Completing the Plane
+<br> Section 9.2  Cross Ratios
+<br> Section 9.3  Harmonic Bundles
+<br> Section 9.4  Apollonian Circles
+<br> Section 9.5  Poles/Polars and Brokard's Theorem
+<br> Section 9.6  Pascal's Theorem
+<br> Section 9.7  Projective Transformations
+<br> Section 9.8  Three Solutions to an Example Problem
+<br> Section 9.9  Problems
+
+<b>Chapter 10  Complete Quadrilaterals</b>
+<br> Section 10.1  Spiral Similarity
+<br> Section 10.2  Miquel's Theorem
+<br> Section 10.3  The Gauss-Bodenmiller Theorem
+<br> Section 10.4  More Properties of General Miquel Points
+<br> Section 10.5  Miquel Points of Cyclic Quadrilaterals
+<br> Section 10.6  Example Problems
+<br> Section 10.7  Problems
+
+<b>Chapter 11  Personal Favorites</b>
+<br> Section 11.1  Problems
+<br> Section 11.2  Solutions
+
+## Part IV  Appendices
+<b>Chapter A  An Ounce of Linear Algebra</b>
+<br> Section A.1  Matrices and Determinants
+<br> Section A.2  Cramer's Rule
+<br> Section A.3  Vectors and the Dot Product
+<br><b>Chapter B  Hints</b>
+<br><b>Chapter C  Selected Solutions</b>
+<br><b>Chapter D  List of Contests and Abbreviations</b>
+
+
+
+[ebook]: http://www.maa.org/ebooks/EGMO
+[cover]: http://www.maa.org/sites/default/files/images/ebooks/problem_books/EGMO.png

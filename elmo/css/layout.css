@@ -1,0 +1,95 @@
+/*  *  *  *  *  *  *  *  *  *  *  *
+
+	layout
+
+ *  *  *  *  *  *  *  *  *  *  *  */
+
+html {
+	height: 100%;
+	max-height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	/* hide overflow: hidden from IE5/Mac */
+	/* \*/
+	overflow: hidden;
+	/* */
+}
+
+body {
+	height: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	margin: 0em;
+	padding: 0em;
+	border: 0em;
+}
+
+#header {
+	position: absolute;
+	overflow: hidden; 
+	margin: 0;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 6em;
+	z-index: 5;
+}
+
+#footer {
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	bottom: 0;
+	left: 0; 
+	width: 100%;
+	height: 2em;
+	margin: 0;
+	z-index: 5;
+}
+
+
+#main {
+	position: absolute;
+	overflow: auto;
+	top: 6em;
+	right: 0;
+	bottom: 2em;
+	left: 12em;
+	z-index: 3;
+}
+
+* html #main {
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	z-index: 3;
+	border-top: 6em solid #FFFFF2;
+	border-bottom: 2em solid #FFFFF2;
+	border-left: 12em solid #FFFFF2;
+}
+
+#sidebar {
+   position: absolute; 
+   overflow: auto;
+   top: 6em;
+   left: 0; 
+   bottom: 2em; 
+   width: 12em;
+   z-index: 4; 
+}
+
+* html #sidebar { 
+  height: 100%; 
+  top: 0; 
+  bottom: 0; 
+  border-top: 16em; 
+  border-bottom: 2em;
+}

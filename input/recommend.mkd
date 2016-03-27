@@ -1,0 +1,60 @@
+title: Recommendations
+header: Reading Recommendations
+menu-position: 80
+---
+
+The world would be a great place if I could write about everything I knew about, but alas I have a finite amount of time.
+So in addition to the stuff I have on this website, here's a list of other resources I like.
+
+Please notify me of any broken links, suggestions, etc. by email.
+
+### Undergraduate Math and Computer Science
+* [MSci Category Theory notes](http://www.maths.ed.ac.uk/~tl/msci/) by Tom Leinster.
+  I highly enjoyed these notes; very carefully written and explains intuition.
+  Some minimal knowledge of group theory and linear algebra is used in the examples.
+  (EDIT: as of August 2015, the notes are no longer available at the link above;
+  see instead [the corresponding book](http://www.maths.ed.ac.uk/~tl/bct/).
+  An online version is planned for early 2016.)
+  
+* [Analytic NT notes](http://www.math.illinois.edu/~hildebr/ant/) by AJ Hildebrand.
+  A set of lecture notes for analytic number theory, suitable for self-study.
+  A light introduction where you get to prove versions of the Prime Number Theorem and Dirichlet's Theorem.
+
+* [Algebraic Geometry](http://www.mathematik.uni-kl.de/agag/mitglieder/professoren/gathmann/notes/alggeom/) by Andreas Gathmann.
+  My preferred introduction to algebraic geometry; short but complete.
+  This was the source that finally got me to understand the concept of a ringed space.
+  It doesn't officially cover schemes, but because it covers general varieties as ringed spaces the full-fledged scheme is not much harder.
+
+* [Manifolds and Differential Forms](http://www.math.cornell.edu/~sjamaar/manifolds/) by Reyer Sjamaar.
+  My preferred introduction to differential geometry; very readable and works with minimal prerequisites.
+  Also, beautifully drawn figures.
+
+* [Harvard's CS 125: Algorithms and Complexity](http://people.seas.harvard.edu/~cs125/) has delightful lecture and section notes.
+
+Of course, see also [Napkin](napkin.html).
+
+### Olympiad Handouts
+* [Yufei Zhao's site](http://yufeizhao.com/olympiad.html) has several excellent handouts, especially in geometry.
+  I consulted many of them when I was coming up with ideas for my geometry textbook.
+  In particular, [the Cyclic Quadrilaterals handout](http://yufeizhao.com/olympiad/cyclic_quad.pdf) is especially worth reading.
+
+* [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134).
+
+* [Alexander Remorov](http://www.mit.edu/~alexrem/Math%20Competitions.html), in particular the [projective geometry handout](http://www.mit.edu/~alexrem/ProjectiveGeometry.pdf).
+
+* [Po-Shen Loh](http://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
+
+* [Olympiad NT through Challenging Problems](http://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
+  is an introductory olympiad number theory text, at a level somewhat easier than what my own number theory handouts assume.
+
+Of course, see also my [geometry book](geombook.html).
+
+### Problem Recommendations
+* [ELMO Shortlist](http://www.aops.com/community/c3430_elmo_shortlist), problems written by MOPpers.
+
+* [Romania Masters in Mathematics](http://www.aops.com/community/c3238_romanian_masters_in_mathematics) (abbreviated RMM) has several hard and elegant problems.
+
+* [Sharygin Geometry Olympiad](http://www.aops.com/community/c3372_sharygin_geometry_olympiad); I did many of the 2013 Homework Round problems and they were delightful to think about.
+
+National olympiads I often work on include USA, Canada, Brazil, Russia, Korea.  
+Team selection tests I enjoy include USA, Vietnam, Romania, Iran, and Taiwan.

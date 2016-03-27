@@ -1,0 +1,5 @@
+title: Lectures
+header: My Lectures, Talks, etc.
+---
+
+[Page moved](publications.html).

@@ -1,0 +1,206 @@
+/* 
+	v_Enhance's CSS Stylesheet
+	Theme Name: SIMPLE-53544
+	Last edited March 17, 2016
+
+	You are free to copy, modify, and distribute
+	whatever part of this you like, preferably not for profit.
+	A (CSS) comment of appreciation would be nice though,
+	especially if you copy the whole stylesheet,
+	but is not strictly necessary.
+*/
+
+
+
+body {
+    font-size: 11pt;
+    padding: 0;
+    display: block;
+    font-family: "Trebuchet MS";
+    margin: 0 auto !important;
+    float: none !important;
+    background-color: #FFFFFF; /* It's #5368C1 on KARL */
+    
+    color: #000000;
+    max-width: 1024px; /* Don't make website wide */
+}
+ul {
+    list-style: url(http://www.mit.edu/~evanchen/css/green-bullet.gif);
+}
+
+
+
+
+/*
+ * LINKS, IMAGES
+ */
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+a:visited {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:link,
+a:active {
+    color: #2188e0;
+    text-decoration: none;
+}
+h1 a:link {
+	color: #3333FF;
+}
+img {
+    border: 0 none;
+}
+
+
+
+
+/*
+ * HEADERS H1, H2, ..., H5
+ */
+
+h1 {
+    display: block;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 18pt;
+    color: #3333FF; /* Bluish, matches link color */
+}
+h2 {
+    color: #0066cc;
+    font-size: 14pt;
+    font-weight: normal;
+}
+h4,
+h5 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+
+
+
+/*
+ * ID'ed elements
+ * #header, #main, #side
+ * #navigation_box
+ */
+
+#main {
+    width: 69%;
+    padding: 5px;
+    margin: 3px;
+    float: left;
+    border: 1px solid #2E8B57;
+    margin: 3px;
+    border-radius: 11px;
+    moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    background-color: #B2FEE1; /* light green color */
+}
+
+#header {
+    background: none repeat scroll 0 0;
+    clear: both;
+    font-family: Tahoma;
+    font-size: 5em;
+    line-height: 1.5em;
+    overflow: auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin: 7px;
+    overflow: hidden;
+    background-color: #FAEBD7; /* red background */
+    
+    border-top: 5px solid #cccccc;
+    border-bottom: 5px solid #cccccc;
+    border: 3px solid #B22222;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+}
+#header h1 {
+    text-align: left;
+    font-size: 30pt;
+    position: relative;
+    top: 10px;
+    left: 3px;
+    margin: 0;
+    color: #FF6600; /* reddish, for head */
+}
+
+#side {
+    border: 1px solid #6A5ACD;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    background-color: #AFEEEE;
+    /* light blue background for side */
+    
+    float: right;
+    line-height: 1.4em;
+    margin: 3px;
+    padding: 12px;
+    width: 22%;
+}
+/* Brighten side box on hover */
+#side {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+#side:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#navigation_box {
+    margin: 7px;
+    background-color: #87CEEB;
+    border-radius: 9px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border: 2px solid #48D1CC;
+    width: 300px;
+    position: absolute;
+    left: 58%;
+    top: 70px;
+    padding: 2px 6px 3px;
+}
+
+
+
+
+
+/*
+ * ENTRY AND ENTRY WRAP
+ */
+
+div.entry {
+    border-bottom: 1px dashed #cccccc;
+    margin-top: 1em;
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+div.entry h1 {
+    padding: 0.1em;
+    margin: 0;
+}
+div.entrywrap,
+div.entrywrap-hover {
+    background-color: #dedede;
+    border: 1px solid black;
+    margin: 0.5em;
+    overflow: auto;
+    padding: 0.5em;
+    height: 99%;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: 1px solid #000000;
+}

@@ -1,0 +1,182 @@
+/*  *  *  *  *  *  *  *  *  *  *  *
+
+	header
+
+ *  *  *  *  *  *  *  *  *  *  *  */
+
+#header { 
+	font-weight: bold;
+	background-color: #99FFCC;
+}
+
+#header #h1 {
+	margin: 1.2em 1em 0.2em 1em;
+	text-align: center;
+	font-size: 1em;
+	font-variant: small-caps;
+	white-space: nowrap;
+}
+#header #h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+
+#header #sub {
+	position: absolute; 
+	margin: 0em;
+	width: 100%;
+	text-align: center;
+	padding: 0.5em 0 0.5em 0em;
+	background-color: white;
+	border-top: 1px dashed #0066CC;
+	border-bottom: 1px dashed #0066CC;
+	/* background-position: center;
+	background-image: url(imosmall.gif);
+	background-repeat: no-repeat; */
+	font-size: 1em;
+	bottom : 0px;
+}
+
+#header #sub span {
+	padding: 0 0.5em 0 0.5em;
+	letter-spacing: 0.1em
+}
+
+#header .img {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header .img img {
+	height: 1.5em;
+	width: 2.25em;
+	margin-bottom: -0.4em;
+	border: 0;
+}
+
+/*
+#header .previous, #header .next {
+	padding: 0em;
+	font-weight: bold;
+}
+*/
+
+#header .previous, #header .previous a, #header .previous a:hover {
+	color: red;
+	font-weight: normal;
+}
+
+#header .next, #header .next a, #header .next a:hover {
+	color: green;
+	font-weight: normal;
+}
+
+#header #user {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	text-align: left;
+	height: 1.2em;
+	font-size: 0.8em;
+}
+
+#header #lang {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	text-align: right;
+	height: 1.2em;
+	font-size: 0.8em;
+}
+
+#header #lang a, #header #lang a:visited
+{
+    color: #BEB761;
+    border: 1px solid #0066CC;
+    background-color: #fffacd;
+    height: 3ex;
+    width: 3ex;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+#header #lang a:hover
+{
+    color: black;
+    background-color: #ffd700;
+    text-decoration: none;
+}
+	
+#header #lang a.highlight
+{
+    color: black;
+    background-color: #f0e68c;
+    text-decoration: none;
+}
+
+#langForm 
+{	position: absolute;
+	top: 0.75em;
+	right: 0.5em;
+	text-align: right;
+	font-size: 0.8em;
+	z-index: 9; 
+}
+
+#langForm a, #langForm a:visited
+{   color: #BEB761;
+    border: 1px solid #BEB761;
+    background-color: #FFFACD;
+    padding: 2px;
+    position: relative;
+    text-decoration: none;
+}
+
+#langForm a:hover, #langForm input:hover
+{
+    color: black;
+    background-color: #ffd700;
+    text-decoration: none;
+}
+	
+#langForm a.highlight, #langForm input.highlight
+{
+    color: black;
+    background-color: #f0e68c;
+    text-decoration: none;
+}
+
+#langForm input
+{
+	font-variant: small-caps;
+	font-size: 1.1em;
+    color: #BEB761;
+    border: 1px solid #BEB761;
+    background-color: #FFFACD;
+    padding: 1px 1px;
+    text-decoration: none;
+}
+
+#logoutBtn {
+	position: absolute;
+	top: 0.75em;
+	left: 0.5em;
+	text-align: left;
+	height: 1.2em;
+	font-size: 0.8em;
+	z-index: 9; 
+}
+
+#logoutBtn input
+{
+	font-variant: small-caps;
+	font-size: 1.1em;
+    color: black;
+    border: 1px solid #BEB761;
+    background-color: #f0e68c;
+    padding: 1px 1px;
+    text-decoration: none;
+}

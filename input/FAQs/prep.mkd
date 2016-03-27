@@ -1,0 +1,102 @@
+title: Contest Prep FAQ's
+header: Contest Prep FAQ's
+---
+
+[Return to FAQ Index.](faqs.html)
+
+### How did you prepare for math contests?
+One-sentence answer: do lots of problems just above your current ability,
+and spend some of time on reflection.
+Full answer: [this blog post][wpcontest].
+
+It's worth pointing out that no one has a silver bullet:
+there's no known study method $X$ (let alone a specific handout/book)
+such that students following $X$ consistently do well on USAMO.
+(Reason: the existence of $X$ is not a
+[Nash equilbrium](http://www.scottaaronson.com/blog/?p=418).)
+There are plenty of strategies which obviously *don't* work
+like "do nothing" and "read solutions without trying any problems",
+but beyond that anything reasonable is probably fine.
+
+If you had to force me to say what I thought was the biggest predictor
+of success, I would say it is
+[whether you think about math in the shower][shower].
+That means you both enjoy your work and are working on
+things in the right difficulty range.
+
+<br>
+
+### Which books/handouts/materials did you / should I use?
+As I said it probably doesn't matter too much which ones you choose.
+I think it's useful (and more fun!) for students to decide the
+fine details of their own training, rather than
+e.g. reading a specific book "because Evan Chen used it".
+
+With that disclaimer, check [my recommendations page](recommend.html)
+if you're looking for specific resources or contests I like,
+as well as [my own handouts][articles] if you like my writing.
+These are at the olympiad level; younger students would likely benefit
+from books or classes from Art of Problem Solving, like
+[Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
+
+(On the other hand I have no objections if you
+[use a book "because Evan Chen wrote it"][ebook]!)
+
+<br>
+
+### How do I get better at Euclidean geometry?
+For general advice, see [my advice][wpgeo], [Geoff Smith's advice][geoff], etc.
+
+For specific materials, see [my own handouts][articles]
+or [Yufei Zhao's][yufei], among others.
+And of course, [my geometry textbook][geombook].
+
+<br>
+
+### Is it possible for me to go from $X$ level to $Y$ level in $Z$ time?
+I probably don't know much more than you do.
+
+Predicting improvement in math contests is a lot like trying to predict the
+stock market. We have some common sense, but no one *really*
+knows much more than that.
+
+<br>
+
+### Am I ready to do $X$ level problems, read book $Y$, etc.?
+
+The correct thing to do is just try it out (e.g.
+try some problems from a past $X$ paper, read a chapter from $Y$, etc.)
+and see how it feels.
+You all know what it feels like when something is too easy
+(think middle school math class): you feel like you're doing the problems
+for the sake of doing the problems rather than actually learning.
+You all know what it feels like when something is too hard:
+the dreaded "I have no clue what's going on".
+
+Anything not too close to either extreme is probably fine.
+If in doubt, I recommend picking whatever is most enjoyable.
+
+For what it's worth, I think most students are too conservative
+in doing harder problems. Just because you haven't qualified for USAMO yet
+doesn't mean you can't try some USAMO 1/4's!
+
+<br>
+
+### Should I read $X$ book versus $Y$ book, spend $M$ hours versus $N$ hours per week, etc.?
+My gut feeling is that the effect size of this is sufficiently small that
+(i) no one knows a definitive answer,
+(ii) the answer is likely to depend on the person, and
+(iii) it's rounding error compared to the actual final result.
+Therefore I think the correct thing to do is try both,
+see which one you like better, and just go with that, 
+[without worrying about whether it is "right"][right].
+
+[right]: http://artofproblemsolving.com/community/c5h520900
+[wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
+[wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
+[geoff]: http://people.bath.ac.uk/masgcs/geo.pdf
+[yufei]: http://yufeizhao.com/olympiad.html
+[geombook]: geombook.html
+[articles]: olympiad.html
+[shower]: http://www.paulgraham.com/top.html
+[ebook]: http://www.maa.org/ebooks/EGMO/

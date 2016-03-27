@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Evan Chen &bullet; {{ page["title"] }}</title>
+<link type="text/css" rel="stylesheet" href="css/simple-53544.css">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: 
+	{
+		inlineMath: [['$','$'], ['\\(','\\)']],
+		displayMath: [['\\[', '\\]']],
+		processEnvironments: false,
+		elements: ["main"]
+	}
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+
+<div id="navigation_box">Contact: evanchen&nbsp;at&nbsp;mit&bullet;edu</div>
+<div id="header"><h1>Evan Chen</h1></div>
+
+<div id="content">
+    <div id="side">
+    <!--%
+        mpages = [p for p in pages if "menu-position" in p]
+        mpages.sort(key=lambda p: int(p["menu-position"]))
+        for p in mpages:
+            if p["title"] == page["title"]:
+                entry = '<h3>%s</h3>'
+                print(entry % (hx(p["title"])))
+            else:
+                entry = '<h3><a href="%s">%s</a></h3>'
+                print(entry % (p["url"], hx(p["title"])))
+    %-->
+    </div>
+    <div id="main">
+        <div class="entry">
+            <h1><a href="{{page["url"]}}">{{ page["header"] }}</a></h1>
+            <div class="entrywrap">
+            {{ __content__ }}
+            </div>
+        </div>
+        <small>
+            Last modified:
+            <!--%
+                import time
+                print time.ctime()
+            %-->
+        </small>
+    </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-71669828-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

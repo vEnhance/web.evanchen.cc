@@ -1,0 +1,115 @@
+title: Olympiad
+header: Olympiad Articles
+menu-position: 20
+---
+
+Over time I've written a few handouts pertaining to olympiad math.
+Here is a list of them.
+A few are written in traditional Chinese as I was practicing my Chinese in preparation for the Taiwan TST.
+
+The [Math](http://usamo.wordpress.com/category/mathematics/) and
+[Problem Solving](http://usamo.wordpress.com/category/problem-solving/) sections
+of my personal blog might also be of interest.
+
+To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
+Because this style file evolves over time,
+your output might look a little different than the PDF's attached here.
+For files with Asymptote diagrams you will additionally
+need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
+
+*If you notice any errors, please let me know!*
+
+### Algebra and Number Theory
+* <b>The Chinese Remainder Theorem</b> {{ hlink("CRT") }}
+  An article on the Chinese Remainder "Theorem", focusing in particular on constructions.
+
+* <b>Orders Modulo a Prime</b> {{ hlink("ORPR") }}
+  Article on orders and primitive roots, in particular featuring the sum of squares lemma and its generalization
+  to arbitrary cyclotomic polynomials.
+
+### Combinatorics
+* <b>Expected Uses of Probability</b> {{ hlink("ProbabilisticMethod") }}
+  Inspired by Po-Shen Loh's talk at the 55th IMO 2014 or Problem 6.
+  Talks about expected value and the probabilistic method.
+  This article was included in
+  [Mathematical Reflections, Issue 6 of 2014](https://www.awesomemath.org/mathematical-reflections/archives/).
+
+### Geometry
+* <b>Barycentric Coordinates in Olympiad Geometry</b>
+  [(full)](http://www.mit.edu/~evanchen/handouts/bary/bary-full.pdf)
+  [(abridged)](http://www.mit.edu/~evanchen/handouts/bary/bary-short.pdf) <br>
+  One of my most famous handouts. Introduces from scratch the method of barycentric coordinates.
+  A cleaned-up version of it is found in the draft of my geometry textbook.
+
+* <b> How to Use Directed Angles</b> {{ hlink("Directed-Angles") }}
+  A short note on the use of directed angles in olympiad solutions.
+  Why didn't anyone beat me to writing this?
+
+* <b>The Incenter/Excenter Lemma</b> {{ hlink("Fact5") }}
+  A collection of problems which exhibit the first olympiad configuration I got to know well,
+  the famous "incenter/excenter lemma".
+
+* <b>Bashing Geometry with Complex Numbers</b> {{ hlink("cmplx") }}
+  Written in broken Traditional Chinese. Describes the classic method of complex numbers.  
+  [Click here for English translation](handouts/cmplx/en-cmplx.pdf).
+
+* <b>A Guessing Game: Mixtilinear Incircles</b> {{ hlink("Mixt-GeoGuessr") }}
+  A quick description of some nice properties of mixtilinear incircles.
+  Presented as a "guessing game" where one has to guess collinear points, cyclic quadrilaterals, and so on beforehand.
+
+* <b>Writing Olympiad Geometry Problems</b> {{ hlink("Writing-Oly-Geo") }}
+  For students who are interested in writing their own olympiad geometry problems!
+  Or more generally, anyone who is curious how my geometry problems get created.
+
+### Inequalities
+* <b>Lagrange Multipliers Done Correctly</b> {{ hlink("LM") }}
+  This is a description of the conditions necessary to execute a Lagrange Multipliers solution on an olympiad.
+
+* <b>SOS: A Dumbass's Perspective</b> {{ hlink("SOS_Dumbass") }}
+  Describes the SOS method for solving inequalities.
+
+* <b>Olympiad Inequalities</b> {{ hlink("Ineq") }}
+  Written in broken Traditional Chinese. Describes some "standard strategies" for handling olympiad inequalities.  
+  An [hastily translated English version](handouts/Ineq/en.pdf) of this handout is now available.
+
+### Reports and Reflections
+* <b>USAMO 2014 Contest Analysis</b> {{ hlink("USAMO2014") }}
+  This describes in detail the thought process behind each of my solutions to the USAMO 2014.
+
+* <b>IMO 2014 Journal</b> {{ hlink("IMO-2014") }}
+  This describes my experiences competing as TWN2 at the 55th IMO 2014.  
+  To download the pictures in the report, locate "media" in the source folder.
+
+* <b>Taiwan TST 2014 Reflection</b> {{ hlink("TaiwanTST") }}
+  This describes my experiences competing for a position on the Taiwan IMO 2014 team.
+  It also contains an extensive commentary on each of the Team Selection Tests and Quizzes, which together
+  covered most of the 2013 IMO Shortlist.    
+  _Note:_ [Click here for English versions of the TST problems.](http://www.aops.com/community/c41558)
+
+* <b>OMO Spring 2014 Executive Report</b> {{ hlink("OMOSpring14Report") }}
+  A short report on running the Online Math Open for Spring 2014.
+  This is mostly for the sake of those who will be running the future installments of the contest, as one of
+  us is graduating.
+
+### Miscellaneous
+* <b>Chinese Terminology Sheet</b> {{ hlink("Chinese") }}
+  These are the notes that I took when I was studying traditional Chinese in preparation
+  for the Taiwan IMO selection and training camps.
+  It is updated occasionally as I add entries (e.g. when translating HMMT contests).
+
+* <b>LaTeX Example File</b> {{ hlink("TeXSample") }}
+  A very short document which shows what a "typical" LaTeX file looks like.
+  It was written for a complete beginner.
+
+* <b>USAMO 2003 Rubric</b> [(pdf)](upload/usamo-2003-rubric.pdf) <br>
+  The grading rubric for USAMO 2003.
+
+### Upcoming
+* Hall's Marriage Lemma
+* Monsters
+* Introduction to Functional Equations
+* Irreducibility of Polynomials
+
+[evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
+[olympiad.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/olympiad.asy
+[cse5.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/cse5.asy

@@ -1,0 +1,156 @@
+#main table {
+	margin: 0.4em 0 1em 0em;
+	font-size: 100%;
+	border-collapse: collapse;
+	empty-cells: show;
+}
+
+#main caption {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	color: black;
+	font-weight: bold;
+	text-align: right;
+	margin-top: 2em;
+	margin-bottom: 0.2em;
+}
+
+#main tbody {
+	empty-cells: show;
+}
+
+#main thead {
+    display: table-header-group;
+    background-color: #eee8aa;
+}
+
+#main thead a, #main thead a:hover, #main thead a:visited {
+ /* font-weight: normal; */
+}
+
+#main tfoot a, #main tfoot a:hover, #main tfoot a:visited {
+ /* font-weight: normal; */
+}
+
+.highlightUp a, .highlightDown a:hover {
+    /* font-weight: bold !important; */
+	text-decoration: none;
+}
+
+.highlightUp a, .highlightDown a
+{
+    /* font-weight: bold !important; */
+	color: black;
+}
+
+#main tfoot {
+    display: table-footer-group;
+    background-color: #fbedb0;
+    font-weight: bold;
+    color: black;
+}
+
+#main th {
+	color: black;
+	page-break-inside: avoid;
+	padding: 0.5ex;
+	/* font-size: 110%; */
+	font-weight: bold;
+	background-color: #F9F9B5;
+    border: 1px solid #BEB761;
+}
+
+#main th.highlightUp
+{
+    background-image: url(up.gif);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#main th.highlightDown
+{
+	color: black;
+	text-decoration: none;
+    background-image: url(down.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+#main td {
+	page-break-inside: avoid;
+	padding: 0.5ex;
+	margin: 0;
+}
+
+#main tbody .imp{
+	background-color: #F9F9DA;
+}
+
+#main td {
+	border: 1px solid #BEB761;
+}
+
+#main table .noBorder {
+	border: 0;
+}
+
+#main table .noBorder td {
+	border: 0;
+	padding: 1px;
+	vertical-align: middle;
+}
+
+#main table .ralign {
+	text-align: right;
+}
+
+#main td .td-blank {
+	background-color: #FFFFF2;
+	border-left: 1px solid #FFFFF2;
+	border-right: 1px solid #FFFFF2;
+}
+
+#main table .tr-current td {
+	background-color: #E6FFD5;
+}
+
+#main table .tr-former td {
+	background-color: #F5F5F5;
+}
+
+#main table .sort {
+	color: black;
+}
+
+#main table .no-sort {
+	color: #F9F9B5;
+}
+
+#main tr .spacer, #main td .spacer {
+    border : 0px;
+}
+
+.doubleTopLine {
+	border-top: double 4px #BEB761;
+}
+
+.doubleBottomLine {
+	border-bottom: double 4px #BEB761;
+}
+
+.doubleLeftLine {
+	 border-left: double 4px #BEB761 !important;
+}
+
+.doubleRightLine {
+	border-right: double 4px #BEB761 !important;
+}
+
+.subtitle {
+	background-color: #ffff99;
+}
+
+.ssubtitle {
+	background-color: #FCFCD9;
+}
+

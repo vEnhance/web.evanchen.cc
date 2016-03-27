@@ -1,0 +1,131 @@
+title: Rarely Asked Questions
+header: Rarely Asked Questions
+---
+
+[Return to FAQ Index.](faqs.html)
+
+These are questions I've been asked only once or twice,
+but which were thought-provoking enough that I want to post them anyways.
+To give credit where credit is due,
+this idea was stolen from [Paul Graham][raq].
+
+<br>
+
+### How did/do you have so much time?
+Mostly by **cutting out activities that aren't important to me**.
+
+I feel high school students tend to focus too much on "local" changes
+(using Chrome productivity extensions, shaving time off X, etc.)
+than on "global" changes (dropping entire classes or commitments).
+It's not that local changes are bad, but you should usually
+consider global changes first before local changes (80-20 rule).
+Aggressively dropping classes and extracurriculars
+that aren't adding value to your life are good examples
+that I think people don't do enough.
+
+I took this to extreme measures in high school.
+As a senior I took a total of 2 HS classes (not AP)
+and spent on the order of 30 minutes on homework *per week*;
+as a result I had enough time to do math, write a geometry textbook,
+take graduate math classes, learn to play
+[this piece](https://www.youtube.com/watch?v=Pi8xsZXibIc),
+sleep, AND play StarCraft.
+While I don't encourage everyone to do this, I think it illustrates my point.
+
+In general, I think most people don't spend time thinking
+about exactly what's important to them; this is understandable,
+since it's an error of omission, and so you make such errors by default.
+It's especially bad in high school because high school gives
+you a very clear path of "this is what you should do"
+by having you go to class every weekday until 3PM,
+then assigning you the homework to do at home,
+and giving you letters of the alphabet which amount to obedience scores.
+But **high school is rarely optimized for the top students
+(even at magnet schools)**, which is why I had the guts to tear up my
+entire default schedule and replace it with the things I mentioned before.
+
+For those of you who were at Math Prize 2015,
+Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
+[which you can watch here, 49:30 -- 55:30][vxia].
+
+[See here for more discussion][aopstime].
+
+<br>
+
+### What's the most important thing that math contests taught you?
+
+In my opinion, one of the most damaging messages I got during high school
+is that hard work pays off. This is not true, and one of the most important
+life skills that math contests taught me were 
+**how to work hard even being fully aware that I might never "succeed"**.
+
+In school there's a mentality that teachers should reward "good effort",
+i.e. if a student tried their best, they should get a grade of A.
+By extension: "if you work hard in life, you will succeed".
+This turns out to be quite far from the truth.
+Math contests teach you this lesson much better:
+you can love the subject, work harder than everyone else,
+do everything right, and still not win the USAMO:
+that's what makes it worth doing.
+**Statistically, almost no one wins the USAMO,
+and that's why winning (or "losing") the USAMO is a meaningful experience**.
+
+To quote [Paul Graham](http://www.paulgraham.com/hs.html):
+> Hard means worry:
+> if you're not worrying that something you're making will come out badly,
+> or that you won't be able to understand something you're studying,
+> then it isn't hard enough. There has to be suspense.
+> 
+> You don't see faces much happier than people winning gold medals.
+> And you know why they're so happy? Relief.
+
+**This is why I think of high school (and college) as "fake"
+while I think of math contests as "real".**
+Anyone can work hard if reward is certain,
+but in real life this is simply not the case.
+
+With all that being said, I am obliged to add on that the other
+huge thing that contests did for me was provide me access to one
+of the best peer groups out there. Most of the friends that I have
+today came in some way or other from the math contest circuit,
+even though many of them will certainly not be doing math as a career.
+(This doesn't technically relate to the question because it's not something
+I was "taught", but it would have been dishonest of me to omit it;
+the social aspect of contests was huge for me.)
+
+<br>
+
+### How do you stay motivated and work hard knowing you might fail?
+
+I would have worked on math contests even if there was no USAMO
+for me to do well on. Proof: I'm currently a college student and
+I *still* work on contest problems in my spare time. 
+
+Therefore, my advice is to **worry about the outcome as little as you can
+get away with**.  You should probably put some planning into the final result
+rather than being totally aimless, but it's quite easy to overdo this;
+too often it becomes [type-B procrastination][procrastinate].
+This is why it's so important in anything to enjoy the process itself: 
+time spent thinking about the final result is time spent not working towards it.
+
+This is even true *during* the USAMO, for example.
+You can't afford to spend much of that time worrying about your score.
+It's true that score considerations can be helpful to some extent (for example,
+know to cut your losses on Problem 2 and move on to Problem 3).
+But it's quite common to see students who are so nervous about their score that
+they end up underperforming. This is clearly a losing situation.
+
+<br>
+
+### Would it help to have a tutor/mentor for olympiad math?
+
+It's interesting that this is an RAQ, while "can you tutor my child?" is an FAQ.
+
+Short answer: yes, but not in the ways people often expect.
+Long answer: [this blog post][tutor].
+
+[raq]: http://paulgraham.com/raq.html
+[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+[vxia]: http://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
+[aopstime]: http://www.artofproblemsolving.com/community/c5h1147943p5421541
+[procrastinate]: http://paulgraham.com/procrastination.html

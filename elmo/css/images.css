@@ -1,0 +1,97 @@
+.photo {
+	width: 20em;
+	height: 138px;
+	float: left;
+	padding: 6px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	background-color: #FCFCD9;
+	border: 1px solid #BEB761;
+}
+
+.contestant
+{
+    background-color: #f0ffcb;
+}
+    
+.photo div {
+	/*xwidth: 9em;*/
+	text-align: center;
+	float: left;
+	margin-right: 8px;
+}
+
+.photo img {
+	border: 1px solid #BEB761;
+}
+
+.photo p {
+	padding: 0px;
+	margin : 0.5em 0px;
+}
+
+.pphoto 
+{
+    position: absolute; 
+    right: 0;
+	padding: 0.5em;
+	margin-right: 2em;
+	background-color: #FCFCD9;
+	border: 1px solid #BEB761;
+}
+
+.pphoto img {
+	border: 1px solid #BEB761;
+	display : block;
+}
+
+.host-logo {
+    position: absolute; 
+	right: 1.5em;
+	top: 1.5em;
+	margin: 0;
+	background-color: white;
+	border: 1px solid #BEB761;
+}
+
+.host-logo img {
+	padding: 0.5em;
+	display : block;
+}
+
+.flag {
+	position: absolute;
+	right: 1.5em;
+	top: 1.5em;
+	margin: 0;
+	background-color: #FFFFF2;
+	padding: 0px;
+}
+
+.flag img {
+	border: none;
+	display : block;
+}
+
+.tphoto {
+	text-align: center;
+	float: left;
+        min-width: 150px; 
+        max-width: 175px; 
+	min-height: 195px;
+	max-height: 215px;
+	overflow: visible;
+	margin: 0 5px 5px 0; 
+	padding: 3px;
+	background-color: #FCFCD9;
+	border: 1px solid #BEB761;
+}
+
+.tphoto img { 
+  height: 135px; 
+  display: block;	
+  margin: auto;
+  margin-bottom: -8px;
+  padding: 0;
+  border : 1px solid #BEB761;
+}

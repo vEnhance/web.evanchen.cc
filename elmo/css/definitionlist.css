@@ -1,0 +1,35 @@
+﻿dl .normal
+{
+margin: 1em 0;
+padding: 0;
+}
+
+.normal dt
+{
+font-variant: small-caps; 
+margin: 1em 0em 0em 0em;
+font-weight: bold;
+}
+
+.normal dd
+{
+padding: .1em 0em .25em 0em;
+}
+
+dl .condensed
+{
+margin: 0.5em 0;
+padding: 0;
+}
+
+.condensed dt
+{
+font-variant: small-caps; 
+margin: 0.25em 0em 0em 0em;
+font-weight: bold;
+}
+
+.condensed dd
+{
+padding: .1em 0em .25em 0em;
+}

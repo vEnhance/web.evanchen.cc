@@ -1,0 +1,141 @@
+/*  *  *  *  *  *  *  *  *  *  *  *
+
+	main
+
+ *  *  *  *  *  *  *  *  *  *  *  */
+
+#main 
+{
+	padding: 0em 2em 2em 1em;
+}
+
+#main #content 
+{
+	position: relative;
+	top: 1em; 
+	overflow: hidden;
+}
+
+.pointer 
+{
+	text-decoration: none;
+}
+
+a.pointer:hover 
+{
+	text-decoration: none;
+}
+
+.small 
+{
+	font-size: 0.85em;
+}
+
+#main *[type="submit"] 
+{
+	color: black;
+	border: 1px solid #9F998E;
+	background-color: #D4D0C8;
+}
+
+.female 
+{
+	color: Maroon;
+}
+
+.male {
+	color: Navy;
+}
+
+.gold 
+{
+   color: #ffcc00;
+}
+   
+.silver 
+{ 
+   color: #cccccc; 
+}
+   
+.bronze
+{
+    color: #cc9966;
+}
+
+.hm
+{
+    color: #ff3399;
+}
+
+.showprnI
+{ 
+    display: none ;  
+}    
+
+.hideprnI
+{ 
+    display: inline ;
+}
+   
+.pbbPrint 
+{
+    page-break-before: auto;  
+}  
+
+.cmd 
+{   background-color : black;
+    color : white;
+    font-family: monospace;
+    font-weight : bold;
+    padding : 0.5ex;
+}
+
+.gfloat
+{   font-size: 0.8em; 
+    position: absolute; 
+    top: 8; 
+    left: 8;
+    z-index: 200; 
+    padding: 8px; 
+    background-color: white; 
+    border: 0;
+}
+
+.inprogress
+{
+    background-color: red;
+    color: White;
+}
+
+.inprogress a {color: white;}
+
+.calling
+{
+    background-color: #FFFF00;  
+}
+
+.completed
+{
+  background-color  : #00FF00;
+}
+
+.rescheduling
+{
+  background-color  : #00FFFF;
+}
+
+.rescheduled
+{
+  background-color  : #CCCCCC;
+  text-decoration: blink;
+}
+
+.verified
+{
+  background-color  : #32CD32;
+}
+
+.stored
+{
+  background-color  : #FF00FF;
+}

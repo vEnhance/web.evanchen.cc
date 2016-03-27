@@ -1,0 +1,136 @@
+/*  *  *  *  *  *  *  *  *  *  *  *
+
+	tags
+
+ *  *  *  *  *  *  *  *  *  *  *  */
+
+body {
+	font-size: 13px;
+	font-family: verdana, sans-serif;
+	background-color: #FFFFF2;
+}
+
+h1 {
+	margin: 0em;
+	font-size: 1.7em;
+	font-variant: small-caps;
+}
+
+h2 {
+	font-variant: small-caps;
+	font-size: 1.5em;
+	color: green;
+	padding: 0px;
+	margin: 0.5em 0 0.5em 0;
+	clear: both;
+}
+
+h2 a {
+    font-weight: normal; 
+	color: green;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+h2 a.highlight 
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h3 {
+	font-variant: small-caps;
+	font-size: 1.3em;
+	color: green;
+	text-align: left;
+	margin: 0.5em 0em 0.5em 0em; 
+	clear: both;
+}
+
+h3 a {
+    font-weight:normal; 
+	color: green;
+	text-decoration: none;
+}
+
+h3 a:hover {
+	text-decoration: underline;
+}
+
+h3 a.highlight {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h4 {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	color: black;
+	font-weight: bold;
+	margin-top: 2em;
+	margin-bottom: 0.2em;
+}
+
+form {
+	margin: 0em;
+	padding: 0em;
+}
+
+select {
+	margin: 0em;
+	border: 1px solid #BEB761;
+	font-size: 0.9em;
+}
+
+input {
+	border: 1px solid #BEB761;
+	color: #0F3678;
+	text-decoration: none;
+}
+
+.btnSubmit {border: 1px solid #9F998E; font-size: 95%; cursor: pointer; background: #D4D0C8; padding: 0px 5px; overflow: visible; color: black}
+.inptText {border: 1px solid #BEB761; font-size: 95%;color: black}
+
+textarea:focus {background-color: #FFFF8B;}
+input[type="text"]:focus {background-color: #FFFF8B;}
+input[type="password"]:focus {background-color: #FFFF8B;}
+input[type="radio"] {border:none;}
+input[type="checkbox"] {border:none;}
+
+select[disabled="disabled"] { color:black; background-color:#FFFFE0;}
+select .disabled { color:black; background-color:#FFFFF2;}
+
+input[disabled="disabled"] { color:black; background-color:#FFFFE0;}
+input .disabled { color:black; background-color:#FFFFE0;}
+
+.noDisplay { display:none; }
+ 
+a {
+	color: #0F3678;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+a:active {
+	color: green;
+}
+
+hr {
+	border: 0;
+	color: #BEB761;
+	background-color: #BEB761;
+	height: 1px;
+	clear: both;
+}
+
+a img
+{
+	border:none 
+}

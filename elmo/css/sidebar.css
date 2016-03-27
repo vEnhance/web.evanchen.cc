@@ -1,0 +1,54 @@
+/*  *  *  *  *  *  *  *  *  *  *  *
+
+	sidebar
+
+ *  *  *  *  *  *  *  *  *  *  *  */
+
+#sidebar ul {
+	list-style-type: none;
+ /* width: 9em; */
+	margin: 1em 0 0 0;
+	padding: 1.5ex;
+	position: absolute;
+	top: 0;
+	clear: left;
+	z-index:4;
+	background-color: #FCFCD9;
+ /* background-position: bottom right;
+	background-repeat: no-repeat;
+	background-image: url(sidebar.gif); */
+	border-top: 1em solid #F9F9B5;
+}
+
+* html #sidebar ul {
+	top: 6em;
+}
+
+
+#sidebar ul a {
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+#sidebar ul a.highlight {
+	color: black;
+	font-weight: bold;
+}
+
+#sidebar ul a.highlight:hover {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+#sidebar ul li a:hover, #sidebar ul li a:active {
+	color: green;
+	text-decoration: underline;
+}
+
+#sidebar ul li {
+	margin: 0;
+	padding: 0.5ex 0 0.5ex 1.75ex;
+	text-indent: -2ex;
+	display: block;
+}

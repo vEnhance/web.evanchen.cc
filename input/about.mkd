@@ -1,0 +1,52 @@
+title: About / CV
+header: About / CV
+menu-position: 10
+---
+
+I am an undergraduate at MIT, majoring in mathematics. My expected graduation date is 2018.
+
+Here's a [**link to a two-page CV**](static/public-resume.pdf), minus my phone number and address.
+
+### Research Papers
+See the second section of my [publications page](publications.html).
+
+
+### Trivia
++ Favorite olympiad subject: Geometry
++ Favorite triangle center: Symmedian point
++ Favorite circle: $A$-mixtilinear incircle
++ Favorite color: Aqua green
++ Preferred Linux distribution: Arch Linux
++ TeX distribution: TeX Live
++ Editor: Vim
++ Window manager: i3
++ Favorite integer: 0
++ Digits of Pi known: About 220
++ Favorite card game: Canadian Fish
+
+Link to [Dotfiles on GitHub](https://github.com/vEnhance/dotfiles),
+for the other Linux users reading this.
+
+
+### Math Contest History
+During my time as a high school student, I participated extensively on mathematical olympiads.
+I was a USAMO winner in 2014 (score 41) and earned a gold medal as _TWN2_
+at the 55th IMO 2014 in Cape Town, South Africa.
+I also attended the 30th Research Science Institute in 2013.
+
+<img src="http://mathcircle.berkeley.edu/images/EvanChen_USAMO.jpg" height="250">
+
+Here is how much scratch paper I used for contest preparation over my four years of high school.
+
+<img src="http://www.mit.edu/~evanchen/static/scratch.jpg" height="500">
+
+The medal on the left is the USAMO winner medal; the medal on the right is the IMO gold medal.
+
+My performance on the olympiads over the years:
+
++ JMO 2010: 37
++ JMO 2011: 29
++ USAMO 2012: 21
++ USAMO 2013: 8
++ USAMO 2014: 41
++ IMO 2014: 36

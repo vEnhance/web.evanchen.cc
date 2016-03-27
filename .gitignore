@@ -1,0 +1,6 @@
+output/
+poole/*
+
+elmo/**/*.html
+**/*.pyc
+old_page.html

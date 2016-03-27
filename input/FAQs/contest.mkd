@@ -1,0 +1,180 @@
+title: Math Contest FAQ's
+header: Math Contest FAQ's
+---
+
+[Return to FAQ Index.](faqs.html)
+
+### How do I get better at math contests?
+One-sentence answer: do lots of problems just above your current ability,
+and spend some of time on reflection.
+Full answer: [this blog post][wpcontest].
+
+If you had to force me to say what I thought was the biggest predictor
+of success, I would say it is
+[whether you think about math in the shower][shower].
+That means you both enjoy your work and are working on
+things in the right difficulty range.
+
+For even more on this topic: [see the whole contest prep FAQ](FAQs/prep.html).
+
+<br>
+
+### How much time did you spend on math preparation?
+I never kept track because the number wasn't important to me,
+but a very rough guess is perhaps 10 to 20 hours a week,
+with a large standard deviation (because I only practiced when I felt like it).
+In practice the number might have been a lot higher,
+because I would often think about math in passing
+(while walking between classes, sitting on the bus, etc.).
+It's harder to quantify how much or how effective this kind of time is
+but [the "shower" time certainly seems quite important][shower].
+
+(EDIT: used to say 20-30 hours, this seems too high now.)
+
+<br>
+
+### Can you solve X problem for me?
+Probably not.
+If you send me a problem, usually I will at least read it.
+If I have seen it before or can quickly see how to do it,
+I will generally be nice enough to write back and outline the solution.
+But otherwise I will likely be too embarrassed to admit I don't have time to
+work on every problem that students send me, and simply archive your message.
+
+<br>
+
+### When is your geometry book coming out?
+
+The [ebook is available for purchase now][ebook].
+Information on hard copies forthcoming
+(it has been sent to the printer already,
+not sure when it'll actually be available for purchase).
+
+<br>
+
+### How is USAMO / IMO graded?
+
+Don't take my word for it:
+try reading the [USAMO 2003 rubric][usa2003].
+
+In general, for each problem the solution is graded according to the rubric:
+
++ **7**: Problem was solved.
++ 6: Tiny slip (and contestant could repair)
++ 5: Small gap or mistake, but non-central
++ 2: Lots of genuine progress
++ **1**: Significant non-trivial progress
++ **0**: "Busy work", special cases, lots of writing
+
+The "default" scores are bolded above.
+Note that
+
++ There is a clear distinction between success/failure,
+  and the scores 3, 4 are absent (they are awarded rarely,
+  most usually in two-part problems).
++ There is no style: a correct solution receives 7 points.
+  However, it is still in your best interest to write a solution
+  clearly to minimize the chance the grader doesn't understand you.
++ It is hard to earn partial credits with incomplete solutions
+  and easy to earn full credit for complete solutions.
+  In particular, 0 is the most common score for non-complete solutions.
+
+The grading procedure itself is also different for USAMO / IMO.
+At the USAMO, we grade each paper twice before assigning a score,
+then re-grade approximately the top 25% of papers again.
+At the IMO, a process called coordination is used
+in which team leaders defend their contestant's solutions to coordinators.
+
+<br>
+
+### How did you compete on the Taiwan IMO team?
+
+I live in the United States, but am also a citizen of Taiwan,
+where both my parents are from.
+So in the spring of 2014,
+I flew back to Taiwan to participate in the IMO selection process
+rather than going to my high school classes.
+
+<br>
+
+### How do I make fewer careless errors?
+
+There's a nice [article on AoPS][mistakes] that addresses most of
+what I have to say. Here are just a few additional remarks.
+
+We're not kidding when we say to be neat:
+it really is hard to think if your scratch paper is a bunch of clutter.
+To get an idea of what my scratch work looks like,
+[here is my scratch paper from the 2013 AIME][aimescratch].
+Some things worth noting from it are:
+
+* Every problem is labelled on its own page (or multiple pages).
+* Diagrams are very large, often taking up half the page.
+* Mistakes are simply "struck out" rather than scribbled
+  out or halfheartedly erased.
+* The final answer on each page is boxed for easy reference later.
+
+Also, don't misread questions, don't rush, etc.
+
+Anyways, I admit there's not always a whole lot you can do about it.
+2013 was the first year where I was able to look at a problem
+and basically know how to do it within one or two minutes;
+this left me a lot of time for computation,
+and consequently I made very few errors as compared to 2011 or 2012.
+In other words, as you get better at problem-solving
+you'll naturally become less likely to make careless errors as well.
+(At least that's how it turned out for me.)
+
+<br>
+
+### How do I learn to write proofs?
+I don't think there's actually a leap between computation and proof-writing, and
+I actually suspect that thinking proof-writing is hard is most of what makes it hard.
+Reasons it might appear hard
+
+* US students get basically zero exposure to proofs (even in the contest world),
+  and are led to think that it's something mythical that's above them,
+  when in fact it's merely just being forced to explain your solution on paper.
+* Having zero experience also means that you might not present your ideas clearly
+  or violate some unspoken rules on style.
+* Some classes of problems (like inequalities) don't appear at all until the
+  olympiad level, so students have to learn how to write a proof (fairly easy)
+  while simultaneously learning a new class of problems (hard).
+
+To get you started, try reading [this article][aopswrite], or perhaps [this article][howproof].
+After this, my advice is
+1. Read the proofs to problems you think you've solved (on AoPS, or official solutions).
+   Note that these don't have to be from proof contests!
+   The official solutions to any decent contest would all pass as proofs.
+2. Try writing up proofs to problems you think you've solved, and
+3. Get feedback on these solutions (from a mentor, on the forums, etc.).
+
+The [USA Mathematical Talent Search][usamts] is also another good option.
+It is a free mathematics competition open to all United States middle and high school students,
+which gives you about one month to produce full solutions to a set of five problems.
+
+<br>
+
+### Are you available to tutor my child in math contests?
+I'm flattered that this made it onto the FAQ.
+There's only one of me, so I usually don't have room,
+but you are welcome to ask me (by email); you might get lucky.
+
+I generally teach at the level of olympiads, i.e. students who
+can usually score 10+ on the AIME,
+are comfortable with reading/writing proofs,
+and are hoping to make progress on USA(J)MO.
+
+If interested, you should first read [this blog post of mine first][tutor],
+where I talk about some of philosophy for tutoring.
+
+[wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
+[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+[aopswrite]: http://artofproblemsolving.com/articles/how-to-write-solution
+[howproof]: http://zimmer.csufresno.edu/~larryc/proofs/proofs.html
+[usamts]: http://usamts.org/index.php
+[shower]: http://www.paulgraham.com/top.html
+[mistakes]: http://www.artofproblemsolving.com/articles/stupid-mistakes
+[aimescratch]: static/AIME-2013-scratch.pdf
+[usa2003]: upload/usamo-2003-rubric.pdf
+[ebook]: http://www.maa.org/ebooks/EGMO

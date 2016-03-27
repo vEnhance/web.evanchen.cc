@@ -1,0 +1,127 @@
+title: Napkin
+header: The Napkin Project
+---
+
+## Project Status
+The project is currently *nowhere* near done; however, since I have no intention
+of publishing these notes in any binding way,
+<span style="color:red;">*I am happy to send preview copies of the current draft
+upon an email request.*</span> (Requests may take a few days to process.)
+
+## Description
+The Napkin project is a personal exposition project of mine
+aimed at making higher math accessible to high school students.
+The philosophy is stated in the preamble:
+
+> I'll be eating a quick lunch with some friends of mine who are still in high school.
+> They'll ask me what I've been up to the last few weeks, and I'll tell them that I've been learning category theory.
+> They'll ask me what category theory is about.
+> I tell them it's about abstracting things by looking at just the structure-preserving morphisms between them, rather than the objects themselves.
+> I'll try to give them the standard example Gp, but then I'll realize that they don't know what a homomorphism is.
+> So then I'll start trying to explain what a homomorphism is, but then I'll remember that they haven't learned what a group is.
+> So then I'll start trying to explain what a group is, but by the time I finish writing the group axioms on my napkin, they've already forgotten why I was talking about groups in the first place.
+> And then it's 1PM, people need to go places, and I can't help but think:
+>
+> *<span style="color:red;">Man, if I had forty hours instead of forty minutes, I bet I could actually have explained this all.</span>*
+>
+> This book is my attempt at those forty hours.
+
+This project has evolved to more than just forty hours.
+Each chapter takes about 10-15 hours to produce, so there are some limits
+to how much bigger this can grow, but I really look forward to the finished product.
+
+## A Few Sample Chapters
+Here are a few excerpts from the November 26 draft
+(the chapter numbers have changed since then).
+They may contain typos and mistakes, and could change dramatically in later editions.
+For preview copies of the entire draft, email me at the address above.
+
++ [Chapter on holomorphic functions](papers/napkin-sample-holomorphic.pdf),
++ [Chapter on the Frobenius endomorphism](papers/napkin-sample-frob.pdf),
++ [Chapter on forcing](papers/napkin-sample-force.pdf).
+
+## Current Table of Contents.
+Last updated November 2015.
+Note that about 10 of the chapters are still too be written.
+
+#### I. Basic Algebra and Topology
++ Chapter 1. What is a Group? 
++ Chapter 2. What is a Space? 
++ Chapter 3. Homomorphisms and Quotient Groups 
++ Chapter 4. Topological Notions 
++ Chapter 5. Compactness 
+#### II. Linear Algebra and Multivariable Calculus 
++ Chapter 6. What is a Vector Space? 
++ Chapter 7. Trace and Determinant 
++ Chapter 8. Spectral Theory 
++ Chapter 9. Inner Product Spaces 
+#### III. Groups, Rings, and More 
++ Chapter 10. Group Actions Overkill AIME Problems 
++ Chapter 11. Find All Groups 
++ Chapter 12. Rings and Ideals 
++ Chapter 13. The PID Structure Theorem 
+#### IV. Complex Analysis 
++ Chapter 14. Holomorphic Functions 
++ Chapter 15. Meromorphic Functions 
++ Chapter 16. Holomorphic Square Roots and Logarithms 
+#### V. Quantum Algorithms
++ Chapter 17. Quantum states and measurements
++ Chapter 18. Quantum circuits
++ Chapter 19. Shor's algorithm
+#### VI. Algebraic Topology I: Homotopy 
++ Chapter 20. Some Topological Constructions 
++ Chapter 21. Fundamental Groups 
++ Chapter 22. Covering Projections 
+#### VII. Category Theory 
++ Chapter 23. Objects and Morphisms 
++ Chapter 24. Functors and Natural Transformations 
++ Chapter 25. Abelian Categories 
+#### VIII. Differential Geometry
++ Chapter 26. Multivariable Calculus Done Correctly 
++ Chapter 27. Differential Forms 
++ Chapter 28. Integrating Differential Forms 
++ Chapter 29. A Bit of Manifolds
+#### IX. Algebraic Topology II: Homology 
++ Chapter 30. Singular Homology 
++ Chapter 31. The Long Exact Sequence 
++ Chapter 32. More on Computing Homology Groups 
++ Chapter 33. Bonus: Cellular Homology
++ Chapter 34. Singular Cohomology
++ Chapter 35. Applications of Cohomology
+#### X. Algebraic NT I: Rings of Integers 
++ Chapter 36. Algebraic Integers 
++ Chapter 37. Unique Factorization (Finally!) 
++ Chapter 38. Minkowski Bound and Class Groups 
++ Chapter 39. More Properties of the Discriminant 
++ Chapter 40. Bonus: Let's Solve Pell's Equation! 
+#### XI. Algebraic NT II: Galois and Ramification Theory 
++ Chapter 41. Things Galois 
++ Chapter 42. Finite Fields 
++ Chapter 43. Ramification Theory 
++ Chapter 44. The Frobenius Endomorphism 
+#### XII. Representation Theory
++ Chapter 45. Representations of Algebras
++ Chapter 46. Semisimple Algebras
++ Chapter 47. Characters
++ Chapter 48. Some Applications
+#### XIII. Algebraic Geometry I: Varieties 
++ Chapter 49. Affine Varieties 
++ Chapter 50. Affine Varieties as Ringed Spaces
++ Chapter 51. Projective Varieties 
++ Chapter 52. Bonus: Bezout's Theorem
++ Chapter 53. Quasi-Projective Varieties
+#### XIV. Algebraic Geometry II: Schemes 
++ Chapter 54. Sheaves and Ringed Spaces
++ Chapter 55. Schemes
++ Chapter 56. More on Sheaves
++ Chapter 57. Divisors and Line Bundles
++ Chapter 60. Shor's Algorithm
+#### XV. Set Theory I: ZFC, Ordinals, and Cardinals 
++ Chapter 58. Bonus: Zorn's Lemma and Cauchy's Functional Equation
++ Chapter 59. Zermelo-Frankel with Choice 
++ Chapter 60. Ordinals 
++ Chapter 61. Cardinals 
+#### XVI. Set Theory II: Model Theory and Forcing 
++ Chapter 62. Inner Model Theory 
++ Chapter 63. Forcing 
++ Chapter 64. Breaking the Continuum Hypothesis 
