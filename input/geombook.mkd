@@ -2,10 +2,25 @@ title: Geometry
 header: Euclidean Geometry in Mathematical Olympiads
 ---
 
-**A [PDF version][ebook] of the book is available now!**
+<span style="float:left;padding:10px;">
+[![Book cover][cover]][ebook]
+</span>
+
+<span style="color:red; font-size: 120%;">
+**You can download the [PDF version][ebook] now!**
+</span>
+
 Information on hard copies forthcoming.
 
-![Book cover][cover] 
+This is a problem-solving book in Euclidean geometry.
+It was written for competitive students who are preparing for national
+or international mathematical olympiads.
+However it has no prerequisites other than a good deal of courage:
+any student who is interested in the subject matter
+should be able to follow the exposition.
+
+The book contains a selection of about 300 problems from around the world
+and is accompanied by about 250 figures.
 
 ### Errata
 
