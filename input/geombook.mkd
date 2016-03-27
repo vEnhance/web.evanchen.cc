@@ -12,8 +12,8 @@ header: Euclidean Geometry in Mathematical Olympiads
 
 Information on hard copies forthcoming.
 
-This is a problem-solving book in Euclidean geometry.
-It was written for competitive students who are preparing for national
+This is a comprehensive problem-solving book in Euclidean geometry.
+It was written for competitive students who are training for national
 or international mathematical olympiads.
 However it has no prerequisites other than a good deal of courage:
 any student who is interested in the subject matter
@@ -22,18 +22,21 @@ should be able to follow the exposition.
 The book contains a selection of about 300 problems from around the world
 and is accompanied by about 250 figures.
 
-### Errata
+### Errata (Exercise 11.0)
 
 Here are all the mistakes that I am aware of.
 If you find another one, please let me know by email.
 
-+ On page 34, in the solution to example 2.21, the phrase
-  "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$"
-  should be "we already know that lines $PQ$, $RS$, and $XY$ concur at a point".
++ On page 34, in the solution to example 2.21, in the line
+  "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$",
+  the extraneous "that" and "$X$" should both be deleted.
 + On page 133, in Proposition 7.21, the last displayed equation should have
   $S_A$ in place of $S_a$.
 + On page 174 and 175, in the names of Lemmas 9.11 and 9.12,
   the word "Induces" should instead be "Induce".
++ On page 216, immediately before last displayed equation:
+  "third column from the first" should be "third column from the *second*".
+  
 
 ### Table of Contents
 Here is the most recent table of contents.
