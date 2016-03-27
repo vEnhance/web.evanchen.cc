@@ -10,6 +10,9 @@ A few are written in traditional Chinese as I was practicing my Chinese in prepa
 The [Math](http://usamo.wordpress.com/category/mathematics/) and
 [Problem Solving](http://usamo.wordpress.com/category/problem-solving/) sections
 of my personal blog might also be of interest.
+See also [Recommendations](recommend.html) for other authors I like,
+as well as my [geometry book](geombook.html) for a
+comprehensive textbook in Euclidean geometry.
 
 To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 Because this style file evolves over time,

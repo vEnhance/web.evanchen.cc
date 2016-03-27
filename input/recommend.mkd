@@ -47,7 +47,7 @@ Of course, see also [Napkin](napkin.html).
 * [Olympiad NT through Challenging Problems](http://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
   is an introductory olympiad number theory text, at a level somewhat easier than what my own number theory handouts assume.
 
-Of course, see also my [geometry book](geombook.html).
+Of course, see also my [own handouts](olympiad.html) and my [geometry textbook](geombook.html).
 
 ### Problem Recommendations
 * [ELMO Shortlist](http://www.aops.com/community/c3430_elmo_shortlist), problems written by MOPpers.
