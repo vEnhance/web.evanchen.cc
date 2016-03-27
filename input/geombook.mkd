@@ -1,4 +1,5 @@
-title: Geometry
+title: Geometry Book
+menu-position: 300
 header: Euclidean Geometry in Mathematical Olympiads
 ---
 
