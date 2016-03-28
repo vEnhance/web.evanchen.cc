@@ -23,22 +23,26 @@ should be able to follow the exposition.
 The book contains a selection of about 300 problems from around the world
 and is accompanied by about 250 figures.
 
-### Errata (aka Solutions to Problem 11.0)
+### Errata (aka selected solutions to Problem 11.0)
 
 Here are all the mistakes that I am aware of.
 If you find another one, please let me know by email.
 
-+ On page 34, in the solution to example 2.21, in the line
+<small>
+
++ On **page 34**, in solution to Example 2.21, in
   "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$",
   the extraneous "that" and "$X$" should both be deleted.
-+ On page 133, in Proposition 7.21, the last displayed equation should have
-  $S_A$ in place of $S_a$.
-+ On page 174 and 175, in the names of Lemmas 9.11 and 9.12,
-  the word "Induces" should instead be "Induce".
-+ On page 216, immediately before last displayed equation:
-  "third column from the first" should be "third column from the *second*".
-+ In Hint 185, replace "$\angle WXY = 40^{\circ}$" with "$\angle XZY = 40^{\circ}$".
-  
++ On **page 133**, Proposition 7.21, last display, change
+  $S_a$ to $S_A$.
++ On **pages 174-175**, in names of Lemmas 9.11-9.12,
+  change "Induces" to "Induce".
++ On **page 216** in phrase "third column from the first column",
+  change "first" to "second".
++ On **page 226**, hint 185, replace "$\angle WXY = 40^{\circ}$"
+  with "$\angle XZY = 40^{\circ}$".
+
+</small>
 
 ### Table of Contents
 Here is the most recent table of contents.
