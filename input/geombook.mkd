@@ -30,9 +30,12 @@ If you find another one, please let me know by email.
 
 <small>
 
++ On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
++ On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCD=90^{\circ}$".
 + On **page 34**, in solution to Example 2.21, in
   "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$",
   the extraneous "that" and "$X$" should both be deleted.
++ On **page 35**, in the second set of aligned equations, change $O\_2X^2$ to $OO\_2^2$.
 + On **page 133**, Proposition 7.21, last display, change
   $S_a$ to $S_A$.
 + On **pages 174-175**, in names of Lemmas 9.11-9.12,
@@ -41,6 +44,8 @@ If you find another one, please let me know by email.
   change "first" to "second".
 + On **page 226**, hint 185, replace "$\angle WXY = 40^{\circ}$"
   with "$\angle XZY = 40^{\circ}$".
++ On **page 231**, hint 373, replace "$90^{\circ}-A$"
+  with "$90^{\circ}-B$".
 
 </small>
 
