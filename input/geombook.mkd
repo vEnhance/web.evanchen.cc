@@ -36,6 +36,8 @@ If you find another one, please let me know by email.
   "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$",
   the extraneous "that" and "$X$" should both be deleted.
 + On **page 35**, in the second set of aligned equations, change $O\_2X^2$ to $OO\_2^2$.
++ On **page 101**, in the proof of Example 6.10, Lemma 6.3 should be Lemma 6.5.
++ On **page 113**, in the definition of $M\_2$, change $DH\_A$ to $AH\_A$.
 + On **page 133**, Proposition 7.21, last display, change
   $S_a$ to $S_A$.
 + On **pages 174-175**, in names of Lemmas 9.11-9.12,
