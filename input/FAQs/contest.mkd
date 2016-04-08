@@ -4,10 +4,19 @@ header: Math Contest FAQ's
 
 [Return to FAQ Index.](faqs.html)
 
-### How do I get better at math contests?
+### How should I prepare for math contests?
 One-sentence answer: do lots of problems just above your current ability,
 and spend some of time on reflection.
 Full answer: [this blog post][wpcontest].
+
+It's worth pointing out that no one has a silver bullet:
+there's no known study method $X$ (let alone a specific handout/book)
+such that students following $X$ consistently do well on USAMO.
+(Reason: the existence of $X$ is not a
+[Nash equilibrium](http://www.scottaaronson.com/blog/?p=418).)
+There are plenty of strategies which obviously *don't* work
+like "do nothing" and "read solutions without trying any problems",
+but beyond that anything reasonable is probably fine.
 
 If you had to force me to say what I thought was the biggest predictor
 of success, I would say it is
@@ -15,42 +24,130 @@ of success, I would say it is
 That means you both enjoy your work and are working on
 things in the right difficulty range.
 
-For even more on this topic: [see the whole contest prep FAQ](FAQs/prep.html).
+<br>
+
+### Which books/handouts/materials should I use?
+As I said it probably doesn't matter too much which ones you choose,
+as long as you exercise some basic common sense.
+
+With that disclaimer, possible suggestions:
+try [my recommendations page](recommend.html),
+[my own handouts][articles] or my [geometyr textbook][geombook].
+These are at the olympiad level; younger students would likely benefit
+from books or classes from Art of Problem Solving, like
+[Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
+
 
 <br>
 
-### How much time did you spend on math preparation?
-I never kept track because the number wasn't important to me,
-but a very rough guess is perhaps 10 to 20 hours a week,
-with a large standard deviation (because I only practiced when I felt like it).
-In practice the number might have been a lot higher,
-because I would often think about math in passing
-(while walking between classes, sitting on the bus, etc.).
-It's harder to quantify how much or how effective this kind of time is
-but [the "shower" time certainly seems quite important][shower].
+### How do I get better at Euclidean geometry?
+For general advice, see [my advice][wpgeo], [Geoff Smith's advice][geoff], etc.
 
-(EDIT: used to say 20-30 hours, this seems too high now.)
+For specific materials, see [my own handouts][articles]
+or [Yufei Zhao's][yufei], among others.
+And of course, [my geometry textbook][geombook].
 
 <br>
 
-### Can you solve X problem for me?
-Probably not.
-If you send me a problem, usually I will at least read it.
-If I have seen it before or can quickly see how to do it,
-I will generally be nice enough to write back and outline the solution.
-But otherwise I will likely be too embarrassed to admit I don't have time to
-work on every problem that students send me, and simply archive your message.
+### Is it possible for me to go from $X$ level to $Y$ level in $Z$ time?
+I probably don't know much more than you do.
+
+Predicting improvement in math contests is a lot like trying to predict the
+stock market. We have some common sense, but no one *really*
+knows much more than that.
 
 <br>
 
-### When is your geometry book coming out?
 
-The [ebook is available for purchase now][ebook].
-Information on hard copies forthcoming
-(it has been sent to the printer already,
-not sure when it'll actually be available for purchase).
+### How do I learn to write proofs?
+I don't think there's actually a leap between computation and proof-writing, and
+I actually suspect that thinking proof-writing is hard is most of what makes it hard.
+Reasons it might appear hard
+
+* US students get basically zero exposure to proofs (even in the contest world),
+  and are led to think that it's something mythical that's above them,
+  when in fact it's merely just being forced to explain your solution on paper.
+* Having zero experience also means that you might not present your ideas clearly
+  or violate some unspoken rules on style.
+* Some classes of problems (like inequalities) don't appear at all until the
+  olympiad level, so students have to learn how to write a proof (fairly easy)
+  while simultaneously learning a new class of problems (hard).
+
+To get you started, try reading [this article][aopswrite], or perhaps [this article][howproof].
+After this, my advice is
+1. Read the proofs to problems you think you've solved (on AoPS, or official solutions).
+   Note that these don't have to be from proof contests!
+   The official solutions to any decent contest would all pass as proofs.
+2. Try writing up proofs to problems you think you've solved, and
+3. Get feedback on these solutions (from a mentor, on the forums, etc.).
+
+The [USA Mathematical Talent Search][usamts] is also another good option.
+It is a free mathematics competition open to all United States middle and high school students,
+which gives you about one month to produce full solutions to a set of five problems.
 
 <br>
+
+### Am I ready to do $X$ level problems, read book $Y$, etc.?
+
+The correct thing to do is just try it out (e.g.
+try some problems from a past $X$ paper, read a chapter from $Y$, etc.)
+and see how it feels.
+You all know what it feels like when something is too easy
+(think middle school math class): you feel like you're doing the problems
+for the sake of doing the problems rather than actually learning.
+You all know what it feels like when something is too hard:
+the dreaded "I have no clue what's going on".
+
+Anything not too close to either extreme is probably fine.
+If in doubt, I recommend picking whatever is most enjoyable.
+
+For what it's worth, I think most students are too conservative
+in doing harder problems. Just because you haven't qualified for USAMO yet
+doesn't mean you can't try some USAMO 1/4's!
+
+<br>
+
+### Should I read $X$ book versus $Y$ book, spend $M$ hours versus $N$ hours per week, etc.?
+My gut feeling is that the effect size of this is sufficiently small that
+(i) no one knows a definitive answer,
+(ii) the answer is likely to depend on the person, and
+(iii) it's rounding error compared to the actual final result.
+Therefore I think the correct thing to do is try both,
+see which one you like better, and just go with that, 
+[without worrying about whether it is "right"][right].
+
+<br>
+
+### How do I make fewer careless errors?
+
+There's a nice [article on AoPS][mistakes] that addresses most of
+what I have to say. Here are just a few additional remarks.
+
+We're not kidding when we say to be neat:
+it really is hard to think if your scratch paper is a bunch of clutter.
+To get an idea of what my scratch work looks like,
+[here is my scratch paper from the 2013 AIME][aimescratch].
+Some things worth noting from it are:
+
+* Every problem is labelled on its own page (or multiple pages).
+* Diagrams are very large, often taking up half the page.
+* Mistakes are simply "struck out" rather than scribbled
+  out or halfheartedly erased.
+* The final answer on each page is boxed for easy reference later.
+
+Also, don't misread questions, don't rush, etc.
+
+Anyways, I admit there's not always a whole lot you can do about it.
+2013 was the first year where I was able to look at a problem
+and basically know how to do it within one or two minutes;
+this left me a lot of time for computation,
+and consequently I made very few errors as compared to 2011 or 2012.
+In other words, as you get better at problem-solving
+you'll naturally become less likely to make careless errors as well.
+(At least that's how it turned out for me.)
+
+<br>
+
 
 ### How is USAMO / IMO graded?
 
@@ -87,94 +184,30 @@ in which team leaders defend their contestant's solutions to coordinators.
 
 <br>
 
-### How did you compete on the Taiwan IMO team?
-
-I live in the United States, but am also a citizen of Taiwan,
-where both my parents are from.
-So in the spring of 2014,
-I flew back to Taiwan to participate in the IMO selection process
-rather than going to my high school classes.
-
-<br>
-
-### How do I make fewer careless errors?
-
-There's a nice [article on AoPS][mistakes] that addresses most of
-what I have to say. Here are just a few additional remarks.
-
-We're not kidding when we say to be neat:
-it really is hard to think if your scratch paper is a bunch of clutter.
-To get an idea of what my scratch work looks like,
-[here is my scratch paper from the 2013 AIME][aimescratch].
-Some things worth noting from it are:
-
-* Every problem is labelled on its own page (or multiple pages).
-* Diagrams are very large, often taking up half the page.
-* Mistakes are simply "struck out" rather than scribbled
-  out or halfheartedly erased.
-* The final answer on each page is boxed for easy reference later.
-
-Also, don't misread questions, don't rush, etc.
-
-Anyways, I admit there's not always a whole lot you can do about it.
-2013 was the first year where I was able to look at a problem
-and basically know how to do it within one or two minutes;
-this left me a lot of time for computation,
-and consequently I made very few errors as compared to 2011 or 2012.
-In other words, as you get better at problem-solving
-you'll naturally become less likely to make careless errors as well.
-(At least that's how it turned out for me.)
+### Can you solve $X$ problem for me?
+Probably not.
+If you send me a problem, usually I will at least read it.
+If I have seen it before or can quickly see how to do it,
+I will generally be nice enough to write back and outline or link the solution.
+But otherwise I will likely be too embarrassed to admit I don't have time to
+work on every problem that students send me, and simply archive your message.
 
 <br>
 
-### How do I learn to write proofs?
-I don't think there's actually a leap between computation and proof-writing, and
-I actually suspect that thinking proof-writing is hard is most of what makes it hard.
-Reasons it might appear hard
-
-* US students get basically zero exposure to proofs (even in the contest world),
-  and are led to think that it's something mythical that's above them,
-  when in fact it's merely just being forced to explain your solution on paper.
-* Having zero experience also means that you might not present your ideas clearly
-  or violate some unspoken rules on style.
-* Some classes of problems (like inequalities) don't appear at all until the
-  olympiad level, so students have to learn how to write a proof (fairly easy)
-  while simultaneously learning a new class of problems (hard).
-
-To get you started, try reading [this article][aopswrite], or perhaps [this article][howproof].
-After this, my advice is
-1. Read the proofs to problems you think you've solved (on AoPS, or official solutions).
-   Note that these don't have to be from proof contests!
-   The official solutions to any decent contest would all pass as proofs.
-2. Try writing up proofs to problems you think you've solved, and
-3. Get feedback on these solutions (from a mentor, on the forums, etc.).
-
-The [USA Mathematical Talent Search][usamts] is also another good option.
-It is a free mathematics competition open to all United States middle and high school students,
-which gives you about one month to produce full solutions to a set of five problems.
-
-<br>
-
-### Are you available to tutor my child in math contests?
-I'm flattered that this made it onto the FAQ.
-There's only one of me, so I usually don't have room,
-but you are welcome to ask me (by email); you might get lucky.
-
-I generally teach at the level of olympiads, i.e. students who
-can usually score 10+ on the AIME,
-are comfortable with reading/writing proofs,
-and are hoping to make progress on USA(J)MO.
-
-If interested, you should first read [this blog post of mine first][tutor],
-where I talk about some of philosophy for tutoring.
-
-[wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
-[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
-[aopswrite]: http://artofproblemsolving.com/articles/how-to-write-solution
-[howproof]: http://zimmer.csufresno.edu/~larryc/proofs/proofs.html
-[usamts]: http://usamts.org/index.php
-[shower]: http://www.paulgraham.com/top.html
-[mistakes]: http://www.artofproblemsolving.com/articles/stupid-mistakes
 [aimescratch]: static/AIME-2013-scratch.pdf
-[usa2003]: upload/usamo-2003-rubric.pdf
+[aopswrite]: http://artofproblemsolving.com/articles/how-to-write-solution
+[articles]: olympiad.html
 [ebook]: http://www.maa.org/ebooks/EGMO
+[ebook]: http://www.maa.org/ebooks/EGMO/
+[geoff]: http://people.bath.ac.uk/masgcs/geo.pdf
+[geombook]: geombook.html
+[howproof]: http://zimmer.csufresno.edu/~larryc/proofs/proofs.html
+[mistakes]: http://www.artofproblemsolving.com/articles/stupid-mistakes
+[right]: http://artofproblemsolving.com/community/c5h520900
+[shower]: http://www.paulgraham.com/top.html
+[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+[usa2003]: upload/usamo-2003-rubric.pdf
+[usamts]: http://usamts.org/index.php
+[wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
+[wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
+[yufei]: http://yufeizhao.com/olympiad.html

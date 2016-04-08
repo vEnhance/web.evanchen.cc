@@ -1,0 +1,96 @@
+title: Personal FAQ's
+header: Personal FAQ's
+---
+
+[Return to FAQ Index.](faqs.html)
+
+### How much time did you spend on math preparation?
+I never kept track because the number wasn't important to me,
+but a very rough guess is perhaps 10 to 20 hours a week,
+with a large standard deviation (because I only practiced when I felt like it).
+In practice the number might have been a lot higher,
+because I would often think about math in passing
+(while walking between classes, sitting on the bus, etc.).
+It's harder to quantify how much or how effective this kind of time is
+but [the "shower" time certainly seems quite important][shower].
+
+(EDIT: used to say 20-30 hours, this seems too high now.)
+
+<br>
+
+### Which books/handouts/materials did you use?
+As I said it probably doesn't matter too much which ones you choose,
+as long as you exercise some basic common sense.
+I think it's useful (and more fun!) for students to decide the
+fine details of their own training, rather than
+e.g. reading a specific book "because Evan Chen used it".
+(On the other hand I have no objections if you
+[use a book "because Evan Chen wrote it"][geombook]!)
+
+If you're looking for suggestions for materials,
+try [my recommendations page](recommend.html),
+[my own handouts][articles] or my [geometyr textbook][geombook].
+These are at the olympiad level; younger students would likely benefit
+from books or classes from Art of Problem Solving, like
+[Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
+
+
+<br>
+
+### How did you compete on the Taiwan IMO team?
+
+I live in the United States, but am also a citizen of Taiwan,
+where both my parents are from.
+So in the spring of 2014,
+I flew back to Taiwan to participate in the IMO selection process
+rather than going to my high school classes.
+
+<br>
+
+### When did you start preparing for math contests?
+I started training seriously starting in the 2009-2010 school year,
+when I was in eighth grade.
+I had participated casually the year before that.
+
+<br>
+
+### When is your geometry book coming out?
+
+The [ebook is available for purchase now][ebook].
+Information on hard copies forthcoming
+(it has been sent to the printer already,
+not sure when it'll actually be available for purchase).
+
+<br>
+
+### Are you available to tutor my child in math contests?
+I'm flattered that this made it onto the FAQ.
+There's only one of me, so I usually don't have room,
+but you are welcome to ask me (by email); you might get lucky.
+
+I generally teach at the level of olympiads, i.e. students who
+can usually score 10+ on the AIME,
+are comfortable with reading/writing proofs,
+and are hoping to make progress on USA(J)MO.
+
+If interested, you should first read [this blog post of mine first][tutor],
+where I talk about some of philosophy for tutoring.
+
+
+[aimescratch]: static/AIME-2013-scratch.pdf
+[aopswrite]: http://artofproblemsolving.com/articles/how-to-write-solution
+[articles]: olympiad.html
+[ebook]: http://www.maa.org/ebooks/EGMO
+[ebook]: http://www.maa.org/ebooks/EGMO/
+[geoff]: http://people.bath.ac.uk/masgcs/geo.pdf
+[geombook]: geombook.html
+[howproof]: http://zimmer.csufresno.edu/~larryc/proofs/proofs.html
+[mistakes]: http://www.artofproblemsolving.com/articles/stupid-mistakes
+[right]: http://artofproblemsolving.com/community/c5h520900
+[shower]: http://www.paulgraham.com/top.html
+[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+[usa2003]: upload/usamo-2003-rubric.pdf
+[usamts]: http://usamts.org/index.php
+[wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
+[wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
+[yufei]: http://yufeizhao.com/olympiad.html
