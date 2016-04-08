@@ -32,22 +32,37 @@ If you find another one, please let me know by email.
 
 + On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
 + On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCD=90^{\circ}$".
++ On **page 29**, in Theorem 2.9, excise "of Intersecting Circles" from the theorem name.
++ On **page 31**, in Lemma 2.13, the circles can also be tangent
+  to one another at $X$ (i.e. the intersection is counted with multiplicity).
 + On **page 34**, in solution to Example 2.21, in
   "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$",
   the extraneous "that" and "$X$" should both be deleted.
-+ On **page 35**, in the second set of aligned equations, change $O\_2X^2$ to $OO\_2^2$.
++ On **page 35**, in the second set of aligned equations,
+  change $O\_2X^2$ to $OO\_2^2$.
++ On **page 67**, in Lemma 4.33, change the second $\omega$ to $\Omega$.
++ On **page 92**, in Problem 5.23, when defining point $G$,
+  line $HE$ should intersect $\Gamma\_1$, not $\Gamma\_2$.
+  Also, "interest" should be "intersect" in the first line.
 + On **page 101**, in the proof of Example 6.10, Lemma 6.3 should be Lemma 6.5.
 + On **page 113**, in the definition of $M\_2$, change $DH\_A$ to $AH\_A$.
 + On **page 133**, Proposition 7.21, last display, change
   $S_a$ to $S_A$.
-+ On **pages 174-175**, in names of Lemmas 9.11-9.12,
++ On **page 173**, in Problem 9.4, add $k \neq 0$.
++ On **page 174-175**, in names of Lemmas 9.11-9.12,
   change "Induces" to "Induce".
++ On **page 184**, in Example 9.34, swap the definitions of $P$, $Q$.
 + On **page 216** in phrase "third column from the first column",
   change "first" to "second".
++ On **page 223**, hint 77, replace "$\measuredangle CMN = \measuredangle BMN$"
+  with "$\measuredangle CNM = \measuredangle BNM$".
 + On **page 226**, hint 185, replace "$\angle WXY = 40^{\circ}$"
   with "$\angle XZY = 40^{\circ}$".
-+ On **page 231**, hint 373, replace "$90^{\circ}-A$"
-  with "$90^{\circ}-B$".
++ On **page 230**, hint 362, $X$ should instead be the second intersection of $QI$ with the circumcircle.
++ On **page 231**, hint 373, replace "$90^{\circ}-A$" with "$90^{\circ}-B$".
++ On **page 231**, hint 393, delete "$M=(0:1:1)$" and change the later "$L$" to "$M$".
++ On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
++ On **page 282**, in Solution 10.29, change $(P,E;X,Y)$ to $(F,E;X,Y)$ in last paragraph.
 
 </small>
 
