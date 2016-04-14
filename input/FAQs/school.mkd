@@ -12,6 +12,22 @@ Long answer: [See here](https://usamo.wordpress.com/2015/06/28/transferring/).
 
 <br>
 
+### How do you live-TeX your notes so quickly?
+The main contributing factors are:
+
++ My typing speed is quite high, at around 650 characters per minute.
++ My editor is Vim (on Arch Linux), which is one of the fastest editors.
++ I use [LaTeX-Suite](http://vim-latex.sourceforge.net/) for Vim.
++ Several additional custom keyboard shortcuts specifically for TeX,
+  see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles)
++ I have [conceal](https://b4winckler.wordpress.com/2010/08/07/using-the-conceal-vim-feature-with-latex/) enabled, so I can read my source code more easily.
++ I run [latexmk -pvc](http://www.phys.psu.edu/~collins/software/latexmk-jcc/) in the background, so the PDF also compiles in realtime.
+
+I have been using Vim and LaTeX since I was a teenager,
+so I am quite proficient with both.
+
+<br>
+
 ### I'm interested in learning some higher math. Where can I start?
 If you like my writing and are comfortable with proofs,
 you should email me and request a copy of the [Napkin](napkin.html).

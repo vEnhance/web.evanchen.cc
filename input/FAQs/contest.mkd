@@ -32,7 +32,7 @@ as long as you exercise some basic common sense.
 
 With that disclaimer, possible suggestions:
 try [my recommendations page](recommend.html),
-[my own handouts][articles] or my [geometyr textbook][geombook].
+[my own handouts][articles] or my [geometry textbook][geombook].
 These are at the olympiad level; younger students would likely benefit
 from books or classes from Art of Problem Solving, like
 [Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
