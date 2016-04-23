@@ -48,9 +48,15 @@ If you find another one, please let me know by email.
 + On **page 113**, in the definition of $M\_2$, change $DH\_A$ to $AH\_A$.
 + On **page 133**, Proposition 7.21, last display, change
   $S_a$ to $S_A$.
++ On **page 139**, Solution 7.29, change the first display to
+  $0 = c^2(t-1) + (a^2-b^2) \implies t = \frac{c^2+b^2-a^2}{c^2}$.
++ On **page 140**, in the second display, $x+y$ should be $x-y$.
++ On **page 163**, switch $C^\ast$ and $D^\ast$ in the diagram.
++ On **page 164**, switch $S^\ast$ and $R^\ast$ in the diagram.
 + On **page 173**, in Problem 9.4, add $k \neq 0$.
 + On **page 174-175**, in names of Lemmas 9.11-9.12,
   change "Induces" to "Induce".
++ On **page 176**, in Problem 9.14, delete "and Lemma 9.18" (and "proofs" to "proof").
 + On **page 184**, in Example 9.34, swap the definitions of $P$, $Q$.
 + On **page 216** in phrase "third column from the first column",
   change "first" to "second".
