@@ -64,6 +64,13 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   For students who are interested in writing their own olympiad geometry problems!
   Or more generally, anyone who is curious how my geometry problems get created.
 
+* <b>Chapter 2: Circles</b> [(pdf)][egmo2] <br>
+  Chapter 2 of [my textbook][geombook], primarily on power of a point and radical axis theorem.
+
+* <b>Chapter 8: Inversion</b> [(pdf)][egmo8] <br>
+  Chapter 8 of [my textbook][geombook], on inversion in the plane.
+
+
 ### Inequalities
 * <b>Lagrange Multipliers Done Correctly</b> {{ hlink("LM") }}
   This is a description of the conditions necessary to execute a Lagrange Multipliers solution on an olympiad.
@@ -116,3 +123,6 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
 [olympiad.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/olympiad.asy
 [cse5.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/cse5.asy
+[egmo2]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
+[egmo8]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
+[geombook]: geombook.html

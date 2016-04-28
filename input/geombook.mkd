@@ -23,6 +23,11 @@ should be able to follow the exposition.
 The book contains a selection of about 300 problems from around the world
 and is accompanied by about 250 figures.
 
+### Sample chapters
+
++ [Chapter 2: Circles][egmo2]. Power of a point, radical axis.
++ [Chapter 8: Inversion][egmo8]. Inversion around a circle.
+
 ### Errata (aka selected solutions to Problem 11.0)
 
 Here are all the mistakes that I am aware of.
@@ -203,3 +208,5 @@ Here is the most recent table of contents.
 
 [ebook]: http://www.maa.org/ebooks/EGMO
 [cover]: http://www.maa.org/sites/default/files/images/ebooks/problem_books/EGMO.png
+[egmo2]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
+[egmo8]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
