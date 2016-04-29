@@ -27,6 +27,7 @@ and is accompanied by about 250 figures.
 
 + [Chapter 2: Circles][egmo2]. Power of a point, radical axis.
 + [Chapter 8: Inversion][egmo8]. Inversion around a circle.
+* [First three chapters on Google Books preview][googlebook].
 
 ### Errata (aka selected solutions to Problem 11.0)
 
@@ -34,7 +35,10 @@ Here are all the mistakes that I am aware of.
 If you find another one, please let me know by email.
 
 <small>
+<small>
 
++ On **page xi**, append a comma after "lectures at MOP".
++ On **page xiv**, second bullet, the phrase "intersection the medians" is missing "of".
 + On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
 + On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCD=90^{\circ}$".
 + On **page 29**, in Theorem 2.9, excise "of Intersecting Circles" from the theorem name.
@@ -43,9 +47,13 @@ If you find another one, please let me know by email.
 + On **page 34**, in solution to Example 2.21, in
   "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$",
   the extraneous "that" and "$X$" should both be deleted.
++ On **page 34**, end of third paragraph after Example 2.21,
+  change $O\_1O\_3$ to $\overline{O\_2O\_3}$.
 + On **page 35**, in the second set of aligned equations,
   change $O\_2X^2$ to $OO\_2^2$.
++ On **page 40**, the lines my also be pairwise parallel.
 + On **page 67**, in Lemma 4.33, change the second $\omega$ to $\Omega$.
++ On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.
 + On **page 92**, in Problem 5.23, when defining point $G$,
   line $HE$ should intersect $\Gamma\_1$, not $\Gamma\_2$.
   Also, "interest" should be "intersect" in the first line.
@@ -62,8 +70,12 @@ If you find another one, please let me know by email.
 + On **page 174-175**, in names of Lemmas 9.11-9.12,
   change "Induces" to "Induce".
 + On **page 176**, in Problem 9.14, delete "and Lemma 9.18" (and "proofs" to "proof").
++ On **page 181**, in Lemma 9.27, change "pole" to "polar" (two instances).
 + On **page 184**, in Example 9.34, swap the definitions of $P$, $Q$.
-+ On **page 216** in phrase "third column from the first column",
++ On **page 200**, in third sentence of proof, add "of" after "radical center".
++ On **page 202**, part (a), the latter four circles should be
+  $(PAB)$, $(PCD)$, $(QAD)$, $(QBC)$.
++ On **page 216**, in phrase "third column from the first column",
   change "first" to "second".
 + On **page 223**, hint 77, replace "$\measuredangle CMN = \measuredangle BMN$"
   with "$\measuredangle CNM = \measuredangle BNM$".
@@ -75,6 +87,7 @@ If you find another one, please let me know by email.
 + On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
 + On **page 282**, in Solution 10.29, change $(P,E;X,Y)$ to $(F,E;X,Y)$ in last paragraph.
 
+</small>
 </small>
 
 ### Table of Contents
@@ -210,3 +223,4 @@ Here is the most recent table of contents.
 [cover]: http://www.maa.org/sites/default/files/images/ebooks/problem_books/EGMO.png
 [egmo2]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
 [egmo8]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
+[googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&hl=zh-TW&pg=PP1#v=onepage&q&f=false
