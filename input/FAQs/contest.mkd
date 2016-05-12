@@ -194,6 +194,26 @@ work on every problem that students send me, and simply archive your message.
 
 <br>
 
+### Can I get a regrade on USA(J)MO?
+
+It is a long-standing policy of AMC that decisions of the
+USAMO graders are final and may not be appealed.
+I am also not able to look up your exact score distribution for you.
+
+I won't claim that we graders never make mistakes,
+but all papers are read independently by at least two graders
+(and sometimes more if the solution is especially different or unusual);
+these graders must agree before a score is assigned.
+Then the top papers on each contest are taken and re-graded again.
+Nearly all the graders are either past USAMO winners or IMO medalists,
+so there is no question about grader qualification.
+
+All that being said,
+this is a good incentive to learn to write your solutions neatly.
+You don't want to be the one with a correct solution that the graders
+can't understand due to a poor write-up!
+
+
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: http://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
