@@ -1,8 +1,13 @@
-title: Math Contest FAQ's
+title: Math Contest FAQ's:
 header: Math Contest FAQ's
 ---
 
 [Return to FAQ Index.](faqs.html)
+
+These are FAQ's about math contests and particularly
+how to go about training for them.
+
+<br>
 
 ### How should I prepare for math contests?
 One-sentence answer: do lots of problems just above your current ability,
@@ -146,43 +151,10 @@ In other words, as you get better at problem-solving
 you'll naturally become less likely to make careless errors as well.
 (At least that's how it turned out for me.)
 
-<br>
-
-
-### How is USAMO / IMO graded?
-
-Don't take my word for it:
-try reading the [USAMO 2003 rubric][usa2003].
-
-In general, for each problem the solution is graded according to the rubric:
-
-+ **7**: Problem was solved.
-+ 6: Tiny slip (and contestant could repair)
-+ 5: Small gap or mistake, but non-central
-+ 2: Lots of genuine progress
-+ **1**: Significant non-trivial progress
-+ **0**: "Busy work", special cases, lots of writing
-
-The "default" scores are bolded above.
-Note that
-
-+ There is a clear distinction between success/failure,
-  and the scores 3, 4 are absent (they are awarded rarely,
-  most usually in two-part problems).
-+ There is no style: a correct solution receives 7 points.
-  However, it is still in your best interest to write a solution
-  clearly to minimize the chance the grader doesn't understand you.
-+ It is hard to earn partial credits with incomplete solutions
-  and easy to earn full credit for complete solutions.
-  In particular, 0 is the most common score for non-complete solutions.
-
-The grading procedure itself is also different for USAMO / IMO.
-At the USAMO, we grade each paper twice before assigning a score,
-then re-grade approximately the top 25% of papers again.
-At the IMO, a process called coordination is used
-in which team leaders defend their contestant's solutions to coordinators.
+See also: [Against Perfect Scores][perfect].
 
 <br>
+
 
 ### Can you solve $X$ problem for me?
 Probably not.
@@ -191,27 +163,6 @@ If I have seen it before or can quickly see how to do it,
 I will generally be nice enough to write back and outline or link the solution.
 But otherwise I will likely be too embarrassed to admit I don't have time to
 work on every problem that students send me, and simply archive your message.
-
-<br>
-
-### Can I get a regrade on USA(J)MO?
-
-It is a long-standing policy of AMC that decisions of the
-USAMO graders are final and may not be appealed.
-I am also not able to look up your exact score distribution for you.
-
-I won't claim that we graders never make mistakes,
-but all papers are read independently by at least two graders
-(and sometimes more if the solution is especially different or unusual);
-these graders must agree before a score is assigned.
-Then the top papers on each contest are taken and re-graded again.
-Nearly all the graders are either past USAMO winners or IMO medalists,
-so there is no question about grader qualification.
-
-All that being said,
-this is a good incentive to learn to write your solutions neatly.
-You don't want to be the one with a correct solution that the graders
-can't understand due to a poor write-up!
 
 
 [aimescratch]: static/AIME-2013-scratch.pdf
@@ -226,8 +177,8 @@ can't understand due to a poor write-up!
 [right]: http://artofproblemsolving.com/community/c5h520900
 [shower]: http://www.paulgraham.com/top.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
-[usa2003]: upload/usamo-2003-rubric.pdf
 [usamts]: http://usamts.org/index.php
 [wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
 [wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
 [yufei]: http://yufeizhao.com/olympiad.html
+[perfect]: https://usamo.wordpress.com/2016/04/17/against-perfect-scores/

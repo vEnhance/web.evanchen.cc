@@ -4,6 +4,11 @@ header: Personal FAQ's
 
 [Return to FAQ Index.](faqs.html)
 
+These are FAQ's about me and my contest history.
+You might also see [School FAQ's](FAQs/school.html).
+
+<br>
+
 ### How much time did you spend on math preparation?
 I never kept track because the number wasn't important to me,
 but a very rough guess is perhaps 10 to 20 hours a week,
@@ -29,7 +34,7 @@ e.g. reading a specific book "because Evan Chen used it".
 
 If you're looking for suggestions for materials,
 try [my recommendations page](recommend.html),
-[my own handouts][articles] or my [geometyr textbook][geombook].
+[my own handouts][articles] or my [geometry textbook][geombook].
 These are at the olympiad level; younger students would likely benefit
 from books or classes from Art of Problem Solving, like
 [Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
@@ -56,7 +61,7 @@ I had participated casually the year before that.
 
 ### When is your geometry book coming out?
 
-The [ebook is available for purchase now][ebook].
+The [PDF version is available for purchase now][ebook].
 Information on hard copies forthcoming
 (it has been sent to the printer already,
 not sure when it'll actually be available for purchase).

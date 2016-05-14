@@ -8,4 +8,5 @@ This is a compilation of answers to questions that I have been asked over time.
 * [Math Contest FAQ's](FAQs/contest.html)
 * [Personal FAQ's](FAQs/personal.html)
 * [School FAQ's](FAQs/school.html)
+* [Contest Rules FAQ's](FAQs/rules.html)
 * [Rarely Asked Questions](FAQs/raqs.html)

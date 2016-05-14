@@ -4,11 +4,39 @@ header: School FAQ's
 
 [Return to FAQ Index.](faqs.html)
 
+These are FAQ's about high school and college.
+
 <br>
 
 ### Why did you transfer from Harvard to MIT?
 Short answer: mostly social reasons.
 Long answer: [See here](https://usamo.wordpress.com/2015/06/28/transferring/).
+
+<br>
+
+### How is MIT?
+[Unreasonably expensive][tuition], but otherwise fine.
+
+Socially, it's very nice as I get to spend a lot of time with a
+many of the friends that I made during high school (through math contests).
+
+The academics are mediocre, but I suspect that's true at every college.
+My personal opinion is that college classes are just there as a formality;
+most of the value of college comes from the people there.
+Moreover, I always find it more efficient to learn something myself.
+
+In particular, I estimate that **maybe only 15%-25% of the math
+I know is from classes; the rest of it is self-taught**.
+I identify strongly with Mark Twain when he says that
+he doesn't let school interfere with his education.
+
+I generally have lots of free time.
+This always seems to come as a surprise to parents who ask me,
+because they assume that MIT is somehow very hard.
+Not true; I promise you that HMMT 2016 Team Round is far more difficult
+than any undergraduate final exam you will ever get at MIT.
+Besides, I take mostly higher math classes anyways,
+which assign far less busy work than many other classes at MIT.
 
 <br>
 
@@ -49,32 +77,6 @@ Talk with your high school administration and see if you can strike a deal.
 If one person says no, talk to someone else.
 You have to be very aggressive with these things to make progress,
 because otherwise the administration has no real incentive to help you.
-
-<br>
-
-### How is MIT?
-[Unreasonably expensive][tuition], but otherwise fine.
-
-Socially, it's very nice as I get to spend a lot of time with a
-many of the friends that I made during high school (through math contests).
-
-The academics are mediocre, but I suspect that's true at every college.
-My personal opinion is that college classes are just there as a formality;
-most of the value of college comes from the people there.
-Moreover, I always find it more efficient to learn something myself.
-
-In particular, I estimate that **maybe only 15%-25% of the math
-I know is from classes; the rest of it is self-taught**.
-I identify strongly with Mark Twain when he says that
-he doesn't let school interfere with his education.
-
-I generally have lots of free time.
-This always seems to come as a surprise to parents who ask me,
-because they assume that MIT is somehow very hard.
-Not true; I promise you that HMMT 2016 Team Round is far more difficult
-than any undergraduate final exam you will ever get at MIT.
-Besides, I take mostly higher math classes anyways,
-which assign far less busy work than many other classes at MIT.
 
 <br>
 
