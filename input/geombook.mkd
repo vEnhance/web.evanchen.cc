@@ -24,11 +24,18 @@ should be able to follow the exposition.
 The book contains a selection of about 300 problems from around the world
 and is accompanied by about 250 figures.
 
-### Sample chapters
+### Prerequisites and sample chapters
+There are essentially no geometry prerequisites;
+my book is **entirely self-contained**.
+(This was one of the design goals.)
+The main limiting factor is instead the ability to **read proofs**;
+as long as you can follow mathematical arguments,
+then you should be able to follow the exposition
+even if you don't know any geometrical theorems.
 
 + [Chapter 2: Circles][egmo2]. Power of a point, radical axis.
 + [Chapter 8: Inversion][egmo8]. Inversion around a circle.
-* [First three chapters on Google Books preview][googlebook].
+* [Chapters 1-3 on Google Books preview][googlebook].
 
 ### Errata (aka selected solutions to Problem 11.0)
 
@@ -42,7 +49,11 @@ If you find another one, please let me know by email.
 + On **page xiv**, second bullet, the phrase "intersection the medians" is missing "of".
 + On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
 + On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCD=90^{\circ}$".
++ On **page 19**, in problem 1.45, change "ray $BI$" to "the $\angle B$-bisector".
++ On **page 24**, in Problem 2.2, change $\measuredangle BCA = \measuredangle YZX$
+  to $\measuredangle ABC = \measuredangle XYZ$.
 + On **page 29**, in Theorem 2.9, excise "of Intersecting Circles" from the theorem name.
++ On **page 29**, in proof of Theorem 2.9, change both $>0$'s to $<0$'s.
 + On **page 31**, in Lemma 2.13, the circles can also be tangent
   to one another at $X$ (i.e. the intersection is counted with multiplicity).
 + On **page 34**, in solution to Example 2.21, in
@@ -54,17 +65,25 @@ If you find another one, please let me know by email.
   change $O\_2X^2$ to $OO\_2^2$.
 + On **page 40**, the lines my also be pairwise parallel.
 + On **page 67**, in Lemma 4.33, change the second $\omega$ to $\Omega$.
-+ On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.
++ <span style="color:red;">On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.</span>
 + On **page 92**, in Problem 5.23, when defining point $G$,
   line $HE$ should intersect $\Gamma\_1$, not $\Gamma\_2$.
   Also, "interest" should be "intersect" in the first line.
 + On **page 101**, in the proof of Example 6.10, Lemma 6.3 should be Lemma 6.5.
+  Also, $\frac{xa}{bc}$ should be $\frac{bc}{xa}$ (two changes).
++ On **page 112**, in the second displayed line, change $y^2+x^2z/y$ to $-y^2+x^2z/y$.
+  In the fourth, change the second $y^2/z^2$ to $z^2/y^2$.
+  In the ninth, change the second $y^2/z^2$ to $z^2/y^2$.
 + On **page 113**, in the definition of $M\_2$, change $DH\_A$ to $AH\_A$.
++ On **page 114**, Solution 6.27, the $a$ in the numerator of $a'$ should be $\bar a$.
+  Follow through with the rest of the solution.
 + On **page 133**, Proposition 7.21, last display, change
   $S_a$ to $S_A$.
 + On **page 139**, Solution 7.29, change the first display to
   $0 = c^2(t-1) + (a^2-b^2) \implies t = \frac{c^2+b^2-a^2}{c^2}$.
 + On **page 140**, in the second display, $x+y$ should be $x-y$.
++ On **page 151**, at start of 8.2, in "simplest example is a just a line", delete the extra "a".
++ On **page 162**, item 5 of list, change $G\_1$ to $G\_1^\ast$.
 + On **page 163**, switch $C^\ast$ and $D^\ast$ in the diagram.
 + On **page 164**, switch $S^\ast$ and $R^\ast$ in the diagram.
 + On **page 173**, in Problem 9.4, add $k \neq 0$.
@@ -72,6 +91,9 @@ If you find another one, please let me know by email.
   change "Induces" to "Induce".
 + On **page 176**, in Problem 9.14, delete "and Lemma 9.18" (and "proofs" to "proof").
 + On **page 181**, in Lemma 9.27, change "pole" to "polar" (two instances).
++ <span style="color:red;">On **page 184**, the last sentence of Theorem 9.33 is wrong as written.
+  The correct statement is: if the *circumcircle* of a cyclic quadrilateral is preserved,
+  then so is the cross ratio of the cyclic quadrilateral.</span>
 + On **page 184**, in Example 9.34, swap the definitions of $P$, $Q$.
 + On **page 200**, in third sentence of proof, add "of" after "radical center".
 + On **page 202**, part (a), the latter four circles should be
@@ -82,10 +104,15 @@ If you find another one, please let me know by email.
   with "$\measuredangle CNM = \measuredangle BNM$".
 + On **page 226**, hint 185, replace "$\angle WXY = 40^{\circ}$"
   with "$\angle XZY = 40^{\circ}$".
++ On **page 230**, hint 355, change $AC$ to $AB$.
 + On **page 230**, hint 362, $X$ should instead be the second intersection of $QI$ with the circumcircle.
 + On **page 231**, hint 373, replace "$90^{\circ}-A$" with "$90^{\circ}-B$".
 + On **page 231**, hint 393, delete "$M=(0:1:1)$" and change the later "$L$" to "$M$".
++ On **page 238**, hint 666, change $\frac{XB}{XA}$ to $\frac{XA}{XB}$
 + On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
++ On **page 265**, in Solution 6.45, the solution proves $|(a-b)(c-e)(d-f)|=|(d-e)(f-b)(a-c)|$.
+  It should instead prove $|(b-c)(a-e)(f-d)|=|(c-a)(e-f)(d-b)|$,
+  which is the same up to permutation of point labels.
 + On **page 282**, in Solution 10.29, change $(P,E;X,Y)$ to $(F,E;X,Y)$ in last paragraph.
 
 </small>
