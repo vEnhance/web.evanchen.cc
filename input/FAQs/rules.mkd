@@ -133,11 +133,25 @@ that the graders can't understand!
 
 ### What results may be cited without proof on USAMO or IMO?
 
-There are no fixed criteria, but as a rule of thumb
-any well-known result which does not trivialize is okay.
-If you are unsure, it is strictly better to include the proof.
+There are no hard criteria set in stone, but in general,
+any well-known result which does not trivialize the problem is okay.
+If you are still unsure, it is strictly better to include the proof.
 See [here][hooklength] for more discussion.
 
+<br>
+
+### How much detail should I include in a proof to avoid losing points?
+
+Enough to convince the grader that you understand the solution to the problem.
+
+Whenever you say something like "it's easy to see X",
+the grader has to ask themself whether the student
+actually understands why X is true, or doesn't know and is just "bluffing".
+In particular, this is a math issue, not a style issue.
+
+As a very loose approximation, the official solutions file for
+USAMO is about as terse as you can be.
+See [here][hooklength] for more discussion.
 
 <br>
 
