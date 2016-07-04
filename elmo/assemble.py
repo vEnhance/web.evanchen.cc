@@ -3,10 +3,10 @@ import yaml
 # Script constants
 BASE = r"http://www.mit.edu/~evanchen/elmo/"
 #BASE = r"file:///home/evan/Documents/www/elmo/"
-YEAR_PREV = 2015
-YEAR_NEXT = 2016
-YEARS = [2012, 2013, 2014, 2015]
-PREV_URL = "http://artofproblemsolving.com/community/c5h1095553"
+YEAR_PREV = 2016
+YEAR_NEXT = 2017
+YEARS = [2012, 2013, 2014, 2015, 2016]
+PREV_URL = "http://artofproblemsolving.com/community/c5h1255466s1_18th_elmo_2016"
 NEXT_URL = "http://nyan.cat"
 
 # Create header {{{1
@@ -233,7 +233,7 @@ for year in ELMO:
 	<a href="results/{y.year_num}_stats.html">Statistics</a>
 	'''
 	if year.has_aops:
-		result_header += '&nbsp;&bull;&nbsp;\n<a href="results/{y.year_num}_unofficial.html">Unofficial Participants</a>\n'
+		result_header += '&nbsp;&bull;&nbsp;\n<a href="results/{y.year_num}_guest.html">Guest Participants</a>\n'
 	result_header += '</h3>\n\n'
 	result_header = result_header.format(y = year, M = year.year_num-1, N = year.year_num+1)
 
@@ -298,7 +298,7 @@ for year in ELMO:
 		print >>f, "</table>"
 		print >>f, FOOTER
 	if year.has_aops:
-		with open("results/{}_unofficial.html".format(year.year_num), "w") as f:
+		with open("results/{}_guest.html".format(year.year_num), "w") as f:
 			print >>f, HEADER
 			print >>f, result_header
 			print >>f, jquery_script(1 + year.num_problems, 1) # Descending by Score

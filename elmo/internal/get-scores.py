@@ -1,7 +1,7 @@
 import yaml
 
 # Script constants
-YEARS = [2012, 2013, 2014, 2015]
+YEARS = [2012, 2013, 2014, 2015, 2016]
 PREV_URL = "http://artofproblemsolving.com/community/c5h1095553"
 NEXT_URL = "http://nyan.cat"
 

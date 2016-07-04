@@ -14,9 +14,9 @@ items[5] = "http://www.math.ttu.edu/~rgelca/PL/mop_red_12.JPG";
 items[6] = "http://www.math.ttu.edu/~rgelca/PL/mop_grading_12_2.JPG";
 items[7] = "http://www.math.ttu.edu/~rgelca/PL/rmm_2011.JPG";
 items[8] = "http://www.math.ttu.edu/%7Ergelca/PL/mop_black_13.JPG";
-items[9] = "http://www.math.ttu.edu/%7Ergelca/PL/mop_blue_13.JPG"
-items[10]= "http://www.math.ttu.edu/%7Ergelca/PL/mop_red_131.JPG"
-items[11]= "http://www.math.ttu.edu/%7Ergelca/PL/mop_red_133.JPG"
+items[9] = "http://www.math.ttu.edu/%7Ergelca/PL/mop_blue_13.JPG";
+items[10]= "http://www.math.ttu.edu/%7Ergelca/PL/mop_red_131.JPG";
+items[11]= "http://www.math.ttu.edu/%7Ergelca/PL/mop_red_133.JPG";
 
 /*
 function rotater() {

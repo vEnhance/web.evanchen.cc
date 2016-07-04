@@ -10,7 +10,7 @@
 }
 
 #header #h1 {
-	margin: 1.2em 1em 0.2em 1em;
+	margin: 0.6em 1em 0.2em 1em; /* top margin decreased from 1.2em by Evan */
 	text-align: center;
 	font-size: 1em;
 	font-variant: small-caps;

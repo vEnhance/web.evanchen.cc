@@ -11,7 +11,7 @@
 	left: 0;
 	display: block;
 	width: 100%;
-	height: 8em;
+	height: 9em; /* increased from 8em by Evan */
 	z-index: 5;
 	border-bottom: 1px solid #0066CC;
 }
@@ -19,7 +19,7 @@
 #main {
 	position: absolute;
 	overflow: auto;
-	top: 8.2em;
+	top: 9.5em; /* increased from 8.2em by Evan */
 	right: 0;
 	bottom: 2em;
 	left: 0em;
