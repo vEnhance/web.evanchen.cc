@@ -8,6 +8,9 @@ So in addition to the stuff I have on this website, here's a list of other resou
 
 Please notify me of any broken links, suggestions, etc. by email.
 
+See also [Problems](problems.html) for an archive of contest problems,
+as well as links to other sources of problems.
+
 ### Undergraduate Math and Computer Science
 * [MSci Category Theory notes](http://www.maths.ed.ac.uk/~tl/msci/) by Tom Leinster.
   I highly enjoyed these notes; very carefully written and explains intuition.
@@ -48,13 +51,3 @@ Of course, see also [Napkin](napkin.html).
   is an introductory olympiad number theory text, at a level somewhat easier than what my own number theory handouts assume.
 
 Of course, see also my [own handouts](olympiad.html) and my [geometry textbook](geombook.html).
-
-### Problem Recommendations
-* [ELMO Shortlist](http://www.aops.com/community/c3430_elmo_shortlist), problems written by MOPpers.
-
-* [Romania Masters in Mathematics](http://www.aops.com/community/c3238_romanian_masters_in_mathematics) (abbreviated RMM) has several hard and elegant problems.
-
-* [Sharygin Geometry Olympiad](http://www.aops.com/community/c3372_sharygin_geometry_olympiad); I did many of the 2013 Homework Round problems and they were delightful to think about.
-
-National olympiads I often work on include USA, Canada, Brazil, Russia, Korea.  
-Team selection tests I enjoy include USA, Vietnam, Romania, Iran, and Taiwan.

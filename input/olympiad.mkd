@@ -13,6 +13,7 @@ of my personal blog might also be of interest.
 See also [Recommendations](recommend.html) for other authors I like,
 as well as my [geometry book](geombook.html) for a
 comprehensive textbook in Euclidean geometry.
+See also [Problems](problems.html) for contest papers.
 
 To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 Because this style file evolves over time,
