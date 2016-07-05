@@ -79,12 +79,14 @@ If you find another one, please let me know by email.
   Follow through with the rest of the solution.
 + On **page 133**, Proposition 7.21, last display, change
   $S_a$ to $S_A$.
++ On **page 138**, eighth line from top, change $AD:AC$ to $AD:CD$.
 + On **page 139**, Solution 7.29, change the first display to
   $0 = c^2(t-1) + (a^2-b^2) \implies t = \frac{c^2+b^2-a^2}{c^2}$.
 + On **page 140**, in the second display, $x+y$ should be $x-y$.
 + On **page 151**, at start of 8.2, in "simplest example is a just a line", delete the extra "a".
 + On **page 162**, item 5 of list, change $G\_1$ to $G\_1^\ast$.
 + On **page 163**, switch $C^\ast$ and $D^\ast$ in the diagram.
++ On **page 163**, step 3, change $BS^\ast$ to $BC^\ast$.
 + On **page 164**, switch $S^\ast$ and $R^\ast$ in the diagram.
 + On **page 173**, in Problem 9.4, add $k \neq 0$.
 + On **page 174-175**, in names of Lemmas 9.11-9.12,
