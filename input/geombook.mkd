@@ -71,6 +71,15 @@ If you find another one, please let me know by email.
   Also, "interest" should be "intersect" in the first line.
 + On **page 101**, in the proof of Example 6.10, Lemma 6.3 should be Lemma 6.5.
   Also, $\frac{xa}{bc}$ should be $\frac{bc}{xa}$ (two changes).
++ <span style="color:red;">On **page 107**, the proof of part (a) is completely wrong
+  and should probably just be deleted.</span> (The result is still true,
+  and the proof of part (b) is still correct.)
+  <!-- in Figure 6.6b, swap all instances of $v$ and $w$.
+  Replace $b=w^2$ and $c=v^2$ just below the figure with $b=v^2$ and $c=w^2$.
+  Delete the first bullet altogether.
+  Second bullet, $v$ has argument $\beta$ and $w$ has argument $-\gamma$.
+  Also, change $\min(2\beta,2\pi-2\gamma)$ to $2\pi-2\gamma$
+  and $\max(2\beta, 2\pi-2\gamma)$ to $2\beta$. -->
 + On **page 112**, in the second displayed line, change $y^2+x^2z/y$ to $-y^2+x^2z/y$.
   In the fourth, change the second $y^2/z^2$ to $z^2/y^2$.
   In the ninth, change the second $y^2/z^2$ to $z^2/y^2$.
@@ -79,6 +88,7 @@ If you find another one, please let me know by email.
   Follow through with the rest of the solution.
 + On **page 133**, Proposition 7.21, last display, change
   $S_a$ to $S_A$.
++ On **page 136**, very top, $c=AE$ should be $c=AC$.
 + On **page 138**, eighth line from top, change $AD:AC$ to $AD:CD$.
 + On **page 139**, Solution 7.29, change the first display to
   $0 = c^2(t-1) + (a^2-b^2) \implies t = \frac{c^2+b^2-a^2}{c^2}$.
@@ -112,6 +122,9 @@ If you find another one, please let me know by email.
 + On **page 231**, hint 393, delete "$M=(0:1:1)$" and change the later "$L$" to "$M$".
 + On **page 238**, hint 666, change $\frac{XB}{XA}$ to $\frac{XA}{XB}$
 + On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
++ On **page 262**, there is a minus sign missing on fifth display.
+  Carrying through, we actually get $x = h - \frac{bc(a+b+c)}{b^2+bc+c^2}$ instead,
+  id est we want $x/h = 1 - \frac{bc}{b^2+bc+c^2}$ to be real.
 + On **page 265**, in Solution 6.45, the solution proves $|(a-b)(c-e)(d-f)|=|(d-e)(f-b)(a-c)|$.
   It should instead prove $|(b-c)(a-e)(f-d)|=|(c-a)(e-f)(d-b)|$,
   which is the same up to permutation of point labels.
