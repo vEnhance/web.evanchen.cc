@@ -1,6 +1,8 @@
 title: Geometry Book
-menu-position: 300
+menu-position: 41
 header: Euclidean Geometry in Mathematical Olympiads
+indent: 1
+
 ---
 
 <span style="float:left;padding:10px;">

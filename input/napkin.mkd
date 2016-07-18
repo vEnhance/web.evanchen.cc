@@ -1,12 +1,24 @@
 title: Napkin
+menu-position: 42
 header: The Napkin Project
+indent: 1
+
 ---
 
+<span style="color:red; font-size: 140%;">
+**For most recent draft, [click here][recent] to download.**
+</span>
+
 ## Project Status
-The project is currently *nowhere* near done; however, since I have no intention
-of publishing these notes in any binding way,
-<span style="color:red;">*I am happy to send preview copies of the current draft
-upon an email request.*</span> (Requests may take a few days to process.)
+I am starting to post some initial drafts for public review.
+See link above for the most recent draft,
+and [here for an archive of all drafts][wp].
+I would very highly appreciate any corrections, suggestions, or comments.
+
+Most of what remains to do is fill in the rest of the exercise problems.
+
+(There is also a Dropbox link to the "latest copy", which updates in real-time.
+Feel free to email me to acquire this link.)
 
 ## Description
 The Napkin project is a personal exposition project of mine
@@ -27,22 +39,8 @@ The philosophy is stated in the preamble:
 > This book is my attempt at those forty hours.
 
 This project has evolved to more than just forty hours.
-Each chapter takes about 10-15 hours to produce, so there are some limits
-to how much bigger this can grow, but I really look forward to the finished product.
-
-## A Few Sample Chapters
-Here are a few excerpts from the November 26 draft
-(the chapter numbers have changed since then).
-They may contain typos and mistakes, and could change dramatically in later editions.
-For preview copies of the entire draft, email me at the address above.
-
-+ [Chapter on holomorphic functions](papers/napkin-sample-holomorphic.pdf),
-+ [Chapter on the Frobenius endomorphism](papers/napkin-sample-frob.pdf),
-+ [Chapter on forcing](papers/napkin-sample-force.pdf).
 
 ## Current Table of Contents.
-Last updated November 2015.
-Note that about 10 of the chapters are still too be written.
 
 #### I. Basic Algebra and Topology
 + Chapter 1. What is a Group? 
@@ -99,29 +97,30 @@ Note that about 10 of the chapters are still too be written.
 + Chapter 42. Finite Fields 
 + Chapter 43. Ramification Theory 
 + Chapter 44. The Frobenius Endomorphism 
++ Chapter 45. A Bit on Artin Reciprocity
 #### XII. Representation Theory
-+ Chapter 45. Representations of Algebras
-+ Chapter 46. Semisimple Algebras
-+ Chapter 47. Characters
-+ Chapter 48. Some Applications
++ Chapter 46. Representations of Algebras
++ Chapter 47. Semisimple Algebras
++ Chapter 48. Characters
++ Chapter 49. Some Applications
 #### XIII. Algebraic Geometry I: Varieties 
-+ Chapter 49. Affine Varieties 
-+ Chapter 50. Affine Varieties as Ringed Spaces
-+ Chapter 51. Projective Varieties 
-+ Chapter 52. Bonus: Bezout's Theorem
-+ Chapter 53. Quasi-Projective Varieties
++ Chapter 50. Affine Varieties 
++ Chapter 51. Affine Varieties as Ringed Spaces
++ Chapter 52. Projective Varieties 
++ Chapter 53. Bonus: Bezout's Theorem
 #### XIV. Algebraic Geometry II: Schemes 
-+ Chapter 54. Sheaves and Ringed Spaces
-+ Chapter 55. Schemes
-+ Chapter 56. More on Sheaves
-+ Chapter 57. Divisors and Line Bundles
-+ Chapter 60. Shor's Algorithm
++ Chapter 54. Morphisms of varieties
++ Chapter 55. Sheaves and Ringed Spaces
++ Chapter 56. Schemes
 #### XV. Set Theory I: ZFC, Ordinals, and Cardinals 
-+ Chapter 58. Bonus: Zorn's Lemma and Cauchy's Functional Equation
-+ Chapter 59. Zermelo-Frankel with Choice 
-+ Chapter 60. Ordinals 
-+ Chapter 61. Cardinals 
++ Chapter 57. Bonus: Zorn's Lemma and Cauchy's Functional Equation
++ Chapter 58. Zermelo-Frankel with Choice 
++ Chapter 59. Ordinals 
++ Chapter 60. Cardinals 
 #### XVI. Set Theory II: Model Theory and Forcing 
-+ Chapter 62. Inner Model Theory 
-+ Chapter 63. Forcing 
-+ Chapter 64. Breaking the Continuum Hypothesis 
++ Chapter 61. Inner Model Theory 
++ Chapter 62. Forcing 
++ Chapter 63. Breaking the Continuum Hypothesis 
+
+[recent]: https://usamo.files.wordpress.com/2016/07/napkin-2016-0718.pdf
+[wp]: https://usamo.wordpress.com/napkin/

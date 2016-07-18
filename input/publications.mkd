@@ -15,11 +15,8 @@ My two largest projects at the moment are
   Information on hard copies forthcoming.
   
 * My personal exposition project [**An Infinitely Large Napkin**](napkin.html).  
-  600 pages, in progress.
-  Sample chapters (all fairly rough drafts):
-  [16](papers/napkin-sample-holomorphic.pdf),
-  [38](papers/napkin-sample-frob.pdf),
-  [51](papers/napkin-sample-force.pdf).
+  About 600 pages. [See here for a listing of download links][wpnapkin].
+  
 
 Please see the links above for more information.
 
@@ -85,3 +82,4 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
 [rnut-link]: http://link.springer.com/article/10.1007/s40993-015-0028-0
 [ebook]: http://www.maa.org/ebooks/EGMO
+[wpnapkin]: https://usamo.wordpress.com/napkin/

@@ -47,12 +47,14 @@ The main contributing factors are:
 + My editor is Vim (on Arch Linux), which is one of the fastest editors.
 + I use [LaTeX-Suite](http://vim-latex.sourceforge.net/) for Vim.
 + Several additional custom keyboard shortcuts specifically for TeX,
-  see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles)
+  see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
 + I have [conceal](https://b4winckler.wordpress.com/2010/08/07/using-the-conceal-vim-feature-with-latex/) enabled, so I can read my source code more easily.
 + I run [latexmk -pvc](http://www.phys.psu.edu/~collins/software/latexmk-jcc/) in the background, so the PDF also compiles in realtime.
 
 I have been using Vim and LaTeX since I was a teenager,
 so I am quite proficient with both.
+
+[Link to corresponding dotfiles.](https://github.com/vEnhance/dotfiles).
 
 <br>
 

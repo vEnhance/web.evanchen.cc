@@ -5,12 +5,12 @@
 <link type="text/css" rel="stylesheet" href="css/simple-53544.css">
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({tex2jax: 
-	{
-		inlineMath: [['$','$'], ['\\(','\\)']],
-		displayMath: [['\\[', '\\]']],
-		processEnvironments: false,
-		elements: ["main"]
-	}
+    {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['\\[', '\\]']],
+        processEnvironments: false,
+        elements: ["main"]
+    }
 });
 </script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -26,11 +26,17 @@ MathJax.Hub.Config({tex2jax:
         mpages = [p for p in pages if "menu-position" in p]
         mpages.sort(key=lambda p: int(p["menu-position"]))
         for p in mpages:
+            if "indent" in p:
+                open_tag = "<h4>&nbsp; &bullet; &nbsp;"
+                close_tag = "</h4>"
+            else:
+                open_tag = "<h3>"
+                close_tag = "</h3>"
             if p["title"] == page["title"]:
-                entry = '<h3>%s</h3>'
+                entry = open_tag + '%s' + close_tag
                 print(entry % (hx(p["title"])))
             else:
-                entry = '<h3><a href="%s">%s</a></h3>'
+                entry = open_tag + '<a href="%s">%s</a>' + close_tag
                 print(entry % (p["url"], hx(p["title"])))
     %-->
     </div>

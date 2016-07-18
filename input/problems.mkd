@@ -1,6 +1,7 @@
 title: Problems
-menu-position: 100
+menu-position: 21
 header: Problems 
+indent: 1
 ---
 
 On this page I maintain archives of problems from various contests I enjoy.
