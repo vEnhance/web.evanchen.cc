@@ -60,8 +60,9 @@ so I am quite proficient with both.
 
 ### I'm interested in learning some higher math. Where can I start?
 If you like my writing and are comfortable with proofs,
-you should email me and request a copy of the [Napkin](napkin.html).
+try my [Napkin](napkin.html).
 It was basically written to answer this question.
+Other possible references are mentioned in [Recommendations][recommend.html].
 
 <br>
 

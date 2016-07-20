@@ -17,7 +17,7 @@ I would very highly appreciate any corrections, suggestions, or comments.
 
 Most of what remains to do is fill in the rest of the exercise problems.
 
-(There is also a Dropbox link to the "latest copy", which updates in real-time.
+(There is also a live Dropbox link which updates in real-time as I make changes.
 Feel free to email me to acquire this link.)
 
 ## Description
@@ -122,5 +122,5 @@ This project has evolved to more than just forty hours.
 + Chapter 62. Forcing 
 + Chapter 63. Breaking the Continuum Hypothesis 
 
-[recent]: https://usamo.files.wordpress.com/2016/07/napkin-2016-0718.pdf
+[recent]: https://usamo.files.wordpress.com/2016/07/napkin-2016-07-19.pdf
 [wp]: https://usamo.wordpress.com/napkin/

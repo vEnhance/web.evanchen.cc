@@ -36,18 +36,20 @@ as well as links to other sources of problems.
 
 Of course, see also [Napkin](napkin.html).
 
-### Olympiad Handouts
+### Olympiad Resources
+Some suggested *handouts* (other than [my own](olympiad.html)):
+
 * [Yufei Zhao's site](http://yufeizhao.com/olympiad.html) has several excellent handouts, especially in geometry.
   I consulted many of them when I was coming up with ideas for my geometry textbook.
   In particular, [the Cyclic Quadrilaterals handout](http://yufeizhao.com/olympiad/cyclic_quad.pdf) is especially worth reading.
-
-* [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134).
 
 * [Alexander Remorov](http://www.mit.edu/~alexrem/Math%20Competitions.html), in particular the [projective geometry handout](http://www.mit.edu/~alexrem/ProjectiveGeometry.pdf).
 
 * [Po-Shen Loh](http://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
 
+Some suggested *books* (other than [my geometry book](geombook.html)):
+
+* [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134).
+
 * [Olympiad NT through Challenging Problems](http://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
   is an introductory olympiad number theory text, at a level somewhat easier than what my own number theory handouts assume.
-
-Of course, see also my [own handouts](olympiad.html) and my [geometry textbook](geombook.html).
