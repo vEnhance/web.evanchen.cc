@@ -56,6 +56,7 @@ If you find another one, please let me know by email.
   to $\measuredangle ABC = \measuredangle XYZ$.
 + On **page 29**, in Theorem 2.9, excise "of Intersecting Circles" from the theorem name.
 + On **page 29**, in proof of Theorem 2.9, change both $>0$'s to $<0$'s.
++ On **page 30**, bottom of page, "coaxal" should be "coaxial".
 + On **page 31**, in Lemma 2.13, the circles can also be tangent
   to one another at $X$ (i.e. the intersection is counted with multiplicity).
 + On **page 34**, in solution to Example 2.21, in
@@ -73,15 +74,16 @@ If you find another one, please let me know by email.
   Also, "interest" should be "intersect" in the first line.
 + On **page 101**, in the proof of Example 6.10, Lemma 6.3 should be Lemma 6.5.
   Also, $\frac{xa}{bc}$ should be $\frac{bc}{xa}$ (two changes).
-+ <span style="color:red;">On **page 107**, the proof of part (a) is completely wrong
-  and should probably just be deleted.</span> (The result is still true,
-  and the proof of part (b) is still correct.)
++ <span style="color:red;">On **page 107**, the proof of part (a) of the theorem
+  has several issues, and is probably best to just ignore.</span>
+  (The result is still true, and the proof of part (b) is correct.)
   <!-- in Figure 6.6b, swap all instances of $v$ and $w$.
   Replace $b=w^2$ and $c=v^2$ just below the figure with $b=v^2$ and $c=w^2$.
   Delete the first bullet altogether.
   Second bullet, $v$ has argument $\beta$ and $w$ has argument $-\gamma$.
   Also, change $\min(2\beta,2\pi-2\gamma)$ to $2\pi-2\gamma$
   and $\max(2\beta, 2\pi-2\gamma)$ to $2\beta$. -->
++ On **page 105**, in Problem 6.20 change "Theorem 6.16" to "Theorem 6.15".
 + On **page 112**, in the second displayed line, change $y^2+x^2z/y$ to $-y^2+x^2z/y$.
   In the fourth, change the second $y^2/z^2$ to $z^2/y^2$.
   In the ninth, change the second $y^2/z^2$ to $z^2/y^2$.
@@ -95,7 +97,11 @@ If you find another one, please let me know by email.
 + On **page 139**, Solution 7.29, change the first display to
   $0 = c^2(t-1) + (a^2-b^2) \implies t = \frac{c^2+b^2-a^2}{c^2}$.
 + On **page 140**, in the second display, $x+y$ should be $x-y$.
++ <span style="color:red;">On **page 146**, change $\angle PCB$ to $\angle PBC$.</span>
 + On **page 151**, at start of 8.2, in "simplest example is a just a line", delete the extra "a".
++ On **page 155**, first bullet, delete the extra comma.
++ On **page 159**, second line of Example 8.15, change "tangent to $\omega$ at $T$" to "tangent to $\Omega$ at $K$".
++ On **page 159**, in Lemma 8.16, change "fixes $B$ and $C$" to "swaps $B$ and $C$".
 + On **page 162**, item 5 of list, change $G\_1$ to $G\_1^\ast$.
 + On **page 163**, switch $C^\ast$ and $D^\ast$ in the diagram.
 + On **page 163**, step 3, change $BS^\ast$ to $BC^\ast$.
@@ -109,15 +115,18 @@ If you find another one, please let me know by email.
   The correct statement is: if the *circumcircle* of a cyclic quadrilateral is preserved,
   then so is the cross ratio of the cyclic quadrilateral.</span>
 + On **page 184**, in Example 9.34, swap the definitions of $P$, $Q$.
++ On **page 189**, in Solution 1, $T$ should be $\overline{AA} \cap \overline{CR}$.
 + On **page 200**, in third sentence of proof, add "of" after "radical center".
 + On **page 202**, part (a), the latter four circles should be
   $(PAB)$, $(PCD)$, $(QAD)$, $(QBC)$.
++ On **page 209**, problem 11.6, change "circumcenter" to "circumcircle".
 + On **page 216**, in phrase "third column from the first column",
   change "first" to "second".
 + On **page 223**, hint 77, replace "$\measuredangle CMN = \measuredangle BMN$"
   with "$\measuredangle CNM = \measuredangle BNM$".
 + On **page 226**, hint 185, replace "$\angle WXY = 40^{\circ}$"
   with "$\angle XZY = 40^{\circ}$".
++ On **page 227**, hint 252, replace $O$ with $O^\ast$.
 + On **page 230**, hint 355, change $AC$ to $AB$.
 + On **page 230**, hint 362, $X$ should instead be the second intersection of $QI$ with the circumcircle.
 + On **page 231**, hint 373, replace "$90^{\circ}-A$" with "$90^{\circ}-B$".
@@ -131,6 +140,9 @@ If you find another one, please let me know by email.
   It should instead prove $|(b-c)(a-e)(f-d)|=|(c-a)(e-f)(d-b)|$,
   which is the same up to permutation of point labels.
 + On **page 282**, in Solution 10.29, change $(P,E;X,Y)$ to $(F,E;X,Y)$ in last paragraph.
++ On **page 296**, in Solution 11.18, very very end, change $2t$ to $(b^2+c^2)t$.
++ On **page 297**, in Solution 11.18, the first display should read $-a^2v + b^2w + c^2v = (b^2+c^2)t + (abc)^2 - (ab)^2S\_B - a^2t = S\_A ((ab)^2 + 2t)$. The next display should be $X' = \left( a^2vw : S\_A(c^2S\_C+t)((ab)^2+2t) : S\_A(b^2S\_B+t)((ac)^+2t) \right)$. Similarly for $Y'$ and $Z'$.
++ On **page 305**, the link to reference [3] is broken. Thankfully, it's on this website!
 
 </small>
 </small>
