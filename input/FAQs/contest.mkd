@@ -67,7 +67,7 @@ knows much more than that.
 ### How do I learn to write proofs?
 I don't think there's actually a leap between computation and proof-writing, and
 I actually suspect that thinking proof-writing is hard is most of what makes it hard.
-Reasons it might appear hard
+Reasons it might appear hard:
 
 * US students get basically zero exposure to proofs (even in the contest world),
   and are led to think that it's something mythical that's above them,
@@ -80,6 +80,7 @@ Reasons it might appear hard
 
 To get you started, try reading [this article][aopswrite], or perhaps [this article][howproof].
 After this, my advice is
+
 1. Read the proofs to problems you think you've solved (on AoPS, or official solutions).
    Note that these don't have to be from proof contests!
    The official solutions to any decent contest would all pass as proofs.
