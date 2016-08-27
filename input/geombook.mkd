@@ -120,6 +120,7 @@ If you find another one, please let me know by email.
 + On **page 202**, part (a), the latter four circles should be
   $(PAB)$, $(PCD)$, $(QAD)$, $(QBC)$.
 + On **page 209**, problem 11.6, change "circumcenter" to "circumcircle".
++ On **page 210**, problem 11.10, change "$PA$, $PB$, $PC$" to "$AP$, $BP$, $CP$".
 + On **page 216**, in phrase "third column from the first column",
   change "first" to "second".
 + On **page 223**, hint 77, replace "$\measuredangle CMN = \measuredangle BMN$"

@@ -1,6 +1,8 @@
 title: Course Notes
 header: Mathematics Coursework and Lecture Notes
 menu-position: 50
+indent: 1
+
 ---
 
 During math classes, I like to LaTeX notes to these classes in real time.
