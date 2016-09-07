@@ -23,18 +23,33 @@ Please see the links above for more information.
 
 ## Research Publications
 
-* **Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication**.
+* *The 26 Wilf-equivalence classes of length five quasi-consecutive patterns*
+  <br>
+  E. Chen.
+  In preparation.
+
+* *Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures*
+  [(pdf)][house]<br>
+  E. Chen.
+  To appear.
+
+* *Linear polychromatic colorings of hypercube faces*
+  [(pdf)][hypercube]<br>
+  E. Chen.
+  To appear.
+
+* *Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication*
   [(pdf)][linnik]<br>
   E. Chen, P. Park, and A. Swaminathan.
   Published in [Research in Number Theory][rnut-link].
   
-* **Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem**.
+* *Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem*
   [(pdf)][grh]<br>
   E. Chen, P. Park, and A. Swaminathan, submitted for publication. 
   
-* **On Logarithmically Benford Sequences**
+* *On Logarithmically Benford Sequences*
   [(pdf)][benford]<br>
-  E. Chen, P. Park, and A. Swaminathan. To appear in *Proceedings of the AMS*.
+  E. Chen, P. Park, and A. Swaminathan. Published in *Proceedings of the AMS*.
 
 
 ## Lectures
@@ -76,10 +91,15 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 
 [ordinal]: https://usamo.wordpress.com/2014/11/18/set-theory-part-2-constructing-the-ordinals/
 [sparc]: http://www.sparc-camp.org
-[linnik]: papers/1506.09170v3.pdf  
-[grh]: papers/1507.07122v2.pdf
-[benford]: papers/1507.02629v2.pdf
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
-[rnut-link]: http://link.springer.com/article/10.1007/s40993-015-0028-0
 [ebook]: http://www.maa.org/ebooks/EGMO
 [wpnapkin]: https://usamo.wordpress.com/napkin/
+
+[linnik]: http://arxiv.org/pdf/1506.09170
+[grh]: http://arxiv.org/pdf/1507.02629
+[benford]: http://arxiv.org/pdf/1507.07122
+[house]: http://arxiv.org/pdf/1608.04146
+[hypercube]: http://arxiv.org/pdf/1609.01247
+
+
+[rnut-link]: http://link.springer.com/article/10.1007/s40993-015-0028-0

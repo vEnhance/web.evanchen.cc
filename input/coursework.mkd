@@ -15,9 +15,9 @@ Since these notes are written *during* class, it is quite likely that they conta
 Please send any corrections to me via email.
 For more polished exposition on some selected topics, see the [Napkin project](napkin.html).
 
-Some of the links are temporary Dropbox links.
+<!-- Some of the links are temporary Dropbox links.
 If you want to link these notes, you should always link to this page.
-The Dropbox links will expire at the end of each semester.
+The Dropbox links will expire at the end of each semester. -->
 
 ## Massachusetts Institute of Technology
 * **(18.099) Seminar in Discrete Analysis**<br>
@@ -32,13 +32,16 @@ The Dropbox links will expire at the end of each semester.
 * **(18.435) Quantum Computation** [(pdf)](notes/MIT-18-435.pdf)<br>
   Taught by Seth Lloyd. Fall 2015.
 
-* **(18.757) Representations of Lie Algebras** [(temporary link)](https://www.dropbox.com/s/iefjlmqp8rwzh0c/MIT-18-757.pdf?dl=1)<br>
+* **(18.757) Representations of Lie Algebras** [(pdf)](notes/MIT-18-757.pdf)<br>
   Taught by Laura Rider. Spring 2016.
 
 * **(18.950) Differential Geometry** [(pdf)](notes/MIT-18-950.pdf)<br>
   Taught by Xin Zhou. Fall 2015.
 
-* **(SCUM) Student Colloqium in Mathematics** [(temporary link)](https://www.dropbox.com/s/936pn8h5l8cxgv2/SCUM.pdf?dl=1)<br>
+* **(24.244) Modal Logic**<br>
+  Taught by Stephen Yablo. Fall 2016.
+
+* **(SCUM) Student Colloqium in Mathematics** [(pdf)](notes/SCUM.pdf)<br>
   Not a class, but free dinner and math lectures every Wednesday.
 
 * **(14.12) Economic Applications of Game Theory** <br>
