@@ -23,6 +23,14 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
 
 *If you notice any errors, please let me know!*
 
+### General
+* <span style="color:red;">(New)</span> <b>English</b> {{ hlink("english") }}
+  Notes on proof-writing style from teaching at MOP 2016
+  
+* <b>USAMO 2014 Contest Analysis</b> {{ hlink("USAMO2014") }}
+  This describes in detail the thought process behind each of my solutions to the USAMO 2014.
+  [Click here for a copy of the solutions I submitted.](http://www.mit.edu/~evanchen/upload/usamo-2014-my-sols.pdf)
+
 ### Algebra and Number Theory
 * <b>The Chinese Remainder Theorem</b> {{ hlink("CRT") }}
   An article on the Chinese Remainder "Theorem", focusing in particular on constructions.
@@ -83,10 +91,7 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   Written in broken Traditional Chinese. Describes some "standard strategies" for handling olympiad inequalities.  
   An [hastily translated English version](handouts/Ineq/en.pdf) of this handout is now available.
 
-### Reports and Reflections
-* <b>USAMO 2014 Contest Analysis</b> {{ hlink("USAMO2014") }}
-  This describes in detail the thought process behind each of my solutions to the USAMO 2014.
-
+### Reports and Diaries
 * <b>IMO 2014 Journal</b> {{ hlink("IMO-2014") }}
   This describes my experiences competing as TWN2 at the 55th IMO 2014.  
   To download the pictures in the report, locate "media" in the source folder.
@@ -114,12 +119,6 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
 
 * <b>USAMO 2003 Rubric</b> [(pdf)](upload/usamo-2003-rubric.pdf) <br>
   The grading rubric for USAMO 2003.
-
-### Upcoming
-* Hall's Marriage Lemma
-* Monsters
-* Introduction to Functional Equations
-* Irreducibility of Polynomials
 
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
 [olympiad.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/olympiad.asy
