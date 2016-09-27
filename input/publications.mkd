@@ -23,32 +23,29 @@ Please see the links above for more information.
 
 ## Research Publications
 
-* *The 26 Wilf-equivalence classes of length five quasi-consecutive patterns*
+* [The 26 Wilf-equivalence classes of length five quasi-consecutive patterns][wilf]
   <br>
-  E. Chen.
-  In preparation.
+  E. Chen, S. Narayanam. Submitted for publication.
 
-* *Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures*
-  [(pdf)][house]<br>
-  E. Chen.
-  To appear.
+* [Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures][house]
+  <br>
+  E. Chen. In preparation.
 
-* *Linear polychromatic colorings of hypercube faces*
-  [(pdf)][hypercube]<br>
-  E. Chen.
-  To appear.
+* [Linear polychromatic colorings of hypercube faces][hypercube]
+  <br>
+  E. Chen. Submitted for publication.
 
-* *Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication*
-  [(pdf)][linnik]<br>
+* [Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication][linnik]
+  <br>
   E. Chen, P. Park, and A. Swaminathan.
   Published in [Research in Number Theory][rnut-link].
   
-* *Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem*
-  [(pdf)][grh]<br>
+* [Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem][grh]
+  <br>
   E. Chen, P. Park, and A. Swaminathan, submitted for publication. 
   
-* *On Logarithmically Benford Sequences*
-  [(pdf)][benford]<br>
+* [On Logarithmically Benford Sequences][benford]
+  <br>
   E. Chen, P. Park, and A. Swaminathan. Published in *Proceedings of the AMS*.
 
 
@@ -96,10 +93,11 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [wpnapkin]: https://usamo.wordpress.com/napkin/
 
 [linnik]: http://arxiv.org/pdf/1506.09170
-[grh]: http://arxiv.org/pdf/1507.02629
-[benford]: http://arxiv.org/pdf/1507.07122
+[benford]: http://arxiv.org/pdf/1507.02629
+[grh]: http://arxiv.org/pdf/1507.07122
 [house]: http://arxiv.org/pdf/1608.04146
 [hypercube]: http://arxiv.org/pdf/1609.01247
+[wilf]: https://arxiv.org/pdf/1609.04626
 
 
 [rnut-link]: http://link.springer.com/article/10.1007/s40993-015-0028-0
