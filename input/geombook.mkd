@@ -67,6 +67,7 @@ If you find another one, please let me know by email.
 + On **page 35**, in the second set of aligned equations,
   change $O\_2X^2$ to $OO\_2^2$.
 + On **page 40**, the lines my also be pairwise parallel.
++ On **page 65**, Problem 4.245, change $\frac{BM}{MC}$ to $\frac{CM}{MB}$.
 + On **page 67**, in Lemma 4.33, change the second $\omega$ to $\Omega$.
 + <span style="color:red;">On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.</span>
 + On **page 92**, in Problem 5.23, when defining point $G$,
@@ -106,6 +107,7 @@ If you find another one, please let me know by email.
 + On **page 163**, switch $C^\ast$ and $D^\ast$ in the diagram.
 + On **page 163**, step 3, change $BS^\ast$ to $BC^\ast$.
 + On **page 164**, switch $S^\ast$ and $R^\ast$ in the diagram.
++ On **page 171**, Theorem 9.2, change "$\overline{AB}$ and $\overline{XY}$" to "segments $AB$ and $XY$".
 + On **page 173**, in Problem 9.4, add $k \neq 0$.
 + On **page 174-175**, in names of Lemmas 9.11-9.12,
   change "Induces" to "Induce".
