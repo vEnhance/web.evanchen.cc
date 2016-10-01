@@ -25,15 +25,34 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
 
 ### General
 * <span style="color:red;">(New)</span> <b>English</b> {{ hlink("english") }}
-  Notes on proof-writing style from teaching at MOP 2016
+  Notes on proof-writing style. These were used at MOP 2016.
   
 * <b>USAMO 2014 Contest Analysis</b> {{ hlink("USAMO2014") }}
   This describes in detail the thought process behind each of my solutions to the USAMO 2014.
   [Click here for a copy of the solutions I submitted.](http://www.mit.edu/~evanchen/upload/usamo-2014-my-sols.pdf)
 
+* <b>IMO 2014 Journal</b> {{ hlink("IMO-2014") }}
+  This describes my experiences competing as TWN2 at the 55th IMO 2014.  
+  To download the pictures in the report, locate "media" in the source folder.
+
+* <b>Taiwan TST 2014 Reflection</b> {{ hlink("TaiwanTST") }}
+  This describes my experiences competing for a position on the Taiwan IMO 2014 team.
+  It also contains an extensive commentary on each of the Team Selection Tests and Quizzes, which together
+  covered most of the 2013 IMO Shortlist.    
+  _Note:_ [Click here for English versions of the TST problems.](http://www.aops.com/community/c41558)
+
 ### Algebra and Number Theory
+* <span style="color:red;">(New)</span> <b>Introduction to Functional Equations</b> {{ hlink("FuncEq-Intro") }}
+  An introduction to functional equations for olympiad students.
+
+* <span style="color:red;">(New)</span> <b>Monsters</b> {{ hlink("Monsters") }}
+  A handout discussing pathological functional equations.
+
+* <span style="color:red;">(New)</span> <b>Summation</b> {{ hlink("Summation") }}
+  General discussion of sums and products, and how to deal with them. Includes generating functions.
+
 * <b>The Chinese Remainder Theorem</b> {{ hlink("CRT") }}
-  An article on the Chinese Remainder "Theorem", focusing in particular on constructions.
+  An article on the Chinese Remainder "Theorem".
 
 * <b>Orders Modulo a Prime</b> {{ hlink("ORPR") }}
   Article on orders and primitive roots, in particular featuring the sum of squares lemma and its generalization
@@ -73,11 +92,9 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   For students who are interested in writing their own olympiad geometry problems!
   Or more generally, anyone who is curious how my geometry problems get created.
 
-* <b>Chapter 2: Circles</b> [(pdf)][egmo2] <br>
-  Chapter 2 of [my textbook][geombook], primarily on power of a point and radical axis theorem.
-
-* <b>Chapter 8: Inversion</b> [(pdf)][egmo8] <br>
-  Chapter 8 of [my textbook][geombook], on inversion in the plane.
+Also: [chapter 2 (on power of point)][egmo2]
+or [chapter 8 (on inversion)][egmo8]
+of [my textbook][geombook].
 
 
 ### Inequalities
@@ -91,23 +108,12 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   Written in broken Traditional Chinese. Describes some "standard strategies" for handling olympiad inequalities.  
   An [hastily translated English version](handouts/Ineq/en.pdf) of this handout is now available.
 
-### Reports and Diaries
-* <b>IMO 2014 Journal</b> {{ hlink("IMO-2014") }}
-  This describes my experiences competing as TWN2 at the 55th IMO 2014.  
-  To download the pictures in the report, locate "media" in the source folder.
-
-* <b>Taiwan TST 2014 Reflection</b> {{ hlink("TaiwanTST") }}
-  This describes my experiences competing for a position on the Taiwan IMO 2014 team.
-  It also contains an extensive commentary on each of the Team Selection Tests and Quizzes, which together
-  covered most of the 2013 IMO Shortlist.    
-  _Note:_ [Click here for English versions of the TST problems.](http://www.aops.com/community/c41558)
-
+### Miscellaneous
 * <b>OMO Spring 2014 Executive Report</b> {{ hlink("OMOSpring14Report") }}
   A short report on running the Online Math Open for Spring 2014.
   This is mostly for the sake of those who will be running the future installments of the contest, as one of
   us is graduating.
 
-### Miscellaneous
 * <b>Chinese Terminology Sheet</b> {{ hlink("Chinese") }}
   These are the notes that I took when I was studying traditional Chinese in preparation
   for the Taiwan IMO selection and training camps.
