@@ -98,6 +98,7 @@ If you find another one, please let me know by email.
 + On **page 139**, Solution 7.29, change the first display to
   $0 = c^2(t-1) + (a^2-b^2) \implies t = \frac{c^2+b^2-a^2}{c^2}$.
 + On **page 140**, in the second display, $x+y$ should be $x-y$.
++ <span style="color:red;">On **page 145**, change the angle condition to $\measuredangle BC\_1A\_1 = \measuredangle ACB = \measuredangle B\_1C\_1A$.</span>
 + <span style="color:red;">On **page 146**, change $\angle PCB$ to $\angle PBC$.</span>
 + On **page 151**, at start of 8.2, in "simplest example is a just a line", delete the extra "a".
 + On **page 155**, first bullet, delete the extra comma.
