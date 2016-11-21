@@ -37,7 +37,9 @@ as well as links to other sources of problems.
 Of course, see also [Napkin](napkin.html).
 
 ### Olympiad Resources
-Some suggested *handouts* (other than [my own](olympiad.html)):
+Some suggested *handouts*:
+
+* [My own handout](olympiad.html)
 
 * [Yufei Zhao's site](http://yufeizhao.com/olympiad.html) has several excellent handouts, especially in geometry.
   I consulted many of them when I was coming up with ideas for my geometry textbook.
@@ -47,7 +49,9 @@ Some suggested *handouts* (other than [my own](olympiad.html)):
 
 * [Po-Shen Loh](http://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
 
-Some suggested *books* (other than [my geometry book](geombook.html)):
+Some suggested *books*: 
+
+* [My olympiad geometry book](geombook.html).
 
 * [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134).
 
