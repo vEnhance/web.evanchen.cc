@@ -12,12 +12,10 @@ See also [Problems](problems.html) for an archive of contest problems,
 as well as links to other sources of problems.
 
 ### Undergraduate Math and Computer Science
-* [MSci Category Theory notes](http://www.maths.ed.ac.uk/~tl/msci/) by Tom Leinster.
+* [MSci Category Theory notes](https://arxiv.org/abs/1612.09375) by Tom Leinster.
   I highly enjoyed these notes; very carefully written and explains intuition.
   Some minimal knowledge of group theory and linear algebra is used in the examples.
-  (EDIT: as of August 2015, the notes are no longer available at the link above;
-  see instead [the corresponding book](http://www.maths.ed.ac.uk/~tl/bct/).
-  An online version is planned for early 2016.)
+  See instead [the corresponding print book](http://www.maths.ed.ac.uk/~tl/bct/).
   
 * [Analytic NT notes](http://www.math.illinois.edu/~hildebr/ant/) by AJ Hildebrand.
   A set of lecture notes for analytic number theory, suitable for self-study.

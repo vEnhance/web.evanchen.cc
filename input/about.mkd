@@ -10,7 +10,6 @@ Here's a [**link to a two-page CV**](static/public-resume.pdf), minus my phone n
 ### Research Papers
 See the second section of my [publications page](publications.html).
 
-
 ### Trivia
 + Favorite olympiad subject: Geometry
 + Favorite triangle center: Symmedian point
@@ -22,7 +21,8 @@ See the second section of my [publications page](publications.html).
 + Window manager: i3
 + Favorite integer: 0
 + Digits of Pi known: About 220
-+ Favorite card game: Canadian Fish
++ Favorite standard card game: Canadian Fish
++ Favorite non-standard card game: Yomi (Sirlin)
 
 Link to [Dotfiles on GitHub](https://github.com/vEnhance/dotfiles),
 for the other Linux users reading this.
@@ -40,7 +40,7 @@ Here is how much scratch paper I used for contest preparation over my four years
 
 <img src="http://www.mit.edu/~evanchen/static/scratch.jpg" height="500">
 
-The medal on the left is the USAMO winner medal; the medal on the right is the IMO gold medal.
+The medal on the left is a USAMO winner medal; the medal on the right is an IMO gold medal.
 
 My performance on the olympiads over the years:
 
