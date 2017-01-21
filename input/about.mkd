@@ -3,9 +3,11 @@ header: About / CV
 menu-position: 10
 ---
 
-I am an undergraduate at MIT, majoring in mathematics. My expected graduation date is 2018.
+I am an undergraduate at MIT, majoring in mathematics.
+My expected graduation date is 2018.
 
-Here's a [**link to a two-page CV**](static/public-resume.pdf), minus my phone number and address.
+Here's a [**link to a two-page CV**](static/public-resume.pdf),
+minus my phone number and address.
 
 ### Research Papers
 See the second section of my [publications page](publications.html).
@@ -26,7 +28,6 @@ See the second section of my [publications page](publications.html).
 
 Link to [Dotfiles on GitHub](https://github.com/vEnhance/dotfiles),
 for the other Linux users reading this.
-
 
 ### Math Contest History
 During my time as a high school student, I participated extensively on mathematical olympiads.

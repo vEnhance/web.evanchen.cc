@@ -14,8 +14,6 @@ indent: 1
 You can also [get a PDF][ebook].**
 </span>
 
-Information on hard copies forthcoming.
-
 This is a comprehensive problem-solving book in Euclidean geometry.
 It was written for competitive students who are training for national
 or international mathematical olympiads.
