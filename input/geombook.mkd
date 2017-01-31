@@ -1,6 +1,6 @@
-title: Geometry Book
+title: Geometry Book (EGMO)
 menu-position: 41
-header: Euclidean Geometry in Mathematical Olympiads
+header: Euclidean Geometry in Mathematical Olympiads (EGMO)
 indent: 1
 
 ---
@@ -14,8 +14,10 @@ indent: 1
 You can also [get a PDF][ebook].**
 </span>
 
-This is a comprehensive problem-solving book in Euclidean geometry.
-It was written for competitive students who are training for national
+*Euclidean Geometry in Mathematical Olympiads* (often abbreviated *EGMO*,
+despite [an olympiad having the same name][girls])
+is a comprehensive problem-solving book in Euclidean geometry.
+It was written for competitive students training for national
 or international mathematical olympiads.
 However it has no prerequisites other than a good deal of courage:
 any student who is interested in the subject matter
@@ -26,7 +28,7 @@ and is accompanied by about 250 figures.
 
 ### Prerequisites and sample chapters
 There are essentially no geometry prerequisites;
-my book is **entirely self-contained**.
+EGMO is **entirely self-contained**.
 (This was one of the design goals.)
 The main limiting factor is instead the ability to **read proofs**;
 as long as you can follow mathematical arguments,
@@ -318,3 +320,4 @@ Here is the most recent table of contents.
 [googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&hl=zh-TW&pg=PP1#v=onepage&q&f=false
 [amazon]: https://smile.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/0883858398?ie=UTF8&*Version*=1&*entries*=0
 [hardcopy]: http://www.maa.org/press/books/euclidean-geometry-in-mathematical-olympiads
+[girls]: https://www.egmo.org/
