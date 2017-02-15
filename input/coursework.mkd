@@ -26,6 +26,9 @@ The Dropbox links will expire at the end of each semester. -->
 * **(18.217) Combinatorial Theory** [(official notes)](http://www.cis.upenn.edu/~cis610/sp06stanley.pdf)<br> 
   Taught by Richard Stanley. Fall 2015.
 
+* **(18.217) Topics in Combinatorics** [(temporary link)](https://www.dropbox.com/s/zipwgw3ljkr7sjd/MIT-18-218.pdf?dl=1)<br> 
+  Taught by Richard Stanley. Spring 2017.
+
 * **(18.434) Seminar in Theoretical CS** [(official notes)](http://math.mit.edu/~yuanzhou/teaching/18.434sp16/)<br>
   Taught by Yuan Zhou. Spring 2016.
 
@@ -41,14 +44,17 @@ The Dropbox links will expire at the end of each semester. -->
 * **(24.244) Modal Logic**<br>
   Taught by Stephen Yablo. Fall 2016.
 
-* **(SCUM) Student Colloqium in Mathematics** [(pdf)](notes/SCUM.pdf)<br>
-  Not a class, but free dinner and math lectures every Wednesday.
+* **(6.849) Geometric Folding Algorithms** [(course website)](http://courses.csail.mit.edu/6.849/spring17/)<br>
+  Taught by Erik Demaine, along with Martin Demaine, Jason Ku. Spring 2017.
 
 * **(14.12) Economic Applications of Game Theory** <br>
   Taught by Glenn Ellison. Fall 2015.
 
 * **(14.16) Strategy and Information** <br>
   Taught by Mihai Manea. Spring 2016.
+
+* **(SCUM) Student Colloqium in Mathematics** [(pdf)](notes/SCUM.pdf)<br>
+  Not a class, but free dinner and math lectures every Wednesday.
 
 ## Harvard College
 * **(Math 55a) Honors Abstract and Linear Algebra** [(pdf)](notes/Harvard-55a.pdf)<br>
@@ -69,7 +75,7 @@ The Dropbox links will expire at the end of each semester. -->
 * **(Math 145b) Set Theory II** [(pdf)](notes/Harvard-145b.pdf)<br>
   Taught by Peter Koellner. Spring 2015.
 
-* **(CS 125) Algorithms and Complexity** [(official notes)](http://people.seas.harvard.edu/~cs125/index.html)<br>
+* **(CS 125) Algorithms and Complexity** [(course website)](http://people.seas.harvard.edu/~cs125/index.html)<br>
   Taught by Michael Mitzenmacher and Salil Vadhan. Fall 2014.
 
 
