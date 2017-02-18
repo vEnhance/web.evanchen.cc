@@ -26,8 +26,8 @@ The Dropbox links will expire at the end of each semester. -->
 * **(18.217) Combinatorial Theory** [(official notes)](http://www.cis.upenn.edu/~cis610/sp06stanley.pdf)<br> 
   Taught by Richard Stanley. Fall 2015.
 
-* **(18.217) Topics in Combinatorics** [(temporary link)](https://www.dropbox.com/s/zipwgw3ljkr7sjd/MIT-18-218.pdf?dl=1)<br> 
-  Taught by Richard Stanley. Spring 2017.
+* **(18.218) Topics in Combinatorics** [(temporary link)](https://www.dropbox.com/s/zipwgw3ljkr7sjd/MIT-18-218.pdf?dl=1)<br> 
+  Taught by Alex Postnikov. Spring 2017.
 
 * **(18.434) Seminar in Theoretical CS** [(official notes)](http://math.mit.edu/~yuanzhou/teaching/18.434sp16/)<br>
   Taught by Yuan Zhou. Spring 2016.
