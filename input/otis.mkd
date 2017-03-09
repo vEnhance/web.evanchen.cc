@@ -1,0 +1,74 @@
+title: Tutoring (OTIS)
+header: Olympiad Training for Individual Students (OTIS)
+menu-position: 12
+indent: 1
+
+---
+
+Since 2015, I have run a small,
+informal tutoring program during the school year
+for students aiming to do well on the USA(J)MO,
+now informally called *OTIS*.
+This page has details for interested students.
+[See here for some thoughts on tutoring philosophy.][tutor]
+
+### Synopsis
+OTIS is centered around two-week topic units
+which I pick for each student based on their background.
+Each unit comes with a homework set of 5-8 olympiad problems.
+Students are expected to keep in regular contact with me
+about these homework problems.
+Additionally practice exams are assigned each month.
+
+Typically, I meet with students over Google Hangouts
+either every week or every two weeks, for 60-90 minutes.
+I use LaTeX-Beamer as a blackboard and so full transcripts are posted
+immediately after each session.
+
+### Prerequisites
+You should be comfortable reading and writing proofs,
+and able to confidently qualify for national olympiad.
+(e.g. scoring 10+ on AIME).
+
+There is also a summer homework packet that accepted students
+will be required to work on,
+which includes reading from [my textbook EGMO][geombook].
+
+### How to join
+If you are interested in joining OTIS,
+please **email me the following by April 30**.
+
+* Your name, grade, and school
+* Any relevant contest scores and history
+* If you have taken USA(J)MO or TSTST before, indicate which problems you solved.
+* Subject preferences, like "strong geo, weak at algebra"
+* Goals for the year, like "make MOP".
+  (This can be rough, just a guideline for me.)
+* Preference for meeting every week or every two weeks.
+
+I do the selection for students for Fall $N$ and Spring $N+1$
+during early May of year $N$, shortly after the grading of the USAMO.
+So be sure to send me an email by the end of April $N$ if you're interested.
+
+Note that each year I get about twice as many students as I can actually accept,
+so unfortunately I am not able to accommodate all requests.
+
+### History
+I started tutoring in 2015 when a group of parents
+from Phillips Andover emailed me in April 2015,
+asking if I'd be interested in coaching a group of five of their students.
+At the time I called it Andover Olympiad Training.
+Since then more and more requests have come to me.
+
+I think the norm is to brag about my students now, so
+here are some of my students who have done exceptionally well.
+
+* **Zack Chroman**: MOP 2016, TST group 2017,
+  [RMM 2017 (silver)](http://rmms.lbi.ro/rmm2017/index.php?id=results_math)
+* **Michael Ren**: TST group 2017,
+  [RMM 2017 (HM)](http://rmms.lbi.ro/rmm2017/index.php?id=results_math)
+* **Annie Siye Zhu**: MOP 2016, TST group 2017,
+  [EGMO 2017 team](https://www.egmo.org/registration/2017/person212)
+
+[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+[geombook]: geombook.html
