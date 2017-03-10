@@ -5,12 +5,16 @@ indent: 1
 
 ---
 
+<img src="static/calvin-education.gif" />
+
 Since 2015, I have run a small,
 informal tutoring program during the school year
 for students aiming to do well on the USA(J)MO,
 now informally called *OTIS*.
-This page has details for interested students.
-[See here for some thoughts on tutoring philosophy.][tutor]
+Typically I take around 12 students per year.
+
+This page has details for interested students, but also
+[see here for some thoughts on tutoring philosophy][tutor].
 
 ### Synopsis
 OTIS is centered around two-week topic units
@@ -27,7 +31,7 @@ immediately after each session.
 
 ### Prerequisites
 You should be comfortable reading and writing proofs,
-and able to confidently qualify for national olympiad.
+and able to confidently qualify for national olympiad
 (e.g. scoring 10+ on AIME).
 
 There is also a summer homework packet that accepted students
@@ -40,7 +44,7 @@ though we will have to work out details for time zones in advance.
 ### Rate
 $80(H+5)$ USD per semester,
 where $H$ is number of hours.
-(In reality per-hour rates [don't make much sense][tutor],
+(In reality [per-hour rates don't make much sense][tutor],
 but I want to keep things simple here.)
 
 ### How to join
@@ -55,29 +59,33 @@ please email me the following information:
   (This can be rough, just a guideline for me.)
 * Preference for meeting every week or every two weeks.
 
-Note that each year I get many more students than I have space for,
+Note that each year I get many more students than I have space or time for,
 so unfortunately I am not able to accommodate all requests.
-I do selection for students for Fall $N$ / Spring $N+1$
-starting early May of year $N$, shortly after the grading of that year's USAMO.
+I begin choosing my students for Fall $N$ and Spring $N+1$
+starting May of year $N$, shortly after the grading of that year's USAMO,
+so you should try to email me before the end of April.
 
 ### History
 I started tutoring in 2015 when a group of parents
 from Phillips Andover emailed me in April 2015,
 asking if I'd be interested in coaching a group of five of their students.
-At the time I called it Andover Olympiad Training.
-Since then more and more requests have come to me.
+At the time I called it "Andover Olympiad Training" for obvious reasons.
+Since then more and more requests have come to me,
+and I now teach students from both coasts.
 
-I think the norm is to brag about my students now, so
-here are some of my students who have done exceptionally well.
-(Of course many of these students were already strong
-even before they joined my program!)
+I think the norm is to brag about my students now
+(proud *sensei*, right?), so here we are.
+Of course many of these students
+were already strong even before meeting me!
 
-* **Zack Chroman**: MOP 2016, TST group 2017,
+* *Zack Chroman*: MOP 2016, TST group 2017,
   [RMM 2017 (silver)](http://rmms.lbi.ro/rmm2017/index.php?id=results_math)
-* **Michael Ren**: TST group 2017,
+* *Michael Ren*: TST group 2017,
   [RMM 2017 (HM)](http://rmms.lbi.ro/rmm2017/index.php?id=results_math)
-* **Annie Siye Zhu**: MOP 2016, TST group 2017,
+* *Annie Siye Zhu*: MOP 2016, TST group 2017,
   [EGMO 2017 team](https://www.egmo.org/registration/2017/person212)
+
+(These are listed with permission.)
 
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
 [geombook]: geombook.html
