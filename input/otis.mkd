@@ -34,9 +34,18 @@ There is also a summer homework packet that accepted students
 will be required to work on,
 which includes reading from [my textbook EGMO][geombook].
 
+English-speaking students from countries other than USA are welcome too;
+though we will have to work out details for time zones in advance.
+
+### Rate
+$80(H+5)$ USD per semester,
+where $H$ is number of hours.
+(In reality per-hour rates [don't make much sense][tutor],
+but I want to keep things simple here.)
+
 ### How to join
 If you are interested in joining OTIS,
-please **email me the following by April 30**.
+please email me the following information:
 
 * Your name, grade, and school
 * Any relevant contest scores and history
@@ -46,12 +55,10 @@ please **email me the following by April 30**.
   (This can be rough, just a guideline for me.)
 * Preference for meeting every week or every two weeks.
 
-I do the selection for students for Fall $N$ and Spring $N+1$
-during early May of year $N$, shortly after the grading of the USAMO.
-So be sure to send me an email by the end of April $N$ if you're interested.
-
-Note that each year I get about twice as many students as I can actually accept,
+Note that each year I get many more students than I have space for,
 so unfortunately I am not able to accommodate all requests.
+I do selection for students for Fall $N$ / Spring $N+1$
+starting early May of year $N$, shortly after the grading of that year's USAMO.
 
 ### History
 I started tutoring in 2015 when a group of parents
@@ -62,6 +69,8 @@ Since then more and more requests have come to me.
 
 I think the norm is to brag about my students now, so
 here are some of my students who have done exceptionally well.
+(Of course many of these students were already strong
+even before they joined my program!)
 
 * **Zack Chroman**: MOP 2016, TST group 2017,
   [RMM 2017 (silver)](http://rmms.lbi.ro/rmm2017/index.php?id=results_math)
