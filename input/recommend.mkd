@@ -39,11 +39,16 @@ Some suggested *handouts*:
 
 * [My own handout](olympiad.html)
 
-* [Yufei Zhao's site](http://yufeizhao.com/olympiad.html) has several excellent handouts, especially in geometry.
-  I consulted many of them when I was coming up with ideas for my geometry textbook.
-  In particular, [the Cyclic Quadrilaterals handout](http://yufeizhao.com/olympiad/cyclic_quad.pdf) is especially worth reading.
+* [Yufei Zhao's site](http://yufeizhao.com/olympiad.html) has several excellent handouts,
+  especially in geometry.
+  I consulted many of them when I was coming up
+  with ideas for my geometry textbook.
+  In particular, [the Cyclic Quadrilaterals handout](http://yufeizhao.com/olympiad/cyclic_quad.pdf)
+   is especially worth reading.
 
-* [Alexander Remorov](http://www.mit.edu/~alexrem/Math%20Competitions.html), in particular the [projective geometry handout](http://www.mit.edu/~alexrem/ProjectiveGeometry.pdf).
+* [Alexander Remorov](http://alexanderrem.weebly.com/math-competitions.html),
+  in particular the projective geometry handout,
+  which the corresponding chapter in my textbook is based off of.
 
 * [Po-Shen Loh](http://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
 
