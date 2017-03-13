@@ -1,6 +1,7 @@
 title: About / CV
 header: About / CV
 menu-position: 10
+
 ---
 
 I am an undergraduate at MIT, majoring in mathematics.
@@ -31,8 +32,11 @@ for the other Linux users reading this.
 
 ### Math Contest History
 During my time as a high school student, I participated extensively on mathematical olympiads.
-I was a USAMO winner in 2014 (score 41) and earned a gold medal as _TWN2_
+I was a USAMO winner in 2014 (score 41) and earned a [gold medal as TWN2][imo]
 at the 55th IMO 2014 in Cape Town, South Africa.
+[See here for all my past scores.](myscores.html)
+
+
 I also attended the 30th Research Science Institute in 2013.
 
 <img src="https://lh3.googleusercontent.com/yjttKrW9tFVAKRX7dIvcA7-Yf-BdEl0qJ-H5SZZ4hZHgLbBRjO_nHu-v9pZxpiFq2W_QOlTtUT9yDYVXyy5FicivicISwOoNWsbYGXFIs2tPBJYrhcMC9BFvx_KOxIrTiJa1_2nWa7VHsTOw4XBfGKCIRHTJdTnnP_p-uQCTa45zPK3kNhGLXAoEQ4-rYtCeSBXwZBrtMhzWSSj1Jo0_0SKVCDDEIoLESyJ13GjNH8rO4ex0HUbUfRZnuiIS3GqZfZ0WTjnTbXYFUIz0Te2lV9m2OTpoerO7e1K6S2STVoEO4y43F4yzZ9vU24XIZapW0MIobqE0vwl1E0moKDKEhyeQasNQPDCSWtAeQBPhCa3OeDGG6vrh3fxWI_vEXjo0PNv3CNFEuhTzn3fUu_Tn1x0dAJWRkahHOLhcQmJeb6H-vMeBvZ_u8v3uaE51ExM0nKq1Xj-b-bOhqF9j5u_w9omlozi37LbXFHVulyatRc67VqB5e8SpA1thm2B6Yix16Ms9zZWDxh1RAivT_tQ1laP0nAp9x8uxqeXar-IdbKJ3LDKd3VpWYp7sBnTb5FcrBbcIKzJb6sF2YSVtPBmeQbUBSnIOVf_jqJr9TO-22kDNWM74QtbrocHkcWIHU67DTFiEz1CrVmVjzsZLL7FYJc5SPd1o_Dq4Ogp4u9F3dv8=w1400-h922-no" height="250">
@@ -44,11 +48,5 @@ Here is how much scratch paper I used for contest preparation over my four years
 
 The medal on the left is a USAMO winner medal; the medal on the right is an IMO gold medal.
 
-My performance on the olympiads over the years:
 
-+ JMO 2010: 37
-+ JMO 2011: 29
-+ USAMO 2012: 21
-+ USAMO 2013: 8
-+ USAMO 2014: 41
-+ IMO 2014: 36
+[imo]: http://imo-official.org/participant_r.aspx?id=24870
