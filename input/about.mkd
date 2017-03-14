@@ -7,7 +7,7 @@ menu-position: 10
 I am an undergraduate at MIT, majoring in mathematics.
 My expected graduation date is 2018.
 
-Here's a [**link to a two-page CV**](static/public-resume.pdf),
+Here's a [**link to a two-page CV**](upload/public-resume.pdf),
 minus my phone number and address.
 
 ### Research Papers

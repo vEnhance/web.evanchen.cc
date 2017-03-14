@@ -85,7 +85,7 @@ where I talk about some of philosophy for tutoring.
 [right]: http://artofproblemsolving.com/community/c5h520900
 [shower]: http://www.paulgraham.com/top.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
-[usa2003]: upload/usamo-2003-rubric.pdf
+[usa2003]: exams/usamo-2003-rubric.pdf
 [usamts]: http://usamts.org/index.php
 [wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
 [wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
