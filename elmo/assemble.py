@@ -1,7 +1,7 @@
 import yaml
 
 # Script constants
-BASE = r"http://www.mit.edu/~evanchen/elmo/"
+BASE = r"http://www.evanchen.cc/elmo/"
 #BASE = r"file:///home/evan/Documents/www/elmo/"
 YEAR_PREV = 2016
 YEAR_NEXT = 2017

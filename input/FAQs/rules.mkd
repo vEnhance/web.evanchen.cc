@@ -188,5 +188,5 @@ since exactly 12 winners are invited to the state dinner.
 
 [amc]: http://www.maa.org/math-competitions
 [usa2003]: upload/usamo-2003-rubric.pdf
-[taiwan]: http://www.mit.edu/~evanchen/handouts/TaiwanTST/TaiwanTST.pdf
+[taiwan]: handouts/TaiwanTST/TaiwanTST.pdf
 [hooklength]: https://usamo.wordpress.com/2016/04/21/against-hook-length-on-usamo-20162/

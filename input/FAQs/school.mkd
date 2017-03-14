@@ -111,6 +111,6 @@ That being said, if you still want to work on research projects,
 then you should probably try to reach out to professors at schools near you.
 See also [PRIMES](https://math.mit.edu/research/highschool/primes/index.php).
 
-[notes]: http://www.mit.edu/~evanchen/coursework.html
+[notes]: coursework.html
 [euler]: http://eulercircle.com/research/thoughts-on-research/
 [tuition]: http://web.mit.edu/facts/tuition.html

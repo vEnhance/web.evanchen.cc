@@ -1,5 +1,5 @@
 title: Home
-header: MIT Homepage of Evan Chen
+header: Homepage of Evan Chen
 menu-position: 0
 ---
 

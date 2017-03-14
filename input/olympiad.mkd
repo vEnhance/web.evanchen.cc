@@ -29,7 +29,7 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   
 * <b>USAMO 2014 Contest Analysis</b> {{ hlink("USAMO2014") }}
   This describes in detail the thought process behind each of my solutions to the USAMO 2014.
-  [Click here for a copy of the solutions I submitted.](http://www.mit.edu/~evanchen/upload/usamo-2014-my-sols.pdf)
+  [Click here for a copy of the solutions I submitted.](upload/usamo-2014-my-sols.pdf)
 
 * <b>IMO 2014 Journal</b> {{ hlink("IMO-2014") }}
   This describes my experiences competing as TWN2 at the 55th IMO 2014.  
@@ -67,8 +67,8 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
 
 ### Geometry
 * <b>Barycentric Coordinates in Olympiad Geometry</b>
-  [(full)](http://www.mit.edu/~evanchen/handouts/bary/bary-full.pdf)
-  [(abridged)](http://www.mit.edu/~evanchen/handouts/bary/bary-short.pdf) <br>
+  [(full)](handouts/bary/bary-full.pdf)
+  [(abridged)](handouts/bary/bary-short.pdf) <br>
   One of my most famous handouts. Introduces from scratch the method of barycentric coordinates.
   A cleaned-up version of it is found in the draft of my geometry textbook.
 

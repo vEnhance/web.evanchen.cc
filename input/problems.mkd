@@ -54,7 +54,7 @@ For an explanation of the name, see [the FAQ on the USA IMO team selection](FAQs
 * JMO 2016   [(problems)](upload/USAJMO-2016.pdf) [(solutions)](upload/Solutions-USAMO-JMO-2016.pdf)
 
 ### Links to other contests
-* [ELMO](http://www.mit.edu/~evanchen/elmo/problems.html)
+* [ELMO](elmo/problems.html)
 * [European Girls' MO](https://www.egmo.org/egmos/)
 * [Harvard-MIT Math Tournament](https://www.hmmt.co/archive/problems/)
 * [Romania Masters in Mathematics](http://rmms.lbi.ro/)

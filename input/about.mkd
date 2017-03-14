@@ -44,7 +44,7 @@ I also attended the 30th Research Science Institute in 2013.
 
 Here is how much scratch paper I used for contest preparation over my four years of high school.
 
-<img src="http://www.mit.edu/~evanchen/static/scratch.jpg" height="500">
+<img src="static/scratch.jpg" height="500">
 
 The medal on the left is a USAMO winner medal; the medal on the right is an IMO gold medal.
 
