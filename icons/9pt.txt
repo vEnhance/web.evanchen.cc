@@ -1,0 +1,15 @@
+!size(12cm);
+
+A := dir 110
+B := dir 210
+C := dir 330
+D := foot A B C
+E := foot B C A
+F := foot C A B
+
+A--B--C--cycle 0.9 heavycyan / blue+2
+A--D blue+2
+B--E blue+2
+C--F blue+2
+
+circumcircle D E F 0.4 lightgreen / heavygreen+2
