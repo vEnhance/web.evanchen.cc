@@ -62,7 +62,7 @@ so I am quite proficient with both.
 If you like my writing and are comfortable with proofs,
 try my [Napkin](napkin.html).
 It was basically written to answer this question.
-Other possible references are mentioned in [Recommendations][recommend.html].
+Other possible references are mentioned in [Recommendations](recommend.html).
 
 <br>
 
