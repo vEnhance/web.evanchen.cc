@@ -2,6 +2,7 @@ title: Napkin
 menu-position: 42
 header: The Napkin Project
 indent: 1
+description: Description of Napkin project, a free book covering all sorts of higher math.
 
 ---
 

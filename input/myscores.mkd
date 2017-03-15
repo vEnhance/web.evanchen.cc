@@ -1,5 +1,6 @@
 title: Contest History
 header: My Contest Scores
+description: Records of my high school contest scores, for comedic value.
 
 ---
 

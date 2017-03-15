@@ -2,6 +2,7 @@ title: Geo Book (EGMO)
 menu-position: 41
 header: Euclidean Geometry in Mathematical Olympiads (EGMO)
 indent: 1
+description: Synopsis and errata for EGMO geometry textbook for math olympiad students.
 
 ---
 

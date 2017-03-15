@@ -1,5 +1,7 @@
 title: Personal FAQ's
 header: Personal FAQ's
+description: Some FAQ's about math contests and my personal life.
+
 ---
 
 [Return to FAQ Index.](faqs.html)

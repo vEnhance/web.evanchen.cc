@@ -1,6 +1,9 @@
 title: Publications
 header: Publications, Research Papers, and Lectures
 menu-position: 40
+description: Mathematical research papers and lecture notes by Evan Chen.
+
+
 ---
 
 Here is information are my various research papers,

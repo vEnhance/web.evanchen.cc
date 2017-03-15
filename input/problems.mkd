@@ -2,6 +2,8 @@ title: Problems
 menu-position: 21
 header: Problems 
 indent: 1
+description: Archive of PDF's of math olympiad problems.
+
 ---
 
 On this page I maintain archives of problems from various contests I enjoy.

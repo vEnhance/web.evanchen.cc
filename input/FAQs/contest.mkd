@@ -1,5 +1,7 @@
 title: Math Contest FAQ's:
 header: Math Contest FAQ's
+description: Some FAQ's about math contests and my personal life.
+
 ---
 
 [Return to FAQ Index.](faqs.html)

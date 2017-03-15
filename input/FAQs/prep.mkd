@@ -1,9 +1,0 @@
-title: Contest Prep FAQ's
-header: Contest Prep FAQ's
----
-
-[Return to FAQ Index.](faqs.html)
-
-The contents of this page have been merged with
-[Contest FAQ](FAQs/contest.html) and
-[Personal FAQ](FAQs/personal.html).

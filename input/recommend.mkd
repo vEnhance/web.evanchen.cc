@@ -1,6 +1,8 @@
 title: Recommendations
 header: Reading Recommendations
 menu-position: 80
+description: Links to references and readings that I enjoyed.
+
 ---
 
 The world would be a great place if I could write about everything I knew about, but alas I have a finite amount of time.

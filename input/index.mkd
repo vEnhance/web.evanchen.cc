@@ -1,6 +1,8 @@
 title: Home
 header: Homepage of Evan Chen
 menu-position: 0
+description: Homepage of Evan Chen. Course notes, olympiad materials, writings, CV, and some trivia.
+
 ---
 
 Hi, welcome to my site! 

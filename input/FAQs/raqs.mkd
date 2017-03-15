@@ -1,5 +1,7 @@
 title: Rarely Asked Questions
 header: Rarely Asked Questions
+description: Some FAQ's about math contests and my personal life.
+
 ---
 
 [Return to FAQ Index.](faqs.html)
