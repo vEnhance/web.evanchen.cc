@@ -77,7 +77,7 @@ out of the many requests that I get sent.
 If you'd like to be included in this list of candidates,
 please email me the following information by the end of April:
 
-* Your name, grade, and school
+* Your name, grade, school, and time zone
 * Any relevant contest history/scores
 * If you have taken USA(J)MO or TSTST before, indicate which problems you solved.
 * Subject preferences, like "strong geo, weak at algebra"
