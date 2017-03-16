@@ -11,12 +11,14 @@ I am an MIT undergraduate, class of 2018.
 + If you're interested in math olympiads, see [my olympiad math handouts](olympiad.html).
 + If you're looking for other math reads,
   you might try [my course notes](coursework.html) or [other resources](recommend.html).
-+ If you want to find about more about me or my work,
++ If you want to find out more about me or my work,
   you should check my [about page](about.html) and my [list of publications](publications.html).
 + If you're looking for my blog, [here it is](http://blog.evanchen.cc).
 
-I do math and not code:
+I am an avid fan of Euclidean geometry.
 
-![Code is hard](http://stilldrinking.org/blog_images/code-horror.gif)
+<center>
+<img src="static/home-art.png" width="300">
+</center>
 
 That's about all.
