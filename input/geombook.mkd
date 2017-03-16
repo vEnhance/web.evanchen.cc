@@ -164,6 +164,7 @@ If you find another one, please let me know by email.
 + On **page 246**, in Solution 1.50, one also needs to check $A$, $P$, $W$ are collinear.
   Thus, add the remark $\measuredangle NPA = \measuredangle NMA = \measuredangle NMC = \measuredangle BNC = \measuredangle BNW = \measuredangle NPW$.
 + On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
++ On **page 259**, in Solution 6.36, change $ab-1$ to $ab+1$ and follow through.
 + On **page 262**, there is a minus sign missing on fifth display.
   Carrying through, we actually get $x = h - \frac{bc(a+b+c)}{b^2+bc+c^2}$ instead,
   id est we want $x/h = 1 - \frac{bc}{b^2+bc+c^2}$ to be real.
