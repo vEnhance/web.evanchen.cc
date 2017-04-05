@@ -45,9 +45,6 @@ The Dropbox links will expire at the end of each semester. -->
 * **(24.244) Modal Logic**<br>
   Taught by Stephen Yablo. Fall 2016.
 
-* **(6.849) Geometric Folding Algorithms** [(course website)](http://courses.csail.mit.edu/6.849/spring17/)<br>
-  Taught by Erik Demaine, along with Martin Demaine, Jason Ku. Spring 2017.
-
 * **(14.12) Economic Applications of Game Theory** <br>
   Taught by Glenn Ellison. Fall 2015.
 
