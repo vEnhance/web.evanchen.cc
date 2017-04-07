@@ -51,7 +51,7 @@ If you find another one, please let me know by email.
 + On **page xi**, append a comma after "lectures at MOP".
 + On **page xiv**, second bullet, the phrase "intersection the medians" is missing "of".
 + On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
-+ On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCD=90^{\circ}$".
++ On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCB=90^{\circ}$".
 + On **page 18**, in problem 1.37, delete the word "again" in the definition of $Q$.
 + On **page 19**, in problem 1.45, change "ray $BI$" to "the $\angle B$-bisector".
 + On **page 24**, in Problem 2.2, change $\measuredangle BCA = \measuredangle YZX$
