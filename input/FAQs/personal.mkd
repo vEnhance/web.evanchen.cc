@@ -45,7 +45,6 @@ from books or classes from Art of Problem Solving, like
 <br>
 
 ### How did you compete on the Taiwan IMO team?
-
 I live in the United States, but am also a citizen of Taiwan,
 where both my parents are from.
 So in the spring of 2014,
@@ -54,10 +53,12 @@ rather than going to my high school classes.
 
 <br>
 
-### When did you start preparing for math contests?
+### How long did it take you to X?
 I started training seriously starting in the 2009-2010 school year,
 when I was in eighth grade.
 I had participated casually the year before that.
+
+[See here for a listing of my contest history.][myscores]
 
 <br>
 
@@ -65,15 +66,7 @@ I had participated casually the year before that.
 I'm flattered that this made it onto the FAQ.
 There's only one of me, so I usually don't have room,
 but you are welcome to ask me (by email); you might get lucky.
-
-I generally teach at the level of olympiads, i.e. students who
-can usually score 10+ on the AIME,
-are comfortable with reading/writing proofs,
-and are hoping to make progress on USA(J)MO.
-
-If interested, you should first read [this blog post of mine first][tutor],
-where I talk about some of philosophy for tutoring.
-
+See [my teaching page][otis] for more details.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: http://artofproblemsolving.com/articles/how-to-write-solution
@@ -83,7 +76,9 @@ where I talk about some of philosophy for tutoring.
 [geoff]: http://people.bath.ac.uk/masgcs/geo.pdf
 [geombook]: geombook.html
 [howproof]: http://zimmer.csufresno.edu/~larryc/proofs/proofs.html
+[otis]: otis.html
 [mistakes]: http://www.artofproblemsolving.com/articles/stupid-mistakes
+[myscores]: myscores.html
 [right]: http://artofproblemsolving.com/community/c5h520900
 [shower]: http://www.paulgraham.com/top.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/

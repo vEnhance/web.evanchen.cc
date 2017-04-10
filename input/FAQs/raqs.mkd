@@ -121,8 +121,6 @@ they end up underperforming. This is clearly a losing situation.
 
 ### Would it help to have a tutor/mentor for olympiad math?
 
-It's interesting that this is an RAQ, while "can you tutor my child?" is an FAQ.
-
 Short answer: yes, but not in the ways people often expect.
 Long answer: [this blog post][tutor].
 

@@ -37,20 +37,16 @@ most talented and motivated math students in the country
 on the same problems that I loved so much back in high school.
 I have the best job in the world.
 
-### Awards
-Here is a list of some of the accomplishments of my past students,
-listed with permission.
+### Some Alumni
+Here are some showings of my students at national/international olympiads.
 This is not a claim that these students performed well *because* of me;
 all of them were already strong before joining my program,
-and I think they would likely have done well even if without me.
+and I think they would likely have done well even without me.
 But *sensei* is still super proud of his kids nonetheless.
 
-+ *Zack Chroman*: MOP 2016, TST group 2017,
-  [RMM 2017 (silver)](http://rmms.lbi.ro/rmm2017/index.php?id=results_math)
-+ *Michael Ren*: TST group 2017,
-  [RMM 2017 (HM)](http://rmms.lbi.ro/rmm2017/index.php?id=results_math)
-+ *Annie Siye Zhu*: MOP 2016, TST group 2017,
-  [EGMO 2017 team](https://www.egmo.org/registration/2017/person212)
++ Zack Chroman ([RMM 2017](http://rmms.lbi.ro/rmm2017/index.php?id=results_math))
++ Michael Ren ([RMM 2017](http://rmms.lbi.ro/rmm2017/index.php?id=results_math))
++ Annie Siye Zhu ([EGMO 2017](https://www.egmo.org/registration/2017/person212))
 
 ### How it works
 OTIS is centered around two-week topic units

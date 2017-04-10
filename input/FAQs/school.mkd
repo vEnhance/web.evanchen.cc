@@ -16,6 +16,14 @@ Long answer: [See here](https://usamo.wordpress.com/2015/06/28/transferring/).
 
 <br>
 
+### I'm interested in learning some higher math. Where can I start?
+If you like my writing and are comfortable with proofs,
+try my [Napkin](napkin.html).
+It was basically written to answer this question.
+Other possible references are mentioned in [Recommendations](recommend.html).
+
+<br>
+
 ### How is MIT?
 [Unreasonably expensive][tuition], but otherwise fine.
 
@@ -27,7 +35,7 @@ My personal opinion is that college classes are just there as a formality;
 most of the value of college comes from the people there.
 Moreover, I always find it more efficient to learn something myself.
 
-In particular, I estimate that **maybe only 15%-25% of the math
+In particular, I estimate that **maybe only 25% of the math
 I know is from classes; the rest of it is self-taught**.
 I identify strongly with Mark Twain when he says that
 he doesn't let school interfere with his education.
@@ -60,14 +68,6 @@ so I am quite proficient with both.
 
 <br>
 
-### I'm interested in learning some higher math. Where can I start?
-If you like my writing and are comfortable with proofs,
-try my [Napkin](napkin.html).
-It was basically written to answer this question.
-Other possible references are mentioned in [Recommendations](recommend.html).
-
-<br>
-
 ### How did you take undergraduate / graduate math classes in high school?
 
 To set the record straight: in high school I five classes from
@@ -97,17 +97,19 @@ rather than working on the kind of artificial "problems" that
 high school research is often concerned with.
 
 Some excerpts from [Euler Circle][euler] which I agree with:
+
 > You may be familiar with high-school "research" in biology,
 > where a high-school student works in a lab over a summer,
 > mostly doing menial tasks like cleaning test tubes,
 > and is rewarded with a paper to publish or to present in
-> science fair competitions. . . . There is no mathematical equivalent
-> of cleaning test tubes.
+> science fair competitions. . . .
+> There is no mathematical equivalent of cleaning test tubes.
 >
 > **You simply cannot expect to work for a few months over the summer
 > and have something to show for it.** An exceptional high-school student
 > should expect to spend around 1000 hours over the course of two years
-> on research in order to have a reasonable (but far from certain) chance of producing a publishable paper. 
+> on research in order to have a reasonable (but far from certain)
+> chance of producing a publishable paper. 
 
 That being said, if you still want to work on research projects,
 then you should probably try to reach out to professors at schools near you.
