@@ -146,6 +146,7 @@ If you find another one, please let me know by email.
 + On **page 223**, hint 77, replace "$\measuredangle CMN = \measuredangle BMN$"
   with "$\measuredangle CNM = \measuredangle BNM$".
 + On **page 223**, hint 96 is wrong (see page 274 correction below).
++ On **page 223**, hint 101, change "Lemma 1.17" to "Lemma 1.18".
 + On **page 224**, hint 112 is wrong (see page 274 correction below).
 + On **page 225**, hint 164 should be: let $X = \overline{EF} \cap \overline{BC}$ and $Y = \overline{AD} \cap \overline{EF}$, show $(X,Y;E,F) = -1$.
 + On **page 226**, hint 185, replace "$\angle WXY = 40^{\circ}$"
