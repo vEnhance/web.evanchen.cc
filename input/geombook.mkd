@@ -322,7 +322,7 @@ Here is the most recent table of contents.
 [cover]: http://www.maa.org/sites/default/files/images/ebooks/problem_books/EGMO.png
 [egmo2]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
 [egmo8]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
-[googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&hl=zh-TW&pg=PP1#v=onepage&q&f=false
+[googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false
 [amazon]: https://smile.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/0883858398?ie=UTF8&*Version*=1&*entries*=0
 [hardcopy]: http://www.maa.org/press/books/euclidean-geometry-in-mathematical-olympiads
 [girls]: https://www.egmo.org/
