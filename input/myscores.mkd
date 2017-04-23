@@ -4,11 +4,14 @@ description: Records of my high school contest scores, for comedic value.
 
 ---
 
-Here were my scores on various contents over the years,
+Here were my scores on various contests over the years,
 in reverse chronological order.
 These probably should not be taken very seriously,
 but I'll forget them if I don't write them down,
 and people apparently really want to know.
+
+For actual advice on preparing for contests,
+see [Contest FAQ's](FAQs/contest.html).
 
 (Scores for TSTST are approximate since papers were not returned.)
 

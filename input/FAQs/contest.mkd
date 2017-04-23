@@ -37,10 +37,13 @@ things in the right difficulty range.
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
 
-With that disclaimer, possible suggestions:
-try [my recommendations page](recommend.html),
-[my own handouts][articles] or my [geometry textbook][geombook].
-These are at the olympiad level; younger students would likely benefit
+With that disclaimer, possible suggestions for math olympiads:
+
+* For Euclidean geometry, my [textbook EGMO][geombook].
+* [My own olympiad handouts][articles] for some selected topics, and
+* [My recommendations page](recommend.html) for books and handouts in other subjects.
+
+Younger students (preparing for AMC/AIME) would likely benefit
 from books or classes from Art of Problem Solving, like
 [Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
 
@@ -177,6 +180,7 @@ work on every problem that students send me, and simply archive your message.
 [geombook]: geombook.html
 [howproof]: http://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [mistakes]: http://www.artofproblemsolving.com/articles/stupid-mistakes
+[recs]: recommend.html
 [right]: http://artofproblemsolving.com/community/c5h520900
 [shower]: http://www.paulgraham.com/top.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
