@@ -159,6 +159,7 @@ If you find another one, please let me know by email.
 + On **page 230**, hint 355, change $AC$ to $AB$.
 + On **page 230**, hint 362, $X$ should instead be the second intersection of $QI$ with the circumcircle.
 + On **page 231**, hint 373, replace "$90^{\circ}-A$" with "$90^{\circ}-B$".
++ On **page 231**, hint 383, change "trigonemetric" to "trigonometric".
 + On **page 231**, hint 393, delete "$M=(0:1:1)$" and change the later "$L$" to "$M$".
 + On **page 238**, hint 649 is wrong (see correction to Solution 6.45 below).
 + On **page 238**, hint 653 is missing a period.
