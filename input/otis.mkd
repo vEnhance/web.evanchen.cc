@@ -48,7 +48,7 @@ But *sensei* is still super proud of his kids nonetheless.
 + Michael Ren ([RMM 2017](http://rmms.lbi.ro/rmm2017/index.php?id=results_math))
 + Annie Siye Zhu ([EGMO 2017](https://www.egmo.org/registration/2017/person212))
 
-### How it works
+### Description
 OTIS is centered around two-week topic units
 which I pick for each student based on their background.
 Each unit comes with a homework set of 5-8 olympiad problems.
@@ -67,13 +67,14 @@ I use LaTeX-Beamer as a blackboard and so full transcripts are posted
 immediately after each session.
 
 ### For interested students
-Each May, shortly after the grading of USAMO,
+In mid-May of each year, after the grading of USAMO,
 I select a handful of new students for next fall
 out of the many requests that I get sent.
 If you'd like to be included in this list of candidates,
-please email me the following information by the end of April:
+please email me the following information by the first week of May:
 
 * Your name, grade, school, and time zone
+* What times of day you are generally available
 * Any relevant contest history/scores
 * If you have taken USA(J)MO or TSTST before, indicate which problems you solved.
 * Subject preferences, like "strong geo, weak at algebra"
