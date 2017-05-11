@@ -15,18 +15,19 @@ minus my phone number and address.
 See the second section of my [publications page](publications.html).
 
 ### Trivia
-+ Favorite olympiad subject: Geometry
-+ Favorite triangle center: Symmedian point
-+ Favorite circle: $A$-mixtilinear incircle
-+ Favorite color: Aqua green
-+ Preferred Linux distribution: Arch Linux
++ Preferred Linux distribution: [Arch Linux](https://www.archlinux.org/)
 + TeX distribution: TeX Live
-+ Editor: Vim
-+ Window manager: i3
++ Editor: [Vim](http://www.vim.org/)
++ Window manager: [i3](https://i3wm.org/)
 + Favorite integer: 0
 + Digits of Pi known: About 220
-+ Favorite standard card game: Canadian Fish
-+ Favorite non-standard card game: Yomi (Sirlin)
++ Favorite standard card game: [Canadian Fish][fish]
++ Favorite non-standard card game: [Yomi](http://sirlingames.com/yomi)
++ Favorite computer game: [The Battle for Wesnoth](http://wesnoth.org/)
++ Favorite olympiad subject: Geometry
++ Favorite triangle center: Orthocenter
++ Favorite circle: A-mixtilinear incircle
++ Favorite color: Aqua green (close to [#00FFBF][aquamarine])
 
 Link to [Dotfiles on GitHub](https://github.com/vEnhance/dotfiles),
 for the other Linux users reading this.
@@ -51,3 +52,5 @@ The medal on the left is a USAMO winner medal; the medal on the right is an IMO 
 
 
 [imo]: http://imo-official.org/participant_r.aspx?id=24870
+[fish]: https://en.wikipedia.org/wiki/Literature_(card_game)
+[aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)
