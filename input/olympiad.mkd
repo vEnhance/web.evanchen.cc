@@ -82,9 +82,10 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   A collection of problems which exhibit the first olympiad configuration I got to know well,
   the famous "incenter/excenter lemma".
 
-* <b>Bashing Geometry with Complex Numbers</b> {{ hlink("cmplx") }}
-  Written in broken Traditional Chinese. Describes the classic method of complex numbers.  
-  [Click here for English translation](handouts/cmplx/en-cmplx.pdf).
+* <b>Bashing Geometry with Complex Numbers</b> {{ hlink("cmplx", "en-cmplx") }}
+  English translation of my original notes in Chinese.
+  Describes the classic method of complex numbers.  
+  Original Chinese version: {{ hlink("cmplx") }}
 
 * <b>A Guessing Game: Mixtilinear Incircles</b> {{ hlink("Mixt-GeoGuessr") }}
   A quick description of some nice properties of mixtilinear incircles.
@@ -106,9 +107,10 @@ of [my textbook][geombook].
 * <b>SOS: A Dumbass's Perspective</b> {{ hlink("SOS_Dumbass") }}
   Describes the SOS method for solving inequalities.
 
-* <b>Olympiad Inequalities</b> {{ hlink("Ineq") }}
-  Written in broken Traditional Chinese. Describes some "standard strategies" for handling olympiad inequalities.  
-  An [hastily translated English version](handouts/Ineq/en.pdf) of this handout is now available.
+* <b>Olympiad Inequalities</b> {{ hlink("Ineq", "en") }}
+  English translation of my original notes in Chinese.
+  Describes some "standard strategies" for handling olympiad inequalities.  
+  Original Chinese version: {{ hlink("Ineq") }}
 
 ### Miscellaneous
 * <b>OMO Spring 2014 Executive Report</b> {{ hlink("OMOSpring14Report") }}
