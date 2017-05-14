@@ -8,6 +8,8 @@ description: Link to CV, publications, Github repository, some pictures, some tr
 I am an undergraduate at MIT, majoring in mathematics.
 My expected graduation date is 2018.
 
+### CV / Resume
+
 Here's a [**link to a two-page CV**](upload/public-resume.pdf),
 minus my phone number and address.
 
