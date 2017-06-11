@@ -1,13 +1,14 @@
 import yaml
+import heapq
 
 # Script constants
 BASE = r"http://web.evanchen.cc/elmo/"
 #BASE = r"file:///home/evan/Documents/www/elmo/"
 YEAR_PREV = 2016
 YEAR_NEXT = 2017
-YEARS = [2012, 2013, 2014, 2015, 2016]
+YEARS = [2012, 2013, 2014, 2015, 2016, 2017]
 PREV_URL = "http://artofproblemsolving.com/community/c5h1255466s1_18th_elmo_2016"
-NEXT_URL = "http://nyan.cat"
+NEXT_URL = "https://artofproblemsolving.com/community/c5h1450531_19th_elmo_2017"
 
 # Create header {{{1
 with open("static/header.html") as f:
@@ -57,14 +58,21 @@ class ELMOCountry:
 	def __len__(self):
 		return len(self.students)
 	@property
-	def total(self): return sum([student.score for student in self.students])
+	def total(self):
+		if self.year.year_num >= 2017:
+			return sum([student.score for student in self.students])
+		else:
+			return sum(heapq.nlargest(3,[student.score for student in self.students]))
 	@property
 	def average(self):
-		return self.total / float(len(self.students))
+		if self.year.year_num >= 2017:
+			return self.total / 3.0
+		else:
+			return self.total / float(len(self.students))
 	@property
 	def scores(self): return [sum([s.scores[i] for s in self.students])\
 			for i in xrange(self.year.num_problems)]
-	@property 
+	@property
 	def awards(self):
 		sorted_students = sorted(self.students, key = lambda s : s.rank)
 		return ','.join([s.medal[0] for s in sorted_students if s.medal != ""])
