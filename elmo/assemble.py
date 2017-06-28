@@ -59,16 +59,13 @@ class ELMOCountry:
 		return len(self.students)
 	@property
 	def total(self):
-		if self.year.year_num >= 2017:
-			return sum([student.score for student in self.students])
-		else:
-			return sum(heapq.nlargest(3,[student.score for student in self.students]))
+		return sum([student.score for student in self.students])
 	@property
-	def average(self):
+	def sweeps(self):
 		if self.year.year_num >= 2017:
-			return self.total / 3.0
+			return sum(heapq.nlargest(3,[student.score for student in self.students])) / 3.0
 		else:
-			return self.total / float(len(self.students))
+			return sum([student.score for student in self.students]) / float(len(self.students))
 	@property
 	def scores(self): return [sum([s.scores[i] for s in self.students])\
 			for i in xrange(self.year.num_problems)]
@@ -174,9 +171,9 @@ for year_num in YEARS:
 
 	# Rank countries
 	rank, prev = 0, -1
-	year.countries.sort(key = lambda c : -c.average)
+	year.countries.sort(key = lambda c : -c.sweeps)
 	for i, country in enumerate(year.countries):
-		if country.average != prev: rank, prev = i+1, country.average # tiebreaking
+		if country.sweeps != prev: rank, prev = i+1, country.sweeps # tiebreaking
 		country.rank = rank # give ranks
 
 	ELMO.append(year)
@@ -279,13 +276,16 @@ for year in ELMO:
 		print >>f, jquery_script(3 + year.num_problems, 0) # Ascending by rank
 		print >>f, r'<table id="table_main" class="tablesorter">'
 		print >>f, "<thead><tr><th>Country</th>" \
-				+ year.problem_headers \
-				+ "<th>Total</th><th>Score</th><th>Rank</th><th>Award</th></tr></thead>"
+				+ year.problem_headers
+		if year.year_num >= 2017:
+			print >>f, "<th>Total</th><th>Top 3 Avg</th><th>Rank</th><th>Award</th></tr></thead>"
+		else:
+			print >>f, "<th>Total</th><th>Team Avg</th><th>Rank</th><th>Award</th></tr></thead>"
 		print >>f, "<tbody>"
 		for country in year.countries:
 			print >>f, r'<tr><td>{c.pname}</td>'.format(c=country)
 			print >>f, ''.join(["<td>{}</td>".format(country.scores[i]) for i in range(year.num_problems)]),
-			print >>f, "<td>{c.total}</td><td>{c.average:.2f}</td><td>{c.rank}</td><td>{c.awards}</td>".format(c=country)
+			print >>f, "<td>{c.total}</td><td>{c.sweeps:.2f}</td><td>{c.rank}</td><td>{c.awards}</td>".format(c=country)
 			print >>f, "</tr>",
 		print >>f, "</tbody></table>"
 		print >>f, FOOTER
@@ -402,10 +402,10 @@ for year in ELMO:
 			print >>f, "</tbody>"
 			print >>f, "<tfoot>"
 			print >>f, r'<tr><td colspan="2"><b>Team Results</b></td>'
-			print >>f, ''.join(["<td><b>%.2f</b></td>" %(float(country.scores[i]) / len(country)) for i in xrange(year.num_problems)]),
-			print >>f, "<td><b>%.2f</b></td>" %(float(country.total) / len(country)) 
-			print >>f, "<td><b>%s</b></td>" %(country.rank),
-			print >>f, "<td><b>%s</b></td>" %(country.awards),
+			print >>f, ''.join(["<td><b>%2d</b></td>" %country.scores[i] for i in xrange(year.num_problems)]),
+			print >>f, "<td><b>%2d</b></td>" %country.total,
+			print >>f, "<td><b>%s</b></td>" %country.rank,
+			print >>f, "<td><b>%s</b></td>" %country.awards,
 			print >>f, "</tr>"
 			print >>f, "</table>"
 			print >>f, FOOTER
