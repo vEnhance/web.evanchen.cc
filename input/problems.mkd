@@ -47,12 +47,12 @@ For an explanation of the name, see [the FAQ on the USA IMO team selection](FAQs
 * USA Team Selection Test 2000 [(problems)](exams/tse00.pdf)
 * USA Team Selection Test 2001 [(problems)](exams/tse01.pdf)
 * USA Team Selection Test 2002 [(problems)](exams/tse02.pdf)
-* USA December/January TST for IMO 2012 [(problems)](exams/TST-IMO-2012.pdf)
-* USA December/January TST for IMO 2013 [(problems)](exams/TST-IMO-2013.pdf)
-* USA December/January TST for IMO 2014 [(problems)](exams/TST-IMO-2014.pdf)
-* USA December/January TST for IMO 2015 [(problems)](exams/TST-IMO-2015.pdf) [(solutions)](exams/TST-IMO-2015-sols.pdf)
-* USA December/January TST for IMO 2016 [(problems)](exams/TST-IMO-2016.pdf) [(solutions)](exams/TST-IMO-2016-sols.pdf)
-* USA December/January TST for IMO 2017 [(problems)](exams/TST-IMO-2017.pdf) [(solutions)](exams/TST-IMO-2017-sols.pdf)
+* USA TST for IMO 2012 [(problems)](exams/TST-IMO-2012.pdf)
+* USA TST for IMO 2013 [(problems)](exams/TST-IMO-2013.pdf)
+* USA TST for IMO 2014 [(problems)](exams/TST-IMO-2014.pdf)
+* USA TST for IMO 2015 [(problems)](exams/TST-IMO-2015.pdf) [(solutions)](exams/TST-IMO-2015-sols.pdf)
+* USA TST for IMO 2016 [(problems)](exams/TST-IMO-2016.pdf) [(solutions)](exams/TST-IMO-2016-sols.pdf)
+* USA TST for IMO 2017 [(problems)](exams/TST-IMO-2017.pdf) [(solutions)](exams/TST-IMO-2017-sols.pdf)
 
 ### USA National Olympiad
 * USAMO 2016 [(problems)](exams/USAMO-2016.pdf) [(solutions)](exams/Solutions-USAMO-JMO-2016.pdf)
