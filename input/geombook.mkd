@@ -12,7 +12,7 @@ description: Synopsis and errata for EGMO geometry textbook for math olympiad st
 
 <span style="color:red; font-size: 120%;">
 **You can get a hard copy from [Amazon][amazon] or [MAA][hardcopy].
-You can also [get a PDF][ebook].**
+You can also [purchase a PDF][ebook].**
 </span>
 
 *Euclidean Geometry in Mathematical Olympiads* (often abbreviated *EGMO*,
@@ -40,6 +40,28 @@ even if you don't know any geometrical theorems.
 + [Chapter 8: Inversion][egmo8]. Inversion around a circle.
 * [Chapters 1-3 on Google Books preview][googlebook].
 
+### On Solutions to Problems
+
+I included solutions to about a quarter of the
+practice problems in the back of the textbook
+(it was impossible to include more for space reasons).
+If you are stuck on a problem for which no solution is provided,
+here are some possible hints:
+
+1. Each problem in the text has one or more hints,
+   the intention is that the union of all the hints
+   should form an outline of the complete solution
+   (even if the details are omitted).
+
+2. I included sources for as many of the problems as possible,
+   so looking up the corresponding thread on the
+   [AoPS Contest Index][contests]
+   will generally yield a solution to any sourced problem.
+   (The search function can work too, but is often less helpful.)
+
+3. If both of the above fail, try posting on the AoPS forums directly.
+
+
 ### Errata (aka selected solutions to Problem 11.0)
 
 Here are all the mistakes that I am aware of.
@@ -54,6 +76,7 @@ If you find another one, please let me know by email.
 + On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCB=90^{\circ}$".
 + On **page 18**, in problem 1.37, delete the word "again" in the definition of $Q$.
 + On **page 19**, in problem 1.45, change "ray $BI$" to "the $\angle B$-bisector".
++ On **page 20**, in problem 1.47, change "Let $ABC$ be triangle" to "Let $ABC$ be a triangle".
 + On **page 24**, in Problem 2.2, change $\measuredangle BCA = \measuredangle YZX$
   to $\measuredangle ABC = \measuredangle XYZ$.
 + On **page 29**, in Theorem 2.9, excise "of Intersecting Circles" from the theorem name.
@@ -96,6 +119,7 @@ If you find another one, please let me know by email.
 + On **page 113**, in the definition of $M\_2$, change $DH\_A$ to $AH\_A$.
 + On **page 114**, Solution 6.27, the $a$ in the numerator of $a'$ should be $\bar a$.
   Follow through with the rest of the solution.
++ On **page 121**, "his idea" to "this idea".
 + On **page 132**, in the proof of Example 7.20, change $D = (0, 0, 1)$ to $C = (0, 0, 1)$.
 + On **page 133**, Proposition 7.21, last display, change $S_a$ to $S_A$.
 + On **page 136**, very top, $c=AE$ should be $c=AC$.
@@ -308,8 +332,6 @@ Here is the most recent table of contents.
 <br> Section 10.7  Problems
 
 <b>Chapter 11  Personal Favorites</b>
-<br> Section 11.1  Problems
-<br> Section 11.2  Solutions
 
 ## Part IV  Appendices
 <b>Chapter A  An Ounce of Linear Algebra</b>
@@ -320,8 +342,6 @@ Here is the most recent table of contents.
 <br><b>Chapter C  Selected Solutions</b>
 <br><b>Chapter D  List of Contests and Abbreviations</b>
 
-
-
 [ebook]: http://www.maa.org/ebooks/EGMO
 [cover]: http://www.maa.org/sites/default/files/images/ebooks/problem_books/EGMO.png
 [egmo2]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
@@ -330,3 +350,4 @@ Here is the most recent table of contents.
 [amazon]: https://smile.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/0883858398?ie=UTF8&*Version*=1&*entries*=0
 [hardcopy]: http://www.maa.org/press/books/euclidean-geometry-in-mathematical-olympiads
 [girls]: https://www.egmo.org/
+[contests]: https://artofproblemsolving.com/community/c13_contests 
