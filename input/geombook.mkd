@@ -91,7 +91,8 @@ If you find another one, please let me know by email.
   change $O\_1O\_3$ to $\overline{O\_2O\_3}$.
 + On **page 35**, in the second set of aligned equations,
   change $O\_2X^2$ to $OO\_2^2$.
-+ On **page 40**, the lines my also be pairwise parallel.
++ On **page 40**, Problem 2.29, change "six points" to "the six points".
++ On **page 40**, Problem 2.30, the lines may also be pairwise parallel.
 + On **page 51**, before Lemma, in "this circles is called the nine-point circle", change "circles" to "circle".
 + On **page 65**, Problem 4.25, change $\frac{BM}{MC}$ to $\frac{CM}{MB}$.
 + On **page 67**, in Lemma 4.33, change the second $\omega$ to $\Omega$.
