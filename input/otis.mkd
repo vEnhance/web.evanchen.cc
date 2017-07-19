@@ -42,11 +42,12 @@ Here are some showings of my students at national/international olympiads.
 This is not a claim that these students performed well *because* of me;
 all of them were already strong before joining my program,
 and I think they would likely have done well even without me.
-But *sensei* is still super proud of his kids nonetheless.
+But *sensei* is still super proud of his kids even
+though he didn't do that much.
 
 + Zack Chroman: [RMM 2017][rmm17], [USAMO 2017][amo17], [IMO 2017][imo17]
 + Michael Ren: [RMM 2017][rmm17], [USAMO 2017][amo17]
-+ Annie Siye Zhu ([EGMO 2017](https://www.egmo.org/registration/2017/person212))
++ Annie Siye Zhu: [EGMO 2017][egmo17]
 
 ### Description
 OTIS is centered around two-week topic units
@@ -86,3 +87,4 @@ please email me the following information by the first week of May:
 [rmm17]: http://rmms.lbi.ro/rmm2017/index.php?id=results_math
 [amo17]: http://www.maa.org/sites/default/files/HonorableMentions2017.pdf
 [imo17]: http://imo-official.org/year_reg_team.aspx?year=2017&code=USA
+[egmo17]: (https://www.egmo.org/registration/2017/person21
