@@ -14,7 +14,7 @@ this idea was stolen from [Paul Graham][raq].
 <br>
 
 ### How did/do you have so much time?
-Mostly by **cutting out activities that aren't important to me**.
+Mostly by cutting out activities that aren't important to me.
 
 I feel high school students tend to focus too much on "local" changes
 (using Chrome productivity extensions, shaving time off X, etc.)
@@ -25,8 +25,12 @@ Aggressively dropping classes and extracurriculars
 that aren't adding value to your life are good examples
 that I think people don't do enough.
 
+(I admittedly have spent a lot of time optimizing my workflow,
+like typing quickly, using Vim/Linux, organizing tasks on calendars,
+but I really think these are second-order effects.)
+
 I took this to extreme measures in high school.
-As a senior I took a total of 2 HS classes (not AP)
+As a senior I took a total of 2 regular high-school classes
 and spent on the order of 30 minutes on homework *per week*;
 as a result I had enough time to do math, write a geometry textbook,
 take graduate math classes, learn to play
@@ -51,6 +55,47 @@ Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
 [which you can watch here, 49:30 -- 55:30][vxia].
 
 [See here for more discussion][aopstime].
+
+<br>
+
+
+### I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?
+
+I guess the best advice I can give is to pick some project to work on.
+It doesn't have to be (and probably shouldn't be)
+something that you're confident that you can do well in.
+For more on this I much like the advice suggested 
+by [Paul Graham](http://paulgraham.com/hs.html)
+ particularly in Section "Now".
+
+Maybe it's better if I gave examples of projects
+that I worked on (both successful and unsuccessful):
+
+* Programming projects ([Github](https://github.com/vEnhance))
+* Installing Arch Linux and figuring out how to use it
+* Writing nonfiction e.g. Napkin and EGMO (the latter was written while I was a [clerk at my high school's office](https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/))
+* Writing fiction stories (which I failed miserably at; tried at least two or three times)
+* K-pop dance (not good at it yet but trying!)
+* Creating a problem database (this took me five or six tries before it worked out)
+* Creating a constructed language (failed at least five times)
+
+Anyways, the point is to pick something that feels cool,
+or that you've always wanted to do, and then try to do it.
+I think this often turns out to be easier than you might expect,
+because you already have a lot of experience learning something
+that felt too hard for you (through math contests).
+As far difficulty goes,
+the optimum is to pick a project with a 50% chance of success.
+But really the main thing is to optimize for fun,
+because otherwise you won't be able to force yourself to work on it anyways.
+
+It's understandably very daunting to move into something
+in which you have little experience.
+But you don't have to hard-commit to exploration projects as a full-time job,
+the same way you did for math contests.
+In other words, don't feel locked in to any one particular thing,
+and don't pressured to become the top N in the world:
+after all, the point is really for your own learning/growth/enjoyment.
 
 <br>
 
