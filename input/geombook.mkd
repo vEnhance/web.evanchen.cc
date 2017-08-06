@@ -27,6 +27,10 @@ should be able to follow the exposition.
 The book contains a selection of about 300 problems from around the world
 and is accompanied by about 250 figures.
 
+I wrote this textbook while
+[serving time as a high school clerk][fillblank].
+You can read about [the publication process][publishing].
+
 ### Prerequisites and sample chapters
 There are essentially no geometry prerequisites;
 EGMO is **entirely self-contained**.
@@ -352,3 +356,6 @@ Here is the most recent table of contents.
 [hardcopy]: http://www.maa.org/press/books/euclidean-geometry-in-mathematical-olympiads
 [girls]: https://www.egmo.org/
 [contests]: https://artofproblemsolving.com/community/c13_contests 
+
+[fillblank]: https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/
+[publishing]: https://usamo.wordpress.com/2016/11/11/notes-on-publishing-my-textbook/
