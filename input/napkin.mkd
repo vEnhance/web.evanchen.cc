@@ -123,5 +123,5 @@ This project has evolved to more than just forty hours.
 + Chapter 62. Forcing 
 + Chapter 63. Breaking the Continuum Hypothesis 
 
-[recent]: https://usamo.files.wordpress.com/2017/02/napkin-2017-02-15.pdf
+[recent]: https://usamo.files.wordpress.com/2017/08/napkin-2017-08-15.pdf
 [wp]: https://usamo.wordpress.com/napkin/
