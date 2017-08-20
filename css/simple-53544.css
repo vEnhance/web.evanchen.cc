@@ -24,11 +24,10 @@ body {
     color: #000000;
     max-width: 1024px; /* Don't make website wide */
 }
+
 ul {
-    list-style: url(/css/green-bullet.gif);
+    list-style: square;
 }
-
-
 
 
 /*
