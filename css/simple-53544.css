@@ -39,10 +39,6 @@ body {
     max-width: 1024px; /* Don't make website wide */
 }
 
-ul {
-    list-style: square;
-}
-
 /*
  * LINKS, IMAGES
  */
