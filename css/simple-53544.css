@@ -56,7 +56,6 @@ img {
 
 
 
-
 /*
  * HEADERS H1, H2, ..., H5
  */
@@ -90,6 +89,7 @@ h5 {
 
 #main {
     width: 69%;
+    min-width: 500px;
     padding: 5px;
     margin: 3px;
     float: left;
@@ -147,6 +147,7 @@ h5 {
     margin: 3px;
     padding: 12px;
     width: 22%;
+    min-width: 150px;
 }
 /* Brighten side box on hover */
 #side {
