@@ -37,6 +37,21 @@ print '<meta description="Evan Chen | %s">' % page.get('description', page['titl
 <div id="header"><h1>Evan Chen</h1></div>
 
 <div id="content">
+    <div id="main">
+        <div class="entry">
+            <h1><a href="{{page["url"]}}">{{ page["header"] }}</a></h1>
+            <div class="entrywrap">
+            {{ __content__ }}
+            </div>
+        </div>
+        <small>
+            Last modified:
+            <!--%
+                import time
+                print time.ctime()
+            %-->
+        </small>
+    </div>
     <div id="side">
     <!--%
         mpages = [p for p in pages if "menu-position" in p]
@@ -55,21 +70,6 @@ print '<meta description="Evan Chen | %s">' % page.get('description', page['titl
                 entry = open_tag + '<a href="%s">%s</a>' + close_tag
                 print(entry % (p["url"], hx(p["title"])))
     %-->
-    </div>
-    <div id="main">
-        <div class="entry">
-            <h1><a href="{{page["url"]}}">{{ page["header"] }}</a></h1>
-            <div class="entrywrap">
-            {{ __content__ }}
-            </div>
-        </div>
-        <small>
-            Last modified:
-            <!--%
-                import time
-                print time.ctime()
-            %-->
-        </small>
     </div>
 </div>
 <script>
