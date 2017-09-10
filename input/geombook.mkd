@@ -212,10 +212,13 @@ If you find another one, please let me know by email.
 + On **page 265**, in Solution 6.45, the solution proves $|(a-b)(c-e)(d-f)|=|(d-e)(f-b)(a-c)|$.
   It should instead prove $|(b-c)(a-e)(f-d)|=|(c-a)(e-f)(d-b)|$,
   which is the same up to permutation of point labels.
++ On **page 268**, at the end of Solution 7.42, the end of the display should be $-2S\_A+2bc$.
+  Consequently, the first row is the third row minus the second row instead.
 + On **page 271**, the solution 7.52, second-to-last display, the expressions actually equal $-\gamma$, not $\gamma$.
 + On **pages 273-274**, Solution 8.31, swap $A$ and $C$ everywhere.
 + <span style="color:red;">On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.</span>
 + On **page 276**, in Solution 9.47, change $(A,X;B,C)$ to $(A,X;C,B)$.
++ On **page 277**, in Solution 9.50, change $\overline{CG} \cap \overline{BE}$ to $\overline{CG'} \cap \overline{BE}$.
 + On **page 281**, in Solution 10.26, the last line, change $\measuredangle HMN$ to $\measuredangle HNM$.
 + On **page 282**, in Solution 10.29, change $(P,E;X,Y)$ to $(F,E;X,Y)$ in last paragraph.
 + On **page 296**, in Solution 11.18, very very end, change $2t$ to $(b^2+c^2)t$.
