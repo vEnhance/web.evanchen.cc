@@ -9,19 +9,21 @@ description: Synopsis of my teaching for olympiad students.
 <img src="static/calvin-education.gif" />
 
 Since 2015, I have run a small,
-informal tutoring program during the school year
+informal training program during the school year
 for students aiming to do well on the USA(J)MO,
 now informally called *OTIS*.
 This program is designed for students who are
 comfortable reading and writing proofs
-and able to confidently qualify for national olympiad
-(e.g. consistently 10+ on AIME).
+and able to confidently qualify for national olympiad,
+e.g. consistently 10+ on AIME for American students.
+(Students at other levels should feel welcome to contact
+me for referrals to other mentors.)
 
-[See here for my thoughts on tutoring philosophy][tutor].
+[See here for my thoughts on teaching philosophy][perhour].
 This page is a bit about the specifics of my program.
 
 ### History
-I started tutoring in 2015 when a group of parents
+I started teaching in 2015 when a group of parents
 from Phillips Andover Academy emailed me in early April,
 asking if I'd be interested in coaching a group of five of their students.
 At the time I called it "Andover Olympiad Training",
@@ -60,7 +62,7 @@ Additionally, practice exams are assigned each month.
 All the materials for OTIS are hand-designed by me.
 The design of the materials is kind of an art,
 and it's half the fun of teaching
-(the other half is talking to the kids).
+(the other half is talking to the contestants).
 
 Typically, I meet with students over Google Hangouts
 either every week or every two weeks, for 60-90 minutes.
@@ -72,7 +74,7 @@ In mid-May of each year, after the grading of USAMO,
 I select a handful of new students for next fall
 out of the many requests that I get sent.
 If you'd like to be included in this list of candidates,
-please email me the following information by the first week of May:
+please email me the following information by the **first week of May**:
 
 * Your name, grade, school, and time zone
 * What times of day you are generally available
@@ -81,7 +83,14 @@ please email me the following information by the first week of May:
 * Subject preferences, like "strong geo, weak at algebra"
 * Goals for the year, like "make MOP".
 
-[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+Usually I am not able to take all requests, but even then
+I can often refer you to other instructors who are less busy than me
+(mostly MOP alumni now at Harvard or MIT).
+So, if you are interested in mentoring,
+feel free to reach out to me even if the deadline is long past;
+most likely, I will be able to connect you with someone else.
+
+[perhour]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
 [geombook]: geombook.html
 [gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
 [rmm17]: http://rmms.lbi.ro/rmm2017/index.php?id=results_math
