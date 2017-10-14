@@ -140,6 +140,7 @@ If you find another one, please let me know by email.
   Also, the rest of the solution is wrong, since a factor of two is dropped in the first display.
 + <span style="color:red;">On **page 145**, Problem 7.44, change the angle condition to $\measuredangle BC\_1A\_1 = \measuredangle ACB = \measuredangle B\_1C\_1A$.</span>
 + <span style="color:red;">On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.</span>
++ On **page 144**, second line of 7.42, change "tangency points" to "tangency point".
 + On **page 149**, second paragraph of 8.1, change "three ordinary points" to "three noncollinear ordinary points".
 + On **page 151**, at start of 8.2, in "simplest example is a just a line", delete the extra "a".
 + On **page 151**, immediately before figure, add a period after 8.2A.
@@ -213,7 +214,7 @@ If you find another one, please let me know by email.
   It should instead prove $|(b-c)(a-e)(f-d)|=|(c-a)(e-f)(d-b)|$,
   which is the same up to permutation of point labels.
 + On **page 268**, at the end of Solution 7.42, the end of the display should be $-2S\_A+2bc$.
-  Consequently, the first row is the third row minus the second row instead.
++ On **page 268**, Solution 7.44, $A\_0$ should be $(0:a-uc/a:uc/a)$ in the second display.
 + On **page 271**, the solution 7.52, second-to-last display, the expressions actually equal $-\gamma$, not $\gamma$.
 + On **pages 273-274**, Solution 8.31, swap $A$ and $C$ everywhere.
 + <span style="color:red;">On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.</span>
