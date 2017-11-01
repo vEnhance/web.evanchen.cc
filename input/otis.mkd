@@ -1,5 +1,5 @@
 title: Teaching (OTIS)
-header: Olympiad Training for Individual Students (OTIS)
+header: Olympiad Training for Individual Study (OTIS)
 menu-position: 12
 indent: 1
 description: Synopsis of my teaching for olympiad students.
@@ -43,7 +43,7 @@ I have the best job in the world.
 OTIS is centered around two-week topic units
 which I pick for each student based on their background.
 Each unit comes with a problem set of 7-12 olympiad problems.
-Students are expected to keep in regular contact with me
+Participants are expected to keep in regular contact with me
 about these problems.
 Additionally, 10-13 olympiad-style practice exams
 (each emulating a day of a typical olympiad)
