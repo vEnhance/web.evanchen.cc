@@ -24,17 +24,16 @@ Please see the links above for more information.
 ## Research Publications
 
 * [Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem][arxiv-grh] <br>
-  E. Chen, P. Park, and A. Swaminathan, to appear in International Journal of NT.
+  E. Chen, P. Park, and A. Swaminathan. Published in [Intl Journal of Number Theory][ijnt].
 
 * [Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication][arxiv-linnik] <br>
-  E. Chen, P. Park, and A. Swaminathan.
-  Published in [Research in Number Theory][rnut-link].
+  E. Chen, P. Park, and A. Swaminathan. Published in [Research in Number Theory][rnut].
 
 * [On Logarithmically Benford Sequences][arxiv-benford] <br>
   E. Chen, P. Park, and A. Swaminathan. Published in *Proceedings of the AMS*.
 
 * [Schur-concavity for avoidance of increasing subsequences in block-ascending permutations][arxiv-schur] <br>
-  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-link].
+  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-schur].
 
 * [A family of partially ordered sets with small balance constant][arxiv-poset] <br>
   E. Chen. Submitted for publication.
@@ -104,5 +103,6 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [arxiv-orthomorphism]: https://arxiv.org/abs/1710.02734
 [arxiv-poset]: https://arxiv.org/abs/1709.05753
 
-[rnut-link]: http://link.springer.com/article/10.1007/s40993-015-0028-0
-[ejc-link]: http://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p4
+[rnut]: http://link.springer.com/article/10.1007/s40993-015-0028-0
+[ejc-schur]: http://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p4
+[ijnt]: http://dx.doi.org/10.1142/S1793042118500161
