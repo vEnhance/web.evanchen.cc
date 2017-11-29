@@ -5,20 +5,23 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 ---
 
-Hi, welcome to my site! 
-I am an MIT undergraduate, class of 2018.
+I am an undergraduate at the
+Massachusetts Institute of Technology,
+graduating in June 2018.
+My CV is [here](upload/public-resume.pdf).
 
-+ If you're interested in math olympiads, see [my olympiad math handouts](olympiad.html).
-+ If you're looking for other math reads,
-  you might try [my course notes](coursework.html) or [other resources](recommend.html).
-+ If you want to find out more about me or my work,
-  you should check my [about page](about.html) and my [list of publications](publications.html).
-+ If you're looking for my blog, [here it is](http://blog.evanchen.cc).
+Most of my research is either in number theory 
+or enumerative/algebraic combinatorics.
+My papers are linked on my [publications page](publications.html).
 
-I am an avid fan of Euclidean geometry.
+I am actively involved with math olympiad competitions
+and have authored [several olympiad materials](olympiad.html),
+most notably including a [textbook](geombook.html).
+I also [teach my own classes](otis.html).
+
+
+[Link to blog](http://blog.evanchen.cc).
 
 <center>
 <img src="static/home-art.png" width="300">
 </center>
-
-That's about all.

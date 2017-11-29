@@ -26,7 +26,7 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
 *If you notice any errors, please let me know!*
 
 ### General
-* <span style="color:red;">(New)</span> <b>English</b> {{ hlink("english") }}
+* <b>English</b> {{ hlink("english") }}
   Notes on proof-writing style. These were used at MOP 2016.
   
 * <b>USAMO 2014 Contest Analysis</b> {{ hlink("USAMO2014") }}
@@ -44,13 +44,13 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   _Note:_ [Click here for English versions of the TST problems.](http://www.aops.com/community/c41558)
 
 ### Algebra and Number Theory
-* <span style="color:red;">(New)</span> <b>Introduction to Functional Equations</b> {{ hlink("FuncEq-Intro") }}
+* <b>Introduction to Functional Equations</b> {{ hlink("FuncEq-Intro") }}
   An introduction to functional equations for olympiad students.
 
-* <span style="color:red;">(New)</span> <b>Monsters</b> {{ hlink("Monsters") }}
+* <b>Monsters</b> {{ hlink("Monsters") }}
   A handout discussing pathological functional equations.
 
-* <span style="color:red;">(New)</span> <b>Summation</b> {{ hlink("Summation") }}
+* <b>Summation</b> {{ hlink("Summation") }}
   General discussion of sums and products, and how to deal with them. Includes generating functions.
 
 * <b>The Chinese Remainder Theorem</b> {{ hlink("CRT") }}
