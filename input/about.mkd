@@ -1,5 +1,5 @@
 title: About / CV
-header: About / CV
+header: About
 menu-position: 10
 description: Link to CV, publications, Github repository, some pictures, some trivia.
 
@@ -10,12 +10,16 @@ My expected graduation date is 2018.
 
 ### CV / Resume
 
-Here's a [**link to a two-page CV**](upload/public-resume.pdf),
-minus my phone number and address.
-I am on [GitHub](https://github.com/vEnhance/).
+* [Two-page CV](upload/public-resume.pdf), minus my phone number and address.
 
-### Research Papers
-See the second section of my [publications page](publications.html).
+* [Listing of research papers](publications.html),
+including pre-prints accepted or submitted for publication.
+
+* A [transcript of all major coursework](upload/math-coursework.pdf),
+	i.e. a list of all the math coursework I've completed or am currently taking.
+
+* I am on [GitHub](https://github.com/vEnhance/).
+
 
 ### Math Contest History
 During my time as a high school student, I participated extensively on mathematical olympiads.

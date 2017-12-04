@@ -7,31 +7,27 @@ description: Lecture notes from math classes I have taken at Harvard, MIT, etc. 
 ---
 
 During math classes, I like to LaTeX notes to these classes in real time.
-On this page, I've included copies of notes to current and past courses
-(or links to official lecture notes if I did not take notes myself).
+On this page, I've included copies of notes to current and past courses.
 
 Currently, I live-TeX notes using latexmk and a heavily modified Vim editor.
 (For details on the technical setup, see [the corresponding FAQ](FAQs/school.html).)
 Since these notes are written *during* class, it is quite likely that they contain typos.
 Please send any corrections to me via email.
+
 For more polished exposition on some selected topics, see the [Napkin project](napkin.html).
+
+Here is a **[download link for descriptions of all courses][transcript]**,
+even including the ones which I do not have notes for.
+(The list below just includes the one for which I have notes to share.)
 
 <!-- Some of the links are temporary Dropbox links.
 If you want to link these notes, you should always link to this page.
 The Dropbox links will expire at the end of each semester. -->
 
 ## Massachusetts Institute of Technology
-* **(18.099) Seminar in Discrete Analysis**<br>
-  Taught by Peter Csikvari. Spring 2016.
 
-* **(18.217) Combinatorial Theory** [(official notes)](http://www.cis.upenn.edu/~cis610/sp06stanley.pdf)<br> 
-  Taught by Richard Stanley. Fall 2015.
-
-* **(18.218) Topics in Combinatorics** [(temporary link)](https://www.dropbox.com/s/zipwgw3ljkr7sjd/MIT-18-218.pdf?dl=1)<br> 
+* **(18.218) Topics in Combinatorics** [(pdf)](notes/MIT-18-218.pdf)<br> 
   Taught by Alex Postnikov. Spring 2017.
-
-* **(18.434) Seminar in Theoretical CS** [(official notes)](http://math.mit.edu/~yuanzhou/teaching/18.434sp16/)<br>
-  Taught by Yuan Zhou. Spring 2016.
 
 * **(18.435) Quantum Computation** [(pdf)](notes/MIT-18-435.pdf)<br>
   Taught by Seth Lloyd. Fall 2015.
@@ -41,15 +37,6 @@ The Dropbox links will expire at the end of each semester. -->
 
 * **(18.950) Differential Geometry** [(pdf)](notes/MIT-18-950.pdf)<br>
   Taught by Xin Zhou. Fall 2015.
-
-* **(24.244) Modal Logic**<br>
-  Taught by Stephen Yablo. Fall 2016.
-
-* **(14.12) Economic Applications of Game Theory** <br>
-  Taught by Glenn Ellison. Fall 2015.
-
-* **(14.16) Strategy and Information** <br>
-  Taught by Mihai Manea. Spring 2016.
 
 * **(SCUM) Student Colloqium in Mathematics** [(pdf)](notes/SCUM.pdf)<br>
   Not a class, but free dinner and math lectures every Wednesday.
@@ -73,10 +60,6 @@ The Dropbox links will expire at the end of each semester. -->
 * **(Math 145b) Set Theory II** [(pdf)](notes/Harvard-145b.pdf)<br>
   Taught by Peter Koellner. Spring 2015.
 
-* **(CS 125) Algorithms and Complexity** [(course website)](http://people.seas.harvard.edu/~cs125/index.html)<br>
-  Taught by Michael Mitzenmacher and Salil Vadhan. Fall 2014.
-
-
 ## University of California Berkeley
 * **(Math 104) Introduction to Real Analysis** [(pdf)](notes/UCB104.pdf)<br>
   Taught by Charles Pugh. Fall 2013.
@@ -87,7 +70,6 @@ The Dropbox links will expire at the end of each semester. -->
 * **(Math 249) Algebraic Combinatorics** [(pdf)](notes/UCB249.pdf)<br>
   Taught by Lauren Williams. Fall 2013.
 
-
 ## San Jose State University
 * **(Math 179) Intro to Graph Theory** [(pdf)](notes/SJSU179.pdf)<br>
   Taught by Wasin So. Spring 2013.
@@ -95,3 +77,5 @@ The Dropbox links will expire at the end of each semester. -->
 * **(Math 275) Algebraic Topology** [(pdf)](notes/SJSU275.pdf)<br>
   Taught by Richard Kulbelka. Fall 2012.
 
+
+[transcript]: upload/math-coursework.pdf
