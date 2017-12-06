@@ -8,9 +8,9 @@ description: Link to CV, publications, Github repository, some pictures, some tr
 I am an undergraduate at MIT, majoring in mathematics.
 My expected graduation date is 2018.
 
-### CV / Resume
+### Curriculum Vitae and Research
 
-* [Two-page CV](upload/public-resume.pdf), minus my phone number and address.
+* [Two-page CV](upload/public-CV.pdf), minus my phone number and address.
 
 * [Listing of research papers](publications.html),
 including pre-prints accepted or submitted for publication.

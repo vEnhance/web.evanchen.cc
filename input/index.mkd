@@ -8,9 +8,9 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 I am an undergraduate at the
 Massachusetts Institute of Technology,
 graduating in June 2018.
-My CV is [here](upload/public-resume.pdf).
+My CV is [here](upload/public-CV.pdf).
 
-Most of my research is either in number theory 
+Most of my research is either in number theory
 or enumerative/algebraic combinatorics.
 My papers are linked on my [publications page](publications.html).
 
