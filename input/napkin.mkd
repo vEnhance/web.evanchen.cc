@@ -11,12 +11,13 @@ description: Description of Napkin project, a free book covering all sorts of hi
 </span>
 
 ## Project Status
-I am starting to post some initial drafts for public review.
+
 See link above for the most recent draft,
 and [here for an archive of all drafts][wp].
 I would very highly appreciate any corrections, suggestions, or comments.
 
-Most of what remains to do is fill in the rest of the exercise problems.
+Most of what remains to do is fill in the rest of the exercise problems,
+and slowly let all the typos get sent in to me.
 
 (There is also a live Dropbox link which updates in real-time as I make changes.
 Feel free to email me to acquire this link.)
@@ -44,84 +45,84 @@ This project has evolved to more than just forty hours.
 ## Current Table of Contents.
 
 #### I. Basic Algebra and Topology
-+ Chapter 1. What is a Group? 
-+ Chapter 2. What is a Space? 
-+ Chapter 3. Homomorphisms and Quotient Groups 
-+ Chapter 4. Topological Notions 
-+ Chapter 5. Compactness 
-#### II. Linear Algebra and Multivariable Calculus 
-+ Chapter 6. What is a Vector Space? 
-+ Chapter 7. Trace and Determinant 
-+ Chapter 8. Spectral Theory 
-+ Chapter 9. Inner Product Spaces 
-#### III. Groups, Rings, and More 
-+ Chapter 10. Group Actions Overkill AIME Problems 
-+ Chapter 11. Find All Groups 
-+ Chapter 12. Rings and Ideals 
-+ Chapter 13. The PID Structure Theorem 
-#### IV. Complex Analysis 
-+ Chapter 14. Holomorphic Functions 
-+ Chapter 15. Meromorphic Functions 
-+ Chapter 16. Holomorphic Square Roots and Logarithms 
++ Chapter 1. What is a Group?
++ Chapter 2. What is a Space?
++ Chapter 3. Homomorphisms and Quotient Groups
++ Chapter 4. Topological Notions
++ Chapter 5. Compactness
+#### II. Linear Algebra and Multivariable Calculus
++ Chapter 6. What is a Vector Space?
++ Chapter 7. Trace and Determinant
++ Chapter 8. Spectral Theory
++ Chapter 9. Inner Product Spaces
+#### III. Groups, Rings, and More
++ Chapter 10. Group Actions Overkill AIME Problems
++ Chapter 11. Find All Groups
++ Chapter 12. Rings and Ideals
++ Chapter 13. The PID Structure Theorem
+#### IV. Complex Analysis
++ Chapter 14. Holomorphic Functions
++ Chapter 15. Meromorphic Functions
++ Chapter 16. Holomorphic Square Roots and Logarithms
 #### V. Quantum Algorithms
 + Chapter 17. Quantum states and measurements
 + Chapter 18. Quantum circuits
 + Chapter 19. Shor's algorithm
-#### VI. Algebraic Topology I: Homotopy 
-+ Chapter 20. Some Topological Constructions 
-+ Chapter 21. Fundamental Groups 
-+ Chapter 22. Covering Projections 
-#### VII. Category Theory 
-+ Chapter 23. Objects and Morphisms 
-+ Chapter 24. Functors and Natural Transformations 
-+ Chapter 25. Abelian Categories 
+#### VI. Algebraic Topology I: Homotopy
++ Chapter 20. Some Topological Constructions
++ Chapter 21. Fundamental Groups
++ Chapter 22. Covering Projections
+#### VII. Category Theory
++ Chapter 23. Objects and Morphisms
++ Chapter 24. Functors and Natural Transformations
++ Chapter 25. Abelian Categories
 #### VIII. Differential Geometry
-+ Chapter 26. Multivariable Calculus Done Correctly 
-+ Chapter 27. Differential Forms 
-+ Chapter 28. Integrating Differential Forms 
++ Chapter 26. Multivariable Calculus Done Correctly
++ Chapter 27. Differential Forms
++ Chapter 28. Integrating Differential Forms
 + Chapter 29. A Bit of Manifolds
-#### IX. Algebraic Topology II: Homology 
-+ Chapter 30. Singular Homology 
-+ Chapter 31. The Long Exact Sequence 
-+ Chapter 32. More on Computing Homology Groups 
+#### IX. Algebraic Topology II: Homology
++ Chapter 30. Singular Homology
++ Chapter 31. The Long Exact Sequence
++ Chapter 32. More on Computing Homology Groups
 + Chapter 33. Bonus: Cellular Homology
 + Chapter 34. Singular Cohomology
 + Chapter 35. Applications of Cohomology
-#### X. Algebraic NT I: Rings of Integers 
-+ Chapter 36. Algebraic Integers 
-+ Chapter 37. Unique Factorization (Finally!) 
-+ Chapter 38. Minkowski Bound and Class Groups 
-+ Chapter 39. More Properties of the Discriminant 
-+ Chapter 40. Bonus: Let's Solve Pell's Equation! 
-#### XI. Algebraic NT II: Galois and Ramification Theory 
-+ Chapter 41. Things Galois 
-+ Chapter 42. Finite Fields 
-+ Chapter 43. Ramification Theory 
-+ Chapter 44. The Frobenius Endomorphism 
+#### X. Algebraic NT I: Rings of Integers
++ Chapter 36. Algebraic Integers
++ Chapter 37. Unique Factorization (Finally!)
++ Chapter 38. Minkowski Bound and Class Groups
++ Chapter 39. More Properties of the Discriminant
++ Chapter 40. Bonus: Let's Solve Pell's Equation!
+#### XI. Algebraic NT II: Galois and Ramification Theory
++ Chapter 41. Things Galois
++ Chapter 42. Finite Fields
++ Chapter 43. Ramification Theory
++ Chapter 44. The Frobenius Endomorphism
 + Chapter 45. A Bit on Artin Reciprocity
 #### XII. Representation Theory
 + Chapter 46. Representations of Algebras
 + Chapter 47. Semisimple Algebras
 + Chapter 48. Characters
 + Chapter 49. Some Applications
-#### XIII. Algebraic Geometry I: Varieties 
-+ Chapter 50. Affine Varieties 
+#### XIII. Algebraic Geometry I: Varieties
++ Chapter 50. Affine Varieties
 + Chapter 51. Affine Varieties as Ringed Spaces
-+ Chapter 52. Projective Varieties 
++ Chapter 52. Projective Varieties
 + Chapter 53. Bonus: Bezout's Theorem
-#### XIV. Algebraic Geometry II: Schemes 
+#### XIV. Algebraic Geometry II: Schemes
 + Chapter 54. Morphisms of varieties
 + Chapter 55. Sheaves and Ringed Spaces
 + Chapter 56. Schemes
-#### XV. Set Theory I: ZFC, Ordinals, and Cardinals 
+#### XV. Set Theory I: ZFC, Ordinals, and Cardinals
 + Chapter 57. Bonus: Zorn's Lemma and Cauchy's Functional Equation
-+ Chapter 58. Zermelo-Frankel with Choice 
-+ Chapter 59. Ordinals 
-+ Chapter 60. Cardinals 
-#### XVI. Set Theory II: Model Theory and Forcing 
-+ Chapter 61. Inner Model Theory 
-+ Chapter 62. Forcing 
-+ Chapter 63. Breaking the Continuum Hypothesis 
++ Chapter 58. Zermelo-Frankel with Choice
++ Chapter 59. Ordinals
++ Chapter 60. Cardinals
+#### XVI. Set Theory II: Model Theory and Forcing
++ Chapter 61. Inner Model Theory
++ Chapter 62. Forcing
++ Chapter 63. Breaking the Continuum Hypothesis
 
-[recent]: https://usamo.files.wordpress.com/2017/08/napkin-2017-08-15.pdf
+[recent]: https://usamo.files.wordpress.com/2017/12/napkin-2017-12-11.pdf
 [wp]: https://usamo.wordpress.com/napkin/
