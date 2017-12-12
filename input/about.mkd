@@ -1,5 +1,5 @@
-title: About / CV
-header: About
+title: About
+header: About Me
 menu-position: 10
 description: Link to CV, publications, Github repository, some pictures, some trivia.
 

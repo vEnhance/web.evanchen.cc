@@ -1,0 +1,9 @@
+title: CV
+header: CV
+menu-position: 11
+url: upload/public-CV.pdf
+indent: 1
+
+---
+
+[Two-page CV](upload/public-CV.pdf)
