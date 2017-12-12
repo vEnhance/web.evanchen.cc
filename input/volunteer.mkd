@@ -1,0 +1,57 @@
+title: Outreach
+menu-position: 18
+header: Outreach for High School Math Contests
+indent: 1
+description: Listing
+
+---
+
+Here is a listing of most (but not all)
+the various high school math activities I have helped organize.
+Most of them are volunteer work,
+but a few are paid positions (noted below).
+
++ AIME: [American Invitational Math Exam](https://en.wikipedia.org/wiki/American_Invitational_Mathematics_Examination)
+	+ Problem author and reviewer
++ ARML: [American Regional Math League](www.arml2.com)
+	+ ARML Local problem author, 2015, 2016
+	+ Problem writing team
++ BMC: [Berkeley Math Circle](http://mathcircle.berkeley.edu/)
+	+ Monthly contest grader (paid), 2011 - 2014
+	+ Monthly contest design (paid), 2012 - present
++ ELMO: [Experimental Lincoln Math Olympiad](http://web.evanchen.cc/elmo/index.html)
+	+ Problem author, 2013, 2014
+	+ Shortlist coordinator, 2013 - present
++ HMMT: [Harvard-MIT Math Tournament](www.hmmt.co)
+	+ Problem czar, 2014 - 2016
+	+ Software director, 2016 - 2017
+	+ Historian, 2017 - 2018
++ IMO: [International Math Olympiad](www.imo-official.org)
+	+ Problem proposer, 2015 - present
+	+ USA Observer A, 2017
++ MOP: [Math Olympiad Summer Program](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Summer_Program)
+	+ Head grader (paid), 2016, 2017
++ NIMO: [National Internet MO](http://internetolympiad.org/), now discontinued
+	+ Director, 2011 - 2016
++ OMO: [Online Math Open](http://internetolympiad.org/pages/16-omo_acknow)
+	+ Director, 2013 - 2015
+	+ Website manager, 2013 - present
++ PRIMES: [MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php)
+	+ Entrance exam designer (paid), 2016 - present
+	+ CrowdMath mentor (paid), 2017
++ PUMaC: [Princeton University Math Competition](https://pumac.princeton.edu/)
+	+ Grader and proctor, 2014, 2015, 2016, 2017
+	+ HMMT volunteer exchange coordinator, 2015, 2016
++ Taiwan TST: Taiwan IMO Team Selection Test
+	+ Problem proposer (paid), 2015, 2016
++ USA(J)MO: [USA Math Olympiad](https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad)
+	+ Problem reviewer and author, 2016 - present
+	+ Grader, 2015 - present
++ USAMTS: [USA Math Talent Search](http://usamts.org/)
+	+ Problem author, 2016
++ USA TST(ST): USA IMO/EGMO Team Selection Test
+	+ Problem author and reviewer, 2015 - present
+	+ Coordinator of exam design, 2017 - present
+	+ Coordinator of grading, 2017 - present
+
+<!-- USAMO committee soon? :O -->
