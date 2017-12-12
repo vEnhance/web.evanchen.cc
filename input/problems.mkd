@@ -1,6 +1,6 @@
-title: Problems
+title: Problems Archive
 menu-position: 21
-header: Problems 
+header: Directory of Problems and Solutions
 indent: 1
 description: Archive of PDF's of math olympiad problems.
 
@@ -13,24 +13,6 @@ In fact, many of the files are replicas of the originals produced by me.
 However, because all these problems and solutions can be found
 on the [Art of Problem Solving](http://artofproblemsolving.com/community/c13_contests) anyways,
 I have assembled a subset of them here for everyone's convenience.
-
-### Taiwan Team Selection Test
-These problems are in Chinese.
-[Click here for English versions of the TST problems.](http://www.aops.com/community/c41558)
-
-* Taiwan TST 2014 Round 1 [(problems)](exams/TaiwanTST-2014-1.pdf)
-* Taiwan TST 2014 Round 2 [(problems)](exams/TaiwanTST-2014-2.pdf)
-* Taiwan TST 2014 Round 3 [(problems)](exams/TaiwanTST-2014-3.pdf)
-
-### ELMO
-* ELMO 2010 [(problems)](exams/ELMO-2010.pdf) [(solutions)](exams/ELMO-2010-sols.pdf)
-* ELMO 2011 [(problems)](exams/ELMO-2011.pdf) [(solutions)](exams/ELMO-2011-sols.pdf)
-* ELMO 2012 [(problems)](exams/ELMO-2012.pdf)
-* ELMO 2013 [(problems)](exams/ELMO-2013.pdf) [(solutions)](exams/ELMO-2013-sols.pdf)
-  [(broken Chinese)](exams/ELMO-2013-chinese.pdf)
-* ELMO 2014 [(problems)](exams/ELMO-2014.pdf) [(solutions)](exams/ELMO-2014-sols.pdf)
-* ELMO 2016 [(problems)](exams/ELMO-2016.pdf) [(solutions)](exams/ELMO-2016-sols.pdf)
-* ELMO 2017 [(problems)](exams/ELMO-2017.pdf) [(shortlist with solutions)](exams/ELMO-2017-SL.pdf)
 
 ### USA TST Selection Test (TSTST)
 For an explanation of the name, see [the FAQ on the USA IMO team selection](FAQs/rules.html).
@@ -54,9 +36,31 @@ For an explanation of the name, see [the FAQ on the USA IMO team selection](FAQs
 * USA TST for IMO 2016 [(problems)](exams/TST-IMO-2016.pdf) [(solutions)](exams/TST-IMO-2016-sols.pdf)
 * USA TST for IMO 2017 [(problems)](exams/TST-IMO-2017.pdf) [(solutions)](exams/TST-IMO-2017-sols.pdf)
 
+### ELMO
+* ELMO 2010 [(problems)](exams/ELMO-2010.pdf) [(solutions)](exams/ELMO-2010-sols.pdf)
+* ELMO 2011 [(problems)](exams/ELMO-2011.pdf) [(solutions)](exams/ELMO-2011-sols.pdf)
+* ELMO 2012 [(problems)](exams/ELMO-2012.pdf)
+* ELMO 2013 [(problems)](exams/ELMO-2013.pdf) [(solutions)](exams/ELMO-2013-sols.pdf)
+  [(broken Chinese)](exams/ELMO-2013-chinese.pdf)
+* ELMO 2014 [(problems)](exams/ELMO-2014.pdf) [(solutions)](exams/ELMO-2014-sols.pdf)
+* ELMO 2016 [(problems)](exams/ELMO-2016.pdf) [(solutions)](exams/ELMO-2016-sols.pdf)
+* ELMO 2017 [(problems)](exams/ELMO-2017.pdf) [(shortlist with solutions)](exams/ELMO-2017-SL.pdf)
+
+### Taiwan Team Selection Test
+These problems are in Chinese.
+[Click here for English versions of the TST problems.](http://www.aops.com/community/c41558)
+
+* Taiwan TST 2014 Round 1 [(problems)](exams/TaiwanTST-2014-1.pdf)
+* Taiwan TST 2014 Round 2 [(problems)](exams/TaiwanTST-2014-2.pdf)
+* Taiwan TST 2014 Round 3 [(problems)](exams/TaiwanTST-2014-3.pdf)
+
+
+<!--
+not really worth having just one year I think; also MAA copyright
 ### USA National Olympiad
 * USAMO 2016 [(problems)](exams/USAMO-2016.pdf) [(solutions)](exams/Solutions-USAMO-JMO-2016.pdf)
 * JMO 2016   [(problems)](exams/USAJMO-2016.pdf) [(solutions)](exams/Solutions-USAMO-JMO-2016.pdf)
+-->
 
 ### Links to other contests
 * [ELMO](elmo/problems.html)
