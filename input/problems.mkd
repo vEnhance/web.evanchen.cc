@@ -1,4 +1,4 @@
-title: Problems Archive
+title: Problem Archive
 menu-position: 21
 header: Directory of Problems and Solutions
 indent: 1
