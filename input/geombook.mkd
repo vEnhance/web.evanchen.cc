@@ -11,7 +11,7 @@ description: Synopsis and errata for EGMO geometry textbook for math olympiad st
 </span>
 
 <span style="color:red; font-size: 120%;">
-**You can get a hard copy from [Amazon][amazon] or [MAA][hardcopy].
+**You can get a hard copy from [Amazon][amazon] or [the AMS][hardcopy].
 You can also [purchase a PDF][ebook].**
 </span>
 
@@ -355,13 +355,13 @@ Here is the most recent table of contents.
 <br><b>Chapter C  Selected Solutions</b>
 <br><b>Chapter D  List of Contests and Abbreviations</b>
 
-[ebook]: http://www.maa.org/ebooks/EGMO
+[ebook]: http://bookstore.ams.org/prb-27/
 [cover]: http://www.maa.org/sites/default/files/images/ebooks/problem_books/EGMO.png
 [egmo2]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
 [egmo8]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
 [googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false
 [amazon]: https://smile.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/0883858398?ie=UTF8&*Version*=1&*entries*=0
-[hardcopy]: http://www.maa.org/press/books/euclidean-geometry-in-mathematical-olympiads
+[hardcopy]: http://bookstore.ams.org/prb-27/
 [girls]: https://www.egmo.org/
 [contests]: https://artofproblemsolving.com/community/c13_contests 
 
