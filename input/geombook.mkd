@@ -195,10 +195,11 @@ If you find another one, please let me know by email.
 + On **page 231**, hint 373, replace "$90^{\circ}-A$" with "$90^{\circ}-B$".
 + On **page 231**, hint 380, replace "$\sin 30^{\circ}$" with "$i \sin 30^{\circ}$".
 + On **page 231**, hint 383, change "trigonemetric" to "trigonometric".
++ On **page 231**, hint 389, change $L^\ast$ to $A^\ast$.
 + On **page 231**, hint 393, delete "$M=(0:1:1)$" and change the later "$L$" to "$M$".
 + On **page 238**, hint 649 is wrong (see correction to Solution 6.45 below).
 + On **page 238**, hint 653 is missing a period.
-+ On **page 238**, hint 666, change $\frac{XB}{XA}$ to $\frac{XA}{XB}$
++ On **page 238**, hint 666, change $\frac{XB}{XA}$ to $\frac{XA}{XB}$.
 + On **page 243**, in Solution 1.50, one also needs to check $A$, $P$, $W$ are collinear.
   Thus, add the remark $\measuredangle NPA = \measuredangle NMA = \measuredangle NMC = \measuredangle BNC = \measuredangle BNW = \measuredangle NPW$.
 + On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
