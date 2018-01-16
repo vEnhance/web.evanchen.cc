@@ -8,8 +8,7 @@ description: Some FAQ's about math contests and my personal life.
 
 These are questions I've been asked only once or twice,
 but which were thought-provoking enough that I want to post them anyways.
-To give credit where credit is due,
-this idea was stolen from [Paul Graham][raq].
+This idea was taken from [Paul Graham][raq].
 
 <br>
 
@@ -27,7 +26,7 @@ that I think people don't do enough.
 
 (I admittedly have spent a lot of time optimizing my workflow,
 like typing quickly, using Vim/Linux, organizing tasks on calendars,
-but I really think these are second-order effects.)
+but I think these are second-order effects.)
 
 I took this to extreme measures in high school.
 As a senior I took a total of 2 regular high-school classes
@@ -64,7 +63,7 @@ Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
 I guess the best advice I can give is to pick some project to work on.
 It doesn't have to be (and probably shouldn't be)
 something that you're confident that you can do well in.
-For more on this I much like the advice suggested 
+For more on this I much like the advice suggested
 by [Paul Graham](http://paulgraham.com/hs.html)
  particularly in Section "Now".
 
@@ -101,9 +100,12 @@ after all, the point is really for your own learning/growth/enjoyment.
 
 ### What's the most important thing that math contests taught you?
 
+I have a [whole post][lessons] on lessons I learned from math contests,
+but here's one that mattered to me a lot back in high school.
+
 In my opinion, one of the most damaging messages I got during high school
 is that hard work pays off. This is not true, and one of the most important
-life skills that math contests taught me were 
+life skills that math contests taught me were
 **how to work hard even being fully aware that I might never "succeed"**.
 
 In school there's a mentality that teachers should reward "good effort",
@@ -137,7 +139,7 @@ of the best peer groups out there. Most of the friends that I have
 today came in some way or other from the math contest circuit,
 even though many of them will certainly not be doing math as a career.
 (This doesn't technically relate to the question because it's not something
-I was "taught", but it would have been dishonest of me to omit it;
+I was "taught", but it would have been misleading of me to omit it;
 the social aspect of contests was huge for me.)
 
 <br>
@@ -146,7 +148,7 @@ the social aspect of contests was huge for me.)
 
 I would have worked on math contests even if there was no USAMO
 for me to do well on. Proof: I'm currently a college student and
-I *still* work on contest problems in my spare time. 
+I *still* work on contest problems in my spare time.
 
 Therefore, my advice is to **worry about the outcome as little as you can
 get away with**.  You should probably put some planning into the final result
@@ -174,3 +176,4 @@ Long answer: [this blog post][tutor].
 [vxia]: http://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
 [aopstime]: http://www.artofproblemsolving.com/community/c5h1147943p5421541
 [procrastinate]: http://paulgraham.com/procrastination.html
+[lessons]: https://usamo.wordpress.com/2018/01/05/lessons-from-math-olympiads/
