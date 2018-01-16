@@ -1,6 +1,6 @@
 title: CV
 header: CV
-menu-position: 11
+menu-position: 2
 url: upload/public-CV.pdf
 indent: 1
 

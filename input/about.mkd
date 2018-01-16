@@ -1,25 +1,22 @@
-title: About
-header: About Me
-menu-position: 10
+title: Personal
+header: A Bit More About Myself
+menu-position: 8
+indent: 1
 description: Link to CV, publications, Github repository, some pictures, some trivia.
 
 ---
 
-I am an undergraduate at MIT, majoring in mathematics.
-My expected graduation date is 2018.
-
-### Curriculum Vitae and Research
-
-* [Two-page CV](upload/public-CV.pdf), minus my phone number and address.
-
-* [Listing of research papers](publications.html),
-including pre-prints accepted or submitted for publication.
-
-* A [transcript of all major coursework](upload/math-coursework.pdf),
-	i.e. a list of all the math coursework I've completed or am currently taking.
-
-* I am on [GitHub](https://github.com/vEnhance/).
-
++ Linux: [Arch Linux](https://www.archlinux.org/), using [i3](https://i3wm.org/).
+	([dot-files on GitHub](https://github.com/vEnhance/dotfiles))
++ Editor: [Vim](http://www.vim.org/)
+<!-- + TeX distribution: [TeX Live](https://tug.org/texlive/), -->
+<!-- + Digits of Pi known: About 220 -->
++ Some favorite games: [Canadian Fish][fish], [Yomi](http://sirlingames.com/yomi),
+	[The Battle for Wesnoth](http://wesnoth.org/),
+	[Ghost Trick](https://en.wikipedia.org/wiki/Ghost_Trick).
++ Favorite triangle center: Orthocenter
++ Favorite circle: A-mixtilinear incircle
++ Favorite color: Aqua green (close to [#00FFBF][aquamarine])
 
 ### Math Contest History
 During my time as a high school student, I participated extensively on mathematical olympiads.
@@ -39,26 +36,6 @@ contest preparation over my four years of high school.
 
 The medal on the left is a USAMO winner medal;
 the medal on the right is an IMO gold medal.
-
-### Trivia
-
-+ Preferred Linux distribution: [Arch Linux](https://www.archlinux.org/)
-+ TeX distribution: TeX Live
-+ Editor: [Vim](http://www.vim.org/)
-+ Window manager: [i3](https://i3wm.org/)
-+ Favorite integer: 0
-+ Digits of Pi known: About 220
-+ Favorite standard card game: [Canadian Fish][fish]
-+ Favorite non-standard card game: [Yomi](http://sirlingames.com/yomi)
-+ Favorite computer game: [The Battle for Wesnoth](http://wesnoth.org/)
-+ Favorite video game: [Ghost Trick](https://en.wikipedia.org/wiki/Ghost_Trick)
-+ Favorite olympiad subject: Geometry
-+ Favorite triangle center: Orthocenter
-+ Favorite circle: A-mixtilinear incircle
-+ Favorite color: Aqua green (close to [#00FFBF][aquamarine])
-
-Link to [dot-files on GitHub](https://github.com/vEnhance/dotfiles),
-for the other Linux users reading this.
 
 
 [imo]: http://imo-official.org/participant_r.aspx?id=24870

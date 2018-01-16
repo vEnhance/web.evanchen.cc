@@ -1,14 +1,16 @@
-title: Home
+title: About
 header: Homepage of Evan Chen
 menu-position: 0
 description: Homepage of Evan Chen. Course notes, olympiad materials, writings, CV, and some trivia.
 
 ---
 
-I am an undergraduate at the
-Massachusetts Institute of Technology,
+### About
+
+I am an undergraduate at the Massachusetts Institute of Technology,
 graduating in June 2018.
 My CV is [here](upload/public-CV.pdf).
+Here is a [list of my major coursework](upload/math-coursework.pdf).
 
 Most of my research is either in number theory
 or enumerative/algebraic combinatorics.
@@ -16,11 +18,11 @@ My papers are linked on my [publications page](publications.html).
 
 I am actively involved with math olympiad competitions
 and have authored [several olympiad materials](olympiad.html),
-most notably including a [textbook](geombook.html).
+most notably including a [geometry textbook](geombook.html).
 I also [teach my own classes](otis.html).
 
-
-[Link to blog](http://blog.evanchen.cc).
+I am on [GitHub](https://github.com/vEnhance/)
+and [WordPress](http://blog.evanchen.cc).
 
 <center>
 <img src="static/home-art.png" width="300">

@@ -1,5 +1,5 @@
 title: Outreach
-menu-position: 18
+menu-position: 7
 header: Outreach for High School Math Contests
 indent: 1
 description: Listing

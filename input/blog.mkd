@@ -1,5 +1,6 @@
 title: Blog
-menu-position: 200
+menu-position: 4
+indent: 1
 url: http://blog.evanchen.cc
 header: WordPress Blog: Power Overwhelming
 
