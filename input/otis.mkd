@@ -47,7 +47,7 @@ I have the best job in the world.
 
 OTIS is centered around two-week topic units
 which I pick for each student based on their background.
-A semester has 6-7 units.
+Each semester has 6-7 units.
 Each unit comes with a problem set of 7-12 olympiad problems.
 Participants are expected to keep in regular contact with me
 about these problems.
@@ -70,6 +70,7 @@ though international students may meet at other times.
 Here's some examples of materials:
 
 * Example unit: [handout][sample-DNY] and [solutions][sample-DNYsol]
+* A [listing of all units][unitlist], i.e. a table of contents
 * Example practice test: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 * Example transcript: [transcript][sample-zack]
 
@@ -79,6 +80,7 @@ Here's some examples of materials:
 [sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
 [sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
 [sample-zack]: static/otis-samples/zack-local.pdf
+[unitlist]: static/otis-samples/unitlist.html
 
 The cost for each semester is 80(H+5)
 where H is the number of hours spent in person
