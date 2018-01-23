@@ -1,0 +1,64 @@
+title: Starting Points
+header: Suggestions for starting math olympiads
+description: Suggestions for starting on math olympiads
+
+---
+
+By now I've gotten countless emails from students studying
+for math olympiads that amounts to "okay, but what do I do?".
+So here is, at long last, a list of suggestions.
+
+Readers may notice this is actually just
+an abridged version of the longer
+[recommendations page](recommend.html) on my site.
+It turns out if you make a list shorter,
+people are more likely to pick up the pencil and start cracking.
+
+I really want to stress these are mere *suggestions*.
+Just because you have done everything on this list
+does not mean you will achieve your goals.
+Conversely, there are many fantastic resources that are not
+included on this list, since I wanted to keep this list very short
+(and also due to my own ignorance).
+If you are looking for a list of materials which are guaranteed
+to be "enough" for solving IMO #1 and #4, you have come to the wrong place.
+There are few guarantees in math contests.
+
+See also the [math contest FAQ's](FAQs/contest.html)
+for some more philosophical (and less concrete) advice on studying.
+
+### Lecture Materials
+
++ Algebra: [Intro functional equations][funceq], [Intro inequalities][ineq]
++ Combinatorics: [Pranav A. Sriram][pranav]
++ Geometry: [E.G.M.O.](geombook.html)
++ Number theory: [Orders modulo a prime][orders]
+
+[funceq]: http://web.evanchen.cc/handouts/FuncEq-Intro/FuncEq-Intro.pdf
+[ineq]: http://web.evanchen.cc/handouts/Ineq/en.pdf
+[pranav]: http://www.artofproblemsolving.com/community/c6h601134
+[orders]: http://web.evanchen.cc/handouts/ORPR/ORPR.pdf
+
+If you've finished these and want more,
+I have [a bunch more olympiad handouts](olympiad.html)
+and [links to other sources](recommend.html).
+
+### Problem Sources
+
+A mandatory part of any olympiad training is doing lots
+of problems from past contests.
+(I used to carry a binder with printouts
+of the IMO shortlist and check them off as I figured them out.)
+
+Here are some places to start
+(roughly ascending order of difficulty):
+
++ [Canada national olympiad](https://cms.math.ca/Competitions/CMO/)
++ [European Girls Math Olympiad](https://www.egmo.org/egmos/)
++ [ELMO](elmo/problems.html)
++ [IMO Shortlist](http://imo-official.org/problems.aspx)
++ [USA Team Selection Tests](problems.html)
+
+The bottom of the [recommendations page](recommend.html)
+has some more suggestions for problems
+if this list isn't sufficient.

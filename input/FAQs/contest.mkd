@@ -37,15 +37,13 @@ things in the right difficulty range.
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
 
-With that disclaimer, possible suggestions for math olympiads:
-
-* For Euclidean geometry, my [textbook EGMO][geombook].
-* [My own olympiad handouts][articles] for some selected topics, and
-* [My recommendations page](recommend.html) for books and handouts in other subjects.
+With that disclaimer,
+[here are some possible suggestions](wherestart.html)
+for math olympiads.
 
 Younger students (preparing for AMC/AIME) would likely benefit
 from books or classes from Art of Problem Solving, like
-[Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
+[Volume 2](https://www.aops.com/store/item/aops-vol2).
 
 
 <br>
