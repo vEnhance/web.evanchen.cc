@@ -97,6 +97,8 @@ although there is a large variance.
 I select a handful of students from the many requests
 in mid-May of each year, after the grading of USAMO.
 
+You can now submit requests for the 2018 - 2019 school year
+(to begin in September 2018).
 For OTIS 2018-2019, please submit requests by May 2, 2018.
 [The request form][form] asks for the following information:
 
