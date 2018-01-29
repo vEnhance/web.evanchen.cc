@@ -7,10 +7,9 @@ description: Synopsis of my teaching for olympiad students.
 
 <img src="static/calvin-education.gif" />
 
-Since 2015, I have run a small,
-informal training program during the school year
-for students aiming to do well on the USA(J)MO,
-now informally called *OTIS*.
+Since 2015, I have run a small, informal training program during the school year
+for students aiming to do well on the USA(J)MO.
+It is now informally called *OTIS*.
 This program is designed for students who are
 comfortable reading and writing proofs
 and able to confidently qualify for national olympiad,
@@ -22,6 +21,81 @@ me for referrals to other mentors.)
 This page is a bit about the specifics of my program.
 
 [perhour]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+
+### Description
+
+OTIS is centered around two-week topic units
+which I pick for each student based on their background.
+Each semester has 6-7 units.
+Each unit comes with a problem set of 7-12 olympiad problems.
+Additionally, 10-14 olympiad-style practice exams
+(each emulating a day of a typical olympiad)
+are assigned throughout the year (graded in full).
+
+All the materials for OTIS are hand-designed by me:
+the design of the materials is kind of an art,
+and it's half the fun of teaching
+(the other half is talking to the kids).
+
+Typically, I meet with students over Google Hangouts
+either every two weeks, for about 75 minutes.
+I use LaTeX-Beamer as a blackboard and so full transcripts are posted
+immediately after each session.
+These sessions take place on weekdays, usually in the evening
+though international students may meet at other times.
+
+The cost for each semester is 80(H+5)
+where H is the number of hours spent in person
+(the +5 term accounting for grading/preparation time).
+A rough estimate of the time commitment might be
+<span style="color:red;">*8-12 hours per week*</span>,
+although there is a large variance.
+
+### Syllabus and Documents
+
+* [Full syllabus](upload/otis-syllabus.pdf) (warning: long)
+* [Course synopsis][unitlist] (possible topics covered)
+* Example unit: [handout][sample-DNY] and [solutions][sample-DNYsol]
+* Example practice test: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
+* Example transcript: [transcript][sample-zack]
+
+[sample-DNY]: static/otis-samples/DNY-ntconstruct.pdf
+[sample-DNYsol]: static/otis-samples/soln-DNY-ntconstruct.pdf
+[sample-jmo]: static/otis-samples/Exam-Sample-08-JMO.pdf
+[sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
+[sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
+[sample-zack]: static/otis-samples/zack-local.pdf
+[unitlist]: static/otis-samples/unitlist.html
+
+### For interested students
+
+[form]: https://goo.gl/forms/himGptArWuVhlFdv2
+
+Here is the [link to request form][form], due **May 2, 2018**.
+I select a handful of students from the many requests
+in mid-May of each year, after the grading of USAMO.
+
+You can now submit requests for the 2018 - 2019 school year
+(to begin in September 2018).
+For OTIS 2018-2019, please submit requests by May 2, 2018.
+The form asks for the following information:
+
+* Your name, grade, school, and time zone
+* Your anticipated availabilities on each of Monday, Tuesday, Wednesday, Thursday
+* Any relevant contest history or scores
+* Subject preferences, like "strong geo, weak algebra"
+* Goals for the year, like "qualify for MOP"
+
+[The form][form] will let you edit your responses after submission.
+In particular, you can submit the form early and then edit it after
+the USA(J)MO in April with your estimated scores.
+
+Usually I am not able to take all (or even most) requests, but even then
+I can often refer you to other instructors who are less busy than me
+(mostly MOP alumni now at Harvard or MIT).
+So, if you are interested in mentoring,
+feel free to reach out to me even if the deadline is long past;
+most likely, I will be able to connect you with someone else.
 
 ### History
 
@@ -43,83 +117,6 @@ I have the best job in the world.
 
 [gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
 
-### Description
-
-OTIS is centered around two-week topic units
-which I pick for each student based on their background.
-Each semester has 6-7 units.
-Each unit comes with a problem set of 7-12 olympiad problems.
-Participants are expected to keep in regular contact with me
-about these problems.
-
-Additionally, 10-14 olympiad-style practice exams
-(each emulating a day of a typical olympiad)
-are assigned throughout the year; these are graded in full.
-All the materials for OTIS are hand-designed by me:
-the design of the materials is kind of an art,
-and it's half the fun of teaching
-(the other half is talking to the kids).
-
-Typically, I meet with students over Google Hangouts
-either every week or every two weeks, for 60-75 minutes.
-I use LaTeX-Beamer as a blackboard and so full transcripts are posted
-immediately after each session.
-These sessions take place on weekdays, usually in the evening
-though international students may meet at other times.
-
-Here's some examples of materials:
-
-* Example unit: [handout][sample-DNY] and [solutions][sample-DNYsol]
-* A [listing of all units][unitlist], i.e. a table of contents
-* Example practice test: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
-* Example transcript: [transcript][sample-zack]
-
-[sample-DNY]: static/otis-samples/DNY-ntconstruct.pdf
-[sample-DNYsol]: static/otis-samples/soln-DNY-ntconstruct.pdf
-[sample-jmo]: static/otis-samples/Exam-Sample-08-JMO.pdf
-[sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
-[sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
-[sample-zack]: static/otis-samples/zack-local.pdf
-[unitlist]: static/otis-samples/unitlist.html
-
-The cost for each semester is 80(H+5)
-where H is the number of hours spent in person
-(the +5 term accounting for grading/preparation time).
-A rough estimate of the time commitment might be
-<span style="color:red;">*8-12 hours per week*</span>,
-although there is a large variance.
-
-### For interested students
-
-[form]: https://goo.gl/forms/himGptArWuVhlFdv2
-
-[**Link to request form**][form], due **May 2, 2018**.
-I select a handful of students from the many requests
-in mid-May of each year, after the grading of USAMO.
-
-You can now submit requests for the 2018 - 2019 school year
-(to begin in September 2018).
-For OTIS 2018-2019, please submit requests by May 2, 2018.
-[The request form][form] asks for the following information:
-
-* Your name, grade, school, and time zone
-* Your anticipated availabilities on each of Monday, Tuesday, Wednesday, Thursday
-* Any relevant contest history or scores
-* Subject preferences, like "strong geo, weak algebra"
-* Goals for the year, like "qualify for MOP"
-
-[The form][form] will let you edit your responses after submission.
-In particular, you can submit the form early and then edit it after
-the USA(J)MO in April with your estimated scores.
-
-Usually I am not able to take all requests, but even then
-I can often refer you to other instructors who are less busy than me
-(mostly MOP alumni now at Harvard or MIT).
-So, if you are interested in mentoring,
-feel free to reach out to me even if the deadline is long past;
-most likely, I will be able to connect you with someone else.
-
-### Some Alumni
 Here are some awards that my past students have won.
 This is not a claim that these students performed well *because* of me;
 all of them were already strong before joining OTIS,
