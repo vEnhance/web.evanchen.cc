@@ -32,6 +32,10 @@ Additionally, 10-14 olympiad-style practice exams
 (each emulating a day of a typical olympiad)
 are assigned throughout the year (graded in full).
 
+A rough estimate of the time commitment might be
+<span style="color:red;">*8-12 hours per week*</span>,
+although there is a large variance.
+
 All the materials for OTIS are hand-designed by me:
 the design of the materials is kind of an art,
 and it's half the fun of teaching
@@ -44,12 +48,9 @@ immediately after each session.
 These sessions take place on weekdays, usually in the evening
 though international students may meet at other times.
 
-The cost for each semester is 80(H+5)
+Starting from 2018-2019, the cost for each semester is 80(H+4)
 where H is the number of hours spent in person
-(the +5 term accounting for grading/preparation time).
-A rough estimate of the time commitment might be
-<span style="color:red;">*8-12 hours per week*</span>,
-although there is a large variance.
+(the +4 term accounting for grading, preparation, answering questions).
 
 ### Syllabus and Documents
 
