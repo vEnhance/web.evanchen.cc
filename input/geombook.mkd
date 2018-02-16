@@ -204,6 +204,7 @@ If you find another one, please let me know by email.
 + On **page 243**, in Solution 1.50, one also needs to check $A$, $P$, $W$ are collinear.
   Thus, add the remark $\measuredangle NPA = \measuredangle NMA = \measuredangle NMC = \measuredangle BNC = \measuredangle BNW = \measuredangle NPW$.
 + On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
++ On **page 249**, Solution 3.29, add a remark that $(AMN)$ is tangent to $(ABC)$.
 + On **page 252**, in Solution 4.52, last display,
    change $\measuredangle BED + \measuredangle BDE$ to $\measuredangle BED + \measuredangle DBE$.
 + On **page 252**, in Solution 5.21, change $-BI \cdot CI \cdot \sqrt2$ to $+ BI \cdot CI \cdot \sqrt2$.
