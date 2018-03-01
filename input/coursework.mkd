@@ -35,6 +35,9 @@ The Dropbox links will expire at the end of each semester. -->
 * **(18.757) Representations of Lie Algebras** [(pdf)](notes/MIT-18-757.pdf)<br>
   Taught by Laura Rider. Spring 2016.
 
++ **(18.786) Number Theory II** [(temp link)](https://www.dropbox.com/s/leidhbcsoe8nmk4/MIT-18-786.pdf?dl=0)<br>
+  Taught by Andrew Sutherland. Spring 2018.
+
 * **(18.950) Differential Geometry** [(pdf)](notes/MIT-18-950.pdf)<br>
   Taught by Xin Zhou. Fall 2015.
 
