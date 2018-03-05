@@ -16,7 +16,7 @@ Most of my research is either in number theory
 or enumerative/algebraic combinatorics.
 My papers are linked on my [publications page](publications.html).
 
-I am actively involved with math olympiad competitions
+I am [actively involved](volunteer.html) with math olympiad competitions
 and have authored [several olympiad materials](olympiad.html),
 most notably including a [geometry textbook](geombook.html).
 I also [teach my own classes](otis.html).
