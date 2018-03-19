@@ -17,13 +17,16 @@ as well as my [geometry book](geombook.html) for a
 comprehensive textbook in Euclidean geometry.
 See also [Problems](problems.html) for contest papers.
 
-To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
+*If you notice any errors, please let me know!*
+
+**LaTeX notes**:
+I provided the LaTeX source for most of these files as an example here.
+But note to compile these documents in LaTeX, you will need 
+my style file, which can be found here: [evan.sty][evan.sty].
 Because this style file evolves over time,
 your output might look a little different than the PDF's attached here.
 For files with Asymptote diagrams you will additionally
 need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
-
-*If you notice any errors, please let me know!*
 
 ### General
 * <b>English</b> {{ hlink("english") }}
