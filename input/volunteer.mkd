@@ -26,35 +26,39 @@ but a few are paid positions (noted below).
 	+ Problem czar, 2014 - 2016
 	+ Software director, 2016 - 2017
 	+ Historian, 2017 - 2018
+	+ Chief of staff, 2018 - 2019
 + IMO: [International Math Olympiad](www.imo-official.org)
-	+ Problem proposer, 2015 -
-	+ USA Observer A, 2017 -
+	+ Problem proposer, 2015 - present
+	+ USA Observer A, 2017 - present
 + MOP: [Math Olympiad Summer Program](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Summer_Program)
 	+ Head grader (paid), 2016, 2017
-	+ Academic director (paid), 2018 -
+	+ Academic director (paid), 2018 - present
 + NIMO: [National Internet MO](http://internetolympiad.org/), now discontinued
 	+ Director, 2011 - 2016
 + OMO: [Online Math Open](http://internetolympiad.org/pages/16-omo_acknow)
 	+ Director, 2013 - 2015
 	+ Website manager, 2013 - present
 + PRIMES: [MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php)
-	+ Entrance exam designer (paid), 2016 -
+	+ Entrance exam designer (paid), 2016 - present
 	+ CrowdMath mentor (paid), 2017
 + PUMaC: [Princeton University Math Competition](https://pumac.princeton.edu/)
 	+ Grader and proctor, 2014, 2015, 2016, 2017
 	+ HMMT volunteer exchange coordinator, 2015, 2016
 + RMM: [Romania Masters in Math](http://rmms.lbi.ro/)
 	+ USA deputy leader, 2018
++ SPARC: [Summer Program for Applied Rationality and Cognition](https://sparc-camp.org/)
+	+ Junior counselor, 2015, 2017
+	+ Admissions organizer, 2017, 2018
 + Taiwan TST: Taiwan IMO Team Selection Test
 	+ Problem proposer (paid), 2015, 2016
 + USA(J)MO: [USA Math Olympiad](https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad)
-	+ Problem reviewer and author, 2016 -
-	+ Grader, 2015 -
+	+ Problem reviewer and author, 2016 - present
+	+ Grader, 2015 - present
 + USAMTS: [USA Math Talent Search](http://usamts.org/)
 	+ Problem author, 2016
-+ USA TST(ST): USA IMO/EGMO Team Selection Test
-	+ Problem author and reviewer, 2015 -
-	+ Coordinator of exam design, 2017 -
-	+ Coordinator of grading, 2017 -
++ USA TST(ST): USA RMM/IMO/EGMO Team Selection Test
+	+ Problem author and reviewer, 2015 - present
+	+ Head coordinator of exam design, 2017 - present
+	+ Head coordinator of grading, 2017 - present
 
 <!-- USAMO committee soon? :O -->
