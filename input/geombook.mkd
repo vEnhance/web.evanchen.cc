@@ -77,6 +77,7 @@ If you find another one, please let me know by email.
 + On **page xi**, append a comma after "lectures at MOP".
 + On **page xiv**, second bullet, the phrase "intersection the medians" is missing "of".
 + On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
++ On **page 12**, Proposition 1.24, the isosceles triangle condition holds only when $A$, $B$, $C$ are not collinear.
 + On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCB=90^{\circ}$".
 + On **page 18**, in problem 1.37, delete the word "again" in the definition of $Q$.
 + On **page 19**, in problem 1.45, change "ray $BI$" to "the $\angle B$-bisector".
@@ -114,7 +115,6 @@ If you find another one, please let me know by email.
   Also, "interest" should be "intersect" in the first line.
 + On **page 101**, in the proof of Example 6.10, Lemma 6.3 should be Lemma 6.5.
   Also, $\frac{xa}{bc}$ should be $\frac{bc}{xa}$ (two changes).
-+ On **page 105**, in Problem 6.20 change "Theorem 6.16" to "Theorem 6.15".
 + On **page 105**, in Problem 6.20 change "Theorem 6.16" to "Theorem 6.15".
 + <span style="color:red;">On **page 107**, the proof of part (a) of the theorem
   has several issues, and is probably best to just ignore.</span>
@@ -178,8 +178,9 @@ If you find another one, please let me know by email.
 + On **page 200**, in third sentence of proof, add "of" after "radical center".
 + On **page 202**, part (a), the latter four circles should be
   $(PAB)$, $(PCD)$, $(QAD)$, $(QBC)$.
-+ On **page 206**, problem 10.23, change "IMO 2005/2" to "IMO 2005/5".
++ On **page 206**, problem 10.23, change "IMO 2005/2" to "IMO 2005/5", and "lie of the sides" to "lie on the sides".
 + On **page 209**, problem 11.6, change "circumcenter" to "circumcircle".
++ On **page 210**, problem 11.8, assume $AB \neq AC$.
 + On **page 210**, problem 11.10, change "$PA$, $PB$, $PC$" to "$AP$, $BP$, $CP$".
 + On **page 216**, in phrase "third column from the first column",
   change "first" to "second".
@@ -191,6 +192,7 @@ If you find another one, please let me know by email.
 + On **page 226**, hint 183, replace "$ABCD$" with "$ABXY$".
 + On **page 226**, hint 185, replace "$\angle WXY = 40^{\circ}$"
   with "$\angle XZY = 40^{\circ}$".
++ On **page 226**, hint 193, replace "major arc $BC$" with "arc $\widehat{BAC}$".
 + On **page 226**, hint 197 is wrong (see correction to Solution 6.45 below).
 + On **page 226**, hint 218, change $AC$ and $BD$ to $AB$ and $XY$.
 + On **page 227**, hint 231, replace $P,C,D$ with $P,A,B$; replace $ABCD$ with $AXBY$.
@@ -201,6 +203,7 @@ If you find another one, please let me know by email.
 + On **page 229**, hint 316, change "the circle is" to "the circle is centered at".
 + On **page 229**, hint 321, delete "applies".
 + On **page 230**, hint 355, change $AC$ to $AB$.
++ On **page 230**, hint 340, replace $P$ with $\overline{A\_1A\_2} \cap \overline{C\_1C\_2}$.
 + On **page 230**, hint 362, $X$ should instead be the second intersection of $QI$ with the circumcircle.
 + On **page 231**, hint 373, replace "$90^{\circ}-A$" with "$90^{\circ}-B$".
 + On **page 231**, hint 380, replace "$\sin 30^{\circ}$" with "$i \sin 30^{\circ}$".
@@ -230,6 +233,7 @@ If you find another one, please let me know by email.
 + On **page 268**, Solution 7.44, $A\_0$ should be $(0:a-uc/a:uc/a)$ in the second display.
 + On **page 271**, the solution 7.52, second-to-last display, the expressions actually equal $-\gamma$, not $\gamma$.
 + On **pages 273-274**, Solution 8.31, swap $A$ and $C$ everywhere.
++ On **pages 274**, Solution 8.36, change "nine-point circle" to "the nine-point circle" in second sentence.
 + <span style="color:red;">On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.</span>
 + On **page 276**, in Solution 9.47, change $(A,X;B,C)$ to $(A,X;C,B)$.
 + On **page 277**, in Solution 9.50, change $\overline{CG} \cap \overline{BE}$ to $\overline{CG'} \cap \overline{BE}$.

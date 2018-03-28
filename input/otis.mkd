@@ -65,7 +65,7 @@ where H is the number of hours spent in person
 [sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
 [sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
 [sample-zack]: static/otis-samples/zack-local.pdf
-[unitlist]: static/otis-samples/unitlist.html
+[unitlist]: static/otis-samples/synopsis.html
 
 ### For interested contestants
 
