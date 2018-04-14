@@ -41,7 +41,8 @@ the design of the materials is kind of an art,
 and it's half the fun of teaching
 (the other half is talking to the kids).
 
-Typically, I meet over Google Hangouts every two weeks, for about 75 minutes.
+Typically, I meet students briefly over Google Hangouts
+every one or two weeks (I really mean "brief" here, like 30 minutes or so).
 I use LaTeX-Beamer as a blackboard and so full transcripts are posted
 immediately after each session.
 These sessions take place on weekdays, usually in the evening
