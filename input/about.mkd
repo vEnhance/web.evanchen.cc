@@ -6,6 +6,8 @@ description: Link to CV, publications, Github repository, some pictures, some tr
 
 ---
 
+Here is a [link to a CV](upload/public-CV.pdf).
+
 + Linux: [Arch Linux](https://www.archlinux.org/), using [i3](https://i3wm.org/).
 	([dot-files on GitHub](https://github.com/vEnhance/dotfiles))
 + Editor: [Vim](http://www.vim.org/)
