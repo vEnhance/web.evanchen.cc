@@ -184,6 +184,8 @@ If you find another one, please let me know by email.
 + On **page 210**, problem 11.10, change "$PA$, $PB$, $PC$" to "$AP$, $BP$, $CP$".
 + On **page 216**, in phrase "third column from the first column",
   change "first" to "second".
++ On **page 218**, in definition of vector addition,
+  change to $\left\langle x\_+1_x\_2, y\_1+y\_2 \right\rangle$.
 + On **page 223**, hint 77, replace "$\measuredangle CMN = \measuredangle BMN$"
   with "$\measuredangle CNM = \measuredangle BNM$".
 + On **page 223**, hint 96 is wrong (see page 274 correction below).
