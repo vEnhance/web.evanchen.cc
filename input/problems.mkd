@@ -42,7 +42,7 @@ see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 * USA Winter TST for IMO 2015 [(problems)](exams/TST-IMO-2015.pdf) [(solutions)](exams/TST-IMO-2015-sols.pdf)
 * USA Winter TST for IMO 2016 [(problems)](exams/TST-IMO-2016.pdf) [(solutions)](exams/TST-IMO-2016-sols.pdf)
 * USA Winter TST for IMO 2017 [(problems)](exams/TST-IMO-2017.pdf) [(solutions)](exams/TST-IMO-2017-sols.pdf)
-* USA Winter TST for IMO 2018 [(problems)](exams/TST-IMO-2018.pdf) [(solutions)](exams/TST-IMO-2018-sols.pdf)
+* USA Winter TST for IMO 2018 [(problems)](exams/TST-IMO-2018.pdf) [(solutions)](exams/sols-TST-IMO-2018.pdf)
 
 ### ELMO
 
