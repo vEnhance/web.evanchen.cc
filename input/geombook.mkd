@@ -146,7 +146,7 @@ If you find another one, please let me know by email.
 + <span style="color:red;">On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.</span>
 + On **page 144**, second line of 7.42, change "tangency points" to "tangency point".
 + On **page 149**, second paragraph of 8.1, change "three ordinary points" to "three noncollinear ordinary points".
-+ On **page 150**, in Lemma 8.1, rplace "tangents from $A^\ast$" with "tangency points from $A^\ast".
++ On **page 150**, in Lemma 8.1, replace "tangents from $A^\ast$" with "tangency points from $A^\ast$".
 + On **page 151**, at start of 8.2, in "simplest example is a just a line", delete the extra "a".
 + On **page 151**, immediately before figure, add a period after 8.2A.
 + On **page 155**, first bullet, delete the extra comma.
