@@ -130,8 +130,8 @@ though he didn't do that much.
 + Annie Siye Zhu: [EGMO 2017][egmo17]
 + Colin Tang: [RMM 2018][rmm18]
 + Edward Wan: [USAMO 2018][usamo18], [IMO 2018][imo18PRI]
-+ Anant Mudgal: [IMO 2018][imo2018IND]
-+ Howard Halim: [IMO 2018][imo2018CAN]
++ Anant Mudgal: [IMO 2018][imo18IND]
++ Howard Halim: [IMO 2018][imo18CAN]
 
 [rmm17]: http://rmms.lbi.ro/rmm2017/index.php?id=results_math
 [amo17]: http://www.maa.org/sites/default/files/HonorableMentions2017.pdf
@@ -141,5 +141,5 @@ though he didn't do that much.
 [imo18IND]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=IND
 [imo18CAN]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=CAN
 [imo18PRI]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=PRI
-[imo18USA]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=US
+[imo18USA]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=USA
 [usamo18]: http://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
