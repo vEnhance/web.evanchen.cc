@@ -80,6 +80,7 @@ If you find another one, please let me know by email.
 + On **page 12**, Proposition 1.24, the isosceles triangle condition holds only when $A$, $B$, $C$ are not collinear.
 + On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCB=90^{\circ}$".
 + On **page 18**, in problem 1.37, delete the word "again" in the definition of $Q$.
++ On **page 18**, in problem 1.39, $I$ is the incenter of $\triangle ABC$.
 + On **page 19**, in problem 1.45, change "ray $BI$" to "the $\angle B$-bisector".
 + On **page 20**, in problem 1.47, change "Let $ABC$ be triangle" to "Let $ABC$ be a triangle".
 + On **page 24**, in Problem 2.2, change $\measuredangle BCA = \measuredangle YZX$
@@ -185,7 +186,7 @@ If you find another one, please let me know by email.
 + On **page 216**, in phrase "third column from the first column",
   change "first" to "second".
 + On **page 218**, in definition of vector addition,
-  change to $\left\langle x\_+1_x\_2, y\_1+y\_2 \right\rangle$.
+  change to $\left\langle x\_1+x\_2, y\_1+y\_2 \right\rangle$.
 + On **page 223**, hint 77, replace "$\measuredangle CMN = \measuredangle BMN$"
   with "$\measuredangle CNM = \measuredangle BNM$".
 + On **page 223**, hint 96 is wrong (see page 274 correction below).
@@ -216,7 +217,7 @@ If you find another one, please let me know by email.
 + On **page 238**, hint 653 is missing a period.
 + On **page 238**, hint 666, change $\frac{XB}{XA}$ to $\frac{XA}{XB}$.
 + On **page 243**, in Solution 1.50, one also needs to check $A$, $P$, $W$ are collinear.
-  Thus, add the remark $\measuredangle NPA = \measuredangle NMA = \measuredangle NMC = \measuredangle BNC = \measuredangle BNW = \measuredangle NPW$.
+  Thus, add the remark $\measuredangle NPA = \measuredangle NMA = \measuredangle NMC = \measuredangle NBC = \measuredangle NBW = \measuredangle NPW$.
 + On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
 + On **page 249**, Solution 3.29, add a remark that $(AMN)$ is tangent to $(ABC)$.
 + On **page 250**, in Solution 4.50, second-to-last sentence, change "circumcircle" to "circumcenter".
