@@ -80,7 +80,7 @@ Each section is in alphabetical order.
 	* [USA](https://aops.com/community/c3409_usamo)
 	* [USA Junior](https://aops.com/community/c3420_usajmo)
 + Team selection tests:
-	* [China](https://aops.com/community/c3282) (hard!)
+	* [China](https://aops.com/community/c3282)
 	* [Iran](https://aops.com/community/c3321)
 	* [Romania](https://aops.com/community/c3366)
 	* [Taiwan](https://aops.com/community/c41558)

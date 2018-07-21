@@ -15,7 +15,7 @@ but a few are paid positions (noted below).
 	+ Problem author and reviewer
 + ARML: [American Regional Math League](www.arml2.com)
 	+ ARML Local problem author, 2015, 2016
-	+ Problem writing team, 2017
+	+ Problem writing team, 2017 - present
 + BMC: [Berkeley Math Circle](http://mathcircle.berkeley.edu/)
 	+ Monthly contest grader (paid), 2011 - 2014
 	+ Monthly contest design (paid), 2012 - present
@@ -39,7 +39,7 @@ but a few are paid positions (noted below).
 	+ Director, 2013 - 2015
 	+ Website manager, 2013 - present
 + PRIMES: [MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php)
-	+ Entrance exam designer (paid), 2016 - present
+	+ Entrance exam designer (paid), 2016 - 2018
 	+ CrowdMath mentor (paid), 2017
 + PUMaC: [Princeton University Math Competition](https://pumac.princeton.edu/)
 	+ Grader and proctor, 2014, 2015, 2016, 2017
