@@ -3,12 +3,12 @@ import heapq
 
 # Script constants
 BASE = r"http://web.evanchen.cc/elmo/"
-#BASE = r"file:///home/evan/Documents/www/elmo/"
-YEAR_PREV = 2016
-YEAR_NEXT = 2017
-YEARS = [2012, 2013, 2014, 2015, 2016, 2017]
-PREV_URL = "http://artofproblemsolving.com/community/c5h1255466s1_18th_elmo_2016"
-NEXT_URL = "https://artofproblemsolving.com/community/c5h1450531_19th_elmo_2017"
+# BASE = r"file:///home/evan/Documents/www/elmo/"
+YEAR_PREV = 2018
+YEAR_NEXT = 2019
+YEARS = [2012, 2013, 2014, 2015, 2016, 2017, 2018]
+PREV_URL = "https://artofproblemsolving.com/community/c5h1648573_20th_elmo_2018"
+NEXT_URL = "https://nyan.cat"
 
 # Create header {{{1
 with open("static/header.html") as f:
@@ -62,7 +62,9 @@ class ELMOCountry:
 		return sum([student.score for student in self.students])
 	@property
 	def sweeps(self):
-		if self.year.year_num >= 2017:
+		if self.year.year_num >= 2018:
+			return sum(heapq.nlargest(4,[student.score for student in self.students])) / 4.0
+		elif self.year.year_num == 2017:
 			return sum(heapq.nlargest(3,[student.score for student in self.students])) / 3.0
 		else:
 			return sum([student.score for student in self.students]) / float(len(self.students))
@@ -277,7 +279,9 @@ for year in ELMO:
 		print >>f, r'<table id="table_main" class="tablesorter">'
 		print >>f, "<thead><tr><th>Country</th>" \
 				+ year.problem_headers
-		if year.year_num >= 2017:
+		if year.year_num == 2018:
+			print >>f, "<th>Total</th><th>Top 4 Avg</th><th>Rank</th><th>Award</th></tr></thead>"
+		elif year.year_num == 2017:
 			print >>f, "<th>Total</th><th>Top 3 Avg</th><th>Rank</th><th>Award</th></tr></thead>"
 		else:
 			print >>f, "<th>Total</th><th>Team Avg</th><th>Rank</th><th>Award</th></tr></thead>"
