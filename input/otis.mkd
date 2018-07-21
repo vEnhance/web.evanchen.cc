@@ -71,6 +71,11 @@ where H is the number of hours spent in person
 
 [form]: https://goo.gl/forms/himGptArWuVhlFdv2
 
+*The deadline for OTIS 2018-2019 has passed (it was May 2, 2018)*.
+Please check back in early 2019.
+
+<!--
+
 Here is the [link to request form][form], due **May 2, 2018**.
 I select a handful of individuals from the many requests
 in mid-May of each year, after the grading of USAMO.
@@ -89,6 +94,8 @@ The form asks for the following information:
 [The form][form] will let you edit your responses after submission.
 In particular, you can submit the form early and then edit it after
 the USA(J)MO in April with your estimated scores.
+
+-->
 
 Usually I am not able to take all (or even most) requests, but even then
 I can often refer you to other instructors who are less busy than me
@@ -133,13 +140,19 @@ though he didn't do that much.
 + Anant Mudgal: [IMO 2018][imo18IND]
 + Howard Halim: [IMO 2018][imo18CAN]
 
+Photo from IMO 2018:
+
+<img src="static/otis-imo-2018.png" width="500">
+
 [rmm17]: http://rmms.lbi.ro/rmm2017/index.php?id=results_math
 [amo17]: http://www.maa.org/sites/default/files/HonorableMentions2017.pdf
 [egmo17]: https://www.egmo.org/people/person1022/
 [rmm18]: http://rmms.lbi.ro/rmm2018/index.php?id=results_math
 [zack17]: https://www.imo-official.org/participant_r.aspx?id=27374
-[imo18IND]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=IND
-[imo18CAN]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=CAN
-[imo18PRI]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=PRI
-[imo18USA]: https://www.imo-official.org/year_reg_team.aspx?year=2018&code=USA
+[imo18IND]: https://www.imo-official.org/participant_r.aspx?id=25764
+[imo18CAN]: https://www.imo-official.org/participant_r.aspx?id=28475
+[imo18PRI]: https://www.imo-official.org/participant_r.aspx?id=28236
+[imo18USA]: https://www.imo-official.org/participant_r.aspx?id=28394
 [usamo18]: http://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
+
+
