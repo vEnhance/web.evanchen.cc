@@ -114,6 +114,7 @@ If you find another one, please let me know by email.
 + On **page 92**, in Problem 5.23, when defining point $G$,
   line $HE$ should intersect $\Gamma\_1$, not $\Gamma\_2$.
   Also, "interest" should be "intersect" in the first line.
++ On **page 97**, Figure 6.2A, should be $iz = -4+3i$.
 + On **page 101**, in the proof of Example 6.10, Lemma 6.3 should be Lemma 6.5.
   Also, $\frac{xa}{bc}$ should be $\frac{bc}{xa}$ (two changes).
 + On **page 105**, in Problem 6.20 change "Theorem 6.16" to "Theorem 6.15".
