@@ -24,7 +24,7 @@ Please see the links above for more information.
 ## Research Publications
 
 * [Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures][arxiv-house] <br>
-  E. Chen. To appear in Proceedings of the AMS.
+  E. Chen. Published in [Proceedings of the AMS][pams-algint].
 
 * [Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem][arxiv-grh] <br>
   E. Chen, P. Park, and A. Swaminathan. Published in [Intl Journal of Number Theory][ijnt].
@@ -108,3 +108,4 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [ijnt]: http://dx.doi.org/10.1142/S1793042118500161
 [ejc-hypercube]: http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p2
 [pams-benford]: https://www.ams.org/journals/proc/2016-144-11/S0002-9939-2016-13112-2/home.html
+[pams-algint]: https://www.ams.org/journals/proc/0000-000-00/S0002-9939-2018-14115-5/
