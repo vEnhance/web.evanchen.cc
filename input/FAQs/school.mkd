@@ -22,31 +22,6 @@ try my [Napkin](napkin.html).
 It was basically written to answer this question.
 Other possible references are mentioned in [Recommendations](recommend.html).
 
-<br>
-
-### How is MIT?
-[Unreasonably expensive][tuition], but otherwise fine.
-
-Socially, it's very nice as I get to spend a lot of time with a
-many of the friends that I made during high school (through math contests).
-
-The academics are mediocre, but I suspect that's true at every college.
-My personal opinion is that college classes are just there as a formality;
-most of the value of college comes from the people there.
-Moreover, I always find it more efficient to learn something myself.
-
-In particular, I estimate that **maybe only 25% of the math
-I know is from classes; the rest of it is self-taught**.
-I identify strongly with Mark Twain when he says that
-he doesn't let school interfere with his education.
-
-I generally have lots of free time.
-This always seems to come as a surprise to parents who ask me,
-because they assume that MIT is somehow very hard.
-Not true; I promise you that HMMT 2016 Team Round is far more difficult
-than any undergraduate final exam you will ever get at MIT.
-Besides, I take mostly higher math classes anyways,
-which assign far less busy work than many other classes at MIT.
 
 <br>
 
@@ -64,7 +39,7 @@ The main contributing factors are:
 I have been using Vim and LaTeX since I was a teenager,
 so I am quite proficient with both.
 
-[Link to corresponding dotfiles.](https://github.com/vEnhance/dotfiles).
+[Link to corresponding dotfiles](https://github.com/vEnhance/dotfiles).
 
 <br>
 
@@ -73,10 +48,11 @@ so I am quite proficient with both.
 To set the record straight: in high school I five classes from
 UC Berkeley and San Jose State total; you can see [the notes I took][notes].
 The main limiting factor is getting your high school to let you run off.
-Every college professors I've met is more than happy to help out a
+Every college professor I've met is more than happy to help out a
 high school student who is interested in learning more math.
-It's the high school bureaucrats that put their foot down.
-<!-- TODO link blog post re this -->
+(This could be less true at certain top schools just because
+those professors get more audit requests than they can actually accommodate.)
+It's the [high school bureaucrats that put their foot down][blank].
 
 Talk with your high school administration and see if you can strike a deal.
 If one person says no, talk to someone else.
@@ -86,10 +62,11 @@ because otherwise the administration has no real incentive to help you.
 <br>
 
 ### What are your thoughts on high school math research?
+
 I'm pretty cynical of it.
 The (buzz)word "research" itself is a red flag for me:
 it sounds like the kind of thing
-**people want to say they've done rather than want to do**.
+people want to say they've done, rather than want to do.
 
 Usually, if a high school student is interested in higher math,
 I recommend that they spend their time *learning new subjects*,
@@ -109,12 +86,13 @@ Some excerpts from [Euler Circle][euler] which I agree with:
 > and have something to show for it.** An exceptional high-school student
 > should expect to spend around 1000 hours over the course of two years
 > on research in order to have a reasonable (but far from certain)
-> chance of producing a publishable paper. 
+> chance of producing a publishable paper.
 
 That being said, if you still want to work on research projects,
-then you should probably try to reach out to professors at schools near you.
-See also [PRIMES](https://math.mit.edu/research/highschool/primes/index.php).
+consider programs like [PRIMES](https://math.mit.edu/research/highschool/primes/index.php),
+or finding a professor near you.
 
 [notes]: coursework.html
 [euler]: http://eulercircle.com/research/thoughts-on-research/
 [tuition]: http://web.mit.edu/facts/tuition.html
+[blank]: https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/comment-page-1/#comment-1694

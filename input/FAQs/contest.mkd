@@ -110,19 +110,22 @@ the dreaded "I have no clue what's going on".
 Anything not too close to either extreme is probably fine.
 If in doubt, I recommend picking whatever is most enjoyable.
 
+<!--
 For what it's worth, I think most students are too conservative
 in doing harder problems. Just because you haven't qualified for USAMO yet
 doesn't mean you can't try some USAMO 1/4's!
+-->
 
 <br>
 
 ### Should I read $X$ book versus $Y$ book, spend $M$ hours versus $N$ hours per week, etc.?
+
 My gut feeling is that the effect size of this is sufficiently small that
 (i) no one knows a definitive answer,
 (ii) the answer is likely to depend on the person, and
 (iii) it's rounding error compared to the actual final result.
 Therefore I think the correct thing to do is try both,
-see which one you like better, and just go with that, 
+see which one you like better, and just go with that,
 [without worrying about whether it is "right"][right].
 
 <br>

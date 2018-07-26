@@ -84,14 +84,13 @@ try reading the [USAMO 2003 rubric][usa2003].
 
 In general, for each problem the solution is graded according to the rubric:
 
-+ **7**: Problem was solved.
++ 7: Problem was solved.
 + 6: Tiny slip (and contestant could repair)
 + 5: Small gap or mistake, but non-central
 + 2: Lots of genuine progress
-+ **1**: Significant non-trivial progress
-+ **0**: "Busy work", special cases, lots of writing
++ 1: Significant non-trivial progress
++ 0: "Busy work", special cases, lots of writing
 
-The "default" scores are bolded above.
 Note that
 
 + There is a clear distinction between success/failure,
