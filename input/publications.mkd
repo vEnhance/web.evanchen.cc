@@ -23,6 +23,8 @@ Please see the links above for more information.
 
 ## Research Publications
 
+Here is a [listing of all my arXiv papers](http://arxiv.org/a/chen_e_2).
+
 * [Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures][arxiv-house] <br>
   E. Chen. Published in [Proceedings of the AMS][pams-algint].
 
@@ -51,7 +53,9 @@ Please see the links above for more information.
   E. Chen, S. Narayanam. Submitted for publication.
 
 ## Lectures
-Here are lecture notes for lectures, sessions, etc. that I have given, generally to high school students.
+
+Here are lecture notes for lectures, sessions, etc.
+that I have given, generally to high school students.
 These are in general easier than my Olympiad handouts.
 They also tend to leave out lots of details (after all, the handout usually accompanies a two-hour talk).
 
