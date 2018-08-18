@@ -7,14 +7,16 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 ### About
 
-I am an undergraduate at the Massachusetts Institute of Technology,
-graduating in June 2018.
+I am a [math PhD student at MIT](http://math.mit.edu/directory/profile.php?pid=2106),
+starting in September 2018.
 My CV is [here](upload/public-CV.pdf).
-Here is a [list of my major coursework](upload/math-coursework.pdf).
+Here is a [list of my major coursework](upload/math-coursework.pdf)
+from undergraduate and graduate school.
 
 Most of my research is either in number theory
 or enumerative/algebraic combinatorics.
-My papers are linked on my [publications page](publications.html).
+My papers are linked on my [publications page](publications.html),
+and also on the [arXiv](https://arxiv.org/a/chen_e_2.html).
 
 I am [actively involved](volunteer.html) with math olympiad competitions
 and have authored [several olympiad materials](olympiad.html),
