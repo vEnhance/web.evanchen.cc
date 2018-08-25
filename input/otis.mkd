@@ -124,6 +124,12 @@ I have the best job in the world.
 
 [gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
 
+I would like to acknowledge and thank the
+following individuals for being assistant instructors for OTIS:
+
+* Year III: Kada Williams, Michael Ren, Zack Chroman
+* Year IV: Anant Mudgal, Ankan Bhattacharya, Michael Ren, Zack Chroman
+
 Here are some RMM/USAMO/EGMO/IMO results from past participants.
 This is not a claim that they performed well *because* of me;
 all of them were already strong before joining OTIS,
@@ -132,13 +138,13 @@ and I think they would likely have done well even without me.
 But *sensei* is still super proud of his kids even
 though he didn't do that much.
 
-+ Zack Chroman: [RMM 2017][rmm17], [USAMO 2017][amo17], [IMO 2017][zack17]
-+ Michael Ren: [RMM 2017][rmm17], [USAMO 2017][amo17], [USAMO 2018][usamo18], [IMO 2018][imo18USA]
++ Anant Mudgal: [IMO 2018][imo18IND]
 + Annie Siye Zhu: [EGMO 2017][egmo17]
 + Colin Tang: [RMM 2018][rmm18]
 + Edward Wan: [USAMO 2018][usamo18], [IMO 2018][imo18PRI]
-+ Anant Mudgal: [IMO 2018][imo18IND]
 + Howard Halim: [IMO 2018][imo18CAN]
++ Michael Ren: [RMM 2017][rmm17], [USAMO 2017][amo17], [USAMO 2018][usamo18], [IMO 2018][imo18USA]
++ Zack Chroman: [RMM 2017][rmm17], [USAMO 2017][amo17], [IMO 2017][zack17]
 
 Photo from IMO 2018:
 
@@ -154,5 +160,3 @@ Photo from IMO 2018:
 [imo18PRI]: https://www.imo-official.org/participant_r.aspx?id=28236
 [imo18USA]: https://www.imo-official.org/participant_r.aspx?id=28394
 [usamo18]: http://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
-
-
