@@ -7,51 +7,38 @@ description: Synopsis of my teaching for olympiad contestants.
 
 <img src="static/calvin-education.gif" />
 
-Since 2015, I have run a small, informal training program during the school year
-for contestants aiming to do well on the USA(J)MO.
-It is now informally called *OTIS*.
-This program is designed for contestants who are
+OTIS is an olympiad training program for students
+aiming to do well on USA(J)MO.
+It is designed for contestants who are
 comfortable reading and writing proofs
 and able to confidently qualify for national olympiad,
 e.g. consistently 10+ on AIME for American contestants.
 (Students at other levels should feel welcome to contact
 me for referrals to other mentors.)
 
-[See here for my thoughts on teaching philosophy][perhour].
-This page is a bit about the specifics of my program.
+### Short description
 
-[perhour]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
-
-### Description
-
-OTIS is centered around two-week topic units
+OTIS is centered around two-week topic units (my design)
 which I pick for each participant based on their background.
+Each unit comes with a problem set
+of about 10-15 olympiad problems.
 Each semester has 6 units.
-Each unit comes with a problem set of about 10-15 olympiad problems.
 Additionally, 10-14 olympiad-style practice exams
 (each emulating a day of a typical olympiad)
 are assigned throughout the year (graded in full).
-
 A rough estimate of the time commitment might be
 <span style="color:red;">*8-12 hours per week*</span>,
 although there is a large variance.
 
-All the materials for OTIS are hand-designed by me:
-the design of the materials is kind of an art,
-and it's half the fun of teaching
-(the other half is talking to the kids).
+Some students have brief weekly or biweekly lectures
+(I really mean "brief" here, like 45 minutes or so)
+but many students take OTIS as a correspondence course
+with no lectures at all.
 
-OTIS is not heavy on lectures.
-I meet some students briefly over Google Hangouts
-every one or two weeks (I really mean "brief" here, like 30 minutes or so).
-Other students take OTIS as a correspondence course,
-meaning there are no lectures at all.
+Starting from fall 2018, the cost for each semester is 80(H+4)
+where H is the number of hours of lecture (which may be zero).
 
-Starting from 2018-2019, the cost for each semester is 80(H+4)
-where H is the number of hours spent in person
-(the +4 term accounting for grading, preparation, answering questions).
-
-### Syllabus and Documents
+### Documents and Application
 
 * [Full syllabus](upload/otis-syllabus.pdf) (warning: long)
 * [Course synopsis][unitlist] (possible topics covered)
@@ -67,12 +54,11 @@ where H is the number of hours spent in person
 [sample-zack]: static/otis-samples/zack-local.pdf
 [unitlist]: static/otis-samples/synopsis.html
 
-### For interested contestants
-
-[form]: https://goo.gl/forms/himGptArWuVhlFdv2
 
 *The deadline for OTIS 2018-2019 has passed (it was May 2, 2018)*.
 Please check back in early 2019.
+
+[form]: https://goo.gl/forms/himGptArWuVhlFdv2
 
 <!--
 
@@ -106,14 +92,18 @@ most likely, I will be able to connect you with someone else.
 
 ### Organizers
 
-* Evan Chen: Director
-* Anant Mudgal: Assistant instructor
-* Ankan Bhattacharya: Assistant instructor
-* CJ Quines: Grader
-* Michael Ren: Assistant instructor
-* Zack Chroman: Assistant instructor
+* [Evan Chen](web.evanchen.cc): Director
+* [Anant Mudgal][anantIMO]: Assistant instructor
+* [Ankan Bhattacharya][ankanIMO]: Assistant instructor
+* [Michael Ren][mrenIMO]: Assistant instructor
+* [Zack Chroman][zackIMO]: Assistant instructor
+* [CJ Quines](http://cjquines.com/): Grader
 
-### History
+### Photos and History
+
+Picture of participants at IMO 2018:
+
+<img src="static/otis-imo-2018.png" width="500">
 
 I started teaching in 2015 when a group of parents
 from Phillips Andover Academy emailed me in early April,
@@ -131,8 +121,6 @@ most talented and motivated math high schoolers in the country
 on the same problems that I loved so much back in high school.
 I have the best job in the world.
 
-[gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
-
 Here are some RMM/USAMO/EGMO/IMO results from past participants.
 This is not a claim that they performed well *because* of me;
 all of them were already strong before joining OTIS,
@@ -141,25 +129,25 @@ and I think they would likely have done well even without me.
 But *sensei* is still super proud of his kids even
 though he didn't do that much.
 
-+ Anant Mudgal: [IMO 2018][imo18IND]
-+ Annie Siye Zhu: [EGMO 2017][egmo17]
++ Anant Mudgal: [IMO 2018][anantIMO]
++ Annie Siye Zhu: [EGMO 2017][szhuEGMO]
 + Colin Tang: [RMM 2018][rmm18]
-+ Edward Wan: [USAMO 2018][usamo18], [IMO 2018][imo18PRI]
-+ Howard Halim: [IMO 2018][imo18CAN]
-+ Michael Ren: [RMM 2017][rmm17], [USAMO 2017][amo17], [USAMO 2018][usamo18], [IMO 2018][imo18USA]
-+ Zack Chroman: [RMM 2017][rmm17], [USAMO 2017][amo17], [IMO 2017][zack17]
-
-Photo from IMO 2018:
-
-<img src="static/otis-imo-2018.png" width="500">
++ Edward Wan: [USAMO 2018][usamo18], [IMO 2018][edwanIMO]
++ Howard Halim: [IMO 2018][howardIMO]
++ Michael Ren: [RMM 2017][rmm17], [USAMO 2017][usamo17], [USAMO 2018][usamo18], [IMO 2018][mrenIMO]
++ Zack Chroman: [RMM 2017][rmm17], [USAMO 2017][usamo17], [IMO 2017][zackIMO]
 
 [rmm17]: http://rmms.lbi.ro/rmm2017/index.php?id=results_math
-[amo17]: http://www.maa.org/sites/default/files/HonorableMentions2017.pdf
-[egmo17]: https://www.egmo.org/people/person1022/
+[usamo17]: http://www.maa.org/sites/default/files/HonorableMentions2017.pdf
 [rmm18]: http://rmms.lbi.ro/rmm2018/index.php?id=results_math
-[zack17]: https://www.imo-official.org/participant_r.aspx?id=27374
-[imo18IND]: https://www.imo-official.org/participant_r.aspx?id=25764
-[imo18CAN]: https://www.imo-official.org/participant_r.aspx?id=28475
-[imo18PRI]: https://www.imo-official.org/participant_r.aspx?id=28236
-[imo18USA]: https://www.imo-official.org/participant_r.aspx?id=28394
 [usamo18]: http://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
+[howardIMO]: https://www.imo-official.org/participant_r.aspx?id=28475
+[edwanIMO]: https://www.imo-official.org/participant_r.aspx?id=28236
+[szhuEGMO]: https://www.egmo.org/people/person1022/
+
+[gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
+
+[ankanIMO]: https://www.imo-official.org/participant_r.aspx?id=26643
+[anantIMO]: https://www.imo-official.org/participant_r.aspx?id=25764
+[mrenIMO]:  https://www.imo-official.org/participant_r.aspx?id=28394
+[zackIMO]: https://www.imo-official.org/participant_r.aspx?id=26643
