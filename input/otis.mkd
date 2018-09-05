@@ -104,6 +104,15 @@ So, if you are interested in mentoring,
 feel free to reach out to me even if the deadline is long past;
 most likely, I will be able to connect you with someone else.
 
+### Organizers
+
+* Evan Chen: Director
+* Anant Mudgal: Assistant instructor
+* Ankan Bhattacharya: Assistant instructor
+* CJ Quines: Grader
+* Michael Ren: Assistant instructor
+* Zack Chroman: Assistant instructor
+
 ### History
 
 I started teaching in 2015 when a group of parents
@@ -123,12 +132,6 @@ on the same problems that I loved so much back in high school.
 I have the best job in the world.
 
 [gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
-
-I would like to acknowledge and thank the
-following individuals for being assistant instructors for OTIS:
-
-* Year III: Kada Williams, Michael Ren, Zack Chroman
-* Year IV: Anant Mudgal, Ankan Bhattacharya, Michael Ren, Zack Chroman
 
 Here are some RMM/USAMO/EGMO/IMO results from past participants.
 This is not a claim that they performed well *because* of me;
