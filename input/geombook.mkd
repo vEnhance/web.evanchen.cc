@@ -222,6 +222,9 @@ If you find another one, please let me know by email.
 + On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
 + On **page 249**, Solution 3.29, add a remark that $(AMN)$ is tangent to $(ABC)$.
 + On **page 250**, in Solution 4.50, second-to-last sentence, change "circumcircle" to "circumcenter".
++ On **page 250**, in Solution 4.52, second display,
+  change $\measuredangle BDE = \measuredangle BED + \measuredangle BDE = \dots$
+  to $\measuredangle BDE = \measuredangle BED + \measuredangle DBE = \dots$.
 + On **page 252**, in Solution 4.52, last display,
    change $\measuredangle BED + \measuredangle BDE$ to $\measuredangle BED + \measuredangle DBE$.
 + On **page 252**, in Solution 5.21, change $-BI \cdot CI \cdot \sqrt2$ to $+ BI \cdot CI \cdot \sqrt2$.
