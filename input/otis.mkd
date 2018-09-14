@@ -92,7 +92,7 @@ most likely, I will be able to connect you with someone else.
 
 ### Organizers
 
-* [Evan Chen](web.evanchen.cc): Director
+* [Evan Chen](http://web.evanchen.cc): Director
 * [Anant Mudgal][anantIMO]: Assistant instructor
 * [Ankan Bhattacharya][ankanIMO]: Assistant instructor
 * [Michael Ren][mrenIMO]: Assistant instructor
@@ -150,4 +150,4 @@ though he didn't do that much.
 [ankanIMO]: https://www.imo-official.org/participant_r.aspx?id=26643
 [anantIMO]: https://www.imo-official.org/participant_r.aspx?id=25764
 [mrenIMO]:  https://www.imo-official.org/participant_r.aspx?id=28394
-[zackIMO]: https://www.imo-official.org/participant_r.aspx?id=26643
+[zackIMO]:  https://www.imo-official.org/participant_r.aspx?id=27374
