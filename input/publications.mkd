@@ -1,5 +1,5 @@
 title: Publications
-header: Publications, Research Papers, and Lectures
+header: Publications and all that
 menu-position: 40
 description: Mathematical research papers and lecture notes by Evan Chen.
 
@@ -10,7 +10,7 @@ Here is information are my various research papers,
 lecture handouts, textbooks, and so on.
 
 ## Major Writings
-My two largest projects at the moment are
+My two most major expository works.
 
 * My textbook [**Euclidean Geometry in Mathematical Olympiads**](geombook.html).
   300 pages, published under *MAA Problem Book Series*.
@@ -23,7 +23,7 @@ Please see the links above for more information.
 
 ## Research Publications
 
-Here is a [listing of all my arXiv papers](http://arxiv.org/a/chen_e_2).
+Here is a [listing of all my papers on arXiv](http://arxiv.org/a/chen_e_2).
 
 * [Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures][arxiv-house] <br>
   E. Chen. Published in [Proceedings of the AMS][pams-algint].
@@ -32,7 +32,7 @@ Here is a [listing of all my arXiv papers](http://arxiv.org/a/chen_e_2).
   E. Chen, P. Park, and A. Swaminathan. Published in [Intl Journal of Number Theory][ijnt].
 
 * [Linear polychromatic colorings of hypercube faces][arxiv-hypercube] <br>
-  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-hypercube]
+  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-hypercube].
 
 * [Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication][arxiv-linnik] <br>
   E. Chen, P. Park, and A. Swaminathan. Published in [Research in Number Theory][rnut].
@@ -52,12 +52,14 @@ Here is a [listing of all my arXiv papers](http://arxiv.org/a/chen_e_2).
 * [The 26 Wilf-equivalence classes of length five quasi-consecutive patterns][arxiv-wilf] <br>
   E. Chen, S. Narayanam. Submitted for publication.
 
-## Lectures
+## High school lectures
 
-Here are lecture notes for lectures, sessions, etc.
-that I have given, generally to high school students.
+In high school I would often give lectures and talks
+at math circles and the like.
 These are in general easier than my Olympiad handouts.
-They also tend to leave out lots of details (after all, the handout usually accompanies a two-hour talk).
+They also tend to leave out lots of details
+(after all, the handout usually accompanies a two-hour talk).
+I've included notes for these here.
 
 To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 
@@ -71,7 +73,7 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 * <b>Combinatorial Nullstellensatz</b> {{ hlink("BMC_Combo_Null") }}
   Applies the combinatorial nullstellensatz to several olympiad-style problems.
 
-#### Berkeley Math Circle -- Intermediate and Intermediate II Group
+#### Berkeley Math Circle -- Intermediate II Group
 * <b>Triangle Centers</b> {{ hlink("BMC-TriCenter") }}
   Standard fare on the Euler line and the nine-point circle.
   Might be interesting to people starting out on olympiad geometry.
@@ -87,6 +89,7 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
   A combinatorially flavored practice session for the Bay Area Math Olympiad.
 
 #### Miscellaneous
+
 * <b>Combinatorial Nullstellensatz (SPARC)</b> {{ hlink("SPARC_Combo_Null_Slides") }}
   Slides from an informal lecture I gave on the nullstellensatz at [SPARC 2013][sparc].
 
