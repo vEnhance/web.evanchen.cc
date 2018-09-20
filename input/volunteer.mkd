@@ -14,30 +14,30 @@ but a handful are paid positions (noted below).
 + AIME: [American Invitational Math Exam](https://en.wikipedia.org/wiki/American_Invitational_Mathematics_Examination)
 	+ Problem author and reviewer
 + ARML: [American Regional Math League](www.arml2.com)
-	+ ARML Local problem author, 2015, 2016
 	+ Problem writing team, 2017 - present
+	+ ARML Local problem author, 2015, 2016
 + BMC: [Berkeley Math Circle](http://mathcircle.berkeley.edu/)
-	+ Monthly contest grader (paid), 2011 - 2014
 	+ Monthly contest design (paid), 2012 - present
+	+ Monthly contest grader (paid), 2011 - 2014
 + ELMO: [Experimental Lincoln Math Olympiad](http://web.evanchen.cc/elmo/index.html)
 	+ Problem author, 2013, 2014
 	+ Shortlist coordinator, 2013 - present
 + HMMT: [Harvard-MIT Math Tournament](www.hmmt.co)
-	+ Problem czar, 2014 - 2016
-	+ Software director, 2016 - 2017
-	+ Historian, 2017 - 2018
 	+ Chief of staff, 2018 - 2019
+	+ Historian, 2017 - 2018
+	+ Software director, 2016 - 2017
+	+ Problem czar, 2014 - 2016
 + IMO: [International Math Olympiad](www.imo-official.org)
-	+ Problem proposer, 2015 - present
 	+ USA Observer A (paid), 2017 - present
+	+ Problem proposer, 2015 - present
 + MOP: [Math Olympiad Summer Program](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Summer_Program)
-	+ Head grader (paid), 2016, 2017
 	+ Assistant academic director (paid), 2018 - present
+	+ Head grader (paid), 2016, 2017
 + NIMO: [National Internet MO](http://internetolympiad.org/), now discontinued
 	+ Director, 2011 - 2016
 + OMO: [Online Math Open](http://internetolympiad.org/pages/16-omo_acknow)
-	+ Director, 2013 - 2015
 	+ Website manager, 2013 - present
+	+ Director, 2013 - 2015
 + PRIMES: [MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php)
 	+ Entrance exam designer (paid), 2016 - 2018
 	+ CrowdMath mentor (paid), 2017
@@ -52,12 +52,13 @@ but a handful are paid positions (noted below).
 + Taiwan TST: Taiwan IMO Team Selection Test
 	+ Problem proposer (paid), 2015, 2016
 + USA(J)MO: [USA Math Olympiad](https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad)
-	+ Committee member, 2018 - present
+	+ Editor-in-chief, starting July 2019
+	+ Committee member, 2018 - 2019
 	+ Problem reviewer and author, 2016 - present
 	+ Grader, 2015 - present
 + USAMTS: [USA Math Talent Search](http://usamts.org/)
 	+ Problem author, 2016
 + USA TST(ST): Team Selection Testing for USA
-	+ Problem author and reviewer, 2015 - present
 	+ Head coordinator of exam design, 2017 - present
 	+ Head coordinator of grading, 2017 - present
+	+ Problem author and reviewer, 2015 - present
