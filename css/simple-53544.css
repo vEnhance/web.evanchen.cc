@@ -2,9 +2,9 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited August 19, 2017
+Last edited September 29, 2018
 
-Copyright (c) 2017 Evan Chen under MIT License
+Copyright (c) 2018 Evan Chen under MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -30,11 +30,10 @@ body {
     font-size: 11pt;
     padding: 0;
     display: block;
-    font-family: "Trebuchet MS";
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin: 0 auto !important;
     float: none !important;
     background-color: #FFFFFF; /* It's #5368C1 on KARL */
-    
     color: #000000;
     max-width: 1024px; /* Don't make website wide */
 }
