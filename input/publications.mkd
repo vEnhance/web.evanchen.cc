@@ -94,7 +94,7 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
   Slides from an informal lecture I gave on the nullstellensatz at [SPARC 2013][sparc].
 
 
-[ordinal]: https://usamo.wordpress.com/2014/11/18/set-theory-part-2-constructing-the-ordinals/
+[ordinals]: https://usamo.wordpress.com/2014/11/18/set-theory-part-2-constructing-the-ordinals/
 [sparc]: http://www.sparc-camp.org
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
 [ebook]: http://www.maa.org/ebooks/EGMO
