@@ -43,14 +43,14 @@ Here is a [listing of all my papers on arXiv](http://arxiv.org/a/chen_e_2).
 * [Schur-concavity for avoidance of increasing subsequences in block-ascending permutations][arxiv-schur] <br>
   E. Chen. Published in [Electronic Journal of Combinatorics][ejc-schur].
 
+* [The 26 Wilf-equivalence classes of length five quasi-consecutive patterns][arxiv-wilf] <br>
+  E. Chen, S. Narayanam. Published in [Discrete Math & Theoretical CS][dmtcs-wilf].
+
 * [A family of partially ordered sets with small balance constant][arxiv-poset] <br>
   E. Chen. Submitted for publication.
 
 * [Multiplicative and exponential orthomorphisms][arxiv-orthomorphism] <br>
-  E. Chen. Submitted for publication.
-
-* [The 26 Wilf-equivalence classes of length five quasi-consecutive patterns][arxiv-wilf] <br>
-  E. Chen, S. Narayanam. Submitted for publication.
+  E. Chen. To appear in Journal of Combinatorics.
 
 ## High school lectures
 
@@ -116,3 +116,4 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [ejc-hypercube]: http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p2
 [pams-benford]: https://www.ams.org/journals/proc/2016-144-11/S0002-9939-2016-13112-2/home.html
 [pams-algint]: https://www.ams.org/journals/proc/0000-000-00/S0002-9939-2018-14115-5/
+[dmtcs-wilf]: https://dmtcs.episciences.org/paper/view/id/4912
