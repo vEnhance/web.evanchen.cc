@@ -58,7 +58,7 @@ not really the kind you can bring to a party with people you don't know.
   then things get really interesting.
 
 
-## Wargames
+## Strategy games
 
 * [**The Battle for Wesnoth**](http://wesnoth.org/) (solo campaign and multiplayer) <br>
   Turn-based strategy game played on a hexagonal grid,
@@ -70,7 +70,8 @@ not really the kind you can bring to a party with people you don't know.
 * [**StarCraft II**](https://en.wikipedia.org/wiki/StarCraft_II:_Legacy_of_the_Void)
   (solo campaign and multiplayer) <br>
   Real-time strategy military science-fiction.
-  I'm not very good at this one. I play Protoss.
+  I'm not very good at this one.
+  I play Protoss, and have battle tag vEnhance#1429.
 
 ## Rhythm games
 
