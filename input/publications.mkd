@@ -47,7 +47,7 @@ Here is a [listing of all my papers on arXiv](http://arxiv.org/a/chen_e_2).
   E. Chen, S. Narayanam. Published in [Discrete Math & Theoretical CS][dmtcs-wilf].
 
 * [A family of partially ordered sets with small balance constant][arxiv-poset] <br>
-  E. Chen. Submitted for publication.
+  E. Chen. To appear in Electronic Journal of Combinatorics.
 
 * [Multiplicative and exponential orthomorphisms][arxiv-orthomorphism] <br>
   E. Chen. To appear in Journal of Combinatorics.
