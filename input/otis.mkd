@@ -8,7 +8,7 @@ description: Synopsis of my teaching for olympiad contestants.
 <img src="static/calvin-education.gif" />
 
 OTIS is an olympiad training program for students
-aiming to do well on USA(J)MO.
+aiming to do well on USA(J)MO or similar level contests.
 It is designed for contestants who are
 comfortable reading and writing proofs
 and able to confidently qualify for national olympiad,
@@ -21,24 +21,23 @@ me for referrals to other mentors.)
 OTIS is centered around two-week topic units (my design)
 which I pick for each participant based on their background.
 Each unit comes with a problem set
-of about 10-15 olympiad problems.
-Each semester has 6 units.
+of about 10-15 olympiad problems meant to take about two weeks.
+Each semester is 12 weeks.
 Additionally, 10-14 olympiad-style practice exams
 (each emulating a day of a typical olympiad)
 are assigned throughout the year (graded in full).
+
 A rough estimate of the time commitment might be
 <span style="color:red;">*5-10 hours per week*</span>,
 although there is a large variance.
 
 Some students have brief weekly or biweekly lectures
 (I really mean "brief" here, like 45 minutes or so)
-but many students take OTIS as a correspondence course
+but students can also take OTIS as a correspondence course
 with no lectures at all.
+It's also possible to have an instructor other than me.
 
-Starting from fall 2018, the cost for each semester is 80(H+4)
-where H is the number of hours of lecture (which may be zero).
-
-### Documents and Application
+### Documents
 
 * [Full syllabus](upload/otis-syllabus.pdf) (warning: long)
 * [Course synopsis][unitlist] (possible topics covered)
@@ -54,6 +53,7 @@ where H is the number of hours of lecture (which may be zero).
 [sample-zack]: static/otis-samples/zack-local.pdf
 [unitlist]: static/otis-samples/synopsis.html
 
+### Application
 
 *The deadline for OTIS 2018-2019 has passed (it was May 2, 2018)*.
 Please check back in early 2019.
@@ -93,10 +93,10 @@ most likely, I will be able to connect you with someone else.
 ### Organizers
 
 * [Evan Chen](http://web.evanchen.cc): Director
-* [Anant Mudgal][anantIMO]: Assistant instructor
-* [Ankan Bhattacharya][ankanIMO]: Assistant instructor
-* [Michael Ren][mrenIMO]: Assistant instructor
-* [Zack Chroman][zackIMO]: Assistant instructor
+* [Anant Mudgal][anantIMO]: Instructor
+* [Ankan Bhattacharya][ankanIMO]: Instructor
+* [Michael Ren][mrenIMO]: Instructor
+* [Zack Chroman][zackIMO]: Instructor
 * [CJ Quines](http://cjquines.com/): Grader
 
 ### Photos and History
