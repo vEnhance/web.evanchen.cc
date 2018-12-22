@@ -37,12 +37,33 @@ but students can also take OTIS as a correspondence course
 with no lectures at all.
 It's also possible to have an instructor other than me.
 
+### Application
+
+Applications for OTIS Year V
+(starting September 2019 and ending April 2020) are now open,
+and the [syllabus](upload/otis-syllabus.pdf) has been updated as well.
+I am hoping to select about 20-40 students.
+
+The **deadline** to apply is **August 1, 2019 at 11:59 PM ET**.
+You will need to work on a fairly long set of problems
+for this application, so please, start early!
+
+* [Application problems](upload/otis-V-app-problems.pdf)
+* [Application form for Year V](https://goo.gl/forms/qJGz5M4Fjsuqzq4k2)
+
+Usually I am not able to take all (or even most) requests, but even then
+I can often refer you to other instructors who are less busy than me
+(mostly MOP alumni now at Harvard or MIT).
+So, if you are interested in mentoring,
+feel free to reach out to me even if the deadline is long past;
+most likely, I will be able to connect you with someone else.
+
 ### Documents
 
 * [Full syllabus](upload/otis-syllabus.pdf) (warning: long)
 * [Course synopsis][unitlist] (possible topics covered)
 * Example unit: [handout][sample-DNY] and [solutions][sample-DNYsol]
-* Example practice test: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
+* Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 * Example transcript: [transcript][sample-zack]
 
 [sample-DNY]: static/otis-samples/DNY-ntconstruct.pdf
@@ -52,43 +73,6 @@ It's also possible to have an instructor other than me.
 [sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
 [sample-zack]: static/otis-samples/zack-local.pdf
 [unitlist]: static/otis-samples/synopsis.html
-
-### Application
-
-*The deadline for OTIS 2018-2019 has passed (it was May 2, 2018)*.
-Please check back in early 2019.
-
-[form]: https://goo.gl/forms/himGptArWuVhlFdv2
-
-<!--
-
-Here is the [link to request form][form], due **May 2, 2018**.
-I select a handful of individuals from the many requests
-in mid-May of each year, after the grading of USAMO.
-
-You can now submit requests for the 2018 - 2019 school year
-(to begin in September 2018).
-For OTIS 2018-2019, please submit requests by May 2, 2018.
-The form asks for the following information:
-
-* Your name, grade, school, and time zone
-* Your anticipated availabilities on each of Monday, Tuesday, Wednesday, Thursday
-* Any relevant contest history or scores
-* Subject preferences, like "strong geo, weak algebra"
-* Goals for the year, like "qualify for MOP"
-
-[The form][form] will let you edit your responses after submission.
-In particular, you can submit the form early and then edit it after
-the USA(J)MO in April with your estimated scores.
-
--->
-
-Usually I am not able to take all (or even most) requests, but even then
-I can often refer you to other instructors who are less busy than me
-(mostly MOP alumni now at Harvard or MIT).
-So, if you are interested in mentoring,
-feel free to reach out to me even if the deadline is long past;
-most likely, I will be able to connect you with someone else.
 
 ### Organizers
 
