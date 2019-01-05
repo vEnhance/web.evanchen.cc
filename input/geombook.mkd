@@ -29,7 +29,7 @@ and is accompanied by about 250 figures.
 
 I wrote this textbook while
 [serving time as a high school clerk][fillblank].
-You can read about [the publication process][publishing].
+You can read hear about [the publication process][publishing].
 
 ### Prerequisites and sample chapters
 There are essentially no geometry prerequisites;
@@ -63,7 +63,11 @@ here are some possible hints:
    will generally yield a solution to any sourced problem.
    (The search function can work too, but is often less helpful.)
 
-3. If both of the above fail, try posting on the AoPS forums directly.
+3. There is a [user-created forum](https://aops.com/community/c618937)
+   on Art of Problem Solving dedicated to (among other things)
+   discussion of problems in the text.
+
+4. If all of the above fail, try posting on the AoPS forums directly.
 
 
 ### Errata (aka selected solutions to Problem 11.0)
