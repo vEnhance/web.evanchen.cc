@@ -80,5 +80,34 @@ print '<meta description="Evan Chen | %s">' % page.get('description', page['titl
   ga('create', 'UA-71669828-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+<script>
+var ks = [];
+document.addEventListener('keydown', function(e) {
+  ks.push(e.keyCode);
+  if (ks.length > 10) { ks.splice(1, 1); }
+  if (ks.length < 10) return;
+  if (ks[0] != ks[1]) return;
+  if (ks[2] != ks[3]) return;
+  if (ks[4] != ks[6]) return;
+  if (ks[5] != ks[7]) return;
+  var a,b,d,l,r,u;
+  a = ks[9];
+  b = ks[8];
+  d = ks[2];
+  l = ks[4];
+  r = ks[5];
+  u = ks[0];
+  if (a*a+b*b*b+d*d*d*d != 2851721) return;
+  if (l*l+r*r*r+u*u*u*u != 2145824) return;
+  var s = String.fromCharCode(a+7)
+        + String.fromCharCode(b+3)
+        + String.fromCharCode(d+42)
+        + String.fromCharCode(l+42)
+        + String.fromCharCode(r+30)
+        + String.fromCharCode(u+45);
+  document.location = 'http://web.evanchen.cc/' + s.toLowerCase() + '.html';
+});
+</script>
 </body>
 </html>
