@@ -1,9 +1,9 @@
 title: Blog
-menu-position: 4
+menu-position: 62
 indent: 1
-url: http://blog.evanchen.cc
+url: http://usamo.wordpress.com
 header: WordPress Blog: Power Overwhelming
 
 ---
 
-[<h2>Click here for my WordPress blog</h2>](http://blog.evanchen.cc)
+[<h2>Click here for my WordPress blog</h2>](http://usamo.wordpress.com)
