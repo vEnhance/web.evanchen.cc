@@ -18,7 +18,6 @@ Here's a little about myself as person:
 
 You can also see the following pages:
 
-+ [Buy me coffee](coffee.html)
 + [Dance videos](adt.html)
 + [Games I enjoy](games.html)
 
