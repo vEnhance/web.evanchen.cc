@@ -1,0 +1,54 @@
+title: Excerpts
+menu-position: 25
+header: The OTIS Excerpts
+indent: 1
+description: OTIS Excerpts, a mini-book based on OTIS lecture notes.
+
+---
+
+<span style="float:right;padding:10px;">
+<img src="http://storage.googleapis.com/otisweb-static/static/img/otis-logo-v2018.svg" 
+	width="250px" />
+</span>
+
+<span style="color:red; font-size: 120%;">
+**For most recent draft, [click here][recent] to download.**
+</span>
+
+*The OTIS Excerpts* is a mini-book
+that I put together from
+[lecture notes I use during the year](otis.html).
+It is a collection of 192 problems and solutions.
+It is designed to mostly be beginner-friendly
+though some of the chapters are more challenging.
+
+### Contents
+
+The Excerpts consists of selected problems from the following
+twelve topics from the [OTIS catalog][catalog]:
+
+1. Standard inequalities
+1. Functional equations
+1. Monsters
+1. Global
+1. Local
+1. Rigid
+1. Free
+1. Anti-problems
+1. Orders
+1. Prime exponents
+1. Heavy number theory (called "advanced techniques")
+1. Constructions in Number Theory
+
+Most of the lecture material is adapted from
+[existing handouts of mine](olympiad.html)
+but some of it is new.
+In addition, there is a chapter for beginners in proof-writing,
+and three chapters consisting of selected problems
+and solutions to recent USA team selection test problems.
+
+Geometry is not covered;
+[there is already a textbook for that](geombook.html).
+
+[recent]: TODO
+[catalog]: http://web.evanchen.cc/static/otis-samples/synopsis.html

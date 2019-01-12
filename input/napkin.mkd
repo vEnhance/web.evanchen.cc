@@ -1,12 +1,12 @@
-title: Napkin
+title: Napkin (2nd ed)
 menu-position: 42
-header: The Napkin Project
+header: The Napkin project (2nd edition)
 indent: 1
 description: Description of Napkin project, a free book covering all sorts of higher math.
 
 ---
 
-<span style="color:red; font-size: 140%;">
+<span style="color:red; font-size: 120%;">
 **For most recent draft, [click here][recent] to download.**
 </span>
 

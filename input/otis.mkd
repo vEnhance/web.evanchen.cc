@@ -16,7 +16,7 @@ e.g. consistently 10+ on AIME for American contestants.
 (Students at other levels should feel welcome to contact
 me for referrals to other mentors.)
 
-### Short description
+### Description
 
 OTIS is centered around two-week topic units (my design)
 which I pick for each participant based on their background.
@@ -39,7 +39,7 @@ It's also possible to have an instructor other than me.
 
 ### Application
 
-Applications for OTIS Year V
+Applications for **OTIS Year V**
 (starting September 2019 and ending April 2020) are now open,
 and the [syllabus](upload/otis-syllabus.pdf) has been updated as well.
 I am hoping to select about 20-40 students.
@@ -52,11 +52,9 @@ for this application, so please, start early!
 * [Application form for Year V](https://goo.gl/forms/qJGz5M4Fjsuqzq4k2)
 
 Usually I am not able to take all (or even most) requests, but even then
-I can often refer you to other instructors who are less busy than me
-(mostly MOP alumni now at Harvard or MIT).
-So, if you are interested in mentoring,
-feel free to reach out to me even if the deadline is long past;
-most likely, I will be able to connect you with someone else.
+I can often refer you to other instructors who are less busy than me.
+So feel free to reach out to me even if the deadline is long past;
+I may be able to connect you with someone else.
 
 ### Documents
 
@@ -65,6 +63,7 @@ most likely, I will be able to connect you with someone else.
 * Example unit: [handout][sample-DNY] and [solutions][sample-DNYsol]
 * Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 * Example transcript: [transcript][sample-zack]
+* Mini-book: [The OTIS Excerpts](excerpts.html)
 
 [sample-DNY]: static/otis-samples/DNY-ntconstruct.pdf
 [sample-DNYsol]: static/otis-samples/DNY-sol-ntconstruct.pdf
@@ -83,11 +82,11 @@ most likely, I will be able to connect you with someone else.
 * [Zack Chroman][zackIMO]: Instructor
 * [CJ Quines](http://cjquines.com/): Grader
 
-### Photos and History
+### History
 
-Picture of participants at IMO 2018:
+Photo of OTIS at IMO 2018:
 
-<img src="static/otis-imo-2018.png" width="500">
+<img src="static/otis-imo-2018.png" width="400" />
 
 I started teaching in 2015 when a group of parents
 from Phillips Andover Academy emailed me in early April,
@@ -129,9 +128,9 @@ though he didn't do that much.
 [edwanIMO]: https://www.imo-official.org/participant_r.aspx?id=28236
 [szhuEGMO]: https://www.egmo.org/people/person1022/
 
-[gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
-
 [ankanIMO]: https://www.imo-official.org/participant_r.aspx?id=26643
 [anantIMO]: https://www.imo-official.org/participant_r.aspx?id=25764
 [mrenIMO]:  https://www.imo-official.org/participant_r.aspx?id=28394
 [zackIMO]:  https://www.imo-official.org/participant_r.aspx?id=27374
+
+[gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
