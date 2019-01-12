@@ -1,6 +1,6 @@
 title: Games
 header: Some Favorite Games
-menu-position: 9
+menu-position: 66
 indent: 1
 description: Tabletop, card, video games that I enjoy
 
@@ -28,11 +28,27 @@ not really the kind you can bring to a party with people you don't know.
   and declaring once they have identified the locations
   of groups of six cards called half-suits.
 
-* [**Diplomat**](upload/diplomat.pdf) (3-5 players) <br>
+* [**Diplomat**](upload/diplomat.pdf) (3-4 players) <br>
   Also with a standard 52-card deck, and harder than Fish!
   Ideally three to five players.
   Players take turns asking each other *arbitrary* yes-no questions
   in attempts to claim the thirteen ranks.
+
+* [**Ninety-nine** (trick-taking)][ninetynine]
+  (ideally 3 players) <br>
+  Played with French-suited cards (6 through ace), for 36 cards.
+  The suits are assigned integers as follows: 0 for diamonds,
+  1 for spades, 2 for hearts, 3 for clubs. <br>
+  Each player makes a bid by discarding three cards of their initial twelve;
+  your bid is the sum of the suits
+  (with the smallest bid being 0+0+0=0 for three diamonds,
+  the largest being 3+3+3=9 for three spades).
+  The remaining nine cards from your hand for the game proper,
+  and your goal is to get the number of tricks you win
+  exactly equal to your bid.
+
+
+[ninetynine]: https://en.wikipedia.org/wiki/Ninety-nine_(trick-taking_card_game)
 
 ## Tabletop games
 
@@ -57,7 +73,6 @@ not really the kind you can bring to a party with people you don't know.
   But once you start feeling the meta-game,
   then things get really interesting.
 
-
 ## Strategy games
 
 * [**The Battle for Wesnoth**](http://wesnoth.org/) (solo campaign and multiplayer) <br>
@@ -70,8 +85,8 @@ not really the kind you can bring to a party with people you don't know.
 * [**StarCraft II**](https://en.wikipedia.org/wiki/StarCraft_II:_Legacy_of_the_Void)
   (solo campaign and multiplayer) <br>
   Real-time strategy military science-fiction.
-  I'm not very good at this one.
-  I play Protoss, and have battle tag vEnhance#1429.
+  I'm not very good at this one: Silver Protoss.
+	My battle tag is vEnhance#1429.
 
 ## Rhythm games
 

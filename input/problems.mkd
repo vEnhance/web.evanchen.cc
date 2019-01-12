@@ -1,5 +1,5 @@
 title: USA TST's
-menu-position: 21
+menu-position: 31
 header: USA Team Selection Tests
 indent: 1
 description: Archive of PDF's of math olympiad problems.
