@@ -1,0 +1,26 @@
+title: Personal
+header: Personal: some more about mysel
+menu-position: 60
+
+---
+
+Here's a little about myself as person:
+
++ Linux: [Arch Linux](https://www.archlinux.org/), using [i3](https://i3wm.org/).
+	([dot-files on GitHub](https://github.com/vEnhance/dotfiles))
++ Editor: [Vim](http://www.vim.org/)
++ TeX distribution: [TeX Live](https://tug.org/texlive/)
++ Favorite triangle center: Orthocenter
++ Favorite circle: A-mixtilinear incircle
++ Favorite color: Aqua green (close to [#00FFBF][aquamarine])
++ [My anime list](https://myanimelist.net/animelist/v_Enhance)
++ [Math contest photos and history](myscores.html)
+
+You can also see the following pages:
+
++ [Buy me coffee](coffee.html)
++ [Dance videos](adt.html)
++ [Games I enjoy](games.html)
+
+[aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)
+[imo]: http://imo-official.org/participant_r.aspx?id=24870
