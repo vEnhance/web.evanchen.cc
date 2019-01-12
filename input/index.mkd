@@ -23,7 +23,6 @@ I also [teach my own classes](otis.html).
 
 I am on [GitHub](https://github.com/vEnhance/)
 and [WordPress](https://usamo.wordpress.com).
-
 You can also see my [personal page](personal.html) for trivia
 about myself.
 
