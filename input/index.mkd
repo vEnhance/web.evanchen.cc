@@ -28,5 +28,5 @@ You can also see my [personal page](personal.html) for trivia
 about myself.
 
 <center>
-<img src="static/home-art.png" width="300">
+<img src="static/home-art.png" width="300" />
 </center>
