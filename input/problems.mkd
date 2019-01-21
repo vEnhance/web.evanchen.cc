@@ -28,9 +28,9 @@ see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 * TSTST 2013 [(problems)](exams/TSTST-2013.pdf)
 * TSTST 2014 [(problems)](exams/TSTST-2014.pdf) [(solutions)](exams/TSTST-2014-sols.pdf)
 * TSTST 2015 [(problems)](exams/TSTST-2015.pdf) [(solutions)](exams/TSTST-2015-sols.pdf)
-* TSTST 2016 [(problems)](exams/TSTST-2016.pdf) [(solutions)](exams/TSTST-2016-sols.pdf)
-* TSTST 2017 [(problems)](exams/TSTST-2017.pdf) [(solutions)](exams/TSTST-2017-sols.pdf)
-* TSTST 2018 [(problems)](exams/TSTST-2018.pdf) [(solutions)](exams/TSTST-2018-sols.pdf)
+* TSTST 2016 [(problems)](exams/TSTST-2016.pdf) [(solutions)](exams/sols-TSTST-2016.pdf)
+* TSTST 2017 [(problems)](exams/TSTST-2017.pdf) [(solutions)](exams/sols-TSTST-2017.pdf)
+* TSTST 2018 [(problems)](exams/TSTST-2018.pdf) [(solutions)](exams/sols-TSTST-2018.pdf)
 
 ### USA Team Selection Test (TST)
 
@@ -42,8 +42,9 @@ see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 * USA Winter TST for IMO 2014 [(problems)](exams/TST-IMO-2014.pdf)
 * USA Winter TST for IMO 2015 [(problems)](exams/TST-IMO-2015.pdf) [(solutions)](exams/TST-IMO-2015-sols.pdf)
 * USA Winter TST for IMO 2016 [(problems)](exams/TST-IMO-2016.pdf) [(solutions)](exams/TST-IMO-2016-sols.pdf)
-* USA Winter TST for IMO 2017 [(problems)](exams/TST-IMO-2017.pdf) [(solutions)](exams/TST-IMO-2017-sols.pdf)
-* USA Winter TST for IMO 2018 [(problems)](exams/TST-IMO-2018.pdf) [(solutions)](exams/sols-TST-IMO-2018.pdf)
+* USA Winter TST for IMO 2017 [(problems)](exams/IMO-2017-TST.pdf) [(solutions)](exams/sols-TST-IMO-2017.pdf)
+* USA Winter TST for IMO 2018 [(problems)](exams/IMO-2018-TST.pdf) [(solutions)](exams/sols-TST-IMO-2018.pdf)
+* USA Winter TST for IMO 2019 [(problems)](exams/IMO-2019-TST.pdf) [(solutions)](exams/sols-TST-IMO-2019.pdf)
 
 ### ELMO
 
