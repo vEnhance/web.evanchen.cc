@@ -1,5 +1,5 @@
 title: Personal
-header: Personal: some more about mysel
+header: Some trivia about myself
 menu-position: 60
 
 ---
