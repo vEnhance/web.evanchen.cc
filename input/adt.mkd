@@ -1,6 +1,5 @@
 title: Dance
 header: Dance videos
-menu-position: 64
 indent: 1
 description: Nonexistent videos of me dancing.
 
@@ -10,4 +9,5 @@ I do K-pop dance through MIT's [Asian Dance Team](http://adt.mit.edu/).
 It was the most challenging part of my MIT undergraduate experience.
 
 I have no videos to show for it yet,
-but try checking back in mid February ;)
+but I'm planning to have at least one eventually!
+Try checking back in mid February ;)
