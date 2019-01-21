@@ -33,6 +33,7 @@ for some more philosophical (and less concrete) advice on studying.
 + Combinatorics: [Pranav A. Sriram][pranav]
 + Geometry: [E.G.M.O.](geombook.html)
 + Number theory: [Orders modulo a prime][orders]
++ Not-geometry: [OTIS Excerpts](excerpts.html)
 
 [funceq]: http://web.evanchen.cc/handouts/FuncEq-Intro/FuncEq-Intro.pdf
 [ineq]: http://web.evanchen.cc/handouts/Ineq/en.pdf

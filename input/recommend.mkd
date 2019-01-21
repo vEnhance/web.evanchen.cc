@@ -58,7 +58,7 @@ Of course, see also [Napkin](napkin.html).
 
 #### Books
 
-* [My olympiad geometry book](geombook.html).
+* My own: [olympiad geometry book](geombook.html) and [OTIS excerpts](excerpts.html).
 
 * [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134).
 
