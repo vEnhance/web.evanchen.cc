@@ -50,5 +50,5 @@ and solutions to recent USA team selection test problems.
 Geometry is not covered;
 [there is already a textbook for that](geombook.html).
 
-[recent]: TODO
+[recent]: http://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf
 [catalog]: http://web.evanchen.cc/static/otis-samples/synopsis.html
