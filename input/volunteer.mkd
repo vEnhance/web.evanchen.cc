@@ -1,5 +1,5 @@
 title: Outreach
-menu-position: 7
+menu-position: 68
 header: Outreach for High School Math
 indent: 1
 description: Listing of volunteer roles
@@ -19,6 +19,8 @@ but a handful are paid positions (noted below).
 + BMC: [Berkeley Math Circle](http://mathcircle.berkeley.edu/)
 	+ Monthly contest design (paid), 2012 - present
 	+ Monthly contest grader (paid), 2011 - 2014
++ CMIMC: [Carnegie Mellon Informatics Math Competition](http://www.cmimc.org/)
+	+ Exchange volunteer, 2018, 2019
 + ELMO: [Experimental Lincoln Math Olympiad](http://web.evanchen.cc/elmo/index.html)
 	+ Problem author, 2013, 2014
 	+ Shortlist coordinator, 2013 - present
