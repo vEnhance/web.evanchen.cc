@@ -7,7 +7,7 @@ description: Archive of PDF's of math olympiad problems.
 ---
 
 On this page I maintain archives of the
-USA team selection tests,  the ELMO.
+USA team selection tests.
 
 Note that this is not an official repository of problems and solutions,
 nor do I own the copyright for any of the problems.
@@ -15,8 +15,6 @@ In fact, many of the files are replicas of the originals produced by me.
 However, since all these problems and solutions can be found
 on [Art of Problem Solving](http://aops.com/community/c13_contests) anyways,
 I have assembled a subset of them here for everyone's convenience.
-
-
 
 ### USA TST Selection Test (TSTST)
 
