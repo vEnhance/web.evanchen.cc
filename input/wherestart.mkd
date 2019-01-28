@@ -29,20 +29,17 @@ for some more philosophical (and less concrete) advice on studying.
 
 ### Lecture Materials
 
-+ Algebra: [Intro functional equations][funceq], [Intro inequalities][ineq]
 + Combinatorics: [Pranav A. Sriram][pranav]
-+ Geometry: [E.G.M.O.](geombook.html)
-+ Number theory: [Orders modulo a prime][orders]
-+ Not-geometry: [OTIS Excerpts](excerpts.html)
++ Geometry: [E.G.M.O.](geombook.html) (by me)
++ Algebra, combo, NT: [OTIS Excerpts](excerpts.html) (by me)
 
-[funceq]: http://web.evanchen.cc/handouts/FuncEq-Intro/FuncEq-Intro.pdf
-[ineq]: http://web.evanchen.cc/handouts/Ineq/en.pdf
 [pranav]: http://www.artofproblemsolving.com/community/c6h601134
-[orders]: http://web.evanchen.cc/handouts/ORPR/ORPR.pdf
 
 If you've finished these and want more,
 I have [a bunch more olympiad handouts](olympiad.html)
 and [links to other sources](recommend.html).
+(The Excerpts contain adaptations from many of the handouts,
+but there are some differences, too.)
 
 ### Problem Sources
 
