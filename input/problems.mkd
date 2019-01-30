@@ -1,20 +1,35 @@
-title: USA TST's
+title: Problems & Solutions
 menu-position: 31
-header: USA Team Selection Tests
+header: Olympiad Problems and Solutions
 indent: 1
 description: Archive of PDF's of math olympiad problems.
 
 ---
 
-On this page I maintain archives of the
-USA team selection tests.
+This page contains problems and solutions
+to several USA contests, as well as a few others.
 
-Note that this is not an official repository of problems and solutions,
-nor do I own the copyright for any of the problems.
-In fact, many of the files are replicas of the originals produced by me.
-However, since all these problems and solutions can be found
-on [Art of Problem Solving](http://aops.com/community/c13_contests) anyways,
-I have assembled a subset of them here for everyone's convenience.
+### USA Math Olympiad (USAMO)
+
+Despite being part of the USA team selection process,
+these are not the "official" solution files,
+rather my own personal notes.
+My understanding is that the internal problems and solutions,
+from the actual USAMO committee, are copyrighted by MAA.
+To my knowledge they are not published anywhere.
+
+I may add more of these later as I finish editing more years.
+
+* USAMO 2009 [(problems and solutions)](exams/USAMO-2009-notes.pdf)
+* USAMO 2010 [(problems and solutions)](exams/USAMO-2010-notes.pdf)
+* USAMO 2011 [(problems and solutions)](exams/USAMO-2011-notes.pdf)
+* USAMO 2012 [(problems and solutions)](exams/USAMO-2012-notes.pdf)
+* USAMO 2013 [(problems and solutions)](exams/USAMO-2013-notes.pdf)
+* USAMO 2014 [(problems and solutions)](exams/USAMO-2014-notes.pdf)
+* USAMO 2015 [(problems and solutions)](exams/USAMO-2015-notes.pdf)
+* USAMO 2016 [(problems and solutions)](exams/USAMO-2016-notes.pdf)
+* USAMO 2017 [(problems and solutions)](exams/USAMO-2017-notes.pdf)
+* USAMO 2018 [(problems and solutions)](exams/USAMO-2018-notes.pdf)
 
 ### USA TST Selection Test (TSTST)
 
@@ -32,6 +47,9 @@ see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 
 ### USA Team Selection Test (TST)
 
+These exams are used in the final part of
+the selection process for the USA IMO team.
+
 * USA Team Selection Test 2000 [(problems)](exams/tse00.pdf)
 * USA Team Selection Test 2001 [(problems)](exams/tse01.pdf)
 * USA Team Selection Test 2002 [(problems)](exams/tse02.pdf)
@@ -46,8 +64,7 @@ see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 
 ### ELMO
 
-Okay, this isn't actually a USA team selection test, but I couldn't resist.
-See [general ELMO information](elmo/general.html).
+See also [general ELMO information](elmo/general.html).
 
 * ELMO 2010 [(problems)](exams/ELMO-2010.pdf) [(solutions)](exams/ELMO-2010-sols.pdf)
 * ELMO 2011 [(problems)](exams/ELMO-2011.pdf) [(solutions)](exams/ELMO-2011-sols.pdf)
@@ -59,10 +76,17 @@ See [general ELMO information](elmo/general.html).
 * ELMO 2017 [(problems)](exams/ELMO-2017.pdf) [(shortlist with solutions)](exams/ELMO-2017-SL.pdf)
 * ELMO 2018 [(problems)](exams/ELMO-2018.pdf) [(shortlist with solutions)](exams/ELMO-2018-SL.pdf)
 
+### International Math Olympiad (IMO)
+
+For now, these are my solution notes from the years I attended IMO.
+
+* IMO 2017 [(problems and solutions)](exams/IMO-2017-notes.pdf)
+* IMO 2018 [(problems and solutions)](exams/IMO-2018-notes.pdf)
+
 ### Taiwan Team Selection Test
 
-This is not a USA team selection test either,
-but I also couldn't resist.
+These are the problems I worked on in high school
+when competing for a spot on the Taiwanese IMO team.
 These problems are in Chinese;
 [English versions here](http://www.aops.com/community/c41558).
 
