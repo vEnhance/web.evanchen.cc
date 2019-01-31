@@ -1,0 +1,54 @@
+title: Contact
+header: Contacting Evan
+description: If you want to email me.
+menu-position: 100
+
+---
+
+The best way to reach me is by email;
+My address is:
+
+> $\text{evan}@\text{evanchen}\cdot\text{cc}$.
+
+Although I do my best to respond to as much as I can,
+I admit that I am not able to respond to everything.
+
+In some cases your question may already be answered on the site:
+e.g. [tutoring](otis.html),
+[contest resource recommendations](recommend.html)
+or the [FAQ](faqs.html).
+If you need help with an olympiad problem,
+you are better off asking on a forum like [AOPS](artofproblemsolving.com).
+Contrary to popular belief I can't sight-solve everything!
+
+Here are some hints:
+
+* Comments, thanks, or suggestions on my writing are always appreciated!
+  This includes any trivial typos you find.
+
+* My replies are often terse. Please don't be offended if so.
+  I am just trying to be efficient since I get many messages.
+
+* Proper syntax, English, capitalization, etc is appreciated.
+  (I know some of you are not native English speakers,
+  so I try to overlook this when I can.)
+
+* Please be patient. "Bumping" a message before
+  I have found time to respond is likely to annoy me.
+  I ill not respond to a non-urgent message
+  that is bumped after less than two days.
+
+* Specific queries get faster and better responses.
+  So "can you explain this line of your solution to USAMO 20XY/Z?"
+  will usually be answered pretty swiftly.
+  Conversely, "how do i geo" will get at best a link to the FAQ.
+
+* *Don't be too shy*! I might sound scary here,
+  but if you have a good reason for contacting me
+  and do so politely, then I won't mind.
+  I am happy to help where I can.  
+  (Examples of good requests: specific math query,
+  something I wrote is unclear, found a typo,
+  follow-up questions, permission requests,
+  questions on my past experiences, etc.
+  I'm sure there's more.)
