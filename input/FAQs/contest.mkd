@@ -1,4 +1,4 @@
-title: Math Contest FAQ's:
+title: Math Contest FAQ's
 header: Math Contest FAQ's
 description: Some FAQ's about math contests and my personal life.
 
@@ -186,7 +186,7 @@ work on every problem that students send me, and simply archive your message.
 [shower]: http://www.paulgraham.com/top.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
 [usamts]: http://usamts.org/index.php
-[wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
+[wpcontest]: https://usamo.wordpress.com/2019/01/31/math-contest-platitudes-v3/
 [wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
 [yufei]: http://yufeizhao.com/olympiad.html
 [perfect]: https://usamo.wordpress.com/2016/04/17/against-perfect-scores/
