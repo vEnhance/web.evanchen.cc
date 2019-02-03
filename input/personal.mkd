@@ -10,6 +10,8 @@ Here's a little about myself as person:
 	([dot-files on GitHub](https://github.com/vEnhance/dotfiles))
 + Editor: [Vim](http://www.vim.org/)
 + TeX distribution: [TeX Live](https://tug.org/texlive/)
+* My [browser homepage](static/browser-homepage.html)
+	 (click the timer to change target date)
 + Favorite triangle center: Orthocenter
 + Favorite circle: A-mixtilinear incircle
 + Favorite color: Aqua green (close to [#00FFBF][aquamarine])
