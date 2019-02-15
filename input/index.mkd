@@ -21,10 +21,10 @@ and have authored [several olympiad materials](olympiad.html),
 most notably including a [geometry textbook](geombook.html).
 I also [teach my own classes](otis.html).
 
-I am on [GitHub](https://github.com/vEnhance/)
+I am on [GitHub](https://github.com/vEnhance/),
+[Facebook](facebook.com/evanchenmath/),
 and [WordPress](https://usamo.wordpress.com).
-You can also see my [personal page](personal.html) for trivia
-about myself.
+You can also see my [personal page](personal.html) for trivia about myself.
 
 <center>
 <img src="static/home-art.png" width="300" />
