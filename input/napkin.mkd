@@ -21,10 +21,10 @@ with several chapters scheduled but not yet written.
 In addition, many chapters still lack problems or solutions.
 
 See link above for the most recent draft,
-and [here for an archive of all drafts][wp].
-I would very highly appreciate any corrections, suggestions, or comments.
+and [here for an listing of all drafts][wp].
+You can also view the [source code on GitHub](https://github.com/vEnhance/napkin/).
 
-You can view the [source code on GitHub](https://github.com/vEnhance/napkin/).
+I would very highly appreciate any corrections, suggestions, or comments.
 
 ## Description
 The Napkin project is a personal exposition project of mine
