@@ -17,7 +17,6 @@ Here's a little about myself as person:
 
 You can also see the following pages on this website:
 
-+ [Dance videos](adt.html)
 + [Games I enjoy](games.html)
 + [Math contest photos and history](myscores.html)
 
