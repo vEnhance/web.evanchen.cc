@@ -46,7 +46,7 @@ The philosophy is stated in the preamble:
 
 This project has evolved to more than just forty hours.
 
-## Current Table of Contents.
+## Current Table of Contents
 
 1. Groups
 2. Metric spaces
@@ -135,5 +135,5 @@ This project has evolved to more than just forty hours.
 85. Forcing
 86. Breaking the continuum hypothesis
 
-[recent]: https://usamo.files.wordpress.com/2018/08/napkin-2018-08-22.pdf
+[recent]: https://usamo.files.wordpress.com/2019/02/napkin-v15-20190220.pdf
 [wp]: https://usamo.wordpress.com/napkin/
