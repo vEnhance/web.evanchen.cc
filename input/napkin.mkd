@@ -1,6 +1,6 @@
-title: Napkin
+title: Napkin (v1.5)
 menu-position: 42
-header: The Napkin project
+header: The Napkin project (v1.5)
 indent: 1
 description: Description of Napkin project, a free book covering all sorts of higher math.
 
@@ -12,15 +12,19 @@ description: Description of Napkin project, a free book covering all sorts of hi
 
 ## Project Status
 
+The **recent v1.5** is a new update which revises
+many of the earlier chapters as well as adding new content
+in real analysis and measure theory,
+plus a complete facelift for algebraic geometry.
+It is however even more visibly incomplete,
+with several chapters scheduled but not yet written.
+In addition, many chapters still lack problems or solutions.
+
 See link above for the most recent draft,
 and [here for an archive of all drafts][wp].
 I would very highly appreciate any corrections, suggestions, or comments.
 
-Most of what remains to do is fill in the rest of the exercise problems,
-and slowly let all the typos get sent in to me.
-
-(There is also a live Dropbox link which updates in real-time as I make changes.
-Feel free to email me to acquire this link.)
+You can view the [source code on GitHub](https://github.com/vEnhance/napkin/).
 
 ## Description
 The Napkin project is a personal exposition project of mine
@@ -44,85 +48,92 @@ This project has evolved to more than just forty hours.
 
 ## Current Table of Contents.
 
-#### I. Basic Algebra and Topology
-+ Chapter 1. What is a Group?
-+ Chapter 2. What is a Space?
-+ Chapter 3. Homomorphisms and Quotient Groups
-+ Chapter 4. Topological Notions
-+ Chapter 5. Compactness
-#### II. Linear Algebra and Multivariable Calculus
-+ Chapter 6. What is a Vector Space?
-+ Chapter 7. Trace and Determinant
-+ Chapter 8. Spectral Theory
-+ Chapter 9. Inner Product Spaces
-#### III. Groups, Rings, and More
-+ Chapter 10. Group Actions Overkill AIME Problems
-+ Chapter 11. Find All Groups
-+ Chapter 12. Rings and Ideals
-+ Chapter 13. The PID Structure Theorem
-#### IV. Complex Analysis
-+ Chapter 14. Holomorphic Functions
-+ Chapter 15. Meromorphic Functions
-+ Chapter 16. Holomorphic Square Roots and Logarithms
-#### V. Quantum Algorithms
-+ Chapter 17. Quantum states and measurements
-+ Chapter 18. Quantum circuits
-+ Chapter 19. Shor's algorithm
-#### VI. Algebraic Topology I: Homotopy
-+ Chapter 20. Some Topological Constructions
-+ Chapter 21. Fundamental Groups
-+ Chapter 22. Covering Projections
-#### VII. Category Theory
-+ Chapter 23. Objects and Morphisms
-+ Chapter 24. Functors and Natural Transformations
-+ Chapter 25. Abelian Categories
-#### VIII. Differential Geometry
-+ Chapter 26. Multivariable Calculus Done Correctly
-+ Chapter 27. Differential Forms
-+ Chapter 28. Integrating Differential Forms
-+ Chapter 29. A Bit of Manifolds
-#### IX. Algebraic Topology II: Homology
-+ Chapter 30. Singular Homology
-+ Chapter 31. The Long Exact Sequence
-+ Chapter 32. More on Computing Homology Groups
-+ Chapter 33. Bonus: Cellular Homology
-+ Chapter 34. Singular Cohomology
-+ Chapter 35. Applications of Cohomology
-#### X. Algebraic NT I: Rings of Integers
-+ Chapter 36. Algebraic Integers
-+ Chapter 37. Unique Factorization (Finally!)
-+ Chapter 38. Minkowski Bound and Class Groups
-+ Chapter 39. More Properties of the Discriminant
-+ Chapter 40. Bonus: Let's Solve Pell's Equation!
-#### XI. Algebraic NT II: Galois and Ramification Theory
-+ Chapter 41. Things Galois
-+ Chapter 42. Finite Fields
-+ Chapter 43. Ramification Theory
-+ Chapter 44. The Frobenius Endomorphism
-+ Chapter 45. A Bit on Artin Reciprocity
-#### XII. Representation Theory
-+ Chapter 46. Representations of Algebras
-+ Chapter 47. Semisimple Algebras
-+ Chapter 48. Characters
-+ Chapter 49. Some Applications
-#### XIII. Algebraic Geometry I: Varieties
-+ Chapter 50. Affine Varieties
-+ Chapter 51. Affine Varieties as Ringed Spaces
-+ Chapter 52. Projective Varieties
-+ Chapter 53. Bonus: Bezout's Theorem
-#### XIV. Algebraic Geometry II: Schemes
-+ Chapter 54. Morphisms of varieties
-+ Chapter 55. Sheaves and Ringed Spaces
-+ Chapter 56. Schemes
-#### XV. Set Theory I: ZFC, Ordinals, and Cardinals
-+ Chapter 57. Bonus: Zorn's Lemma and Cauchy's Functional Equation
-+ Chapter 58. Zermelo-Frankel with Choice
-+ Chapter 59. Ordinals
-+ Chapter 60. Cardinals
-#### XVI. Set Theory II: Model Theory and Forcing
-+ Chapter 61. Inner Model Theory
-+ Chapter 62. Forcing
-+ Chapter 63. Breaking the Continuum Hypothesis
+1. Groups
+2. Metric spaces
+3. Homomorphisms and quotient groups
+4. Rings and ideals
+5. Flavors of rings
+6. Properties of metric spaces
+7. Topological spaces
+8. Compactness
+9. Vector spaces
+10. Eigen-things
+11. Dual space and trace
+12. Determinant
+13. Inner product spaces
+14. Bonus: Fourier analysis
+15. Duals, adjoint, and transposes
+16. Group actions overkill AIME problems
+17. Find all groups
+18. The PID structure theorem
+19. Representations of algebras
+20. Semisimple algebras
+21. Characters
+22. Some applications
+23. Quantum states and measurements
+24. Quantum circuits
+25. Shor's algorithm
+26. Limits and series
+27. Bonus: A hint of p-adic numbers
+28. Differentiation
+29. Power series and Taylor series
+30. Riemann integrals
+31. Holomorphic functions
+32. Meromorphic functions
+33. Holomorphic square roots and logarithms
+34. Measure spaces
+35. Constructing the Borel and Lebesgue measure
+36. Lebesgue integration
+37. Swapping order with Lebesgue integrals
+38. Bonus: A hint of Pontryagin duality
+39. Random variables (TO DO)
+40. Large number laws (TO DO)
+41. Stopped martingales (TO DO)
+42. Multivariable calculus done correctly
+43. Differential forms
+44. Integrating differential forms
+45. A bit of manifolds
+46. Algebraic integers
+47. Unique factorization (finally!)
+48. Minkowski bound and class groups
+49. More properties of the discriminant
+50. Bonus: Let's solve Pell's equation!
+51. Things Galois
+52. Finite fields
+53. Ramification theory
+54. The Frobenius element
+55. Bonus: A Bit on Artin Reciprocity
+56. Some topological constructions
+57. Fundamental groups
+58. Covering projections
+59. Objects and morphisms
+60. Functors and natural transformations
+61. Limits in categories (TO DO)
+62. Abelian categories
+63. Singular homology
+64. The long exact sequence
+65. Excision and relative homology
+66. Bonus: Cellular homology
+67. Singular cohomology
+68. Application of cohomology
+69. Affine varieties
+70. Affine varieties as ringed spaces
+71. Projective varieties
+72. Bonus: B\'ezout's theorem
+73. Morphisms of varieties
+74. Sheaves and ringed spaces
+75. Localization
+76. Affine schemes: the Zariski topology
+77. Affine schemes: the sheaf
+78. Interlude: nineteen examples of affine schemes
+79. Morphisms of locally ringed spaces
+80. Interlude: Cauchy's functional equation and Zorn's lemma
+81. Zermelo-Fraenkel with choice
+82. Ordinals
+83. Cardinals
+84. Inner model theory
+85. Forcing
+86. Breaking the continuum hypothesis
 
 [recent]: https://usamo.files.wordpress.com/2018/08/napkin-2018-08-22.pdf
 [wp]: https://usamo.wordpress.com/napkin/
