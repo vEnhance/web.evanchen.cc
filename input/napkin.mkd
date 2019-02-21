@@ -6,6 +6,13 @@ description: Description of Napkin project, a free book covering all sorts of hi
 
 ---
 
+<span style="float:right;padding:10px; font-size:80%; text-align:center;">
+<a href="http://web.evanchen.cc/upload/recent-flowchart.png">
+<img src="http://web.evanchen.cc/upload/recent-flowchart.png" width="250">
+<br>(click to enlarge)</a>
+</span>
+
+
 <span style="color:red; font-size: 120%;">
 **For most recent draft, [click here][recent] to download.**
 </span>
@@ -14,15 +21,15 @@ description: Description of Napkin project, a free book covering all sorts of hi
 
 The **recent v1.5** is a new update which revises
 many of the earlier chapters as well as adding new content
-in real analysis and measure theory,
-plus a complete facelift for algebraic geometry.
+in real analysis, measure theory, and algebraic geometry.
 It is however even more visibly incomplete,
 with several chapters scheduled but not yet written.
 In addition, many chapters still lack problems or solutions.
 
 See link above for the most recent draft,
 and [here for an listing of all drafts][wp].
-You can also view the [source code on GitHub](https://github.com/vEnhance/napkin/).
+You can also view the
+[source code on GitHub](https://github.com/vEnhance/napkin/).
 
 I would very highly appreciate any corrections, suggestions, or comments.
 
