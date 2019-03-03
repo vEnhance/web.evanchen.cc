@@ -12,6 +12,8 @@ My address is:
 
 Although I do my best to respond to as much as I can,
 I admit that I am not able to respond to everything.
+(Also, my replies are often terse.
+Please don't be offended if so; I am just trying to be efficient.)
 
 In some cases your question may already be answered on the site:
 e.g. [tutoring](otis.html),
@@ -24,10 +26,12 @@ Contrary to popular belief I can't sight-solve everything!
 Here are some hints:
 
 * Comments, thanks, or suggestions on my writing are always appreciated!
-  This includes any trivial typos you find.
+  This includes any typos you find, no matter how trivial.
 
-* My replies are often terse. Please don't be offended if so.
-  I am just trying to be efficient since I get many messages.
+* Specific queries get faster and better responses.
+  So "can you explain this line of your solution to USAMO 20XY/Z?"
+  will usually be answered pretty swiftly.
+  Conversely, "how do i geo" will get at best a link to the FAQ.
 
 * Proper syntax, English, capitalization, etc is appreciated.
   (I know some of you are not native English speakers,
@@ -35,13 +39,8 @@ Here are some hints:
 
 * Please be patient. "Bumping" a message before
   I have found time to respond is likely to annoy me.
-  I ill not respond to a non-urgent message
-  that is bumped after less than two days.
-
-* Specific queries get faster and better responses.
-  So "can you explain this line of your solution to USAMO 20XY/Z?"
-  will usually be answered pretty swiftly.
-  Conversely, "how do i geo" will get at best a link to the FAQ.
+  I will not respond to a non-urgent message
+  that is bumped after less than one day.
 
 * *Don't be too shy*! I might sound scary here,
   but if you have a good reason for contacting me
