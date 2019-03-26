@@ -43,6 +43,7 @@ even if you don't know any geometrical theorems.
 + [Chapter 2: Circles][egmo2]. Power of a point, radical axis.
 + [Chapter 8: Inversion][egmo8]. Inversion around a circle.
 * [Chapters 1-3 on Google Books preview][googlebook].
+* [Parody version](textbooks/tr011ey.pdf) for April Fool's Day, 2019.
 
 ### On Solutions to Problems
 
