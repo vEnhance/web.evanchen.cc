@@ -16,7 +16,7 @@ You can also [purchase a PDF][ebook].**
 </span>
 
 *Euclidean Geometry in Mathematical Olympiads* (often abbreviated *EGMO*,
-despite [an olympiad having the same name][girls])
+despite an olympiad having the [same name][girls])
 is a comprehensive problem-solving book in Euclidean geometry.
 It was written for competitive students training for national
 or international mathematical olympiads.
@@ -42,8 +42,8 @@ even if you don't know any geometrical theorems.
 
 + [Chapter 2: Circles][egmo2]. Power of a point, radical axis.
 + [Chapter 8: Inversion][egmo8]. Inversion around a circle.
-* [Chapters 1-3 on Google Books preview][googlebook].
-* [Parody version](textbooks/tr011ey.pdf) for April Fool's Day, 2019.
+* [Chapters 1-3][googlebook] on Google Books preview.
+* For April Fool's Day 2019, [parody version](textbooks/tr011ey.pdf) of entire book.
 
 ### On Solutions to Problems
 
@@ -153,6 +153,7 @@ If you find another one, please let me know by email.
 + <span style="color:red;">On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.</span>
 + On **page 144**, second line of 7.42, change "tangency points" to "tangency point".
 + On **page 149**, second paragraph of 8.1, change "three ordinary points" to "three noncollinear ordinary points".
++ On **page 149**, third paragraph of 8.1, change $R$ to $r$.
 + On **page 150**, in Lemma 8.1, replace "tangents from $A^\ast$" with "tangency points from $A^\ast$".
 + On **page 151**, at start of 8.2, in "simplest example is a just a line", delete the extra "a".
 + On **page 151**, immediately before figure, add a period after 8.2A.
