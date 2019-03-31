@@ -9,17 +9,22 @@ description: Archive of PDF's of math olympiad problems.
 This page contains problems and solutions
 to several USA contests, as well as a few others.
 
-### USA Math Olympiad (USAMO)
+### USA (Junior) Math Olympiad (USAMO)
 
 Despite being part of the USA team selection process,
 these are not the "official" solution files,
 rather my own personal notes.
 My understanding is that the internal problems and solutions,
-from the actual USAMO committee, are copyrighted by MAA.
+from the actual USA(J)MO committee, are copyrighted by MAA.
 To my knowledge they are not published anywhere.
 
 I may add more of these later as I finish editing more years.
 
+* JMO 2014 [(problems and solutions)](exams/JMO-2014-notes.pdf)
+* JMO 2015 [(problems and solutions)](exams/JMO-2015-notes.pdf)
+* JMO 2016 [(problems and solutions)](exams/JMO-2016-notes.pdf)
+* JMO 2017 [(problems and solutions)](exams/JMO-2017-notes.pdf)
+* JMO 2018 [(problems and solutions)](exams/JMO-2018-notes.pdf)
 * USAMO 2009 [(problems and solutions)](exams/USAMO-2009-notes.pdf)
 * USAMO 2010 [(problems and solutions)](exams/USAMO-2010-notes.pdf)
 * USAMO 2011 [(problems and solutions)](exams/USAMO-2011-notes.pdf)
