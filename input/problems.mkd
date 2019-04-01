@@ -83,8 +83,12 @@ See also [general ELMO information](elmo/general.html).
 
 ### International Math Olympiad (IMO)
 
-For now, these are my solution notes from the years I attended IMO.
+Still working on some more of these.
 
+* IMO 2013 [(problems and solutions)](exams/IMO-2013-notes.pdf)
+* IMO 2014 [(problems and solutions)](exams/IMO-2014-notes.pdf)
+* IMO 2015 [(problems and solutions)](exams/IMO-2015-notes.pdf)
+* IMO 2016 [(problems and solutions)](exams/IMO-2016-notes.pdf)
 * IMO 2017 [(problems and solutions)](exams/IMO-2017-notes.pdf)
 * IMO 2018 [(problems and solutions)](exams/IMO-2018-notes.pdf)
 
