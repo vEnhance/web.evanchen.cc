@@ -78,12 +78,18 @@ I may be able to connect you with someone else.
 
 ### Organizers
 
+Current staff:
+
 * [Evan Chen](http://web.evanchen.cc): Director
-* [Anant Mudgal][anantIMO]: Instructor
-* [Ankan Bhattacharya][ankanIMO]: Instructor
-* [Michael Ren][mrenIMO]: Instructor
-* [Zack Chroman][zackIMO]: Instructor
+* [Anant Mudgal][anantIMO]: Instructor (OTIS III)
+* [Howard Halim][howardIMO]: Instructor (OTIS III-IV)
+* [Michael Ren][mrenIMO]: Instructor (OTIS I-II)
+* [Zack Chroman][zackIMO]: Instructor (OTIS II-III)
 * [CJ Quines](http://cjquines.com/): Grader
+
+Past organizers:
+
+* [Ankan Bhattacharya][ankanIMO]: Instructor
 
 ### History
 
@@ -127,13 +133,14 @@ though he didn't do that much.
 [usamo17]: http://www.maa.org/sites/default/files/HonorableMentions2017.pdf
 [rmm18]: http://rmms.lbi.ro/rmm2018/index.php?id=results_math
 [usamo18]: http://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
-[howardIMO]: https://www.imo-official.org/participant_r.aspx?id=28475
-[edwanIMO]: https://www.imo-official.org/participant_r.aspx?id=28236
-[szhuEGMO]: https://www.egmo.org/people/person1022/
 
 [ankanIMO]: https://www.imo-official.org/participant_r.aspx?id=26643
 [anantIMO]: https://www.imo-official.org/participant_r.aspx?id=25764
+[edwanIMO]: https://www.imo-official.org/participant_r.aspx?id=28236
+[howardIMO]: https://www.imo-official.org/participant_r.aspx?id=28475
 [mrenIMO]:  https://www.imo-official.org/participant_r.aspx?id=28394
 [zackIMO]:  https://www.imo-official.org/participant_r.aspx?id=27374
+
+[szhuEGMO]: https://www.egmo.org/people/person1022/
 
 [gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
