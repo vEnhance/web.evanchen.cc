@@ -9,7 +9,7 @@ description: Archive of PDF's of math olympiad problems.
 This page contains problems and solutions
 to several USA contests, as well as a few others.
 
-### USA (Junior) Math Olympiad (USAMO)
+### USA Math Olympiad (USAMO)
 
 Despite being part of the USA team selection process,
 these are not the "official" solution files,
@@ -18,13 +18,15 @@ My understanding is that the internal problems and solutions,
 from the actual USA(J)MO committee, are copyrighted by MAA.
 To my knowledge they are not published anywhere.
 
-I may add more of these later as I finish editing more years.
-
-* JMO 2014 [(problems and solutions)](exams/JMO-2014-notes.pdf)
-* JMO 2015 [(problems and solutions)](exams/JMO-2015-notes.pdf)
-* JMO 2016 [(problems and solutions)](exams/JMO-2016-notes.pdf)
-* JMO 2017 [(problems and solutions)](exams/JMO-2017-notes.pdf)
-* JMO 2018 [(problems and solutions)](exams/JMO-2018-notes.pdf)
+* USAMO 2000 [(problems and solutions)](exams/USAMO-2000-notes.pdf)
+* USAMO 2001 [(problems and solutions)](exams/USAMO-2001-notes.pdf)
+* USAMO 2002 [(problems and solutions)](exams/USAMO-2002-notes.pdf)
+* USAMO 2003 [(problems and solutions)](exams/USAMO-2003-notes.pdf)
+* USAMO 2004 [(problems and solutions)](exams/USAMO-2004-notes.pdf)
+* USAMO 2005 [(problems and solutions)](exams/USAMO-2005-notes.pdf)
+* USAMO 2006 [(problems and solutions)](exams/USAMO-2006-notes.pdf)
+* USAMO 2007 [(problems and solutions)](exams/USAMO-2007-notes.pdf)
+* USAMO 2008 [(problems and solutions)](exams/USAMO-2008-notes.pdf)
 * USAMO 2009 [(problems and solutions)](exams/USAMO-2009-notes.pdf)
 * USAMO 2010 [(problems and solutions)](exams/USAMO-2010-notes.pdf)
 * USAMO 2011 [(problems and solutions)](exams/USAMO-2011-notes.pdf)
@@ -35,6 +37,11 @@ I may add more of these later as I finish editing more years.
 * USAMO 2016 [(problems and solutions)](exams/USAMO-2016-notes.pdf)
 * USAMO 2017 [(problems and solutions)](exams/USAMO-2017-notes.pdf)
 * USAMO 2018 [(problems and solutions)](exams/USAMO-2018-notes.pdf)
+* JMO 2014 [(problems and solutions)](exams/JMO-2014-notes.pdf)
+* JMO 2015 [(problems and solutions)](exams/JMO-2015-notes.pdf)
+* JMO 2016 [(problems and solutions)](exams/JMO-2016-notes.pdf)
+* JMO 2017 [(problems and solutions)](exams/JMO-2017-notes.pdf)
+* JMO 2018 [(problems and solutions)](exams/JMO-2018-notes.pdf)
 
 ### USA TST Selection Test (TSTST)
 
@@ -67,6 +74,28 @@ the selection process for the USA IMO team.
 * USA Winter TST for IMO 2018 [(problems)](exams/IMO-2018-TST.pdf) [(solutions)](exams/sols-TST-IMO-2018.pdf)
 * USA Winter TST for IMO 2019 [(problems)](exams/IMO-2019-TST.pdf) [(solutions)](exams/sols-TST-IMO-2019.pdf)
 
+### International Math Olympiad
+
+* IMO 2000 [(problems and solutions)](exams/IMO-2000-notes.pdf)
+* IMO 2001 [(problems and solutions)](exams/IMO-2001-notes.pdf)
+* IMO 2002 [(problems and solutions)](exams/IMO-2002-notes.pdf)
+* IMO 2003 [(problems and solutions)](exams/IMO-2003-notes.pdf)
+* IMO 2004 [(problems and solutions)](exams/IMO-2004-notes.pdf)
+* IMO 2005 [(problems and solutions)](exams/IMO-2005-notes.pdf)
+* IMO 2006 [(problems and solutions)](exams/IMO-2006-notes.pdf)
+* IMO 2007 [(problems and solutions)](exams/IMO-2007-notes.pdf)
+* IMO 2008 [(problems and solutions)](exams/IMO-2008-notes.pdf)
+* IMO 2009 [(problems and solutions)](exams/IMO-2009-notes.pdf)
+* IMO 2010 [(problems and solutions)](exams/IMO-2010-notes.pdf)
+* IMO 2011 [(problems and solutions)](exams/IMO-2011-notes.pdf)
+* IMO 2012 [(problems and solutions)](exams/IMO-2012-notes.pdf)
+* IMO 2013 [(problems and solutions)](exams/IMO-2013-notes.pdf)
+* IMO 2014 [(problems and solutions)](exams/IMO-2014-notes.pdf)
+* IMO 2015 [(problems and solutions)](exams/IMO-2015-notes.pdf)
+* IMO 2016 [(problems and solutions)](exams/IMO-2016-notes.pdf)
+* IMO 2017 [(problems and solutions)](exams/IMO-2017-notes.pdf)
+* IMO 2018 [(problems and solutions)](exams/IMO-2018-notes.pdf)
+
 ### ELMO
 
 See also [general ELMO information](elmo/general.html).
@@ -80,17 +109,6 @@ See also [general ELMO information](elmo/general.html).
 * ELMO 2016 [(problems)](exams/ELMO-2016.pdf) [(solutions)](exams/ELMO-2016-sols.pdf)
 * ELMO 2017 [(problems)](exams/ELMO-2017.pdf) [(shortlist with solutions)](exams/ELMO-2017-SL.pdf)
 * ELMO 2018 [(problems)](exams/ELMO-2018.pdf) [(shortlist with solutions)](exams/ELMO-2018-SL.pdf)
-
-### International Math Olympiad (IMO)
-
-Still working on some more of these.
-
-* IMO 2013 [(problems and solutions)](exams/IMO-2013-notes.pdf)
-* IMO 2014 [(problems and solutions)](exams/IMO-2014-notes.pdf)
-* IMO 2015 [(problems and solutions)](exams/IMO-2015-notes.pdf)
-* IMO 2016 [(problems and solutions)](exams/IMO-2016-notes.pdf)
-* IMO 2017 [(problems and solutions)](exams/IMO-2017-notes.pdf)
-* IMO 2018 [(problems and solutions)](exams/IMO-2018-notes.pdf)
 
 ### Taiwan Team Selection Test
 
