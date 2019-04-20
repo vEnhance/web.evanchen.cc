@@ -37,11 +37,13 @@ To my knowledge they are not published anywhere.
 * USAMO 2016 [(problems and solutions)](exams/USAMO-2016-notes.pdf)
 * USAMO 2017 [(problems and solutions)](exams/USAMO-2017-notes.pdf)
 * USAMO 2018 [(problems and solutions)](exams/USAMO-2018-notes.pdf)
+* USAMO 2019 [(problems and solutions)](exams/USAMO-2019-notes.pdf) [(Math Jam)](https://aops.com/school/mathjams-transcripts?id=491)
 * JMO 2014 [(problems and solutions)](exams/JMO-2014-notes.pdf)
 * JMO 2015 [(problems and solutions)](exams/JMO-2015-notes.pdf)
 * JMO 2016 [(problems and solutions)](exams/JMO-2016-notes.pdf)
 * JMO 2017 [(problems and solutions)](exams/JMO-2017-notes.pdf)
 * JMO 2018 [(problems and solutions)](exams/JMO-2018-notes.pdf)
+* JMO 2019 [(problems and solutions)](exams/JMO-2019-notes.pdf) [(Math Jam)](https://aops.com/school/mathjams-transcripts?id=491)
 
 ### USA TST Selection Test (TSTST)
 
