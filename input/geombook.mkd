@@ -184,6 +184,8 @@ If you find another one, please let me know by email.
 + On **page 190**, immediately before problems, $P$ is the point at infinity along $\overline{AC}$ instead.
 + On **page 193**, Problem 9.58, delete the last "again" in definitions of $P$, $Q$.
 + On **page 200**, in third sentence of proof, add "of" after "radical center".
++ On **page 201**, Lemma 10.9, change "though" to "through".
++ On **page 202**, Proposition 10.14, delete extra "the" before $M$.
 + On **page 202**, part (a), the latter four circles should be
   $(PAB)$, $(PCD)$, $(QAD)$, $(QBC)$.
 + On **page 206**, problem 10.23, change "IMO 2005/2" to "IMO 2005/5", and "lie of the sides" to "lie on the sides".
