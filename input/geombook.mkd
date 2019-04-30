@@ -172,6 +172,7 @@ If you find another one, please let me know by email.
   change "Induces" to "Induce".
 + On **page 175**, "directed form *of* Ceva's theorem".
 + On **page 176**, in Problem 9.14, delete "and Lemma 9.18" (and "proofs" to "proof").
++ On **page 177**, in Lemma 9.18, change "imply" to "implies".
 + On **page 178**, in the proof of Theorem 9.19, change $\angle CAY = \angle YBC$ to $\angle ACY = \angle YCB$.
 + On **page 179**, top of page, first sentence, $\ell$ is allowed to pass through $O$.
 + On **page 181**, in Lemma 9.27, change "pole" to "polar" (two instances).
