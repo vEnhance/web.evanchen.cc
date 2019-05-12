@@ -166,6 +166,7 @@ If you find another one, please let me know by email.
 + On **page 163**, switch $C^\ast$ and $D^\ast$ in the diagram.
 + On **page 163**, step 3, change $BS^\ast$ to $BC^\ast$.
 + On **page 164**, switch $S^\ast$ and $R^\ast$ in the diagram.
++ On **page 167**, Problem 8.36, "circumcircle" is misspelled.
 + On **page 171**, Theorem 9.2, change "$\overline{AB}$ and $\overline{XY}$" to "segments $AB$ and $XY$".
 + On **page 173**, in Problem 9.4, add $k \neq 0$.
 + On **page 174-175**, in names of Lemmas 9.11-9.12,
@@ -220,9 +221,11 @@ If you find another one, please let me know by email.
 + On **page 230**, hint 362, $X$ should instead be the second intersection of $QI$ with the circumcircle.
 + On **page 231**, hint 373, replace "$90^{\circ}-A$" with "$90^{\circ}-B$".
 + On **page 231**, hint 380, replace "$\sin 30^{\circ}$" with "$i \sin 30^{\circ}$".
-+ On **page 231**, hint 383, change "trigonemetric" to "trigonometric".
++ On **page 231**, hint 383, "trigonometric" is misspelled.
 + On **page 231**, hint 389, change $L^\ast$ to $A^\ast$.
 + On **page 231**, hint 393, delete "$M=(0:1:1)$" and change the later "$L$" to "$M$".
++ On **page 233**, hint 449, change $A$ to $C$.
++ On **page 235**, hint 544, change "equivalent" to "equivalent to".
 + On **page 238**, hint 649 is wrong (see correction to Solution 6.45 below).
 + On **page 238**, hint 653 is missing a period.
 + On **page 238**, hint 666, change $\frac{XB}{XA}$ to $\frac{XA}{XB}$.
