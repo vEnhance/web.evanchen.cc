@@ -261,6 +261,7 @@ If you find another one, please let me know by email.
 + On **page 296**, in Solution 11.18, very very end, change $2t$ to $(b^2+c^2)t$.
 + On **page 297**, in Solution 11.18, the first display should read $-a^2v + b^2w + c^2v = (b^2+c^2)t + (abc)^2 - (ab)^2S\_B - a^2t = S\_A ((ab)^2 + 2t)$. The next display should be $X' = \left( a^2vw : S\_A(c^2S\_C+t)((ab)^2+2t) : S\_A(b^2S\_B+t)((ac)^2+2t) \right)$. Similarly for $Y'$ and $Z'$.
 + On **page 297**, in Solution 11.19, start of last paragraph, change $DBC\_1$ to $DB\_1C\_1$.
++ On **page 303**, in the description of IMO, change "problem" to "problems".
 + On **page 305**, the link to reference [3] is broken. Thankfully, it's on this website!
 + On **page 305**, reference [10], change "Geogebral" to "Geogebra".
 </small>
