@@ -89,6 +89,6 @@ Each section is in alphabetical order.
 	* [Vietnam](https://aops.com/community/c3442)
 + International contests:
 	* [European Girls Math Olympiad](https://www.egmo.org/egmos/)
-	* [IMO Shortlist](http://imo-official.org/problems.aspx).
+	* [IMO Shortlist](http://imo-official.org/problems.aspx)
 	* [Romania Masters in Mathematics](http://rmms.lbi.ro/)
 	* [Sharygin](http://www.aops.com/community/c3372_sharygin_geometry_olympiad)
