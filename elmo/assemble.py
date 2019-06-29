@@ -3,11 +3,11 @@ import heapq
 
 # Script constants
 BASE = r"http://web.evanchen.cc/elmo/"
-# BASE = r"file:///home/evan/Documents/www/elmo/"
-YEAR_PREV = 2018
-YEAR_NEXT = 2019
-YEARS = [2012, 2013, 2014, 2015, 2016, 2017, 2018]
-PREV_URL = "https://artofproblemsolving.com/community/c5h1648573_20th_elmo_2018"
+# BASE = r"file:///home/evan/Dropbox/Documents/www/elmo/"
+YEAR_PREV = 2019
+YEAR_NEXT = 2020
+YEARS = [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+PREV_URL = "https://aops.com/community/c5h1838663s1_21st_elmo_2019"
 NEXT_URL = "https://nyan.cat"
 
 # Create header {{{1
@@ -31,7 +31,7 @@ with open("static/sidebar.html") as f:
 	HEADER += ''.join(f.readlines())
 
 with open("index.html", "w") as f:
-	print >>f, index_html
+	print(index_html, file=f)
 
 # }}}
 
@@ -70,7 +70,7 @@ class ELMOCountry:
 			return sum([student.score for student in self.students]) / float(len(self.students))
 	@property
 	def scores(self): return [sum([s.scores[i] for s in self.students])\
-			for i in xrange(self.year.num_problems)]
+			for i in range(self.year.num_problems)]
 	@property
 	def awards(self):
 		sorted_students = sorted(self.students, key = lambda s : s.rank)
@@ -88,7 +88,7 @@ class ELMOYear:
 	def __init__(self, **kwargs):
 		for key in kwargs: setattr(self, key, kwargs[key])
 		self.countries = []
-		if not kwargs.has_key("num_problems"):
+		if "num_problems" not in kwargs:
 			self.num_problems = 6
 		self.problem_headers = ''.join([\
 				"<th>P{}</th>".format(i) for i in range(1,self.num_problems+1)]) 
@@ -125,7 +125,7 @@ def inplace_rank(students):
 		if student.score != prev: rank, prev = i+1, student.score # tiebreaking
 		student.rank = rank # give ranks
 		# award medals
-		for medal_type, medal_cutoff in year.cutoffs.iteritems():
+		for medal_type, medal_cutoff in year.cutoffs.items():
 			if student.score >= medal_cutoff:
 				student.medal = medal_type
 				break
@@ -136,7 +136,7 @@ def inplace_rank(students):
 for year_num in YEARS:
 	filename = "internal/{}.yaml".format(year_num)
 	with open(filename, 'r') as f:
-		data = list(yaml.load_all(f))
+		data = list(yaml.load_all(f, Loader=yaml.FullLoader))
 	country_dicts = data[1:] # all the docs after first have students
 	year = ELMOYear(**data[0]) # create a year with properties
 	year.year_num = year_num # year_num will always be an int
@@ -191,37 +191,37 @@ page_start = r'''
 <tbody>'''
 
 with open("timeline/index.html", "w") as f:
-	print >>f, HEADER
-	print >>f, page_start.format(title="Timeline", howsort="[[0,-1]]",
-		row=r'<thead><tr><th>#</th><th>Year</th><th>Contest</th><th>Dates</th></thead>')
+	print(HEADER, file=f)
+	print(page_start.format(title="Timeline", howsort="[[0,-1]]",
+		row=r'<thead><tr><th>#</th><th>Year</th><th>Contest</th><th>Dates</th></thead>'), file=f)
 	for year in ELMO:
 		row = r'<tr><td>{y.num}</td><td>{y.pyear}</td><td>{y.pname}</td><td>{y.dates}</td></tr>'
-		print >>f, row.format(y=year)
-	print >>f, "</tbody></table>"
-	print >>f, FOOTER
+		print(row.format(y=year), file=f)
+	print("</tbody></table>", file=f)
+	print(FOOTER, file=f)
 
 with open("countries/index.html", "w") as f:
-	print >>f, HEADER
-	print >>f, page_start.format(title="Countries", howsort="[[0,-1]]",
-		row=r'<thead><tr><th>Year</th><th>Country</th><th>Leaders</th><th>Rank</th><th>Awards</th></thead>')
+	print(HEADER, file=f)
+	print(page_start.format(title="Countries", howsort="[[0,-1]]",
+		row=r'<thead><tr><th>Year</th><th>Country</th><th>Leaders</th><th>Rank</th><th>Awards</th></thead>'), file=f)
 	for year in ELMO:
 		for country in year.countries:
 			row = r'<tr><td>{c.year.pyear}</td><td>{c.pname}</td><td>{c.leaders}</td><td>{c.rank}</td><td>{c.awards}</td></tr>'
-			print >>f, row.format(c=country)
-	print >>f, "</tbody></table>"
-	print >>f, FOOTER
+			print(row.format(c=country), file=f)
+	print("</tbody></table>", file=f)
+	print(FOOTER, file=f)
 
 with open("results/index.html", "w") as f:
-	print >>f, HEADER
-	print >>f, page_start.format(title="Results", howsort="[[0,1]]",
-		row=r'<thead><tr><th>Year</th><th>Country</th><th>Name</th><th>Rank</th><th>Award</th></thead>')
+	print(HEADER, file=f)
+	print(page_start.format(title="Results", howsort="[[0,1]]",
+		row=r'<thead><tr><th>Year</th><th>Country</th><th>Name</th><th>Rank</th><th>Award</th></thead>'), file=f)
 	for year in ELMO:
 		for student in year.students:
 			if student.name == "": continue
 			row = r'<tr><td>{s.year.pyear}</td><td>{s.pcode}</td><td>{s.name}</td><td>{s.rank}</td><td>{s.medal}</td></tr>'
-			print >>f, row.format(s = student)
-	print >>f, "</tbody></table>"
-	print >>f, FOOTER
+			print(row.format(s = student), file=f)
+	print("</tbody></table>", file=f)
+	print(FOOTER, file=f)
 #}}}
 
 # Per-year page {{{1
@@ -246,139 +246,139 @@ for year in ELMO:
 
 
 	with open(year.url, "w") as f:
-		print >>f, HEADER
-		print >>f, result_header
+		print(HEADER, file=f)
+		print(result_header, file=f)
 
 		top_country = year.countries[0]
 		top_score = year.students[0].score
 		top_students = ', '.join([link(s.country, s.name) \
 				for s in year.students if s.score == top_score])
-		print >>f, r'<h4>Top Team: {c.pname} ({c.pcode})</h4>'.format(c = top_country)
-		print >>f, r'<h4>Top Contestant:  {}</h4>'.format(top_students)
-		print >>f, "<h4>Medal Cutoffs</h4>"
-		print >>f, "<ul>"
-		for medal, thresh in year.cutoffs.iteritems():
-			print >>f, "<li><b>{}</b> points for {}</li>".format(thresh,medal)
-		print >>f, "</ul>"
-		print >>f, "<h4>Data Available</h4>"
-		print >>f, "<ul>"
-		print >>f, "<li>%d Countries</li>" %(len(year.countries))
-		print >>f, "<li>%d Students</li>" %(len(year.students))
-		print >>f, "</ul>"
-		print >>f, r'<h4><a href="problems.html#n{}">Problems and Solutions</a></h4>'.format(year.year_num)
-		print >>f, FOOTER
+		print(r'<h4>Top Team: {c.pname} ({c.pcode})</h4>'.format(c = top_country), file=f)
+		print(r'<h4>Top Contestant:  {}</h4>'.format(top_students), file=f)
+		print("<h4>Medal Cutoffs</h4>", file=f)
+		print("<ul>", file=f)
+		for medal, thresh in year.cutoffs.items():
+			print("<li><b>{}</b> points for {}</li>".format(thresh,medal), file=f)
+		print("</ul>", file=f)
+		print("<h4>Data Available</h4>", file=f)
+		print("<ul>", file=f)
+		print("<li>%d Countries</li>" %(len(year.countries)), file=f)
+		print("<li>%d Students</li>" %(len(year.students)), file=f)
+		print("</ul>", file=f)
+		print(r'<h4><a href="problems.html#n{}">Problems and Solutions</a></h4>'.format(year.year_num), file=f)
+		print(FOOTER, file=f)
 
 	jquery_script = lambda n,k : \
 			r'<script>' + \
 			r'$(function() { $("#table_main").tablesorter({sortList: [[%d,%d]]}); } );' %(n,k) + \
 			r'</script>'
 	with open("results/{}_countries.html".format(year.year_num), "w") as f:
-		print >>f, HEADER
-		print >>f, result_header
-		print >>f, jquery_script(3 + year.num_problems, 0) # Ascending by rank
-		print >>f, r'<table id="table_main" class="tablesorter">'
-		print >>f, "<thead><tr><th>Country</th>" \
-				+ year.problem_headers
+		print(HEADER, file=f)
+		print(result_header, file=f)
+		print(jquery_script(3 + year.num_problems, 0), file=f) # Ascending by rank
+		print(r'<table id="table_main" class="tablesorter">', file=f)
+		print("<thead><tr><th>Country</th>" \
+				+ year.problem_headers, file=f)
 		if year.year_num == 2018:
-			print >>f, "<th>Total</th><th>Top 4 Avg</th><th>Rank</th><th>Award</th></tr></thead>"
+			print("<th>Total</th><th>Top 4 Avg</th><th>Rank</th><th>Award</th></tr></thead>", file=f)
 		elif year.year_num == 2017:
-			print >>f, "<th>Total</th><th>Top 3 Avg</th><th>Rank</th><th>Award</th></tr></thead>"
+			print("<th>Total</th><th>Top 3 Avg</th><th>Rank</th><th>Award</th></tr></thead>", file=f)
 		else:
-			print >>f, "<th>Total</th><th>Team Avg</th><th>Rank</th><th>Award</th></tr></thead>"
-		print >>f, "<tbody>"
+			print("<th>Total</th><th>Team Avg</th><th>Rank</th><th>Award</th></tr></thead>", file=f)
+		print("<tbody>", file=f)
 		for country in year.countries:
-			print >>f, r'<tr><td>{c.pname}</td>'.format(c=country)
-			print >>f, ''.join(["<td>{}</td>".format(country.scores[i]) for i in range(year.num_problems)]),
-			print >>f, "<td>{c.total}</td><td>{c.sweeps:.2f}</td><td>{c.rank}</td><td>{c.awards}</td>".format(c=country)
-			print >>f, "</tr>",
-		print >>f, "</tbody></table>"
-		print >>f, FOOTER
+			print(r'<tr><td>{c.pname}</td>'.format(c=country), file=f)
+			print(''.join(["<td>{}</td>".format(country.scores[i]) for i in range(year.num_problems)]), end=' ', file=f)
+			print("<td>{c.total}</td><td>{c.sweeps:.2f}</td><td>{c.rank}</td><td>{c.awards}</td>".format(c=country), file=f)
+			print("</tr>", end=' ', file=f)
+		print("</tbody></table>", file=f)
+		print(FOOTER, file=f)
 	with open("results/{}_indvs.html".format(year.year_num), "w") as f:
-		print >>f, HEADER
-		print >>f, result_header
-		print >>f, jquery_script(3 + year.num_problems, 0) # Ascending by rank
-		print >>f, r'<table id="table_main" class="tablesorter">'
-		print >>f, "<thead><tr><th>Contestant</th><th>Name</th>" \
+		print(HEADER, file=f)
+		print(result_header, file=f)
+		print(jquery_script(3 + year.num_problems, 0), file=f) # Ascending by rank
+		print(r'<table id="table_main" class="tablesorter">', file=f)
+		print("<thead><tr><th>Contestant</th><th>Name</th>" \
 				+ year.problem_headers \
-				+ "<th>Total</th><th>Rank</th><th>Award</th></tr></thead>"
-		print >>f, "<tbody>"
+				+ "<th>Total</th><th>Rank</th><th>Award</th></tr></thead>", file=f)
+		print("<tbody>", file=f)
 		for student in year.students:
-			print >>f, "<tr><td>{s.pcode}</td><td>{s.name}</td>".format(s=student),
-			print >>f, ''.join(["<td>%s</td>" %(student.scores[i]) for i in range(year.num_problems)]),
-			print >>f, "<td>{s.score}</td><td>{s.rank}</td><td>{s.medal}</td></tr>".format(s=student)
-		print >>f, "</tbody>"
-		print >>f, "</table>"
-		print >>f, FOOTER
+			print("<tr><td>{s.pcode}</td><td>{s.name}</td>".format(s=student), end=' ', file=f)
+			print(''.join(["<td>%s</td>" %(student.scores[i]) for i in range(year.num_problems)]), end=' ', file=f)
+			print("<td>{s.score}</td><td>{s.rank}</td><td>{s.medal}</td></tr>".format(s=student), file=f)
+		print("</tbody>", file=f)
+		print("</table>", file=f)
+		print(FOOTER, file=f)
 	if year.has_aops:
 		with open("results/{}_guest.html".format(year.year_num), "w") as f:
-			print >>f, HEADER
-			print >>f, result_header
-			print >>f, jquery_script(1 + year.num_problems, 1) # Descending by Score
-			print >>f, r'<table id="table_main" class="tablesorter">'
-			print >>f, "<thead><tr><th>Name</th>" \
+			print(HEADER, file=f)
+			print(result_header, file=f)
+			print(jquery_script(1 + year.num_problems, 1), file=f) # Descending by Score
+			print(r'<table id="table_main" class="tablesorter">', file=f)
+			print("<thead><tr><th>Name</th>" \
 					+ year.problem_headers \
-					+ "<th>Total</th><th>Award</th></tr></thead>"
-			print >>f, "<tbody>"
+					+ "<th>Total</th><th>Award</th></tr></thead>", file=f)
+			print("<tbody>", file=f)
 			for student in year.aopsers:
-				print >>f, "<tr><td>{s.name}</td>".format(s=student),
-				print >>f, ''.join(["<td>%s</td>" %(student.scores[i]) for i in range(year.num_problems)]),
-				print >>f, "<td>{s.score}</td><td>{s.medal}</td></tr>".format(s=student)
-			print >>f, "</tbody>"
-			print >>f, "<tfoot>"
+				print("<tr><td>{s.name}</td>".format(s=student), end=' ', file=f)
+				print(''.join(["<td>%s</td>" %(student.scores[i]) for i in range(year.num_problems)]), end=' ', file=f)
+				print("<td>{s.score}</td><td>{s.medal}</td></tr>".format(s=student), file=f)
+			print("</tbody>", file=f)
+			print("<tfoot>", file=f)
 			# Compute average
-			print >>f, "<tr>"
-			print >>f, "<td><b>Average</b></td>"
-			for i in xrange(year.num_problems):
-				print >>f, "<td><b>{:.2f}</b></td>".format(\
-						stat_avg([student.scores[i] for student in year.aopsers]))
-			print >>f, "<td><b>{:.2f}</b></td>".format(\
-					stat_avg([student.score for student in year.aopsers]))
-			print >>f, "<td></td>"
-			print >>f, "</tr>"
-			print >>f, "</tfoot>"
-			print >>f, "</table>"
-			print >>f, FOOTER
+			print("<tr>", file=f)
+			print("<td><b>Average</b></td>", file=f)
+			for i in range(year.num_problems):
+				print("<td><b>{:.2f}</b></td>".format(\
+						stat_avg([student.scores[i] for student in year.aopsers])), file=f)
+			print("<td><b>{:.2f}</b></td>".format(\
+					stat_avg([student.score for student in year.aopsers])), file=f)
+			print("<td></td>", file=f)
+			print("</tr>", file=f)
+			print("</tfoot>", file=f)
+			print("</table>", file=f)
+			print(FOOTER, file=f)
 	with open("results/{}_stats.html".format(year.year_num), "w") as f:
-		print >>f, HEADER
-		print >>f, result_header
+		print(HEADER, file=f)
+		print(result_header, file=f)
 
-		print >>f, r'<table id="table_main" class="tablesorter">'
-		print >>f, "<thead><tr><th>Problem</th>" \
+		print(r'<table id="table_main" class="tablesorter">', file=f)
+		print("<thead><tr><th>Problem</th>" \
 				+ year.problem_headers \
-				+ "</tr></thead>"
-		print >>f, "<tbody>"
-		for score in xrange(0,8): # for each in 0 to 7
-			print >>f, "<tr><td>Score = {}</td>".format(score)
-			for i in xrange(year.num_problems):
-				print >>f, "<td>{}</td>".format(year.get_problem_scores(i).count(score))
-			print >>f, "</tr>"
+				+ "</tr></thead>", file=f)
+		print("<tbody>", file=f)
+		for score in range(0,8): # for each in 0 to 7
+			print("<tr><td>Score = {}</td>".format(score), file=f)
+			for i in range(year.num_problems):
+				print("<td>{}</td>".format(year.get_problem_scores(i).count(score)), file=f)
+			print("</tr>", file=f)
 		# Compute average
-		print >>f, "<tr>"
-		print >>f, "<td><b>Average</b></td>"
-		for i in xrange(year.num_problems):
-			print >>f, "<td><b>{:.2f}</b></td>".format(stat_avg(year.get_problem_scores(i)))
-		print >>f, "</tr>"
+		print("<tr>", file=f)
+		print("<td><b>Average</b></td>", file=f)
+		for i in range(year.num_problems):
+			print("<td><b>{:.2f}</b></td>".format(stat_avg(year.get_problem_scores(i))), file=f)
+		print("</tr>", file=f)
 		# Compute standard deviation
-		print >>f, "<tr>"
-		print >>f, "<td><b>StdDev</b></td>"
-		for i in xrange(year.num_problems):
-			print >>f, "<td><b>{:.2f}</b></td>".format(stat_stddev(year.get_problem_scores(i)))
-		print >>f, "</tr>"
-		print >>f, "</tbody>"
-		print >>f, "</table>"
+		print("<tr>", file=f)
+		print("<td><b>StdDev</b></td>", file=f)
+		for i in range(year.num_problems):
+			print("<td><b>{:.2f}</b></td>".format(stat_stddev(year.get_problem_scores(i))), file=f)
+		print("</tr>", file=f)
+		print("</tbody>", file=f)
+		print("</table>", file=f)
 
 		N = len(year.students)
-		print >>f, "<h4>Overall Statistics</h4>"
-		print >>f, "<ul>"
-		print >>f, "<li><b>{:.2f}</b> was the average score</li>".format(\
-				stat_avg([student.score for student in year.students]))
-		print >>f, "<li><b>{}</b> was the median score</li>".format(year.students[N/2].score)
-		for medal, thresh in year.cutoffs.iteritems():
-			print >>f, "<li><b>{}</b> points for {}</li>".format(thresh,medal)
-		print >>f, "</ul>"
+		print("<h4>Overall Statistics</h4>", file=f)
+		print("<ul>", file=f)
+		print("<li><b>{:.2f}</b> was the average score</li>".format(\
+				stat_avg([student.score for student in year.students])), file=f)
+		print("<li><b>{}</b> was the median score</li>".format(year.students[int(N/2)].score), file=f)
+		for medal, thresh in year.cutoffs.items():
+			print("<li><b>{}</b> points for {}</li>".format(thresh,medal), file=f)
+		print("</ul>", file=f)
 
 
-		print >>f, FOOTER
+		print(FOOTER, file=f)
 
 #}}}
 
@@ -386,56 +386,56 @@ for year in ELMO:
 for year in ELMO:
 	for country in year.countries:
 		with open(country.url, "w") as f:
-			print >>f, HEADER
-			print >>f, r'<div id="main">'
-			print >>f, r'<h2>{c.code} at <a href="results/{c.year.year_num}_countries.html" class="highlight">ELMO {c.year.year_num}</a></h2>'.format(c=country)
-			print >>f, "<h3>" + country.name + "</h3>"
-			print >>f, "<h4>Leaders: " + country.leaders + "</h4>"
-			print >>f, r'<script>$(function() { $("#table_main").tablesorter({sortList: [[0,0]]}); } ); </script>'
-			print >>f, '<table id="table_main" class="tablesorter">'
-			print >>f, "<thead><tr><th>Contestant</th><th>Name</th>" \
+			print(HEADER, file=f)
+			print(r'<div id="main">', file=f)
+			print(r'<h2>{c.code} at <a href="results/{c.year.year_num}_countries.html" class="highlight">ELMO {c.year.year_num}</a></h2>'.format(c=country), file=f)
+			print("<h3>" + country.name + "</h3>", file=f)
+			print("<h4>Leaders: " + country.leaders + "</h4>", file=f)
+			print(r'<script>$(function() { $("#table_main").tablesorter({sortList: [[0,0]]}); } ); </script>', file=f)
+			print('<table id="table_main" class="tablesorter">', file=f)
+			print("<thead><tr><th>Contestant</th><th>Name</th>" \
 					+ year.problem_headers \
-					+ "<th>Total</th><th>Rank</th><th>Award</th></tr></thead>"
-			print >>f, "<tbody>"
+					+ "<th>Total</th><th>Rank</th><th>Award</th></tr></thead>", file=f)
+			print("<tbody>", file=f)
 			for student in country.students:
-				print >>f, "<tr>",
-				print >>f, "<td>{s.code}</td><td>{s.name}</td>".format(s=student)
-				print >>f, ''.join(["<td>%s</td>" %(student.scores[i]) for i in range(year.num_problems)]),
-				print >>f, "<td>{s.score}</td><td>{s.rank}</td><td>{s.medal}</td>".format(s=student)
-				print >>f, "</tr>"
-			print >>f, "</tbody>"
-			print >>f, "<tfoot>"
-			print >>f, r'<tr><td colspan="2"><b>Team Results</b></td>'
-			print >>f, ''.join(["<td><b>%2d</b></td>" %country.scores[i] for i in xrange(year.num_problems)]),
-			print >>f, "<td><b>%2d</b></td>" %country.total,
-			print >>f, "<td><b>%s</b></td>" %country.rank,
-			print >>f, "<td><b>%s</b></td>" %country.awards,
-			print >>f, "</tr>"
-			print >>f, "</table>"
-			print >>f, FOOTER
+				print("<tr>", end=' ', file=f)
+				print("<td>{s.code}</td><td>{s.name}</td>".format(s=student), file=f)
+				print(''.join(["<td>%s</td>" %(student.scores[i]) for i in range(year.num_problems)]), end=' ', file=f)
+				print("<td>{s.score}</td><td>{s.rank}</td><td>{s.medal}</td>".format(s=student), file=f)
+				print("</tr>", file=f)
+			print("</tbody>", file=f)
+			print("<tfoot>", file=f)
+			print(r'<tr><td colspan="2"><b>Team Results</b></td>', file=f)
+			print(''.join(["<td><b>%2d</b></td>" %country.scores[i] for i in range(year.num_problems)]), end=' ', file=f)
+			print("<td><b>%2d</b></td>" %country.total, end=' ', file=f)
+			print("<td><b>%s</b></td>" %country.rank, end=' ', file=f)
+			print("<td><b>%s</b></td>" %country.awards, end=' ', file=f)
+			print("</tr>", file=f)
+			print("</table>", file=f)
+			print(FOOTER, file=f)
 # }}}
 
 # Problems page {{{
 with open("problems.html", "w") as f, open("internal/prob_links.yaml") as source:
-	print >>f, HEADER
-	print >>f, r'<div id="main">'
-	prob_data = reversed(sorted(yaml.load(source).iteritems()))
+	print(HEADER, file=f)
+	print(r'<div id="main">', file=f)
+	prob_data = reversed(sorted(yaml.load(source, Loader=yaml.FullLoader).items()))
 	for year, d in prob_data:
-		print >>f, "<h5>ELMO {}</h5>".format(year)
-		print >>f, "<ul>"
-		for k,v in sorted(d.iteritems()):
-			print >>f, r'<li><a href="{}">{}</a></li>'.format(v,k)
-		print >>f, "</ul>"
-	print >>f, FOOTER
+		print("<h5>ELMO {}</h5>".format(year), file=f)
+		print("<ul>", file=f)
+		for k,v in sorted(d.items()):
+			print(r'<li><a href="{}">{}</a></li>'.format(v,k), file=f)
+		print("</ul>", file=f)
+	print(FOOTER, file=f)
 # }}}
 
 # General info page {{{
 with open("general.html", "w") as f, open("static/general_info.html") as payload:
-	print >>f, HEADER
-	print >>f, "<!-- DO NOT EDIT THIS PAGE -->"
-	print >>f, r'<div id="main">'
-	print >>f, ''.join(payload.readlines())
-	print >>f, FOOTER
+	print(HEADER, file=f)
+	print("<!-- DO NOT EDIT THIS PAGE -->", file=f)
+	print(r'<div id="main">', file=f)
+	print(''.join(payload.readlines()), file=f)
+	print(FOOTER, file=f)
 # }}}
 
 # vim:foldmethod=marker
