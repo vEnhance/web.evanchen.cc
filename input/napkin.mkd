@@ -27,9 +27,11 @@ with several chapters scheduled but not yet written.
 In addition, many chapters still lack problems or solutions.
 
 See link above for the most recent draft,
-and [here for an listing of all drafts][wp].
+and [here for an listing periodic snapshots][wp].
 You can also view the
-[source code on GitHub](https://github.com/vEnhance/napkin/).
+[source code on GitHub](https://github.com/vEnhance/napkin/);
+the most recent version is
+[automatically compiled from that source](https://venhance.github.io/napkin).
 
 I would very highly appreciate any corrections, suggestions, or comments.
 
@@ -142,5 +144,5 @@ This project has evolved to more than just forty hours.
 85. Forcing
 86. Breaking the continuum hypothesis
 
-[recent]: https://usamo.files.wordpress.com/2019/02/napkin-v15-20190220.pdf
+[recent]: https://venhance.github.io/napkin/Napkin.pdf
 [wp]: https://usamo.wordpress.com/napkin/
