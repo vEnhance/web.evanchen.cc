@@ -15,6 +15,7 @@ Please notify me of any broken links, suggestions, etc. by email.
 An abridged version of this page for olympiad students
 can be found [here](wherestart.html).
 
+
 ### Undergraduate Math and Computer Science
 * [MSci Category Theory notes](https://arxiv.org/abs/1612.09375) by Tom Leinster.
   I highly enjoyed these notes; very carefully written and explains intuition.
@@ -39,6 +40,9 @@ can be found [here](wherestart.html).
 Of course, see also [Napkin](napkin.html).
 
 ### Olympiad Resources
+
+See also [Geoff Smith's page](http://people.bath.ac.uk/masgcs/advice.html).
+
 #### Handouts
 
 * [My own handouts](olympiad.html) (sorry, couldn't resist linking them again).
@@ -61,7 +65,7 @@ Of course, see also [Napkin](napkin.html).
 * My own: [olympiad geometry book EGMO](geombook.html)
   and [OTIS Excerpts](excerpts.html) for non-geometry.
 
-* [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134).
+* [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134). The individual chapters are located in posts #1, #11, #49.
 
 * [Olympiad NT through Challenging Problems](http://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
   is an introductory olympiad number theory text,
