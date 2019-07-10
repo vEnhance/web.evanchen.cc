@@ -122,7 +122,7 @@ If you find another one, please let me know by email.
   change $O\_1O\_3$ to $\overline{O\_2O\_3}$.
 + On **page 35**, in the second set of aligned equations,
   change $O\_2X^2$ to $OO\_2^2$.
-+ On **page 37**, Example 2.23, change 2010 to 2011 in the source.
++ On **page 39**, Example 2.24, $I$ is the incenter.
 + On **page 40**, Problem 2.29, change "six points" to "the six points".
 + On **page 40**, Problem 2.30, the lines may also be pairwise parallel.
 + On **page 48**, Theorem 3.8, the lines may also be pairwise parallel.
