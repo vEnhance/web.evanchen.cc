@@ -17,6 +17,12 @@ can be found [here](wherestart.html).
 
 
 ### Undergraduate Math and Computer Science
+
+If you check **Appendix A of [Napkin](napkin.html)**,
+you can find listings of lecture notes or textbooks
+that I like for most undergraduate (or early graduate) topics.
+Here are some additional links.
+
 * [MSci Category Theory notes](https://arxiv.org/abs/1612.09375) by Tom Leinster.
   I highly enjoyed these notes; very carefully written and explains intuition.
   Some minimal knowledge of group theory and linear algebra is used in the examples.
@@ -36,8 +42,6 @@ can be found [here](wherestart.html).
   Also, beautifully drawn figures.
 
 * [Harvard's CS 125: Algorithms and Complexity](http://people.seas.harvard.edu/~cs125/) has delightful lecture and section notes.
-
-Of course, see also [Napkin](napkin.html).
 
 ### Olympiad Resources
 
