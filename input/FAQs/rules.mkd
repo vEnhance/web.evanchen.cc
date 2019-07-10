@@ -21,7 +21,7 @@ see [Contest FAQ's](FAQs/contest.html).
 
 ### How is the USA IMO team determined?
 
-Starting in 2011 and as of 2016, the IMO selection procedure is as follows.
+Starting in 2011 and as of 2019, the IMO selection procedure is as follows.
 
 In the USA the main olympiad event is the USA(J)MO held in April each year.
 Roughly 250 students qualify for the USAMO and 250 students qualify for the USA(J)MO
@@ -29,17 +29,22 @@ via scores on previous short-answer contests.
 Then things get interesting:
 
 * In USAMO of year $N-1$, about 60 students in grades 11 and below,
-  as well as the IMO team and alternate of that year,
+  as well as the IMO team of that year,
   are invited to the three-week Mathematical Olympiad Summer Program,
-  abbreviated MOP (also called MOSP in more official sources).
-* At the end of MOP, an IMO-style exam called the TSTST (yes, I know) is given.
-  The top approximately 18 students are then selected
+  abbreviated **MOP**.
+* At the end of MOP, an IMO-style exam called the **TSTST** (yes, I know) is given.
+  The acronym stands for "Team Selection Test Selection Test".
+  The top approximately 30 students are then selected
   for the year-round TST's for the IMO of year $N$.
-* Two TST's are given in *December* and *January*, administered by schools.
-  Contestants also usually participate in APMO and RMM Day 1 (though this occasionally varies).
-* Finally, the USAMO of year $N$ serves as the final TST.
-  Student's scores over these five tests are added to select the IMO team
-  (usually just the top six sums, but the team leader can pick otherwise.)
+* Two TST's are given in **December** and **January**, administered by schools.
+  Each of the two exams is worth 21 points.
+* Contestants participate in **RMM Day 1**, worth 21 points.
+* Contestants participate in the **APMO**, which is weighted by 0.6;
+  hence it is also worth 21 points (despite being a five-problem exam).
+* Finally, the two days of **USAMO** of year $N$ serves as the final TST,
+  worth 42 points.
+* The sum of scores over these five tests (six days, maximum $126$ points)
+  determine that year's IMO team.
 
 Hence the IMO selection process takes an entire year.
 The IMO team is known shortly after the USAMO grading in May.
