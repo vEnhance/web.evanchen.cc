@@ -132,7 +132,8 @@ If you find another one, please let me know by email.
 + On **page 65**, Problem 4.25, change $\frac{BM}{MC}$ to $\frac{CM}{MB}$.
 + On **page 67**, in Lemma 4.33, change the second $\omega$ to $\Omega$.
 + <span style="color:red;">On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.</span>
-<!-- + On **page 71**, Problem 4.53 is missing a trailing period. -->
++ On **page 68**, just before Problem 4.38, change "show" to "shown".
++ On **page 71**, Problem 4.53 is missing a trailing period.
 + On **page 92**, in Problem 5.23, when defining point $G$,
   line $HE$ should intersect $\Gamma\_1$, not $\Gamma\_2$.
   Also, "interest" should be "intersect" in the first line.
@@ -241,6 +242,7 @@ If you find another one, please let me know by email.
 + On **page 231**, hint 383, "trigonometric" is misspelled.
 + On **page 231**, hint 389, change $L^\ast$ to $A^\ast$.
 + On **page 231**, hint 393, delete "$M=(0:1:1)$" and change the later "$L$" to "$M$".
++ On **page 232**, hint 425, change "reflection" to "reflections".
 + On **page 233**, hint 449, change $A$ to $C$.
 + On **page 235**, hint 544, change "equivalent" to "equivalent to".
 + On **page 238**, hint 649 is wrong (see correction to Solution 6.45 below).
