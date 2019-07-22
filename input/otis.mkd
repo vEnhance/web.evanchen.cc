@@ -81,22 +81,17 @@ I may be able to connect you with someone else.
 Current staff:
 
 * [Evan Chen](http://web.evanchen.cc): Director
-* [Anant Mudgal][anantIMO]: Instructor (OTIS III)
-* [Howard Halim][howardIMO]: Instructor (OTIS III-IV)
-* [Michael Ren][mrenIMO]: Instructor (OTIS I-II)
-* [Zack Chroman][zackIMO]: Instructor (OTIS II-III)
+* [Anant Mudgal][anant]: Instructor (OTIS III)
+* [Howard Halim][howard]: Instructor (OTIS III-IV)
+* [Michael Ren][mren]: Instructor (OTIS I-II)
+* [Zack Chroman][zack]: Instructor (OTIS II-III)
 * [CJ Quines](http://cjquines.com/): Grader
 
 Past organizers:
 
-* [Ankan Bhattacharya][ankanIMO]: Instructor
+* [Ankan Bhattacharya][ankan]: Instructor
 
 ### History
-
-Photo of OTIS at IMO 2018:
-
-<img src="static/otis-imo-2018.png" width="400" />
-
 I started teaching in 2015 when a group of parents
 from Phillips Andover Academy emailed me in early April,
 asking if I'd be interested in coaching a group of five contestants.
@@ -121,26 +116,38 @@ and I think they would likely have done well even without me.
 But *sensei* is still super proud of his kids even
 though he didn't do that much.
 
-+ Anant Mudgal: [IMO 2018][anantIMO]
-+ Annie Siye Zhu: [EGMO 2017][szhuEGMO]
-+ Colin Tang: [RMM 2018][rmm18]
-+ Edward Wan: [USAMO 2018][usamo18], [IMO 2018][edwanIMO]
-+ Howard Halim: [IMO 2018][howardIMO]
-+ Michael Ren: [RMM 2017][rmm17], [USAMO 2017][usamo17], [USAMO 2018][usamo18], [IMO 2018][mrenIMO]
-+ Zack Chroman: [RMM 2017][rmm17], [USAMO 2017][usamo17], [IMO 2017][zackIMO]
++ USAMO [2017][usamo17] winners: Zack Chroman, Michael Ren
++ USAMO [2018][usamo18] winners: Michael Ren, Guanpeng Xu, Edward Wan
++ USAMO [2019][usamo19] winners: Vincent Bian, Colin Tang, Guanpeng Xu, Edward Wan
++ IMO 2017: [Zack Chroman][zack]
++ IMO 2018: [Howard Halim][howard], [Anant Mudgal][anant], [Michael Ren][mren], [Edward Wan][edwan2018]
++ IMO 2019: [Howard Halim][howard], [Sebastian Jeon][sebastian], [Harun Khan][harun], [Daniel Sheremeta][danielsh], [Pranjal Srivastava][pranjal], [Colin Tang][colin], [Edward Wan][edwan]
 
-[rmm17]: http://rmms.lbi.ro/rmm2017/index.php?id=results_math
+### Photos
+
+
+<img src="static/otis-imo-2018.png" width="400" />
+<img src="static/otis-imo-2019.jpg" width="400" />
+
+
+[ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
+[anant]: https://www.imo-official.org/participant_r.aspx?id=25764
+[colin]: https://www.imo-official.org/participant_r.aspx?id=29328
+[danielsh]: https://www.imo-official.org/participant_r.aspx?id=29226
+[edwan2018]: https://www.imo-official.org/participant_r.aspx?id=28236
+[edwan]: https://www.imo-official.org/participant_r.aspx?id=29323
+[harun]: https://www.imo-official.org/participant_r.aspx?id=29032
+[howard]: https://www.imo-official.org/participant_r.aspx?id=28475
+[mren]:  https://www.imo-official.org/participant_r.aspx?id=28394
+[pranjal]: https://www.imo-official.org/participant_r.aspx?id=29101
+[sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
+[zack]:  https://www.imo-official.org/participant_r.aspx?id=27374
+
+[anna]: https://www.egmo.org/people/person1154/
+[annie]: https://www.egmo.org/people/person1022/
+
 [usamo17]: http://www.maa.org/sites/default/files/HonorableMentions2017.pdf
-[rmm18]: http://rmms.lbi.ro/rmm2018/index.php?id=results_math
 [usamo18]: http://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
-
-[ankanIMO]: https://www.imo-official.org/participant_r.aspx?id=26643
-[anantIMO]: https://www.imo-official.org/participant_r.aspx?id=25764
-[edwanIMO]: https://www.imo-official.org/participant_r.aspx?id=28236
-[howardIMO]: https://www.imo-official.org/participant_r.aspx?id=28475
-[mrenIMO]:  https://www.imo-official.org/participant_r.aspx?id=28394
-[zackIMO]:  https://www.imo-official.org/participant_r.aspx?id=27374
-
-[szhuEGMO]: https://www.egmo.org/people/person1022/
+[usamo19]: https://www.maa.org/sites/default/files/pdf/usamo/2019%20USAMO%20Winners.pdf
 
 [gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
