@@ -21,7 +21,10 @@ because I would often think about math in passing
 It's harder to quantify how much or how effective this kind of time is
 but [the "shower" time certainly seems quite important][shower].
 
-(EDIT: used to say 20-30 hours, this seems too high now.)
+But seriously, don't count hours spent, it's not a helpful metric.
+Even "number of problems attempted" would be a better metric
+(provided they are at the right difficulty),
+although I think that this number is pretty uninformative as well.
 
 <br>
 
