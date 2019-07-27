@@ -97,8 +97,10 @@ If you find another one, please let me know by email.
 <small>
 
 + On **page xi**, append a comma after "lectures at MOP".
++ On **page xiii**, change "explain how it comes from" to "explain where it comes from".
 + On **page xiv**, second bullet, the phrase "intersection the medians" is missing "of".
 + On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
++ On **page 10**, change $(LBC)$ to $(IBC)$ in the paragraph starting "Because $LB=LI=LC$".
 + On **page 12**, Proposition 1.24, the isosceles triangle condition holds only when $A$, $B$, $C$ are not collinear.
 + On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCB=90^{\circ}$".
 + On **page 18**, in problem 1.37, delete the word "again" in the definition of $Q$.
@@ -245,6 +247,7 @@ If you find another one, please let me know by email.
 + On **page 232**, hint 425, change "reflection" to "reflections".
 + On **page 233**, hint 449, change $A$ to $C$.
 + On **page 235**, hint 544, change "equivalent" to "equivalent to".
++ On **page 235**, hint 554, change the similarity to $\triangle AOD \sim \triangle CO\_1D$.
 + On **page 238**, hint 649 is wrong (see correction to Solution 6.45 below).
 + On **page 238**, hint 653 is missing a period.
 + On **page 238**, hint 666, change $\frac{XB}{XA}$ to $\frac{XA}{XB}$.
