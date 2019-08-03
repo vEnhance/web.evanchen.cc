@@ -5,6 +5,8 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 ---
 
+> *信言不美，美言不信。*
+
 This is the homepage of Evan Chen
 (known also as vEnhance on certain websites).
 
