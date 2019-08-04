@@ -120,7 +120,7 @@ though he didn't do that much.
 + USAMO [2018][usamo18] winners: Michael Ren, Guanpeng Xu, Edward Wan
 + USAMO [2019][usamo19] winners: Vincent Bian, Colin Tang, Guanpeng Xu, Edward Wan
 + IMO 2017: [Zack Chroman][zack]
-+ IMO 2018: [Howard Halim][howard], [Anant Mudgal][anant], [Michael Ren][mren], [Edward Wan][edwan]
++ IMO 2018: [Sualeh Asif][asif], [Howard Halim][howard], [Anant Mudgal][anant], [Michael Ren][mren], [Edward Wan][edwan]
 + IMO 2019: [Howard Halim][howard], [Sebastian Jeon][sebastian], [Harun Khan][harun], [Daniel Sheremeta][danielsh], [Pranjal Srivastava][pranjal], [Colin Tang][colin], [Edward Wan][edwan]
 
 ### Photos
@@ -130,6 +130,7 @@ though he didn't do that much.
 <img src="static/otis-imo-2019.jpg" width="400" />
 
 
+[asif]: https://www.imo-official.org/participant_r.aspx?id=26436
 [ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
 [anant]: https://www.imo-official.org/participant_r.aspx?id=25764
 [colin]: https://www.imo-official.org/participant_r.aspx?id=29328
