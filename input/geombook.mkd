@@ -109,6 +109,7 @@ If you find another one, please let me know by email.
 + On **page 20**, in problem 1.47, change "Let $ABC$ be triangle" to "Let $ABC$ be a triangle".
 + On **page 24**, in Problem 2.2, change $\measuredangle BCA = \measuredangle YZX$
   to $\measuredangle ABC = \measuredangle XYZ$.
++ On **page 28**, change "immediately corollary" to "immediate corollary".
 + On **page 29**, in Theorem 2.9, excise "of Intersecting Circles" from the theorem name.
 + On **page 29**, in proof of Theorem 2.9, change both $>0$'s to $<0$'s.
 + On **page 30**, bottom of page, "coaxal" should be "coaxial".
