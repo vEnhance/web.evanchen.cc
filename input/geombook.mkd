@@ -101,6 +101,7 @@ If you find another one, please let me know by email.
 + On **page xiv**, second bullet, the phrase "intersection the medians" is missing "of".
 + On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
 + On **page 10**, change $(LBC)$ to $(IBC)$ in the paragraph starting "Because $LB=LI=LC$".
++ <span style="color:red;">On **page 12**, Theorem 1.22, the four points could also be collinear.</span>
 + On **page 12**, Proposition 1.24, the isosceles triangle condition holds only when $A$, $B$, $C$ are not collinear.
 + On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCB=90^{\circ}$".
 + On **page 18**, in problem 1.37, delete the word "again" in the definition of $Q$.
@@ -190,6 +191,7 @@ If you find another one, please let me know by email.
 + On **page 167**, Problem 8.36, "circumcircle" is misspelled.
 + On **page 171**, Theorem 9.2, change "$\overline{AB}$ and $\overline{XY}$" to "segments $AB$ and $XY$".
 + On **page 173**, in Problem 9.4, add $k \neq 0$.
++ On **page 174**, display in proof of Lemma 9.9, change $(A,B;Q,P)$ to $(A,B;P,Q)$.
 + On **page 174-175**, in names of Lemmas 9.11-9.12,
   change "Induces" to "Induce".
 + On **page 175**, "directed form *of* Ceva's theorem".
@@ -198,8 +200,10 @@ If you find another one, please let me know by email.
 + On **page 178**, in the proof of Theorem 9.19, change $\angle CAY = \angle YBC$ to $\angle ACY = \angle YCB$.
 + On **page 179**, top of page, first sentence, $\ell$ is allowed to pass through $O$.
 + On **page 181**, in Lemma 9.27, change "pole" to "polar" (two instances).
-+ <span style="color:red;">On **page 184**, the last sentence of Theorem 9.33 is wrong as written.
-  The correct statement is: if the *circumcircle* of a cyclic quadrilateral is preserved,
++ <span style="color:red;">On **page 184**, in Theorem 9.33,
+  uniqueness is not true for (b) or (c).
+  The last sentence is also wrong as written.
+  The correct sentence is: if the *circumcircle* of a cyclic quadrilateral is preserved,
   then so is the cross ratio of the cyclic quadrilateral.</span>
 + On **page 184**, in Example 9.34, swap the definitions of $P$, $Q$.
 + On **page 187**, in solution to 9.38, $I\_A$ is the $A$-excenter (of course).
@@ -231,6 +235,7 @@ If you find another one, please let me know by email.
 + On **page 226**, hint 197 is wrong (see correction to Solution 6.45 below).
 + On **page 226**, hint 218, change $AC$ and $BD$ to $AB$ and $XY$.
 + On **page 227**, hint 231, replace $P,C,D$ with $P,A,B$; replace $ABCD$ with $AXBY$.
++ On **page 227**, hint 232, $L$ should be the midpoint of $BC$.
 + On **page 227**, hint 252, replace $O$ with $O^\ast$.
 + On **page 227**, hint 255, replace $C$ with $C^\ast$.
 + On **page 228**, hint 257, change "as do $C$ and $F$" to "as do $B$ and $D$".
@@ -281,6 +286,7 @@ If you find another one, please let me know by email.
 + On **page 277**, in Solution 9.50, change $\overline{CG} \cap \overline{BE}$ to $\overline{CG'} \cap \overline{BE}$.
 + On **page 281**, in Solution 10.26, the last line, change $\measuredangle HMN$ to $\measuredangle HNM$.
 + On **page 282**, in Solution 10.29, change $(P,E;X,Y)$ to $(F,E;X,Y)$ in last paragraph.
++ On **page 288**, in Solution 11.9, last display, change $\frac{KL}{PL}$ to $\frac{PL}{KL}$.
 + On **page 296**, in Solution 11.18, very very end, change $2t$ to $(b^2+c^2)t$.
 + On **page 297**, in Solution 11.18, the first display should read $-a^2v + b^2w + c^2v = (b^2+c^2)t + (abc)^2 - (ab)^2S\_B - a^2t = S\_A ((ab)^2 + 2t)$. The next display should be $X' = \left( a^2vw : S\_A(c^2S\_C+t)((ab)^2+2t) : S\_A(b^2S\_B+t)((ac)^2+2t) \right)$. Similarly for $Y'$ and $Z'$.
 + On **page 297**, in Solution 11.19, start of last paragraph, change $DBC\_1$ to $DB\_1C\_1$.
