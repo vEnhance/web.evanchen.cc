@@ -6,11 +6,12 @@ description: Tabletop, card, video games that I enjoy
 
 ---
 
-Here's a list of games I like.
+Here's a list of games I like, of various forms.
 
 In general, I seem to enjoy more difficult games that
 take a while to really learn well.
-This means the game gets more interesting as you start to get the hang of it.
+This means the game gets more interesting
+as you start to get the hang of it.
 This has the disadvantage that they are not so beginner-friendly;
 not really the kind you can bring to a party with people you don't know.
 
@@ -59,9 +60,15 @@ here are some of the games I like.
 [ninetynine]: https://en.wikipedia.org/wiki/Ninety-nine_(trick-taking_card_game)
 
 
-## Strategy games
+## Strategy and puzzle games
 
-* [**The Battle for Wesnoth**](http://wesnoth.org/) (solo campaign and multiplayer) <br>
+* [**Baba is You**](https://hempuli.itch.io/baba) (logic/puzzle)<br>
+  Cute but mind-blowing puzzle game involving pushing blocks
+  and manipulating rules.
+  Can be absurdly hard at times so best played with friends.
+
+* [**The Battle for Wesnoth**](http://wesnoth.org/)
+  (solo campaign and multiplayer) <br>
   Turn-based strategy game played on a hexagonal grid,
   with extensive single-player campaigns but also allows multiplayer.
   Has a high-fantasy theme: elves, mages, orcs, undead, and so on,
@@ -71,9 +78,11 @@ here are some of the games I like.
 * [**StarCraft II**](https://en.wikipedia.org/wiki/StarCraft_II:_Legacy_of_the_Void)
   (solo campaign and multiplayer) <br>
   Real-time strategy military science-fiction.
-  My battle tag is [vEnhance#1429](https://starcraft2.com/en-us/profile/1/1/3443465);
-  you can also see my [replays](https://sc2replaystats.com/player/2491031).
-  I am a Silver Protoss.
+  My battle tag is
+  [vEnhance#1429](https://starcraft2.com/en-us/profile/1/1/3443465);
+  you can also see my
+  [replays](https://sc2replaystats.com/player/2491031).
+  I am a Gold Protoss though I play a lot of Random as well.
 
 ## Rhythm games
 
