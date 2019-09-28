@@ -8,6 +8,7 @@ Here's a little about myself as person:
 
 + Linux: [Arch Linux](https://www.archlinux.org/), using [i3](https://i3wm.org/).
 + Editor: [Vim](http://www.vim.org/)
++ Keyboard layout: [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard)
 + TeX distribution: [TeX Live](https://tug.org/texlive/)
 * My [browser homepage](static/browser-homepage.html)
 	 (click the timer to change target date)
