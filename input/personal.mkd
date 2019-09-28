@@ -23,10 +23,11 @@ You can also see the following pages on this website:
 
 Some other places on the Internet you can find me:
 
++ [Blog on usamo.wordpress.com](https://usamo.wordpress.com)
++ [Facebook page](https://facebook.com/evanchenmath/)
 + [Dot-files on GitHub](https://github.com/vEnhance/dotfiles)
 + [My Anime List](https://myanimelist.net/animelist/v_Enhance)
-+ [Facebook page](https://facebook.com/evanchenmath/)
-+ [Blog](https://usamo.wordpress.com)
++ [Board Game Geek profile](https://boardgamegeek.com/user/vEnhance/)
 + [StarCraft replays](https://sc2replaystats.com/player/2491031)
 
 [aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)

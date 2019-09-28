@@ -14,6 +14,14 @@ This means the game gets more interesting as you start to get the hang of it.
 This has the disadvantage that they are not so beginner-friendly;
 not really the kind you can bring to a party with people you don't know.
 
+## Tabletop games
+
+You can find my page on
+[Board Game Geek profile](https://boardgamegeek.com/user/vEnhance/);
+here are some of the games I like.
+
+<script language="javascript" src="https://boardgamegeek.com/jswidget.php?username=vEnhance&numitems=5&text=title&images=small-fixed&show=random&imagesonly=1&imagepos=left&domains%5B%5D=boardgame"></script>
+
 ## Card games (with standard 52-card deck)
 
 * [**Beleaguered Castle**](https://en.wikipedia.org/wiki/Beleaguered_Castle)
@@ -50,28 +58,6 @@ not really the kind you can bring to a party with people you don't know.
 
 [ninetynine]: https://en.wikipedia.org/wiki/Ninety-nine_(trick-taking_card_game)
 
-## Tabletop games
-
-* [**Aeon's End**][aeonend] (1-4 players) <br>
-  Cooperative deck-builder with a post-apocalyptic fantasy theme.
-  Seems best with 2 players though I also really enjoy solo.
-  Your group plays as a team of mages trying to rapidly build an economy
-  and then rush to cast spells and abilities against a boss called the Nemesis
-  (each Nemesis having its own distinct play style),
-  which gradually gets stronger over time.
-  The setup takes a while but looks much more complicated than it actually is.
-
-* [**Yomi**][yomi] (2 players) <br>
-  Designer card game, modeled after street fighting games.
-  It features 20 playable characters, each with a
-  distinct feeling and play-style.
-  The game tests hand management, valuation, and reading the opponent. <br>
-  I should comment that this game is miles deep and it takes quite
-  a while before things start to click.
-  The first several games you play it feels completely random
-  especially with the rock-paper-scissors mechanic at the center.
-  But once you start feeling the meta-game,
-  then things get really interesting.
 
 ## Strategy games
 
