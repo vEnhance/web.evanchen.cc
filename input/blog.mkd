@@ -6,4 +6,4 @@ header: WordPress Blog: Power Overwhelming
 
 ---
 
-[<h2>Click here for my WordPress blog</h2>](http://usamo.wordpress.com)
+[<h2>Click here for my WordPress blog</h2>](https://usamo.wordpress.com)

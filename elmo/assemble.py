@@ -2,7 +2,7 @@ import yaml
 import heapq
 
 # Script constants
-BASE = r"http://web.evanchen.cc/elmo/"
+BASE = r"//web.evanchen.cc/elmo/"
 # BASE = r"file:///home/evan/Dropbox/Documents/www/elmo/"
 YEAR_PREV = 2019
 YEAR_NEXT = 2020
