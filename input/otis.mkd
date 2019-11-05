@@ -40,19 +40,18 @@ It's also possible to have an instructor other than me.
 The (long) [syllabus](upload/otis-syllabus.pdf)
 contains the full details.
 
-### Application
+### Application --- Winter/Spring of Year V
 
-Applications for **OTIS Year V**
-(starting September 2019 and ending April 2020) are now open,
-and the [syllabus](upload/otis-syllabus.pdf) has been updated as well.
-I am hoping to select about 20-40 students.
+By popular request, applications have been re-opened
+for another round of correspondence students
+hoping to join the second half of OTIS Year V
+(starting late December 2019 and ending April 2020).
+The [syllabus](upload/otis-syllabus.pdf) has been updated as well.
 
-The **deadline** to apply is **August 1, 2019 at 11:59 PM ET**.
-You will need to work on a fairly long set of problems
-for this application, so please, start early!
+The **deadline** to apply is **December 9, 2019 at 11:59 PM ET**.
 
-* [Application problems](upload/otis-V-app-problems.pdf)
-* [Application form for Year V](https://goo.gl/forms/qJGz5M4Fjsuqzq4k2)
+* [Application problems for winter/spring](upload/ws-otis-V-app.pdf)
+* [Submission URL for winter/spring](https://forms.gle/YaQBvNiL72rejxw9A)
 
 Usually I am not able to take all (or even most) requests, but even then
 I can often refer you to other instructors who are less busy than me.
