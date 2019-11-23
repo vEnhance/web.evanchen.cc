@@ -5,7 +5,7 @@ menu-position: 100
 
 ---
 
-The best way to reach me is by email;
+The best way to reach me is by email (not facebook).
 My address is:
 
 > $\text{evan}@\text{evanchen}\cdot\text{cc}$.
@@ -45,9 +45,11 @@ Here are some hints:
 * *Don't be too shy*! I might sound scary here,
   but if you have a good reason for contacting me
   and do so politely, then I won't mind.
-  I am happy to help where I can.  
+  I am happy to help where I can. <br>
   (Examples of good requests: specific math query,
   something I wrote is unclear, found a typo,
   follow-up questions, permission requests,
-  questions on my past experiences, etc.
-  I'm sure there's more.)
+  questions on my past experiences, etc.  I'm sure there's more.)
+
+* In particular, there's no need to send an email
+  asking if you can ask a question.
