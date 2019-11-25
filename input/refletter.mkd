@@ -1,0 +1,67 @@
+title: Rec letters
+header: Reference letters
+menu-position: 108
+description: If you want to ask me for a recommendation letter
+indent: 1
+
+---
+
+Sometimes high school students ask me for reference letters.
+(Some of them even got in!)
+So here are some details.
+
+### Programs I can write for
+
+I write letters most commonly for [RSI](https://www.cee.org/research-science-institute)
+and typical undergraduate colleges (MIT and Common App).
+I've also written letters for summer math camps.
+
+I do *not* write letters for
+[MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php)
+because I am technically part of the admissions process (entrance exam),
+so I don't want to also advocate for someone while being involved
+with the program itself, even indirectly.
+
+### Whether to ask
+
+Letters from me will necessarily be a bit unusual,
+so you should think about whether I'm the right person to do this.
+I am not formally a teacher or professor,
+which may confuse clueless admissions officers
+(although I am gradually picking up increasingly fancy titles).
+Also, if I only worked with you at
+[MOP](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Program)
+or [OTIS](otis.html), I may not have spent enough time
+with you in-person to "paint a picture"
+compared to a teacher at your school, for example.
+
+Usually people will ask me for letters if they want to add
+some context about their math contest experiences
+that's more than just score,
+or to have me advocate for their mathematical ability.
+Anyways, I will assume you have thought this through.
+
+Since I'm a nice person,
+I promise to not intentionally write you a negative letter.
+If I feel I cannot write you a letter with nonnegative value,
+I will decline your request instead.
+
+### Things I need
+
+If you do ask a letter for me, I would like the following information.
+
+1. Ask at least a month in advance.
+2. Provide any recent math olympiad results,
+  like USAMO / TSTST / TST / IMO.
+  (I may not use them, but I want to have them if I need them).
+3. Is there anything in particular I should discuss?
+4. Please **send me any application essays**
+  you are willing to share (drafts are okay).
+  This way, I can tailor my letter to complement
+  what you've already written.
+5. State very explicitly when the deadline is.
+
+Usually, I will always submit letters
+at least a week in advance if you asked ahead of time.
+So if it's less than a week until the deadline and the letter I promised
+hasn't been submitted it, then contact me urgently.
