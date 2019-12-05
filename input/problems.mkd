@@ -19,8 +19,8 @@ using a scale I devised called **MOHS**.
 (The acronym stands from "math olympiad hardness scale",
 [pun fully intended](https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness)).
 
-This document will probably see a lot of updates, and moreover,
-I repeat the disclaimer that the ratings
+This document will probably see a lot of updates.
+Anyways, I cannot repeat enough the disclaimer that the ratings
 (and even philosophy) are my own personal opinion,
 rather than some sort of indisputable truth.
 

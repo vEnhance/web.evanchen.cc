@@ -116,6 +116,7 @@ If you find another one, please let me know by email.
 + On **page 30**, bottom of page, "coaxal" should be "coaxial".
 + On **page 31**, in Lemma 2.13, the circles can also be tangent
   to one another at $X$ (i.e. the intersection is counted with multiplicity).
++ On **page 32**, near start of S2.6, "alluded the excenter" is missing "to".
 + On **page 33**, in Lemma 2.20, swap the definitions of $X$ and $D$.
   (The problem is technically correct as stated,
   but it should be consistent with Figure 2.6A.)

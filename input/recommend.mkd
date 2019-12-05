@@ -1,5 +1,5 @@
 title: Links
-header: Recommended links and readings
+header: Recommended links
 menu-position: 80
 description: Links to references and readings that I enjoyed.
 
@@ -26,7 +26,7 @@ Here are some additional links.
 * [MSci Category Theory notes](https://arxiv.org/abs/1612.09375) by Tom Leinster.
   I highly enjoyed these notes; very carefully written and explains intuition.
   Some minimal knowledge of group theory and linear algebra is used in the examples.
-  See instead [the corresponding print book](http://www.maths.ed.ac.uk/~tl/bct/).
+  See also [the corresponding print book](http://www.maths.ed.ac.uk/~tl/bct/).
 
 * [Analytic NT notes](http://www.math.illinois.edu/~hildebr/ant/) by AJ Hildebrand.
   A set of lecture notes for analytic number theory, suitable for self-study.
