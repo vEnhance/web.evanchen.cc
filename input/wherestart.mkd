@@ -20,18 +20,18 @@ does not mean you will achieve your goals.
 Conversely, there are many fantastic resources that are not
 included on this list, since I wanted to keep this list very short
 (and also due to my own ignorance).
-If you are looking for a list of materials which are guaranteed
-to be "enough" for solving IMO #1 and #4, you have come to the wrong place.
-There are few guarantees in math contests.
+If you are looking for a list of materials which are
+"guaranteed to be enough" for solving IMO #1 and #4,
+then unfortunately I can't help you.
 
 See also the [math contest FAQ's](FAQs/contest.html)
 for some more philosophical (and less concrete) advice on studying.
 
 ### Lecture Materials
 
++ Algebra, combo, NT: [OTIS Excerpts](excerpts.html) (by me)
 + Combinatorics: [Pranav A. Sriram][pranav]
 + Geometry: [E.G.M.O.](geombook.html) (by me)
-+ Algebra, combo, NT: [OTIS Excerpts](excerpts.html) (by me)
 
 [pranav]: http://www.artofproblemsolving.com/community/c6h601134
 
