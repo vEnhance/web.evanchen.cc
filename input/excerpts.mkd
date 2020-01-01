@@ -27,18 +27,18 @@ though some of the chapters are more challenging.
 The Excerpts consists of selected problems from the following
 twelve topics from the [OTIS catalog][catalog]:
 
-1. Standard inequalities
-1. Functional equations
-1. Monsters
-1. Global
-1. Local
-1. Rigid
-1. Free
-1. Anti-problems
-1. Orders
-1. Prime exponents
-1. Heavy number theory (called "advanced techniques")
-1. Constructions in Number Theory
++ Standard inequalities
++ Functional equations
++ Monsters
++ Global
++ Local
++ Rigid
++ Free
++ Anti-problems
++ Orders
++ Prime exponents
++ Heavy number theory (called "advanced techniques")
++ Constructions in Number Theory
 
 Most of the lecture material is adapted from
 [existing handouts of mine](olympiad.html)
