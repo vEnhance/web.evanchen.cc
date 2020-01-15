@@ -50,7 +50,7 @@ Here is a [listing of all my papers on arXiv](http://arxiv.org/a/chen_e_2).
   E. Chen. Published in [Electronic Journal of Combinatorics][ejc-poset].
 
 * [Multiplicative and exponential orthomorphisms][arxiv-orthomorphism] <br>
-  E. Chen. To appear in Journal of Combinatorics.
+  E. Chen. Published in [Journal of Combinatorics][joc-orthomorphism].
 
 ## High school lectures
 
@@ -118,3 +118,4 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [pams-algint]: https://www.ams.org/journals/proc/0000-000-00/S0002-9939-2018-14115-5/
 [dmtcs-wilf]: https://dmtcs.episciences.org/paper/view/id/4912
 [ejc-poset]: http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i4p43
+[joc-orthomorphism]: https://www.intlpress.com/site/pub/pages/journals/items/joc/content/_home/index.php
