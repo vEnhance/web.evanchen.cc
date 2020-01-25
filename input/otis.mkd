@@ -36,6 +36,8 @@ Some students have brief weekly or biweekly lectures
 but students can also take OTIS as a correspondence course
 with no lectures at all.
 It's also possible to have an instructor other than me.
+In this way, OTIS is really a **guided self-study program**
+and is not really meant as a tutoring program.
 
 The (long) [syllabus](upload/otis-syllabus.pdf)
 contains the full details.
