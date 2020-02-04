@@ -97,8 +97,8 @@ Each section is in alphabetical order.
 	* [ELMO](problems.html)
 	* [Korea](https://aops.com/community/c3383_korea_national_olympiad)
 	* [Romania](https://aops.com/community/c3365)
-	* [USA](https://aops.com/community/c3409_usamo)
-	* [USA Junior](https://aops.com/community/c3420_usajmo)
+	* [USA](problems.html)
+	* [USA Junior](problems.html)
 + Team selection tests:
 	* [China](https://aops.com/community/c3282)
 	* [Iran](https://aops.com/community/c3321)
