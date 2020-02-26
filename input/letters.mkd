@@ -12,9 +12,11 @@ So here are some details.
 
 ### Programs I can write for
 
-I write letters most commonly for [RSI](https://www.cee.org/research-science-institute)
+I write letters most commonly for
+[RSI](https://www.cee.org/research-science-institute)
 and typical undergraduate colleges (MIT and Common App).
-I've also written letters for summer math camps.
+I've also written letters for summer math camps
+such as Canada/USA MathCamp, PROMYS/ROSS, etc.
 
 I do *not* write letters for
 [MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php)
@@ -33,7 +35,7 @@ Also, if I only worked with you at
 [MOP](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Program)
 or [OTIS](otis.html), I may not have spent enough time
 with you in-person to "paint a picture"
-compared to a teacher at your school, for example.
+compared to a teacher at your school, so to speak.
 
 Usually people will ask me for letters if they want to add
 some context about their math contest experiences
@@ -45,6 +47,9 @@ Since I'm a nice person,
 I promise to not intentionally write you a negative letter.
 If I feel I cannot write you a letter with nonnegative value,
 I will decline your request instead.
+(This is because I believe a good mentor should be
+unconditionally supportive, much like a parent,
+and that it's not my place to judge students.)
 
 ### Things I need
 
