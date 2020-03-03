@@ -11,7 +11,7 @@ how to go about training for them.
 
 <br>
 
-### How should I prepare for math contests?
+### 1. How should I prepare for math contests?
 One-sentence answer: do lots of problems just above your current ability,
 and spend some of time on reflection.
 Full answer: [this blog post][wpcontest].
@@ -33,7 +33,7 @@ things in the right difficulty range.
 
 <br>
 
-### Which books/handouts/materials should I use?
+### 2. Which books/handouts/materials should I use?
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
 
@@ -48,7 +48,7 @@ from books or classes from Art of Problem Solving, like
 
 <br>
 
-### How do I get better at Euclidean geometry?
+### 3. How do I get better at Euclidean geometry?
 For general advice, see [my advice][wpgeo], [Geoff Smith's advice][geoff], etc.
 
 For specific materials, see [my own handouts][articles]
@@ -57,7 +57,7 @@ And of course, [my geometry textbook][geombook].
 
 <br>
 
-### Is it possible for me to go from $X$ level to $Y$ level in $Z$ time?
+### 4. Is it possible for me to go from $X$ level to $Y$ level in $Z$ time?
 I probably don't know much more than you do.
 
 Predicting improvement in math contests is a lot like trying to predict the
@@ -67,7 +67,7 @@ knows much more than that.
 <br>
 
 
-### How do I learn to write proofs?
+### 5. How do I learn to write proofs?
 I don't think there's actually a leap between computation and proof-writing, and
 I actually suspect that thinking proof-writing is hard is most of what makes it hard.
 Reasons it might appear hard:
@@ -96,7 +96,7 @@ which gives you about one month to produce full solutions to a set of five probl
 
 <br>
 
-### Am I ready to do $X$ level problems, read book $Y$, etc.?
+### 6. Am I ready to do $X$ level problems, read book $Y$, etc.?
 
 The correct thing to do is just try it out (e.g.
 try some problems from a past $X$ paper, read a chapter from $Y$, etc.)
@@ -118,7 +118,7 @@ doesn't mean you can't try some USAMO 1/4's!
 
 <br>
 
-### Should I read $X$ book versus $Y$ book, spend $M$ hours versus $N$ hours per week, etc.?
+### 7. Should I read $X$ book versus $Y$ book, spend $M$ hours versus $N$ hours per week, etc.?
 
 My gut feeling is that the effect size of this is sufficiently small that
 (i) no one knows a definitive answer,
@@ -130,7 +130,7 @@ see which one you like better, and just go with that,
 
 <br>
 
-### How do I make fewer careless errors?
+### 8. How do I make fewer careless errors?
 
 There's a nice [article on AoPS][mistakes] that addresses most of
 what I have to say. Here are just a few additional remarks.
@@ -163,7 +163,7 @@ See also: [Against Perfect Scores][perfect].
 <br>
 
 
-### Can you solve $X$ problem for me?
+### 9. Can you solve $X$ problem for me?
 Probably not.
 If you send me a problem, usually I will at least read it.
 If I have seen it before or can quickly see how to do it,

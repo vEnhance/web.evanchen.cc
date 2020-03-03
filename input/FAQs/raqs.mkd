@@ -12,7 +12,7 @@ This idea was taken from [Paul Graham][raq].
 
 <br>
 
-### How did/do you have so much time?
+### 1. How did/do you have so much time?
 Mostly by cutting out activities that aren't important to me.
 
 I feel high school students tend to focus too much on "local" changes
@@ -58,7 +58,7 @@ Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
 <br>
 
 
-### I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?
+### 2. I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?
 
 I guess the best advice I can give is to pick some project to work on.
 It doesn't have to be (and probably shouldn't be)
@@ -98,7 +98,7 @@ after all, the point is really for your own learning/growth/enjoyment.
 
 <br>
 
-### What's the most important thing that math contests taught you?
+### 3. What's the most important thing that math contests taught you?
 
 I have a [whole post][lessons] on lessons I learned from math contests,
 but here's one that mattered to me a lot back in high school.
@@ -107,6 +107,8 @@ In my opinion, one of the most damaging messages I got during high school
 is that hard work pays off. This is not true, and one of the most important
 life skills that math contests taught me were
 **how to work hard even being fully aware that I might never "succeed"**.
+Most notably, this requires enjoying the work itself
+rather than just as a means to an end.
 
 In school there's a mentality that teachers should reward "good effort",
 i.e. if a student tried their best, they should get a grade of A.
@@ -114,10 +116,8 @@ By extension: "if you work hard in life, you will succeed".
 This turns out to be quite far from the truth.
 Math contests teach you this lesson much better:
 you can love the subject, work harder than everyone else,
-do everything right, and still not win the USAMO:
+do everything right, and still not win the USAMO;
 that's what makes it worth doing.
-**Statistically, almost no one wins the USAMO,
-and that's why winning (or "losing") the USAMO is a meaningful experience**.
 
 To quote [Paul Graham](http://www.paulgraham.com/hs.html):
 > Hard means worry:
@@ -128,10 +128,10 @@ To quote [Paul Graham](http://www.paulgraham.com/hs.html):
 > You don't see faces much happier than people winning gold medals.
 > And you know why they're so happy? Relief.
 
-**This is why I think of high school (and college) as "fake"
-while I think of math contests as "real".**
 Anyone can work hard if reward is certain,
 but in real life this is simply not the case.
+This is why it's so important to enjoy the process itself
+rather than fixate only on the end result.
 
 With all that being said, I am obliged to add on that the other
 huge thing that contests did for me was provide me access to one
@@ -144,29 +144,7 @@ the social aspect of contests was huge for me.)
 
 <br>
 
-### How do you stay motivated and work hard knowing you might fail?
-
-I would have worked on math contests even if there was no USAMO
-for me to do well on. Proof: I'm currently a college student and
-I *still* work on contest problems in my spare time.
-
-Therefore, my advice is to **worry about the outcome as little as you can
-get away with**.  You should probably put some planning into the final result
-rather than being totally aimless, but it's quite easy to overdo this;
-too often it becomes [type-B procrastination][procrastinate].
-This is why it's so important in anything to enjoy the process itself: 
-time spent thinking about the final result is time spent not working towards it.
-
-This is even true *during* the USAMO, for example.
-You can't afford to spend much of that time worrying about your score.
-It's true that score considerations can be helpful to some extent (for example,
-know to cut your losses on Problem 2 and move on to Problem 3).
-But it's quite common to see students who are so nervous about their score that
-they end up underperforming. This is clearly a losing situation.
-
-<br>
-
-### Would it help to have a tutor/mentor for olympiad math?
+### 4. Would it help to have a tutor/mentor for olympiad math?
 
 Short answer: yes, but not in the ways people often expect.
 Long answer: [this blog post][tutor].

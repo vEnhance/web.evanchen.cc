@@ -11,7 +11,7 @@ You might also see [School FAQ's](FAQs/school.html).
 
 <br>
 
-### How much time did you spend on math preparation?
+### 1. How much time did you spend on math preparation?
 I never kept track because the number wasn't important to me,
 but a very rough guess is perhaps 10 to 20 hours a week,
 with a large standard deviation (because I only practiced when I felt like it).
@@ -28,7 +28,7 @@ although I think that this number is pretty uninformative as well.
 
 <br>
 
-### Which books/handouts/materials did you use?
+### 2. Which books/handouts/materials did you use?
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
 I think it's useful (and more fun!) for students to decide the
@@ -47,7 +47,7 @@ from books or classes from Art of Problem Solving, like
 
 <br>
 
-### How did you compete on the Taiwan IMO team?
+### 3. How did you compete on the Taiwan IMO team?
 I live in the United States, but am also a citizen of Taiwan,
 where both my parents are from.
 So in the spring of 2014,
@@ -56,7 +56,7 @@ rather than going to my high school classes.
 
 <br>
 
-### How long did it take you to X?
+### 4. How long did it take you to achieve X?
 I started training seriously starting in the 2009-2010 school year,
 when I was in eighth grade.
 I had participated casually the year before that.
@@ -65,10 +65,8 @@ I had participated casually the year before that.
 
 <br>
 
-### Are you available to tutor my child in math contests?
-I'm flattered that this made it onto the FAQ.
-There's only one of me, so I usually don't have room,
-but you are welcome to ask me (by email); you might get lucky.
+### 5. Are you available to tutor my child in math contests?
+
 See [my teaching page][otis] for more details.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
