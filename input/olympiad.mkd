@@ -5,10 +5,7 @@ description: Popular math olympiad training materials written by Evan Chen.
 
 ---
 
-Over time I've written a few handouts pertaining to olympiad math.
-Here is a list of them, alphabetized each section.
-A few are written in traditional Chinese as I was practicing my Chinese in preparation for the Taiwan TST.
-
+These are some handouts I've written over the years.
 The [Math](http://usamo.wordpress.com/category/mathematics/) and
 [Problem Solving](http://usamo.wordpress.com/category/problem-solving/) sections
 of my personal blog might also be of interest.
@@ -21,16 +18,19 @@ See also [Problems](problems.html) for contest papers.
 
 **LaTeX notes**:
 I provided the LaTeX source for most of these files as an example here.
-But note to compile these documents in LaTeX, you will need 
-my style file, which can be found here: [evan.sty][evan.sty].
+But note to compile these documents in LaTeX, you will need
+[my personal style file evan.sty][evan.sty].
 Because this style file evolves over time,
 your output might look a little different than the PDF's attached here.
-For files with Asymptote diagrams you will additionally
-need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
+
+### Beginners
+
+I suggest reading through the [beginner's page](wherestart.html) first.
 
 ### General
 * <b>English</b> {{ hlink("english") }}
-  Notes on proof-writing style. These were used at MOP 2016.
+  Notes on proof-writing style. These were used at MOP 2016,
+  later updated March 2020.
 
 * <b>IMO 2014 Journal</b> {{ hlink("IMO-2014") }}
   This describes my experiences competing as TWN2 at the 55th IMO 2014.  
@@ -38,14 +38,14 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
 
 * <b>Taiwan TST 2014 Reflection</b> {{ hlink("TaiwanTST") }}
   This describes my experiences competing for a position on the Taiwan IMO 2014 team.
-  It also contains an extensive commentary on each of the Team Selection Tests and Quizzes, which together
-  covered most of the 2013 IMO Shortlist.    
-  _Note:_ [Click here for English versions of the TST problems.](http://www.aops.com/community/c41558)
+  It also contains an extensive commentary on each of the
+  [Team Selection Tests and Quizzes](http://www.aops.com/community/c41558),
+  which together covered most of the 2013 IMO Shortlist.
 
 * <b>USAMO 2014 Contest Analysis</b> {{ hlink("USAMO2014") }}
-  This describes in detail the thought process behind each of my solutions to the USAMO 2014.
-  [Click here for a copy of the solutions I submitted.](upload/usamo-2014-my-sols.pdf)
-
+  This describes in detail the thought process behind each of
+  my solutions to the USAMO 2014.
+  I also [scanned the solutions I submitted.](upload/usamo-2014-my-sols.pdf)
 
 ### Algebra and Number Theory
 * <b>The Chinese Remainder Theorem</b> {{ hlink("CRT") }}
@@ -58,11 +58,13 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   A handout discussing pathological functional equations.
 
 * <b>Orders Modulo a Prime</b> {{ hlink("ORPR") }}
-  Article on orders and primitive roots, in particular featuring the sum of squares lemma and its generalization
+  Article on orders and primitive roots,
+  in particular featuring the sum of squares lemma and its generalization
   to arbitrary cyclotomic polynomials.
 
 * <b>Summation</b> {{ hlink("Summation") }}
-  General discussion of sums and products, and how to deal with them. Includes generating functions.
+  General discussion of sums and products, and how to deal with them.
+  Includes generating functions.
 
 ### Combinatorics
 * <b>Expected Uses of Probability</b> {{ hlink("ProbabilisticMethod") }}
@@ -74,13 +76,15 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
 ### Geometry
 * <b>A Guessing Game: Mixtilinear Incircles</b> {{ hlink("Mixt-GeoGuessr") }}
   A quick description of some nice properties of mixtilinear incircles.
-  Presented as a "guessing game" where one has to guess collinear points, cyclic quadrilaterals, and so on beforehand.
+  Presented as a "guessing game" where one has to guess collinear points,
+  cyclic quadrilaterals, and so on beforehand.
 
 * <b>Barycentric Coordinates in Olympiad Geometry</b>
   [(full)](handouts/bary/bary-full.pdf)
   [(abridged)](handouts/bary/bary-short.pdf) <br>
-  One of my most famous handouts. Introduces from scratch the method of barycentric coordinates.
-  A cleaned-up version of it is found in the draft of my geometry textbook.
+  One of my most famous handouts from 2012.
+  Introduces from scratch the method of barycentric coordinates.
+  This was the basis of chapter 7 of [my geometry textbook](geombook.html).
 
 * <b>Bashing Geometry with Complex Numbers</b> {{ hlink("cmplx", "en-cmplx") }}
   English translation of my original notes in Chinese.
@@ -95,7 +99,8 @@ need [olympiad.asy][olympiad.asy] and [cse5.asy][cse5.asy].
   Why didn't anyone beat me to writing this?
 
 * <b>The Incenter/Excenter Lemma</b> {{ hlink("Fact5") }}
-  A collection of problems which exhibit the first olympiad configuration I got to know well,
+  A collection of problems which exhibit the
+  first olympiad configuration I got to know well,
   the famous "incenter/excenter lemma".
 
 * <b>Writing Olympiad Geometry Problems</b> {{ hlink("Writing-Oly-Geo") }}
@@ -106,14 +111,13 @@ Also: [chapter 2 (on power of point)][egmo2]
 or [chapter 8 (on inversion)][egmo8]
 of [my textbook][geombook].
 
-
 ### Inequalities
 * <b>Lagrange Multipliers Done Correctly</b> {{ hlink("LM") }}
   This is a description of the conditions necessary to execute a Lagrange Multipliers solution on an olympiad.
 
 * <b>Olympiad Inequalities</b> {{ hlink("Ineq", "en") }}
   English translation of my original notes in Chinese.
-  Describes some "standard strategies" for handling olympiad inequalities.  
+  Describes some "standard strategies" for handling olympiad inequalities. <br>
   Original Chinese version: {{ hlink("Ineq") }}
 
 * <b>SOS: A Dumbass's Perspective</b> {{ hlink("SOS_Dumbass") }}
@@ -131,7 +135,8 @@ of [my textbook][geombook].
 
 * <b>OMO Spring 2014 Executive Report</b> {{ hlink("OMOSpring14Report") }}
   A short report on running the Online Math Open for Spring 2014.
-  This is mostly for the sake of those who will be running the future installments of the contest, as one of
+  This is mostly for the sake of those who will be
+  running the future installments of the contest, as one of
   us is graduating.
 
 * <b>USAMO 2003 Rubric</b> [(pdf)](upload/usamo-2003-rubric.pdf) <br>
