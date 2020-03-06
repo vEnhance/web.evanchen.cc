@@ -1,62 +1,153 @@
-title: Starting Points
-header: Suggestions for starting math olympiads
+title: For beginners
+header: Math olympiad beginner's page
 description: Suggestions for starting on math olympiads
+indent: 1
+menu-position: 35
 
 ---
 
-By now I've gotten countless emails from students studying
-for math olympiads that amounts to "okay, but what do I do?".
-So here is, at long last, a list of suggestions.
+This page is meant for people who don't have much
+past olympiad experience (or even proof experience) and are looking
+for a place to start.
 
-Readers may notice this is actually just
-an abridged version of the longer
-[recommendations page](recommend.html) on my site.
-It turns out if you make a list shorter,
-people are more likely to pick up the pencil and start cracking.
+Before all else, welcome to the olympiad scene!
+It's going to be hard as heck,
+but in my private opinion this is where all the coolest stuff is
+(as far as math contests go, anyways).
+Stay around for long enough and
+you will get to see a lot of really amazing problems.
 
-I really want to stress these are mere *suggestions*.
-Just because you have done everything on this list
-does not mean you will achieve your goals.
-Conversely, there are many fantastic resources that are not
-included on this list, since I wanted to keep this list very short
-(and also due to my own ignorance).
+You may also read [math contest FAQ's](FAQs/contest.html)
+for some more philosophical (and less concrete) advice on studying
+for math contests in general.
+
+## First reading: the welcome letter
+
+TO BE WRITTEN, check back April 2020
+
+<!--
+
+For the USA Math Olympiad in 2020, the board on the USAMO
+prepared an invitation letter for all the qualifiers,
+congratulating them on their achievement
+and giving them some suggestions on where to begin.
+This letter contains:
+
+* A few pretty carefully chosen problems (not necessarily easy!),
+	to give people a sense of what to expect on the contest
+* Fully written solutions to those chosen problems,
+	so that you can see what a correct and complete solution is expected to look like.
+* Some advice for actually taking the contest:
+	the format of the exam, planning your time, common mistakes, etc.
+
+<span style"color:red;">LINK LETTER</a>
+
+I suggest starting by reading through this letter,
+trying the example problems (you will probably not solve them all;
+we chose examples from the entire difficulty spectrum),
+and then comparing your work to the provided solutions.
+That will give you a taste of what you are getting in to.
+
+-->
+
+## Writing proofs
+
+If you don't have experience with proof-based problems,
+the first thing I should say is that it is **not as hard as you might think**.
+*Solving* the problems completely is difficult,
+but if you really have a completely correct solution to a problem,
+it is actually pretty hard to *not* get full credit.
+I would say at least 90% of the time,
+when a student loses points on USA(J)MO unexpectedly,
+it's because their proof is actually wrong, not (just) badly-written.
+
+Of course, you should still try to write your solutions as clearly as possible.
+To that end, here are some links to advice:
+
+* [How to write a solution](https://aops.com/news/articles/how-to-write-a-solution),
+	from Art of Problem Solving.
+* [Remarks on English](handouts/english/english.pdf),
+	written by me.
+* [How to write proofs](http://zimmer.csufresno.edu/%7Elarryc/proofs/proofs.html),
+	by Larry W. Cusick.
+
+You don't need to get too caught up in these links;
+proof-writing will become more natural over time anyways as you solve more problems.
+So I would actually encourage you to continue doing practice problems
+or reading books at the same time as you are getting used to writing;
+these go hand-in-hand and I actually suspect it's counterproductive
+to try and practice writing in isolation.
+
+If it is possible, the best way is to have a friend or coach
+who can check your work and provide suggestions.
+But the supply of people willing to do this is admittedly very low,
+so most people are not so lucky to have access to feedback.
+
+## United States Mathematical Talent Search
+
+If you are in the United States,
+there is a nice proof-based contest called the [USAMTS](https://usamts.org/)
+which is a great way for beginners to get started.
+Things that make the USAMTS special:
+
+* It is a free, individual, online contest open to any students in USA.
+* The problems are chosen to be quite beginner-friendly,
+	though with a spectrum of difficulty each round.
+* This contest gives you a *full month* to work on the problems
+	rather than having a short time limit.
+* You get some feedback on your proofs as well, not just a score.
+
+## Books to read
+
+There is some more material you have to learn as well,
+since there are some new classes of problems
+(such as olympiad geometry, functional equations, orders mod p, etc.)
+that you will likely not have seen before from
+just working on short-answer contests.
+
+To toot my own horn further,
+I wrote the following two books to be possible introductions:
+
+* The [OTIS Excerpts](excerpts.html) for everything other than geometry, and
+* The textbook [E.G.M.O.](geombook.html) for classical geometry.
+
+... but there are some more possibilities listed
+on the [links page](recommend.html).
+You might also check
+[Geoff Smith's advice and links](https://people.bath.ac.uk/masgcs/advice.html).
+
+(I really want to stress these are mere *suggestions*.
+Just because you have done X does not mean you will achieve your goals,
+and conversely, there are surely many fantastic resources
+that I have not even heard of.
 If you are looking for a list of materials which are
 "guaranteed to be enough" for solving IMO #1 and #4,
-then unfortunately I can't help you.
+then unfortunately I can't help you.)
 
-See also the [math contest FAQ's](FAQs/contest.html)
-for some more philosophical (and less concrete) advice on studying.
+## Problem sources
 
-### Lecture Materials
-
-+ Algebra, combo, NT: [OTIS Excerpts](excerpts.html) (by me)
-+ Combinatorics: [Pranav A. Sriram][pranav]
-+ Geometry: [E.G.M.O.](geombook.html) (by me)
-
-[pranav]: http://www.artofproblemsolving.com/community/c6h601134
-
-If you've finished these and want more,
-I have [a bunch more olympiad handouts](olympiad.html)
-and [links to other sources](recommend.html).
-(The Excerpts contain adaptations from many of the handouts,
-but there are some differences, too.)
-
-### Problem Sources
-
-A mandatory part of any olympiad training is doing lots
-of problems from past contests.
+At some point (sooner rather than later),
+you also need to start just working through some past problems
+from recent years of contests.
+You can think of this as encountering problems in the wild.
 (I used to carry a binder with printouts
-of the IMO shortlist and check them off as I figured them out.)
+of the IMO shortlist and check them off as I solved them.)
 
-Here are some places to start
-(roughly ascending order of difficulty):
+In case you didn't know already,
+on Art of Problem Solving there is an
+[extensive archive of past problems](https://aops.com/community/c13_contests)
+from basically every competition under the sun,
+together with community-contributed solutions.
+The supply of problems here is inexhaustible.
+
+Here are some particular contests I like (roughly ascending order of difficulty):
 
 + [Canada national olympiad](https://cms.math.ca/Competitions/CMO/)
 + [European Girls Math Olympiad](https://www.egmo.org/egmos/)
-+ [ELMO](elmo/problems.html)
-+ [IMO Shortlist](http://imo-official.org/problems.aspx)
++ [IMO and IMO Shortlist](http://imo-official.org/problems.aspx)
 + [USA Team Selection Tests](problems.html)
 
 The bottom of the [recommendations page](recommend.html)
-has some more suggestions for problems
-if this list isn't sufficient.
+has some more suggestions for problems if this list isn't sufficient.
+
+Good luck and happy solving!
