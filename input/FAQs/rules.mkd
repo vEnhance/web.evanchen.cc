@@ -142,7 +142,7 @@ that the graders can't understand!
 There are no hard criteria set in stone, but in general,
 any well-known result which does not trivialize the problem is okay.
 If you are still unsure, it is strictly better to include the proof.
-See [here][hooklength] for more discussion.
+See [English handout][english] for more discussion.
 
 <br>
 
@@ -157,7 +157,7 @@ In particular, this is a math issue, not a style issue.
 
 As a very loose approximation, the official solutions file for
 USAMO is about as terse as you can be.
-See [here][hooklength] for more discussion.
+See [English handout][english] for more discussion.
 
 <br>
 
@@ -195,4 +195,4 @@ since exactly 12 winners are invited to the state dinner.
 [amc]: http://www.maa.org/math-competitions
 [usa2003]: upload/usamo-2003-rubric.pdf
 [taiwan]: handouts/TaiwanTST/TaiwanTST.pdf
-[hooklength]: TODO
+[english]: handouts/english/english.pdf
