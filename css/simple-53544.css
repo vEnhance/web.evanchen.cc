@@ -72,11 +72,15 @@ h1 {
 }
 h2 {
     color: #004824;
-    font-size: 14pt;
-    font-weight: normal;
+    font-size: 13pt;
+    font-weight: bold;
+    padding-top: 1.5ex;
 }
-h4,
-h5 {
+h3 {
+    color: #450060;
+    font-size: 11pt;
+}
+h4, h5 {
     margin-top: 6px;
     margin-bottom: 2px;
 }
