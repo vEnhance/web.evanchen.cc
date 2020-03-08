@@ -16,7 +16,7 @@ and can usually qualify for national olympiad,
 Students at other levels should feel welcome to contact
 me for referrals to other mentors.
 
-### Description
+## Description
 
 OTIS is centered around two-week topic units (my design)
 which I pick for each participant based on their background.
@@ -42,7 +42,7 @@ and is not really meant as a tutoring program.
 The (long) [syllabus](upload/otis-syllabus.pdf)
 contains the full details.
 
-### Application --- Year VI
+## Application --- Year VI
 
 The application for fall 2020 is now open.
 The **deadline** to apply is **August 1, 2020 at 11:59 PM PT**
@@ -57,7 +57,7 @@ I can often refer you to other instructors who are less busy than me.
 If you would like referrals, contact me directly,
 and I may be able to connect you with someone else.
 
-### Documents
+## Documents
 
 * [Full syllabus](upload/otis-syllabus.pdf) (warning: long)
 * [Course synopsis][unitlist] (possible topics covered)
@@ -74,7 +74,7 @@ and I may be able to connect you with someone else.
 [sample-zack]: static/otis-samples/zack-local.pdf
 [unitlist]: static/otis-samples/synopsis.html
 
-### Organizers
+## Organizers
 
 Current staff:
 
@@ -89,7 +89,7 @@ Past organizers:
 
 * [Ankan Bhattacharya][ankan]: Instructor
 
-### History
+## History
 I started teaching in 2015 when a group of parents
 from Phillips Andover Academy emailed me in early April,
 asking if I'd be interested in coaching a group of five contestants.
@@ -121,7 +121,7 @@ though he didn't do that much.
 + IMO 2018: [Sualeh Asif][asif], [Howard Halim][howard], [Anant Mudgal][anant], [Michael Ren][mren], [Edward Wan][edwan]
 + IMO 2019: [Howard Halim][howard], [Sebastian Jeon][sebastian], [Harun Khan][harun], [Daniel Sheremeta][danielsh], [Pranjal Srivastava][pranjal], [Colin Tang][colin], [Edward Wan][edwan]
 
-### Photos
+## Photos
 
 
 <img src="static/otis-imo-2018.png" width="400" />

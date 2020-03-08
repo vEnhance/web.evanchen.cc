@@ -15,7 +15,7 @@ Please notify me of any broken links, suggestions, etc. by email.
 An abridged version of this page for olympiad students
 can be found [here](wherestart.html).
 
-### PG essays
+## PG essays
 
 I can't help but link
 [Paul Graham's essays](http://www.paulgraham.com/articles.html).
@@ -27,7 +27,7 @@ Ones I felt hit closest to home:
 [Mean People Fail](http://www.paulgraham.com/mean.html),
 [The Lesson to Unlearn](http://www.paulgraham.com/lesson.html).
 
-### Undergraduate Math and Computer Science
+## Undergraduate Math and Computer Science
 
 If you check **Appendix A of [Napkin](napkin.html)**,
 you can find listings of lecture notes or textbooks
@@ -54,11 +54,11 @@ Here are some additional links.
 
 * [Harvard's CS 125: Algorithms and Complexity](http://people.seas.harvard.edu/~cs125/) has delightful lecture and section notes.
 
-### Olympiad Resources
+## Olympiad Resources
 
 See also [Geoff Smith's page](http://people.bath.ac.uk/masgcs/advice.html).
 
-#### Handouts
+### Handouts
 
 * [My own handouts](olympiad.html) (sorry, couldn't resist linking them again).
 
@@ -75,7 +75,7 @@ See also [Geoff Smith's page](http://people.bath.ac.uk/masgcs/advice.html).
 
 * [Po-Shen Loh](http://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
 
-#### Books
+### Books
 
 * My own: [olympiad geometry book EGMO](geombook.html)
   and [OTIS Excerpts](excerpts.html) for non-geometry.
@@ -86,7 +86,7 @@ See also [Geoff Smith's page](http://people.bath.ac.uk/masgcs/advice.html).
   is an introductory olympiad number theory text,
   at a level somewhat easier than what my own number theory handouts assume.
 
-#### Contests
+### Contests
 
 Each section is in alphabetical order.
 

@@ -9,7 +9,7 @@ description: Archive of PDF's of math olympiad problems.
 This page contains problems and solutions
 to several USA contests, as well as a few others.
 
-### Hardness scale
+## Hardness scale
 
 Here is an
 [index of many problems](upload/MOHS-hardness.pdf)
@@ -24,7 +24,7 @@ Anyways, I cannot repeat enough the disclaimer that the ratings
 (and even philosophy) are my own personal opinion,
 rather than some sort of indisputable truth.
 
-### USA Math Olympiad (USAMO)
+## USA Math Olympiad (USAMO)
 
 Despite being part of the USA team selection process,
 these are not the "official" solution files,
@@ -60,7 +60,7 @@ To my knowledge they are not published anywhere.
 * JMO 2018 [(problems and solutions)](exams/JMO-2018-notes.pdf)
 * JMO 2019 [(problems and solutions)](exams/JMO-2019-notes.pdf) [(Math Jam)](https://aops.com/school/mathjams-transcripts?id=491)
 
-### USA TST Selection Test (TSTST)
+## USA TST Selection Test (TSTST)
 
 For an explanation of the name,
 see [the FAQ on the USA IMO team selection](FAQs/rules.html).
@@ -75,7 +75,7 @@ see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 * TSTST 2018 [(problems)](exams/TSTST-2018.pdf) [(solutions)](exams/sols-TSTST-2018.pdf) [(statistics)](exams/stats-TSTST-2018.pdf)
 * TSTST 2019 [(problems)](exams/TSTST-2019.pdf) [(solutions)](exams/sols-TSTST-2019.pdf) [(statistics)](exams/stats-TSTST-2019.pdf)
 
-### USA Team Selection Test (TST)
+## USA Team Selection Test (TST)
 
 These exams are used in the final part of
 the selection process for the USA IMO team.
@@ -93,7 +93,7 @@ the selection process for the USA IMO team.
 * USA Winter TST for IMO 2019 [(problems)](exams/IMO-2019-TST.pdf) [(solutions)](exams/sols-TST-IMO-2019.pdf) [(statistics)](exams/stats-tst-2019.txt)
 * USA Winter TST for IMO 2020 [(problems)](exams/IMO-2020-TST.pdf) [(solutions)](exams/sols-TST-IMO-2020.pdf) [(statistics)](exams/stats-tst-2020.txt)
 
-### International Math Olympiad
+## International Math Olympiad
 
 * IMO 2000 [(problems and solutions)](exams/IMO-2000-notes.pdf)
 * IMO 2001 [(problems and solutions)](exams/IMO-2001-notes.pdf)
@@ -116,7 +116,7 @@ the selection process for the USA IMO team.
 * IMO 2018 [(problems and solutions)](exams/IMO-2018-notes.pdf)
 * IMO 2019 [(problems and solutions)](exams/IMO-2019-notes.pdf)
 
-### ELMO
+## ELMO
 
 See also [general ELMO information](elmo/general.html).
 
@@ -144,7 +144,7 @@ See also [general ELMO information](elmo/general.html).
 	[(shortlist with solutions)](exams/ELMO-2019-SL.pdf)
 	[(ELSMO)](exams/ELSMO-2019.pdf)
 
-### Taiwan Team Selection Test
+## Taiwan Team Selection Test
 
 These are the problems I worked on in high school
 when competing for a spot on the Taiwanese IMO team.

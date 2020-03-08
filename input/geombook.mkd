@@ -31,7 +31,7 @@ I wrote this textbook while
 [serving time as a high school clerk][fillblank].
 You can read hear about [the publication process][publishing].
 
-### Prerequisites and sample chapters
+## Prerequisites and sample chapters
 There are essentially no geometry prerequisites;
 EGMO is **entirely self-contained**.
 (This was one of the design goals.)
@@ -45,7 +45,7 @@ even if you don't know any geometrical theorems.
 * [Chapters 1-3][googlebook] on Google Books preview.
 * For April Fool's Day 2019, [parody version](textbooks/tr011ey.pdf) of entire book.
 
-### On solutions to problems
+## On solutions to problems
 
 I included solutions to about a quarter of the
 practice problems in the back of the textbook
@@ -70,7 +70,7 @@ here are some possible places to look:
 
 4. If all of the above fail, try posting on the AoPS forums directly.
 
-### Other geometry books
+## Other geometry books
 
 Here are some different geometry books that are also good:
 
@@ -88,7 +88,7 @@ See also [advice from Geoff Smith on geometry](http://people.bath.ac.uk/masgcs/g
 [stefan]: https://www.olympiadgeometry.com/
 [ukmt]: http://shop.ukmt.org.uk/ukmt-books/plane-euclidean-geometry
 
-### Errata (aka selected solutions to Problem 11.0)
+## Errata (aka selected solutions to Problem 11.0)
 
 Here are all the mistakes that I am aware of.
 If you find another one, please let me know by email.
@@ -298,14 +298,14 @@ If you find another one, please let me know by email.
 </small>
 </small>
 
-### Table of Contents
+## Table of Contents
 Here is the most recent table of contents.
 
 <b>Preliminaries</b>
 <br> Section 0.1  The Structure of This Book
 <br> Section 0.2  Notations and Centers
 
-## Part I  Fundamentals
+### Part I  Fundamentals
 <b>Chapter 1  Angle Chasing</b>
 <br> Section 1.1  Triangles and Circles
 <br> Section 1.2  Cyclic Quadrilaterals
@@ -347,7 +347,7 @@ Here is the most recent table of contents.
 <br> Section 4.9  Problems
 
 
-## Part II  Analytic Techniques
+### Part II  Analytic Techniques
 <b>Chapter 5  Computational Geometry</b>
 <br> Section 5.1  Cartesian Coordinates
 <br> Section 5.2  Areas
@@ -380,7 +380,7 @@ Here is the most recent table of contents.
 <br> Section 7.10  Problems
 
 
-## Part III  Farther from Kansas
+### Part III  Farther from Kansas
 <b>Chapter 8  Inversion</b>
 <br> Section 8.1  Circles are Lines
 <br> Section 8.2  Where Do Clines Go?
@@ -414,7 +414,7 @@ Here is the most recent table of contents.
 
 <b>Chapter 11  Personal Favorites</b>
 
-## Part IV  Appendices
+### Part IV  Appendices
 <b>Chapter A  An Ounce of Linear Algebra</b>
 <br> Section A.1  Matrices and Determinants
 <br> Section A.2  Cramer's Rule
