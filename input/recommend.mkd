@@ -80,11 +80,16 @@ See also [Geoff Smith's page](http://people.bath.ac.uk/masgcs/advice.html).
 * My own: [olympiad geometry book EGMO](geombook.html)
   and [OTIS Excerpts](excerpts.html) for non-geometry.
 
+* [Art and Craft of Problem Solving][acops] by Paul Zeitz,
+  introduction to math olympiads in general.
+
 * [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134). The individual chapters are located in posts #1, #11, #49.
 
 * [Olympiad NT through Challenging Problems](http://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
   is an introductory olympiad number theory text,
   at a level somewhat easier than what my own number theory handouts assume.
+
+[acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
 
 ### Contests
 
