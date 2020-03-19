@@ -82,6 +82,15 @@ If it is possible, the best way is to have a friend or coach
 who can check your work and provide suggestions.
 But the supply of people willing to do this is admittedly very low,
 so most people are not so lucky to have access to feedback.
+The second-best thing to do is write up your solution
+and post it on the AoPS forum under the appropriate problem;
+by [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law),
+wrong solutions are often exposed quite rapidly.
+You should also compare your solutions to existing ones.
+
+Of course, you should set your sights on becoming self-sufficient eventually.
+During an exam you do not have access to feedback or other's solutions,
+and you need to be able to know when you've solved a problem.
 
 ## United States Mathematical Talent Search
 
