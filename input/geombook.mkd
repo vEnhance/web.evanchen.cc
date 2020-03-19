@@ -23,7 +23,6 @@ or international mathematical olympiads.
 However it has no prerequisites other than a good deal of courage:
 any student with proof experience
 should be able to follow the exposition.
-
 The book contains a selection of about 300 problems from around the world
 and is accompanied by about 250 figures.
 
@@ -31,7 +30,7 @@ I wrote this textbook while
 [serving time as a high school clerk][fillblank].
 You can read hear about [the publication process][publishing].
 
-## Prerequisites and sample chapters
+## Prerequisites, sample chapters and other books
 There are essentially no geometry prerequisites;
 EGMO is **entirely self-contained**.
 (This was one of the design goals.)
@@ -40,10 +39,52 @@ as long as you can follow mathematical arguments,
 then you should be able to follow the exposition
 even if you don't know any geometrical theorems.
 
-+ [Chapter 2: Circles][egmo2]. Power of a point, radical axis.
-+ [Chapter 8: Inversion][egmo8]. Inversion around a circle.
-* [Chapters 1-3][googlebook] on Google Books preview.
-* For April Fool's Day 2019, [parody version](textbooks/tr011ey.pdf) of entire book.
+You can read [Chapter 2 (Circles)][egmo2]
+and [Chapter 8 (Inversion)][egmo8] for free.
+I also found [Chapters 1-3][googlebook] on Google Books preview.
+
+Of course there are other good geometry textbooks too.
+A few that I recommend are:
+
+* [106][106], [107][107], and [110][110] Geometry Problems
+* [A Beautiful Journey Through Olympiad Geometry][stefan], which is pay-what-you-want!
+* [Lemmas in Olympiad Geometry][LOG]
+* [UKMT Plane Euclidean Geometry][ukmt], but consider starting from Chapter 3
+
+See also [advice from Geoff Smith on geometry](http://people.bath.ac.uk/masgcs/geo.pdf).
+
+[106]: https://www.awesomemath.org/product/106-geometry-problems-from-amsp/
+[107]: https://www.awesomemath.org/product/107-geometry-problems-from-amy/
+[110]: https://bookstore.ams.org/xyz-14/
+[LOG]: https://www.awesomemath.org/product/lemmas-in-olympiad-geometry/
+[stefan]: https://www.olympiadgeometry.com/
+[ukmt]: http://shop.ukmt.org.uk/ukmt-books/plane-euclidean-geometry
+
+## Parody version
+
+For April Fool's Day 2019,
+I made a [parody version](textbooks/tr011ey.pdf) of the entire book.
+
+## Errata (aka selected solutions to Problem 11.0)
+
+You can find [linked here](upload/geombook-errata.pdf)
+a list of all mistakes that I am aware of.
+Most mistakes are harmless, but a few of the mistakes
+are significant and listed here as well.
+
++ On **page 12**, Theorem 1.22, the four points could also be collinear.
++ On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.
++ On **page 107**, the proof of part (a) of the theorem
+  has several issues, and is probably best to just ignore.
+  (The result is still true, and the proof of part (b) is correct.)
++ On **page 145**, Problem 7.44, change the angle condition to $\measuredangle BC\_1A\_1 = \measuredangle ACB = \measuredangle B\_1C\_1A$.
++ On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.
++ On **page 159**, in Lemma 8.16, change "fixes $B$ and $C$" to "swaps $B$ and $C$".
++ On **page 184**, in Theorem 9.33, uniqueness is not true for (b) or (c).
+  The last sentence is also wrong as written.
+  The correct sentence is: if the *circumcircle* of a cyclic quadrilateral is preserved,
+  then so is the cross ratio of the cyclic quadrilateral.
++ On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.
 
 ## On solutions to problems
 
@@ -69,45 +110,6 @@ here are some possible places to look:
    discussion of problems in the text.
 
 4. If all of the above fail, try posting on the AoPS forums directly.
-
-## Other geometry books
-
-Here are some different geometry books that are also good:
-
-* [106][106], [107][107], and [110][110] Geometry Problems
-* [A Beautiful Journey Through Olympiad Geometry][stefan], which is pay-what-you-want!
-* [Lemmas in Olympiad Geometry][LOG]
-* [UKMT Plane Euclidean Geometry][ukmt], but consider starting from Chapter 3
-
-See also [advice from Geoff Smith on geometry](http://people.bath.ac.uk/masgcs/geo.pdf).
-
-[106]: https://www.awesomemath.org/product/106-geometry-problems-from-amsp/
-[107]: https://www.awesomemath.org/product/107-geometry-problems-from-amy/
-[110]: https://bookstore.ams.org/xyz-14/
-[LOG]: https://www.awesomemath.org/product/lemmas-in-olympiad-geometry/
-[stefan]: https://www.olympiadgeometry.com/
-[ukmt]: http://shop.ukmt.org.uk/ukmt-books/plane-euclidean-geometry
-
-## Errata (aka selected solutions to Problem 11.0)
-
-You can find [linked here](upload/geombook-errata.pdf)
-a list of all mistakes that I am aware of.
-Most mistakes are harmless, but a few of the mistakes
-are significant and listed here as well.
-
-+ On **page 12**, Theorem 1.22, the four points could also be collinear.
-+ On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.
-+ On **page 107**, the proof of part (a) of the theorem
-  has several issues, and is probably best to just ignore.
-  (The result is still true, and the proof of part (b) is correct.)
-+ On **page 145**, Problem 7.44, change the angle condition to $\measuredangle BC\_1A\_1 = \measuredangle ACB = \measuredangle B\_1C\_1A$.
-+ On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.
-+ On **page 159**, in Lemma 8.16, change "fixes $B$ and $C$" to "swaps $B$ and $C$".
-+ On **page 184**, in Theorem 9.33, uniqueness is not true for (b) or (c).
-  The last sentence is also wrong as written.
-  The correct sentence is: if the *circumcircle* of a cyclic quadrilateral is preserved,
-  then so is the cross ratio of the cyclic quadrilateral.
-+ On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.
 
 ## Table of Contents
 Here is the most recent table of contents.
