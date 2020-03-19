@@ -90,213 +90,24 @@ See also [advice from Geoff Smith on geometry](http://people.bath.ac.uk/masgcs/g
 
 ## Errata (aka selected solutions to Problem 11.0)
 
-Here are all the mistakes that I am aware of.
-If you find another one, please let me know by email.
+You can find [linked here](upload/geombook-errata.pdf)
+a list of all mistakes that I am aware of.
+Most mistakes are harmless, but a few of the mistakes
+are significant and listed here as well.
 
-<small>
-<small>
-
-+ On **page xi**, append a comma after "lectures at MOP".
-+ On **page xiii**, change "explain how it comes from" to "explain where it comes from".
-+ On **page xiv**, second bullet, the phrase "intersection the medians" is missing "of".
-+ On **page 7**, beneath Figure 1.3A, change "orthocenter of $H$" to "orthocenter of $ABC$".
-+ On **page 10**, change $(LBC)$ to $(IBC)$ in the paragraph starting "Because $LB=LI=LC$".
-+ <span style="color:red;">On **page 12**, Theorem 1.22, the four points could also be collinear.</span>
-+ On **page 12**, Proposition 1.24, the isosceles triangle condition holds only when $A$, $B$, $C$ are not collinear.
-+ On **page 16**, in problem 1.33, change "$\angle KC=90^{\circ}$" to "$\angle KCB=90^{\circ}$".
-+ On **page 18**, in problem 1.37, delete the word "again" in the definition of $Q$.
-+ On **page 18**, in problem 1.39, $I$ is the incenter of $\triangle ABC$.
-+ On **page 19**, in problem 1.45, change "ray $BI$" to "the $\angle B$-bisector".
-+ On **page 20**, in problem 1.47, change "Let $ABC$ be triangle" to "Let $ABC$ be a triangle".
-+ On **page 24**, in Problem 2.2, change $\measuredangle BCA = \measuredangle YZX$
-  to $\measuredangle ABC = \measuredangle XYZ$.
-+ On **page 28**, change "immediately corollary" to "immediate corollary".
-+ On **page 29**, in Theorem 2.9, excise "of Intersecting Circles" from the theorem name.
-+ On **page 29**, in proof of Theorem 2.9, change both $>0$'s to $<0$'s.
-+ On **page 30**, bottom of page, "coaxal" should be "coaxial".
-+ On **page 31**, in Lemma 2.13, the circles can also be tangent
-  to one another at $X$ (i.e. the intersection is counted with multiplicity).
-+ On **page 32**, near start of S2.6, "alluded the excenter" is missing "to".
-+ On **page 33**, in Lemma 2.20, swap the definitions of $X$ and $D$.
-  (The problem is technically correct as stated,
-  but it should be consistent with Figure 2.6A.)
-+ On **page 34**, in solution to Example 2.21, in
-  "we already know that that lines $PQ$, $RS$, and $XY$ concur at a point $X$",
-  the extraneous "that" and "$X$" should both be deleted.
-+ On **page 34**, end of third paragraph after Example 2.21,
-  change $O\_1O\_3$ to $\overline{O\_2O\_3}$.
-+ On **page 35**, in the second set of aligned equations,
-  change $O\_2X^2$ to $OO\_2^2$.
-+ On **page 39**, Example 2.24, $I$ is the incenter.
-+ On **page 40**, Problem 2.29, change "six points" to "the six points".
-+ On **page 40**, Problem 2.30, the lines may also be pairwise parallel.
-+ On **page 48**, Theorem 3.8, the lines may also be pairwise parallel.
-+ On **page 49**, third to last line, lengths are multiplied by $|k|$.
-+ On **page 51**, before Lemma, in "this circles is called the nine-point circle", change "circles" to "circle".
-+ On **page 54**, third paragraph, change "pick let" to "let".
-+ On **page 65**, Problem 4.25, change $\frac{BM}{MC}$ to $\frac{CM}{MB}$.
-+ On **page 67**, in Lemma 4.33, change the second $\omega$ to $\Omega$.
-+ <span style="color:red;">On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.</span>
-+ On **page 68**, just before Problem 4.38, change "show" to "shown".
-+ On **page 71**, Problem 4.53 is missing a trailing period.
-+ On **page 92**, in Problem 5.23, when defining point $G$,
-  line $HE$ should intersect $\Gamma\_1$, not $\Gamma\_2$.
-  Also, "interest" should be "intersect" in the first line.
-+ On **page 97**, Figure 6.2A, should be $iz = -4+3i$.
-+ On **page 101**, in the proof of Example 6.10, Lemma 6.3 should be Lemma 6.5.
-  Also, $\frac{xa}{bc}$ should be $\frac{bc}{xa}$ (two changes).
-+ On **page 105**, in Problem 6.20 change "Theorem 6.16" to "Theorem 6.15".
-+ <span style="color:red;">On **page 107**, the proof of part (a) of the theorem
-  has several issues, and is probably best to just ignore.</span>
++ On **page 12**, Theorem 1.22, the four points could also be collinear.
++ On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.
++ On **page 107**, the proof of part (a) of the theorem
+  has several issues, and is probably best to just ignore.
   (The result is still true, and the proof of part (b) is correct.)
-  <!-- in Figure 6.6b, swap all instances of $v$ and $w$.
-  Replace $b=w^2$ and $c=v^2$ just below the figure with $b=v^2$ and $c=w^2$.
-  Delete the first bullet altogether.
-  Second bullet, $v$ has argument $\beta$ and $w$ has argument $-\gamma$.
-  Also, change $\min(2\beta,2\pi-2\gamma)$ to $2\pi-2\gamma$
-  and $\max(2\beta, 2\pi-2\gamma)$ to $2\beta$. -->
-+ On **page 111**, the last expression should actually be negated.
-+ On **page 112**, in the second displayed line, change $y^2+x^2z/y$ to $-y^2+x^2z/y$.
-  In the fourth, change the second $y^2/z^2$ to $z^2/y^2$.
-  In the ninth, change the second $y^2/z^2$ to $z^2/y^2$.
-+ On **page 113**, in the definition of $M\_2$, change $DH\_A$ to $AH\_A$.
-+ On **page 114**, Solution 6.27, the $a$ in the numerator of $a'$ should be $\bar a$.
-  Follow through with the rest of the solution.
-+ On **page 121**, "his idea" to "this idea".
-+ On **page 132**, in the proof of Example 7.20, change $C = (0, 0, 1)$ to $D = (0, 0, 1)$.
-+ On **page 133**, Proposition 7.21, last display, change $S_a$ to $S_A$.
-+ On **page 136**, very top, $c=AE$ should be $c=AC$.
-+ On **page 138**, eighth line from top, change $AD:AC$ to $AD:CD$.
-+ On **page 139**, Solution 7.29, change the first display to
-  $0 = c^2(t-1) + (a^2-b^2) \implies t = \frac{c^2+b^2-a^2}{c^2}$.
-+ On **page 140**, in the second display, $x+y$ should be $x-y$.
-+ On **page 142**, very top, in $a^2=S\_{AB}+S\_{AC}$, change LHS to $a^2S\_A$.
-  Also, the rest of the solution is wrong, since a factor of two is dropped in the first display.
-+ <span style="color:red;">On **page 145**, Problem 7.44, change the angle condition to $\measuredangle BC\_1A\_1 = \measuredangle ACB = \measuredangle B\_1C\_1A$.</span>
-+ <span style="color:red;">On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.</span>
-+ On **page 144**, second line of 7.42, change "tangency points" to "tangency point".
-+ On **page 149**, second paragraph of 8.1, change "three ordinary points" to "three noncollinear ordinary points".
-+ On **page 149**, third paragraph of 8.1, change $R$ to $r$.
-+ On **page 150**, in Lemma 8.1, replace "tangents from $A^\ast$" with "tangency points from $A^\ast$".
-+ On **page 151**, at start of 8.2, in "simplest example is a just a line", delete the extra "a".
-+ On **page 151**, immediately before figure, add a period after 8.2A.
-+ On **page 155**, first bullet, delete the extra comma.
-+ On **page 159**, second line of Example 8.15, change "tangent to $\omega$ at $T$" to "tangent to $\Omega$ at $K$".
-  Also, in the second paragraph of the proof, change the last $\Gamma$ to $\Omega$.
-+ <span style="color:red;">On **page 159**, in Lemma 8.16, change "fixes $B$ and $C$" to "swaps $B$ and $C$".</span>
-+ On **page 162**, item 5 of list, change $G\_1$ to $G\_1^\ast$.
-  Also in the first paragraph of the solution.
-+ On **page 163**, switch $C^\ast$ and $D^\ast$ in the diagram.
-+ On **page 163**, step 3, change $BS^\ast$ to $BC^\ast$.
-+ On **page 164**, switch $S^\ast$ and $R^\ast$ in the diagram.
-+ On **page 167**, Problem 8.36, "circumcircle" is misspelled.
-+ On **page 171**, Theorem 9.2, change "$\overline{AB}$ and $\overline{XY}$" to "segments $AB$ and $XY$".
-+ On **page 173**, in Problem 9.4, add $k \neq 0$.
-+ On **page 174**, display in proof of Lemma 9.9, change $(A,B;Q,P)$ to $(A,B;P,Q)$.
-+ On **page 174-175**, in names of Lemmas 9.11-9.12,
-  change "Induces" to "Induce".
-+ On **page 175**, "directed form *of* Ceva's theorem".
-+ On **page 176**, in Problem 9.14, delete "and Lemma 9.18" (and "proofs" to "proof").
-+ On **page 177**, in Lemma 9.18, change "imply" to "implies".
-+ On **page 178**, in the proof of Theorem 9.19, change $\angle CAY = \angle YBC$ to $\angle ACY = \angle YCB$.
-+ On **page 179**, top of page, first sentence, $\ell$ is allowed to pass through $O$.
-+ On **page 181**, in Lemma 9.27, change "pole" to "polar" (two instances).
-+ <span style="color:red;">On **page 184**, in Theorem 9.33,
-  uniqueness is not true for (b) or (c).
++ On **page 145**, Problem 7.44, change the angle condition to $\measuredangle BC\_1A\_1 = \measuredangle ACB = \measuredangle B\_1C\_1A$.
++ On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.
++ On **page 159**, in Lemma 8.16, change "fixes $B$ and $C$" to "swaps $B$ and $C$".
++ On **page 184**, in Theorem 9.33, uniqueness is not true for (b) or (c).
   The last sentence is also wrong as written.
   The correct sentence is: if the *circumcircle* of a cyclic quadrilateral is preserved,
-  then so is the cross ratio of the cyclic quadrilateral.</span>
-+ On **page 184**, in Example 9.34, swap the definitions of $P$, $Q$.
-+ On **page 187**, in solution to 9.38, $I\_A$ is the $A$-excenter (of course).
-+ On **page 189**, in Solution 1, $T$ should be $\overline{AA} \cap \overline{CR}$.
-+ On **page 190**, immediately before problems, $P$ is the point at infinity along $\overline{AC}$ instead.
-+ On **page 193**, Problem 9.58, delete the last "again" in definitions of $P$, $Q$.
-+ On **page 200**, in third sentence of proof, add "of" after "radical center".
-+ On **page 201**, Lemma 10.9, change "though" to "through".
-+ On **page 202**, Proposition 10.14, delete extra "the" before $M$.
-+ On **page 202**, part (a), the latter four circles should be
-  $(PAB)$, $(PCD)$, $(QAD)$, $(QBC)$.
-+ On **page 206**, problem 10.23, change "IMO 2005/2" to "IMO 2005/5", and "lie of the sides" to "lie on the sides".
-+ On **page 209**, problem 11.6, change "circumcenter" to "circumcircle".
-+ On **page 210**, problem 11.8, assume $AB \neq AC$.
-+ On **page 210**, problem 11.10, change "$PA$, $PB$, $PC$" to "$AP$, $BP$, $CP$".
-+ On **page 216**, in phrase "third column from the first column",
-  change "first" to "second".
-+ On **page 218**, in definition of vector addition,
-  change to $\left\langle x\_1+x\_2, y\_1+y\_2 \right\rangle$.
-+ On **page 223**, hint 77, replace "$\measuredangle CMN = \measuredangle BMN$"
-  with "$\measuredangle CNM = \measuredangle BNM$".
-+ On **page 223**, hint 96 is wrong (see page 274 correction below).
-+ On **page 224**, hint 112 is wrong (see page 274 correction below).
-+ On **page 225**, hint 164 should be: let $X = \overline{EF} \cap \overline{BC}$ and $Y = \overline{AD} \cap \overline{EF}$, show $(X,Y;E,F) = -1$.
-+ On **page 226**, hint 183, replace "$ABCD$" with "$ABXY$".
-+ On **page 226**, hint 185, replace "$\angle WXY = 40^{\circ}$"
-  with "$\angle XZY = 40^{\circ}$".
-+ On **page 226**, hint 193, replace "major arc $BC$" with "arc $\widehat{BAC}$".
-+ On **page 226**, hint 197 is wrong (see correction to Solution 6.45 below).
-+ On **page 226**, hint 218, change $AC$ and $BD$ to $AB$ and $XY$.
-+ On **page 227**, hint 231, replace $P,C,D$ with $P,A,B$; replace $ABCD$ with $AXBY$.
-+ On **page 227**, hint 232, $L$ should be the midpoint of $BC$.
-+ On **page 227**, hint 252, replace $O$ with $O^\ast$.
-+ On **page 227**, hint 255, replace $C$ with $C^\ast$.
-+ On **page 228**, hint 257, change "as do $C$ and $F$" to "as do $B$ and $D$".
-+ On **page 229**, hint 303, change first two instances of $de$ to $bc$.
-+ On **page 229**, hint 316, change "the circle is" to "the circle is centered at".
-+ On **page 229**, hint 321, delete "applies".
-+ On **page 230**, hint 355, change $AC$ to $AB$.
-+ On **page 230**, hint 340, replace $P$ with $\overline{A\_1A\_2} \cap \overline{C\_1C\_2}$.
-+ On **page 230**, hint 362, $X$ should instead be the second intersection of $QI$ with the circumcircle.
-+ On **page 231**, hint 373, replace "$90^{\circ}-A$" with "$90^{\circ}-B$".
-+ On **page 231**, hint 380, replace "$\sin 30^{\circ}$" with "$i \sin 30^{\circ}$".
-+ On **page 231**, hint 383, "trigonometric" is misspelled.
-+ On **page 231**, hint 389, change $L^\ast$ to $A^\ast$.
-+ On **page 231**, hint 393, delete "$M=(0:1:1)$" and change the later "$L$" to "$M$".
-+ On **page 232**, hint 425, change "reflection" to "reflections".
-+ On **page 233**, hint 449, change $A$ to $C$.
-+ On **page 235**, hint 544, change "equivalent" to "equivalent to".
-+ On **page 235**, hint 554, change the similarity to $\triangle AOD \sim \triangle CO\_1D$.
-+ On **page 238**, hint 649 is wrong (see correction to Solution 6.45 below).
-+ On **page 238**, hint 653 is missing a period.
-+ On **page 238**, hint 666, change $\frac{XB}{XA}$ to $\frac{XA}{XB}$.
-+ On **page 242**, in Solution 1.46, should be $\triangle O'AB \cong \triangle ODC$.
-+ On **page 243**, in Solution 1.50, one also needs to check $A$, $P$, $W$ are collinear.
-  Thus, add the remark $\measuredangle NPA = \measuredangle NMA = \measuredangle NMC = \measuredangle NBC = \measuredangle NBW = \measuredangle NPW$.
-+ On **page 246**, in Solution 3.17, change $X\_1Y\_1$ to $X'Y'$ at the bottom (twice).
-+ On **page 249**, Solution 3.29, add a remark that $(AMN)$ is tangent to $(ABC)$.
-+ On **page 250**, in Solution 4.50, second-to-last sentence, change "circumcircle" to "circumcenter".
-+ On **page 250**, in Solution 4.52, second display,
-  change $\measuredangle BDE = \measuredangle BED + \measuredangle BDE = \dots$
-  to $\measuredangle BDE = \measuredangle BED + \measuredangle DBE = \dots$.
-+ On **page 252**, in Solution 4.52, last display,
-   change $\measuredangle BED + \measuredangle BDE$ to $\measuredangle BED + \measuredangle DBE$.
-+ On **page 252**, in Solution 5.21, change $-BI \cdot CI \cdot \sqrt2$ to $+ BI \cdot CI \cdot \sqrt2$.
-  Thus, in last display change $\sqrt2$ to $-\sqrt2$.
-+ On **page 259**, in Solution 6.36, change $ab-1$ to $ab+1$ and follow through.
-+ On **page 262**, there is a minus sign missing on fifth display.
-  Carrying through, we actually get $x = h - \frac{bc(a+b+c)}{b^2+bc+c^2}$ instead,
-  id est we want $x/h = 1 - \frac{bc}{b^2+bc+c^2}$ to be real.
-+ On **page 265**, in Solution 6.45, the solution proves $|(a-b)(c-e)(d-f)|=|(d-e)(f-b)(a-c)|$.
-  It should instead prove $|(b-c)(a-e)(f-d)|=|(c-a)(e-f)(d-b)|$,
-  which is the same up to permutation of point labels.
-+ On **page 268**, at the end of Solution 7.42, the end of the display should be $-2S\_A+2bc$.
-+ On **page 268**, Solution 7.44, $A\_0$ should be $(0:a-uc/a:uc/a)$ in the second display.
-+ On **page 271**, the solution 7.52, second-to-last display, the expressions actually equal $-\gamma$, not $\gamma$.
-+ On **pages 273-274**, Solution 8.31, swap $A$ and $C$ everywhere.
-+ On **pages 274**, Solution 8.36, change "nine-point circle" to "the nine-point circle" in second sentence.
-+ <span style="color:red;">On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.</span>
-+ On **page 276**, in Solution 9.47, change $(A,X;B,C)$ to $(A,X;C,B)$.
-+ On **page 277**, in Solution 9.50, change $\overline{CG} \cap \overline{BE}$ to $\overline{CG'} \cap \overline{BE}$.
-+ On **page 281**, in Solution 10.26, the last line, change $\measuredangle HMN$ to $\measuredangle HNM$.
-+ On **page 282**, in Solution 10.29, change $(P,E;X,Y)$ to $(F,E;X,Y)$ in last paragraph.
-+ On **page 288**, in Solution 11.9, last display, change $\frac{KL}{PL}$ to $\frac{PL}{KL}$.
-+ On **page 296**, in Solution 11.18, very very end, change $2t$ to $(b^2+c^2)t$.
-+ On **page 297**, in Solution 11.18, the first display should read $-a^2v + b^2w + c^2v = (b^2+c^2)t + (abc)^2 - (ab)^2S\_B - a^2t = S\_A ((ab)^2 + 2t)$. The next display should be $X' = \left( a^2vw : S\_A(c^2S\_C+t)((ab)^2+2t) : S\_A(b^2S\_B+t)((ac)^2+2t) \right)$. Similarly for $Y'$ and $Z'$.
-+ On **page 297**, in Solution 11.19, start of last paragraph, change $DBC\_1$ to $DB\_1C\_1$.
-+ On **page 303**, in the description of IMO, change "problem" to "problems".
-+ On **page 305**, the link to reference [3] is broken. Thankfully, it's on this website!
-+ On **page 305**, reference [10], change "Geogebral" to "Geogebra".
-</small>
-</small>
+  then so is the cross ratio of the cyclic quadrilateral.
++ On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.
 
 ## Table of Contents
 Here is the most recent table of contents.
