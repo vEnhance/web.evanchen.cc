@@ -68,6 +68,7 @@ knows much more than that.
 
 
 ### 5. How do I learn to write proofs?
+
 I don't think there's actually a leap between computation and proof-writing, and
 I actually suspect that thinking proof-writing is hard is most of what makes it hard.
 Reasons it might appear hard:
@@ -162,8 +163,29 @@ See also: [Against Perfect Scores][perfect].
 
 <br>
 
+### 9. Should I take the time to write up full solutions to problems I solve in training?
 
-### 9. Can you solve $X$ problem for me?
+It depends on who you ask; you'll get different advice.
+On the one hand, writing the solution completely is actually really helpful
+(cleaning up solution, noticing errors, just getting to know things better).
+On the other hand, can also be very time-consuming
+(time that could be spent solving a different problem).
+So you get some varying answers and it may just depend on the person.
+
+That said, I think it is usually a mistake to write nothing at all.
+I require my students to at least write down a couple sentences on
+the main idea of their solution --- so that, if they read the solution a few years later,
+they would understand the main idea,
+and basically know how to work out the rest of the details from there.
+This process of having to summarize the key ideas is also helpful,
+and takes so little time that there's no excuse not to do it (in my opinion).
+
+Of course, a lot of strong students still do full write-ups anyways,
+and I do so myself, just out of a habit of trying to do things well.
+
+<br>
+
+### 10. Can you solve $X$ problem for me?
 Probably not.
 If you send me a problem, usually I will at least read it.
 If I have seen it before or can quickly see how to do it,
