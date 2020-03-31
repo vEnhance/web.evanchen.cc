@@ -27,10 +27,14 @@ most notably including a [geometry textbook](geombook.html).
 I also [teach my own classes](otis.html).
 
 I am on [GitHub](https://github.com/vEnhance/),
-[Facebook](facebook.com/evanchenmath/),
+[Facebook](https://facebook.com/evanchenmath/),
+[Twitch](https://twitch.tv/vEnhance),
 and [WordPress](https://usamo.wordpress.com).
 You can also see my [personal page](personal.html) for trivia about myself.
 
 <center>
-<img src="static/home-art.png" width="300" />
+<img src="static/home-art.png" width="400" />
+<small><p>The nine-point circle of $\triangle BIC$ is orthogonal to
+the circle with diameter $ST$.</p>
+<p>Problem source: [Taiwan TST Quiz 2015](https://artofproblemsolving.com/community/c6h1113644p5087419)</p></small>
 </center>
