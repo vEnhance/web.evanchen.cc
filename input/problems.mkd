@@ -1,4 +1,4 @@
-title: Problems & Solutions
+title: Problems & solutions
 menu-position: 31
 header: Olympiad Problems and Solutions
 indent: 1

@@ -1,5 +1,5 @@
-title: CV / Résumé
-header: CV / Résumé
+title: CV / résumé
+header: CV / résumé
 menu-position: 2
 url: upload/public-CV.pdf
 indent: 1

@@ -1,4 +1,4 @@
-title: Course Notes
+title: Course notes
 header: Mathematics Coursework and Lecture Notes
 menu-position: 50
 indent: 1
