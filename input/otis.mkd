@@ -16,7 +16,6 @@ and can usually qualify for national olympiad,
 Students at other levels should feel welcome to contact
 me for referrals to other mentors.
 
-
 # Special spring session (spring 2020)
 
 Because of the widespread school closures due to COVID-19,
@@ -24,6 +23,33 @@ I decided to open a number of additional spots for OTIS Correspondence
 from March 23, 2020 to May 25, 2020.
 Here are [details and application instructions](upload/special-sp20-otis-session.pdf).
 
+# The OTIS Excerpts
+
+Around the start of 2019, I posted publicly a
+[collection of 192 problems and solutions](excerpts.html)
+based on materials for OTIS.
+This mini-book was named *The OTIS Excerpts*.
+It is designed to mostly be beginner-friendly
+though some of the chapters are more challenging.
+
+# Application --- Year VI
+
+The application for fall 2020 is now open.
+The **deadline** to apply is **August 1, 2020 at 11:59 PM PT**
+although starting this year there is some procedure
+for late applications up until December 1.
+
+* [Application problems for fall 2020](upload/otis-app-vi.pdf)
+* [Submission URL for fall 2020](https://forms.gle/LKqrGpR1gqY4yCVT9)
+
+Usually I am not able to take all (or even most) requests, but even then
+I can often refer you to other instructors who are less busy than me.
+If you would like referrals, contact me directly,
+and I may be able to connect you with someone else.
+
+# About OTIS
+
+Here is some information about the program and what it is.
 
 ## Description
 
@@ -50,21 +76,6 @@ and is not really meant as a tutoring program.
 
 The (long) [syllabus](upload/otis-syllabus.pdf)
 contains the full details.
-
-## Application --- Year VI
-
-The application for fall 2020 is now open.
-The **deadline** to apply is **August 1, 2020 at 11:59 PM PT**
-although starting this year there is some procedure
-for late applications up until December 1.
-
-* [Application problems for fall 2020](upload/otis-app-vi.pdf)
-* [Submission URL for fall 2020](https://forms.gle/LKqrGpR1gqY4yCVT9)
-
-Usually I am not able to take all (or even most) requests, but even then
-I can often refer you to other instructors who are less busy than me.
-If you would like referrals, contact me directly,
-and I may be able to connect you with someone else.
 
 ## Documents
 
@@ -132,10 +143,8 @@ though he didn't do that much.
 
 ## Photos
 
-
 <img src="static/otis-imo-2018.png" width="400" />
 <img src="static/otis-imo-2019.jpg" width="400" />
-
 
 [asif]: https://www.imo-official.org/participant_r.aspx?id=26436
 [ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
