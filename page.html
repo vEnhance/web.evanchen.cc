@@ -60,11 +60,11 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
         mpages.sort(key=lambda p: int(p["menu-position"]))
         for p in mpages:
             if "indent" in p:
-                open_tag = "<h4>&nbsp; &bullet; &nbsp;"
-                close_tag = "</h4>"
+                open_tag = r'<b style="font-size:90%%;">&nbsp; &bullet; &nbsp;'
+                close_tag = r'</b><br />'
             else:
-                open_tag = "<h4>"
-                close_tag = "</h4>"
+                open_tag = '<h4>'
+                close_tag = '</h4>'
             if p["title"] == page["title"]:
                 entry = open_tag + '%s' + close_tag
                 print(entry % (hx(p["title"])))
