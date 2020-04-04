@@ -19,12 +19,14 @@ Here's a little about myself as person:
 You can also see the following pages on this website:
 
 + [Games I enjoy](games.html)
++ [Volunteer history](outreach.html)
 + [Math contest photos and history](myscores.html)
 
 Some other places on the Internet you can find me:
 
 + [Blog on usamo.wordpress.com](https://usamo.wordpress.com)
 + [Facebook page](https://facebook.com/evanchenmath/)
++ [twitch.tv](https://twitch.tv/vEnhance/)
 + [Dot-files on GitHub](https://github.com/vEnhance/dotfiles)
 + [My Anime List](https://myanimelist.net/animelist/v_Enhance)
 + [Board Game Geek profile](https://boardgamegeek.com/user/vEnhance/)

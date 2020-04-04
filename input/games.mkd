@@ -1,6 +1,4 @@
-title: Games
 header: Some Favorite Games
-menu-position: 66
 indent: 1
 description: Tabletop, card, video games that I enjoy
 

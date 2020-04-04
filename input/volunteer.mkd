@@ -1,5 +1,3 @@
-title: Outreach
-menu-position: 68
 header: Outreach for High School Math
 indent: 1
 description: Listing of volunteer roles
