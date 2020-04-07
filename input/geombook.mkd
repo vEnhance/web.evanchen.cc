@@ -67,10 +67,9 @@ I made a [parody version](textbooks/tr011ey.pdf) of the entire book.
 
 ## Errata (aka selected solutions to Problem 11.0)
 
-You can find [linked here](upload/geombook-errata.pdf)
-a list of all mistakes that I am aware of.
-Most mistakes are harmless, but a few of the mistakes
-are significant and listed here as well.
+[Here is a list of all mistakes that I am aware of.](upload/geombook-errata.pdf)
+Most mistakes are harmless, but a few of the mistakes are significant;
+the important ones are reproduced here, too.
 
 + On **page 12**, Theorem 1.22, the four points could also be collinear.
 + On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.
