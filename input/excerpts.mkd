@@ -20,6 +20,9 @@ It is a collection of 192 problems and solutions.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
+There is also a [user-created forum][forum]
+for discussing the examples and problems from the text.
+
 ### Contents
 
 The Excerpts consists of selected problems from the following
@@ -50,3 +53,4 @@ Geometry is not covered;
 
 [recent]: http://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf
 [catalog]: http://web.evanchen.cc/static/otis-samples/synopsis.html
+[forum]: https://artofproblemsolving.com/community/c1123852_otis_excerpts
