@@ -92,7 +92,7 @@ Of course, you should set your sights on becoming self-sufficient eventually.
 During an exam, you do not have access to feedback or other's solutions,
 so you need to be able to know when you've solved a problem!
 
-## 3. United States Mathematical Talent Search
+## 3. United States Mathematical Talent Search and USEMO
 
 If you are in the United States,
 there is a nice proof-based contest called the [USAMTS](https://usamts.org/)
@@ -106,6 +106,11 @@ Things that make the USAMTS special:
 	rather than having a short time limit.
 * You get some feedback on your proofs as well, not just a score.
 
+I also run a contest called the [USEMO](usemo.html) in the fall
+which is also free and offers feedback,
+but is intended to mimic the USAMO and IMO in format and difficulty.
+One could try using it as "practice USAMO" in the fall.
+
 ## 4. Books to read
 
 There is some more material you have to learn as well,
@@ -114,7 +119,7 @@ since there are some new classes of problems
 that you will likely not have seen before from
 just working on short-answer contests.
 
-To toot my own horn further,
+To toot my own horn further, as if I haven't enough already,
 I wrote the following two books to be possible introductions:
 
 * The [OTIS Excerpts](excerpts.html) for everything other than geometry, and
