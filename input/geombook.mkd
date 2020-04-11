@@ -79,17 +79,18 @@ here are some possible places to look:
    should form an outline of the complete solution
    (even if the details are omitted).
 
-2. I included sources for as many of the problems as possible,
+2. There is a [user-created forum][userforum]
+   which has a link to discussion for every problem.
+
+3. I included sources for as many of the problems as possible,
    so looking up the corresponding thread on
    [Art of Problem Solving's Contest Index][contests]
    will generally yield a solution to any sourced problem.
    (The search function can work too, but is usually less helpful.)
 
-3. There is a [user-created forum](https://aops.com/community/c618937)
-   on Art of Problem Solving dedicated to (among other things)
-   discussion of problems in the text.
-
 4. If all of the above fail, try posting on the AoPS forums directly.
+
+[userforum]: https://artofproblemsolving.com/community/c618937h1605831_egmo_problem_discussions_links
 
 ## More resources
 
