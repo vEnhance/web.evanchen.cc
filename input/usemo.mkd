@@ -85,11 +85,11 @@ The two biggest things we can use help with are:
 + **Problem proposals**: we welcome proposals for problems
 	from anyone who is not eligible for the contest.
 
-Please contact Evan Chen for details, or if you have other ideas
-on how you could help out.
+Please contact Evan Chen for details on these,
+or if you have other ideas on how you could help out.
 
 [usamts]: https://usamts.org/
 [imo]: https://www.imo-official.org
-[mission]: static/usemo-mission.pdf
-[rules]: static/rules-mission.pdf
+[mission]: static/mission-usemo.pdf
+[rules]: static/rules-usemo.pdf
 [usamo]: https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad
