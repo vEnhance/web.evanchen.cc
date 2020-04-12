@@ -1,5 +1,5 @@
-title: Videos
-header: Twitch and YouTube
+title: Video / stream
+header: twitch.tv/vEnhance
 description: Evan records himself doing dumb stuff
 indent: 1
 menu-position: 66
@@ -8,23 +8,27 @@ menu-position: 66
 
 In early 2020 I created a
 [Twitch stream](https://www.twitch.tv/vEnhance)
-and since then I occasionally stream myself working on IMO shortlist
-or other contest problems.
+that I stream on some (but not all) weeks.
+Content includes:
+
+* Primarily, working on IMO shortlist or other contest problems with other viewers.
+* Twitch chat asking questions about various things
+* Games: metal league StarCraft, AoPS FTW!, ...
+
 The stream is run on [twitch.tv/vEnhance](https://www.twitch.tv/vEnhance).
-
-## YouTube
-
-Past broadcasts stored on
-[my YouTube channel](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA).
 
 ## Twitch schedule
 
 You can find a
 [schedule for the stream](https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=MONTH),
 also below.
+Friday night at 8pm Eastern is the most common time.
 Generally, I will also
 [announce on Facebook](https://www.facebook.com/evanchenmath).
 
 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=MONTH" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
 
+## Past broadcasts
 
+* [Past broadcasts, by problem](https://www.twitch.tv/venhance/videos?filter=highlights&sort=time)
+* [Past broadcasts by date (YouTube)](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA).
