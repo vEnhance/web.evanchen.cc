@@ -30,5 +30,5 @@ Generally, I will also
 
 ## Past broadcasts
 
-* [Past broadcasts, by problem](https://www.twitch.tv/venhance/videos?filter=highlights&sort=time)
-* [Past broadcasts by date (YouTube)](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA).
+* [Past broadcasts by problem](https://www.twitch.tv/venhance/videos) stored using Twitch highlights.
+* [Past broadcasts by date](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA) stored on YouTube.
