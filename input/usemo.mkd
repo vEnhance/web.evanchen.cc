@@ -6,7 +6,7 @@ description: Landing page for the USEMO
 ---
 
 <span style="float:right;padding:10px;">
-<a href="static/usemo-logo.png">
+<a href="static/usemo/usemo-logo.png">
 <img width="240" src="static/usemo-logo.png" />
 </a>
 </span>
@@ -60,6 +60,7 @@ and for the first year registration is on a first-come first-serve basis.
 * Answer sheet template
 * Full rules and procedures
 * [Mission statement][mission]
+* [Problem proposal guidelines (for authors)][propose]
 
 ## Prizes
 
@@ -81,15 +82,19 @@ The two biggest things we can use help with are:
 	you do NOT need past competition experience.
 	We will provide marking schemes,
 	and pair up experienced graders with newer ones.
+	If you're interested in this, please contact Evan Chen.
 
 + **Problem proposals**: we welcome proposals for problems
 	from anyone who is not eligible for the contest.
+	See the [problem proposal guidelines][propose].
 
 Please contact Evan Chen for details on these,
 or if you have other ideas on how you could help out.
 
 [usamts]: https://usamts.org/
 [imo]: https://www.imo-official.org
-[mission]: static/mission-usemo.pdf
-[rules]: static/rules-usemo.pdf
 [usamo]: https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad
+
+[mission]: static/usemo/mission-usemo.pdf
+[rules]: static/usemo/rules-usemo.pdf
+[propose]: static/usemo/proposal-guidelines-usemo.pdf
