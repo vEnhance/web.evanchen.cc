@@ -17,7 +17,7 @@ Like many competitions, its goals are to
 develop interest and ability in mathematics (rather than measure it).
 However, it is one of few
 proof-based contests **open to all US middle and high school students**.
-This contest is not sponsored
+This contest is *not* sponsored
 by the Mathematical Association of America
 (which runs the [USAMO][usamo]).
 
@@ -70,6 +70,12 @@ Check back towards the end of April 2020 for details.
 
 Nothing here yet!
 
+# Contact
+
+The directors of the USEMO are Evan Chen,
+Brice Huang, and Carl Schildkraut.
+You can reach all three at the email $\texttt{usemo@evanchen}\cdot\texttt{cc}$.
+
 # Volunteer
 
 Volunteering is open to anyone who is not themselves eligible to compete.
@@ -88,7 +94,7 @@ The two biggest things we can use help with are:
 	from anyone who is not eligible for the contest.
 	See the [problem proposal guidelines][propose].
 
-Please contact Evan Chen for details on these,
+Please contact the directors for details on these,
 or if you have other ideas on how you could help out.
 
 [usamts]: https://usamts.org/
