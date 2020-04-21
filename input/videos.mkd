@@ -26,7 +26,7 @@ Friday night at 8pm Eastern is the most common time.
 Generally, I will also
 [announce on Facebook](https://www.facebook.com/evanchenmath).
 
-<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=MONTH" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
 
 ## Past broadcasts
 
