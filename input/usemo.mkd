@@ -28,37 +28,29 @@ You can read the [full USEMO mission statement][mission]
 to get a better sense for the goals of the competition.
 
 The USEMO is largely run on an honor system, although we may offer prizes.
-Full details will be provided by the end of April 2020.
-<!--
-Please check the [USEMO full rules and procedures][rules]
-for details about the format.
--->
+Please check the [full rules and procedures][rules].
 
 # Current instance
 
 The 1st USEMO will take place over 2 days, with 4.5 hours each day.
-Each day carries three problems worth 7 points.
+Each day carries three problems each worth 7 points.
 
 * Day 1 is tentatively scheduled for Saturday **May 23 2020**, from 12:30pm ET to 5:00pm ET.
 * Day 2 is tentatively scheduled for Sunday **May 24 2020**, from 12:30pm ET to 5:00pm ET.
 
-(However, we expect future USEMO's to take place in the fall.)
-More details about the format and sign-up
-will be provided by the end of April 2020.
+(However, we expect future USEMO's could take place in the fall, if at all.)
 
-<!--
-If you would like to sign up, please complete the
-[sign-up form][signup].
-The capacity of the USEMO is limited to a few hundred students
-and for the first year registration is on a first-come first-serve basis.
--->
+## Sign-up
+
+If you would like to sign up, please complete the [sign-up form][signup].
 
 ## Links and downloads
 
 (To be added over time, by end of April 2020)
 
-* Answer sheet template
-* Full rules and procedures
+* [Sign-up form][signup]
+* [Answer sheet template][answersheet]
+* [Full rules and procedures][rules]
 * [Mission statement][mission]
 * [Problem proposal guidelines (for authors)][propose]
 
@@ -101,6 +93,8 @@ or if you have other ideas on how you could help out.
 [imo]: https://www.imo-official.org
 [usamo]: https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad
 
+[answersheet]: static/usemo/answer-template-usemo.pdf
 [mission]: static/usemo/mission-usemo.pdf
 [rules]: static/usemo/rules-usemo.pdf
 [propose]: static/usemo/proposal-guidelines-usemo.pdf
+[signup]: https://forms.gle/P7tqip2xst8EMXLJ7
