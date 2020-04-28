@@ -132,7 +132,8 @@ h5, h6 {
     -webkit-border-radius: 11px;
     margin-top: 5px;
 }
-h1#sitetitle {
+
+#sitetitle {
     text-align: left;
     font-size: 30pt;
     position: relative;
@@ -142,6 +143,10 @@ h1#sitetitle {
     color: #FF6600; /* reddish, for head */
     line-height: 2.4;
     font-weight: 500;
+}
+
+#pagetitle {
+    font-weight: 700;
 }
 
 #side {
@@ -170,22 +175,35 @@ h1#sitetitle {
 }
 
 #email_box {
-    margin: 7px;
+    margin-top: 3px;
     background-color: #87CEEB;
     border-radius: 9px;
     -moz-border-radius: 9px;
     -webkit-border-radius: 9px;
     border: 2px solid #48D1CC;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 80%;
+    width: 100%;
+    /*
     width: 300px;
     position: absolute;
     left: 58%;
     top: 70px;
-    padding: 2px 6px 3px;
+    */
 }
 
-h1#pagetitle {
+#navtitle {
+    color: blue;
     font-weight: 700;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
 }
+
 
 /*
  * ENTRY AND ENTRY WRAP

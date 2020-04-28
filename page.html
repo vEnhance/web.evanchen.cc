@@ -42,10 +42,6 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
 
 <div class="container">
 
-<div id="email_box">Email: ev<!-- meow here kitty -->an&nbsp;
-    [at]&nbsp;evanchen&bullet;<!-- com -->cc</div>
-
-
 <div class="row align-items-center">
 <div class="col-12">
 <div id="header"><a href="/"><h1 id="sitetitle">
@@ -56,9 +52,48 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
 </div>
 </div>
 
+<div class="row">
+    <div class="co-6 offset-6 col-md-4 offset-md-8">
+        <div id="email_box">Email: ev<!-- meow here kitty -->an&nbsp;
+        [at]&nbsp;evanchen&bullet;<!-- com -->cc</div>
+    </div>
+</div>
 
 <div id="content" class="row">
-    <div class="col-12 col-md-9">
+    <div class="col-12 col-md-3 order-md-12">
+    <div id="side" class="container">
+        <nav class="navbar navbar-light d-md-none">
+        <div class="navbar-brand" id="navtitle"><tt>web.evanchen.cc</tt></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsedContent">
+        <span class="navbar-light navbar-toggler-icon"></span>
+        </button>
+        </nav>
+
+        <div class="collapse d-md-block" id="collapsedContent">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fevanchenmath&width=72&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId" width="72" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <!--%
+                mpages = [p for p in pages if "menu-position" in p]
+                mpages.sort(key=lambda p: int(p["menu-position"]))
+                for p in mpages:
+                    if "indent" in p:
+                        open_tag = r'<h5>&nbsp; &bullet; &nbsp;'
+                        close_tag = r'</h5>'
+                    else:
+                        open_tag = '<h4>'
+                        close_tag = '</h4>'
+                    if p["title"] == page["title"]:
+                        entry = open_tag + '%s' + close_tag
+                        print(entry % (hx(p["title"])))
+                    else:
+                        entry = open_tag + '<a href="%s">%s</a>' + close_tag
+                        print(entry % (p["url"], hx(p["title"])))
+            %-->
+        <p><a href='https://ko-fi.com/evanchen' target='_blank'><img height='28' style='border:0px;height:28px;' src='//az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></p>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-12 col-md-9 order-md-1">
     <div id="main">
         <div class="entry">
             <h1 id="pagetitle"><a href="{{page["url"]}}">{{ page["header"] }}</a></h1>
@@ -73,31 +108,6 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
                 print(time.ctime() + '.')
             %-->
         </small>
-    </div>
-    </div>
-    <div class="col-6 col-md-3">
-    <div id="side">
-    <!--%
-        mpages = [p for p in pages if "menu-position" in p]
-        mpages.sort(key=lambda p: int(p["menu-position"]))
-        for p in mpages:
-            if "indent" in p:
-                open_tag = r'<h5>&nbsp; &bullet; &nbsp;'
-                close_tag = r'</h5>'
-            else:
-                open_tag = '<h4>'
-                close_tag = '</h4>'
-            if p["title"] == page["title"]:
-                entry = open_tag + '%s' + close_tag
-                print(entry % (hx(p["title"])))
-            else:
-                entry = open_tag + '<a href="%s">%s</a>' + close_tag
-                print(entry % (p["url"], hx(p["title"])))
-    %-->
-    <p>
-    <a href='https://ko-fi.com/evanchen' target='_blank'><img height='28' style='border:0px;height:28px;' src='//az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a><br>
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fevanchenmath&width=72&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId" width="72" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-    </p>
     </div>
     </div>
 </div>
