@@ -1,4 +1,4 @@
-title: Video / stream
+title: Twitch stream
 header: twitch.tv/vEnhance
 description: Evan records himself doing dumb stuff
 indent: 1
