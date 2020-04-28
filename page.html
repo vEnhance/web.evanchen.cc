@@ -70,7 +70,6 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
         </nav>
 
         <div class="collapse d-md-block" id="collapsedContent">
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fevanchenmath&width=72&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId" width="72" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
             <!--%
                 mpages = [p for p in pages if "menu-position" in p]
                 mpages.sort(key=lambda p: int(p["menu-position"]))
@@ -88,7 +87,9 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
                         entry = open_tag + '<a href="%s">%s</a>' + close_tag
                         print(entry % (p["url"], hx(p["title"])))
             %-->
-        <p><a href='https://ko-fi.com/evanchen' target='_blank'><img height='28' style='border:0px;height:28px;' src='//az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></p>
+            <br />
+            <p><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fevanchenmath&width=72&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId" width="72" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <a href='https://ko-fi.com/evanchen' target='_blank'><img height='28' style='border:0px;height:28px;' src='//az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></p>
         </div>
     </div>
     </div>
