@@ -30,7 +30,11 @@ body {
     font-family: Georgia,Times,Times New Roman,serif;
     background-color: #FFFFFF; /* It's #5368C1 on KARL */
     color: #000000;
-    max-width: 1024px; /* Don't make website wide */
+    max-width: 1000px; /* Don't overwhelm large displays */
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    float: none;
 }
 
 /*
@@ -94,21 +98,18 @@ h5, h6 {
 /*
  * ID'ed elements
  * #header, #main, #side
- * #navigation_box
+ * #email_box
  */
 
 #main {
-    width: 69%;
-    min-width: 500px;
     padding: 5px;
-    margin: 3px;
-    float: left;
     border: 1px solid #2E8B57;
-    margin: 3px;
     border-radius: 11px;
     moz-border-radius: 11px;
     -webkit-border-radius: 11px;
     background-color: #B2FEE1; /* light green color */
+    margin-top: 12px;
+    margin-left: 0px;
 }
 
 #header {
@@ -120,7 +121,6 @@ h5, h6 {
     overflow: auto;
     vertical-align: middle;
     white-space: nowrap;
-    margin: 7px;
     overflow: hidden;
     background-color: #FAEBD7; /* red background */
 
@@ -130,6 +130,7 @@ h5, h6 {
     border-radius: 11px;
     -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
+    margin-top: 5px;
 }
 h1#sitetitle {
     text-align: left;
@@ -144,8 +145,6 @@ h1#sitetitle {
 }
 
 #side {
-    width: 22%;
-    min-width: 150px;
     border: 1px solid #6A5ACD;
     border-radius: 11px;
     -moz-border-radius: 11px;
@@ -155,11 +154,9 @@ h1#sitetitle {
     -o-transition: all 0.7s ease-in-out;
     background-color: #AFEEEE;
     /* light blue background for side */
-
-    float: right;
     line-height: 1.4em;
-    margin: 3px;
     padding: 12px;
+    margin-top: 12px;
 }
 
 /* Brighten side box on hover */
@@ -172,7 +169,7 @@ h1#sitetitle {
     filter: alpha(opacity=100);
 }
 
-#navigation_box {
+#email_box {
     margin: 7px;
     background-color: #87CEEB;
     border-radius: 9px;
