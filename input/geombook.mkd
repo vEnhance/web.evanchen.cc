@@ -1,4 +1,4 @@
-title: Geo book (EGMO)
+title: EGMO book
 menu-position: 51
 header: Euclidean Geometry in Mathematical Olympiads (EGMO)
 indent: 1
