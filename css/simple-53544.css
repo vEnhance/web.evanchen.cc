@@ -73,7 +73,7 @@ h1 {
 h2 {
     color: #004824;
     font-size: 14pt;
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 0.5ex;
 }
 h3 {
@@ -147,6 +147,7 @@ h5, h6 {
 
 #pagetitle {
     font-weight: 700;
+    margin-left: 0.5em;
 }
 
 #side {
@@ -204,10 +205,7 @@ h5, h6 {
     float: left;
 }
 
-
-/*
- * ENTRY AND ENTRY WRAP
- */
+/* ENTRY AND ENTRY WRAP */
 
 div.entry {
     border-bottom: 1px dashed #cccccc;
@@ -215,12 +213,7 @@ div.entry {
     overflow: hidden;
     padding-bottom: 1em;
 }
-div.entry h1 {
-    padding: 0.1em;
-    margin: 0;
-}
-div.entrywrap,
-div.entrywrap-hover {
+div.entrywrap {
     background-color: #dedede;
     border: 1px solid black;
     margin: 0.5em;
