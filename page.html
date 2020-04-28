@@ -2,6 +2,9 @@
 <html>
 <head>
 <title>Evan Chen &bullet; {{ page["title"] }}</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
 <link type="text/css" rel="stylesheet" href="css/simple-53544.css">
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({tex2jax: 
@@ -33,7 +36,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
 <body>
 <div id="navigation_box">Email: ev<!-- meow here kitty -->an&nbsp;
 	[at]&nbsp;evanchen&bullet;<!-- com -->cc</div>
-<div id="header"><a href="/"><h1>
+<div id="header"><a href="/"><h1 id="sitetitle">
 	Evan Chen (陳誼廷)
 	<img height="54" src="icons/android-chrome-192x192.png"
 	style="vertical-align: text-bottom;">
@@ -41,7 +44,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
 <div id="content">
     <div id="main">
         <div class="entry">
-            <h1><a href="{{page["url"]}}">{{ page["header"] }}</a></h1>
+            <h1 id="pagetitle"><a href="{{page["url"]}}">{{ page["header"] }}</a></h1>
             <div class="entrywrap">
             {{ __content__ }}
             </div>
@@ -60,8 +63,8 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
         mpages.sort(key=lambda p: int(p["menu-position"]))
         for p in mpages:
             if "indent" in p:
-                open_tag = r'<b style="font-size:90%%;">&nbsp; &bullet; &nbsp;'
-                close_tag = r'</b><br />'
+                open_tag = r'<h5>&nbsp; &bullet; &nbsp;'
+                close_tag = r'</h5>'
             else:
                 open_tag = '<h4>'
                 close_tag = '</h4>'

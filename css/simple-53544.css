@@ -2,7 +2,7 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited 08 March 2020
+Last edited 28 April 2020
 
 Copyright (c) 2020 Evan Chen under MIT License
 
@@ -27,12 +27,7 @@ SOFTWARE.
 */
 
 body {
-    font-size: 11pt;
-    padding: 0;
-    display: block;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    margin: 0 auto !important;
-    float: none !important;
+    font-family: Georgia,Times,Times New Roman,serif;
     background-color: #FFFFFF; /* It's #5368C1 on KARL */
     color: #000000;
     max-width: 1024px; /* Don't make website wide */
@@ -67,22 +62,32 @@ h1 {
     display: block;
     font-weight: normal;
     letter-spacing: 1px;
-    font-size: 18pt;
+    font-size: 17pt;
     color: #3333FF; /* Bluish, matches link color */
+    font-weight: 500;
 }
 h2 {
     color: #004824;
-    font-size: 13pt;
-    font-weight: bold;
-    padding-top: 1.5ex;
+    font-size: 14pt;
+    font-weight: 500;
+    padding-top: 0.5ex;
 }
 h3 {
     color: #450060;
-    font-size: 11pt;
+    font-size: 12pt;
+    font-weight: 600;
 }
-h4, h5 {
+h4{
     margin-top: 6px;
     margin-bottom: 2px;
+    font-size: 11pt;
+    font-weight: 600;
+}
+h5, h6 {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-size: 10pt;
+    font-weight: 500;
 }
 
 
@@ -118,7 +123,7 @@ h4, h5 {
     margin: 7px;
     overflow: hidden;
     background-color: #FAEBD7; /* red background */
-    
+
     border-top: 5px solid #cccccc;
     border-bottom: 5px solid #cccccc;
     border: 3px solid #B22222;
@@ -126,7 +131,7 @@ h4, h5 {
     -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
 }
-#header h1 {
+h1#sitetitle {
     text-align: left;
     font-size: 30pt;
     position: relative;
@@ -134,6 +139,8 @@ h4, h5 {
     left: 3px;
     margin: 0;
     color: #FF6600; /* reddish, for head */
+    line-height: 2.4;
+    font-weight: 500;
 }
 
 #side {
@@ -148,7 +155,7 @@ h4, h5 {
     -o-transition: all 0.7s ease-in-out;
     background-color: #AFEEEE;
     /* light blue background for side */
-    
+
     float: right;
     line-height: 1.4em;
     margin: 3px;
@@ -179,6 +186,9 @@ h4, h5 {
     padding: 2px 6px 3px;
 }
 
+h1#pagetitle {
+    font-weight: 700;
+}
 
 /*
  * ENTRY AND ENTRY WRAP
