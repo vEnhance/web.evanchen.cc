@@ -69,28 +69,31 @@ h1 {
     font-size: 17pt;
     color: #3333FF; /* Bluish, matches link color */
     font-weight: 500;
+    font-family: Verdana, Geneva, sans-serif;
 }
 h2 {
     color: #004824;
     font-size: 14pt;
     font-weight: 600;
     padding-top: 0.5ex;
+    font-family: Verdana, Geneva, sans-serif;
 }
 h3 {
     color: #450060;
     font-size: 12pt;
     font-weight: 600;
+    font-family: Verdana, Geneva, sans-serif;
 }
 h4{
     margin-top: 6px;
-    margin-bottom: 2px;
-    font-size: 11pt;
+    margin-bottom: 4px;
+    font-size: 12pt;
     font-weight: 600;
 }
 h5, h6 {
     margin-top: 4px;
     margin-bottom: 2px;
-    font-size: 10pt;
+    font-size: 11pt;
     font-weight: 500;
 }
 
@@ -143,6 +146,7 @@ h5, h6 {
     color: #FF6600; /* reddish, for head */
     line-height: 2.4;
     font-weight: 500;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #pagetitle {
@@ -218,7 +222,10 @@ div.entrywrap {
     border: 1px solid black;
     margin: 0.5em;
     overflow: auto;
-    padding: 0.5em;
+    padding-top: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
     height: 99%;
     border-radius: 7px;
     -moz-border-radius: 7px;
