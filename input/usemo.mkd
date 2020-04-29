@@ -76,14 +76,16 @@ The two biggest things we can use help with are:
 + **Grading**: this is by far the biggest bottleneck.
 	If you have any capability to read through some submissions,
 	please get in touch with the organizers!
-	While you need proof experience to fulfill this role,
-	you do NOT need past competition experience.
+	While you need experience reading mathematical proofs
+	to fulfill this role, you do NOT need past competition experience.
 	We will provide marking schemes,
 	and pair up experienced graders with newer ones.
-	If you're interested in this, please contact Evan Chen.
+	If you're interested in this, please contact the USEMO directors
+	at $\texttt{usemo@evanchen}\cdot\texttt{cc}$.
 
 + **Problem proposals**: we welcome proposals for problems
-	from anyone who is not eligible for the contest.
+	from anyone who is not eligible for the contest
+	(although the deadline for the 1st USEMO has passed already).
 	See the [problem proposal guidelines][propose].
 
 Please contact the directors for details on these,
