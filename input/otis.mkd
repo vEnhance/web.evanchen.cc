@@ -32,7 +32,7 @@ This mini-book was named *The OTIS Excerpts*.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
-# Application --- Year VI
+# Application &mdash; Year VI
 
 The application for fall 2020 is now open.
 The **deadline** to apply is **August 1, 2020 at 11:59 PM PT**
