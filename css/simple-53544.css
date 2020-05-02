@@ -134,6 +134,7 @@ h5, h6 {
     -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
     margin-top: 5px;
+    padding-left: 0.5rem;
 }
 
 #sitetitle {
