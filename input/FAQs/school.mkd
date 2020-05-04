@@ -8,24 +8,17 @@ description: Some FAQ's about math contests and my personal life.
 
 These are FAQ's about high school and college.
 
-<br>
-
-### 1. Why did you transfer from Harvard to MIT?
+### S-1. Why did you transfer from Harvard to MIT?
 Short answer: mostly social reasons.
 Long answer: [See here](https://usamo.wordpress.com/2015/06/28/transferring/).
 
-<br>
-
-### 2. I'm interested in learning some higher math. Where can I start?
+### S-2. I'm interested in learning some higher math. Where can I start?
 If you like my writing and are comfortable with proofs,
 try my [Napkin](napkin.html).
 It was basically written to answer this question.
 Other possible references are mentioned in [Recommendations](recommend.html).
 
-
-<br>
-
-### 3. How do you live-TeX your notes so quickly?
+### S-3. How do you live-TeX your notes so quickly?
 The main contributing factors are:
 
 + My typing speed is quite high, at around 650 characters per minute.
@@ -41,9 +34,7 @@ so I am quite proficient with both.
 
 [Link to corresponding dotfiles](https://github.com/vEnhance/dotfiles).
 
-<br>
-
-### 4. How did you take undergraduate / graduate math classes in high school?
+### S-4. How did you take undergraduate / graduate math classes in high school?
 
 To set the record straight: in high school I five classes from
 UC Berkeley and San Jose State total; you can see [the notes I took][notes].
@@ -59,9 +50,7 @@ If one person says no, talk to someone else.
 You have to be very aggressive with these things to make progress,
 because otherwise the administration has no real incentive to help you.
 
-<br>
-
-### 5. What are your thoughts on high school math research?
+### S-5. What are your thoughts on high school math research?
 
 I'm pretty cynical of it.
 The (buzz)word "research" itself is a red flag for me:
