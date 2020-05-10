@@ -43,7 +43,7 @@ Here are some additional links.
   A set of lecture notes for analytic number theory, suitable for self-study.
   A light introduction where you get to prove versions of the Prime Number Theorem and Dirichlet's Theorem.
 
-* [Algebraic Geometry](http://www.mathematik.uni-kl.de/agag/mitglieder/professoren/gathmann/notes/alggeom/) by Andreas Gathmann.
+* [Algebraic Geometry](https://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2002/alggeom-2002.pdf) by Andreas Gathmann.
   My preferred introduction to algebraic geometry; short but complete.
   This was the source that finally got me to understand the concept of a ringed space.
   It doesn't officially cover schemes, but because it covers general varieties as ringed spaces the full-fledged scheme is not much harder.
