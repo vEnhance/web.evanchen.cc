@@ -1,5 +1,5 @@
-title: Twitch stream
-header: twitch.tv/vEnhance
+title: Youtube+Twitch
+header: YouTube and Twitch channels
 description: Evan records himself doing dumb stuff
 indent: 1
 menu-position: 66
@@ -11,26 +11,54 @@ In early 2020 I created a
 that I stream on some (but not all) weeks.
 Content includes:
 
-* Primarily, working on IMO shortlist or other contest problems with other viewers.
+* Working on IMO shortlist or other contest problems with other viewers.
 * Twitch chat asking questions about various things
-* Games: metal league StarCraft, AoPS FTW!, ...
+* Games: metal league StarCraft, AoPS FTW!, Baba Is You, etc.
+	I have a preference for somewhat difficult puzzle games.
 
-The stream is run on [twitch.tv/vEnhance](https://www.twitch.tv/vEnhance).
+I also upload past broadcasts to [YouTube](https://www.youtube.com/evanchenmath).
+
+## Links
+
+<p>
+<table>
+<tr>
+	<td align="center">
+	<a href="https://www.youtube.com/evanchenmath">
+	<img src="static/logo-youtube.png" width="120">
+	</a>
+	</td>
+	<td style="vertical-align:bottom;">
+	<h3><a href="https://www.youtube.com/evanchenmath">
+	youtube.com/c/evanchenmath
+	</a></h3>
+	</td>
+</tr>
+<tr>
+	<td align="center">
+	<a href="https://twitch.tv/vEnhance/">
+	<img src="static/logo-twitch.png" width="70">
+	</a>
+	</td>
+	<td style="vertical-align:bottom;">
+	<h3><a href="https://twitch.tv/vEnhance/">
+	twitch.tv/vEnhance
+	</a></h3>
+	</td>
+</tr>
+</table>
+</p>
+
+(Also [announced on Facebook](https://www.facebook.com/evanchenmath).)
 
 ## Twitch schedule
 
 You can find a
 [schedule for the stream](https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=MONTH),
 also below.
-Friday night at 8pm Eastern is the most common time.
-Generally, I will also
-[announce on Facebook](https://www.facebook.com/evanchenmath).
+Friday night at 8pm Eastern is the usual time.
 
 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=MONTH" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
 
 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
 
-## Past broadcasts
-
-* [Past broadcasts by problem](https://www.twitch.tv/venhance/videos) stored using Twitch highlights.
-* [Past broadcasts by date](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA) stored on YouTube.
