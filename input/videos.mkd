@@ -16,7 +16,7 @@ Content includes:
 * Games: metal league StarCraft, AoPS FTW!, Baba Is You, etc.
 	I have a preference for somewhat difficult puzzle games.
 
-I also upload past broadcasts to [YouTube](https://www.youtube.com/evanchenmath).
+I also upload past broadcasts to [YouTube](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA).
 
 ## Links
 
@@ -24,13 +24,13 @@ I also upload past broadcasts to [YouTube](https://www.youtube.com/evanchenmath)
 <table>
 <tr>
 	<td align="center">
-	<a href="https://www.youtube.com/evanchenmath">
+	<a href="https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA">
 	<img src="static/logo-youtube.png" width="120">
 	</a>
 	</td>
 	<td style="vertical-align:bottom;">
-	<h3><a href="https://www.youtube.com/evanchenmath">
-	youtube.com/c/evanchenmath
+	<h3><a href="https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA">
+	youtube.com
 	</a></h3>
 	</td>
 </tr>
