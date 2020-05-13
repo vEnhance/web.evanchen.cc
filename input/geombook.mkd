@@ -28,7 +28,7 @@ and is accompanied by about 250 figures.
 
 I wrote this textbook while
 [serving time as a high school clerk][fillblank].
-You can read hear about [the publication process][publishing].
+You can [read about the publication process][publishing].
 
 ## Prerequisites and material
 There are essentially no geometry prerequisites;
