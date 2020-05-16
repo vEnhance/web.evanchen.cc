@@ -2,7 +2,7 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited 29 April 2020
+Last edited 16 May 2020
 
 Copyright (c) 2020 Evan Chen under MIT License
 
@@ -35,6 +35,10 @@ body {
     padding: 0;
     display: block;
     float: none;
+}
+
+strong {
+    color: #af1111;
 }
 
 /*
