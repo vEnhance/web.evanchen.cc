@@ -17,6 +17,9 @@ Like many competitions, its goals are to
 develop interest and ability in mathematics (rather than measure it).
 However, it is one of few
 proof-based contests **open to all US middle and high school students**.
+
+The USEMO is hosted on the
+[Art of Problem Solving website][aops-usemo].
 This contest is *not* sponsored
 by the Mathematical Association of America
 (which runs the [USAMO][usamo]).
@@ -32,31 +35,38 @@ Please check the [full rules and procedures][rules].
 
 # Current instance
 
-The 1st USEMO will take place over 2 days, with 4.5 hours each day.
+The 1st USEMO will take place over 2 days in May, with 4.5 hours each day.
+(However, we expect future USEMO's could take place in the fall, if at all.)
 Each day carries three problems each worth 7 points.
 
-* Day 1 is tentatively scheduled for Saturday **May 23 2020**, from 12:30pm ET to 5:00pm ET.
-* Day 2 is tentatively scheduled for Sunday **May 24 2020**, from 12:30pm ET to 5:00pm ET.
+## Schedule
 
-(However, we expect future USEMO's could take place in the fall, if at all.)
+* Day 1 of exam: Saturday **May 23 2020**, from 12:30pm ET to 5:00pm ET.
+* Day 2 of exam: Sunday **May 24 2020**, from 12:30pm ET to 5:00pm ET.
 
-## Sign-up
+Additionally, an optional **test review**
+will be held on **7pm ET** each day right after the exam.
+It will be hosted at [twitch.tv/vEnhance](twitch.tv/vEnhance).
+The USEMO organizers will present solutions to all three problems
+on that day and take any questions or comments from the live chat.
 
-If you would like to sign up, please complete the [sign-up form][signup].
+
+## Registration
+
+Registration and submission for the USEMO is done through the
+portal on the [Art of Problem Solving host website][aops-usemo].
+We expect this registration to be open by May 19, 2020.
+Registration closes once we reach the full capacity of 400 students.
+
+For now, you can sign up through this [google form][signup].
 
 ## Links and downloads
 
-(To be added over time, by end of April 2020)
-
-* [Sign-up form][signup]
+* [Registration and submission portal (through AoPS)][aops-usemo]
 * [Answer sheet template][answersheet]
 * [Full rules and procedures][rules]
 * [Mission statement][mission]
 * [Problem proposal guidelines (for authors)][propose]
-
-## Prizes
-
-Check back towards the end of April 2020 for details.
 
 # Past USEMO problems, solutions, and results
 
@@ -100,3 +110,4 @@ or if you have other ideas on how you could help out.
 [rules]: static/usemo/rules-usemo.pdf
 [propose]: static/usemo/proposal-guidelines-usemo.pdf
 [signup]: https://forms.gle/P7tqip2xst8EMXLJ7
+[aops-usemo]: https://www.aops.com/contests/usemo

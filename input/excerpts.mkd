@@ -9,9 +9,12 @@ description: OTIS Excerpts, a mini-book based on OTIS lecture notes.
 	width="250px" />
 </span>
 
-<span style="color:red; font-size: 120%;">
-**For most recent draft, [click here][recent] to download.**
-</span>
+
+## Download
+
+**Download the [most recent draft][recent].**
+
+### About
 
 *The OTIS Excerpts* is a mini-book
 that I put together from

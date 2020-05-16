@@ -56,7 +56,7 @@ Additionally, 10-14 olympiad-style practice exams
 are assigned throughout the year (graded in full).
 
 A rough estimate of the time commitment might be
-<span style="color:red;">*8-16 hours per week*</span>,
+**8-16 hours per week**,
 although there is a large variance.
 
 Some students have brief weekly or biweekly lectures

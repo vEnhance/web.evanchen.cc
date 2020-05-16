@@ -43,8 +43,9 @@ Here is a freely available subset of the book:
 * [Table of contents][toc].
 * [Chapter 2 (Circles)][egmo2] and [Chapter 8 (Inversion)][egmo8] (available for free).
 * [Chapters 1-3][googlebook] on Google Books preview.
-* [<b style="color:red;">Parody version</b> of the entire book](textbooks/tr011ey.pdf),
-	for **April Fool's Day 2019**.
+* **Parody version** of entire book: check out
+	[Undergraduate Math 011: a firsT yeaR coursE in geometrY](textbooks/tr011ey.pdf),
+	made for **April Fool's Day 2019**.
 
 ## Errata (aka selected solutions to Problem 11.0)
 

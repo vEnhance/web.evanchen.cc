@@ -12,10 +12,9 @@ description: Description of Napkin project, a free book covering all sorts of hi
 <br>(click to enlarge)</a>
 </span>
 
+## Download
 
-<span style="color:red; font-size: 120%;">
-**For most recent draft, [click here][recent] to download.**
-</span>
+**Download the [most recent draft of Napkin][recent].**
 
 ## Project Status
 
