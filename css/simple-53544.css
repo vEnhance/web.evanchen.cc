@@ -2,7 +2,7 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited 16 May 2020
+Last edited 17 May 2020
 
 Copyright (c) 2020 Evan Chen under MIT License
 
@@ -27,7 +27,7 @@ SOFTWARE.
 */
 
 body {
-    font-family: Georgia,Times,Times New Roman,serif;
+    font-family: "Mate", serif;
     background-color: #FFFFFF; /* It's #5368C1 on KARL */
     color: #000000;
     max-width: 1000px; /* Don't overwhelm large displays */
