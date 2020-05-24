@@ -46,7 +46,7 @@ Each day carries three problems each worth 7 points.
 
 Additionally, an optional **test review**
 will be held on **7pm ET** each day right after the exam.
-It will be hosted at [twitch.tv/vEnhance](twitch.tv/vEnhance).
+It will be hosted at [twitch.tv/vEnhance](https://twitch.tv/vEnhance).
 The USEMO organizers will present solutions to all three problems
 on that day and take any questions or comments from the live chat.
 
@@ -54,15 +54,13 @@ on that day and take any questions or comments from the live chat.
 ## Registration
 
 Registration and submission for the USEMO is done through the
-portal on the [Art of Problem Solving host website][aops-usemo].
-We expect this registration to be open by May 19, 2020.
+[portal on the Art of Problem Solving host website][aops-usemo]
+which is also where you will upload your solutions.
 Registration closes once we reach the full capacity of 400 students.
-
-For now, you can sign up through this [google form][signup].
 
 ## Links and downloads
 
-* [Registration and submission portal (through AoPS)][aops-usemo]
+* [Registration and submission portal][aops-usemo]
 * [Answer sheet template][answersheet]
 * [Full rules and procedures][rules]
 * [Mission statement][mission]
