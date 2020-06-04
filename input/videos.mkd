@@ -1,5 +1,5 @@
 title: Youtube+Twitch
-header: YouTube and Twitch channels
+header: Twitch Solves IMO Shortlist
 description: Evan records himself doing dumb stuff
 indent: 1
 menu-position: 66
@@ -9,6 +9,8 @@ menu-position: 66
 In early 2020 I created a
 [Twitch stream](https://www.twitch.tv/vEnhance)
 that I stream on some (but not all) weeks.
+The series is informally titled **Twitch Solves IMO Shortlist**.
+
 Content includes:
 
 * Working on IMO shortlist or other contest problems with other viewers.
