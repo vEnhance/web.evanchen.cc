@@ -116,6 +116,12 @@ the selection process for the USA IMO team.
 * IMO 2018 [(problems and solutions)](exams/IMO-2018-notes.pdf)
 * IMO 2019 [(problems and solutions)](exams/IMO-2019-notes.pdf)
 
+## USEMO
+
+Also listed on the [USEMO page](usemo.html).
+
+* USEMO 2019-2020 [(problems)](exams/USEMO-2019.pdf)
+
 ## ELMO
 
 See also [general ELMO information](elmo/general.html).
