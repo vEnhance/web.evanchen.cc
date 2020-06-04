@@ -33,13 +33,19 @@ to get a better sense for the goals of the competition.
 The USEMO is largely run on an honor system, although we may offer prizes.
 Please check the [full rules and procedures][rules].
 
+We hope the next USEMO can run in Fall 2020.
+
 # Current instance
 
-The 1st USEMO will take place over 2 days in May, with 4.5 hours each day.
-(However, we expect future USEMO's could take place in the fall, if at all.)
-Each day carries three problems each worth 7 points.
+Grading is currently underway.
+Scores will be displayed on the
+[portal on the Art of Problem Solving host website][aops-usemo]
+once the grading is done.
 
-## Schedule
+Here is a list of
+[ID numbers that submitted for each problem](upload/usemo/usemo2019-received.txt).
+
+## Schedule (formerly)
 
 * Day 1 of exam: Saturday **May 23 2020**, from 12:30pm ET to 5:00pm ET.
 * Day 2 of exam: Sunday **May 24 2020**, from 12:30pm ET to 5:00pm ET.
@@ -49,14 +55,6 @@ will be held on **7pm ET** each day right after the exam.
 It will be hosted at [twitch.tv/vEnhance](https://twitch.tv/vEnhance).
 The USEMO organizers will present solutions to all three problems
 on that day and take any questions or comments from the live chat.
-
-
-## Registration
-
-Registration and submission for the USEMO is done through the
-[portal on the Art of Problem Solving host website][aops-usemo]
-which is also where you will upload your solutions.
-Registration closes once we reach the full capacity of 400 students.
 
 ## Links and downloads
 
@@ -68,7 +66,7 @@ Registration closes once we reach the full capacity of 400 students.
 
 # Past USEMO problems, solutions, and results
 
-Nothing here yet!
+* USEMO 2019-2020 [(problems)](exams/USEMO-2019.pdf)
 
 # Contact
 
