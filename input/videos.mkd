@@ -6,22 +6,6 @@ menu-position: 66
 
 ---
 
-In early 2020 I created a
-[Twitch stream](https://www.twitch.tv/vEnhance)
-that I stream on some (but not all) weeks.
-The series is informally titled **Twitch Solves IMO Shortlist**.
-
-Content includes:
-
-* Working on IMO shortlist or other contest problems with other viewers.
-* Twitch chat asking questions about various things
-* Games: metal league StarCraft, AoPS FTW!, Baba Is You, etc.
-	I have a preference for somewhat difficult puzzle games.
-
-I also upload past broadcasts to [YouTube](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA).
-
-## Links
-
 <p>
 <table>
 <tr>
@@ -51,7 +35,19 @@ I also upload past broadcasts to [YouTube](https://www.youtube.com/channel/UCPaU
 </table>
 </p>
 
-(Also [announced on Facebook](https://www.facebook.com/evanchenmath).)
+In early 2020 I created a
+[Twitch stream](https://www.twitch.tv/vEnhance)
+that I stream on some (but not all) weeks.
+The series is informally titled **Twitch Solves IMO Shortlist**.
+
+Content includes:
+
+* Working on IMO shortlist or other contest problems with other viewers.
+* Twitch chat asking questions about various things
+* Games: metal league StarCraft, AoPS FTW!, Baba Is You, etc.
+	I have a preference for somewhat difficult puzzle games.
+
+I also upload past broadcasts to [YouTube](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA).
 
 ## Twitch schedule
 
@@ -64,3 +60,16 @@ Friday night at 8pm Eastern is the usual time.
 
 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
 
+
+## Streaming software
+
+Software used on the stream includes:
+
+* Streamed by [Open Broadcaster Software](https://obsproject.com/)
+* LaTeX typeset with [TeX Live](https://www.tug.org/texlive/) and [Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX)), viewed in [Zathura](https://github.com/D3S0X/Soundux)
+* White board via [Miro](https://miro.com)
+* Geometry diagrams using [GeoGebra Classic 5](https://wiki.geogebra.org/en/Reference:GeoGebra_Installation#GeoGebra_Classic_5_for_Desktop)
+* Music by [Pretzel Rocks](https://pretzel.rocks)
+* Soundboard with [Soundux](https://github.com/D3S0X/Soundux)
+* Stream overlays from [StreamLabs](https://streamlabs.com/)
+* [Firefox](https://www.mozilla.org/en-US/firefox/) as web browser
