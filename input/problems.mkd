@@ -95,26 +95,46 @@ the selection process for the USA IMO team.
 
 ## International Math Olympiad
 
-* IMO 2000 [(problems and solutions)](exams/IMO-2000-notes.pdf)
-* IMO 2001 [(problems and solutions)](exams/IMO-2001-notes.pdf)
-* IMO 2002 [(problems and solutions)](exams/IMO-2002-notes.pdf)
-* IMO 2003 [(problems and solutions)](exams/IMO-2003-notes.pdf)
-* IMO 2004 [(problems and solutions)](exams/IMO-2004-notes.pdf)
-* IMO 2005 [(problems and solutions)](exams/IMO-2005-notes.pdf)
-* IMO 2006 [(problems and solutions)](exams/IMO-2006-notes.pdf)
-* IMO 2007 [(problems and solutions)](exams/IMO-2007-notes.pdf)
-* IMO 2008 [(problems and solutions)](exams/IMO-2008-notes.pdf)
-* IMO 2009 [(problems and solutions)](exams/IMO-2009-notes.pdf)
-* IMO 2010 [(problems and solutions)](exams/IMO-2010-notes.pdf)
-* IMO 2011 [(problems and solutions)](exams/IMO-2011-notes.pdf)
-* IMO 2012 [(problems and solutions)](exams/IMO-2012-notes.pdf)
-* IMO 2013 [(problems and solutions)](exams/IMO-2013-notes.pdf)
-* IMO 2014 [(problems and solutions)](exams/IMO-2014-notes.pdf)
-* IMO 2015 [(problems and solutions)](exams/IMO-2015-notes.pdf)
-* IMO 2016 [(problems and solutions)](exams/IMO-2016-notes.pdf)
-* IMO 2017 [(problems and solutions)](exams/IMO-2017-notes.pdf)
-* IMO 2018 [(problems and solutions)](exams/IMO-2018-notes.pdf)
-* IMO 2019 [(problems and solutions)](exams/IMO-2019-notes.pdf)
+* IMO 2000 [(problems and solutions)](exams/IMO-2000-notes.pdf) <br>
+	<tt style="font-size: 70%">RUS-G1 USA-A1 BLR-A5 HUN-C1 RUS-N3 RUS-G8</tt>
+* IMO 2001 [(problems and solutions)](exams/IMO-2001-notes.pdf) <br>
+	<tt style="font-size: 70%">KOR-G2 KOR-A6 GER-C8 CAN-C2 ISR-G8 BGR-N5</tt>
+* IMO 2002 [(problems and solutions)](exams/IMO-2002-notes.pdf) <br>
+	<tt style="font-size: 70%">COL-C1 KOR-G3 ROM-N6 ROM-N2 IND-A4 UKR-G6</tt>
+* IMO 2003 [(problems and solutions)](exams/IMO-2003-notes.pdf) <br>
+	<tt style="font-size: 70%">BRA-C1 BGR-N3 POL-G6 FIN-G1 IRL-A4 FRA-N6</tt>
+* IMO 2004 [(problems and solutions)](exams/IMO-2004-notes.pdf) <br>
+	<tt style="font-size: 70%">ROM-G1 KOR-A4 EST-C7 KOR-A1 POL-G4 IRN-N5</tt>
+* IMO 2005 [(problems and solutions)](exams/IMO-2005-notes.pdf) <br>
+	<tt style="font-size: 70%">ROM-G2 NLD-N2 KOR-A5 POL-N1 POL-G4 ROM-C6</tt>
+* IMO 2006 [(problems and solutions)](exams/IMO-2006-notes.pdf) <br>
+	<tt style="font-size: 70%">KOR-G1 SRB-C2 IRL-A6 USA-N1 ROM-N4 SRB-G10</tt>
+* IMO 2007 [(problems and solutions)](exams/IMO-2007-notes.pdf) <br>
+	<tt style="font-size: 70%">NZL-A1 LUX-G4 RUS-C6 CZE-G1 UNK-N6 NLD-A7</tt>
+* IMO 2008 [(problems and solutions)](exams/IMO-2008-notes.pdf) <br>
+	<tt style="font-size: 70%">RUS-G1 AUS-A2 LIT-N6 KOR-A1 FRA-C4 RUS-G7</tt>
+* IMO 2009 [(problems and solutions)](exams/IMO-2009-notes.pdf) <br>
+	<tt style="font-size: 70%">AUS-N1 RUS-G2 USA-A6 BLG-G1 FRA-A3 RUS-C7</tt>
+* IMO 2010 [(problems and solutions)](exams/IMO-2010-notes.pdf) <br>
+	<tt style="font-size: 70%">FRA-A1 HKG-G4 USA-N5 POL-G2 NLD-C4 IRN-A7</tt>
+* IMO 2011 [(problems and solutions)](exams/IMO-2011-notes.pdf) <br>
+	<tt style="font-size: 70%">MEX-A1 UNK-C3 BLR-A6 IRN-C1 IRN-N5 JPN-G8</tt>
+* IMO 2012 [(problems and solutions)](exams/IMO-2012-notes.pdf) <br>
+	<tt style="font-size: 70%">GRE-G1 AUS-A3 CAN-C6 SAF-A1 CZE-G5 SRB-N7</tt>
+* IMO 2013 [(problems and solutions)](exams/IMO-2013-notes.pdf) <br>
+	<tt style="font-size: 70%">JPN-N2 AUS-C2 RUS-G6 THA-G1 BGR-A3 RUS-C7</tt>
+* IMO 2014 [(problems and solutions)](exams/IMO-2014-notes.pdf) <br>
+	<tt style="font-size: 70%">AUS-A1 HRV-C3 IRN-G5 GEO-G1 LUX-N3 AUT-C5</tt>
+* IMO 2015 [(problems and solutions)](exams/IMO-2015-notes.pdf) <br>
+	<tt style="font-size: 70%">NLD-C2 SRB-N5 UKR-G6 GRE-G2 ALB-A4 AUS-C5</tt>
+* IMO 2016 [(problems and solutions)](exams/IMO-2016-notes.pdf) <br>
+	<tt style="font-size: 70%">BEL-G1 AUS-C4 RUS-N7 LUX-N3 RUS-A6 CZE-C7</tt>
+* IMO 2017 [(problems and solutions)](exams/IMO-2017-notes.pdf) <br>
+	<tt style="font-size: 70%">SAF-N1 ALB-A6 AUT-C5 LUX-G2 RUS-C4 USA-N7</tt>
+* IMO 2018 [(problems and solutions)](exams/IMO-2018-notes.pdf) <br>
+	<tt style="font-size: 70%">GRE-G1 SVK-A2 IRN-C4 ARM-C2 MNG-N4 POL-G6</tt>
+* IMO 2019 [(problems and solutions)](exams/IMO-2019-notes.pdf) <br>
+	<tt style="font-size: 70%">SAF-A1 UKR-G3 HRV-C5 SLV-N1 USA-C3 IND-G7</tt>
 
 ## USEMO
 
