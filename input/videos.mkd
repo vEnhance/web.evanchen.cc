@@ -10,13 +10,13 @@ menu-position: 66
 <table>
 <tr>
 	<td align="center">
-	<a href="https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA">
+	<a href="https://youtube.com/c/vEnhance">
 	<img src="static/logo-youtube.png" width="120">
 	</a>
 	</td>
 	<td style="vertical-align:bottom;">
-	<h3><a href="https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA">
-	youtube.com
+	<h3><a href="https://www.youtube.com/c/vEnhance">
+	youtube.com/vEnhance
 	</a></h3>
 	</td>
 </tr>
@@ -47,7 +47,7 @@ Content includes:
 * Games: metal league StarCraft, AoPS FTW!, Baba Is You, etc.
 	I have a preference for somewhat difficult puzzle games.
 
-I also upload past broadcasts to [YouTube](https://www.youtube.com/channel/UCPaU851jSc9rXNX-Jus6cAA).
+I also upload past broadcasts to [YouTube](https://youtube.com/c/vEnhance).
 
 ## Twitch schedule
 
