@@ -23,10 +23,6 @@ for math contests in general.
 
 ## 1. First reading: the welcome letter
 
-TO BE WRITTEN, check back April 2021
-
-<!--
-
 For the USA Math Olympiad in 2020, the board on the USAMO
 prepared an invitation letter for all the qualifiers,
 congratulating them on their achievement
@@ -40,7 +36,16 @@ This letter contains:
 * Some advice for actually taking the contest:
 	the format of the exam, planning your time, common mistakes, etc.
 
-<span style"color:red;">LINK LETTER</a>
+You can download the letters here:
+
+* [JMO welcome letter](static/welcome-jmo.pdf),
+	and [solutions to examples](static/sol-welcome-jmo.pdf)
+* [USAMO welcome letter](static/welcome-usamo.pdf),
+	and [solutions to examples](static/sol-welcome-usamo.pdf)
+
+(These were written in early January 2020 before COVID-19 wreaked havoc on everything,
+so the contests still go by their typical name and don't mention
+anything specific to the belated administration that year.)
 
 I suggest starting by reading through this letter,
 trying the example problems (you will probably not solve them all;
@@ -48,7 +53,6 @@ we chose examples from the entire difficulty spectrum),
 and then comparing your work to the provided solutions.
 That will give you a taste of what you are getting in to.
 
--->
 
 ## 2. Writing proofs
 
