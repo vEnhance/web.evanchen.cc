@@ -35,17 +35,15 @@ Please check the [full rules and procedures][rules].
 
 We hope the next USEMO can run in Fall 2020.
 
-# Current instance
+# USEMO 2019 is Done
 
-Grading is currently underway.
-Scores will be displayed on the
+The [1st USEMO has concluded and results are published](exams/report-usemo-2019.pdf).
+Scores are available on the
 [portal on the Art of Problem Solving host website][aops-usemo]
-once the grading is done.
+if you participated. We hope to see you next year!
 
-Here is a list of
-[ID numbers that submitted for each problem](upload/usemo/usemo2019-received.txt).
-
-## Schedule (formerly)
+<!--
+## Schedule (for USEMO 2019)
 
 * Day 1 of exam: Saturday **May 23 2020**, from 12:30pm ET to 5:00pm ET.
 * Day 2 of exam: Sunday **May 24 2020**, from 12:30pm ET to 5:00pm ET.
@@ -55,6 +53,7 @@ will be held on **7pm ET** each day right after the exam.
 It will be hosted at [twitch.tv/vEnhance](https://twitch.tv/vEnhance).
 The USEMO organizers will present solutions to all three problems
 on that day and take any questions or comments from the live chat.
+-->
 
 ## Links and downloads
 
@@ -64,15 +63,22 @@ on that day and take any questions or comments from the live chat.
 * [Mission statement][mission]
 * [Problem proposal guidelines (for authors)][propose]
 
-# Past USEMO problems, solutions, and results
-
-* USEMO 2019-2020 [(problems)](exams/USEMO-2019.pdf)
-
-# Contact
+## Contact
 
 The directors of the USEMO are Evan Chen,
 Brice Huang, and Carl Schildkraut.
 You can reach all three at the email $\texttt{usemo@evanchen}\cdot\texttt{cc}$.
+
+# Archive
+
+* USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
+
+## Hall of Fame
+
+This is a listing of the Top 3 scorers on each USEMO.
+Further results can be found at the links above.
+
+* USEMO 2019: Jaedon Whyte, Jeffrey Kwan, Luke Robitaille
 
 # Volunteer
 
@@ -107,3 +113,4 @@ or if you have other ideas on how you could help out.
 [propose]: static/usemo/proposal-guidelines-usemo.pdf
 [signup]: https://forms.gle/P7tqip2xst8EMXLJ7
 [aops-usemo]: https://www.aops.com/contests/usemo
+
