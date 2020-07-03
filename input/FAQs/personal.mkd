@@ -59,10 +59,16 @@ I had participated casually the year before that.
 
 See [my teaching page][otis] for more details.
 
+<br>
+
+### 6. What is your favorite math olympiad problem?
+
+It is hidden somewhere on this website,
+on [cofinitely][cofinite] many of the pages. ;)
+
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: http://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
-[ebook]: http://www.maa.org/ebooks/EGMO
 [ebook]: http://www.maa.org/ebooks/EGMO/
 [geoff]: http://people.bath.ac.uk/masgcs/geo.pdf
 [geombook]: geombook.html
@@ -78,3 +84,5 @@ See [my teaching page][otis] for more details.
 [wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
 [wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
 [yufei]: http://yufeizhao.com/olympiad.html
+
+[cofinite]: https://en.wikipedia.org/wiki/Cofiniteness
