@@ -73,3 +73,4 @@ Software used on the stream includes:
 * Soundboard with [Soundux](https://github.com/D3S0X/Soundux)
 * Stream overlays from [StreamLabs](https://streamlabs.com/)
 * [Firefox](https://www.mozilla.org/en-US/firefox/) as web browser
+* [Nightbot](https://nightbot.tv) for !commands
