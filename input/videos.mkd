@@ -7,17 +7,19 @@ menu-position: 66
 ---
 
 <p>
-<table>
+<table cellpadding="5">
 <tr>
 	<td align="center">
 	<a href="https://youtube.com/c/vEnhance">
 	<img src="static/logo-youtube.png" width="120">
 	</a>
-	</td>
-	<td style="vertical-align:bottom;">
+	<br />
 	<h3><a href="https://www.youtube.com/c/vEnhance">
 	youtube.com/vEnhance
 	</a></h3>
+	</td>
+	<td rowspan="2">
+	<iframe width="240" height="180" src="https://www.youtube.com/embed/videoseries?list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</td>
 </tr>
 <tr>
@@ -25,8 +27,7 @@ menu-position: 66
 	<a href="https://twitch.tv/vEnhance/">
 	<img src="static/logo-twitch.png" width="70">
 	</a>
-	</td>
-	<td style="vertical-align:bottom;">
+	<br />
 	<h3><a href="https://twitch.tv/vEnhance/">
 	twitch.tv/vEnhance
 	</a></h3>
@@ -74,3 +75,7 @@ Software used on the stream includes:
 * Stream overlays from [StreamLabs](https://streamlabs.com/)
 * [Firefox](https://www.mozilla.org/en-US/firefox/) as web browser
 * [Nightbot](https://nightbot.tv) for !commands
+
+## Archive of past problems
+
+{{ get_twitch_table() }}
