@@ -35,25 +35,19 @@ Please check the [full rules and procedures][rules].
 
 We hope the next USEMO can run in Fall 2020.
 
-# USEMO 2019 is Done
+# USEMO 2020
 
-The [1st USEMO has concluded and results are published](exams/report-usemo-2019.pdf).
-Scores are available on the
-[portal on the Art of Problem Solving host website][aops-usemo]
-if you participated. We hope to see you next year!
+## Schedule (for USEMO 2020)
 
-<!--
-## Schedule (for USEMO 2019)
-
-* Day 1 of exam: Saturday **May 23 2020**, from 12:30pm ET to 5:00pm ET.
-* Day 2 of exam: Sunday **May 24 2020**, from 12:30pm ET to 5:00pm ET.
+* Registration opens in early/mid October.
+* Day 1 of exam: Saturday **October 24 2020**, from 12:30pm ET to 5:00pm ET.
+* Day 2 of exam: Sunday **October 25 2020**, from 12:30pm ET to 5:00pm ET.
 
 Additionally, an optional **test review**
 will be held on **7pm ET** each day right after the exam.
 It will be hosted at [twitch.tv/vEnhance](https://twitch.tv/vEnhance).
 The USEMO organizers will present solutions to all three problems
 on that day and take any questions or comments from the live chat.
--->
 
 ## Links and downloads
 
@@ -86,19 +80,19 @@ Volunteering is open to anyone who is not themselves eligible to compete.
 The two biggest things we can use help with are:
 
 + **Grading**: this is by far the biggest bottleneck.
-	If you have any capability to read through some submissions,
-	please get in touch with the organizers!
+	If you have any capability to read through some submissions, please help!
 	While you need experience reading mathematical proofs
 	to fulfill this role, you do NOT need past competition experience.
 	We will provide marking schemes,
 	and pair up experienced graders with newer ones.
-	If you're interested in this, please contact the USEMO directors
-	at $\texttt{usemo@evanchen}\cdot\texttt{cc}$.
+	You can read [more info about the grading here][grading-info].
+	To sign up for grading,
+	[fill out this form](https://forms.gle/KF7Mb3f1Bnj5Fi6W7).
 
 + **Problem proposals**: we welcome proposals for problems
-	from anyone who is not eligible for the contest
-	(although the deadline for the 1st USEMO has passed already).
+	from anyone who is not eligible for the contest.
 	See the [problem proposal guidelines][propose].
+	For USEMO 2020, the deadline for submissions is **August 20, 2020**.
 
 Please contact the directors for details on these,
 or if you have other ideas on how you could help out.
@@ -110,6 +104,7 @@ or if you have other ideas on how you could help out.
 [answersheet]: static/usemo/answer-template-usemo.pdf
 [mission]: static/usemo/mission-usemo.pdf
 [rules]: static/usemo/rules-usemo.pdf
+[grading-info]: static/usemo/grading-brief-usemo.pdf
 [propose]: static/usemo/proposal-guidelines-usemo.pdf
 [signup]: https://forms.gle/P7tqip2xst8EMXLJ7
 [aops-usemo]: https://www.aops.com/contests/usemo
