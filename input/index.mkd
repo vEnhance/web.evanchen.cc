@@ -10,7 +10,7 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 This is the homepage of Evan Chen
 (known also as vEnhance on certain websites).
 
-I am a [math PhD student at MIT](http://math.mit.edu/directory/profile.php?pid=2106),
+I am a [math PhD student at MIT](https://math.mit.edu/directory/profile.php?pid=2106),
 starting in September 2018.
 My CV is [here](upload/public-CV.pdf).
 Here is a [list of my major coursework](upload/math-coursework.pdf)

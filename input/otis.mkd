@@ -98,12 +98,12 @@ contains the full details.
 
 Current staff:
 
-* [Evan Chen](http://web.evanchen.cc): Director
+* [Evan Chen](https://web.evanchen.cc): Director
 * [Anant Mudgal][anant]: Instructor (OTIS III)
 * [Howard Halim][howard]: Instructor (OTIS III-IV)
 * [Michael Ren][mren]: Instructor (OTIS I-II)
 * [Zack Chroman][zack]: Instructor (OTIS II-III)
-* [CJ Quines](http://cjquines.com/): Grader
+* [CJ Quines](https://cjquines.com/): Grader
 
 Past organizers:
 
@@ -162,8 +162,8 @@ though he didn't do that much.
 [anna]: https://www.egmo.org/people/person1154/
 [annie]: https://www.egmo.org/people/person1022/
 
-[usamo17]: http://www.maa.org/sites/default/files/HonorableMentions2017.pdf
-[usamo18]: http://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
+[usamo17]: https://www.maa.org/sites/default/files/HonorableMentions2017.pdf
+[usamo18]: https://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
 [usamo19]: https://www.maa.org/sites/default/files/pdf/usamo/2019%20USAMO%20Winners.pdf
 
-[gir]: http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
+[gir]: https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/

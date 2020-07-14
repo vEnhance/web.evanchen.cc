@@ -5,7 +5,7 @@ description: OTIS Excerpts, a mini-book based on OTIS lecture notes.
 ---
 
 <span style="float:right;padding:10px;">
-<img src="http://storage.googleapis.com/otisweb-static/static/img/otis-logo-v2018.svg" 
+<img src="https://storage.googleapis.com/otisweb-static/static/img/otis-logo-v2018.svg" 
 	width="250px" />
 </span>
 
@@ -54,6 +54,6 @@ and solutions to recent USA team selection test problems.
 Geometry is not covered;
 [there is already a textbook for that](geombook.html).
 
-[recent]: http://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf
-[catalog]: http://web.evanchen.cc/static/otis-samples/synopsis.html
+[recent]: https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf
+[catalog]: https://web.evanchen.cc/static/otis-samples/synopsis.html
 [forum]: https://artofproblemsolving.com/community/c1123852_otis_excerpts

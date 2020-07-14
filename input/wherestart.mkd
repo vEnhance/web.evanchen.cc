@@ -72,7 +72,7 @@ To that end, here are some links to advice:
 	from Art of Problem Solving.
 * [Remarks on English](handouts/english/english.pdf),
 	written by me.
-* [How to write proofs](http://zimmer.csufresno.edu/%7Elarryc/proofs/proofs.html),
+* [How to write proofs](https://zimmer.csufresno.edu/%7Elarryc/proofs/proofs.html),
 	by Larry W. Cusick.
 
 You don't need to get too caught up in these links;
@@ -166,7 +166,7 @@ Here are some particular contests I like (roughly ascending order of difficulty)
 
 + [Canada national olympiad](https://cms.math.ca/Competitions/CMO/)
 + [European Girls Math Olympiad](https://www.egmo.org/egmos/)
-+ [IMO and IMO Shortlist](http://imo-official.org/problems.aspx)
++ [IMO and IMO Shortlist](https://imo-official.org/problems.aspx)
 + [USA Team Selection Tests](problems.html)
 
 The bottom of the [recommendations page](recommend.html)

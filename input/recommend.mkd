@@ -18,14 +18,14 @@ can be found [here](wherestart.html).
 ## PG essays
 
 I can't help but link
-[Paul Graham's essays](http://www.paulgraham.com/articles.html).
+[Paul Graham's essays](https://www.paulgraham.com/articles.html).
 Ones I felt hit closest to home:
-[What You'll Wish You'd Known](http://www.paulgraham.com/hs.html),
-[Undergraduation](http://www.paulgraham.com/college.html),
-[The Age of the Essay](http://www.paulgraham.com/essay.html),
-[What You Can't Say](http://www.paulgraham.com/say.html),
-[Mean People Fail](http://www.paulgraham.com/mean.html),
-[The Lesson to Unlearn](http://www.paulgraham.com/lesson.html).
+[What You'll Wish You'd Known](https://www.paulgraham.com/hs.html),
+[Undergraduation](https://www.paulgraham.com/college.html),
+[The Age of the Essay](https://www.paulgraham.com/essay.html),
+[What You Can't Say](https://www.paulgraham.com/say.html),
+[Mean People Fail](https://www.paulgraham.com/mean.html),
+[The Lesson to Unlearn](https://www.paulgraham.com/lesson.html).
 
 ## Undergraduate Math and Computer Science
 
@@ -37,9 +37,9 @@ Here are some additional links.
 * [MSci Category Theory notes](https://arxiv.org/abs/1612.09375) by Tom Leinster.
   I highly enjoyed these notes; very carefully written and explains intuition.
   Some minimal knowledge of group theory and linear algebra is used in the examples.
-  See also [the corresponding print book](http://www.maths.ed.ac.uk/~tl/bct/).
+  See also [the corresponding print book](https://www.maths.ed.ac.uk/~tl/bct/).
 
-* [Analytic NT notes](http://www.math.illinois.edu/~hildebr/ant/) by AJ Hildebrand.
+* [Analytic NT notes](https://www.math.illinois.edu/~hildebr/ant/) by AJ Hildebrand.
   A set of lecture notes for analytic number theory, suitable for self-study.
   A light introduction where you get to prove versions of the Prime Number Theorem and Dirichlet's Theorem.
 
@@ -48,32 +48,32 @@ Here are some additional links.
   This was the source that finally got me to understand the concept of a ringed space.
   It doesn't officially cover schemes, but because it covers general varieties as ringed spaces the full-fledged scheme is not much harder.
 
-* [Manifolds and Differential Forms](http://www.math.cornell.edu/~sjamaar/manifolds/) by Reyer Sjamaar.
+* [Manifolds and Differential Forms](https://www.math.cornell.edu/~sjamaar/manifolds/) by Reyer Sjamaar.
   My preferred introduction to differential geometry; very readable and works with minimal prerequisites.
   Also, beautifully drawn figures.
 
-* [Harvard's CS 125: Algorithms and Complexity](http://people.seas.harvard.edu/~cs125/) has delightful lecture and section notes.
+* [Harvard's CS 125: Algorithms and Complexity](https://people.seas.harvard.edu/~cs125/) has delightful lecture and section notes.
 
 ## Olympiad Resources
 
-See also [Geoff Smith's page](http://people.bath.ac.uk/masgcs/advice.html).
+See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 
 ### Handouts
 
 * [My own handouts](olympiad.html) (sorry, couldn't resist linking them again).
 
-* [Yufei Zhao's site](http://yufeizhao.com/olympiad.html) has several excellent handouts,
+* [Yufei Zhao's site](https://yufeizhao.com/olympiad.html) has several excellent handouts,
   especially in geometry.
   I consulted many of them when I was coming up
   with ideas for my geometry textbook.
-  In particular, [the Cyclic Quadrilaterals handout](http://yufeizhao.com/olympiad/cyclic_quad.pdf)
+  In particular, [the Cyclic Quadrilaterals handout](https://yufeizhao.com/olympiad/cyclic_quad.pdf)
    is especially worth reading.
 
-* [Alexander Remorov](http://alexanderrem.weebly.com/math-competitions.html),
+* [Alexander Remorov](https://alexanderrem.weebly.com/math-competitions.html),
   in particular the projective geometry handout,
   which the corresponding chapter in my textbook is based off of.
 
-* [Po-Shen Loh](http://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
+* [Po-Shen Loh](https://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
 
 ### Books
 
@@ -83,9 +83,9 @@ See also [Geoff Smith's page](http://people.bath.ac.uk/masgcs/advice.html).
 * [Art and Craft of Problem Solving][acops] by Paul Zeitz,
   introduction to math olympiads in general.
 
-* [An olympiad combinatorics book, by Pranav A. Sriram](http://www.artofproblemsolving.com/community/c6h601134). The individual chapters are located in posts #1, #11, #49.
+* [An olympiad combinatorics book, by Pranav A. Sriram](https://www.artofproblemsolving.com/community/c6h601134). The individual chapters are located in posts #1, #11, #49.
 
-* [Olympiad NT through Challenging Problems](http://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
+* [Olympiad NT through Challenging Problems](https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
   is an introductory olympiad number theory text,
   at a level somewhat easier than what my own number theory handouts assume.
 
@@ -113,6 +113,6 @@ Each section is in alphabetical order.
 	* [Vietnam](https://aops.com/community/c3442)
 + International contests:
 	* [European Girls Math Olympiad](https://www.egmo.org/egmos/)
-	* [IMO Shortlist](http://imo-official.org/problems.aspx)
-	* [Romania Masters in Mathematics](http://rmms.lbi.ro/)
-	* [Sharygin](http://www.aops.com/community/c3372_sharygin_geometry_olympiad)
+	* [IMO Shortlist](https://imo-official.org/problems.aspx)
+	* [Romania Masters in Mathematics](https://rmms.lbi.ro/)
+	* [Sharygin](https://www.aops.com/community/c3372_sharygin_geometry_olympiad)

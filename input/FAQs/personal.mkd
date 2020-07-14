@@ -67,22 +67,22 @@ It is hidden somewhere on this website,
 on [cofinitely][cofinite] many of the pages. ;)
 
 [aimescratch]: static/AIME-2013-scratch.pdf
-[aopswrite]: http://artofproblemsolving.com/articles/how-to-write-solution
+[aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
-[ebook]: http://www.maa.org/ebooks/EGMO/
-[geoff]: http://people.bath.ac.uk/masgcs/geo.pdf
+[ebook]: https://www.maa.org/ebooks/EGMO/
+[geoff]: https://people.bath.ac.uk/masgcs/geo.pdf
 [geombook]: geombook.html
-[howproof]: http://zimmer.csufresno.edu/~larryc/proofs/proofs.html
+[howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [otis]: otis.html
-[mistakes]: http://www.artofproblemsolving.com/articles/stupid-mistakes
+[mistakes]: https://www.artofproblemsolving.com/articles/stupid-mistakes
 [myscores]: myscores.html
-[right]: http://artofproblemsolving.com/community/c5h520900
-[shower]: http://www.paulgraham.com/top.html
+[right]: https://artofproblemsolving.com/community/c5h520900
+[shower]: https://www.paulgraham.com/top.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
 [usa2003]: exams/usamo-2003-rubric.pdf
-[usamts]: http://usamts.org/index.php
+[usamts]: https://usamts.org/index.php
 [wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
 [wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
-[yufei]: http://yufeizhao.com/olympiad.html
+[yufei]: https://yufeizhao.com/olympiad.html
 
 [cofinite]: https://en.wikipedia.org/wiki/Cofiniteness

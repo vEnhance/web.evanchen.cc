@@ -60,7 +60,7 @@ I guess the best advice I can give is to pick some project to work on.
 It doesn't have to be (and probably shouldn't be)
 something that you're confident that you can do well in.
 For more on this I much like the advice suggested
-by [Paul Graham](http://paulgraham.com/hs.html)
+by [Paul Graham](https://paulgraham.com/hs.html)
  particularly in Section "Now".
 
 Maybe it's better if I gave examples of projects
@@ -113,7 +113,8 @@ you can love the subject, work harder than everyone else,
 do everything right, and still not win the USAMO;
 that's what makes it worth doing.
 
-To quote [Paul Graham](http://www.paulgraham.com/hs.html):
+To quote [Paul Graham](https://www.paulgraham.com/hs.html):
+
 > Hard means worry:
 > if you're not worrying that something you're making will come out badly,
 > or that you won't be able to understand something you're studying,
@@ -141,9 +142,9 @@ the social aspect of contests was huge for me.)
 Short answer: yes, but not in the ways people often expect.
 Long answer: [this blog post][tutor].
 
-[raq]: http://paulgraham.com/raq.html
+[raq]: https://paulgraham.com/raq.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
-[vxia]: http://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
-[aopstime]: http://www.artofproblemsolving.com/community/c5h1147943p5421541
-[procrastinate]: http://paulgraham.com/procrastination.html
+[vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
+[aopstime]: https://www.artofproblemsolving.com/community/c5h1147943p5421541
+[procrastinate]: https://paulgraham.com/procrastination.html
 [lessons]: https://usamo.wordpress.com/2018/01/05/lessons-from-math-olympiads/

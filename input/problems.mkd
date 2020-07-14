@@ -177,7 +177,7 @@ See also [general ELMO information](elmo/general.html).
 These are the problems I worked on in high school
 when competing for a spot on the Taiwanese IMO team.
 These problems are in Chinese;
-[English versions here](http://www.aops.com/community/c41558).
+[English versions here](https://www.aops.com/community/c41558).
 
 * Taiwan TST 2014 Round 1 [(problems)](exams/TaiwanTST-2014-1.pdf)
 * Taiwan TST 2014 Round 2 [(problems)](exams/TaiwanTST-2014-2.pdf)

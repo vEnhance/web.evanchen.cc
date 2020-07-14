@@ -23,7 +23,7 @@ Please see the links above for more information.
 
 ## Research Publications
 
-Here is a [listing of all my papers on arXiv](http://arxiv.org/a/chen_e_2).
+Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
 
 * [Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures][arxiv-house] <br>
   E. Chen. Published in [Proceedings of the AMS][pams-algint].
@@ -95,27 +95,27 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 
 
 [ordinals]: https://usamo.wordpress.com/2014/11/18/set-theory-part-2-constructing-the-ordinals/
-[sparc]: http://www.sparc-camp.org
+[sparc]: https://www.sparc-camp.org
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
-[ebook]: http://www.maa.org/ebooks/EGMO
+[ebook]: https://www.maa.org/ebooks/EGMO
 [wpnapkin]: https://usamo.wordpress.com/napkin/
 
-[arxiv-linnik]: http://arxiv.org/abs/1506.09170
-[arxiv-benford]: http://arxiv.org/abs/1507.02629
-[arxiv-grh]: http://arxiv.org/abs/1507.07122
-[arxiv-house]: http://arxiv.org/abs/1608.04146
-[arxiv-hypercube]: http://arxiv.org/abs/1609.01247
+[arxiv-linnik]: https://arxiv.org/abs/1506.09170
+[arxiv-benford]: https://arxiv.org/abs/1507.02629
+[arxiv-grh]: https://arxiv.org/abs/1507.07122
+[arxiv-house]: https://arxiv.org/abs/1608.04146
+[arxiv-hypercube]: https://arxiv.org/abs/1609.01247
 [arxiv-wilf]: https://arxiv.org/abs/1609.04626
 [arxiv-schur]: https://arxiv.org/abs/1708.01350
 [arxiv-orthomorphism]: https://arxiv.org/abs/1710.02734
 [arxiv-poset]: https://arxiv.org/abs/1709.05753
 
-[rnut]: http://link.springer.com/article/10.1007/s40993-015-0028-0
-[ejc-schur]: http://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p4
-[ijnt]: http://dx.doi.org/10.1142/S1793042118500161
-[ejc-hypercube]: http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p2
+[rnut]: https://link.springer.com/article/10.1007/s40993-015-0028-0
+[ejc-schur]: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p4
+[ijnt]: https://dx.doi.org/10.1142/S1793042118500161
+[ejc-hypercube]: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p2
 [pams-benford]: https://www.ams.org/journals/proc/2016-144-11/S0002-9939-2016-13112-2/home.html
 [pams-algint]: https://www.ams.org/journals/proc/0000-000-00/S0002-9939-2018-14115-5/
 [dmtcs-wilf]: https://dmtcs.episciences.org/paper/view/id/4912
-[ejc-poset]: http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i4p43
+[ejc-poset]: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i4p43
 [joc-orthomorphism]: https://www.intlpress.com/site/pub/pages/journals/items/joc/content/_home/index.php

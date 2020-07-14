@@ -7,7 +7,7 @@ menu-position: 60
 Here's a little about myself as person:
 
 + Linux: [Arch Linux](https://www.archlinux.org/), using [i3](https://i3wm.org/).
-+ Editor: [Vim](http://www.vim.org/)
++ Editor: [Vim](https://www.vim.org/)
 + Keyboard layout: [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard)
 + TeX distribution: [TeX Live](https://tug.org/texlive/)
 * My [browser homepage](static/browser-homepage.html)
@@ -33,4 +33,4 @@ Some other places on the Internet you can find me:
 + [StarCraft replays](https://sc2replaystats.com/player/2491031)
 
 [aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)
-[imo]: http://imo-official.org/participant_r.aspx?id=24870
+[imo]: https://imo-official.org/participant_r.aspx?id=24870

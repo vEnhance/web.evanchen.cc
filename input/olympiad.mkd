@@ -6,8 +6,8 @@ description: Popular math olympiad training materials written by Evan Chen.
 ---
 
 These are some handouts I've written over the years.
-The [Math](http://usamo.wordpress.com/category/mathematics/) and
-[Problem Solving](http://usamo.wordpress.com/category/problem-solving/) sections
+The [Math](https://usamo.wordpress.com/category/mathematics/) and
+[Problem Solving](https://usamo.wordpress.com/category/problem-solving/) sections
 of my personal blog might also be of interest.
 See also [Recommendations](recommend.html) for other authors I like,
 as well as my [geometry book](geombook.html) for a
@@ -39,7 +39,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 * <b>Taiwan TST 2014 Reflection</b> {{ hlink("TaiwanTST") }}
   This describes my experiences competing for a position on the Taiwan IMO 2014 team.
   It also contains an extensive commentary on each of the
-  [Team Selection Tests and Quizzes](http://www.aops.com/community/c41558),
+  [Team Selection Tests and Quizzes](https://www.aops.com/community/c41558),
   which together covered most of the 2013 IMO Shortlist.
 
 * <b>USAMO 2014 Contest Analysis</b> {{ hlink("USAMO2014") }}
@@ -145,6 +145,6 @@ of [my textbook][geombook].
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
 [olympiad.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/olympiad.asy
 [cse5.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/cse5.asy
-[egmo2]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
-[egmo8]: http://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
+[egmo2]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
+[egmo8]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
 [geombook]: geombook.html

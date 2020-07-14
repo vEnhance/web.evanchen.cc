@@ -23,11 +23,11 @@ The main contributing factors are:
 
 + My typing speed is quite high, at around 650 characters per minute.
 + My editor is Vim (on Arch Linux), which is one of the fastest editors.
-+ I use [LaTeX-Suite](http://vim-latex.sourceforge.net/) for Vim.
++ I use [LaTeX-Suite](https://vim-latex.sourceforge.net/) for Vim.
 + Several additional custom keyboard shortcuts specifically for TeX,
   see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
 + I have conceal enabled, so I can read my source code more easily.
-+ I run [latexmk -pvc](http://www.phys.psu.edu/~collins/software/latexmk-jcc/) in the background, so the PDF also compiles in realtime.
++ I run [latexmk -pvc](https://www.phys.psu.edu/~collins/software/latexmk-jcc/) in the background, so the PDF also compiles in realtime.
 
 I have been using Vim and LaTeX since I was a teenager,
 so I am quite proficient with both.
@@ -82,6 +82,6 @@ consider programs like [PRIMES](https://math.mit.edu/research/highschool/primes/
 or finding a professor near you.
 
 [notes]: coursework.html
-[euler]: http://eulercircle.com/research/thoughts-on-research/
-[tuition]: http://web.mit.edu/facts/tuition.html
+[euler]: https://eulercircle.com/research/thoughts-on-research/
+[tuition]: https://web.mit.edu/facts/tuition.html
 [blank]: https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/comment-page-1/#comment-1694

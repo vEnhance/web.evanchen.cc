@@ -65,7 +65,7 @@ here are some of the games I like.
   and manipulating rules.
   Can be absurdly hard at times so best played with friends.
 
-* [<b>The Battle for Wesnoth</b>](http://wesnoth.org/)
+* [<b>The Battle for Wesnoth</b>](https://wesnoth.org/)
   (solo campaign and multiplayer) <br>
   Turn-based strategy game played on a hexagonal grid,
   with extensive single-player campaigns but also allows multiplayer.
@@ -103,14 +103,14 @@ These games are much more plot-heavy
 For these games, I suggest playing without
 looking much up beforehand (to avoid spoilers).
 
-* [<b>Doki Doki Literature Club</b>](http://ddlc.moe/)<br>
+* [<b>Doki Doki Literature Club</b>](https://ddlc.moe/)<br>
   Free-to-play visual novel game for PC/Mac/Linux.
   Appears as a dating simulator in which you write poetry with four girls.
   It is pretty short; a first run-through takes maybe four hours.
   The game is extremely plot-heavy, so I strongly recommend
   not finding spoilers (or anything about the game at all).
   I should note to take the game's
-  [content warnings](http://ddlc.moe/warning.html) seriously;
+  [content warnings](https://ddlc.moe/warning.html) seriously;
   this game is not suitable for young audiences or those easily disturbed.
 
 * [<b>Ghost Trick: Phantom Detective</b>](https://en.wikipedia.org/wiki/Ghost_Trick) <br>

@@ -176,7 +176,7 @@ As of 2016, ties are generally only broken for USAMO winners,
 since exactly 12 winners are invited to the state dinner.
 
 
-[amc]: http://www.maa.org/math-competitions
+[amc]: https://www.maa.org/math-competitions
 [usa2003]: upload/usamo-2003-rubric.pdf
 [taiwan]: handouts/TaiwanTST/TaiwanTST.pdf
 [english]: handouts/english/english.pdf
