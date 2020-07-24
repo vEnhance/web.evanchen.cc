@@ -26,7 +26,7 @@ def get_twitch_table():
 		youtube = row['YouTube']
 
 		basename = "Ep%03d" %int(n) + "-" \
-				+ key.replace(" ", "-").replace("/", "-") \
+				+ key.replace(" ", "-").replace("/", "-").replace(".", "-") \
 				+ '-Solution' + '.pdf'
 		filename = os.path.join(os.path.expanduser("~"), "youtube-tex", basename)
 
