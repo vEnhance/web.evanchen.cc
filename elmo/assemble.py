@@ -282,7 +282,7 @@ for year in ELMO:
 		print(r'<table id="table_main" class="tablesorter">', file=f)
 		print("<thead><tr><th>Country</th>" \
 				+ year.problem_headers, file=f)
-		if year.year_num == 2018:
+		if year.year_num >= 2018:
 			print("<th>Total</th><th>Top 4 Avg</th><th>Rank</th><th>Award</th></tr></thead>", file=f)
 		elif year.year_num == 2017:
 			print("<th>Total</th><th>Top 3 Avg</th><th>Rank</th><th>Award</th></tr></thead>", file=f)
