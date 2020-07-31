@@ -249,11 +249,14 @@ for year in ELMO:
 		print(HEADER, file=f)
 		print(result_header, file=f)
 
-		top_country = year.countries[0]
-		top_score = year.students[0].score
+		top_countries = ', '.join(['{c.pname} ({c.pcode})'.format(c = country) \
+			for country in year.countries if country.rank == 1])
 		top_students = ', '.join([link(s.country, s.name) \
-				for s in year.students if s.score == top_score])
-		print(r'<h4>Top Team: {c.pname} ({c.pcode})</h4>'.format(c = top_country), file=f)
+				for s in year.students if s.rank == 1])
+		# top_score = year.students[0].score
+		# top_students = ', '.join([link(s.country, s.name) \
+		# 		for s in year.students if s.score == top_score])
+		print(r'<h4>Top Team: {}</h4>'.format(top_countries), file=f)
 		print(r'<h4>Top Contestant:  {}</h4>'.format(top_students), file=f)
 		print("<h4>Medal Cutoffs</h4>", file=f)
 		print("<ul>", file=f)
