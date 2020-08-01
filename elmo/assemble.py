@@ -7,8 +7,8 @@ BASE = r"//web.evanchen.cc/elmo/"
 YEAR_PREV = 2019
 YEAR_NEXT = 2020
 YEARS = [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
-PREV_URL = "https://aops.com/community/c5h1838663s1_21st_elmo_2019"
-NEXT_URL = "https://www.nyan.cat"
+PREV_URL = "https://aops.com/community/c5h1838663_21st_elmo_2019"
+NEXT_URL = "https://aops.com/community/c5h2178495_22nd_elmo_2020"
 
 # Create header {{{1
 with open("static/header.html") as f:
