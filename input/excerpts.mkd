@@ -1,4 +1,5 @@
 header: The OTIS Excerpts
+title: OTIS Excerpts
 indent: 1
 description: OTIS Excerpts, a mini-book based on OTIS lecture notes.
 

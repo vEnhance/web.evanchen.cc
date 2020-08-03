@@ -1,5 +1,5 @@
+title: Outreach
 header: Outreach for High School Math
-indent: 1
 description: Listing of volunteer roles
 
 ---
