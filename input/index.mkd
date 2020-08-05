@@ -5,6 +5,10 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 ---
 
+<span style="float:left;padding:10px;">
+<img src="static/heart.jpg" width="180"/>
+</span>
+
 > *信言不美，美言不信。*
 
 This is the homepage of Evan Chen
