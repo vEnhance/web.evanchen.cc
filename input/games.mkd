@@ -74,6 +74,11 @@ here are some of the games I like.
   with units aligned as lawful/chaotic and which can level up. <br>
   Free and open-source, for PC/Mac/Linux.
 
+* [<b>hanab.live</b>](https://hanab.live) (cooperative) <br>
+  Wonderful online implementation of Hanabi,
+  together with a comprehensive set of [Hanabi conventions][conventions].
+  Cooperative logic-based deduction game.
+
 * [<b>StarCraft II</b>](https://en.wikipedia.org/wiki/StarCraft_II:_Legacy_of_the_Void)
   (solo campaign and multiplayer) <br>
   Real-time strategy military science-fiction.
@@ -82,6 +87,8 @@ here are some of the games I like.
   you can also see my
   [replays](https://sc2replaystats.com/player/2491031).
   I am a Gold Protoss though I play a lot of Random as well.
+
+[conventions]: https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md
 
 ## Rhythm games
 
