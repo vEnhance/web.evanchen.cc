@@ -17,7 +17,7 @@ def get_twitch_table():
 
 	out = ''
 	out += r'<table cellpadding="5">' + '\n'
-	out += r'<tr><th>Episode No.</th><th>Write-up</th><th>Youtube</th></tr>' + '\n'
+	out += r'<tr><th>Episode</th><th>Problem</th><th>PDF</th><th>TeX</th><th>YouTube</th></tr>' + '\n'
 
 	for row in data:
 		n = row['N']
@@ -27,18 +27,22 @@ def get_twitch_table():
 
 		basename = "Ep%03d" %int(n) + "-" \
 				+ key.replace(" ", "-").replace("/", "-").replace(".", "-") \
-				+ '-Solution' + '.pdf'
-		filename = os.path.join(os.path.expanduser("~"), "youtube-tex", basename)
+				+ '-Solution'
+		basename_tex = basename + '.tex'
+		basename_pdf = basename + '.pdf'
+		filename = os.path.join(os.path.expanduser("~"), "youtube-tex", basename_pdf)
 
 		if fail:
 			continue
 
 		out += '<tr>'
 		out += '<td>Ep. %s</td>' % n
+		out += '<td>%s</td>' % key
 		if os.path.exists(filename):
-			out += '<td><a href="twitch/%s">%s</a></td>' %(basename, key)
+			out += '<td><a href="twitch/%s">(pdf)</a></td>' % basename_pdf
+			out += '<td><a href="twitch/%s">(tex)</a></td>' % basename_tex
 		else:
-			out += '<td>%s</td>' % key
+			out += '<td></td>' * 2
 		if youtube:
 			out += '<td><a href="%s">(youtube)</a></td>' % youtube
 		else:
