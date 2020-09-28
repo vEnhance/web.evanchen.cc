@@ -137,6 +137,7 @@ the selection process for the USA IMO team.
 	<tt style="font-size: 70%">GRE-G1 SVK-A2 IRN-C4 ARM-C2 MNG-N4 POL-G6</tt>
 * IMO 2019 [(problems and solutions)](exams/IMO-2019-notes.pdf) <br>
 	<tt style="font-size: 70%">SAF-A1 UKR-G3 HRV-C5 SLV-N1 USA-C3 IND-G7</tt>
+* IMO 2020 [(problems and solutions)](exams/IMO-2020-notes.pdf) <br>
 
 ## USEMO
 
