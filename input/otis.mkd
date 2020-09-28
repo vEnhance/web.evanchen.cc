@@ -28,11 +28,12 @@ though some of the chapters are more challenging.
 # Application &mdash; Year VI
 
 The application for fall 2020 is now open.
-The **deadline** to apply is **August 1, 2020 at 11:59 PM PT**
-although starting this year there is some procedure
-for late applications up until February.
+The deadline to apply was is August 1, 2020 at 11:59 PM PT.
+However, late applications may receive some consideration
+up until February 2021.
+See section 4 of the application instructions for details about this.
 
-* [Application problems for fall 2020](upload/otis-app-vi.pdf)
+* [Application instructions and problems for fall 2020](upload/otis-app-vi.pdf)
 * [Submission URL for fall 2020](https://forms.gle/LKqrGpR1gqY4yCVT9)
 
 ## Who can apply
