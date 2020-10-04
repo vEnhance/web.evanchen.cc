@@ -39,7 +39,8 @@ We hope the next USEMO can run in Fall 2020.
 
 ## Schedule (for USEMO 2020)
 
-* Registration opens in early/mid October.
+* Registration opens on October 5 on [AoPS portal](https://aops.com/contests/usemo/).
+	It remains open until end-of-day October 23 or when capacity is reached.
 * Day 1 of exam: Saturday **October 24 2020**, from 12:30pm ET to 5:00pm ET.
 * Day 2 of exam: Sunday **October 25 2020**, from 12:30pm ET to 5:00pm ET.
 
@@ -59,9 +60,8 @@ on that day and take any questions or comments from the live chat.
 
 ## Contact
 
-The directors of the USEMO are Evan Chen,
-Brice Huang, and Carl Schildkraut.
-You can reach all three at the email $\texttt{usemo@evanchen}\cdot\texttt{cc}$.
+The directors of the USEMO is Evan Chen.
+You may use the email $\texttt{usemo@evanchen}\cdot\texttt{cc}$.
 
 # Archive
 
