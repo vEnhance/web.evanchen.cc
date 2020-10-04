@@ -127,44 +127,9 @@ most talented and motivated math high schoolers in the country
 on the same problems that I loved so much back in high school.
 I have the best job in the world.
 
-Here are some RMM/USAMO/EGMO/IMO results from past participants.
-This is not a claim that they performed well *because* of me;
-all of them were already strong before joining OTIS,
-and I think they would likely have done well even without me.
-
-But *sensei* is still super proud of his kids even
-though he didn't do that much.
-
-+ USAMO [2017][usamo17] winners: Zack Chroman, Michael Ren
-+ USAMO [2018][usamo18] winners: Michael Ren, Guanpeng Xu, Edward Wan
-+ USAMO [2019][usamo19] winners: Vincent Bian, Colin Tang, Guanpeng Xu, Edward Wan
-+ IMO 2017: [Zack Chroman][zack]
-+ IMO 2018: [Sualeh Asif][asif], [Howard Halim][howard], [Anant Mudgal][anant], [Michael Ren][mren], [Edward Wan][edwan]
-+ IMO 2019: [Howard Halim][howard], [Sebastian Jeon][sebastian], [Harun Khan][harun], [Daniel Sheremeta][danielsh], [Pranjal Srivastava][pranjal], [Colin Tang][colin], [Edward Wan][edwan]
-
 ## Photos
 
 <img src="static/otis-imo-2018.png" width="400" />
 <img src="static/otis-imo-2019.jpg" width="400" />
-
-[asif]: https://www.imo-official.org/participant_r.aspx?id=26436
-[ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
-[anant]: https://www.imo-official.org/participant_r.aspx?id=25764
-[colin]: https://www.imo-official.org/participant_r.aspx?id=29328
-[danielsh]: https://www.imo-official.org/participant_r.aspx?id=29226
-[edwan]: https://www.imo-official.org/participant_r.aspx?id=28236
-[harun]: https://www.imo-official.org/participant_r.aspx?id=29032
-[howard]: https://www.imo-official.org/participant_r.aspx?id=28475
-[mren]:  https://www.imo-official.org/participant_r.aspx?id=28394
-[pranjal]: https://www.imo-official.org/participant_r.aspx?id=28249
-[sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
-[zack]:  https://www.imo-official.org/participant_r.aspx?id=27374
-
-[anna]: https://www.egmo.org/people/person1154/
-[annie]: https://www.egmo.org/people/person1022/
-
-[usamo17]: https://www.maa.org/sites/default/files/HonorableMentions2017.pdf
-[usamo18]: https://www.maa.org/sites/default/files/pdf/AMC/usamo/2018/USAMOWinners.pdf
-[usamo19]: https://www.maa.org/sites/default/files/pdf/usamo/2019%20USAMO%20Winners.pdf
 
 [gir]: https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
