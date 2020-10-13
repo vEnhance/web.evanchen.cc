@@ -22,7 +22,6 @@ def get_twitch_table():
 	for row in data:
 		n = row['N']
 		key = row['Source']
-		fail = row['Fail']
 		youtube = row['YouTube']
 
 		basename = "Ep%03d" %int(n) + "-" \
@@ -31,9 +30,6 @@ def get_twitch_table():
 		basename_tex = basename + '.tex'
 		basename_pdf = basename + '.pdf'
 		filename = os.path.join(os.path.expanduser("~"), "youtube-tex", basename_pdf)
-
-		if fail:
-			continue
 
 		out += '<tr>'
 		out += '<td>Ep. %s</td>' % n
