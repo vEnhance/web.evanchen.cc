@@ -102,15 +102,22 @@ contains the full details.
 Current staff:
 
 * [Evan Chen](https://web.evanchen.cc): Director
-* [Anant Mudgal][anant]: Instructor (OTIS III)
-* [Howard Halim][howard]: Instructor (OTIS III-IV)
-* [Michael Ren][mren]: Instructor (OTIS I-II)
-* [Zack Chroman][zack]: Instructor (OTIS II-III)
+* [Gopal Goel][gopal]: Instructor (alum OTIS IV-V)
+* [Howard Halim][howard]: Instructor (alum OTIS III-IV)
+* [James Lin][james]: Instructor
+* [Jeffrey Kwan][jkwan]: Instructor (alum OTIS IV-V)
+* [Pranjal Srivastava][pranjal]: Instructor (alum OTIS IV)
+* [Rohan Goyal][rohan]: Instructor (alum OTIS V)
 * [CJ Quines](https://cjquines.com/): Grader
+* [Reed LaFleche][reed]: Grader
+* [Xinke Guo-Xue][xinke]: Grader
 
 Past organizers:
 
+* [Anant Mudgal][anant]: Instructor (alum OTIS III)
 * [Ankan Bhattacharya][ankan]: Instructor
+* [Michael Ren][mren]: Instructor (alum OTIS I-II)
+* [Zack Chroman][zack]: Instructor (alum OTIS II-III)
 
 ## History
 I started teaching in 2015 when a group of parents
@@ -135,3 +142,19 @@ I have the best job in the world.
 <img src="static/otis-imo-2019.jpg" width="400" />
 
 [gir]: https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
+
+[anant]: https://www.imo-official.org/participant_r.aspx?id=25764
+[gopal]: https://www.imo-official.org/participant_r.aspx?id=29882
+[howard]: https://www.imo-official.org/participant_r.aspx?id=28475
+[james]: https://www.imo-official.org/participant_r.aspx?id=27375
+[jkwan]: https://www.imo-official.org/participant_r.aspx?id=29884
+[pranjal]: https://www.imo-official.org/participant_r.aspx?id=28249
+[sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
+[rohan]: https://www.linkedin.com/in/rohan-goyal-a998aa155/
+
+[reed]: https://www.linkedin.com/in/reed-lafleche-941481106/
+[xinke]: https://xinkeguoxue.github.io/
+
+[ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
+[mren]:  https://www.imo-official.org/participant_r.aspx?id=28394
+[zack]:  https://www.imo-official.org/participant_r.aspx?id=27374
