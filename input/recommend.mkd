@@ -89,6 +89,9 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
   is an introductory olympiad number theory text,
   at a level somewhat easier than what my own number theory handouts assume.
 
+* [Modern Olympiad Number Theory](https://artofproblemsolving.com/community/c6h2344755), by Aditya Khurmi.
+  More olympiad-oriented number theory textbook.
+
 [acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
 
 ### Contests
