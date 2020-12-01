@@ -155,7 +155,8 @@ the selection process for the USA IMO team.
 
 Also listed on the [USEMO page](usemo.html).
 
-* USEMO 2019-2020 [(problems)](exams/USEMO-2019.pdf)
+* USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
+* USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
 
 ## ELMO
 
