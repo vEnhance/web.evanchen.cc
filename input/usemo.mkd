@@ -66,7 +66,7 @@ You may use the email $\texttt{usemo@evanchen}\cdot\texttt{cc}$.
 # Archive
 
 * USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
-* USEMO 2020 [(problems)](exams/USEMO-2020.pdf)
+* USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
 
 ## Hall of Fame
 
@@ -74,6 +74,7 @@ This is a listing of the Top 3 scorers on each USEMO.
 Further results can be found at the links above.
 
 * USEMO 2019: Jaedon Whyte, Jeffrey Kwan, Luke Robitaille
+* USEMO 2020: Ankit Bisain, Gopal Goel, Noah Walsh
 
 # Volunteer
 
