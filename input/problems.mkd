@@ -19,6 +19,14 @@ using a scale I devised called **MOHS**.
 (The acronym stands from "math olympiad hardness scale",
 [pun fully intended](https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness)).
 
+**New**: Thanks to the great work of Rustam Turdibaev and Olimjon Olimov,
+we now have a enormous **336-problem**
+[index of recent problems by subject and MOHS rating][rustam].
+In addition, the linked file also contains a hyperlink
+to each of the corresponding solution threads on Art of Problem Solving.
+
+[rustam]: https://drive.google.com/file/d/1G9a5f6EW9cIDw5rTMI46iLlc4UMs6KRW/view
+
 This document will probably see a lot of updates.
 Anyways, I cannot repeat enough the disclaimer that the ratings
 (and even philosophy) are my own personal opinion,
