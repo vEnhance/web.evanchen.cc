@@ -7,7 +7,9 @@ menu-position: 68
 ---
 
 By using the link
-<a href="https://discord.gg/KzFXYwqRFX">https://discord.gg/KzFXYwqRFX</a>
+<center>
+<p><a href="https://discord.gg/KzFXYwqRFX">https://discord.gg/KzFXYwqRFX</a></p>
+</center>
 you can join vEnhance's Discord server.
 This Discord server is centered around my
 [*Twitch Solves ISL* stream](videos.html),
