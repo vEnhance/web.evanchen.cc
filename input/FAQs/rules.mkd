@@ -17,7 +17,7 @@ If you are looking for training advice,
 see [Contest FAQ's](FAQs/contest.html).
 
 
-### C-1. How is the USA IMO team determined?
+### CR-1. How is the USA IMO team determined?
 
 Starting in 2011 and as of 2019, the IMO selection procedure is as follows.
 
@@ -51,7 +51,7 @@ Note in particular that winning the USAMO is neither necessary or sufficient
 for qualifying for the American IMO team, since the IMO team is determined
 by several different exams.
 
-### C-2. How is the Taiwan IMO team determined?
+### CR-2. How is the Taiwan IMO team determined?
 
 Here are the details for IMO 2014 (the year which I participated),
 A series of tests/camps take place and at each step the number of contestants is reduced.
@@ -76,7 +76,7 @@ The team is known shortly after the third camp, a couple days into May.
 
 For more details, see [my report on Taiwan IMO][taiwan].
 
-### C-3. How is USAMO / IMO graded?
+### CR-3. How is USAMO / IMO graded?
 
 Don't take my word for it:
 try reading the [USAMO 2003 rubric][usa2003].
@@ -108,7 +108,7 @@ then re-grade approximately the top 25% of papers again.
 At the IMO, a process called coordination is used
 in which team leaders defend their contestant's solutions to coordinators.
 
-### C-4. Can I get a regrade on USA(J)MO?
+### CR-4. Can I get a regrade on USA(J)MO?
 
 It is a long-standing policy of AMC that decisions of the
 USAMO graders are final and may not be appealed.
@@ -127,14 +127,14 @@ this is a good incentive to learn to write your solutions neatly.
 You don't want to be the one with a correct solution
 that the graders can't understand!
 
-### C-5. What results may be cited without proof on USAMO or IMO?
+### CR-5. What results may be cited without proof on USAMO or IMO?
 
 There are no hard criteria set in stone, but in general,
 any well-known result which does not trivialize the problem is okay.
 If you are still unsure, it is strictly better to include the proof.
 See [English handout][english] for more discussion.
 
-### C-6. How much detail should I include in a proof to avoid losing points?
+### CR-6. How much detail should I include in a proof to avoid losing points?
 
 Enough to convince the grader that you understand the solution to the problem.
 
@@ -147,7 +147,7 @@ As a very loose approximation, the official solutions file for
 USAMO is about as terse as you can be.
 See [English handout][english] for more discussion.
 
-### C-7. What are the criteria for invitation to MOP?
+### CR-7. What are the criteria for invitation to MOP?
 
 Before I say anything I want to say that the criteria for MOP invitations
 are not especially well-defined.
@@ -170,7 +170,7 @@ All selection is done by ID number, without student names.
 
 The "color groups" are a convenient shorthand and not worth worrying about.
 
-### C-8. When are ties on USA(J)MO broken?
+### CR-8. When are ties on USA(J)MO broken?
 
 As of 2016, ties are generally only broken for USAMO winners,
 since exactly 12 winners are invited to the state dinner.
