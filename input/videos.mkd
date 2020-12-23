@@ -77,6 +77,14 @@ Software used on the stream includes:
 * [Firefox](https://www.mozilla.org/en-US/firefox/) as web browser
 * [Nightbot](https://nightbot.tv) for !commands
 
+Hardware:
+
+* Gaming headset: Xiberia V22
+* Mechanical keyboard: Havit HV-KB395L
+* Mouse: Inateck MS 1001
+* Gaming PC: MSI Codex XE Plus MSCXEP9SC292
+* Monitors (x3): BenQ 24" IPS GW2480 + ASUS VE278Q 27" +  Sceptre 32" QHD (E325W-2560AD)
+
 Here is a picture of my physical setup (click to enlarge).
 
 <center>
