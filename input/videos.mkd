@@ -1,8 +1,8 @@
 title: Youtube+Twitch
 header: Twitch Solves IMO Shortlist
 description: Evan records himself doing dumb stuff
-indent: 1
-menu-position: 66
+menu-position: 60
+
 
 ---
 

@@ -8,3 +8,5 @@ gsutil -m rsync -R icons gs://web.evanchen.cc/icons/
 
 echo ""
 echo "Gentle reminder: exams, handouts, private, upload directory not sync'ed"
+
+./setmeta.sh

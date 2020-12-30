@@ -4,7 +4,16 @@ menu-position: 50
 
 ---
 
-Here's a little about things I like so much that
+Some other places on the Internet you can find me:
+
++ [Blog on usamo.wordpress.com](https://usamo.wordpress.com)
++ [Facebook page](https://facebook.com/evanchenmath/)
++ [Twitch and Youtube](videos.html)
++ [Discord](discord.html)
++ [My Anime List](https://myanimelist.net/animelist/v_Enhance)
+
+Here's a little about myself,
+including things I like so much that
 I think you should try them too!
 
 ## Puzzle hunts
@@ -74,11 +83,5 @@ You can find a lot of my configuration files on my
 + Favorite color: Aqua green (close to [#00FFBF][aquamarine])
 + [Math contest photos and history](myscores.html)
 
-Some other places on the Internet you can find me:
-
-+ [Blog on usamo.wordpress.com](https://usamo.wordpress.com)
-+ [Facebook page](https://facebook.com/evanchenmath/)
-+ [twitch.tv](https://twitch.tv/vEnhance/)
-+ [My Anime List](https://myanimelist.net/animelist/v_Enhance)
 
 [aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)
