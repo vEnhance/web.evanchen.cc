@@ -1,6 +1,6 @@
 title: Publications
 header: Publications and all that
-menu-position: 50
+menu-position: 80
 description: Mathematical research papers and lecture notes by Evan Chen.
 
 

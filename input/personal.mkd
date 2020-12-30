@@ -1,25 +1,77 @@
-title: Personal
-header: Some trivia about myself
-menu-position: 60
+title: Hobbies
+header: Hobbies and trivia about myself
+menu-position: 50
 
 ---
 
-Here's a little about myself as person:
+Here's a little about things I like so much that
+I think you should try them too!
 
-+ Linux: [Arch Linux](https://www.archlinux.org/), using [i3](https://i3wm.org/).
+## Puzzle hunts
+
+I am an avid fan of the
+[MIT mystery hunt](http://web.mit.edu/puzzle/www/huntsbyyear.html)
+and other puzzle hunt activities.
+I have participated in the MIT mystery hunt in 2017.
+These days, I usually hunt on  ✈✈✈ Galactic Trendsetters ✈✈✈.
+
+I was part of the organizing team for the
+[2021 hunt](https://www.mit.edu/~puzzle/2021/).
+
+If you are totally new to puzzle hunts,
+[betaveros has a good introduction](https://blog.vero.site/post/puzzlehunts).
+You can find a
+[index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
+and it's great fun to just pick a random past puzzle to work through.
+
+## Hanabi
+
+[Hanabi](https://en.wikipedia.org/wiki/Hanabi_\(card_game\))
+is a cooperative logic-based deduction game.
+I spend quite a bit of time playing Hanabi online with the 
+[Hyphen-ated group](https://github.com/Zamiell/hanabi-conventions),
+which plays the game at a rather high level,
+as well as with my students.
+I am [vEnhance](https://hanab.live/scores/vEnhance) on the hanab.live website.
+
+I wrote a
+[short introduction to the rules and conventions](https://tinyurl.com/hanabi-evan-intro)
+to get new players up to speed,
+which might be useful if you'd like to learn the rules of the game
+and the basics of the Hyphen-ated conventions.
+
+
+## More games
+
+Other games I enjoy include
+[StarCraft](https://en.wikipedia.org/wiki/StarCraft_II:_Legacy_of_the_Void),
+[Baba is You](https://hempuli.itch.io/baba) (logic/puzzle),
+and many more.
+Here's a [long list of games I enjoy](games.html) with short descriptions of each.
+I generally like games with a learning curve or
+games with engaging story.
+
+
+## Arch Linux
+
+I am a devoted [Arch Linux](https://www.archlinux.org/) user.
+Some details about my setup:
+
++ Window manager: [i3](https://i3wm.org/)
 + Editor: [Vim](https://www.vim.org/)
 + Keyboard layout: [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard)
 + TeX distribution: [TeX Live](https://tug.org/texlive/)
 * My [browser homepage](static/browser-homepage.html)
 	 (click the timer to change target date)
+
+You can find a lot of my configuration files on my
+[dotfiles github repository](https://github.com/vEnhance/dotfiles).
+
+## Miscellaneous
+
 + Favorite triangle center: Orthocenter
 + Favorite circle: A-mixtilinear incircle
 + Favorite color: Aqua green (close to [#00FFBF][aquamarine])
-
-You can also see the following pages on this website:
-
-+ [Games I enjoy](games.html)
-+ [Volunteer history](outreach.html)
 + [Math contest photos and history](myscores.html)
 
 Some other places on the Internet you can find me:
@@ -27,10 +79,6 @@ Some other places on the Internet you can find me:
 + [Blog on usamo.wordpress.com](https://usamo.wordpress.com)
 + [Facebook page](https://facebook.com/evanchenmath/)
 + [twitch.tv](https://twitch.tv/vEnhance/)
-+ [Dot-files on GitHub](https://github.com/vEnhance/dotfiles)
 + [My Anime List](https://myanimelist.net/animelist/v_Enhance)
-+ [Board Game Geek profile](https://boardgamegeek.com/user/vEnhance/)
-+ [StarCraft replays](https://sc2replaystats.com/player/2491031)
 
 [aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)
-[imo]: https://imo-official.org/participant_r.aspx?id=24870

@@ -1,6 +1,6 @@
 title: FAQ's
 header: Frequently Asked Questions
-menu-position: 104
+menu-position: 94
 description: Some FAQ's about math contests and my personal life.
 indent: 1
 

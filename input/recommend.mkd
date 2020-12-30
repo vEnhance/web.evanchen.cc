@@ -1,6 +1,6 @@
 title: Links
 header: Recommended links
-menu-position: 80
+menu-position: 90
 description: Links to references and readings that I enjoyed.
 
 ---

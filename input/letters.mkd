@@ -1,6 +1,6 @@
 title: Rec letters
 header: Letters of recommendation
-menu-position: 108
+menu-position: 98
 description: If you want to ask me for a recommendation letter
 indent: 1
 

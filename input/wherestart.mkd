@@ -2,7 +2,8 @@ title: For beginners
 header: Math olympiad beginner's page
 description: Suggestions for starting on math olympiads
 indent: 1
-menu-position: 35
+menu-position: 38
+
 
 ---
 

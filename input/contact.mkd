@@ -1,7 +1,8 @@
-title: Contact
+title: Connect
 header: Contacting Evan
 description: If you want to email me.
-menu-position: 100
+menu-position: 60
+
 
 ---
 
