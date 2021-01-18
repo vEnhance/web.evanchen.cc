@@ -27,16 +27,16 @@ These days, I usually hunt on  ✈✈✈ Galactic Trendsetters ✈✈✈.
 I was part of the organizing team for the
 [2021 hunt](https://www.mit.edu/~puzzle/2021/),
 themed about the Perpendicular Institute of the World (&#x27c2;IW).
-My favorite puzzles I wrote, in roughly ascending order of difficulty:
+My favorite puzzles I wrote, in roughly ascending order of length:
 
-* Nutrition Facts
-* Blind Calculation
-* A Bit of Light
-* Le chiffre indéchiffrable
-* Divided Is Us
-* Clueless
-* Escape From Life
-* The IMO Shortlist
+* [Nutrition Facts](https://perpendicular.institute/puzzle/nutrition-facts/)
+* [Blind Calculation](https://perpendicular.institute/puzzle/blind-calculation/)
+* [A Bit of Light](https://perpendicular.institute/puzzle/a-bit-of-light/)
+* [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
+* [Clueless](https://perpendicular.institute/puzzle/clueless/)
+* [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/)
+* [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
+* [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
 
 If you are totally new to puzzle hunts,
 [betaveros has a good introduction](https://blog.vero.site/post/puzzlehunts).
