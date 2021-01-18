@@ -25,7 +25,18 @@ I have participated in the MIT mystery hunt in 2017.
 These days, I usually hunt on  ✈✈✈ Galactic Trendsetters ✈✈✈.
 
 I was part of the organizing team for the
-[2021 hunt](https://www.mit.edu/~puzzle/2021/).
+[2021 hunt](https://www.mit.edu/~puzzle/2021/),
+themed about the Perpendicular Institute of the World (&#x27c2;IW).
+My favorite puzzles I wrote, in roughly ascending order of difficulty:
+
+* Nutrition Facts
+* Blind Calculation
+* A Bit of Light
+* Le chiffre indéchiffrable
+* Divided Is Us
+* Clueless
+* Escape From Life
+* The IMO Shortlist
 
 If you are totally new to puzzle hunts,
 [betaveros has a good introduction](https://blog.vero.site/post/puzzlehunts).
