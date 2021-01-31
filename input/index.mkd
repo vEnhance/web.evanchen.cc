@@ -42,7 +42,7 @@ You can also see my [personal page](personal.html) for trivia about myself.
 the circle with diameter $ST$.</p>
 <p>Problem source:
 <a href="https://artofproblemsolving.com/community/c6h1113644p5087419">
-[Taiwan TST Quiz 2015
+Taiwan TST Quiz 2015
 </a>
 </p></small>
 </center>
