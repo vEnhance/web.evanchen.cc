@@ -88,6 +88,7 @@ see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 * TSTST 2017 [(problems)](exams/TSTST-2017.pdf) [(solutions)](exams/sols-TSTST-2017.pdf)
 * TSTST 2018 [(problems)](exams/TSTST-2018.pdf) [(solutions)](exams/sols-TSTST-2018.pdf) [(statistics)](exams/stats-TSTST-2018.pdf)
 * TSTST 2019 [(problems)](exams/TSTST-2019.pdf) [(solutions)](exams/sols-TSTST-2019.pdf) [(statistics)](exams/stats-TSTST-2019.pdf)
+* TSTST 2020 [(problems)](exams/TSTST-2020.pdf) [(solutions)](exams/sols-TSTST-2020.pdf) [(statistics)](exams/stats-TSTST-2020.pdf)
 
 ## USA Team Selection Test (TST)
 
