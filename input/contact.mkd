@@ -54,3 +54,25 @@ Here are some hints:
 
 * In particular, there's no need to send an email
   asking if you can ask a question.
+
+## Special instructions for advice
+
+If you are asking a question along the lines of "how do I improve at math contests",
+it is helpful to include as much specific information as possible.
+This usually means mentioning examples of problems you could not solve.
+(To draw an analogy, when people ask for advice in StarCraft,
+they are usually required to link a few recent replays,
+so the advice-giver can watch how they play and point out mistakes.)
+It's also helpful to talk about what you have already tried.
+
+If you are able to, please pick 3-20 examples of recent problems that you tried
+but could not solve.
+For each problem, reproduce the statement,
+and then describe your thought process and what you tried.
+This helps me understand how you think and where you are at.
+
+[This is an example of a well-thought question](https://aops.com/community/p15430373).
+It focuses on a specific topic, describes what the asker's mindset is,
+names specific examples of problems and how the asker tried the problem,
+and mentions what resources the asker has already tried.
+Because of this, the replies are informative and targeted.
