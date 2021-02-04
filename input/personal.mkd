@@ -79,8 +79,10 @@ Some details about my setup:
 
 + Window manager: [i3](https://i3wm.org/)
 + Editor: [Vim](https://www.vim.org/)
++ MUA: [NeoMutt](https://neomutt.org/)
 + Keyboard layout: [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard)
 + TeX distribution: [TeX Live](https://tug.org/texlive/)
++ Shell: [Fish](http://fishshell.com/)
 * My [browser homepage](static/browser-homepage.html)
 	 (click the timer to change target date)
 
