@@ -21,7 +21,7 @@ e.g. [tutoring](otis.html),
 [contest resource recommendations](recommend.html)
 or the [FAQ](faqs.html).
 If you need help with an olympiad problem,
-you are better off asking on a forum like [AOPS](artofproblemsolving.com).
+you are better off asking on a forum like [AOPS](https://www.aops.com).
 Contrary to popular belief I can't sight-solve everything!
 
 Here are some hints:
@@ -65,8 +65,8 @@ they are usually required to link a few recent replays,
 so the advice-giver can watch how they play and point out mistakes.)
 It's also helpful to talk about what you have already tried.
 
-If you are able to, please pick 3-20 examples of recent problems that you tried
-but could not solve.
+If you are able to, please pick 3-20 examples of recent problems
+that you tried but could not solve.
 For each problem, reproduce the statement,
 and then describe your thought process and what you tried.
 This helps me understand how you think and where you are at.
