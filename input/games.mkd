@@ -22,6 +22,9 @@ here are some of the games I like.
 
 <script language="javascript" src="https://boardgamegeek.com/jswidget.php?username=vEnhance&numitems=5&text=title&images=small-fixed&show=random&imagesonly=1&imagepos=left&domains%5B%5D=boardgame"></script>
 
+As for video games, you can also
+[check my Steam collection](https://steamcommunity.com/id/vEnhance/games/?tab=all).
+
 ## Card games (with standard 52-card deck)
 
 * [<b>Beleaguered Castle</b>](https://en.wikipedia.org/wiki/Beleaguered_Castle)
