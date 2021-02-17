@@ -78,17 +78,24 @@ games with engaging story.
 I am a devoted [Arch Linux](https://www.archlinux.org/) user.
 Some details about my setup:
 
-+ Window manager: [i3](https://i3wm.org/)
++ Window manager: [i3](https://i3wm.org/),
+  with [py3status](https://py3status.readthedocs.io/en/latest/index.html)
+  and [rofi](https://github.com/davatorium/rofiO)
++ Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 + Editor: [Vim](https://www.vim.org/)
++ Shell: [Fish](http://fishshell.com/),
+  using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
 + MUA: [NeoMutt](https://neomutt.org/)
-+ Keyboard layout: [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard)
 + TeX distribution: [TeX Live](https://tug.org/texlive/)
-+ Shell: [Fish](http://fishshell.com/)
-* My [browser homepage](static/browser-homepage.html)
-	 (click the timer to change target date)
++ File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)
++ My [browser homepage](static/browser-homepage.html)
+  (click the timer to change target date)
 
 You can find a lot of my configuration files on my
 [dotfiles github repository](https://github.com/vEnhance/dotfiles).
+Note the keybindings are written for
+[Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard),
+rather than QWERTY.
 
 ## Miscellaneous
 
