@@ -22,9 +22,15 @@ You may also read [math contest FAQ's](FAQs/contest.html)
 for some more philosophical (and less concrete) advice on studying
 for math contests in general.
 
+## 0. Syllabus
+
+I wrote an [unofficial syllabus for math olympiads](handouts/Syllabus/Syllabus.pdf)
+(also linked on [handouts](olympiad.html))
+giving some guidance on what topics appear on math olympiads.
+
 ## 1. First reading: the welcome letter
 
-For the USA Math Olympiad in 2020, the board on the USAMO
+For the USA Math Olympiad in 2020, the board of the USAMO
 prepared an invitation letter for all the qualifiers,
 congratulating them on their achievement
 and giving them some suggestions on where to begin.
@@ -54,8 +60,7 @@ we chose examples from the entire difficulty spectrum),
 and then comparing your work to the provided solutions.
 That will give you a taste of what you are getting in to.
 
-
-## 2. Writing proofs
+## 1. Writing proofs
 
 If you don't have experience with proof-based problems,
 the first thing I should say is that it is **not as hard as you might think**.
@@ -97,7 +102,7 @@ Of course, you should set your sights on becoming self-sufficient eventually.
 During an exam, you do not have access to feedback or other's solutions,
 so you need to be able to know when you've solved a problem!
 
-## 3. United States Mathematical Talent Search and USEMO
+## 2. (For USA) United States Mathematical Talent Search and USEMO
 
 If you are in the United States,
 there is a nice proof-based contest called the [USAMTS](https://usamts.org/)

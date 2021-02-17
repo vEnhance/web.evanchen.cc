@@ -124,14 +124,19 @@ of [my textbook][geombook].
   Describes the SOS method for solving inequalities.
 
 ## Miscellaneous
+* <b>Unofficial syllabus for math olympiads</b> {{ hlink("Syllabus") }}
+  Rough informal guidance on what topics appear on math olympiads,
+  for people who are new to the scene.
+
 * <b>Chinese Terminology Sheet</b> {{ hlink("Chinese") }}
-  These are the notes that I took when I was studying traditional Chinese in preparation
+  These are the notes that I took when I was studying
+  traditional Chinese in preparation
   for the Taiwan IMO selection and training camps.
-  It is updated occasionally as I add entries (e.g. when translating HMMT contests).
+  It is updated occasionally as I add entries.
 
 * <b>LaTeX Example File</b> {{ hlink("TeXSample") }}
   A very short document which shows what a "typical" LaTeX file looks like.
-  It was written for a complete beginner.
+  It was written for beginners.
 
 * <b>OMO Spring 2014 Executive Report</b> {{ hlink("OMOSpring14Report") }}
   A short report on running the Online Math Open for Spring 2014.
