@@ -39,6 +39,11 @@ My favorite puzzles I wrote, in roughly ascending order of length:
 * [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
 * [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
 
+I blogged about the writing of these puzzles
+[here](https://usamo.wordpress.com/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
+and
+[here](https://usamo.wordpress.com/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/).
+
 If you are totally new to puzzle hunts,
 [betaveros has a good introduction](https://blog.vero.site/post/puzzlehunts).
 You can find a
