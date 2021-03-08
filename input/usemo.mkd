@@ -62,7 +62,7 @@ on that day and take any questions or comments from the live chat.
 ## Contact
 
 The director of the USEMO is Evan Chen.
-You may use the email $\texttt{usemo@evanchen}\cdot\texttt{cc}$.
+You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 
 # Archive
 
