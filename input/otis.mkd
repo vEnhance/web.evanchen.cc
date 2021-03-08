@@ -25,16 +25,13 @@ This mini-book was named *The OTIS Excerpts*.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
-# Application &mdash; Year VI
+# Application &mdash; Year VII
 
-The application for fall 2020 is now open.
-The deadline to apply was August 1, 2020 at 11:59 PM PT.
-However, late applications may receive some consideration
-up until February 2021.
-See section 4 of the application instructions for details about this.
+The application for fall 2021 is now open.
+The deadline to apply is August 1, 2021 at 11:59 PM Pacific time.
 
-* [Application instructions and problems for fall 2020](upload/otis-app-vi.pdf)
-* [Submission URL for fall 2020](https://forms.gle/LKqrGpR1gqY4yCVT9)
+* [Application instructions and problems for fall 2021](upload/otis-app-vii.pdf)
+* [Submission URL for fall 2021](https://forms.gle/3ZdzrDraFYVE4Dyh6)
 
 ## Who can apply
 
@@ -42,8 +39,8 @@ OTIS is open to anyone, including international students from all countries.
 
 Students from minorities and underrepresented groups
 are especially encouraged to apply. (I promise I don't bite.)
-Admissions is done primarily based on the application problems,
-rather than by "merit" (whatever that means).
+Admissions is done primarily based on perceived preparedness;
+it is not a merit-based competition.
 Also, financial aid is possible,
 and has no effect on chances of admission.
 
