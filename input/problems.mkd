@@ -107,6 +107,7 @@ the selection process for the USA IMO team.
 * USA Winter TST for IMO 2018 [(problems)](exams/IMO-2018-TST.pdf) [(solutions)](exams/sols-TST-IMO-2018.pdf) [(statistics)](exams/stats-tst-2018.txt)
 * USA Winter TST for IMO 2019 [(problems)](exams/IMO-2019-TST.pdf) [(solutions)](exams/sols-TST-IMO-2019.pdf) [(statistics)](exams/stats-tst-2019.txt)
 * USA Winter TST for IMO 2020 [(problems)](exams/IMO-2020-TST.pdf) [(solutions)](exams/sols-TST-IMO-2020.pdf) [(statistics)](exams/stats-tst-2020.txt)
+* USA Winter TST for IMO 2021 [(problems)](exams/IMO-2021-TST.pdf) [(solutions)](exams/sols-TST-IMO-2021.pdf) [(statistics)](exams/stats-tst-2021.txt)
 
 ## International Math Olympiad
 
