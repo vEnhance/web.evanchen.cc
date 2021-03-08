@@ -6,7 +6,7 @@ indent: 1
 
 ---
 
-This page contains a list of referrals for other math competition training.
+This page contains a list of referrals for math competition training at various levels.
 They are divided into two categories:
 
 * Small programs offering either 1:1 instruction or small group lessons; and
