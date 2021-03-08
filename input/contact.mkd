@@ -1,15 +1,18 @@
 title: Contact
 header: Contacting Evan
-description: If you want to email me.
+description: If you want to email or message me.
 menu-position: 90
 
 
 ---
 
-The best way to reach me is by email (not facebook).
-My address is:
+The best way to reach me is by email (for private inquiries),
+or by [Discord](discord.html) (see below).
+I do not regularly check other platforms.
 
-> $\text{evan}@\text{evanchen}\cdot\text{cc}$.
+My email address is:
+
+> $\text{evan}\texttt{@}\text{evanchen}{.}\text{cc}$.
 
 Although I do my best to respond to as much as I can,
 I admit that I am not able to respond to everything.
@@ -53,19 +56,20 @@ Here are some hints:
   questions on my past experiences, etc.  I'm sure there's more.)
 
 * In particular, there's no need to send an email
-  asking if you can ask a question.
+  asking if you can ask a question. Just ask it.
 
 ## Special instructions for advice
 
 If you are asking a question along the lines of "how do I improve at math contests",
 it is helpful to include as much specific information as possible.
-This usually means mentioning examples of problems you could not solve.
+This usually means **mentioning examples of problems you could not solve**.
 (To draw an analogy, when people ask for advice in StarCraft,
 they are usually required to link a few recent replays,
 so the advice-giver can watch how they play and point out mistakes.)
-It's also helpful to talk about what you have already tried.
+It's also helpful to talk about what you have already tried
+in terms of preparation.
 
-If you are able to, please pick 3-20 examples of recent problems
+If you are able to, **please pick 3-20 examples of recent problems**
 that you tried but could not solve.
 For each problem, reproduce the statement,
 and then describe your thought process and what you tried.
@@ -76,3 +80,18 @@ It focuses on a specific topic, describes what the asker's mindset is,
 names specific examples of problems and how the asker tried the problem,
 and mentions what resources the asker has already tried.
 Because of this, the replies are informative and targeted.
+
+## Discord
+
+If your inquiry is not private (for example, looking for advice on textbooks),
+you could consider asking questions on my
+[personal Discord server](discord.html)
+rather than emailing it privately.
+There are a few benefits to doing so:
+
+* Anyone can answer the question,
+  so you may get faster responses or multiple responses.
+* Anyone can see the answers provided,
+  so it is more valuable to the community this way.
+* It is easier to go back-and-forth in real time
+  over Discord than over email.
