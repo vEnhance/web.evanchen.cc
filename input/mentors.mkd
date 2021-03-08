@@ -19,7 +19,7 @@ The lists below are in alphabetical order.
 ## Athemath
 
 * Primary contact: [Ali Cy](https://www.egmo.org/people/person1751/);
-  ($\text{president}@\text{athemath}\cdot\text{org}$)
+  ($\text{president}\texttt{@}\text{athemath}{.}\text{org}$)
 * Website: [athemath.org](https://athemath.org);
 * 1:5 instruction for **nonbinary and female students only**.
 * Athemath provides a hybrid math program which includes small group
@@ -29,7 +29,7 @@ The lists below are in alphabetical order.
 
 ## MAST
 
-* Primary contact: Dennis Chen ($\text{proofprogram}@\text{gmail}\cdot\text{com}$)
+* Primary contact: Dennis Chen ($\text{proofprogram}\texttt{@}\text{gmail}{.}\text{com}$)
 * Website: [mast.geometryexplorer.xyz](https://mast.geometryexplorer.xyz/)
 * Scheduled group classes twice a month during the school year,
   with breaks for major USA contests (AMCs, AIME, and USAMO).
@@ -45,6 +45,7 @@ The lists below are in alphabetical order.
 ## Xinke's Math Academy
 
 * Primary contact: [Xinke Guo-Xue](https://artofproblemsolving.com/community/user/40902)
+  ($\text{xinkeguoxue}\texttt{@}\text{gmail}{.}\text{com}$)
 * Website: [xinkesmathacademy.com](https://xinkesmathacademy.com/)
 * Open to both 1:1 instruction and small group lessons.
 * Xinke Guo-Xue runs small group lessons for interested students
@@ -57,7 +58,7 @@ The lists below are in alphabetical order.
 
 ## Alex Villaro Krüger
 
-* Contact: $\text{alex}@\text{drechslerspil}\cdot\text{dk}$
+* Contact: $\text{alex}@\text{drechslerspil}{.}\text{dk}$
 * 1:1 instruction
 * I'm interested in tutoring one on one with students who are interested in
   olympiads and in exploring problems over a longer time (for instance problems
