@@ -14,7 +14,7 @@ comfortable reading and writing proofs
 and can usually qualify for national olympiad,
 (for example, consistently 10+ on AIME for American contestants is fine).
 Students at other levels may be interested in
-[my list of other mentors and programs](mentors.html).
+[my list of mentors and programs](mentors.html).
 
 # The OTIS Excerpts
 
