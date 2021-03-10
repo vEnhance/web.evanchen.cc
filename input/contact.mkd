@@ -6,26 +6,45 @@ menu-position: 90
 
 ---
 
-The best way to reach me is by email (for private inquiries),
-or by [Discord](discord.html) (see below).
-I do not regularly check other platforms.
+The two best ways to reach me are
 
-My email address is:
-
-> $\text{evan}\texttt{@}\text{evanchen}{.}\text{cc}$.
+* by email to $\text{evan}\texttt{@}\text{evanchen}{.}\text{cc}$ for private inquiries;
+* via my [personal Discord](discord.html) for math advice or questions (see below).
 
 Although I do my best to respond to as much as I can,
 I admit that I am not able to respond to everything.
 (Also, my replies are often terse.
 Please don't be offended if so; I am just trying to be efficient.)
 
+If you need help with an olympiad problem,
+you are better off asking on a forum like [AOPS](https://www.aops.com).
+(If you send me a problem, usually I will at least read it.
+If I have seen it before or can quickly see how to do it,
+I will generally be nice enough to write back and outline or link the solution.
+But otherwise I will likely be too embarrassed to admit I don't have time to
+work on every problem that students send me, and simply archive your message.)
+
+## About Discord
+
+If your inquiry is not private (for example, looking for advice on textbooks),
+you could consider asking questions on my
+[personal Discord server](discord.html)
+rather than emailing it privately.
+There are a few benefits to doing so:
+
+* Anyone can answer the question,
+  so you may get faster responses or multiple responses.
+* Anyone can see the answers provided,
+  so it is more valuable to the community this way.
+* It is easier to go back-and-forth in real time
+  over Discord than over email.
+
+## Some notes for emails
+
 In some cases your question may already be answered on the site:
 e.g. [tutoring](otis.html),
 [contest resource recommendations](recommend.html)
 or the [FAQ](faqs.html).
-If you need help with an olympiad problem,
-you are better off asking on a forum like [AOPS](https://www.aops.com).
-Contrary to popular belief I can't sight-solve everything!
 
 Here are some hints:
 
@@ -80,18 +99,3 @@ It focuses on a specific topic, describes what the asker's mindset is,
 names specific examples of problems and how the asker tried the problem,
 and mentions what resources the asker has already tried.
 Because of this, the replies are informative and targeted.
-
-## Discord
-
-If your inquiry is not private (for example, looking for advice on textbooks),
-you could consider asking questions on my
-[personal Discord server](discord.html)
-rather than emailing it privately.
-There are a few benefits to doing so:
-
-* Anyone can answer the question,
-  so you may get faster responses or multiple responses.
-* Anyone can see the answers provided,
-  so it is more valuable to the community this way.
-* It is easier to go back-and-forth in real time
-  over Discord than over email.
