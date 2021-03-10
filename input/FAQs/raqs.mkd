@@ -17,14 +17,16 @@ I feel high school students tend to focus too much on "local" changes
 (using Chrome productivity extensions, shaving time off X, etc.)
 than on "global" changes (dropping entire classes or commitments).
 It's not that local changes are bad, but you should usually
-consider global changes first before local changes (80-20 rule).
+consider global changes first before local changes
+([see so-called 80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
 Aggressively dropping classes and extracurriculars
-that aren't adding value to your life are good examples
-that I think people don't do enough.
+that aren't adding value to your life
+(e.g. not taking AP classes solely for college applications)
+are good examples that I think people don't do enough.
 
-(I admittedly have spent a lot of time optimizing my workflow,
-like typing quickly, using Vim/Linux, organizing tasks on calendars,
-but I think these are second-order effects.)
+I admittedly have spent a lot of time optimizing my workflow,
+like typing quickly, using Vim/Linux, organizing tasks on calendars, etc.
+But I think these are second-order effects.
 
 I took this to extreme measures in high school.
 As a senior I took a total of 2 regular high-school classes
