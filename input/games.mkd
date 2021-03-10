@@ -22,8 +22,10 @@ here are some of the games I like.
 
 <script language="javascript" src="https://boardgamegeek.com/jswidget.php?username=vEnhance&numitems=5&text=title&images=small-fixed&show=random&imagesonly=1&imagepos=left&domains%5B%5D=boardgame"></script>
 
-As for video games, you can also
-[check my Steam collection](https://steamcommunity.com/id/vEnhance/games/?tab=all).
+
+## Steam
+
+[Link to Steam collection](https://steamcommunity.com/id/vEnhance/games/?tab=all).
 
 ## Card games (with standard 52-card deck)
 
@@ -58,11 +60,10 @@ As for video games, you can also
   and your goal is to get the number of tricks you win
   exactly equal to your bid.
 
-
 [ninetynine]: https://en.wikipedia.org/wiki/Ninety-nine_(trick-taking_card_game)
 
 
-## Strategy and puzzle games
+## Other strategy and puzzle games
 
 * [<b>Baba is You</b>](https://hempuli.itch.io/baba) (logic/puzzle)<br>
   Cute but mind-blowing puzzle game involving pushing blocks
