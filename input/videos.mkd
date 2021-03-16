@@ -68,11 +68,13 @@ Friday night at 8pm Eastern is the usual time.
 Software used on the stream includes:
 
 * Streamed by [Open Broadcaster Software](https://obsproject.com/)
-* LaTeX typeset with [TeX Live](https://www.tug.org/texlive/) and [Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX)), viewed in [Zathura](https://github.com/D3S0X/Soundux)
+* LaTeX typeset with [TeX Live](https://www.tug.org/texlive/)
+  and [Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX)),
+  viewed in [Zathura](https://en.wikipedia.org/wiki/Zathura_(document_viewer))
 * White board via [Miro](https://miro.com)
 * Geometry diagrams using [GeoGebra Classic 5](https://wiki.geogebra.org/en/Reference:GeoGebra_Installation#GeoGebra_Classic_5_for_Desktop)
 * Music by [Pretzel Rocks](https://pretzel.rocks)
-* Soundboard with [Soundux](https://github.com/D3S0X/Soundux)
+* Soundboard with [Soundux](https://soundux.rocks/)
 * Stream overlays from [StreamLabs](https://streamlabs.com/)
 * [Firefox](https://www.mozilla.org/en-US/firefox/) as web browser
 * [Nightbot](https://nightbot.tv) for !commands
