@@ -68,3 +68,11 @@ The lists below are in alphabetical order.
   among other things. However, I do not have personal experience in US specific
   olympiads such as AIME.
 
+## Reed LaFleche
+
+* Contact: $\text{rslafleche}@\text{gmail}{.}\text{com}$
+* 1:1 instruction
+* My name is Reed LaFleche. I began my career in contest math taking the AMC my
+  junior year of high school (2010), qualified for the USAMO 2010 and 2011, and
+  attended MOP 2010. I graduated MIT with a degree in math in 2015 and have
+  since worked in engineering while continuing to learn math on my own time.
