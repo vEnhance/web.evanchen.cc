@@ -101,11 +101,14 @@ Each section is in alphabetical order.
 	* [All-Russian](https://aops.com/community/c3371_allrussian_olympiad)
 	* [Brazil](https://aops.com/community/c3273)
 	* [Canada](https://aops.com/community/c3277)
-	* [ELMO](problems.html)
 	* [Korea](https://aops.com/community/c3383_korea_national_olympiad)
 	* [Romania](https://aops.com/community/c3365)
 	* [USA](problems.html)
 	* [USA Junior](problems.html)
++ Other olympiads:
+	* [ELMO](problems.html)
+	* [NICE Olympiad](https://www.nicecontest.xyz)
+	* [USEMO](usemo.html)
 + Team selection tests:
 	* [China](https://aops.com/community/c3282)
 	* [Iran](https://aops.com/community/c3321)

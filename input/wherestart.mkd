@@ -60,7 +60,7 @@ we chose examples from the entire difficulty spectrum),
 and then comparing your work to the provided solutions.
 That will give you a taste of what you are getting in to.
 
-## 1. Writing proofs
+## 2. Writing proofs
 
 If you don't have experience with proof-based problems,
 the first thing I should say is that it is **not as hard as you might think**.
@@ -102,7 +102,7 @@ Of course, you should set your sights on becoming self-sufficient eventually.
 During an exam, you do not have access to feedback or other's solutions,
 so you need to be able to know when you've solved a problem!
 
-## 2. (For USA) United States Mathematical Talent Search and USEMO
+## 3. (For USA) United States Mathematical Talent Search and USEMO
 
 If you are in the United States,
 there is a nice proof-based contest called the [USAMTS](https://usamts.org/)
@@ -118,7 +118,8 @@ Things that make the USAMTS special:
 
 I also run a contest called the [USEMO](usemo.html) in the fall
 which is also free and offers feedback,
-but is intended to mimic the USAMO and IMO in format and difficulty.
+but it is more difficult since is intended to mimic
+the USAMO and IMO in format and difficulty.
 One could try using it as "practice USAMO" in the fall.
 
 ## 4. Books to read
@@ -168,11 +169,12 @@ from basically every competition under the sun,
 together with community-contributed solutions.
 The supply of problems here is inexhaustible.
 
-Here are some particular contests I like (roughly ascending order of difficulty):
+Here are some particular contests I like (alphabetical):
 
 + [Canada national olympiad](https://cms.math.ca/Competitions/CMO/)
 + [European Girls Math Olympiad](https://www.egmo.org/egmos/)
 + [IMO and IMO Shortlist](https://imo-official.org/problems.aspx)
++ [NICE](https://www.nicecontest.xyz), open to anyone
 + [USA Team Selection Tests](problems.html)
 
 The bottom of the [recommendations page](recommend.html)
