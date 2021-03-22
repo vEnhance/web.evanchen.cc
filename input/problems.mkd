@@ -41,6 +41,8 @@ My understanding is that the internal problems and solutions,
 from the actual USA(J)MO committee, are copyrighted by MAA.
 To my knowledge they are not published anywhere.
 
+* USAMO 1998 [(problems and solutions)](exams/USAMO-1998-notes.pdf)
+* USAMO 1999 [(problems and solutions)](exams/USAMO-1999-notes.pdf)
 * USAMO 2000 [(problems and solutions)](exams/USAMO-2000-notes.pdf)
 * USAMO 2001 [(problems and solutions)](exams/USAMO-2001-notes.pdf)
 * USAMO 2002 [(problems and solutions)](exams/USAMO-2002-notes.pdf)
