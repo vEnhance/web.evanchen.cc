@@ -106,11 +106,12 @@ rather than QWERTY.
 
 ## Miscellaneous
 
-+ Favorite triangle center: Orthocenter
-+ Favorite circle: A-mixtilinear incircle
-+ Favorite color: Aqua green (close to [#00FFBF][aquamarine])
++ Favorite triangle center: [Orthocenter][orthocenter]
++ Favorite circle: [A-mixtilinear incircle][mixt]
++ Favorite color: [Aquamarine][aquamarine]
 + [Math contest photos and history](myscores.html)
 
-
+[orthocenter]: https://mathworld.wolfram.com/Orthocenter.html
+[mixt]: https://mathworld.wolfram.com/MixtilinearIncircles.html
 [aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)
 [steam]: https://steamcommunity.com/id/vEnhance/games/?tab=all
