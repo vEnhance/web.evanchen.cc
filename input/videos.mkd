@@ -1,4 +1,4 @@
-title: Youtube+Twitch
+title: Twitch Solves ISL
 header: Twitch Solves IMO Shortlist
 description: Evan records himself doing dumb stuff
 menu-position: 60
@@ -39,7 +39,8 @@ menu-position: 60
 In early 2020 I created a
 [Twitch stream](https://www.twitch.tv/vEnhance)
 that I stream on some (but not all) weeks.
-The series is informally titled **Twitch Solves IMO Shortlist**.
+The series is informally titled **Twitch Solves ISL**
+(here ISL is IMO Shortlists).
 
 Content includes:
 
