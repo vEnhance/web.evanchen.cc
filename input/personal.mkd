@@ -111,6 +111,25 @@ rather than QWERTY.
 + Favorite color: [Aquamarine][aquamarine]
 + [Math contest photos and history](myscores.html)
 
+## Bio
+
+When prompted for a biography of myself,
+I say something like the following:
+
+> Evan Chen (v_Enhance) is a math PhD student at MIT
+> and one of the coaches of the United States team
+> for the International Math Olympiad.
+> He was an editor-in-chief for the USA national olympiad and
+> the author of the textbook *Euclidean Geometry in Mathematical Olympiads*.
+> During the school year, Evan also directs his own olympiad program
+> while streaming live solving sessions on Twitch for the general public.
+> As a high school student, Evan was an IMO gold medalist
+> and winner of the 2014 USA Math Olympiad,
+> which he took from 12:30am to 5am in Taiwan.
+> Outside of math and teaching,
+> Evan's hobbies include Korean pop dance, Arch Linux,
+> competitive Hanabi and puzzle hunts.
+
 [orthocenter]: https://mathworld.wolfram.com/Orthocenter.html
 [mixt]: https://mathworld.wolfram.com/MixtilinearIncircles.html
 [aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)
