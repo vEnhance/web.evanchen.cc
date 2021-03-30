@@ -13,28 +13,27 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 This is the homepage of Evan Chen
 (known also as vEnhance on certain websites).
+I'm an
+[MIT grad student](https://math.mit.edu/directory/profile.php?pid=2106)
+and a math olympiad coach.
 
-I am a [math PhD student at MIT](https://math.mit.edu/directory/profile.php?pid=2106),
-starting in September 2018.
 My CV is [here](upload/public-CV.pdf).
 Here is a [list of my major coursework](upload/math-coursework.pdf)
 from undergraduate and graduate school.
-
-Most of my research is either in number theory
-or enumerative/algebraic combinatorics.
+These days, I'm interested in number theory and combinatorics.
 My papers are linked on my [publications page](publications.html),
 and also on the [arXiv](https://arxiv.org/a/chen_e_2.html).
-
-I am [actively involved](volunteer.html) with math olympiad competitions
-and have authored [several olympiad materials](olympiad.html),
-most notably including a [geometry textbook](geombook.html).
-I also [teach my own classes](otis.html).
 
 I am on [GitHub](https://github.com/vEnhance/),
 [Facebook](https://facebook.com/evanchenmath/),
 [Twitch](https://twitch.tv/vEnhance),
 and [WordPress](https://usamo.wordpress.com).
 You can also see my [personal page](personal.html) for trivia about myself.
+
+If you are a high school student interested in math olympiads,
+you should visit the [beginner's page](wherestart.html),
+my [collection of handouts](olympiad.html),
+or my [archive of past problems and solutions](problems.html).
 
 <center>
 <img src="static/home-art.png" width="400" /><br />
@@ -45,3 +44,22 @@ the circle with diameter $ST$.</small><br />
 Taiwan TST Quiz 2015
 </a></small>
 </center>
+
+## About Evan
+
+Evan is a math PhD student at MIT
+and one of the United States math olympiad coaches.
+In addition to serving as the team selection coordinator for the United States,
+Evan runs his own [training program](otis.html) while
+[streaming olympiad math for public entertainment](videos.html).
+
+As a high school student, Evan was an
+IMO gold medalist
+and a winner of the 2014 USA math olympiad,
+which he took from 12:30am to 5am in Taiwan.
+He also wrote the popular textbook
+[Euclidean Geometry in Math Olympiads](geombook.html) while in high school,
+which was published in 2016.
+
+Outside of math and teaching, Evan's hobbies include
+Korean pop dance, [Arch Linux, Hanabi and puzzle hunts](personal.html).
