@@ -36,18 +36,19 @@ so I am quite proficient with both.
 
 ### S-4. How did you take undergraduate / graduate math classes in high school?
 
-To set the record straight: in high school I five classes from
+Context: in high school I five classes from
 UC Berkeley and San Jose State total; you can see [the notes I took][notes].
+
 The main limiting factor is getting your high school to let you run off.
 Every college professor I've met is more than happy to help out a
 high school student who is interested in learning more math.
-(This could be less true at certain top schools just because
-those professors get more audit requests than they can actually accommodate.)
+(This may be untrue at certain top schools just because those professors
+get more audit requests than they can actually accommodate.)
 It's the [high school bureaucrats that put their foot down][blank].
 
 Talk with your high school administration and see if you can strike a deal.
 If one person says no, talk to someone else.
-You have to be very aggressive with these things to make progress,
+You have to be aggressive with these things to make progress,
 because otherwise the administration has no real incentive to help you.
 
 ### S-5. What are your thoughts on high school math research?
@@ -80,6 +81,43 @@ Some excerpts from [Euler Circle][euler] which I agree with:
 That being said, if you still want to work on research projects,
 consider programs like [PRIMES](https://math.mit.edu/research/highschool/primes/index.php),
 or finding a professor near you.
+
+### S-6. I want to take some advanced math classes from nearby college, which ones do you recommend?
+
+Short answer: abstract algebra or real/complex analysis,
+and NOT linear algebra or multivariable calculus.
+
+Long answer: I am assuming you are interested in learning
+a lot of math eventually (rather than, say,
+learning math for the sake of physics / engineering / etc.,
+which is fine, but then this advice is not for you).
+In that case, I think both linear algebra (as it is usually taught)
+and multivariable calculus are significantly overrated
+for people who (a) know how proofs work, and (b) want to pursue higher math.
+
+Linear algebra is useful, but when taught as a standalone class, you will
+mostly be doing manipulations with matrices. It's not a bad thing but I think
+it's not something that needs to take one whole semester if you're going to
+eventually redo the whole thing abstractly with $k$-modules anyways. I would
+rather spend the semester learning abstract algebra as a whole (which includes
+the abstract treatment of vector spaces), which is the language required to do
+anything algebraic. Many higher level courses are going to assume you know what
+a domain is, an ideal is, etc. and you would like to learn this as soon as
+possible.
+
+Multivariable calculus and ordinary/partial differential equations is a bit of
+a dead end, in my opinion, unless you are interested in these sort of topics
+for their own sake (in which case you should just learn them, not let random
+strangers on the Internet tell you what to do). Real and complex analysis,
+together with enough point-set/metric topology to go with them, are more
+valuable as core material: many higher level courses are going to assume you
+know what a compact set is, a real manifold is, etc. and you would like to
+learn this as soon as possible.
+
+I think the reason that linalg/multivar are so popular is that you don't need
+to understand proofs to take these classes, so they appeal to a broad audience.
+But if you do understand how to read and write proofs, you are very lucky, and
+you have some better options available to you for where to explore next.
 
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/

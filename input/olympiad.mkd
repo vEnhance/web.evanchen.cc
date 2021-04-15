@@ -47,33 +47,37 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   my solutions to the USAMO 2014.
   I also [scanned the solutions I submitted.](upload/usamo-2014-my-sols.pdf)
 
-## Algebra and Number Theory
-* <b>The Chinese Remainder Theorem</b> {{ hlink("CRT") }}
-  An article on the Chinese Remainder "Theorem".
-
+## Algebra (Hufflepuff)
 * <b>Introduction to Functional Equations</b> {{ hlink("FuncEq-Intro") }}
   An introduction to functional equations for olympiad students.
 
 * <b>Monsters</b> {{ hlink("Monsters") }}
   A handout discussing pathological functional equations.
 
-* <b>Orders Modulo a Prime</b> {{ hlink("ORPR") }}
-  Article on orders and primitive roots,
-  in particular featuring the sum of squares lemma and its generalization
-  to arbitrary cyclotomic polynomials.
-
 * <b>Summation</b> {{ hlink("Summation") }}
   General discussion of sums and products, and how to deal with them.
   Includes generating functions.
 
-## Combinatorics
+* <b>Lagrange Multipliers Done Correctly</b> {{ hlink("LM") }}
+  This is a description of the conditions necessary to execute a Lagrange Multipliers solution on an olympiad.
+
+* <b>Olympiad Inequalities</b> {{ hlink("Ineq", "en") }}
+  English translation of my original notes in Chinese.
+  Describes some "standard strategies" for handling olympiad inequalities. <br>
+  Original Chinese version: {{ hlink("Ineq") }}
+
+* <b>SOS: A Dumbass's Perspective</b> {{ hlink("SOS_Dumbass") }}
+  Describes the SOS method for solving inequalities.
+
+## Combinatorics (Gryffindor)
+
 * <b>Expected Uses of Probability</b> {{ hlink("ProbabilisticMethod") }}
   Inspired by Po-Shen Loh's talk at the 55th IMO 2014 or Problem 6.
   Talks about expected value and the probabilistic method.
   This article was included in
   [Mathematical Reflections, Issue 6 of 2014](https://www.awesomemath.org/mathematical-reflections/archives/).
 
-## Geometry
+## Geometry (Slytherin)
 * <b>A Guessing Game: Mixtilinear Incircles</b> {{ hlink("Mixt-GeoGuessr") }}
   A quick description of some nice properties of mixtilinear incircles.
   Presented as a "guessing game" where one has to guess collinear points,
@@ -111,19 +115,18 @@ Also: [chapter 2 (on power of point)][egmo2]
 or [chapter 8 (on inversion)][egmo8]
 of [my textbook][geombook].
 
-## Inequalities
-* <b>Lagrange Multipliers Done Correctly</b> {{ hlink("LM") }}
-  This is a description of the conditions necessary to execute a Lagrange Multipliers solution on an olympiad.
+## Number theory (Ravenclaw)
 
-* <b>Olympiad Inequalities</b> {{ hlink("Ineq", "en") }}
-  English translation of my original notes in Chinese.
-  Describes some "standard strategies" for handling olympiad inequalities. <br>
-  Original Chinese version: {{ hlink("Ineq") }}
+* <b>The Chinese Remainder Theorem</b> {{ hlink("CRT") }}
+  An article on the Chinese Remainder "Theorem".
 
-* <b>SOS: A Dumbass's Perspective</b> {{ hlink("SOS_Dumbass") }}
-  Describes the SOS method for solving inequalities.
+* <b>Orders Modulo a Prime</b> {{ hlink("ORPR") }}
+  Article on orders and primitive roots,
+  in particular featuring the sum of squares lemma and its generalization
+  to arbitrary cyclotomic polynomials.
 
 ## Miscellaneous
+
 * <b>Unofficial syllabus for math olympiads</b> {{ hlink("Syllabus") }}
   Rough informal guidance on what topics appear on math olympiads,
   for people who are new to the scene.
@@ -135,7 +138,7 @@ of [my textbook][geombook].
   It is updated occasionally as I add entries.
 
 * <b>LaTeX Example File</b> {{ hlink("TeXSample") }}
-  A very short document which shows what a "typical" LaTeX file looks like.
+  A short document which shows what a "typical" LaTeX file looks like.
   It was written for beginners.
 
 * <b>OMO Spring 2014 Executive Report</b> {{ hlink("OMOSpring14Report") }}

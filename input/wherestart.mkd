@@ -69,7 +69,7 @@ but if you really have a completely correct solution to a problem,
 it is actually pretty hard to *not* get full credit.
 I would say at least 90% of the time,
 when a student loses points on USA(J)MO unexpectedly,
-it's because their proof is actually wrong, not (just) badly-written.
+it's because their proof is actually incomplete, not (just) badly-written.
 
 Of course, you should still try to write your solutions as clearly as possible.
 To that end, here are some links to advice:

@@ -81,9 +81,9 @@ To my knowledge they are not published anywhere.
 For an explanation of the name,
 see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 
-* TSTST 2011 [(problems)](exams/TSTST-2011.pdf)
-* TSTST 2012 [(problems)](exams/TSTST-2012.pdf)
-* TSTST 2013 [(problems)](exams/TSTST-2013.pdf)
+* TSTST 2011 [(problems)](exams/TSTST-2011.pdf) [(solutions)](exams/sols-TSTST-2011.pdf)
+* TSTST 2012 [(problems)](exams/TSTST-2012.pdf) [(solutions)](exams/sols-TSTST-2012.pdf)
+* TSTST 2013 [(problems)](exams/TSTST-2013.pdf) [(solutions)](exams/sols-TSTST-2013.pdf)
 * TSTST 2014 [(problems)](exams/TSTST-2014.pdf) [(solutions)](exams/TSTST-2014-sols.pdf)
 * TSTST 2015 [(problems)](exams/TSTST-2015.pdf) [(solutions)](exams/TSTST-2015-sols.pdf)
 * TSTST 2016 [(problems)](exams/TSTST-2016.pdf) [(solutions)](exams/sols-TSTST-2016.pdf)
