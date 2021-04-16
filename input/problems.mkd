@@ -64,6 +64,7 @@ To my knowledge they are not published anywhere.
 * USAMO 2018 [(problems and solutions)](exams/USAMO-2018-notes.pdf)
 * USAMO 2019 [(problems and solutions)](exams/USAMO-2019-notes.pdf) [(Math Jam)](https://aops.com/school/mathjams-transcripts?id=491)
 * USAMOO 2020 [(problems and solutions)](exams/USAMO-2020-notes.pdf) [(video)](https://youtu.be/r7j0oRtpErA)
+* USAMO 2021 [(problems and solutions)](exams/USAMO-2021-notes.pdf) [(video)](https://youtu.be/9WNgDETHOlI)
 * JMO 2010 [(problems and solutions)](exams/JMO-2010-notes.pdf)
 * JMO 2011 [(problems and solutions)](exams/JMO-2011-notes.pdf)
 * JMO 2012 [(problems and solutions)](exams/JMO-2012-notes.pdf)
@@ -75,6 +76,7 @@ To my knowledge they are not published anywhere.
 * JMO 2018 [(problems and solutions)](exams/JMO-2018-notes.pdf)
 * JMO 2019 [(problems and solutions)](exams/JMO-2019-notes.pdf) [(Math Jam)](https://aops.com/school/mathjams-transcripts?id=491)
 * JMOO 2020 [(problems and solutions)](exams/JMO-2020-notes.pdf) [(video)](https://youtu.be/r7j0oRtpErA)
+* JMO 2021 [(problems and solutions)](exams/JMO-2021-notes.pdf) [(video)](https://youtu.be/9WNgDETHOlI)
 
 ## USA TST Selection Test (TSTST)
 
@@ -90,7 +92,7 @@ see [the FAQ on the USA IMO team selection](FAQs/rules.html).
 * TSTST 2017 [(problems)](exams/TSTST-2017.pdf) [(solutions)](exams/sols-TSTST-2017.pdf)
 * TSTST 2018 [(problems)](exams/TSTST-2018.pdf) [(solutions)](exams/sols-TSTST-2018.pdf) [(statistics)](exams/stats-TSTST-2018.pdf)
 * TSTST 2019 [(problems)](exams/TSTST-2019.pdf) [(solutions)](exams/sols-TSTST-2019.pdf) [(statistics)](exams/stats-TSTST-2019.pdf)
-* TSTST 2020 [(problems)](exams/TSTST-2020.pdf) [(solutions)](exams/sols-TSTST-2020.pdf) [(statistics)](exams/stats-TSTST-2020.pdf)
+* TSTST 2020 [(problems)](exams/TSTST-2020.pdf) [(solutions)](exams/sols-TSTST-2020.pdf) [(statistics)](exams/stats-TSTST-2020.pdf) [(video 1)](https://youtu.be/zkygeEZ_scc) [(video 2)](https://youtu.be/L_JBme8pnKU) [(video 3)](https://youtu.be/NOjZ_DKUgxc)
 
 ## USA Team Selection Test (TST)
 
@@ -109,7 +111,7 @@ the selection process for the USA IMO team.
 * USA Winter TST for IMO 2018 [(problems)](exams/IMO-2018-TST.pdf) [(solutions)](exams/sols-TST-IMO-2018.pdf) [(statistics)](exams/stats-TST-IMO-2018.pdf)
 * USA Winter TST for IMO 2019 [(problems)](exams/IMO-2019-TST.pdf) [(solutions)](exams/sols-TST-IMO-2019.pdf) [(statistics)](exams/stats-TST-IMO-2019.pdf)
 * USA Winter TST for IMO 2020 [(problems)](exams/IMO-2020-TST.pdf) [(solutions)](exams/sols-TST-IMO-2020.pdf) [(statistics)](exams/stats-TST-IMO-2020.pdf)
-* USA Winter TST for IMO 2021 [(problems)](exams/IMO-2021-TST.pdf) [(solutions)](exams/sols-TST-IMO-2021.pdf) [(statistics)](exams/stats-TST-IMO-2021.pdf)
+* USA Winter TST for IMO 2021 [(problems)](exams/IMO-2021-TST.pdf) [(solutions)](exams/sols-TST-IMO-2021.pdf) [(statistics)](exams/stats-TST-IMO-2021.pdf) [(video)](https://youtu.be/J3cOwLGB2ZY)
 
 ## International Math Olympiad
 
@@ -153,14 +155,14 @@ the selection process for the USA IMO team.
 	<tt style="font-size: 70%">GRE-G1 SVK-A2 IRN-C4 ARM-C2 MNG-N4 POL-G6</tt>
 * IMO 2019 [(problems and solutions)](exams/IMO-2019-notes.pdf) <br>
 	<tt style="font-size: 70%">SAF-A1 UKR-G3 HRV-C5 SLV-N1 USA-C3 IND-G7</tt>
-* IMO 2020 [(problems and solutions)](exams/IMO-2020-notes.pdf) <br>
+* IMO 2020 [(problems and solutions)](exams/IMO-2020-notes.pdf) [(video)](https://youtu.be/JfRrlvbzKHk) <br>
 
 ## USEMO
 
 Also listed on the [USEMO page](usemo.html).
 
-* USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
-* USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
+* USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf) [(video 1)](https://youtu.be/V2TNgUwbs6A) [(video 2)](https://youtu.be/0rdn01T_q4Y)
+* USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf) [(video 1)](https://youtu.be/4lqdsGunUt8) [(video 2)](https://youtu.be/QruKBObOEbA)
 
 ## ELMO
 
@@ -200,3 +202,16 @@ These problems are in Chinese;
 * Taiwan TST 2014 Round 1 [(problems)](exams/TaiwanTST-2014-1.pdf)
 * Taiwan TST 2014 Round 2 [(problems)](exams/TaiwanTST-2014-2.pdf)
 * Taiwan TST 2014 Round 3 [(problems)](exams/TaiwanTST-2014-3.pdf)
+
+## NIMO / OMO
+
+In high school, I and some others ran an online contest
+called the NIMO (National Internet Math Olympiad)
+as well as one called the OMO (Online Math Open).
+Neither contest is active at the time of writing
+(April 2021) but I
+[collected all the materials and put them in a Google Drive link][old]
+since the website for that contest is not currently online.
+Most of the problems are short-answer problems.
+
+[old]: https://drive.google.com/drive/u/1/folders/1jVXuZMdk-GkucFtqPWAIg5xMiQN-E3gf
