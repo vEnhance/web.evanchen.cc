@@ -96,11 +96,14 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 ### Contests
 
 Each section is in alphabetical order.
+Obviously not an exhaustive list of good contests,
+there are too many; these are just ones I have seen recently.
 
 + National olympiads:
 	* [All-Russian](https://aops.com/community/c3371_allrussian_olympiad)
 	* [Brazil](https://aops.com/community/c3273)
 	* [Canada](https://aops.com/community/c3277)
+	* [Mexico](https://aops.com/community/c3344_mexico_national_olympiad)
 	* [Korea](https://aops.com/community/c3383_korea_national_olympiad)
 	* [Romania](https://aops.com/community/c3365)
 	* [USA](problems.html)
