@@ -2,6 +2,7 @@
 
 if [ $# -eq 0 ]; then
 	gsutil -m setmeta -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/*.html
+	gsutil -m setmeta -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/FAQs/*.html
 elif [ $1 = "-c" ]; then
 	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**.css
 elif [ $1 = "-e" ]; then
@@ -19,6 +20,7 @@ elif [ $1 = "-p" ]; then
 elif [ $1 = "-u" ]; then
 	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/upload/*
 	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/private/*
+	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/textbooks/*
 elif [ $1 = "-a" ]; then
 	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/
 else
