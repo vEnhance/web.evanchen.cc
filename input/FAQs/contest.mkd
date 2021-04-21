@@ -292,7 +292,11 @@ I think the only case I can think of that would be concern
 is if a student is afraid of a particular area
 and then tries to ignore it completely.
 As long as you avoid this trap, I hereby give you license to
-work on whatever you feel like, whenever you are interested in it.
+work on whatever you feel like, planned or not.
+
+### C-18. Do I have to do EVERY problem from X?
+
+No.
 
 
 [aimescratch]: static/AIME-2013-scratch.pdf

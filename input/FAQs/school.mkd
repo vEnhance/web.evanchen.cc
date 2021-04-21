@@ -116,8 +116,26 @@ learn this as soon as possible.
 
 I think the reason that linalg/multivar are so popular is that you don't need
 to understand proofs to take these classes, so they appeal to a broad audience.
-But if you do understand how to read and write proofs, you are very lucky, and
+But if you do understand how to read and write proofs, you are quite lucky, and
 you have some better options available to you for where to explore next.
+
+### S-7. How do I get in to MIT?
+
+You are asking the wrong person; I am not an admissions officer.
+Instead, you should read [mitadmissions.org](https://mitadmissions.org).
+For example the post
+[applying sideways](https://mitadmissions.org/blogs/entry/applying_sideways/)
+will literally tell you the answer to this question,
+even though it's not the answer you want to hear.
+
+I have nothing to add to this. Really.
+
+People always want to believe there is some mythical criteria
+or hidden goal in the admissions process,
+a closely guarded secret held from the general public,
+and hence the best route is to find out this insider information.
+No, seriously, just listen to the people who do admissions for a living.
+MIT is not the Illuminati, even if it a substring.
 
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
