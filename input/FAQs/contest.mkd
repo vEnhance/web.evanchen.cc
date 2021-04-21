@@ -15,9 +15,9 @@ and spend some of time on reflection.
 Full answer: [this blog post][wpcontest].
 
 It's worth pointing out that no one has a silver bullet:
-there's no known study method $X$ (let alone a specific handout/book)
-such that students following $X$ consistently do well on USAMO.
-(Reason: the existence of $X$ is not a
+there's no known study method X (let alone a specific handout/book)
+such that students following X consistently do well on USAMO.
+(Reason: the existence of X is not a
 [Nash equilibrium](https://www.scottaaronson.com/blog/?p=418).)
 There are plenty of strategies which obviously *don't* work
 like "do nothing" and "read solutions without trying any problems",
@@ -50,7 +50,7 @@ or [Yufei Zhao's][yufei], among others.
 And of course, [my geometry textbook][geombook].
 
 
-### C-4. Is it possible for me to go from $X$ level to $Y$ level in $Z$ time?
+### C-4. Is it possible for me to go from X level to Y level in Z time?
 I probably don't know much more than you do.
 
 Predicting improvement in math contests is a lot like trying to predict the
@@ -86,10 +86,10 @@ The [USA Mathematical Talent Search][usamts] is also another good option.
 It is a free mathematics competition open to all United States middle and high school students,
 which gives you about one month to produce full solutions to a set of five problems.
 
-### C-6. Am I ready to do $X$ level problems, read book $Y$, etc.?
+### C-6. Am I ready to do X level problems, read book Y, etc.?
 
 The correct thing to do is just try it out (e.g.
-try some problems from a past $X$ paper, read a chapter from $Y$, etc.)
+try some problems from a past X paper, read a chapter from Y, etc.)
 and see how it feels.
 You all know what it feels like when something is too easy
 (think middle school math class): you feel like you're doing the problems
@@ -100,13 +100,7 @@ the dreaded "I have no clue what's going on".
 Anything not too close to either extreme is probably fine.
 If in doubt, I recommend picking whatever is most enjoyable.
 
-<!--
-For what it's worth, I think most students are too conservative
-in doing harder problems. Just because you haven't qualified for USAMO yet
-doesn't mean you can't try some USAMO 1/4's!
--->
-
-### C-7. Should I read $X$ book versus $Y$ book, spend $M$ hours versus $N$ hours per week, etc.?
+### C-7. Should I read X book versus Y book, spend M hours versus N hours per week, etc.?
 
 My gut feeling is that the effect size of this is sufficiently small that
 (i) no one knows a definitive answer,
@@ -166,7 +160,7 @@ and takes so little time that there's no excuse not to do it (in my opinion).
 Of course, a lot of strong students still do full write-ups anyways,
 and I do so myself, just out of a habit of trying to do things well.
 
-### C-10. Can you solve $X$ problem for me?
+### C-10. Can you solve X problem for me?
 
 Probably not.
 If you send me a problem, usually I will at least read it.
@@ -175,11 +169,135 @@ I will generally be nice enough to write back and outline or link the solution.
 But otherwise I will likely be too embarrassed to admit I don't have time to
 work on every problem that students send me, and simply archive your message.
 
+### C-11. Directed angles are really confusing! Can I just use normal angles?
+
+As I allude to in [the directed angles handout](handouts/Directed-Angles/Directed-Angles.pdf)
+you could probably get away with it,
+because it is common practice to not deduct for configuration issues
+(although it does happen from time to time).
+So, if you really hate it, you can ignore it.
+
+However, in the words of Ankan Bhattacharya:
+
+> You should learn directed angles,
+> not necessarily because they deal with inessential configuration issues,
+> but because once you know them angle chasing with directed angles
+> becomes easier than normal angle chasing.
+
+I have the same opinion.
+I initially used directed angles anyways because I cared
+about having complete correct solutions even if I didn't lose points for it.
+But then I realized it's actually easier once you get used to it,
+because you don't need to keep track of $x$ vs $180^{\circ}-x$ anymore.
+So I don't think I would go back to using normal angles even if I could.
+
+### C-12. How long should I spend on an olympiad problem before I give up?
+
+You should have a lower bound (1 hour is a good rule of thumb).
+But I think for the upper bound,
+it's often better to go by a feeling of how much progress
+you've made rather than a hard time.
+
+What I mean by this is, you can spend many hours on a problem
+and still learn a lot from it if you're making progress
+or finding new things the whole time.
+In other words, if you still have steam, you should keep going.
+But conversely, if you stare at a problem for three hours
+with no clue what to do the entire time, it's probably okay to give up.
+There are more problems to do.
+
+So for the upper bound,
+I think you can trust your per-problem judgment a bit more.
+It's not a bad rule of thumb, honestly,
+to give up once the problem stops being fun
+(and you are over the lower bound).
+That's usually a good indicator for me
+when I'm not getting anywhere, at least.
+
+It's also encouraged to have a few problems you're thinking
+about at once rather than literally one at a time,
+so that you can switch between problems as you see fit
+(e.g. if you are feeling stuck on one and want a break).
+
+### C-13. Do I need to know X topic for math olympiads?
+
+Read [the syllabus linked on the beginner page](wherestart.html).
+
+
+### C-14. In geometry, can I only use synthetic methods and not use coordinates? Or vice-versa? Which coordinate system is most useful?
+
+Wrong question.
+You should **always use the tool most suited to that problem**.
+Some problems are easier to solve with coordinates than synthetic methods.
+Some problems are easier to solve with synthetic methods than coordinates.
+Some are totally intractable with one approach, and so on.
+Therefore, you should aim to be versatile in choosing approaches.
+In particular, knowing multiple methods well pays off.
+
+Lines of attack also should be used together, rather than individually.
+The following story is common for me: I am working on some geometry problem,
+whether for fun or vetting it for a contest. I quickly make some synthetic
+reduction to reach a problem that I could complex bash if I wanted to, but
+which is ugly. Of course I am lazy and don't want to carry out the ugly
+computation, so I keep trying to make more reductions to get a better setup
+for complex numbers. Then after some more reductions, I found that I have
+discovered the synthetic solution anyways! It seems moving between
+perspectives simultaneously helps you solve more problems than you could
+trying to only use a subset.
+
+### C-15. On a 3-problem, 4.5-hour exam, should I try all three problems?
+
+Yes. See [this post](https://aops.com/community/p18587427) for details.
+
+### C-16. What grade should I aim to reach X goal by?
+
+You should just do your best each year.
+
+I see so many people saying things like "I would try to make JMO by 8th grade
+to make MOP in 10th" or "I didn't make JMO in 9th grade, so now I'm never going
+to make MOP" and other comments like this. Here's some advice you didn't ask
+for: you'll make it farther if you lose that mindset.
+
+Why? The problem with that kind of thinking is you're treating time as your
+enemy. You put yourself in a mindset where every year is a race against the
+clock, and if you fall behind your quota (that someone on the Internet put for
+you), then all hope is lost. I think this sort of outlook is so negative and
+results-oriented that you will actually perform worse because of it. You can
+become so upset about the results of 9th grade that you can't study in 10th
+grade. Instead, I think you should try to treat the time as your friend. If you
+don't do well in 2020, that's okay, you have lots of time to try again in 2021
+and 2022 and later on. You don't have to try and extrapolate years into the
+future --- because the leading term for your 2021 score is not your 2020 score,
+it's what you do between now and then.
+
+You will find it's impossible to learn well if you hang a clock over your head.
+
+### C-17. Do I need to make a study plan?
+
+You can if you want to, but it's not that important.
+I certainly never made a plan as a student.
+
+The reason I have somewhat dim views of study plans is that
+**energy management is more important than time management**.
+In general, it is a lot better to be spending a lot of time exploring whatever
+is catching interest, than to try and lay out some fixed plan and then not
+really follow through with it.
+So even though in theory planning seems like it would be helpful,
+the energy spent crafting then adhering to a plan
+could easily outweigh benefits.
+(One can always start with a lot of energy,
+and then the energy quickly dies out.)
+
+I think the only case I can think of that would be concern
+is if a student is afraid of a particular area
+and then tries to ignore it completely.
+As long as you avoid this trap, I hereby give you license to
+work on whatever you feel like, whenever you are interested in it.
+
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
-[ebook]: https://www.maa.org/ebooks/EGMO
 [ebook]: https://www.maa.org/ebooks/EGMO/
 [geoff]: https://people.bath.ac.uk/masgcs/geo.pdf
 [geombook]: geombook.html
