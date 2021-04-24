@@ -18,6 +18,8 @@ try my [Napkin](napkin.html).
 It was basically written to answer this question.
 Other possible references are mentioned in [Recommendations](recommend.html).
 
+See also S-6 below.
+
 ### S-3. How do you live-TeX your notes so quickly?
 The main contributing factors are:
 
@@ -84,8 +86,10 @@ or finding a professor near you.
 
 ### S-6. I want to take some advanced math classes from nearby college, which ones do you recommend?
 
-Short answer: abstract algebra or real/complex analysis,
-and NOT linear algebra or multivariable calculus.
+Short answer:
+
+* Learn abstract algebra or real/complex analysis; and
+* Avoid linear algebra or multivariable calculus.
 
 Long answer: I am assuming you are interested in learning
 a lot of math eventually (rather than, say,
@@ -124,7 +128,7 @@ you have some better options available to you for where to explore next.
 You are asking the wrong person; I am not an admissions officer.
 Instead, you should read [mitadmissions.org](https://mitadmissions.org).
 For example the post
-[applying sideways](https://mitadmissions.org/blogs/entry/applying_sideways/)
+[Applying Sideways](https://mitadmissions.org/blogs/entry/applying_sideways/)
 will literally tell you the answer to this question,
 even though it's not the answer you want to hear.
 
