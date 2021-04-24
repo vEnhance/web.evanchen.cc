@@ -21,20 +21,8 @@ Other possible references are mentioned in [Recommendations](recommend.html).
 See also S-6 below.
 
 ### S-3. How do you live-TeX your notes so quickly?
-The main contributing factors are:
 
-+ My typing speed is quite high, at around 650 characters per minute.
-+ My editor is Vim (on Arch Linux), which is one of the fastest editors.
-+ I use [LaTeX-Suite](https://vim-latex.sourceforge.net/) for Vim.
-+ Several additional custom keyboard shortcuts specifically for TeX,
-  see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
-+ I have conceal enabled, so I can read my source code more easily.
-+ I run [latexmk -pvc](https://www.phys.psu.edu/~collins/software/latexmk-jcc/) in the background, so the PDF also compiles in realtime.
-
-I have been using Vim and LaTeX since I was a teenager,
-so I am quite proficient with both.
-
-[Link to corresponding dotfiles](https://github.com/vEnhance/dotfiles).
+See [FAQ L-14](latex.html).
 
 ### S-4. How did you take undergraduate / graduate math classes in high school?
 
@@ -139,7 +127,7 @@ or hidden goal in the admissions process,
 a closely guarded secret held from the general public,
 and hence the best route is to find out this insider information.
 No, seriously, just listen to the people who do admissions for a living.
-MIT is not the Illuminati, even if it a substring.
+MIT is not the Illuminati, even if it a subsequence.
 
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
