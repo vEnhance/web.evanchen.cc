@@ -17,9 +17,7 @@ elif [ $1 = "-t" ]; then
 elif [ $1 = "-p" ]; then
 	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**.pdf
 elif [ $1 = "-u" ]; then
-	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/upload/*
-	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/private/*
-	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/textbooks/*
+	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/upload/* gs://web.evanchen.cc/private/* gs://web.evanchen.cc/textbooks/*
 elif [ $1 = "-a" ]; then
 	gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/
 else
