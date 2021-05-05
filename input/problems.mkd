@@ -81,7 +81,7 @@ To my knowledge they are not published anywhere.
 ## USA TST Selection Test (TSTST)
 
 For an explanation of the name,
-see [the FAQ on the USA IMO team selection](FAQs/rules.html).
+see [the FAQ on the USA IMO team selection](faq-rules.html).
 
 * TSTST 2011 [(problems)](exams/TSTST-2011.pdf) [(solutions)](exams/sols-TSTST-2011.pdf)
 * TSTST 2012 [(problems)](exams/TSTST-2012.pdf) [(solutions)](exams/sols-TSTST-2012.pdf)

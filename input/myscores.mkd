@@ -30,7 +30,7 @@ These probably should not be taken very seriously,
 but I'll forget them if I don't write them down.
 
 For actual advice on preparing for contests,
-see [Contest FAQ's](FAQs/contest.html).
+see [Contest FAQ's](faq-contest.html).
 
 (Scores for TSTST are approximate since papers were not returned.)
 

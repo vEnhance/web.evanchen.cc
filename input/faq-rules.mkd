@@ -14,7 +14,7 @@ it represents my best knowledge and may become out of date.
 See the [official AMC website][amc] for authoritative answers.
 
 If you are looking for training advice,
-see [Contest FAQ's](FAQs/contest.html).
+see [Contest FAQ's](faq-contest.html).
 
 
 ### CR-1. How is the USA IMO team determined?

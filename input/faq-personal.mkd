@@ -7,7 +7,7 @@ description: Some FAQ's about math contests and my personal life.
 [Return to FAQ Index.](faqs.html)
 
 These are FAQ's about me and my contest history.
-You might also see [School FAQ's](FAQs/school.html).
+You might also see [School FAQ's](faq-school.html).
 
 ### P-1. How much time did you spend on math preparation?
 I never kept track because the number wasn't important to me,
