@@ -189,15 +189,16 @@ In addition, some students further extend the abuse of notation
 and refer to the 5th cutoff in CR-7 as the "pink" group.
 Unlike the other four colors, "pink" is not officially recognized in any way;
 it does not correspond to any class or testing group at MOP.
-(Internally, the staff writes "EGMO group" instead.)
-It was instead coined by students around 2007 (rather than by staff),
+(Internally, the staff writes "EGMO group"
+instead for the corresponding cutoff.)
+The color "pink" was instead coined by students around 2007 (rather than by staff),
 not necessarily out of good will, and the name stuck around.
 In the past several students told me they found this name offensive,
 so I try to avoid using "pink" as much possible.
 But the name is so entrenched by now that I think it will never go away,
 hence I decided it was better to explain its history here.
 
-Finally, I better explain that color groups are not that important.
+Finally, I better explain that **color groups are not that important**.
 Once the USA students arrive at MOP, they are all treated equally in team selection:
 no matter their color group, past USA(J)MO score, gender, or what-have-you
 (except, of course, that only female students are eligible for EGMO).
