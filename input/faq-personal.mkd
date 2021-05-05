@@ -9,7 +9,7 @@ description: Some FAQ's about math contests and my personal life.
 These are FAQ's about me and my contest history.
 You might also see [School FAQ's](faq-school.html).
 
-### P-1. How much time did you spend on math preparation?
+### {{ faq("P-1", "How much time did you spend on math preparation?") }}
 I never kept track because the number wasn't important to me,
 but a very rough guess is perhaps 10 to 20 hours a week,
 with a large standard deviation (because I only practiced when I felt like it).
@@ -24,7 +24,7 @@ Even "number of problems attempted" would be a better metric
 (provided they are at the right difficulty),
 although I think that this number is pretty uninformative as well.
 
-### P-2. Which books/handouts/materials did you use?
+### {{ faq("P-2", "Which books/handouts/materials did you use?") }}
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
 I think it's useful (and more fun!) for students to decide the
@@ -41,27 +41,27 @@ from books or classes from Art of Problem Solving, like
 [Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
 
 
-### P-3. How did you compete on the Taiwan IMO team?
+### {{ faq("P-3", "How did you compete on the Taiwan IMO team?") }}
 I live in the United States, but am also a citizen of Taiwan,
 where both my parents are from.
 So in the spring of 2014,
 I flew back to Taiwan to participate in the IMO selection process
 rather than going to my high school classes.
 
-### P-4. How long did it take you to achieve X?
+### {{ faq("P-4", "How long did it take you to achieve X?") }}
 I started training seriously starting in the 2009-2010 school year,
 when I was in eighth grade.
 I had participated casually the year before that.
 
 [See here for a listing of my contest history.][myscores]
 
-### P-5. Are you available to tutor my child in math contests?
+### {{ faq("P-5", "Are you available to tutor my child in math contests?") }}
 
 See [my teaching page][otis] for more details.
 
 <br>
 
-### 6. What is your favorite math olympiad problem?
+### {{ faq("P-6", "What is your favorite math olympiad problem?") }}
 
 It is hidden somewhere on this website,
 on [cofinitely][cofinite] many of the pages. ;)

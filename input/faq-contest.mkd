@@ -9,7 +9,7 @@ description: Some FAQ's about math contests and my personal life.
 These are FAQ's about math contests and particularly
 how to go about training for them.
 
-### C-1. How should I prepare for math contests?
+### {{ faq("C-1", "How should I prepare for math contests?") }}
 One-sentence answer: do lots of problems just above your current ability,
 and spend some of time on reflection.
 Full answer: [this blog post][wpcontest].
@@ -29,7 +29,7 @@ of success, I would say it is
 That means you both enjoy your work and are working on
 things in the right difficulty range.
 
-### C-2. Which books/handouts/materials should I use?
+### {{ faq("C-2", "Which books/handouts/materials should I use?") }}
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
 
@@ -42,7 +42,7 @@ from books or classes from Art of Problem Solving, like
 [Volume 2](https://www.aops.com/store/item/aops-vol2).
 
 
-### C-3. How do I get better at Euclidean geometry?
+### {{ faq("C-3", "How do I get better at Euclidean geometry?") }}
 For general advice, see [my advice][wpgeo], [Geoff Smith's advice][geoff], etc.
 
 For specific materials, see [my own handouts][articles]
@@ -50,7 +50,7 @@ or [Yufei Zhao's][yufei], among others.
 And of course, [my geometry textbook][geombook].
 
 
-### C-4. Is it possible for me to go from X level to Y level in Z time?
+### {{ faq("C-4", "Is it possible for me to go from X level to Y level in Z time?") }}
 I probably don't know much more than you do.
 
 Predicting improvement in math contests is a lot like trying to predict the
@@ -58,7 +58,7 @@ stock market. We have some common sense, but no one *really*
 knows much more than that.
 
 
-### C-5. How do I learn to write proofs?
+### {{ faq("C-5", "How do I learn to write proofs?") }}
 
 I don't think there's actually a leap between computation and proof-writing, and
 I actually suspect that thinking proof-writing is hard is most of what makes it hard.
@@ -86,7 +86,7 @@ The [USA Mathematical Talent Search][usamts] is also another good option.
 It is a free mathematics competition open to all United States middle and high school students,
 which gives you about one month to produce full solutions to a set of five problems.
 
-### C-6. Am I ready to do X level problems, read book Y, etc.?
+### {{ faq("C-6", "Am I ready to do X level problems, read book Y, etc.?") }}
 
 The correct thing to do is just try it out (e.g.
 try some problems from a past X paper, read a chapter from Y, etc.)
@@ -100,7 +100,7 @@ the dreaded "I have no clue what's going on".
 Anything not too close to either extreme is probably fine.
 If in doubt, I recommend picking whatever is most enjoyable.
 
-### C-7. Should I read X book versus Y book, spend M hours versus N hours per week, etc.?
+### {{ faq("C-7", "Should I read X book versus Y book, spend M hours versus N hours per week, etc.?") }}
 
 My gut feeling is that the effect size of this is sufficiently small that
 (i) no one knows a definitive answer,
@@ -110,7 +110,7 @@ Therefore I think the correct thing to do is try both,
 see which one you like better, and just go with that,
 [without worrying about whether it is "right"][right].
 
-### C-8. How do I make fewer careless errors?
+### {{ faq("C-8", "How do I make fewer careless errors?") }}
 
 There's a nice [article on AoPS][mistakes] that addresses most of
 what I have to say. Here are just a few additional remarks.
@@ -140,7 +140,7 @@ you'll naturally become less likely to make careless errors as well.
 
 See also: [Against Perfect Scores][perfect].
 
-### C-9. Should I take the time to write up full solutions to problems I solve in training?
+### {{ faq("C-9", "Should I take the time to write up full solutions to problems I solve in training?") }}
 
 It depends on who you ask; you'll get different advice.
 On the one hand, writing the solution completely is actually really helpful
@@ -160,7 +160,7 @@ and takes so little time that there's no excuse not to do it (in my opinion).
 Of course, a lot of strong students still do full write-ups anyways,
 and I do so myself, just out of a habit of trying to do things well.
 
-### C-10. Can you solve X problem for me?
+### {{ faq("C-10", "Can you solve X problem for me?") }}
 
 Probably not.
 If you send me a problem, usually I will at least read it.
@@ -169,7 +169,7 @@ I will generally be nice enough to write back and outline or link the solution.
 But otherwise I will likely be too embarrassed to admit I don't have time to
 work on every problem that students send me, and simply archive your message.
 
-### C-11. Directed angles are really confusing! Can I just use normal angles?
+### {{ faq("C-11", "Directed angles are really confusing! Can I just use normal angles?") }}
 
 As I allude to in [the directed angles handout](handouts/Directed-Angles/Directed-Angles.pdf)
 you could probably get away with it,
@@ -191,7 +191,7 @@ But then I realized it's actually easier once you get used to it,
 because you don't need to keep track of $x$ vs $180^{\circ}-x$ anymore.
 So I don't think I would go back to using normal angles even if I could.
 
-### C-12. How long should I spend on an olympiad problem before I give up?
+### {{ faq("C-12", "How long should I spend on an olympiad problem before I give up?") }}
 
 You should have a lower bound (1 hour is a good rule of thumb).
 But I think for the upper bound,
@@ -219,12 +219,12 @@ about at once rather than literally one at a time,
 so that you can switch between problems as you see fit
 (e.g. if you are feeling stuck on one and want a break).
 
-### C-13. Do I need to know X topic for math olympiads?
+### {{ faq("C-13", "Do I need to know X topic for math olympiads?") }}
 
 Read [the syllabus linked on the beginner page](wherestart.html).
 
 
-### C-14. In geometry, can I only use synthetic methods and not use coordinates? Or vice-versa? Which coordinate system is most useful?
+### {{ faq("C-14", "In geometry, can I only use synthetic methods and not use coordinates? Or vice-versa? Which coordinate system is most useful?") }}
 
 Wrong question.
 You should **always use the tool most suited to that problem**.
@@ -245,11 +245,11 @@ discovered the synthetic solution anyways! It seems moving between
 perspectives simultaneously helps you solve more problems than you could
 trying to only use a subset.
 
-### C-15. On a 3-problem, 4.5-hour exam, should I try all three problems?
+### {{ faq("C-15", "On a 3-problem, 4.5-hour exam, should I try all three problems?") }}
 
 Yes. See [this post](https://aops.com/community/p18587427) for details.
 
-### C-16. What grade should I aim to reach X goal by?
+### {{ faq("C-16", "What grade should I aim to reach X goal by?") }}
 
 You should just do your best each year.
 
@@ -272,7 +272,7 @@ it's what you do between now and then.
 
 You will find it's impossible to learn well if you hang a clock over your head.
 
-### C-17. Do I need to make a study plan?
+### {{ faq("C-17", "Do I need to make a study plan?") }}
 
 You can if you want to, but it's not that important.
 I certainly never made a plan as a student.
@@ -294,7 +294,7 @@ and tries to ignore it completely.
 As long as you avoid this trap, I hereby give you license to
 work on whatever you feel like, planned or not.
 
-### C-18. Do I have to do EVERY problem from X?
+### {{ faq("C-18", "Do I have to do EVERY problem from X?") }}
 
 No.
 

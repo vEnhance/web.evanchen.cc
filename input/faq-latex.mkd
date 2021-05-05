@@ -23,12 +23,12 @@ and others may be designed specifically for LaTeX editing,
 but it is a mistake to confuse the editor with the compiler.
 Any text editor will work with any compiler will work with any PDF viewer.
 
-### L-1. I don't know anything. Where do I start?
+### {{ faq("L-1", "I don't know anything. Where do I start?") }}
 
 [Read Wikibooks](https://en.wikibooks.org/wiki/LaTeX), it's really comprehensive.
 Also, [this tutorial is good too](https://www.latex-tutorial.com/tutorials/).
 
-### L-2. What about online LaTeX editors like Overleaf?
+### {{ faq("L-2", "What about online LaTeX editors like Overleaf?") }}
 
 I think it's better long-term to install LaTeX on your computer.
 This speeds up compilation and lets you use your favorite choice of editor and viewer,
@@ -38,7 +38,7 @@ In addition, using Overleaf can cause version issues, especially with Asymptote.
 I mostly use Overleaf in cases where I need to collaborate on a simple document
 and my collaborators do not know how to use Git or Dropbox.
 
-### L-3. Your documents are pretty, can I use your formatting?
+### {{ faq("L-3", "Your documents are pretty, can I use your formatting?") }}
 
 Yes, it's contained in the style file
 [evan.sty](https://github.com/vEnhance/dotfiles/blob/main/texmf/tex/latex/evan/evan.sty).
@@ -49,19 +49,19 @@ Check the license that appears.
 You should either copy-paste the 600-ish lines of code into a text file,
 or else click "Raw" and save the file.
 
-### L-4. How do I use a custom style file like evan.sty?
+### {{ faq("L-4", "How do I use a custom style file like evan.sty?") }}
 
 [Check Google.](https://www.google.com/search?q=where+to+put+latex+custom+package)
 
-### L-5. How do I get the colored boxes and section headers with evan.sty?
+### {{ faq("L-5", "How do I get the colored boxes and section headers with evan.sty?") }}
 
 Pass the `sexy` option to the package (see source code for more detailed breakdown of options).
 
-### L-6. What package did you use to typeset your CV?
+### {{ faq("L-6", "What package did you use to typeset your CV?") }}
 
 I use [moderncv](https://ctan.org/pkg/moderncv?lang=en).
 
-### L-7. How do you get the LaTeX to auto-compile?
+### {{ faq("L-7", "How do you get the LaTeX to auto-compile?") }}
 
 Use [`latexmk`](https://personal.psu.edu/~jcc8/software/latexmk/) with the `-pvc` flag,
 and a PDF viewer that does not "lock" the PDF file from being written
@@ -70,7 +70,7 @@ and a PDF viewer that does not "lock" the PDF file from being written
 To fit `latexmk` into the framework we described,
 it is a "wrapper script" that calls the compiler for you.
 
-### L-8. What do you use to typeset geometry diagrams?
+### {{ faq("L-8", "What do you use to typeset geometry diagrams?") }}
 
 I use [Asymptote](https://asymptote.sourceforge.io/doc/index.html#SEC_Contents).
 It integrates well with LaTeX, but the setup takes some work.
@@ -85,18 +85,18 @@ You can run this by hand each time,
 or if you use `latexmk` you can automate this process.
 See the [LaTeX usage page](https://asymptote.sourceforge.io/doc/LaTeX-usage.html).
 
-### L-9. Can I see some example source code?
+### {{ faq("L-9", "Can I see some example source code?") }}
 
 Yes, go to [Olympiad page](olympiad.html)
 and to download TeX source.
 (The geometry handouts will have diagrams.)
 You can also look at [Napkin source code](https://github.com/vEnhance/napkin/).
 
-### L-10. Which LaTeX distribution do you recommend?
+### {{ faq("L-10", "Which LaTeX distribution do you recommend?") }}
 
 MikTeX, MacTeX, and TeX Live for Windows, Mac, Linux, respectively.
 
-### L-11. Which text editor do you use?
+### {{ faq("L-11", "Which text editor do you use?") }}
 
 I use [Vim](https://www.vim.org/) with
 [LaTeX Suite](http://vim-latex.sourceforge.net/index.php?subject=manual&title=Manual#user-manual).
@@ -106,16 +106,16 @@ so if you are a beginner, it may be overwhelming to learn Vim and LaTeX at the s
 Note that a text editor does not need to be specific to LaTeX,
 [any source code editor will work](https://en.wikipedia.org/wiki/Source-code_editor).
 
-### L-12. Which PDF viewer do you use?
+### {{ faq("L-12", "Which PDF viewer do you use?") }}
 
 [Zathura](https://pwmt.org/projects/zathura/).
 Evince and Skim are also good.
 
-### L-13. How did you get randomized hint order in your geometry textbook?
+### {{ faq("L-13", "How did you get randomized hint order in your geometry textbook?") }}
 
 It's a bit of a hack, but here is [demo code](static/random-hints.tex).
 
-### L-14. How do you live-TeX your notes so quickly?
+### {{ faq("L-14", "How do you live-TeX your notes so quickly?") }}
 
 The main contributing factors are:
 
@@ -129,22 +129,22 @@ The main contributing factors are:
 I have been using Vim and LaTeX since I was a teenager,
 so I am quite proficient with both.
 
-### L-15. How did you integrate your problem database with LaTeX?
+### {{ faq("L-15", "How did you integrate your problem database with LaTeX?") }}
 
 I [wrote my own database software in Python](https://github.com/vEnhance/von).
 
-### L-16. What's the best way to learn new things in LaTeX?
+### {{ faq("L-16", "What's the best way to learn new things in LaTeX?") }}
 
 Two things:
 
 * Read the source code of other people;
 * Search on Google and [tex.SE](https://tex.stackexchange.com/).
 
-### L-17. How can I look up a symbol?
+### {{ faq("L-17", "How can I look up a symbol?") }}
 
 Use [Detexify](https://detexify.kirelabs.org/classify.html).
 
-### L-18. How can I have space between my paragraphs?
+### {{ faq("L-18", "How can I have space between my paragraphs?") }}
 
 You can use `\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}`.
 You can also add `\setlength{\parindent}{0pt}` to suppress indents.
@@ -152,16 +152,16 @@ You can also add `\setlength{\parindent}{0pt}` to suppress indents.
 But don't do this, it looks terrible.
 Indents are a better way of separating paragraphs.
 
-### L-19. What do you use for slideshows (e.g. on Twitch stream)?
+### {{ faq("L-19", "What do you use for slideshows (e.g. on Twitch stream)?") }}
 
 [Beamer](http://tug.ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.pdf).
 
-### L-20. How do you get LaTeX on Wordpress blog?
+### {{ faq("L-20", "How do you get LaTeX on Wordpress blog?") }}
 
 I use [this Python2 script](https://lucatrevisan.wordpress.com/latex-to-wordpress/).
 Not that elegant but works.
 
-### L-21. My code doesn't work / I want to do X, what should I do?
+### {{ faq("L-21", "My code doesn't work / I want to do X, what should I do?") }}
 
 Prepare a [minimal working example](http://tug.ctan.org/info/dickimaw/dickimaw-minexample.pdf)
 and ask on [tex.SE](https://tex.stackexchange.com/).

@@ -8,11 +8,11 @@ description: Some FAQ's about math contests and my personal life.
 
 These are FAQ's about high school and college.
 
-### S-1. Why did you transfer from Harvard to MIT?
+### {{ faq("S-1", "Why did you transfer from Harvard to MIT?") }}
 Short answer: mostly social reasons.
 Long answer: [See here](https://usamo.wordpress.com/2015/06/28/transferring/).
 
-### S-2. I'm interested in learning some higher math. Where can I start?
+### {{ faq("S-2", "I'm interested in learning some higher math. Where can I start?") }}
 If you like my writing and are comfortable with proofs,
 try my [Napkin](napkin.html).
 It was basically written to answer this question.
@@ -20,11 +20,11 @@ Other possible references are mentioned in [Recommendations](recommend.html).
 
 See also S-6 below.
 
-### S-3. How do you live-TeX your notes so quickly?
+### {{ faq("S-3", "How do you live-TeX your notes so quickly?") }}
 
 See [FAQ L-14](latex.html).
 
-### S-4. How did you take undergraduate / graduate math classes in high school?
+### {{ faq("S-4", "How did you take undergraduate / graduate math classes in high school?") }}
 
 Context: in high school I five classes from
 UC Berkeley and San Jose State total; you can see [the notes I took][notes].
@@ -41,7 +41,7 @@ If one person says no, talk to someone else.
 You have to be aggressive with these things to make progress,
 because otherwise the administration has no real incentive to help you.
 
-### S-5. What are your thoughts on high school math research?
+### {{ faq("S-5", "What are your thoughts on high school math research?") }}
 
 I'm pretty cynical of it.
 The (buzz)word "research" itself is a red flag for me:
@@ -72,7 +72,7 @@ That being said, if you still want to work on research projects,
 consider programs like [PRIMES](https://math.mit.edu/research/highschool/primes/index.php),
 or finding a professor near you.
 
-### S-6. I want to take some advanced math classes from nearby college, which ones do you recommend?
+### {{ faq("S-6", "I want to take some advanced math classes from nearby college, which ones do you recommend?") }}
 
 Short answer:
 
@@ -111,7 +111,7 @@ to understand proofs to take these classes, so they appeal to a broad audience.
 But if you do understand how to read and write proofs, you are quite lucky, and
 you have some better options available to you for where to explore next.
 
-### S-7. How do I get in to MIT?
+### {{ faq("S-7", "How do I get in to MIT?") }}
 
 You are asking the wrong person; I am not an admissions officer.
 Instead, you should read [mitadmissions.org](https://mitadmissions.org).

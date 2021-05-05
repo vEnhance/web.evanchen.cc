@@ -76,3 +76,6 @@ def get_card_trick():
 	out += r'<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>' + '\n'
 	out += r'<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />'
 	return out
+
+def faq(label, question):
+	return f'<a id="{label}" href="#{label}">{label}.</a> {question}'

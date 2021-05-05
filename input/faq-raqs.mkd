@@ -10,7 +10,7 @@ These are questions I've been asked only once or twice,
 but which were thought-provoking enough that I want to post them anyways.
 This idea was taken from [Paul Graham][raq].
 
-### R-1. How did/do you have so much time?
+### {{ faq("R-1", "How did/do you have so much time?") }}
 Mostly by cutting out activities that aren't important to me.
 
 I feel high school students tend to focus too much on "local" changes
@@ -56,7 +56,7 @@ Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
 [See here for more discussion][aopstime].
 
 
-### R-2. I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?
+### {{ faq("R-2", "I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?") }}
 
 I guess the best advice I can give is to pick some project to work on.
 It doesn't have to be (and probably shouldn't be)
@@ -94,7 +94,7 @@ In other words, don't feel locked in to any one particular thing,
 and don't pressured to become the top N in the world:
 after all, the point is really for your own learning/growth/enjoyment.
 
-### R-3. What's the most important thing that math contests taught you?
+### {{ faq("R-3", "What's the most important thing that math contests taught you?") }}
 
 I have a [whole post][lessons] on lessons I learned from math contests,
 but here's one that mattered to me a lot back in high school.
@@ -139,7 +139,7 @@ even though many of them will certainly not be doing math as a career.
 I was "taught", but it would have been misleading of me to omit it;
 the social aspect of contests was huge for me.)
 
-### R-4. Would it help to have a tutor/mentor for olympiad math?
+### {{ faq("R-4", "Would it help to have a tutor/mentor for olympiad math?") }}
 
 Short answer: yes, but not in the ways people often expect.
 Long answer: [this blog post][tutor].
