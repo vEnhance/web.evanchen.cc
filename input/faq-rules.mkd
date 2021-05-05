@@ -26,7 +26,7 @@ Roughly 250 students qualify for the USAMO and 250 students qualify for the USA(
 via scores on previous short-answer contests.
 Then things get interesting:
 
-* In USAMO of year $N-1$, about 60 students in grades 11 and below,
+* In USAMO of year N-1, about 60 students in grades 11 and below,
   as well as the IMO team of that year,
   are invited to the three-week Mathematical Olympiad Summer Program,
   abbreviated **MOP**.
@@ -39,17 +39,19 @@ Then things get interesting:
 * Contestants participate in **RMM Day 1**, worth 21 points.
 * Contestants participate in the **APMO**, which is weighted by 0.6;
   hence it is also worth 21 points (despite being a five-problem exam).
-* Finally, the two days of **USAMO** of year $N$ serves as the final TST,
+* Finally, the two days of **USAMO** of year N serves as the final TST,
   worth 42 points.
-* The sum of scores over these five tests (six days, maximum $126$ points)
+* The sum of scores over these five tests (six days, maximum 126 points)
   determine that year's IMO team.
 
-Hence the IMO selection process takes an entire year.
-The IMO team is known shortly after the USAMO grading in May.
-
-Note in particular that winning the USAMO is neither necessary or sufficient
+In particular, winning the USAMO is neither necessary nor sufficient
 for qualifying for the American IMO team, since the IMO team is determined
 by several different exams.
+
+The IMO selection process takes an entire year.
+(In particular, it is impossible to qualify for the IMO
+without first having attended MOP the previous year.)
+The IMO team is known shortly after the USAMO grading in May.
 
 ### CR-2. How is the Taiwan IMO team determined?
 
@@ -90,27 +92,70 @@ In general, for each problem the solution is graded according to the rubric:
 + 1: Significant non-trivial progress
 + 0: "Busy work", special cases, lots of writing
 
-Note that
+The most important difference
+is that USAMO grading is designed to reward complete solutions.
+Basically, we split the solution into
+either **top-down or bottom-up**:
+meaning the score is "7-" (has all the main ideas)
+or "0+" (missing at least one main idea).
+The scores of 3 and 4 are absent for this reason
+(typically used only for two-part problems or strange cases).
+This means your total score is essentially equal to 7 times
+the number of complete solutions plus or minus some pocket change.
 
-+ There is a clear distinction between success/failure,
-  and the scores 3, 4 are absent (they are awarded rarely,
-  most usually in two-part problems).
-+ There is no style: a correct solution receives 7 points.
-  However, it is still in your best interest to write a solution
-  clearly to minimize the chance the grader doesn't understand you.
-+ It is hard to earn partial credits with incomplete solutions
-  and easy to earn full credit for complete solutions.
-  In particular, 0 is the most common score for non-complete solutions.
+(Pocket change tends to also be pretty small,
+though it depends a lot on who writes the rubric for each problem.
+In particular, 0 is the most common score for non-complete solutions;
+we don't give many sympathy points,
+and demand real progress towards a solution to get partial credit,
+not just ideas or lots of writing.)
+
+One thing that is perhaps also surprising:
+**rubrics often do NOT use standard addition**.
+Meaning, we do not break the problem into bite-sized chunks
+and award the sum of the chunks.
+Here are a few examples of what I mean.
+
+* Consider a problem that is two parts.
+  In grader's internal jargon, an example rubric for that problem
+  might colloquially be summarized as "2+2=7",
+  meaning doing either half of the problem is worth 2 points,
+  getting both halves is worth 7.
+  The exact parameters depend on the problem and the captain.
+  On both extremes, I have seen 3+5=7 and 1+1=7 rubrics as well.
+* On a rubric, there might be three or four different
+  starting observations that are worth 1 or 2 points.
+  Often, a 0+ solution gets the maximum, rather than the sum,
+  of these little partial bits: "1+1+1+2=2", say.
+* If you forget to do some easy step (e.g. the base case of an induction),
+  and the rubric penalizes a top-down solution by 1 point for this,
+  it is not necessarily the case that the rubric
+  would award 1 point for doing that step for a 0+ solution.
+
+There is no style: a totally correct and complete solution receives 7 points.
+However, it is still in your best interest to write a solution
+clearly to minimize the chance the grader doesn't understand you.
+Graders don't give points for things they can't comprehend ;)
 
 The grading procedure itself is also different for USAMO / IMO.
 At the USAMO, we grade each paper twice before assigning a score,
-then re-grade approximately the top 25% of papers again.
+then re-grade approximately the top 25% of papers again
+(usually, everyone within one problem of some cutoff).
 At the IMO, a process called coordination is used
 in which team leaders defend their contestant's solutions to coordinators.
+(Consequently, the partial credit obtained on IMO tends to be a lot higher.
+Privately, I also think the rubrics for USAMO tend to be much stricter.)
+
+If you want to see more examples of problem rubrics,
+you should check out the reports of the [USEMO](usemo.html).
+These rubrics are designed by veteran graders
+and released to the public,
+so the standards for these rubrics is likely to be similar
+to what you might encounter at USAMO.
 
 ### CR-4. Can I get a regrade on USA(J)MO?
 
-It is a long-standing policy of AMC that decisions of the
+No. It is a long-standing policy of AMC that decisions of the
 USAMO graders are final and may not be appealed.
 I am also not able to look up your exact score distribution for you.
 
@@ -118,8 +163,11 @@ I won't claim that we graders never make mistakes,
 but all papers are read independently by at least two graders
 (and sometimes more if the solution is especially different or unusual);
 these graders must agree before a score is assigned.
-Then the top papers on each contest are taken and re-graded again.
-Nearly all the graders are either past USAMO winners or IMO medalists,
+Then the top papers on each contest
+(anyone within one problem or so of an award or MOP invitation)
+are taken and re-graded again, independently, by a third grader.
+Nearly all the graders are either past USAMO winners or IMO medalists
+or high-scorers of some national olympiad,
 so there is no question about grader qualification.
 
 All that being said,
@@ -156,7 +204,7 @@ based on the exact scores for that year.
 
 That being said, as of 2016 the criteria for MOP is *roughly* as follows:
 
-* IMO team members and alternates
+* IMO team members (see CR-1)
 * The next *approximately* 12 non-graduating USAMO students
 * The next *approximately* 12 USAMO students in 9th and 10th grades
 * The top *approximately* 12 students on USAJMO
@@ -167,6 +215,11 @@ That being said, as of 2016 the criteria for MOP is *roughly* as follows:
 Young students in 8th grades and below are invited to MOP
 if and only if the moon is full and the wind is blowing south-south-east.
 All selection is done by ID number, without student names.
+
+As a consequence of the procedure spelled out in CR-1,
+it is not possible for a student to attend MOP for the first time as
+a graduating 12th grader.
+This is because the IMO selection process begins at MOP of the previous year.
 
 ### CR-8. What are the colors people keep referring to for MOP?
 
