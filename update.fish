@@ -1,6 +1,7 @@
 #!/bin/fish
 
-./compile.sh > /dev/null
+./compile.sh | tail -n 1
+echo "Compiled"
 
 git diff --quiet
 
