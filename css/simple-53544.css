@@ -2,7 +2,7 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited 20 Apr 2021
+Last edited 5 May 2021
 
 Copyright (c) 2020 Evan Chen under MIT License
 
@@ -50,18 +50,25 @@ blockquote {
  * LINKS, IMAGES
  */
 
-a:hover {
-    color: #ff6600;
-    text-decoration: underline;
-}
-a:visited,
-a:link,
-a:active {
+a:link, a:visited
+{
     color: #2188e0;
     text-decoration: none;
 }
-h1 a:link {
-	color: #3333FF;
+a:hover {
+    color: #006b57;
+    text-shadow: 0 0 5px #ff0;
+    text-decoration: underline;
+}
+
+h1 a:link, h1 a:visited {
+    color: #3333FF;
+}
+h2 a:link, h2 a:visited {
+    color: #078a03;
+}
+h3 a:link, h3 a:visited {
+    color: #054b13;
 }
 img {
     border: 0 none;
@@ -144,6 +151,9 @@ h5, h6 {
     -webkit-border-radius: 11px;
     margin-top: 5px;
     padding-left: 0.5rem;
+}
+#header a:hover {
+    text-decoration: none;
 }
 
 #sitetitle {
