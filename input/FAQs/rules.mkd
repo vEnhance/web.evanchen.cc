@@ -64,7 +64,7 @@ Interestingly, the Taiwan national olympiad is not involved in the selection pro
 * The top 10 scores at the second TST camp are invited to the third TST camp two weeks later.
 * The IMO team is decided by a weighted sum of the scores at the second and third TST camp plus an oral interview.
 
-Each camp lasts roughly from Friday to Tuesday; the geography of Taiwan makes commuting very convenient. Each TST camp features
+Each camp lasts roughly from Friday to Tuesday; the geography of Taiwan makes commuting convenient. Each TST camp features
 
 * Three Team Selection Quizzes (formally "individual study"), which last 110 minutes with two olympiad problems
 * A full mock IMO with six problems.
@@ -143,7 +143,7 @@ the grader has to ask themself whether the student
 actually understands why X is true, or doesn't know and is just "bluffing".
 In particular, this is a math issue, not a style issue.
 
-As a very loose approximation, the official solutions file for
+As a loose approximation, the official solutions file for
 USAMO is about as terse as you can be.
 See [English handout][english] for more discussion.
 
@@ -156,10 +156,10 @@ based on the exact scores for that year.
 
 That being said, as of 2016 the criteria for MOP is *roughly* as follows:
 
-* IMO team members and alternates ("black" group)
-* The next *approximately* 12 non-graduating USAMO students ("blue" group).
-* The next *approximately* 12 USAMO students in 9th and 10th grades ("green" or "red")
-* The top *approximately* 12 students on USAJMO ("red" group)
+* IMO team members and alternates
+* The next *approximately* 12 non-graduating USAMO students
+* The next *approximately* 12 USAMO students in 9th and 10th grades
+* The top *approximately* 12 students on USAJMO
 * Some varying number of non-graduating female contestants from either USAMO or USAJMO
   (these students represent USA at the European Girls' Math Olympiad).
   The exact cutoffs for each contest are determined based on the scores for that year.
@@ -168,13 +168,52 @@ Young students in 8th grades and below are invited to MOP
 if and only if the moon is full and the wind is blowing south-south-east.
 All selection is done by ID number, without student names.
 
-The "color groups" are a convenient shorthand and not worth worrying about.
+### CR-8. What are the colors people keep referring to for MOP?
 
-### CR-8. When are ties on USA(J)MO broken?
+At MOP, there are often four tracks of classes and tests.
+These are usually called Black, Blue, Green, Red as a convenient shorthand,
+a tradition started around 2002.
+The rosters for these classes correspond approximately
+with the first four bullets in CR-7 in that order,
+but only loosely.
+
+Nevertheless, students will often colloquially refer to
+the cutoffs by color as well,
+in a slight [abuse of notation][abusenote].
+(For example, the "blue cutoff" would denote the minimum score
+for an 11th grader to attend MOP via USAMO,
+despite the fact such an 11th grader may be placed in any class group
+depending on the whims of the [assistant academic director](index.html).)
+
+In addition, some students further extend the abuse of notation
+and refer to the 5th cutoff in CR-7 as the "pink" group.
+Unlike the other four colors, "pink" is not officially recognized in any way;
+it does not correspond to any class or testing group at MOP.
+(Internally, the staff writes "EGMO group" instead.)
+It was instead coined by students around 2007 (rather than by staff),
+not necessarily out of good will, and the name stuck around.
+In the past several students told me they found this name offensive,
+so I try to avoid using "pink" as much possible.
+But the name is so entrenched by now that I think it will never go away,
+hence I decided it was better to explain its history here.
+
+Finally, I better explain that color groups are not that important.
+Once the USA students arrive at MOP, they are all treated equally in team selection:
+no matter their color group, past USA(J)MO score, gender, or what-have-you
+(except, of course, that only female students are eligible for EGMO).
+The team selection is not based on a caste system.
+As a matter of principle, anyone attending MOP of year N
+and still in high school could qualify for IMO of year N+1.
+
+[abusenote]: https://en.wikipedia.org/wiki/Abuse_of_notation
+
+
+### CR-9. When are ties on USA(J)MO broken?
 
 As of 2016, ties are generally only broken for USAMO winners,
 since exactly 12 winners are invited to the state dinner.
-
+This did not occur in 2020 or 2021 (due to COVID)
+and I don't know if it will continue.
 
 [amc]: https://www.maa.org/math-competitions
 [usa2003]: upload/usamo-2003-rubric.pdf
