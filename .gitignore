@@ -2,6 +2,7 @@ output/
 poole/*
 static/*
 upload/*
+archive/*
 
 elmo/**/*.html
 **/*.pyc
