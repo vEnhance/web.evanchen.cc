@@ -204,7 +204,7 @@ based on the exact scores for that year.
 
 That being said, as of 2016 the criteria for MOP is *roughly* as follows:
 
-* IMO team members (see CR-1)
+* IMO team members (see [CR-1](#CR-1))
 * The next *approximately* 12 non-graduating USAMO students
 * The next *approximately* 12 USAMO students in 9th and 10th grades
 * The top *approximately* 12 students on USAJMO
@@ -216,7 +216,7 @@ Young students in 8th grades and below are invited to MOP
 if and only if the moon is full and the wind is blowing south-south-east.
 All selection is done by ID number, without student names.
 
-As a consequence of the procedure spelled out in CR-1,
+As a consequence of the procedure spelled out in [CR-1](#CR-1),
 it is not possible for a student to attend MOP for the first time as
 a graduating 12th grader.
 This is because the IMO selection process begins at MOP of the previous year.
@@ -227,7 +227,7 @@ At MOP, there are often four tracks of classes and tests.
 These are usually called Black, Blue, Green, Red as a convenient shorthand,
 a tradition started around 2002.
 The rosters for these classes correspond approximately
-with the first four bullets in CR-7 in that order,
+with the first four bullets in [CR-7](#CR-7) in that order,
 but only loosely.
 
 Nevertheless, students will often colloquially refer to
@@ -239,7 +239,7 @@ despite the fact such an 11th grader may be placed in any class group
 depending on the whims of the [assistant academic director](index.html).)
 
 In addition, some students further extend the abuse of notation
-and refer to the 5th cutoff in CR-7 as the "pink" group.
+and refer to the 5th cutoff in [CR-7](#CR-7) as the "pink" group.
 Unlike the other four colors, "pink" is not officially recognized in any way;
 it does not correspond to any class or testing group at MOP.
 (Internally, the staff writes "EGMO group"

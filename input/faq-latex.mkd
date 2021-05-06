@@ -13,9 +13,9 @@ You can think of LaTeX workflow as having three components:
 
 1. A **text editor** that you type your content into, like gedit, Sublime, Vim, or Emacs.
 2. A **LaTeX compiler** (aka **LaTeX distribution**) that converts the source into a PDF.
-	See question L-9 for recommendations.
+	See question [L-10](#L-10) for recommendations.
 3. A **PDF viewer**, the same one you use for normally viewing PDF's.
-	See question L-12 for recommendations.
+	See question [L-12](#L-12) for recommendations.
 
 What you need to know right now is that **these three components are disjoint**.
 Some text editors may let you invoke a compiler directly,
@@ -120,7 +120,7 @@ It's a bit of a hack, but here is [demo code](static/random-hints.tex).
 The main contributing factors are:
 
 + My typing speed is quite high, at around 650 characters per minute.
-+ Vim (see L-11) is fast.
++ Vim (see [L-11](#L-11)) is fast.
 + Several additional custom keyboard shortcuts specifically for TeX,
   see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
 + I have conceal enabled in Vim, so I can read my source code more easily.
