@@ -9,7 +9,7 @@ if test $status -eq 1 -a -z "$argv[1]"
 	echo "Using working state..."
 
 	set_color normal
-	git status -s --color=always | grep -e "^" -e "[^ ]*.mkd"
+	git -c color.status=always status -s | grep -e "^" -e "[^ ]*.mkd"
 	set_color cyan
 	echo "------------------------------"
 	set_color normal
