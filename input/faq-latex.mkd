@@ -74,16 +74,24 @@ it is a "wrapper script" that calls the compiler for you.
 
 I use [Asymptote](https://asymptote.sourceforge.io/doc/index.html#SEC_Contents).
 It integrates well with LaTeX, but the setup takes some work.
+Read [installation instructions](https://asymptote.sourceforge.io/doc/Installation.html) for Asymptote, separate from LaTeX.
 
-Essentially, there are 3 steps required for this:
+Once you have Asymptote installed,
+to integrate it with LaTeX,
+the workflow is three steps.
 
-1. When you run PDFLaTeX on, say, `example.tex` with one diagram, it will generate `example-1.asy`.
-2. You need to then run the Asymptote binary on `example-1.asy` to generate `example-1.pdf`.
-3. The diagram `example-1.pdf` then gets incorporated when you run PDFLaTeX again.
+1. Run PDFLaTeX on, say, `example.tex`. This creates `example-N.asy` for the N'th diagram.
+2. You need to then run the Asymptote binary on `example-N.asy` to generate `example-N.pdf`.
+3. The diagram `example-N.pdf` then gets incorporated when you run PDFLaTeX again.
 
-You can run this by hand each time,
-or if you use `latexmk` you can automate this process.
-See the [LaTeX usage page](https://asymptote.sourceforge.io/doc/LaTeX-usage.html).
+In principle, you can run this three-step process by hand each time
+you change the diagrams of your figure.
+This is annoying though, so if you use `latexmk` you can automate this process
+by putting the provided
+[subroutine](https://raw.githubusercontent.com/vectorgraphics/asymptote/HEAD/doc/latexmkrc)
+into the `latexmkrc` configuration file.
+See the [LaTeX usage page](https://asymptote.sourceforge.io/doc/LaTeX-usage.html)
+for instructions on how to do this.
 
 ### {{ faq("L-9", "Can I see some example source code?") }}
 
