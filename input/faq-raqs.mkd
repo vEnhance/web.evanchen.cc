@@ -144,6 +144,36 @@ the social aspect of contests was huge for me.)
 Short answer: yes, but not in the ways people often expect.
 Long answer: [this blog post][tutor].
 
+### {{ faq("R-5", "Are math contests worth doing?") }}
+
+The useless literal answer is that "you have to decide that for yourself".
+But I think the most surprising thing about math contests
+is the most important things you get have almost nothing to do with math,
+and are also largely independent of how well you end up scoring.
+
+I think of math contests primarily as a way to stimulate
+intellectual curiosity, cultivate good study habits,
+develop independent learning ability,
+and build a supportive community.
+Despite the fact that this is nominally a competition,
+I am not really that interested in talent identification
+or differentiating students.
+
+[Some more thoughts in this blog post.](https://usamo.wordpress.com/2018/01/05/lessons-from-math-olympiads/)
+
+### {{ faq("R-6", "Should I graduate early from high school?") }}
+
+I am usually against it.
+
+In short, my model of high school (and to some extent college as well) is that
+this is the time to **gain as many experience points as possible**.
+The specifics of what domain you do this in are not important.
+
+So to me, "my high school is not sufficiently challenging for me" seems
+insufficient justification to throw away a year of this growth time,
+because since when does high school teach you things anyways?
+You are responsible for your own learning anyways.
+
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
 [vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
