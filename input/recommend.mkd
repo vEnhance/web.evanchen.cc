@@ -104,6 +104,7 @@ there are too many; these are just ones I have seen recently.
 	* [Brazil](https://aops.com/community/c3273)
 	* [Canada](https://aops.com/community/c3277)
 	* [Mexico](https://aops.com/community/c3344_mexico_national_olympiad)
+	* [Japan Finals](https://artofproblemsolving.com/community/c3327_japan_mo_finals)
 	* [Korea](https://aops.com/community/c3383_korea_national_olympiad)
 	* [Romania](https://aops.com/community/c3365)
 	* [USA](problems.html)
