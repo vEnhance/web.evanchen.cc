@@ -30,7 +30,8 @@ I wrote this textbook while
 [serving time as a high school clerk][fillblank].
 You can [read about the publication process][publishing].
 
-## Prerequisites and material
+## {{ hl("prereq", "Prerequisites and material") }}
+
 There are essentially no geometry prerequisites;
 EGMO is **entirely self-contained**.
 (This was one of the design goals.)
@@ -47,7 +48,7 @@ Here is a freely available subset of the book:
 	[Undergraduate Math 011: a firsT yeaR coursE in geometrY](textbooks/tr011ey.pdf),
 	made for **April Fool's Day 2019**.
 
-## Errata (aka selected solutions to Problem 11.0)
+## {{ hl("errata", "Errata (aka selected solutions to Problem 11.0)") }}
 
 Here is a [list of all mistakes that I am aware of.](upload/geombook-errata.pdf)
 Most mistakes are harmless, but a few of the mistakes are significant;
@@ -67,7 +68,7 @@ the important ones are reproduced here, too.
   then so is the cross ratio of the cyclic quadrilateral.
 + On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.
 
-## On solutions to problems
+## {{ hl("solutions", "On solutions to problems") }}
 
 I included solutions to about a quarter of the
 practice problems in the back of the textbook
@@ -93,7 +94,7 @@ here are some possible places to look:
 
 [userforum]: https://artofproblemsolving.com/community/c618937h1605831_egmo_problem_discussions_links
 
-## More resources
+## {{ hl("resources", "More resources") }}
 
 Of course there are other good geometry textbooks too.
 A few that I recommend are:

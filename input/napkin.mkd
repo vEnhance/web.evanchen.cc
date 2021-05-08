@@ -12,11 +12,11 @@ description: Description of Napkin project, a free book covering all sorts of hi
 <br>(click to enlarge)</a>
 </span>
 
-## Download
+## {{ hl("download", "Download") }}
 
 **Download the [most recent draft of Napkin][recent].**
 
-## Project Status
+## {{ hl("status", "Project Status") }}
 
 The **recent v1.5** is a new update which revises
 many of the earlier chapters as well as adding new content
@@ -32,9 +32,9 @@ You can also view the
 the most recent version is
 [automatically compiled from that source](https://venhance.github.io/napkin).
 
-I would very highly appreciate any corrections, suggestions, or comments.
+I would highly appreciate any corrections, suggestions, or comments.
 
-## Description
+## {{ hl("description", "Description") }}
 The Napkin project is a personal exposition project of mine
 aimed at making higher math accessible to high school students.
 The philosophy is stated in the preamble:
@@ -54,7 +54,7 @@ The philosophy is stated in the preamble:
 
 This project has evolved to more than just forty hours.
 
-## Current Table of Contents
+## {{ hl("toc", "Current Table of Contents") }}
 
 1. Groups
 2. Metric spaces

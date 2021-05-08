@@ -1,7 +1,7 @@
 import os
 import csv
 
-def hlink(name, filename=None):
+def handout_link(name, filename=None):
 	filename = filename or name
 	return '<a href="handouts/%s/%s.pdf">(pdf)</a> <a href="handouts/%s/%s.tex">(tex)</a><br>' %(name, filename, name, filename)
 
@@ -78,4 +78,8 @@ def get_card_trick():
 	return out
 
 def faq(label, question):
-	return f'<a id="{label}" href="#{label}">{label}.</a> {question}'
+	return f'<a href="#{label}" style="color:#004824;">{label}.</a> {question}' \
+		f'<a id="{label}" href="#{label}" class="hash-link">#</a>'
+
+def hl(link, text):
+	return f'{text}<a id="{link}" href="#{link}" class="hash-link">#</a>'

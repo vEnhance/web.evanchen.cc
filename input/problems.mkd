@@ -9,7 +9,7 @@ description: Archive of PDF's of math olympiad problems.
 This page contains problems and solutions
 to several USA contests, as well as a few others.
 
-## Hardness scale
+## {{ hl("mohs", "Hardness scale") }}
 
 Here is an
 [index of many problems](upload/MOHS-hardness.pdf)
@@ -32,7 +32,7 @@ Anyways, I cannot repeat enough the disclaimer that the ratings
 (and even philosophy) are my own personal opinion,
 rather than some sort of indisputable truth.
 
-## USA Math Olympiad (USAMO)
+## {{ hl("usamo", "USA Math Olympiad (USAMO)") }}
 
 Despite being part of the USA team selection process,
 these are not the "official" solution files,
@@ -78,7 +78,7 @@ To my knowledge they are not published anywhere.
 * JMOO 2020 [(problems and solutions)](exams/JMO-2020-notes.pdf) [(video)](https://youtu.be/r7j0oRtpErA)
 * JMO 2021 [(problems and solutions)](exams/JMO-2021-notes.pdf) [(video)](https://youtu.be/9WNgDETHOlI)
 
-## USA TST Selection Test (TSTST)
+## {{ hl("tstst", "USA TST Selection Test (TSTST)") }}
 
 For an explanation of the name,
 see [the FAQ on the USA IMO team selection](faq-rules.html).
@@ -94,7 +94,7 @@ see [the FAQ on the USA IMO team selection](faq-rules.html).
 * TSTST 2019 [(problems)](exams/TSTST-2019.pdf) [(solutions)](exams/sols-TSTST-2019.pdf) [(statistics)](exams/stats-TSTST-2019.pdf)
 * TSTST 2020 [(problems)](exams/TSTST-2020.pdf) [(solutions)](exams/sols-TSTST-2020.pdf) [(statistics)](exams/stats-TSTST-2020.pdf) [(video 1)](https://youtu.be/zkygeEZ_scc) [(video 2)](https://youtu.be/L_JBme8pnKU) [(video 3)](https://youtu.be/NOjZ_DKUgxc)
 
-## USA Team Selection Test (TST)
+## {{ hl("tst", "USA Team Selection Test (TST)") }}
 
 These exams are used in the final part of
 the selection process for the USA IMO team.
@@ -113,7 +113,7 @@ the selection process for the USA IMO team.
 * USA Winter TST for IMO 2020 [(problems)](exams/IMO-2020-TST.pdf) [(solutions)](exams/sols-TST-IMO-2020.pdf) [(statistics)](exams/stats-TST-IMO-2020.pdf)
 * USA Winter TST for IMO 2021 [(problems)](exams/IMO-2021-TST.pdf) [(solutions)](exams/sols-TST-IMO-2021.pdf) [(statistics)](exams/stats-TST-IMO-2021.pdf) [(video)](https://youtu.be/J3cOwLGB2ZY)
 
-## International Math Olympiad
+## {{ hl("imo", "International Math Olympiad") }}
 
 * IMO 2000 [(problems and solutions)](exams/IMO-2000-notes.pdf) <br>
 	<tt style="font-size: 70%">RUS-G1 USA-A1 BLR-A5 HUN-C1 RUS-N3 RUS-G8</tt>
@@ -157,14 +157,14 @@ the selection process for the USA IMO team.
 	<tt style="font-size: 70%">SAF-A1 UKR-G3 HRV-C5 SLV-N1 USA-C3 IND-G7</tt>
 * IMO 2020 [(problems and solutions)](exams/IMO-2020-notes.pdf) [(video)](https://youtu.be/JfRrlvbzKHk) <br>
 
-## USEMO
+## {{ hl("usemo", "USEMO") }}
 
 Also listed on the [USEMO page](usemo.html).
 
 * USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf) [(video 1)](https://youtu.be/V2TNgUwbs6A) [(video 2)](https://youtu.be/0rdn01T_q4Y)
 * USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf) [(video 1)](https://youtu.be/4lqdsGunUt8) [(video 2)](https://youtu.be/QruKBObOEbA)
 
-## ELMO
+## {{ hl("elmo", "ELMO") }}
 
 See also [general ELMO information](elmo/general.html).
 
@@ -192,7 +192,7 @@ See also [general ELMO information](elmo/general.html).
 	[(shortlist with solutions)](exams/ELMO-2019-SL.pdf)
 	[(ELSMO)](exams/ELSMO-2019.pdf)
 
-## Taiwan Team Selection Test
+## {{ hl("taiwan", "Taiwan Team Selection Test") }}
 
 These are the problems I worked on in high school
 when competing for a spot on the Taiwanese IMO team.
@@ -203,7 +203,7 @@ These problems are in Chinese;
 * Taiwan TST 2014 Round 2 [(problems)](exams/TaiwanTST-2014-2.pdf)
 * Taiwan TST 2014 Round 3 [(problems)](exams/TaiwanTST-2014-3.pdf)
 
-## NIMO / OMO
+## {{ hl("omo", "NIMO / OMO") }}
 
 In high school, I and some others ran an online contest
 called the NIMO (National Internet Math Olympiad)

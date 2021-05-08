@@ -14,9 +14,9 @@ They are divided into two categories:
 
 The lists below are in alphabetical order.
 
-# Programs
+# {{ hl("programs", "Programs") }}
 
-## Athemath
+## {{ hl("athemath", "Athemath") }}
 
 * Primary contact: [Ali Cy](https://www.egmo.org/people/person1751/);
   ($\text{president}\texttt{@}\text{athemath}{.}\text{org}$)
@@ -27,7 +27,7 @@ The lists below are in alphabetical order.
   All teachers are female/nonbinary and MOPpers/MPfG winners.
   We are a nonprofit and our program costs only $90 for 3 months.
 
-## MAST
+## {{ hl("mast", "MAST") }}
 
 * Primary contact: Dennis Chen ($\text{proofprogram}\texttt{@}\text{gmail}{.}\text{com}$)
 * Website: [mast.geometryexplorer.xyz](https://mast.geometryexplorer.xyz/)
@@ -42,7 +42,7 @@ The lists below are in alphabetical order.
   (b) people are expected to peruse it at their own discretion.
   Information about staff can be found on [the website](https://mast.geometryexplorer.xyz/staff/).
 
-## Xinke's Math Academy
+## {{ hl("xinke", "Xinke's Math Academy") }}
 
 * Primary contact: [Xinke Guo-Xue](https://artofproblemsolving.com/community/user/40902)
   ($\text{xinkeguoxue}\texttt{@}\text{gmail}{.}\text{com}$)
@@ -56,9 +56,9 @@ The lists below are in alphabetical order.
   He studied math at MIT as an undergraduate,
   and is passionate about math education.
 
-# Individuals
+# {{ hl("individuals", "Individuals") }}
 
-## Alex Villaro Krüger
+## {{ hl("alex", "Alex Villaro Krüger") }}
 
 * Contact: $\text{alex}@\text{drechslerspil}{.}\text{dk}$
 * 1:1 instruction
@@ -70,7 +70,7 @@ The lists below are in alphabetical order.
   among other things. However, I do not have personal experience in US specific
   olympiads such as AIME.
 
-## Reed LaFleche
+## {{ hl("reed", "Reed LaFleche") }}
 
 * Contact: $\text{rslafleche}@\text{gmail}{.}\text{com}$
 * 1:1 instruction

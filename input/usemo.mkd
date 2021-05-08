@@ -36,9 +36,9 @@ Please check the [full rules and procedures][rules].
 
 We hope the next USEMO can run in Fall 2020.
 
-# USEMO 2020
+# {{ hl("current", "USEMO 2020") }}
 
-## Schedule (for USEMO 2020)
+## {{ hl("schedule", "Schedule (for USEMO 2020)") }}
 
 * Registration opens on October 5 on [AoPS portal](https://aops.com/contests/usemo/).
 	It remains open until end-of-day October 23 or when capacity is reached.
@@ -51,7 +51,7 @@ It will be hosted at [twitch.tv/vEnhance](https://twitch.tv/vEnhance).
 The USEMO organizers will present solutions to all three problems
 on that day and take any questions or comments from the live chat.
 
-## Links and downloads
+## {{ hl("links", "Links and downloads") }}
 
 * [Registration and submission portal][aops-usemo]
 * [Answer sheet template][answersheet]
@@ -59,17 +59,17 @@ on that day and take any questions or comments from the live chat.
 * [Mission statement][mission]
 * [Problem proposal guidelines (for authors)][propose]
 
-## Contact
+## {{ hl("contact", "Contact") }}
 
 The director of the USEMO is Evan Chen.
 You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 
-# Archive
+# {{ hl("archive", "Archive") }}
 
 * USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
 * USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
 
-## Hall of Fame
+## {{ hl("hall", "Hall of Fame") }}
 
 This is a listing of the Top 3 scorers on each USEMO.
 Further results can be found at the links above.
@@ -77,7 +77,7 @@ Further results can be found at the links above.
 * USEMO 2019: Jaedon Whyte, Jeffrey Kwan, Luke Robitaille
 * USEMO 2020: Ankit Bisain, Gopal Goel, Noah Walsh
 
-# Volunteer
+# {{ hl("volunteer", "Volunteer") }}
 
 Volunteering is open to anyone who is not themselves eligible to compete.
 The two biggest things we can use help with are:

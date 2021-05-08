@@ -45,7 +45,7 @@ Taiwan TST Quiz 2015
 </a></small>
 </center>
 
-## About Evan
+## {{ hl("about", "About Evan") }}
 
 Evan is a math PhD student at MIT
 and one of the United States math olympiad coaches.

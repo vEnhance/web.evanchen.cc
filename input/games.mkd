@@ -14,7 +14,7 @@ as you start to get the hang of it.
 This has the disadvantage that they are not so beginner-friendly;
 not really the kind you can bring to a party with people you don't know.
 
-## Tabletop games
+## {{ hl("tabletop", "Tabletop games") }}
 
 You can find my page on
 [Board Game Geek profile](https://boardgamegeek.com/user/vEnhance/);
@@ -23,11 +23,11 @@ here are some of the games I like.
 <script language="javascript" src="https://boardgamegeek.com/jswidget.php?username=vEnhance&numitems=5&text=title&images=small-fixed&show=random&imagesonly=1&imagepos=left&domains%5B%5D=boardgame"></script>
 
 
-## Steam
+## {{ hl("steam", "Steam") }}
 
 [Link to Steam collection](https://steamcommunity.com/id/vEnhance/games/?tab=all).
 
-## Card games (with standard 52-card deck)
+## {{ hl("card", "Card games (with standard 52-card deck)") }}
 
 * [<b>Beleaguered Castle</b>](https://en.wikipedia.org/wiki/Beleaguered_Castle)
   (solitaire) <br>
@@ -63,7 +63,7 @@ here are some of the games I like.
 [ninetynine]: https://en.wikipedia.org/wiki/Ninety-nine_(trick-taking_card_game)
 
 
-## Other strategy and puzzle games
+## {{ hl("strategy", "Other strategy and puzzle games") }}
 
 * [<b>Baba is You</b>](https://hempuli.itch.io/baba) (logic/puzzle)<br>
   Cute but mind-blowing puzzle game involving pushing blocks
@@ -87,7 +87,7 @@ here are some of the games I like.
   [replays](https://sc2replaystats.com/player/2491031).
   I am a Platinum Protoss.
 
-## Rhythm games
+## {{ hl("rhythm", "Rhythm games") }}
 
 * [<b>osu!</b>](https://osu.ppy.sh/home) <br>
   Free-to-play rhythm game for PC/Mac.
@@ -101,7 +101,7 @@ here are some of the games I like.
   and use the arrow keys on the keyboard.
   (I like the deluxe foam mat from Dance Pad Mania.)
 
-## Story games
+## {{ hl("story", "Story games") }}
 
 These games are much more plot-heavy
 (rather than skill-based like the preceding ones).

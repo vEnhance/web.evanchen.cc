@@ -17,7 +17,7 @@ Here's a little about myself,
 including things I like so much that
 I think you should try them too!
 
-## Puzzle hunts
+## {{ hl("puzzle", "Puzzle hunts") }}
 
 I am an avid fan of the
 [MIT mystery hunt](http://web.mit.edu/puzzle/www/huntsbyyear.html)
@@ -50,7 +50,7 @@ You can find a
 [index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
 and it's great fun to just pick a random past puzzle to work through.
 
-## Hanabi
+## {{ hl("hanabi", "Hanabi") }}
 
 [Hanabi](https://en.wikipedia.org/wiki/Hanabi_\(card_game\))
 is a cooperative logic-based deduction game.
@@ -67,7 +67,7 @@ which might be useful if you'd like to learn the rules of the game
 and the basics of the Hyphen-ated conventions.
 
 
-## More games
+## {{ hl("games", "More games") }}
 
 Other games I enjoy include
 [StarCraft](https://en.wikipedia.org/wiki/StarCraft_II:_Legacy_of_the_Void),
@@ -80,7 +80,7 @@ I generally like games with a learning curve or
 games with engaging story.
 
 
-## Arch Linux
+## {{ hl("archlinux", "Arch Linux") }}
 
 I am a devoted [Arch Linux](https://www.archlinux.org/) user.
 Some details about my setup:
@@ -104,7 +104,7 @@ Note the keybindings are written for
 [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard),
 rather than QWERTY.
 
-## Miscellaneous
+## {{ hl("misc", "Miscellaneous") }}
 
 + Favorite triangle center: [Orthocenter][orthocenter]
 + Favorite circle: [A-mixtilinear incircle][mixt]

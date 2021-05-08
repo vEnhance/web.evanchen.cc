@@ -15,7 +15,7 @@ Please notify me of any broken links, suggestions, etc. by email.
 An abridged version of this page for olympiad students
 can be found [here](wherestart.html).
 
-## PG essays
+## {{ hl("pg", "PG essays") }}
 
 I can't help but link
 [Paul Graham's essays](https://www.paulgraham.com/articles.html).
@@ -27,7 +27,7 @@ Ones I felt hit closest to home:
 [Mean People Fail](https://www.paulgraham.com/mean.html),
 [The Lesson to Unlearn](https://www.paulgraham.com/lesson.html).
 
-## Undergraduate Math and Computer Science
+## {{ hl("undergrad", "Undergraduate Math and Computer Science") }}
 
 If you check **Appendix A of [Napkin](napkin.html)**,
 you can find listings of lecture notes or textbooks
@@ -53,11 +53,11 @@ Here are some additional links.
 
 * [Harvard's CS 125: Algorithms and Complexity](https://people.seas.harvard.edu/~cs125/) has delightful lecture and section notes.
 
-## Olympiad Resources
+## {{ hl("olympiad", "Olympiad Resources") }}
 
 See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 
-### Handouts
+### {{ hl("handouts", "Handouts") }}
 
 * [My own handouts](olympiad.html) (sorry, couldn't resist linking them again).
 
@@ -74,7 +74,7 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 
 * [Po-Shen Loh](https://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
 
-### Books
+### {{ hl("books", "Books") }}
 
 * My own: [olympiad geometry book EGMO](geombook.html)
   and [OTIS Excerpts](excerpts.html) for non-geometry.
@@ -93,7 +93,7 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 
 [acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
 
-### Contests
+### {{ hl("contests", "Contests") }}
 
 Each section is in alphabetical order.
 Obviously not an exhaustive list of good contests,

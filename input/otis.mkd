@@ -16,7 +16,7 @@ and can usually qualify for national olympiad,
 Students at other levels may be interested in
 [my list of mentors and programs](mentors.html).
 
-# The OTIS Excerpts
+# {{ hl("excerpts", "The OTIS Excerpts") }}
 
 Around the start of 2019, I posted publicly a
 [collection of 192 problems and solutions](excerpts.html)
@@ -25,7 +25,7 @@ This mini-book was named *The OTIS Excerpts*.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
-# Application &mdash; Year VII
+# {{ hl("apply", "Application &mdash; Year VII") }}
 
 The application for fall 2021 is now open.
 The deadline to apply is August 1, 2021 at 11:59 PM Pacific time.
@@ -33,7 +33,7 @@ The deadline to apply is August 1, 2021 at 11:59 PM Pacific time.
 * [Application instructions and problems for fall 2021](upload/otis-app-vii.pdf)
 * [Submission URL for fall 2021](https://forms.gle/3ZdzrDraFYVE4Dyh6)
 
-## Who can apply
+## {{ hl("prereq", "Who can apply") }}
 
 OTIS is open to anyone, including international students from all countries.
 
@@ -46,11 +46,11 @@ Also, financial aid is possible.
 OTIS is taught in English and assumes an ability to read and write proofs.
 A stable Internet connection is required.
 
-# About OTIS
+# {{ hl("about", "About OTIS") }}
 
 Here is some information about the program and what it is.
 
-## Description
+## {{ hl("description", "Description") }}
 
 OTIS is centered around two-week topic units (my design)
 which I pick for each participant based on their background.
@@ -76,7 +76,7 @@ and is not really meant as a tutoring program.
 The (long) [syllabus](upload/otis-syllabus.pdf)
 contains the full details.
 
-## Documents
+## {{ hl("documents", "Documents") }}
 
 * [Full syllabus](upload/otis-syllabus.pdf) (warning: long)
 * [Course synopsis][unitlist] (possible topics covered)
@@ -93,7 +93,7 @@ contains the full details.
 [sample-zack]: static/otis-samples/zack-local.pdf
 [unitlist]: static/otis-samples/synopsis.html
 
-## Organizers
+## {{ hl("staff", "Organizers") }}
 
 Current staff:
 
@@ -115,7 +115,7 @@ Past organizers:
 * [Michael Ren][mren]: Instructor (alum OTIS I-II)
 * [Zack Chroman][zack]: Instructor (alum OTIS II-III)
 
-## History
+## {{ hl("history", "History") }}
 I started teaching in 2015 when a group of parents
 from Phillips Andover Academy emailed me in early April,
 asking if I'd be interested in coaching a group of five contestants.
@@ -132,7 +132,7 @@ most talented and motivated math high schoolers in the country
 on the same problems that I loved so much back in high school.
 I have the best job in the world.
 
-## Photos
+## {{ hl("photos", "Photos") }}
 
 <img src="static/otis-imo-2018.png" width="400" />
 <img src="static/otis-imo-2019.jpg" width="400" />

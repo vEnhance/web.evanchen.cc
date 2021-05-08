@@ -10,7 +10,7 @@ Sometimes high school students ask me for reference letters.
 (Some of them even got in!)
 So here are some details.
 
-## Programs I can write for
+## {{ hl("programs", "Programs I can write for") }}
 
 I write letters most commonly for
 [RSI](https://www.cee.org/research-science-institute)
@@ -21,7 +21,7 @@ such as Canada/USA MathCamp, PROMYS/ROSS, etc.
 Starting from the 2021-2022 school year,
 I am able to write letters for MIT PRIMES as well.
 
-## Whether to ask
+## {{ hl("ask", "Whether to ask") }}
 
 You should only ask for a letter from me if I know you somewhat well.
 (This may sound obvious,
@@ -52,9 +52,9 @@ I will decline your request instead.
 unconditionally supportive, much like a parent,
 and that it's not my place to judge students.)
 
-## Things I need
+## {{ hl("instructions", "Instructions") }}
 
-If you do ask a letter for me, I would like the following information.
+If you do ask a letter for me, I need the following information.
 
 1. Ask at least a month in advance.
 2. Please remind me which years I worked with you (in OTIS/MOP/SPARC/etc.).
@@ -68,7 +68,7 @@ If you do ask a letter for me, I would like the following information.
   you are willing to share (drafts of essays are okay).
   This way, I can tailor my letter to complement
   what you've already written.
-6. State very explicitly when the deadline is.
+6. State explicitly when the deadline is.
 
 Usually, I will always submit letters
 at least a week in advance if you asked ahead of time.

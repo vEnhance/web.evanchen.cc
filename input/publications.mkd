@@ -9,7 +9,7 @@ description: Mathematical research papers and lecture notes by Evan Chen.
 Here is information are my various research papers,
 lecture handouts, textbooks, and so on.
 
-## Major Writings
+## {{ hl("major", "Major Writings") }}
 My two most major expository works.
 
 * My textbook [**Euclidean Geometry in Mathematical Olympiads**](geombook.html).
@@ -21,7 +21,7 @@ My two most major expository works.
 
 Please see the links above for more information.
 
-## Research Publications
+## {{ hl("research", "Research Publications") }}
 
 Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
 
@@ -52,7 +52,7 @@ Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
 * [Multiplicative and exponential orthomorphisms][arxiv-orthomorphism] <br>
   E. Chen. Published in [Journal of Combinatorics][joc-orthomorphism].
 
-## High school lectures
+## {{ hl("lectures", "High school lectures") }}
 
 In high school I would often give lectures and talks
 at math circles and the like.
@@ -63,34 +63,34 @@ I've included notes for these here.
 
 To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 
-### Berkeley Math Circle -- Advanced Group
-* <b>AMC 12 Preparation</b> {{ hlink("BMC_AMC12Prep_2013") }}
+### {{ hl("bmc-advanced", "Berkeley Math Circle -- Advanced Group") }}
+* <b>AMC 12 Preparation</b> {{ handout_link("BMC_AMC12Prep_2013") }}
   TeX source contains answers.
 
-* <b>Barycentric Coordinates</b> {{ hlink("BMC_Bary") }}
+* <b>Barycentric Coordinates</b> {{ handout_link("BMC_Bary") }}
   A quick introduction to barycentric coordinates.
 
-* <b>Combinatorial Nullstellensatz</b> {{ hlink("BMC_Combo_Null") }}
+* <b>Combinatorial Nullstellensatz</b> {{ handout_link("BMC_Combo_Null") }}
   Applies the combinatorial nullstellensatz to several olympiad-style problems.
 
-### Berkeley Math Circle -- Intermediate II Group
-* <b>Triangle Centers</b> {{ hlink("BMC-TriCenter") }}
+### {{ hl("bmc-intermediate", "Berkeley Math Circle -- Intermediate II Group") }}
+* <b>Triangle Centers</b> {{ handout_link("BMC-TriCenter") }}
   Standard fare on the Euler line and the nine-point circle.
   Might be interesting to people starting out on olympiad geometry.
 
-* <b>Set Theory</b> {{ hlink("BMC-SetTheory") }}
+* <b>Set Theory</b> {{ handout_link("BMC-SetTheory") }}
   Talked about ZFC and the construction of the ordinals.
   Essentially equivalent to [this blog post of mine][ordinals].
 
-* <b>Parallelograms</b> {{ hlink("BMC_Parallelograms") }}
+* <b>Parallelograms</b> {{ handout_link("BMC_Parallelograms") }}
   All you have to do is construct a parallelogram!
 
-* <b>BAMO Preparation</b> {{ hlink("BMC_Int_BAMO_Prep") }}
+* <b>BAMO Preparation</b> {{ handout_link("BMC_Int_BAMO_Prep") }}
   A combinatorially flavored practice session for the Bay Area Math Olympiad.
 
-### Miscellaneous
+### {{ hl("misc", "Miscellaneous") }}
 
-* <b>Combinatorial Nullstellensatz (SPARC)</b> {{ hlink("SPARC_Combo_Null_Slides") }}
+* <b>Combinatorial Nullstellensatz (SPARC)</b> {{ handout_link("SPARC_Combo_Null_Slides") }}
   Slides from an informal lecture I gave on the nullstellensatz at [SPARC 2013][sparc].
 
 

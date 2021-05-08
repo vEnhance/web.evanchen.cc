@@ -68,10 +68,21 @@ h2 a:link, h2 a:visited {
     color: #078a03;
 }
 h3 a:link, h3 a:visited {
-    color: #054b13;
+    color: #a40f71;
 }
 img {
     border: 0 none;
+}
+
+a.hash-link {
+    padding-left: 0.3ex;
+}
+a.hash-link:link, a.hash-link:visited {
+    opacity: 15%;
+}
+a.hash-link:hover, a.hash-link:active {
+    opacity: 100%;
+    text-decoration: none;
 }
 
 /*

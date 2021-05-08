@@ -24,7 +24,7 @@ I will generally be nice enough to write back and outline or link the solution.
 But otherwise I will likely be too embarrassed to admit I don't have time to
 work on every problem that students send me, and simply archive your message.)
 
-## About Discord
+## {{ hl("discord", "About Discord") }}
 
 If your inquiry is not private (for example, looking for advice on textbooks),
 you could consider asking questions on my
@@ -39,7 +39,7 @@ There are a few benefits to doing so:
 * It is easier to go back-and-forth in real time
   over Discord than over email.
 
-## Some notes for emails
+## {{ hl("notes", "Some notes for emails") }}
 
 In some cases your question may already be answered on the site:
 e.g. [tutoring](otis.html),
@@ -77,7 +77,7 @@ Here are some hints:
 * In particular, there's no need to send an email
   asking if you can ask a question. Just ask it.
 
-## Special instructions for advice
+## {{ hl("advice", "Special instructions for advice") }}
 
 If you are asking a question along the lines of "how do I improve at math contests",
 it is helpful to include as much specific information as possible.

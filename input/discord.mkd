@@ -20,7 +20,7 @@ However, you should feel welcome to post math questions or discussion at any tim
 <iframe src="https://discord.com/widget?id=780468665019269191&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 </center>
 
-Server rules:
+## {{ hl("rules", "Server rules") }}
 
 1. Be nice to each other --- it is more important to be kind than to be right.
 2. Do not bring up inflammatory topics like race, politics, college admissions, AIME cutoffs, etc.

@@ -52,7 +52,7 @@ Content includes:
 I also upload past broadcasts to [YouTube](https://youtube.com/c/vEnhance).
 A [Discord server](https://discord.gg/KzFXYwqRFX) also exists centered around the stream.
 
-## Twitch schedule
+## {{ hl("schedule", "Twitch schedule") }}
 
 You can find a
 [schedule for the stream](https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=MONTH),
@@ -64,7 +64,7 @@ Friday night at 8pm Eastern is the usual time.
 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
 
 
-## Streaming setup
+## {{ hl("setup", "Streaming setup") }}
 
 Software used on the stream includes:
 
@@ -96,10 +96,19 @@ Here is a picture of my physical setup (click to enlarge).
 </a>
 </center>
 
-## Archive of past problems
+## {{ hl("archive", "Archive of past problems") }}
 
-I take problem requests at the start of each Twitch stream from viewers
-in exchange for [channel points](https://help.twitch.tv/s/article/channel-points-guide?language=en_US#viewers).
-(Channel points are earned by watching the live streams.)
+Here's an archive of the problems solved on stream.
+
+**To submit a problem**:
+Problem requests are processed for 384 [channel points][points] each;
+points are earned by watching the live stream.
+Requests must be submitted at the start of the stream,
+8pm Eastern time every Friday.
+Then the viewers vote on which requests to take
+(with points refunded if your request is not processed).
+Because of large demand, I do not take advance requests.
 
 {{ get_twitch_table() }}
+
+[points]: https://help.twitch.tv/s/article/channel-points-guide?language=en_US#viewers

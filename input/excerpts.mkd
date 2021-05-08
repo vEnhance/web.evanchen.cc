@@ -11,11 +11,11 @@ description: OTIS Excerpts, a mini-book based on OTIS lecture notes.
 </span>
 
 
-## Download
+## {{ hl("download", "Download") }}
 
 **Download the [most recent draft][recent].**
 
-### About
+### {{ hl("about", "About") }}
 
 *The OTIS Excerpts* is a mini-book
 that I put together from
