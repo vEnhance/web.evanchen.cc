@@ -37,9 +37,15 @@ rather than some sort of indisputable truth.
 Despite being part of the USA team selection process,
 these are not the "official" solution files,
 rather my own personal notes.
+In particular, I tend to be more terse than other sources.
+
 My understanding is that the internal problems and solutions,
 from the actual USA(J)MO committee, are copyrighted by MAA.
 To my knowledge they are not published anywhere.
+The *Math Magazine* has recently resumed publishing yet another version
+of the problems and solutions of the olympiad.
+
+See some [statistics for recent years](exams/posted-usamo-statistics.pdf).
 
 * USAMO 1998 [(problems and solutions)](exams/USAMO-1998-notes.pdf)
 * USAMO 1999 [(problems and solutions)](exams/USAMO-1999-notes.pdf)
