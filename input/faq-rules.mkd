@@ -105,10 +105,9 @@ the number of complete solutions plus or minus some pocket change.
 
 (Pocket change tends to also be pretty small,
 though it depends a lot on who writes the rubric for each problem.
-In particular, 0 is the most common score for non-complete solutions;
-we don't give many sympathy points,
+In particular, we don't give many sympathy points,
 and demand real progress towards a solution to get partial credit,
-not just ideas or lots of writing.)
+not just vague ideas or lots of writing.)
 
 One thing that is perhaps also surprising:
 **rubrics often do NOT use standard addition**.
@@ -137,15 +136,6 @@ However, it is still in your best interest to write a solution
 clearly to minimize the chance the grader doesn't understand you.
 Graders don't give points for things they can't comprehend ;)
 
-The grading procedure itself is also different for USAMO / IMO.
-At the USAMO, we grade each paper twice before assigning a score,
-then re-grade approximately the top 25% of papers again
-(usually, everyone within one problem of some cutoff).
-At the IMO, a process called coordination is used
-in which team leaders defend their contestant's solutions to coordinators.
-(Consequently, the partial credit obtained on IMO tends to be a lot higher.
-Privately, I also think the rubrics for USAMO tend to be much stricter.)
-
 If you want to see more examples of problem rubrics,
 you should check out the reports of the [USEMO](usemo.html).
 These rubrics are designed by veteran graders
@@ -167,8 +157,10 @@ Then the top papers on each contest
 (anyone within one problem or so of an award or MOP invitation)
 are taken and re-graded again, independently, by a third grader.
 Nearly all the graders are either past USAMO winners or IMO medalists
-or high-scorers of some national olympiad,
-so there is no question about grader qualification.
+or high-scorers of some national olympiad.
+
+I will say that USAMO grading tends to be stricter than IMO grading,
+or most other national olympiads for that matter.
 
 All that being said,
 this is a good incentive to learn to write your solutions neatly.
@@ -257,13 +249,58 @@ and still in high school could qualify for IMO of year N+1.
 
 [abusenote]: https://en.wikipedia.org/wiki/Abuse_of_notation
 
-
 ### {{ faq("CR-9", "When are ties on USA(J)MO broken?") }}
 
 As of 2016, ties are generally only broken for USAMO winners,
 since exactly 12 winners are invited to the state dinner.
 This did not occur in 2020 or 2021 (due to COVID)
 and I don't know if it will continue.
+
+### {{ faq("CR-10", "How does coordination at IMO work?") }}
+
+Relevant references:
+
+* [General IMO regulations, section 7][regulation]
+* [2002 IMO report by Tom Verhoeff][verhoeff]
+* [IMO 2019/3 blog post by Michael Ng][michaelng]
+* [Quora answer by Carlos Shine](https://qr.ae/pGvwWB)
+* [IMO 2020 instructions (unusual virtual procedure)](https://imo2020.ru/Marking-and-Coordination.pdf)
+
+Basically, the outline of the idea is:
+before the exam, a marking scheme (rubric) is set for each problem,
+to cover the typical cases of what progress will be worth what points.
+Then, the *leaders* of each country get to see the solutions
+of their country's students, while there is a number
+of *coordinators* from the IMO host country for each problem.
+Both the coordinators and the leaders read through these scripts in advance,
+and then meet at an appointment where they discuss the scores.
+There are a lot of scripts that are not in English,
+in which case the leader is expected to do any necessary translation.
+
+The idea is that the leaders try to make the best case
+they can from their student's work (while of course still being honest),
+while the coordinators for the problem try to maintain uniform fairness.
+We sometimes say jokingly that it's an "organized fight",
+with the analogy that leaders are defense attorneys
+and coordinators are prosecutors,
+but in practice it's a lot friendlier than this.
+I remember being a coordinator at the virtual IMO 2020 (problem 5),
+and there were quite a few cases where I offered a higher score
+than the leader asked for, because I managed to decipher
+a part of the student's paper that matched a rubric item.
+(It's quite a different experience having your country's six papers
+for each of six problems versus 100 papers all of the same problem ---
+you start seeing the common patterns and similarities.)
+On the other hand, it's not uncommon for leaders to spend a lot of effort
+trying to see how partial solutions of their students could be completed,
+particularly if the student's approach is novel or uncommon.
+
+[regulation]: https://www.imo-official.org/documents/RegulationsIMO.pdf
+[verhoeff]: https://www.win.tue.nl/~wstomv/publications/imo2002report.pdf
+[imo2019reddit]: https://www.reddit.com/r/math/comments/cgwayt/how_coordination_went_for_imo_2019_problem_5/
+[michaelng]: https://michaelng126.wordpress.com/2019/07/28/imo-2019-coordination-part-2/
+[quora]: https://www.quora.com/How-are-IMO-solutions-graded
+
 
 [amc]: https://www.maa.org/math-competitions
 [usa2003]: upload/usamo-2003-rubric.pdf

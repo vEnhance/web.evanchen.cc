@@ -9,6 +9,94 @@ description: Some FAQ's about math contests and my personal life.
 These are FAQ's about math contests and particularly
 how to go about training for them.
 
+### {{ faq("C-0", "I have zero experience with math contests. Where should I start?") }}
+
+For the first several weeks,
+**the most important thing is exposure**.
+There is a time and place to think about study strategy,
+test-taking strategy, and so on.
+However, it is not right now.
+Instead, I recommend the famous Go proverb:
+"lose your first 100 games as quickly as possible".
+
+When you first start, you should do some subset
+of the following things for several weeks
+until you have a picture of what the landscape looks like, so to speak.
+
+1. Pick up any standard textbook like [AoPS v1][v1]
+	or [AoPs v2][v2] to work through, so you learn some
+	of the standard theory that is tested in math contests.
+	Or, search around the web; there are lots of other sources.
+2. Go through some past problems from previous contests.
+	For example, if you are in the United States,
+	then you can find all past AMC problems from
+	[the Contests section](https://aops.com/community/c13)
+	under "USA Contests".
+	The same should be true for many other countries.
+	Pick any year (later years are harder)
+	and work through some problems without a time limit.
+	For now, just pick whichever problems look most interesting.
+	When you hit one you can't solve for an hour, read the solution.
+	Every contest will have problems ranging from super easy
+	to really difficult, so find the right ones.
+3. Rope some friends into learning with you.
+	It's more fun that way and you can learn from each other.
+	It's okay to have different levels of experience.
+
+You should repeat these steps until you have some comfort
+with the kinds of problems that appear.
+
+Here are a few things that will be surprising to people
+who previously have mostly done school-based mathematics:
+
+* Some contest topics, like combinatorics and number theory,
+  are nearly nonexistent in most schools.
+  Consequently, it is usually not possible to score well
+  using just school math (unlike SAT).
+  You must learn additional totally new material.
+
+* Even when you know relevant theorems,
+  competition problems can still demand some
+  insight and intuition in order to solve them.
+  This means **surface-level understanding is greatly penalized**
+  (e.g. [memorization][rusczyk]).
+  Therefore, you need to learn material with a greater depth than school.
+  (For example, in many American schools,
+  you are usually given a "recipe" for each exercise that
+  you simply carry out; in competitions,
+  you often invent recipes on the fly.)
+
+* As you get experience, you will automatically start to
+  know what deep understanding feels like.
+  (At the moment this is probably just zen monk talk.)
+  For now you should just be aware that
+  you will see many many problems which you can't solve,
+  where you read the solution and ask,
+  "how was I supposed to think of that?".
+  This is okay and expected: it's not because you're dumb,
+  it's because you are learning. (And this never goes away!)
+  Stay determined.
+
+* Math competitions are notoriously difficult.
+  In any exam, getting even 1/3 or 1/2 of the problems
+  correct is already an accomplishment.
+  You will be competing against some students who have been
+  seriously preparing for many years.
+  Even then, many of these students will not do well;
+  like in real life, hard work does not automatically guarantee success.
+
+  If this sounds discouraging, it isn't meant to be.
+  What it means that you have to enjoy the process of learning itself,
+  not merely a means to an end.
+  That's why contests exist anyways.
+
+Good luck!
+
+[v1]: https://artofproblemsolving.com/store/item/aops-vol1-ebook/
+[v2]: https://artofproblemsolving.com/store/item/aops-vol2-ebook/
+[rusczyk]: https://artofproblemsolving.com/news/articles/learn-problem-solving-approach-to-mathematics
+
+
 ### {{ faq("C-1", "How should I prepare for math contests?") }}
 One-sentence answer: do lots of problems just above your current ability,
 and spend some of time on reflection.

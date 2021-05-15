@@ -8,8 +8,12 @@ menu-position: 38
 ---
 
 This page is meant for people who don't have much
-past olympiad experience (or even proof experience) and are looking
-for a place to start.
+past olympiad experience (or even proof experience)
+and are looking to get started with math olympiads.
+If you aren't interested in proof-based problems yet,
+then this is not the page for you.
+Try checking [FAQ C-0](faq-contest.html#C-0)
+if you are totally new to math contests.
 
 Before all else, welcome to the olympiad scene!
 It's going to be hard as heck,

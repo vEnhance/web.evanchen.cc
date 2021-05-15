@@ -11,6 +11,7 @@ but which were thought-provoking enough that I want to post them anyways.
 This idea was taken from [Paul Graham][raq].
 
 ### {{ faq("R-1", "How did/do you have so much time?") }}
+
 Mostly by cutting out activities that aren't important to me.
 
 I feel high school students tend to focus too much on "local" changes
@@ -41,7 +42,7 @@ In general, I think most high schoolers don't spend enough time thinking
 about exactly what's important to them; this is understandable,
 since it's an error of omission, and so you make such errors by default.
 It's especially bad in high school because high school gives
-you a very clear path of "this is what you should do"
+you a clear path of "this is what you should do"
 by having you go to class every weekday until 3PM,
 then assigning you the homework to do at home,
 and giving you letters of the alphabet which amount to obedience scores.
@@ -54,7 +55,6 @@ Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
 [which you can watch here, 49:30 -- 55:30][vxia].
 
 [See here for more discussion][aopstime].
-
 
 ### {{ faq("R-2", "I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?") }}
 
@@ -173,6 +173,14 @@ So to me, "my high school is not sufficiently challenging for me" seems
 insufficient justification to throw away a year of this growth time,
 because since when does high school teach you things anyways?
 You are responsible for your own learning anyways.
+
+### {{ faq("R-7", "I am a parent. Give me advice!") }}
+
+Here's a few great talks from the Math Prize for Girls event.
+
+* [Richard Rusczyk, 2014](https://www.youtube.com/watch?v=TYCxbFad36g)
+* [Zuming Feng, 2015](https://www.youtube.com/watch?v=cVlR-5hS6f4)
+* [Dan Zaharopol, 2015](https://www.youtube.com/watch?v=7Qd5WxW4HBE)
 
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
