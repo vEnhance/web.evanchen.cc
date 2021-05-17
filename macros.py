@@ -78,8 +78,8 @@ def get_card_trick():
 	return out
 
 def faq(label, question):
-	return f'<a href="#{label}" style="color:#004824;">{label}.</a> {question}' \
-		f'<a id="{label}" href="#{label}" class="hash-link">#</a>'
+	return f'<a id="{label}" href="#{label}" style="color:#004824;">{label}.</a> {question}' \
+		f'<a href="#{label}" class="hash-link">#</a>'
 
 def hl(link, text):
-	return f'{text}<a id="{link}" href="#{link}" class="hash-link">#</a>'
+	return f'<a id="{link}"></a>{text}<a href="#{link}" class="hash-link">#</a>'
