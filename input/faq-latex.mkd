@@ -56,6 +56,10 @@ or else click "Raw" and save the file.
 ### {{ faq("L-5", "How do I get the colored boxes and section headers with evan.sty?") }}
 
 Pass the `sexy` option to the package (see source code for more detailed breakdown of options).
+Colored sections will then happen automatically if you are using `scrartcl`
+(rather than `article` or `report`).
+For the theorem environments in colored boxes, use the provided theorem environments.
+See examples in [FAQ L-9](#L-9).
 
 ### {{ faq("L-6", "What package did you use to typeset your CV?") }}
 
