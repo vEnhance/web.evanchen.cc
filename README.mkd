@@ -1,0 +1,8 @@
+# web.evanchen.cc
+
+These are the source files for my personal website
+[web.evanchen.cc](https://web.evanchen.cc).
+Not all assets are included but a lot of them are here.
+
+The website is generated with
+[Poole](https://hg.sr.ht/~obensonne/poole).
