@@ -1,0 +1,3 @@
+[submodule "elmo/internal"]
+	path = elmo/internal
+	url = git@github.com:vEnhance/elmo-internal
