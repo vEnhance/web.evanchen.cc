@@ -59,12 +59,14 @@ I had participated casually the year before that.
 
 See [my teaching page][otis] for more details.
 
-<br>
-
 ### {{ faq("P-6", "What is your favorite math olympiad problem?") }}
 
 It is hidden somewhere on this website,
 on [cofinitely][cofinite] many of the pages. ;)
+
+### {{ faq("P-7", "How did you make your website?") }}
+
+I use [Poole](https://hg.sr.ht/~obensonne/poole).
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
