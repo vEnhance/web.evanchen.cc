@@ -264,6 +264,7 @@ Relevant references:
 * [2002 IMO report by Tom Verhoeff][verhoeff]
 * [IMO 2019/3 blog post by Michael Ng][michaelng]
 * [Quora answer by Carlos Shine](https://qr.ae/pGvwWB)
+* [Reddit post on IMO 2019/5](https://www.reddit.com/r/math/comments/cgwayt/how_coordination_went_for_imo_2019_problem_5)
 * [IMO 2020 instructions (unusual virtual procedure)](https://imo2020.ru/Marking-and-Coordination.pdf)
 
 Basically, the outline of the idea is:
