@@ -225,9 +225,9 @@ but only loosely.
 Nevertheless, students will often colloquially refer to
 the cutoffs by color as well,
 in a slight [abuse of terminology][abusenote].
-(For example, the "blue cutoff" would denote the minimum score
-for an 11th grader to attend MOP via USAMO,
-despite the fact such an 11th grader may be placed in any class group
+(For example, "blue cutoff" would mean the minimum score
+for an 11th grader to attend MOP through USAMO,
+even though this student could end up in any class group
 depending on the whims of the [assistant academic director](index.html).)
 
 Some students (not staff) even refer to the 5th cutoff
