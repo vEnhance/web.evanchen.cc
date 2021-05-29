@@ -97,6 +97,12 @@ into the `latexmkrc` configuration file.
 See the [LaTeX usage page](https://asymptote.sourceforge.io/doc/LaTeX-usage.html)
 for instructions on how to do this.
 
+If you use a web-based compiler like Overleaf,
+then things may not work so well since you do not have control
+over the compilation process.
+As mentioned in [L-2](#L-2), my recommended solution is to
+not use web-based compilers.
+
 ### {{ faq("L-9", "Can I see some example source code?") }}
 
 Yes, go to [Olympiad page](olympiad.html)

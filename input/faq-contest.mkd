@@ -24,7 +24,7 @@ of the following things for several weeks
 until you have a picture of what the landscape looks like, so to speak.
 
 1. Pick up any standard textbook like [AoPS v1][v1]
-	or [AoPs v2][v2] to work through, so you learn some
+	or [AoPS v2][v2] to work through, so you learn some
 	of the standard theory that is tested in math contests.
 	Or, search around the web; there are lots of other sources.
 2. Go through some past problems from previous contests.
