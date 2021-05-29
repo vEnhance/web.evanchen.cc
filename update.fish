@@ -1,6 +1,6 @@
 #!/bin/fish
 
-./compile.sh | tail -n 1
+./scripts/compile.sh | tail -n 1
 
 git diff --quiet
 
