@@ -11,8 +11,10 @@ These are FAQ's about LaTeX.
 Before anything else, I need to define some terms.
 You can think of LaTeX workflow as having three components:
 
-1. A **text editor** that you type your content into, like gedit, Sublime, Vim, or Emacs.
-2. A **LaTeX compiler** (aka **LaTeX distribution**) that converts the source into a PDF.
+1. A **text editor** that you type your content into,
+	like gedit, Sublime, Vim, or Emacs.
+2. A **LaTeX compiler** (aka **LaTeX distribution**)
+	that converts the source into a PDF.
 	See question [L-10](#L-10) for recommendations.
 3. A **PDF viewer**, the same one you use for normally viewing PDF's.
 	See question [L-12](#L-12) for recommendations.
@@ -52,10 +54,12 @@ or else click "Raw" and save the file.
 ### {{ faq("L-4", "How do I use a custom style file like evan.sty?") }}
 
 [Check Google.](https://www.google.com/search?q=where+to+put+latex+custom+package)
+Or [see here in Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Creating_Packages#Creating_your_own_package).
 
 ### {{ faq("L-5", "How do I get the colored boxes and section headers with evan.sty?") }}
 
-Pass the `sexy` option to the package (see source code for more detailed breakdown of options).
+Pass the `sexy` option to the package
+(see source code for more detailed breakdown of options).
 Colored sections will then happen automatically if you are using `scrartcl`
 (rather than `article` or `report`).
 For the theorem environments in colored boxes, use the provided theorem environments.
@@ -67,7 +71,8 @@ I use [moderncv](https://ctan.org/pkg/moderncv?lang=en).
 
 ### {{ faq("L-7", "How do you get the LaTeX to auto-compile?") }}
 
-Use [`latexmk`](https://personal.psu.edu/~jcc8/software/latexmk/) with the `-pvc` flag,
+Use [`latexmk`](https://personal.psu.edu/~jcc8/software/latexmk/)
+with the `-pvc` flag,
 and a PDF viewer that does not "lock" the PDF file from being written
 (Adobe reader does not work).
 
@@ -78,13 +83,15 @@ it is a "wrapper script" that calls the compiler for you.
 
 I use [Asymptote](https://asymptote.sourceforge.io/doc/index.html#SEC_Contents).
 It integrates well with LaTeX, but the setup takes some work.
-Read [installation instructions](https://asymptote.sourceforge.io/doc/Installation.html) for Asymptote, separate from LaTeX.
+Read [installation instructions](https://asymptote.sourceforge.io/doc/Installation.html)
+for Asymptote, separate from LaTeX.
 
 Once you have Asymptote installed,
 to integrate it with LaTeX,
 the workflow is three steps.
 
-1. Run PDFLaTeX on, say, `example.tex`. This creates `example-N.asy` for the N'th diagram.
+1. Run PDFLaTeX on, say, `example.tex`.
+   This creates `example-N.asy` for the N'th diagram.
 2. You need to then run the Asymptote binary on `example-N.asy` to generate `example-N.pdf`.
 3. The diagram `example-N.pdf` then gets incorporated when you run PDFLaTeX again.
 
@@ -119,7 +126,8 @@ MikTeX, MacTeX, and TeX Live for Windows, Mac, Linux, respectively.
 I use [Vim](https://www.vim.org/) with
 [LaTeX Suite](http://vim-latex.sourceforge.net/index.php?subject=manual&title=Manual#user-manual).
 But that is a pretty advanced setup,
-so if you are a beginner, it may be overwhelming to learn Vim and LaTeX at the same time.
+so if you are a beginner, it may be overwhelming to learn
+Vim and LaTeX at the same time.
 
 Note that a text editor does not need to be specific to LaTeX,
 [any source code editor will work](https://en.wikipedia.org/wiki/Source-code_editor).
@@ -158,8 +166,8 @@ I [wrote my own database software in Python](https://github.com/vEnhance/von).
 
 Two things:
 
-* Read the source code of other people;
-* Search on Google and [tex.SE](https://tex.stackexchange.com/).
++ Read the source code of other people;
++ Search on Google and [tex.SE](https://tex.stackexchange.com/).
 
 ### {{ faq("L-17", "How can I look up a symbol?") }}
 
