@@ -1,0 +1,78 @@
+title: Puzzle hunts
+header: Puzzle hunts
+menu-position: 55
+indent: 1
+
+
+---
+
+## {{ hl("new", "New to puzzle hunts?") }}
+
+If you are totally new to puzzle hunts,
+[betaveros has a nice introduction](https://blog.vero.site/post/puzzlehunts).
+
+My favorite intro puzzle is _Yeah, But It Didn't Work!_.
+You can [try the puzzle][yeah] and later
+[read the solution][yeahsol].
+
+You can find a
+[index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
+and it's great fun to just pick a random past puzzle to work through.
+
+[yeah]: https://www.mit.edu/~puzzle/2018/full/puzzle/yeah_but_it_didnt_work.html
+[yeahsol]: https://www.mit.edu/~puzzle/2018/full/solution/yeah_but_it_didnt_work.html
+
+## {{ hl("advice", "Evan's advice for puzzle solving") }}
+
+In descending order of importance for new solvers:
+
+1. **Always make a spreadsheet** whenever you are working on a puzzle.
+	(Trying to do a puzzle without a spreadsheet is
+	analogous to not bringing scratch paper to the USAMO.
+	It’s literally impossible.)
+	Google spreadsheet works well if you are working in teams.
+2. Use **multiple screens**
+	(e.g. extra monitor, old laptop, tablet, smart TV, etc.).
+	Being able to view both a spreadsheet
+	and the puzzle at the same time is tremendously useful.
+	Also, if you have a printer or pencil/paper,
+	having hard copies of relevant information can be similarly helpful.
+3. **Check your work!**
+	(Better yet, have teammates help you check your work.)
+	Quote from [Allen Rabinovich's advice][advice]:
+	"A good friend of mine once said that if he were to write a guide
+	on how to solve puzzles, that’s all he would say."
+4. Print out a [code sheet of common encodings][ppint].
+5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
+	given only some of the letters.
+6. Always ask what **information is not used yet**.
+	In a well designed puzzle,
+	there will rarely be any superfluous information
+	(much like in USAMO, usually there are no extraneous conditions on problems).  
+	Good puzzle writers will tend to "destroy" information
+	if it’s not relevant, e.g. if the order of a list is irrelevant,
+	it tends to be in alphabetical order.
+7. Look at the **puzzle title** and **flavor text** for clues.
+
+## {{ hl("own", "Evan's puzzles") }}
+
+My favorite puzzles I wrote, in roughly ascending order of length:
+
++ [Nutrition Facts](https://perpendicular.institute/puzzle/nutrition-facts/)
++ [Blind Calculation](https://perpendicular.institute/puzzle/blind-calculation/)
++ [A Bit of Light](https://perpendicular.institute/puzzle/a-bit-of-light/)
++ [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
++ [Clueless](https://perpendicular.institute/puzzle/clueless/)
++ [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/)
++ [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
++ [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
+
+## {{ hl("writing", "Thoughts on puzzle-writing") }}
+
+Two blog posts of mine:
+
++ [Some general comments](https://usamo.wordpress.com/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
++ [Long stories for Mystery Hunt 2021](https://usamo.wordpress.com/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
+
+[ppint]: http://puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf
+[advice]: https://www.mit.edu/~puzzle/resources/thinkingaboutpuzzles.html

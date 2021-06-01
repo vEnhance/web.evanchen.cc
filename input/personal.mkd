@@ -25,30 +25,17 @@ and other puzzle hunt activities.
 I have participated in the MIT mystery hunt in 2017.
 These days, I usually hunt on  ✈✈✈ Galactic Trendsetters ✈✈✈.
 
-I was part of the organizing team for the
-[2021 hunt](https://perpendicular.institute/),
-themed about the Perpendicular Institute of the World.
-My favorite puzzles I wrote, in roughly ascending order of length:
+The two puzzle hunts that I worked most with were:
 
-* [Nutrition Facts](https://perpendicular.institute/puzzle/nutrition-facts/)
-* [Blind Calculation](https://perpendicular.institute/puzzle/blind-calculation/)
-* [A Bit of Light](https://perpendicular.institute/puzzle/a-bit-of-light/)
-* [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
-* [Clueless](https://perpendicular.institute/puzzle/clueless/)
-* [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/)
-* [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
-* [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
++ [2021 hunt](https://perpendicular.institute/):
+	highlights of mine include
+	[Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
+	[Clueless](https://perpendicular.institute/puzzle/clueless/),
+	[Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/).
++ ...
 
-I blogged about the writing of these puzzles
-[here](https://usamo.wordpress.com/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
-and
-[here](https://usamo.wordpress.com/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/).
-
-If you are totally new to puzzle hunts,
-[betaveros has a good introduction](https://blog.vero.site/post/puzzlehunts).
-You can find a
-[index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
-and it's great fun to just pick a random past puzzle to work through.
+If you want to learn more about puzzle hunts,
+check the [dedicated page](puzzlehunt.html).
 
 ## {{ hl("hanabi", "Hanabi") }}
 
@@ -65,7 +52,6 @@ I wrote a
 to get new players up to speed,
 which might be useful if you'd like to learn the rules of the game
 and the basics of the Hyphen-ated conventions.
-
 
 ## {{ hl("games", "More games") }}
 
