@@ -1,0 +1,28 @@
+title: LaTeX Render
+header: LaTeX Render
+
+---
+
+<script type="text/javascript">
+$(function() {
+
+// https://stackoverflow.com/a/439578/4826845
+function getQueryParams(qs) {
+    qs = qs.split("+").join(" ");
+    var params = {},
+        tokens,
+        re = /[?&]?([^=]+)=([^&]*)/g;
+    while (tokens = re.exec(qs)) {
+        params[decodeURIComponent(tokens[1])]
+            = decodeURIComponent(tokens[2]);
+    }
+    return params;
+}
+const $_GET = getQueryParams(document.location.search);
+
+$("#pagetitle").html($_GET['title']);
+$("div.entrywrap").html(atob($_GET['content']));
+alert(atob($_GET['content']));
+MathJax.typeset();
+});
+</script>
