@@ -22,7 +22,6 @@ const $_GET = getQueryParams(document.location.search);
 
 $("#pagetitle").html($_GET['title']);
 $("div.entrywrap").html(atob($_GET['content']));
-alert(atob($_GET['content']));
 MathJax.typeset();
 });
 </script>
