@@ -1,4 +1,4 @@
-title: Twitch Solves ISL
+title: Twitch Videos
 header: Twitch Solves IMO Shortlist
 description: Evan records himself doing dumb stuff
 menu-position: 60

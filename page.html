@@ -10,7 +10,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-<link type="text/css" rel="stylesheet" href="css/simple-53544.css">
 <script type="text/javascript">
 MathJax = {
     tex: {
@@ -38,6 +37,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
 <link rel="shortcut icon" href="icons/favicon.ico">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+<link type="text/css" rel="stylesheet" href="css/simple-53544.css">
 
 </head>
 <body>
@@ -55,7 +55,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
 </div>
 
 <div class="row">
-    <div class="col-10 offset-2 col-md-6 offset-md-6 col-lg-4 offset-lg-8">
+    <div class="col-10 offset-2 col-md-6 offset-md-6 col-lg-5 offset-lg-7">
         <div id="email_box">
         <a href="contact.html">
             <img height="24" src="icons/social-mail.png" />
@@ -110,7 +110,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
                         open_tag = '<h4>'
                         close_tag = '</h4>'
                     if p["title"] == page["title"]:
-                        entry = open_tag + '%s' + close_tag
+                        entry = open_tag + '<strong>%s</strong>' + close_tag
                         print(entry % (hx(p["title"])))
                     else:
                         entry = open_tag + '<a href="%s">%s</a>' + close_tag
