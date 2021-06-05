@@ -86,6 +86,10 @@ a.hash-link:hover, a.hash-link:active {
     text-decoration: none;
 }
 
+a.emoji-link:hover, a.emoji-link:active {
+    text-decoration: none;
+}
+
 /*
  * HEADERS H1, H2, ..., H5
  */
