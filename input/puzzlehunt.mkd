@@ -3,7 +3,6 @@ header: Puzzle hunts
 menu-position: 55
 indent: 1
 
-
 ---
 
 ## {{ hl("new", "New to puzzle hunts?") }}
@@ -31,6 +30,10 @@ In descending order of importance for new solvers:
 	analogous to not bringing scratch paper to the USAMO.
 	It’s literally impossible.)
 	Google spreadsheet works well if you are working in teams.
+	* If you are using Google spreadsheets, then there are some annoying tasks
+		you might like to automate such as A=1 to Z=26,
+		indexing into strings with spaces deleted etc.
+		[There's a library for this](https://github.com/mmachenry/mystery-hunt-sheets-addons).
 2. Use **multiple screens**
 	(e.g. extra monitor, old laptop, tablet, smart TV, etc.).
 	Being able to view both a spreadsheet
