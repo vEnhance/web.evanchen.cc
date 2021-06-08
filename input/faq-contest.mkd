@@ -145,7 +145,6 @@ Predicting improvement in math contests is a lot like trying to predict the
 stock market. We have some common sense, but no one *really*
 knows much more than that.
 
-
 ### {{ faq("C-5", "How do I learn to write proofs?") }}
 
 I don't think there's actually a leap between computation and proof-writing, and
@@ -170,9 +169,18 @@ After this, my advice is
 2. Try writing up proofs to problems you think you've solved, and
 3. Get feedback on these solutions (from a mentor, on the forums, etc.).
 
-The [USA Mathematical Talent Search][usamts] is also another good option.
-It is a free mathematics competition open to all United States middle and high school students,
-which gives you about one month to produce full solutions to a set of five problems.
+If you really want to follow a book, the one I grew up with was
+[Rotman's textbook](https://store.doverpublications.com/0486453065.html).
+It shares my philosophy that teaching proof-based classes by
+force-feeding set theory notation is not particularly helpful,
+and instead develops proof-writing by discussing real mathematical content
+from geometry, number theory, etc. rather than being overly focused
+on book-keeping and formalism.
+
+If you are a United States middle or high school student,
+The [USA Mathematical Talent Search][usamts] is also nice option.
+It is a free mathematics competition which gives you about
+one month to produce full solutions to a set of five problems.
 
 ### {{ faq("C-6", "Am I ready to do X level problems, read book Y, etc.?") }}
 

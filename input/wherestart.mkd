@@ -4,7 +4,6 @@ description: Suggestions for starting on math olympiads
 indent: 1
 menu-position: 38
 
-
 ---
 
 This page is meant for people who don't have much
@@ -105,6 +104,14 @@ You should also compare your solutions to existing ones.
 Of course, you should set your sights on becoming self-sufficient eventually.
 During an exam, you do not have access to feedback or other's solutions,
 so you need to be able to know when you've solved a problem!
+
+If you want a book to follow, the one I grew up with was
+[Rotman's textbook](https://store.doverpublications.com/0486453065.html).
+It shares my philosophy that teaching proof-based classes by
+force-feeding set theory notation is not particularly helpful,
+and instead develops proof-writing by discussing real mathematical content
+from geometry, number theory, etc. rather than being overly focused
+on book-keeping and formalism.
 
 ## {{ hl("usa", "3. (For USA) United States Mathematical Talent Search and USEMO") }}
 
