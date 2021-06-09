@@ -76,7 +76,7 @@ See some [statistics for recent years](exams/posted-usamo-statistics.pdf).
 * JMO 2012 [(problems and solutions)](exams/JMO-2012-notes.pdf)
 * JMO 2013 [(problems and solutions)](exams/JMO-2013-notes.pdf)
 * JMO 2014 [(problems and solutions)](exams/JMO-2014-notes.pdf)
-* JMO 2015 [(problems and solutions)](exams/JMO-2015-notes.pdf)
+* JMO 2015 [(problems and solutions)](exams/JMO-2015-notes.pdf), featuring **Steve**!
 * JMO 2016 [(problems and solutions)](exams/JMO-2016-notes.pdf)
 * JMO 2017 [(problems and solutions)](exams/JMO-2017-notes.pdf)
 * JMO 2018 [(problems and solutions)](exams/JMO-2018-notes.pdf)
