@@ -18,7 +18,7 @@ try my [Napkin](napkin.html).
 It was basically written to answer this question.
 Other possible references are mentioned in [Recommendations](recommend.html).
 
-See also S-6 below.
+See also [S-6](#S-6) below.
 
 ### {{ faq("S-3", "How do you live-TeX your notes so quickly?") }}
 
