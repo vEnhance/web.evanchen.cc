@@ -25,6 +25,9 @@ and it's great fun to just pick a random past puzzle to work through.
 
 In descending order of importance for new solvers:
 
+0. Read betaveros's post if you haven't already
+	so you are familiar with all "standard" techniques
+	since many hunts will assume familiarity with no further comment.
 1. **Always make a spreadsheet** whenever you are working on a puzzle.
 	(Trying to do a puzzle without a spreadsheet is
 	analogous to not bringing scratch paper to the USAMO.
@@ -45,7 +48,8 @@ In descending order of importance for new solvers:
 	Quote from [Allen Rabinovich's advice][advice]:
 	"A good friend of mine once said that if he were to write a guide
 	on how to solve puzzles, that’s all he would say."
-4. Print out a [code sheet of common encodings][ppint].
+4. Print out a code sheet of **common encodings**
+	(e.g. [Puzzled Pint][ppint]).
 5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
 	given only some of the letters.
 6. Always ask what **information is not used yet**.
