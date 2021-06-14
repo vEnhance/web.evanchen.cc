@@ -72,7 +72,7 @@ def get_card_trick():
 	out += r'<h2>Card 5</h2>' + '\n'
 	out += r'<h1 id="answer">...</h1>' + '\n'
 	out += r'<button type="button" class="btn" id="trick-button"></button>' + '\n'
-	out += r'<script type="text/javascript" src="/static/trick.js.min"></script>' + '\n'
+	out += r'<script type="text/javascript" src="/static/trick.min.js"></script>' + '\n'
 	out += r'<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>' + '\n'
 	out += r'<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />'
 	return out
