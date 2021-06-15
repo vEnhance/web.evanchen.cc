@@ -47,13 +47,14 @@ I'm pretty cynical of it.
 The (buzz)word "research" itself is a red flag for me:
 it sounds like the kind of thing
 people want to say they've done, rather than want to do.
+I won't say it's always a bad idea,
+but I think you should really ask yourself
+what you are hoping to get out of it.
+(You should definitely *not* attempt math research
+just because you see other people doing so.)
 
-Usually, if a high school student is interested in higher math,
-I recommend that they spend their time *learning new subjects*,
-rather than working on the kind of artificial "problems" that
-high school research is often concerned with.
-
-Some excerpts from [Euler Circle][euler] which I agree with:
+On the topic of research,
+some excerpts from [Euler Circle][euler] which I agree with:
 
 > You may be familiar with high-school "research" in biology,
 > where a high-school student works in a lab over a summer,
@@ -62,24 +63,53 @@ Some excerpts from [Euler Circle][euler] which I agree with:
 > science fair competitions. . . .
 > There is no mathematical equivalent of cleaning test tubes.
 >
-> **You simply cannot expect to work for a few months over the summer
-> and have something to show for it.** An exceptional high-school student
+> You simply cannot expect to work for a few months over the summer
+> and have something to show for it. An exceptional high-school student
 > should expect to spend around 1000 hours over the course of two years
 > on research in order to have a reasonable (but far from certain)
 > chance of producing a publishable paper.
 
-That being said, if you still want to work on research projects,
-consider programs like [PRIMES](https://math.mit.edu/research/highschool/primes/index.php),
-or finding a professor near you.
+Nonetheless, there are good research-based programs out there.
+Consider programs like
+[PRIMES](https://math.mit.edu/research/highschool/primes/index.php),
+Euler Circle itself, or finding a professor near you.
+
+With that said, if a high school student is interested in higher math,
+my personal recommendation is to also **learn new subjects**.
+(See [S-2](#S-2) and [S-6](#S-6) for hints on how to do this;
+it's possible to do this alongside good research projects too.)
+Reason: there is way, way too much math to learn
+beyond the calculus / linalg / multivar.
+
+I put it this way: look at the
+[Napkin topics diagram](https://web.evanchen.cc/upload/recent-flowchart.png).
+All of this material is stuff that a strong undergraduate
+is likely to learn over their four years of university, and more.
+(It does not include most graduate-level topics.)
+Each of these nodes has at least
+[as much theory as olympiad Euclidean geometry](textbooks/tr011ey.pdf)
+(and in many cases the comparison is off by an order of magnitude).
+
+Patiently learning foundational material is
+admittedly neither flashy nor attractive.
+(There's no equivalent of Regeneron STS
+nor does it help much with your college apps.)
+But I think long-term it is more useful to study fundamentals
+than rushing to collect honors.
 
 ### {{ faq("S-6", "I want to take some advanced math classes from nearby college, which ones do you recommend?") }}
 
-Short answer:
+Short answer: If you can read and write proofs, then
 
 * Learn abstract algebra or real/complex analysis; and
 * Avoid linear algebra or multivariable calculus.
 
-Long answer: I am assuming you are interested in learning
+(If you aren't comfortable with proofs, you should learn that first.
+See [C-5](faq-contest.html#C-5) for advice on that.)
+
+Long answer:
+
+I am assuming you are interested in learning
 a lot of math eventually (rather than, say,
 learning math for the sake of physics / engineering / etc.,
 which is fine, but then this advice is not for you).

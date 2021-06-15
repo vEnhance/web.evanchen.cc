@@ -176,6 +176,7 @@ force-feeding set theory notation is not particularly helpful,
 and instead develops proof-writing by discussing real mathematical content
 from geometry, number theory, etc. rather than being overly focused
 on book-keeping and formalism.
+Courses on graph theory are often good introductions to proofs as well.
 
 If you are a United States middle or high school student,
 The [USA Mathematical Talent Search][usamts] is also nice option.
