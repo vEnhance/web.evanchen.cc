@@ -47,6 +47,7 @@ of the problems and solutions of the olympiad.
 
 See some [statistics for recent years](exams/posted-usamo-statistics.pdf).
 
+* USAMO 1997 [(problems and solutions)](exams/USAMO-1997-notes.pdf)
 * USAMO 1998 [(problems and solutions)](exams/USAMO-1998-notes.pdf)
 * USAMO 1999 [(problems and solutions)](exams/USAMO-1999-notes.pdf)
 * USAMO 2000 [(problems and solutions)](exams/USAMO-2000-notes.pdf)
