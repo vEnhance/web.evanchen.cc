@@ -97,7 +97,6 @@ You can view quotes for the following years.
 	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
 </div>
 
-
 ## Singing troupe
 
 The **MOP Singing Troupe** is a tradition dating back to around 2010,
@@ -193,8 +192,10 @@ $(() => {
 		$(el).prepend(h3);
 		const year = $(el).attr('data-year');
 		const link = $(`<li><a href="javascript:void(0);">${year}</a></li>`);
-		$(el).prev('.empty-chooser').find('ul').append(link);
+		const ambient = $(el).prevAll('.empty-chooser').first().find('ul');
+		ambient.append(link);
 		link.on('click', () => { $(el).toggle(); });
+		console.log(ambient);
 	});
 });
 </script>
