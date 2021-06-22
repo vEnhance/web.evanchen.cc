@@ -24,9 +24,9 @@ for invitation rules.
 Today, the camp is headed by director
 [Po-Shen Loh](https://math.cmu.edu/~ploh)
 and assistant academic director [Evan Chen](index.html).
-Staff includes instructors, [RA][RA]'s, and
-teaching assistants aka graders.
 (There is no academic director or assistant director.)
+Staff includes instructors, [RA][RA]'s, and
+teaching assistants (aka graders).
 
 [RA]: https://en.wikipedia.org/wiki/Resident_assistant
 
@@ -142,6 +142,7 @@ and the back contains everyone's signature.
 <div class="chooser empty-chooser"></div>
 
 <div data-year="2021" data-header="Quotes 2021" class="hidden" markdown="block">
+- Alex: "Combo is only enjoyable when you can solve it."
 - Evan: "I hate trying to be nice."
 - Evan: "I'm Evan. I guess I'm a PhD student at MIT?"
 - Evan: "Most problems require you to be awake."
