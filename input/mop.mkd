@@ -21,11 +21,12 @@ Prior to 2015, the camp was held in [Nebraska](https://unl.edu).
 See [FAQ CR-7](https://web.evanchen.cc/faq-rules.html#CR-7)
 for invitation rules.
 
-Today, the camp is headed by **Po-Shen Loh (director)**
-and **Evan Chen (assistant academic director)**.
-(There is no academic director or assistant director, shrug.)
+Today, the camp is headed by director
+[Po-Shen Loh](https://math.cmu.edu/~ploh)
+and assistant academic director [Evan Chen](index.html).
 Staff includes instructors, [RA][RA]'s, and
-"teaching assistants (informally "graders").
+teaching assistants aka graders.
+(There is no academic director or assistant director.)
 
 [RA]: https://en.wikipedia.org/wiki/Resident_assistant
 
@@ -39,8 +40,7 @@ The S was finally officially deleted in 2017.
 - The **ELMO** is written by new MOPpers for returning MOPpers,
 	featuring "teams" and coordination.
 	See [ELMO page](https://web.evanchen.cc/elmo/general.html).
-	Also often open to guests the public by post on AoPS.
-- The **Mock IMO** is run by the staff using past Shortlist problems;
+- The **Mock IMO** is run by staff using [ISL](faq-rules.html#CR-11);
 	it also features a mock
 	[coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
 	You can download the problems (from IMO Shortlist) here:

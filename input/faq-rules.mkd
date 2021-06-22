@@ -302,6 +302,42 @@ particularly if the student's approach is novel or uncommon.
 [michaelng]: https://michaelng126.wordpress.com/2019/07/28/imo-2019-coordination-part-2/
 [quora]: https://www.quora.com/How-are-IMO-solutions-graded
 
+### {{ faq("CR-11", "What is ISL / IMO Shortlist?") }}
+
+At every IMO, the jury is presented a list of about 30 problems,
+of which six are selected to comprise the IMO.
+(The shortlist is in turn selected from all proposed problems,
+of which modern IMO's have a few hundred.
+The selection is nowadays much more competitive than back in early 2000's.)
+The list for each year is called the **IMO Shortlist**.
+
+The shortlist is typically divided into four categories
+Algebra, Combinatorics, Geometry, Number Theory
+(with about 6-8 problems in each category)
+and spans IMO-easy to IMO-hard.
+The problems are numbered A1, A2, ... in loosely ascending difficulty;
+similarly the combinatorics problems are labeled C1, C2, ... and so on.
+(This means you can refer to a problem being "C8 level"
+in a way that is meaningful from year to year.)
+All the posted shortlists for the past several years are indexed on
+[AoPS](https://aops.com/community/c3223_imo_shortlist).
+
+An important property of the IMO shortlist
+is that **problems which are shortlisted are confidential for one year**
+if they do not appear on IMO.
+For example, the IMO 2020 shortlist is confidential
+until after IMO 2021 concludes.
+The reason for this is that the IMO Shortlist is a valuable source
+of good problems, so many countries will use shortlisted problems
+either for training purposes, or in their team selection tests.
+Thus it is critical that the security of the shortlist is not compromised.
+(So, if you see a shortlist problem posted on AoPS prematurely,
+you should immediately report it.)
+
+Shortlisted problems from previous years of the IMO
+are extensively studied by top students,
+to the point where IMO team members from countries like USA
+will often know from memory which problem "2011 G4" refers to, etc.
 
 [amc]: https://www.maa.org/math-competitions
 [usa2003]: upload/usamo-2003-rubric.pdf
