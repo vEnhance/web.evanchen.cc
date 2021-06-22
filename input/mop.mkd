@@ -14,6 +14,7 @@ This section of the website is dedicated to public-facing
 material from various years of MOP.
 It's similar in spirit to the [MOPper world](http://moppers.kaseorg.com/)
 that ran between 1997 and 2004.
+This page isn't a puzzle.
 
 MOP is a three-week camp now held at [CMU](https://cmu.edu).
 In 2020 and 2021, the camp was run on Discord.
@@ -35,7 +36,18 @@ but the letter S was universally ignored by staff and students,
 and its omission became an ongoing gag.
 The S was finally officially deleted in 2017.
 
-This page is not a puzzle.
+## {{ hl("tshirt", "T-shirt designs") }}
+
+Traditionally, MOP T-shirts are printed in black on grey.
+With the exception of 2020, usually there is only a front design,
+and the back contains everyone's signature.
+
+{{ tshirt(2016) }}
+{{ tshirt(2017) }}
+{{ tshirt(2018, alt = "Reference to 2017 G8.") }}
+{{ tshirt(2019, alt = "Reference to ELMO 2019/2.") }}
+{{ tshirt(2020) }}
+{{ tshirt(2020, alt = "Reverse for 2020 shirt", ext = "back.png") }}
 
 ## {{ hl("problems", "Problems") }}
 
@@ -104,19 +116,6 @@ Here are recent songs we peformed:
 - Wishing You Were Somehow Here Again
 - Wonderful
 </div>
-
-## {{ hl("tshirt", "T-shirt designs") }}
-
-Traditionally, MOP T-shirts are printed in black on grey.
-With the exception of 2020, usually there is only a front design,
-and the back contains everyone's signature.
-
-{{ tshirt(2016) }}
-{{ tshirt(2017) }}
-{{ tshirt(2018, alt = "Reference to 2017 G8.") }}
-{{ tshirt(2019, alt = "Reference to ELMO 2019/2.") }}
-{{ tshirt(2020) }}
-{{ tshirt(2020, alt = "Reverse for 2020 shirt", ext = "back.png") }}
 
 ## {{ hl("schedules", "Schedules") }}
 
