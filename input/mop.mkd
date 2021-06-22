@@ -8,12 +8,12 @@ description: Popular math olympiad training materials written by Evan Chen.
 [![Not an official logo, but comedic](static/mop/abcde.png){width=200px}](static/mop/abcde.png)
 {style="margin:20px auto; text-align:center;"}
 
+## About MOP
+
 This section of the website is dedicated to public-facing
 material from various years of MOP.
 It's similar in spirit to the [MOPper world](http://moppers.kaseorg.com/)
 that ran between 1997 and 2004.
-
-## About MOP
 
 MOP is a three-week camp which in modern times is held in Carnegie Mellon
 University at Pittsburgh, Pennsylvania.
@@ -31,6 +31,11 @@ there is also a team of "teaching assistants"
 (although we typically just call them "graders")
 which help with logistical work and do the arduous task of marking exams.
 
+For many years, the official name for MOP was "MOSP",
+but the letter S was almost universally ignored by staff and students,
+and the deletion of the letter S became an ongoing gag.
+The S was finally officially excised starting in MOP 2017.
+
 ## Problems
 
 The **ELMO** is written by new MOPpers for returning MOPpers,
@@ -39,11 +44,9 @@ See [ELMO page](https://web.evanchen.cc/elmo/general.html).
 Also often open to guests the public by post on AoPS.
 
 The **Mock IMO** is run by the staff using past Shortlist problems;
-it also features a mock coordination where the six members of the IMO team.
-(See [FAQ CR-10](https://web.evanchen.cc/faq-rules.html#CR-10)
-for coordination details.)
-You can download the problems (which are just from IMO Shortlist)
-for the following years.
+it also features a mock
+[coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
+You can download the problems (from IMO Shortlist) here:
 
 <div class="chooser list-chooser" markdown="1">
 - [2021](static/mop/mockimo/2021.pdf)
@@ -56,7 +59,7 @@ for the following years.
 
 The staff also provide **MOP homework** to work on before camp starts,
 mostly for fun and so people have something to talk about at airport.
-Here are homework problems from the following years.
+Here are recent homework problems:
 
 <div class="chooser list-chooser" markdown="1">
 - [2021](static/mop/mockimo/2021.pdf)
@@ -67,15 +70,7 @@ Here are homework problems from the following years.
 - [2016](static/mop/mockimo/2016.pdf)
 </div>
 
-## Puzzle hunt
-
-To be written. This page isn't a puzzle.
-
 ## Quotes
-
-If you have a quote from yourself you want to add, email me.
-Quotes added need permission from all speakers to be posted for privacy reasons.
-You can view quotes for the following years.
 
 <div class="chooser empty-chooser"></div>
 
@@ -96,12 +91,8 @@ You can view quotes for the following years.
 ## Singing troupe
 
 The MOP Singing Troupe is a tradition dating back to around 2010,
-started by Evan o'Dorney.
-It consists of people (trying to) sing.
-At each talent show, it is tradition for the singing troupe
-to be the opening and closing act.
-
-Here is repertoire from recent years (woefully incomplete).
+started by Evan o'Dorney; it starts and ends the closing ceremony.
+Here are recent songs we peformed:
 
 <div class="chooser empty-chooser"></div>
 
@@ -139,21 +130,11 @@ Here is repertoire from recent years (woefully incomplete).
 - Wonderful
 </div>
 
-## The letter S
+## T-shirt designs
 
-For many years, the official name for MOP was "MOSP",
-but the letter S was almost universally ignored by staff and students,
-and the deletion of the letter S became an ongoing gag.
-The S was finally officially excised starting in MOP 2017.
-
-## T-shirts
-
-Traditionally, MOP T-shirts are printed in black/white on grey.
-This page contains art assets that were used on T-shirts in various years.
+Traditionally, MOP T-shirts are printed in black on grey.
 With the exception of 2020, usually there is only a front design,
 and the back contains everyone's signature.
-
-Here are images for T-shirts in recent years (click to expand).
 
 {{ tshirt(2016) }}
 {{ tshirt(2017) }}
