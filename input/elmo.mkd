@@ -1,13 +1,10 @@
-title: ELMO
-header: ELMO
-menu-position: 32
+title: ELMO & Mock
+header: ELMO and Mock IMO
+menu-position: 42
 url: elmo/index.html
 indent: 1
 
 ---
 
-For the past few years I have served as a Dictator for the ELMO,
-an annual olympiad at MOP each year written for new MOPpers
-by returning MOPpers.
-
-[<h2>Click here for the most recent ELMO results.</h2>](elmo/index.html)
+You can find all past ELMO materials on the
+[ELMO website](elmo/index.html).

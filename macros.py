@@ -83,3 +83,8 @@ def faq(label, question):
 
 def hl(link, text):
 	return f'<a id="{link}"></a>{text}<a href="#{link}" class="hash-link">#</a>'
+
+def tshirt(year, ext = 'png'):
+	location = f'static/mop/shirts/{year}.{ext}'
+	return f'<a href="{location}" class="tshirt-link"><img src="{location}" class="tshirt" /></a>'
+

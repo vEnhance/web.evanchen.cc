@@ -1,0 +1,116 @@
+title: MOP
+header: MOPper World 2.0
+menu-position: 40
+description: Popular math olympiad training materials written by Evan Chen.
+
+---
+
+
+
+This section of the website is dedicated to public-facing
+material from various years of MOP.
+It's similar in spirit to the [MOPper world](http://moppers.kaseorg.com/)
+that ran between 1997 and 2004.
+
+## About MOP
+
+MOP is a three-week camp which in modern times is held in Carnegie Mellon
+University at Pittsburgh, Pennsylvania.
+(For 2020 and 2021, the camp was run on Discord.)
+Prior to 2015, the camp was held at University of Nebraska-Lincoln.
+See [FAQ CR-7](https://web.evanchen.cc/faq-rules.html#CR-7)
+for invitation rules.
+
+At the time of writing, the camp is headed by **Po-Shen Loh (director)**
+and **Evan Chen (assistant academic director)**.
+There is no academic director or assistant director,
+because our naming makes lots of sense.
+In addition to instructors,
+there is also a team of "teaching assistants"
+(although we typically just call them "graders")
+which help with logisitcal work and do the arduous task of marking all the exams.
+
+This page is dedicated to archival of various MOP-related material.
+Use the navigation bar on the right to find things.
+[Razvan Gelca also has some pictures](https://www.math.ttu.edu/~rgelca/photos.html).
+
+## ELMO
+
+The *ELMO* is a competition which is organized by
+the returning MOPpers, as a test for the newcomers.
+The competition features full-fledged "teams" led by team leaders
+and a full coordination process.
+All problems are crafted by past MOP students,
+some of which are published in the
+[ELMO shortlist](https://web.evanchen.cc/elmo/problems.html)
+even if not selected for the exam.
+
+To see past ELMO problems, check the [ELMO page](elmo/).
+
+## Mock IMO
+
+The *Mock IMO* is run by the staff using past Shortlist problems;
+it also features a mock coordination where the six members of the IMO
+team have their papers exhibited in a coordination sense,
+with members of USA delegation serving as defenders
+and "grading" staff members serving as the prosecutors.
+(See [FAQ CR-10](https://web.evanchen.cc/faq-rules.html#CR-10)
+for coordination details.)
+
+<!-- TODO link -->
+
+## MOP Homework
+
+<!-- TODO link -->
+
+## Puzzle hunt
+
+To be written. This page isn't a puzzle.
+
+## Quotes
+
+<!-- TODO link -->
+
+## Singing troupe
+
+The **MOP Singing Troupe** is a tradition dating back to around 2010,
+started by Evan o'Dorney.
+It consists of people (trying to) sing.
+At each talent show, it is tradition for the singing troupe
+to be the opening and closing act.
+
+## The letter S
+
+For many years, the official name for MOP was "MOSP",
+but the letter S was almost universally ignored by staff and students,
+and the deletion of the letter S became an ongoing gag.
+The S was finally officially excised starting in MOP 2017.
+
+<!-- TODO write -->
+
+## T-shirts
+
+Traditionally, MOP T-shirts are printed in black/white on grey.
+This page contains art assets that were used on T-shirts in various years.
+
+Here are images for T-shirts in recent years.
+(Click an image to see a full-resolution version).
+
+{{ tshirt(2016) }}
+{{ tshirt(2017) }}
+{{ tshirt(2018) }}
+{{ tshirt(2019) }}
+{{ tshirt(2020) }}
+{{ tshirt(2021) }}
+
+<style type="text/css">
+a.tshirt-link img.tshirt {
+	width: 150px;
+	border: 2px grey solid;
+	border-radius: 5px;
+	margin: 7px 7px;
+}
+img.tshirt:hover {
+	box-shadow: 0px 0px 35px #dddd33;
+}
+</style>
