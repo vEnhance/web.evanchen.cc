@@ -1,5 +1,5 @@
-title: ELMO & Mock
-header: ELMO and Mock IMO
+title: ELMO
+header: ELMO
 menu-position: 42
 url: elmo/index.html
 indent: 1

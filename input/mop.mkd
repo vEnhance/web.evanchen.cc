@@ -5,7 +5,8 @@ description: Popular math olympiad training materials written by Evan Chen.
 
 ---
 
-
+[![Not an official logo, but comedic](static/mop/abcde.png){width=400px}](static/mop/abcde.png)
+{style="margin:20px auto; text-align:center;"}
 
 This section of the website is dedicated to public-facing
 material from various years of MOP.
@@ -28,7 +29,7 @@ because our naming makes lots of sense.
 In addition to instructors,
 there is also a team of "teaching assistants"
 (although we typically just call them "graders")
-which help with logisitcal work and do the arduous task of marking all the exams.
+which help with logistical work ando the arduous task of marking exams.
 
 This page is dedicated to archival of various MOP-related material.
 Use the navigation bar on the right to find things.
@@ -36,16 +37,10 @@ Use the navigation bar on the right to find things.
 
 ## ELMO
 
-The *ELMO* is a competition which is organized by
-the returning MOPpers, as a test for the newcomers.
-The competition features full-fledged "teams" led by team leaders
-and a full coordination process.
-All problems are crafted by past MOP students,
-some of which are published in the
-[ELMO shortlist](https://web.evanchen.cc/elmo/problems.html)
-even if not selected for the exam.
-
-To see past ELMO problems, check the [ELMO page](elmo/).
+Written by new MOPpers for returning MOPpers,
+featuring "teams" and coordination.
+See [ELMO page](https://web.evanchen.cc/elmo/general.html).
+Also often open to guests the public by post on AoPS.
 
 ## Mock IMO
 
@@ -57,11 +52,33 @@ and "grading" staff members serving as the prosecutors.
 (See [FAQ CR-10](https://web.evanchen.cc/faq-rules.html#CR-10)
 for coordination details.)
 
+You can download the problems (which are just from IMO Shortlist)
+for the following years:
+
+<div class="chooser" markdown="1">
+- [2016](static/mop/mockimo/2016.pdf)
+- [2017](static/mop/mockimo/2017.pdf)
+- [2018](static/mop/mockimo/2018.pdf)
+- [2019](static/mop/mockimo/2019.pdf)
+- [2020](static/mop/mockimo/2020.pdf)
+- [2021](static/mop/mockimo/2021.pdf)
+</div>
+
 <!-- TODO link -->
 
 ## MOP Homework
 
-<!-- TODO link -->
+Problems to talk about at the airport en route to CMU.
+Here are homework problems from
+
+<div class="chooser" markdown="1">
+- [2016](static/mop/mockimo/2016.pdf)
+- [2017](static/mop/mockimo/2017.pdf)
+- [2018](static/mop/mockimo/2018.pdf)
+- [2019](static/mop/mockimo/2019.pdf)
+- [2020](static/mop/mockimo/2020.pdf)
+- [2021](static/mop/mockimo/2021.pdf)
+</div>
 
 ## Puzzle hunt
 
@@ -69,7 +86,19 @@ To be written. This page isn't a puzzle.
 
 ## Quotes
 
-<!-- TODO link -->
+If you have a quote from yourself you want to add, email me.
+Quotes added need permission from all speakers to be posted for privacy reasons.
+You can view quotes for the following years.
+
+<div class="chooser empty-chooser"></div>
+
+<div data-year="2021" data-header="Quotes 2021" class="hidden" markdown="block">
+- Evan Chen: "I'm Evan. I guess I'm a PhD student at MIT?"
+- Evan Chen: "Most problems require you to be awake."
+- Evan Chen: "$C$-indexed, hahahaha"
+- Evan Chen: "I hate trying to be nice"
+- Evan Chen: "Where's Po? I think I actually need him for once."
+</div>
 
 ## Singing troupe
 
@@ -78,6 +107,13 @@ started by Evan o'Dorney.
 It consists of people (trying to) sing.
 At each talent show, it is tradition for the singing troupe
 to be the opening and closing act.
+
+Here is repertoire from recent years.
+
+<div class="chooser empty-chooser"></div>
+
+<div data-year="2021" class="hidden" markdown="1">
+</div>
 
 ## The letter S
 
@@ -98,19 +134,52 @@ Here are images for T-shirts in recent years.
 
 {{ tshirt(2016) }}
 {{ tshirt(2017) }}
-{{ tshirt(2018) }}
-{{ tshirt(2019) }}
+{{ tshirt(2018, alt = "Reference to 2017 G8.") }}
+{{ tshirt(2019, alt = "Reference to ELMO 2019/2.") }}
 {{ tshirt(2020) }}
+{{ tshirt(2020, alt = "Reverse for 2020 shirt, one of the only years with no signatures on the back of the shirt.", ext = "back.png") }}
 {{ tshirt(2021) }}
 
 <style type="text/css">
-a.tshirt-link img.tshirt {
+a img.tshirt {
 	width: 150px;
 	border: 2px grey solid;
 	border-radius: 5px;
 	margin: 7px 7px;
 }
-img.tshirt:hover {
+a img:hover {
 	box-shadow: 0px 0px 35px #dddd33;
 }
+div.hidden {
+	display: none;
+	border: 2px solid #660000;
+	border-radius: 8px;
+	padding: 5px 5px;
+	background-color: #e4fbf9;
+	padding: 6px;
+}
 </style>
+
+<script type="text/javascript">
+$(() => {
+	$('.empty-chooser').append('<ul></ul>');
+	$(".hidden").each((index, el) => {
+		const heading = $(el).attr('data-header');
+		const h3 = $(`<h3>${heading}</h3>`);
+		const close = $(`<button type="button" class="close"
+		data-dismiss="alert" aria-label="Close">
+		<span aria-hidden="true">&times;</span>
+		</button>`);
+		h3.append(close);
+		close.on('click', () => { $(el).hide(); });
+
+		$(el).prepend(h3);
+		const year = $(el).attr('data-year');
+		const concealer = $(`<li>`
+			+ `<a href="javascript:void(0);" class="reveal">${year}</a>`
+			+ `</li>`);
+		$(el).prev('.empty-chooser').find('ul').append(concealer);
+		concealer.on('click', () => { $(el).toggle(); });
+	});
+});
+</script>
