@@ -8,7 +8,7 @@ description: Popular math olympiad training materials written by Evan Chen.
 [![Not an official logo, but comedic](static/mop/abcde.png){width=150px}](static/mop/abcde.png)
 {style="float:right;"}
 
-## About MOP
+## {{ hl("about", "About MOP") }}
 
 This section of the website is dedicated to public-facing
 material from various years of MOP.
@@ -37,7 +37,7 @@ The S was finally officially deleted in 2017.
 
 This page is not a puzzle.
 
-## Problems
+## {{ hl("problems", "Problems") }}
 
 - The **ELMO** is written by new MOPpers for returning MOPpers,
 	featuring "teams" and coordination.
@@ -63,7 +63,7 @@ This page is not a puzzle.
 	- [2017](static/mop/mockimo/2017.pdf)
 	- [2016](static/mop/mockimo/2016.pdf)
 
-## Singing troupe
+## {{ hl("singing", "Singing troupe") }}
 
 The MOP Singing Troupe is a tradition dating back to around 2010,
 started by Evan o'Dorney; it starts and ends the closing ceremony.
@@ -105,7 +105,7 @@ Here are recent songs we peformed:
 - Wonderful
 </div>
 
-## T-shirt designs
+## {{ hl("tshirt", "T-shirt designs") }}
 
 Traditionally, MOP T-shirts are printed in black on grey.
 With the exception of 2020, usually there is only a front design,
@@ -118,7 +118,7 @@ and the back contains everyone's signature.
 {{ tshirt(2020) }}
 {{ tshirt(2020, alt = "Reverse for 2020 shirt", ext = "back.png") }}
 
-## Schedules
+## {{ hl("schedules", "Schedules") }}
 
 <div class="chooser list-chooser" markdown="block">
 - [2021](static/mop/schedules/2021.pdf)
@@ -137,7 +137,7 @@ and the back contains everyone's signature.
 - [2008](static/mop/schedules/2008.pdf)
 </div>
 
-## Quotes
+## {{ hl("quotes", "Quotes") }}
 
 <div class="chooser empty-chooser"></div>
 
