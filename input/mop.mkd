@@ -89,7 +89,7 @@ Here are recent songs we peformed:
 - The Wizard and I
 </div>
 
-<div data-header="2011" data-year="2011" class="hidden" markdown="1">
+<div data-header="Singing troupe 2011" data-year="2011" class="hidden" markdown="1">
 - Defying Gravity, and parody
 	[Coordinate Bashing](https://web.evanchen.cc/static/sonnhard.pdf)
 - Do You Hear The People Sing, and parody *Do You Hear the Teapot Sing*
@@ -194,7 +194,7 @@ $(() => {
 		const link = $(`<li><a href="javascript:void(0);">${year}</a></li>`);
 		const ambient = $(el).prevAll('.empty-chooser').first().find('ul');
 		ambient.append(link);
-		link.on('click', () => { $(el).toggle(); });
+		link.on('click', () => { $('.hidden').hide(); $(el).show(); });
 		console.log(ambient);
 	});
 });
