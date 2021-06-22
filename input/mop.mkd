@@ -48,12 +48,12 @@ You can download the problems (which are just from IMO Shortlist)
 for the following years.
 
 <div class="chooser list-chooser" markdown="1">
-- [2016](static/mop/mockimo/2016.pdf)
-- [2017](static/mop/mockimo/2017.pdf)
-- [2018](static/mop/mockimo/2018.pdf)
-- [2019](static/mop/mockimo/2019.pdf)
-- [2020](static/mop/mockimo/2020.pdf)
 - [2021](static/mop/mockimo/2021.pdf)
+- [2020](static/mop/mockimo/2020.pdf)
+- [2019](static/mop/mockimo/2019.pdf)
+- [2018](static/mop/mockimo/2018.pdf)
+- [2017](static/mop/mockimo/2017.pdf)
+- [2016](static/mop/mockimo/2016.pdf)
 </div>
 
 <!-- TODO link -->
@@ -64,12 +64,12 @@ Problems to talk about at the airport en route to CMU.
 Here are homework problems from the following years.
 
 <div class="chooser list-chooser" markdown="1">
-- [2016](static/mop/mockimo/2016.pdf)
-- [2017](static/mop/mockimo/2017.pdf)
-- [2018](static/mop/mockimo/2018.pdf)
-- [2019](static/mop/mockimo/2019.pdf)
-- [2020](static/mop/mockimo/2020.pdf)
 - [2021](static/mop/mockimo/2021.pdf)
+- [2020](static/mop/mockimo/2020.pdf)
+- [2019](static/mop/mockimo/2019.pdf)
+- [2018](static/mop/mockimo/2018.pdf)
+- [2017](static/mop/mockimo/2017.pdf)
+- [2016](static/mop/mockimo/2016.pdf)
 </div>
 
 ## Puzzle hunt
@@ -93,7 +93,8 @@ You can view quotes for the following years.
 
 <div data-year="2020" data-header="Quotes 2020" class="hidden" markdown="block">
 - Evan: "I trust the Russians."
-- Evan: "By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
+- Solutions packet for Test 7:
+	"By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
 	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
 </div>
 
