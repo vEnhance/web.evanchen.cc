@@ -6,7 +6,7 @@ description: Popular math olympiad training materials written by Evan Chen.
 ---
 
 [![Not an official logo, but comedic](static/mop/abcde.png){width=200px}](static/mop/abcde.png)
-{style="margin:20px auto; text-align:center;"}
+{style="float:right;"}
 
 ## About MOP
 
@@ -15,78 +15,51 @@ material from various years of MOP.
 It's similar in spirit to the [MOPper world](http://moppers.kaseorg.com/)
 that ran between 1997 and 2004.
 
-MOP is a three-week camp which in modern times is held in Carnegie Mellon
-University at Pittsburgh, Pennsylvania.
-(For 2020 and 2021, the camp was run on Discord.)
-Prior to 2015, the camp was held at University of Nebraska-Lincoln.
+MOP is a three-week camp now held at [CMU](https://cmu.edu).
+In 2020 and 2021, the camp was run on Discord.
+Prior to 2015, the camp was held in [Nebraska](https://unl.edu).
 See [FAQ CR-7](https://web.evanchen.cc/faq-rules.html#CR-7)
 for invitation rules.
 
-At the time of writing, the camp is headed by **Po-Shen Loh (director)**
+Today, the camp is headed by **Po-Shen Loh (director)**
 and **Evan Chen (assistant academic director)**.
-There is no academic director or assistant director,
-because our naming makes lots of sense.
-In addition to instructors,
-there is also a team of "teaching assistants"
-(although we typically just call them "graders")
-which help with logistical work and do the arduous task of marking exams.
+(There is no academic director or assistant director, shrug.)
+Staff includes instructors, [RA][RA]'s, and
+"teaching assistants (informally "graders").
+
+[RA]: https://en.wikipedia.org/wiki/Resident_assistant
 
 For many years, the official name for MOP was "MOSP",
-but the letter S was almost universally ignored by staff and students,
-and the deletion of the letter S became an ongoing gag.
-The S was finally officially excised starting in MOP 2017.
+but the letter S was universally ignored by staff and students,
+and its omission became an ongoing gag.
+The S was finally officially deleted in 2017.
 
 ## Problems
 
-The **ELMO** is written by new MOPpers for returning MOPpers,
-featuring "teams" and coordination.
-See [ELMO page](https://web.evanchen.cc/elmo/general.html).
-Also often open to guests the public by post on AoPS.
-
-The **Mock IMO** is run by the staff using past Shortlist problems;
-it also features a mock
-[coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
-You can download the problems (from IMO Shortlist) here:
-
-<div class="chooser list-chooser" markdown="1">
-- [2021](static/mop/mockimo/2021.pdf)
-- [2020](static/mop/mockimo/2020.pdf)
-- [2019](static/mop/mockimo/2019.pdf)
-- [2018](static/mop/mockimo/2018.pdf)
-- [2017](static/mop/mockimo/2017.pdf)
-- [2016](static/mop/mockimo/2016.pdf)
-</div>
-
-The staff also provide **MOP homework** to work on before camp starts,
-mostly for fun and so people have something to talk about at airport.
-Here are recent homework problems:
-
-<div class="chooser list-chooser" markdown="1">
-- [2021](static/mop/mockimo/2021.pdf)
-- [2020](static/mop/mockimo/2020.pdf)
-- [2019](static/mop/mockimo/2019.pdf)
-- [2018](static/mop/mockimo/2018.pdf)
-- [2017](static/mop/mockimo/2017.pdf)
-- [2016](static/mop/mockimo/2016.pdf)
-</div>
-
-## Quotes
-
-<div class="chooser empty-chooser"></div>
-
-<div data-year="2021" data-header="Quotes 2021" class="hidden" markdown="block">
-- Evan: "I'm Evan. I guess I'm a PhD student at MIT?"
-- Evan: "Most problems require you to be awake."
-- Evan: "I hate trying to be nice."
-- Evan: "Where's Po? I think I actually need him for once."
-</div>
-
-<div data-year="2020" data-header="Quotes 2020" class="hidden" markdown="block">
-- Evan: "I trust the Russians."
-- Solutions packet for Test 7:
-	"By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
-	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
-</div>
+- The **ELMO** is written by new MOPpers for returning MOPpers,
+	featuring "teams" and coordination.
+	See [ELMO page](https://web.evanchen.cc/elmo/general.html).
+	Also often open to guests the public by post on AoPS.
+- The **Mock IMO** is run by the staff using past Shortlist problems;
+	it also features a mock
+	[coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
+	You can download the problems (from IMO Shortlist) here:
+	<span class="chooser list-chooser" markdown="block">
+	- [2020](static/mop/mockimo/2020.pdf)
+	- [2019](static/mop/mockimo/2019.pdf)
+	- [2018](static/mop/mockimo/2018.pdf)
+	- [2017](static/mop/mockimo/2017.pdf)
+	- [2016](static/mop/mockimo/2016.pdf)
+- The staff also provide **MOP homework** to work on before camp starts,
+	mostly for fun and so people have something to talk about at airport.
+	Here are recent homework problems:
+	<span class="chooser list-chooser" markdown="block">
+	- [2021](static/mop/mockimo/2021.pdf)
+	- [2020](static/mop/mockimo/2020.pdf)
+	- [2019](static/mop/mockimo/2019.pdf)
+	- [2018](static/mop/mockimo/2018.pdf)
+	- [2017](static/mop/mockimo/2017.pdf)
+	- [2016](static/mop/mockimo/2016.pdf)
 
 ## Singing troupe
 
@@ -142,7 +115,25 @@ and the back contains everyone's signature.
 {{ tshirt(2019, alt = "Reference to ELMO 2019/2.") }}
 {{ tshirt(2020) }}
 {{ tshirt(2020, alt = "Reverse for 2020 shirt", ext = "back.png") }}
-{{ tshirt(2021) }}
+
+## Quotes
+
+<div class="chooser empty-chooser"></div>
+
+<div data-year="2021" data-header="Quotes 2021" class="hidden" markdown="block">
+- Evan: "I'm Evan. I guess I'm a PhD student at MIT?"
+- Evan: "Most problems require you to be awake."
+- Evan: "I hate trying to be nice."
+- Evan: "Where's Po? I think I actually need him for once."
+</div>
+
+<div data-year="2020" data-header="Quotes 2020" class="hidden" markdown="block">
+- Evan: "I trust the Russians."
+- Solutions packet for Test 7:
+	"By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
+	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
+</div>
+
 
 <style type="text/css">
 a img.tshirt {
@@ -163,21 +154,24 @@ div.hidden {
 	padding: 6px;
 }
 
-div.chooser {
-	margin: -10px auto 10px auto;
+.chooser {
 	text-align: center;
 }
-div.chooser ul {
+div.chooser {
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+.chooser ul {
 	list-style: none;
 	padding: 0;
 	margin-bottom: 0px;
 	border: 2px dotted blue;
 	border-radius: 4px;
 }
-div.chooser ul > li {
+.chooser ul > li {
 	display: inline;
 }
-div.chooser ul > li:not(:last-child)::after {
+.chooser ul > li:not(:last-child)::after {
 	content: " • ";
 }
 </style>
