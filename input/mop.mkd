@@ -146,7 +146,7 @@ and the back contains everyone's signature.
 - Evan: "Where's Po? I think I actually need him for once."
 - Jeffrey: "Base times height is not area. This is probably a useful fact to know."
 - Jeffrey: "Is fermented spit not fine?"
-- Jeffrey: "Just to check, $\frac{K}{2a} is the height of a triangle, right?"
+- Jeffrey: "Just to check, $\frac{K}{2a}$ is the height of a triangle, right?"
 </div>
 
 <div data-year="2020" data-header="Quotes 2020" class="hidden" markdown="block">
