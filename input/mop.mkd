@@ -31,16 +31,14 @@ there is also a team of "teaching assistants"
 (although we typically just call them "graders")
 which help with logistical work and do the arduous task of marking exams.
 
-## ELMO
+## Problems
 
-Written by new MOPpers for returning MOPpers,
+The **ELMO** is written by new MOPpers for returning MOPpers,
 featuring "teams" and coordination.
 See [ELMO page](https://web.evanchen.cc/elmo/general.html).
 Also often open to guests the public by post on AoPS.
 
-## Mock IMO
-
-The *Mock IMO* is run by the staff using past Shortlist problems;
+The **Mock IMO** is run by the staff using past Shortlist problems;
 it also features a mock coordination where the six members of the IMO team.
 (See [FAQ CR-10](https://web.evanchen.cc/faq-rules.html#CR-10)
 for coordination details.)
@@ -56,11 +54,8 @@ for the following years.
 - [2016](static/mop/mockimo/2016.pdf)
 </div>
 
-<!-- TODO link -->
-
-## MOP Homework
-
-Problems to talk about at the airport en route to CMU.
+The staff also provide **MOP homework** to work on before camp starts,
+mostly for fun and so people have something to talk about at airport.
 Here are homework problems from the following years.
 
 <div class="chooser list-chooser" markdown="1">
@@ -100,18 +95,48 @@ You can view quotes for the following years.
 
 ## Singing troupe
 
-The **MOP Singing Troupe** is a tradition dating back to around 2010,
+The MOP Singing Troupe is a tradition dating back to around 2010,
 started by Evan o'Dorney.
 It consists of people (trying to) sing.
 At each talent show, it is tradition for the singing troupe
 to be the opening and closing act.
 
-Here is repertoire from recent years.
+Here is repertoire from recent years (woefully incomplete).
 
 <div class="chooser empty-chooser"></div>
 
-<div data-header="2021"data-year="2021" class="hidden" markdown="1">
-TO BE WRITTEN
+<div data-header="Singing troupe 2020" data-year="2020" class="hidden" markdown="1">
+- A Million Dreams
+- Defying Gravity
+</div>
+
+<div data-header="Singing troupe 2012" data-year="2012" class="hidden" markdown="1">
+- Defying Gravity
+- Do You Hear the People Sing
+- I'm a Rock
+- Memory
+- On My Own
+- One Short Day
+- Popular
+- Shall We Dance
+- The Music of the Night
+- The Phantom of the Opera
+- The Point of No Return
+- The Wizard and I
+</div>
+
+<div data-header="2011" data-year="2011" class="hidden" markdown="1">
+- Defying Gravity, and parody
+	[Coordinate Bashing](https://web.evanchen.cc/static/sonnhard.pdf)
+- Do You Hear The People Sing, and parody *Do You Hear the Teapot Sing*
+- Finite Simple Group of Order Two
+- Memory
+- Music of the Night
+- One Short Day
+- Shall We Dance?
+- Think of Me
+- Wishing You Were Somehow Here Again
+- Wonderful
 </div>
 
 ## The letter S
@@ -121,22 +146,21 @@ but the letter S was almost universally ignored by staff and students,
 and the deletion of the letter S became an ongoing gag.
 The S was finally officially excised starting in MOP 2017.
 
-<!-- TODO write -->
-
 ## T-shirts
 
 Traditionally, MOP T-shirts are printed in black/white on grey.
 This page contains art assets that were used on T-shirts in various years.
+With the exception of 2020, usually there is only a front design,
+and the back contains everyone's signature.
 
-Here are images for T-shirts in recent years.
-(Click an image to see a full-resolution version).
+Here are images for T-shirts in recent years (click to expand).
 
 {{ tshirt(2016) }}
 {{ tshirt(2017) }}
 {{ tshirt(2018, alt = "Reference to 2017 G8.") }}
 {{ tshirt(2019, alt = "Reference to ELMO 2019/2.") }}
 {{ tshirt(2020) }}
-{{ tshirt(2020, alt = "Reverse for 2020 shirt, one of the only years with no signatures on the back of the shirt.", ext = "back.png") }}
+{{ tshirt(2020, alt = "Reverse for 2020 shirt", ext = "back.png") }}
 {{ tshirt(2021) }}
 
 <style type="text/css">
