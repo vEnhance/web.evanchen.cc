@@ -5,7 +5,7 @@ description: Popular math olympiad training materials written by Evan Chen.
 
 ---
 
-[![Not an official logo, but comedic](static/mop/abcde.png){width=200px}](static/mop/abcde.png)
+[![Not an official logo, but comedic](static/mop/abcde.png){width=150px}](static/mop/abcde.png)
 {style="float:right;"}
 
 ## About MOP
@@ -116,6 +116,25 @@ and the back contains everyone's signature.
 {{ tshirt(2020) }}
 {{ tshirt(2020, alt = "Reverse for 2020 shirt", ext = "back.png") }}
 
+## Schedules
+
+<div class="chooser list-chooser" markdown="block">
+- [2021](static/mop/schedules/2021.pdf)
+- [2020](static/mop/schedules/2020.pdf)
+- [2019](static/mop/schedules/2019.pdf)
+- [2018](static/mop/schedules/2018.pdf)
+- [2017](static/mop/schedules/2017.pdf)
+- [2016](static/mop/schedules/2016.pdf)
+- [2015](static/mop/schedules/2015.pdf)
+- [2014](static/mop/schedules/2014.pdf)
+- [2013](static/mop/schedules/2013.pdf)
+- [2012](static/mop/schedules/2012.pdf)
+- [2011](static/mop/schedules/2011.pdf)
+- [2010](static/mop/schedules/2010.pdf)
+- [2009](static/mop/schedules/2009.pdf)
+- [2008](static/mop/schedules/2008.pdf)
+</div>
+
 ## Quotes
 
 <div class="chooser empty-chooser"></div>
@@ -146,6 +165,7 @@ a img.tshirt {
 }
 a img:hover {
 	box-shadow: 0px 0px 35px #dddd33;
+	background-color: #eeee88;
 }
 div.hidden {
 	display: none;
@@ -165,7 +185,7 @@ div.chooser {
 }
 .chooser ul {
 	list-style: none;
-	padding: 0;
+	padding: 0 10px 0 10px;
 	margin-bottom: 0px;
 	border: 2px dotted blue;
 	border-radius: 4px;
