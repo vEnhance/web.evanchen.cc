@@ -5,7 +5,7 @@ description: Popular math olympiad training materials written by Evan Chen.
 
 ---
 
-[![Not an official logo, but comedic](static/mop/abcde.png){width=400px}](static/mop/abcde.png)
+[![Not an official logo, but comedic](static/mop/abcde.png){width=200px}](static/mop/abcde.png)
 {style="margin:20px auto; text-align:center;"}
 
 This section of the website is dedicated to public-facing
@@ -29,11 +29,7 @@ because our naming makes lots of sense.
 In addition to instructors,
 there is also a team of "teaching assistants"
 (although we typically just call them "graders")
-which help with logistical work ando the arduous task of marking exams.
-
-This page is dedicated to archival of various MOP-related material.
-Use the navigation bar on the right to find things.
-[Razvan Gelca also has some pictures](https://www.math.ttu.edu/~rgelca/photos.html).
+which help with logistical work and do the arduous task of marking exams.
 
 ## ELMO
 
@@ -45,17 +41,13 @@ Also often open to guests the public by post on AoPS.
 ## Mock IMO
 
 The *Mock IMO* is run by the staff using past Shortlist problems;
-it also features a mock coordination where the six members of the IMO
-team have their papers exhibited in a coordination sense,
-with members of USA delegation serving as defenders
-and "grading" staff members serving as the prosecutors.
+it also features a mock coordination where the six members of the IMO team.
 (See [FAQ CR-10](https://web.evanchen.cc/faq-rules.html#CR-10)
 for coordination details.)
-
 You can download the problems (which are just from IMO Shortlist)
-for the following years:
+for the following years.
 
-<div class="chooser" markdown="1">
+<div class="chooser list-chooser" markdown="1">
 - [2016](static/mop/mockimo/2016.pdf)
 - [2017](static/mop/mockimo/2017.pdf)
 - [2018](static/mop/mockimo/2018.pdf)
@@ -69,9 +61,9 @@ for the following years:
 ## MOP Homework
 
 Problems to talk about at the airport en route to CMU.
-Here are homework problems from
+Here are homework problems from the following years.
 
-<div class="chooser" markdown="1">
+<div class="chooser list-chooser" markdown="1">
 - [2016](static/mop/mockimo/2016.pdf)
 - [2017](static/mop/mockimo/2017.pdf)
 - [2018](static/mop/mockimo/2018.pdf)
@@ -93,12 +85,18 @@ You can view quotes for the following years.
 <div class="chooser empty-chooser"></div>
 
 <div data-year="2021" data-header="Quotes 2021" class="hidden" markdown="block">
-- Evan Chen: "I'm Evan. I guess I'm a PhD student at MIT?"
-- Evan Chen: "Most problems require you to be awake."
-- Evan Chen: "$C$-indexed, hahahaha"
-- Evan Chen: "I hate trying to be nice"
-- Evan Chen: "Where's Po? I think I actually need him for once."
+- Evan: "I'm Evan. I guess I'm a PhD student at MIT?"
+- Evan: "Most problems require you to be awake."
+- Evan: "I hate trying to be nice."
+- Evan: "Where's Po? I think I actually need him for once."
 </div>
+
+<div data-year="2020" data-header="Quotes 2020" class="hidden" markdown="block">
+- Evan: "I trust the Russians."
+- Evan: "By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
+	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
+</div>
+
 
 ## Singing troupe
 
@@ -112,7 +110,8 @@ Here is repertoire from recent years.
 
 <div class="chooser empty-chooser"></div>
 
-<div data-year="2021" class="hidden" markdown="1">
+<div data-header="2021"data-year="2021" class="hidden" markdown="1">
+TO BE WRITTEN
 </div>
 
 ## The letter S
@@ -158,11 +157,30 @@ div.hidden {
 	background-color: #e4fbf9;
 	padding: 6px;
 }
+
+div.chooser {
+	margin: -15px auto 10px auto;
+	text-align: center;
+}
+div.chooser ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0px;
+	border: 2px dotted blue;
+	border-radius: 4px;
+}
+div.chooser ul > li {
+	display: inline;
+}
+div.chooser ul > li:not(:last-child)::after {
+	content: " • ";
+}
 </style>
 
 <script type="text/javascript">
 $(() => {
-	$('.empty-chooser').append('<ul></ul>');
+	$('.list-chooser a').attr('target', '_blank');
+	$('.empty-chooser').html('<ul></ul>');
 	$(".hidden").each((index, el) => {
 		const heading = $(el).attr('data-header');
 		const h3 = $(`<h3>${heading}</h3>`);
@@ -172,14 +190,11 @@ $(() => {
 		</button>`);
 		h3.append(close);
 		close.on('click', () => { $(el).hide(); });
-
 		$(el).prepend(h3);
 		const year = $(el).attr('data-year');
-		const concealer = $(`<li>`
-			+ `<a href="javascript:void(0);" class="reveal">${year}</a>`
-			+ `</li>`);
-		$(el).prev('.empty-chooser').find('ul').append(concealer);
-		concealer.on('click', () => { $(el).toggle(); });
+		const link = $(`<li><a href="javascript:void(0);">${year}</a></li>`);
+		$(el).prev('.empty-chooser').find('ul').append(link);
+		link.on('click', () => { $(el).toggle(); });
 	});
 });
 </script>
