@@ -164,7 +164,7 @@ div.hidden {
 }
 
 div.chooser {
-	margin: -15px auto 10px auto;
+	margin: -10px auto 10px auto;
 	text-align: center;
 }
 div.chooser ul {
