@@ -43,7 +43,7 @@ The S was finally officially deleted in 2017.
 - The **Mock IMO** is run by staff using [ISL](faq-rules.html#CR-11);
 	it also features a mock
 	[coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
-	You can download the problems (from IMO Shortlist) here:
+	You can download the problems here:
 	<span class="chooser list-chooser" markdown="block">
 	- [2020](static/mop/mockimo/2020.pdf)
 	- [2019](static/mop/mockimo/2019.pdf)
@@ -121,10 +121,13 @@ and the back contains everyone's signature.
 <div class="chooser empty-chooser"></div>
 
 <div data-year="2021" data-header="Quotes 2021" class="hidden" markdown="block">
+- Evan: "I hate trying to be nice."
 - Evan: "I'm Evan. I guess I'm a PhD student at MIT?"
 - Evan: "Most problems require you to be awake."
-- Evan: "I hate trying to be nice."
 - Evan: "Where's Po? I think I actually need him for once."
+- Jeffrey: "Base times height is not area. This is probably a useful fact to know."
+- Jeffrey: "Is fermented spit not fine?"
+- Jeffrey: "Just to check, $\frac{K}{2a} is the height of a triangle, right?"
 </div>
 
 <div data-year="2020" data-header="Quotes 2020" class="hidden" markdown="block">
@@ -133,7 +136,6 @@ and the back contains everyone's signature.
 	"By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
 	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
 </div>
-
 
 <style type="text/css">
 a img.tshirt {
