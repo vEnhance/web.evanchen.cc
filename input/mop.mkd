@@ -109,6 +109,23 @@ Here are recent songs we peformed:
 - Defying Gravity
 </div>
 
+<div data-header="Singing troupe 2019" data-year="2019" class="hidden" markdown="1">
+- Defying Gravity
+- Good For You
+- My Eyes
+- My Heart Will Go On
+- Requiem
+- Unravel (English version)
+</div>
+
+<div data-header="Singing troupe 2018" data-year="2018" class="hidden" markdown="1">
+- A Million Dreams
+- Defying Gravity
+- Memory
+- My Eyes
+- Rewrite the Stars
+</div>
+
 <div data-header="Singing troupe 2012" data-year="2012" class="hidden" markdown="1">
 - Defying Gravity
 - Do You Hear the People Sing
