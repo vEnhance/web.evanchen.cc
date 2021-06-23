@@ -196,9 +196,9 @@ h5, h6 {
     border-radius: 11px;
     -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
-    -webkit-transition: all 0.7s ease-in-out;
-    -moz-transition: all 0.7s ease-in-out;
-    -o-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
     background-color: #AFEEEE;
     /* light blue background for side */
     line-height: 20px;
@@ -208,12 +208,10 @@ h5, h6 {
 
 /* Brighten side box on hover */
 #side {
-    opacity: 0.4;
-    filter: alpha(opacity=40);
+    opacity: 0.6;
 }
 #side:hover {
     opacity: 1.0;
-    filter: alpha(opacity=100);
 }
 #side h4, #side h5, #side h6 {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
