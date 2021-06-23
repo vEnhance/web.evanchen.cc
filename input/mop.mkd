@@ -197,7 +197,10 @@ div.chooser {
 	border: 2px dotted #0033dd;
 }
 .empty-chooser ul {
-	border: 2px dotted #009999;
+	border: 2px dotted #990099;
+}
+.empty-chooser a:link {
+	color: #af2f2f;
 }
 .chooser ul > li {
 	display: inline;
