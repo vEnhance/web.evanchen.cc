@@ -160,19 +160,26 @@ Here are recent songs we peformed:
 <div class="chooser empty-chooser"></div>
 
 <div data-year="2021" data-header="Quotes 2021" class="hidden" markdown="block">
-- Alex: "Combo is only enjoyable when you can solve it."
-- Evan: "I hate trying to be nice."
-- Evan: "I'm Evan. I guess I'm a PhD student at MIT?"
-- Evan: "Most problems require you to be awake."
-- Evan: "Where's Po? I think I actually need him for once."
-- Jeffrey: "Base times height is not area. This is probably a useful fact to know."
-- Jeffrey: "Is fermented spit not fine?"
-- Jeffrey: "Just to check, $\frac{K}{2a}$ is the height of a triangle, right?"
-- Serena: "Panel topic: why don't you want to be a panelist?"
+- Alex Zhao: "Combo is only enjoyable when you can solve it."
+- Ethan Liu: "I kinda don't want to do any more math, I just want to do algebra"
+- Evan Chen: "I get crabby when people don't do what I tell them to.
+	It's why i can never have a boss."
+- Evan Chen: "I hate trying to be nice."
+- Evan Chen: "I'm Evan. I guess I'm a PhD student at MIT?"
+- Evan Chen: "Most problems require you to be awake."
+- Evan Chen: "Where's Po? I think I actually need him for once."
+- Holden Mui: "almost to 3 hours" (during office hours)
+- Jeffrey Chen: "Base times height is not area.
+	This is probably a useful fact to know."
+- (right after) "Just to check, $\frac{K}{2a}$ is the height of a triangle, right?"
+- Jeffrey Chen: "Is fermented spit not fine?"
+- Raymond Feng: "OP STICK"
+- Serena Xu: "Panel topic: why don't you want to be a panelist?"
 </div>
 
 <div data-year="2020" data-header="Quotes 2020" class="hidden" markdown="block">
-- Evan: "I trust the Russians."
+- Evan Chen: "I trust the Russians."
+- Holden Mui: "How many points do we get for misreading the problem?"
 - Solutions packet for Test 7:
 	"By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
 	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
