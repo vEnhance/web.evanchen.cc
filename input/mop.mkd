@@ -51,7 +51,7 @@ and the back contains everyone's signature.
 
 ## {{ hl("problems", "Problems") }}
 
-- The **ELMO** is written by new MOPpers for returning MOPpers,
+- The **ELMO** is written by returning MOPpers for new MOPpers,
 	featuring "teams" and coordination.
 	See [ELMO page](https://web.evanchen.cc/elmo/general.html).
 - The **Mock IMO** is run by staff using [ISL](faq-rules.html#CR-11);
