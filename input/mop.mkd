@@ -151,6 +151,7 @@ Here are recent songs we peformed:
 - Jeffrey: "Base times height is not area. This is probably a useful fact to know."
 - Jeffrey: "Is fermented spit not fine?"
 - Jeffrey: "Just to check, $\frac{K}{2a}$ is the height of a triangle, right?"
+- Serena: "Panel topic: why don't you want to be a panelist?"
 </div>
 
 <div data-year="2020" data-header="Quotes 2020" class="hidden" markdown="block">
