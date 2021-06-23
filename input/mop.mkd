@@ -75,6 +75,27 @@ and the back contains everyone's signature.
 	- [2017](static/mop/homework/MOP2017HW.pdf)
 	- [2016](static/mop/homework/MOP2016HW.pdf)
 
+## {{ hl("schedules", "Schedules") }}
+
+<div class="chooser list-chooser" markdown="block">
+- [2021](static/mop/schedules/2021.pdf)
+- [2020](static/mop/schedules/2020.pdf)
+- [2019](static/mop/schedules/2019.pdf)
+- [2018](static/mop/schedules/2018.pdf)
+- [2017](static/mop/schedules/2017.pdf)
+- [2016](static/mop/schedules/2016.pdf)
+- [2015](static/mop/schedules/2015.pdf)
+- [2014](static/mop/schedules/2014.pdf)
+- [2013](static/mop/schedules/2013.pdf)
+- [2012](static/mop/schedules/2012.pdf)
+- [2011](static/mop/schedules/2011.pdf)
+- [2010](static/mop/schedules/2010.pdf)
+- [2009](static/mop/schedules/2009.pdf)
+- [2008](static/mop/schedules/2008.pdf)
+</div>
+
+---
+
 ## {{ hl("singing", "Singing troupe") }}
 
 The MOP Singing Troupe is a tradition dating back to around 2010,
@@ -115,25 +136,6 @@ Here are recent songs we peformed:
 - Think of Me
 - Wishing You Were Somehow Here Again
 - Wonderful
-</div>
-
-## {{ hl("schedules", "Schedules") }}
-
-<div class="chooser list-chooser" markdown="block">
-- [2021](static/mop/schedules/2021.pdf)
-- [2020](static/mop/schedules/2020.pdf)
-- [2019](static/mop/schedules/2019.pdf)
-- [2018](static/mop/schedules/2018.pdf)
-- [2017](static/mop/schedules/2017.pdf)
-- [2016](static/mop/schedules/2016.pdf)
-- [2015](static/mop/schedules/2015.pdf)
-- [2014](static/mop/schedules/2014.pdf)
-- [2013](static/mop/schedules/2013.pdf)
-- [2012](static/mop/schedules/2012.pdf)
-- [2011](static/mop/schedules/2011.pdf)
-- [2010](static/mop/schedules/2010.pdf)
-- [2009](static/mop/schedules/2009.pdf)
-- [2008](static/mop/schedules/2008.pdf)
 </div>
 
 ## {{ hl("quotes", "Quotes") }}
@@ -189,8 +191,13 @@ div.chooser {
 	list-style: none;
 	padding: 0 10px 0 10px;
 	margin-bottom: 0px;
-	border: 2px dotted blue;
 	border-radius: 4px;
+}
+.list-chooser ul {
+	border: 2px dotted #0033dd;
+}
+.empty-chooser ul {
+	border: 2px dotted #009999;
 }
 .chooser ul > li {
 	display: inline;
