@@ -33,7 +33,7 @@ In descending order of importance for new solvers:
 	analogous to not bringing scratch paper to the USAMO.
 	It’s literally impossible.)
 	Google spreadsheet works well if you are working in teams.
-	* If using Google spreadsheets, there are some annoying tasks
+	- If using Google spreadsheets, there are some annoying tasks
 		you might like to automate such as A=1 to Z=26,
 		indexing with spaces deleted, etc.
 		[There's a library for this](https://github.com/mmachenry/mystery-hunt-sheets-addons).
@@ -65,21 +65,21 @@ In descending order of importance for new solvers:
 
 My favorite puzzles I wrote, in roughly ascending order of length:
 
-+ [Nutrition Facts](https://perpendicular.institute/puzzle/nutrition-facts/)
-+ [Blind Calculation](https://perpendicular.institute/puzzle/blind-calculation/)
-+ [A Bit of Light](https://perpendicular.institute/puzzle/a-bit-of-light/)
-+ [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
-+ [Clueless](https://perpendicular.institute/puzzle/clueless/)
-+ [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/)
-+ [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
-+ [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
+- [Nutrition Facts](https://perpendicular.institute/puzzle/nutrition-facts/)
+- [Blind Calculation](https://perpendicular.institute/puzzle/blind-calculation/)
+- [A Bit of Light](https://perpendicular.institute/puzzle/a-bit-of-light/)
+- [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
+- [Clueless](https://perpendicular.institute/puzzle/clueless/)
+- [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/)
+- [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
+- [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
 
 ## {{ hl("writing", "Thoughts on puzzle-writing") }}
 
 Two blog posts of mine:
 
-+ [Some general comments](https://usamo.wordpress.com/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
-+ [Long stories for Mystery Hunt 2021](https://usamo.wordpress.com/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
+- [Some general comments](https://usamo.wordpress.com/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
+- [Long stories for Mystery Hunt 2021](https://usamo.wordpress.com/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
 
 [ppint]: http://puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf
 [advice]: https://www.mit.edu/~puzzle/resources/thinkingaboutpuzzles.html
