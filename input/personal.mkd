@@ -32,7 +32,7 @@ The two puzzle hunts that I worked most with were:
 	[Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
 	[Clueless](https://perpendicular.institute/puzzle/clueless/),
 	[Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/).
-+ ...
++ The [2021 MOP mini-hunt](mop/2021.html).
 
 If you want to learn more about puzzle hunts,
 check the [dedicated page](puzzlehunt.html).

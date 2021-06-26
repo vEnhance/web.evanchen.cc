@@ -1,0 +1,12 @@
+title: Puzzle hunt
+header: Puzzle hunt
+menu-position: 44
+indent: 1
+
+---
+
+In 2021, I ran the first MOP puzzle hunt, a miniature one-round hunt.
+You can find it linked below, freely accessible to the public.
+
+* [MOP 2021 hunt](mop/2021.html),
+	written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
