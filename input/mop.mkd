@@ -36,6 +36,12 @@ but the letter S was universally ignored by staff and students,
 and its omission became an ongoing gag.
 The S was finally officially deleted in 2017.
 
+## {{ hl("puzzle", "MOP Puzzle Hunt") }}
+
+- [MOP 2021 puzzle hunt](mop/2021.html),
+	a miniature one-round hunt
+	written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
+
 ## {{ hl("tshirt", "T-shirt designs") }}
 
 Traditionally, MOP T-shirts are printed in black on grey.

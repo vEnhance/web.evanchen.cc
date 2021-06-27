@@ -5,6 +5,25 @@ indent: 1
 
 ---
 
+## {{ hl("own", "Evan's puzzles") }}
+
+Events:
+
+- [MOP 2021 puzzle hunt](mop/2021.html),
+	a miniature one-round hunt
+	written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
+
+Individual puzzles from Mystery Hunt 2021:
+
+- [Nutrition Facts](https://perpendicular.institute/puzzle/nutrition-facts/)
+- [Blind Calculation](https://perpendicular.institute/puzzle/blind-calculation/)
+- [A Bit of Light](https://perpendicular.institute/puzzle/a-bit-of-light/)
+- [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
+- [Clueless](https://perpendicular.institute/puzzle/clueless/)
+- [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/)
+- [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
+- [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
+
 ## {{ hl("new", "New to puzzle hunts?") }}
 
 If you are totally new to puzzle hunts,
@@ -60,19 +79,6 @@ In descending order of importance for new solvers:
 	if it’s not relevant, e.g. if the order of a list is irrelevant,
 	it tends to be in alphabetical order.
 7. Look at the **puzzle title** and **flavor text** for clues.
-
-## {{ hl("own", "Evan's puzzles") }}
-
-My favorite puzzles I wrote, in roughly ascending order of length:
-
-- [Nutrition Facts](https://perpendicular.institute/puzzle/nutrition-facts/)
-- [Blind Calculation](https://perpendicular.institute/puzzle/blind-calculation/)
-- [A Bit of Light](https://perpendicular.institute/puzzle/a-bit-of-light/)
-- [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
-- [Clueless](https://perpendicular.institute/puzzle/clueless/)
-- [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/)
-- [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
-- [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
 
 ## {{ hl("writing", "Thoughts on puzzle-writing") }}
 
