@@ -87,6 +87,6 @@ def hl(link, text):
 def tshirt(year, alt = None, ext = '.png'):
 	location = f'static/mop/shirts/{year}{ext}'
 	if alt is None:
-		alt = f'Design for {year}.'
+		alt = f'{year}.'
 	return f'<a href="{location}" title="{alt}" class="tshirt-link">'\
 			f'<img src="{location}" alt="{alt}" class="tshirt" /></a>'
