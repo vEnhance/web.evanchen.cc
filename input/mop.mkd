@@ -54,7 +54,7 @@ and the back contains everyone's signature.
 {{ tshirt(2019, alt = "2019; reference to ELMO 2019/2.") }}
 {{ tshirt(2020) }}
 {{ tshirt(2020, alt = "2020; reverse.", ext = "back.png") }}
-{{ tshirt(2021, alt = "2021; reference to USAMO 2021/3.", ext = "back.png") }}
+{{ tshirt(2021, alt = "2021; reference to USAMO 2021/3.") }}
 {{ tshirt(2021, alt = "2021; reverse.", ext = "back.png") }}
 
 ## {{ hl("problems", "Problems") }}
