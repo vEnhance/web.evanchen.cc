@@ -6,12 +6,12 @@ menu-position: 50
 
 Some other places on the Internet you can find me:
 
-+ [Blog on usamo.wordpress.com](https://usamo.wordpress.com)
-+ [Facebook page](https://facebook.com/evanchenmath/)
-+ [Twitch and Youtube](videos.html)
-+ [Discord](discord.html)
-+ [Steam][steam]
-+ [My Anime List](https://myanimelist.net/animelist/v_Enhance)
+- [Blog on usamo.wordpress.com](https://usamo.wordpress.com)
+- [Facebook page](https://facebook.com/evanchenmath/)
+- [Twitch and Youtube](videos.html)
+- [Discord](discord.html)
+- [Steam][steam]
+- [My Anime List](https://myanimelist.net/animelist/v_Enhance)
 
 Here's a little about myself,
 including things I like so much that
@@ -27,12 +27,12 @@ These days, I usually hunt on  ✈✈✈ Galactic Trendsetters ✈✈✈.
 
 The two puzzle hunts that I worked most with were:
 
-+ [2021 hunt](https://perpendicular.institute/):
+- [2021 hunt](https://perpendicular.institute/):
 	highlights of mine include
 	[Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
 	[Clueless](https://perpendicular.institute/puzzle/clueless/),
 	[Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/).
-+ The [2021 MOP mini-hunt](mop/2021.html).
+- The [2021 MOP mini-hunt](mop/2021.html).
 
 If you want to learn more about puzzle hunts,
 check the [dedicated page](puzzlehunt.html).
@@ -71,18 +71,18 @@ games with engaging story.
 I am a devoted [Arch Linux](https://www.archlinux.org/) user.
 Some details about my setup:
 
-+ Window manager: [i3](https://i3wm.org/),
+- Window manager: [i3](https://i3wm.org/),
   with [py3status](https://py3status.readthedocs.io/en/latest/index.html)
   and [rofi](https://github.com/davatorium/rofiO)
-+ Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-+ Editor: [Vim](https://www.vim.org/)
-+ Shell: [Fish](http://fishshell.com/),
-  using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
-+ MUA: [NeoMutt](https://neomutt.org/)
-+ TeX distribution: [TeX Live](https://tug.org/texlive/)
-+ File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)
-+ My [browser homepage](static/browser-homepage.html)
+- Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- [Browser homepage](static/browser-homepage.html)
   (click the timer to change target date)
+- Editor: [Vim](https://www.vim.org/)
+- File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)
+- MUA: [NeoMutt](https://neomutt.org/)
+- TeX distribution: [TeX Live](https://tug.org/texlive/)
+- Shell: [Fish](http://fishshell.com/),
+  using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
 
 You can find a lot of my configuration files on my
 [dotfiles github repository](https://github.com/vEnhance/dotfiles).
@@ -92,10 +92,10 @@ rather than QWERTY.
 
 ## {{ hl("misc", "Miscellaneous") }}
 
-+ Favorite triangle center: [Orthocenter][orthocenter]
-+ Favorite circle: [A-mixtilinear incircle][mixt]
-+ Favorite color: [Aquamarine][aquamarine]
-+ [Math contest photos and history](myscores.html)
+- Favorite triangle center: [Orthocenter][orthocenter]
+- Favorite circle: [A-mixtilinear incircle][mixt]
+- Favorite color: [Aquamarine][aquamarine]
+- [Math contest photos and history](myscores.html)
 
 [orthocenter]: https://mathworld.wolfram.com/Orthocenter.html
 [mixt]: https://mathworld.wolfram.com/MixtilinearIncircles.html
