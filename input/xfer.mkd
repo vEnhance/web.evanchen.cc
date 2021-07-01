@@ -1,0 +1,59 @@
+title: XFER
+header: evanchen.cc XFER
+description: Evan is sending you a file.
+
+---
+
+Evan Chen is sending you a file,
+[isn't that great](https://www.youtube.com/watch?v=ChTGq3o9D6c)?
+
+<div class="form-group">
+<label for="xfer_filename">Filename</label>
+<input class="form-control" id="xfer_filename"></input>
+</label>
+</div>
+<div>
+<label for="xfer_password">Password</label>
+<input type="password" class="form-control" id="xfer_password"></input>
+</label>
+</div>
+<hr />
+<div class="alert alert-primary" id="output">
+Please type in the filename and password.
+</div>
+
+<script type="text/javascript">
+$(() => {
+	async function digestMessage(message) {
+		const msgUint8 = new TextEncoder().encode(message);
+		const hashBuffer = await crypto.subtle.digest('SHA-512', msgUint8);
+		const hashArray = Array.from(new Uint8Array(hashBuffer));
+		const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+		return hashHex;
+	}
+
+	const url = new URL(window.location.href);
+	const init_filename = url.searchParams.get('f');
+	const target_hash = url.searchParams.get('h');
+	if (init_filename) {
+		$("#xfer_filename").val(init_filename);
+	}
+	$("#xfer_password").on('focusout', async () => {
+		const filename = $("xfer_filename").val();
+		const password = $("xfer_password").val();
+		const kludge = 'evanchen.cc/xfer' + filename + '|' + password;
+		const h1 = await digestMessage(kludge);
+		const h2 = await digestMessage(h1);
+		if (target_hash != h2 && target_hash) {
+			$("#output").removeClass();
+			$("#output").addClass("alert alert-danger")
+			$("#output").html("Wrong password! Try again");
+		} else {
+			const link = $(`<a href="xfer-payload/${h1}" class="alert-link">Download now</a>`);
+			$("#output").removeClass();
+			$("#output").addClass("alert alert-success")
+			$("#output").html(link);
+		}
+	});
+});
+</script>
