@@ -4,12 +4,14 @@ description: Evan is sending you a file.
 
 ---
 
-<div class="alert alert-secondary" id="output" markdown="1">
-<h2 class="alert-heading">Hello hello hey</h2>
+<div class="alert alert-secondary" id="output">
+<h3 class="alert-heading">Hello hello hey</h3>
 Evan Chen is sending you a private file,
-[isn't that great](https://www.youtube.com/watch?v=ChTGq3o9D6c)?
+<a href="https://youtu.be/ChTGq3o9D6c">isn't that great</a>?
 </div>
+
 <hr />
+
 <div class="form-group">
 <label for="xfer_filename"><h3>Filename</h3></label>
 <input class="form-control" style="font-family:Inconsolata,monospace;" id="xfer_filename"></input>
@@ -43,28 +45,38 @@ $(() => {
 		const kludge = 'evanchen.cc/xfer|' + filename + '|' + password;
 		console.log(kludge);
 		const h1 = await digestMessage(kludge);
-		const h2 = await digestMessage(h1);
-		const checksum = h2.slice(0,6);
+		const h3 = await digestMessage(h1);
+		const checksum = h3.slice(0,6);
 		if (password === "") {
 			$("#output").removeClass();
-			$("#output").addClass("alert alert-primary");
+			$("#output").addClass("alert alert-warning");
 			$("#output").html(
-				`<h2 class="alert-heading">Aloha</h2>`
+				`<h3 class="alert-heading">Aloha</h3>`
 				+ `Type the filename and password (both required).`
 			);
 		} else if (target && target !== checksum) {
 			$("#output").removeClass();
 			$("#output").addClass("alert alert-danger");
 			$("#output").html(
-				`<h2 class="alert-heading">Wrong!</h2>`
+				`<h3 class="alert-heading">Wrong!</h3>`
 				+ `You entered an invalid password, try again.`
+			);
+		} else if (!target) {
+			$("#output").removeClass();
+			$("#output").addClass("alert alert-primary")
+			$("#output").html(
+				`<h3 class="alert-heading">Here you go!</h3>`
+				+ `<a href="xfer-payload/${h1}" `
+				+ `download="${filename}" class="alert-link">`
+				+ `Download now</a>. `
+				+ `If you get a 404 error, check the password.`
 			);
 		} else {
 			$("#output").removeClass();
 			$("#output").addClass("alert alert-success")
 			$("#output").html(
-				`<h2 class="alert-heading">Success!</h2>`
-				+ `<a href="xfer-payload/${result}" `
+				`<h3 class="alert-heading">Success!</h3>`
+				+ `<a href="xfer-payload/${h1}" `
 				+ `download="${filename}" class="alert-link">`
 				+ `Download now</a>.`
 			);
