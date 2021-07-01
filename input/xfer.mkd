@@ -4,26 +4,25 @@ description: Evan is sending you a file.
 
 ---
 
-Evan Chen is sending you a file,
+<div class="alert alert-secondary" id="output" markdown="1">
+<h2 class="alert-heading">Hello hello hey</h2>
+Evan Chen is sending you a private file,
 [isn't that great](https://www.youtube.com/watch?v=ChTGq3o9D6c)?
-
+</div>
+<hr />
 <div class="form-group">
-<label for="xfer_filename">Filename</label>
-<input class="form-control" id="xfer_filename"></input>
+<label for="xfer_filename"><h3>Filename</h3></label>
+<input class="form-control" style="font-family:Inconsolata,monospace;" id="xfer_filename"></input>
 </label>
 </div>
 <div>
-<label for="xfer_password">Password</label>
+<label for="xfer_password"><h3>Password</h3></label>
 <input type="password" class="form-control" id="xfer_password"></input>
 </label>
 </div>
-<hr />
-<div class="alert alert-primary" id="output">
-Please type in the filename and password.
-</div>
-
 <script type="text/javascript">
 $(() => {
+
 	async function digestMessage(message) {
 		const msgUint8 = new TextEncoder().encode(message);
 		const hashBuffer = await crypto.subtle.digest('SHA-512', msgUint8);
@@ -31,29 +30,46 @@ $(() => {
 		const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 		return hashHex;
 	}
-
 	const url = new URL(window.location.href);
 	const init_filename = url.searchParams.get('f');
-	const target_hash = url.searchParams.get('h');
+	const target = url.searchParams.get('h');
 	if (init_filename) {
 		$("#xfer_filename").val(init_filename);
 	}
+
 	$("#xfer_password").on('focusout', async () => {
-		const filename = $("xfer_filename").val();
-		const password = $("xfer_password").val();
-		const kludge = 'evanchen.cc/xfer' + filename + '|' + password;
+		const filename = $("#xfer_filename").val();
+		const password = $("#xfer_password").val();
+		const kludge = 'evanchen.cc/xfer|' + filename + '|' + password;
+		console.log(kludge);
 		const h1 = await digestMessage(kludge);
 		const h2 = await digestMessage(h1);
-		if (target_hash != h2 && target_hash) {
+		const checksum = h2.slice(0,6);
+		if (password === "") {
 			$("#output").removeClass();
-			$("#output").addClass("alert alert-danger")
-			$("#output").html("Wrong password! Try again");
+			$("#output").addClass("alert alert-primary");
+			$("#output").html(
+				`<h2 class="alert-heading">Aloha</h2>`
+				+ `Type the filename and password (both required).`
+			);
+		} else if (target && target !== checksum) {
+			$("#output").removeClass();
+			$("#output").addClass("alert alert-danger");
+			$("#output").html(
+				`<h2 class="alert-heading">Wrong!</h2>`
+				+ `You entered an invalid password, try again.`
+			);
 		} else {
-			const link = $(`<a href="xfer-payload/${h1}" class="alert-link">Download now</a>`);
 			$("#output").removeClass();
 			$("#output").addClass("alert alert-success")
-			$("#output").html(link);
+			$("#output").html(
+				`<h2 class="alert-heading">Success!</h2>`
+				+ `<a href="xfer-payload/${result}" `
+				+ `download="${filename}" class="alert-link">`
+				+ `Download now</a>.`
+			);
 		}
+
 	});
 });
 </script>
