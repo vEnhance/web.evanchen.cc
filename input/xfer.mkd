@@ -54,7 +54,7 @@ $(() => {
 				`<h3 class="alert-heading">Aloha</h3>`
 				+ `Type the filename and password (both required).`
 			);
-		} else if (target && target !== checksum) {
+		} else if (target && target !== checksum && filename === init_filename) {
 			$("#output").removeClass();
 			$("#output").addClass("alert alert-danger");
 			$("#output").html(
@@ -68,7 +68,7 @@ $(() => {
 				`<h3 class="alert-heading">Here you go!</h3>`
 				+ `<a href="xfer-payload/${h1}" `
 				+ `download="${filename}" class="alert-link">`
-				+ `Download now</a>. `
+				+ `Download now (checksum ${checksum})</a>. `
 				+ `If you get a 404 error, check the password.`
 			);
 		} else {
