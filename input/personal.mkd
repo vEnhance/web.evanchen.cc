@@ -79,6 +79,7 @@ Some details about my setup:
   (click the timer to change target date)
 - Editor: [Vim](https://www.vim.org/)
 - File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)
+- Monospace font: [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
 - MUA: [NeoMutt](https://neomutt.org/)
 - TeX distribution: [TeX Live](https://tug.org/texlive/)
 - Shell: [Fish](http://fishshell.com/),
