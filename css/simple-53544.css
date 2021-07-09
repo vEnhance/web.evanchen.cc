@@ -73,6 +73,8 @@ h3 a:link, h3 a:visited {
 }
 img {
     border: 0 none;
+    width: 90%;
+    margin: 0 auto;
 }
 
 a.hash-link {
