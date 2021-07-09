@@ -139,6 +139,50 @@ and so on.
 Also Fish autocomplete is life-changing 🐟 ❤️  🔥
 (zsh is good too I hear.)
 
-### {{ faq("U-6", "Why Vim?") }}
+### {{ faq("U-6a", "Why Vim?") }}
 
-To be written.
+Pretty similar to reasons I use Linux.
+
+- It is extremely customizable, both by
+	[text](https://github.com/vEnhance/dotfiles/blob/main/vimrc),
+	and by a gazillion plugins (also via text)
+	for IDE-like features and autocomplete and so on.
+	(On the scale of Vim users, I lean feature-heavy over lightweight;
+	I use both ALE and CoC.)
+- Any Linux computer will have it.
+- It's fast.
+- Most importantly, it is a [modal editor](https://en.wikipedia.org/wiki/Vi#Interface).
+- It is programmable. If you want to, say,
+	toggle the case of the first character of the next 100 lines,
+	you type `qa~j^q99@a`. You don't need any external program.
+
+The last bullet is the most important one for me,
+and also the one that will be most foreign to those who haven't heard about it.
+Vim is a modal editor which means that there are different *modes*
+for entering text versus navigating the document,
+that you constantly switch between.
+So when you are typing new text, Vim behaves much like a standard editor,
+with every keystroke adding one charcater.
+But when you are *editing* or *moving*,
+instead *every keystroke is a command*.
+Here's a picture of my table
+[taken from vi-emu](https://boredzo.org/vi_tutorial/vi_tutorial-Dvorak-Color.pdf)
+(Dvorak keys):
+
+![Power overwhelming.](static/vim-dvorak.png)
+
+That means that if when you want to do a specific thing like
+"go to line 100" or "go to the end of this paragraph",
+you can *type what you want* (`100G` or `}` respectively in this example).
+The entire keyboard lets you navigate: basically every single key
+becomes a navigation tool like "go to end of line", "delete line",
+"copy line", "append to end of line", and so on.
+(The mouse also does things but most people use
+the keyboard since it's faster to not have to move your hands).
+
+The main downside to Vim is that there is a learning curve.
+I paid that price long ago ;)
+
+### {{ faq("U-6b", "Emacs?") }}
+
+No comment.

@@ -71,9 +71,9 @@ h2 a:link, h2 a:visited {
 h3 a:link, h3 a:visited {
     color: #a40f71;
 }
-img {
+#main img {
     border: 0 none;
-    width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
