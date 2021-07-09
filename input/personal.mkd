@@ -12,6 +12,7 @@ Some other places on the Internet you can find me:
 - [Discord](discord.html)
 - [Steam][steam]
 - [My Anime List](https://myanimelist.net/animelist/v_Enhance)
+- [Spotify](https://open.spotify.com/user/31ligpcn22uiybn6wwrfrouklsxq/playlists)
 
 Here's a little about myself,
 including things I like so much that
@@ -41,7 +42,7 @@ check the [dedicated page](puzzlehunt.html).
 
 [Hanabi](https://en.wikipedia.org/wiki/Hanabi_\(card_game\))
 is a cooperative logic-based deduction game.
-I spend quite a bit of time playing Hanabi online with the 
+I spend quite a bit of time playing Hanabi online with the
 [Hyphen-ated group](https://github.com/Zamiell/hanabi-conventions),
 which plays the game at a rather high level,
 as well as with my students.
