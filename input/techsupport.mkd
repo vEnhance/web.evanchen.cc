@@ -94,7 +94,9 @@ things you can do if you find yourself having fun and want more.
 
 4. Learn [git](https://duckduckgo.com/?q=git+tutorial).
 5. Switch from Windows or OSX to a Linux system.
-6. Learn an advanced text editor like [Vim](https://vim.org) or [Emacs](https://en.wikipedia.org/wiki/Emacs).
+6. Learn an advanced text editor like
+	 [Vim](https://www.vim.org) or
+	 [Emacs](https://en.wikipedia.org/wiki/Emacs).
 
 I'm not going to talk about the expert stuff here
 because if I do people will give up.
