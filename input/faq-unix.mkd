@@ -1,0 +1,144 @@
+title: Unix FAQ's
+header: Unix FAQ's
+description: Some FAQ's about Linux and the like.
+
+---
+
+[Return to FAQ Index.](faqs.html)
+
+These are FAQ's about software I use.
+You might also see [LaTeX FAQ's](faq-latex.html).
+
+### {{ faq("U-1", "If I don't know anything, where do I start?") }}
+
+Check the [plz learn code](techsupport.html) page.
+
+### {{ faq("U-2", "What programming language should I learn first?") }}
+
+I recommend [Python](http://openbookproject.net/thinkcs/python/english3e/index.html)
+but plenty of other languages are OK too.
+Prospective competitive programmers (IOI, etc.) should learn C++.
+
+I personally anti-recommend PHP and JavaScript because I think weakly typed
+languages are not good for learning.
+(I have no stance on duck typing vs static typing though.)
+HTML and CSS are *not* programming languages, they are markup languages.
+
+### {{ faq("U-3a", "Why do you use Linux?") }}
+
+If I had to summarize this in one word, it would be "control".
+
+I insist my computers are fully transparent and configurable.
+I want to be able to see every dial and knob and turn them as I please.
+In exchange, this means investing time to learn how my computer works,
+doing my own homework (aka search engine) whenever issues arise,
+and writing my own tools when no existing software fits my needs.
+This process is time-consuming but
+[I enjoy it](https://xkcd.com/974/) so I am happy with this cost.
+
+Also [Linux package management is
+amazing](https://itsfoss.com/package-manager/).
+If one day I hear about a program called Geogebra,
+I can install it by typing `sudo pacman -S geogebra` into my command line
+(here `pacman` is the Arch Linux package manager).
+That's *it*. You do not even need to open a web browser.
+
+### {{ faq("U-3b", "Should I try Linux?") }}
+
+- If you're not willing to use search engines to do your own homework
+	when you don't know something, then no.
+- If you're just learning how to code, then maybe.
+	Some people think it's too overwhelming to learn both at the same time,
+	others think that Windows is so bad for programming that
+	it's actually easier to switch to a beginner-friendly Linux
+	and deal with both at the same time. Up to you.
+- If you want to do serious programming (say, building a nontrivial website,
+	or doing intensive calculations that require special libraries),
+	you should consider switching more strongly. The truth is that the
+	[majority of programmers use Linux](https://www.reddit.com/r/linux/comments/vytkf),
+	and hence languages, development tools, libraries and so on
+	tend to be Linux-targeted.
+	The situation for Windows and OSX has gotten better over time,
+	but practically speaking I don't think setting up a development environment
+	is ever going to be easier on a commercial OS than on Linux.
+- If you're curious, then yes, try it out. It's free.
+	If you don't like it after trying it, switch back.
+	Just be aware there's a bit of learning curve depending on which
+	distribution you pick up.
+
+### {{ faq("U-4a", "Why do you use Arch Linux?") }}
+
+I've only used Ubuntu and Arch Linux.
+I switched from Ubuntu to Arch Linux because Arch
+
+- was faster;
+- was more lightweight (basically nothing installed by default);
+- was more transparent;
+- has significantly more up-to-date package repositories;
+- has a [do-it-yourself philosophy](https://wiki.archlinux.org/title/Arch_Linux#Principles).
+
+To me Ubuntu is sort of the midpoint of Windows and Arch Linux.
+It's a *bona fide* Linux system, but there is a lot of pre-installed parts
+and a lot of things that are hidden behind graphical interfaces.
+
+### {{ faq("U-4b", "Should I switch to Arch Linux?") }}
+
+Only if you really like doing homework ;)
+
+Note well: if you are new to Linux, installing Arch will be a trial by fire.
+This is not necessarily a bad thing; it might actually be better this way if
+your goal it learn about systems, because by the end of the process, you will
+know way more than you started with. Just be aware of it and probably block out
+a week or two.
+
+### {{ faq("U-4c", "Which Linux distribution should I use?") }}
+
+I've only tried two distributions so I have no comment here, sorry.
+Search the web.
+
+### {{ faq("U-5", "Why are you so obsessed with the terminal?") }}
+
+I think the analogy in my head is like, when you use a terminal, you are kind of
+"talking to the computer directly", rather than going through some user interface.
+It's sort of like, once you know LaTeX, you wouldn't want to go back to the
+mouse-based equation editor, because it's faster to just type `\frac12x^2+3`
+than to click on the fraction button, then type 1 and 2, then press the exponent
+button, and so on. Using the command line is like that but one level higher ---
+it controls all the files and applications.
+
+Here's an example of one way being able to talk directly helps.
+Terminal commands have something called *standard input* and *standard output*.
+So, programs can read in text from a stream (or file, etc.),
+and they will print the output to terminal by default.
+Meaning you can compose the programs together with
+[pipes](https://en.wikipedia.org/wiki/Pipeline_%28Unix%29),
+feeding the output of one program to the output of another.
+
+For example, suppose you have a program `foo` that downloads the list
+of participants on a contest sorted by score.
+I want to find all the participants with surname Chen,
+sort them alphabetically, and then put the result on my clipboard.
+Roughly, this is `foo | grep Chen | sort | xsel --clipboard`.
+
+Of course, without a terminal you *could* also run a graphical program,
+open Google sheets, copy the results in, use the filter menu,
+then sort it, and finally Ctrl-C the result. But why be so roundabout?
+You know what you want, just type it directly.
+
+The fact that all terminal programs read and write
+in a uniform way is exactly what makes this possible.
+Programmers like this simplicity and elegance.
+They like it so much that software made for sophisticated users
+often doesn't bother to provide a graphical interface.
+This is the same reason why command line flags or text-based
+configuration files tend to be text-based on Linux:
+this means they options be manipulated in any editor,
+[transferred from one computer to another via Git](https://github.com/vEnhance/dotfiles),
+and so on.
+
+Also Fish autocomplete is life-changing 🐟 ❤️  🔥
+(zsh is good too I hear.)
+
+### {{ faq("U-6", "Why Vim?") }}
+
+To be written.

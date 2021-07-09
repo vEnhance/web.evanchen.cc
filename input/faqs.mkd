@@ -9,8 +9,9 @@ indent: 1
 This is a compilation of answers to questions that I have been asked over time.
 
 * [Math Contest FAQ's](faq-contest.html)
+* [Contest Rules FAQ's](faq-rules.html)
 * [Personal FAQ's](faq-personal.html)
 * [School FAQ's](faq-school.html)
-* [Contest Rules FAQ's](faq-rules.html)
 * [LaTeX FAQ's](faq-latex.html)
+* [Unix FAQ's](faq-unix.html)
 * [Rarely Asked Questions](faq-raqs.html)

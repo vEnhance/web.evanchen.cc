@@ -10,6 +10,7 @@ These are FAQ's about me and my contest history.
 You might also see [School FAQ's](faq-school.html).
 
 ### {{ faq("P-1", "How much time did you spend on math preparation?") }}
+
 I never kept track because the number wasn't important to me,
 but a very rough guess is perhaps 10 to 20 hours a week,
 with a large standard deviation (because I only practiced when I felt like it).
@@ -25,6 +26,7 @@ Even "number of problems attempted" would be a better metric
 although I think that this number is pretty uninformative as well.
 
 ### {{ faq("P-2", "Which books/handouts/materials did you use?") }}
+
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
 I think it's useful (and more fun!) for students to decide the
@@ -40,8 +42,8 @@ These are at the olympiad level; younger students would likely benefit
 from books or classes from Art of Problem Solving, like
 [Volume 2](https://www.artofproblemsolving.com/store/item/aops-vol2).
 
-
 ### {{ faq("P-3", "How did you compete on the Taiwan IMO team?") }}
+
 I live in the United States, but am also a citizen of Taiwan,
 where both my parents are from.
 So in the spring of 2014,
@@ -49,6 +51,7 @@ I flew back to Taiwan to participate in the IMO selection process
 rather than going to my high school classes.
 
 ### {{ faq("P-4", "How long did it take you to achieve X?") }}
+
 I started training seriously starting in the 2009-2010 school year,
 when I was in eighth grade.
 I had participated casually the year before that.

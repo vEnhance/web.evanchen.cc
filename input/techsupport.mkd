@@ -1,0 +1,108 @@
+title: plz learn code
+header: Please learn how to code
+menu-position: 100
+
+---
+
+> You're much better off using code as your secret weapon in another profession.
+> People who can code in the world of technology companies are a dime
+> a dozen and get no respect. People who can code in biology, medicine,
+> government, sociology, physics, history, and mathematics are respected and can
+> do amazing things to advance those disciplines.  
+> --- [Zed A. Shaw](https://learnpythonthehardway.org/python3/advice.html)
+
+This page will attempt to convince you to learn to code
+and how you can get started.
+For LaTeX stuff, see [FAQ's on LaTeX](faq-latex.html).
+For more advanced thoughts like why Vim or why Linux,
+see [FAQ's on Unix](faq-unix.html).
+
+## {{ hl("prologue", "Prologue for beginners") }}
+
+If you found my website, you are presumably someone
+who likes learning and thinking.
+If you are such a person, and you don't know how to code,
+here is my advice for you:
+
+**This Saturday at noon, sit down and learn it**.
+(Or use the next Saturday you are free at noon.)
+
+Seriously, [learn to code](https://youtu.be/TYCxbFad36g?t=2070).
+Learn. To. Code. Learn to code god damn it!
+
+[![Tiny Evan knows Python. You can too!][tiny]{width=90%}][tiny]
+{class=text-center}
+
+[tiny]: static/learnpython.jpg
+
+I don't think everyone should be able to solve IOI problems.
+But I am adamant you should at least have a basic understanding
+of how computers work, and be able to automate trivial tasks.
+For example, you should be able to write a script that
+batch renames the files `a1.out`, `a2.out`, ..., `a100.out`
+to `output001.txt`, `output002.txt`, ..., `output100.txt`.
+Or to [hack together a program](https://usamo.wordpress.com/2020/12/16/usemo-problem-development-behind-the-scenes/)
+that reads the data from a google form,
+and sums the result into a table that you can send out.
+
+[![Not made by hand][usemo]{width=90%}][usemo]
+{class=text-center}
+
+[usemo]: https://usamo.files.wordpress.com/2020/12/table.png
+
+Unlike something like quadratic formula or differentiation,
+*most careers directly benefit from some computer literacy*
+(not just "changes the way you think").
+I think every single job I've had for the last five years,
+from working at the Duluth REU to running MOP
+to Mystery Hunt to [teaching OTIS][otisweb], involved
+some amount of programming.
+So it's insane that we teach precalculus before programming,
+if we teach the latter at all.
+
+[otisweb]: https://github.com/vEnhance/otis-web
+
+## {{ hl("path", "Evan's suggested earning path") }}
+
+If I was personally teaching computer literacy,
+I would break it down into the following steps
+(this is obviously not the only layout):
+
+1. Learning how to use a command prompt to navigate files and folders and
+	 execute commands. You can learn this in a day or two from [Zed Shaw][term]
+	 or [djangogirls][term2] or whatever you find on Google.
+2. Be able to open, edit, and save an arbitrary text file.
+	 (This is likely to be covered in step 1 already;
+	 LaTeX users may also know this step already.)
+3. You should then learn your first programming language.
+	 I grew up on [this Python book](http://openbookproject.net/thinkcs/python/english3e/index.html)
+	 and recommend it;
+	 there are [tons of other free Python tutorials][nonpro]
+	 if you decide you want to pick another one.  
+	 You can also choose a different language too --- in particular,
+	 if you're looking into [competitive programming](http://usaco.org),
+	 then C++ is a better choice than Python (much faster).
+	 If you're not interested in competitive programming,
+	 you can pick any language other than PHP or JavaScript.
+
+That's the baseline. I do not recommend AP computer science
+because it omit steps 1 and 2 and does a bad job of 3.
+
+There are also a few optional additional
+things you can do if you find yourself having fun and want more.
+(Do *not* do these before getting the basics down.)
+
+4. Learn [git](https://duckduckgo.com/?q=git+tutorial).
+5. Switch from Windows or OSX to a Linux system.
+6. Learn an advanced text editor like [Vim](https://vim.org) or [Emacs](https://en.wikipedia.org/wiki/Emacs).
+
+I'm not going to talk about the expert stuff here
+because if I do people will give up.
+For now, your job is to follow some of the links in steps 1-3.
+
+Once you've done that you can check
+[FAQ's on Unix](faq-unix.html) for elaborations on the advanced stuff.
+
+[term]: https://learnpythonthehardway.org/python3/appendixa.html
+[term2]: https://tutorial.djangogirls.org/en/intro_to_command_line/
+[nonpro]: https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
