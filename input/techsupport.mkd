@@ -1,6 +1,6 @@
 title: plz learn code
 header: Please learn how to code
-menu-position: 100
+menu-position: 10
 
 ---
 
