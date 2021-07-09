@@ -6,7 +6,7 @@ def handout_link(name, filename=None):
 	return '<a href="handouts/%s/%s.pdf">(pdf)</a> <a href="handouts/%s/%s.tex">(tex)</a><br>' %(name, filename, name, filename)
 
 def get_twitch_table():
-	tsv_path = os.path.expanduser("~/Dropbox/Twitch/Writeups/data.tsv")
+	tsv_path = os.path.expanduser("~/ProGamer/Writeups/data.tsv")
 	data = []
 	with open(tsv_path) as f:
 		reader = csv.DictReader(f, delimiter='\t')
@@ -29,7 +29,7 @@ def get_twitch_table():
 				+ '-Solution'
 		basename_tex = basename + '.tex'
 		basename_pdf = basename + '.pdf'
-		filename = os.path.join(os.path.expanduser("~"), "youtube-tex", basename_pdf)
+		filename = os.path.join(os.path.expanduser("~"), "youtube-tex", basename_tex)
 
 		out += '<tr>'
 		out += '<td>Ep. %s</td>' % n
