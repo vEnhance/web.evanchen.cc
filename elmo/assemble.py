@@ -1,14 +1,20 @@
 import yaml
 import heapq
+import datetime
+import sys
 
 # Script constants
-BASE = r"//web.evanchen.cc/elmo/"
-# BASE = r"file:///home/evan/Dropbox/Documents/www/elmo/"
-YEAR_PREV = 2019
-YEAR_NEXT = 2020
-YEARS = [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
-PREV_URL = "https://aops.com/community/c5h1838663_21st_elmo_2019"
-NEXT_URL = "https://aops.com/community/c5h2178495_22nd_elmo_2020"
+if len(sys.argv) > 1 and sys.argv[1] =='--local':
+	BASE = r"file:///home/evan/Sync/Documents/www/elmo/"
+else:
+	BASE = r"//web.evanchen.cc/elmo/"
+YEAR_NEXT = datetime.datetime.today().year
+YEAR_PREV = YEAR_NEXT - 1
+YEARS = range(2012, YEAR_NEXT+1)
+with open('internal/prob_links.yaml') as d:
+	data = yaml.load(d, Loader=yaml.SafeLoader)
+	PREV_URL = data[YEAR_PREV]['AoPS Thread']
+	NEXT_URL = data[YEAR_NEXT]['AoPS Thread']
 
 # Create header {{{1
 with open("static/header.html") as f:
@@ -115,6 +121,8 @@ def stat_stddev(S):
 	mu = stat_avg(S)
 	return stat_avg([(s-mu)**2 for s in S])**0.5
 
+
+
 # For each year, load data {{{1
 ELMO = []
 def inplace_rank(students):
@@ -180,6 +188,21 @@ for year_num in YEARS:
 
 	ELMO.append(year)
 # }}}
+
+# Problems page {{{
+with open("problems.html", "w") as f, open("internal/prob_links.yaml") as source:
+	print(HEADER, file=f)
+	print(r'<div id="main">', file=f)
+	prob_data = reversed(sorted(yaml.load(source, Loader=yaml.FullLoader).items()))
+	for year, d in prob_data:
+		print("<h5>ELMO {}</h5>".format(year), file=f)
+		print("<ul>", file=f)
+		for k,v in sorted(d.items()):
+			print(r'<li><a href="{}">{}</a></li>'.format(v,k), file=f)
+		print("</ul>", file=f)
+	print(FOOTER, file=f)
+# }}}
+
 
 # Index pages {{{1
 page_start = r'''
@@ -416,20 +439,6 @@ for year in ELMO:
 			print("</tr>", file=f)
 			print("</table>", file=f)
 			print(FOOTER, file=f)
-# }}}
-
-# Problems page {{{
-with open("problems.html", "w") as f, open("internal/prob_links.yaml") as source:
-	print(HEADER, file=f)
-	print(r'<div id="main">', file=f)
-	prob_data = reversed(sorted(yaml.load(source, Loader=yaml.FullLoader).items()))
-	for year, d in prob_data:
-		print("<h5>ELMO {}</h5>".format(year), file=f)
-		print("<ul>", file=f)
-		for k,v in sorted(d.items()):
-			print(r'<li><a href="{}">{}</a></li>'.format(v,k), file=f)
-		print("</ul>", file=f)
-	print(FOOTER, file=f)
 # }}}
 
 # General info page {{{
