@@ -62,7 +62,7 @@ if we teach the latter at all.
 
 [otisweb]: https://github.com/vEnhance/otis-web
 
-## {{ hl("path", "Evan's suggested earning path") }}
+## {{ hl("path", "Evan's suggested learning path") }}
 
 If I was personally teaching computer literacy,
 I would break it down into the following steps
@@ -86,7 +86,8 @@ I would break it down into the following steps
 	 you can pick any language other than PHP or JavaScript.
 
 That's the baseline. I do not recommend AP computer science
-because it omit steps 1 and 2 and does a bad job of 3.
+because it omits steps 1 and 2 and does a bad job of 3.
+You should just teach yourself, it's much faster this way.
 
 There are also a few optional additional
 things you can do if you find yourself having fun and want more.
