@@ -1,0 +1,28 @@
+This page describes privacy stuff for `*.evanchen.cc`.
+
+## General
+
+- evanchen.cc uses Google Analytics, but otherwise doesn't track anything special.
+
+## evanchen.cc login
+
+- On `otis.evanchen.cc` and `mosp.evanchen.cc` there are some "social login" options.
+- These are merely for convenience, to try and have one less password to
+	remember. Not using them won't impact the site experience in any meaningful way.
+- The email collected is only for the purposes for logging in and not otherwise
+	used. For example, if you use Gmail to sign in, then your user account is
+	attached to your Gmail address, and as long as you're signed in to Gmail
+	you'll be signed in to otis.evanchen.cc too.
+
+## otis.evanchen.cc
+
+The source code for `otis.evanchen.cc` is open source so you can read it.
+
+OTIS-WEB website stores your progress through the handouts for each semester and
+the email address that you registered for OTIS with.
+
+IP addresses are not stored.
+
+## Deletion
+
+If you want to delete data attached to you somehow, send me an email.
