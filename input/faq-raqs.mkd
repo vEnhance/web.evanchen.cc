@@ -38,18 +38,6 @@ take graduate math classes, learn to play
 sleep a ton, AND play StarCraft.
 While I don't encourage everyone to do this, I think it illustrates my point.
 
-In general, I think most high schoolers don't spend enough time thinking
-about exactly what's important to them; this is understandable,
-since it's an error of omission, and so you make such errors by default.
-It's especially bad in high school because high school gives
-you a clear path of "this is what you should do"
-by having you go to class every weekday until 3PM,
-then assigning you the homework to do at home,
-and giving you letters of the alphabet which amount to obedience scores.
-But **school is rarely optimized for the top students
-(even at magnet schools)**, which is why I had the guts to tear up my
-entire default schedule and replace it with the things I mentioned before.
-
 For those of you who were at Math Prize 2015,
 Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
 [which you can watch here, 49:30 -- 55:30][vxia].
@@ -89,12 +77,12 @@ the optimum is to pick a project with a 50% chance of success.
 But really the main thing is to optimize for fun,
 because otherwise you won't be able to force yourself to work on it anyways.
 
-It's understandably very daunting to move into something
+It's understandably daunting to move into something
 in which you have little experience.
 But you don't have to hard-commit to exploration projects as a full-time job,
 the same way you did for math contests.
 In other words, don't feel locked in to any one particular thing,
-and don't pressured to become the top N in the world:
+and don't feel pressured to become the top N in the world:
 after all, the point is really for your own learning/growth/enjoyment.
 
 ### {{ faq("R-3", "What's the most important thing that math contests taught you?") }}
@@ -118,6 +106,16 @@ you can love the subject, work harder than everyone else,
 do everything right, and still not win the USAMO;
 that's what makes it worth doing.
 
+To quote [Paul Graham](https://www.paulgraham.com/hs.html):
+
+> Hard means worry:
+> if you're not worrying that something you're making will come out badly,
+> or that you won't be able to understand something you're studying,
+> then it isn't hard enough. There has to be suspense.
+> 
+> You don't see faces much happier than people winning gold medals.
+> And you know why they're so happy? Relief.
+
 With all that being said, I am obliged to add on that the other
 huge thing that contests did for me was provide me access to one
 of the best peer groups out there. Most of the friends that I have
@@ -134,7 +132,7 @@ Long answer: [this blog post][tutor].
 
 ### {{ faq("R-5", "Are math contests worth doing?") }}
 
-The useless literal answer is that "you have to decide that for yourself".
+The useless literal answer is "you have to decide that for yourself".
 But I think the most surprising thing about math contests
 is the most important things you get have almost nothing to do with math
 (and are also largely independent of how well you end up scoring).
@@ -175,14 +173,14 @@ Here's a few great talks from the Math Prize for Girls event.
 	Almost anything sufficiently competitive will do.
 2. [Learn to code](techsupport.html).
 3. In your spare time, build things you are totally perfectionist about.
-	It can be a software program or fiction story or expository article
+	It can be a piece of software or fiction story or expository article
 	or art project or [auto-targeting kilowatt laser][laser] or whatever.
 	But build stuff you insist on getting completely flawless.
 	Genuine craftsmanship is deeply underrated.
 4. Ignore all advice that you don't agree with, including this website.
 	When I look back to my high school days,
 	more than half the advice I got was bullshit.
-	I would've been better off inverting all advice than following it.
+	I would have been better off inverting all advice than following it.
 
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
