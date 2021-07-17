@@ -63,18 +63,21 @@ It doesn't have to be (and probably shouldn't be)
 something that you're confident that you can do well in.
 For more on this I much like the advice suggested
 by [Paul Graham](https://paulgraham.com/hs.html)
- particularly in Section "Now".
+particularly in Section "Now".
 
 Maybe it's better if I gave examples of projects
 that I worked on (both successful and unsuccessful):
 
-* Programming projects ([Github](https://github.com/vEnhance))
-* Installing Arch Linux and figuring out how to use it
-* Writing nonfiction e.g. Napkin and EGMO (the latter was written while I was a [clerk at my high school's office](https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/))
-* Writing fiction stories (which I failed miserably at; tried at least two or three times)
-* K-pop dance (not good at it yet but trying!)
-* Creating a problem database (this took me five or six tries before it worked out)
-* Creating a constructed language (failed at least five times)
+- Programming projects ([Github](https://github.com/vEnhance))
+- Installing Arch Linux and figuring out how to use it
+- Writing nonfiction e.g. Napkin and EGMO
+	(the latter was written while I was a
+	[clerk at my high school's office](https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/))
+- Writing fiction stories (which I failed miserably at;
+	tried at least two or three times)
+- K-pop dance (not good at it yet but trying!)
+- Creating a problem database (this took me five or six tries before it worked out)
+- Creating a constructed language (failed at least five times)
 
 Anyways, the point is to pick something that feels cool,
 or that you've always wanted to do, and then try to do it.
@@ -115,21 +118,6 @@ you can love the subject, work harder than everyone else,
 do everything right, and still not win the USAMO;
 that's what makes it worth doing.
 
-To quote [Paul Graham](https://www.paulgraham.com/hs.html):
-
-> Hard means worry:
-> if you're not worrying that something you're making will come out badly,
-> or that you won't be able to understand something you're studying,
-> then it isn't hard enough. There has to be suspense.
-> 
-> You don't see faces much happier than people winning gold medals.
-> And you know why they're so happy? Relief.
-
-Anyone can work hard if reward is certain,
-but in real life this is simply not the case.
-This is why it's so important to enjoy the process itself
-rather than fixate only on the end result.
-
 With all that being said, I am obliged to add on that the other
 huge thing that contests did for me was provide me access to one
 of the best peer groups out there. Most of the friends that I have
@@ -148,8 +136,8 @@ Long answer: [this blog post][tutor].
 
 The useless literal answer is that "you have to decide that for yourself".
 But I think the most surprising thing about math contests
-is the most important things you get have almost nothing to do with math,
-and are also largely independent of how well you end up scoring.
+is the most important things you get have almost nothing to do with math
+(and are also largely independent of how well you end up scoring).
 
 I think of math contests primarily as a way to stimulate
 intellectual curiosity, cultivate good study habits,
@@ -158,8 +146,6 @@ and build a supportive community.
 Despite the fact that this is nominally a competition,
 I am not really that interested in talent identification
 or differentiating students.
-
-[Some more thoughts in this blog post.](https://usamo.wordpress.com/2018/01/05/lessons-from-math-olympiads/)
 
 ### {{ faq("R-6", "Should I graduate early from high school?") }}
 
@@ -172,15 +158,31 @@ The specifics of what domain you do this in are not important.
 So to me, "my high school is not sufficiently challenging for me" seems
 insufficient justification to throw away a year of this growth time,
 because since when does high school teach you things anyways?
-You are responsible for your own learning anyways.
+You are responsible for your own learning.
 
 ### {{ faq("R-7", "I am a parent. Give me advice!") }}
 
 Here's a few great talks from the Math Prize for Girls event.
 
-* [Richard Rusczyk, 2014](https://www.youtube.com/watch?v=TYCxbFad36g)
-* [Zuming Feng, 2015](https://www.youtube.com/watch?v=cVlR-5hS6f4)
-* [Dan Zaharopol, 2015](https://www.youtube.com/watch?v=7Qd5WxW4HBE)
+- [Richard Rusczyk, 2014](https://www.youtube.com/watch?v=TYCxbFad36g)
+- [Zuming Feng, 2015](https://www.youtube.com/watch?v=cVlR-5hS6f4)
+- [Dan Zaharopol, 2015](https://www.youtube.com/watch?v=7Qd5WxW4HBE)
+
+### {{ faq("R-8", "What advice would you give high schoolers?") }}
+
+1. Learn any difficult skill deeply.
+	I don't care what the specific skill is as long as it's hard.
+	Almost anything sufficiently competitive will do.
+2. [Learn to code](techsupport.html).
+3. In your spare time, build things you are totally perfectionist about.
+	It can be a software program or fiction story or expository article
+	or art project or [auto-targeting kilowatt laser][laser] or whatever.
+	But build stuff you insist on getting completely flawless.
+	Genuine craftsmanship is deeply underrated.
+4. Ignore all advice that you don't agree with, including this website.
+	When I look back to my high school days,
+	more than half the advice I got was bullshit.
+	I would've been better off inverting all advice than following it.
 
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
@@ -188,3 +190,4 @@ Here's a few great talks from the Math Prize for Girls event.
 [aopstime]: https://www.artofproblemsolving.com/community/c5h1147943p5421541
 [procrastinate]: https://paulgraham.com/procrastination.html
 [lessons]: https://usamo.wordpress.com/2018/01/05/lessons-from-math-olympiads/
+[laser]: https://xkcd.com/382/
