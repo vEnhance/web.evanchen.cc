@@ -169,8 +169,9 @@ Here's a few great talks from the Math Prize for Girls event.
 ### {{ faq("R-8", "What advice would you give high schoolers?") }}
 
 1. Learn any difficult skill deeply.
-	I don't care what the specific skill is as long as it's hard.
-	Almost anything sufficiently competitive will do.
+	I don't care what the specific skill is as long as it's hard;
+	almost anything sufficiently competitive will do.
+	(In the process, you will learn how to learn.)
 2. [Learn to code](techsupport.html).
 3. In your spare time, build things you are totally perfectionist about.
 	It can be a piece of software or fiction story or expository article
