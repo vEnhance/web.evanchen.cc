@@ -1,7 +1,8 @@
 title: MOP
 header: MOPper World 2.0
-menu-position: 40
+menu-position: 35
 description: Popular math olympiad training materials written by Evan Chen.
+indent: 1
 
 ---
 

@@ -1,6 +1,6 @@
 title: Mentors
 header: Competition mentors
-menu-position: 71
+menu-position: 77
 description: Listing of other people who take students
 indent: 1
 

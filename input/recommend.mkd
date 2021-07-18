@@ -1,14 +1,16 @@
-title: Links
-header: Recommended links
+title: Advice
+header: Advice and recommendations
 menu-position: 70
 description: Links to references and readings that I enjoyed.
 
 ---
 
-The world would be a great place if I could write about everything I knew about,
-but alas I have a finite amount of time.
-So in addition to the stuff I have on this website,
-here's a list of other resources I like.
+This page has a bunch of links you might want to read.
+In addition, you might see the following sub-pages:
+
+* [plz learn code](techsupport.html)
+* [FAQ's](faqs.html)
+* [List of possible math contest mentors](mentors.html)
 
 Please notify me of any broken links, suggestions, etc. by email.
 
