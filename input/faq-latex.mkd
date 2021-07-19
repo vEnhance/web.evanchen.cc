@@ -30,7 +30,7 @@ Any text editor will work with any compiler will work with any PDF viewer.
 [Read Wikibooks](https://en.wikibooks.org/wiki/LaTeX), it's really comprehensive.
 Also, [this tutorial is good too](https://www.latex-tutorial.com/tutorials/).
 
-### {{ faq("L-2", "What about online LaTeX editors like Overleaf?") }}
+### {{ faq("L-2", "What about online suites like Overleaf?") }}
 
 I think it's better long-term to install LaTeX on your computer.
 This speeds up compilation and lets you use your favorite choice of editor and viewer,
@@ -194,3 +194,8 @@ Not that elegant but works.
 
 Prepare a [minimal working example](http://tug.ctan.org/info/dickimaw/dickimaw-minexample.pdf)
 and ask on [tex.SE](https://tex.stackexchange.com/).
+
+### {{ faq("L_22", "Why do you anti-recommend dfrac or displaystyle?") }}
+
+If your expression is so complicated that it isn't legible without using
+`\dfrac` or `\displaytsyle`, then it should probably be displayed.
