@@ -96,6 +96,8 @@ The two biggest things we can use help with are:
 	from anyone who is not eligible for the contest.
 	See the [problem proposal guidelines][propose].
 	For USEMO 2021, the deadline for submissions is **September 3, 2021**.
+	(You can read about the [interval review process][review]
+	if you are curious how the selection works.)
 
 Please contact the directors for details on these,
 or if you have other ideas on how you could help out.
@@ -111,4 +113,4 @@ or if you have other ideas on how you could help out.
 [propose]: static/usemo/proposal-guidelines-usemo.pdf
 [signup]: https://forms.gle/P7tqip2xst8EMXLJ7
 [aops-usemo]: https://www.aops.com/contests/usemo
-
+[review]: https://usamo.wordpress.com/2020/12/16/usemo-problem-development-behind-the-scenes/
