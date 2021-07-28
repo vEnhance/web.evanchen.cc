@@ -395,6 +395,22 @@ work on whatever you feel like, planned or not.
 
 No.
 
+### {{ faq("C-19", "Should I practice with hand-drawn or digital geo diagrams?") }}
+
+I've heard different advice from this from different people across the years,
+ranging from never to always. Proponents of hand-drawn diagrams say that it's
+important to not become reliant on easily generated computer figures because
+they are not available during competitions. Proporents of Geogebra say that
+practicing with perfect diagrams is good for building a sense of where things
+*should* be, plus it saves you time so you can do more problems.
+I don't get the feeling there is a consensus as to what the common wisdom is.
+
+My suggestion is to just do a mix of both with the exact balance up to personal
+taste and convenience. I don't think it matters too much as long as you don't
+neglect one completely. But in the same vein as [C-17](#C-17), if you (say) tell
+yourself you're going to only use paper diagrams because X said so, and then you
+end up practicing less because it's incovenient to have a pencil and compass out
+during your deadly-boring AP Java class, that's your loss.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
