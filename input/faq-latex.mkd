@@ -68,6 +68,8 @@ See examples in [FAQ L-9](#L-9).
 ### {{ faq("L-6", "What package did you use to typeset your CV?") }}
 
 I use [moderncv](https://ctan.org/pkg/moderncv?lang=en).
+You can [download the TeX source of my CV](static/CV-example-source-2020.tex)
+(with slight modifications for presentability; not updated).
 
 ### {{ faq("L-7", "How do you get the LaTeX to auto-compile?") }}
 
