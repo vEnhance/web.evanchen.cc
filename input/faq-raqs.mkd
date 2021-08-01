@@ -183,6 +183,41 @@ Here's a few great talks from the Math Prize for Girls event.
 	more than half the advice I got was bullshit.
 	I would have been better off inverting all advice than following it.
 
+### {{ faq("R-9", "Why do you still play video games?") }}
+
+Because video games are a form of art. Don't let anyone tell you otherwise.
+
+I didn't know this growing up.
+When I was eleven, video games were a way to pass time during the incredibly
+boring mandatory vacations that my parents would drag me along.
+Then around when I started doing math contests, I slowly tapered off from games,
+finding the math problems to be more interesting.
+
+I started playing again around when I was in college,
+in some cases replaying games I had completed in elementary school.
+Being older and allegedly more mature,
+the same games suddenly felt totally different from what I remembered.
+Because *now* I could see all the tender loving care that had been
+put into designing the game.
+
+Every asset the art team had spent hours drawing and redrawing.
+Every animation that had to be programmed just right.
+Every sound track the lead composer had written
+after throwing away a dozen other attempts.
+Every little line of dialogue someone had written ---
+especially the ones that made me grin.
+Every easter egg the developers had written in.
+Every font that was chosen or designed from scratch.
+The list goes on and on, from the little things that you'd only notice
+if you were playing close attention, to the overall atmosphere
+and theme that unifies the whole work together.
+So many things that, now that I can see them, fill me with a sense of wonder.
+
+Sure, the video games are fun too.
+But today when I play, the greatest part is being able to appreciate
+the experience that the developers have so carefully choreographed
+(and then relentlessly debugged to boot).
+
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
 [vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
