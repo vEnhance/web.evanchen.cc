@@ -136,14 +136,9 @@ for p in mpages:
 					{{ __content__ }}
 					</div>
 				</div>
-				<small>
-					Last modified:
-<!--%
-import time
-print(time.ctime() + '.')
-%-->
-					<a href="https://github.com/vEnhance/web.evanchen.cc">View source.</a>
-				</small>
+				<div>
+					<p>{{ page_footer(page) }}</p>
+				</div>
 			</div>
 		</div>
 	</div>

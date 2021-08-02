@@ -1,9 +1,39 @@
-import os
 import csv
+from git import Repo
+from pathlib import Path
+import datetime
+import os
+
+repo = Repo(Path(__file__).parent, search_parent_directories = True)
+tree = repo.heads.main.commit.tree
+
+GITHUB_BASE = 'https://github.com/vEnhance/web.evanchen.cc' # /commit/cc6b6aeac80981bc84077ba1f303784150c141d8
 
 def handout_link(name, filename=None):
 	filename = filename or name
-	return '<a href="handouts/%s/%s.pdf">(pdf)</a> <a href="handouts/%s/%s.tex">(tex)</a><br>' %(name, filename, name, filename)
+	return '<a href="handouts/%s/%s.pdf">(pdf)</a> '\
+			'<a href="handouts/%s/%s.tex">(tex)</a><br>' %(name, filename, name, filename)
+
+def page_footer(page) -> str:
+	input_name : str = page['url'].replace('.html', '.mkd')
+	input_path = Path('input') / input_name
+	try:
+		blob = tree[str(input_path)]
+		commit = next(repo.iter_commits(paths=blob.path, max_count=1))
+		last_update_dt = datetime.datetime.fromtimestamp(commit.committed_date)
+		last_update_str = last_update_dt.replace(microsecond = 0).isoformat()
+		return \
+				f'<div>' \
+				f'<a href="{GITHUB_BASE}/commits/main/{input_path}">Revision history</a> &bullet; ' \
+				f'<a href="{GITHUB_BASE}">Git repository</a> &bullet; ' \
+				f'<a href="{GITHUB_BASE}/edit/main/{input_path}">Suggest edit</a>' \
+				f'</div>' \
+				f'<div class="text-muted">Updated {last_update_str} by ' \
+				f'<a href="{GITHUB_BASE}/commit/{commit.hexsha}"><code>{commit.hexsha[0:12]}</code></a>' \
+				f'</div>'
+	except:
+		return '<div class="text-muted">View the <a href="{GITHUB_BASE}">source repository</a>.</div>' \
+				'<div class="font-italic text-muted">This hidden page not under public version control.</div>'
 
 def get_twitch_table():
 	tsv_path = os.path.expanduser("~/ProGamer/Writeups/data.tsv")
@@ -68,7 +98,7 @@ def get_card_trick():
 		out += r'</select>' + '\n'
 		out += r'</div>' + '\n'
 		out += r'<hr />' + '\n'
-			
+
 	out += r'<h2>Card 5</h2>' + '\n'
 	out += r'<h1 id="answer">...</h1>' + '\n'
 	out += r'<button type="button" class="btn" id="trick-button"></button>' + '\n'
