@@ -24,8 +24,8 @@ def page_footer(page) -> str:
 		last_update_str = last_update_dt.replace(microsecond = 0).isoformat()
 		return \
 				f'<div>' \
+				f'<a href="{GITHUB_BASE}">Source repository (git)</a> &bullet; ' \
 				f'<a href="{GITHUB_BASE}/commits/main/{input_path}">Revision history</a> &bullet; ' \
-				f'<a href="{GITHUB_BASE}">Git repository</a> &bullet; ' \
 				f'<a href="{GITHUB_BASE}/edit/main/{input_path}">Suggest edit</a>' \
 				f'</div>' \
 				f'<div class="text-muted">Updated {last_update_str} by ' \
