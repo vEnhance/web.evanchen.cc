@@ -19,9 +19,13 @@ def page_footer(page) -> str:
 	input_path = Path('input') / input_name
 	try:
 		blob = tree[str(input_path)]
+	except:
+		return '<div class="text-muted">View the <a href="{GITHUB_BASE}">source repository</a>.</div>' \
+				'<div class="font-italic text-muted">This hidden page not under public version control.</div>'
+	else:
 		commit = next(repo.iter_commits(paths=blob.path, max_count=1))
-		last_update_dt = datetime.datetime.fromtimestamp(commit.committed_date)
-		last_update_str = last_update_dt.replace(microsecond = 0).isoformat()
+		last_update_dt = datetime.datetime. utcfromtimestamp(commit.committed_date)
+		last_update_str = last_update_dt.strftime('%a %-d %b %Y, %H:%M:%S UTC')
 		return \
 				f'<div>' \
 				f'<a href="{GITHUB_BASE}">Source repository (git)</a> &bullet; ' \
@@ -31,9 +35,7 @@ def page_footer(page) -> str:
 				f'<div class="text-muted">Updated {last_update_str} by ' \
 				f'<a href="{GITHUB_BASE}/commit/{commit.hexsha}"><code>{commit.hexsha[0:12]}</code></a>' \
 				f'</div>'
-	except:
-		return '<div class="text-muted">View the <a href="{GITHUB_BASE}">source repository</a>.</div>' \
-				'<div class="font-italic text-muted">This hidden page not under public version control.</div>'
+
 
 def get_twitch_table():
 	tsv_path = os.path.expanduser("~/ProGamer/Writeups/data.tsv")
