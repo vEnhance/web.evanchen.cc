@@ -23,20 +23,22 @@ I am able to write letters for MIT PRIMES as well.
 
 ## {{ hl("ask", "Whether to ask") }}
 
-You should only ask for a letter from me if I know you somewhat well.
-(This may sound obvious,
-but somehow I still get requests from total strangers.)
+You should only ask for a letter from me if I know you somewhat well.[^obvious]
+
+[^obvious]: This may sound obvious,
+	but somehow I still get requests from total strangers.
 
 Letters from me will necessarily be a bit unusual,
 so you should think about whether I'm the right person to do this.
 I am not formally a teacher or professor,
-which may confuse clueless admissions officers
-(although I am gradually picking up increasingly fancy titles).
+which may confuse clueless admissions officers[^fancy]
 Also, if I only worked with you at
 [MOP](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Program)
 or [OTIS](otis.html), I may not have spent enough time
 with you in-person to "paint a picture"
 compared to a teacher at your school, so to speak.
+
+[^fancy]: Although I am gradually picking up increasingly fancy titles.
 
 Usually people will ask me for letters if they want to add
 some context about their math contest experiences
@@ -47,10 +49,11 @@ Anyways, I will assume you have thought this through.
 Since I'm a nice person,
 I promise to not intentionally write you a negative letter.
 If I feel I cannot write you a letter with nonnegative value,
-I will decline your request instead.
-(This is because I believe a good mentor should be
-unconditionally supportive, much like a parent,
-and that it's not my place to judge students.)
+I will decline your request instead.[^support]
+
+[^support]: This is because I believe a good mentor should be
+	unconditionally supportive, much like a parent,
+	and that it's not my place to judge students.
 
 ## {{ hl("instructions", "Instructions") }}
 
