@@ -11,10 +11,11 @@ OTIS is an olympiad training program for students
 aiming to do well on USA(J)MO or similar level contests.
 It is designed for contestants who are
 comfortable reading and writing proofs
-and can usually qualify for national olympiad,
+and can usually qualify for national olympiad[^other],
 (for example, consistently 10+ on AIME for American contestants is fine).
-Students at other levels may be interested in
-[my list of mentors and programs](mentors.html).
+
+[^other]: Students at other levels may be interested in
+	[my list of mentors and programs](mentors.html).
 
 # {{ hl("excerpts", "The OTIS Excerpts") }}
 
@@ -65,13 +66,13 @@ A rough estimate of the time commitment might be
 **8-16 hours per week**,
 although there is a large variance.
 
-Some students have brief weekly or biweekly lectures
-(I really mean "brief" here, like 45 minutes or so)
+Some students have brief weekly or biweekly lectures[^brief]
 but students can also take OTIS as a correspondence course
 with no lectures at all.
 It's also possible to have an instructor other than me.
 In this way, OTIS is really a **guided self-study program**
 and is not really meant as a tutoring program.
+[^brief]: I really mean "brief" here, like 45 minutes or so.
 
 The (long) [syllabus](upload/otis-syllabus.pdf)
 contains the full details.

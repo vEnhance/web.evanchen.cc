@@ -52,14 +52,17 @@ and sums the result into a table that you can send out.
 [usemo]: https://usamo.files.wordpress.com/2020/12/table.png
 
 Unlike something like quadratic formula or differentiation,
-*most careers directly benefit from some computer literacy*
-(not just "changes the way you think").
+most careers *directly* benefit from some computer literacy[^think].
 I think every single job I've had for the last five years,
 from working at the Duluth REU to running MOP
 to Mystery Hunt to [teaching OTIS][otisweb], involved
 some amount of programming.
 So it's insane that we teach precalculus before programming,
 if we teach the latter at all.
+
+[^think]: I, and several others, also suspect that knowing programming changes
+	the way you think. But this is harder to measure or prove so I only stated the
+	weaker claim.
 
 [otisweb]: https://github.com/vEnhance/otis-web
 

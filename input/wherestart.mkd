@@ -34,7 +34,7 @@ giving some guidance on what topics appear on math olympiads.
 ## {{ hl("letter", "1. First reading: the welcome letter") }}
 
 For the USA Math Olympiad in 2020, the board of the USAMO
-prepared an invitation letter for all the qualifiers,
+prepared an invitation letter[^covid] for all the qualifiers,
 congratulating them on their achievement
 and giving them some suggestions on where to begin.
 This letter contains:
@@ -46,16 +46,17 @@ This letter contains:
 * Some advice for actually taking the contest:
 	the format of the exam, planning your time, common mistakes, etc.
 
+[^covid]: These were written in early January 2020
+	before COVID-19 wreaked havoc on everything,
+	so the contests still go by their typical name and don't mention
+	anything specific to the belated administration that year.
+
 You can download the letters here:
 
 * [JMO welcome letter](static/welcome-jmo.pdf),
 	and [solutions to examples](static/sol-welcome-jmo.pdf)
 * [USAMO welcome letter](static/welcome-usamo.pdf),
 	and [solutions to examples](static/sol-welcome-usamo.pdf)
-
-(These were written in early January 2020 before COVID-19 wreaked havoc on everything,
-so the contests still go by their typical name and don't mention
-anything specific to the belated administration that year.)
 
 I suggest starting by reading through this letter,
 trying the example problems (you will probably not solve them all;
@@ -169,9 +170,9 @@ then unfortunately I can't help you.)
 At some point (sooner rather than later),
 you also need to start just working through some past problems
 from recent years of contests.
-You can think of this as encountering problems in the wild.
-(I used to carry a binder with printouts
-of the IMO shortlist and check them off as I solved them.)
+You can think of this as encountering problems in the wild.[^binder]
+[^binder]: I used to carry a binder with printouts
+	of the IMO shortlist and check them off as I solved them.
 
 In case you didn't know already,
 on Art of Problem Solving there is an

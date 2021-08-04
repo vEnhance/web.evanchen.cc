@@ -15,9 +15,10 @@ Here is an
 [index of many problems](upload/MOHS-hardness.pdf)
 by my opinions on their difficulty and subject matter.
 The difficulties are rated from 0 to 50 in increments of 5,
-using a scale I devised called **MOHS**.
-(The acronym stands from "math olympiad hardness scale",
-[pun fully intended](https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness)).
+using a scale I devised called **MOHS**.[^acronym]
+
+[^acronym]: The acronym stands from "math olympiad hardness scale",
+	[pun fully intended](https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness).
 
 **New**: Thanks to the great work of Rustam Turdibaev and Olimjon Olimov,
 we now have a enormous **336-problem**
