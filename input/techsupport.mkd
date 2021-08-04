@@ -70,21 +70,22 @@ I would break it down into the following steps
 (this is obviously not the only layout):
 
 1. Learning how to use a command prompt to navigate files and folders and
-	 execute commands. You can learn this in a day or two from [Zed Shaw][term]
-	 or [djangogirls][term2] or whatever you find on Google.
+	execute commands. You can learn this in a day or two from [Zed Shaw][term]
+	or [djangogirls][term2] or whatever you find on Google.
 2. Be able to open, edit, and save an arbitrary text file.
-	 (This is likely to be covered in step 1 already;
-	 LaTeX users may also know this step already.)
+	(This is likely to be covered in step 1 already;
+	LaTeX users may also know this step already.)
 3. You should then learn your first programming language.
-	 I grew up on [this Python book](http://openbookproject.net/thinkcs/python/english3e/index.html)
-	 and recommend it;
-	 there are [tons of other free Python tutorials][nonpro]
-	 if you decide you want to pick another one.  
-	 You can also choose a different language too --- in particular,
-	 if you're looking into [competitive programming](http://usaco.org),
-	 then C++ is a better choice than Python (much faster).
-	 If you're not interested in competitive programming,
-	 you can pick any language other than PHP or JavaScript.
+	I grew up on [this Python book](http://openbookproject.net/thinkcs/python/english3e/index.html)
+	and recommend it;
+	there are [tons of other free Python tutorials][nonpro]
+	if you decide you want to pick another one.  
+	You can also choose a different language too; in particular,
+	if you're looking into [competitive programming](http://usaco.org),
+	then C++ is a better choice than Python (much faster).
+	If you're not interested in competitive programming,
+	you can pick any language other than PHP or vanilla JavaScript.[^js]
+	(TypeScript or similar are fine.)
 
 That's the baseline. I do not recommend AP computer science
 because it omits steps 1 and 2 and does a bad job of 3.
@@ -97,8 +98,8 @@ things you can do if you find yourself having fun and want more.
 4. Learn [git](https://duckduckgo.com/?q=git+tutorial).
 5. Switch from Windows or OSX to a Linux system.
 6. Learn an advanced text editor like
-	 [Vim](https://www.vim.org) or
-	 [Emacs](https://en.wikipedia.org/wiki/Emacs).
+	[Vim](https://www.vim.org) or
+	[Emacs](https://en.wikipedia.org/wiki/Emacs).
 
 I'm not going to talk about the expert stuff here
 because if I do people will give up.
@@ -106,6 +107,11 @@ For now, your job is to follow some of the links in steps 1-3.
 
 Once you've done that you can check
 [FAQ's on Unix](faq-unix.html) for elaborations on the advanced stuff.
+
+[^js]: The reason I specifically anti-recommend PHP and vanilla JavaScript is
+	that as a beginner I think you shouldn't get in the habit of writing code like
+	`"You have " + n + " dollars"` when you are first starting out.
+	(Okay, I also hate both languages, but that's unrelated.)
 
 [term]: https://learnpythonthehardway.org/python3/appendixa.html
 [term2]: https://tutorial.djangogirls.org/en/intro_to_command_line/
