@@ -31,7 +31,7 @@ You should only ask for a letter from me if I know you somewhat well.[^obvious]
 Letters from me will necessarily be a bit unusual,
 so you should think about whether I'm the right person to do this.
 I am not formally a teacher or professor,
-which may confuse clueless admissions officers[^fancy]
+which may confuse any clueless admissions officers[^fancy].
 Also, if I only worked with you at
 [MOP](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Program)
 or [OTIS](otis.html), I may not have spent enough time
