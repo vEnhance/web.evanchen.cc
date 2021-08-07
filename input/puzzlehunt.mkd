@@ -29,16 +29,16 @@ Individual puzzles from Mystery Hunt 2021:
 If you are totally new to puzzle hunts,
 [betaveros has a nice introduction](https://blog.vero.site/post/puzzlehunts).
 
-My favorite intro puzzle is _Yeah, But It Didn't Work!_.
-You can [try the puzzle][yeah] and later
-[read the solution][yeahsol].
+Here's a list of particular puzzles which I think are good beginner puzzles:
+
+- [Yeah, But It Didn't Work!](https://www.mit.edu/~puzzle/2018/full/puzzle/yeah_but_it_didnt_work.html)
+	(Mystery Hunt 2018)
+- [The MetaMetaMeta... Puzzle](https://2020.galacticpuzzlehunt.com/puzzle/the-meta-meta-meta-puzzle)
+	(Galactic Puzzle Hunt 2020)
 
 You can find a
 [index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
 and it's great fun to just pick a random past puzzle to work through.
-
-[yeah]: https://www.mit.edu/~puzzle/2018/full/puzzle/yeah_but_it_didnt_work.html
-[yeahsol]: https://www.mit.edu/~puzzle/2018/full/solution/yeah_but_it_didnt_work.html
 
 ## {{ hl("advice", "Evan's advice for puzzle solving") }}
 
