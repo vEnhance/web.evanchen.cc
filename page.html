@@ -54,7 +54,13 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-10 offset-2 col-md-6 offset-md-6 col-lg-5 offset-lg-7">
+		<div class="col-10 col-md-7">
+			<h6 class="badge px-2 pt-2 pb-1 mx-0 mt-1 mb-0" style="background-color: #abdeab;">
+					<a id="latest_blog_anchor" style="font-family:Verdana;"></a>
+					<span class="badge bg-success" id="latest_blog_date"></span>
+			</h6>
+		</div>
+		<div class="col-10 col-md-5 col-lg-5">
 			<div id="email_box">
 				<a class="emoji-link" href="contact.html">
 					<img height="24" src="icons/social-mail.png" />
@@ -179,6 +185,27 @@ document.addEventListener('keydown', function(e) {
 		+ String.fromCharCode(r+30)
 		+ String.fromCharCode(u+45);
 	document.location = '//web.evanchen.cc/' + s.toLowerCase() + '.html';
+});
+</script>
+
+<script>
+$(document).ready(function() {
+	const url = 'https://blog.evanchen.cc/feed/';
+	$.ajax({
+			type: 'GET',
+			dataType: 'jsonp',
+			url: "https://api.rss2json.com/v1/api.json?rss_url=" + url,
+			success: function(data) {
+				const pub_date = data.items[0].pubDate;
+				const title = data.items[0].title;
+				const link = data.items[0].link;
+				cut_title = title.length < 45 ? title : title.substring(0,45) + '…';
+				$("#latest_blog_date").html(pub_date.substring(0,10));
+				$("#latest_blog_anchor").prop('href', link);
+				$("#latest_blog_anchor").html(cut_title);
+				console.log(pub_date);
+			}
+	});
 });
 </script>
 
