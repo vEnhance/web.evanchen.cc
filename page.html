@@ -5,10 +5,10 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mate">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <script type="text/javascript">
 MathJax = {
@@ -87,7 +87,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
 		</div>
 	</div>
 	<div id="content" class="row">
-		<div class="col-12 col-md-3 order-md-12 pl-md-1">
+		<div class="col-12 col-md-3 order-md-last pl-md-1">
 			<div id="side">
 				<nav class="navbar-light d-md-none navbar">
 				<div class="navbar-brand" id="navtitle">
@@ -128,7 +128,7 @@ for p in mpages:
 				</div>
 			</div>
 		</div>
-		<div class="col-12 col-md-9 order-md-1 pr-md-2">
+		<div class="col-12 col-md-9 order-md-first pr-md-2">
 			<div id="main">
 				<div class="entry">
 					<h1 id="pagetitle"><a href="{{page["url"]}}">{{ page["header"] }}</a></h1>
