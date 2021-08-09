@@ -7,7 +7,7 @@ if [ $# -eq 0 ]; then
 elif [ $1 = "-debug" ]; then
 	python3 poole/poole.py -b --base-url=https://web.evanchen.c $OPTIONS
 elif [ $1 = "-local" ]; then
-	python3 poole/poole.py -b --base-url=file:///home/evan/Dropbox/Documents/www/  $OPTIONS
+	python3 poole/poole.py -b --base-url=file:///home/evan/Sync/www/  $OPTIONS
 else
 	echo "huh?"
 fi
