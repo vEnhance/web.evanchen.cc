@@ -113,4 +113,4 @@ or if you have other ideas on how you could help out.
 [propose]: static/usemo/proposal-guidelines-usemo.pdf
 [signup]: https://forms.gle/P7tqip2xst8EMXLJ7
 [aops-usemo]: https://www.aops.com/contests/usemo
-[review]: https://usamo.wordpress.com/2020/12/16/usemo-problem-development-behind-the-scenes/
+[review]: https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/

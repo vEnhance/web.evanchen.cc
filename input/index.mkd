@@ -27,7 +27,7 @@ and also on the [arXiv](https://arxiv.org/a/chen_e_2.html).
 I am on [GitHub](https://github.com/vEnhance/),
 [Facebook](https://facebook.com/evanchenmath/),
 [Twitch](https://twitch.tv/vEnhance),
-and [WordPress](https://usamo.wordpress.com).
+and [WordPress](https://blog.evanchen.cc).
 You can also see my [personal page](personal.html) for trivia about myself.
 
 If you are a high school student interested in math olympiads,

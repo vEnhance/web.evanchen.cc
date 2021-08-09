@@ -84,8 +84,8 @@ In descending order of importance for new solvers:
 
 Two blog posts of mine:
 
-- [Some general comments](https://usamo.wordpress.com/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
-- [Long stories for Mystery Hunt 2021](https://usamo.wordpress.com/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
+- [Some general comments](https://blog.evanchen.cc/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
+- [Long stories for Mystery Hunt 2021](https://blog.evanchen.cc/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
 
 [ppint]: http://puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf
 [advice]: https://www.mit.edu/~puzzle/resources/thinkingaboutpuzzles.html

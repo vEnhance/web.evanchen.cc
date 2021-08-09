@@ -84,11 +84,11 @@ See [source code](https://github.com/vEnhance/web.evanchen.cc).
 [myscores]: myscores.html
 [right]: https://artofproblemsolving.com/community/c5h520900
 [shower]: https://www.paulgraham.com/top.html
-[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+[tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [usa2003]: exams/usamo-2003-rubric.pdf
 [usamts]: https://usamts.org/index.php
-[wpcontest]: https://usamo.wordpress.com/20n4/07/27/what-leads-to-success-at-math-contests/
-[wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
+[wpcontest]: https://blog.evanchen.cc/20n4/07/27/what-leads-to-success-at-math-contests/
+[wpgeo]: https://blog.evanchen.cc/2016/01/19/some-advice-for-olympiad-geometry/
 [yufei]: https://yufeizhao.com/olympiad.html
 
 [cofinite]: https://en.wikipedia.org/wiki/Cofiniteness

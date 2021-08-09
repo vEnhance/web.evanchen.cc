@@ -10,7 +10,7 @@ These are FAQ's about high school and college.
 
 ### {{ faq("S-1", "Why did you transfer from Harvard to MIT?") }}
 Short answer: mostly social reasons.
-Long answer: [See here](https://usamo.wordpress.com/2015/06/28/transferring/).
+Long answer: [See here](https://blog.evanchen.cc/2015/06/28/transferring/).
 
 ### {{ faq("S-2", "I'm interested in learning some higher math. Where can I start?") }}
 If you like my writing and are comfortable with proofs,
@@ -162,4 +162,4 @@ MIT is not the Illuminati, even if it a subsequence.
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
 [tuition]: https://web.mit.edu/facts/tuition.html
-[blank]: https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/comment-page-1/#comment-1694
+[blank]: https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/comment-page-1/#comment-1694

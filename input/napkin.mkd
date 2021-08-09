@@ -144,4 +144,4 @@ This project has evolved to more than just forty hours.
 86. Breaking the continuum hypothesis
 
 [recent]: https://venhance.github.io/napkin/Napkin.pdf
-[wp]: https://usamo.wordpress.com/napkin/
+[wp]: https://blog.evanchen.cc/napkin/

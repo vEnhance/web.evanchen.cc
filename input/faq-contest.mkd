@@ -423,9 +423,9 @@ during your deadly-boring AP Java class, that's your loss.
 [recs]: recommend.html
 [right]: https://artofproblemsolving.com/community/c5h520900
 [shower]: https://www.paulgraham.com/top.html
-[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+[tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [usamts]: https://usamts.org/index.php
-[wpcontest]: https://usamo.wordpress.com/2019/01/31/math-contest-platitudes-v3/
-[wpgeo]: https://usamo.wordpress.com/2016/01/19/some-advice-for-olympiad-geometry/
+[wpcontest]: https://blog.evanchen.cc/2019/01/31/math-contest-platitudes-v3/
+[wpgeo]: https://blog.evanchen.cc/2016/01/19/some-advice-for-olympiad-geometry/
 [yufei]: https://yufeizhao.com/olympiad.html
-[perfect]: https://usamo.wordpress.com/2016/04/17/against-perfect-scores/
+[perfect]: https://blog.evanchen.cc/2016/04/17/against-perfect-scores/

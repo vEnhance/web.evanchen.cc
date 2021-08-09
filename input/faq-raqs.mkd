@@ -60,7 +60,7 @@ that I worked on (both successful and unsuccessful):
 - Installing Arch Linux and figuring out how to use it
 - Writing nonfiction e.g. Napkin and EGMO
 	(the latter was written while I was a
-	[clerk at my high school's office](https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/))
+	[clerk at my high school's office](https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/))
 - Writing fiction stories (which I failed miserably at;
 	tried at least two or three times)
 - K-pop dance (not good at it yet but trying!)
@@ -219,9 +219,9 @@ the experience that the developers have so carefully choreographed
 (and then relentlessly debugged to boot).
 
 [raq]: https://paulgraham.com/raq.html
-[tutor]: https://usamo.wordpress.com/2016/02/07/stop-paying-me-per-hour/
+[tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
 [aopstime]: https://www.artofproblemsolving.com/community/c5h1147943p5421541
 [procrastinate]: https://paulgraham.com/procrastination.html
-[lessons]: https://usamo.wordpress.com/2018/01/05/lessons-from-math-olympiads/
+[lessons]: https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/
 [laser]: https://xkcd.com/382/

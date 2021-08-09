@@ -125,6 +125,6 @@ See also [advice from Geoff Smith on geometry](https://people.bath.ac.uk/masgcs/
 [girls]: https://www.egmo.org/
 [contests]: https://artofproblemsolving.com/community/c13_contests
 
-[fillblank]: https://usamo.wordpress.com/2016/05/27/fill-in-the-blank/
-[publishing]: https://usamo.wordpress.com/2016/11/11/notes-on-publishing-my-textbook/
+[fillblank]: https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/
+[publishing]: https://blog.evanchen.cc/2016/11/11/notes-on-publishing-my-textbook/
 [toc]: https://www.maa.org/sites/default/files/pdf/pubs/books/EGMO_TOC.pdf
