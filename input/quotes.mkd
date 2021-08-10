@@ -6,14 +6,34 @@ indent: 1
 
 ---
 
-(will add more as i think of them)
+Some of my favorite quotes. Will add more as I think of them.
 
-- All advice is useless.
+## People
+
 - Ethics is informal politics.
 - Everything before the word "but" is bullshit.
-- Find what you love and let it kill you.
-- I don't believe in zero-sum games. (Scott Aaronson)
-- If it is possible to cut a word out, always cut it out. (George Orwell)
+- I don't believe in zero-sum games.
+	([Scott Alexander](https://slatestarcodex.com/2015/01/01/untitled/))
 - People only exist when you need them.
-- Practice energy management, not time management.
+
+## Processes and design
+
 - The most competent people, with weak processes, will screw up.
+- Measured simply by numbers of users, the current leaders [in almost any field]
+	will be mostly mediocre. Look at Windows.
+	([Paul Graham](http://www.paulgraham.com/icadmore.html))
+- It is better to be technically elegant with a higher learning curve, than to
+	be easy to use, and technically crap.
+	([Aaron Griffin](https://bugs.archlinux.org/task/43302))
+- Simplicity is the ultimate sophistication.
+- If it is possible to cut a word out, always cut it out. (George Orwell)
+- Practice energy management, not time management.
+
+## Advice
+
+- I told him that he cannot see the future
+	because there’s nothing there to see; it hasn’t been built, yet.
+	([Chris Peterson](https://mitadmissions.org/blogs/entry/choosing-to-become-yourself/))
+- Find what you love and let it kill you.
+- Talk is cheap. Show me the code.  ([Linus
+	Torvalds](http://lkml.org/lkml/2000/8/25/132))
