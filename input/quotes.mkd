@@ -31,6 +31,8 @@ Some of my favorite quotes that stuck with me forever.
 
 - The most competent people, with weak processes, will screw up.
 	(Chris Peterson?)
+- Plans are useless, but planning is indispensable.
+	(recounted by Dwight Eisenhower)
 - Nobody should start to undertake a large project.
 	You start with a small _trivial_ project,
 	and you should never expect it to get large.
