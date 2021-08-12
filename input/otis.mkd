@@ -58,9 +58,9 @@ which I pick for each participant based on their background.
 Each unit comes with a problem set
 of about 10-15 olympiad problems meant to take about two weeks.
 Each semester is 12 weeks.
-Additionally, 10-14 olympiad-style practice exams
+Additionally, 10 olympiad-style practice exams
 (each emulating a day of a typical olympiad)
-are assigned throughout the year (graded in full).
+are assigned throughout the year, five of which are graded.
 
 A rough estimate of the time commitment might be
 **8-16 hours per week**,
