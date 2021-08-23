@@ -107,6 +107,9 @@ things you can do if you find yourself having fun and want more.
 I'm not going to talk about the expert stuff here
 because if I do people will give up.
 For now, your job is to follow some of the links in steps 1-3.
+Alternatively, if you want some more continuity or just prefer video lectures
+[MIT has a long series of material](https://missing.csail.mit.edu/)
+that covers 1+2+4+6 and much much more.
 
 Once you've done that you can check
 [FAQ's on Unix](faq-unix.html) for elaborations on the advanced stuff.
