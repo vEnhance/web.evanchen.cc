@@ -123,16 +123,21 @@ Roughly, this is `foo | grep Chen | sort | xsel --clipboard`.
 Of course, without a terminal you *could* also run a graphical program,
 open Google sheets, copy the results in, use the filter menu,
 then sort it, and finally Ctrl-C the result. But why be so roundabout?
-You know what you want, just type it directly.
+You know what you want, just say it.
+
+Pushing this example ever further,
+if you find yourself doing this exact sequence several times,
+you can write `alias meow="foo | grep Chen | sort | xsel --clipboard"`.
+Then in the future you can just type `meow` and have this done in four keystrokes.
 
 The fact that all terminal programs read and write
 in a uniform way is exactly what makes this possible.
 Programmers like this simplicity and elegance.
 They like it so much that software made for sophisticated users
 often doesn't bother to provide a graphical interface.
-This is the same reason why command line flags or text-based
+This is the same reason why command line flags or
 configuration files tend to be text-based on Linux:
-this means they options be manipulated in any editor,
+this means they can be manipulated in any editor,
 [transferred from one computer to another via Git](https://github.com/vEnhance/dotfiles),
 and so on.
 
@@ -151,10 +156,10 @@ Pretty similar to reasons I use Linux.
 	I use both ALE and CoC.)
 - Any Linux computer will have it.
 - It's fast.
-- Most importantly, it is a [modal editor](https://en.wikipedia.org/wiki/Vi#Interface).
 - It is programmable. If you want to, say,
 	toggle the case of the first character of the next 100 lines,
 	you type `qa~j^q99@a`. You don't need any external program.
+- Most importantly, it is a [modal editor](https://en.wikipedia.org/wiki/Vi#Interface).
 
 The last item is the most important one for me,
 and also the one that will be most foreign to newcomers.
