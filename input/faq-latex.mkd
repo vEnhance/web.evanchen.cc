@@ -212,4 +212,4 @@ and ask on [tex.SE](https://tex.stackexchange.com/).
 ### {{ faq("L_22", "Why do you anti-recommend dfrac or displaystyle?") }}
 
 If your expression is so complicated that it isn't legible without using
-`\dfrac` or `\displaytsyle`, then it should probably be displayed.
+`\dfrac` or `\displaystyle`, then it should probably be displayed.
