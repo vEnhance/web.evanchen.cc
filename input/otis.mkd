@@ -28,8 +28,8 @@ though some of the chapters are more challenging.
 
 # {{ hl("apply", "Application &mdash; Year VII") }}
 
-The application for fall 2021 is now open.
-The deadline to apply is August 1, 2021 at 11:59 PM Pacific time.
+The regular deadline for 2021-2022 was August 1, 2021 at 11:59 PM Pacific time.
+See the instructions for details about late application.
 
 * [Application instructions and problems for fall 2021](upload/otis-app-vii.pdf)
 * [Submission URL for fall 2021](https://forms.gle/3ZdzrDraFYVE4Dyh6)
