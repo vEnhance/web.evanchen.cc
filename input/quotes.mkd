@@ -17,6 +17,7 @@ Some of my favorite quotes that stuck with me forever.
 - People only exist when you need them.
 
 ## Design
+
 - Measured simply by numbers of users, the current leaders [in almost any field]
 	will be mostly mediocre. Look at Windows.
 	([Paul Graham](http://www.paulgraham.com/icadmore.html))
@@ -26,6 +27,7 @@ Some of my favorite quotes that stuck with me forever.
 - Simplicity is the ultimate sophistication.
 - If it is possible to cut a word out, always cut it out.
 	([George Orwell](https://sites.duke.edu/scientificwriting/orwells-6-rules/))
+- Perfect is the enemy of good.
 
 ## Processes
 
@@ -46,12 +48,12 @@ Some of my favorite quotes that stuck with me forever.
 	([Chris Peterson](https://mitadmissions.org/blogs/entry/choosing-to-become-yourself/))
 - If I could give my younger self one piece of advice,
 	I wouldn't say anything.
-	([Eric Lander](https://en.wikipedia.org/wiki/Eric_Lander)[^lander])
+	([Eric Lander](https://en.wikipedia.org/wiki/Eric_Lander), paraphrased[^lander])
 - Find what you love and let it kill you.
 - Talk is cheap. Show me the code.
 	([Linus Torvalds](http://lkml.org/lkml/2000/8/25/132))
 
-[^lander]: From the USAMO 2021 awards ceremony. It's not an exact quote, this is based off my memory.
+[^lander]: From the USAMO 2021 awards ceremony.
 
 ![I suppose if we couldn't laugh at things that don't make sense,
 we couldn't react to a lot of life.](static/calvin-hobbes-life.jpg){width=256px}
