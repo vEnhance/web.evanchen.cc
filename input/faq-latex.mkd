@@ -34,22 +34,31 @@ Also, [this tutorial is good too](https://www.latex-tutorial.com/tutorials/).
 
 I think it's better long-term to install LaTeX on your computer.
 I realize that people want something that "just works" with no additional effort.
-But for frequent usage, I think it's more valuable to have control over things like
-custom packages, editor, viewer, file structure.
-It's also faster this way (no round-trip to server for compilation).
+But for frequent usage, there are downsides:
+
+- You do not have much control over the editor or viewer.
+- You do not have control over package versions, or custom packages
+	(besides manually making a copy of a package each time you need it).
+- It's slower, because you need to do repeated round-trips to an external server
+	for compilation and viewing.
+- If you use Asymptote, any errors are silently discarded.
 
 More bluntly, just install LaTeX, you only have to do it once.
 
-Overleaf does have its uses, I use it for collaborative documents
-(many collaborators do not know how to use Git or Dropbox)
-or when stuck on a library computer, etc.
-I think it's not good for learning though, see the next question.
+Overleaf certainly has its uses; most notably, its strength is *collaboration*.
+For example, some of my colleagues do not know how to use Git or Dropbox,
+so its easier for me to throw an Overleaf at them in that case
+(and then use the underlying Git myself).
+Or, sometimes I am stuck on some library computer,
+making it impossible to install my own software.
+
+But I think it's not good for learning though, see the next question.
 
 ### {{ faq("L-2b", "How do I get X to work on Overleaf?") }}
 
 First install LaTeX properly, then if it still doesn't work write to me again.
-(Usually this fixes the issue because it forces the asker to actually do their
-homework. 😉)
+(Usually this fixes the issue because it forces the asker to actually
+[do their homework](http://catb.org/~esr/faqs/smart-questions.html#intro). 😉)
 
 ### {{ faq("L-3", "Your documents are pretty, can I use your formatting?") }}
 
