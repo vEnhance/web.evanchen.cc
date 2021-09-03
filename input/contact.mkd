@@ -19,7 +19,7 @@ Before any questions, you might want to skim some parts of the website
 to see if it's already answered, e.g.
 [coaching page](otis.html),
 [contest resource recommendations](recommend.html)
-and the [~~propoganda section~~ FAQ](faqs.html).
+and the <del>propoganda section</del> [FAQ](faqs.html).
 
 ## {{ hl("discord", "About Discord") }}
 
