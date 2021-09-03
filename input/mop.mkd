@@ -272,7 +272,6 @@ $(() => {
 		const ambient = $(el).prevAll('.empty-chooser').first().find('ul');
 		ambient.append(link);
 		link.on('click', () => { $('.hidden').hide(); $(el).show(); });
-		console.log(ambient);
 	});
 });
 </script>

@@ -43,7 +43,6 @@ $(() => {
 		const filename = $("#xfer_filename").val();
 		const password = $("#xfer_password").val();
 		const kludge = 'evanchen.cc/xfer|' + filename + '|' + password;
-		console.log(kludge);
 		const h1 = await digestMessage(kludge);
 		const h3 = await digestMessage(h1);
 		const checksum = h3.slice(0,6);
