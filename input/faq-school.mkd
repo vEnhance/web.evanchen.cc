@@ -101,8 +101,8 @@ than rushing to collect honors.
 
 Short answer: If you can read and write proofs, then
 
-* Learn abstract algebra or real/complex analysis; and
-* Avoid linear algebra or multivariable calculus.
+- Learn abstract algebra or real/complex analysis; and
+- Avoid linear algebra or multivariable calculus.
 
 (If you aren't comfortable with proofs, you should learn that first.
 See [C-5](faq-contest.html#C-5) for advice on that.)
@@ -159,7 +159,63 @@ and hence the best route is to find out this insider information.
 No, seriously, just listen to the people who do admissions for a living.
 MIT is not the Illuminati, even if it a subsequence.
 
+### {{ faq("S-8", "Is it looking at olympiad problems in college if I didn't do them in high school, or should I just stick to college math classes?") }}
+
+The short answer is that it depends on what you want.
+
+The model you can have in your head is something like follows:
+
+- High school olympiad problems are designed to
+	train for problem solving and thinking ability.
+	To this end, they often take pride in not requiring much background
+	outside of the geometry (and even then [not much][tr011ey]).
+- College math classes, and the associated homework,
+	is instead focused mainly on learning the relevant material.
+	The exercises for your abstract algebra class are geared towards, well,
+	helping you learn abstract algebra.
+	The problem-solving component plays a less important role
+	(though different professors might emphasize it more).
+
+Both options will contribute at least to mathematical maturity.
+I privately think the math contest syllabus does a better job
+of developing mathematical maturity and proof-writing
+at least in beginners, but that's something I consider my own opinion.
+
+That means, depending on what you want, there are a lot of possible answers.
+Here's a few.
+
+- If you are just thinking to major in math,
+	and are worried that you are "missing out" or "behind" by not having done
+	contests, then my advice would not be worry about it.
+	The biggest hurdle will be getting acquainted with proof-writing,
+	which is a challenge, but one that everyone goes through.
+	(Sidenote: most colleges have some introductory proof classes.
+	I have fairly dim views of most that I have seen,
+	but I don't have a better suggestion.)
+	I wouldn't go as far to say that it's not worth it,
+	just that (1) having immense problem-solving ability is not *that* important,
+	(2) you'll get mathematical maturity from the standard curriculum anyways over time,
+	and (3) fear-of-missing-out is not a productive form of motivation anyways.
+
+- If you are thinking about pursuing math as a career, then it's a bit more of a toss-up.
+	Both problem-solving ability, as well as familiarity with core material, are
+	useful powers, and their importance even varies depending on which specific field
+	of math you are looking to do.
+
+- If you're just curious what math contests are all about or doing this just-for-fun,
+	then by all means go exploring! Pursuing your interests is important.
+	I really mean it when I say that olympiad problems are works of art.
+	If you want a chance to appreciate some really well-designed challenges,
+	come on through, we've got a show for you.
+	(Well, not that higher math isn't beautiful too.)
+
+And so on.
+In short, it depends on what you're hoping to get out of your time.
+The example scenarios above are totally black-and-white.
+But your situation is likely to be more complicated, and a mix between these.
+
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
 [tuition]: https://web.mit.edu/facts/tuition.html
 [blank]: https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/comment-page-1/#comment-1694
+[tr011ey]: https://blog.evanchen.cc/2019/04/01/undergraduate-math-011-a-first-year-course-in-geometry/
