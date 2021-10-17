@@ -159,7 +159,7 @@ and hence the best route is to find out this insider information.
 No, seriously, just listen to the people who do admissions for a living.
 MIT is not the Illuminati, even if it a subsequence.
 
-### {{ faq("S-8", "Is it looking at olympiad problems in college if I didn't do them in high school, or should I just stick to college math classes?") }}
+### {{ faq("S-8", "Is it worth looking at olympiad problems in college if I didn't do competitions in high school, or should I just stick to college math classes?") }}
 
 The short answer is that it depends on what you want.
 
@@ -211,8 +211,8 @@ Here's a few.
 
 And so on.
 In short, it depends on what you're hoping to get out of your time.
-The example scenarios above are totally black-and-white.
-But your situation is likely to be more complicated, and a mix between these.
+The example scenarios above are totally black-and-white,
+but your situation is likely to be more complicated, say, a mix between these.
 
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
