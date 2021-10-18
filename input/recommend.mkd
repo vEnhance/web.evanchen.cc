@@ -49,7 +49,7 @@ Here are some additional links.
   My preferred introduction to algebraic geometry; short but complete.
   This was the source that finally got me to understand the concept of a ringed space.
 
-* [Manifolds and Differential Forms](https://www.math.cornell.edu/~sjamaar/manifolds/) by Reyer Sjamaar.
+* [Manifolds and Differential Forms](https://ghostarchive.org/pdfarchive/4452g-manifold.pdf) by Reyer Sjamaar.
   My preferred introduction to differential geometry; very readable and works with minimal prerequisites.
   Also, beautifully drawn figures.
 
