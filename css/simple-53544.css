@@ -285,5 +285,35 @@ div.entrywrap {
     border: 1px solid #000000;
 }
 
+/* Bootstrap monkey patching */
+
+a:link.btn, a:visited.btn {
+	color: #212529;
+}
+a:link.btn-primary, a:visited.btn-primary {
+	color: #000;
+}
+a:link.btn-secondary, a:visited.btn-secondary {
+	color: #000;
+}
+a:link.btn-success, a:visited.btn-success {
+	color: #000;
+}
+a:link.btn-danger, a:visited.btn-danger {
+	color: #000;
+}
+a:link.btn-warning, a:visited.btn-warning {
+	color: #212529;
+}
+a:link.btn-info, a:visited.btn-info {
+	color: #000;
+}
+a:link.btn-light, a:visited.btn-light {
+	color: #212529;
+}
+a:link.btn-dark, a:visited.btn-dark {
+	color: #000;
+}
+
 /* vim: expandtab
  */
