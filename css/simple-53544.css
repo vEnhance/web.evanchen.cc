@@ -29,7 +29,7 @@ SOFTWARE.
 body {
     font-family: "Mate", serif;
     background-color: #f6f6f6; /* It's #5368C1 on KARL */
-    color: #000000;
+    color: #121212;
     max-width: 800px; /* Don't overwhelm large displays */
     margin: 0 auto;
     padding: 0;
