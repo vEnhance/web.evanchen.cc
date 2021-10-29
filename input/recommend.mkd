@@ -76,6 +76,9 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 
 * [Po-Shen Loh](https://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
 
+* [A Journey to the IMO](upload/Sarda-Journey.pdf),
+  an overview of the IMO written from Nepal student Yuvraj Sarda.
+
 ### {{ hl("books", "Books") }}
 
 * My own: [olympiad geometry book EGMO](geombook.html)
