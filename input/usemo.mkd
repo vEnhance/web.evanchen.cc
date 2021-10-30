@@ -50,8 +50,8 @@ and just time yourself for 4.5 hours.
 - Registration opens early October
 	on [AoPS portal](https://aops.com/contests/usemo/).
 	It remains open until end-of-day October 29 or when capacity is reached.
-- Day 1 of exam: Saturday **October 30 2021**, from 12:30pm ET to 5:00pm ET.
-- Day 2 of exam: Sunday **October 31 2021**, from 12:30pm ET to 5:00pm ET.
+- Day I is Sat. **October 30 2021**, from 12:30pm ET to 5:00pm ET.
+- Day II is Sun. **October 31 2021**, from 12:30pm ET to 5:00pm ET.
 
 Additionally, an optional **test review**
 will be held on **7pm ET** each day right after the exam.
