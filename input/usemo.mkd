@@ -42,6 +42,7 @@ We have received reports that AoPS is having technical issues
 with showing the problems, so we posted them here.
 If you have registered, you can download from here
 and just time yourself for 4.5 hours.
+Please don't discuss until 7pm Eastern.
 
 # {{ hl("current", "USEMO 2021") }}
 
