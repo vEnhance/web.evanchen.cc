@@ -37,6 +37,7 @@ Please check the [full rules and procedures][rules].
 # Problems 2021
 
 - [Day 1 problems](https://web.evanchen.cc/upload/usemo-day-1-oct-30.pdf)
+- [Day 2 problems](https://web.evanchen.cc/upload/usemo-day-2-oct-31.pdf)
 
 We have received reports that AoPS is having technical issues
 with showing the problems, so we posted them here.
