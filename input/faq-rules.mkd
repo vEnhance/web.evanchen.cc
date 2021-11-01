@@ -241,8 +241,7 @@ hence I decided to explain its history here.
 
 Finally, I better explain that **color groups are not that important**.
 Once the USA students arrive at MOP, they are all treated equally in team selection:
-no matter their color group, past USA(J)MO score, gender, or what-have-you
-(except, of course, that only female students are eligible for EGMO).
+no matter their color group, past USA(J)MO score, gender, or what-have-you.
 The team selection is not based on a caste system.
 As a matter of principle, anyone attending MOP of year N
 and still in high school could qualify for IMO of year N+1.
