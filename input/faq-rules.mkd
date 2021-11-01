@@ -319,7 +319,9 @@ similarly the combinatorics problems are labeled C1, C2, ... and so on.
 (This means you can refer to a problem being "C8 level"
 in a way that is meaningful from year to year.)
 All the posted shortlists for the past several years are indexed on
-[AoPS](https://aops.com/community/c3223_imo_shortlist).
+[AoPS](https://aops.com/community/c3223_imo_shortlist),
+and recent shortlists have been posted in their entirety
+on the [official IMO website](https://www.imo-official.org/problems.aspx).
 
 An important property of the IMO shortlist
 is that **problems which are shortlisted are confidential for one year**
