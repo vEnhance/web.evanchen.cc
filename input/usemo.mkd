@@ -92,7 +92,8 @@ The two biggest things we can use help with are:
 	to fulfill this role, you do NOT need past competition experience.
 	We will provide marking schemes,
 	and pair up experienced graders with newer ones.
-	You can read [more info about the grading here][grading-info].
+	You can read [more info about the grading here][grading-info];
+	see also the [advice for problem captains][captain].
 	<br>
 	To sign up for grading,
 	[fill out this 2021 form](https://forms.gle/sBzaNAFLg3fzGKqw9).
@@ -114,6 +115,7 @@ or if you have other ideas on how you could help out.
 [answersheet]: static/usemo/answer-template-usemo.pdf
 [mission]: static/usemo/mission-usemo.pdf
 [rules]: static/usemo/rules-usemo.pdf
+[captain]: static/usemo/captain-guidance-usemo.pdf
 [grading-info]: static/usemo/grading-brief-usemo.pdf
 [propose]: static/usemo/proposal-guidelines-usemo.pdf
 [signup]: https://forms.gle/P7tqip2xst8EMXLJ7
