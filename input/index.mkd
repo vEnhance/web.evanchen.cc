@@ -15,7 +15,8 @@ This is the homepage of Evan Chen
 (known also as vEnhance on certain websites).
 I'm an
 [MIT grad student](https://math.mit.edu/directory/profile.php?pid=2106)
-and a math olympiad coach.
+under [Wei Zhang](https://math.mit.edu/~wz2113/),
+and also a math olympiad coach on the side.
 
 My CV is [here](upload/public-CV.pdf).
 Here is a [list of my major coursework](upload/math-coursework.pdf)
