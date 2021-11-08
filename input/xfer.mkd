@@ -21,6 +21,8 @@ Evan Chen is sending you a private file,
 <label for="xfer_password"><h3>Password</h3></label>
 <input type="password" class="form-control" id="xfer_password"></input>
 </label>
+<hr />
+<button class="btn btn-primary">Unlock</button>
 </div>
 <script type="text/javascript">
 $(() => {
@@ -35,6 +37,7 @@ $(() => {
 	const url = new URL(window.location.href);
 	const init_filename = url.searchParams.get('f');
 	const target = url.searchParams.get('h');
+	const salt = url.searchParams.get('s') || '';
 	if (init_filename) {
 		$("#xfer_filename").val(init_filename);
 	}
@@ -42,7 +45,7 @@ $(() => {
 	$("#xfer_password").on('focusout', async () => {
 		const filename = $("#xfer_filename").val();
 		const password = $("#xfer_password").val();
-		const kludge = 'evanchen.cc/xfer|' + filename + '|' + password;
+		const kludge = 'evanchen.cc/xfer|' + filename + '|' + salt + '|' + password;
 		const h1 = await digestMessage(kludge);
 		const h3 = await digestMessage(h1);
 		const checksum = h3.slice(0,6);
