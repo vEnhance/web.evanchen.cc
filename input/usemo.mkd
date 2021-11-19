@@ -102,7 +102,7 @@ The two biggest things we can use help with are:
 	from anyone who is not eligible for the contest.
 	See the [problem proposal guidelines][propose].
 	For USEMO 2021, the deadline for submissions is **September 3, 2021**.
-	(You can read about the [interval review process][review]
+	(You can read about the [internal review process][review]
 	if you are curious how the selection works.)
 
 Please contact the directors for details on these,
