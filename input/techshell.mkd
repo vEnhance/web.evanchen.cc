@@ -1,18 +1,11 @@
-title: Tech literacy
-header: Some notes on technical literacy
+title: Tech literacy primer
+header: Things you should understand about a computer (page 2/3)
+menu-postition: 72
+indent: 1
 
 ---
 
 ## Introduction (can be skipped)
-
-Are you scared by watching Evan's fingers repeatedly smashing
-the wrong keys and things would somehow work anyways?
-Have you tried using LaTeX and found that nothing made sense?
-Are the lotus-eaters trying to convert you into the cult of Vim?
-Have you just been overwhelmed by all the black magic that
-Evan and his orz-ers seems to exercise like it's nothing?
-
-If so, this document may be for you.
 It explains at a high level the most basic types of objects[^0]
 that any computer system will have.
 It is meant to be a short briefing before you follow the instructions in the
@@ -61,12 +54,18 @@ Well, except for a few top-level folders varying by system,
 but you don't have to worry about ever interacting with that directly.
 
 **Folders are important because they help you organize files.**
-If you are the kind of person who puts all their files on the Desktop
-or in the Downloads folder, that would be like throwing all your laundry in a
-pile without even bothering to separate clean from dirty clothes.
-It's a bad practice and you should try to be a bit more organized
-(or at least delete files you don't need).
-If you plan on doing programming, cleaning up Downloads is mandatory.
+Actually.
+You should think of the "Downloads" or "Desktop" folder as
+a physical desk.
+It's fine to leave some papers on your desk if you are only going to need them
+for a short while. What you should *not* do is end up with 2 gigabytes of
+unrelated crap in your Downloads folder having no clue how to find anything.
+That would be like throwing all your laundry in a
+pile on the floor without even bothering to separate clean from dirty clothes.
+
+Have a folder structure that makes sense.
+Otherwise it will come back to bite you once you start using
+software that is not designed for idiots.
 
 ### Files
 
@@ -338,7 +337,11 @@ the editing and the compiling, are happening.
 This will help you when/if you need to debug an issue.
 
 
-## Acknowledgments
+## Where next?
+
+If you're ready to start playing with code,
+[check out the tech support page](techsupport.mkd).
+
 
 Thanks to the following individuals for suggestions and corrections:
 
@@ -349,18 +352,5 @@ Thanks to the following individuals for suggestions and corrections:
 I also acknowledge that some oversimplifications were made here.
 
 [redhat]: https://www.redhat.com/sysadmin/navigating-filesystem-linux-terminal
-
-
----
-
-
-In the page for [tech support](techsupport.html),
-I described how I thin one should go about
-learning how to use a computer,
-and some of the basic functions that everyone uses.
-It's come to my attention that some people have an
-even weaker understandin than simply not knowing how to program:
-a lot of them don't know what ait means to "open a file".
-So this is a short guide I wrote
 
 

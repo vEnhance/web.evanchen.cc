@@ -5,66 +5,11 @@ indent: 1
 
 ---
 
-> You're much better off using code as your secret weapon in another profession.
-> People who can code in the world of technology companies are a dime
-> a dozen and get no respect. People who can code in biology, medicine,
-> government, sociology, physics, history, and mathematics are respected and can
-> do amazing things to advance those disciplines.  
-> --- [Zed A. Shaw](https://learnpythonthehardway.org/python3/advice.html)
-
-This page will attempt to convince you to learn to code
-and how you can get started.
-For LaTeX stuff, see [FAQ's on LaTeX](faq-latex.html).
-For more advanced thoughts like why Vim or why Linux,
-see [FAQ's on Unix](faq-unix.html).
-
-## {{ hl("prologue", "Prologue for beginners") }}
-
-If you found my website, you are presumably someone
-who likes learning and thinking.
-If you are such a person, and you don't know how to code,
-here is my advice for you:
-
-**This Saturday at noon, sit down and learn it**.
-(Or use the next Saturday you are free at noon.)
-
-Seriously, [learn to code](https://youtu.be/TYCxbFad36g?t=2070).
-Learn. To. Code. Learn to code god damn it!
-
-[![Tiny Evan knows Python. You can too!][tiny]{width=90%}][tiny]
-{class=text-center}
-
-[tiny]: static/learnpython.jpg
-
-I don't think everyone should be able to solve IOI problems.
-But I am adamant you should at least have a basic understanding
-of how computers work, and be able to automate trivial tasks.
-For example, you should be able to write a script that
-batch renames the files `a1.out`, `a2.out`, ..., `a100.out`
-to `output001.txt`, `output002.txt`, ..., `output100.txt`.
-Or to [hack together a program](https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/)
-that reads the data from a google form,
-and sums the result into a table that you can send out.
-
-[![Not made by hand][usemo]{width=90%}][usemo]
-{class=text-center}
-
-[usemo]: https://usamo.files.wordpress.com/2020/12/table.png
-
-Unlike something like quadratic formula or differentiation,
-most careers *directly* benefit from some computer literacy[^think].
-I think every single job I've had for the last five years,
-from working at the Duluth REU to running MOP
-to Mystery Hunt to [teaching OTIS][otisweb], involved
-some amount of programming.
-So it's insane that we teach precalculus before programming,
-if we teach the latter at all.
-
-[^think]: I, and several others, also suspect that knowing programming changes
-	the way you think. But this is harder to measure or prove so I only stated the
-	weaker claim.
-
-[otisweb]: https://github.com/vEnhance/otis-web
+Once you've read [the previous page about what a file is](techshell.mkd),
+you can start learning more about the details.
+(Dumb math analogy: before studiyng math olympiad seriously,
+you shuold have seen enough that you can tell the difference
+between a geometry problem and a functional equation.)
 
 ## {{ hl("path", "Evan's suggested learning path") }}
 
@@ -72,44 +17,60 @@ If I was personally teaching computer literacy,
 I would break it down into the following steps
 (this is obviously not the only layout):
 
-1. Learning how to use a command prompt to navigate files and folders and
-	execute commands. You can learn this in a day or two from [Zed Shaw][term]
+1. Learning how to use a command prompt to navigate files and folders
+	in a terminal, and execute commands.
+	You can learn this in a day or two from [Zed Shaw][term]
 	or [djangogirls][term2] or whatever you find on Google.
-2. Be able to open, edit, and save an arbitrary text file.
+2. Find a text editor you like (as stated, any text editor opens any plain text file).
+	Be able to open, edit, and save an arbitrary text file.
 	(This is likely to be covered in step 1 already;
 	LaTeX users may also know this step already.)
 3. You should then learn your first programming language.
+	The hardest part!
+
+## {{ hl("language", Picking a language") }}
+
+In programming culture, choices of language draw the same visceral reactions as
+discussions about race and religion.
+That said, among languages I have used at least a little bite,
+here is Evan's tier list:
+
+1. Python: reads like English, simple to learn, and Evan's native language.
+	The main downside is that it is a lot slower.
 	I grew up on [this Python book](http://openbookproject.net/thinkcs/python/english3e/index.html)
 	and recommend it;
-	there are [tons of other free Python tutorials][nonpro]
-	if you decide you want to pick another one.  
-	You can also choose a different language too; in particular,
-	if you're looking into [competitive programming](http://usaco.org),
-	then C++ is a better choice than Python (much faster).
-	If you're not interested in competitive programming,
-	you can pick any language other than PHP or vanilla JavaScript.[^js]
-	(TypeScript or similar are fine.)
+	there are [tons of other free Python tutorials][nonpro].
+	(Note for experts: Python doesn't have type safety by default, but it can.)
 
-That's the baseline. I do not recommend AP computer science
-because it omits steps 1 and 2 and does a bad job of 3.
-You should just teach yourself, it's much faster this way.
+2. TypeScript: It actually compiles _to_ JavaScript,
+	i.e. there is a program that accepts TypeScript input
+	and produces JavaScript output.
+	Besides that, it has some similarity to Python.
 
-There are also a few optional additional
-things you can do if you find yourself having fun and want more.
-(Do *not* do these before getting the basics down.)
+3. C++: Much faster than Python, but harder to read and write.
+	However, if you want to do 
+	[competitive programming]https://ioinformatics.org/)
+	then you probably want to use this one.
 
-4. Learn [git](https://duckduckgo.com/?q=git+tutorial).
-5. Switch from Windows or OSX to a Linux system.
-6. Learn an advanced text editor like
-	[Vim](https://www.vim.org) or
-	[Emacs](https://en.wikipedia.org/wiki/Emacs).
+4. Java: It's a pretty wordy language. I don't personally like it much
+	but I can see the appeal.
+	The main reason it's still relevant to kids today is because
+	of AP Computer Science A,
+	but that class does a pretty bad job of teachiing it anyways.
 
-I'm not going to talk about the expert stuff here
-because if I do people will give up.
-For now, your job is to follow some of the links in steps 1-3.
-Alternatively, if you want some more continuity or just prefer video lectures
-[MIT has a long series of material](https://missing.csail.mit.edu/)
-that covers 1+2+4+6 and much much more.
+5. JavaScript: please no.[^js] Use TypeScript instead.
+
+6. PHP: definitely no.
+
+## Advanced stuff (skip for now)
+
+Some other advanced things you can do involve
+learning [git](https://duckduckgo.com/?q=git+tutorial).
+switching to Linux, and learning an advanced text editor like
+[Vim](https://www.vim.org) or
+[Emacs](https://en.wikipedia.org/wiki/Emacs).
+I'm not going to talk about the expert stuff here for brevity.
+For now, your job is to pick a language and mess with it.
 
 Once you've done that you can check
 [FAQ's on Unix](faq-unix.html) for elaborations on the advanced stuff.
@@ -118,6 +79,22 @@ Once you've done that you can check
 	that as a beginner I think you shouldn't get in the habit of writing code like
 	`"You have " + n + " dollars"` when you are first starting out.
 	(Okay, I also hate both languages, but that's unrelated.)
+
+## Shout-out to Project Euler
+
+I have lots and lots of love for
+[Project Euler](https://projecteuler.net/about).
+This is an enormous collection of problems that require both
+programming ability as well as problem-solving math ability
+in order to solve.
+I think if you are new to programming but have math background,
+this is a great way to start off!
+It can change the way you think about both fields.
+
+If you do choose to play, you may start with some of the later levels,
+the first 35 levels or so are fairly easy,
+and later levels are more interesting.
+
 
 [term]: https://learnpythonthehardway.org/python3/appendixa.html
 [term2]: https://tutorial.djangogirls.org/en/intro_to_command_line/
