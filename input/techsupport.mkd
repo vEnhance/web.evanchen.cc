@@ -1,6 +1,6 @@
-title: plz learn code
-header: Please learn how to code
-menu-position: 50
+title: Learning path
+header: One possible suggested learning path
+menu-position: 75
 indent: 1
 
 ---
@@ -28,7 +28,7 @@ I would break it down into the following steps
 3. You should then learn your first programming language.
 	The hardest part!
 
-## {{ hl("language", Picking a language") }}
+## {{ hl("language", "Picking a language") }}
 
 In programming culture, choices of language draw the same visceral reactions as
 discussions about race and religion.
@@ -36,6 +36,7 @@ That said, among languages I have used at least a little bite,
 here is Evan's tier list:
 
 1. Python: reads like English, simple to learn, and Evan's native language.
+	This is my personally recommended first language.
 	The main downside is that it is a lot slower.
 	I grew up on [this Python book](http://openbookproject.net/thinkcs/python/english3e/index.html)
 	and recommend it;

@@ -1,6 +1,6 @@
 title: Hobbies
 header: Hobbies and trivia about myself
-menu-position: 50
+menu-position: 40
 
 ---
 

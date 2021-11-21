@@ -1,6 +1,6 @@
 title: Advice
 header: Advice and recommendations
-menu-position: 70
+menu-position: 90
 description: Links to references and readings that I enjoyed.
 
 ---

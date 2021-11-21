@@ -117,10 +117,10 @@ mpages.sort(key=lambda p: int(p["menu-position"]))
 for p in mpages:
 	if "indent" in p:
 		open_tag = r'<h5>&nbsp; &bullet; &nbsp;'
-		close_tag = r'</h5>'
+		close_tag = ' <sup class="numbering">'+str(p['menu-position'])+'</sup>' + r'</h5>'
 	else:
 		open_tag = '<h4>'
-		close_tag = '</h4>'
+		close_tag = ' <sup class="numbering">'+str(p['menu-position'])+'</sup>' + '</h4>'
 	if p["title"] == page["title"]:
 		entry = open_tag + '<strong>%s</strong>' + close_tag
 		print(entry % (hx(p["title"])))

@@ -1,5 +1,5 @@
-title: Tech literacy primer
-header: Things you should understand about a computer (page 2/3)
+title: Filesystem oveview
+header: Files, folders, editors, and compilers
 menu-postition: 72
 indent: 1
 
@@ -49,9 +49,11 @@ It hosts several items, each of which may be a file or a folder.
 For analogy, **you can think of a folder as a huge building**,
 so big that there are smaller rooms inside it (sub-folders).
 
-Every folder is itself contained inside some folder.
+Every folder is itself contained inside some folder.[^mac]
 Well, except for a few top-level folders varying by system,
 but you don't have to worry about ever interacting with that directly.
+
+[^mac]: Apparently, Finder on OSX hides the home folder. Go figure.
 
 **Folders are important because they help you organize files.**
 Actually.
@@ -352,5 +354,3 @@ Thanks to the following individuals for suggestions and corrections:
 I also acknowledge that some oversimplifications were made here.
 
 [redhat]: https://www.redhat.com/sysadmin/navigating-filesystem-linux-terminal
-
-

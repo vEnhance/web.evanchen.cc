@@ -1,6 +1,6 @@
 title: Quotes
 header: List of quotes
-menu-position: 78
+menu-position: 84
 description: List of quotes that Evan likes
 indent: 1
 
