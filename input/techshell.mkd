@@ -306,12 +306,10 @@ On Linux, the `$PATH` variable is managed well,
 and unless you have something extra you need you can leave it alone.
 If you're on Windows, HAHAHAHA GOOD LUCK
 
-To summarize:
-
-> Important Principle #3: some files are executables,
-> and every incantation should start with the name of an executable.
-> The executables live in a faraway system directory,
-> but Bash is smart enough to look for them in `$PATH`.
+To summarize: some files are executables,
+ and every incantation should start with the name of an executable.
+The executables could live in a faraway system directory,
+but Bash is smart enough to look for them in `$PATH`.
 
 
 ### Hence there are lots of programs
