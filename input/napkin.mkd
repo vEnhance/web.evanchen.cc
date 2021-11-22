@@ -1,5 +1,5 @@
 title: Napkin (v1.5)
-menu-position: 82
+menu-position: 72
 header: The Napkin project (v1.5)
 indent: 1
 description: Description of Napkin project, a free book covering all sorts of higher math.

@@ -1,6 +1,6 @@
 title: Learning path
 header: One possible suggested learning path
-menu-position: 75
+menu-position: 64
 indent: 1
 
 ---
