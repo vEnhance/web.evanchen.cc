@@ -65,10 +65,6 @@ unrelated crap in your Downloads folder having no clue how to find anything.
 That would be like throwing all your laundry in a
 pile on the floor without even bothering to separate clean from dirty clothes.
 
-Have a folder structure that makes sense.
-Otherwise it will come back to bite you once you start using
-software that is not designed for idiots.
-
 ### Files
 
 A **file** is a piece of data; officially, a sequence of characters.
