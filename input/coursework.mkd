@@ -27,7 +27,7 @@ The Dropbox links will expire at the end of each semester. -->
 ## {{ hl("mit", "Massachusetts Institute of Technology") }}
 
 * <b>(18.217) Combinatorial Theory</b>
-  [(temporary link)](https://www.dropbox.com/s/a2ljqsz2i2amvl0/MIT-18-217.pdf?dl=0)<br>
+  [(pdf, incomplete)](notes/MIT-18-217.pdf)<br>
   Taught by Alex Postnikov. Fall 2018.
 
 * <b>(18.218) Topics in Combinatorics</b> [(pdf)](notes/MIT-18-218.pdf)<br> 
