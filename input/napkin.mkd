@@ -26,7 +26,7 @@ with several chapters scheduled but not yet written.
 In addition, many chapters still lack problems or solutions.
 
 See link above for the most recent draft,
-and [here for an listing periodic snapshots][wp].
+and [here for a listing of periodic snapshots][wp].
 You can also view the
 [source code on GitHub](https://github.com/vEnhance/napkin/);
 the most recent version is
