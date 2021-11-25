@@ -36,11 +36,23 @@ Please check the [full rules and procedures][rules].
 
 # {{ hl("current", "USEMO 2021") }}
 
-## Problems 2021
+- USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
 
-- [Problems 2021](exams/USEMO-2021.pdf)
-- [Solutions draft, work in progress](exams/usemo-soln-draft.pdf)
+<!--
+## {{ hl("schedule", "Schedule (for USEMO 2021)") }}
 
+- Registration opens early October
+	on [AoPS portal](https://aops.com/contests/usemo/).
+	It remains open until end-of-day October 29 or when capacity is reached.
+- Day I is Sat. **October 30 2021**, from 12:30pm ET to 5:00pm ET.
+- Day II is Sun. **October 31 2021**, from 12:30pm ET to 5:00pm ET.
+
+Additionally, an optional **test review**
+will be held on **7pm ET** each day right after the exam.
+I
+
+
+<!--
 ## {{ hl("schedule", "Schedule (for USEMO 2021)") }}
 
 - Registration opens early October
@@ -54,6 +66,7 @@ will be held on **7pm ET** each day right after the exam.
 It will be hosted at [twitch.tv/vEnhance](https://twitch.tv/vEnhance).
 The USEMO organizers will present solutions to all three problems
 on that day and take any questions or comments from the live chat.
+--> 
 
 ## {{ hl("links", "Links and downloads") }}
 
@@ -72,6 +85,7 @@ You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 
 - USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
 - USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
+- USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
 
 ## {{ hl("hall", "Hall of Fame") }}
 
@@ -80,6 +94,7 @@ Further results can be found at the links above.
 
 - USEMO 2019: Jaedon Whyte, Jeffrey Kwan, Luke Robitaille
 - USEMO 2020: Ankit Bisain, Gopal Goel, Noah Walsh
+- USEMO 2021: Eric Shen, Kristie Sue, Ram Goel
 
 # {{ hl("volunteer", "Volunteer") }}
 
