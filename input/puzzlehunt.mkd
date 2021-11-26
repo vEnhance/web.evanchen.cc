@@ -7,22 +7,22 @@ indent: 1
 
 ## {{ hl("own", "Evan's puzzles") }}
 
-Events:
+### MOP Events
 
 - [MOP 2021 puzzle hunt](mop/2021.html),
 	a miniature one-round hunt
 	written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
 
-Individual puzzles from Mystery Hunt 2021:
+### Mystery Hunt 2021
 
-- [Nutrition Facts](https://perpendicular.institute/puzzle/nutrition-facts/)
-- [Blind Calculation](https://perpendicular.institute/puzzle/blind-calculation/)
-- [A Bit of Light](https://perpendicular.institute/puzzle/a-bit-of-light/)
-- [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
-- [Clueless](https://perpendicular.institute/puzzle/clueless/)
-- [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/)
-- [Escape From Life](https://perpendicular.institute/puzzle/escape-from-life/)
-- [The IMO Shortlist](https://perpendicular.institute/puzzle/the-imo-shortlist/)
+- [Nutrition Facts](https://web.mit.edu/puzzle/www/2021/puzzle/nutrition-facts/)
+- [Blind Calculation](https://web.mit.edu/puzzle/www/2021/puzzle/blind-calculation/)
+- [A Bit of Light](https://web.mit.edu/puzzle/www/2021/puzzle/a-bit-of-light/)
+- [Le chiffre indéchiffrable](https://web.mit.edu/puzzle/www/2021/puzzle/le-chiffre-indéchiffrable/)
+- [Clueless](https://web.mit.edu/puzzle/www/2021/puzzle/clueless/)
+- [Divided Is Us](https://web.mit.edu/puzzle/www/2021/puzzle/divided-is-us/)
+- [Escape From Life](https://web.mit.edu/puzzle/www/2021/puzzle/escape-from-life/)
+- [The IMO Shortlist](https://web.mit.edu/puzzle/www/2021/puzzle/the-imo-shortlist/)
 
 ## {{ hl("new", "New to puzzle hunts?") }}
 
