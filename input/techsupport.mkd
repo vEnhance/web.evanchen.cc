@@ -50,7 +50,7 @@ here is Evan's tier list:
 
 3. C++: Much faster than Python, but harder to read and write.
 	However, if you want to do 
-	[competitive programming]https://ioinformatics.org/)
+	[competitive programming](https://ioinformatics.org/)
 	then you probably want to use this one.
 
 4. Java: It's a pretty wordy language. I don't personally like it much
