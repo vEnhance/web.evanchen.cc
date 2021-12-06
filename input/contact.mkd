@@ -1,7 +1,7 @@
 title: Contact
 header: Contacting Evan
 description: If you want to email or message me.
-menu-position: 90
+menu-position: 100
 
 ---
 
