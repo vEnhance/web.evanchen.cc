@@ -172,6 +172,7 @@ Also listed on the [USEMO page](usemo.html).
 
 * USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf) [(video 1)](https://youtu.be/V2TNgUwbs6A) [(video 2)](https://youtu.be/0rdn01T_q4Y)
 * USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf) [(video 1)](https://youtu.be/4lqdsGunUt8) [(video 2)](https://youtu.be/QruKBObOEbA)
+* USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf) [(video 1)](https://www.youtube.com/watch?v=kjcY8qQAi5U) [(video 2)](https://www.youtube.com/watch?v=UvOQQaLlVV8)
 
 ## {{ hl("elmo", "ELMO") }}
 
