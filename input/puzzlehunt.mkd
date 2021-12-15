@@ -24,6 +24,8 @@ indent: 1
 - [Escape From Life](https://web.mit.edu/puzzle/www/2021/puzzle/escape-from-life/)
 - [The IMO Shortlist](https://web.mit.edu/puzzle/www/2021/puzzle/the-imo-shortlist/)
 
+These are also listed in [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
+
 ## {{ hl("new", "New to puzzle hunts?") }}
 
 If you are totally new to puzzle hunts,
