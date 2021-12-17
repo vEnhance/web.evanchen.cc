@@ -163,6 +163,11 @@ of [my textbook][geombook].
   running the future installments of the contest, as one of
   us is graduating.
 
+* <b>From the Author's Side: Thoughts on Problem Writing</b>
+  {{ handout_link("ProblemWrite") }}
+  A short philosophical blurb about writing problems
+  for math olympiads.
+
 * <b>USAMO 2003 Rubric</b>
   [(pdf)](upload/usamo-2003-rubric.pdf) <br>
   The grading rubric for USAMO 2003.
