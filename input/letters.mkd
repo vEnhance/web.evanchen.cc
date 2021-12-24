@@ -18,9 +18,6 @@ and typical undergraduate colleges (MIT and Common App).
 I've also written letters for summer math camps
 such as Canada/USA MathCamp, PROMYS/ROSS, etc.
 
-Starting from the 2021-2022 school year,
-I am able to write letters for MIT PRIMES as well.
-
 ## {{ hl("ask", "Whether to ask") }}
 
 You should only ask for a letter from me if I know you somewhat well.[^obvious]
