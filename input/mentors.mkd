@@ -25,7 +25,7 @@ The lists below are in alphabetical order.
 * Athemath provides a hybrid math program which includes small group
   math lessons for students, along with fun community-building events like games and movies.
   All teachers are female/nonbinary and MOPpers/MPfG winners.
-  We are a nonprofit and our program costs only $90 for 3 months.
+  We are a nonprofit and our program costs only \$90 for 3 months.
 
 ## {{ hl("mast", "MAST") }}
 
