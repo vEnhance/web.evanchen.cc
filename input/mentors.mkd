@@ -29,8 +29,8 @@ The lists below are in alphabetical order.
 
 ## {{ hl("mast", "MAST") }}
 
-* Primary contact: Dennis Chen ($\text{proofprogram}\texttt{@}\text{gmail}{.}\text{com}$)
-* Website: [mast.geometryexplorer.xyz](https://mast.geometryexplorer.xyz/)
+* Primary contact: Dennis Chen ($\text{dchen}\texttt{@}\text{mathadvance}{.}\text{org}$)
+* Website: [mast.mathadvance.org](https://mast.mathadvance.org/)
 * Scheduled group classes twice a month during the school year,
   with breaks for major USA contests (AMCs, AIME, and USAMO).
 * MAST is an AIME training program intended for students who can comfortably qualify for the AIME.
@@ -40,7 +40,7 @@ The lists below are in alphabetical order.
   It's a self study program somewhat similar to OTIS, in that
   (a) we have more materials than we could feasibly hold lectures for and
   (b) people are expected to peruse it at their own discretion.
-  Information about staff can be found on [the website](https://mast.geometryexplorer.xyz/staff/).
+  Information about staff can be found on [the website](https://mast.mathadvance.org/staff/).
 
 ## {{ hl("xinke", "Xinke's Math Academy") }}
 
