@@ -7,12 +7,6 @@ indent: 1
 
 ## {{ hl("own", "Evan's puzzles") }}
 
-### MOP Events
-
-- [MOP 2021 puzzle hunt](mop/2021.html),
-	a miniature one-round hunt
-	written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
-
 ### Mystery Hunt 2021
 
 - [Nutrition Facts](https://web.mit.edu/puzzle/www/2021/puzzle/nutrition-facts/)
@@ -25,6 +19,12 @@ indent: 1
 - [The IMO Shortlist](https://web.mit.edu/puzzle/www/2021/puzzle/the-imo-shortlist/)
 
 These are also listed in [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
+
+### MOP Mini-events
+
+- [MOP 2021 puzzle hunt](mop/2021.html),
+	a miniature one-round hunt
+	written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
 
 ## {{ hl("new", "New to puzzle hunts?") }}
 
