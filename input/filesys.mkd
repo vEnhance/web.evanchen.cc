@@ -336,7 +336,7 @@ This will help you when/if you need to debug an issue.
 ## Where next?
 
 If you're ready to start playing with code,
-[check out the tech support page](techsupport.mkd).
+[check out the tech support page](techsupport.html).
 
 
 Thanks to the following individuals for suggestions and corrections:
