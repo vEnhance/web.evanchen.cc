@@ -5,7 +5,7 @@ indent: 1
 
 ---
 
-Once you've read [the previous page about what a file is](techshell.mkd),
+Once you've read [the previous page about what a file is](filesys.html),
 you can start learning more about the details.
 (Dumb math analogy: before studiyng math olympiad seriously,
 you shuold have seen enough that you can tell the difference
