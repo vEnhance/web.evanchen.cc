@@ -69,7 +69,7 @@ some amount of programming.
 So it's insane that we teach precalculus before programming,
 if we teach the latter at all.
 
-If you're interested in reading more, read on about [files and folders][techshell].
+If you're interested in reading more, read on about [files and folders](filesys.html).
 
 [^think]: I, and several others, also suspect that knowing programming changes
 	the way you think. But this is harder to measure or prove so I only stated the
