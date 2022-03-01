@@ -98,17 +98,15 @@ Other examples:
 
 Files often have extensions like `*.py`, `*.tex`, `*.txt`. These are
 meant to be hints for the operating system on what kind of file they are, but
-they don't technically need to be there.[^4]
+they don't technically need to be there.[^win]
 
-[^4] For *Windows* users, you should be aware
+[^win]: For *Windows* users, you should be aware
 	Windows not only hides file extensions by default from you,
 	but also tries to intimidate you when you do try to change extensions,
 	e.g. "OMG changing the file extension might make the file unusable!"
 	You can ignore this, because the file extension is just part of the file name
 	that's customary (but not essential) in helping determine what kind of file is used.
 	But it's better for learning to see the extensions, anyhow.
-
-[^4]: Ankan recently converted to Arch Linux. Join the dark side.
 
 There are *counterexamples*, of course --- mainly for programs that use
 their own encoding system, rather than standard A=97, B=98, ...
