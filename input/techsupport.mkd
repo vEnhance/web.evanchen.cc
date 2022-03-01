@@ -32,7 +32,7 @@ I would break it down into the following steps
 
 In programming culture, choices of language draw the same visceral reactions as
 discussions about race and religion.
-That said, among languages I have used at least a little bite,
+That said, among languages I have used at least a little bit,
 here is Evan's tier list:
 
 1. Python: reads like English, simple to learn, and Evan's native language.
