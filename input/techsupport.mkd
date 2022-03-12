@@ -7,7 +7,7 @@ indent: 1
 
 Once you've read [the previous page about what a file is](filesys.html),
 you can start learning more about the details.
-(Dumb math analogy: before studyng math olympiad seriously,
+(Dumb math analogy: before studying math olympiad seriously,
 you should have seen enough that you can tell the difference
 between a geometry problem and a functional equation.)
 
