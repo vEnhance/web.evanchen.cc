@@ -126,6 +126,8 @@ the selection process for the USA IMO team.
 
 ## {{ hl("imo", "International Math Olympiad") }}
 
+* IMO 1998 [(problems and solutions)](exams/IMO-1998-notes.pdf) <br>
+* IMO 1999 [(problems and solutions)](exams/IMO-1999-notes.pdf) <br>
 * IMO 2000 [(problems and solutions)](exams/IMO-2000-notes.pdf) <br>
 	<tt style="font-size: 70%">RUS-G1 USA-A1 BLR-A5 HUN-C1 RUS-N3 RUS-G8</tt>
 * IMO 2001 [(problems and solutions)](exams/IMO-2001-notes.pdf) <br>
