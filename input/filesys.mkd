@@ -9,7 +9,7 @@ indent: 1
 It explains at a high level the most basic types of objects[^0]
 that any computer system will have.
 It is meant to be a short briefing before you follow the instructions in the
-[plz learn code](techsupport.html) page.
+[learning path](techsupport.html) page.
 
 [^0]: To draw an analogy, imagine a friendly alien visiting Earth for first time.
 	The tour guide might start by pointing out the big ball of fire in the sky
