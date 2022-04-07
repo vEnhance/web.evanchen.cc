@@ -31,7 +31,7 @@ These are also listed in [my devjoe page](http://devjoe.appspot.com/huntindex/au
 If you are totally new to puzzle hunts,
 [betaveros has a nice introduction](https://blog.vero.site/post/puzzlehunts).
 You'll probably also want a copy of
-[a code reference sheet](upload/EvanPuzzleCodings.pdf) with you.u
+[a code reference sheet](upload/EvanPuzzleCodings.pdf) with you.
 
 Here's a list of particular puzzles which I think are good beginner puzzles:
 
