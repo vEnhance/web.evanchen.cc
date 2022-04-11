@@ -78,15 +78,14 @@ A stable Internet connection is required.
 * [Gopal Goel][gopal] (alum IV-V)
 * [Howard Halim][howard] (alum III-IV)
 * [Jeffrey Kwan][jkwan] (alum IV-V)
-* [Pranjal Srivastava][pranjal] (alum IV)
+* [Reed LaFleche][reed]
 * [Rohan Goyal][rohan] (alum V)
 * [Sanjana Das][rohan] (alum VI)
 
 ### Graders
 
-* [CJ Quines](https://cjquines.com/): Grader
-* [Reed LaFleche][reed]: Grader
-* [Xinke Guo-Xue][xinke]: Grader
+* [CJ Quines](https://cjquines.com/)
+* [Xinke Guo-Xue][xinke]
 
 ### Past instructors
 
@@ -94,6 +93,7 @@ A stable Internet connection is required.
 * [Ankan Bhattacharya][ankan]
 * [James Lin][james]
 * [Michael Ren][mren] (alum I-II)
+* [Pranjal Srivastava][pranjal] (alum IV)
 * [Zack Chroman][zack] (alum II-III)
 
 <!--
