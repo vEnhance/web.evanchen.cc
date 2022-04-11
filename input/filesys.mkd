@@ -316,7 +316,7 @@ Once executed, programs can actually do more than one thing.
 For example, they can read or write from *multiple* files, not just one.
 Or they can find the files thmeselves.
 Or they may not need files as input: `firefox`  is a program that,
-when excecuted, launches a web browser.
+when executed, launches a web browser.
 
 There are also a lot of *suite-like* programs for a specific kind of file.
 You can think of this as a Swiss army knife.
