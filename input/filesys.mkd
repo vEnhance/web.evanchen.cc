@@ -32,7 +32,7 @@ The goal for this post is to try and sort out some common conceptions.
 It's attempting to write out what are some common confusions about different
 *types* of objects in computing world, and draw analogies to the real world.
 
-Specifically, I want to talk about six kinds of things:
+Specifically, I want to talk about five kinds of things:
 
 * Folders and files
 * Editors
