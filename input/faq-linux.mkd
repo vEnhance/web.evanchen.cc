@@ -1,5 +1,5 @@
-title: Unix FAQ's
-header: Unix FAQ's
+title: Linux FAQ's
+header: Linux FAQ's
 description: Some FAQ's about Linux and the like.
 
 ---
@@ -9,11 +9,11 @@ description: Some FAQ's about Linux and the like.
 These are FAQ's about software I use.
 You might also see [LaTeX FAQ's](faq-latex.html).
 
-### {{ faq("U-1", "If I don't know anything, where do I start?") }}
+### {{ faq("X-1", "If I don't know anything, where do I start?") }}
 
 Check the [plz learn code](techsupport.html) page.
 
-### {{ faq("U-2", "What programming language should I learn first?") }}
+### {{ faq("X-2", "What programming language should I learn first?") }}
 
 I recommend [Python](http://openbookproject.net/thinkcs/python/english3e/index.html)
 but plenty of other languages are OK too.
@@ -24,7 +24,7 @@ languages are not good for learning.
 (I have no stance on duck typing vs static typing though.)
 HTML and CSS are *not* programming languages, they are markup languages.
 
-### {{ faq("U-3a", "Why do you use Linux?") }}
+### {{ faq("X-3a", "Why do you use Linux?") }}
 
 If I had to summarize this in one word, it would be "control".
 
@@ -43,7 +43,7 @@ I can install it by typing `sudo pacman -S geogebra` into my command line
 (here `pacman` is the Arch Linux package manager).
 That's *it*. You do not even need to open a web browser.
 
-### {{ faq("U-3b", "Should I try Linux?") }}
+### {{ faq("X-3b", "Should I try Linux?") }}
 
 - If you're not willing to use search engines to do your own homework
 	when you don't know something, then no.
@@ -66,7 +66,7 @@ That's *it*. You do not even need to open a web browser.
 	Just be aware there's a bit of learning curve depending on which
 	distribution you pick up.
 
-### {{ faq("U-4a", "Why do you use Arch Linux?") }}
+### {{ faq("X-4a", "Why do you use Arch Linux?") }}
 
 I've only used Ubuntu and Arch Linux.
 I switched from Ubuntu to Arch Linux because Arch
@@ -81,7 +81,7 @@ To me Ubuntu is sort of the midpoint of Windows and Arch Linux.
 It's a *bona fide* Linux system, but there is a lot of pre-installed parts
 and a lot of things that are hidden behind graphical interfaces.
 
-### {{ faq("U-4b", "Should I switch to Arch Linux?") }}
+### {{ faq("X-4b", "Should I switch to Arch Linux?") }}
 
 Only if you really like doing homework ;)
 
@@ -91,12 +91,12 @@ your goal it learn about systems, because by the end of the process, you will
 know way more than you started with. Just be aware of it and probably block out
 a week or two.
 
-### {{ faq("U-4c", "Which Linux distribution should I use?") }}
+### {{ faq("X-4c", "Which Linux distribution should I use?") }}
 
 I've only tried two distributions so I have no comment here, sorry.
 Search the web.
 
-### {{ faq("U-5", "Why are you so obsessed with the terminal?") }}
+### {{ faq("X-5", "Why are you so obsessed with the terminal?") }}
 
 I think the analogy in my head is like, when you use a terminal, you are kind of
 "talking to the computer directly", rather than going through some user interface.
@@ -144,7 +144,7 @@ and so on.
 Also Fish autocomplete is life-changing 🐟 ❤️  🔥
 (zsh is good too I hear.)
 
-### {{ faq("U-6a", "Why Vim?") }}
+### {{ faq("X-6a", "Why Vim?") }}
 
 Pretty similar to reasons I use Linux.
 
@@ -186,6 +186,6 @@ becomes a navigation tool like "go to end of line", "delete line",
 The main downside to Vim is that there is a learning curve.
 I paid that price long ago ;)
 
-### {{ faq("U-6b", "Emacs?") }}
+### {{ faq("X-6b", "Emacs?") }}
 
 ¯\\\_(ツ)\_/¯

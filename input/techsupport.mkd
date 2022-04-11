@@ -74,7 +74,7 @@ I'm not going to talk about the expert stuff here for brevity.
 For now, your job is to pick a language and mess with it.
 
 Once you've done that you can check
-[FAQ's on Unix](faq-unix.html) for elaborations on the advanced stuff.
+[FAQ's on Linux](faq-linux.html) for elaborations on the advanced stuff.
 
 [^js]: The reason I specifically anti-recommend PHP and vanilla JavaScript is
 	that as a beginner I think you shouldn't get in the habit of writing code like

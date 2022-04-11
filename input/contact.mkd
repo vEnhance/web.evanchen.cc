@@ -109,11 +109,11 @@ Because of this, the replies are informative and targeted.
 
 ## {{ hl("tech", "Tech help") }}
 
-If you want to ask for tech support with LaTeX or Unix, there are a couple
+If you want to ask for tech support with LaTeX or Linux, there are a couple
 channels in my personal Discord where you might get responses.
 If you do have a question:
 
 - Try search engine first.
 - Always paste code as text (or pastebin, etc.); **do not use screenshots**.
 - For LaTeX always include a [minimal working example](https://www.texfaq.org/FAQ-minxampl).
-- For Unix, write what commands you typed and the output.
+- For Linux, write what commands you typed and the output.

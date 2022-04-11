@@ -25,7 +25,7 @@ This page will attempt to convince you to learn to code
 and how you can get started.
 For LaTeX stuff, see [FAQ's on LaTeX](faq-latex.html).
 For more advanced thoughts like why Vim or why Linux,
-see [FAQ's on Unix](faq-unix.html).
+see [FAQ's on Linux](faq-linux.html).
 
 --------
 

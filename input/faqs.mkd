@@ -13,5 +13,5 @@ This is a compilation of answers to questions that I have been asked over time.
 * [Personal FAQ's](faq-personal.html)
 * [School FAQ's](faq-school.html)
 * [LaTeX FAQ's](faq-latex.html)
-* [Unix FAQ's](faq-unix.html)
+* [Linux FAQ's](faq-linux.html)
 * [Rarely Asked Questions](faq-raqs.html)
