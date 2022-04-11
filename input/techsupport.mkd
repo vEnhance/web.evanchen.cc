@@ -66,7 +66,7 @@ here is Evan's tier list:
 ## Advanced stuff (skip for now)
 
 Some other advanced things you can do involve
-learning [git](https://duckduckgo.com/?q=git+tutorial).
+learning [git](https://duckduckgo.com/?q=git+tutorial),
 switching to Linux, and learning an advanced text editor like
 [Vim](https://www.vim.org) or
 [Emacs](https://en.wikipedia.org/wiki/Emacs).

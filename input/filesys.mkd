@@ -6,7 +6,7 @@ indent: 1
 ---
 
 ## Introduction (can be skipped)
-It explains at a high level the most basic types of objects[^0]
+This explains at a high level the most basic types of objects[^0]
 that any computer system will have.
 It is meant to be a short briefing before you follow the instructions in the
 [learning path](techsupport.html) page.
@@ -77,7 +77,7 @@ Files are stored in folders.
 ### Plain text files
 
 The simplest kind of file is a **text file** or **plain text file**,
-in which the data simply spells out English text.
+in which the data simply spells out text.
 For example if you had a file called "hello.txt",
 and its contents consisted of the 12 bytes "I am so cool",
 that would be a plain text file.
@@ -91,8 +91,8 @@ Other examples:
 * This document being in Markdown is written in plain text format.
 * HTML is considered plain text too. It may not be particularly *intuitive*
 	plain text with `<div>` and `</span>` everywhere,
-	but the encoding does at least human-comprensihible output.
-* Most configuration files like `*.yaml`, `*.cfg`, `.*rc` are
+	but the encoding is at least human-comprensihible output.
+* Most configuration files like `*.yaml`, `*.cfg`, `*.rc` are
 	usually in plain text format.
 * `*.txt` too I suppose :)
 
@@ -136,7 +136,7 @@ and can manipulate them in natural ways.
 The beauty of this is the following principle,
 which you must understand.
 
-> **Important Principle 1: ANY text editor can edit ANY plain text file**.
+> **Important Principle: ANY text editor can edit ANY plain text file**.
 
 For example, I am a die-hard user of the Vim text editor.
 (But I don't recommend Vim for beginners unless you like trial by fire.)
@@ -182,7 +182,7 @@ You write a file called `nt.tex` as follows:
 
 \begin{document}
 \maketitle
-Let $\theta$ be a rational number such that
+Let $\theta$ be a real number such that
 $\cos(20\theta)$ and $\cos(21\theta)$
 are rational numbers.
 Is $\cos(\theta)$ rational?
@@ -195,7 +195,7 @@ that you can give to torment your math teacher.  Wonderful!
 
 The thing I need to hammer home now is that:
 
-> **Important Principle 2: the compiler or interpreter
+> **Important Principle: the compiler or interpreter
 > neither knows nor cares what editor was used.**
 
 It's none of the interpreter's business how you prepare your documents. You can
@@ -229,7 +229,7 @@ Windows may be more complicated.[^3]
 You can think of **Bash as a commanding officer**.
 It is able to run all other programs.
 However, Bash has to travel from folder to folder.
-At any point, Bash is stationed at a a certain folder,
+At any point, Bash is stationed at a certain folder,
 which is called its **current directory**.
 Bash can travel to different directories using the `cd` command,
 which you can [read about literally anywhere][redhat].
@@ -254,7 +254,7 @@ as `cd secretbox/` plus `vim gossip.tex`.
 
 The orders and space arguments matters.
 The first word is almost always a verb,
-and everything that comes after it is an argument or the verb.
+and everything that comes after it is an argument.
 This could be the name of a file as in our example,
 or it could be some other flag or parameter
 This is one reason we avoid spaces in filenames,
@@ -298,10 +298,10 @@ Bash will look around every folder listed in `$PATH`
 for an executable file which matches the same name; it takes the first one.
 On Linux, the `$PATH` variable is managed well,
 and unless you have something extra you need you can leave it alone.
-If you're on Windows, HAHAHAHA GOOD LUCK
+If you're on Windows, HAHAHAHA GOOD LUCK.
 
 To summarize: some files are executables,
- and every incantation should start with the name of an executable.
+and every incantation should start with the name of an executable.
 The executables could live in a faraway system directory,
 but Bash is smart enough to look for them in `$PATH`.
 
@@ -316,7 +316,7 @@ Once executed, programs can actually do more than one thing.
 For example, they can read or write from *multiple* files, not just one.
 Or they can find the files thmeselves.
 Or they may not need files as input: `firefox`  is a program that,
-when excecued, launches a web browser.
+when excecuted, launches a web browser.
 
 There are also a lot of *suite-like* programs for a specific kind of file.
 You can think of this as a Swiss army knife.
