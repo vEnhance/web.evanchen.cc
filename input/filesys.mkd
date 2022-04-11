@@ -185,7 +185,7 @@ You write a file called `nt.tex` as follows:
 Let $\theta$ be a real number such that
 $\cos(20\theta)$ and $\cos(21\theta)$
 are rational numbers.
-Is $\cos(\theta)$ rational?
+Is $\cos(\theta)$ necessarily rational?
 \end{document}
 ```
 
