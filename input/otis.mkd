@@ -11,12 +11,10 @@ OTIS is an olympiad training program for students
 aiming to do well on USA(J)MO or similar level contests.
 It is designed for contestants who are
 comfortable reading and writing proofs
-and can usually qualify for national olympiad[^other],
+and can usually qualify for national olympiad
 (for example, consistently 10+ on AIME for American contestants is fine).
-
-[^other]: Students at other levels may be interested in
-	[my list of mentors and programs](mentors.html).
-
+Students at other levels may be interested in
+[my list of mentors and programs](mentors.html).
 
 # {{ hl("excerpts", "The OTIS Excerpts") }}
 
@@ -27,10 +25,9 @@ This mini-book was named *The OTIS Excerpts*.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
-# {{ hl("apply", "Application &mdash; Year VII") }}
+# {{ hl("apply", "Application &mdash; Year VIII") }}
 
-Applications for year VII are now closed, since I am at full capacity.
-(This includes late applications, with apologies.)
+Applications for year VIII will be out in mid-April.
 
 <!--
 The regular deadline for 2021-2022 was August 1, 2021 at 11:59 PM Pacific time.
@@ -55,42 +52,12 @@ A stable Internet connection is required.
 
 # {{ hl("about", "About OTIS") }}
 
-Here is some information about the program and what it is.
-
-## {{ hl("description", "Description") }}
-
-OTIS is centered around two-week topic units (my design)
-which I pick for each participant based on their background.
-Each unit comes with a problem set
-of about 10-15 olympiad problems meant to take about two weeks.
-Each semester is 12 weeks.
-Additionally, 10 olympiad-style practice exams
-(each emulating a day of a typical olympiad)
-are assigned throughout the year, five of which are graded.
-
-A rough estimate of the time commitment might be
-**8-16 hours per week**,
-although there is a large variance.
-
-Some students have brief weekly or biweekly lectures[^brief]
-but students can also take OTIS as a correspondence course
-with no lectures at all.
-It's also possible to have an instructor other than me.
-In this way, OTIS is really a **guided self-study program**
-and is not really meant as a tutoring program.
-[^brief]: I really mean "brief" here, like 45 minutes or so.
-
-The (long) [syllabus](upload/otis-syllabus.pdf)
-contains the full details.
-
 ## {{ hl("documents", "Documents") }}
 
-* [Full syllabus](upload/otis-syllabus.pdf) (warning: long)
-* [Course synopsis][unitlist] (possible topics covered)
+* [Syllabus](upload/otis-syllabus.pdf)
+* [List of topics][unitlist]
 * Example unit: [handout][sample-DNY] and [solutions][sample-DNYsol]
 * Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
-* Example transcript: [transcript][sample-zack]
-* Mini-book: [The OTIS Excerpts](excerpts.html)
 
 [sample-DNY]: static/otis-samples/DNY-ntconstruct.pdf
 [sample-DNYsol]: static/otis-samples/DNY-sol-ntconstruct.pdf
@@ -100,28 +67,36 @@ contains the full details.
 [sample-zack]: static/otis-samples/zack-local.pdf
 [unitlist]: static/otis-samples/synopsis.html
 
-## {{ hl("staff", "Organizers") }}
+## {{ hl("staff", "Staff") }}
 
-Current staff:
+### Director
 
-* [Evan Chen](https://web.evanchen.cc): Director
-* [Gopal Goel][gopal]: Instructor (alum OTIS IV-V)
-* [Howard Halim][howard]: Instructor (alum OTIS III-IV)
-* [James Lin][james]: Instructor
-* [Jeffrey Kwan][jkwan]: Instructor (alum OTIS IV-V)
-* [Pranjal Srivastava][pranjal]: Instructor (alum OTIS IV)
-* [Rohan Goyal][rohan]: Instructor (alum OTIS V)
+* [Evan Chen](https://web.evanchen.cc)
+
+### Instructors
+
+* [Gopal Goel][gopal] (alum IV-V)
+* [Howard Halim][howard] (alum III-IV)
+* [Jeffrey Kwan][jkwan] (alum IV-V)
+* [Pranjal Srivastava][pranjal] (alum IV)
+* [Rohan Goyal][rohan] (alum V)
+* [Sanjana Das][rohan] (alum VI)
+
+### Graders
+
 * [CJ Quines](https://cjquines.com/): Grader
 * [Reed LaFleche][reed]: Grader
 * [Xinke Guo-Xue][xinke]: Grader
 
-Past organizers:
+### Past instructors
 
-* [Anant Mudgal][anant]: Instructor (alum OTIS III)
-* [Ankan Bhattacharya][ankan]: Instructor
-* [Michael Ren][mren]: Instructor (alum OTIS I-II)
-* [Zack Chroman][zack]: Instructor (alum OTIS II-III)
+* [Anant Mudgal][anant] (alum III)
+* [Ankan Bhattacharya][ankan]
+* [James Lin][james]
+* [Michael Ren][mren] (alum I-II)
+* [Zack Chroman][zack] (alum II-III)
 
+<!--
 ## {{ hl("history", "History") }}
 I started teaching in 2015 when a group of parents
 from Phillips Andover Academy emailed me in early April,
@@ -131,13 +106,9 @@ and would make a trip up north from MIT every Sunday to work with them.
 
 Since then word has gotten around,
 and more and more requests have come to me.
-I now teach 10-15 contestants each semester from both coasts,
-meeting them online during my evenings and the weekends,
-in lieu of [studying for my actual classes][gir].
-Thus my part-time job is to work with some of the
-most talented and motivated math high schoolers in the country
-on the same problems that I loved so much back in high school.
-I have the best job in the world.
+These days, the program has well over 100 students,
+instead of half a dozen.
+-->
 
 ## {{ hl("photos", "Photos") }}
 
@@ -153,6 +124,7 @@ I have the best job in the world.
 [jkwan]: https://www.imo-official.org/participant_r.aspx?id=29884
 [pranjal]: https://www.imo-official.org/participant_r.aspx?id=28249
 [sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
+[sanjana]: https://www.egmo.org/people/person1748/
 [rohan]: https://www.linkedin.com/in/rohan-goyal-a998aa155/
 
 [reed]: https://www.linkedin.com/in/reed-lafleche-941481106/
