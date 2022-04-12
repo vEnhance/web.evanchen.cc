@@ -50,7 +50,7 @@ A stable Internet connection is required.
 
 ## {{ hl("documents", "Documents") }}
 
-* [Syllabus](upload/otis-syllabus.pdf)
+* [Syllabus](upload/otis-syllabus.pdf), updated for 2022-2023
 * [List of topics][unitlist]
 * Example unit: [handout][sample-DNY] and [solutions][sample-DNYsol]
 * Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
