@@ -74,6 +74,7 @@ A stable Internet connection is required.
 * [Gopal Goel][gopal] (alum IV-V)
 * [Howard Halim][howard] (alum III-IV)
 * [Jeffrey Kwan][jkwan] (alum IV-V)
+* Ram Goel (alum V-VII)
 * [Reed LaFleche][reed]
 * [Rohan Goyal][rohan] (alum V)
 * [Sanjana Das][rohan] (alum VI)
