@@ -72,7 +72,6 @@ A stable Internet connection is required.
 ### Instructors
 
 * [Gopal Goel][gopal] (alum IV-V)
-* [Howard Halim][howard] (alum III-IV)
 * [Jeffrey Kwan][jkwan] (alum IV-V)
 * Ram Goel (alum V-VII)
 * [Reed LaFleche][reed]
@@ -88,6 +87,7 @@ A stable Internet connection is required.
 
 * [Anant Mudgal][anant] (alum III)
 * [Ankan Bhattacharya][ankan]
+* [Howard Halim][howard] (alum III-IV)
 * [James Lin][james]
 * [Michael Ren][mren] (alum I-II)
 * [Pranjal Srivastava][pranjal] (alum IV)
