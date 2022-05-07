@@ -26,7 +26,7 @@ Roughly 250 students qualify for the USAMO and 250 students qualify for the USA(
 via scores on previous short-answer contests.
 Then things get interesting:
 
-* In USAMO of year N-1, about 60 students in grades 11 and below,
+* In USAMO of year $N-1$, about 60 students in grades 11 and below,
   as well as the IMO team of that year,
   are invited to the three-week Mathematical Olympiad Summer Program,
   abbreviated **MOP**.
@@ -39,7 +39,7 @@ Then things get interesting:
 * Contestants participate in **RMM Day 1**, worth 21 points.
 * Contestants participate in the **APMO**, which is weighted by 0.6;
   hence it is also worth 21 points (despite being a five-problem exam).
-* Finally, the two days of **USAMO** of year N serves as the final TST,
+* Finally, the two days of **USAMO** of year $N$ serves as the final TST,
   worth 42 points.
 * The sum of scores over these five tests (six days, maximum 126 points)
   determine that year's IMO team.
