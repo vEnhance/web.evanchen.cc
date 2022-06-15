@@ -22,7 +22,7 @@ These are also listed in [my devjoe page](http://devjoe.appspot.com/huntindex/au
 
 ### MOP Mini-events
 
-- [MOP 2021 puzzle hunt](mop/2021.html),
+- [MOP 2021 puzzle hunt](https://mosp.evanchen.cc),
 	a miniature one-round hunt
 	written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
 
