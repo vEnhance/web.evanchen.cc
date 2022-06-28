@@ -6,15 +6,6 @@ menu-position: 42
 
 ---
 
-Here's a list of games I like, of various forms.
-
-In general, I seem to enjoy more difficult games that
-take a while to really learn well.
-This means the game gets more interesting
-as you start to get the hang of it.
-This has the disadvantage that they are not so beginner-friendly;
-not really the kind you can bring to a party with people you don't know.
-
 ## {{ hl("tabletop", "Tabletop games") }}
 
 You can find my page on
@@ -22,7 +13,6 @@ You can find my page on
 here are some of the games I like.
 
 <script language="javascript" src="https://boardgamegeek.com/jswidget.php?username=vEnhance&numitems=5&text=title&images=small-fixed&show=random&imagesonly=1&imagepos=left&domains%5B%5D=boardgame"></script>
-
 
 ## {{ hl("steam", "Steam") }}
 
@@ -62,7 +52,6 @@ here are some of the games I like.
   exactly equal to your bid.
 
 [ninetynine]: https://en.wikipedia.org/wiki/Ninety-nine_(trick-taking_card_game)
-
 
 ## {{ hl("strategy", "Other strategy and puzzle games") }}
 
