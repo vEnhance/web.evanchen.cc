@@ -255,6 +255,13 @@ Here are recent songs we peformed:
 	then the students can’t bash; and the circle continues."
 - Henry Jiang: "If you play a wrong note really loudly,
 	that's just called jazz."
+- Jeff Chen: "It's not wrong, it's just misguided."
+- Jeff Chen: "Walking is nontrivially hard.
+	It's $O(n)$ effort, whereas sitting here is $O(1)$ effort"
+- Jeff Chen: "I’m too high; I’m going to go run around."
+- Victoria Hu: "Oh yeah didn't u donate Raina to me at the airport?"
+- Debbie Lee: "I don't think Jane Street would appreciate
+	all their thousands of dollars going to fruit snacks."
 - Derek Liu: "Dude, I haven't made a single haiku in all of MOP.
 	What the heck."
 </div>
