@@ -206,6 +206,12 @@ See also [general ELMO information](elmo/general.html).
 * ELMO 2019 [(problems)](exams/ELMO-2019.pdf)
 	[(shortlist with solutions)](exams/ELMO-2019-SL.pdf)
 	[(ELSMO)](exams/ELSMO-2019.pdf)
+* ELMO 2020 [(problems)](exams/ELMO-2020.pdf)
+	[(ELSMO)](exams/ELSMO-2020.pdf)
+* ELMO 2021 [(problems)](exams/ELMO-2021.pdf)
+	[(ELSMO)](exams/ELSMO-2021.pdf)
+* ELMO 2022 [(problems)](exams/ELMO-2022.pdf)
+	[(ELSMO)](exams/ELSMO-2022.pdf)
 
 ## {{ hl("taiwan", "Taiwan Team Selection Test") }}
 
