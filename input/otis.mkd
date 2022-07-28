@@ -71,9 +71,11 @@ A stable Internet connection is required.
 
 ### Instructors
 
+* [Anushka Aggarwal][anushka] (alum V)
 * [Gopal Goel][gopal] (alum IV-V)
 * [Jeffrey Kwan][jkwan] (alum IV-V)
-* Ram Goel (alum V-VII)
+* [Noah Walsh][noah] (alum V-VI)
+* [Ram Goel][ramgoel] (alum V-VII)
 * [Reed LaFleche][reed]
 * [Rohan Goyal][rohan] (alum V)
 * [Sanjana Das][sanjana] (alum VI)
@@ -130,3 +132,6 @@ instead of half a dozen.
 [ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
 [mren]:  https://www.imo-official.org/participant_r.aspx?id=28394
 [zack]:  https://www.imo-official.org/participant_r.aspx?id=27374
+[ramgoel]: https://www.imo-official.org/participant_r.aspx?id=31808
+[anushka]: https://www.egmo.org/people/person1429/
+[noah]: https://www.imo-official.org/participant_r.aspx?id=31040
