@@ -34,23 +34,10 @@ to get a better sense for the goals of the competition.
 The USEMO is largely run on an honor system, although we may offer prizes.
 Please check the [full rules and procedures][rules].
 
-# {{ hl("current", "USEMO 2021") }}
+# {{ hl("current", "USEMO 2022") }}
 
-- USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
-
-<!--
-## {{ hl("schedule", "Schedule (for USEMO 2021)") }}
-
-- Registration opens early October
-	on [AoPS portal](https://aops.com/contests/usemo/).
-	It remains open until end-of-day October 29 or when capacity is reached.
-- Day I is Sat. **October 30 2021**, from 12:30pm ET to 5:00pm ET.
-- Day II is Sun. **October 31 2021**, from 12:30pm ET to 5:00pm ET.
-
-Additionally, an optional **test review**
-will be held on **7pm ET** each day right after the exam.
-I
-
+USEMO 2022 is **tentatively scheduled for October 22 and October 23**.
+More details will be posted once the date is fully determined.
 
 <!--
 ## {{ hl("schedule", "Schedule (for USEMO 2021)") }}
@@ -61,12 +48,7 @@ I
 - Day I is Sat. **October 30 2021**, from 12:30pm ET to 5:00pm ET.
 - Day II is Sun. **October 31 2021**, from 12:30pm ET to 5:00pm ET.
 
-Additionally, an optional **test review**
-will be held on **7pm ET** each day right after the exam.
-It will be hosted at [twitch.tv/vEnhance](https://twitch.tv/vEnhance).
-The USEMO organizers will present solutions to all three problems
-on that day and take any questions or comments from the live chat.
---> 
+-->
 
 ## {{ hl("links", "Links and downloads") }}
 
@@ -111,14 +93,12 @@ The two biggest things we can use help with are:
 	see also the [advice for problem captains][captain].
 	<br>
 	To sign up for grading,
-	[fill out this 2021 form](https://forms.gle/sBzaNAFLg3fzGKqw9).
+	[fill out this 2022 form](https://forms.gle/qKDptQ2GTpgCPrCN6).
 
 - **Problem proposals**: we welcome proposals for problems
 	from anyone who is not eligible for the contest.
 	See the [problem proposal guidelines][propose].
-	For USEMO 2021, the deadline for submissions is **September 3, 2021**.
-	(You can read about the [internal review process][review]
-	if you are curious how the selection works.)
+	For USEMO 2022, the deadline for submissions is **September 10, 2022**.
 
 Please contact the directors for details on these,
 or if you have other ideas on how you could help out.
