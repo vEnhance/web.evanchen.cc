@@ -61,7 +61,7 @@ You should think of the "Downloads" or "Desktop" folder as
 a physical desk.
 It's fine to leave some papers on your desk if you are only going to need them
 for a short while. What you should *not* do is end up with 2 gigabytes of
-unrelated crap in your Downloads folder having no clue how to find anything.
+unrelated stuff in your Downloads folder having no clue how to find anything.
 That would be like throwing all your laundry in a
 pile on the floor without even bothering to separate clean from dirty clothes.
 
