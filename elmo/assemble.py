@@ -5,7 +5,7 @@ import sys
 
 # Script constants
 if len(sys.argv) > 1 and sys.argv[1] =='--local':
-	BASE = r"file:///home/evan/Sync/Documents/www/elmo/"
+	BASE = r"file:///home/evan/Sync/www/elmo/"
 else:
 	BASE = r"//web.evanchen.cc/elmo/"
 YEAR_NEXT = datetime.datetime.today().year
