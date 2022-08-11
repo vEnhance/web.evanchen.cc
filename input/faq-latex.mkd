@@ -176,7 +176,7 @@ The main contributing factors are:
 + Several additional custom keyboard shortcuts specifically for TeX,
 	see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
 + I have conceal enabled in Vim, so I can read my source code more easily.
-+ I use latexmk to auto-compile (L-8).
++ I use latexmk to auto-compile ([L-8](#L-8)).
 
 I have been using Vim and LaTeX since I was a teenager,
 so I am quite proficient with both.
