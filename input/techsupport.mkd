@@ -63,6 +63,13 @@ here is Evan's tier list:
 
 6. PHP: definitely no.
 
+Sidenote: HTML and LaTeX are
+[markup languages](https://stackoverflow.com/a/145179),
+and not programming languages in practice.
+(Pedants may argue they are *technically* Turing-complete
+if abused enough, but why would you do that?)
+CSS is not a programming language either for similar reasons.
+
 ## Advanced stuff (skip for now)
 
 Some other advanced things you can do involve

@@ -13,6 +13,7 @@ You can think of LaTeX workflow as having three components:
 
 1. A **text editor** that you type your content into,
 	like gedit, Sublime, Vim, or Emacs.
+	(See [tech briefing](filesys.html) for details.)
 2. A **LaTeX compiler** (aka **LaTeX distribution**)
 	that converts the source into a PDF.
 	See question [L-10](#L-10) for recommendations.
