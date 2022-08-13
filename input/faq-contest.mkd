@@ -15,9 +15,9 @@ For the first several weeks,
 **the most important thing is exposure**.
 There is a time and place to think about study strategy,
 test-taking strategy, and so on.
-However, it is not right now.
-Instead, I recommend the famous Go proverb:
-"lose your first 100 games as quickly as possible".
+However, it is not right now.  Instead, I recommend the famous
+[Go proverb](https://en.wikipedia.org/wiki/Go_proverb):
+"**lose your first 50 games as quickly as possible**".
 
 When you first start, you should do some subset
 of the following things for several weeks
