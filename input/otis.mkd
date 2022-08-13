@@ -5,7 +5,7 @@ description: Synopsis of my teaching for olympiad contestants.
 
 ---
 
-<img src="static/calvin-education.gif" width="100%" />
+<img src="static/43616c76696e486f62626573.gif" width="100%" />
 
 OTIS is an olympiad training program for students
 aiming to do well on USA(J)MO or similar level contests.
