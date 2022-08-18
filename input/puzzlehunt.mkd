@@ -33,7 +33,15 @@ If you are totally new to puzzle hunts,
 You'll probably also want a copy of
 [a code reference sheet](upload/EvanPuzzleCodings.pdf) with you.
 
-Here's a list of particular puzzles which I think are good beginner puzzles:
+Nice beginner hunts:
+
+- [Zelda minihunt](https://deusovi.github.io/puzzlefiles/zelda-minihunt.pdf),
+	3 feeder puzzles and one metapuzzle.
+- [Brian Chen's Splash 2016 hunt](https://blog.vero.site/pdf/intro-puzzles.pdf),
+	5 feeder puzzles and a pure metapuzzle (meaning the metapuzzle has no given
+	content besides the feeder answers).
+
+Some good beginner puzzles from more difficult hunts:
 
 - [Yeah, But It Didn't Work!](https://www.mit.edu/~puzzle/2018/full/puzzle/yeah_but_it_didnt_work.html)
 	(Mystery Hunt 2018)
