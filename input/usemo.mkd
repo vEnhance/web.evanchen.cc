@@ -39,8 +39,8 @@ Please check the [full rules and procedures][rules].
 - Registration opens early October
 	on [AoPS portal](https://aops.com/contests/usemo/).
 	It remains open until end-of-day October 21 or when capacity is reached.
-- Day I is Sat. **October 22 2021**, from 12:30pm ET to 5:00pm ET.
-- Day II is Sun. **October 23 2021**, from 12:30pm ET to 5:00pm ET.
+- Day I is Sat. **October 22 2022**, from 12:30pm ET to 5:00pm ET.
+- Day II is Sun. **October 23 2022**, from 12:30pm ET to 5:00pm ET.
 
 ## {{ hl("links", "Links and downloads") }}
 
