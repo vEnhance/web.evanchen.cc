@@ -59,6 +59,7 @@ In descending order of importance for new solvers:
 0. Read betaveros's post if you haven't already
 	so you are familiar with all "standard" techniques
 	since many hunts will assume familiarity with no further comment.
+	(See also [Microsoft's common encoding list][msenc].)
 1. **Always make a spreadsheet** whenever you are working on a puzzle.
 	(Trying to do a puzzle without a spreadsheet is
 	analogous to not bringing scratch paper to the USAMO.
@@ -85,12 +86,11 @@ In descending order of importance for new solvers:
 5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
 	given only some of the letters.
 6. Always ask what **information is not used yet**.
-	In a well designed puzzle,
-	there will rarely be any superfluous information
-	(much like in USAMO, usually there are no extraneous conditions on problems).  
-	Good puzzle writers will tend to "destroy" information
-	if it’s not relevant, e.g. if the order of a list is irrelevant,
-	it tends to be in alphabetical order.
+	In a well designed puzzle, there will rarely be any superfluous information
+	(much like in USAMO, usually there are no extraneous conditions on problems).
+	Good puzzle writers will tend to "destroy" information if it’s not relevant.
+	In particular, it's extremely common for lists to be in **alphabetical order**
+	if either order is irrelevant or the solver needs to re-order themselves.
 7. Look at the **puzzle title** and **flavor text** for clues.
 
 ## {{ hl("writing", "Thoughts on puzzle-writing") }}
@@ -102,3 +102,4 @@ Two blog posts of mine:
 
 [ppint]: http://puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf
 [advice]: https://www.mit.edu/~puzzle/resources/thinkingaboutpuzzles.html
+[msenc]: https://puzzlehunt.azurewebsites.net/ph21/play/encodings#
