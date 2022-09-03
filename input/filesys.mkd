@@ -5,7 +5,8 @@ indent: 1
 
 ---
 
-## Introduction (can be skipped)
+## {{ hl("intro", "Introduction (can be skipped)") }}
+
 This explains at a high level the most basic types of objects[^0]
 that any computer system will have.
 It is meant to be a short briefing before you follow the instructions in the
@@ -22,7 +23,7 @@ It is meant to be a short briefing before you follow the instructions in the
 	for the alien to settle in and live a life on Earth,
 	but it sure is helpful as a start.
 
-## Topics covered
+## {{ hl("topics", "Topics covered") }}
 
 In the last 10 years, there has been a lot of changes in the way users access
 their files. For many students, even the concept of a "file" could be
@@ -40,9 +41,9 @@ Specifically, I want to talk about five kinds of things:
 * Terminal emulators
 * Executing programs
 
-## Core concepts
+## {{ hl("core", "Core concepts") }}
 
-### Folders
+### {{ hl("folders", "Folders") }}
 
 A **folder** is what it sounds like.
 It hosts several items, each of which may be a file or a folder.
@@ -65,7 +66,7 @@ unrelated stuff in your Downloads folder having no clue how to find anything.
 That would be like throwing all your laundry in a
 pile on the floor without even bothering to separate clean from dirty clothes.
 
-### Files
+### {{ hl("files", "Files") }}
 
 A **file** is a piece of data; officially, a sequence of characters.
 The characters are officially 0's and 1's,
@@ -74,7 +75,7 @@ that map onto a set of printable characters
 (01100001=97=A, 98=B, ...).
 Files are stored in folders.
 
-### Plain text files
+### {{ hl("plaintext", "Plain text files") }}
 
 The simplest kind of file is a **text file** or **plain text file**,
 in which the data simply spells out text.
@@ -123,7 +124,7 @@ their own encoding system, rather than standard A=97, B=98, ...
 But bottom line: **you can think of a file like a piece of paper.**
 Which brings us to...
 
-### Editors
+### {{ hl("editors", "Editors") }}
 
 An **editor** is any program that manipulates the contents of a text file.
 In other words, an **editor is like a pencil/eraser/pen**:
@@ -149,7 +150,7 @@ rely on what *kind* of file you are editing, as long as it's plain text.
 If you love Vim like me, you can use Vim for Python, for LaTeX, for C++, for
 Markdown, whatever you like. You do not need a different editor per workflow.
 
-### Compilers and interpreters
+### {{ hl("compile", "Compilers and interpreters") }}
 
 Compilers and interpeters are programs that take files as input and do something with them.
 Maybe they make a copy in a different form, or execute some commands, or so on.
@@ -202,9 +203,9 @@ It's none of the interpreter's business how you prepare your documents. You can
 write in pencil, or fountain pen, or crayon, or sharpie, or art brush, and the
 interpreter is only there to read the instructions and fulfill their job.
 
-## Invoking the tools
+## {{ hl("invoke", "Invoking the tools") }}
 
-### The Command Line
+### {{ hl("cmd", "The Command Line") }}
 
 A **terminal** is a text-based interface for issuing commands to a
 computer.[^1] As a trivial example, if you have a file called `gossip.txt`,
@@ -260,9 +261,9 @@ or it could be some other flag or parameter
 This is one reason we avoid spaces in filenames,
 because it mucks all these commands up, requiring quotes.
 
-## Execution
+## {{ hl("exec", "Execution") }}
 
-### Programs are secretly executable files
+### {{ hl("progfile"), "Programs are secretly executable files") }}
 
 (Skip this entire section if you are learning this for the first time.)
 
@@ -305,8 +306,7 @@ and every incantation should start with the name of an executable.
 The executables could live in a faraway system directory,
 but Bash is smart enough to look for them in `$PATH`.
 
-
-### Hence there are lots of programs
+### {{ hl("manyprog"), "Hence there are lots of programs") }}
 
 Earlier, I talked about compilers and interpreters
 as programs that read a piece of paper and do some action.
@@ -314,7 +314,7 @@ But programs are really versatile.
 
 Once executed, programs can actually do more than one thing.
 For example, they can read or write from *multiple* files, not just one.
-Or they can find the files thmeselves.
+Or they can find the files themselves.
 Or they may not need files as input: `firefox`  is a program that,
 when executed, launches a web browser.
 
@@ -330,12 +330,10 @@ Just be aware that the suite is hiding from you that two unrelated process,
 the editing and the compiling, are happening.
 This will help you when/if you need to debug an issue.
 
-
-## Where next?
+## hl("next", "Where next?") }}
 
 If you're ready to start playing with code,
 [check out the tech support page](techsupport.html).
-
 
 Thanks to the following individuals for suggestions and corrections:
 

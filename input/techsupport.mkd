@@ -80,7 +80,7 @@ and not programming languages in practice.
 if abused enough, but why would you do that?)
 CSS is not a programming language either for similar reasons.
 
-## Advanced stuff (skip for now)
+## {{ hl("advanced", "Advanced stuff (skip for now)") }}
 
 Some other advanced things you can do involve
 learning [git](https://duckduckgo.com/?q=git+tutorial),
@@ -98,7 +98,7 @@ Once you've done that you can check
 	`"You have " + n + " dollars"` when you are first starting out.
 	(Okay, I also hate both languages, but that's unrelated.)
 
-## Shout-out to Project Euler
+## {{ hl("euler", "Shout-out to Project Euler") }}
 
 I have lots and lots of love for
 [Project Euler](https://projecteuler.net/about).
