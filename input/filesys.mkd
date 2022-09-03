@@ -263,7 +263,7 @@ because it mucks all these commands up, requiring quotes.
 
 ## {{ hl("exec", "Execution") }}
 
-### {{ hl("progfile"), "Programs are secretly executable files") }}
+### {{ hl("progfile", "Programs are secretly executable files") }}
 
 (Skip this entire section if you are learning this for the first time.)
 
@@ -306,7 +306,7 @@ and every incantation should start with the name of an executable.
 The executables could live in a faraway system directory,
 but Bash is smart enough to look for them in `$PATH`.
 
-### {{ hl("manyprog"), "Hence there are lots of programs") }}
+### {{ hl("manyprog", "Hence there are lots of programs") }}
 
 Earlier, I talked about compilers and interpreters
 as programs that read a piece of paper and do some action.
