@@ -27,21 +27,6 @@ The lists below are in alphabetical order.
   All teachers are female/nonbinary and MOPpers/MPfG winners.
   We are a nonprofit and our program costs only \$90 for 3 months.
 
-## {{ hl("mast", "MAST") }}
-
-* Primary contact: Dennis Chen ($\text{dchen}\texttt{@}\text{mathadvance}{.}\text{org}$)
-* Website: [mast.mathadvance.org](https://mast.mathadvance.org/)
-* Scheduled group classes twice a month during the school year,
-  with breaks for major USA contests (AMCs, AIME, and USAMO).
-* MAST is an AIME training program intended for students who can comfortably qualify for the AIME.
-  The goal is to provide motivated students the resources to seriously attempt
-  qualification for the national olympiad, as well as providing a social sphere
-  for people to get to know each other.
-  It's a self study program somewhat similar to OTIS, in that
-  (a) we have more materials than we could feasibly hold lectures for and
-  (b) people are expected to peruse it at their own discretion.
-  Information about staff can be found on [the website](https://mast.mathadvance.org/staff/).
-
 ## {{ hl("xinke", "Xinke's Math Academy") }}
 
 * Primary contact: [Xinke Guo-Xue](https://artofproblemsolving.com/community/user/40902)
