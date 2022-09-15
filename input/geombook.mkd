@@ -57,17 +57,25 @@ the important ones are reproduced here, too.
 
 + On **page 12**, Theorem 1.22, the four points could also be collinear.
 + On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.
++ On **page 92**, Problem 5.23, when defining $G$, line $HE$ should intersect
+	$\Gamma_1$, not $\Gamma_2$.
 + On **page 107**, the proof of part (a) of the theorem
-  has several issues, and is probably best to just ignore.
-  (The result is still true, and the proof of part (b) is correct.)
+	has several issues, and is probably best to just ignore.
+	Figure 6.6B is also broken.
+	(The result is still true, and the proof of part (b) is correct.)
 + On **page 145**, Problem 7.44, change the angle condition to $\measuredangle BC\_1A\_1 = \measuredangle ACB = \measuredangle B\_1C\_1A$.
 + On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.
 + On **page 159**, in Lemma 8.16, change "fixes $B$ and $C$" to "swaps $B$ and $C$".
 + On **page 184**, in Theorem 9.33, uniqueness is not true for (b) or (c).
-  The last sentence is also wrong as written.
-  The correct sentence is: if the *circumcircle* of a cyclic quadrilateral is preserved,
-  then so is the cross ratio of the cyclic quadrilateral.
-+ On **page 274**, the solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.
+	The last sentence is also wrong as written.
+	The correct sentence is: if the *circumcircle* of a cyclic quadrilateral is preserved,
+	then so is the cross ratio of the cyclic quadrilateral.
++ On **page 243**, Solution 1.50 is incomplete; one also needs to check $A$, $P$, $W$ are collinear.
+	Thus, add the remark $\measuredangle NPA = \measuredangle NMA = \measuredangle NMC = \measuredangle NBC = \measuredangle NBW = \measuredangle NPW$.
+	(Radical axis also works.)
++ On **page 268**, Solution 7.44 is completely broken; it's solving a different
+	problem. See the above file for a fixed solution.
++ On **page 274**, Solution 8.37 is wrong, it assumes $AB$ passes through the center of $\omega\_2$.
 
 ## {{ hl("solutions", "On solutions to problems") }}
 
@@ -78,18 +86,18 @@ If you are stuck on a problem for which no solution is provided,
 here are some possible places to look:
 
 1. Each problem in the text has one or more hints,
-   the intention is that the union of all the hints
-   should form an outline of the complete solution
-   (even if the details are omitted).
+	the intention is that the union of all the hints
+	should form an outline of the complete solution
+	(even if the details are omitted).
 
 2. There is a [user-created forum][userforum]
-   which has a link to discussion for every problem.
+	which has a link to discussion for every problem.
 
 3. I included sources for as many of the problems as possible,
-   so looking up the corresponding thread on
-   [Art of Problem Solving's Contest Index][contests]
-   will generally yield a solution to any sourced problem.
-   (The search function can work too, but is usually less helpful.)
+	so looking up the corresponding thread on
+	[Art of Problem Solving's Contest Index][contests]
+	will generally yield a solution to any sourced problem.
+	(The search function can work too, but is usually less helpful.)
 
 4. If all of the above fail, try posting on the AoPS forums directly.
 
