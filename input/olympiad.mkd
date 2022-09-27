@@ -156,6 +156,10 @@ of [my textbook][geombook].
   A short document which shows what a "typical" LaTeX file looks like.
   It was written for beginners.
 
+* <b>How to annoy Evan with LaTeX</b>
+  {{ handout_link("LaTeXPetPeeve") }}
+  A list of pet peeves in LaTeX.
+
 * <b>OMO Spring 2014 Executive Report</b>
   {{ handout_link("OMOSpring14Report") }}
   A short report on running the Online Math Open for Spring 2014.
