@@ -13,11 +13,12 @@ GITHUB_BASE = 'https://github.com/vEnhance/web.evanchen.cc'
 
 def handout_link(name, filename=None):
 	filename = filename or name
-	s = f'<a href="handouts/{name}/{filename}.pdf">(pdf)</a>'
-	s += ' '
-	s += f'<a href="handouts/{name}/{filename}.text">(tex)</a>'
-	s += '<br>'
-	return s
+	return (
+		f'<a href="handouts/{name}/{filename}.pdf">(pdf)</a>'
+		' '
+		f'<a href="handouts/{name}/{filename}.text">(tex)</a>'
+		'<br>'
+	)
 
 
 def page_footer(page) -> str:
@@ -26,23 +27,25 @@ def page_footer(page) -> str:
 	try:
 		blob = tree[str(input_path)]
 	except KeyError:
-		s = f'<div class="text-muted">View the <a href="{GITHUB_BASE}">source repository</a>.</div>'
-		s += '\n'
-		s += '<div class="font-italic text-muted">This hidden page not under public version control.</div>'
-		return s
+		return (
+			f'<div class="text-muted">View the <a href="{GITHUB_BASE}">source repository</a>.</div>'
+			'\n'
+			'<div class="font-italic text-muted">This hidden page not under public version control.</div>'
+		)
 	else:
 		commit = next(repo.iter_commits(paths=blob.path, max_count=1))
 		last_update_dt = datetime.datetime.utcfromtimestamp(commit.committed_date)
 		last_update_str = last_update_dt.strftime('%a %-d %b %Y, %H:%M:%S UTC')
-		s = '<div>'
-		s += f'<a href="{GITHUB_BASE}">Source repository (git)</a> &bullet; '
-		s += f'<a href="{GITHUB_BASE}/commits/main/{input_path}">Revision history</a> &bullet; '
-		s += f'<a href="{GITHUB_BASE}/edit/main/{input_path}">Suggest edit</a>'
-		s += r'</div>'
-		s += f'<div class="text-muted">Updated {last_update_str} by '
-		s += f'<a href="{GITHUB_BASE}/commit/{commit.hexsha}"><code>{commit.hexsha[0:12]}</code></a>'
-		s += r'</div>'
-		return s
+		return (
+			'<div>'
+			f'<a href="{GITHUB_BASE}">Source repository (git)</a> &bullet; '
+			f'<a href="{GITHUB_BASE}/commits/main/{input_path}">Revision history</a> &bullet; '
+			f'<a href="{GITHUB_BASE}/edit/main/{input_path}">Suggest edit</a>'
+			r'</div>'
+			f'<div class="text-muted">Updated {last_update_str} by '
+			f'<a href="{GITHUB_BASE}/commit/{commit.hexsha}"><code>{commit.hexsha[0:12]}</code></a>'
+			r'</div>'
+		)
 
 
 def get_twitch_table():
@@ -118,9 +121,10 @@ def get_card_trick():
 
 
 def faq(label, question):
-	s = f'<a id="{label}" href="#{label}" style="color:#004824;">{label}.</a> {question}'
-	s += f'<a href="#{label}" class="hash-link">#</a>'
-	return s
+	return (
+		f'<a id="{label}" href="#{label}" style="color:#004824;">{label}.</a> {question}'
+		f'<a href="#{label}" class="hash-link">#</a>'
+	)
 
 
 def hl(link, text):
@@ -131,6 +135,7 @@ def tshirt(year, alt=None, ext='.png'):
 	location = f'static/mop/shirts/{year}{ext}'
 	if alt is None:
 		alt = f'{year}.'
-	s = f'<a href="{location}" title="{alt}" class="tshirt-link">'
-	s += f'<img src="{location}" alt="{alt}" class="tshirt" /></a>'
-	return s
+	return (
+		f'<a href="{location}" title="{alt}" class="tshirt-link">'
+		f'<img src="{location}" alt="{alt}" class="tshirt" /></a>'
+	)
