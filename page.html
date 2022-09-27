@@ -174,7 +174,7 @@ for p in mpages:
 		document.addEventListener('keydown', function(e) {
 			ks.push(e.keyCode);
 			if (ks.length > 10) {
-				ks.splice(0, 1);
+				ks.splice(0, ks.length - 10);
 			}
 			if (ks.length < 10) return;
 			if (ks[0] != ks[1]) return;
