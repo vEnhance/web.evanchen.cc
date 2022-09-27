@@ -1,40 +1,48 @@
 import csv
-from git import Repo
-from pathlib import Path
 import datetime
 import os
+from pathlib import Path
 
-repo = Repo(Path(__file__).parent, search_parent_directories = True)
+from git.repo import Repo
+
+repo = Repo(Path(__file__).parent, search_parent_directories=True)
 tree = repo.heads.main.commit.tree
 
-GITHUB_BASE = 'https://github.com/vEnhance/web.evanchen.cc' # /commit/cc6b6aeac80981bc84077ba1f303784150c141d8
+GITHUB_BASE = 'https://github.com/vEnhance/web.evanchen.cc'
+
 
 def handout_link(name, filename=None):
 	filename = filename or name
-	return '<a href="handouts/%s/%s.pdf">(pdf)</a> '\
-			'<a href="handouts/%s/%s.tex">(tex)</a><br>' %(name, filename, name, filename)
+	s = f'<a href="handouts/{name}/{filename}.pdf">(pdf)</a>'
+	s += ' '
+	s += f'<a href="handouts/{name}/{filename}.text">(tex)</a>'
+	s += '<br>'
+	return s
+
 
 def page_footer(page) -> str:
-	input_name : str = page['url'].replace('.html', '.mkd')
+	input_name: str = page['url'].replace('.html', '.mkd')
 	input_path = Path('input') / input_name
 	try:
 		blob = tree[str(input_path)]
-	except:
-		return '<div class="text-muted">View the <a href="{GITHUB_BASE}">source repository</a>.</div>' \
-				'<div class="font-italic text-muted">This hidden page not under public version control.</div>'
+	except KeyError:
+		s = f'<div class="text-muted">View the <a href="{GITHUB_BASE}">source repository</a>.</div>'
+		s += '\n'
+		s += '<div class="font-italic text-muted">This hidden page not under public version control.</div>'
+		return s
 	else:
 		commit = next(repo.iter_commits(paths=blob.path, max_count=1))
-		last_update_dt = datetime.datetime. utcfromtimestamp(commit.committed_date)
+		last_update_dt = datetime.datetime.utcfromtimestamp(commit.committed_date)
 		last_update_str = last_update_dt.strftime('%a %-d %b %Y, %H:%M:%S UTC')
-		return \
-				f'<div>' \
-				f'<a href="{GITHUB_BASE}">Source repository (git)</a> &bullet; ' \
-				f'<a href="{GITHUB_BASE}/commits/main/{input_path}">Revision history</a> &bullet; ' \
-				f'<a href="{GITHUB_BASE}/edit/main/{input_path}">Suggest edit</a>' \
-				f'</div>' \
-				f'<div class="text-muted">Updated {last_update_str} by ' \
-				f'<a href="{GITHUB_BASE}/commit/{commit.hexsha}"><code>{commit.hexsha[0:12]}</code></a>' \
-				f'</div>'
+		s = '<div>'
+		s += f'<a href="{GITHUB_BASE}">Source repository (git)</a> &bullet; '
+		s += f'<a href="{GITHUB_BASE}/commits/main/{input_path}">Revision history</a> &bullet; '
+		s += f'<a href="{GITHUB_BASE}/edit/main/{input_path}">Suggest edit</a>'
+		s += r'</div>'
+		s += f'<div class="text-muted">Updated {last_update_str} by '
+		s += f'<a href="{GITHUB_BASE}/commit/{commit.hexsha}"><code>{commit.hexsha[0:12]}</code></a>'
+		s += r'</div>'
+		return s
 
 
 def get_twitch_table():
@@ -45,7 +53,7 @@ def get_twitch_table():
 		for row in reader:
 			data.append(row)
 
-	data.sort(key = lambda row: (-int(row['N']), row['Source']))
+	data.sort(key=lambda row: (-int(row['N']), row['Source']))
 
 	out = ''
 	out += r'<table cellpadding="5">' + '\n'
@@ -53,12 +61,12 @@ def get_twitch_table():
 
 	for row in data:
 		n = row['N']
-		key = row['Source']
+		key: str = row['Source']
 		youtube = row['YouTube']
 
-		basename = "Ep%03d" %int(n) + "-" \
-				+ key.replace(" ", "-").replace("/", "-").replace(".", "-") \
-				+ '-Solution'
+		basename = "Ep%03d" % int(n) + "-"
+		basename += key.replace(" ", "-").replace("/", "-").replace(".", "-")
+		basename += '-Solution'
 		basename_tex = basename + '.tex'
 		basename_pdf = basename + '.pdf'
 		filename = os.path.join(os.path.expanduser("~"), "youtube-tex", basename_tex)
@@ -83,11 +91,10 @@ def get_twitch_table():
 
 def get_card_trick():
 	option_string = r'''<option value="{value}">{value}</option>'''
-	ranks = ["...", "Ace", "2", "3", "4", "5", "6",
-			"7", "8", "9", "10", "Jack", "Queen", "King"]
+	ranks = ["...", "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
 	suits = ["...", "♣Clubs", "♦Diamonds", "♥Hearts", "♠Spades"]
 	out = ''
-	for n in range(0,4):
+	for n in range(0, 4):
 		out += f'<h2>Card {n+1}</h2>' + '\n'
 		out += r'<div class="container trick-container">' + '\n'
 		out += f'<select class="form-select rank-select" id="rank-{n}">' + '\n'
@@ -109,16 +116,21 @@ def get_card_trick():
 	out += r'<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />'
 	return out
 
+
 def faq(label, question):
-	return f'<a id="{label}" href="#{label}" style="color:#004824;">{label}.</a> {question}' \
-		f'<a href="#{label}" class="hash-link">#</a>'
+	s = f'<a id="{label}" href="#{label}" style="color:#004824;">{label}.</a> {question}'
+	s += f'<a href="#{label}" class="hash-link">#</a>'
+	return s
+
 
 def hl(link, text):
 	return f'<a id="{link}"></a>{text}<a href="#{link}" class="hash-link">#</a>'
 
-def tshirt(year, alt = None, ext = '.png'):
+
+def tshirt(year, alt=None, ext='.png'):
 	location = f'static/mop/shirts/{year}{ext}'
 	if alt is None:
 		alt = f'{year}.'
-	return f'<a href="{location}" title="{alt}" class="tshirt-link">'\
-			f'<img src="{location}" alt="{alt}" class="tshirt" /></a>'
+	s = f'<a href="{location}" title="{alt}" class="tshirt-link">'
+	s += f'<img src="{location}" alt="{alt}" class="tshirt" /></a>'
+	return s
