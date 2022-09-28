@@ -72,6 +72,7 @@ A stable Internet connection is required.
 ### Instructors
 
 * [Anushka Aggarwal][anushka] (alum V)
+* [Dávid Matolcsi][david]
 * [Gopal Goel][gopal] (alum IV-V)
 * [Jeffrey Kwan][jkwan] (alum IV-V)
 * [Noah Walsh][noah] (alum V-VI)
@@ -117,6 +118,7 @@ instead of half a dozen.
 [gir]: https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
 
 [anant]: https://www.imo-official.org/participant_r.aspx?id=25764
+[david]: https://www.imo-official.org/participant_r.aspx?id=27309
 [gopal]: https://www.imo-official.org/participant_r.aspx?id=29882
 [howard]: https://www.imo-official.org/participant_r.aspx?id=28475
 [james]: https://www.imo-official.org/participant_r.aspx?id=27375
