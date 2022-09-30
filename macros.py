@@ -16,7 +16,7 @@ def handout_link(name, filename=None):
 	return (
 		f'<a href="handouts/{name}/{filename}.pdf">(pdf)</a>'
 		' '
-		f'<a href="handouts/{name}/{filename}.text">(tex)</a>'
+		f'<a href="handouts/{name}/{filename}.tex">(tex)</a>'
 		'<br>'
 	)
 
