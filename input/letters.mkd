@@ -70,8 +70,9 @@ If you do ask a letter for me, I need the following information.
 	what you've already written.
 6. State explicitly when the deadline is.
 7. Please specify what "type" of letter I am writing, if applicable.
-	For example, colleges commonly distinguish between "required" letters
-	or optional "supplements" (e.g. [MIT][mitsupp], second-to-last paragraph).
+	For example, colleges commonly distinguish between, say
+	"required" letters from a math teacher, or optional "supplements"
+	(see e.g. [MIT][mitsupp], second-to-last paragraph).
 	It is useful for me to know whether I am the main voice or if
 	I am expecting to add on to what other (usually more traditional)
 	teachers have to say.
