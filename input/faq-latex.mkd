@@ -131,7 +131,9 @@ draw(unitcircle);
 \end{document}
 ```
 
-However, the setup to make this functional requires some work.
+However, the setup to make this functional requires some work ---
+there is both a separate *installation* process for Asymptote,
+and then a separate *compilation* process to actually render the figures.
 
 First, one needs to install the Asymptote program itself
 (this is a separate program from LaTeX).
