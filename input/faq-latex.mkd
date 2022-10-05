@@ -31,6 +31,8 @@ Any text editor will work with any compiler will work with any PDF viewer.
 [Read Wikibooks](https://en.wikibooks.org/wiki/LaTeX), it's really comprehensive.
 Also, [this tutorial is good too](https://www.latex-tutorial.com/tutorials/).
 
+See also the [example file](https://web.evanchen.cc/handouts/TeXSample/TeXSample.tex).
+
 ### {{ faq("L-2a", "What about online suites like Overleaf?") }}
 
 I think it's better long-term to install LaTeX on your computer.
@@ -75,7 +77,17 @@ or else click "Raw" and save the file.
 ### {{ faq("L-4", "How do I use a custom style file like evan.sty?") }}
 
 [Check Google.](https://www.google.com/search?q=where+to+put+latex+custom+package)
-Or [see here in Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Creating_Packages#Creating_your_own_package).
+Or [see Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Creating_Packages#Creating_your_own_package).
+The source itself looks something like:
+
+```latex
+\documentclass[11pt]{article}
+\usepackage{evan}
+\begin{document}
+\title{Example of a Title}
+\maketitle
+\end{document}
+```
 
 ### {{ faq("L-5", "How do I get the colored boxes and section headers with evan.sty?") }}
 
@@ -105,13 +117,30 @@ it is a "wrapper script" that calls the compiler for you.
 ### {{ faq("L-8", "What do you use to typeset geometry diagrams?") }}
 
 I use [Asymptote](https://asymptote.sourceforge.io/doc/index.html#SEC_Contents).
-It integrates well with LaTeX, but the setup takes some work.
-Read [installation instructions](https://asymptote.sourceforge.io/doc/Installation.html)
-for Asymptote, separate from LaTeX.
+It integrates well with LaTeX;
+for example, here is a document that compiles to a picture of a circle.
 
-Once you have Asymptote installed,
-to integrate it with LaTeX,
-the workflow is three steps.
+```latex
+\documentclass{article}
+\usepackage{asymptote}
+\begin{document}
+\begin{asy}
+size(6cm);
+draw(unitcircle);
+\end{asy}
+\end{document}
+```
+
+However, the setup to make this functional requires some work.
+
+First, one needs to install the Asymptote program itself
+(this is a separate program from LaTeX).
+Check the [installation instructions][asy-install].
+
+[asy-install]: https://asymptote.sourceforge.io/doc/Installation.html
+
+Once you have Asymptote installed, to integrate it with LaTeX,
+the compilation workflow requires three steps.
 
 1. Run PDFLaTeX on, say, `example.tex`.
 	This creates `example-N.asy` for the N'th diagram.
@@ -148,12 +177,11 @@ MikTeX, MacTeX, and TeX Live for Windows, Mac, Linux, respectively.
 
 I use [Vim](https://www.vim.org/) with
 [LaTeX Suite](http://vim-latex.sourceforge.net/index.php?subject=manual&title=Manual#user-manual).
-But that is a pretty advanced setup,
-so if you are a beginner, it may be overwhelming to learn
-Vim and LaTeX at the same time.
-
-Note that a text editor does not need to be specific to LaTeX,
-[any source code editor will work](https://en.wikipedia.org/wiki/Source-code_editor).
+But that is a pretty advanced setup, so if you are a beginner,
+it may be overwhelming to learn Vim and LaTeX at the same time.
+For now you may prefer to stick with whatever text editor you are used to.
+(Note that the editor does not need to be specific to LaTeX,
+[any source code editor will work](https://en.wikipedia.org/wiki/Source-code_editor).)
 
 ### {{ faq("L-12", "Which PDF viewer do you use?") }}
 
@@ -190,8 +218,8 @@ I [wrote my own database software in Python](https://github.com/vEnhance/von).
 
 Two things:
 
-+ Read the source code of other people;
-+ Search on Google and [tex.SE](https://tex.stackexchange.com/).
+- Read the source code of other people;
+- Search on Google and [tex.SE](https://tex.stackexchange.com/).
 
 ### {{ faq("L-17", "How can I look up a symbol?") }}
 
@@ -223,3 +251,9 @@ and ask on [tex.SE](https://tex.stackexchange.com/).
 
 If your expression is so complicated that it isn't legible without using
 `\dfrac` or `\displaystyle`, then it should probably be displayed.
+
+### {{ faq("L-23", r"Any common mistakes?") }}
+
+[Thought you'd never ask][petpeeve].
+
+[petpeeve]: https://web.evanchen.cc/handouts/LaTeXPetPeeve/LaTeXPetPeeve.pdf
