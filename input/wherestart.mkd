@@ -17,7 +17,7 @@ if you are totally new to math contests.
 Before all else, welcome to the olympiad scene!
 It's going to be hard as heck,
 but in my private opinion this is where all the coolest stuff is
-(as far as math contests go, anyways).
+(as far as math contests go, anyway).
 Stay around for long enough and
 you will get to see a lot of really amazing problems.
 
@@ -86,7 +86,7 @@ To that end, here are some links to advice:
 	by Larry W. Cusick.
 
 You don't need to get too caught up in these links;
-proof-writing will become more natural over time anyways as you solve more problems.
+proof-writing will become more natural over time anyway as you solve more problems.
 So I would actually encourage you to continue doing practice problems
 or reading books at the same time as you are getting used to writing;
 these go hand-in-hand and I actually suspect it's counterproductive

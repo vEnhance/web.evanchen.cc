@@ -70,7 +70,7 @@ who previously have mostly done school-based mathematics:
   know what deep understanding feels like.
   (At the moment this is probably just zen monk talk.)
   For now you should just be aware that
-  you will see many many problems which you can't solve,
+  you will see many, many problems which you can't solve,
   where you read the solution and ask,
   "how was I supposed to think of that?".
   This is okay and expected: it's not because you're dumb,
@@ -88,7 +88,7 @@ who previously have mostly done school-based mathematics:
   If this sounds discouraging, it isn't meant to be.
   What it means that you have to enjoy the process of learning itself,
   not merely a means to an end.
-  That's why contests exist anyways.
+  That's why contests exist anyway.
 
 Good luck!
 
@@ -254,7 +254,7 @@ and basically know how to work out the rest of the details from there.
 This process of having to summarize the key ideas is also helpful,
 and takes so little time that there's no excuse not to do it (in my opinion).
 
-Of course, a lot of strong students still do full write-ups anyways,
+Of course, a lot of strong students still do full write-ups anyway,
 and I do so myself, just out of a habit of trying to do things well.
 
 ### {{ faq("C-10", "Can you solve X problem for me?") }}
@@ -282,7 +282,7 @@ However, in the words of Ankan Bhattacharya:
 > becomes easier than normal angle chasing.
 
 I have the same opinion.
-I initially used directed angles anyways because I cared
+I initially used directed angles anyway because I cared
 about having complete correct solutions even if I didn't lose points for it.
 But then I realized it's actually easier once you get used to it,
 because you don't need to keep track of $x$ vs $180^{\circ}-x$ anymore.
@@ -338,7 +338,7 @@ reduction to reach a problem that I could complex bash if I wanted to, but
 which is ugly. Of course I am lazy and don't want to carry out the ugly
 computation, so I keep trying to make more reductions to get a better setup
 for complex numbers. Then after some more reductions, I found that I have
-discovered the synthetic solution anyways! It seems moving between
+discovered the synthetic solution anyway! It seems moving between
 perspectives simultaneously helps you solve more problems than you could
 trying to only use a subset.
 

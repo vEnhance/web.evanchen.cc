@@ -7,7 +7,7 @@ description: Some FAQ's about math contests and my personal life.
 [Return to FAQ Index.](faqs.html)
 
 These are questions I've been asked only once or twice,
-but which were thought-provoking enough that I want to post them anyways.
+but which were thought-provoking enough that I want to post them anyway.
 This idea was taken from [Paul Graham][raq].
 
 ### {{ faq("R-1", "How did/do you have so much time?") }}
@@ -75,7 +75,7 @@ that felt too hard for you (through math contests).
 As far difficulty goes,
 the optimum is to pick a project with a 50% chance of success.
 But really the main thing is to optimize for fun,
-because otherwise you won't be able to force yourself to work on it anyways.
+because otherwise you won't be able to force yourself to work on it anyway.
 
 It's understandably daunting to move into something
 in which you have little experience.
@@ -155,7 +155,7 @@ The specifics of what domain you do this in are not important.
 
 So to me, "my high school is not sufficiently challenging for me" seems
 insufficient justification to throw away a year of this growth time,
-because since when does high school teach you things anyways?
+because since when does high school teach you things anyway?
 You are responsible for your own learning.
 
 ### {{ faq("R-7", "I am a parent. Give me advice!") }}

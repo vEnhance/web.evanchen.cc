@@ -6,7 +6,7 @@ menu-position: 60
 ---
 
 Are you scared by watching Evan's fingers repeatedly smashing
-the wrong keys and things would somehow work anyways?
+the wrong keys and things would somehow work anyway?
 Have you tried using LaTeX and found that nothing made sense?
 Are the lotus-eaters trying to convert you into the cult of Vim?
 Have you just been overwhelmed by all the black magic that

@@ -7,7 +7,7 @@ description: Popular math olympiad training materials written by Evan Chen.
 
 These are some handouts I've written over the years.
 The [Math](https://blog.evanchen.cc/category/mathematics/) and
-[Problem Solving](https://blog.evanchen.cc/category/problem-solving/) sections
+[Problem-Solving](https://blog.evanchen.cc/category/problem-solving/) sections
 of my personal blog might also be of interest.
 See also [Recommendations](recommend.html) for other authors I like,
 as well as my [geometry book](geombook.html) for a
@@ -21,7 +21,7 @@ I provided the LaTeX source for most of these files as an example here.
 But note to compile these documents in LaTeX, you will need
 [my personal style file evan.sty][evan.sty].
 Because this style file evolves over time,
-your output might look a little different than the PDF's attached here.
+your output might look a little different from the PDF's attached here.
 
 ## {{ hl("beginners", "Beginners") }}
 

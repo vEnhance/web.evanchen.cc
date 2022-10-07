@@ -58,7 +58,7 @@ here is Evan's tier list:
 	but I can see the appeal.
 	The main reason it's still relevant to kids today is because
 	of AP Computer Science A,
-	but that class does a pretty bad job of teaching it anyways.
+	but that class does a pretty bad job of teaching it anyway.
 
 5. [JavaScript](https://www.destroyallsoftware.com/talks/wat):
 	Please no.[^js] Use TypeScript instead.

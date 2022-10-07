@@ -120,7 +120,7 @@ for people who (a) know how proofs work, and (b) want to pursue higher math.
 Linear algebra is useful, but when taught as a standalone class, you will
 mostly be doing manipulations with matrices. It's not a bad thing but I think
 it's not something that needs to take one whole semester if you're going to
-eventually redo the whole thing abstractly with $k$-modules anyways. I would
+eventually redo the whole thing abstractly with $k$-modules anyway. I would
 rather spend the semester learning abstract algebra as a whole (which includes
 the abstract treatment of vector spaces), which is the language required to do
 anything algebraic. Many higher level courses are going to assume you know what
@@ -194,8 +194,8 @@ Here's a few.
 	but I don't have a better suggestion.)
 	I wouldn't go as far to say that it's not worth it,
 	just that (1) having immense problem-solving ability is not *that* important,
-	(2) you'll get mathematical maturity from the standard curriculum anyways over time,
-	and (3) fear-of-missing-out is not a productive form of motivation anyways.
+	(2) you'll get mathematical maturity from the standard curriculum anyway over time,
+	and (3) fear-of-missing-out is not a productive form of motivation anyway.
 
 - If you are thinking about pursuing math as a career, then it's a bit more of a toss-up.
 	Both problem-solving ability, as well as familiarity with core material, are
