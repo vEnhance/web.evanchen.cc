@@ -152,7 +152,7 @@ Markdown, whatever you like. You do not need a different editor per workflow.
 
 ### {{ hl("compile", "Compilers and interpreters") }}
 
-Compilers and interpeters are programs that take files as input and do something with them.
+Compilers and interpreters are programs that take files as input and do something with them.
 Maybe they make a copy in a different form, or execute some commands, or so on.
 
 **You can think of an compiler or interpreter as a person

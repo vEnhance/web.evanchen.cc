@@ -120,7 +120,7 @@ and the back contains everyone's signature.
 
 The MOP Singing Troupe is a tradition dating back to around 2010,
 started by Evan o'Dorney; it starts and ends the closing ceremony.
-Here are recent songs we peformed:
+Here are recent songs we performed:
 
 <div class="chooser empty-chooser"></div>
 <div data-header="Singing troupe 2022" data-year="2022" class="hidden" markdown="1">

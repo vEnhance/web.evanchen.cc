@@ -141,7 +141,7 @@ this means they can be manipulated in any editor,
 [transferred from one computer to another via Git](https://github.com/vEnhance/dotfiles),
 and so on.
 
-Also Fish autocomplete is life-changing 🐟 ❤️  🔥
+Also, Fish autocomplete is life-changing 🐟 ❤️  🔥
 (zsh is good too I hear.)
 
 ### {{ faq("X-6a", "Why Vim?") }}
@@ -166,7 +166,7 @@ and also the one that will be most foreign to newcomers.
 Modal editing which means that there are different *modes*
 for entering text versus navigating the document that you constantly switch between.
 So when you are typing new text, Vim behaves much like a standard editor,
-with every keystroke adding one charcater.
+with every keystroke adding one character.
 But when you are *editing* or *moving*,
 instead *every keystroke is a command* (no ctrl needed).
 Here's a picture of what my cheat sheet looks like:

@@ -19,7 +19,7 @@ Before any questions, you might want to skim some parts of the website
 to see if it's already answered, e.g.
 [coaching page](otis.html),
 [contest resource recommendations](recommend.html)
-and the <del>propoganda section</del> [FAQ](faqs.html).
+and the <del>propaganda section</del> [FAQ](faqs.html).
 
 ## {{ hl("discord", "About Discord") }}
 
@@ -64,7 +64,7 @@ Here are some hints:
   (Examples of good requests: specific math query,
   something I wrote is unclear, found a typo,
   follow-up questions, permission requests,
-  questions on my past experiences, etc. I'm sure there's more.)
+  questions on my experiences, etc. I'm sure there's more.)
 
 - In particular, there's no need to send an email
   asking if you can ask a question. Just ask it.

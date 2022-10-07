@@ -8,7 +8,7 @@ description: Synopsis of my teaching for olympiad contestants.
 <img src="static/43616c76696e486f62626573.gif" width="100%" />
 
 OTIS is an olympiad training program for students
-aiming to do well on USA(J)MO or similar level contests.
+aiming to do well on the USA(J)MO or similar level contests.
 It is designed for contestants who are
 comfortable reading and writing proofs
 and can usually qualify for national olympiad
@@ -115,8 +115,6 @@ instead of half a dozen.
 <img src="static/otis-imo-2018.png" width="400" />
 <img src="static/otis-imo-2019.jpg" width="400" />
 
-[gir]: https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/
-
 [anant]: https://www.imo-official.org/participant_r.aspx?id=25764
 [david]: https://www.imo-official.org/participant_r.aspx?id=27309
 [gopal]: https://www.imo-official.org/participant_r.aspx?id=29882
@@ -132,8 +130,8 @@ instead of half a dozen.
 [xinke]: https://xinkeguoxue.github.io/
 
 [ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
-[mren]:  https://www.imo-official.org/participant_r.aspx?id=28394
-[zack]:  https://www.imo-official.org/participant_r.aspx?id=27374
+[mren]: https://www.imo-official.org/participant_r.aspx?id=28394
+[zack]: https://www.imo-official.org/participant_r.aspx?id=27374
 [ramgoel]: https://www.imo-official.org/participant_r.aspx?id=31808
 [anushka]: https://www.egmo.org/people/person1429/
 [noah]: https://www.imo-official.org/participant_r.aspx?id=31040
