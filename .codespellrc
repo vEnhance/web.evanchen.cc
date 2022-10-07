@@ -1,0 +1,4 @@
+[codespell]
+skip=elmo/internal*.yaml,elmo/assemble.py
+count=
+ignore-words-list=inthe,ro,progamer
