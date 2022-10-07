@@ -12,8 +12,6 @@ jobs:
     name: "Spellcheck"
     steps:
     - uses: actions/checkout@v2
-      with:
-        submodules: recursive
     - name: Set up Python
       uses: actions/setup-python@v2
     - name: Install dependencies
