@@ -36,6 +36,7 @@ Click to enlarge any of them.
 [![PC Jessica](static/headshots/jessica-thumb.jpg)](static/headshots/jessica-full.jpg)
 [![PC Kathy](static/headshots/kathy-thumb.jpg)](static/headshots/kathy-full.jpg)
 [![PC Marilyn](static/headshots/marilyn-thumb.jpg)](static/headshots/marilyn-full.jpg)
+[![MIT 2022](static/headshots/mit2022-thumb.jpg)](static/headshots/mit2022-full.jpg)
 [![PC Samuel](static/headshots/samuel1-thumb.jpg)](static/headshots/samuel1-full.jpg)
 [![PC Samuel](static/headshots/samuel2-thumb.jpg)](static/headshots/samuel2-full.jpg)
 [![USAMO Awards](static/headshots/usamo1-thumb.jpg)](static/headshots/usamo1-full.jpg)
