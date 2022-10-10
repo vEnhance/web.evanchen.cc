@@ -27,7 +27,9 @@ though some of the chapters are more challenging.
 
 # {{ hl("apply", "Application &mdash; Year VIII") }}
 
-The regular deadline for 2022-2023 is August 1, 2022 at 11:59 PM Pacific time.
+The regular deadline for 2022-2023 was August 1.
+Late applications are now open, and will remain open until April 15.
+
 See the instructions for details about late application.
 
 * [Application instructions and problems for fall 2022](upload/otis-app-viii.pdf)
@@ -39,7 +41,7 @@ OTIS is open to anyone, including international students from all countries.
 
 Students from minorities and underrepresented groups
 are especially encouraged to apply. (I promise I don't bite.)
-Admissions is done primarily based on perceived preparedness;
+Admissions are done primarily based on perceived preparedness;
 it is not a merit-based competition.
 Also, financial aid is possible.
 
