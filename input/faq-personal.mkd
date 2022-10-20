@@ -64,13 +64,22 @@ See [my teaching page][otis] for more details.
 
 ### {{ faq("P-6", "What is your favorite math olympiad problem?") }}
 
-It is hidden somewhere on this website,
+One of the favorites is hidden somewhere on this website,
 on [cofinitely][cofinite] many of the pages. ;)
 
 ### {{ faq("P-7", "How did you make your website?") }}
 
 I use [Poole](https://hg.sr.ht/~obensonne/poole).
 See [source code](https://github.com/vEnhance/web.evanchen.cc).
+
+### {{ faq("P-8", "Pronouns?") }}
+
+Don't care, say whatever you want. Most people just use he/him.
+
+### {{ faq("P-9", "Gender identity?") }}
+
+Cis-het. Though I defected to girl fashion because
+[guy fashion is idiotic](http://www.catb.org/jargon/html/S/suit.html).
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
