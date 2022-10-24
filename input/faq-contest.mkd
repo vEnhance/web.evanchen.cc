@@ -346,7 +346,47 @@ trying to only use a subset.
 
 ### {{ faq("C-15", "On a 3-problem, 4.5-hour exam, should I try all three problems?") }}
 
-Yes. See [this post][c15link] for details.
+Yes. Here is why:
+
+1. In math contest world, it is **extremely common for problem difficulty
+	to be rather volatile**.
+	Sometimes the test difficulty is out-of-order (see IMO 2021).
+	Sometimes problem 2 is ridiculously hard (see IMO 2017).
+	Sometimes the test has three problems that are more like medium (see USAMO 2022).
+	Sometimes problem 6 is secretly a medium problem (see IMO 2016).
+	The list of weird scenarios never ends.
+	(The [MOHS chart](upload/MOHS-hardness.pdf) has concrete but imperfect data.)
+2. Moreover, problem difficulty is personal and differs between people.
+	(In cliché format, you have your own unique individual strengths and weaknesses.)
+	So, every contest you will see score distributions like 070 or even 007 ("James Bond").
+3. Even in cases when problems 3 and 6 are genuinely difficult,
+	partial marks on them may often be accessible.
+	See IMO 2020 for an example.
+4. Personally, I suspect the attitude that a late-placed problem is definitely out of reach
+	and there is no point reading them is counterproductive in the long term.
+
+I believe this so firmly that I actually often give the following suggestion:
+
+> Try all 3 problems in **reverse order, for 20 minutes each, at the start of the test.
+
+I've said this in various forms not just in OTIS,
+but also when I teach at MOP or other places, etc.
+Unsurprisingly, people find this really hard advice to swallow
+(see [C-20](#C-20) for a bit of related discussion).
+
+I should defeat the straw man right away:
+this is vastly different from "do the problems in reverse order".
+It is, "start the test by trying problem 3 for 20 minutes, then problem 2 for 20 minutes, and then do what you want".
+
+The reason I give this advice is no matter how much I beg and plead students
+to at least look at all three problems seriously,
+I realize that it's psychologically difficult to do so during a high-pressure environment,
+especially if you happen to be tilted because
+[problem 1 was sent in by Holden](https://aops.com/community/p25519295).
+So at some point I gave up on asking nicely, and now I just give this
+more blunt actionable piece of advice to sort of force people to do it.
+
+It's not for everyone. You should try it and on a few practice exams and see if it works for you.
 
 ### {{ faq("C-16", "What grade should I aim to reach X goal by?") }}
 
@@ -436,23 +476,10 @@ In addition, you will have some individual variance based on the actual day.
 But your given-day individual variance is completely dwarfed
 by a larger term: **the difficulty of the problem**.
 
-In math contest world, it is **extremely common for problem difficulty
-to be rather volatile**.
-Sometimes the test difficulty is out-of-order (see IMO 2021).
-Sometimes problem 2 is ridiculously hard (see IMO 2017).
-Sometimes the test has three problems that are more like medium (see USAMO 2022).
-Sometimes problem 6 is secretly a medium problem (see IMO 2016).
-The list of weird scenarios never ends, and that's *before* you
-take into account your personal strengths and weaknesses.
-(The [MOHS chart](upload/MOHS-hardness.pdf) has concrete but imperfect data.)
-
 Thus, if you find yourself surprised at being unable to solve a problem,
 your reaction should be something like
 "wow, this year's P2 is harder than usual".
-See also the [post linked in C-15][c15link].
-
-(Amusing trivia: we call a score distribution of 0/0/7 on a day
-of an IMO-format exam a "James Bond". It's surprisingly common.)
+See also the advice in [C-15](#C-15).
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
