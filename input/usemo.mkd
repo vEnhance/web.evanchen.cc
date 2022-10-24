@@ -40,8 +40,8 @@ Please check the [full rules and procedures][rules].
 	on [AoPS portal](https://aops.com/contests/usemo/).
 	It remains open until end-of-day October 21 or when capacity is reached.
 - Day I is Sat. **22 October 2022**, from 12:30pm ET to 5:00pm ET.
-- [Download Day I problems](exams/USEMO-2022-d1.pdf)
 - Day II is Sun. **23 October 2022**, from 12:30pm ET to 5:00pm ET.
+- [Download problems](exams/USEMO-2022.pdf)
 
 ## {{ hl("links", "Links and downloads") }}
 
@@ -61,6 +61,7 @@ You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 - USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
 - USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
 - USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
+- USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions and results)](#)
 
 ## {{ hl("hall", "Hall of Fame") }}
 
