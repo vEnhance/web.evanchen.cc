@@ -69,7 +69,7 @@ who previously have mostly done school-based mathematics:
 * As you get experience, you will automatically start to
   know what deep understanding feels like.
   (At the moment this is probably just zen monk talk.)
-  For now you should just be aware that
+  For now, you should just be aware that
   you will see many, many problems which you can't solve,
   where you read the solution and ask,
   "how was I supposed to think of that?".
@@ -117,6 +117,10 @@ of success, I would say it is
 That means you both enjoy your work and are working on
 things in the right difficulty range.
 
+This is all generic advice, so some of you will email me asking
+for more targeted suggestions. If you do, please
+[read the special instructions for study advice](contact.html#advice).
+
 ### {{ faq("C-2", "Which books/handouts/materials should I use?") }}
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
@@ -129,14 +133,12 @@ Younger students (preparing for AMC/AIME) would likely benefit
 from books or classes from Art of Problem Solving, like
 [Volume 2](https://www.aops.com/store/item/aops-vol2).
 
-
 ### {{ faq("C-3", "How do I get better at Euclidean geometry?") }}
 For general advice, see [my advice][wpgeo], [Geoff Smith's advice][geoff], etc.
 
 For specific materials, see [my own handouts][articles]
 or [Yufei Zhao's][yufei], among others.
 And of course, [my geometry textbook][geombook].
-
 
 ### {{ faq("C-4", "Is it possible for me to go from X level to Y level in Z time?") }}
 I probably don't know much more than you do.
