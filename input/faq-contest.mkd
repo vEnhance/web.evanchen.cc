@@ -99,7 +99,7 @@ Good luck!
 
 ### {{ faq("C-1", "How should I prepare for math contests?") }}
 One-sentence answer: do lots of problems just above your current ability,
-and spend some of time on reflection.
+and spend some time on reflection.
 Full answer: [this blog post][wpcontest].
 
 It's worth pointing out that no one has a silver bullet:
@@ -175,7 +175,7 @@ It shares my philosophy that teaching proof-based classes by
 force-feeding set theory notation is not particularly helpful,
 and instead develops proof-writing by discussing real mathematical content
 from geometry, number theory, etc. rather than being overly focused
-on book-keeping and formalism.
+on bookkeeping and formalism.
 Courses on graph theory are often good introductions to proofs as well.
 
 If you are a United States middle or high school student,
@@ -203,7 +203,7 @@ My gut feeling is that the effect size of this is sufficiently small that
 (i) no one knows a definitive answer,
 (ii) the answer is likely to depend on the person, and
 (iii) it's rounding error compared to the actual final result.
-Therefore I think the correct thing to do is try both,
+Therefore, I think the correct thing to do is try both,
 see which one you like better, and just go with that,
 [without worrying about whether it is "right"][right].
 
@@ -226,8 +226,8 @@ Some things worth noting from it are:
 
 Also, don't misread questions, don't rush, etc.
 
-Anyways, I admit there's not always a whole lot you can do about it.
-2013 was the first year where I was able to look at a problem
+Anyway, I admit there's not always a lot you can do about it.
+2013 was the first year when I was able to look at a problem
 and basically know how to do it within one or two minutes;
 this left me a lot of time for computation,
 and consequently I made very few errors as compared to 2011 or 2012.
@@ -244,7 +244,7 @@ On the one hand, writing the solution completely is actually really helpful
 (cleaning up solution, noticing errors, just getting to know things better).
 On the other hand, can also be very time-consuming
 (time that could be spent solving a different problem).
-So you get some varying answers and it may just depend on the person.
+So you get some varying answers, and it may just depend on the person.
 
 That said, I think it is usually a mistake to write nothing at all.
 I require my students to at least write down a couple sentences on
@@ -335,7 +335,7 @@ Lines of attack also should be used together, rather than individually.
 The following story is common for me: I am working on some geometry problem,
 whether for fun or vetting it for a contest. I quickly make some synthetic
 reduction to reach a problem that I could complex bash if I wanted to, but
-which is ugly. Of course I am lazy and don't want to carry out the ugly
+which is ugly. Of course, I am lazy and don't want to carry out the ugly
 computation, so I keep trying to make more reductions to get a better setup
 for complex numbers. Then after some more reductions, I found that I have
 discovered the synthetic solution anyway! It seems moving between
@@ -400,16 +400,16 @@ No.
 I've heard different advice from this from different people across the years,
 ranging from never to always. Proponents of hand-drawn diagrams say that it's
 important to not become reliant on easily generated computer figures because
-they are not available during competitions. Proporents of Geogebra say that
+they are not available during competitions. Proponents of Geogebra say that
 practicing with perfect diagrams is good for building a sense of where things
-*should* be, plus it saves you time so you can do more problems.
+*should* be, plus it saves you time, so you can do more problems.
 I don't get the feeling there is a consensus as to what the common wisdom is.
 
 My suggestion is to just do a mix of both with the exact balance up to personal
 taste and convenience. I don't think it matters too much as long as you don't
 neglect one completely. But in the same vein as [C-17](#C-17), if you (say) tell
 yourself you're going to only use paper diagrams because X said so, and then you
-end up practicing less because it's incovenient to have a pencil and compass out
+end up practicing less because it's inconvenient to have a pencil and compass out
 during your deadly-boring AP Java class, that's your loss.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
