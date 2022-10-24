@@ -346,7 +346,7 @@ trying to only use a subset.
 
 ### {{ faq("C-15", "On a 3-problem, 4.5-hour exam, should I try all three problems?") }}
 
-Yes. See [this post](https://aops.com/community/p18587427) for details.
+Yes. See [this post][c15link] for details.
 
 ### {{ faq("C-16", "What grade should I aim to reach X goal by?") }}
 
@@ -414,9 +414,50 @@ yourself you're going to only use paper diagrams because X said so, and then you
 end up practicing less because it's inconvenient to have a pencil and compass out
 during your deadly-boring AP Java class, that's your loss.
 
+### {{ faq("C-20", "How do I handle stress or pressure?") }}
+
+I don't think it ever goes away completely. Shows that you care.
+If you read my diary of IMO 2014,
+there was a point during day 1 where I became so nervous that
+my hands wouldn't stop shaking, and I couldn't carry out a
+certain trig calculation correctly for an hour or so.
+(I dealt with this my standing up for a few minutes;
+when I sat back down my hands had stopped shaking,
+and I did the entire calculation from scratch in 10 minutes.)
+
+Nevertheless, here is one possible piece of advice.
+There's a saying that "if it's hard for you, it's hard for everyone".
+People often interpret this as a form of encouragement,
+trying to say that you're better than you think you are.
+And that's true, but you can say something much stronger.
+
+You have a skill level that you've been working on all year.
+In addition, you will have some individual variance based on the actual day.
+But your given-day individual variance is completely dwarfed
+by a larger term: **the difficulty of the problem**.
+
+In math contest world, it is **extremely common for problem difficulty
+to be rather volatile**.
+Sometimes the test difficulty is out-of-order (see IMO 2021).
+Sometimes problem 2 is ridiculously hard (see IMO 2017).
+Sometimes the test has three problems that are more like medium (see USAMO 2022).
+Sometimes problem 6 is secretly a medium problem (see IMO 2016).
+The list of weird scenarios never ends, and that's *before* you
+take into account your personal strengths and weaknesses.
+(The [MOHS chart](upload/MOHS-hardness.pdf) has concrete but imperfect data.)
+
+Thus, if you find yourself surprised at being unable to solve a problem,
+your reaction should be something like
+"wow, this year's P2 is harder than usual".
+See also the [post linked in C-15][c15link].
+
+(Amusing trivia: we call a score distribution of 0/0/7 on a day
+of an IMO-format exam a "James Bond". It's surprisingly common.)
+
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
+[c15link]: https://aops.com/community/p18587427
 [ebook]: https://www.maa.org/ebooks/EGMO/
 [geoff]: https://people.bath.ac.uk/masgcs/geo.pdf
 [geombook]: geombook.html
