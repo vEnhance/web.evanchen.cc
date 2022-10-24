@@ -21,8 +21,12 @@ to see if it's already answered, e.g.
 [contest resource recommendations](recommend.html),
 and the <del>propaganda section</del> [FAQ](faqs.html).
 
-Note there are *special instructions* for common categories of questions:
-[problems](#problems), [study advice](#advice) and [tech support](#tech).
+Note there are *special instructions* if you are asking about:
+
+- [a specific math problem](#problems),
+- [math contest study advice](#advice),
+- [tech support](#tech),
+- [a letter of recommendation](letters.html).
 
 ## {{ hl("discord", "About Discord") }}
 
