@@ -18,10 +18,10 @@ Before all else, welcome to the olympiad scene!
 It's going to be hard as heck,
 but in my private opinion this is where all the coolest stuff is
 (as far as math contests go, anyway).
-Stay around for long enough and
+Stay around for long enough, and
 you will get to see a lot of really amazing problems.
 
-You may also read [math contest FAQ's](faq-contest.html)
+You may also read [math contest FAQs](faq-contest.html)
 for some more philosophical (and less concrete) advice on studying
 for math contests in general.
 
@@ -112,7 +112,7 @@ It shares my philosophy that teaching proof-based classes by
 force-feeding set theory notation is not particularly helpful,
 and instead develops proof-writing by discussing real mathematical content
 from geometry, number theory, etc. rather than being overly focused
-on book-keeping and formalism.
+on bookkeeping and formalism.
 
 ## {{ hl("usa", "3. (For USA) United States Mathematical Talent Search and USEMO") }}
 

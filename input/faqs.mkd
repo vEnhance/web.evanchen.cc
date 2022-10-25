@@ -1,17 +1,17 @@
-title: FAQ's
+title: FAQs
 header: Frequently Asked Questions
 menu-position: 99
-description: Some FAQ's about math contests and my personal life.
+description: Some FAQs about math contests and my personal life.
 indent: 1
 
 ---
 
 This is a compilation of answers to questions that I have been asked over time.
 
-* [Math Contest FAQ's](faq-contest.html)
-* [Contest Rules FAQ's](faq-rules.html)
-* [Personal FAQ's](faq-personal.html)
-* [School FAQ's](faq-school.html)
-* [LaTeX FAQ's](faq-latex.html)
-* [Linux FAQ's](faq-linux.html)
+* [Math Contest FAQs](faq-contest.html)
+* [Contest Rules FAQs](faq-rules.html)
+* [Personal FAQs](faq-personal.html)
+* [School FAQs](faq-school.html)
+* [LaTeX FAQs](faq-latex.html)
+* [Linux FAQs](faq-linux.html)
 * [Rarely Asked Questions](faq-raqs.html)

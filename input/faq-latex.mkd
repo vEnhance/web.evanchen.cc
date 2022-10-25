@@ -1,12 +1,12 @@
-title: LaTeX FAQ's
-header: LaTeX FAQ's
-description: Some FAQ's about LaTeX
+title: LaTeX FAQs
+header: LaTeX FAQs
+description: Some FAQs about LaTeX
 
 ---
 
 [Return to FAQ Index.](faqs.html)
 
-These are FAQ's about LaTeX.
+These are FAQs about LaTeX.
 
 Before anything else, I need to define some terms.
 You can think of LaTeX workflow as having three components:
@@ -50,7 +50,7 @@ More bluntly, just install LaTeX, you only have to do it once.
 
 Overleaf certainly has its uses; most notably, its strength is *collaboration*.
 For example, some of my colleagues do not know how to use Git or Dropbox,
-so its easier for me to throw an Overleaf at them in that case
+so it's easier for me to throw an Overleaf at them in that case
 (and then use the underlying Git myself).
 Or, sometimes I am stuck on some library computer,
 making it impossible to install my own software.
@@ -181,7 +181,7 @@ I use [Vim](https://www.vim.org/) with
 [LaTeX Suite](http://vim-latex.sourceforge.net/index.php?subject=manual&title=Manual#user-manual).
 But that is a pretty advanced setup, so if you are a beginner,
 it may be overwhelming to learn Vim and LaTeX at the same time.
-For now you may prefer to stick with whatever text editor you are used to.
+For now, you may prefer to stick with whatever text editor you are used to.
 (Note that the editor does not need to be specific to LaTeX,
 [any source code editor will work](https://en.wikipedia.org/wiki/Source-code_editor).)
 
@@ -195,8 +195,8 @@ Evince and Skim are also good.
 It's a bit of a hack, but here is [demo code](static/random-hints.tex)
 corresponding to the version used in my geometry book.
 Dennis Chen wrote a more sophisticated version
-[as a sty package on his Github](https://github.com/chennisden/scrambledenvs).
-If you have TeX Live 2021, you can just run `tlmgr install scrambledenvs`. Otherwise, follow the installation instructions at [this Github gist](https://gist.github.com/chennisden/84c2224b10f0b177e4726db0bec45381).
+[as a sty package on his GitHub](https://github.com/chennisden/scrambledenvs).
+If you have TeX Live 2021, you can just run `tlmgr install scrambledenvs`. Otherwise, follow the installation instructions at [this GitHub gist](https://gist.github.com/chennisden/84c2224b10f0b177e4726db0bec45381).
 
 ### {{ faq("L-14", "How do you live-TeX your notes so quickly?") }}
 
@@ -239,10 +239,12 @@ Indents are a better way of separating paragraphs.
 
 [Beamer](http://tug.ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.pdf).
 
-### {{ faq("L-20", "How do you get LaTeX on Wordpress blog?") }}
+### {{ faq("L-20", "How do you get LaTeX on WordPress blog?") }}
 
-I use [this Python2 script](https://lucatrevisan.wordpress.com/latex-to-wordpress/).
-Not that elegant but works.
+I used to use [this Python2 script](https://lucatrevisan.wordpress.com/latex-to-wordpress/);
+later I updated it to
+[Python3](https://github.com/vEnhance/dotfiles/blob/main/py-scripts/latex2wp.py).
+Not that elegant, but works.
 
 ### {{ faq("L-21", "My code doesn't work / I want to do X, what should I do?") }}
 

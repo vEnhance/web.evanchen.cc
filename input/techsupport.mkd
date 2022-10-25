@@ -54,8 +54,8 @@ here is Evan's tier list:
 	[competitive programming](https://ioinformatics.org/)
 	then you probably want to use this one.
 
-4. [Java][java]: It's a pretty wordy language. I don't personally like it much
-	but I can see the appeal.
+4. [Java][java]: It's a pretty wordy language.
+	I don't personally like it much, but I can see the appeal.
 	The main reason it's still relevant to kids today is because
 	of AP Computer Science A,
 	but that class does a pretty bad job of teaching it anyway.
@@ -91,7 +91,7 @@ I'm not going to talk about the expert stuff here for brevity.
 For now, your job is to pick a language and mess with it.
 
 Once you've done that you can check
-[FAQ's on Linux](faq-linux.html) for elaborations on the advanced stuff.
+[FAQs on Linux](faq-linux.html) for elaborations on the advanced stuff.
 
 [^js]: The reason I specifically anti-recommend PHP and vanilla JavaScript is
 	that as a beginner I think you shouldn't get in the habit of writing code like
@@ -103,8 +103,7 @@ Once you've done that you can check
 I have lots and lots of love for
 [Project Euler](https://projecteuler.net/about).
 This is an enormous collection of problems that require both
-programming ability as well as problem-solving math ability
-in order to solve.
+programming ability and problem-solving math ability in order to solve.
 I think if you are new to programming but have math background,
 this is a great way to start off!
 It can change the way you think about both fields.

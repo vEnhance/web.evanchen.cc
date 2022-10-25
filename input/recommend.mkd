@@ -9,7 +9,7 @@ This page has a bunch of links you might want to read.
 In addition, you might see the following sub-pages:
 
 * [plz learn code](techsupport.html)
-* [FAQ's](faqs.html)
+* [FAQs](faqs.html)
 * [List of possible math contest mentors](mentors.html)
 
 Please notify me of any broken links, suggestions, etc. by email.

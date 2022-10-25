@@ -20,7 +20,7 @@ despite an olympiad having the [same name][girls])
 is a comprehensive problem-solving book in Euclidean geometry.
 It was written for competitive students training for national
 or international mathematical olympiads.
-However it has no prerequisites other than a good deal of courage:
+However, it has no prerequisites other than a good deal of courage:
 any student with proof experience
 should be able to follow the exposition.
 The book contains a selection of about 300 problems from around the world

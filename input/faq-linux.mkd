@@ -1,13 +1,13 @@
-title: Linux FAQ's
-header: Linux FAQ's
-description: Some FAQ's about Linux and the like.
+title: Linux FAQs
+header: Linux FAQs
+description: Some FAQs about Linux and the like.
 
 ---
 
 [Return to FAQ Index.](faqs.html)
 
-These are FAQ's about software I use.
-You might also see [LaTeX FAQ's](faq-latex.html).
+These are FAQs about software I use.
+You might also see [LaTeX FAQs](faq-latex.html).
 
 ### {{ faq("X-1", "If I don't know anything, where do I start?") }}
 
@@ -36,8 +36,7 @@ and writing my own tools when no existing software fits my needs.
 This process is time-consuming but
 [I enjoy it](https://xkcd.com/974/) so I am happy with this cost.
 
-Also [Linux package management is
-amazing](https://itsfoss.com/package-manager/).
+Also, [Linux package management is amazing](https://itsfoss.com/package-manager/).
 If one day I hear about a program called Geogebra,
 I can install it by typing `sudo pacman -S geogebra` into my command line
 (here `pacman` is the Arch Linux package manager).
@@ -78,7 +77,7 @@ I switched from Ubuntu to Arch Linux because Arch
 - has a [do-it-yourself philosophy](https://wiki.archlinux.org/title/Arch_Linux#Principles).
 
 To me Ubuntu is sort of the midpoint of Windows and Arch Linux.
-It's a *bona fide* Linux system, but there is a lot of pre-installed parts
+It's a *bona fide* Linux system, but there are a lot of pre-installed parts
 and a lot of things that are hidden behind graphical interfaces.
 
 ### {{ faq("X-4b", "Should I switch to Arch Linux?") }}
@@ -87,13 +86,13 @@ Only if you really like doing homework ;)
 
 Note well: if you are new to Linux, installing Arch will be a trial by fire.
 This is not necessarily a bad thing; it might actually be better this way if
-your goal it learn about systems, because by the end of the process, you will
+your goal is to learn about systems, because by the end of the process, you will
 know way more than you started with. Just be aware of it and probably block out
 a week or two.
 
 ### {{ faq("X-4c", "Which Linux distribution should I use?") }}
 
-I've only tried two distributions so I have no comment here, sorry.
+I've only tried two distributions, so I have no comment here, sorry.
 Search the web.
 
 ### {{ faq("X-5", "Why are you so obsessed with the terminal?") }}

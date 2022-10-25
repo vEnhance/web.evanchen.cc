@@ -48,8 +48,7 @@ The S was finally officially deleted in 2017.
 ## {{ hl("tshirt", "T-shirt designs") }}
 
 Traditionally, MOP T-shirts are printed in black on grey.
-With the exception of 2020 and 2021,
-usually there is only a front design,
+Except for 2020 and 2021, there is usually only a front design,
 and the back contains everyone's signature.
 
 {{ tshirt(2016) }}
@@ -198,14 +197,14 @@ Here are recent songs we performed:
 	Others are also responsible."<br>
 	Franklyn Wang: "Yeah, like Resnik."
 - Luke Robitaille: "I did not make ARML tiebreakers
-	as a 12 year old this year."
+	as a 12-year-old this year."
 - Staff: "Let O be a point inside cyclic quadrilateral ABCD.
 	Diagonals AC and BD intersect at P.
 	Let X be the isogonal conjugate of B with respect to ODP.
 	Show that one of the two points X and B lies on BX."
 - Also staff: "Alice says, 'you are a doofus'.
 	Bob says, 'no you'. Compute the total number of words exchanged."
-- Milan Haiman: "This is a 2 page solution right?"<br>
+- Milan Haiman: "This is a 2-page solution right?"<br>
 	Po-Shen Loh: "No, it's 15."
 - Sign on the way to breakfast: "Statue removed for restoration."<br>
 	Espen Slettnes: "What statue? I don't see it."
@@ -224,7 +223,7 @@ Here are recent songs we performed:
 - Rachel Zhang: "Evan's like, tiny, right?"
 - Henry Jiang: "I lose everything. One time I lost something,
 	and then someone picked it up, and then he lost it, so I found it again."
-- Jeff Lin: "Teaching your four year old to drink is
+- Jeff Lin: "Teaching your four-year-old to drink is
 	like teaching your eight grader bary."
 - Po-Shen Loh: "And I think this is a lesson we can all learn from,
 	especially for the IMO team:
@@ -244,7 +243,7 @@ Here are recent songs we performed:
 	if the line is sufficiently long."<br>
 	Evan Chen: "Aren't lines supposed to be infinite in length or something?"
 - "One day [Resnik] had corn, then the next day they had corn
-	with green beans and you could clearly tell it was yesterday's corn.
+	with green beans, and you could clearly tell it was yesterday's corn.
 	Then the next day they had fried rice with corn and green beans."
 - Feodor Yevtushenko: "This rice tastes like rice except
 	one in every like 20 grains is uncooked."<br>
@@ -270,7 +269,7 @@ Here are recent songs we performed:
 - Alex Zhao: "Combo is only enjoyable when you can solve it."
 - Ethan Liu: "I kinda don't want to do any more math, I just want to do algebra"
 - Evan Chen: "I get crabby when people don't do what I tell them to.
-	It's why i can never have a boss."
+	It's why I can never have a boss."
 - Evan Chen: "I hate trying to be nice."
 - Evan Chen: "I'm Evan. I guess I'm a PhD student at MIT?"
 - Evan Chen: "Most problems require you to be awake."

@@ -1,6 +1,6 @@
 title: Rarely Asked Questions
 header: Rarely Asked Questions
-description: Some FAQ's about math contests and my personal life.
+description: Some FAQs about math contests and my personal life.
 
 ---
 
@@ -16,7 +16,7 @@ Mostly by cutting out activities that aren't important to me.
 
 I feel high school students tend to focus too much on "local" changes
 (using Chrome productivity extensions, shaving time off X, etc.)
-than on "global" changes (dropping entire classes or commitments).
+rather than "global" changes (dropping entire classes or commitments).
 It's not that local changes are bad, but you should usually
 consider global changes first before local changes
 ([see so-called 80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
@@ -56,7 +56,7 @@ particularly in Section "Now".
 Maybe it's better if I gave examples of projects
 that I worked on (both successful and unsuccessful):
 
-- Programming projects ([Github](https://github.com/vEnhance))
+- Programming projects ([GitHub](https://github.com/vEnhance))
 - Installing Arch Linux and figuring out how to use it
 - Writing nonfiction e.g. Napkin and EGMO
 	(the latter was written while I was a
@@ -67,7 +67,7 @@ that I worked on (both successful and unsuccessful):
 - Creating a problem database (this took me five or six tries before it worked out)
 - Creating a constructed language (failed at least five times)
 
-Anyways, the point is to pick something that feels cool,
+Anyway, the point is to pick something that feels cool,
 or that you've always wanted to do, and then try to do it.
 I think this often turns out to be easier than you might expect,
 because you already have a lot of experience learning something
@@ -112,12 +112,12 @@ To quote [Paul Graham](https://www.paulgraham.com/hs.html):
 > if you're not worrying that something you're making will come out badly,
 > or that you won't be able to understand something you're studying,
 > then it isn't hard enough. There has to be suspense.
-> 
+>
 > You don't see faces much happier than people winning gold medals.
 > And you know why they're so happy? Relief.
 
 With all that being said, I am obliged to add on that the other
-huge thing that contests did for me was provide me access to one
+huge thing that contests did for me was providing me access to one
 of the best peer groups out there. Most of the friends that I have
 today came in some way or other from the math contest circuit,
 even though many of them will certainly not be doing math as a career.
@@ -155,12 +155,12 @@ The specifics of what domain you do this in are not important.
 
 So to me, "my high school is not sufficiently challenging for me" seems
 insufficient justification to throw away a year of this growth time,
-because since when does high school teach you things anyway?
+because since when does high school teach you anyway?
 You are responsible for your own learning.
 
 ### {{ faq("R-7", "I am a parent. Give me advice!") }}
 
-Here's a few great talks from the Math Prize for Girls event.
+Here are a few great talks from the Math Prize for Girls event.
 
 - [Richard Rusczyk, 2014](https://www.youtube.com/watch?v=TYCxbFad36g)
 - [Zuming Feng, 2015](https://www.youtube.com/watch?v=cVlR-5hS6f4)
@@ -202,11 +202,11 @@ put into designing the game.
 
 Every asset the art team had spent hours drawing and redrawing.
 Every animation that had to be programmed just right.
-Every sound track the lead composer had written
+Every soundtrack the lead composer had written
 after throwing away a dozen other attempts.
 Every little line of dialogue someone had written ---
 especially the ones that made me grin.
-Every easter egg the developers had written in.
+Every Easter egg the developers had written in.
 Every font that was chosen or designed from scratch.
 The list goes on and on, from the little things that you'd only notice
 if you were playing close attention, to the overall atmosphere

@@ -25,8 +25,8 @@ It is meant to be a short briefing before you follow the instructions in the
 
 ## {{ hl("topics", "Topics covered") }}
 
-In the last 10 years, there has been a lot of changes in the way users access
-their files. For many students, even the concept of a "file" could be
+In the last 10 years, the ways users access files have changed dramatically.
+For many students, even the concept of a "file" could be
 challenging now, let alone an editor or compiler.
 
 The goal for this post is to try and sort out some common conceptions.
@@ -114,7 +114,7 @@ their own encoding system, rather than standard A=97, B=98, ...
 
 * Microsoft Word is one example, those documents use their own encoding that
 	doesn't make sense to the uninformed, so only Word-like can really edit it.
-	(It's sort of like, you live in an English speaking country,
+	(It's sort of like, you live in an English-speaking country,
 	but Microsoft Word will only read/write documents in Ishkashimi language,
 	thus forcing you to keep using Microsoft Word.)
 * PDF also uses its own compressed format.
@@ -145,7 +145,7 @@ Others swear by VS Code, and still others by Emacs.
 There are simpler beginner editors too, like Sublime, Atom, Notepad++ and so on.
 So yeah, there are quite a few.
 
-But the thing you you need to understand is that choosing an editor does NOT
+But the thing you need to understand is that choosing an editor does NOT
 rely on what *kind* of file you are editing, as long as it's plain text.
 If you love Vim like me, you can use Vim for Python, for LaTeX, for C++, for
 Markdown, whatever you like. You do not need a different editor per workflow.
@@ -155,7 +155,7 @@ Markdown, whatever you like. You do not need a different editor per workflow.
 Compilers and interpreters are programs that take files as input and do something with them.
 Maybe they make a copy in a different form, or execute some commands, or so on.
 
-**You can think of an compiler or interpreter as a person
+**You can think of a compiler or interpreter as a person
 who accepts instructions in writing.**
 
 For example, consider Monty Python, your friendly Python interpreter.
@@ -271,7 +271,7 @@ Small surprise: editors like Vim or compilers like LaTeX
 are all *technically* actually files too,
 even though we don't typically think of them that way.
 For one thing, they are meant to be executed rather than edited.
-Hence they usually don't happen to have plain text encoding,
+Hence, they usually don't happen to have plain text encoding,
 because they're meant to be read by machines, not you
 (and in particular they are not meant to be editable).
 In other words, they're written in "machine code", run by your system.

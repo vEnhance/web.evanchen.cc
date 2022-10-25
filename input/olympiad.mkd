@@ -10,7 +10,7 @@ The [Math](https://blog.evanchen.cc/category/mathematics/) and
 [Problem-Solving](https://blog.evanchen.cc/category/problem-solving/) sections
 of my personal blog might also be of interest.
 See also [Recommendations](recommend.html) for other authors I like,
-as well as my [geometry book](geombook.html) for a
+and my [geometry book](geombook.html) for a
 comprehensive textbook in Euclidean geometry.
 See also [Problems](problems.html) for contest papers.
 

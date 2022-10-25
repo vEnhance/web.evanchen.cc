@@ -56,7 +56,7 @@ and it's great fun to just pick a random past puzzle to work through.
 
 In descending order of importance for new solvers:
 
-0. Read betaveros's post if you haven't already
+0. Read betaveros's post if you haven't already,
 	so you are familiar with all "standard" techniques
 	since many hunts will assume familiarity with no further comment.
 	(See also [Microsoft's common encoding list][msenc].)
@@ -86,7 +86,7 @@ In descending order of importance for new solvers:
 5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
 	given only some of the letters.
 6. Always ask what **information is not used yet**.
-	In a well designed puzzle, there will rarely be any superfluous information
+	In a well-designed puzzle, there will rarely be any superfluous information
 	(much like in USAMO, usually there are no extraneous conditions on problems).
 	Good puzzle writers will tend to "destroy" information if it’s not relevant.
 	In particular, it's extremely common for lists to be in **alphabetical order**

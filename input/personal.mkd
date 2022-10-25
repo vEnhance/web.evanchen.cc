@@ -45,7 +45,7 @@ is a cooperative logic-based deduction game.
 I spend quite a bit of time playing Hanabi online with the
 [Hyphen-ated group](https://github.com/Zamiell/hanabi-conventions),
 which plays the game at a rather high level,
-as well as with my students.
+and with my students.
 I am [vEnhance](https://hanab.live/scores/vEnhance) on the hanab.live website.
 
 I wrote a

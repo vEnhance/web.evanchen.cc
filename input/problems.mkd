@@ -7,13 +7,13 @@ description: Archive of PDF's of math olympiad problems.
 ---
 
 This page contains problems and solutions
-to several USA contests, as well as a few others.
+to several USA contests, and a few others.
 
 ## {{ hl("mohs", "Hardness scale") }}
 
 Here is an
 [index of many problems](upload/MOHS-hardness.pdf)
-by my opinions on their difficulty and subject matter.
+by my opinions on their difficulty and subject.
 The difficulties are rated from 0 to 50 in increments of 5,
 using a scale I devised called **MOHS**.[^acronym]
 
@@ -21,7 +21,7 @@ using a scale I devised called **MOHS**.[^acronym]
 	[pun fully intended](https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness).
 
 **New**: Thanks to the great work of Rustam Turdibaev and Olimjon Olimov,
-we now have a enormous **336-problem**
+we now have an enormous **336-problem**
 [index of recent problems by subject and MOHS rating][rustam].
 In addition, the linked file also contains a hyperlink
 to each of the corresponding solution threads on Art of Problem Solving.
@@ -29,7 +29,7 @@ to each of the corresponding solution threads on Art of Problem Solving.
 [rustam]: https://drive.google.com/file/d/1G9a5f6EW9cIDw5rTMI46iLlc4UMs6KRW/view
 
 This document will probably see a lot of updates.
-Anyways, I cannot repeat enough the disclaimer that the ratings
+Anyway, I cannot repeat enough the disclaimer that the ratings
 (and even philosophy) are my own personal opinion,
 rather than some sort of indisputable truth.
 
@@ -226,13 +226,11 @@ These problems are in Chinese;
 
 ## {{ hl("omo", "NIMO / OMO") }}
 
-In high school, I and some others ran an online contest
-called the NIMO (National Internet Math Olympiad)
-as well as one called the OMO (Online Math Open).
-Neither contest is active at the time of writing
-(April 2021) but I
+In high school, I and some others ran two online contests
+called NIMO (National Internet Math Olympiad) and OMO (Online Math Open).
+Neither contest is active at the time of writing (April 2021) but I
 [collected all the materials and put them in a Google Drive link][old]
-since the website for that contest is not currently online.
+since the websites for those contests is not currently online.
 Most of the problems are short-answer problems.
 
 [old]: https://drive.google.com/drive/u/1/folders/1jVXuZMdk-GkucFtqPWAIg5xMiQN-E3gf

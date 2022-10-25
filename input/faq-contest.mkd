@@ -1,12 +1,12 @@
-title: Math Contest FAQ's
-header: Math Contest FAQ's
-description: Some FAQ's about math contests and my personal life.
+title: Math Contest FAQs
+header: Math Contest FAQs
+description: Some FAQs about math contests and my personal life.
 
 ---
 
 [Return to FAQ Index.](faqs.html)
 
-These are FAQ's about math contests and particularly
+These are FAQs about math contests and particularly
 how to go about training for them.
 
 ### {{ faq("C-0", "I have zero experience with math contests. Where should I start?") }}
@@ -40,7 +40,7 @@ until you have a picture of what the landscape looks like, so to speak.
 	Every contest will have problems ranging from super easy
 	to really difficult, so find the right ones.
 3. Rope some friends into learning with you.
-	It's more fun that way and you can learn from each other.
+	It's more fun that way, and you can learn from each other.
 	It's okay to have different levels of experience.
 
 You should repeat these steps until you have some comfort

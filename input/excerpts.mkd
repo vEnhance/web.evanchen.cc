@@ -28,7 +28,7 @@ for discussing the examples and problems from the text.
 
 ### Contents
 
-The Excerpts consists of selected problems from the following
+The Excerpts consist of selected problems from the following
 twelve topics from the [OTIS catalog][catalog]:
 
 + Standard inequalities

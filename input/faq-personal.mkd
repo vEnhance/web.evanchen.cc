@@ -1,13 +1,13 @@
-title: Personal FAQ's
-header: Personal FAQ's
-description: Some FAQ's about math contests and my personal life.
+title: Personal FAQs
+header: Personal FAQs
+description: Some FAQs about math contests and my personal life.
 
 ---
 
 [Return to FAQ Index.](faqs.html)
 
-These are FAQ's about me and my contest history.
-You might also see [School FAQ's](faq-school.html).
+These are FAQs about me and my contest history.
+You might also see [School FAQs](faq-school.html).
 
 ### {{ faq("P-1", "How much time did you spend on math preparation?") }}
 

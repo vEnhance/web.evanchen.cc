@@ -19,7 +19,7 @@ description: Description of Napkin project, a free book covering all sorts of hi
 ## {{ hl("status", "Project Status") }}
 
 The **recent v1.5** is a new update which revises
-many of the earlier chapters as well as adding new content
+many of the earlier chapters and adds new content
 in real analysis, measure theory, and algebraic geometry.
 It is however even more visibly incomplete,
 with several chapters scheduled but not yet written.

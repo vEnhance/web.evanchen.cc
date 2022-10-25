@@ -1,12 +1,12 @@
-title: School FAQ's
-header: School FAQ's
-description: Some FAQ's about math contests and my personal life.
+title: School FAQs
+header: School FAQs
+description: Some FAQs about math contests and my personal life.
 
 ---
 
 [Return to FAQ Index.](faqs.html)
 
-These are FAQ's about high school and college.
+These are FAQs about high school and college.
 
 ### {{ faq("S-1", "Why did you transfer from Harvard to MIT?") }}
 Short answer: mostly social reasons.
@@ -118,7 +118,7 @@ and multivariable calculus are significantly overrated
 for people who (a) know how proofs work, and (b) want to pursue higher math.
 
 Linear algebra is useful, but when taught as a standalone class, you will
-mostly be doing manipulations with matrices. It's not a bad thing but I think
+mostly be doing manipulations with matrices. It's not a bad thing, but I think
 it's not something that needs to take one whole semester if you're going to
 eventually redo the whole thing abstractly with $k$-modules anyway. I would
 rather spend the semester learning abstract algebra as a whole (which includes
@@ -128,7 +128,7 @@ a domain is, an ideal is, etc. and you would like to learn this as soon as
 possible.
 
 Multivariable calculus and ordinary/partial differential equations is a bit of
-a dead end, in my opinion, unless you are interested in these sort of topics
+a dead end, in my opinion, unless you are interested in these topics
 for their own sake (in which case you should just learn them, not let random
 strangers on the Internet tell you what to do). Real and complex analysis,
 together with enough point-set/metric topology to go with them, are more
@@ -152,12 +152,12 @@ even though it's not the answer you want to hear.
 
 I have nothing to add to this. Really.
 
-People always want to believe there is some mythical criteria
-or hidden goal in the admissions process,
-a closely guarded secret held from the general public,
+People always want to believe there are some mythical criteria
+or hidden goals in the admissions process,
+a closely guarded secret held from the public,
 and hence the best route is to find out this insider information.
 No, seriously, just listen to the people who do admissions for a living.
-MIT is not the Illuminati, even if it a subsequence.
+MIT is not the Illuminati, even if it is a subsequence.
 
 ### {{ faq("S-8", "Is it worth looking at olympiad problems in college if I didn't do competitions in high school, or should I just stick to college math classes?") }}
 
@@ -166,9 +166,9 @@ The short answer is that it depends on what you want.
 The model you can have in your head is something like follows:
 
 - High school olympiad problems are designed to
-	train for problem solving and thinking ability.
+	train for problem-solving and thinking ability.
 	To this end, they often take pride in not requiring much background
-	outside of the geometry (and even then [not much][tr011ey]).
+	outside geometry (and even then [not much][tr011ey]).
 - College math classes, and the associated homework,
 	is instead focused mainly on learning the relevant material.
 	The exercises for your abstract algebra class are geared towards, well,
@@ -198,9 +198,9 @@ Here's a few.
 	and (3) fear-of-missing-out is not a productive form of motivation anyway.
 
 - If you are thinking about pursuing math as a career, then it's a bit more of a toss-up.
-	Both problem-solving ability, as well as familiarity with core material, are
-	useful powers, and their importance even varies depending on which specific field
-	of math you are looking to do.
+	Both problem-solving ability and familiarity with core material
+	are useful powers, and their importance even varies depending on
+	which specific field of math you are looking to do.
 
 - If you're just curious what math contests are all about or doing this just-for-fun,
 	then by all means go exploring! Pursuing your interests is important.
