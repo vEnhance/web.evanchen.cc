@@ -72,20 +72,20 @@ By the way, I use [Arch Linux](https://www.archlinux.org/).
 Some details about my setup:
 
 - Window manager: [i3](https://i3wm.org/),
-  with [py3status](https://py3status.readthedocs.io/en/latest/index.html)
-  and [rofi](https://github.com/davatorium/rofi)
+	with [py3status](https://py3status.readthedocs.io/en/latest/index.html)
+	and [rofi](https://github.com/davatorium/rofi)
 - Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Browser homepage](static/browser-homepage.html)
-  (click the timer to change target date)
+	(click the timer to change target date)
 - Editor: [Vim](https://www.vim.org/)
 - File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)
 - Monospace font: [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
 - MUA: [NeoMutt](https://neomutt.org/)
 - TeX distribution: [TeX Live](https://tug.org/texlive/)
 - Shell: [Fish](http://fishshell.com/),
-  using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
+	using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
 - To-do list: [Taskwarrior](https://taskwarrior.org/),
-  with [Vit](https://github.com/vit-project/vit) and [inthe.AM](https://inthe.am/).
+	with [Vit](https://github.com/vit-project/vit) and [inthe.AM](https://inthe.am/).
 
 You can find a lot of my configuration files on my
 [dotfiles GitHub repository](https://github.com/vEnhance/dotfiles).

@@ -212,8 +212,8 @@ computer.[^1] As a trivial example, if you have a file called `gossip.txt`,
 you can run `vim gossip.txt` to read the latest hot tea, in Vim.
 
 [^1]: Some terminology confusion these days as "terminal", "terminal emulator",
-  "shell", etc. are all interchangeable.
-  See [unix.SE](https://unix.stackexchange.com/a/254366)
+	"shell", etc. are all interchangeable.
+	See [unix.SE](https://unix.stackexchange.com/a/254366)
 
 For simplicity, we're going to use **Bash** as the name of the commander,
 though others exist.[^2] In general, Linux prompts may look different depending
@@ -221,7 +221,7 @@ on what terminal emulator or shell you use, but it should be easily accessible.
 Windows may be more complicated.[^3]
 
 [^2]: Allegiances: I use `xfce4-terminal` as the wrapper around my terminal, and
-  I use `fish` for the shell instead of the more standard `bash`.
+	I use `fish` for the shell instead of the more standard `bash`.
 
 [^3]: That's because the shell is deliberately hidden
 	from the user, leaving lots of confusion between things like Git Bash versus

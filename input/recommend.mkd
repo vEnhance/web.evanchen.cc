@@ -37,21 +37,21 @@ that I like for most undergraduate (or early graduate) topics.
 Here are some additional links.
 
 * [MSci Category Theory notes](https://arxiv.org/abs/1612.09375) by Tom Leinster.
-  I highly enjoyed these notes; very carefully written and explains intuition.
-  Some minimal knowledge of group theory and linear algebra is used in the examples.
-  See also [the corresponding print book](https://www.maths.ed.ac.uk/~tl/bct/).
+	I highly enjoyed these notes; very carefully written and explains intuition.
+	Some minimal knowledge of group theory and linear algebra is used in the examples.
+	See also [the corresponding print book](https://www.maths.ed.ac.uk/~tl/bct/).
 
 * [Analytic NT notes](https://www.math.illinois.edu/~hildebr/ant/) by AJ Hildebrand.
-  A set of lecture notes for analytic number theory, suitable for self-study.
-  A light introduction where you get to prove versions of the Prime Number Theorem and Dirichlet's Theorem.
+	A set of lecture notes for analytic number theory, suitable for self-study.
+	A light introduction where you get to prove versions of the Prime Number Theorem and Dirichlet's Theorem.
 
 * [Algebraic Geometry](https://www.mathematik.uni-kl.de/~gathmann/de/alggeom.php) by Andreas Gathmann.
-  My preferred introduction to algebraic geometry; short but complete.
-  This was the source that finally got me to understand the concept of a ringed space.
+	My preferred introduction to algebraic geometry; short but complete.
+	This was the source that finally got me to understand the concept of a ringed space.
 
 * [Manifolds and Differential Forms](https://ghostarchive.org/pdfarchive/4452g-manifold.pdf) by Reyer Sjamaar.
-  My preferred introduction to differential geometry; very readable and works with minimal prerequisites.
-  Also, beautifully drawn figures.
+	My preferred introduction to differential geometry; very readable and works with minimal prerequisites.
+	Also, beautifully drawn figures.
 
 * [Harvard's CS 125: Algorithms and Complexity](https://people.seas.harvard.edu/~cs125/) has delightful lecture and section notes.
 
@@ -64,37 +64,37 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 * [My own handouts](olympiad.html) (sorry, couldn't resist linking them again).
 
 * [Yufei Zhao's site](https://yufeizhao.com/olympiad.html) has several excellent handouts,
-  especially in geometry.
-  I consulted many of them when I was coming up
-  with ideas for my geometry textbook.
-  In particular, [the Cyclic Quadrilaterals handout](https://yufeizhao.com/olympiad/cyclic_quad.pdf)
-   is especially worth reading.
+	especially in geometry.
+	I consulted many of them when I was coming up
+	with ideas for my geometry textbook.
+	In particular, [the Cyclic Quadrilaterals handout](https://yufeizhao.com/olympiad/cyclic_quad.pdf)
+	 is especially worth reading.
 
 * [Alexander Remorov](https://alexanderrem.weebly.com/math-competitions.html),
-  in particular the projective geometry handout,
-  which the corresponding chapter in my textbook is based off of.
+	in particular the projective geometry handout,
+	which the corresponding chapter in my textbook is based off of.
 
 * [Po-Shen Loh](https://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
 
 * [A Journey to the IMO](upload/Sarda-Journey.pdf),
-  an overview of the IMO written from Nepal student Yuvraj Sarda.
+	an overview of the IMO written from Nepal student Yuvraj Sarda.
 
 ### {{ hl("books", "Books") }}
 
 * My own: [olympiad geometry book EGMO](geombook.html)
-  and [OTIS Excerpts](excerpts.html) for non-geometry.
+	and [OTIS Excerpts](excerpts.html) for non-geometry.
 
 * [Art and Craft of Problem Solving][acops] by Paul Zeitz,
-  introduction to math olympiads in general.
+	introduction to math olympiads in general.
 
 * [An olympiad combinatorics book, by Pranav A. Sriram](https://www.artofproblemsolving.com/community/c6h601134). The individual chapters are located in posts #1, #11, #49.
 
 * [Olympiad NT through Challenging Problems](https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
-  is an introductory olympiad number theory text,
-  at a level somewhat easier than what my own number theory handouts assume.
+	is an introductory olympiad number theory text,
+	at a level somewhat easier than what my own number theory handouts assume.
 
 * [Modern Olympiad Number Theory](https://artofproblemsolving.com/community/c6h2344755), by Aditya Khurmi.
-  More olympiad-oriented number theory textbook.
+	More olympiad-oriented number theory textbook.
 
 [acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
 
