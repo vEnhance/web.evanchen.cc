@@ -367,7 +367,7 @@ Yes. Here is why:
 
 I believe this so firmly that I actually often give the following suggestion:
 
-> Try all 3 problems in **reverse order, for 20 minutes each, at the start of the test.
+> Try all 3 problems in **reverse order**, for 20 minutes each, at the start of the test.
 
 I've said this in various forms not just in OTIS,
 but also when I teach at MOP or other places, etc.
