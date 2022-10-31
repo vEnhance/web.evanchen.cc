@@ -130,7 +130,7 @@ With that disclaimer,
 for math olympiads.
 
 Younger students (preparing for AMC/AIME) would likely benefit
-from books or classes from Art of Problem Solving, like
+from books or classes from Art of Problem-Solving, like
 [Volume 2](https://www.aops.com/store/item/aops-vol2).
 
 ### {{ faq("C-3", "How do I get better at Euclidean geometry?") }}
@@ -166,8 +166,8 @@ To get you started, try reading [this article][aopswrite], or perhaps [this arti
 After this, my advice is
 
 1. Read the proofs to problems you think you've solved (on AoPS, or official solutions).
-	 Note that these don't have to be from proof contests!
-	 The official solutions to any decent contest would all pass as proofs.
+	Note that these don't have to be from proof contests!
+	The official solutions to any decent contest would all pass as proofs.
 2. Try writing up proofs to problems you think you've solved, and
 3. Get feedback on these solutions (from a mentor, on the forums, etc.).
 
@@ -270,7 +270,7 @@ work on every problem that students send me, and simply archive your message.
 
 ### {{ faq("C-11", "Directed angles are really confusing! Can I just use normal angles?") }}
 
-As I allude to in [the directed angles handout](handouts/Directed-Angles/Directed-Angles.pdf)
+As I allude to in [the directed-angles handout](handouts/Directed-Angles/Directed-Angles.pdf)
 you could probably get away with it,
 because it is common practice to not deduct for configuration issues
 (although it does happen from time to time).
@@ -355,7 +355,7 @@ Yes. Here is why:
 	Sometimes the test has three problems that are more like medium (see USAMO 2022).
 	Sometimes problem 6 is secretly a medium problem (see IMO 2016).
 	The list of weird scenarios never ends.
-	(The [MOHS chart](upload/MOHS-hardness.pdf) has concrete but imperfect data.)
+	(The [MOHS chart][mohs] has concrete but imperfect data.)
 2. Moreover, problem difficulty is personal and differs between people.
 	(In cliché format, you have your own unique individual strengths and weaknesses.)
 	So, every contest you will see score distributions like 070 or even 007 ("James Bond").
@@ -461,7 +461,7 @@ If you read my diary of IMO 2014,
 there was a point during day 1 where I became so nervous that
 my hands wouldn't stop shaking, and I couldn't carry out a
 certain trig calculation correctly for an hour or so.
-(I dealt with this my standing up for a few minutes;
+(I dealt with this by standing up for a few minutes;
 when I sat back down my hands had stopped shaking,
 and I did the entire calculation from scratch in 10 minutes.)
 
@@ -474,12 +474,13 @@ And that's true, but you can say something much stronger.
 You have a skill level that you've been working on all year.
 In addition, you will have some individual variance based on the actual day.
 But your given-day individual variance is completely dwarfed
-by a larger term: **the difficulty of the problem**.
+by a larger term: **the difficulty of the problem**,
+which often varies wildly from year to year. See [C-15](#C-15)
+for concrete discussion or the [MOHS chart][mohs] if you like colors.
 
 Thus, if you find yourself surprised at being unable to solve a problem,
 your reaction should be something like
 "wow, this year's P2 is harder than usual".
-See also the advice in [C-15](#C-15).
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
@@ -490,6 +491,8 @@ See also the advice in [C-15](#C-15).
 [geombook]: geombook.html
 [howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [mistakes]: https://www.artofproblemsolving.com/articles/stupid-mistakes
+[mohs]: upload/MOHS-hardness.pdf
+[perfect]: https://blog.evanchen.cc/2016/04/17/against-perfect-scores/
 [recs]: recommend.html
 [right]: https://artofproblemsolving.com/community/c5h520900
 [shower]: https://www.paulgraham.com/top.html
@@ -498,4 +501,3 @@ See also the advice in [C-15](#C-15).
 [wpcontest]: https://blog.evanchen.cc/2019/01/31/math-contest-platitudes-v3/
 [wpgeo]: https://blog.evanchen.cc/2016/01/19/some-advice-for-olympiad-geometry/
 [yufei]: https://yufeizhao.com/olympiad.html
-[perfect]: https://blog.evanchen.cc/2016/04/17/against-perfect-scores/
