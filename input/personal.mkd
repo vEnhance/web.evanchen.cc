@@ -1,4 +1,4 @@
-title: Hobbies
+title: Personal/Hobbies
 header: Hobbies and trivia about myself
 menu-position: 40
 
