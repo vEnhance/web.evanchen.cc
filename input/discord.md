@@ -7,6 +7,7 @@ menu-position: 48
 ---
 
 By using the link
+
 <center>
 <p><a href="https://discord.gg/KzFXYwqRFX">https://discord.gg/KzFXYwqRFX</a></p>
 </center>

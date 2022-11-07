@@ -21,7 +21,7 @@ Students at other levels may be interested in
 Around the start of 2019, I posted publicly a
 [collection of 192 problems and solutions](excerpts.html)
 based on materials for OTIS.
-This mini-book was named *The OTIS Excerpts*.
+This mini-book was named _The OTIS Excerpts_.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
@@ -32,8 +32,8 @@ Late applications are now open, and will remain open until April 15.
 
 See the instructions for details about late application.
 
-* [Application instructions and problems for fall 2022](upload/otis-app-viii.pdf)
-* [Submission URL for fall 2022](https://forms.gle/16Fp6LVeB1Zhsrgz5)
+- [Application instructions and problems for fall 2022](upload/otis-app-viii.pdf)
+- [Submission URL for fall 2022](https://forms.gle/16Fp6LVeB1Zhsrgz5)
 
 ## {{ hl("prereq", "Who can apply") }}
 
@@ -52,13 +52,13 @@ A stable Internet connection is required.
 
 ## {{ hl("documents", "Documents") }}
 
-* [Syllabus](upload/otis-syllabus.pdf), updated for 2022-2023
-* [List of topics][unitlist]
-* Example unit: [handout][sample-DNY] and [solutions][sample-DNYsol]
-* Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
+- [Syllabus](upload/otis-syllabus.pdf), updated for 2022-2023
+- [List of topics][unitlist]
+- Example unit: [handout][sample-dny] and [solutions][sample-dnysol]
+- Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 
-[sample-DNY]: static/otis-samples/DNY-ntconstruct.pdf
-[sample-DNYsol]: static/otis-samples/DNY-sol-ntconstruct.pdf
+[sample-dny]: static/otis-samples/DNY-ntconstruct.pdf
+[sample-dnysol]: static/otis-samples/DNY-sol-ntconstruct.pdf
 [sample-jmo]: static/otis-samples/Exam-Sample-08-JMO.pdf
 [sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
 [sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
@@ -69,34 +69,34 @@ A stable Internet connection is required.
 
 ### Director
 
-* [Evan Chen](https://web.evanchen.cc)
+- [Evan Chen](https://web.evanchen.cc)
 
 ### Instructors
 
-* [Anushka Aggarwal][anushka] (alum V)
-* [Dávid Matolcsi][david]
-* [Gopal Goel][gopal] (alum IV-V)
-* [Jeffrey Kwan][jkwan] (alum IV-V)
-* [Noah Walsh][noah] (alum V-VI)
-* [Ram Goel][ramgoel] (alum V-VII)
-* [Reed LaFleche][reed]
-* [Rohan Goyal][rohan] (alum V)
-* [Sanjana Das][sanjana] (alum VI)
+- [Anushka Aggarwal][anushka] (alum V)
+- [Dávid Matolcsi][david]
+- [Gopal Goel][gopal] (alum IV-V)
+- [Jeffrey Kwan][jkwan] (alum IV-V)
+- [Noah Walsh][noah] (alum V-VI)
+- [Ram Goel][ramgoel] (alum V-VII)
+- [Reed LaFleche][reed]
+- [Rohan Goyal][rohan] (alum V)
+- [Sanjana Das][sanjana] (alum VI)
 
 ### Graders
 
-* [CJ Quines](https://cjquines.com/)
-* [Xinke Guo-Xue][xinke]
+- [CJ Quines](https://cjquines.com/)
+- [Xinke Guo-Xue][xinke]
 
 ### Past instructors
 
-* [Anant Mudgal][anant] (alum III)
-* [Ankan Bhattacharya][ankan]
-* [Howard Halim][howard] (alum III-IV)
-* [James Lin][james]
-* [Michael Ren][mren] (alum I-II)
-* [Pranjal Srivastava][pranjal] (alum IV)
-* [Zack Chroman][zack] (alum II-III)
+- [Anant Mudgal][anant] (alum III)
+- [Ankan Bhattacharya][ankan]
+- [Howard Halim][howard] (alum III-IV)
+- [James Lin][james]
+- [Michael Ren][mren] (alum I-II)
+- [Pranjal Srivastava][pranjal] (alum IV)
+- [Zack Chroman][zack] (alum II-III)
 
 <!--
 ## {{ hl("history", "History") }}
@@ -127,10 +127,8 @@ instead of half a dozen.
 [sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
 [sanjana]: https://www.egmo.org/people/person1748/
 [rohan]: https://www.linkedin.com/in/rohan-goyal-a998aa155/
-
 [reed]: https://www.linkedin.com/in/reed-lafleche-941481106/
 [xinke]: https://xinkeguoxue.github.io/
-
 [ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
 [mren]: https://www.imo-official.org/participant_r.aspx?id=28394
 [zack]: https://www.imo-official.org/participant_r.aspx?id=27374

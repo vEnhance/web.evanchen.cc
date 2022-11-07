@@ -16,7 +16,7 @@ description: OTIS Excerpts, a mini-book based on OTIS lecture notes.
 
 ### {{ hl("about", "About") }}
 
-*The OTIS Excerpts* is a mini-book
+_The OTIS Excerpts_ is a mini-book
 that I put together from
 [lecture notes I use during the year](otis.html).
 It is a collection of 192 problems and solutions.
@@ -31,18 +31,18 @@ for discussing the examples and problems from the text.
 The Excerpts consist of selected problems from the following
 twelve topics from the [OTIS catalog][catalog]:
 
-+ Standard inequalities
-+ Functional equations
-+ Monsters
-+ Global
-+ Local
-+ Rigid
-+ Free
-+ Anti-problems
-+ Orders
-+ Prime exponents
-+ Heavy number theory (called "advanced techniques")
-+ Constructions in Number Theory
+- Standard inequalities
+- Functional equations
+- Monsters
+- Global
+- Local
+- Rigid
+- Free
+- Anti-problems
+- Orders
+- Prime exponents
+- Heavy number theory (called "advanced techniques")
+- Constructions in Number Theory
 
 Most of the lecture material is adapted from
 [existing handouts of mine](olympiad.html)

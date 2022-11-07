@@ -12,16 +12,17 @@ that any computer system will have.
 It is meant to be a short briefing before you follow the instructions in the
 [learning path](techsupport.html) page.
 
-[^0]: To draw an analogy, imagine a friendly alien visiting Earth for first time.
-	The tour guide might start by pointing out the big ball of fire in the sky
-	and explain that it's the sun, where the Earth gets warmth and light.
-	They might even go on to say the sun only works 12 hours per 24 hours,
-	and each sun-revolution is called a day.
-	Then they'll explain there are things called trees, and stuff called plants,
-	some of which can be eaten for food, but which also provide critical oxygen.
-	Of course, none of this is remotely enough data
-	for the alien to settle in and live a life on Earth,
-	but it sure is helpful as a start.
+[^0]:
+    To draw an analogy, imagine a friendly alien visiting Earth for first time.
+    The tour guide might start by pointing out the big ball of fire in the sky
+    and explain that it's the sun, where the Earth gets warmth and light.
+    They might even go on to say the sun only works 12 hours per 24 hours,
+    and each sun-revolution is called a day.
+    Then they'll explain there are things called trees, and stuff called plants,
+    some of which can be eaten for food, but which also provide critical oxygen.
+    Of course, none of this is remotely enough data
+    for the alien to settle in and live a life on Earth,
+    but it sure is helpful as a start.
 
 ## {{ hl("topics", "Topics covered") }}
 
@@ -31,15 +32,15 @@ challenging now, let alone an editor or compiler.
 
 The goal for this post is to try and sort out some common conceptions.
 It's attempting to write out what are some common confusions about different
-*types* of objects in computing world, and draw analogies to the real world.
+_types_ of objects in computing world, and draw analogies to the real world.
 
 Specifically, I want to talk about five kinds of things:
 
-* Folders and files
-* Editors
-* Compilers / interpreter
-* Terminal emulators
-* Executing programs
+- Folders and files
+- Editors
+- Compilers / interpreter
+- Terminal emulators
+- Executing programs
 
 ## {{ hl("core", "Core concepts") }}
 
@@ -61,7 +62,7 @@ Actually.
 You should think of the "Downloads" or "Desktop" folder as
 a physical desk.
 It's fine to leave some papers on your desk if you are only going to need them
-for a short while. What you should *not* do is end up with 2 gigabytes of
+for a short while. What you should _not_ do is end up with 2 gigabytes of
 unrelated stuff in your Downloads folder having no clue how to find anything.
 That would be like throwing all your laundry in a
 pile on the floor without even bothering to separate clean from dirty clothes.
@@ -84,42 +85,43 @@ and its contents consisted of the 12 bytes "I am so cool",
 that would be a plain text file.
 Other examples:
 
-* The source code for most programming languages is input in plain text format,
-	such as in C++, Python, Go, Java, Lisp, etc. I actually can't think of a
-	single example of a real programming language whose source codes are not in
-	plain text format.
-* LaTeX source files are in plain text too.
-* This document being in Markdown is written in plain text format.
-* HTML is considered plain text too. It may not be particularly *intuitive*
-	plain text with `<div>` and `</span>` everywhere,
-	but the encoding is at least human-comprensihible output.
-* Most configuration files like `*.yaml`, `*.cfg`, `*.rc` are
-	usually in plain text format.
-* `*.txt` too I suppose :)
+- The source code for most programming languages is input in plain text format,
+  such as in C++, Python, Go, Java, Lisp, etc. I actually can't think of a
+  single example of a real programming language whose source codes are not in
+  plain text format.
+- LaTeX source files are in plain text too.
+- This document being in Markdown is written in plain text format.
+- HTML is considered plain text too. It may not be particularly _intuitive_
+  plain text with `<div>` and `</span>` everywhere,
+  but the encoding is at least human-comprensihible output.
+- Most configuration files like `*.yaml`, `*.cfg`, `*.rc` are
+  usually in plain text format.
+- `*.txt` too I suppose :)
 
 Files often have extensions like `*.py`, `*.tex`, `*.txt`. These are
 meant to be hints for the operating system on what kind of file they are, but
 they don't technically need to be there.[^win]
 
-[^win]: For *Windows* users, you should be aware
-	Windows not only hides file extensions by default from you,
-	but also tries to intimidate you when you do try to change extensions,
-	e.g. "OMG changing the file extension might make the file unusable!"
-	You can ignore this, because the file extension is just part of the file name
-	that's customary (but not essential) in helping determine what kind of file is used.
-	But it's better for learning to see the extensions, anyhow.
+[^win]:
+    For _Windows_ users, you should be aware
+    Windows not only hides file extensions by default from you,
+    but also tries to intimidate you when you do try to change extensions,
+    e.g. "OMG changing the file extension might make the file unusable!"
+    You can ignore this, because the file extension is just part of the file name
+    that's customary (but not essential) in helping determine what kind of file is used.
+    But it's better for learning to see the extensions, anyhow.
 
-There are *counterexamples*, of course --- mainly for programs that use
+There are _counterexamples_, of course --- mainly for programs that use
 their own encoding system, rather than standard A=97, B=98, ...
 
-* Microsoft Word is one example, those documents use their own encoding that
-	doesn't make sense to the uninformed, so only Word-like can really edit it.
-	(It's sort of like, you live in an English-speaking country,
-	but Microsoft Word will only read/write documents in Ishkashimi language,
-	thus forcing you to keep using Microsoft Word.)
-* PDF also uses its own compressed format.
-* And of course, `*.tar.gz` or `*.zip` archive files use a different
-	encoding to achieve compression that isn't possible with plain text.
+- Microsoft Word is one example, those documents use their own encoding that
+  doesn't make sense to the uninformed, so only Word-like can really edit it.
+  (It's sort of like, you live in an English-speaking country,
+  but Microsoft Word will only read/write documents in Ishkashimi language,
+  thus forcing you to keep using Microsoft Word.)
+- PDF also uses its own compressed format.
+- And of course, `*.tar.gz` or `*.zip` archive files use a different
+  encoding to achieve compression that isn't possible with plain text.
 
 But bottom line: **you can think of a file like a piece of paper.**
 Which brings us to...
@@ -146,7 +148,7 @@ There are simpler beginner editors too, like Sublime, Atom, Notepad++ and so on.
 So yeah, there are quite a few.
 
 But the thing you need to understand is that choosing an editor does NOT
-rely on what *kind* of file you are editing, as long as it's plain text.
+rely on what _kind_ of file you are editing, as long as it's plain text.
 If you love Vim like me, you can use Vim for Python, for LaTeX, for C++, for
 Markdown, whatever you like. You do not need a different editor per workflow.
 
@@ -192,7 +194,7 @@ Is $\cos(\theta)$ necessarily rational?
 
 If you give this to Leslie, she'll look through for a bit
 and then produce a beautifully typeset PDF file for you
-that you can give to torment your math teacher.  Wonderful!
+that you can give to torment your math teacher. Wonderful!
 
 The thing I need to hammer home now is that:
 
@@ -211,21 +213,24 @@ A **terminal** is a text-based interface for issuing commands to a
 computer.[^1] As a trivial example, if you have a file called `gossip.txt`,
 you can run `vim gossip.txt` to read the latest hot tea, in Vim.
 
-[^1]: Some terminology confusion these days as "terminal", "terminal emulator",
-	"shell", etc. are all interchangeable.
-	See [unix.SE](https://unix.stackexchange.com/a/254366)
+[^1]:
+    Some terminology confusion these days as "terminal", "terminal emulator",
+    "shell", etc. are all interchangeable.
+    See [unix.SE](https://unix.stackexchange.com/a/254366)
 
 For simplicity, we're going to use **Bash** as the name of the commander,
 though others exist.[^2] In general, Linux prompts may look different depending
 on what terminal emulator or shell you use, but it should be easily accessible.
 Windows may be more complicated.[^3]
 
-[^2]: Allegiances: I use `xfce4-terminal` as the wrapper around my terminal, and
-	I use `fish` for the shell instead of the more standard `bash`.
+[^2]:
+    Allegiances: I use `xfce4-terminal` as the wrapper around my terminal, and
+    I use `fish` for the shell instead of the more standard `bash`.
 
-[^3]: That's because the shell is deliberately hidden
-	from the user, leaving lots of confusion between things like Git Bash versus
-	Powershell vs Windows Subsystem Linux versus MinGW or whatever.
+[^3]:
+    That's because the shell is deliberately hidden
+    from the user, leaving lots of confusion between things like Git Bash versus
+    Powershell vs Windows Subsystem Linux versus MinGW or whatever.
 
 You can think of **Bash as a commanding officer**.
 It is able to run all other programs.
@@ -240,12 +245,12 @@ Moreover, bash can then issue commands like `vim gossip.txt`.
 But there are some catches.
 
 1. First, Bash looks around for a file called `gossip.txt`
-in the folder that Bash happens to be in.
-If it sees `gossip.txt` in the current folder.
-If it's there, it picks up that piece of paper.
+   in the folder that Bash happens to be in.
+   If it sees `gossip.txt` in the current folder.
+   If it's there, it picks up that piece of paper.
 2. Then, Bash looks for a command called `vim`.
-There is a Vim editor on the system so Bash radios Vim to come
-over and read the `gossip.txt` document.
+   There is a Vim editor on the system so Bash radios Vim to come
+   over and read the `gossip.txt` document.
 3. Vim does its thing.
 
 The argument can be a filename in the current directory,
@@ -268,7 +273,7 @@ because it mucks all these commands up, requiring quotes.
 (Skip this entire section if you are learning this for the first time.)
 
 Small surprise: editors like Vim or compilers like LaTeX
-are all *technically* actually files too,
+are all _technically_ actually files too,
 even though we don't typically think of them that way.
 For one thing, they are meant to be executed rather than edited.
 Hence, they usually don't happen to have plain text encoding,
@@ -285,7 +290,7 @@ As is `firefox`, which launches a Firefox process.
 How can you tell these apart?
 This is a bit out of scope, but on Linux,
 every file has a set of [permission bits](https://en.wikipedia.org/wiki/File-system_permissions#Permissions),
-and all you need to know the third bit indicates the file is *executable*.
+and all you need to know the third bit indicates the file is _executable_.
 
 So if someone types `vim gossip.txt`, that means `vim` is the "verb",
 (the executable file being run), so Bash will give `vim` all the arguments
@@ -313,12 +318,12 @@ as programs that read a piece of paper and do some action.
 But programs are really versatile.
 
 Once executed, programs can actually do more than one thing.
-For example, they can read or write from *multiple* files, not just one.
+For example, they can read or write from _multiple_ files, not just one.
 Or they can find the files themselves.
-Or they may not need files as input: `firefox`  is a program that,
+Or they may not need files as input: `firefox` is a program that,
 when executed, launches a web browser.
 
-There are also a lot of *suite-like* programs for a specific kind of file.
+There are also a lot of _suite-like_ programs for a specific kind of file.
 You can think of this as a Swiss army knife.
 If you are writing LaTeX,
 you might have a program like TeXWorks which is both a text editor

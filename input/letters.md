@@ -29,8 +29,9 @@ such as Canada/USA MathCamp, PROMYS/ROSS, etc.
 
 You should only ask for a letter from me if I know you somewhat well.[^obvious]
 
-[^obvious]: This may sound obvious,
-	but somehow I still get requests from total strangers.
+[^obvious]:
+    This may sound obvious,
+    but somehow I still get requests from total strangers.
 
 Letters from me will necessarily be a bit unusual,
 so you should think about whether I'm the right person to do this.
@@ -53,9 +54,10 @@ Since I'm a nice person, I promise to not intentionally write a negative letter.
 If I feel I cannot write you a letter with nonnegative value,
 I will decline your request instead.[^support]
 
-[^support]: This is because I believe a good mentor should be
-	unconditionally supportive, much like a parent,
-	and that it's not my place to judge students.
+[^support]:
+    This is because I believe a good mentor should be
+    unconditionally supportive, much like a parent,
+    and that it's not my place to judge students.
 
 ## {{ hl("instructions", "Instructions") }}
 
@@ -63,25 +65,25 @@ If you do ask a letter for me, I need the following information.
 
 1. Ask at least a month in advance.
 2. Please remind me which years I worked with you (in OTIS/MOP/SPARC/etc.).
-	I have been doing this for so long that the years are all mixed
-	up in my head, so I'd like to double-check!
+   I have been doing this for so long that the years are all mixed
+   up in my head, so I'd like to double-check!
 3. Provide any recent math olympiad results,
-	like USAMO / TSTST / TST / IMO.
-	(I may not use them, but I want to have them if I need them).
+   like USAMO / TSTST / TST / IMO.
+   (I may not use them, but I want to have them if I need them).
 4. Is there anything in particular I should discuss?
-	In particular, how math-focused do you want me to be?
+   In particular, how math-focused do you want me to be?
 5. Please **send me any application essays or completed forms**
-	you are willing to share (drafts of essays are okay).
-	This way, I can tailor my letter to complement
-	what you've already written.
+   you are willing to share (drafts of essays are okay).
+   This way, I can tailor my letter to complement
+   what you've already written.
 6. State explicitly when the deadline is.
 7. Please specify what "type" of letter I am writing, if applicable.
-	For example, colleges commonly distinguish between, say
-	"required" letters from a math teacher, or optional "supplements"
-	(see e.g. [MIT][mitsupp], second-to-last paragraph).
-	It is useful for me to know whether I am the main voice or if
-	I am expecting to add on to what other (usually more traditional)
-	teachers have to say.
+   For example, colleges commonly distinguish between, say
+   "required" letters from a math teacher, or optional "supplements"
+   (see e.g. [MIT][mitsupp], second-to-last paragraph).
+   It is useful for me to know whether I am the main voice or if
+   I am expecting to add on to what other (usually more traditional)
+   teachers have to say.
 
 [mitsupp]: https://mitadmissions.org/apply/firstyear/letters-of-recommendation/
 

@@ -22,7 +22,7 @@ Prospective competitive programmers (IOI, etc.) should learn C++.
 I personally anti-recommend PHP and JavaScript because I think weakly typed
 languages are not good for learning.
 (I have no stance on duck typing vs static typing though.)
-HTML and CSS are *not* programming languages, they are markup languages.
+HTML and CSS are _not_ programming languages, they are markup languages.
 
 ### {{ faq("X-3a", "Why do you use Linux?") }}
 
@@ -40,30 +40,30 @@ Also, [Linux package management is amazing](https://itsfoss.com/package-manager/
 If one day I hear about a program called Geogebra,
 I can install it by typing `sudo pacman -S geogebra` into my command line
 (here `pacman` is the Arch Linux package manager).
-That's *it*. You do not even need to open a web browser.
+That's _it_. You do not even need to open a web browser.
 
 ### {{ faq("X-3b", "Should I try Linux?") }}
 
 - If you're not willing to use search engines to do your own homework
-	when you don't know something, then no.
+  when you don't know something, then no.
 - If you're just learning how to code, then maybe.
-	Some people think it's too overwhelming to learn both at the same time,
-	others think that Windows is so bad for programming that
-	it's actually easier to switch to a beginner-friendly Linux
-	and deal with both at the same time. Up to you.
+  Some people think it's too overwhelming to learn both at the same time,
+  others think that Windows is so bad for programming that
+  it's actually easier to switch to a beginner-friendly Linux
+  and deal with both at the same time. Up to you.
 - If you want to do serious programming (say, building a nontrivial website,
-	or doing intensive calculations that require special libraries),
-	you should consider switching more strongly. The truth is that the
-	[majority of programmers use Linux](https://www.reddit.com/r/linux/comments/vytkf),
-	and hence languages, development tools, libraries and so on
-	tend to be Linux-targeted.
-	The situation for Windows and OSX has gotten better over time,
-	but practically speaking I don't think setting up a development environment
-	is ever going to be easier on a commercial OS than on Linux.
+  or doing intensive calculations that require special libraries),
+  you should consider switching more strongly. The truth is that the
+  [majority of programmers use Linux](https://www.reddit.com/r/linux/comments/vytkf),
+  and hence languages, development tools, libraries and so on
+  tend to be Linux-targeted.
+  The situation for Windows and OSX has gotten better over time,
+  but practically speaking I don't think setting up a development environment
+  is ever going to be easier on a commercial OS than on Linux.
 - If you're curious, then yes, try it out. It's free.
-	If you don't like it after trying it, switch back.
-	Just be aware there's a bit of learning curve depending on which
-	distribution you pick up.
+  If you don't like it after trying it, switch back.
+  Just be aware there's a bit of learning curve depending on which
+  distribution you pick up.
 
 ### {{ faq("X-4a", "Why do you use Arch Linux?") }}
 
@@ -77,7 +77,7 @@ I switched from Ubuntu to Arch Linux because Arch
 - has a [do-it-yourself philosophy](https://wiki.archlinux.org/title/Arch_Linux#Principles).
 
 To me Ubuntu is sort of the midpoint of Windows and Arch Linux.
-It's a *bona fide* Linux system, but there are a lot of pre-installed parts
+It's a _bona fide_ Linux system, but there are a lot of pre-installed parts
 and a lot of things that are hidden behind graphical interfaces.
 
 ### {{ faq("X-4b", "Should I switch to Arch Linux?") }}
@@ -106,7 +106,7 @@ button, and so on. Using the command line is like that but one level higher ---
 it controls all the files and applications.
 
 Here's an example of one way being able to talk directly helps.
-Terminal commands have something called *standard input* and *standard output*.
+Terminal commands have something called _standard input_ and _standard output_.
 So, programs can read in text from a stream (or file, etc.),
 and they will print the output to terminal by default.
 Meaning you can compose the programs together with
@@ -119,7 +119,7 @@ I want to find all the participants with surname Chen,
 sort them alphabetically, and then put the result on my clipboard.
 Roughly, this is `foo | grep Chen | sort | xsel --clipboard`.
 
-Of course, without a terminal you *could* also run a graphical program,
+Of course, without a terminal you _could_ also run a graphical program,
 open Google sheets, copy the results in, use the filter menu,
 then sort it, and finally Ctrl-C the result. But why be so roundabout?
 You know what you want, just say it.
@@ -140,7 +140,7 @@ this means they can be manipulated in any editor,
 [transferred from one computer to another via Git](https://github.com/vEnhance/dotfiles),
 and so on.
 
-Also, Fish autocomplete is life-changing 🐟 ❤️  🔥
+Also, Fish autocomplete is life-changing 🐟 ❤️ 🔥
 (zsh is good too I hear.)
 
 ### {{ faq("X-6a", "Why Vim?") }}
@@ -148,26 +148,26 @@ Also, Fish autocomplete is life-changing 🐟 ❤️  🔥
 Pretty similar to reasons I use Linux.
 
 - It is extremely customizable, both by
-	[text](https://github.com/vEnhance/dotfiles/blob/main/vimrc),
-	and by a gazillion plugins (also via text)
-	for IDE-like features and autocomplete and so on.
-	(On the scale of Vim users, I lean feature-heavy over lightweight;
-	I use both ALE and CoC.)
+  [text](https://github.com/vEnhance/dotfiles/blob/main/vimrc),
+  and by a gazillion plugins (also via text)
+  for IDE-like features and autocomplete and so on.
+  (On the scale of Vim users, I lean feature-heavy over lightweight;
+  I use both ALE and CoC.)
 - Any Linux computer will have it.
 - It's fast.
 - It is programmable. If you want to, say,
-	toggle the case of the first character of the next 100 lines,
-	you type `qa~j^q99@a`. You don't need any external program.
+  toggle the case of the first character of the next 100 lines,
+  you type `qa~j^q99@a`. You don't need any external program.
 - Most importantly, it is a [modal editor](https://en.wikipedia.org/wiki/Vi#Interface).
 
 The last item is the most important one for me,
 and also the one that will be most foreign to newcomers.
-Modal editing which means that there are different *modes*
+Modal editing which means that there are different _modes_
 for entering text versus navigating the document that you constantly switch between.
 So when you are typing new text, Vim behaves much like a standard editor,
 with every keystroke adding one character.
-But when you are *editing* or *moving*,
-instead *every keystroke is a command* (no ctrl needed).
+But when you are _editing_ or _moving_,
+instead _every keystroke is a command_ (no ctrl needed).
 Here's a picture of what my cheat sheet looks like:
 [taken from vi-emu](https://boredzo.org/vi_tutorial/vi_tutorial-Dvorak-Color.pdf)
 (Dvorak keys):
@@ -176,7 +176,7 @@ Here's a picture of what my cheat sheet looks like:
 
 That means that if when you want to do a specific thing like
 "go to line 100" or "go to the end of this paragraph",
-you can *type what you want* (`100G` or `}` respectively in this example).
+you can _type what you want_ (`100G` or `}` respectively in this example).
 The entire keyboard lets you navigate: basically every single key
 becomes a navigation tool like "go to end of line", "delete line",
 "copy line", "append to end of line", and so on.

@@ -35,6 +35,7 @@ the most recent version is
 I would highly appreciate any corrections, suggestions, or comments.
 
 ## {{ hl("description", "Description") }}
+
 The Napkin project is a personal exposition project of mine
 aimed at making higher math accessible to high school students.
 The philosophy is stated in the preamble:
@@ -48,7 +49,7 @@ The philosophy is stated in the preamble:
 > So then I'll start trying to explain what a group is, but by the time I finish writing the group axioms on my napkin, they've already forgotten why I was talking about groups in the first place.
 > And then it's 1PM, people need to go places, and I can't help but think:
 >
-> *<span style="color:red;">Man, if I had forty hours instead of forty minutes, I bet I could actually have explained this all.</span>*
+> _<span style="color:red;">Man, if I had forty hours instead of forty minutes, I bet I could actually have explained this all.</span>_
 >
 > This book is my attempt at those forty hours.
 

@@ -35,42 +35,48 @@ see [Contest FAQs](faq-contest.html).
 (Scores for TSTST are approximate since papers were not returned.)
 
 ### 2014 season
-+ AMC 12A 2014: 141.0
-+ AMC 12B 2014: 126.0
-+ AIME I 2014: 9
-+ USAMO 2014: 41 ([won](https://www.maa.org/news/winners-of-united-states-of-america-mathematical-olympiad-announced))
-+ IMO 2014: 36 ([gold][imo])
+
+- AMC 12A 2014: 141.0
+- AMC 12B 2014: 126.0
+- AIME I 2014: 9
+- USAMO 2014: 41 ([won](https://www.maa.org/news/winners-of-united-states-of-america-mathematical-olympiad-announced))
+- IMO 2014: 36 ([gold][imo])
 
 ### 2013 season
-+ AMC 12A 2013: 121.5
-+ AMC 12B 2013: 115.5
-+ AIME I 2013: 14
-+ APMO 2013: 35 (perfect)
-+ USAMO 2013: 8
+
+- AMC 12A 2013: 121.5
+- AMC 12B 2013: 115.5
+- AIME I 2013: 14
+- APMO 2013: 35 (perfect)
+- USAMO 2013: 8
 
 ### 2012 season
-+ AMC 10A 2012: 141
-+ AMC 12B 2012: 123
-+ AIME I 2012: 10
-+ USAMO 2012: 21
-+ TSTST 2012: 40 (approximate)
+
+- AMC 10A 2012: 141
+- AMC 12B 2012: 123
+- AIME I 2012: 10
+- USAMO 2012: 21
+- TSTST 2012: 40 (approximate)
 
 ### 2011 season
-+ AMC 10A 2011: 132
-+ AMC 12B 2011: 105
-+ AIME I 2011: 5
-+ USAJMO 2011: 29 ([won](https://www.maa.org/sites/default/files/pdf/AMC/usamo/2011/11USAJMO-honor_top14.pdf))
-+ ELMO 2011: 14 (silver)
-+ TSTST 2011: 0 (approximate)
+
+- AMC 10A 2011: 132
+- AMC 12B 2011: 105
+- AIME I 2011: 5
+- USAJMO 2011: 29 ([won](https://www.maa.org/sites/default/files/pdf/AMC/usamo/2011/11USAJMO-honor_top14.pdf))
+- ELMO 2011: 14 (silver)
+- TSTST 2011: 0 (approximate)
 
 ### 2010 season
-+ AMC 8 2009: 25
-+ AMC 10B 2010: 130.5
-+ AIME I 2010: 6
-+ USAJMO 2010: 37 ([won](https://www.maa.org/news/usa-junior-mathematical-olympiad-2010-usajmo-winners))
+
+- AMC 8 2009: 25
+- AMC 10B 2010: 130.5
+- AIME I 2010: 6
+- USAJMO 2010: 37 ([won](https://www.maa.org/news/usa-junior-mathematical-olympiad-2010-usajmo-winners))
 
 ### 2009 season
-+ AMC 8 2008: 24
-+ AMC 10B 2009: 87.0
+
+- AMC 8 2008: 24
+- AMC 10B 2009: 87.0
 
 [imo]: https://imo-official.org/participant_r.aspx?id=24870

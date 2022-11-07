@@ -15,7 +15,7 @@ For the first several weeks,
 **the most important thing is exposure**.
 There is a time and place to think about study strategy,
 test-taking strategy, and so on.
-However, it is not right now.  Instead, I recommend the famous
+However, it is not right now. Instead, I recommend the famous
 [Go proverb](https://en.wikipedia.org/wiki/Go_proverb):
 "**lose your first 50 games as quickly as possible**".
 
@@ -24,24 +24,24 @@ of the following things for several weeks
 until you have a picture of what the landscape looks like, so to speak.
 
 1. Pick up any standard textbook like [AoPS v1][v1]
-	or [AoPS v2][v2] to work through, so you learn some
-	of the standard theory that is tested in math contests.
-	Or, search around the web; there are lots of other sources.
+   or [AoPS v2][v2] to work through, so you learn some
+   of the standard theory that is tested in math contests.
+   Or, search around the web; there are lots of other sources.
 2. Go through some past problems from previous contests.
-	For example, if you are in the United States,
-	then you can find all past AMC problems from
-	[the Contests section](https://aops.com/community/c13)
-	under "USA Contests".
-	The same should be true for many other countries.
-	Pick any year (later years are harder)
-	and work through some problems without a time limit.
-	For now, just pick whichever problems look most interesting.
-	When you hit one you can't solve for an hour, read the solution.
-	Every contest will have problems ranging from super easy
-	to really difficult, so find the right ones.
+   For example, if you are in the United States,
+   then you can find all past AMC problems from
+   [the Contests section](https://aops.com/community/c13)
+   under "USA Contests".
+   The same should be true for many other countries.
+   Pick any year (later years are harder)
+   and work through some problems without a time limit.
+   For now, just pick whichever problems look most interesting.
+   When you hit one you can't solve for an hour, read the solution.
+   Every contest will have problems ranging from super easy
+   to really difficult, so find the right ones.
 3. Rope some friends into learning with you.
-	It's more fun that way, and you can learn from each other.
-	It's okay to have different levels of experience.
+   It's more fun that way, and you can learn from each other.
+   It's okay to have different levels of experience.
 
 You should repeat these steps until you have some comfort
 with the kinds of problems that appear.
@@ -49,46 +49,46 @@ with the kinds of problems that appear.
 Here are a few things that will be surprising to people
 who previously have mostly done school-based mathematics:
 
-* Some contest topics, like combinatorics and number theory,
-	are nearly nonexistent in most schools.
-	Consequently, it is usually not possible to score well
-	using just school math (unlike SAT).
-	You must learn additional totally new material.
+- Some contest topics, like combinatorics and number theory,
+  are nearly nonexistent in most schools.
+  Consequently, it is usually not possible to score well
+  using just school math (unlike SAT).
+  You must learn additional totally new material.
 
-* Even when you know relevant theorems,
-	competition problems can still demand some
-	insight and intuition in order to solve them.
-	This means **surface-level understanding is greatly penalized**
-	(e.g. [memorization][rusczyk]).
-	Therefore, you need to learn material with a greater depth than school.
-	(For example, in many American schools,
-	you are usually given a "recipe" for each exercise that
-	you simply carry out; in competitions,
-	you often invent recipes on the fly.)
+- Even when you know relevant theorems,
+  competition problems can still demand some
+  insight and intuition in order to solve them.
+  This means **surface-level understanding is greatly penalized**
+  (e.g. [memorization][rusczyk]).
+  Therefore, you need to learn material with a greater depth than school.
+  (For example, in many American schools,
+  you are usually given a "recipe" for each exercise that
+  you simply carry out; in competitions,
+  you often invent recipes on the fly.)
 
-* As you get experience, you will automatically start to
-	know what deep understanding feels like.
-	(At the moment this is probably just zen monk talk.)
-	For now, you should just be aware that
-	you will see many, many problems which you can't solve,
-	where you read the solution and ask,
-	"how was I supposed to think of that?".
-	This is okay and expected: it's not because you're dumb,
-	it's because you are learning. (And this never goes away!)
-	Stay determined.
+- As you get experience, you will automatically start to
+  know what deep understanding feels like.
+  (At the moment this is probably just zen monk talk.)
+  For now, you should just be aware that
+  you will see many, many problems which you can't solve,
+  where you read the solution and ask,
+  "how was I supposed to think of that?".
+  This is okay and expected: it's not because you're dumb,
+  it's because you are learning. (And this never goes away!)
+  Stay determined.
 
-* Math competitions are notoriously difficult.
-	In any exam, getting even 1/3 or 1/2 of the problems
-	correct is already an accomplishment.
-	You will be competing against some students who have been
-	seriously preparing for many years.
-	Even then, many of these students will not do well;
-	like in real life, hard work does not automatically guarantee success.
+- Math competitions are notoriously difficult.
+  In any exam, getting even 1/3 or 1/2 of the problems
+  correct is already an accomplishment.
+  You will be competing against some students who have been
+  seriously preparing for many years.
+  Even then, many of these students will not do well;
+  like in real life, hard work does not automatically guarantee success.
 
-	If this sounds discouraging, it isn't meant to be.
-	What it means that you have to enjoy the process of learning itself,
-	not merely a means to an end.
-	That's why contests exist anyway.
+  If this sounds discouraging, it isn't meant to be.
+  What it means that you have to enjoy the process of learning itself,
+  not merely a means to an end.
+  That's why contests exist anyway.
 
 Good luck!
 
@@ -96,8 +96,8 @@ Good luck!
 [v2]: https://artofproblemsolving.com/store/item/aops-vol2-ebook/
 [rusczyk]: https://artofproblemsolving.com/news/articles/learn-problem-solving-approach-to-mathematics
 
-
 ### {{ faq("C-1", "How should I prepare for math contests?") }}
+
 One-sentence answer: do lots of problems just above your current ability,
 and spend some time on reflection.
 Full answer: [this blog post][wpcontest].
@@ -107,7 +107,7 @@ there's no known study method X (let alone a specific handout/book)
 such that students following X consistently do well on USAMO.
 (Reason: the existence of X is not a
 [Nash equilibrium](https://www.scottaaronson.com/blog/?p=418).)
-There are plenty of strategies which obviously *don't* work
+There are plenty of strategies which obviously _don't_ work
 like "do nothing" and "read solutions without trying any problems",
 but beyond that anything reasonable is probably fine.
 
@@ -122,6 +122,7 @@ for more targeted suggestions. If you do, please
 [read the special instructions for study advice](contact.html#advice).
 
 ### {{ faq("C-2", "Which books/handouts/materials should I use?") }}
+
 As I said it probably doesn't matter too much which ones you choose,
 as long as you exercise some basic common sense.
 
@@ -134,6 +135,7 @@ from books or classes from Art of Problem-Solving, like
 [Volume 2](https://www.aops.com/store/item/aops-vol2).
 
 ### {{ faq("C-3", "How do I get better at Euclidean geometry?") }}
+
 For general advice, see [my advice][wpgeo], [Geoff Smith's advice][geoff], etc.
 
 For specific materials, see [my own handouts][articles]
@@ -141,10 +143,11 @@ or [Yufei Zhao's][yufei], among others.
 And of course, [my geometry textbook][geombook].
 
 ### {{ faq("C-4", "Is it possible for me to go from X level to Y level in Z time?") }}
+
 I probably don't know much more than you do.
 
 Predicting improvement in math contests is a lot like trying to predict the
-stock market. We have some common sense, but no one *really*
+stock market. We have some common sense, but no one _really_
 knows much more than that.
 
 ### {{ faq("C-5", "How do I learn to write proofs?") }}
@@ -153,21 +156,21 @@ I don't think there's actually a leap between computation and proof-writing, and
 I actually suspect that thinking proof-writing is hard is most of what makes it hard.
 Reasons it might appear hard:
 
-* US students get basically zero exposure to proofs (even in the contest world),
-	and are led to think that it's something mythical that's above them,
-	when in fact it's merely just being forced to explain your solution on paper.
-* Having zero experience also means that you might not present your ideas clearly
-	or violate some unspoken rules on style.
-* Some classes of problems (like inequalities) don't appear at all until the
-	olympiad level, so students have to learn how to write a proof (fairly easy)
-	while simultaneously learning a new class of problems (hard).
+- US students get basically zero exposure to proofs (even in the contest world),
+  and are led to think that it's something mythical that's above them,
+  when in fact it's merely just being forced to explain your solution on paper.
+- Having zero experience also means that you might not present your ideas clearly
+  or violate some unspoken rules on style.
+- Some classes of problems (like inequalities) don't appear at all until the
+  olympiad level, so students have to learn how to write a proof (fairly easy)
+  while simultaneously learning a new class of problems (hard).
 
 To get you started, try reading [this article][aopswrite], or perhaps [this article][howproof].
 After this, my advice is
 
 1. Read the proofs to problems you think you've solved (on AoPS, or official solutions).
-	Note that these don't have to be from proof contests!
-	The official solutions to any decent contest would all pass as proofs.
+   Note that these don't have to be from proof contests!
+   The official solutions to any decent contest would all pass as proofs.
 2. Try writing up proofs to problems you think you've solved, and
 3. Get feedback on these solutions (from a mentor, on the forums, etc.).
 
@@ -220,11 +223,11 @@ To get an idea of what my scratch work looks like,
 [here is my scratch paper from the 2013 AIME][aimescratch].
 Some things worth noting from it are:
 
-* Every problem is labelled on its own page (or multiple pages).
-* Diagrams are very large, often taking up half the page.
-* Mistakes are simply "struck out" rather than scribbled
-	out or halfheartedly erased.
-* The final answer on each page is boxed for easy reference later.
+- Every problem is labelled on its own page (or multiple pages).
+- Diagrams are very large, often taking up half the page.
+- Mistakes are simply "struck out" rather than scribbled
+  out or halfheartedly erased.
+- The final answer on each page is boxed for easy reference later.
 
 Also, don't misread questions, don't rush, etc.
 
@@ -322,7 +325,6 @@ so that you can switch between problems as you see fit
 
 Read [the syllabus linked on the beginner page](wherestart.html).
 
-
 ### {{ faq("C-14", "In geometry, can I only use synthetic methods and not use coordinates? Or vice-versa? Which coordinate system is most useful?") }}
 
 Wrong question.
@@ -349,21 +351,21 @@ trying to only use a subset.
 Yes. Here is why:
 
 1. In math contest world, it is **extremely common for problem difficulty
-	to be rather volatile**.
-	Sometimes the test difficulty is out-of-order (see IMO 2021).
-	Sometimes problem 2 is ridiculously hard (see IMO 2017).
-	Sometimes the test has three problems that are more like medium (see USAMO 2022).
-	Sometimes problem 6 is secretly a medium problem (see IMO 2016).
-	The list of weird scenarios never ends.
-	(The [MOHS chart][mohs] has concrete but imperfect data.)
+   to be rather volatile**.
+   Sometimes the test difficulty is out-of-order (see IMO 2021).
+   Sometimes problem 2 is ridiculously hard (see IMO 2017).
+   Sometimes the test has three problems that are more like medium (see USAMO 2022).
+   Sometimes problem 6 is secretly a medium problem (see IMO 2016).
+   The list of weird scenarios never ends.
+   (The [MOHS chart][mohs] has concrete but imperfect data.)
 2. Moreover, problem difficulty is personal and differs between people.
-	(In cliché format, you have your own unique individual strengths and weaknesses.)
-	So, every contest you will see score distributions like 070 or even 007 ("James Bond").
+   (In cliché format, you have your own unique individual strengths and weaknesses.)
+   So, every contest you will see score distributions like 070 or even 007 ("James Bond").
 3. Even in cases when problems 3 and 6 are genuinely difficult,
-	partial marks on them may often be accessible.
-	See IMO 2020 for an example.
+   partial marks on them may often be accessible.
+   See IMO 2020 for an example.
 4. Personally, I suspect the attitude that a late-placed problem is definitely out of reach
-	and there is no point reading them is counterproductive in the long term.
+   and there is no point reading them is counterproductive in the long term.
 
 I believe this so firmly that I actually often give the following suggestion:
 
@@ -444,7 +446,7 @@ ranging from never to always. Proponents of hand-drawn diagrams say that it's
 important to not become reliant on easily generated computer figures because
 they are not available during competitions. Proponents of Geogebra say that
 practicing with perfect diagrams is good for building a sense of where things
-*should* be, plus it saves you time, so you can do more problems.
+_should_ be, plus it saves you time, so you can do more problems.
 I don't get the feeling there is a consensus as to what the common wisdom is.
 
 My suggestion is to just do a mix of both with the exact balance up to personal

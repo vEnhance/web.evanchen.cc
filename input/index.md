@@ -9,7 +9,7 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 <img src="static/heart.jpg" width="180"/>
 </span>
 
-> *信言不美，美言不信。*
+> _信言不美，美言不信。_
 
 This is the homepage of Evan Chen
 (known also as vEnhance on certain websites).
