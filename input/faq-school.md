@@ -9,10 +9,12 @@ description: Some FAQs about math contests and my personal life.
 These are FAQs about high school and college.
 
 ### {{ faq("S-1", "Why did you transfer from Harvard to MIT?") }}
+
 Short answer: mostly social reasons.
 Long answer: [See here](https://blog.evanchen.cc/2015/06/28/transferring/).
 
 ### {{ faq("S-2", "I'm interested in learning some higher math. Where can I start?") }}
+
 If you like my writing and are comfortable with proofs,
 try my [Napkin](napkin.html).
 It was basically written to answer this question.
@@ -50,7 +52,7 @@ people want to say they've done, rather than want to do.
 I won't say it's always a bad idea,
 but I think you should really ask yourself
 what you are hoping to get out of it.
-(You should definitely *not* attempt math research
+(You should definitely _not_ attempt math research
 just because you see other people doing so.)
 
 On the topic of research,
@@ -166,15 +168,15 @@ The short answer is that it depends on what you want.
 The model you can have in your head is something like follows:
 
 - High school olympiad problems are designed to
-	train for problem-solving and thinking ability.
-	To this end, they often take pride in not requiring much background
-	outside geometry (and even then [not much][tr011ey]).
+  train for problem-solving and thinking ability.
+  To this end, they often take pride in not requiring much background
+  outside geometry (and even then [not much][tr011ey]).
 - College math classes, and the associated homework,
-	is instead focused mainly on learning the relevant material.
-	The exercises for your abstract algebra class are geared towards, well,
-	helping you learn abstract algebra.
-	The problem-solving component plays a less important role
-	(though different professors might emphasize it more).
+  is instead focused mainly on learning the relevant material.
+  The exercises for your abstract algebra class are geared towards, well,
+  helping you learn abstract algebra.
+  The problem-solving component plays a less important role
+  (though different professors might emphasize it more).
 
 Both options will contribute at least to mathematical maturity.
 I privately think the math contest syllabus does a better job
@@ -185,29 +187,29 @@ That means, depending on what you want, there are a lot of possible answers.
 Here's a few.
 
 - If you are just thinking to major in math,
-	and are worried that you are "missing out" or "behind" by not having done
-	contests, then my advice would not be worry about it.
-	The biggest hurdle will be getting acquainted with proof-writing,
-	which is a challenge, but one that everyone goes through.
-	(Sidenote: most colleges have some introductory proof classes.
-	I have fairly dim views of most that I have seen,
-	but I don't have a better suggestion.)
-	I wouldn't go as far to say that it's not worth it,
-	just that (1) having immense problem-solving ability is not *that* important,
-	(2) you'll get mathematical maturity from the standard curriculum anyway over time,
-	and (3) fear-of-missing-out is not a productive form of motivation anyway.
+  and are worried that you are "missing out" or "behind" by not having done
+  contests, then my advice would not be worry about it.
+  The biggest hurdle will be getting acquainted with proof-writing,
+  which is a challenge, but one that everyone goes through.
+  (Sidenote: most colleges have some introductory proof classes.
+  I have fairly dim views of most that I have seen,
+  but I don't have a better suggestion.)
+  I wouldn't go as far to say that it's not worth it,
+  just that (1) having immense problem-solving ability is not _that_ important,
+  (2) you'll get mathematical maturity from the standard curriculum anyway over time,
+  and (3) fear-of-missing-out is not a productive form of motivation anyway.
 
 - If you are thinking about pursuing math as a career, then it's a bit more of a toss-up.
-	Both problem-solving ability and familiarity with core material
-	are useful powers, and their importance even varies depending on
-	which specific field of math you are looking to do.
+  Both problem-solving ability and familiarity with core material
+  are useful powers, and their importance even varies depending on
+  which specific field of math you are looking to do.
 
 - If you're just curious what math contests are all about or doing this just-for-fun,
-	then by all means go exploring! Pursuing your interests is important.
-	I really mean it when I say that olympiad problems are works of art.
-	If you want a chance to appreciate some really well-designed challenges,
-	come on through, we've got a show for you.
-	(Well, not that higher math isn't beautiful too.)
+  then by all means go exploring! Pursuing your interests is important.
+  I really mean it when I say that olympiad problems are works of art.
+  If you want a chance to appreciate some really well-designed challenges,
+  come on through, we've got a show for you.
+  (Well, not that higher math isn't beautiful too.)
 
 And so on.
 In short, it depends on what you're hoping to get out of your time.

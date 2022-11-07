@@ -6,7 +6,7 @@ description: Some FAQs about math contests and my personal life.
 
 [Return to FAQ Index.](faqs.html)
 
-These are FAQs about the *rules* of math contests
+These are FAQs about the _rules_ of math contests
 (e.g. MOP qualification, IMO criteria, and so on)
 that I often get asked.
 Please note: **this is not an official source in any way**;
@@ -15,7 +15,6 @@ See the [official AMC website][amc] for authoritative answers.
 
 If you are looking for training advice,
 see [Contest FAQs](faq-contest.html).
-
 
 ### {{ faq("CR-1", "How is the USA IMO team determined?") }}
 
@@ -26,22 +25,22 @@ Roughly 250 students qualify for the USAMO and 250 students qualify for the USA(
 via scores on previous short-answer contests.
 Then things get interesting:
 
-* In USAMO of year $N-1$, about 60 students in grades 11 and below
-	and the IMO team of that year are invited to the
-	three-week Mathematical Olympiad Summer Program, abbreviated **MOP**.
-* At the end of MOP, an exam called the **TSTST** (yes, I know) is given.
-	The acronym stands for "Team Selection Test Selection Test".
-	The top approximately 30 students are then selected
-	for the year-round TST's for the IMO of year $N$.
-* Two TST's are given in **December** and **January**, administered by schools.
-	Each of the two exams is worth 21 points.
-* Contestants participate in **RMM Day 1**, worth 21 points.
-* Contestants participate in the **APMO**, which is weighted by 0.6;
-	hence it is also worth 21 points (despite being a five-problem exam).
-* Finally, the two days of **USAMO** of year $N$ serves as the final TST,
-	worth 42 points.
-* The sum of scores over these five tests (six days, maximum 126 points)
-	determine that year's IMO team.
+- In USAMO of year $N-1$, about 60 students in grades 11 and below
+  and the IMO team of that year are invited to the
+  three-week Mathematical Olympiad Summer Program, abbreviated **MOP**.
+- At the end of MOP, an exam called the **TSTST** (yes, I know) is given.
+  The acronym stands for "Team Selection Test Selection Test".
+  The top approximately 30 students are then selected
+  for the year-round TST's for the IMO of year $N$.
+- Two TST's are given in **December** and **January**, administered by schools.
+  Each of the two exams is worth 21 points.
+- Contestants participate in **RMM Day 1**, worth 21 points.
+- Contestants participate in the **APMO**, which is weighted by 0.6;
+  hence it is also worth 21 points (despite being a five-problem exam).
+- Finally, the two days of **USAMO** of year $N$ serves as the final TST,
+  worth 42 points.
+- The sum of scores over these five tests (six days, maximum 126 points)
+  determine that year's IMO team.
 
 In particular, winning the USAMO is neither necessary nor sufficient
 for qualifying for the American IMO team, since the IMO team is determined
@@ -58,17 +57,17 @@ Here are the details for IMO 2014 (the year which I participated),
 A series of tests/camps take place and at each step the number of contestants is reduced.
 Interestingly, the Taiwan national olympiad is not involved in the selection process at all.
 
-* The first test worth mentioning is the APMOC, an exam in the same format as the APMO.
-* High scores on the APMOC are invited to another camp at which the APMO is given in March.
-* The top 30 scores on the APMO are invited to the first TST camp in late March.
-* The top 15 scores at the first TST camp are invited to the second TST camp two weeks later.
-* The top 10 scores at the second TST camp are invited to the third TST camp two weeks later.
-* The IMO team is decided by a weighted sum of the scores at the second and third TST camp plus an oral interview.
+- The first test worth mentioning is the APMOC, an exam in the same format as the APMO.
+- High scores on the APMOC are invited to another camp at which the APMO is given in March.
+- The top 30 scores on the APMO are invited to the first TST camp in late March.
+- The top 15 scores at the first TST camp are invited to the second TST camp two weeks later.
+- The top 10 scores at the second TST camp are invited to the third TST camp two weeks later.
+- The IMO team is decided by a weighted sum of the scores at the second and third TST camp plus an oral interview.
 
 Each camp lasts roughly from Friday to Tuesday; the geography of Taiwan makes commuting convenient. Each TST camp features
 
-* Three Team Selection Quizzes (formally "individual study"), which last 110 minutes with two olympiad problems
-* A full mock IMO with six problems.
+- Three Team Selection Quizzes (formally "individual study"), which last 110 minutes with two olympiad problems
+- A full mock IMO with six problems.
 
 Thus, the IMO team is decided by $6 \cdot 2 = 12$ mock IMO problems and $2 \cdot 3 \cdot 2 = 12$ quiz problems.
 The weighting is roughly so that a mock IMO problem is worth three quiz problems.
@@ -84,12 +83,12 @@ try reading the [USAMO 2003 rubric][usa2003].
 
 In general, for each problem the solution is graded according to the rubric:
 
-+ 7: Problem solved.
-+ 6: Tiny slip (and contestant could repair)
-+ 5: Small gap or mistake, but non-central
-+ 2: Lots of genuine progress
-+ 1: Significant non-trivial progress
-+ 0: "Busy work", special cases, lots of writing
+- 7: Problem solved.
+- 6: Tiny slip (and contestant could repair)
+- 5: Small gap or mistake, but non-central
+- 2: Lots of genuine progress
+- 1: Significant non-trivial progress
+- 0: "Busy work", special cases, lots of writing
 
 The most important difference
 is that USAMO grading is designed to reward complete solutions.
@@ -114,21 +113,21 @@ Meaning, we do not break the problem into bite-sized chunks
 and award the sum of the chunks.
 Here are a few examples of what I mean.
 
-* Consider a problem that is two parts.
-	In grader's internal jargon, an example rubric for that problem
-	might colloquially be summarized as "2+2=7",
-	meaning doing either half of the problem is worth 2 points,
-	getting both halves is worth 7.
-	The exact parameters depend on the problem and the captain.
-	On both extremes, I have seen 3+5=7 and 1+1=7 rubrics as well.
-* On a rubric, there might be three or four different
-	starting observations that are worth 1 or 2 points.
-	Often, a 0+ solution gets the maximum, rather than the sum,
-	of these little partial bits: "1+1+1+2=2", say.
-* If you forget to do some easy step (e.g. the base case of an induction),
-	and the rubric penalizes a top-down solution by 1 point for this,
-	it is not necessarily the case that the rubric
-	would award 1 point for doing that step for a 0+ solution.
+- Consider a problem that is two parts.
+  In grader's internal jargon, an example rubric for that problem
+  might colloquially be summarized as "2+2=7",
+  meaning doing either half of the problem is worth 2 points,
+  getting both halves is worth 7.
+  The exact parameters depend on the problem and the captain.
+  On both extremes, I have seen 3+5=7 and 1+1=7 rubrics as well.
+- On a rubric, there might be three or four different
+  starting observations that are worth 1 or 2 points.
+  Often, a 0+ solution gets the maximum, rather than the sum,
+  of these little partial bits: "1+1+1+2=2", say.
+- If you forget to do some easy step (e.g. the base case of an induction),
+  and the rubric penalizes a top-down solution by 1 point for this,
+  it is not necessarily the case that the rubric
+  would award 1 point for doing that step for a 0+ solution.
 
 There is no style: a totally correct and complete solution receives 7 points.
 However, it is still in your best interest to write a solution
@@ -193,15 +192,15 @@ are not especially well-defined.
 Each year, the exact number and choice of students is determined
 based on the exact scores for that year.
 
-That being said, as of 2016 the criteria for MOP is *roughly* as follows:
+That being said, as of 2016 the criteria for MOP is _roughly_ as follows:
 
-* IMO team members (see [CR-1](#CR-1))
-* The next *approximately* 12 non-graduating USAMO students
-* The next *approximately* 12 USAMO students in 9th and 10th grades
-* The top *approximately* 12 students on USAJMO
-* Some varying number of non-graduating female contestants from either USAMO or USAJMO
-	(these students represent USA at the European Girls' Math Olympiad).
-	The exact cutoffs for each contest are determined based on the scores for that year.
+- IMO team members (see [CR-1](#CR-1))
+- The next _approximately_ 12 non-graduating USAMO students
+- The next _approximately_ 12 USAMO students in 9th and 10th grades
+- The top _approximately_ 12 students on USAJMO
+- Some varying number of non-graduating female contestants from either USAMO or USAJMO
+  (these students represent USA at the European Girls' Math Olympiad).
+  The exact cutoffs for each contest are determined based on the scores for that year.
 
 Young students in 8th grades and below receive invitations
 if and only if the moon is full and the wind is blowing south-south-east.
@@ -258,19 +257,19 @@ and I don't know if it will continue.
 
 Relevant references:
 
-* [General IMO regulations, section 7][regulation]
-* [2002 IMO report by Tom Verhoeff][verhoeff]
-* [IMO 2019/3 blog post by Michael Ng][michaelng]
-* [Quora answer by Carlos Shine](https://qr.ae/pGvwWB)
-* [Reddit post on IMO 2019/5](https://www.reddit.com/r/math/comments/cgwayt/how_coordination_went_for_imo_2019_problem_5)
-* [IMO 2020 instructions (unusual virtual procedure)](https://imo2020.ru/Marking-and-Coordination.pdf)
+- [General IMO regulations, section 7][regulation]
+- [2002 IMO report by Tom Verhoeff][verhoeff]
+- [IMO 2019/3 blog post by Michael Ng][michaelng]
+- [Quora answer by Carlos Shine](https://qr.ae/pGvwWB)
+- [Reddit post on IMO 2019/5](https://www.reddit.com/r/math/comments/cgwayt/how_coordination_went_for_imo_2019_problem_5)
+- [IMO 2020 instructions (unusual virtual procedure)](https://imo2020.ru/Marking-and-Coordination.pdf)
 
 Basically, the outline of the idea is:
 before the exam, a marking scheme (rubric) is set for each problem,
 to cover the typical cases of what progress will be worth what points.
-Then, the *leaders* of each country get to see the solutions
+Then, the _leaders_ of each country get to see the solutions
 of their country's students, while there is a number
-of *coordinators* from the IMO host country for each problem.
+of _coordinators_ from the IMO host country for each problem.
 Both the coordinators and the leaders read through these scripts in advance,
 and then meet at an appointment where they discuss the scores.
 There are a lot of scripts that are not in English,

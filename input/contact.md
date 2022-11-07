@@ -21,7 +21,7 @@ to see if it's already answered, e.g.
 [contest resource recommendations](recommend.html),
 and the <del>propaganda section</del> [FAQ](faqs.html).
 
-Note there are *special instructions* if you are asking about:
+Note there are _special instructions_ if you are asking about:
 
 - [a specific math problem](#problems),
 - [math contest study advice](#advice),
@@ -37,38 +37,38 @@ rather than emailing it privately.
 There are a few benefits to doing so:
 
 - Anyone can answer the question,
-	so you may get faster responses or multiple responses.
+  so you may get faster responses or multiple responses.
 - Anyone can see the answers provided,
-	so it is more valuable to the community this way.
+  so it is more valuable to the community this way.
 - It is easier to go back-and-forth in real time
-	over Discord than over email.
+  over Discord than over email.
 
 ## {{ hl("notes", "Some notes for emails") }}
 
 Here are some hints:
 
 - Comments, thanks, or suggestions on my writing are always appreciated!
-	This includes any typos you find, no matter how trivial.
+  This includes any typos you find, no matter how trivial.
 
 - Specific queries get faster and better responses.
-	So "can you explain this line of your solution to USAMO 20XY/Z?"
-	will usually be answered pretty swiftly.
-	Conversely, "how do i geo" will get at best a link to the FAQ.
-	In any case, please be patient.
+  So "can you explain this line of your solution to USAMO 20XY/Z?"
+  will usually be answered pretty swiftly.
+  Conversely, "how do i geo" will get at best a link to the FAQ.
+  In any case, please be patient.
 
 - Proper syntax, English, capitalization, etc is appreciated.
-	(I know some of you are not native English speakers,
-	so I try to overlook this when I can.)
+  (I know some of you are not native English speakers,
+  so I try to overlook this when I can.)
 
-- *Don't be too shy*! I might sound scary here,
-	but I do genuinely enjoy helping people where I can.<br>
-	(Examples of good requests: specific math query,
-	something I wrote is unclear, found a typo,
-	follow-up questions, permission requests,
-	questions on my experiences, etc. I'm sure there's more.)
+- _Don't be too shy_! I might sound scary here,
+  but I do genuinely enjoy helping people where I can.<br>
+  (Examples of good requests: specific math query,
+  something I wrote is unclear, found a typo,
+  follow-up questions, permission requests,
+  questions on my experiences, etc. I'm sure there's more.)
 
-	In particular, there's no need to send an email
-	[asking if you can ask a question](https://dontasktoask.com/). Just ask it.
+  In particular, there's no need to send an email
+  [asking if you can ask a question](https://dontasktoask.com/). Just ask it.
 
 ## {{ hl("problems", "Special instructions for particular problems") }}
 
@@ -81,7 +81,7 @@ I will generally be nice enough to write back and outline or link the solution.
 But otherwise I will likely be too embarrassed to admit I don't have time to
 work on every problem that students send me, and simply archive your message.
 
-Either way, if you *do* ask about a math problem:
+Either way, if you _do_ ask about a math problem:
 
 - Please state where the problem is from, and link it if possible.
 - Please describe what you've already tried on the problem.
@@ -118,5 +118,5 @@ If you do have a question:
 - Try search engine first.
 - Always paste code as text (or pastebin, etc.); **do not use screenshots**.
 - For LaTeX always include a
-	[minimal working example](https://www.texfaq.org/FAQ-minxampl).
+  [minimal working example](https://www.texfaq.org/FAQ-minxampl).
 - For Linux, write what commands you typed and the output.

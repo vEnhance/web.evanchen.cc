@@ -12,13 +12,13 @@ Before anything else, I need to define some terms.
 You can think of LaTeX workflow as having three components:
 
 1. A **text editor** that you type your content into,
-	like gedit, Sublime, Vim, or Emacs.
-	(See [tech briefing](filesys.html) for details.)
+   like gedit, Sublime, Vim, or Emacs.
+   (See [tech briefing](filesys.html) for details.)
 2. A **LaTeX compiler** (aka **LaTeX distribution**)
-	that converts the source into a PDF.
-	See question [L-10](#L-10) for recommendations.
+   that converts the source into a PDF.
+   See question [L-10](#L-10) for recommendations.
 3. A **PDF viewer**, the same one you use for normally viewing PDF's.
-	See question [L-12](#L-12) for recommendations.
+   See question [L-12](#L-12) for recommendations.
 
 What you need to know right now is that **these three components are disjoint**.
 Some text editors may let you invoke a compiler directly,
@@ -41,14 +41,14 @@ But for frequent usage, there are downsides:
 
 - You do not have much control over the editor or viewer.
 - You do not have control over package versions, or custom packages
-	(besides manually making a copy of a package each time you need it).
+  (besides manually making a copy of a package each time you need it).
 - It's slower, because you need to do repeated round-trips to an external server
-	for compilation and viewing.
+  for compilation and viewing.
 - If you use Asymptote, any errors are silently discarded.
 
 More bluntly, just install LaTeX, you only have to do it once.
 
-Overleaf certainly has its uses; most notably, its strength is *collaboration*.
+Overleaf certainly has its uses; most notably, its strength is _collaboration_.
 For example, some of my colleagues do not know how to use Git or Dropbox,
 so it's easier for me to throw an Overleaf at them in that case
 (and then use the underlying Git myself).
@@ -132,8 +132,8 @@ draw(unitcircle);
 ```
 
 However, the setup to make this functional requires some work ---
-there is both a separate *installation* process for Asymptote,
-and then a separate *compilation* process to actually render the figures.
+there is both a separate _installation_ process for Asymptote,
+and then a separate _compilation_ process to actually render the figures.
 
 First, one needs to install the Asymptote program itself
 (this is a separate program from LaTeX).
@@ -145,7 +145,7 @@ Once you have Asymptote installed, to integrate it with LaTeX,
 the compilation workflow requires three steps.
 
 1. Run PDFLaTeX on, say, `example.tex`.
-	This creates `example-N.asy` for the N'th diagram.
+   This creates `example-N.asy` for the N'th diagram.
 2. You need to then run the Asymptote binary on `example-N.asy` to generate `example-N.pdf`.
 3. The diagram `example-N.pdf` then gets incorporated when you run PDFLaTeX again.
 
@@ -202,12 +202,12 @@ If you have TeX Live 2021, you can just run `tlmgr install scrambledenvs`. Other
 
 The main contributing factors are:
 
-+ My typing speed is quite high, at around 650 characters per minute.
-+ Vim (see [L-11](#L-11)) is fast.
-+ Several additional custom keyboard shortcuts specifically for TeX,
-	see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
-+ I have conceal enabled in Vim, so I can read my source code more easily.
-+ I use latexmk to auto-compile ([L-8](#L-8)).
+- My typing speed is quite high, at around 650 characters per minute.
+- Vim (see [L-11](#L-11)) is fast.
+- Several additional custom keyboard shortcuts specifically for TeX,
+  see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
+- I have conceal enabled in Vim, so I can read my source code more easily.
+- I use latexmk to auto-compile ([L-8](#L-8)).
 
 I have been using Vim and LaTeX since I was a teenager,
 so I am quite proficient with both.

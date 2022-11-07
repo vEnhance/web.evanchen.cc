@@ -2,7 +2,6 @@ title: plz learn code
 header: Speech on why coding is important
 menu-position: 60
 
-
 ---
 
 Are you scared by watching Evan's fingers repeatedly smashing
@@ -27,7 +26,7 @@ For LaTeX stuff, see [FAQs on LaTeX](faq-latex.html).
 For more advanced thoughts like why Vim or why Linux,
 see [FAQs on Linux](faq-linux.html).
 
---------
+---
 
 If you found my website, you are presumably someone
 who likes learning and thinking.
@@ -58,7 +57,7 @@ and sums the result into a table that you can send out.
 [usemo]: https://usamo.files.wordpress.com/2020/12/table.png
 
 Unlike something like quadratic formula or differentiation,
-most careers *directly* benefit from some computer literacy[^think].
+most careers _directly_ benefit from some computer literacy[^think].
 I think every single job I've had for the last five years,
 from working at the Duluth REU to running MOP
 to Mystery Hunt to [teaching OTIS][otisweb], involved
@@ -68,8 +67,9 @@ if we teach the latter at all.
 
 If you're interested in reading more, read on about [files and folders](filesys.html).
 
-[^think]: I, and several others, also suspect that knowing programming changes
-	the way you think. But this is harder to measure or prove, so I only stated the
-	weaker claim.
+[^think]:
+    I, and several others, also suspect that knowing programming changes
+    the way you think. But this is harder to measure or prove, so I only stated the
+    weaker claim.
 
 [otisweb]: https://github.com/vEnhance/otis-web

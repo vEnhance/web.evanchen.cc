@@ -21,7 +21,7 @@ proof-based contests **open to all US middle and high school students**.
 
 The USEMO is hosted on the
 [Art of Problem Solving website][aops-usemo].
-This contest is *not* sponsored
+This contest is _not_ sponsored
 by the Math Association of America
 (which runs the [USAMO][usamo]).
 
@@ -37,8 +37,8 @@ Please check the [full rules and procedures][rules].
 # {{ hl("current", "USEMO 2022") }}
 
 - Registration opens early October
-	on [AoPS portal](https://aops.com/contests/usemo/).
-	It remains open until end-of-day October 21 or when capacity is reached.
+  on [AoPS portal](https://aops.com/contests/usemo/).
+  It remains open until end-of-day October 21 or when capacity is reached.
 - Day I is Sat. **22 October 2022**, from 12:30pm ET to 5:00pm ET.
 - Day II is Sun. **23 October 2022**, from 12:30pm ET to 5:00pm ET.
 - [Download problems](exams/USEMO-2022.pdf)
@@ -78,21 +78,21 @@ Volunteering is open to anyone who is not themselves eligible to compete.
 The two biggest things we can use help with are:
 
 - **Grading**: this is by far the main bottleneck.
-	If you have any capability to read through some submissions, please help!
-	While you need experience reading mathematical proofs
-	to fulfill this role, you do NOT need past competition experience.
-	We will provide marking schemes,
-	and pair up experienced graders with newer ones.
-	You can read [more info about the grading here][grading-info];
-	see also the [advice for problem captains][captain].
-	<br>
-	To sign up for grading,
-	[fill out this 2022 form](https://forms.gle/qKDptQ2GTpgCPrCN6).
+  If you have any capability to read through some submissions, please help!
+  While you need experience reading mathematical proofs
+  to fulfill this role, you do NOT need past competition experience.
+  We will provide marking schemes,
+  and pair up experienced graders with newer ones.
+  You can read [more info about the grading here][grading-info];
+  see also the [advice for problem captains][captain].
+  <br>
+  To sign up for grading,
+  [fill out this 2022 form](https://forms.gle/qKDptQ2GTpgCPrCN6).
 
 - **Problem proposals**: we welcome proposals for problems
-	from anyone who is not eligible for the contest.
-	See the [problem proposal guidelines][propose].
-	For USEMO 2022, the deadline for submissions is **September 10, 2022**.
+  from anyone who is not eligible for the contest.
+  See the [problem proposal guidelines][propose].
+  For USEMO 2022, the deadline for submissions is **September 10, 2022**.
 
 Please contact the directors for details on these,
 or if you have other ideas on how you could help out.
@@ -100,7 +100,6 @@ or if you have other ideas on how you could help out.
 [usamts]: https://usamts.org/
 [imo]: https://www.imo-official.org
 [usamo]: https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad
-
 [answersheet]: static/usemo/answer-template-usemo.pdf
 [mission]: static/usemo/mission-usemo.pdf
 [rules]: static/usemo/rules-usemo.pdf

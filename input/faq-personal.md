@@ -99,5 +99,4 @@ Cis-het. Though I defected to girl fashion because
 [wpcontest]: https://blog.evanchen.cc/20n4/07/27/what-leads-to-success-at-math-contests/
 [wpgeo]: https://blog.evanchen.cc/2016/01/19/some-advice-for-olympiad-geometry/
 [yufei]: https://yufeizhao.com/olympiad.html
-
 [cofinite]: https://en.wikipedia.org/wiki/Cofiniteness

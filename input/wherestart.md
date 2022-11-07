@@ -39,24 +39,25 @@ congratulating them on their achievement
 and giving them some suggestions on where to begin.
 This letter contains:
 
-* A few pretty carefully chosen problems (not necessarily easy!),
-	to give people a sense of what to expect on the contest
-* Fully written solutions to those chosen problems,
-	so that you can see what a correct and complete solution is expected to look like.
-* Some advice for actually taking the contest:
-	the format of the exam, planning your time, common mistakes, etc.
+- A few pretty carefully chosen problems (not necessarily easy!),
+  to give people a sense of what to expect on the contest
+- Fully written solutions to those chosen problems,
+  so that you can see what a correct and complete solution is expected to look like.
+- Some advice for actually taking the contest:
+  the format of the exam, planning your time, common mistakes, etc.
 
-[^covid]: These were written in early January 2020
-	before COVID-19 wreaked havoc on everything,
-	so the contests still go by their typical name and don't mention
-	anything specific to the belated administration that year.
+[^covid]:
+    These were written in early January 2020
+    before COVID-19 wreaked havoc on everything,
+    so the contests still go by their typical name and don't mention
+    anything specific to the belated administration that year.
 
 You can download the letters here:
 
-* [JMO welcome letter](static/welcome-jmo.pdf),
-	and [solutions to examples](static/sol-welcome-jmo.pdf)
-* [USAMO welcome letter](static/welcome-usamo.pdf),
-	and [solutions to examples](static/sol-welcome-usamo.pdf)
+- [JMO welcome letter](static/welcome-jmo.pdf),
+  and [solutions to examples](static/sol-welcome-jmo.pdf)
+- [USAMO welcome letter](static/welcome-usamo.pdf),
+  and [solutions to examples](static/sol-welcome-usamo.pdf)
 
 I suggest starting by reading through this letter,
 trying the example problems (you will probably not solve them all;
@@ -68,9 +69,9 @@ That will give you a taste of what you are getting in to.
 
 If you don't have experience with proof-based problems,
 the first thing I should say is that it is **not as hard as you might think**.
-*Solving* the problems completely is difficult,
+_Solving_ the problems completely is difficult,
 but if you really have a completely correct solution to a problem,
-it is actually pretty hard to *not* get full credit.
+it is actually pretty hard to _not_ get full credit.
 I would say at least 90% of the time,
 when a student loses points on USA(J)MO unexpectedly,
 it's because their proof is actually incomplete, not (just) badly-written.
@@ -78,12 +79,12 @@ it's because their proof is actually incomplete, not (just) badly-written.
 Of course, you should still try to write your solutions as clearly as possible.
 To that end, here are some links to advice:
 
-* [How to write a solution](https://aops.com/news/articles/how-to-write-a-solution),
-	from Art of Problem Solving.
-* [Remarks on English](handouts/english/english.pdf),
-	written by me.
-* [How to write proofs](https://zimmer.csufresno.edu/%7Elarryc/proofs/proofs.html),
-	by Larry W. Cusick.
+- [How to write a solution](https://aops.com/news/articles/how-to-write-a-solution),
+  from Art of Problem Solving.
+- [Remarks on English](handouts/english/english.pdf),
+  written by me.
+- [How to write proofs](https://zimmer.csufresno.edu/%7Elarryc/proofs/proofs.html),
+  by Larry W. Cusick.
 
 You don't need to get too caught up in these links;
 proof-writing will become more natural over time anyway as you solve more problems.
@@ -121,12 +122,12 @@ there is a nice proof-based contest called the [USAMTS](https://usamts.org/)
 which is a great way for beginners to get started.
 Things that make the USAMTS special:
 
-* It is a free, individual, online contest open to any students in USA.
-* The problems are chosen to be quite beginner-friendly,
-	though with a spectrum of difficulty each round.
-* This contest gives you a *full month* to work on the problems
-	rather than having a short time limit.
-* You get some feedback on your proofs as well, not just a score.
+- It is a free, individual, online contest open to any students in USA.
+- The problems are chosen to be quite beginner-friendly,
+  though with a spectrum of difficulty each round.
+- This contest gives you a _full month_ to work on the problems
+  rather than having a short time limit.
+- You get some feedback on your proofs as well, not just a score.
 
 I also run a contest called the [USEMO](usemo.html) in the fall
 which is also free and offers feedback,
@@ -145,8 +146,8 @@ just working on short-answer contests.
 To toot my own horn further, as if I haven't enough already,
 I wrote the following two books to be possible introductions:
 
-* The [OTIS Excerpts](excerpts.html) for everything other than geometry, and
-* The textbook [E.G.M.O.](geombook.html) for classical geometry.
+- The [OTIS Excerpts](excerpts.html) for everything other than geometry, and
+- The textbook [E.G.M.O.](geombook.html) for classical geometry.
 
 ... but there are some more possibilities listed
 on the [links page](recommend.html).
@@ -155,9 +156,7 @@ Another nice general introduction is
 You might also check
 [Geoff Smith's advice and links](https://people.bath.ac.uk/masgcs/advice.html).
 
-[acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
-
-(I really want to stress these are mere *suggestions*.
+[acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901 (I really want to stress these are mere *suggestions*.
 Just because you have done X does not mean you will achieve your goals,
 and conversely, there are surely many fantastic resources
 that I have not even heard of.
@@ -172,7 +171,7 @@ you also need to start just working through some past problems
 from recent years of contests.
 You can think of this as encountering problems in the wild.[^binder]
 [^binder]: I used to carry a binder with printouts
-	of the IMO shortlist and check them off as I solved them.
+of the IMO shortlist and check them off as I solved them.
 
 In case you didn't know already,
 on Art of Problem Solving there is an
@@ -183,11 +182,11 @@ The supply of problems here is inexhaustible.
 
 Here are some particular contests I like (alphabetical):
 
-+ [Canada national olympiad](https://cms.math.ca/Competitions/CMO/)
-+ [European Girls Math Olympiad](https://www.egmo.org/egmos/)
-+ [IMO and IMO Shortlist](https://imo-official.org/problems.aspx)
-+ [NICE](https://www.nicecontest.xyz), open to anyone
-+ [USA Team Selection Tests](problems.html)
+- [Canada national olympiad](https://cms.math.ca/Competitions/CMO/)
+- [European Girls Math Olympiad](https://www.egmo.org/egmos/)
+- [IMO and IMO Shortlist](https://imo-official.org/problems.aspx)
+- [NICE](https://www.nicecontest.xyz), open to anyone
+- [USA Team Selection Tests](problems.html)
 
 The bottom of the [recommendations page](recommend.html)
 has some more suggestions for problems if this list isn't sufficient.

@@ -24,15 +24,15 @@ I am an avid fan of the
 [MIT mystery hunt](http://web.mit.edu/puzzle/www/huntsbyyear.html)
 and other puzzle hunt activities.
 I have participated in the MIT mystery hunt in 2017.
-These days, I usually hunt on  ✈✈✈ Galactic Trendsetters ✈✈✈.
+These days, I usually hunt on ✈✈✈ Galactic Trendsetters ✈✈✈.
 
 The two puzzle hunts that I worked most with were:
 
 - [2021 hunt](https://perpendicular.institute/):
-	highlights of mine include
-	[Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
-	[Clueless](https://perpendicular.institute/puzzle/clueless/),
-	[Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/).
+  highlights of mine include
+  [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
+  [Clueless](https://perpendicular.institute/puzzle/clueless/),
+  [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/).
 - The [2021 MOP mini-hunt](mop/2021.html).
 
 If you want to learn more about puzzle hunts,
@@ -40,7 +40,7 @@ check the [dedicated page](puzzlehunt.html).
 
 ## {{ hl("hanabi", "Hanabi") }}
 
-[Hanabi](https://en.wikipedia.org/wiki/Hanabi_\(card_game\))
+[Hanabi](<https://en.wikipedia.org/wiki/Hanabi_(card_game)>)
 is a cooperative logic-based deduction game.
 I spend quite a bit of time playing Hanabi online with the
 [Hyphen-ated group](https://github.com/Zamiell/hanabi-conventions),
@@ -72,20 +72,20 @@ By the way, I use [Arch Linux](https://www.archlinux.org/).
 Some details about my setup:
 
 - Window manager: [i3](https://i3wm.org/),
-	with [py3status](https://py3status.readthedocs.io/en/latest/index.html)
-	and [rofi](https://github.com/davatorium/rofi)
+  with [py3status](https://py3status.readthedocs.io/en/latest/index.html)
+  and [rofi](https://github.com/davatorium/rofi)
 - Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Browser homepage](static/browser-homepage.html)
-	(click the timer to change target date)
+  (click the timer to change target date)
 - Editor: [Vim](https://www.vim.org/)
 - File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)
 - Monospace font: [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
 - MUA: [NeoMutt](https://neomutt.org/)
 - TeX distribution: [TeX Live](https://tug.org/texlive/)
 - Shell: [Fish](http://fishshell.com/),
-	using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
+  using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
 - To-do list: [Taskwarrior](https://taskwarrior.org/),
-	with [Vit](https://github.com/vit-project/vit) and [inthe.AM](https://inthe.am/).
+  with [Vit](https://github.com/vit-project/vit) and [inthe.AM](https://inthe.am/).
 
 You can find a lot of my configuration files on my
 [dotfiles GitHub repository](https://github.com/vEnhance/dotfiles).

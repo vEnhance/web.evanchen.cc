@@ -31,7 +31,7 @@ But I think these are second-order effects.
 
 I took this to extreme measures in high school.
 As a senior I took a total of 2 regular high-school classes
-and spent on the order of 30 minutes on homework *per week*;
+and spent on the order of 30 minutes on homework _per week_;
 as a result I had enough time to do math, write a geometry textbook,
 take graduate math classes, learn to play
 [this piece](https://www.youtube.com/watch?v=Pi8xsZXibIc),
@@ -59,10 +59,10 @@ that I worked on (both successful and unsuccessful):
 - Programming projects ([GitHub](https://github.com/vEnhance))
 - Installing Arch Linux and figuring out how to use it
 - Writing nonfiction e.g. Napkin and EGMO
-	(the latter was written while I was a
-	[clerk at my high school's office](https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/))
+  (the latter was written while I was a
+  [clerk at my high school's office](https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/))
 - Writing fiction stories (which I failed miserably at;
-	tried at least two or three times)
+  tried at least two or three times)
 - K-pop dance (not good at it yet but trying!)
 - Creating a problem database (this took me five or six tries before it worked out)
 - Creating a constructed language (failed at least five times)
@@ -169,19 +169,19 @@ Here are a few great talks from the Math Prize for Girls event.
 ### {{ faq("R-8", "What advice would you give high schoolers?") }}
 
 1. Learn any difficult skill deeply.
-	I don't care what the specific skill is as long as it's hard;
-	almost anything sufficiently competitive will do.
-	(In the process, you will learn how to learn.)
+   I don't care what the specific skill is as long as it's hard;
+   almost anything sufficiently competitive will do.
+   (In the process, you will learn how to learn.)
 2. [Learn to code](techsupport.html).
 3. In your spare time, build things you are totally perfectionist about.
-	It can be a piece of software or fiction story or expository article
-	or art project or [auto-targeting kilowatt laser][laser] or whatever.
-	But build stuff you insist on getting completely flawless.
-	Genuine craftsmanship is deeply underrated.
+   It can be a piece of software or fiction story or expository article
+   or art project or [auto-targeting kilowatt laser][laser] or whatever.
+   But build stuff you insist on getting completely flawless.
+   Genuine craftsmanship is deeply underrated.
 4. Ignore all advice that you don't agree with, including this website.
-	When I look back to my high school days,
-	more than half the advice I got was bullshit.
-	I would have been better off inverting all advice than following it.
+   When I look back to my high school days,
+   more than half the advice I got was bullshit.
+   I would have been better off inverting all advice than following it.
 
 ### {{ faq("R-9", "Why do you still play video games?") }}
 
@@ -197,7 +197,7 @@ I started playing again around when I was in college,
 in some cases replaying games I had completed in elementary school.
 Being older and allegedly more mature,
 the same games suddenly felt totally different from what I remembered.
-Because *now* I could see all the tender loving care that had been
+Because _now_ I could see all the tender loving care that had been
 put into designing the game.
 
 Every asset the art team had spent hours drawing and redrawing.
