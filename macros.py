@@ -22,7 +22,7 @@ def handout_link(name, filename=None):
 
 
 def page_footer(page) -> str:
-	input_name: str = page['url'].replace('.html', '.mkd')
+	input_name: str = page['url'].replace('.html', '.md')
 	input_path = Path('input') / input_name
 	try:
 		blob = tree[str(input_path)]
