@@ -39,14 +39,22 @@ See the instructions for details about late application.
 
 OTIS is open to anyone, including international students from all countries.
 
-Students from minorities and underrepresented groups
-are especially encouraged to apply. (I promise I don't bite.)
-Admissions are done primarily based on perceived preparedness;
-it is not a merit-based competition.
-Also, financial aid is possible.
+Students from minorities and underrepresented groups are especially encouraged to apply.
+(I promise I don't bite.)
+Full financial aid is available for all applications received before the
+deadline and admissions is done in a need-blind manner.
 
-OTIS is taught in English and assumes an ability to read and write proofs.
-A stable Internet connection is required.
+Admissions is only done to ensure students have sufficient mathematical background
+and writing ability --- meaning that you can read and write proofs,
+understands English, and is able to learn new material from Evan-style writing.
+In particular, **admissions is not a merit-based competition**.
+I like the [FAQ from Euler Circle](https://eulercircle.com/faq/),
+which I've adapted for OTIS:
+
+> The traditional way admissions are competitive is there are N applicants and M
+> ≪ N spaces available. That is **not** the case for OTIS, where M > N. We
+> dislike the idea of depriving students of an education; we will certainly not
+> take any pride in doing so, and will never release statistics.
 
 # {{ hl("about", "About OTIS") }}
 
