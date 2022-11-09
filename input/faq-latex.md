@@ -164,6 +164,25 @@ over the compilation process.
 As mentioned in [L-2](#L-2a), my recommended solution is to
 not use web-based compilers.
 
+CJ Quines wrote a really nice
+[Asymptote preprocessor](https://github.com/cjquines/tsqx)
+where you can write something like
+
+```text
+~triangle A B C
+D ;= foot A B C
+E := midpoint A--B
+F' N = (rotate -30 E)(extension A (foot A B C) C E)
+
+circumcircle A B C / 0.2 lightgray /
+A--B--C--cycle
+A--D
+B--F' / dashed blue
+```
+
+to get [this figure](https://github.com/cjquines/tsqx),
+which makes it much easier to use.
+
 ### {{ faq("L-9", "Can I see some example source code?") }}
 
 Yes, go to [Olympiad page](olympiad.html)
