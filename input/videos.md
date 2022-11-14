@@ -101,7 +101,7 @@ Here is a picture of my physical setup (click to enlarge).
 Here's an archive of the problems solved on stream.
 
 **To submit a problem**:
-Problem requests are processed for 384 [channel points][points] each;
+Problem requests are processed for 256 [channel points][points] each;
 points are earned by watching the live stream.
 Requests must be submitted at the start of the stream,
 8pm Eastern time every Friday.
