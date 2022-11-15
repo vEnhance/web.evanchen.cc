@@ -216,6 +216,14 @@ In short, it depends on what you're hoping to get out of your time.
 The example scenarios above are totally black-and-white,
 but your situation is likely to be more complicated, say, a mix between these.
 
+### {{ faq("S-9", "What's the difference between high school contest math and undergraduate math?") }}
+
+From [my Instagram](https://www.instagram.com/p/Ck_29xFOlxV/):
+
+<a href="https://www.instagram.com/p/Ck_29xFOlxV/">
+<img src="/static/expectations-reality.png" width="400" />
+</a>
+
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
 [tuition]: https://web.mit.edu/facts/tuition.html
