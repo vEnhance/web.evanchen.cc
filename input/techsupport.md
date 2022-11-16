@@ -20,13 +20,13 @@ I would break it down into the following steps
 1. Learning how to use a command prompt to navigate files and folders
    in a terminal, and execute commands.
    You can learn this in a day or two from [Zed Shaw][term]
-   or [djangogirls][term2] or whatever you find on Google.
-2. Find a text editor you like (as stated, any text editor opens any plain text file).
-   Be able to open, edit, and save an arbitrary text file.
-   (This is likely to be covered in step 1 already;
-   LaTeX users may also know this step already.)
-3. You should then learn your first programming language.
-   The hardest part!
+   or [missing.csail.mit.edu][missing- csail] or [djangogirls][term2] or
+   whatever you find on Google.
+2. Find a text editor you like (as stated, any text editor opens any plain
+   text file). Be able to open, edit, and save an arbitrary text file. (This
+   is likely to be covered in step 1 already; LaTeX users may also know this
+   step already.)
+3. You should then learn your first programming language. The hardest part!
 
 ## {{ hl("language", "Picking a language") }}
 
@@ -62,6 +62,7 @@ here is Evan's tier list:
 
 5. [JavaScript](https://www.destroyallsoftware.com/talks/wat):
    Please no.[^js] Use TypeScript instead.
+   (Longer argument on [blog](https://blog.evanchen.cc/?p=1437).)
 
 6. [PHP](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/):
    Definitely no.
@@ -116,3 +117,4 @@ and later levels are more interesting.
 [term]: https://learnpythonthehardway.org/python3/appendixa.html
 [term2]: https://tutorial.djangogirls.org/en/intro_to_command_line/
 [nonpro]: https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
+[missing-csail]: https://missing.csail.mit.edu/
