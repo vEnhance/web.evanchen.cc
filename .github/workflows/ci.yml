@@ -2,21 +2,30 @@ name: CI
 
 on:
   push:
-    branches: [ '*' ]
+    branches: ["*"]
   pull_request:
-    branches: [ '*' ]
+    branches: ["*"]
 
 jobs:
   spellcheck:
     runs-on: ubuntu-latest
     name: "Spellcheck"
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v2
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade codespell
-    - name: Run spellcheck
-      run: |
-        codespell $(git ls-files)
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade codespell
+      - name: Run spellcheck
+        run: |
+          codespell $(git ls-files)
+  prettier:
+    runs-on: ubuntu-latest
+    name: "Prettier"
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actionsx/prettier@v2
+        with:
+          # prettier CLI arguments.
+          args: --check "**.md"
