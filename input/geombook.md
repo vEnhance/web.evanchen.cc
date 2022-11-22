@@ -51,10 +51,17 @@ Here is a freely available subset of the book:
 
 ## {{ hl("errata", "Errata (aka selected solutions to Problem 11.0)") }}
 
-Here is a [list of all mistakes that I am aware of.](upload/geombook-errata.pdf)
+The errata list is now embarrassingly extensive. You can see:
+
+- [List of mistakes in PDF format](upload/geombook-errata.pdf)
+- [List of mistakes in TeX format](https://github.com/vEnhance/egmo-book-errata)
+- [Instructions for submitting errata](https://github.com/vEnhance/egmo-book-errata#submitting-more-errata)
+
 Most mistakes are harmless, but a few of the mistakes are significant;
 the important ones are reproduced here, too.
 
+- On **page 4**, the proof of Theorem 1.3 is incomplete
+  because it assumes that the point $O$ lies inside the triangle $ABC$.
 - On **page 12**, Theorem 1.22, the four points could also be collinear.
 - On **page 76**, Theorem 5.1 is missing a factor of $\frac12$.
 - On **page 92**, Problem 5.23, when defining $G$, line $HE$ should intersect
@@ -63,14 +70,17 @@ the important ones are reproduced here, too.
   has several issues, and is probably best to just ignore.
   Figure 6.6B is also broken.
   (The result is still true, and the proof of part (b) is correct.)
-- On **page 145**, Problem 7.44, change the angle condition to $\measuredangle BC\_1A\_1 = \measuredangle ACB = \measuredangle B\_1C\_1A$.
 - On **page 146**, Problem 7.52, change $\angle PCB$ to $\angle PBC$.
-- On **page 159**, in Lemma 8.16, change "fixes $B$ and $C$" to "swaps $B$ and $C$".
+- On **page 159**, in Lemma 8.16,
+  change "fixes $B$ and $C$" to "swaps $B$ and $C$".
 - On **page 184**, in Theorem 9.33, uniqueness is not true for (b) or (c).
-  The last sentence is also wrong as written.
-  The correct sentence is: if the _circumcircle_ of a cyclic quadrilateral is preserved,
+  The last sentence is also wrong as written. The correct sentence is:
+  if the _circumcircle_ of a cyclic quadrilateral is preserved,
   then so is the cross ratio of the cyclic quadrilateral.
-- On **page 243**, Solution 1.50 is incomplete; one also needs to check $A$, $P$, $W$ are collinear.
+- On **page 235**, hint 556 doesn't make sense.
+  I don't remember what I meant to write.
+- On **page 243**, Solution 1.50 is incomplete;
+  one also needs to check $A$, $P$, $W$ are collinear.
   Thus, add the remark $\measuredangle NPA = \measuredangle NMA = \measuredangle NMC = \measuredangle NBC = \measuredangle NBW = \measuredangle NPW$.
   (Radical axis also works.)
 - On **page 268**, Solution 7.44 is completely broken; it's solving a different
@@ -95,7 +105,7 @@ here are some possible places to look:
 
 3. I included sources for as many of the problems as possible,
    so looking up the corresponding thread on
-   [Art of Problem Solving's Contest Index][contests]
+   [Art of Problem-Solving's Contest Index][contests]
    will generally yield a solution to any sourced problem.
    (The search function can work too, but is usually less helpful.)
 
