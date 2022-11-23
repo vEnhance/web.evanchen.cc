@@ -70,26 +70,33 @@ and the back contains everyone's signature.
   it also features a mock
   [coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
   You can download the problems here:
-  <span class="chooser list-chooser" markdown="block">
-  - [2021](static/mop/mockimo/2021.pdf)
-  - [2020](static/mop/mockimo/2020.pdf)
-  - [2019](static/mop/mockimo/2019.pdf)
-  - [2018](static/mop/mockimo/2018.pdf)
-  - [2017](static/mop/mockimo/2017.pdf)
-  - [2016](static/mop/mockimo/2016.pdf)
-    </span>
+
+<div class="chooser list-chooser" markdown="block">
+
+- [2021](static/mop/mockimo/2021.pdf)
+- [2020](static/mop/mockimo/2020.pdf)
+- [2019](static/mop/mockimo/2019.pdf)
+- [2018](static/mop/mockimo/2018.pdf)
+- [2017](static/mop/mockimo/2017.pdf)
+- [2016](static/mop/mockimo/2016.pdf)
+
+</div>
+
 - The staff also provide **MOP homework** to work on before camp starts,
   mostly for fun and so people have something to talk about at airport.
   Here are recent homework problems:
-  <span class="chooser list-chooser" markdown="block">
-  - [2022](static/mop/homework/MOP2022HW.pdf)
-  - [2021](static/mop/homework/MOP2021HW.pdf)
-  - [2020](static/mop/homework/MOP2020HW.pdf)
-  - [2019](static/mop/homework/MOP2019HW.pdf)
-  - [2018](static/mop/homework/MOP2018HW.pdf)
-  - [2017](static/mop/homework/MOP2017HW.pdf)
-  - [2016](static/mop/homework/MOP2016HW.pdf)
-    </span>
+
+<div class="chooser list-chooser" markdown="block">
+
+- [2022](static/mop/homework/MOP2022HW.pdf)
+- [2021](static/mop/homework/MOP2021HW.pdf)
+- [2020](static/mop/homework/MOP2020HW.pdf)
+- [2019](static/mop/homework/MOP2019HW.pdf)
+- [2018](static/mop/homework/MOP2018HW.pdf)
+- [2017](static/mop/homework/MOP2017HW.pdf)
+- [2016](static/mop/homework/MOP2016HW.pdf)
+
+</div>
 
 ## {{ hl("schedules", "Schedules") }}
 
