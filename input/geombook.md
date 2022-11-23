@@ -100,18 +100,24 @@ here are some possible places to look:
    should form an outline of the complete solution
    (even if the details are omitted).
 
-2. There is a [user-created forum][userforum]
+2. The [Automatically Generated EGMO Solutions Treasury][agest]
+   contains updated solutions to a significant number of the sourced problems.
+   (However, the solutions were compiled by problem,
+   so they don't necessarily "match" the chapter the problem appears in.)
+
+3. There is a [user-created forum][userforum]
    which has a link to discussion for every problem.
 
-3. I included sources for as many of the problems as possible,
+4. I included sources for as many of the problems as possible,
    so looking up the corresponding thread on
    [Art of Problem-Solving's Contest Index][contests]
    will generally yield a solution to any sourced problem.
    (The search function can work too, but is usually less helpful.)
 
-4. If all of the above fail, try posting on the AoPS forums directly.
+5. If all of the above fail, try posting on the AoPS forums directly.
 
 [userforum]: https://artofproblemsolving.com/community/c618937h1605831_egmo_problem_discussions_links
+[agest]: upload/AGEST.pdf
 
 ## {{ hl("resources", "More resources") }}
 
