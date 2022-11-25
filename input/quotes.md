@@ -27,7 +27,7 @@ Some of my favorite quotes that stuck with me forever.
 - Simplicity is the ultimate sophistication.
 - If it is possible to cut a word out, always cut it out.
   ([George Orwell](https://sites.duke.edu/scientificwriting/orwells-6-rules/))
-- Perfect is the enemy of good.
+- Perfect is the enemy of good enough.
 
 ## {{ hl("processes", "Processes") }}
 
