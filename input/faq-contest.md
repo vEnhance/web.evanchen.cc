@@ -423,15 +423,14 @@ The reason I have somewhat dim views of study plans is that
 In general, it is a lot better to be spending a lot of time exploring whatever
 is catching interest, than to try and lay out some fixed plan and then not
 really follow through with it.
-So even though in theory planning seems like it would be helpful,
-the energy spent crafting then adhering to a plan
+So even though _in theory_ planning seems like it would be helpful,
+_in practice_ the energy spent crafting then adhering to a plan
 could easily outweigh benefits.
 (One can always start with a lot of energy,
 and then the energy quickly dies out.)
 
-I think the only concern might be
-if a student is afraid of a particular area
-and tries to ignore it completely.
+I think the only concern might be if a student is afraid of a particular area
+and tries to ignore it completely (geometryyyyyyy).
 As long as you avoid this trap, I hereby give you license to
 work on whatever you feel like, planned or not.
 
