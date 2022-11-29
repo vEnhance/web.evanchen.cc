@@ -14,9 +14,14 @@ Some other places on the Internet you can find me:
 - [My Anime List](https://myanimelist.net/animelist/vEnhance)
 - [Spotify](https://open.spotify.com/user/31ligpcn22uiybn6wwrfrouklsxq/playlists)
 
-Here's a little about myself,
-including things I like so much that
+Here's a little about myself, including things I like so much that
 I think you should try them too!
+
+## {{ hl("webcomics", "Webcomics") }}
+
+- [Calvin and Hobbes](https://www.gocomics.com/calvinandhobbes/)
+- [Dinos and Comics](https://www.instagram.com/dinosandcomics/)
+- [Erma](https://www.webtoons.com/en/challenge/erma/list?title_no=170650&page=1)
 
 ## {{ hl("puzzle", "Puzzle hunts") }}
 
