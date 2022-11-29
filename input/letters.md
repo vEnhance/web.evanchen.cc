@@ -29,26 +29,32 @@ such as Canada/USA MathCamp, PROMYS/ROSS, etc.
 
 You should only ask for a letter from me if I know you somewhat well.[^obvious]
 
-[^obvious]:
-    This may sound obvious,
-    but somehow I still get requests from total strangers.
+[^obvious]: This may sound obvious, but I get requests from total strangers...
 
 Letters from me will necessarily be a bit unusual,
 so you should think about whether I'm the right person to do this.
-I am not formally a teacher or professor,
-which may confuse any clueless admissions officers[^fancy].
-Also, if I only worked with you at
-[MOP](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Program)
-or [OTIS](otis.html), I may not have spent enough time
-with you in-person to "paint a picture"
-compared to a teacher at your school, so to speak.
+Here are a few reasons why:
+
+- I am not formally a teacher or professor,
+  which may confuse any clueless admissions officers[^fancy].
+- Also, if I only worked with you at
+  [MOP](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Program)
+  or [OTIS](otis.html), I may not have spent enough time
+  with you in-person to "paint a picture"
+  compared to a teacher at your school, so to speak.
+- You are going to be compared to other OTIS/MOP students.
+  This is not to say the comparison will necessarily be unfavorable.
+  However, the letter is probably not going to say you are the
+  strongest student I've ever met, either, whereas many of you _are_
+  the best student your local high school has ever seen.
 
 [^fancy]: Although I am gradually picking up increasingly fancy titles.
 
 Usually people will ask me for letters if they want to add
 some context about their math contest experiences that's more than just score,
 or to have me advocate for their mathematical ability.
-Anyway, I will assume you have thought this through.
+I try to also, when I have enough data, say a bit about what you're like
+as a person when interacting with me or other OTIS students.
 
 Since I'm a nice person,
 I promise to not intentionally write a negative letter.[^regret]
