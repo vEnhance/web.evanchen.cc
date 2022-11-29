@@ -72,6 +72,14 @@ I will decline your request instead.[^support]
     unconditionally supportive, much like a parent,
     and that it's not my place to judge students.
 
+## {{ hl("sample", "Sample letter") }}
+
+Here is a [sample letter for an imaginary student named
+Eva Chan](upload/dummy-letter-eva-chan.pdf),
+so you know roughly what you're signing up for.
+(And those of you writing your first reference letter
+are welcome to use this as an example.)
+
 ## {{ hl("instructions", "Instructions") }}
 
 If you do ask a letter for me, I need the following information.
