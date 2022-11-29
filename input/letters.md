@@ -18,7 +18,7 @@ and typical undergraduate colleges (MIT and Common App).
 For the latter, most people prefer to invite me as a supplemental letter
 rather than as a math teacher proper.
 I can also write letters for
-[PRIMES](https://math.mit.edu/research/highschool/primes/index.html),
+[MIT PRIMES](https://math.mit.edu/research/highschool/primes/index.html),
 although I am of the impression that the awards and entrance exam
 hold much more weight than rec letters for PRIMES (compared to, say, college apps).
 
@@ -26,10 +26,6 @@ I've also written letters for summer math camps
 such as Canada/USA MathCamp, PROMYS/ROSS, etc.
 
 ## {{ hl("ask", "Whether to ask") }}
-
-You should only ask for a letter from me if I know you somewhat well.[^obvious]
-
-[^obvious]: This may sound obvious, but I get requests from total strangers...
 
 Letters from me will necessarily be a bit unusual,
 so you should think about whether I'm the right person to do this.
@@ -88,25 +84,32 @@ If you do ask a letter for me, I need the following information.
 3. Provide any recent math olympiad results,
    like USAMO / TSTST / TST / IMO.
    (I may not use them, but I want to have them if I need them).
-4. Is there anything in particular I should discuss?
+4. **Is there anything in particular I should discuss?**
    In particular, how math-focused do you want me to be?
 5. Please **send me any application essays or completed forms**
    you are willing to share (drafts of essays are okay).
    This way, I can tailor my letter to complement
    what you've already written.
-6. State explicitly when the deadline is.
-7. Specify what "type" of letter I am writing, if applicable.
-   For example, colleges commonly distinguish between, say
-   "required" letters from a math teacher, or optional "supplements"
-   (see e.g. [MIT][mitsupp], second-to-last paragraph).
-   It is useful for me to know whether I am the main voice or if
-   I am expecting to add on to what other (usually more traditional)
-   teachers have to say.
-8. Specify which email address you applied to the program with.
+6. State explicitly when the **deadline** is.
+
+Additional technical instructions:
+
+- When inviting me to whatever application the school or program uses,
+  it's best if you invite the address evan at evanchen.cc.
+- _Exception_: for some reason, MathPrograms.org (which is used by REU's
+  and MIT PRIMES) does not seem to work well with my professional email.
+  You should use evanchen at mit.edu there.
+- Please also specify which email address you applied to the program with.
+- Specify what "type" of letter I am writing, if applicable.
+  For example, colleges commonly distinguish between, say
+  "required" letters from a math teacher, or optional "supplements"
+  (see e.g. [MIT][mitsupp], second-to-last paragraph).
+  It is useful for me to know whether I am the main voice or if
+  I am expecting to add on to what other (usually more traditional)
+  teachers have to say.
+- Usually, I will always submit letters
+  at least a week in advance if you asked ahead of time.
+  So if it's less than a week until the deadline and the letter I promised
+  hasn't been submitted yet, then please double-check on it.
 
 [mitsupp]: https://mitadmissions.org/apply/firstyear/letters-of-recommendation/
-
-Usually, I will always submit letters
-at least a week in advance if you asked ahead of time.
-So if it's less than a week until the deadline and the letter I promised
-hasn't been submitted yet, then please double-check on it.
