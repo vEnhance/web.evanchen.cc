@@ -10,20 +10,20 @@ Click to enlarge any of them.
 
 <style type="text/css">
 @keyframes glow-yellow {
-	from { box-shadow: 0px 0px 35px #bbbb33 }
-	to  { box-shadow: 0px 0px 45px #eeeecc }
+  from { box-shadow: 0px 0px 35px #bbbb33 }
+  to  { box-shadow: 0px 0px 45px #eeeecc }
 }
 
 #photo-gallery a > img {
-	height: 96px;
-	width: 96px;
-	object-fit: cover;
-	margin: 6px 6px 6px 6px;
-	box-shadow: 0px 0px 15px #6666dd;
+  height: 96px;
+  width: 96px;
+  object-fit: cover;
+  margin: 6px 6px 6px 6px;
+  box-shadow: 0px 0px 15px #6666dd;
 }
 #photo-gallery a:hover > img {
-	animation-name: glow-yellow;
-	animation-duration: 2s;
+  animation-name: glow-yellow;
+  animation-duration: 2s;
 }
 </style>
 
@@ -42,3 +42,7 @@ Click to enlarge any of them.
 [![USAMO Awards](static/headshots/usamo1-thumb.jpg)](static/headshots/usamo1-full.jpg)
 [![USAMO Awards](static/headshots/usamo2-thumb.jpg)](static/headshots/usamo2-full.jpg)
 </div>
+
+The below images are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
+essentially meaning you may use them freely provided attribution is given.
