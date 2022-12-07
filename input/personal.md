@@ -107,6 +107,7 @@ rather than QWERTY.
 - Favorite music group: [Dreamcatcher][dreamcatcher]
 - Favorite song: [Paradise SIYEON][paradise]
 - [Math contest photos and history](myscores.html)
+- Myers-Briggs: INFJ-T, but see [criticsm of the MBTI](https://en.wikipedia.org/wiki/Myers-Briggs_Type_Indicator#Criticism)
 
 [orthocenter]: https://mathworld.wolfram.com/Orthocenter.html
 [mixt]: https://mathworld.wolfram.com/MixtilinearIncircles.html
