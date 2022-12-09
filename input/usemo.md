@@ -61,7 +61,7 @@ You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 - USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
 - USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
 - USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
-- USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions and results)](#)
+- USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions and results)](exams/report-usemo-2022.pdf)
 
 ## {{ hl("hall", "Hall of Fame") }}
 
