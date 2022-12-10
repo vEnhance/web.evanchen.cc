@@ -152,11 +152,13 @@ I wrote the following two books to be possible introductions:
 ... but there are some more possibilities listed
 on the [links page](recommend.html).
 Another nice general introduction is
-[Art and Craft of Problem Solving][acops] by Paul Zeitz.
+[Art and Craft of Problem-Solving][acops] by Paul Zeitz.
 You might also check
 [Geoff Smith's advice and links](https://people.bath.ac.uk/masgcs/advice.html).
 
-[acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901 (I really want to stress these are mere *suggestions*.
+[acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
+
+I really want to stress these are mere _suggestions_.
 Just because you have done X does not mean you will achieve your goals,
 and conversely, there are surely many fantastic resources
 that I have not even heard of.
