@@ -9,6 +9,7 @@ indent: 1
 Sometimes high school students ask me for reference letters.
 (Some of them even got in!)
 So here are some details.
+Inspired by [Ravi Vakil](https://math.stanford.edu/~vakil/recommendations.html).
 
 ## {{ hl("programs", "Programs I can write for") }}
 
