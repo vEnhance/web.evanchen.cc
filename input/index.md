@@ -13,7 +13,7 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 This is the homepage of Evan Chen (陳誼廷),
 known also as `vEnhance` on many websites.
-I'm an [MIT grad student](https://math.mit.edu/directory/profile.php?pid=2106)
+I'm an [MIT grad student](https://math.mit.edu/directory/profile.html?pid=2106)
 under [Wei Zhang](https://math.mit.edu/~wz2113/),
 and also a math olympiad coach on the side.
 
