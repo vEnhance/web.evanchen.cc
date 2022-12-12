@@ -20,7 +20,7 @@ I would break it down into the following steps
 1. Learning how to use a command prompt to navigate files and folders
    in a terminal, and execute commands.
    You can learn this in a day or two from [Zed Shaw][term]
-   or [missing.csail.mit.edu][missing- csail] or [djangogirls][term2] or
+   or [missing.csail.mit.edu][missing-csail] or [djangogirls][term2] or
    whatever you find on Google.
 2. Find a text editor you like (as stated, any text editor opens any plain
    text file). Be able to open, edit, and save an arbitrary text file. (This
