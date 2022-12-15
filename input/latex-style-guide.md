@@ -65,7 +65,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
    This means `||` MUST NOT be used in place of `\parallel`,
    or `.` in place of `\cdot`, etc.
 
-10. For single-line display math, double dollar signs MUST NOT be used;
+10. For single-line display math, double dollar signs MUST NOT ever be used;
     the use of `\[ ... \]` instead is REQUIRED.
     Inserting newlines after `\[` and before `\]` is OPTIONAL;
     if the newline is not included there MUST be a space instead.
@@ -76,7 +76,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 
 11. When a series of equation are too long to fit on a new line,
     one MUST NOT have adjacent `\[ ... \]` expressions.
-    IN most cases, the `align*` environment SHOULD be used.
+    In most cases, the `align*` environment SHOULD be used instead.
 
 12. When using `align*`, the invocations
     `\begin{align*}` and `\end{align*}` MUST be on their own line.
