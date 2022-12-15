@@ -31,7 +31,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 
 2. Quotation marks MUST be
    [inputted correctly in LaTeX](https://tex.stackexchange.com/a/621924/76888).
-   You MUST NOT use type a literal quotation mark `"`.
+   You MUST NOT type a literal quotation mark `"`.
 
 3. Operators like `\sin` MUST be typeset correctly,
    either using builtin commands or using the `\operatorname` command.
