@@ -96,6 +96,9 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 
 16. Any mathematical variables MUST be enclosed in dollar signs,
     e.g. `let n=2022` is not acceptable and MUST be typeset as `let $n=2022$`.
+    This also includes constants like 1 used in a mathematical context,
+    e.g. `add 1 to both sides` is not acceptable and MUST be typeset as
+    `add $1$ to both sides`.
 
 ## Example
 
