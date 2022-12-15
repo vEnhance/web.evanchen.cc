@@ -56,7 +56,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 7. There SHOULD generally be spaces around binary operators
    and relations such as `+` or `=`,
    but these spaces MAY be omitted for short expressions.
-   The use of spacing MUST be symmetric, i.e. `$x =3$` is not acceptable.
+   The use of spacing MUST be symmetric, e.g. `$x =3$` is not acceptable.
 
 8. Delimiters of complex expressions SHOULD be balanced
    with `\left` and `\right`, or variants of `\big`.
