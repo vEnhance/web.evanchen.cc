@@ -35,6 +35,7 @@ Alphabetical, does not include song lyrics.
 
 ## {{ hl("processes", "Processes") }}
 
+- Ask for forgiveness, not permission.
 - Nobody should start to undertake a large project.
   You start with a small _trivial_ project,
   and you should never expect it to get large.
@@ -51,10 +52,15 @@ Alphabetical, does not include song lyrics.
   I wouldn't say anything.
   ([Eric Lander](https://en.wikipedia.org/wiki/Eric_Lander), paraphrased[^lander])
 - I told him that he cannot see the future
-  because there’s nothing there to see; it hasn't been built, yet.
+  because there's nothing there to see; it hasn't been built, yet.
+  The future is something that emerges as we build it,
+  even as we are thrown into it.
   ([Chris Peterson](https://mitadmissions.org/blogs/entry/choosing-to-become-yourself/))
 - Talk is cheap. Show me the code.
   ([Linus Torvalds](http://lkml.org/lkml/2000/8/25/132))
+- You only need other people to give you advice that surprises you.
+  That's why there are a lot of ski instructors and not many running instructors.
+  ([Paul Graham](http://paulgraham.com/before.html))
 
 [^lander]: From the USAMO 2021 awards ceremony.
 
