@@ -130,3 +130,9 @@ the given equation rewrites as
 \end{align*}
 By balls-and-urns the answer is $\binom{9+3}{3} = 220$.
 ```
+
+## Template
+
+For a self-contained example, see the
+[math olympiad proposal submission template](/upload/submission-template.tex)
+that I created for the USEMO.
