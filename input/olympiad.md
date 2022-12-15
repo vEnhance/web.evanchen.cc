@@ -160,6 +160,7 @@ of [my textbook][geombook].
 - <b>How to annoy Evan with LaTeX</b>
   {{ handout_link("LaTeXPetPeeve") }}
   A list of pet peeves in LaTeX.
+  See also [Evan's LaTeX style guide](latex-style-guide.html).
 
 - <b>OMO Spring 2014 Executive Report</b>
   {{ handout_link("OMOSpring14Report") }}
