@@ -237,7 +237,8 @@ Otherwise, follow the installation instructions at
 
 The main contributing factors are:
 
-- My typing speed is quite high, at around 650 characters per minute.
+- My typing speed is quite high; sometimes over
+  [750 characters per minute](https://monkeytype.com/profile/vEnhance).
 - NeoVim (see [L-11](#L-11)) is fast.
 - Several additional custom keyboard shortcuts specifically for TeX,
   see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
