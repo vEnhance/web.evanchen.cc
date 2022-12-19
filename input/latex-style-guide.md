@@ -49,6 +49,10 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
    - `Let $x_1, \dots, x_n$ be real numbers` is not correct and MUST be typeset
      as `Let $x_1$, \dots, $x_n$ be real numbers` instead.
 
+   Note that this is for _grammatical_ commas.
+   Obviously, mathematical commas like those in `$f(a,b)$` and `$\{a,b,c\}`
+   should still be in the dollar signs.
+
 6. There MUST NOT be extraneous spaces preceding punctuation
    or around dollar signs.
    Using two spaces after a sentence is OPTIONAL.
