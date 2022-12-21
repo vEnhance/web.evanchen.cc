@@ -85,8 +85,6 @@ are welcome to use this as an example.)
 
 If you do ask a letter for me, I need the following information.
 
-1. Ideally, ask at least a month in advance.
-   (If it's less than one month, you can still ask, but I may decline.)
 2. Please remind me which years I worked with you (in OTIS/MOP/SPARC/etc.).
    I have been doing this for so long that the years are all mixed
    up in my head, so I'd like to double-check!
@@ -99,23 +97,27 @@ If you do ask a letter for me, I need the following information.
    you are willing to share (drafts of essays are okay).
    This way, I can tailor my letter to complement
    what you've already written.
-6. State explicitly when the **deadline** is.
+6. Please also specify which email address you applied to the program with.
+7. Specify what "type" of letter I am writing, if applicable.
+   For example, colleges commonly distinguish between, say
+   "required" letters from a math teacher, or optional "supplements"
+   (see e.g. [MIT][mitsupp], second-to-last paragraph).
+   It is useful for me to know whether I am the main voice or if
+   I am expecting to add on to what other (usually more traditional)
+   teachers have to say.
+8. State explicitly when the **deadline** is.
 
 Additional technical instructions:
 
+- Ideally, ask at least a month in advance.
+  (If it's less than one month, you can still ask, but I may decline.)
+- Requests, and accompanying materials/info, must be sent **by email**.
+  Not Discord direct message. I can't keep track of those.
 - When inviting me to whatever application the school or program uses,
-  it's best if you invite the address evan at evanchen.cc.
-- _Exception_: for some reason, MathPrograms.org (which is used by REU's
-  and MIT PRIMES) does not seem to work well with my professional email.
-  You should use evanchen at mit.edu there.
-- Please also specify which email address you applied to the program with.
-- Specify what "type" of letter I am writing, if applicable.
-  For example, colleges commonly distinguish between, say
-  "required" letters from a math teacher, or optional "supplements"
-  (see e.g. [MIT][mitsupp], second-to-last paragraph).
-  It is useful for me to know whether I am the main voice or if
-  I am expecting to add on to what other (usually more traditional)
-  teachers have to say.
+  it's best if you invite the address `evan at evanchen.cc`.
+  - _Exception_: for some reason, MathPrograms.org (which is used by REU's
+    and MIT PRIMES) does not seem to work well with my professional email.
+    You should use `evanchen at mit.edu` there.
 - Usually, I will always submit letters
   at least a week in advance if you asked ahead of time.
   So if it's less than a week until the deadline and the letter I promised
