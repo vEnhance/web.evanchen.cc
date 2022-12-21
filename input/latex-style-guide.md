@@ -23,9 +23,10 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 
 ## Requirements
 
-1. Lines MUST be wrapped to be at most 100 characters long,
+1. Source lines MUST be wrapped to be at most 100 characters long,
    and SHOULD be wrapped to at most 80 characters long,
    except in situations where this is impossible (e.g. long URL).
+   (Note this is referring to lines in the _source code_, not the output.)
    When possible, line breaks SHOULD be inserted in natural places
    like the end of sentences, after commas, or between phrases and clauses.
 
