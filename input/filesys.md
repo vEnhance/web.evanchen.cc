@@ -80,7 +80,7 @@ Files are stored in folders.
 
 The simplest kind of file is a **text file** or **plain text file**,
 in which the data simply spells out text.
-For example if you had a file called "hello.txt",
+For example if you had a file called `hello.txt`,
 and its contents consisted of the 12 bytes "I am so cool",
 that would be a plain text file.
 Other examples:
@@ -93,7 +93,7 @@ Other examples:
 - This document being in Markdown is written in plain text format.
 - HTML is considered plain text too. It may not be particularly _intuitive_
   plain text with `<div>` and `</span>` everywhere,
-  but the encoding is at least human-comprensihible output.
+  but the encoding is at least human-comprehensible output.
 - Most configuration files like `*.yaml`, `*.cfg`, `*.rc` are
   usually in plain text format.
 - `*.txt` too I suppose :)
@@ -106,7 +106,7 @@ they don't technically need to be there.[^win]
     For _Windows_ users, you should be aware
     Windows not only hides file extensions by default from you,
     but also tries to intimidate you when you do try to change extensions,
-    e.g. "OMG changing the file extension might make the file unusable!"
+    e.g. "OMG changing the file extension might make the file unusable!!!"
     You can ignore this, because the file extension is just part of the file name
     that's customary (but not essential) in helping determine what kind of file is used.
     But it's better for learning to see the extensions, anyhow.
@@ -141,10 +141,14 @@ which you must understand.
 
 > **Important Principle: ANY text editor can edit ANY plain text file**.
 
-For example, I am a die-hard user of the Vim text editor.
+For example, I am a die-hard user of the
+[Vim text editor](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
 (But I don't recommend Vim for beginners unless you like trial by fire.)
-Others swear by VS Code, and still others by Emacs.
-There are simpler beginner editors too, like Sublime, Atom, Notepad++ and so on.
+Others swear by [VS Code](https://en.wikipedia.org/wiki/Visual_Studio_Code),
+and still others by [Emacs](https://en.wikipedia.org/wiki/Emacs).
+There are simpler beginner editors too, like
+[Sublime](https://www.sublimetext.com/),
+[Notepad++](https://notepad-plus-plus.org/), and so on.
 So yeah, there are quite a few.
 
 But the thing you need to understand is that choosing an editor does NOT
@@ -166,9 +170,9 @@ Suppose you give Monty a piece of paper called `beer.py` as follows:
 ```python
 n = 100
 while n >= 0:
-	print(f"{n} bottles of beer on the wall, {n} bottles of beer!")
-	print(f"Take it down, pass it around, {n-1} bottles of beer on the wall")
-	n -= 1
+  print(f"{n} bottles of beer on the wall, {n} bottles of beer!")
+  print(f"Take it down, pass it around, {n-1} bottles of beer on the wall")
+  n -= 1
 ```
 
 Monty will read these instructions, and happily begin singing
@@ -335,7 +339,7 @@ Just be aware that the suite is hiding from you that two unrelated process,
 the editing and the compiling, are happening.
 This will help you when/if you need to debug an issue.
 
-## hl("next", "Where next?") }}
+## {{ hl("next", "Where next?") }}
 
 If you're ready to start playing with code,
 [check out the tech support page](techsupport.html).
