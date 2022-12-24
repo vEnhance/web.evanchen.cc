@@ -53,7 +53,7 @@ I like the [FAQ from Euler Circle](https://eulercircle.com/faq/),
 which I've adapted for OTIS:
 
 > The traditional way admissions are competitive is
-> there are N applicants and M > ≪ N spaces available.
+> there are N applicants and M ≪ N spaces available.
 > That is **not** the case for OTIS, where M > N at present.
 > We dislike the idea of depriving students of an education;
 > we will certainly not take any pride in doing so,
