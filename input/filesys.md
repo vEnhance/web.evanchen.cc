@@ -147,8 +147,10 @@ For example, I am a die-hard user of the
 Others swear by [VS Code](https://en.wikipedia.org/wiki/Visual_Studio_Code),
 and still others by [Emacs](https://en.wikipedia.org/wiki/Emacs).
 There are simpler beginner editors too, like
+[gedit](https://en.wikipedia.org/wiki/Gedit),
+[Notepad++](https://notepad-plus-plus.org/),
 [Sublime](https://www.sublimetext.com/),
-[Notepad++](https://notepad-plus-plus.org/), and so on.
+and so on.
 So yeah, there are quite a few.
 
 But the thing you need to understand is that choosing an editor does NOT

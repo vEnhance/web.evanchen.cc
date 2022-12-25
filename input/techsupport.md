@@ -1,5 +1,5 @@
-title: Learning path
-header: One possible suggested learning path
+title: Tech learning path
+header: One possible tech learning path
 menu-position: 64
 indent: 1
 
