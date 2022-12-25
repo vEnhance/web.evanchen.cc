@@ -217,15 +217,18 @@ for some suggestions.
 
 ### {{ faq("L-12", "Which PDF viewer do you use?") }}
 
-[Zathura](https://pwmt.org/projects/zathura/).
-Evince and Skim are also good.
+I use [Zathura](https://pwmt.org/projects/zathura/).
+
+[Evince](https://en.wikipedia.org/wiki/Evince) and
+[Skim](<https://en.wikipedia.org/wiki/Skim_(software)>) are also good.
 
 ### {{ faq("L-13", "How did you get randomized hint order in your geometry textbook?") }}
 
 It's a bit of a hack, but here is [demo code](static/random-hints.tex)
 corresponding to the version used in my geometry book.
-Dennis Chen wrote a more sophisticated version
-[as a sty package on his GitHub](https://github.com/chennisden/scrambledenvs).
+
+Dennis Chen wrote a more sophisticated version `scrambledenvs`,
+[available on GitHub as chennisden/scrambledenvs](https://github.com/chennisden/scrambledenvs).
 If you have TeX Live 2021, you can just run `tlmgr install scrambledenvs`.
 Otherwise, follow the installation instructions at
 [this GitHub gist](https://gist.github.com/chennisden/84c2224b10f0b177e4726db0bec45381).
