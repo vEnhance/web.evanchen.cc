@@ -79,13 +79,13 @@ Some details about my setup:
 - Window manager: [i3](https://i3wm.org/),
   with [py3status](https://py3status.readthedocs.io/en/latest/index.html)
   and [rofi](https://github.com/davatorium/rofi)
-- Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- Browser: [qutebrowser](https://en.wikipedia.org/wiki/Qutebrowser)
 - [Browser homepage](static/browser-homepage.html)
   (click the timer to change target date)
-- Editor: [Vim](https://www.vim.org/)
+- Editor: [NeoVim](https://neovim.io/)
 - File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)
 - Monospace font: [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
-- MUA: [NeoMutt](https://neomutt.org/)
+- Mail user agent: [NeoMutt](https://neomutt.org/)
 - TeX distribution: [TeX Live](https://tug.org/texlive/)
 - Shell: [Fish](http://fishshell.com/),
   using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
