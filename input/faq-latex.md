@@ -13,7 +13,7 @@ You can think of LaTeX workflow as having three components:
 
 1. A **text editor** that you type your content into,
    like gedit, Sublime, Vim, or Emacs.
-   (See [tech briefing](filesys.html) for details.)
+   (See [tech briefing](filesys.html#editors) for details.)
 2. A **LaTeX compiler** (aka **LaTeX distribution**)
    that converts the source into a PDF.
    See question [L-10](#L-10) for recommendations.
@@ -49,11 +49,12 @@ But for frequent usage, there are downsides:
 More bluntly, just install LaTeX, you only have to do it once.
 
 Overleaf certainly has its uses; most notably, its strength is _collaboration_.
-For example, some of my colleagues do not know how to use Git or Dropbox,
-so it's easier for me to throw an Overleaf at them in that case
+For example, sometimes I have to work with colleagues that are too incompetent
+to learn how to use [Git](https://en.wikipedia.org/wiki/Git).
+In that case, it's easier for me to throw an Overleaf at them
 (and then use the underlying Git myself).
 Or, sometimes I am stuck on some library computer,
-making it impossible to install my own software.
+making it impossible to install my own software. That does happen.
 
 But I think it's not good for learning though, see the next question.
 
@@ -102,7 +103,7 @@ See examples in [FAQ L-9](#L-9).
 
 I use [moderncv](https://ctan.org/pkg/moderncv?lang=en).
 You can [download the TeX source of my CV](static/CV-example-source-2020.tex)
-(with slight modifications for presentability; not updated).
+(with slight modifications for simplicity; this link is not updated).
 
 ### {{ faq("L-7", "How do you get the LaTeX to auto-compile?") }}
 
@@ -192,17 +193,27 @@ You can also look at [Napkin source code](https://github.com/vEnhance/napkin/).
 
 ### {{ faq("L-10", "Which LaTeX distribution do you recommend?") }}
 
-MikTeX, MacTeX, and TeX Live for Windows, Mac, Linux, respectively.
+- Windows: [MikTeX](https://miktex.org/)
+- Mac: [MacTeX](https://www.tug.org/mactex/)
+- Linux: [TeX Live](https://en.wikipedia.org/wiki/TeX_Live),
+  almost certainly available from your package manager
+  (e.g. `pacman -S texlive-core` or `apt install texlive`)
 
-### {{ faq("L-11", "Which text editor do you use?") }}
+### {{ faq("L-11", "Which text editor do you use/recommend?") }}
 
-I use [Vim](https://www.vim.org/) with
+I use [NeoVim](https://neovim.io/) with
 [LaTeX Suite](http://vim-latex.sourceforge.net/index.php?subject=manual&title=Manual#user-manual).
 But that is a pretty advanced setup, so if you are a beginner,
 it may be overwhelming to learn Vim and LaTeX at the same time.
+
 For now, you may prefer to stick with whatever text editor you are used to.
 (Note that the editor does not need to be specific to LaTeX,
 [any source code editor will work](https://en.wikipedia.org/wiki/Source-code_editor).)
+
+If you _don't_ have a source code editor yet
+because you ignored my advice to [learn how to code](techspeech.html),
+then see the [FAQ X-6c](faq-linux.html#X-6c)
+for some suggestions.
 
 ### {{ faq("L-12", "Which PDF viewer do you use?") }}
 
@@ -215,17 +226,19 @@ It's a bit of a hack, but here is [demo code](static/random-hints.tex)
 corresponding to the version used in my geometry book.
 Dennis Chen wrote a more sophisticated version
 [as a sty package on his GitHub](https://github.com/chennisden/scrambledenvs).
-If you have TeX Live 2021, you can just run `tlmgr install scrambledenvs`. Otherwise, follow the installation instructions at [this GitHub gist](https://gist.github.com/chennisden/84c2224b10f0b177e4726db0bec45381).
+If you have TeX Live 2021, you can just run `tlmgr install scrambledenvs`.
+Otherwise, follow the installation instructions at
+[this GitHub gist](https://gist.github.com/chennisden/84c2224b10f0b177e4726db0bec45381).
 
 ### {{ faq("L-14", "How do you live-TeX your notes so quickly?") }}
 
 The main contributing factors are:
 
 - My typing speed is quite high, at around 650 characters per minute.
-- Vim (see [L-11](#L-11)) is fast.
+- NeoVim (see [L-11](#L-11)) is fast.
 - Several additional custom keyboard shortcuts specifically for TeX,
   see the vim folder in [my dotfiles](https://github.com/vEnhance/dotfiles).
-- I have conceal enabled in Vim, so I can read my source code more easily.
+- I have `conceal` enabled in Vim, so I can read my source code more easily.
 - I use latexmk to auto-compile ([L-8](#L-8)).
 
 I have been using Vim and LaTeX since I was a teenager,

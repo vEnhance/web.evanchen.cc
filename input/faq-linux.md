@@ -143,7 +143,7 @@ and so on.
 Also, Fish autocomplete is life-changing 🐟 ❤️ 🔥
 (zsh is good too I hear.)
 
-### {{ faq("X-6a", "Why Vim?") }}
+### {{ faq("X-6a", "Why (Neo)Vim?") }}
 
 Pretty similar to reasons I use Linux.
 
@@ -183,8 +183,27 @@ becomes a navigation tool like "go to end of line", "delete line",
 [More comprehensive.](https://stackoverflow.com/a/1220118)
 
 The main downside to Vim is that there is a learning curve.
-I paid that price long ago ;)
+I paid that price long ago 😉
 
 ### {{ faq("X-6b", "Emacs?") }}
 
 ¯\\\_(ツ)\_/¯
+
+### {{ faq("X-6c", "Editor recommendations for beginners?") }}
+
+Reproducing [from the learning path](techsupport.html#editors):
+
+For beginners, there are a _ton_ of "basic" text editors that
+support syntax highlighting and some basic quality-of-life features,
+and are simple to use.
+Some of the popular ones include
+
+- [FeatherPad](https://en.wikipedia.org/wiki/FeatherPad);
+- [Geany](https://en.wikipedia.org/wiki/Geany);
+- [gedit](https://en.wikipedia.org/wiki/Gedit);
+- [Notepad++](https://notepad-plus-plus.org/) (only Windows);
+- [Sublime](https://www.sublimetext.com/).
+
+[Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code)
+(abbreviated VS Code) is also extremely popular,
+although it's a bit more sophisticated than the beginner ones above.

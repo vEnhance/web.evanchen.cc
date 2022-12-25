@@ -1,5 +1,5 @@
-title: Filesys
-header: Filesystems overview
+title: Filesys concepts
+header: File systems: Concepts for beginners
 menu-position: 62
 indent: 1
 
@@ -141,22 +141,18 @@ which you must understand.
 
 > **Important Principle: ANY text editor can edit ANY plain text file**.
 
-For example, I am a die-hard user of the
-[Vim text editor](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
+For example, I am a die-hard user of
+[Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
 (But I don't recommend Vim for beginners unless you like trial by fire.)
 Others swear by [VS Code](https://en.wikipedia.org/wiki/Visual_Studio_Code),
 and still others by [Emacs](https://en.wikipedia.org/wiki/Emacs).
-There are simpler beginner editors too, like
-[gedit](https://en.wikipedia.org/wiki/Gedit),
-[Notepad++](https://notepad-plus-plus.org/),
-[Sublime](https://www.sublimetext.com/),
-and so on.
-So yeah, there are quite a few.
+There are simpler beginner editors too;
+some are listed in [the learning path](techsupport.html#editors).
 
 But the thing you need to understand is that choosing an editor does NOT
 rely on what _kind_ of file you are editing, as long as it's plain text.
 If you love Vim like me, you can use Vim for Python, for LaTeX, for C++, for
-Markdown, whatever you like. You do not need a different editor per workflow.
+Markdown, whatever you like. You do not need a different editor per file type.
 
 ### {{ hl("compile", "Compilers and interpreters") }}
 

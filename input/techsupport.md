@@ -1,4 +1,4 @@
-title: Tech learning path
+title: Learning path
 header: One possible tech learning path
 menu-position: 64
 indent: 1
@@ -80,6 +80,35 @@ and not programming languages in practice.
 (Pedants may argue they are _technically_ Turing-complete
 if abused enough, but why would you do that?)
 CSS is not a programming language either for similar reasons.
+
+## {{ hl("editors", "Picking an editor") }}
+
+For beginners, there are a _ton_ of "basic" text editors that
+support syntax highlighting and some basic quality-of-life features,
+and are simple to use.
+Some of the popular ones include
+
+- [FeatherPad](https://en.wikipedia.org/wiki/FeatherPad);
+- [Geany](https://en.wikipedia.org/wiki/Geany);
+- [gedit](https://en.wikipedia.org/wiki/Gedit);
+- [Notepad++](https://notepad-plus-plus.org/) (only Windows);
+- [Sublime](https://www.sublimetext.com/).
+
+[Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code)
+(abbreviated VS Code) is also extremely popular,
+although it's a bit more sophisticated than the beginner ones above.
+
+On the other extreme, the two most famous text editors in the
+world of hackers are [Vim](https://www.vim.org/)
+and [Emacs](https://en.wikipedia.org/wiki/Emacs).
+These editors are really powerful and efficient,
+but they take a long time to learn how to use
+(there is even a [video game for learning Vim](https://vim-adventures.com/)).
+Therefore, if you are just learning how to code,
+I would stay with a simpler editor to start
+to avoid learning too many things at once.
+Unless you don't mind learning multiple things at once,
+in which case you do you.
 
 ## {{ hl("advanced", "Advanced stuff (skip for now)") }}
 
