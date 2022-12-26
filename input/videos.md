@@ -1,37 +1,36 @@
-title: Twitch
+title: YouTube/Twitch
 header: Twitch Solves IMO Shortlist
 description: Evan records himself doing dumb stuff
-menu-position: 45
-indent: 1
+menu-position: 50
 
 ---
 
 <p>
 <table cellpadding="5">
 <tr>
-	<td align="center">
-	<a href="https://youtube.com/c/vEnhance">
-	<img src="static/logo-youtube.png" width="120">
-	</a>
-	<br />
-	<h3><a href="https://www.youtube.com/c/vEnhance">
-	youtube.com/vEnhance
-	</a></h3>
-	</td>
-	<td rowspan="2">
-	<iframe width="240" height="180" src="https://www.youtube.com/embed/videoseries?list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</td>
+  <td align="center">
+  <a href="https://youtube.com/c/vEnhance">
+  <img src="static/logo-youtube.png" width="120">
+  </a>
+  <br />
+  <h3><a href="https://www.youtube.com/c/vEnhance">
+  youtube.com/vEnhance
+  </a></h3>
+  </td>
+  <td rowspan="2">
+  <iframe width="240" height="180" src="https://www.youtube.com/embed/videoseries?list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </td>
 </tr>
 <tr>
-	<td align="center">
-	<a href="https://twitch.tv/vEnhance/">
-	<img src="static/logo-twitch.png" width="70">
-	</a>
-	<br />
-	<h3><a href="https://twitch.tv/vEnhance/">
-	twitch.tv/vEnhance
-	</a></h3>
-	</td>
+  <td align="center">
+  <a href="https://twitch.tv/vEnhance/">
+  <img src="static/logo-twitch.png" width="70">
+  </a>
+  <br />
+  <h3><a href="https://twitch.tv/vEnhance/">
+  twitch.tv/vEnhance
+  </a></h3>
+  </td>
 </tr>
 </table>
 </p>

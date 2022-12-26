@@ -1,8 +1,8 @@
-title: LaTeX Style
+title: LaTeX style
 header: Evan's LaTeX Style Guide
 description: Evan's LaTeX Style Guide
 indent: 1
-menu-position: 49
+menu-position: 66
 
 ---
 

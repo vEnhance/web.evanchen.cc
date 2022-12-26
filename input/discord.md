@@ -2,7 +2,7 @@ title: Discord
 header: vEnhance's Discord
 description: Link to Evan's personal Discord
 indent: 1
-menu-position: 48
+menu-position: 52
 
 ---
 
