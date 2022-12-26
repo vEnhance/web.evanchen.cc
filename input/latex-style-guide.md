@@ -44,15 +44,16 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 5. Grammatical commas and grammatical periods MUST NOT appear in inline math.
    For example:
 
-   - `Thus $x=3.$` is not acceptable and MUST be typeset as `Thus $x=3$.`.
-   - `$a,b,$ and $c$` is not acceptable and MUST be typeset
-     as `$a$, $b$, and $c$` instead.
-   - `Let $x_1, \dots, x_n$ be real numbers` is not correct and MUST be typeset
-     as `Let $x_1$, \dots, $x_n$ be real numbers` instead.
+   - `Thus $x=3.$` is not acceptable and MUST be typeset as `Thus $x=3$.`
+     instead.
+   - `$a,b,$ and $c$` is not acceptable
+     and MUST be typeset as `$a$, $b$, and $c$` instead.
+   - `Let $x_1, \dots, x_n$ be integers` is not acceptable
+     and MUST be typeset as `Let $x_1$, \dots, $x_n$ be integers` instead.
 
-   Note that this is for _grammatical_ commas.
-   Obviously, mathematical commas like those in `$f(a,b)$` and `$\{a,b,c\}`
+   Obviously, mathematical commas like those in `$f(a,b)$` and `$\{a,b,c\}$`
    should still be in the dollar signs.
+   This applies only to grammatical commas.
 
 6. There MUST NOT be extraneous spaces preceding punctuation
    or around dollar signs.
