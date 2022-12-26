@@ -25,7 +25,7 @@ using a scale I devised called **MOHS**.[^acronym]
 we now have an enormous **336-problem**
 [index of recent problems by subject and MOHS rating][rustam].
 In addition, the linked file also contains a hyperlink
-to each of the corresponding solution threads on Art of Problem Solving.
+to each of the corresponding solution threads on Art of Problem-Solving.
 
 [rustam]: https://drive.google.com/file/d/1G9a5f6EW9cIDw5rTMI46iLlc4UMs6KRW/view
 
@@ -47,7 +47,11 @@ To my knowledge they are not published anywhere.
 The _Math Magazine_ has recently resumed publishing yet another version
 of the problems and solutions of the olympiad.
 
-See some [statistics for recent years](exams/posted-usamo-statistics.pdf).
+### Recent statistics for USAMO
+
+[Download statistics for 2015-present (PDF)](exams/posted-usamo-statistics.pdf).
+
+### Problems and solutions to USAMO
 
 - USAMO 1996 [(problems and solutions)](exams/USAMO-1996-notes.pdf)
 - USAMO 1997 [(problems and solutions)](exams/USAMO-1997-notes.pdf)
