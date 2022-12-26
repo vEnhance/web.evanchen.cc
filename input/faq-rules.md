@@ -352,7 +352,7 @@ Also, the following is based on my knowledge of US law,
 and may not apply on an international basis.
 
 At the risk of stating the obvious: if you are using problems and
-solutions that are not by you, please attribute generously
+solutions that are not by you, **please attribute generously**
 to avoid plagiarism[^plagiarism].
 That's polite no matter what the law says.
 So the following is only about whether you can use a problem or solution at all:
