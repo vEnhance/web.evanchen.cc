@@ -36,6 +36,10 @@ you may visit the [beginner's page](wherestart.html),
 my [collection of handouts](olympiad.html),
 or my [archive of past problems and solutions](problems.html).
 
+Fellow Linux geeks can download my [GPG key][gpg]
+from [keyserver.ubuntu.com][ubuntu-key]
+or [keys.opengpg.org][opengpg-key].
+
 ---
 
 <img src="static/home-art.png" width="400" /><br />
@@ -65,10 +69,6 @@ which was published in 2016.
 
 Outside of math and teaching, Evan's hobbies include
 Korean pop dance, [Arch Linux, Hanabi and puzzle hunts](personal.html).
-
-Linux geeks can download my [GPG key][gpg]
-from [keyserver.ubuntu.com][ubuntu-key]
-or [keys.opengpg.org][opengpg-key].
 
 [ubuntu-key]: http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2911981b5d39118d80d782779474e9565d64c443
 [opengpg-key]: https://keys.openpgp.org/vks/v1/by-fingerprint/2911981B5D39118D80D782779474E9565D64C443
