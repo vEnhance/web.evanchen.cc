@@ -15,7 +15,8 @@ This is the homepage of Evan Chen (陳誼廷),
 known also as `vEnhance` on many websites.
 I'm an [MIT grad student](https://math.mit.edu/directory/profile.html?pid=2106)
 under [Wei Zhang](https://math.mit.edu/~wz2113/),
-and also a math olympiad coach on the side.
+and also a math olympiad coach and
+[YouTuber](https://www.youtube.com/c/vEnhance) on the side.
 
 My CV is [here](upload/public-CV.pdf).
 Here is a [list of my major coursework](upload/math-coursework.pdf)
@@ -31,9 +32,11 @@ and [WordPress](https://blog.evanchen.cc).
 You can also see my [personal page](personal.html) for trivia about myself.
 
 If you are a high school student interested in math olympiads,
-you should visit the [beginner's page](wherestart.html),
+you may visit the [beginner's page](wherestart.html),
 my [collection of handouts](olympiad.html),
 or my [archive of past problems and solutions](problems.html).
+
+---
 
 <img src="static/home-art.png" width="400" /><br />
 <small>The nine-point circle of $\triangle BIC$ is orthogonal to
