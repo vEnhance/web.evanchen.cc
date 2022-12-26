@@ -153,7 +153,7 @@ but all papers are read independently by at least two graders
 these graders must agree before a score is assigned.
 Then the top papers on each contest
 (anyone within one problem or so of an award or MOP invitation)
-are taken and re-graded again, independently, by a third grader.
+are re-graded again, independently, by a third (or fourth, ...) grader.
 Nearly all the graders are either past USAMO winners or IMO medalists
 or high-scorers of some national olympiad.
 
@@ -222,11 +222,13 @@ but only loosely.
 
 Nevertheless, students will often colloquially refer to
 the cutoffs by color as well,
-in a slight [abuse of terminology][abusenote].
-(For example, "blue cutoff" would mean the minimum score
-for an 11th grader to attend MOP through USAMO,
-even though this student could end up in any class group
-depending on the whims of the [assistant academic director](index.html).)
+in a slight [abuse of terminology][abusenote].[^colors]
+
+[^colors]:
+    For example, "blue cutoff" would mean the minimum score
+    for an 11th grader to attend MOP through USAMO,
+    even though this student could end up in any class group
+    depending on the whims of the [assistant academic director](index.html).
 
 Some students (not staff) even refer to the 5th cutoff
 in [CR-7](#CR-7) as the "pink" cutoff,
@@ -278,20 +280,22 @@ in which case the leader is expected to do any necessary translation.
 The idea is that the leaders try to make the best case
 they can from their student's work (while of course still being honest),
 while the coordinators for the problem try to maintain uniform fairness.
-We sometimes say jokingly that it's an "organized fight",
-with the analogy that leaders are defense attorneys
-and coordinators are prosecutors,
+
+We sometimes say jokingly that it's an "organized fight"
+(where leaders are defense attorneys and coordinators are prosecutors),
 but in practice it's a lot friendlier than this.
 I remember being a coordinator at the virtual IMO 2020 (problem 5),
-and there were quite a few cases where I offered a higher score
-than the leader asked for, because I managed to decipher
-a part of the student's paper that matched a rubric item.
-(It's quite a different experience having your country's six papers
-for each of six problems versus 100 papers of the same problem ---
-you start seeing the common patterns and similarities.)
+and in quite a few cases I offered a higher score than the leader,
+because I'd managed to decipher a part of the paper
+that matched a rubric item.[^pattern]
 On the other hand, it's not uncommon for leaders to spend a lot of effort
 trying to see how partial solutions of their students could be completed,
 particularly if the student's approach is novel or uncommon.
+
+[^pattern]:
+    It's quite a different experience having your country's six papers
+    for each of six problems versus 100 papers of the same problem ---
+    you start seeing the common patterns and similarities.
 
 [regulation]: https://www.imo-official.org/documents/RegulationsIMO.pdf
 [verhoeff]: https://www.win.tue.nl/~wstomv/publications/imo2002report.pdf
@@ -302,16 +306,17 @@ particularly if the student's approach is novel or uncommon.
 ### {{ faq("CR-11", "What is ISL / IMO Shortlist?") }}
 
 At every IMO, the jury is presented a list of about 30 problems,
-and select six of them to comprise the IMO.
-(The shortlist is in turn selected from all proposed problems,
-of which modern IMO's have a few hundred.
-The selection is nowadays much more competitive than back in early 2000s.)
+and select six of them to comprise the IMO.[^longlist]
 The list for each year is called the **IMO Shortlist**.
 
+[^longlist]:
+    The shortlist is in turn selected from all proposed problems,
+    of which modern IMO's have a few hundred.
+    The selection is nowadays much more competitive than back in early 2000s.
+
 The shortlist is typically divided into four categories
-Algebra, Combinatorics, Geometry, Number Theory
-(with about 6-8 problems in each category)
-and spans IMO-easy to IMO-hard.
+Algebra, Combinatorics, Geometry, Number Theory of about 6-8 problems each,
+from IMO-easy to IMO-hard.
 The problems are numbered A1, A2, ... in loosely ascending difficulty;
 similarly the combinatorics problems are labeled C1, C2, ... and so on.
 (This means you can refer to a problem being "C8 level"
@@ -336,7 +341,59 @@ you should immediately report it.)
 Shortlisted problems from previous years of the IMO
 are extensively studied by top students,
 to the point where IMO team members from countries like the USA
-will often know from memory which problem "2011 G4" refers to, etc.
+will often know from memory which problem
+"[2011 G4](https://aops.com/community/p2739327)" refers to, etc.
+
+### {{ faq("CR-12", "How does copyright for contest problems work?") }}
+
+Here's my understanding of the situation, though this should be taken with a
+freaking bucket of salt since I am not a lawyer.
+Also, the following is based on my knowledge of US law,
+and may not apply on an international basis.
+
+At the risk of stating the obvious: if you are using problems and
+solutions that are not by you, please attribute generously
+to avoid plagiarism[^plagiarism].
+That's polite no matter what the law says.
+So the following is only about whether you can use a problem or solution at all:
+
+- Copyright only protects the expression of an idea, not the idea itself.
+  Therefore, if you are paranoid about copyright law then
+  it's probably a good idea to at last change the wording of the problem.
+  (How much constitutes "enough" is unclear.)
+  [John Scholes did this for the old kalva site](https://prase.cz/kalva/).
+
+- Even if you use a problem statement verbatim,
+  there are certain limitations to copyright law that
+  prevent blatant abuse from copyright holders.
+  So if you quote a past USAMO problem on your public blog
+  before presenting your own solution,
+  you probably don't have to worry about getting sued for that.<br />
+  In the United States these are called
+  ["fair use"](https://en.wikipedia.org/wiki/Fair_use); other nations have
+  ["fair dealing"](https://en.wikipedia.org/wiki/Fair_dealing).
+  These laws are deliberately vague in some ways,
+  because they have to cover a lot of cases (hence lawyers exist).
+
+- I would probably not try to copy entire solutions verbatim,
+  either from AoPS or the official contest.
+  If I see a solution from someone else that I like,
+  I'll typically cite the original author of that solution,
+  but then write up the solution from scratch myself.
+
+And again, please attribute generously.
+If you copy a bunch of contest problems, change the wording completely,
+and then pass them off as your own work,
+that might technically avoid copyright infringement,
+but it's _definitely_ plagiarism
+(not to mention, obviously terrible manners).
+
+[^plagiarism]:
+    Confusingly, at least according to
+    [Cornell Law School](https://www.law.cornell.edu/wex/plagiarism),
+    plagiarism is not "directly" illegal in the United States;
+    instead, either another related law or contract is violated,
+    or consequences instead come from a school/institution/etc.
 
 [amc]: https://www.maa.org/math-competitions
 [usa2003]: upload/usamo-2003-rubric.pdf

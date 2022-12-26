@@ -49,11 +49,12 @@ I'm pretty cynical of it.
 The (buzz)word "research" itself is a red flag for me:
 it sounds like the kind of thing
 people want to say they've done, rather than want to do.
+
 I won't say it's always a bad idea,
 but I think you should really ask yourself
 what you are hoping to get out of it.
-(You should definitely _not_ attempt math research
-just because you see other people doing so.)
+You should definitely _not_ attempt math research
+because you see other people doing so.
 
 On the topic of research,
 some excerpts from [Euler Circle][euler] which I agree with:
@@ -190,10 +191,7 @@ Here's a few.
   and are worried that you are "missing out" or "behind" by not having done
   contests, then my advice would not be worry about it.
   The biggest hurdle will be getting acquainted with proof-writing,
-  which is a challenge, but one that everyone goes through.
-  (Sidenote: most colleges have some introductory proof classes.
-  I have fairly dim views of most that I have seen,
-  but I don't have a better suggestion.)
+  which is a challenge, but one that everyone goes through.[^proof]
   I wouldn't go as far to say that it's not worth it,
   just that (1) having immense problem-solving ability is not _that_ important,
   (2) you'll get mathematical maturity from the standard curriculum anyway over time,
@@ -215,6 +213,11 @@ And so on.
 In short, it depends on what you're hoping to get out of your time.
 The example scenarios above are totally black-and-white,
 but your situation is likely to be more complicated, say, a mix between these.
+
+[^proof]:
+    Sidenote: most colleges have some introductory proof classes.
+    I have fairly dim views of most that I have seen,
+    but I don't have a better suggestion.
 
 ### {{ faq("S-9", "What's the difference between high school contest math and undergraduate math?") }}
 

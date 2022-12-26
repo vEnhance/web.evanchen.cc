@@ -64,9 +64,9 @@ I will decline your request instead.[^support]
     tipped me off that one of my letters was "not doing me any favors" and
     warned me to delete it from my graduate school applications if possible.
     I am still grateful to him today since I would likely not have been
-    admitted to MIT's math PhD program otherwise. (Alas, this tip was
+    admitted to MIT's math PhD program otherwise. Alas, this tip was
     [too late for all the other schools](/static/grad-school-decisions.png),
-    as I had already finalized my application at that point.)
+    as I had already finalized my application at that point.
 
 [^support]:
     This is because I believe a good mentor should be

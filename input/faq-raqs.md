@@ -120,10 +120,12 @@ With all that being said, I am obliged to add on that the other
 huge thing that contests did for me was providing me access to one
 of the best peer groups out there. Most of the friends that I have
 today came in some way or other from the math contest circuit,
-even though many of them will certainly not be doing math as a career.
-(This doesn't technically relate to the question because it's not something
-I was "taught", but it would have been misleading of me to omit it;
-the social aspect of contests was huge for me.)
+even though many of them will certainly not be doing math as a career.[^social]
+
+[^social]:
+    This doesn't technically relate to the question because it's not something
+    I was "taught", but it would have been misleading of me to omit it;
+    the social aspect of contests was huge for me.
 
 ### {{ faq("R-4", "Would it help to have a tutor/mentor for olympiad math?") }}
 

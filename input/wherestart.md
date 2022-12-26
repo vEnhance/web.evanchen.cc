@@ -7,8 +7,7 @@ menu-position: 31
 ---
 
 This page is meant for people who don't have much
-past olympiad experience (or even proof experience)
-and are looking to get started with math olympiads.
+past olympiad/proof experience and are looking to get started.
 If you aren't interested in proof-based problems yet,
 then this page is not for you.
 Try checking [FAQ C-0](faq-contest.html#C-0)
@@ -87,13 +86,13 @@ To that end, here are some links to advice:
   by Larry W. Cusick.
 
 You don't need to get too caught up in these links;
-proof-writing will become more natural over time anyway as you solve more problems.
-So I would actually encourage you to continue doing practice problems
+proof-writing will become more natural over time as you solve more problems.
+So I would encourage you to continue doing practice problems
 or reading books at the same time as you are getting used to writing;
 these go hand-in-hand and I actually suspect it's counterproductive
-to try and practice writing in isolation.
+to try to practice writing in isolation.
 
-If it is possible, the best way is to have a friend or coach
+If possible, the best way is to have a friend or coach
 who can check your work and provide suggestions.
 But the supply of people willing to do this is admittedly very low,
 so most people are not so lucky to have access to feedback.
@@ -101,19 +100,24 @@ The second-best thing to do is write up your solution
 and post it on [AoPS contest index](https://aops.com/community/c13_contests);
 by [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law),
 wrong solutions are often exposed quite rapidly.
-You should also compare your solutions to existing ones.
+You should also compare your solutions to existing ones.[^sufficient]
 
-Of course, you should set your sights on becoming self-sufficient eventually.
-During an exam, you do not have access to feedback or other's solutions,
-so you need to be able to know when you've solved a problem!
+[^sufficient]:
+    Of course, you should set your sights on becoming self-sufficient eventually.
+    During an exam, you do not have access to feedback or other's solutions,
+    so you need to be able to know when you've solved a problem!
 
 If you want a book to follow, the one I grew up with was
-[Rotman's textbook](https://store.doverpublications.com/0486453065.html).
-It shares my philosophy that teaching proof-based classes by
-force-feeding set theory notation is not particularly helpful,
-and instead develops proof-writing by discussing real mathematical content
-from geometry, number theory, etc. rather than being overly focused
-on bookkeeping and formalism.
+[Rotman's Journey into Mathematics: An Introduction to Proofs][rotman].[^rnote]
+
+[rotman]: https://store.doverpublications.com/0486453065.html).
+
+[^rote]:
+    It shares my philosophy that teaching proof-based classes by
+    force-feeding set theory notation is not particularly helpful,
+    and instead develops proof-writing by discussing real mathematical content
+    from geometry, number theory, etc. rather than being overly focused
+    on bookkeeping and formalism.
 
 ## {{ hl("usa", "3. (For USA) United States Mathematical Talent Search and USEMO") }}
 
@@ -122,7 +126,7 @@ there is a nice proof-based contest called the [USAMTS](https://usamts.org/)
 which is a great way for beginners to get started.
 Things that make the USAMTS special:
 
-- It is a free, individual, online contest open to any students in USA.
+- It is a free, individual, online contest open to any students in the USA.
 - The problems are chosen to be quite beginner-friendly,
   though with a spectrum of difficulty each round.
 - This contest gives you a _full month_ to work on the problems
@@ -172,11 +176,13 @@ At some point (sooner rather than later),
 you also need to start just working through some past problems
 from recent years of contests.
 You can think of this as encountering problems in the wild.[^binder]
-[^binder]: I used to carry a binder with printouts
-of the IMO shortlist and check them off as I solved them.
+
+[^binder]:
+    I used to carry a binder with printouts
+    of the IMO shortlist and check them off as I solved them.
 
 In case you didn't know already,
-on Art of Problem Solving there is an
+on Art of Problem-Solving there is an
 [extensive archive of past problems](https://aops.com/community/c13_contests)
 from basically every competition under the sun,
 together with community-contributed solutions.

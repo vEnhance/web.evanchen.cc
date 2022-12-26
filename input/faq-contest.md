@@ -62,9 +62,8 @@ who previously have mostly done school-based mathematics:
   (e.g. [memorization][rusczyk]).
   Therefore, you need to learn material with a greater depth than school.
   (For example, in many American schools,
-  you are usually given a "recipe" for each exercise that
-  you simply carry out; in competitions,
-  you often invent recipes on the fly.)
+  you are usually given a "recipe" for each exercise to carry out;
+  in competitions, you often invent recipes on the fly.)
 
 - As you get experience, you will automatically start to
   know what deep understanding feels like.

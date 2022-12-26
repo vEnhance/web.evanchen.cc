@@ -7,9 +7,6 @@ indent: 1
 
 Once you've read [the previous page about what a file is](filesys.html),
 you can start learning more about the details.
-(Dumb math analogy: before studying math olympiad seriously,
-you should have seen enough that you can tell the difference
-between a geometry problem and a functional equation.)
 
 ## {{ hl("path", "Evan's suggested learning path") }}
 
@@ -41,7 +38,8 @@ here is Evan's tier list:
    I grew up on [this Python book](http://openbookproject.net/thinkcs/python/english3e/index.html)
    and recommend it;
    there are [tons of other free Python tutorials][nonpro].
-   (Note for experts: Python doesn't have type safety by default, but it can.)
+   (Note for experts: Python doesn't have type safety by default,
+   but [it can](https://docs.python.org/3/library/typing.html).)
 
 2. [TypeScript][typescript]: It actually compiles _to_ JavaScript,
    i.e. there is a program that accepts TypeScript input
@@ -77,9 +75,11 @@ Second-hand, I've also heard a lot of good things about [Go](https://go.dev/).
 Sidenote: HTML and LaTeX are
 [markup languages](https://stackoverflow.com/a/145179),
 and not programming languages in practice.
-(Pedants may argue they are _technically_ Turing-complete
-if abused enough, but why would you do that?)
-CSS is not a programming language either for similar reasons.
+CSS is not a programming language either for similar reasons.[^pedant]
+
+[^pedant]:
+    Pedants may argue they are _technically_ Turing-complete
+    if abused enough, but why would you do that?
 
 ## {{ hl("editors", "Picking an editor") }}
 

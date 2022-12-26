@@ -115,7 +115,7 @@ There are _counterexamples_, of course --- mainly for programs that use
 their own encoding system, rather than standard A=97, B=98, ...
 
 - Microsoft Word is one example, those documents use their own encoding that
-  doesn't make sense to the uninformed, so only Word-like can really edit it.
+  doesn't make sense to the uninformed, so only Word can really edit it.
   (It's sort of like, you live in an English-speaking country,
   but Microsoft Word will only read/write documents in Ishkashimi language,
   thus forcing you to keep using Microsoft Word.)
