@@ -85,18 +85,19 @@ are welcome to use this as an example.)
 
 If you do ask a letter for me, I need the following information.
 
-2. Please remind me which years I worked with you (in OTIS/MOP/SPARC/etc.).
+1. Please remind me which years I worked with you (in OTIS/MOP/SPARC/etc.).
    I have been doing this for so long that the years are all mixed
    up in my head, so I'd like to double-check!
-3. Provide any recent math olympiad results,
+2. Provide any recent math olympiad results,
    like USAMO / TSTST / TST / IMO.
    (I may not use them, but I want to have them if I need them).
-4. **Is there anything in particular I should discuss?**
+3. **Is there anything in particular I should discuss?**
    In particular, how math-focused do you want me to be?
-5. Please **send me any application essays or completed forms**
+4. Please **send me any application essays or completed forms**
    you are willing to share (drafts of essays are okay).
    This way, I can tailor my letter to complement
    what you've already written.
+5. If I've written a letter for you in the past, please remind me about it.
 6. Please also specify which email address you applied to the program with.
 7. Specify what "type" of letter I am writing, if applicable.
    For example, colleges commonly distinguish between, say
