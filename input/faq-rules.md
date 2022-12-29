@@ -371,7 +371,8 @@ So the following is only about whether you can use a problem or solution at all:
   prevent blatant abuse from copyright holders.
   So if you quote a past USAMO problem on your public blog
   before presenting your own solution,
-  you probably don't have to worry about getting sued for that.<br />
+  you probably don't have to worry about getting sued for that.
+
   In the United States these are called
   ["fair use"](https://en.wikipedia.org/wiki/Fair_use); other nations have
   ["fair dealing"](https://en.wikipedia.org/wiki/Fair_dealing).
