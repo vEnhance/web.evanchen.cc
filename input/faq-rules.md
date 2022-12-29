@@ -312,7 +312,10 @@ The list for each year is called the **IMO Shortlist**.
 [^longlist]:
     The shortlist is in turn selected from all proposed problems,
     of which modern IMO's have a few hundred.
+    These problems comprise the so-called "IMO longlist".
     The selection is nowadays much more competitive than back in early 2000s.
+    In modern times, problems from the longlist that did not make the shortlist
+    are returned to the authors for use in other math competitions.
 
 The shortlist is typically divided into four categories
 Algebra, Combinatorics, Geometry, Number Theory of about 6-8 problems each,
