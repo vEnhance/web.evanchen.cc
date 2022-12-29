@@ -59,8 +59,7 @@ In addition to serving as the team selection coordinator for the United States,
 Evan runs his own [training program](otis.html) while
 [streaming olympiad math for public entertainment](videos.html).
 
-As a high school student, Evan was an
-IMO gold medalist
+As a high school student, Evan was an IMO gold medalist
 and a winner of the 2014 USA math olympiad,
 which he took from 12:30am to 5am in Taiwan.
 He also wrote the popular textbook
