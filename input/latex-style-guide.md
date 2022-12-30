@@ -106,8 +106,8 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
     e.g. `add 1 to both sides` is not acceptable and MUST be typeset as
     `add $1$ to both sides`.
 
-17. When specifying domains and ranges functions, use `\colon` instead of `:`,
-    e.g. `$f \colon \mathbb{R} \to \mathbb{R}$`.
+17. When specifying domains and ranges of mathematical functions,
+    use `\colon` instead of `:`, e.g. `$f \colon \mathbb{R} \to \mathbb{R}$`.
 
 ## Example
 
