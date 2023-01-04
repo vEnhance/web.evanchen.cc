@@ -6,13 +6,18 @@ indent: 1
 
 ---
 
-This page contains a list of referrals for math competition training at various levels.
+This page contains a list of referrals for
+math competition training at various levels.
 They are divided into two categories:
 
 - Small programs offering either 1:1 instruction or small group lessons; and
 - Individuals offering 1:1 instruction.
 
 The lists below are in alphabetical order.
+Larger programs (not in the categories above) are not included in this list.
+
+Suggestions for additions to this list (including self-nominations)
+are welcome.
 
 # {{ hl("programs", "Programs") }}
 
@@ -54,12 +59,3 @@ The lists below are in alphabetical order.
   [RMM](https://en.wikipedia.org/wiki/Romanian_Master_of_Mathematics_and_Sciences),
   among other things. However, I do not have personal experience in US specific
   olympiads such as AIME.
-
-## {{ hl("reed", "Reed LaFleche") }}
-
-- Contact: $\text{rslafleche}@\text{gmail}{.}\text{com}$
-- 1:1 instruction
-- My name is Reed LaFleche. I began my career in contest math taking the AMC my
-  junior year of high school (2010), qualified for the USAMO 2010 and 2011, and
-  attended MOP 2010. I graduated MIT with a degree in math in 2015 and have
-  since worked in engineering while continuing to learn math on my own time.
