@@ -79,6 +79,7 @@ of the problems and solutions of the olympiad.
 - USAMO 2019 [(problems and solutions)](exams/USAMO-2019-notes.pdf) [(Math Jam)](https://aops.com/school/mathjams-transcripts?id=491)
 - USAMOO 2020 [(problems and solutions)](exams/USAMO-2020-notes.pdf) [(video)](https://youtu.be/r7j0oRtpErA)
 - USAMO 2021 [(problems and solutions)](exams/USAMO-2021-notes.pdf) [(video)](https://youtu.be/9WNgDETHOlI)
+- USAMO 2022 [(problems and solutions)](exams/USAMO-2022-notes.pdf)
 - JMO 2010 [(problems and solutions)](exams/JMO-2010-notes.pdf)
 - JMO 2011 [(problems and solutions)](exams/JMO-2011-notes.pdf)
 - JMO 2012 [(problems and solutions)](exams/JMO-2012-notes.pdf)
@@ -91,6 +92,7 @@ of the problems and solutions of the olympiad.
 - JMO 2019 [(problems and solutions)](exams/JMO-2019-notes.pdf) [(Math Jam)](https://aops.com/school/mathjams-transcripts?id=491)
 - JMOO 2020 [(problems and solutions)](exams/JMO-2020-notes.pdf) [(video)](https://youtu.be/r7j0oRtpErA)
 - JMO 2021 [(problems and solutions)](exams/JMO-2021-notes.pdf) [(video)](https://youtu.be/9WNgDETHOlI)
+- JMO 2022 [(problems and solutions)](exams/JMO-2022-notes.pdf)
 
 ## {{ hl("tstst", "USA TST Selection Test (TSTST)") }}
 
@@ -174,7 +176,9 @@ the selection process for the USA IMO team.
   <tt style="font-size: 70%">GRE-G1 SVK-A2 IRN-C4 ARM-C2 MNG-N4 POL-G6</tt>
 - IMO 2019 [(problems and solutions)](exams/IMO-2019-notes.pdf) <br>
   <tt style="font-size: 70%">SAF-A1 UKR-G3 HRV-C5 SLV-N1 USA-C3 IND-G7</tt>
-- IMO 2020 [(problems and solutions)](exams/IMO-2020-notes.pdf) [(video)](https://youtu.be/JfRrlvbzKHk) <br>
+- IMO 2020 [(problems and solutions)](exams/IMO-2020-notes.pdf) [(video)](https://youtu.be/JfRrlvbzKHk)
+- IMO 2021 [(problems and solutions)](exams/IMO-2021-notes.pdf)
+- IMO 2022 [(problems and solutions)](exams/IMO-2022-notes.pdf)
 
 ## {{ hl("usemo", "USEMO") }}
 
