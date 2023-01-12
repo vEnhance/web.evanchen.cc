@@ -5,6 +5,8 @@ indent: 1
 
 ---
 
+This page is not a puzzle.
+
 ## {{ hl("own", "Evan's puzzles") }}
 
 ### Mystery Hunt 2021
@@ -25,6 +27,8 @@ These are also listed in [my devjoe page](http://devjoe.appspot.com/huntindex/au
 - [MOP 2021 puzzle hunt](https://mosp.evanchen.cc),
   a miniature one-round hunt
   written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
+- [MOP 2022 puzzle hunt](https://mosp.evanchen.cc),
+  directed by Luke Robitaille.
 
 ## {{ hl("new", "New to puzzle hunts?") }}
 
