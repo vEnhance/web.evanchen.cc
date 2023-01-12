@@ -7,14 +7,26 @@ description: Synopsis of my teaching for olympiad contestants.
 
 <img src="static/43616c76696e486f62626573.gif" width="100%" />
 
-OTIS is an olympiad training program for students
-aiming to do well on the USA(J)MO or similar level contests.
-It is designed for contestants who are
-comfortable reading and writing proofs
-and can usually qualify for national olympiad
-(for example, consistently 10+ on AIME for American contestants is fine).
+OTIS is an olympiad training program
+for contestants who can write proofs and qualify for national olympiad
+(e.g. consistently 10+ on AIME for the USA).
 Students at other levels may be interested in
 [my list of mentors and programs](mentors.html).
+
+# {{ hl("about", "About OTIS") }}
+
+- [Syllabus](upload/otis-syllabus.pdf), updated for 2022-2023
+- [List of topics][unitlist]
+- Example unit: [handout][sample-dny] and [solutions][sample-dnysol]
+- Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
+
+[sample-dny]: static/otis-samples/DNY-ntconstruct.pdf
+[sample-dnysol]: static/otis-samples/DNY-sol-ntconstruct.pdf
+[sample-jmo]: static/otis-samples/Exam-Sample-08-JMO.pdf
+[sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
+[sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
+[sample-zack]: static/otis-samples/zack-local.pdf
+[unitlist]: static/otis-samples/synopsis.html
 
 # {{ hl("excerpts", "The OTIS Excerpts") }}
 
@@ -24,6 +36,12 @@ based on materials for OTIS.
 This mini-book was named _The OTIS Excerpts_.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
+
+<center>
+<img src="static/otis-logo-v2022.svg" width="50%" />
+</center>
+
+---
 
 # {{ hl("apply", "Application &mdash; Year VIII") }}
 
@@ -60,22 +78,9 @@ which I've adapted for OTIS:
 > we will certainly not take any pride in doing so,
 > and will never release statistics.
 
-# {{ hl("about", "About OTIS") }}
+---
 
-## {{ hl("documents", "Documents") }}
-
-- [Syllabus](upload/otis-syllabus.pdf), updated for 2022-2023
-- [List of topics][unitlist]
-- Example unit: [handout][sample-dny] and [solutions][sample-dnysol]
-- Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
-
-[sample-dny]: static/otis-samples/DNY-ntconstruct.pdf
-[sample-dnysol]: static/otis-samples/DNY-sol-ntconstruct.pdf
-[sample-jmo]: static/otis-samples/Exam-Sample-08-JMO.pdf
-[sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
-[sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
-[sample-zack]: static/otis-samples/zack-local.pdf
-[unitlist]: static/otis-samples/synopsis.html
+# {{ hl("people", "People") }}
 
 ## {{ hl("staff", "Staff") }}
 
