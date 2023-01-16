@@ -43,6 +43,6 @@ Click to enlarge any of them.
 [![USAMO Awards](static/headshots/usamo2-thumb.jpg)](static/headshots/usamo2-full.jpg)
 </div>
 
-The below images are licensed under
+These images are licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
 essentially meaning you may use them freely provided attribution is given.
