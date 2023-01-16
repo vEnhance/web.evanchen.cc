@@ -362,7 +362,7 @@ So the following is only about whether you can use a problem or solution at all:
 
 - Copyright only protects the expression of an idea, not the idea itself.
   Therefore, if you are paranoid about copyright law then
-  it's probably a good idea to at last change the wording of the problem.
+  it's probably a good idea to at least change the wording of the problem.
   (How much constitutes "enough" is unclear.)
   [John Scholes did this for the old kalva site](https://prase.cz/kalva/).
 
