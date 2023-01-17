@@ -74,7 +74,7 @@ See [source code](https://github.com/vEnhance/web.evanchen.cc).
 
 ### {{ faq("P-8", "Pronouns?") }}
 
-Don't care, say whatever you want. Most people just use he/him.
+Don't care, use whatever comes naturally to you.
 
 ### {{ faq("P-9", "Gender identity?") }}
 
