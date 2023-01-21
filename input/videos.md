@@ -74,12 +74,11 @@ Software used on the stream includes:
 - White board via [Miro](https://miro.com)
 - Geometry diagrams using [GeoGebra Classic 5](https://wiki.geogebra.org/en/Reference:GeoGebra_Installation#GeoGebra_Classic_5_for_Desktop)
 - Music by [Pretzel Rocks](https://pretzel.rocks)
-- Soundboard with [Soundux](https://soundux.rocks/)
 - Stream overlays from [StreamLabs](https://streamlabs.com/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/) as web browser
 - [Nightbot](https://nightbot.tv) for !commands
 
-Hardware:
+Hardware in Boston HQ:
 
 - Gaming headset: Xiberia V22
 - Mechanical keyboard: Havit HV-KB395L
