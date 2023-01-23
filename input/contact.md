@@ -43,6 +43,9 @@ There are a few benefits to doing so:
 - It is easier to go back-and-forth in real time
   over Discord than over email.
 
+(Discord _direct messages_ to me are worse than emails,
+they do not have any of the above benefits and I am slower with them.)
+
 ## {{ hl("notes", "Some notes for emails") }}
 
 Here are some hints:
