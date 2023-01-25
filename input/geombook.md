@@ -49,6 +49,19 @@ Here is a freely available subset of the book:
   [Undergraduate Math 011: a firsT yeaR coursE in geometrY](textbooks/tr011ey.pdf),
   made for April Fool's Day 2019.
 
+## {{ hl("translations", "Translations") }}
+
+- **Chinese** translation at
+  [abebooks](https://www.abebooks.com/Euclidean-Geometry-Mathematical-OlympiadChinese-Edition-MEI/31089552348/bd)
+  and [amazon](https://www.amazon.com/Euclidean-Geometry-Mathematical-Olympiad-Chinese/dp/7560395880).
+  ISBN-10: 7560395880 / ISBN-13: 978-7560395883.
+- **Japanese** translation at
+  [nippyo.co.jp](https://www.nippyo.co.jp/shop/book/8967.html)
+  and [amazon.co.jp](https://www.amazon.co.jp/dp/4535789789).
+  ISBN-10: 4535789789 / ISBN-13: 978-4535789784.
+
+The contact email for translation proposals is reprint-permission [at] ams.org.
+
 ## {{ hl("errata", "Errata (aka selected solutions to Problem 11.0)") }}
 
 The errata list is now embarrassingly extensive. You can see:
