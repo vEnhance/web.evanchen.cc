@@ -23,8 +23,10 @@ or international mathematical olympiads.
 However, it has no prerequisites other than a good deal of courage:
 any student with proof experience
 should be able to follow the exposition.
+
 The book contains a selection of about 300 problems from around the world
 and is accompanied by about 250 figures.
+Some solutions are provided in [this solutions file][agest].
 
 I wrote this textbook while
 [serving time as a high school clerk][fillblank].
