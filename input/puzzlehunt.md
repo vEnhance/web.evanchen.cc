@@ -16,11 +16,20 @@ This page is not a puzzle.
 - [A Bit of Light](https://web.mit.edu/puzzle/www/2021/puzzle/a-bit-of-light/)
 - [Le chiffre indéchiffrable](https://web.mit.edu/puzzle/www/2021/puzzle/le-chiffre-indéchiffrable/)
 - [Clueless](https://web.mit.edu/puzzle/www/2021/puzzle/clueless/)
-- [Divided Is Us](https://web.mit.edu/puzzle/www/2021/puzzle/divided-is-us/)
+- [Divided Is Us](https://web.mit.edu/puzzle/www/2021/puzzle/divided-is-us/), with Jakob Weisblat
 - [Escape From Life](https://web.mit.edu/puzzle/www/2021/puzzle/escape-from-life/)
 - [The IMO Shortlist](https://web.mit.edu/puzzle/www/2021/puzzle/the-imo-shortlist/)
 
 These are also listed in [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
+
+### Mystery Hunt 2023
+
+- [Much Ado About Nothing](https://interestingthings.museum/puzzles/much-ado-about-nothing)
+- [Diagramless](https://puzzlefactory.place/office/diagramless), with Lumia Neyo.
+- [Circuit](https://puzzlefactory.place/basement/circuit), with Jacqui Fashimpaur.
+- [Zambonis](https://puzzlefactory.place/office/zambonis), with Catherine Wu, Nicholai Dimov, and Steven Silverman
+- [4D Geo](https://puzzlefactory.place/puzzles/4d-geo), with Austin Lei, Moor Xu, and Nathan Wong
+- [Flooded Caves](https://puzzlefactory.place/puzzles/flooded-caves), with Alex Gotsis and Cameron Montag
 
 ### MOP Mini-events
 
