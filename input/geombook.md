@@ -55,11 +55,11 @@ Here is a freely available subset of the book:
 
 - **Chinese** translation at
   [abebooks](https://www.abebooks.com/Euclidean-Geometry-Mathematical-OlympiadChinese-Edition-MEI/31089552348/bd)
-  and [amazon](https://www.amazon.com/Euclidean-Geometry-Mathematical-Olympiad-Chinese/dp/7560395880).
+  and [amazon](https://www.amazon.com/Euclidean-Geometry-Mathematical-Olympiad-Chinese/dp/7560395880).<br />
   ISBN-10: 7560395880 / ISBN-13: 978-7560395883.
 - **Japanese** translation at
   [nippyo.co.jp](https://www.nippyo.co.jp/shop/book/8967.html)
-  and [amazon.co.jp](https://www.amazon.co.jp/dp/4535789789).
+  and [amazon.co.jp](https://www.amazon.co.jp/dp/4535789789).<br />
   ISBN-10: 4535789789 / ISBN-13: 978-4535789784.
 
 The contact email for translation proposals is reprint-permission [at] ams.org.
