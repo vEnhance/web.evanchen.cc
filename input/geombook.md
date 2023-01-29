@@ -62,7 +62,8 @@ Here is a freely available subset of the book:
   and [amazon.co.jp](https://www.amazon.co.jp/dp/4535789789).<br />
   ISBN-10: 4535789789 / ISBN-13: 978-4535789784.
 
-The contact email for translation proposals is reprint-permission [at] ams.org.
+Contact `reprint-permission [at] ams.org` if you would be interested in
+a proposal for a translation into a different language.
 
 ## {{ hl("errata", "Errata (aka selected solutions to Problem 11.0)") }}
 
