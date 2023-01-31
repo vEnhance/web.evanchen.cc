@@ -29,6 +29,11 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 ## {{ hl("general", "General") }}
 
+- <b>Unofficial syllabus for math olympiads</b>
+  {{ handout_link("Syllabus") }}
+  Rough informal guidance on what topics appear on math olympiads,
+  for people who are new to the scene.
+
 - <b>English</b> {{ handout_link("english") }}
   Notes on proof-writing style. These were used at MOP 2016,
   later updated March 2020.
@@ -138,11 +143,6 @@ of [my textbook][geombook].
   to arbitrary cyclotomic polynomials.
 
 ## {{ hl("misc", "Miscellaneous") }}
-
-- <b>Unofficial syllabus for math olympiads</b>
-  {{ handout_link("Syllabus") }}
-  Rough informal guidance on what topics appear on math olympiads,
-  for people who are new to the scene.
 
 - <b>Chinese Terminology Sheet</b>
   {{ handout_link("Chinese") }}
