@@ -52,18 +52,18 @@ here is Evan's tier list:
    [competitive programming](https://ioinformatics.org/)
    then you probably want to use this one.
 
-4. [Java][java]: It's a pretty wordy language.
+4. [JavaScript](https://www.destroyallsoftware.com/talks/wat):
+   Less recommended.[^js] I suggest TypeScript instead.
+   (Longer argument on [blog](https://blog.evanchen.cc/?p=1437).)
+
+5. [Java][java]: It's a pretty wordy language.
    I don't personally like it much, but I can see the appeal.
    The main reason it's still relevant to kids today is because
    of AP Computer Science A,
    but that class does a pretty bad job of teaching it anyway.
 
-5. [JavaScript](https://www.destroyallsoftware.com/talks/wat):
-   Please no.[^js] Use TypeScript instead.
-   (Longer argument on [blog](https://blog.evanchen.cc/?p=1437).)
-
 6. [PHP](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/):
-   Definitely no.
+   Please no.
 
 [python]: https://www.python.org/
 [typescript]: https://www.typescriptlang.org/

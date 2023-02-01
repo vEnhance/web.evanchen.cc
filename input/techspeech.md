@@ -27,6 +27,8 @@ see [FAQs on Linux](faq-linux.html).
 
 ---
 
+## Long speech
+
 If you found my website, you are presumably someone
 who likes learning and thinking.
 If you are such a person, and you don't know how to code,
@@ -111,8 +113,11 @@ And so on.
 To put it bluntly, not knowing how to code will severely cripple
 the space of things you're able to work on.
 
-If you're interested in reading more,
-read on about [files and folders](filesys.html).
+## Getting started
+
+- Read on about [files and folders](filesys.html).
+- See [the learning path](techsupport.html)
+  for advice about things like what language to work with.
 
 [^ioi]:
     The IOI is an algorithmic contest,
