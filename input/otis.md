@@ -61,7 +61,7 @@ Students from minorities and underrepresented groups are especially encouraged
 to apply. (I promise I don't bite.)
 Full financial aid is available for all applications received before the
 deadline and admissions is done in a need-blind manner.
-(You may also request financial aid for late applications.)
+You may also request financial aid for late applications.
 
 Admissions are only done to ensure students have sufficient mathematical
 background and writing ability --- meaning that you can read and write proofs
