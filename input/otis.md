@@ -16,7 +16,7 @@ Students at other levels may be interested in
 # {{ hl("about", "About OTIS") }}
 
 - [Syllabus](upload/otis-syllabus.pdf), updated for 2022-2023
-- [List of topics][unitlist]
+- [List of topics][unitlist] (now featuring artwork)
 - Example unit: [handout][sample-dny] and [solutions][sample-dnysol]
 - Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 
