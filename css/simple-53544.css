@@ -27,68 +27,74 @@ SOFTWARE.
 */
 
 body {
-    font-family: "Mate", serif;
-    background-color: #f6f6f6; /* It's #5368C1 on KARL */
-    color: #121212;
-    max-width: 800px; /* Don't overwhelm large displays */
-    margin: 0 auto;
-    padding: 0;
-    display: block;
-    float: none;
-    font-size: 16px;
+  font-family: "Mate", serif;
+  background-color: #f6f6f6; /* It's #5368C1 on KARL */
+  color: #121212;
+  max-width: 800px; /* Don't overwhelm large displays */
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  float: none;
+  font-size: 16px;
 }
 
 strong {
-    color: #af1111;
+  color: #af1111;
 }
 
 blockquote {
-    margin-left: 40px;
-    margin-right: 56px;
+  margin-left: 40px;
+  margin-right: 56px;
 }
 
 /*
  * LINKS, IMAGES
  */
 
-a:link, a:visited
-{
-    color: #2188e0;
-    text-decoration: none;
+a:link,
+a:visited {
+  color: #2188e0;
+  text-decoration: none;
 }
 a:hover {
-    color: #006b57;
-    text-shadow: 0 0 5px #ff0;
-    text-decoration: underline;
+  color: #006b57;
+  text-shadow: 0 0 5px #ff0;
+  text-decoration: underline;
 }
 
-h1 a:link, h1 a:visited {
-    color: #3333FF;
+h1 a:link,
+h1 a:visited {
+  color: #3333ff;
 }
-h2 a:link, h2 a:visited {
-    color: #078a03;
+h2 a:link,
+h2 a:visited {
+  color: #078a03;
 }
-h3 a:link, h3 a:visited {
-    color: #a40f71;
+h3 a:link,
+h3 a:visited {
+  color: #a40f71;
 }
 #main img {
-    border: 0 none;
-    max-width: 100%;
+  border: 0 none;
+  max-width: 100%;
 }
 
 a.hash-link {
-    padding-left: 7px;
+  padding-left: 7px;
 }
-a.hash-link:link, a.hash-link:visited {
-    opacity: 15%;
+a.hash-link:link,
+a.hash-link:visited {
+  opacity: 15%;
 }
-a.hash-link:hover, a.hash-link:active {
-    opacity: 100%;
-    text-decoration: none;
+a.hash-link:hover,
+a.hash-link:active {
+  opacity: 100%;
+  text-decoration: none;
 }
 
-a.emoji-link:hover, a.emoji-link:active {
-    text-decoration: none;
+a.emoji-link:hover,
+a.emoji-link:active {
+  text-decoration: none;
 }
 
 /*
@@ -96,41 +102,40 @@ a.emoji-link:hover, a.emoji-link:active {
  */
 
 h1 {
-    display: block;
-    font-weight: normal;
-    letter-spacing: 1px;
-    font-size: 22px;
-    color: #3333FF; /* Bluish, matches link color */
-    font-weight: 500;
-    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
-
+  display: block;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 22px;
+  color: #3333ff; /* Bluish, matches link color */
+  font-weight: 500;
+  font-family: "Roboto Slab", serif;
 }
 h2 {
-    color: #004824;
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 6px;
-    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+  color: #004824;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 6px;
+  font-family: "Roboto Slab", serif;
 }
 h3 {
-    color: #450060;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+  color: #450060;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
 }
-h4{
-    margin-top: 6px;
-    margin-bottom: 4px;
-    font-size: 18px;
-    font-weight: 600;
+h4 {
+  margin-top: 6px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 600;
 }
-h5, h6 {
-    margin-top: 4px;
-    margin-bottom: 2px;
-    font-size: 16px;
-    font-weight: 500;
+h5,
+h6 {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: 500;
 }
-
 
 /*
  * ID'ed elements
@@ -139,180 +144,191 @@ h5, h6 {
  */
 
 #main {
-    padding: 5px;
-    border: 1px solid #2E8B57;
-    border-radius: 11px;
-    moz-border-radius: 11px;
-    -webkit-border-radius: 11px;
-    background-color: #B2FEE1; /* light green color */
-    margin-top: 12px;
-    margin-left: 0px;
+  padding: 5px;
+  border: 1px solid #2e8b57;
+  border-radius: 11px;
+  moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  background-color: #b2fee1; /* light green color */
+  margin-top: 12px;
+  margin-left: 0px;
 }
 
 #header {
-    background: none repeat scroll 0 0;
-    clear: both;
-    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
-    font-size: 24px;
-    line-height: 28px;
-    overflow: auto;
-    vertical-align: middle;
-    white-space: nowrap;
-    overflow: hidden;
-    background-color: #FAEBD7; /* red background */
+  background: none repeat scroll 0 0;
+  clear: both;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  line-height: 28px;
+  overflow: auto;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #faebd7; /* red background */
 
-    border-top: 5px solid #cccccc;
-    border-bottom: 5px solid #cccccc;
-    border: 3px solid #B22222;
-    border-radius: 11px;
-    -moz-border-radius: 11px;
-    -webkit-border-radius: 11px;
-    margin-top: 5px;
-    padding-left: 12px;
+  border-top: 5px solid #cccccc;
+  border-bottom: 5px solid #cccccc;
+  border: 3px solid #b22222;
+  border-radius: 11px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  margin-top: 5px;
+  padding-left: 12px;
 }
 #header a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #sitetitle {
-    text-align: left;
-    font-size: 40px;
-    position: relative;
-    top: 10px;
-    left: 3px;
-    margin: 0;
-    color: #FF6600; /* reddish, for head */
-    line-height: 2.4;
-    font-weight: 500;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: left;
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  left: 3px;
+  margin: 0;
+  color: #ff6600; /* reddish, for head */
+  line-height: 2.4;
+  font-weight: 500;
+  font-family: "Noto Serif TC", sans-serif;
 }
 
 #pagetitle {
-    font-weight: 700;
-    margin-left: 16px;
+  font-weight: 700;
+  margin-left: 16px;
 }
 
 #side {
-    border: 1px solid #6A5ACD;
-    border-radius: 11px;
-    -moz-border-radius: 11px;
-    -webkit-border-radius: 11px;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    background-color: #AFEEEE;
-    /* light blue background for side */
-    line-height: 20px;
-    padding: 12px;
-    margin-top: 12px;
+  border: 1px solid #6a5acd;
+  border-radius: 11px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  background-color: #afeeee;
+  /* light blue background for side */
+  line-height: 20px;
+  padding: 12px;
+  margin-top: 12px;
 }
 
 /* Brighten side box on hover */
 #side {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 #side:hover {
-    opacity: 1.0;
+  opacity: 1;
 }
-#side h4, #side h5, #side h6 {
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+#side h4,
+#side h5,
+#side h6 {
+  font-family: "PT Sans", sans-serif;
 }
 #side h4 {
-    font-weight: normal;
-    font-size: 16px;
+  font-weight: normal;
+  font-size: 16px;
 }
 #side h5 {
-    font-weight: normal;
-    font-size: 14px;
-    font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
 }
-#side h4 strong, #side h5 strong {
-    font-style: normal;
-    color: #7d0081;
+#side h4 strong,
+#side h5 strong {
+  font-style: normal;
+  color: #7d0081;
 }
 
 #email_box {
-    margin-top: 3px;
-    background-color: #87CEEB;
-    border-radius: 9px;
-    -moz-border-radius: 9px;
-    -webkit-border-radius: 9px;
-    border: 2px solid #48D1CC;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 80%;
-    width: 100%;
-    /*
-    width: 300px;
-    position: absolute;
-    left: 58%;
-    top: 70px;
-    */
+  margin-top: 3px;
+  background-color: #87ceeb;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border: 2px solid #48d1cc;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 80%;
+  width: 100%;
 }
 
 #navtitle {
-    color: blue;
-    font-weight: 700;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
+  color: blue;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+#latest_blog {
+  background-color: #abdeab;
+  font-family: "PT Sans", sans-serif;
 }
 
 /* ENTRY AND ENTRY WRAP */
 
 div.entry {
-    border-bottom: 1px dashed #cccccc;
-    margin-top: 16px;
-    overflow: hidden;
-    padding-bottom: 16px;
+  border-bottom: 1px dashed #cccccc;
+  margin-top: 16px;
+  overflow: hidden;
+  padding-bottom: 16px;
 }
 div.entrywrap {
-    background-color: #dedede;
-    border: 1px solid black;
-    margin: 8px;
-    overflow: auto;
-    padding-top: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 16px;
-    height: 99%;
-    border-radius: 7px;
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
-    border: 1px solid #000000;
+  background-color: #dedede;
+  border: 1px solid black;
+  margin: 8px;
+  overflow: auto;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 16px;
+  height: 99%;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border: 1px solid #000000;
 }
 
 /* Bootstrap monkey patching */
 
-a:link.btn, a:visited.btn {
-	color: #212529;
+a:link.btn,
+a:visited.btn {
+  color: #212529;
 }
-a:link.btn-primary, a:visited.btn-primary {
-	color: #fff;
+a:link.btn-primary,
+a:visited.btn-primary {
+  color: #fff;
 }
-a:link.btn-secondary, a:visited.btn-secondary {
-	color: #fff;
+a:link.btn-secondary,
+a:visited.btn-secondary {
+  color: #fff;
 }
-a:link.btn-success, a:visited.btn-success {
-	color: #fff;
+a:link.btn-success,
+a:visited.btn-success {
+  color: #fff;
 }
-a:link.btn-danger, a:visited.btn-danger {
-	color: #fff;
+a:link.btn-danger,
+a:visited.btn-danger {
+  color: #fff;
 }
-a:link.btn-warning, a:visited.btn-warning {
-	color: #212529;
+a:link.btn-warning,
+a:visited.btn-warning {
+  color: #212529;
 }
-a:link.btn-info, a:visited.btn-info {
-	color: #fff;
+a:link.btn-info,
+a:visited.btn-info {
+  color: #fff;
 }
-a:link.btn-light, a:visited.btn-light {
-	color: #212529;
+a:link.btn-light,
+a:visited.btn-light {
+  color: #212529;
 }
-a:link.btn-dark, a:visited.btn-dark {
-	color: #fff;
+a:link.btn-dark,
+a:visited.btn-dark {
+  color: #fff;
 }
 
 /* vim: expandtab
