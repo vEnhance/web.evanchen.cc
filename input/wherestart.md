@@ -168,7 +168,7 @@ and conversely, there are surely many fantastic resources
 that I have not even heard of.
 If you are looking for a list of materials which are
 "guaranteed to be enough" for solving IMO #1 and #4,
-then unfortunately I can't help you.)
+then unfortunately I can't help you.
 
 ## {{ hl("problems", "5. Problem sources") }}
 
