@@ -2,7 +2,14 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited 6 Feb 2023
+Last edited 9 Feb 2023
+
+To use the fonts specified in this stylesheet,
+add the following lines to your HTML preamble:
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,400&family=Mate&family=Noto+Serif+TC:wght@500&family=PT+Sans&family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
 
 Copyright (c) 2023 Evan Chen under MIT License
 
@@ -45,6 +52,11 @@ strong {
 blockquote {
   margin-left: 40px;
   margin-right: 56px;
+}
+
+pre,
+code {
+  font-family: "JetBrains Mono", monospace;
 }
 
 /*
