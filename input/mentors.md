@@ -17,7 +17,7 @@ The lists below are in alphabetical order.
 Larger programs (not in the categories above) are not included in this list.
 
 Suggestions for additions to this list (including self-nominations)
-are welcome.
+are welcome; send these by email.
 
 # {{ hl("programs", "Programs") }}
 
