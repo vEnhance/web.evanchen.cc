@@ -15,6 +15,7 @@ They are divided into two categories:
 
 The lists below are in alphabetical order.
 Larger programs (not in the categories above) are not included in this list.
+The descriptions are provided by the individuals, not by me.
 
 Suggestions for additions to this list (including self-nominations)
 are welcome; send these by email.
@@ -59,3 +60,13 @@ are welcome; send these by email.
   [RMM](https://en.wikipedia.org/wiki/Romanian_Master_of_Mathematics_and_Sciences),
   among other things. However, I do not have personal experience in US specific
   olympiads such as AIME.
+
+## {{ hl("raghav", "Raghav Aggarwal") }}
+
+- Contact: $\text{raghavaggarwal2005}@\text{gmail}{.}\text{com}$
+- Open to both 1:1 and group lessons.
+- Raghav has the expertise to create very strong fundamentals in
+  problem-solving. He runs lesson for students (of any origin) preparing for
+  both computational exams (MathCounts, AMCs, AIME etc.) and proof-based
+  olympiads. He is also open to any specific topic-teaching in math. He has a
+  very unique set of teaching skills which any student always dreamt of!
