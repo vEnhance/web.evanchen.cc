@@ -12,10 +12,10 @@ lecture handouts, textbooks, and so on.
 
 My two most major expository works.
 
-- My textbook [**Euclidean Geometry in Mathematical Olympiads**](geombook.html).
+- My textbook [Euclidean Geometry in Mathematical Olympiads](geombook.html).
   300 pages, published under _MAA Problem Book Series_ (by the AMS).
 
-- My personal exposition project [**An Infinitely Large Napkin**](napkin.html).
+- My personal exposition project [An Infinitely Large Napkin](napkin.html).
   Nearing 1000 pages. [See here for a listing of download links][wpnapkin].
 
 Please see the links above for more information.
