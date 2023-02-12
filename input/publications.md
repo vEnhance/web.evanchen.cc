@@ -10,13 +10,13 @@ lecture handouts, textbooks, and so on.
 
 ## {{ hl("major", "Major Writings") }}
 
-My two most major expository works.
+My two most major expository works have their own page at the right:
 
 - My textbook [Euclidean Geometry in Mathematical Olympiads](geombook.html).
   300 pages, published under _MAA Problem Book Series_ (by the AMS).
 
 - My personal exposition project [An Infinitely Large Napkin](napkin.html).
-  Nearing 1000 pages. [See here for a listing of download links][wpnapkin].
+  Nearing 1000 pages.
 
 Please see the links above for more information.
 
@@ -98,7 +98,6 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [sparc]: https://www.sparc-camp.org
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
 [ebook]: https://www.maa.org/ebooks/EGMO
-[wpnapkin]: https://blog.evanchen.cc/napkin/
 [arxiv-linnik]: https://arxiv.org/abs/1506.09170
 [arxiv-benford]: https://arxiv.org/abs/1507.02629
 [arxiv-grh]: https://arxiv.org/abs/1507.07122
