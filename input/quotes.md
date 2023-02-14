@@ -62,6 +62,13 @@ Alphabetical, does not include song lyrics.
   That's why there are a lot of ski instructors and not many running instructors.
   ([Paul Graham](http://paulgraham.com/before.html))
 
+## {{ hl("misc", "Miscellaneous") }}
+
+- I mean ... like... like, many people sometimes tell me, you should
+  finish StarCraft 2, you should retire. And maybe, you should give up...
+  But look at me now.
+  ([Oliveira after winning IEM Katowice 2023](https://www.youtube.com/watch?v=SknnGr_-KuI&t=35664s))
+
 [^lander]: From the USAMO 2021 awards ceremony.
 
 ![I suppose if we couldn't laugh at things that don't make sense,
