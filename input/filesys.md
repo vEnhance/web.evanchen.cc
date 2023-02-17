@@ -264,7 +264,7 @@ The orders and space arguments matters.
 The first word is almost always a verb,
 and everything that comes after it is an argument.
 This could be the name of a file as in our example,
-or it could be some other flag or parameter
+or it could be some other flag or parameter.
 This is one reason we avoid spaces in filenames,
 because it mucks all these commands up, requiring quotes.
 
