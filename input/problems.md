@@ -136,6 +136,7 @@ the selection process for the USA IMO team.
 
 ## {{ hl("imo", "International Math Olympiad") }}
 
+- IMO 1997 [(PDF)](exams/IMO-1997-notes.pdf) [(TeX)](exams/IMO-1997-notes.tex)
 - IMO 1998 [(PDF)](exams/IMO-1998-notes.pdf) [(TeX)](exams/IMO-1998-notes.tex)
 - IMO 1999 [(PDF)](exams/IMO-1999-notes.pdf) [(TeX)](exams/IMO-1999-notes.tex)
 - IMO 2000 [(PDF)](exams/IMO-2000-notes.pdf) [(TeX)](exams/IMO-2000-notes.tex)
