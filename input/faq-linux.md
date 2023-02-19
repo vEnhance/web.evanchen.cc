@@ -168,7 +168,7 @@ So when you are typing new text, Vim behaves much like a standard editor,
 with every keystroke adding one character.
 But when you are _editing_ or _moving_,
 instead _every keystroke is a command_ (no ctrl needed).
-Here's a picture of what my cheat sheet looks like:
+Here's a picture of what my cheat sheet looks like,
 [taken from vi-emu](https://boredzo.org/vi_tutorial/vi_tutorial-Dvorak-Color.pdf)
 (Dvorak keys):
 
