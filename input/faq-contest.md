@@ -435,7 +435,7 @@ work on whatever you feel like, planned or not.
 
 ### {{ faq("C-18", "Do I have to do EVERY problem from X?") }}
 
-No.
+[No](https://blog.evanchen.cc/2018/03/27/i-switched-to-point-based-problem-sets/).
 
 ### {{ faq("C-19", "Should I practice with hand-drawn or digital geo diagrams?") }}
 
