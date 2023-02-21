@@ -13,7 +13,9 @@ for contestants who can write proofs and qualify for national olympiad
 Students at other levels may be interested in
 [my list of mentors and programs](mentors.html).
 
-# {{ hl("syllabus", "Syllabus") }}
+# {{ hl("about", "About OTIS") }}
+
+## {{ hl("syllabus", "Syllabus") }}
 
 Updated for 2022-2023:
 
@@ -21,9 +23,9 @@ Updated for 2022-2023:
 [🗎 <b>DOWNLOAD SYLLABUS</b>](upload/otis-syllabus.pdf)
 </center>
 
-# {{ hl("about", "About OTIS") }}
+## {{ hl("docs", "Other documents") }}
 
-**Read the above syllabus first** if you don't know anything about OTIS.
+**Read the above syllabus first** if you're new to OTIS.
 
 - [List of topics][unitlist] (now featuring artwork)
 - Example unit: [handout][sample-dny] and [solutions][sample-dnysol]
@@ -37,7 +39,7 @@ Updated for 2022-2023:
 [sample-zack]: static/otis-samples/zack-local.pdf
 [unitlist]: static/otis-samples/synopsis.html
 
-# {{ hl("excerpts", "The OTIS Excerpts") }}
+## {{ hl("excerpts", "The OTIS Excerpts") }}
 
 Around the start of 2019, I posted publicly a
 [collection of 192 problems and solutions](excerpts.html)
