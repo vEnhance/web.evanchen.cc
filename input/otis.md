@@ -13,9 +13,18 @@ for contestants who can write proofs and qualify for national olympiad
 Students at other levels may be interested in
 [my list of mentors and programs](mentors.html).
 
+# {{ hl("syllabus", "Syllabus") }}
+
+Updated for 2022-2023:
+
+<center markdown="1">
+[🗎 <b>DOWNLOAD SYLLABUS</b>](upload/otis-syllabus.pdf)
+</center>
+
 # {{ hl("about", "About OTIS") }}
 
-- [Syllabus](upload/otis-syllabus.pdf), updated for 2022-2023
+**Read the above syllabus first** if you don't know anything about OTIS.
+
 - [List of topics][unitlist] (now featuring artwork)
 - Example unit: [handout][sample-dny] and [solutions][sample-dnysol]
 - Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
@@ -56,25 +65,17 @@ See the instructions for details about late application.
 ## {{ hl("prereq", "Who can apply") }}
 
 OTIS is open to anyone, including international students from all countries.
-Students from minorities and underrepresented groups are especially encouraged
-to apply. (I promise I don't bite.)
+Students from minorities and underrepresented groups
+are especially encouraged to apply. (I promise I don't bite.)
 Full financial aid is available for all applications
 (even late) and admissions is need-blind.
 
 Admissions are only done to ensure students have sufficient mathematical
 background and writing ability (due to sheer number of students,
 there is no "grading"), understand English,
-and are able to learn new material from Evan-style writing.
+and are able to learn from Evan-style writing.
 In particular, **admissions is not a merit-based competition**.
-I like the [FAQ from Euler Circle](https://eulercircle.com/faq/),
-which I've adapted for OTIS:
-
-> The traditional way admissions are competitive is
-> there are N applicants and M ≪ N spaces available.
-> That is **not** the case for OTIS, where M > N at present.
-> We dislike the idea of depriving students of an education;
-> we will certainly not take any pride in doing so,
-> and will never release statistics.
+See the application PDF for more details.
 
 ---
 
