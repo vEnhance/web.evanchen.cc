@@ -9,6 +9,8 @@ This page is not a puzzle.
 
 ## {{ hl("own", "Evan's puzzles") }}
 
+See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
+
 ### Mystery Hunt 2021
 
 - [Nutrition Facts](https://web.mit.edu/puzzle/www/2021/puzzle/nutrition-facts/)
@@ -19,8 +21,6 @@ This page is not a puzzle.
 - [Divided Is Us](https://web.mit.edu/puzzle/www/2021/puzzle/divided-is-us/), with Jakob Weisblat
 - [Escape From Life](https://web.mit.edu/puzzle/www/2021/puzzle/escape-from-life/)
 - [The IMO Shortlist](https://web.mit.edu/puzzle/www/2021/puzzle/the-imo-shortlist/)
-
-These are also listed in [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 
 ### Mystery Hunt 2023
 
