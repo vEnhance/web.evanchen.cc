@@ -387,7 +387,8 @@ especially if you happen to be tilted because
 So at some point I gave up on asking nicely, and now I just give this
 more blunt actionable piece of advice to sort of force people to do it.
 
-It's not for everyone. You should try it and on a few practice exams and see if it works for you.
+It's not for everyone.
+You should try it on a few practice exams and see if it works for you.
 
 ### {{ faq("C-16", "What grade should I aim to reach X goal by?") }}
 
