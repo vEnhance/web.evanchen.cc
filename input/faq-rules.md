@@ -250,10 +250,10 @@ and still in high school could qualify for IMO of year N+1.
 
 ### {{ faq("CR-9", "When are ties on USA(J)MO broken?") }}
 
-As of 2016, ties are generally only broken for USAMO winners,
+Between 2016 and 2019, ties are generally only broken for USAMO winners,
 since exactly 12 winners are invited to the state dinner.
-This did not occur in 2020 or 2021 (due to COVID)
-and I don't know if it will continue.
+This did not occur in 2020 or 2021 (due to COVID).
+Starting in 2022, the USAMO switched to a different medal system.
 
 ### {{ faq("CR-10", "How does coordination at IMO work?") }}
 
