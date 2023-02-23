@@ -112,7 +112,7 @@ If you want a book to follow, the one I grew up with was
 
 [rotman]: https://store.doverpublications.com/0486453065.html).
 
-[^rote]:
+[^rnote]:
     It shares my philosophy that teaching proof-based classes by
     force-feeding set theory notation is not particularly helpful,
     and instead develops proof-writing by discussing real mathematical content
