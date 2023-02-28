@@ -21,9 +21,8 @@ using a scale I devised called **MOHS**.[^acronym]
     The acronym stands from "math olympiad hardness scale",
     [pun fully intended](https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness).
 
-**New**: Thanks to the great work of Rustam Turdibaev and Olimjon Olimov,
-we now have an enormous **336-problem**
-[index of recent problems by subject and MOHS rating][rustam].
+In 2020, Rustam Turdibaev and Olimjon Olimov, compiled a **336-problem index**
+[of recent problems by subject and MOHS rating][rustam].
 In addition, the linked file also contains a hyperlink
 to each of the corresponding solution threads on Art of Problem-Solving.
 
