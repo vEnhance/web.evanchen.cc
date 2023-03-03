@@ -28,17 +28,13 @@ I think you should try them too!
 I am an avid fan of the
 [MIT mystery hunt](http://web.mit.edu/puzzle/www/huntsbyyear.html)
 and other puzzle hunt activities.
-I have participated in the MIT mystery hunt in 2017.
-These days, I usually hunt on ✈✈✈ Galactic Trendsetters ✈✈✈.
+Teams I've hunted with include ✈✈✈ Galactic Trendsetters ✈✈✈, teammate,
+and super team awesome.
 
-The two puzzle hunts that I worked most with were:
-
-- [2021 hunt](https://perpendicular.institute/):
-  highlights of mine include
-  [Le chiffre indéchiffrable](https://perpendicular.institute/puzzle/le-chiffre-indéchiffrable/)
-  [Clueless](https://perpendicular.institute/puzzle/clueless/),
-  [Divided Is Us](https://perpendicular.institute/puzzle/divided-is-us/).
-- The [2021 MOP mini-hunt](mop/2021.html).
+Hunts I contributed to include as a hunt author the
+[Mystery Hunt 2021](https://puzzles.mit.edu/2021/),
+[Mystery Hunt 2023](https://interestingthings.museum/),
+and the [2021 MOP mini-hunt](mop/2021.html).
 
 If you want to learn more about puzzle hunts,
 check the [dedicated page](puzzlehunt.html).
