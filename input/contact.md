@@ -43,8 +43,8 @@ There are a few benefits to doing so:
 - It is easier to go back-and-forth in real time
   over Discord than over email.
 
-(Discord _direct messages_ to me are worse than emails,
-they do not have any of the above benefits and I am slower with them.)
+Discord _direct messages_ to me are worse than emails;
+they do not have any of the above benefits, and I am slower with them.
 
 ## {{ hl("notes", "Some notes for emails") }}
 
@@ -70,8 +70,7 @@ Here are some hints:
   follow-up questions, permission requests,
   questions on my experiences, etc. I'm sure there's more.)
 
-  In particular, there's no need to send an email
-  [asking if you can ask a question](https://dontasktoask.com/). Just ask it.
+- [Don't ask to ask, just ask](https://dontasktoask.com/).
 
 ## {{ hl("problems", "Special instructions for particular problems") }}
 
@@ -92,15 +91,17 @@ Either way, if you _do_ ask about a math problem:
 ## {{ hl("advice", "Special instructions for study advice") }}
 
 If you are asking a question along the lines of "how do I improve at math contests",
-it is helpful to include as much specific information as possible.
+it is helpful to include as much specific information as possible[^sc].
 This usually means **mentioning examples of problems you could not solve**.
-(To draw an analogy, when people ask for advice in StarCraft,
-they are usually required to link a few recent replays,
-so the advice-giver can watch how they play and point out mistakes.)
 It's also helpful to talk about what you have already tried
 in terms of preparation.
 
-If you are able to, **please pick 3-10 examples of recent problems**
+[^sc]:
+    To draw an analogy, when people ask for advice in StarCraft,
+    they are usually required to link a few recent replays,
+    so the advice-giver can watch how they play and point out mistakes.
+
+If you are able to, **please pick 3–10 examples of recent problems**
 that you tried but could not solve.
 For each problem, reproduce the statement,
 and then describe your thought process and what you tried.
