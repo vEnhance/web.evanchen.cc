@@ -75,6 +75,7 @@ You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 
 This is a listing of the Top 3 scorers on each USEMO.
 Further results can be found at the links above.
+The list below is sorted alphabetically by first name (not by place).
 
 - USEMO 2019: Jaedon Whyte, Jeffrey Kwan, Luke Robitaille
 - USEMO 2020: Ankit Bisain, Gopal Goel, Noah Walsh
