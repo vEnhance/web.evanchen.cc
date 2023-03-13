@@ -79,6 +79,7 @@ Further results can be found at the links above.
 - USEMO 2019: Jaedon Whyte, Jeffrey Kwan, Luke Robitaille
 - USEMO 2020: Ankit Bisain, Gopal Goel, Noah Walsh
 - USEMO 2021: Eric Shen, Kristie Sue, Ram Goel (with Raymond Feng tying third place)
+- USEMO 2022: JunWen Huang, Krishna Pothapragada, Maximus Lu
 
 # {{ hl("volunteer", "Volunteer") }}
 
