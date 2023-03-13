@@ -34,7 +34,13 @@ to get a better sense for the goals of the competition.
 The USEMO is largely run on an honor system, although we may offer prizes.
 Please check the [full rules and procedures][rules].
 
-# {{ hl("current", "USEMO 2022") }}
+# {{ hl("current", "USEMO 2023") }}
+
+- We anticipate USEMO 2023 will be in early October.
+- Volunteers for grading are now open; see below.
+- Problem proposals are due May 10, 2023; see below for details.
+
+<!--
 
 - Registration opens early October
   on [AoPS portal](https://aops.com/contests/usemo/).
@@ -42,6 +48,8 @@ Please check the [full rules and procedures][rules].
 - Day I is Sat. **22 October 2022**, from 12:30pm ET to 5:00pm ET.
 - Day II is Sun. **23 October 2022**, from 12:30pm ET to 5:00pm ET.
 - [Download problems](exams/USEMO-2022.pdf)
+
+-->
 
 ## {{ hl("links", "Links and downloads") }}
 
@@ -87,12 +95,12 @@ The two biggest things we can use help with are:
   see also the [advice for problem captains][captain].
   <br>
   To sign up for grading,
-  [fill out this 2022 form](https://forms.gle/qKDptQ2GTpgCPrCN6).
+  [fill out this 2023 form](https://forms.gle/6qRjvaGxiEGya2jH6).
 
 - **Problem proposals**: we welcome proposals for problems
   from anyone who is not eligible for the contest.
   See the [problem proposal guidelines][propose].
-  For USEMO 2022, the deadline for submissions is **September 10, 2022**.
+  For USEMO 2023, the deadline for submissions is **10 May 2023**.
 
 Please contact the directors for details on these,
 or if you have other ideas on how you could help out.
