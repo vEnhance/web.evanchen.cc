@@ -43,6 +43,7 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 
 If you are totally new to puzzle hunts,
 [betaveros has a nice introduction](https://blog.vero.site/post/puzzlehunts).
+(Small quibble: _Alter Rivals_ actually took me a while to get.)
 You'll probably also want a copy of
 [a code reference sheet](upload/EvanPuzzleCodings.pdf) with you.
 
@@ -53,6 +54,7 @@ Nice beginner hunts:
 - [Brian Chen's Splash 2016 hunt](https://blog.vero.site/pdf/intro-puzzles.pdf),
   5 feeder puzzles and a pure metapuzzle (meaning the metapuzzle has no given
   content besides the feeder answers).
+- [MIT Aquarium Puzzle Hunt](https://puzzles.mit.edu/aquarium/)
 
 Some good beginner puzzles from more difficult hunts:
 
