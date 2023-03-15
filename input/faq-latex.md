@@ -79,7 +79,8 @@ or else click "Raw" and save the file.
 
 [Check Google.](https://www.google.com/search?q=where+to+put+latex+custom+package)
 Or [see Wikibooks](https://en.wikibooks.org/wiki/LaTeX/Creating_Packages#Creating_your_own_package).
-The source itself looks something like:
+
+Abridged summary: the source file itself looks something like:
 
 ```latex
 \documentclass[11pt]{article}
@@ -89,6 +90,29 @@ The source itself looks something like:
 \maketitle
 \end{document}
 ```
+
+Then you need to place `evan.sty` or similar somewhere LaTeX can find it.
+There are two ways you can do this:
+
+1. Place the file in the same directory as the file you're trying to compile.
+   In other words, if the file you're trying to compile is `/path/to/document.tex`
+   then place `evan.sty` in `/path/to/evan.sty`.
+
+   This is easy, but it has the major annoyance that you will end up
+   with a copy of `evan.sty` in a gazillion directories if you want to
+   use the file in multiple places.
+
+2. Place the file in LaTeX's directory.
+   This is trickier because the correct path depends on operating system,
+   but you only have to do it once.
+   Depending on your system, you may also have to update package database.
+
+   Some possible hints:
+
+   - [List of "default" directories on various systems](https://tex.stackexchange.com/a/1167/76888)
+   - [Instructions for TeX Live](https://tex.stackexchange.com/a/1138/76888)
+   - [Instructions for MikTeX](https://tex.stackexchange.com/a/2066/76888)
+   - [Registering to package database](https://tex.stackexchange.com/a/2066/76888)
 
 ### {{ faq("L-5", "How do I get the colored boxes and section headers with evan.sty?") }}
 
