@@ -91,9 +91,9 @@ participation as students denoted in parentheses.
 <div class="row" markdown="1">
 <div class="col-7" markdown="1">
 
-### Dictator
+### Game Master
 
-- [Evan Chen](https://web.evanchen.cc)
+- [Evan Chen](https://web.evanchen.cc), director
 
 ### Instructors
 
