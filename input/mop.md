@@ -299,7 +299,7 @@ Here are recent songs we performed:
 - Evan Chen: "I trust the Russians."
 - Holden Mui: "How many points do we get for misreading the problem?"
 - Jaedon Whyte: "Wait so Max is alive now? Sad."
-- Po-Shen Loh: "RA's means remote assitants this year."
+- Po-Shen Loh: "RA's means remote assistants this year."
 - Solutions packet for Test 7:
 	"By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
 	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
