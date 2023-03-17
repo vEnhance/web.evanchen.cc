@@ -73,6 +73,7 @@ and the back contains everyone's signature.
 
 <div class="chooser list-chooser" markdown="block">
 
+- [2022](static/mop/mockimo/2022.pdf)
 - [2021](static/mop/mockimo/2021.pdf)
 - [2020](static/mop/mockimo/2020.pdf)
 - [2019](static/mop/mockimo/2019.pdf)
