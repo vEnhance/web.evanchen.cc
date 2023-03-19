@@ -7,11 +7,9 @@ description: Synopsis of my teaching for olympiad contestants.
 
 <img src="static/43616c76696e486f62626573.gif" width="100%" />
 
-OTIS is an olympiad training program
-for contestants who can write proofs and qualify for national olympiad
-(e.g. consistently 10+ on AIME for the USA).
-Students at other levels may be interested in
-[my list of mentors and programs](mentors.html).
+OTIS is a proof-based olympiad training program.
+(Students not yet ready for proofs may be interested in
+[my list of mentors and programs](mentors.html).)
 
 # {{ hl("about", "About OTIS") }}
 
