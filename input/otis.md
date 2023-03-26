@@ -59,10 +59,9 @@ though some of the chapters are more challenging.
 
 ---
 
-# {{ hl("apply", "Application &mdash; Year IX") }}
+# {{ hl("apply", "Application &mdash; Year IX (2023-2024)") }}
 
-You may now apply for OTIS 2023-2024 (Year IX).
-The deadline is **August 1, 2023**.
+You may now apply for OTIS 2023-2024. The deadline is **August 1, 2023**.
 
 - [Application instructions and homework for fall 2023](upload/otis-app-ix.pdf)
 - [Submission URL for fall 2023]()
