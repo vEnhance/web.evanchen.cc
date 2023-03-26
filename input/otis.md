@@ -15,7 +15,7 @@ OTIS is a proof-based olympiad training program.
 
 ## {{ hl("syllabus", "Syllabus") }}
 
-Updated for 2022-2023:
+Updated for 2023-2024:
 
 <center markdown="1">
 [🗎 <b>DOWNLOAD SYLLABUS</b>](upload/otis-syllabus.pdf)
@@ -26,11 +26,18 @@ Updated for 2022-2023:
 **Read the above syllabus first** if you're new to OTIS.
 
 - [List of topics][unitlist] (now featuring artwork)
-- Example unit: [handout][sample-dny] and [solutions][sample-dnysol]
+- Example materials:
+
+  - B-level track [handout][sample-bcw] (easiest track)
+  - D-level track [handout][sample-dny] and [solutions][sample-dnysol]
+  - Z-level track [handout][sample-zgx] (hardest track)
+
 - Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 
 [sample-dny]: static/otis-samples/DNY-ntconstruct.pdf
 [sample-dnysol]: static/otis-samples/DNY-sol-ntconstruct.pdf
+[sample-bcw]: static/otis-samples/BCW-global.pdf
+[sample-zgx]: static/otis-samples/ZGX-weirdgeo.pdf
 [sample-jmo]: static/otis-samples/Exam-Sample-08-JMO.pdf
 [sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
 [sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
@@ -52,15 +59,14 @@ though some of the chapters are more challenging.
 
 ---
 
-# {{ hl("apply", "Application &mdash; Year VIII") }}
+# {{ hl("apply", "Application &mdash; Year IX") }}
 
-The regular deadline for 2022-2023 was August 1.
-Late applications are now open, and will remain open until April 15.
+You may now apply for OTIS 2023-2024 (Year IX).
+The deadline is **August 1, 2023**.
 
-See the instructions for details about late application.
-
-- [Application instructions and problems for fall 2022](upload/otis-app-viii.pdf)
-- [Submission URL for fall 2022](https://forms.gle/16Fp6LVeB1Zhsrgz5)
+- [Application instructions and homework for fall 2023](upload/otis-app-ix.pdf)
+- [Submission URL for fall 2023]()
+- [Financial aid request URL for fall 2023]()
 
 ## {{ hl("prereq", "Who can apply") }}
 
