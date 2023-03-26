@@ -36,7 +36,7 @@ are welcome; send these by email.
 ## {{ hl("tutorlyte", "Tutorlyte") }}
 
 - Primary contact: [Dylan Yu](https://yu-dylan.github.io/)
-  ($\text{dylanyu66}\texttt{@\text{}gmail}{.}\text{com}$)
+  ($\text{dylanyu66}\texttt{@}\text{gmail}{.}\text{com}$)
 - Website: [tutorlyte.github.io](https://tutorlyte.github.io/)
 - 1:1 instruction for now, may expand to group during summer
 - Tutorlyte is a tutoring program focused on helping students
