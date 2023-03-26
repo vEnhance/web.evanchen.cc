@@ -26,7 +26,7 @@ Updated for 2023-2024:
 **Read the above syllabus first** if you're new to OTIS.
 
 - [List of topics][unitlist] (now featuring artwork)
-- Example materials:
+- Example materials from each of the three difficulty tracks:
 
   - B-level track [handout][sample-bcw] (easiest track)
   - D-level track [handout][sample-dny] and [solutions][sample-dnysol]
