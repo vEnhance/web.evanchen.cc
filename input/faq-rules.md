@@ -221,14 +221,11 @@ with the first four bullets in [CR-7](#CR-7) in that order,
 but only loosely.
 
 Nevertheless, students will often colloquially refer to
-the cutoffs by color as well,
-in a slight [abuse of terminology][abusenote].[^colors]
-
-[^colors]:
-    For example, "blue cutoff" would mean the minimum score
-    for an 11th grader to attend MOP through USAMO,
-    even though this student could end up in any class group
-    depending on the whims of the [assistant academic director](index.html).
+the cutoffs by color as well, in a slight abuse of terminology.
+(For example, "blue cutoff" would mean the minimum score
+for an 11th grader to attend MOP through USAMO,
+even though this student could end up in any class group
+depending on the whims of the [assistant academic director](index.html).)
 
 Some students (not staff) even refer to the 5th cutoff
 in [CR-7](#CR-7) as the "pink" cutoff,
