@@ -195,7 +195,7 @@ based on the exact scores for that year.
 That being said, as of 2016 the criteria for MOP is _roughly_ as follows:
 
 - IMO team members (see [CR-1](#CR-1))
-- The next _approximately_ 12 non-graduating USAMO students
+- The next _approximately_ 18 non-graduating USAMO students
 - The next _approximately_ 12 USAMO students in 9th and 10th grades
 - The top _approximately_ 12 students on USAJMO
 - Some varying number of non-graduating female contestants from either USAMO or USAJMO
