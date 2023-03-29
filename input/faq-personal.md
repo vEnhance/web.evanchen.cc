@@ -81,6 +81,10 @@ Don't care, use whatever comes naturally to you.
 Cis-het. Though I defected to girl fashion because
 [guy fashion is idiotic](http://www.catb.org/jargon/html/S/suit.html).
 
+### {{ faq("P-10", "Subject preference in math contests?") }}
+
+`N ≥ G ≥ C > A ≫ FE`.
+
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
