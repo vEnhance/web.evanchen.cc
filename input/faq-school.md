@@ -10,7 +10,9 @@ These are FAQs about high school and college.
 
 ### {{ faq("S-1", "Why did you transfer from Harvard to MIT?") }}
 
-Short answer: mostly social reasons.
+Short answer: mostly social reasons,
+I'm [too nerdy for Harvard](https://www.thecrimson.com/article/2009/3/19/demise-of-the-nerds-for-generations/).
+
 Long answer: [See here](https://blog.evanchen.cc/2015/06/28/transferring/).
 
 ### {{ faq("S-2", "I'm interested in learning some higher math. Where can I start?") }}
@@ -226,6 +228,22 @@ From [my Instagram](https://www.instagram.com/p/Ck_29xFOlxV/):
 <a href="https://www.instagram.com/p/Ck_29xFOlxV/">
 <img src="/static/expectations-reality.png" width="400" />
 </a>
+
+### {{ faq("S-10", "What's the distinction between calculus and real analysis?") }}
+
+It's an Anglo-Saxon distinction; in
+[many parts of the world, there is no such thing as "calculus"](https://math.stackexchange.com/a/909866/229197).
+
+But to answer the question, calculus can be thought of as real analysis
+with proofs, definitions, and coherent theorem statements deleted.
+The link above gives some more details.
+
+If you're a proof-capable math student asking this question because you don't
+know which textbook to read, I would generally recommend the texts labeled
+"analysis". The books labeled "calculus" have a different target audience.
+You should not feel obligated to "learn calculus first".
+([Napkin](napkin.html) takes this approach, where the tongue-in-cheek
+"calculus 101" part has metric topology as a prerequisite.)
 
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
