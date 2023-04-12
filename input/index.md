@@ -31,9 +31,8 @@ I am on [GitHub](https://github.com/vEnhance/),
 [Twitch](https://twitch.tv/vEnhance),
 and [WordPress](https://blog.evanchen.cc).
 You can also see my [personal page](personal.html) for trivia about myself.
-Fellow Linux geeks can download my [GPG key][gpg]
-from [keyserver.ubuntu.com][ubuntu-key]
-or [keys.opengpg.org][opengpg-key].
+Fellow Linux geeks can download my [GPG key][gpg] from [ubuntu][ubuntu-key],
+[opengpg][opengpg-key], or [GitHub](https://github.com/vEnhance.gpg).
 
 If you are a high school student interested in math olympiads,
 you may visit the [beginner's page](wherestart.html),
