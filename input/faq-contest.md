@@ -483,6 +483,26 @@ Thus, if you find yourself surprised at being unable to solve a problem,
 your reaction should be something like
 "wow, this year's P2 is harder than usual".
 
+### {{ faq("C-21", "How should I prepare for the Putnam?") }}
+
+For the most part, preparation for Putnam looks similar to that for USAMO,
+except that [Euclidean geometry][geombook] is absent,
+while calculus, abstract algebra, and a bit of real analysis are fair game.
+Most non-geometry resources on this website should work equally well for Putnam.
+
+Format-wise, the most stark difference, in my opinion,
+is that the time controls for the Putnam are much faster.
+In each session, you have six problems to solve in three hours.
+(In contrast, the IMO gives three problems to solve in 4.5 hours.)
+So, the skill of deciding in five minutes whether to continue
+working on a problem or not is significantly more important.
+
+Finally, disclaimer: these days, many top-scoring Putnam students
+do not seriously prepare for the Putnam during the school year
+(and thus are relying on high-school training).
+Especially if you're someone who already did math olympiads in high school,
+I encourage you to not place more weight on the Putnam than it deserves.
+
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
