@@ -33,6 +33,7 @@ Click to enlarge any of them.
 [![IMO photo](static/headshots/imo-thumb.jpg)](static/headshots/imo-full.jpg)
 [![PC Janabel](static/headshots/janabel-thumb.jpg)](static/headshots/janabel-full.jpg)
 [![PC Janice](static/headshots/janice-thumb.jpg)](static/headshots/janice-full.jpg)
+[![PC Janice](static/headshots/janice2-thumb.jpg)](static/headshots/janice2-full.jpg)
 [![PC Jessica](static/headshots/jessica-thumb.jpg)](static/headshots/jessica-full.jpg)
 [![PC Kathy](static/headshots/kathy-thumb.jpg)](static/headshots/kathy-full.jpg)
 [![PC Marilyn](static/headshots/marilyn-thumb.jpg)](static/headshots/marilyn-full.jpg)
