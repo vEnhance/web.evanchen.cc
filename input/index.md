@@ -5,11 +5,13 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 ---
 
-<span style="float:left;padding:10px;">
-<img src="static/heart.jpg" width="180"/>
+<span style="float:right;padding:10px;">
+<a href="/static/headshots/janice2-full.jpg">
+<img src="https://web.evanchen.cc/static/top-self.jpg" width="180"/>
+</a>
 </span>
 
-> _信言不美，美言不信。_
+_信言不美，美言不信。_
 
 This is the homepage of Evan Chen (陳誼廷),
 known also as `vEnhance` on many websites.
@@ -19,12 +21,12 @@ and also a math olympiad [coach](otis.html),
 [volunteer](volunteer.html), and
 [YouTuber](https://www.youtube.com/c/vEnhance) on the side.
 
-My CV is [here](upload/public-CV.pdf).
-Here is a [list of my major coursework](upload/math-coursework.pdf)
-from undergraduate and graduate school.
-These days, I'm interested in number theory and combinatorics.
-My papers are linked on my [publications page](publications.html),
-and also on the [arXiv](https://arxiv.org/a/chen_e_2.html).
+In the boring real world,
+my research interests are in number theory and combinatorics.
+You can [download my CV](upload/public-CV.pdf),
+see my [publications](publications.html)
+and [research](https://arxiv.org/a/chen_e_2.html),
+or [read my university transcript](upload/math-coursework.pdf).
 
 I am on [GitHub](https://github.com/vEnhance/),
 [Instagram](https://www.instagram.com/evanchen.cc/),
