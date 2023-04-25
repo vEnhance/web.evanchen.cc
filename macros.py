@@ -88,10 +88,9 @@ def get_twitch_table():
                 src_url = f"https://github.com/vEnhance/evan-learns-ioi/tree/main/CodeForces/{pid}"
                 url = f"https://codeforces.com/contest/{pid[:-1]}/problem/{pid[-1]}"
             elif key.startswith("!Kattis"):
-                pid = key[7:].strip().lower()
+                pid = key[7:].strip().lower().replace(" ", "")
                 src_url = f"https://github.com/vEnhance/evan-learns-ioi/tree/main/Kattis/{pid}"
                 url = f"https://open.kattis.com/problems/{pid}"
-                pass
             else:
                 url = None
                 src_url = None
