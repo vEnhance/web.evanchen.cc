@@ -1,6 +1,6 @@
 import csv
 import datetime
-import os
+import json
 from pathlib import Path
 
 from git.repo import Repo
@@ -49,7 +49,12 @@ def page_footer(page) -> str:
 
 
 def get_twitch_table():
-    tsv_path = os.path.expanduser("~/ProGamer/Writeups/data.tsv")
+    tsv_path = Path.home() / "ProGamer/Writeups/data.tsv"
+    if not tsv_path.exists():
+        return "(Error: could not read Twitch table)"
+    with open(Path.home() / "youtube-tex/urls.json") as f:
+        url_dict = json.load(f)
+
     data = []
     with open(tsv_path) as f:
         reader = csv.DictReader(f, delimiter="\t")
@@ -61,7 +66,7 @@ def get_twitch_table():
     out = ""
     out += r'<table cellpadding="5">' + "\n"
     out += (
-        r"<tr><th>Episode</th><th>Problem</th><th>PDF</th><th>TeX</th><th>YouTube</th></tr>"
+        r"<tr><th>Episode</th><th>Problem</th><th>PDF</th><th>Src</th><th>YouTube</th></tr>"
         + "\n"
     )
 
@@ -70,28 +75,65 @@ def get_twitch_table():
         key: str = row["Source"]
         youtube = row["YouTube"]
 
-        basename = "Ep%03d" % int(n) + "-"
-        basename += key.replace(" ", "-").replace("/", "-").replace(".", "-")
-        basename += "-Solution"
-        basename_tex = basename + ".tex"
-        basename_pdf = basename + ".pdf"
-        filename = os.path.join(os.path.expanduser("~"), "youtube-tex", basename_tex)
+        if key.startswith("!"):  # coding problem
+            pdf_url = None
+            src_type = "git"
+            if key.startswith("!AtCoder"):
+                pid = key[8:].strip().replace(" ", "")
+                contest = pid[:-1].lower()
+                src_url = f"https://github.com/vEnhance/evan-learns-ioi/tree/main/AtCoder/{pid}"
+                url = f"https://atcoder.jp/contests/{contest}/tasks/{contest}_{pid[-1].lower()}"
+            elif key.startswith("!CodeForces"):
+                pid = key[11:].strip()
+                src_url = f"https://github.com/vEnhance/evan-learns-ioi/tree/main/CodeForces/{pid}"
+                url = f"https://codeforces.com/contest/{pid[:-1]}/problem/{pid[-1]}"
+            elif key.startswith("!Kattis"):
+                pid = key[7:].strip().lower()
+                src_url = f"https://github.com/vEnhance/evan-learns-ioi/tree/main/Kattis/{pid}"
+                url = f"https://open.kattis.com/problems/{pid}"
+                pass
+            else:
+                url = None
+                src_url = None
+            key = "💻" + key[1:]
+        else:
+            url = url_dict.get(key, None)
+            basename = "Ep%03d" % int(n) + "-"
+            basename += key.replace(" ", "-").replace("/", "-").replace(".", "-")
+            basename += "-Solution"
+            basename_tex = basename + ".tex"
+            basename_pdf = basename + ".pdf"
+            filename = Path.home() / "youtube-tex" / basename_tex
+            if filename.exists():
+                pdf_url = f"twitch/{basename_pdf}"
+                src_url = f"twitch/{basename_tex}"
+                src_type = "tex"
+            else:
+                pdf_url = None
+                src_url = None
+                src_type = None
 
         out += "<tr>"
-        out += "<td>Ep. %s</td>" % n
-        out += "<td>%s</td>" % key
-        if os.path.exists(filename):
-            out += '<td><a href="twitch/%s">(pdf)</a></td>' % basename_pdf
-            out += '<td><a href="twitch/%s">(tex)</a></td>' % basename_tex
+        out += "<td>Ep %s</td>" % n
+        if url is not None:
+            out += '<td><a href="%s">%s</a></td>' % (url, key)
         else:
-            out += "<td></td>" * 2
+            out += "<td>%s</td>" % key
+        if pdf_url is not None:
+            out += f'<td><a href="{pdf_url}">(pdf)</a></td>'
+        else:
+            out += "<td></td>"
+        if src_type is not None:
+            out += f'<td><a href="{src_url}">({src_type})</a></td>'
+        else:
+            out += "<td></td>"
         if youtube:
-            out += '<td><a href="%s">(youtube)</a></td>' % youtube
+            out += '<td><a href="%s">(video)</a></td>' % youtube
         else:
             out += "<td></td>"
         out += "</tr>" + "\n"
-    out += "</table>"
 
+    out += "</table>"
     return out
 
 
