@@ -206,7 +206,7 @@ Here are recent songs we performed:
 
 <div data-header="Singing troupe 2011" data-year="2011" class="hidden" markdown="1">
 - Defying Gravity, and parody
-	[Coordinate Bashing](https://web.evanchen.cc/static/sonnhard.pdf)
+  [Coordinate Bashing](https://web.evanchen.cc/static/sonnhard.pdf)
 - Do You Hear The People Sing, and parody *Do You Hear the Teapot Sing*
 - Finite Simple Group of Order Two
 - Memory
@@ -224,94 +224,94 @@ Here are recent songs we performed:
 
 <div data-year="2022" data-header="Quotes 2022" class="hidden" markdown="block">
 - Franklyn Wang: "Evan has contributed to a decrease in Resnik's reputation."<br>
-	Brandon Wang: "Evan is not solely responsible, right?
-	Others are also responsible."<br>
-	Franklyn Wang: "Yeah, like Resnik."
+  Brandon Wang: "Evan is not solely responsible, right?
+  Others are also responsible."<br>
+  Franklyn Wang: "Yeah, like Resnik."
 - Luke Robitaille: "I did not make ARML tiebreakers
-	as a 12-year-old this year."
+  as a 12-year-old this year."
 - Staff: "Let O be a point inside cyclic quadrilateral ABCD.
-	Diagonals AC and BD intersect at P.
-	Let X be the isogonal conjugate of B with respect to ODP.
-	Show that one of the two points X and B lies on BX."
+  Diagonals AC and BD intersect at P.
+  Let X be the isogonal conjugate of B with respect to ODP.
+  Show that one of the two points X and B lies on BX."
 - Also staff: "Alice says, 'you are a doofus'.
-	Bob says, 'no you'. Compute the total number of words exchanged."
+  Bob says, 'no you'. Compute the total number of words exchanged."
 - Milan Haiman: "This is a 2-page solution right?"<br>
-	Po-Shen Loh: "No, it's 15."
+  Po-Shen Loh: "No, it's 15."
 - Sign on the way to breakfast: "Statue removed for restoration."<br>
-	Espen Slettnes: "What statue? I don't see it."
+  Espen Slettnes: "What statue? I don't see it."
 - Andrew Lin: "There's nothing wrong with light mode."
 - Luke Robitaille: "Some people should sing louder.
-	This is Singing Troupe, not Singing Luke."
+  This is Singing Troupe, not Singing Luke."
 - Found on a fortune cookie:
-	"Hard work pays off in the future. Laziness pays off now."
+  "Hard work pays off in the future. Laziness pays off now."
 - Kevin Wu: "Their corn tastes more like their garlic bread
-	than their garlic bread does."
+  than their garlic bread does."
 - Franklyn Wang: "As Winston Churchill said during World War Two,
-	'If you’re going through hell, keep going.'
-	That’s what you do for this problem."
+  'If you’re going through hell, keep going.'
+  That’s what you do for this problem."
 - Evan Chen, while teaching class:
-	"I can't wait for class to end."
+  "I can't wait for class to end."
 - Rachel Zhang: "Evan's like, tiny, right?"
 - Henry Jiang: "I lose everything. One time I lost something,
-	and then someone picked it up, and then he lost it, so I found it again."
+  and then someone picked it up, and then he lost it, so I found it again."
 - Jeff Lin: "Teaching your four-year-old to drink is
-	like teaching your eight grader bary."
+  like teaching your eight grader bary."
 - Po-Shen Loh: "And I think this is a lesson we can all learn from,
-	especially for the IMO team:
-	when you do something, do it with full commitment."<br>
-	Luke Robitaille: "So basically, you're saying that a
-	full commitment is what you're thinking of?"
+  especially for the IMO team:
+  when you do something, do it with full commitment."<br>
+  Luke Robitaille: "So basically, you're saying that a
+  full commitment is what you're thinking of?"
 - Franklyn Wang: "Do piranha plants exist?
-	Or are they just a Mario thing?"
+  Or are they just a Mario thing?"
 - Holden Mui: "How’s the corn?"<br>
-	Po-Shen Loh: "It’s very dehydrated.
-	It’s like they forgot to add water."
-	Sophie Liu: "I described it as pieces of matter
-	that just so happen to be yellow."
+  Po-Shen Loh: "It’s very dehydrated.
+  It’s like they forgot to add water."
+  Sophie Liu: "I described it as pieces of matter
+  that just so happen to be yellow."
 - Derek Liu: "If four of you took 7 days to solve ELMO 6,
-	by pigeonhole one of you took only one day to solve it."
+  by pigeonhole one of you took only one day to solve it."
 - Cordelia Hu: "Any solution is a one-liner
-	if the line is sufficiently long."<br>
-	Evan Chen: "Aren't lines supposed to be infinite in length or something?"
+  if the line is sufficiently long."<br>
+  Evan Chen: "Aren't lines supposed to be infinite in length or something?"
 - "One day [Resnik] had corn, then the next day they had corn
-	with green beans, and you could clearly tell it was yesterday's corn.
-	Then the next day they had fried rice with corn and green beans."
+  with green beans, and you could clearly tell it was yesterday's corn.
+  Then the next day they had fried rice with corn and green beans."
 - Feodor Yevtushenko: "This rice tastes like rice except
-	one in every like 20 grains is uncooked."<br>
-	(Derek Liu: "Did you mean one in every 20 grains is cooked?")
+  one in every like 20 grains is uncooked."<br>
+  (Derek Liu: "Did you mean one in every 20 grains is cooked?")
 - Many people: "Mr. Turtle, Mr. Turtle, come out of your shell @Holden"
 - Brandon Wang: "A bunch of geo people are good at bashing;
-	then they are the committee and write problems that can’t be bashed;
-	then the students can’t bash; and the circle continues."
+  then they are the committee and write problems that can’t be bashed;
+  then the students can’t bash; and the circle continues."
 - Henry Jiang: "If you play a wrong note really loudly,
-	that's just called jazz."
+  that's just called jazz."
 - Jeff Chen: "It's not wrong, it's just misguided."
 - Jeff Chen: "Walking is nontrivially hard.
-	It's $O(n)$ effort, whereas sitting here is $O(1)$ effort"
+  It's $O(n)$ effort, whereas sitting here is $O(1)$ effort"
 - Jeff Chen: "I’m too high; I’m going to go run around."
 - Victoria Hu: "Oh yeah didn't u donate Raina to me at the airport?"
 - Debbie Lee: "I don't think Jane Street would appreciate
-	all their thousands of dollars going to fruit snacks."
+  all their thousands of dollars going to fruit snacks."
 - Derek Liu: "Dude, I haven't made a single haiku in all of MOP.
-	What the heck."
+  What the heck."
 </div>
 
 <div data-year="2021" data-header="Quotes 2021" class="hidden" markdown="block">
 - Alex Zhao: "Combo is only enjoyable when you can solve it."
 - Ethan Liu: "I kinda don't want to do any more math, I just want to do algebra"
 - Evan Chen: "I get crabby when people don't do what I tell them to.
-	It's why I can never have a boss."
+  It's why I can never have a boss."
 - Evan Chen: "I hate trying to be nice."
 - Evan Chen: "I'm Evan. I guess I'm a PhD student at MIT?"
 - Evan Chen: "Most problems require you to be awake."
 - Evan Chen: "Where's Po? I think I actually need him for once."
 - Holden Mui: "almost to 3 hours" (during office hours)
 - Jeffrey Chen: "Base times height is not area.
-	This is probably a useful fact to know."
+  This is probably a useful fact to know."
 - (right after) "Just to check, $\frac{K}{2a}$ is the height of a triangle, right?"
 - Jeffrey Chen: "Is fermented spit not fine?"
 - Noah Walsh: "The lesson I am learning from this is: when you see hard combo,
-	take a nap"
+  take a nap"
 - Raymond Feng: "OP STICK"
 - Serena Xu: "Panel topic: why don't you want to be a panelist?"
 </div>
@@ -325,81 +325,81 @@ Here are recent songs we performed:
 - Jaedon Whyte: "Wait so Max is alive now? Sad."
 - Po-Shen Loh: "RA's means remote assistants this year."
 - Solutions packet for Test 7:
-	"By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
-	squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
+  "By trying to make all three of $(x+1)(x+2)$, $(x+1)(x+3)$, $(x+2)(x+3)$
+  squares, we may try the substitution $x + 2 = \frac{(t^2+1)^2}{4t(t^2-1)}$."
 - Tristan Shin: "Proof: coordinates!"
 - William Yue: "That's just true by combo."
 </div>
 
 <style type="text/css">
 a img.tshirt {
-	width: 150px;
-	border: 2px grey solid;
-	border-radius: 5px;
-	margin: 7px 7px;
+  width: 150px;
+  border: 2px grey solid;
+  border-radius: 5px;
+  margin: 7px 7px;
 }
 a img:hover {
-	box-shadow: 0px 0px 35px #dddd33;
-	background-color: #eeee88;
+  box-shadow: 0px 0px 35px #dddd33;
+  background-color: #eeee88;
 }
 div.hidden {
-	display: none;
-	border: 2px solid #660000;
-	border-radius: 8px;
-	padding: 5px 5px;
-	background-color: #e4fbf9;
-	padding: 6px;
+  display: none;
+  border: 2px solid #660000;
+  border-radius: 8px;
+  padding: 5px 5px;
+  background-color: #e4fbf9;
+  padding: 6px;
 }
 
 .chooser {
-	text-align: center;
+  text-align: center;
 }
 div.chooser {
-	margin-top: -5px;
-	margin-bottom: 5px;
+  margin-top: -5px;
+  margin-bottom: 5px;
 }
 .chooser ul {
-	list-style: none;
-	padding: 0 10px 0 10px;
-	margin-bottom: 0px;
-	border-radius: 4px;
+  list-style: none;
+  padding: 0 10px 0 10px;
+  margin-bottom: 0px;
+  border-radius: 4px;
 }
 .list-chooser ul {
-	border: 2px dotted #0033dd;
+  border: 2px dotted #0033dd;
 }
 .empty-chooser ul {
-	border: 2px dotted #990099;
+  border: 2px dotted #990099;
 }
 .empty-chooser a:link {
-	color: #af2f2f;
+  color: #af2f2f;
 }
 .chooser ul > li {
-	display: inline;
+  display: inline;
 }
 .chooser ul > li:not(:last-child)::after {
-	content: " • ";
+  content: " • ";
 }
 </style>
 
 <script type="text/javascript">
 $(() => {
-	$('.list-chooser a').attr('target', '_blank');
-	$('.empty-chooser').html('<ul></ul>');
-	$(".hidden").each((index, el) => {
-		const heading = $(el).attr('data-header');
-		const h3 = $(`<h3>${heading}</h3>`);
-		const close = $(`<button type="button" class="close"
-		data-dismiss="alert" aria-label="Close">
-		<span aria-hidden="true">&times;</span>
-		</button>`);
-		h3.append(close);
-		close.on('click', () => { $(el).hide(); });
-		$(el).prepend(h3);
-		const year = $(el).attr('data-year');
-		const link = $(`<li><a href="javascript:void(0);">${year}</a></li>`);
-		const ambient = $(el).prevAll('.empty-chooser').first().find('ul');
-		ambient.append(link);
-		link.on('click', () => { $('.hidden').hide(); $(el).show(); });
-	});
+  $('.list-chooser a').attr('target', '_blank');
+  $('.empty-chooser').html('<ul></ul>');
+  $(".hidden").each((index, el) => {
+    const heading = $(el).attr('data-header');
+    const h3 = $(`<h3>${heading}</h3>`);
+    const close = $(`<button type="button" class="close"
+    data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>`);
+    h3.append(close);
+    close.on('click', () => { $(el).hide(); });
+    $(el).prepend(h3);
+    const year = $(el).attr('data-year');
+    const link = $(`<li><a href="javascript:void(0);">${year}</a></li>`);
+    const ambient = $(el).prevAll('.empty-chooser').first().find('ul');
+    ambient.append(link);
+    link.on('click', () => { $('.hidden').hide(); $(el).show(); });
+  });
 });
 </script>
