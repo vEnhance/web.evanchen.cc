@@ -144,7 +144,9 @@ As an example, here was the 2022 weekday timetable
 There is a lot of free time built into schedule, and this is intentional.
 Some examples of recent activities include singing troupe (see below),
 the double-elimination fish tournament, the plank countdown,
-trips to Waffallonia, dance tutorials, and too many water balloons.
+trips to Waffallonia, dance tutorials,
+live-action Mafia and StarCraft (both no longer banned),
+and too many water balloons.
 
 ## {{ hl("singing", "Singing troupe") }}
 
