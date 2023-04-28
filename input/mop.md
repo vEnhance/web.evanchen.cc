@@ -96,6 +96,8 @@ and the back contains everyone's signature.
 
 ## {{ hl("schedules", "Schedules") }}
 
+Here are calendars for recent years of MOP:
+
 <div class="chooser list-chooser" markdown="block">
 
 - [2022](static/mop/schedules/2022.pdf)
@@ -116,16 +118,16 @@ and the back contains everyone's signature.
 
 </div>
 
-As an example, here was the 2022 weekday timetable
+For more concrete times, here was the 2022 weekday timetable as an example
 (which should be read alongside the
-[2022](static/mop/schedules/2022.pdf) schedule).
+[2022 calendar](static/mop/schedules/2022.pdf)):
 
-- `07:00-09:00`: Breakfast
-- `09:00-10:30`: Morning class 1
-- `10:40-12:10`: Morning class 2
-- `12:10-13:20`: Lunch
+- `07:00-09:00` Breakfast
+- `09:00-10:30` Morning class 1
+- `10:40-12:10` Morning class 2
+- `12:10-13:20` Lunch
 - Exactly one of:
-  - `13:20-14:50`: Afternoon class, OR
+  - `13:20-14:50` Afternoon class, OR
   - `13:20-16:50` Mock olympiad / Team Selection Test, OR
   - `13:20-14:00` Assembly meeting (for announcements, etc.)
 - `17:00-20:00` Dinner hours
