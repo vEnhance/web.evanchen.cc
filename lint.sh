@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 readarray -t MARKDOWN_FILES_ARRAY < <(git ls-files '*.md')
 readarray -t SPELL_FILES_ARRAY < <(git ls-files)
 
