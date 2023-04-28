@@ -28,18 +28,18 @@ Evan Chen is sending you a private file,
 $(() => {
 
 async function digestMessage(message) {
-  const msgUint8 = new TextEncoder().encode(message);
-  const hashBuffer = await crypto.subtle.digest('SHA-512', msgUint8);
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-  return hashHex;
+const msgUint8 = new TextEncoder().encode(message);
+const hashBuffer = await crypto.subtle.digest('SHA-512', msgUint8);
+const hashArray = Array.from(new Uint8Array(hashBuffer));
+const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+return hashHex;
 }
 const url = new URL(window.location.href);
 const init_filename = url.searchParams.get('f');
 const target = url.searchParams.get('h');
 const salt = url.searchParams.get('s') || '';
 if (init_filename) {
-  $("#xfer_filename").val(init_filename);
+$("#xfer_filename").val(init_filename);
 }
 
 $("#xfer_password").on('focusout', async () => {
@@ -68,8 +68,7 @@ $("#xfer_password").on('focusout', async () => {
     $("#output").addClass("alert alert-primary")
     $("#output").html(
       `<h3 class="alert-heading">Here you go!</h3>`
-      + `<a href="xfer-payload/${h1}" `
-      + `download="${filename}" class="alert-link">`
+      + `<a href="xfer-payload/${h1}" download="${filename}" class="alert-link">`
       + `Download now (checksum ${checksum})</a>. `
       + `If you get a 404 error, check the password.`
     );
@@ -78,11 +77,9 @@ $("#xfer_password").on('focusout', async () => {
     $("#output").addClass("alert alert-success")
     $("#output").html(
       `<h3 class="alert-heading">Success!</h3>`
-      + `<a href="xfer-payload/${h1}" `
-      + `download="${filename}" class="alert-link">`
-      + `Download now</a>.`
-    );
-  }
+      + `<a href="xfer-payload/${h1}" download="${filename}" class="alert-link"> Download now</a>.`
+);
+}
 });
 
 });
