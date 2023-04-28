@@ -37,14 +37,6 @@ but the letter S was universally ignored by staff and students,
 and its omission became an ongoing gag.
 The S was finally officially deleted in 2017.
 
-## {{ hl("puzzle", "MOP Puzzle Hunt") }}
-
-[mosp.evanchen.cc](mosp.evanchen.cc) hosts:
-
-- A miniature one-round hunt written by
-  Evan Chen, Isabella Quan, Sanjana Das, and Serena An for MOP 2021.
-- A 2022 puzzle hunt led by Luke Robitaille.
-
 ## {{ hl("tshirt", "T-shirt designs") }}
 
 Traditionally, MOP T-shirts are printed in black on grey.
@@ -219,6 +211,14 @@ Here are recent songs we performed:
 - Wishing You Were Somehow Here Again
 - Wonderful
 </div>
+
+## {{ hl("puzzle", "MOP Puzzle Hunt") }}
+
+[mosp.evanchen.cc](mosp.evanchen.cc) hosts:
+
+- A miniature one-round hunt written by
+  Evan Chen, Isabella Quan, Sanjana Das, and Serena An for MOP 2021.
+- A 2022 puzzle hunt led by Luke Robitaille.
 
 ## {{ hl("quotes", "Quotes") }}
 
