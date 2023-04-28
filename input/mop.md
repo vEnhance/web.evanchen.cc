@@ -69,6 +69,7 @@ and the back contains everyone's signature.
 - The **Mock IMO** is run by staff using [ISL](faq-rules.html#CR-11);
   it also features a mock
   [coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
+  It's one of several practice tests run by the staff at MOP each year.
   You can download the problems here:
 
 <div class="chooser list-chooser" markdown="block">
@@ -84,7 +85,7 @@ and the back contains everyone's signature.
 </div>
 
 - The staff also provide **MOP homework** to work on before camp starts,
-  mostly for fun and so people have something to talk about at airport.
+  mostly for fun and so people have something to talk about at airports.
   Here are recent homework problems:
 
 <div class="chooser list-chooser" markdown="block">
@@ -98,6 +99,8 @@ and the back contains everyone's signature.
 - [2016](static/mop/homework/MOP2016HW.pdf)
 
 </div>
+
+---
 
 ## {{ hl("schedules", "Schedules") }}
 
@@ -121,7 +124,27 @@ and the back contains everyone's signature.
 
 </div>
 
----
+As an example, here was the 2022 weekday timetable
+(which should be read alongside the
+[2022](static/mop/schedules/2022.pdf) schedule).
+
+- `07:00-09:00`: Breakfast
+- `09:00-10:30`: Morning class 1
+- `10:40-12:10`: Morning class 2
+- `12:10-13:20`: Lunch
+- Exactly one of:
+  - `13:20-14:50`: Afternoon class, OR
+  - `13:20-16:50` Mock olympiad / Team Selection Test, OR
+  - `13:20-14:00` Assembly meeting (for announcements, etc.)
+- `17:00-20:00` Dinner hours
+- `19:15-20:00` Test review (presenting solutions to test problems)
+  OR seminar on higher math (optional)
+- `22:30-23:00` Evening check-in
+
+There is a lot of free time built into schedule, and this is intentional.
+Some examples of recent activities include singing troupe (see below),
+the double-elimination fish tournament, the plank countdown,
+trips to Waffallonia, dance tutorials, and too many water balloons.
 
 ## {{ hl("singing", "Singing troupe") }}
 
