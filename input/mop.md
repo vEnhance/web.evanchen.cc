@@ -132,7 +132,7 @@ For more concrete times, here was the 2022 weekday timetable as an example
   - `13:20-14:00` Assembly meeting (for announcements, etc.)
 - `17:00-20:00` Dinner hours
 - `19:15-20:00` Test review (presenting solutions to test problems)
-  OR seminar on higher math (optional)
+  OR seminar on higher math (both optional)
 - `22:30-23:00` Evening check-in
 
 There is a lot of free time built into schedule, and this is intentional.
