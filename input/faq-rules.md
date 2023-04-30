@@ -216,16 +216,19 @@ This is because the IMO selection process begins at MOP of the previous year.
 At MOP, there are often four tracks of classes and tests.
 The tracks are usually called Black, Blue, Green, Red
 as a convenient shorthand, a tradition started around 2002.
-The rosters for these classes correspond approximately
-with the first four bullets in [CR-7](#CR-7) in that order,
-but only loosely.
+Class assignments are based on of USAMO score, Team Selection Test rank,
+grade level, previous MOP attendance, RMM/EGMO score.
+(This is a _completely separate process_ from the invitation list. The
+invitations are _first_ sent according to [CR-7](#CR-7), and _then_ the class
+assignments are done by me weeks later.)
 
-Nevertheless, students will often colloquially refer to
-the cutoffs by color as well, in a slight abuse of terminology.
-(For example, "blue cutoff" would mean the minimum score
-for an 11th grader to attend MOP through USAMO,
-even though this student could end up in any class group
-depending on the whims of the [assistant academic director](index.html).)
+_Nevertheless_, because these groups are kind-of-sort-of in bijection
+with the first four bullets in [CR-7](#CR-7),
+students will often colloquially refer to the cutoffs by color as well,
+in an abuse of terminology that leads to endless confusion.
+For example, in Internet slang, "blue cutoff" would mean the minimum score
+for an 11th grader to be invited MOP through USAMO,
+even though this student could be placed in any class group.
 
 Some students (not staff) even refer to the 5th cutoff
 in [CR-7](#CR-7) as the "pink" cutoff,
@@ -238,10 +241,10 @@ hence I decided to explain its history here.
 
 Finally, I better explain that **color groups are not that important**.
 Once the USA students arrive at MOP, they are all treated equally in team selection:
-no matter their color group, past USA(J)MO score, gender, or what-have-you.
+no matter their color group, past USAMO score, gender, or what-have-you.
 The team selection is not based on a caste system.
-As a matter of principle, anyone attending MOP of year N
-and still in high school could qualify for IMO of year N+1.
+As a matter of principle, anyone attending MOP of year $N$
+and still in high school could qualify for IMO of year $N+1$.
 
 [abusenote]: https://en.wikipedia.org/wiki/Abuse_of_notation
 
