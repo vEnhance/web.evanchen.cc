@@ -151,6 +151,10 @@ knows much more than that.
 
 ### {{ faq("C-5", "How do I learn to write proofs?") }}
 
+There's an extremely verbose answer in the handout
+[Intro to Proofs for the Morbidly Curious](handouts/NaturalProof/NaturalProof.pdf)
+but here's a shorter answer:
+
 I don't think there's actually a leap between computation and proof-writing, and
 I actually suspect that thinking proof-writing is hard is most of what makes it hard.
 Reasons it might appear hard:
@@ -173,7 +177,7 @@ After this, my advice is
 2. Try writing up proofs to problems you think you've solved, and
 3. Get feedback on these solutions (from a mentor, on the forums, etc.).
 
-If you really want to follow a book, the one I grew up with was
+If you want to follow a book, the one I grew up with was
 [Rotman's textbook](https://store.doverpublications.com/0486453065.html).
 It shares my philosophy that teaching proof-based classes by
 force-feeding set theory notation is not particularly helpful,
