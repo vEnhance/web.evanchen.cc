@@ -34,8 +34,12 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   for people who are new to the scene.
 
 - <b>English</b> {{ handout_link("english") }}
-  Notes on proof-writing style. These were used at MOP 2016,
-  later updated March 2020.
+  Notes on proof-writing style.
+  These were used at [MOP](mop.html) in 2016, later updated March 2020.
+
+- <b>Intro to Proofs for the Morbidly Curious</b> {{ handout_link("NaturalProof") }}
+  An excessively long description of how mathematical proofs work
+  in theory and in practice.
 
 - <b>From the Author's Side: Thoughts on Problem Writing</b> {{ handout_link("ProblemWrite") }}
   A short philosophical blurb about writing problems
