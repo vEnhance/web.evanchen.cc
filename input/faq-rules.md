@@ -216,7 +216,7 @@ This is because the IMO selection process begins at MOP of the previous year.
 At MOP, there are often four tracks of classes and tests.
 The tracks are usually called Black, Blue, Green, Red
 as a convenient shorthand, a tradition started around 2002.
-Class assignments are based on of USAMO score, Team Selection Test rank,
+Class assignments are based on USAMO score, Team Selection Test rank,
 grade level, previous MOP attendance, RMM/EGMO score.
 (This is a _completely separate process_ from the invitation list. The
 invitations are _first_ sent according to [CR-7](#CR-7), and _then_ the class
@@ -248,7 +248,7 @@ and still in high school could qualify for IMO of year $N+1$.
 
 [abusenote]: https://en.wikipedia.org/wiki/Abuse_of_notation
 
-### {{ faq("CR-9", "When are ties on USA(J)MO broken?") }}
+### {{ faq("CR-9", "When are ties on the USA(J)MO broken?") }}
 
 Between 2016 and 2019, ties are generally only broken for USAMO winners,
 since exactly 12 winners are invited to the state dinner.
