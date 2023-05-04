@@ -130,3 +130,4 @@ there are too many; these are just ones I have seen recently.
   - [IMO Shortlist](https://imo-official.org/problems.aspx)
   - [Romania Masters in Mathematics](https://rmms.lbi.ro/)
   - [Sharygin](https://www.aops.com/community/c3372_sharygin_geometry_olympiad)
+  - [Tournament of Towns](https://aops.com/community/c3239)
