@@ -6,7 +6,7 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 ---
 
 <span style="float:right;padding:10px;">
-<a href="/static/headshots/janice2-full.jpg">
+<a href="https://www.instagram.com/p/CrZaUW8PMxY/">
 <img src="https://web.evanchen.cc/static/top-self.jpg" width="180"/>
 </a>
 </span>
