@@ -40,8 +40,13 @@ which is informally titled **Twitch Solves ISL** (here ISL is IMO Shortlists).
 I primarily live-solve math problems while talking to Twitch chat,
 but sometimes I'll play games on stream too.
 
-Past broadcasts are on [YouTube](https://youtube.com/c/vEnhance).
+Past broadcasts are on [YouTube](https://youtube.com/c/vEnhance),
 and we have a [Discord server](https://discord.gg/KzFXYwqRFX).
+
+Fan-made game: [Evan or HSO](https://incompleteusern.github.io/evanorhso/),
+in which you have to guess whether a certain string is the thumbnail
+of a _Twitch Solves ISL_ video or the title of an AoPS forum thread
+in the High School Olympiads forum.
 
 ## {{ hl("schedule", "Twitch schedule") }}
 
