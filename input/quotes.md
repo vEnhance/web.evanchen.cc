@@ -75,5 +75,5 @@ Alphabetical, does not include song lyrics.
 [^lander]: From the USAMO 2021 awards ceremony.
 
 ![I suppose if we couldn't laugh at things that don't make sense,
-we couldn't react to a lot of life.](static/calvin-hobbes-life.jpg){width=256px}
+we couldn't react to a lot of life.](static/calvin-hobbes-life.jpg){width=327px}
 {style="text-align:center;"}
