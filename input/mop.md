@@ -82,6 +82,7 @@ and the back contains everyone's signature.
 
 <div class="chooser list-chooser" markdown="block">
 
+- [2023](static/mop/homework/MOP2023HW.pdf)
 - [2022](static/mop/homework/MOP2022HW.pdf)
 - [2021](static/mop/homework/MOP2021HW.pdf)
 - [2020](static/mop/homework/MOP2020HW.pdf)
