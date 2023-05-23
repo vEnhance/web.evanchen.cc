@@ -129,7 +129,7 @@ For more concrete times, here was the 2022 weekday timetable as an example
 - `12:10-13:20` Lunch
 - Exactly one of:
   - `13:20-14:50` Afternoon class, OR
-  - `13:20-16:50` Mock olympiad / Team Selection Test, OR
+  - `13:20-17:50` Mock olympiad / Team Selection Test, OR
   - `13:20-14:00` Assembly meeting (for announcements, etc.)
 - `17:00-20:00` Dinner hours
 - `19:15-20:00` Test review (presenting solutions to test problems)
