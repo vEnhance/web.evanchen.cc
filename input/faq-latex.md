@@ -44,7 +44,7 @@ But for frequent usage, there are downsides:
   (besides manually making a copy of a package each time you need it).
 - It's slower, because you need to do repeated round-trips to an external server
   for compilation and viewing.
-- If you use Asymptote, any errors are silently discarded.
+- If you use [Asymptote](#L-8), any errors are silently discarded.
 
 More bluntly, just install LaTeX, you only have to do it once.
 
@@ -156,57 +156,8 @@ draw(unitcircle);
 \end{document}
 ```
 
-However, the setup to make this functional requires some work ---
-there is both a separate _installation_ process for Asymptote,
-and then a separate _compilation_ process to actually render the figures.
-
-First, one needs to install the Asymptote program itself
-(this is a separate program from LaTeX).
-Check the [installation instructions][asy-install].
-
-[asy-install]: https://asymptote.sourceforge.io/doc/Installation.html
-
-Once you have Asymptote installed, to integrate it with LaTeX,
-the compilation workflow requires three steps.
-
-1. Run PDFLaTeX on, say, `example.tex`.
-   This creates `example-N.asy` for the N'th diagram.
-2. You need to then run the Asymptote binary on `example-N.asy` to generate `example-N.pdf`.
-3. The diagram `example-N.pdf` then gets incorporated when you run PDFLaTeX again.
-
-In principle, you can run this three-step process by hand each time
-you change the diagrams of your figure.
-This is annoying though, so if you use `latexmk` you can automate this process
-by putting the provided
-[subroutine](https://raw.githubusercontent.com/vectorgraphics/asymptote/HEAD/doc/latexmkrc)
-into the `latexmkrc` configuration file.
-See the [LaTeX usage page](https://asymptote.sourceforge.io/doc/LaTeX-usage.html)
-for instructions on how to do this.
-
-If you use a web-based compiler like Overleaf,
-then things may not work so well since you do not have control
-over the compilation process.
-As mentioned in [L-2](#L-2a), my recommended solution is to
-not use web-based compilers.
-
-CJ Quines wrote a really nice
-[Asymptote preprocessor](https://github.com/cjquines/tsqx)
-where you can write something like
-
-```text
-~triangle A B C
-D ;= foot A B C
-E := midpoint A--B
-F' N = (rotate -30 E)(extension A (foot A B C) C E)
-
-circumcircle A B C / 0.2 lightgray /
-A--B--C--cycle
-A--D
-B--F' / dashed blue
-```
-
-to get [this figure](https://github.com/cjquines/tsqx),
-which makes it much easier to use.
+However, the setup to make this functional requires some work;
+I ended up creating a [separate page of instructions](asyguide.html).
 
 ### {{ faq("L-9", "Can I see some example source code?") }}
 
