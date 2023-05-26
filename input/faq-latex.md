@@ -138,6 +138,10 @@ and a PDF viewer that does not "lock" the PDF file from being written
 
 To fit `latexmk` into the framework we described,
 it is a "wrapper script" that calls the compiler for you.
+Matthias Geier has installation and usage instructions
+for `latexmk` in [mg.readthedocs.io][mg].
+
+[mg]: https://mg.readthedocs.io/latexmk.html
 
 ### {{ faq("L-8", "What do you use to typeset geometry diagrams?") }}
 
@@ -231,7 +235,7 @@ I [wrote my own database software in Python](https://github.com/vEnhance/von).
 
 Two things:
 
-- Read the source code of other people;
+- Read the source code of other people who know what they're doing;
 - Search on Google and [tex.SE](https://tex.stackexchange.com/).
 
 ### {{ faq("L-17", "How can I look up a symbol?") }}
