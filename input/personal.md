@@ -101,7 +101,7 @@ rather than QWERTY.
 - Favorite movie: [I Want My Hat Back][hat]
 - Favorite music group: [Dreamcatcher][dreamcatcher]
 - Favorite song: [Paradise SIYEON][paradise]
-- [Math contest photos and history](myscores.html)
+- [Math contest photos and history](history.html)
 - Myers-Briggs: INFJ-T, but see [criticism of the MBTI](https://en.wikipedia.org/wiki/Myers-Briggs_Type_Indicator#Criticism)
 - [Monkeytype: > 150wpm](https://monkeytype.com/profile/vEnhance)
 

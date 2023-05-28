@@ -56,7 +56,7 @@ I started training seriously starting in the 2009-2010 school year,
 when I was in eighth grade.
 I had participated casually the year before that.
 
-[See here for a listing of my contest history.][myscores]
+[See here for a listing of my contest history.][history]
 
 ### {{ faq("P-5", "Are you available to tutor my child in math contests?") }}
 
@@ -94,7 +94,7 @@ Cis-het. Though I defected to girl fashion because
 [howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [otis]: otis.html
 [mistakes]: https://www.artofproblemsolving.com/articles/stupid-mistakes
-[myscores]: myscores.html
+[history]: history.html
 [right]: https://artofproblemsolving.com/community/c5h520900
 [shower]: https://www.paulgraham.com/top.html
 [tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
