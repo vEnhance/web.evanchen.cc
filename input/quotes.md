@@ -9,17 +9,6 @@ indent: 1
 Some of my favorite quotes that stuck with me forever.
 Alphabetical, does not include song lyrics.
 
-## {{ hl("people", "People") }}
-
-- Ethics is informal politics. (own)
-- Everything before the word "but" is bullshit.
-- I don't believe in zero-sum games.
-  ([Scott Alexander](https://slatestarcodex.com/2015/01/01/untitled/))
-- I think it's really important to not have an opinion
-  on things you don't know much about.
-  ([Yi Sun](http://yisun.io/))
-- People only exist when you need them.
-
 ## {{ hl("design", "Design") }}
 
 - If it is possible to cut a word out, always cut it out.
@@ -64,6 +53,18 @@ Alphabetical, does not include song lyrics.
 - You only need other people to give you advice that surprises you.
   That's why there are a lot of ski instructors and not many running instructors.
   ([Paul Graham](http://paulgraham.com/before.html))
+
+## {{ hl("people", "People") }}
+
+- Ethics is informal politics. (own)
+- Everything before the word "but" is bullshit.
+- I don't believe in zero-sum games.
+  ([Scott Alexander](https://slatestarcodex.com/2015/01/01/untitled/))
+- I don't have time to hold grudges.
+- I think it's really important to not have an opinion
+  on things you don't know much about.
+  ([Yi Sun](http://yisun.io/))
+- People only exist when you need them.
 
 ## {{ hl("misc", "Miscellaneous") }}
 
