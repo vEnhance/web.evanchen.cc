@@ -24,7 +24,7 @@ are welcome; send these by email.
 
 ## {{ hl("athemath", "Athemath") }}
 
-- Primary contact: [Ali Cy](https://www.egmo.org/people/person1751/);
+- Primary contact: [Vivian Loh](https://www.egmo.org/people/person2122/)
   ($\text{president}\texttt{@}\text{athemath}{.}\text{org}$)
 - Website: [athemath.org](https://athemath.org);
 - 1:5 instruction for **nonbinary and female students only**.
