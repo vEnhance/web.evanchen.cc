@@ -50,6 +50,7 @@ Here is a freely available subset of the book:
 - _Parody version of entire book_: check out
   [Undergraduate Math 011: a firsT yeaR coursE in geometrY](textbooks/tr011ey.pdf),
   made for April Fool's Day 2019.
+- [Solutions to a lot of the problems][agest].
 
 ## {{ hl("translations", "Translations") }}
 
