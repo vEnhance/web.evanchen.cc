@@ -33,6 +33,22 @@ are welcome; send these by email.
   All teachers are female/nonbinary and MOPpers/MPfG winners.
   We are a nonprofit and our program costs only \$90 for 3 months.
 
+## {{ hl("pleiades", "Pleaides") }}
+
+- Primary contact: [Ram Goel](https://www.imo-official.org/participant_r.aspx?id=31808)
+  ($\text{pleiadesacad}\texttt{@}\text{gmail}{.}\text{com}$)
+- Website: [pleiades.academy](https://pleiades.academy/)
+- The math program is approximately 3:30 group tutoring
+  (3-4 teachers, 20-30+ students).
+- Pleiades Academy is a 12-week STEM training program created by 7 MIT
+  students who've participated in and won Olympiads and other competitions at
+  the international and national levels (medalists at IMO, IPhO, IOAA, STS
+  finalists, ISEF winners, etc.). Students will reach the next level of their
+  academic and Olympiad potential through rigorous coaching and assignments
+  while also meeting a community of like-minded peers.
+  We offer training in a variety of Olympiad subjects, including Math,
+  Computer Science, Physics, Astronomy, and Chemistry!
+
 ## {{ hl("tutorlyte", "Tutorlyte") }}
 
 - Primary contact: [Dylan Yu](https://yu-dylan.github.io/)
