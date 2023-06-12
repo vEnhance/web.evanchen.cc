@@ -109,7 +109,6 @@ participation as students denoted in parentheses.
 - [Noah Walsh][noah] (V-VI)
 - [Ram Goel][ramgoel] (V-VII)
 - [Rohan Goyal][rohan] (V)
-- [Sanjana Das][sanjana] (VI)
 - Zoltan Gyenes
 
 </div>
@@ -130,6 +129,7 @@ participation as students denoted in parentheses.
 [Michael Ren][mren] (I-II);
 [Pranjal Srivastava][pranjal] (IV);
 [Reed LaFleche][reed];
+[Sanjana Das][sanjana] (VI);
 [Zack Chroman][zack] (II-III)
 
 </div>
