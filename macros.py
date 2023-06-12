@@ -50,9 +50,12 @@ def page_footer(page) -> str:
 
 def get_twitch_table():
     tsv_path = Path.home() / "ProGamer/Writeups/data.tsv"
-    if not tsv_path.exists():
+    json_path = Path.home() / "youtube-tex/urls.json"
+    if not json_path.exists() or not tsv_path.exists():
         return "(Error: could not read Twitch table)"
-    with open(Path.home() / "youtube-tex/urls.json") as f:
+    # TODO: static versions in data/ as fallback I guess
+
+    with open(json_path) as f:
         url_dict = json.load(f)
 
     data = []
