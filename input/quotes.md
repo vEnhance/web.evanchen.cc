@@ -64,6 +64,8 @@ Alphabetical, does not include song lyrics.
 - I think it's really important to not have an opinion
   on things you don't know much about.
   ([Yi Sun](http://yisun.io/))
+- I want you to know that it's okay if you only save one person,
+  and it's okay if that person is yourself.
 - People only exist when you need them.
 
 ## {{ hl("misc", "Miscellaneous") }}
