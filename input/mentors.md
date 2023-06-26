@@ -95,3 +95,7 @@ are welcome; send these by email.
   both computational exams (MathCounts, AMCs, AIME etc.) and proof-based
   olympiads. He is also open to any specific topic-teaching in math. He has a
   very unique set of teaching skills which any student always dreamt of!
+
+## {{ hl("soroush", "Soroush Rezaei") }}
+
+- Contact: $\text{soroush.rezaei78}@\text{gmail}{.}\text{com}$
