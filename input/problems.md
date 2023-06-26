@@ -113,6 +113,7 @@ see [the FAQ on the USA IMO team selection](faq-rules.html).
   - [(video 1)](https://youtu.be/zkygeEZ_scc) [(video 2)](https://youtu.be/L_JBme8pnKU) [(video 3)](https://youtu.be/NOjZ_DKUgxc)
 - TSTST 2021 [(probs)](exams/TSTST-2021.pdf) [(sols)](exams/sols-TSTST-2021.pdf) [(TeX)](exams/sols-TSTST-2021.tex) [(stats)](exams/stats-TSTST-2021.pdf)
 - TSTST 2022 [(probs)](exams/TSTST-2022.pdf) [(sols)](exams/sols-TSTST-2022.pdf) [(TeX)](exams/sols-TSTST-2022.tex) [(stats)](exams/stats-TSTST-2022.pdf)
+- TSTST 2023 [(probs)](exams/TSTST-2023.pdf) [(sols)](exams/sols-TSTST-2023.pdf) [(TeX)](exams/sols-TSTST-2023.tex) [(stats)](exams/stats-TSTST-2023.pdf)
 
 ## {{ hl("tst", "USA Team Selection Test (TST)") }}
 
