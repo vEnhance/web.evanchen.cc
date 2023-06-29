@@ -99,6 +99,7 @@ are welcome; send these by email.
 ## {{ hl("soroush", "Soroush Rezaei") }}
 
 - Contact: $\text{soroush.rezaei78}@\text{gmail}{.}\text{com}$
+- Open to both 1:1 and group lessons.
 - Beauty, excitement, and wonder! These are the emotions that arise within me
   when I solve mathematical problems and discover new ideas. The main reason
   for my choice to teach Olympiads is that I can share this enthusiasm with
@@ -107,5 +108,5 @@ are welcome; send these by email.
   along with experiencing these positive feelings. My effort is to have such
   a teaching style. More precisely, my teaching style focuses on ideas. In my
   classes, by teaching classified ideas, you will achieve proper mastery in
-  problem-solving and In more advanced levels, you will also learn how to
+  problem-solving and in more advanced levels, you will also learn how to
   create new ideas!
