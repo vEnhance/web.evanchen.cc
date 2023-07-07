@@ -54,7 +54,7 @@ are welcome; send these by email.
 - Primary contact: [Dylan Yu](https://yu-dylan.github.io/)
   ($\text{dylanyu66}\texttt{@}\text{gmail}{.}\text{com}$)
 - Website: [tutorlyte.github.io](https://tutorlyte.github.io/)
-- 1:1 instruction for now, may expand to group during summer
+- 1:1 and group lessons offered
 - Tutorlyte is a tutoring program focused on helping students
   with difficult competition and school curriculum.
 
