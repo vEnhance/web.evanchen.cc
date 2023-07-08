@@ -1,7 +1,8 @@
-import yaml
-import heapq
 import datetime
+import heapq
 import sys
+
+import yaml
 
 # Script constants
 if len(sys.argv) > 1 and sys.argv[1] == "--local":
@@ -64,6 +65,12 @@ class Student:
 
 
 class ELMOStudent(Student):
+    country: "ELMOCountry"
+    year: "ELMOYear"
+    number: int
+    rank: int
+    medal: str
+
     @property
     def code(self):
         return "{}{}".format(self.country.code, self.number)
@@ -78,6 +85,11 @@ class AoPSStudent(Student):
 
 
 class ELMOCountry:
+    students: list[ELMOStudent]
+    code: str
+    year: "ELMOYear"
+    name: str
+
     def __init__(self, **kwargs):
         for key in kwargs:
             setattr(self, key, kwargs[key])
@@ -133,6 +145,12 @@ class ELMOCountry:
 
 class ELMOYear:
     has_aops = False
+    year_num: int
+    name: str
+    students: list[ELMOStudent]
+    aopsers: list[AoPSStudent]
+    num: int
+    cutoffs: dict[str, int]
 
     def __init__(self, **kwargs):
         for key in kwargs:
@@ -332,18 +350,18 @@ with open("results/index.html", "w") as f:
 # Per-year page {{{1
 for year in ELMO:
     result_header = r"""
-	<div id="main">
-	<h2><a class="pointer" href="results/{M}.html">&#9664;</a>&nbsp;&bull;&nbsp;
-	<a class="highlight" href="results/{y.year_num}.html">{y.pnum} ELMO {y.year_num}</a>&nbsp;&bull;&nbsp;
-	<a class="pointer" href="results/{N}.html">&#9654;</a></h2>
-	<h3><a href="results/{y.year_num}.html">{y.name}</a></h3>
-	<h3 class="hideprn">
-	<a href="results/{y.year_num}_countries.html">Country Results</a>
-	&nbsp;&bull;&nbsp;
-	<a href="results/{y.year_num}_indvs.html">Individual Results</a>
-	&nbsp;&bull;&nbsp;
-	<a href="results/{y.year_num}_stats.html">Statistics</a>
-	"""
+    <div id="main">
+    <h2><a class="pointer" href="results/{M}.html">&#9664;</a>&nbsp;&bull;&nbsp;
+    <a class="highlight" href="results/{y.year_num}.html">{y.pnum} ELMO {y.year_num}</a>&nbsp;&bull;&nbsp;
+    <a class="pointer" href="results/{N}.html">&#9654;</a></h2>
+    <h3><a href="results/{y.year_num}.html">{y.name}</a></h3>
+    <h3 class="hideprn">
+    <a href="results/{y.year_num}_countries.html">Country Results</a>
+    &nbsp;&bull;&nbsp;
+    <a href="results/{y.year_num}_indvs.html">Individual Results</a>
+    &nbsp;&bull;&nbsp;
+    <a href="results/{y.year_num}_stats.html">Statistics</a>
+    """
     if year.has_aops:
         result_header += '&nbsp;&bull;&nbsp;\n<a href="results/{y.year_num}_guest.html">Guest Participants</a>\n'
     result_header += "</h3>\n\n"
@@ -367,7 +385,7 @@ for year in ELMO:
         )
         # top_score = year.students[0].score
         # top_students = ', '.join([link(s.country, s.name) \
-        # 		for s in year.students if s.score == top_score])
+        #         for s in year.students if s.score == top_score])
         print(r"<h4>Top Team: {}</h4>".format(top_countries), file=f)
         print(r"<h4>Top Contestant:  {}</h4>".format(top_students), file=f)
         print("<h4>Medal Cutoffs</h4>", file=f)
@@ -379,6 +397,8 @@ for year in ELMO:
         print("<ul>", file=f)
         print("<li>%d Countries</li>" % (len(year.countries)), file=f)
         print("<li>%d Students</li>" % (len(year.students)), file=f)
+        if len(year.aopsers) > 0:
+            print("<li>%d Students</li>" % (len(year.aopsers)), file=f)
         print("</ul>", file=f)
         print(
             r'<h4><a href="problems.html#n{}">Problems and Solutions</a></h4>'.format(
