@@ -53,7 +53,7 @@ with open("index.html", "w") as f:
 
 
 def link(obj, text):
-    return r'<a href="{}">{}</a>'.format(obj.url, text)
+    return f'<a href="{obj.url}">{text}</a>'
 
 
 class Student:
@@ -73,7 +73,7 @@ class ELMOStudent(Student):
 
     @property
     def code(self):
-        return "{}{}".format(self.country.code, self.number)
+        return f"{self.country.code}{self.number}"
 
     @property
     def pcode(self):
@@ -132,7 +132,7 @@ class ELMOCountry:
 
     @property
     def url(self):
-        return "countries/{}_{}.html".format(self.year.year_num, self.code)
+        return f"countries/{self.year.year_num}_{self.code}.html"
 
     @property
     def pname(self):
@@ -159,12 +159,12 @@ class ELMOYear:
         if "num_problems" not in kwargs:
             self.num_problems = 6
         self.problem_headers = "".join(
-            ["<th>P{}</th>".format(i) for i in range(1, self.num_problems + 1)]
+            [f"<th>P{i}</th>" for i in range(1, self.num_problems + 1)]
         )
 
     @property
     def url(self):
-        return "results/{}.html".format(self.year_num)
+        return f"results/{self.year_num}.html"
 
     @property
     def pyear(self):
@@ -222,7 +222,7 @@ def inplace_rank(students):
 
 
 for year_num in YEARS:
-    filename = "internal/{}.yaml".format(year_num)
+    filename = f"internal/{year_num}.yaml"
     with open(filename, "r") as f:
         data = list(yaml.load_all(f, Loader=yaml.FullLoader))
     country_dicts = data[1:]  # all the docs after first have students
@@ -276,10 +276,10 @@ with open("problems.html", "w") as f, open("internal/prob_links.yaml") as source
     print(r'<div id="main">', file=f)
     prob_data = reversed(sorted(yaml.load(source, Loader=yaml.FullLoader).items()))
     for year, d in prob_data:
-        print("<h5>ELMO {}</h5>".format(year), file=f)
+        print(f"<h5>ELMO {year}</h5>", file=f)
         print("<ul>", file=f)
         for k, v in sorted(d.items()):
-            print(r'<li><a href="{}">{}</a></li>'.format(v, k), file=f)
+            print(f'<li><a href="{v}">{k}</a></li>', file=f)
         print("</ul>", file=f)
     print(FOOTER, file=f)
 # }}}
@@ -305,8 +305,10 @@ with open("timeline/index.html", "w") as f:
         file=f,
     )
     for year in ELMO:
-        row = r"<tr><td>{y.num}</td><td>{y.pyear}</td><td>{y.pname}</td><td>{y.dates}</td></tr>"
-        print(row.format(y=year), file=f)
+        print(
+            f"<tr><td>{year.num}</td><td>{year.pyear}</td><td>{year.pname}</td><td>{year.dates}</td></tr>",
+            file=f,
+        )
     print("</tbody></table>", file=f)
     print(FOOTER, file=f)
 
@@ -321,9 +323,11 @@ with open("countries/index.html", "w") as f:
         file=f,
     )
     for year in ELMO:
-        for country in year.countries:
-            row = r"<tr><td>{c.year.pyear}</td><td>{c.pname}</td><td>{c.leaders}</td><td>{c.rank}</td><td>{c.awards}</td></tr>"
-            print(row.format(c=country), file=f)
+        for c in year.countries:
+            print(
+                f"<tr><td>{c.year.pyear}</td><td>{c.pname}</td><td>{c.leaders}</td><td>{c.rank}</td><td>{c.awards}</td></tr>",
+                file=f,
+            )
     print("</tbody></table>", file=f)
     print(FOOTER, file=f)
 
@@ -341,8 +345,14 @@ with open("results/index.html", "w") as f:
         for student in year.students:
             if student.name == "":
                 continue
-            row = r"<tr><td>{s.year.pyear}</td><td>{s.pcode}</td><td>{s.name}</td><td>{s.rank}</td><td>{s.medal}</td></tr>"
-            print(row.format(s=student), file=f)
+            print(
+                f"<tr><td>{student.year.pyear}</td>"
+                f"<td>{student.pcode}</td>"
+                f"<td>{student.name}</td>"
+                f"<td>{student.rank}</td>"
+                f"<td>{student.medal}</td></tr>",
+                file=f,
+            )
     print("</tbody></table>", file=f)
     print(FOOTER, file=f)
 # }}}
@@ -375,7 +385,7 @@ for year in ELMO:
 
         top_countries = ", ".join(
             [
-                "{c.pname} ({c.pcode})".format(c=country)
+                f"{country.pname} ({country.pcode})"
                 for country in year.countries
                 if country.rank == 1
             ]
@@ -386,24 +396,22 @@ for year in ELMO:
         # top_score = year.students[0].score
         # top_students = ', '.join([link(s.country, s.name) \
         #         for s in year.students if s.score == top_score])
-        print(r"<h4>Top Team: {}</h4>".format(top_countries), file=f)
-        print(r"<h4>Top Contestant:  {}</h4>".format(top_students), file=f)
+        print(f"<h4>Top Team: {top_countries}</h4>", file=f)
+        print(f"<h4>Top Contestant:  {top_students}</h4>", file=f)
         print("<h4>Medal Cutoffs</h4>", file=f)
         print("<ul>", file=f)
         for medal, thresh in year.cutoffs.items():
-            print("<li><b>{}</b> points for {}</li>".format(thresh, medal), file=f)
+            print(f"<li><b>{thresh}</b> points for {medal}</li>", file=f)
         print("</ul>", file=f)
         print("<h4>Data Available</h4>", file=f)
         print("<ul>", file=f)
-        print("<li>%d Countries</li>" % (len(year.countries)), file=f)
-        print("<li>%d Students</li>" % (len(year.students)), file=f)
+        print(f"<li>{len(year.countries)} countries</li>", file=f)
+        print(f"<li>{len(year.students)} on-site domestic contestants</li>", file=f)
         if len(year.aopsers) > 0:
-            print("<li>%d Students</li>" % (len(year.aopsers)), file=f)
+            print(f"<li>{len(year.aopsers)} guests</li>", file=f)
         print("</ul>", file=f)
         print(
-            r'<h4><a href="problems.html#n{}">Problems and Solutions</a></h4>'.format(
-                year.year_num
-            ),
+            f'<h4><a href="problems.html#n{year.year_num}">Problems and Solutions</a></h4>',
             file=f,
         )
         print(FOOTER, file=f)
@@ -414,7 +422,7 @@ for year in ELMO:
         % (n, k)
         + r"</script>"
     )
-    with open("results/{}_countries.html".format(year.year_num), "w") as f:
+    with open(f"results/{year.year_num}_countries.html", "w") as f:
         print(HEADER, file=f)
         print(result_header, file=f)
         print(jquery_script(3 + year.num_problems, 0), file=f)  # Ascending by rank
@@ -437,27 +445,22 @@ for year in ELMO:
             )
         print("<tbody>", file=f)
         for country in year.countries:
-            print(r"<tr><td>{c.pname}</td>".format(c=country), file=f)
+            print(f"<tr><td>{country.pname}</td>", file=f)
             print(
                 "".join(
-                    [
-                        "<td>{}</td>".format(country.scores[i])
-                        for i in range(year.num_problems)
-                    ]
+                    [f"<td>{country.scores[i]}</td>" for i in range(year.num_problems)]
                 ),
                 end=" ",
                 file=f,
             )
             print(
-                "<td>{c.total}</td><td>{c.sweeps:.2f}</td><td>{c.rank}</td><td>{c.awards}</td>".format(
-                    c=country
-                ),
+                f"<td>{country.total}</td><td>{country.sweeps:.2f}</td><td>{country.rank}</td><td>{country.awards}</td>",
                 file=f,
             )
             print("</tr>", end=" ", file=f)
         print("</tbody></table>", file=f)
         print(FOOTER, file=f)
-    with open("results/{}_indvs.html".format(year.year_num), "w") as f:
+    with open(f"results/{year.year_num}_indvs.html", "w") as f:
         print(HEADER, file=f)
         print(result_header, file=f)
         print(jquery_script(3 + year.num_problems, 0), file=f)  # Ascending by rank
@@ -471,7 +474,7 @@ for year in ELMO:
         print("<tbody>", file=f)
         for student in year.students:
             print(
-                "<tr><td>{s.pcode}</td><td>{s.name}</td>".format(s=student),
+                f"<tr><td>{student.pcode}</td><td>{student.name}</td>",
                 end=" ",
                 file=f,
             )
@@ -486,16 +489,14 @@ for year in ELMO:
                 file=f,
             )
             print(
-                "<td>{s.score}</td><td>{s.rank}</td><td>{s.medal}</td></tr>".format(
-                    s=student
-                ),
+                f"<td>{student.score}</td><td>{student.rank}</td><td>{student.medal}</td></tr>",
                 file=f,
             )
         print("</tbody>", file=f)
         print("</table>", file=f)
         print(FOOTER, file=f)
     if year.has_aops:
-        with open("results/{}_guest.html".format(year.year_num), "w") as f:
+        with open(f"results/{year.year_num}_guest.html", "w") as f:
             print(HEADER, file=f)
             print(result_header, file=f)
             print(
@@ -510,7 +511,7 @@ for year in ELMO:
             )
             print("<tbody>", file=f)
             for student in year.aopsers:
-                print("<tr><td>{s.name}</td>".format(s=student), end=" ", file=f)
+                print(f"<tr><td>{student.name}</td>", end=" ", file=f)
                 print(
                     "".join(
                         [
@@ -522,7 +523,7 @@ for year in ELMO:
                     file=f,
                 )
                 print(
-                    "<td>{s.score}</td><td>{s.medal}</td></tr>".format(s=student),
+                    f"<td>{student.score}</td><td>{student.medal}</td></tr>",
                     file=f,
                 )
             print("</tbody>", file=f)
@@ -532,15 +533,11 @@ for year in ELMO:
             print("<td><b>Average</b></td>", file=f)
             for i in range(year.num_problems):
                 print(
-                    "<td><b>{:.2f}</b></td>".format(
-                        stat_avg([student.scores[i] for student in year.aopsers])
-                    ),
+                    f"<td><b>{stat_avg([student.scores[i] for student in year.aopsers]):.2f}</b></td>",
                     file=f,
                 )
             print(
-                "<td><b>{:.2f}</b></td>".format(
-                    stat_avg([student.score for student in year.aopsers])
-                ),
+                f"<td><b>{stat_avg([student.score for student in year.aopsers]):.2f}</b></td>",
                 file=f,
             )
             print("<td></td>", file=f)
@@ -548,7 +545,7 @@ for year in ELMO:
             print("</tfoot>", file=f)
             print("</table>", file=f)
             print(FOOTER, file=f)
-    with open("results/{}_stats.html".format(year.year_num), "w") as f:
+    with open(f"results/{year.year_num}_stats.html", "w") as f:
         print(HEADER, file=f)
         print(result_header, file=f)
 
@@ -559,10 +556,10 @@ for year in ELMO:
         )
         print("<tbody>", file=f)
         for score in range(0, 8):  # for each in 0 to 7
-            print("<tr><td>Score = {}</td>".format(score), file=f)
+            print(f"<tr><td>Score = {score}</td>", file=f)
             for i in range(year.num_problems):
                 print(
-                    "<td>{}</td>".format(year.get_problem_scores(i).count(score)),
+                    f"<td>{year.get_problem_scores(i).count(score)}</td>",
                     file=f,
                 )
             print("</tr>", file=f)
@@ -571,7 +568,7 @@ for year in ELMO:
         print("<td><b>Average</b></td>", file=f)
         for i in range(year.num_problems):
             print(
-                "<td><b>{:.2f}</b></td>".format(stat_avg(year.get_problem_scores(i))),
+                f"<td><b>{stat_avg(year.get_problem_scores(i)):.2f}</b></td>",
                 file=f,
             )
         print("</tr>", file=f)
@@ -580,9 +577,7 @@ for year in ELMO:
         print("<td><b>StdDev</b></td>", file=f)
         for i in range(year.num_problems):
             print(
-                "<td><b>{:.2f}</b></td>".format(
-                    stat_stddev(year.get_problem_scores(i))
-                ),
+                f"<td><b>{stat_stddev(year.get_problem_scores(i)):.2f}</b></td>",
                 file=f,
             )
         print("</tr>", file=f)
@@ -593,19 +588,15 @@ for year in ELMO:
         print("<h4>Overall Statistics</h4>", file=f)
         print("<ul>", file=f)
         print(
-            "<li><b>{:.2f}</b> was the average score</li>".format(
-                stat_avg([student.score for student in year.students])
-            ),
+            f"<li><b>{stat_avg([student.score for student in year.students]):.2f}</b> was the average score</li>",
             file=f,
         )
         print(
-            "<li><b>{}</b> was the median score</li>".format(
-                year.students[int(N / 2)].score
-            ),
+            f"<li><b>{year.students[int(N / 2)].score}</b> was the median score</li>",
             file=f,
         )
         for medal, thresh in year.cutoffs.items():
-            print("<li><b>{}</b> points for {}</li>".format(thresh, medal), file=f)
+            print(f"<li><b>{thresh}</b> points for {medal}</li>", file=f)
         print("</ul>", file=f)
 
         print(FOOTER, file=f)
@@ -619,9 +610,7 @@ for year in ELMO:
             print(HEADER, file=f)
             print(r'<div id="main">', file=f)
             print(
-                r'<h2>{c.code} at <a href="results/{c.year.year_num}_countries.html" class="highlight">ELMO {c.year.year_num}</a></h2>'.format(
-                    c=country
-                ),
+                f'<h2>{country.code} at <a href="results/{country.year.year_num}_countries.html" class="highlight">ELMO {country.year.year_num}</a></h2>',
                 file=f,
             )
             print("<h3>" + country.name + "</h3>", file=f)
@@ -640,11 +629,11 @@ for year in ELMO:
             print("<tbody>", file=f)
             for student in country.students:
                 print("<tr>", end=" ", file=f)
-                print("<td>{s.code}</td><td>{s.name}</td>".format(s=student), file=f)
+                print(f"<td>{student.code}</td><td>{student.name}</td>", file=f)
                 print(
                     "".join(
                         [
-                            "<td>%s</td>" % (student.scores[i])
+                            f"<td>{student.scores[i]}</td>"
                             for i in range(year.num_problems)
                         ]
                     ),
@@ -652,9 +641,7 @@ for year in ELMO:
                     file=f,
                 )
                 print(
-                    "<td>{s.score}</td><td>{s.rank}</td><td>{s.medal}</td>".format(
-                        s=student
-                    ),
+                    f"<td>{student.score}</td><td>{student.rank}</td><td>{student.medal}</td>",
                     file=f,
                 )
                 print("</tr>", file=f)
@@ -671,9 +658,9 @@ for year in ELMO:
                 end=" ",
                 file=f,
             )
-            print("<td><b>%2d</b></td>" % country.total, end=" ", file=f)
-            print("<td><b>%s</b></td>" % country.rank, end=" ", file=f)
-            print("<td><b>%s</b></td>" % country.awards, end=" ", file=f)
+            print(f"<td><b>{country.total}</b></td>", end=" ", file=f)
+            print(f"<td><b>{country.rank}</b></td>", end=" ", file=f)
+            print(f"<td><b>{country.awards}</b></td>", end=" ", file=f)
             print("</tr>", file=f)
             print("</table>", file=f)
             print(FOOTER, file=f)
@@ -682,7 +669,7 @@ for year in ELMO:
 # General info page {{{
 with open("general.html", "w") as f, open("static/general_info.html") as payload:
     print(HEADER, file=f)
-    print("<!-- DO NOT EDIT THIS PAGE -->", file=f)
+    print(r"<!-- DO NOT EDIT THIS PAGE -->", file=f)
     print(r'<div id="main">', file=f)
     print("".join(payload.readlines()), file=f)
     print(FOOTER, file=f)
