@@ -406,7 +406,7 @@ for year in ELMO:
         print("<h4>Data Available</h4>", file=f)
         print("<ul>", file=f)
         print(f"<li>{len(year.countries)} countries</li>", file=f)
-        print(f"<li>{len(year.students)} on-site domestic contestants</li>", file=f)
+        print(f"<li>{len(year.students)} official contestants</li>", file=f)
         if len(year.aopsers) > 0:
             print(f"<li>{len(year.aopsers)} guests</li>", file=f)
         print("</ul>", file=f)
