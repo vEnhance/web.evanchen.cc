@@ -474,18 +474,24 @@ Nevertheless, here is one possible piece of advice.
 There's a saying that "if it's hard for you, it's hard for everyone".
 People often interpret this as a form of encouragement,
 trying to say that you're better than you think you are.
-And that's true, but you can say something much stronger.
+I do _not_ like this interpretation, because I think it makes the saying into a
+statement about egos, when it _should_ be a statement about exam design.
 
 You have a skill level that you've been working on all year.
 In addition, you will have some individual variance based on the actual day.
 But your given-day individual variance is completely dwarfed
 by a larger term: **the difficulty of the problem**,
-which often varies wildly from year to year. See [C-15](#C-15)
-for concrete discussion or the [MOHS chart][mohs] if you like colors.
+which often varies wildly from year to year.
+In many cases, different years of the same exam are not even close to
+comparable. See [C-15](#C-15) for concrete discussion,
+or the [MOHS chart][mohs] if you like colors.
 
 Thus, if you find yourself surprised at being unable to solve a problem,
 your reaction should be something like
 "wow, this year's P2 is harder than usual".
+
+Do not misinterpret the difficulty of an exam as a skill issue.
+This is one of the most common ways to underperform.
 
 ### {{ faq("C-21", "How should I prepare for the Putnam?") }}
 
@@ -506,6 +512,24 @@ do not seriously prepare for the Putnam during the school year
 (and thus are relying on high-school training).
 Especially if you're someone who already did math olympiads in high school,
 I encourage you to not place more weight on the Putnam than it deserves.
+
+### {{ faq("C-22", "For X contest, about how much do I usually need to get Y medal/award?") }}
+
+If X is a USA contest, you can often extrapolate some values
+from the statistics posted on [my problems archive](problems.html).
+And of course for the IMO, you have full data.
+So you should be able to work out an estimate for yourself.
+For other contests, maybe you'll have to ask around if the contest
+organizer doesn't have statistics easily available.
+
+However, I want to warn you: I do _not_ recommend taking too seriously the
+arithmetic mean or median of whatever statistic you are looking at.
+As I mentioned in [C-20](#C-20), the fluctuation in whatever random variable
+you are measuring is large enough that averages are often meaningless.
+You may hurt yourself in your own confusion if you approach a contest
+with a fixed mindset of, say, "I need to get three problems for silver",
+and then the test (really, individual problems on the test) ends up being easier
+or harder than the worthless expected value that you worked out beforehand.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
