@@ -17,6 +17,25 @@ Please notify me of any broken links, suggestions, etc. by email.
 An abridged version of this page for olympiad students
 can be found [here](wherestart.html).
 
+## {{ hl("auto", "Mathematician autobiographies") }}
+
+Two of my past mentors have really moving pieces about their lives:
+
+- [Joe Gallian][joe]'s story:
+  [A Break for Mathematics][CMJ] (interview)
+- [Ken Ono][ken]'s story:
+  [My Search for Ramanujan][rama] (book)
+
+(If you are an undergraduate math student, Joe and Ken run summer programs
+that I recommend, at [Duluth](https://www.d.umn.edu/~jgallian/REU.html)
+and [UVa](https://uva.theopenscholar.com/ken-ono/reus) respectively.
+I am a proud alum of both.)
+
+[CMJ]: https://www.d.umn.edu/~jgallian/CMJ_interview2.pdf
+[rama]: https://link.springer.com/book/10.1007/978-3-319-25568-2
+[joe]: https://en.wikipedia.org/wiki/Joseph_Gallian
+[ken]: https://en.wikipedia.org/wiki/Ken_Ono
+
 ## {{ hl("pg", "PG essays") }}
 
 I can't help but link
