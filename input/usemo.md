@@ -36,7 +36,7 @@ Please check the [full rules and procedures][rules].
 
 # {{ hl("current", "USEMO 2023") }}
 
-- We anticipate USEMO 2023 will be in early October.
+- We anticipate USEMO 2023 will be on October 21 and 22.
 - Volunteers for grading are now open; see below.
 - Problem proposals are due May 10, 2023; see below for details.
 
