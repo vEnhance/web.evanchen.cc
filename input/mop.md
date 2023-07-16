@@ -52,6 +52,7 @@ and the back contains everyone's signature.
 {{ tshirt(2021, alt = "2021; reference to USAMO 2021/3.") }}
 {{ tshirt(2021, alt = "2021; reverse.", ext = "back.png") }}
 {{ tshirt(2022, alt = "2022; reference to USAMO 2022/2") }}
+{{ tshirt(2023, alt = "2023; reference to USAMO 2023/1") }}
 
 ## {{ hl("problems", "Problems") }}
 
@@ -66,6 +67,7 @@ and the back contains everyone's signature.
 
 <div class="chooser list-chooser" markdown="block">
 
+- [2023](static/mop/mockimo/2023.pdf)
 - [2022](static/mop/mockimo/2022.pdf)
 - [2021](static/mop/mockimo/2021.pdf)
 - [2020](static/mop/mockimo/2020.pdf)
@@ -101,6 +103,7 @@ Here are calendars for recent years of MOP:
 
 <div class="chooser list-chooser" markdown="block">
 
+- [2023](static/mop/schedules/2023.pdf)
 - [2022](static/mop/schedules/2022.pdf)
 - [2021](static/mop/schedules/2021.pdf)
 - [2020](static/mop/schedules/2020.pdf)
@@ -150,6 +153,15 @@ started by Evan o'Dorney; it starts and ends the closing ceremony.
 Here are recent songs we performed:
 
 <div class="chooser empty-chooser"></div>
+<div data-header="Singing troupe 2023" data-year="2023" class="hidden" markdown="1">
+- Defying Gravity
+- Unravel
+- Another Day of Sun
+- Rewrite the Stars
+- Audition
+- A Million Dreams
+</div>
+
 <div data-header="Singing troupe 2022" data-year="2022" class="hidden" markdown="1">
 - Defying Gravity
 - Into the Unknown
@@ -226,6 +238,8 @@ Here are recent songs we performed:
 ## {{ hl("quotes", "Quotes") }}
 
 <div class="chooser empty-chooser"></div>
+<div data-year="2023" data-header="Quotes 2023" class="hidden" markdown="block">
+</div>
 
 <div data-year="2022" data-header="Quotes 2022" class="hidden" markdown="block">
 - Franklyn Wang: "Evan has contributed to a decrease in Resnik's reputation."<br>
