@@ -93,7 +93,8 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
   in particular the projective geometry handout,
   which the corresponding chapter in my textbook is based off of.
 
-- [Po-Shen Loh](https://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics. See especially the handouts on the probabilistic method.
+- [Po-Shen Loh](https://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics.
+  See especially the handouts on the probabilistic method.
 
 - [A Journey to the IMO](upload/Sarda-Journey.pdf),
   an overview of the IMO written from Nepal student Yuvraj Sarda.
@@ -106,7 +107,9 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 - [Art and Craft of Problem Solving][acops] by Paul Zeitz,
   introduction to math olympiads in general.
 
-- [An olympiad combinatorics book, by Pranav A. Sriram](https://www.artofproblemsolving.com/community/c6h601134). The individual chapters are located in posts #1, #11, #49.
+- [An olympiad combinatorics book, by Pranav A. Sriram](https://www.aops.com/community/c6h601134).
+  The individual chapters are located in posts #1, #11, #49.
+  This is a bit more on the difficult side.
 
 - [Olympiad NT through Challenging Problems](https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
   is an introductory olympiad number theory text,
