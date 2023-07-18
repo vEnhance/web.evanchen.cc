@@ -29,21 +29,21 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 ## {{ hl("general", "General") }}
 
-- <b>Unofficial syllabus for math olympiads</b> {{ handout_link("Syllabus") }}
-  Rough informal guidance on what topics appear on math olympiads,
-  for people who are new to the scene.
-
 - <b>English</b> {{ handout_link("english") }}
   Notes on proof-writing style.
   These were used at [MOP](mop.html) in 2016, later updated March 2020.
+
+- <b>From the Author's Side: Thoughts on Problem Writing</b> {{ handout_link("ProblemWrite") }}
+  A short philosophical blurb about writing problems
+  for math olympiads.
 
 - <b>Intro to Proofs for the Morbidly Curious</b> {{ handout_link("NaturalProof") }}
   An excessively long description of how mathematical proofs work
   in theory and in practice.
 
-- <b>From the Author's Side: Thoughts on Problem Writing</b> {{ handout_link("ProblemWrite") }}
-  A short philosophical blurb about writing problems
-  for math olympiads.
+- <b>Unofficial syllabus for math olympiads</b> {{ handout_link("Syllabus") }}
+  Rough informal guidance on what topics appear on math olympiads,
+  for people who are new to the scene.
 
 ## {{ hl("journals", "Journals") }}
 
@@ -66,17 +66,12 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 - <b>Introduction to Functional Equations</b> {{ handout_link("FuncEq-Intro") }}
   An introduction to functional equations for olympiad students.
 
-- <b>Monsters</b> {{ handout_link("Monsters") }}
-  A handout discussing pathological functional equations.
-
-- <b>Summation</b> {{ handout_link("Summation") }}
-  General discussion of sums and products, and how to deal with them.
-  Includes generating functions.
-
 - <b>Lagrange Multipliers Done Correctly</b> {{ handout_link("LM") }}
   This is a description of the conditions necessary to
   execute a Lagrange Multipliers solution on an olympiad.
 
+- <b>Monsters</b> {{ handout_link("Monsters") }}
+  A handout discussing pathological functional equations.
 - <b>Olympiad Inequalities</b> {{ handout_link("Ineq", "en") }}
   English translation of my original notes in Chinese.
   Describes some "standard strategies" for handling olympiad inequalities. <br>
@@ -84,6 +79,10 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 - <b>SOS: A Dumbass's Perspective</b> {{ handout_link("SOS_Dumbass") }}
   Describes the SOS method for solving inequalities.
+
+- <b>Summation</b> {{ handout_link("Summation") }}
+  General discussion of sums and products, and how to deal with them.
+  Includes generating functions.
 
 ## {{ hl("combo", "Combinatorics (Gryffindor)") }}
 
@@ -134,13 +133,13 @@ of [my textbook][geombook].
 
 ## {{ hl("nt", "Number theory (Ravenclaw)") }}
 
-- <b>The Chinese Remainder Theorem</b> {{ handout_link("CRT") }}
-  An article on the Chinese Remainder "Theorem".
-
 - <b>Orders Modulo a Prime</b> {{ handout_link("ORPR") }}
   Article on orders and primitive roots,
   in particular featuring the sum of squares lemma and its generalization
   to arbitrary cyclotomic polynomials.
+
+- <b>The Chinese Remainder Theorem</b> {{ handout_link("CRT") }}
+  An article on the Chinese Remainder "Theorem".
 
 ## {{ hl("misc", "Miscellaneous") }}
 
@@ -151,13 +150,13 @@ of [my textbook][geombook].
   It is updated occasionally as I add entries.
   Needs [extra preamble file](/handouts/Chinese/preamble.sty).
 
-- <b>LaTeX Example File</b> {{ handout_link("TeXSample") }}
-  A short document which shows what a "typical" LaTeX file looks like.
-  It was written for beginners.
-
 - <b>How to annoy Evan with LaTeX</b> {{ handout_link("LaTeXPetPeeve") }}
   A list of pet peeves in LaTeX.
   See also [Evan's LaTeX style guide](latex-style-guide.html).
+
+- <b>LaTeX Example File</b> {{ handout_link("TeXSample") }}
+  A short document which shows what a "typical" LaTeX file looks like.
+  It was written for beginners.
 
 - <b>OMO Spring 2014 Executive Report</b> {{ handout_link("OMOSpring14Report") }}
   A short report on running the Online Math Open for Spring 2014.
