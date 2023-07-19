@@ -1,214 +1,269 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<title>Evan Chen &bullet; {{ page["title"] }}</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,400&family=Mate&family=Noto+Serif+TC:wght@500&family=PT+Sans&family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript">
-		MathJax = {
-			tex: {
-				inlineMath: [
-					['$', '$']
-				],
-				displayMath: [
-					['\\[', '\\]']
-				],
-			}
-		};
-	</script>
-	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-	</script>
-	<meta charset="UTF-8">
-	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="evan chen, math, olympiad, IMO, education">
-<!--%
+  <head>
+    <title>Evan Chen &bullet; {{ page["title"] }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,400%26family=Mate%26family=Noto+Serif+TC:wght@500%26family=PT+Sans%26family=Roboto+Slab:wght@400;500;600%26display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      MathJax = {
+        tex: {
+          inlineMath: [["$", "$"]],
+          displayMath: [["\\[", "\\]"]],
+        },
+      };
+    </script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="evan chen, math, olympiad, IMO, education" />
+    <!--%
 print('<meta description="Evan Chen | %s">' % page.get('description', page['title']))
 %-->
-	<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="icons/manifest.json">
-	<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="icons/favicon.ico">
-	<meta name="msapplication-config" content="icons/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
-	<link type="text/css" rel="stylesheet" href="css/simple-53544.css">
-</head>
-<body>
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-12">
-				<div id="header"><a href="/">
-						<h1 id="sitetitle">
-							Evan Chen《陳誼廷》
-							<img height="54" src="icons/android-chrome-192x192.png" style="vertical-align: text-bottom;" alt="Logo">
-						</h1>
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-10 col-md-7">
-				<div id="latest_blog" class="badge px-2 pt-2 pb-1 mx-0 mt-1 mb-0">
-					<a id="latest_blog_anchor"></a>
-					<span class="badge bg-success" id="latest_blog_date"></span>
-				</div>
-			</div>
-			<div class="col-10 col-md-5 col-lg-5">
-				<div id="email_box">
-					<a class="emoji-link" href="contact.html">
-						<img height="24" src="icons/social-mail.png" alt="Email" />
-					</a>
-					&nbsp;
-					<a class="emoji-link" href="https://blog.evanchen.cc/">
-						<img height="24" src="icons/social-wordpress.png" alt="Blog" />
-					</a>
-					&nbsp;
-					<a class="emoji-link" href="https://www.instagram.com/evanchen.cc/">
-						<img height="24" src="icons/social-instagram.png" alt="Instagram" />
-					</a>
-					&nbsp;
-					<a class="emoji-link" href="https://youtube.com/c/vEnhance">
-						<img height="24" src="icons/social-youtube.png" alt="YouTube" />
-					</a>
-					&nbsp;
-					<a class="emoji-link" href="https://twitch.tv/vEnhance">
-						<img height="24" src="icons/social-twitch.png" alt="Twitch" />
-					</a>
-					&nbsp;
-					<a class="emoji-link" href="discord.html">
-						<img height="24" src="icons/social-discord.png" alt="Discord" />
-					</a>
-					&nbsp;
-					<a class="emoji-link" href="https://www.github.com/vEnhance/">
-						<img height="24" src="icons/social-github.png" alt="Github" />
-					</a>
-				</div>
-			</div>
-		</div>
-		<div id="content" class="row">
-			<div class="col-12 col-md-3 order-md-last pl-md-1">
-				<div id="side">
-					<nav class="navbar-light d-md-none navbar">
-						<div class="navbar-brand" id="navtitle">
-							<code>web.evanchen.cc</code>
-						</div>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedContent" aria-controls="collapsedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-light navbar-toggler-icon"></span>
-						</button>
-					</nav>
-					<div class="collapse d-md-block" id="collapsedContent">
-						<!--%
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="icons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="icons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="icons/manifest.json" />
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
+    <meta name="msapplication-config" content="icons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <link type="text/css" rel="stylesheet" href="css/simple-53544.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12">
+          <div id="header">
+            <a href="/">
+              <h1 id="sitetitle">
+                Evan Chen《陳誼廷》
+                <img
+                  height="54"
+                  src="icons/android-chrome-192x192.png"
+                  style="vertical-align: text-bottom"
+                  alt="Logo"
+                />
+              </h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10 col-md-7">
+          <div id="latest_blog" class="badge px-2 pt-2 pb-1 mx-0 mt-1 mb-0">
+            <a id="latest_blog_anchor"></a>
+            <span class="badge bg-success" id="latest_blog_date"></span>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 col-lg-5">
+          <div id="email_box">
+            <a class="emoji-link" href="contact.html">
+              <img height="24" src="icons/social-mail.png" alt="Email" />
+            </a>
+            &nbsp;
+            <a class="emoji-link" href="https://blog.evanchen.cc/">
+              <img height="24" src="icons/social-wordpress.png" alt="Blog" />
+            </a>
+            &nbsp;
+            <a class="emoji-link" href="https://www.instagram.com/evanchen.cc/">
+              <img
+                height="24"
+                src="icons/social-instagram.png"
+                alt="Instagram"
+              />
+            </a>
+            &nbsp;
+            <a class="emoji-link" href="https://youtube.com/c/vEnhance">
+              <img height="24" src="icons/social-youtube.png" alt="YouTube" />
+            </a>
+            &nbsp;
+            <a class="emoji-link" href="https://twitch.tv/vEnhance">
+              <img height="24" src="icons/social-twitch.png" alt="Twitch" />
+            </a>
+            &nbsp;
+            <a class="emoji-link" href="discord.html">
+              <img height="24" src="icons/social-discord.png" alt="Discord" />
+            </a>
+            &nbsp;
+            <a class="emoji-link" href="https://www.github.com/vEnhance/">
+              <img height="24" src="icons/social-github.png" alt="Github" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="content" class="row">
+        <div class="col-12 col-md-3 order-md-last pl-md-1">
+          <div id="side">
+            <nav class="navbar-light d-md-none navbar">
+              <div class="navbar-brand" id="navtitle">
+                <code>web.evanchen.cc</code>
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsedContent"
+                aria-controls="collapsedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-light navbar-toggler-icon"></span>
+              </button>
+            </nav>
+            <div class="collapse d-md-block" id="collapsedContent">
+              <!--%
 mpages = [p for p in pages if "menu-position" in p]
 mpages.sort(key=lambda p: int(p["menu-position"]))
 for p in mpages:
-	if "indent" in p:
-		open_tag = r'<h5>&nbsp; &bullet; &nbsp;'
-		close_tag = r'</h5>'
-	else:
-		open_tag = '<h4>'
-		close_tag = '</h4>'
-	if p["title"] == page["title"]:
-		entry = open_tag + '<strong>%s</strong>' + close_tag
-		print(entry % (hx(p["title"])))
-	else:
-		entry = open_tag + '<a href="%s">%s</a>' + close_tag
-		print(entry % (p["url"], hx(p["title"])))
+  if "indent" in p:
+    open_tag = r'<h5>&nbsp; &bullet; &nbsp;'
+    close_tag = r'</h5>'
+  else:
+    open_tag = '<h4>'
+    close_tag = '</h4>'
+  if p["title"] == page["title"]:
+    entry = open_tag + '<strong>%s</strong>' + close_tag
+    print(entry % (hx(p["title"])))
+  else:
+    entry = open_tag + '<a href="%s">%s</a>' + close_tag
+    print(entry % (p["url"], hx(p["title"])))
 %-->
-						<br />
-						<p>
-							<a href='https://ko-fi.com/evanchen' target='_blank'>
-								<img height='28' style='border:0px;height:28px;' src='//az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-							</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-md-9 order-md-first pr-md-2">
-				<div id="main">
-					<div class="entry">
-						<h1 id="pagetitle"><a href="{{page["url"]}}">{{ page["header"] }}</a></h1>
-						<div class="entrywrap">
-							{{ __content__ }}
-						</div>
-					</div>
-					<div>
-						<p>{{ page_footer(page) }}</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div><!-- end container -->
+              <br />
+              <p>
+                <a href="https://ko-fi.com/evanchen" target="_blank">
+                  <img
+                    height="28"
+                    style="border: 0px; height: 28px"
+                    src="//az743702.vo.msecnd.net/cdn/kofi4.png?v=0"
+                    border="0"
+                    alt="Buy Me a Coffee at ko-fi.com"
+                  />
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-9 order-md-first pr-md-2">
+          <div id="main">
+            <div class="entry">
+              <h1 id="pagetitle">
+                <a href="{{page['url']}}">{{ page["header"] }}</a>
+              </h1>
+              <div class="entrywrap">{{ __content__ }}</div>
+            </div>
+            <div>
+              {{ page_footer(page) }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end container -->
 
-	<script>
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-		ga('create', 'UA-71669828-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<script>
-		var ks = [];
-		document.addEventListener('keydown', function(e) {
-			ks.push(e.keyCode);
-			if (ks.length > 10) {
-				ks.splice(0, ks.length - 10);
-			}
-			if (ks.length < 10) return;
-			if (ks[0] != ks[1]) return;
-			if (ks[2] != ks[3]) return;
-			if (ks[4] != ks[6]) return;
-			if (ks[5] != ks[7]) return;
-			var a, b, d, l, r, u;
-			a = ks[9];
-			b = ks[8];
-			d = ks[2];
-			l = ks[4];
-			r = ks[5];
-			u = ks[0];
-			if (a * a + b * b * b + d * d * d * d != 2851721) return;
-			if (l * l + r * r * r + u * u * u * u != 2145824) return;
-			var s = String.fromCharCode(a + 7) +
-				String.fromCharCode(b + 3) +
-				String.fromCharCode(d + 42) +
-				String.fromCharCode(l + 42) +
-				String.fromCharCode(r + 30) +
-				String.fromCharCode(u + 45);
-			document.location = '//web.evanchen.cc/' + s.toLowerCase() + '.html';
-		});
-	</script>
-	<script>
-		$(document).ready(function() {
-			const url = 'https://blog.evanchen.cc/feed/';
-			$.ajax({
-				type: 'GET',
-				dataType: 'jsonp',
-				url: "https://api.rss2json.com/v1/api.json?rss_url=" + url,
-				success: function(data) {
-					const pub_date = data.items[0].pubDate;
-					const title = data.items[0].title;
-					const link = data.items[0].link;
-					const cut_title = title.length < 45 ? title : title.substring(0, 45) + '…';
-					$("#latest_blog_date").html(pub_date.substring(0, 10));
-					$("#latest_blog_anchor").prop('href', link);
-					$("#latest_blog_anchor").html(cut_title);
-				}
-			});
-		});
-	</script>
-</body>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga",
+      );
+      ga("create", "UA-71669828-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <script>
+      var ks = [];
+      document.addEventListener("keydown", function (e) {
+        ks.push(e.keyCode);
+        if (ks.length > 10) {
+          ks.splice(0, ks.length - 10);
+        }
+        if (ks.length < 10) return;
+        if (ks[0] != ks[1]) return;
+        if (ks[2] != ks[3]) return;
+        if (ks[4] != ks[6]) return;
+        if (ks[5] != ks[7]) return;
+        var a, b, d, l, r, u;
+        a = ks[9];
+        b = ks[8];
+        d = ks[2];
+        l = ks[4];
+        r = ks[5];
+        u = ks[0];
+        if (a * a + b * b * b + d * d * d * d != 2851721) return;
+        if (l * l + r * r * r + u * u * u * u != 2145824) return;
+        var s =
+          String.fromCharCode(a + 7) +
+          String.fromCharCode(b + 3) +
+          String.fromCharCode(d + 42) +
+          String.fromCharCode(l + 42) +
+          String.fromCharCode(r + 30) +
+          String.fromCharCode(u + 45);
+        document.location = "//web.evanchen.cc/" + s.toLowerCase() + ".html";
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        const url = "https://blog.evanchen.cc/feed/";
+        $.ajax({
+          type: "GET",
+          dataType: "jsonp",
+          url: "https://api.rss2json.com/v1/api.json?rss_url=" + url,
+          success: function (data) {
+            const pub_date = data.items[0].pubDate;
+            const title = data.items[0].title;
+            const link = data.items[0].link;
+            const cut_title =
+              title.length < 45 ? title : title.substring(0, 45) + "…";
+            $("#latest_blog_date").html(pub_date.substring(0, 10));
+            $("#latest_blog_anchor").prop("href", link);
+            $("#latest_blog_anchor").html(cut_title);
+          },
+        });
+      });
+    </script>
+  </body>
 </html>
