@@ -37,7 +37,7 @@ with open("static/homepage.html") as f:
     index_html = HEADER + "".join(f.readlines()) + FOOTER
 index_html = index_html.replace(
     "<script",
-    r'<link href="css/index.css" rel="stylesheet" type="text/css">' + "\n<script",
+    r'<link href="css/index.css" rel="stylesheet" type="text/css" />' + "\n<script",
     1,
 )
 # lol injects extra index CSS into specifically homepage only
