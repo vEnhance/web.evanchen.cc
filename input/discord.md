@@ -8,18 +8,15 @@ menu-position: 52
 
 By using the link
 
-<center>
-<p><a href="https://discord.gg/KzFXYwqRFX">https://discord.gg/KzFXYwqRFX</a></p>
-</center>
+<center><a href="https://discord.gg/KzFXYwqRFX">https://discord.gg/KzFXYwqRFX</a></center>
+
 you can join vEnhance's Discord server.
 This Discord server is centered around my
-[*Twitch Solves ISL* stream](videos.html),
+[_Twitch Solves ISL_ stream](videos.html),
 so it is usually most active while the stream is live, or around that time.
 However, you should feel welcome to post math questions or discussion at any time.
 
-<center>
-<iframe src="https://discord.com/widget?id=780468665019269191&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-</center>
+<center><iframe src="https://discord.com/widget?id=780468665019269191&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></center>
 
 ## {{ hl("rules", "Server rules") }}
 
