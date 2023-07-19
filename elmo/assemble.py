@@ -300,7 +300,7 @@ with open("timeline/index.html", "w") as f:
         page_start.format(
             title="Timeline",
             howsort="[[0,-1]]",
-            row=r"<thead><tr><th>#</th><th>Year</th><th>Contest</th><th>Dates</th></thead>",
+            row=r"<thead><tr><th>#</th><th>Year</th><th>Contest</th><th>Dates</th></tr></thead>",
         ),
         file=f,
     )
@@ -318,7 +318,7 @@ with open("countries/index.html", "w") as f:
         page_start.format(
             title="Countries",
             howsort="[[0,-1]]",
-            row=r"<thead><tr><th>Year</th><th>Country</th><th>Leaders</th><th>Rank</th><th>Awards</th></thead>",
+            row=r"<thead><tr><th>Year</th><th>Country</th><th>Leaders</th><th>Rank</th><th>Awards</th></tr></thead>",
         ),
         file=f,
     )
@@ -337,7 +337,7 @@ with open("results/index.html", "w") as f:
         page_start.format(
             title="Results",
             howsort="[[0,1]]",
-            row=r"<thead><tr><th>Year</th><th>Country</th><th>Name</th><th>Rank</th><th>Award</th></thead>",
+            row=r"<thead><tr><th>Year</th><th>Country</th><th>Name</th><th>Rank</th><th>Award</th></tr></thead>",
         ),
         file=f,
     )
@@ -662,6 +662,7 @@ for year in ELMO:
             print(f"<td><b>{country.rank}</b></td>", end=" ", file=f)
             print(f"<td><b>{country.awards}</b></td>", end=" ", file=f)
             print("</tr>", file=f)
+            print("</tfoot>", file=f)
             print("</table>", file=f)
             print(FOOTER, file=f)
 # }}}
