@@ -28,23 +28,26 @@ def page_footer(page) -> str:
         blob = tree[str(input_path)]
     except KeyError:
         return (
-            f'<div class="text-muted">View the <a href="{GITHUB_BASE}">source repository</a>.</div>'
-            "\n"
-            '<div class="font-italic text-muted">This hidden page not under public version control.</div>'
+            '<div class="text-muted">\n'
+            f'View the <a href="{GITHUB_BASE}">source repository</a>.\n'
+            r"</div>\n"
+            '<div class="font-italic text-muted">\n'
+            "This hidden page not under public version control.\n"
+            "</div>"
         )
     else:
         commit = next(repo.iter_commits(paths=blob.path, max_count=1))
         last_update_dt = datetime.datetime.utcfromtimestamp(commit.committed_date)
         last_update_str = last_update_dt.strftime("%a %-d %b %Y, %H:%M:%S UTC")
         return (
-            "<div>"
-            f'<a href="{GITHUB_BASE}">Source repository (git)</a> &bullet; '
-            f'<a href="{GITHUB_BASE}/commits/main/{input_path}">Revision history</a> &bullet; '
-            f'<a href="{GITHUB_BASE}/edit/main/{input_path}">Suggest edit</a>'
-            r"</div>"
-            f'<div class="text-muted">Updated {last_update_str} by '
-            f'<a href="{GITHUB_BASE}/commit/{commit.hexsha}"><code>{commit.hexsha[0:12]}</code></a>'
-            r"</div>"
+            "<div>\n"
+            f'<a href="{GITHUB_BASE}">Source repository (git)</a> &bullet;\n'
+            f'<a href="{GITHUB_BASE}/commits/main/{input_path}">Revision history</a> &bullet;\n'
+            f'<a href="{GITHUB_BASE}/edit/main/{input_path}">Suggest edit</a>\n'
+            "</div>\n"
+            f'<div class="text-muted">Updated {last_update_str} by\n'
+            f'<a href="{GITHUB_BASE}/commit/{commit.hexsha}"><code>{commit.hexsha[0:12]}</code></a>\n'
+            "</div>"
         )
 
 
