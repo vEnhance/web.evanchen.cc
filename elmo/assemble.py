@@ -336,12 +336,12 @@ with open("results/index.html", "w") as f:
     print(
         page_start.format(
             title="Results",
-            howsort="[[0,1]]",
+            howsort="[[0,-1]]",
             row=r"<thead><tr><th>Year</th><th>Country</th><th>Name</th><th>Rank</th><th>Award</th></tr></thead>",
         ),
         file=f,
     )
-    for year in ELMO:
+    for year in reversed(ELMO):
         for student in year.students:
             if student.name == "":
                 continue
