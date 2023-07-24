@@ -1,2 +1,4 @@
 drop-empty-elements: false
 warn-proprietary-attributes: false
+indent: true
+indent-spaces: 2
