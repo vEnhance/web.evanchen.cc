@@ -13,4 +13,6 @@ fi
 
 python3 poole/poole.py -b --base-url="$BASE_URL" \
   --md-ext=extra --md-ext=smarty --md-ext=sane_lists --md-ext=mdx_truly_sane_lists
-prettier -w output/*.html
+
+tidy -config ./tidyrc -qe ./output/*.html
+prettier -w ./output/*.html
