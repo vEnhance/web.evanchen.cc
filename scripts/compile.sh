@@ -17,9 +17,9 @@ python3 poole/poole.py -b --base-url="$BASE_URL" \
   --md-ext=sane_lists \
   --md-ext=mdx_truly_sane_lists >/dev/null
 
-# validate output with tidy and htmlhint
+# reformat output with tidy
 tidy -config ./tidyrc -qm ./output/*.html
-htmlhint output/*.html
-
-# reformat it with prettier
+# reformat it with prettier afterwards
 prettier -w ./output/*.html
+# validate with htmlhint
+htmlhint output/*.html
