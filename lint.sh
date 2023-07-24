@@ -10,3 +10,8 @@ prettier --check "${MARKDOWN_FILES_ARRAY[@]}"
 
 echo "Running spellcheck..."
 codespell "${SPELL_FILES_ARRAY[@]}"
+
+echo "Checking compile passes..."
+./scripts/compile.sh
+
+echo "✅ All OK!"

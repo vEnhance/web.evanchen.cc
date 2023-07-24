@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euxo pipefail
+set -euo pipefail
 
 if [ $# -eq 0 ]; then
   BASE_URL="https://web.evanchen.cc"
@@ -12,7 +12,10 @@ else
 fi
 
 python3 poole/poole.py -b --base-url="$BASE_URL" \
-  --md-ext=extra --md-ext=smarty --md-ext=sane_lists --md-ext=mdx_truly_sane_lists
+  --md-ext=extra \
+  --md-ext=smarty \
+  --md-ext=sane_lists \
+  --md-ext=mdx_truly_sane_lists >/dev/null
 
 tidy -config ./tidyrc -qe ./output/*.html
 prettier -w ./output/*.html
