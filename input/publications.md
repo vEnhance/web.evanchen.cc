@@ -43,7 +43,7 @@ Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
   E. Chen. Published in [Electronic Journal of Combinatorics][ejc-schur].
 
 - [The 26 Wilf-equivalence classes of length five quasi-consecutive patterns][arxiv-wilf] <br>
-  E. Chen, S. Narayanam. Published in [Discrete Math & Theoretical CS][dmtcs-wilf].
+  E. Chen, S. Narayanam. Published in [Discrete Math and Theoretical CS][dmtcs-wilf].
 
 - [A family of partially ordered sets with small balance constant][arxiv-poset] <br>
   E. Chen. Published in [Electronic Journal of Combinatorics][ejc-poset].
