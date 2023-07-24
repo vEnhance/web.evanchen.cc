@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Evan Chen &bullet; {{ page["title"] }}</title>
+    <meta charset="UTF-8" />
+    <title>Evan Chen • {{ page["title"] }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,400&amp;family=Mate&amp;family=Noto+Serif+TC:wght@500&amp;family=PT+Sans&amp;family=Roboto+Slab:wght@400;500;600&amp;display=swap"
       rel="stylesheet"
@@ -12,6 +13,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
     />
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -29,7 +31,6 @@
       async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
     ></script>
-    <meta charset="UTF-8" />
     <meta content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="evan chen, math, olympiad, IMO, education" />
@@ -89,37 +90,36 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
         </div>
         <div class="col-10 col-md-5 col-lg-5">
           <div id="email_box">
-            <a class="emoji-link" href="contact.html">
-              <img height="24" src="icons/social-mail.png" alt="Email" />
-            </a>
+            <a class="emoji-link" href="contact.html"
+              ><img height="24" src="icons/social-mail.png" alt="Email"
+            /></a>
             &nbsp;
-            <a class="emoji-link" href="https://blog.evanchen.cc/">
-              <img height="24" src="icons/social-wordpress.png" alt="Blog" />
-            </a>
+            <a class="emoji-link" href="https://blog.evanchen.cc/"
+              ><img height="24" src="icons/social-wordpress.png" alt="Blog"
+            /></a>
             &nbsp;
-            <a class="emoji-link" href="https://www.instagram.com/evanchen.cc/">
-              <img
+            <a class="emoji-link" href="https://www.instagram.com/evanchen.cc/"
+              ><img
                 height="24"
                 src="icons/social-instagram.png"
                 alt="Instagram"
-              />
-            </a>
+            /></a>
             &nbsp;
-            <a class="emoji-link" href="https://youtube.com/c/vEnhance">
-              <img height="24" src="icons/social-youtube.png" alt="YouTube" />
-            </a>
+            <a class="emoji-link" href="https://youtube.com/c/vEnhance"
+              ><img height="24" src="icons/social-youtube.png" alt="YouTube"
+            /></a>
             &nbsp;
-            <a class="emoji-link" href="https://twitch.tv/vEnhance">
-              <img height="24" src="icons/social-twitch.png" alt="Twitch" />
-            </a>
+            <a class="emoji-link" href="https://twitch.tv/vEnhance"
+              ><img height="24" src="icons/social-twitch.png" alt="Twitch"
+            /></a>
             &nbsp;
-            <a class="emoji-link" href="discord.html">
-              <img height="24" src="icons/social-discord.png" alt="Discord" />
-            </a>
+            <a class="emoji-link" href="discord.html"
+              ><img height="24" src="icons/social-discord.png" alt="Discord"
+            /></a>
             &nbsp;
-            <a class="emoji-link" href="https://www.github.com/vEnhance/">
-              <img height="24" src="icons/social-github.png" alt="Github" />
-            </a>
+            <a class="emoji-link" href="https://www.github.com/vEnhance/"
+              ><img height="24" src="icons/social-github.png" alt="Github"
+            /></a>
           </div>
         </div>
       </div>
@@ -162,15 +162,14 @@ for p in mpages:
 %-->
               <br />
               <p>
-                <a href="https://ko-fi.com/evanchen" target="_blank">
-                  <img
+                <a href="https://ko-fi.com/evanchen" target="_blank"
+                  ><img
                     height="28"
                     style="border: 0px; height: 28px"
                     src="//az743702.vo.msecnd.net/cdn/kofi4.png?v=0"
                     border="0"
                     alt="Buy Me a Coffee at ko-fi.com"
-                  />
-                </a>
+                /></a>
               </p>
             </div>
           </div>
@@ -189,80 +188,8 @@ for p in mpages:
       </div>
     </div>
     <!-- end container -->
-
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "//www.google-analytics.com/analytics.js",
-        "ga",
-      );
-      ga("create", "UA-71669828-1", "auto");
-      ga("send", "pageview");
-    </script>
-    <script>
-      var ks = [];
-      document.addEventListener("keydown", function (e) {
-        ks.push(e.keyCode);
-        if (ks.length > 10) {
-          ks.splice(0, ks.length - 10);
-        }
-        if (ks.length < 10) return;
-        if (ks[0] != ks[1]) return;
-        if (ks[2] != ks[3]) return;
-        if (ks[4] != ks[6]) return;
-        if (ks[5] != ks[7]) return;
-        var a, b, d, l, r, u;
-        a = ks[9];
-        b = ks[8];
-        d = ks[2];
-        l = ks[4];
-        r = ks[5];
-        u = ks[0];
-        if (a * a + b * b * b + d * d * d * d != 2851721) return;
-        if (l * l + r * r * r + u * u * u * u != 2145824) return;
-        var s =
-          String.fromCharCode(a + 7) +
-          String.fromCharCode(b + 3) +
-          String.fromCharCode(d + 42) +
-          String.fromCharCode(l + 42) +
-          String.fromCharCode(r + 30) +
-          String.fromCharCode(u + 45);
-        document.location = "//web.evanchen.cc/" + s.toLowerCase() + ".html";
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        const url = "https://blog.evanchen.cc/feed/";
-        $.ajax({
-          type: "GET",
-          dataType: "jsonp",
-          url: "https://api.rss2json.com/v1/api.json?rss_url=" + url,
-          success: function (data) {
-            const pub_date = data.items[0].pubDate;
-            const title = data.items[0].title;
-            const link = data.items[0].link;
-            const cut_title =
-              title.length < 45 ? title : title.substring(0, 45) + "…";
-            $("#latest_blog_date").html(pub_date.substring(0, 10));
-            $("#latest_blog_anchor").prop("href", link);
-            $("#latest_blog_anchor").html(cut_title);
-          },
-        });
-      });
-    </script>
+    <script src="js/blog.js"></script>
+    <script src="js/ga.js"></script>
+    <script src="js/k.js"></script>
   </body>
 </html>
