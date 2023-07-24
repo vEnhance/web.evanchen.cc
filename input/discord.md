@@ -8,7 +8,9 @@ menu-position: 52
 
 By using the link
 
-<center><a href="https://discord.gg/KzFXYwqRFX">https://discord.gg/KzFXYwqRFX</a></center>
+<p style="text-align:center">
+  <a href="https://discord.gg/KzFXYwqRFX">https://discord.gg/KzFXYwqRFX</a>
+</p>
 
 you can join vEnhance's Discord server.
 This Discord server is centered around my
@@ -16,7 +18,14 @@ This Discord server is centered around my
 so it is usually most active while the stream is live, or around that time.
 However, you should feel welcome to post math questions or discussion at any time.
 
-<center><iframe src="https://discord.com/widget?id=780468665019269191&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></center>
+<iframe src="https://discord.com/widget?id=780468665019269191&amp;theme=dark"
+  width="350"
+  height="500"
+  allowtransparency="true"
+  frameborder="0"
+  sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+  style="margin: 0 auto;">
+</iframe>
 
 ## {{ hl("rules", "Server rules") }}
 

@@ -20,9 +20,9 @@ OTIS is a proof-based olympiad training program.
 
 Updated for 2023-2024:
 
-<center markdown="1">
+<div markdown="1" style="text-align: center;">
 [🗎 <b>DOWNLOAD SYLLABUS</b>](upload/otis-syllabus.pdf)
-</center>
+</div>
 
 ## {{ hl("docs", "Other documents") }}
 
@@ -56,9 +56,11 @@ This mini-book was named _The OTIS Excerpts_.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
-<center>
-<img src="static/otis-logo-v2022.svg" width="50%" alt="OTIS logo, v2022" />
-</center>
+<div style="margin: 0 auto;">
+<img src="static/otis-logo-v2022.svg"
+  width="50%"
+  alt="OTIS logo, v2022" />
+</div>
 
 ---
 

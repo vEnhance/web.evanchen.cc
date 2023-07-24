@@ -12,7 +12,7 @@ You can find my page on
 [Board Game Geek profile](https://boardgamegeek.com/user/vEnhance/);
 here are some of the games I like.
 
-<script language="javascript" src="https://boardgamegeek.com/jswidget.php?username=vEnhance&numitems=5&text=title&images=small-fixed&show=random&imagesonly=1&imagepos=left&domains%5B%5D=boardgame"></script>
+<script language="javascript" src="https://boardgamegeek.com/jswidget.php?username=vEnhance&amp;numitems=5&amp;text=title&amp;images=small-fixed&amp;show=random&amp;imagesonly=1&amp;imagepos=left&amp;domains%5B%5D=boardgame"></script>
 
 ## {{ hl("steam", "Steam") }}
 

@@ -5,10 +5,10 @@ menu-position: 50
 
 ---
 
-<p>
+<div>
 <table cellpadding="5">
 <tr>
-  <td align="center">
+  <td style="text-align: center;">
   <a href="https://youtube.com/c/vEnhance">
   <img src="static/logo-youtube.png" width="120" alt="YouTube logo" />
   </a>
@@ -22,7 +22,7 @@ menu-position: 50
   </td>
 </tr>
 <tr>
-  <td align="center">
+  <td style="text-align:center;">
   <a href="https://twitch.tv/vEnhance/">
   <img src="static/logo-twitch.png" width="70" alt="Twitch logo" />
   </a>
@@ -33,7 +33,7 @@ menu-position: 50
   </td>
 </tr>
 </table>
-</p>
+</div>
 
 Some Fridays I run a [Twitch stream](https://www.twitch.tv/vEnhance)
 which is informally titled **Twitch Solves ISL** (here ISL is IMO Shortlists).
@@ -67,11 +67,11 @@ Here is a picture of my physical setup (click to enlarge).
 Xiberia V22 headset, Havit HV-KB395L keyboard,
 Inateck MS 1001 mouse, MSI Codex XE Plus computer.
 
-<center>
-<a href="/static/twitch-setup.jpg">
-<img src="/static/twitch-setup-sm.jpg" width="250" alt="Evan's multi-monitor setup for Twitch." />
-</a>
-</center>
+<div style="margin: 0 auto;">
+  <a href="/static/twitch-setup.jpg">
+  <img src="/static/twitch-setup-sm.jpg" width="250" alt="Evan's multi-monitor setup for Twitch." />
+  </a>
+</div>
 
 ## {{ hl("archive", "Archive of past problems") }}
 

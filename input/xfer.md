@@ -13,11 +13,11 @@ Evan Chen is sending you a private file,
 <hr />
 
 <div class="form-group">
-<label for="xfer_filename"><h3>Filename</h3></label>
+<h3><label for="xfer_filename">Filename</label></h3>
 <input class="form-control" style="font-family:Inconsolata,monospace;" id="xfer_filename" />
 </div>
 <div>
-<label for="xfer_password"><h3>Password</h3></label>
+<h3><label for="xfer_password">Password</label></h3>
 <input type="password" class="form-control" id="xfer_password" />
 <hr />
 <button class="btn btn-primary">Unlock</button>

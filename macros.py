@@ -1,6 +1,7 @@
 import csv
 import datetime
 import json
+from html import escape
 from pathlib import Path
 
 from git.repo import Repo
@@ -82,7 +83,7 @@ def get_twitch_table():
     for row in data:
         n = row["N"]
         key: str = row["Source"]
-        youtube = row["YouTube"]
+        youtube_url = row["YouTube"]
 
         if key.startswith("!"):  # coding problem
             pdf_url = None
@@ -128,15 +129,15 @@ def get_twitch_table():
         else:
             out += "<td>%s</td>" % key
         if pdf_url is not None:
-            out += f'<td><a href="{pdf_url}">(pdf)</a></td>'
+            out += f'<td><a href="{escape(pdf_url)}">(pdf)</a></td>'
         else:
             out += "<td></td>"
-        if src_type is not None:
-            out += f'<td><a href="{src_url}">({src_type})</a></td>'
+        if src_url is not None:
+            out += f'<td><a href="{escape(src_url)}">({src_type})</a></td>'
         else:
             out += "<td></td>"
-        if youtube:
-            out += '<td><a href="%s">(video)</a></td>' % youtube
+        if youtube_url:
+            out += f'<td><a href="{escape(youtube_url)}">(video)</a></td>'
         else:
             out += "<td></td>"
         out += "</tr>" + "\n"

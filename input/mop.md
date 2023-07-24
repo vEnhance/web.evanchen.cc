@@ -6,7 +6,7 @@ indent: 1
 
 ---
 
-[![Not an official logo, but comedic](static/mop/abcde.png){width=150px}](static/mop/abcde.png)
+[![Not an official logo, but comedic](static/mop/abcde.png){width=150}](static/mop/abcde.png)
 {style="float:right;"}
 
 ## {{ hl("about", "About MOP") }}
@@ -381,56 +381,6 @@ Here are recent songs we performed:
 - Tristan Shin: "Proof: coordinates!"
 - William Yue: "That's just true by combo."
 </div>
-
-<style type="text/css">
-a img.tshirt {
-  width: 150px;
-  border: 2px grey solid;
-  border-radius: 5px;
-  margin: 7px 7px;
-}
-a img:hover {
-  box-shadow: 0px 0px 35px #dddd33;
-  background-color: #eeee88;
-}
-div.hidden {
-  display: none;
-  border: 2px solid #660000;
-  border-radius: 8px;
-  padding: 5px 5px;
-  background-color: #e4fbf9;
-  padding: 6px;
-}
-
-.chooser {
-  text-align: center;
-}
-div.chooser {
-  margin-top: -5px;
-  margin-bottom: 5px;
-}
-.chooser ul {
-  list-style: none;
-  padding: 0 10px 0 10px;
-  margin-bottom: 0px;
-  border-radius: 4px;
-}
-.list-chooser ul {
-  border: 2px dotted #0033dd;
-}
-.empty-chooser ul {
-  border: 2px dotted #990099;
-}
-.empty-chooser a:link {
-  color: #af2f2f;
-}
-.chooser ul > li {
-  display: inline;
-}
-.chooser ul > li:not(:last-child)::after {
-  content: " • ";
-}
-</style>
 
 <script type="text/javascript">
 $(() => {

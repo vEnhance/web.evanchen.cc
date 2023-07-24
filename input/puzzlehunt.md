@@ -16,7 +16,7 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 - [Nutrition Facts](https://web.mit.edu/puzzle/www/2021/puzzle/nutrition-facts/)
 - [Blind Calculation](https://web.mit.edu/puzzle/www/2021/puzzle/blind-calculation/)
 - [A Bit of Light](https://web.mit.edu/puzzle/www/2021/puzzle/a-bit-of-light/)
-- [Le chiffre indéchiffrable](https://web.mit.edu/puzzle/www/2021/puzzle/le-chiffre-indéchiffrable/)
+- [Le chiffre indéchiffrable](https://web.mit.edu/puzzle/www/2021/puzzle/le-chiffre-ind%E9chiffrable/)
 - [Clueless](https://web.mit.edu/puzzle/www/2021/puzzle/clueless/)
 - [Divided Is Us](https://web.mit.edu/puzzle/www/2021/puzzle/divided-is-us/), with Jakob Weisblat
 - [Escape From Life](https://web.mit.edu/puzzle/www/2021/puzzle/escape-from-life/)

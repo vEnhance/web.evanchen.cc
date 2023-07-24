@@ -6,8 +6,9 @@ description: OTIS Excerpts, a mini-book based on OTIS lecture notes.
 ---
 
 <span style="float:right;padding:10px;">
-<img src="https://storage.googleapis.com/otisweb-static/static/img/otis-logo-v2018.svg"
-width="250px" />
+  <img src="https://storage.googleapis.com/otisweb-static/static/img/otis-logo-v2022.svg"
+  alt="OTIS logo, v2022"
+  width="250" />
 </span>
 
 ## {{ hl("download", "Download") }}
