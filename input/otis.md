@@ -5,7 +5,10 @@ description: Synopsis of my teaching for olympiad contestants.
 
 ---
 
-<img src="static/43616c76696e486f62626573.gif" width="100%" />
+<a href="https://www.gocomics.com/calvinandhobbes/1992/09/21">
+<img src="static/43616c76696e486f62626573.gif" width="100%"
+  alt="Calvin and Hobbes comic from Sept 21, 1992." />
+</a>
 
 OTIS is a proof-based olympiad training program.
 (Students not yet ready for proofs may be interested in
@@ -54,7 +57,7 @@ It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
 <center>
-<img src="static/otis-logo-v2022.svg" width="50%" />
+<img src="static/otis-logo-v2022.svg" width="50%" alt="OTIS logo, v2022" />
 </center>
 
 ---
@@ -137,8 +140,8 @@ participation as students denoted in parentheses.
 
 ## {{ hl("photos", "Photos") }}
 
-<img src="static/otis-imo-2018.png" width="400" />
-<img src="static/otis-imo-2019.jpg" width="400" />
+<img src="static/otis-imo-2018.png" width="400" alt="OTIS x IMO 2018 gathering" />
+<img src="static/otis-imo-2019.jpg" width="400" alt="OTIS x IMO 2019 gathering" />
 
 [anant]: https://www.imo-official.org/participant_r.aspx?id=25764
 [david]: https://www.imo-official.org/participant_r.aspx?id=27309

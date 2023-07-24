@@ -7,7 +7,7 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 <span style="float:right;padding:10px;">
 <a href="https://www.instagram.com/p/CrZaUW8PMxY/">
-<img src="https://web.evanchen.cc/static/top-self.jpg" width="180"/>
+<img src="https://web.evanchen.cc/static/top-self.jpg" width="180" alt="Self-portrait of Evan Chen." />
 </a>
 </span>
 
@@ -43,7 +43,7 @@ or my [archive of past problems and solutions](problems.html).
 
 ---
 
-<img src="static/home-art.png" width="400" /><br />
+<img src="static/home-art.png" width="400" alt="Diagram to Taiwan TST 2014 problem." /><br />
 <small>The nine-point circle of $\triangle BIC$ is orthogonal to
 the circle with diameter $ST$.</small><br />
 <small>Problem source:

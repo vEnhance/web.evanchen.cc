@@ -8,7 +8,7 @@ description: Description of Napkin project, a free book covering all sorts of hi
 
 <span style="float:right;padding:10px; font-size:80%; text-align:center;">
 <a href="https://web.evanchen.cc/upload/recent-flowchart.png">
-<img src="https://web.evanchen.cc/upload/recent-flowchart.png" width="250">
+<img src="https://web.evanchen.cc/upload/recent-flowchart.png" width="250" alt="Flowchart for Napkin" >
 <br>(click to enlarge)</a>
 </span>
 

@@ -226,7 +226,7 @@ but your situation is likely to be more complicated, say, a mix between these.
 From [my Instagram](https://www.instagram.com/p/Ck_29xFOlxV/):
 
 <a href="https://www.instagram.com/p/Ck_29xFOlxV/">
-<img src="/static/expectations-reality.png" width="400" />
+<img src="/static/expectations-reality.png" width="400" alt="Humorous Instagram photo of expectations vs reality for contest math and undergrad math." />
 </a>
 
 ### {{ faq("S-10", "What's the distinction between calculus and real analysis?") }}

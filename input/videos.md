@@ -10,7 +10,7 @@ menu-position: 50
 <tr>
   <td align="center">
   <a href="https://youtube.com/c/vEnhance">
-  <img src="static/logo-youtube.png" width="120">
+  <img src="static/logo-youtube.png" width="120" alt="YouTube logo" />
   </a>
   <br />
   <h3><a href="https://www.youtube.com/c/vEnhance">
@@ -24,7 +24,7 @@ menu-position: 50
 <tr>
   <td align="center">
   <a href="https://twitch.tv/vEnhance/">
-  <img src="static/logo-twitch.png" width="70">
+  <img src="static/logo-twitch.png" width="70" alt="Twitch logo" />
   </a>
   <br />
   <h3><a href="https://twitch.tv/vEnhance/">
@@ -69,7 +69,7 @@ Inateck MS 1001 mouse, MSI Codex XE Plus computer.
 
 <center>
 <a href="/static/twitch-setup.jpg">
-<img src="/static/twitch-setup-sm.jpg" width="250" />
+<img src="/static/twitch-setup-sm.jpg" width="250" alt="Evan's multi-monitor setup for Twitch." />
 </a>
 </center>
 

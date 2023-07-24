@@ -8,7 +8,7 @@ description: Landing page for the USEMO
 
 <span style="float:right;padding:10px;">
 <a href="static/usemo/usemo-logo.png">
-<img width="240" src="static/usemo/usemo-logo.png" />
+<img width="240" src="static/usemo/usemo-logo.png" alt="USEMO logo" />
 </a>
 </span>
 
