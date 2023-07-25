@@ -72,7 +72,7 @@ You may now apply for OTIS 2023-2024. The deadline is **August 1, 2023**.
 - [Submission URL for fall 2023](https://forms.gle/uCpRSiNow7GXj4if8)
 - [Financial aid request URL for fall 2023](https://forms.gle/jPmWaqAvAavKSAkYA)
 
-## {{ hl("prereq", "Who can apply") }}
+## {{ hl("prereq", "Who can apply (aka, everyone)") }}
 
 OTIS is open to anyone, including international students from all countries.
 Students from minorities and underrepresented groups
