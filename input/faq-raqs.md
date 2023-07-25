@@ -220,6 +220,24 @@ But today when I play, the greatest part is being able to appreciate
 the experience that the developers have so carefully choreographed
 (and then relentlessly debugged to boot).
 
+### {{ faq("R-10", "How can I get useful information when I ask for advice or experience from others?") }}
+
+I think the two most helpful tips I have are:
+
+- Ask for **specific examples**.
+  For example, if you're a senior choosing between colleges,
+  and someone claims that "students at X school do cool things",
+  ask for examples of "cool things".
+  Or if someone mentions how Y experience changed their views on many things,
+  ask for examples of what they changed their mind about.
+
+- Ask for **what was most different from what they expected**.
+  (Yes, you can actually just ask this question verbatim, it's magical.)
+  Paul Graham says: "you can ask [this] of even the most unobservant people,
+  and it will extract information they didn't even know they were recording".
+
+Conversely, these are also the heuristics I use when _giving_ advice.
+
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
