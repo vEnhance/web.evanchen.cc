@@ -11,6 +11,9 @@ Are the lotus-eaters trying to convert you into the cult of Vim?
 Have you just been overwhelmed by all the black magic that
 Evan and his orz-ers seems to exercise like it's nothing?
 
+(Or are you just here because of the $N = p^2+q^3$ question
+on the OTIS application? Good, it's working.)
+
 If so, these pages may be for you.
 
 > You're much better off using code as your secret weapon in another profession.
