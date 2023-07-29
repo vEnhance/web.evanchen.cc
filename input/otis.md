@@ -77,8 +77,8 @@ You may now apply for OTIS 2023-2024. The deadline is **August 1, 2023**.
 OTIS is open to anyone, including international students from all countries.
 Students from minorities and underrepresented groups
 are especially encouraged to apply. (I promise I don't bite.)
-Full financial aid is available for all applications
-(even late) and admissions is need-blind.
+**Full financial aid is available for all applications
+(even late) and admissions is need-blind.**
 
 Admissions are only done to ensure students have sufficient mathematical
 background and writing ability (due to sheer number of students,
