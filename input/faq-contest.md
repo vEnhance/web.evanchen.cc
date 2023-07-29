@@ -497,7 +497,8 @@ This is one of the most common ways to underperform.
 
 For the most part, preparation for Putnam looks similar to that for USAMO,
 except that [Euclidean geometry][geombook] is absent,
-while calculus, abstract algebra, and a bit of real analysis are fair game.
+while abstract and linear algebra, calculus,
+and a bit of real analysis are fair game.
 Most non-geometry resources on this website should work equally well for Putnam.
 
 Format-wise, the most stark difference, in my opinion,
