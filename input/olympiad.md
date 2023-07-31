@@ -72,6 +72,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 - <b>Monsters</b> {{ handout_link("Monsters") }}
   A handout discussing pathological functional equations.
+
 - <b>Olympiad Inequalities</b> {{ handout_link("Ineq", "en") }}
   English translation of my original notes in Chinese.
   Describes some "standard strategies" for handling olympiad inequalities. <br>
@@ -87,7 +88,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 ## {{ hl("combo", "Combinatorics (Gryffindor)") }}
 
 - <b>Expected Uses of Probability</b> {{ handout_link("ProbabilisticMethod") }}
-  Inspired by Po-Shen Loh's talk at the 55th IMO 2014 or Problem 6.
+  Inspired by Po-Shen Loh's talk at the 55th IMO 2014 on Problem 6.
   Talks about expected value and the probabilistic method.
   This article was included in
   [Mathematical Reflections, Issue 6 of 2014](https://www.awesomemath.org/wp-pdf-files/math-reflections/mr-2014-06/probabilistic.pdf).
