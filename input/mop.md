@@ -267,8 +267,8 @@ Here are recent songs we performed:
 - Tristan (44 minutes before class ends): "For sake of time I will go over the solution."
 - Vivian: "Evan Chen is the new 🐭."
 - Yotam: "Bashing turns geo into points."
+- Aaryan: "Showering is a 35 MOHS task."
 - "If we are clowns, then dotted is a walking circus."
-- "Showering is a 35 MOHS task."
 - "To solve problem 2, it is not enough to not be a potato.
   You have to be a napa cabbage."
 </div>
