@@ -20,6 +20,7 @@ Alphabetical, does not include song lyrics.
   will be mostly mediocre. Look at Windows.
   ([Paul Graham](http://www.paulgraham.com/icadmore.html))
 - Perfect is the enemy of good enough.
+- Premature optimization is the root of all evil. (Donald Knuth)
 - Simplicity is the ultimate sophistication.
 
 ## {{ hl("processes", "Processes") }}
@@ -57,6 +58,8 @@ Alphabetical, does not include song lyrics.
 ## {{ hl("people", "People") }}
 
 - Ethics is informal politics. (own)
+- Especially watch out for charming people who seem a bit too perfect,
+  a bit too awesome, or a bit too popular. (Kathleen Forth)
 - Everything before the word "but" is bullshit.
 - I don't believe in zero-sum games.
   ([Scott Alexander](https://slatestarcodex.com/2015/01/01/untitled/))
