@@ -1,7 +1,5 @@
 #!/bin/fish
 
-./scripts/compile.sh | tail -n 1
-
 git diff --quiet
 
 if test $status -eq 1 -a -z "$argv[1]"
