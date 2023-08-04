@@ -239,7 +239,8 @@ Here are recent songs we performed:
 
 <div class="chooser empty-chooser"></div>
 <div data-year="2023" data-header="Quotes 2023" class="hidden" markdown="block">
-- Alec: "What are some characteristics of a buffalo?"
+- Aaryan: "Showering is a 35 MOHS task."
+- Alec: "What are some characteristics of a buffalo?"<br>
   Andrew: "It touches grass."
 - Allen: "If I slept for the entire day I would have swept the test in 2 hours."
   Elliott: "If you sleep for 24 hours, you're dead."
@@ -267,7 +268,6 @@ Here are recent songs we performed:
 - Tristan (44 minutes before class ends): "For sake of time I will go over the solution."
 - Vivian: "Evan Chen is the new 🐭."
 - Yotam: "Bashing turns geo into points."
-- Aaryan: "Showering is a 35 MOHS task."
 - "If we are clowns, then dotted is a walking circus."
 - "To solve problem 2, it is not enough to not be a potato.
   You have to be a napa cabbage."
