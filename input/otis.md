@@ -111,6 +111,7 @@ participation as students denoted in parentheses.
 - [Dávid Matolcsi][david]
 - [Gopal Goel][gopal] (IV-V)
 - [Jeffrey Kwan][jkwan] (IV-V)
+- [Michael Ren][mren] (I-II)
 - [Noah Walsh][noah] (V-VI)
 - [Ram Goel][ramgoel] (V-VII)
 - [Rohan Goyal][rohan] (V)
@@ -131,7 +132,6 @@ participation as students denoted in parentheses.
 [Anushka Aggarwal][anushka] (V);
 [Howard Halim][howard] (III-IV);
 [James Lin][james];
-[Michael Ren][mren] (I-II);
 [Pranjal Srivastava][pranjal] (IV);
 [Reed LaFleche][reed];
 [Sanjana Das][sanjana] (VI);
