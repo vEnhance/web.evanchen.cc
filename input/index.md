@@ -67,8 +67,8 @@ He also wrote the popular textbook
 [Euclidean Geometry in Math Olympiads](geombook.html) while in high school,
 which was published in 2016.
 
-Outside of math and teaching, Evan's hobbies include
-Korean pop dance, [Arch Linux, Hanabi and puzzle hunts](personal.html).
+Outside of math and teaching, Evan's hobbies include Korean pop dance,
+[Arch Linux, competitive Hanabi and puzzle hunts](personal.html).
 
 [ubuntu-key]: http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2911981b5d39118d80d782779474e9565d64c443
 [opengpg-key]: https://keys.openpgp.org/vks/v1/by-fingerprint/2911981B5D39118D80D782779474E9565D64C443

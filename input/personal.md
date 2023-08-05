@@ -43,16 +43,13 @@ check the [dedicated page](puzzlehunt.html).
 
 [Hanabi](<https://en.wikipedia.org/wiki/Hanabi_(card_game)>)
 is a cooperative logic-based deduction game.
-I spend quite a bit of time playing Hanabi online with the
-[H-group](https://github.com/Zamiell/hanabi-conventions),
-which plays the game at a rather high level, and with my students.
-I am [vEnhance](https://hanab.live/scores/vEnhance) on the hanab.live website.
+I play Hanabi with the [H-group](https://github.com/Zamiell/hanabi-conventions),
+under the username [vEnhance](https://hanab.live/scores/vEnhance).
+I've been known to [play competitively](https://hanabi-competitions.com/).
 
 I wrote a
-[short introduction to the rules and conventions](https://tinyurl.com/hanabi-evan-intro)
-to get new players up to speed,
-which might be useful if you'd like to learn the rules of the game
-and the basics of the H-group conventions.
+[short introduction to the rules and H-group conventions](https://tinyurl.com/hanabi-evan-intro)
+if you'd like to get into the game and the strategies my group uses.
 
 ## {{ hl("games", "More games") }}
 
