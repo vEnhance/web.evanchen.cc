@@ -70,6 +70,8 @@ Alphabetical, does not include song lyrics.
 - I want you to know that it's okay if you only save one person,
   and it's okay if that person is yourself.
 - People only exist when you need them.
+- The more labels you have for yourself, the dumber they make you.
+  ([Paul Graham](http://paulgraham.com/identity.html))
 
 ## {{ hl("misc", "Miscellaneous") }}
 
