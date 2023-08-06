@@ -45,6 +45,8 @@ There are a few benefits to doing so:
 
 Discord _direct messages_ to me are worse than emails;
 they do not have any of the above benefits, and I am slower with them.
+I do my best with Discord DM's, but I've been known to miss them sometimes.
+Email is more reliable.
 
 ## {{ hl("notes", "Some notes for emails") }}
 
