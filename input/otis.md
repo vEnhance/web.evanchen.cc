@@ -107,7 +107,6 @@ participation as students denoted in parentheses.
 
 - [Anant Mudgal][anant] (III)
 - Arindam Bhattacharyya (V)
-- Atul Nadig (VII)
 - [Dávid Matolcsi][david]
 - [Gopal Goel][gopal] (IV-V)
 - [Jeffrey Kwan][jkwan] (IV-V)
@@ -130,6 +129,7 @@ participation as students denoted in parentheses.
 
 [Ankan Bhattacharya][ankan];
 [Anushka Aggarwal][anushka] (V);
+Atul Nadig (VII);
 [Howard Halim][howard] (III-IV);
 [James Lin][james];
 [Pranjal Srivastava][pranjal] (IV);
