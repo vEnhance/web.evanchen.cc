@@ -66,7 +66,10 @@ though some of the chapters are more challenging.
 
 # {{ hl("apply", "Application &mdash; Year IX (2023-2024)") }}
 
-You may now apply for OTIS 2023-2024. The deadline is **August 1, 2023**.
+You may send late applications for OTIS 2023-2024 between
+September 1, 2023 and April 30, 2024. (You can send before September 1 too,
+but I can't promise I'll process it quickly.)
+See the instructions below.
 
 - [Application instructions and homework for fall 2023](upload/otis-app-ix.pdf)
 - [Submission URL for fall 2023](https://forms.gle/uCpRSiNow7GXj4if8)
