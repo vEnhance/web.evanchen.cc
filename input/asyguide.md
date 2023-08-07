@@ -46,8 +46,14 @@ If that's working, you should be able to type
 `asy --version`
 
 into a command line and obtain a version number.
+(If you're using Windows with MikTeX, this might pull a really
+old version of `asy` that's bundled into MikTeX,
+which has been [known to cause issues][miktex-asy-bug].
+You may have to instead type the long string
+`"C:/Program Files/Asymptote/asy.exe"` instead of `asy` in what follows.)
 
 [asy-install]: https://asymptote.sourceforge.io/doc/Installation.html
+[miktex-asy-bug]: https://tex.stackexchange.com/q/666218/76888
 
 ---
 
