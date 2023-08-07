@@ -54,9 +54,8 @@ Taiwan TST Quiz 2015
 
 ## {{ hl("about", "About Evan") }}
 
-Evan is a math PhD student at MIT
-and one of the United States math olympiad coaches.
-In addition to serving as the team selection coordinator for the United States,
+Evan is a math PhD student at MIT, and a math olympiad coach.
+In addition to helping train the United States team,
 Evan runs his own [training program](otis.html) while
 [streaming olympiad math for public entertainment](videos.html).
 
