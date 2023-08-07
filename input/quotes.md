@@ -51,6 +51,8 @@ Alphabetical, does not include song lyrics.
   ([Chris Peterson](https://mitadmissions.org/blogs/entry/choosing-to-become-yourself/))
 - Talk is cheap. Show me the code.
   ([Linus Torvalds](http://lkml.org/lkml/2000/8/25/132))
+- To me, it feels very empowering to say "I _can_ improve, but I _don't want to_."
+  ([Ozy](https://thingofthings.wordpress.com/2016/07/26/two-corollaries-to-growth-mindset/))
 - You only need other people to give you advice that surprises you.
   That's why there are a lot of ski instructors and not many running instructors.
   ([Paul Graham](http://paulgraham.com/before.html))
