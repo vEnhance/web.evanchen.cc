@@ -31,7 +31,7 @@ def page_footer(page) -> str:
         return (
             '<div class="text-muted">\n'
             f'View the <a href="{GITHUB_BASE}">source repository</a>.\n'
-            r"</div>"
+            "</div>\n"
             '<div class="font-italic text-muted">\n'
             "This hidden page not under public version control.\n"
             "</div>"
