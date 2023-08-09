@@ -27,6 +27,7 @@ You can [download my CV](upload/public-CV.pdf),
 see my [publications](publications.html)
 and [research](https://arxiv.org/a/chen_e_2.html),
 or [read my university transcript](upload/math-coursework.pdf).
+Outside of math, I hate cooking.
 
 I am on [GitHub](https://github.com/vEnhance/),
 [Instagram](https://www.instagram.com/evanchen.cc/),
