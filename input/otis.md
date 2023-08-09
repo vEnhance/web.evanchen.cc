@@ -109,7 +109,6 @@ participation as students denoted in parentheses.
 ### Instructors
 
 - [Anant Mudgal][anant] (III)
-- Arindam Bhattacharyya (V)
 - [Dávid Matolcsi][david]
 - [Gopal Goel][gopal] (IV-V)
 - [Jeffrey Kwan][jkwan] (IV-V)
@@ -117,6 +116,7 @@ participation as students denoted in parentheses.
 - [Noah Walsh][noah] (V-VI)
 - [Ram Goel][ramgoel] (V-VII)
 - [Rohan Goyal][rohan] (V)
+- Rushil Mathur (VII-VIII)
 - Zoltan Gyenes
 
 </div>
@@ -132,6 +132,7 @@ participation as students denoted in parentheses.
 
 [Ankan Bhattacharya][ankan];
 [Anushka Aggarwal][anushka] (V);
+Arindam Bhattacharyya (V);
 Atul Nadig (VII);
 [Howard Halim][howard] (III-IV);
 [James Lin][james];
