@@ -11,6 +11,12 @@ Alphabetical, does not include song lyrics.
 
 ## {{ hl("design", "Design") }}
 
+- I am not a visionary. I do not have a five-year plan. I'm an engineer...
+  I'm perfectly happy with all the people who are walking around and just
+  staring at the clouds and looking at the stars and saying,
+  "I want to go there". But I'm looking at the ground,
+  and I want to fix the pothole that's right in front of me before I fall in.
+  ([Linus Torvalds](https://en.wikiquote.org/wiki/Linus_Torvalds))
 - If it is possible to cut a word out, always cut it out.
   ([George Orwell](https://sites.duke.edu/scientificwriting/orwells-6-rules/))
 - It is better to be technically elegant with a higher learning curve,
