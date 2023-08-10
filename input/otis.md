@@ -66,9 +66,7 @@ though some of the chapters are more challenging.
 
 # {{ hl("apply", "Application &mdash; Year IX (2023-2024)") }}
 
-You may send late applications for OTIS 2023-2024 between
-September 1, 2023 and April 30, 2024. (You can send before September 1 too,
-but I can't promise I'll process it quickly.)
+You may send late applications for OTIS 2023-2024 up to April 30, 2024.
 See the instructions below.
 
 - [Application instructions and homework for fall 2023](upload/otis-app-ix.pdf)
@@ -82,6 +80,7 @@ Students from minorities and underrepresented groups
 are especially encouraged to apply. (I promise I don't bite.)
 **Full financial aid is available for all applications
 (even late) and admissions is need-blind.**
+There are no age restrictions on OTIS in either direction.
 
 Admissions are only done to ensure students have sufficient mathematical
 background and writing ability (due to sheer number of students,
