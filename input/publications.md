@@ -18,38 +18,45 @@ My two most major expository works have their own page at the right:
 - My personal exposition project [An Infinitely Large Napkin](napkin.html).
   Nearing 1000 pages.
 
-Please see the links above for more information.
-
 ## {{ hl("research", "Research Publications") }}
 
 Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
 
-- [Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures][arxiv-house] <br>
-  E. Chen. Published in [Proceedings of the AMS][pams-algint].
-
-- [Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem][arxiv-grh] <br>
-  E. Chen, P. Park, and A. Swaminathan. Published in [Intl Journal of Number Theory][ijnt].
-
-- [Linear polychromatic colorings of hypercube faces][arxiv-hypercube] <br>
-  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-hypercube].
-
-- [Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication][arxiv-linnik] <br>
-  E. Chen, P. Park, and A. Swaminathan. Published in [Research in Number Theory][rnut].
-
-- [On Logarithmically Benford Sequences][arxiv-benford] <br>
-  E. Chen, P. Park, and A. Swaminathan. Published in [Proceedings of the AMS][pams-benford].
-
-- [Schur-concavity for avoidance of increasing subsequences in block-ascending permutations][arxiv-schur] <br>
-  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-schur].
-
-- [The 26 Wilf-equivalence classes of length five quasi-consecutive patterns][arxiv-wilf] <br>
-  E. Chen, S. Narayanam. Published in [Discrete Math and Theoretical CS][dmtcs-wilf].
-
-- [A family of partially ordered sets with small balance constant][arxiv-poset] <br>
+- [arXiv:1709.05753](https://arxiv.org/abs/1709.05753).<br>
+  <b>A family of partially ordered sets with small balance constant</b>.<br>
   E. Chen. Published in [Electronic Journal of Combinatorics][ejc-poset].
 
-- [Multiplicative and exponential orthomorphisms][arxiv-orthomorphism] <br>
+- [arXiv:1608.04146](https://arxiv.org/abs/1608.04146).<br>
+  <b>Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures</b>.<br>
+  E. Chen. Published in [Proceedings of the AMS][pams-algint].
+
+- [arXiv:1507.07122](https://arxiv.org/abs/1507.07122).<br>
+  <b>Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem</b>.<br>
+  E. Chen, P. Park, and A. Swaminathan. Published in [Intl Journal of Number Theory][ijnt].
+
+- [arXiv:1609.01247](https://arxiv.org/abs/1609.01247).<br>
+  <b>Linear polychromatic colorings of hypercube faces</b>.<br>
+  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-hypercube].
+
+- [arXiv:1506.09170](https://arxiv.org/abs/1506.09170).<br>
+  <b>Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication</b>.<br>
+  E. Chen, P. Park, and A. Swaminathan. Published in [Research in Number Theory][rnut].
+
+- [arXiv:1710.02734](https://arxiv.org/abs/1710.02734).<br>
+  <b>Multiplicative and exponential orthomorphisms</b>.<br>
   E. Chen. Published in [Journal of Combinatorics][joc-orthomorphism].
+
+- [arXiv:1507.02629](https://arxiv.org/abs/1507.02629).<br>
+  <b>On Logarithmically Benford Sequences</b>.<br>
+  E. Chen, P. Park, and A. Swaminathan. Published in [Proceedings of the AMS][pams-benford].
+
+- [arXiv:1708.01350](https://arxiv.org/abs/1708.01350).<br>
+  <b>Schur-concavity for avoidance of increasing subsequences in block-ascending permutations</b>.<br>
+  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-schur].
+
+- [arXiv:1609.04626](https://arxiv.org/abs/1609.04626).<br>
+  <b>The 26 Wilf-equivalence classes of length five quasi-consecutive patterns</b>.<br>
+  E. Chen, S. Narayanam. Published in [Discrete Math and Theoretical CS][dmtcs-wilf].
 
 ## {{ hl("lectures", "High school lectures") }}
 
@@ -98,15 +105,6 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [sparc]: https://www.sparc-camp.org
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
 [ebook]: https://www.maa.org/ebooks/EGMO
-[arxiv-linnik]: https://arxiv.org/abs/1506.09170
-[arxiv-benford]: https://arxiv.org/abs/1507.02629
-[arxiv-grh]: https://arxiv.org/abs/1507.07122
-[arxiv-house]: https://arxiv.org/abs/1608.04146
-[arxiv-hypercube]: https://arxiv.org/abs/1609.01247
-[arxiv-wilf]: https://arxiv.org/abs/1609.04626
-[arxiv-schur]: https://arxiv.org/abs/1708.01350
-[arxiv-orthomorphism]: https://arxiv.org/abs/1710.02734
-[arxiv-poset]: https://arxiv.org/abs/1709.05753
 [rnut]: https://link.springer.com/article/10.1007/s40993-015-0028-0
 [ejc-schur]: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p4
 [ijnt]: https://dx.doi.org/10.1142/S1793042118500161
