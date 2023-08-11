@@ -171,15 +171,9 @@ Read on to the next section to see how to do this.
 In practice, there are some setup commands I want to have automatically done for
 every Asymptote picture that I draw.
 For example, I like to `import geometry;` and then define a
-few extra commands[^ortho] that I often use, like `foot` and `orthocenter`.
+few extra commands that I often use, like `foot`.
 I also like to make sure `amsmath` and `amssymb` are active,
 and set a reasonable default size for the picture, etc.
-
-[^ortho]:
-    For reasons I simply can't understand, the `geometry` package does
-    define an orthocenter routine --- but the name is `orthocentercenter`.
-    Seriously. I can't bring myself to use that,
-    so I define `orthocenter` as an alias for `orthocentercenter`.
 
 If you happen to be using my LaTeX template `evan.sty`,
 as described in [LaTeX FAQ L-3](faq-latex.html#L-3) and
