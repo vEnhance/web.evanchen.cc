@@ -209,7 +209,7 @@ interpreter is only there to read the instructions and fulfill their job.
 
 ## {{ hl("invoke", "Invoking the tools") }}
 
-### {{ hl("cmd", "The Command Line") }}
+### {{ hl("cmd", "The command line") }}
 
 A **terminal** is a text-based interface for issuing commands to a
 computer.[^1] As a trivial example, if you have a file called `gossip.txt`,
@@ -221,7 +221,8 @@ you can run `vim gossip.txt` to read the latest hot tea, in Vim.
     See [unix.SE](https://unix.stackexchange.com/a/254366)
 
 For simplicity, we're going to use **Bash** as the name of the commander,
-though others exist.[^2] In general, Linux prompts may look different depending
+though others exist like **zsh** or **fish**.[^2]
+In general, Linux prompts may look different depending
 on what terminal emulator or shell you use, but it should be easily accessible.
 Windows may be more complicated.[^3]
 
@@ -236,19 +237,58 @@ Windows may be more complicated.[^3]
 
 You can think of **Bash as a commanding officer**.
 It is able to run all other programs.
+
+### {{ hl("cd", "Moving around") }}
+
 However, Bash has to travel from folder to folder.
 At any point, Bash is stationed at a certain folder,
 which is called its **current directory**.
-Bash can travel to different directories using the `cd` command,
+Bash can travel to different directories using the `cd` (change directory) command,
 which you can [read about literally anywhere][redhat].
 (Pro-tip: the faster you learn tab-completion, the better.)
+There's also a command `pwd` to print the working directory,
+and `ls` to list the contents of the current folder.
+So navigation might look something like
+
+```
+$ pwd
+/home/evan
+
+$ ls
+Desktop/ Documents/ Downloads/ Mail/ Pictures/
+
+$ cd Documents/
+
+$ pwd
+/home/evan/Documents
+
+$ ls
+evil-plans.txt kitten.png papers/
+
+$ cd math/
+
+$ pwd
+/home/evan/Documents/papers
+
+$ ls
+linnik.pdf schurconcave.pdf zannier.pdf
+
+$ cd ../
+
+$ pwd
+/home/evan/Documents
+```
+
+(The `../` abbreviation means "one level up".)
+
+### {{ hl("running", "Running commands") }}
 
 Moreover, bash can then issue commands like `vim gossip.txt`.
 But there are some catches.
 
 1. First, Bash looks around for a file called `gossip.txt`
    in the folder that Bash happens to be in.
-   If it sees `gossip.txt` in the current folder.
+   It looks for `gossip.txt` in the current folder.
    If it's there, it picks up that piece of paper.
 2. Then, Bash looks for a command called `vim`.
    There is a Vim editor on the system so Bash radios Vim to come
@@ -257,8 +297,8 @@ But there are some catches.
 
 The argument can be a filename in the current directory,
 or a path to one.
-So for example, `vim secretbox/gossip.tex` does the same thing
-as `cd secretbox/` plus `vim gossip.tex`.
+So for example, `vim secretbox/gossip.tex` is equivalent to
+`cd secretbox/` followed by `vim gossip.tex`.
 
 The orders and space arguments matters.
 The first word is almost always a verb,
