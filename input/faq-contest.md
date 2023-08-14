@@ -303,9 +303,8 @@ But I think for the upper bound,
 it's often better to go by a feeling of how much progress
 you've made rather than a hard time.
 
-What I mean by this is, you can spend many hours on a problem
-and still learn a lot from it if you're making progress
-or finding new things the whole time.
+What I mean by this is, you can spend many hours on a problem and still learn
+a lot from it if you're making progress or finding new things the whole time.
 In other words, if you still have steam, you should keep going.
 But conversely, if you stare at a problem for three hours
 with no clue what to do the entire time, it's probably okay to give up.
@@ -314,10 +313,10 @@ There are more problems to do.
 So for the upper bound,
 I think you can trust your per-problem judgment a bit more.
 It's not a bad rule of thumb, honestly,
-to give up once the problem stops being fun
-(and you are over the lower bound).
-That's usually a good indicator for me
-when I'm not getting anywhere, at least.
+to give up once the problem stops being fun (and you are over the lower bound).
+That's usually a good indicator for me when I'm not getting anywhere, at least.
+(And at the risk of stating the obvious, I recommend reading the solution
+to a problem if you decide to stop working on it.)
 
 It's also encouraged to have a few problems you're thinking
 about at once rather than literally one at a time,
@@ -328,7 +327,7 @@ so that you can switch between problems as you see fit
 
 Read [the syllabus linked on the beginner page](wherestart.html).
 
-### {{ faq("C-14", "In geometry, can I only use synthetic methods and not use coordinates? Or vice-versa? Which coordinate system is most useful?") }}
+### {{ faq("C-14", "In geometry, can I only use synthetic methods and not use coordinates? Or vice versa? Which coordinate system is most useful?") }}
 
 Wrong question.
 You should **always use the tool most suited to that problem**.
