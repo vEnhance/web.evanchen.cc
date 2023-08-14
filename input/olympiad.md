@@ -122,6 +122,10 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   A short note on the use of directed angles in olympiad solutions.
   Why didn't anyone beat me to writing this?
 
+- <b>Lemmas in AoPS Geometry</b> {{ handout_link("GeoSlang") }}
+  A sardonically named handout that lists some silly names
+  in olympiad geometry popular culture on the Internet.
+
 - <b>The Incenter/Excenter Lemma</b> {{ handout_link("Fact5") }}
   A collection of problems which exhibit the
   first olympiad configuration I got to know well,
