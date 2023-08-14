@@ -20,6 +20,7 @@ This page isn't a puzzle.
 MOP is a three-week camp now held at [CMU](https://cmu.edu).
 In 2020 and 2021, the camp was run on Discord.
 Prior to 2015, the camp was held in [Nebraska](https://unl.edu).
+
 See [FAQ CR-7](https://web.evanchen.cc/faq-rules.html#CR-7)
 for invitation rules.
 
@@ -381,6 +382,39 @@ Here are recent songs we performed:
 - Tristan Shin: "Proof: coordinates!"
 - William Yue: "That's just true by combo."
 </div>
+
+## {{ hl("nebraska", "Nebraska trip") }}
+
+In 2018, I flew back to the University of Nebraska-Lincoln the weekend
+before MOP to visit the venue again, since that was where MOP was
+held when I was a student. You can see
+[photos of the Nebraska venue](https://photos.app.goo.gl/q8u2mzmPhse5xCZY7)
+if you want to see why I keep saying things were better in the good old days.
+
+The dorm we stayed in was called Neihardt Hall,
+and it had four sub-halls inside it named Heppner, Love, Piper, and Raymond.
+We had a lot of different lounge spaces, which also had names:
+
+- The _Blue Room_ was the primary lounge on the ground floor,
+  which was where orientation was held and a lot of activities.
+- There were side lounges on the ground floor called the _Grey Parlor_,
+  the _Gold Parlor_, and the _Sun Room_, among others.
+  We held singing troupe here since there was a piano.
+- There was an old-fashioned elevator with a curtain-like door that you
+  pulled by hand. That elevator was labeled "OTIS", and my
+  [training program](otis.html) is secretly named after this elevator.
+- The ground floor had a bunch of small classroom areas where test review
+  used to be held. In addition to the red paintings,
+  they had these little coasters, and people would throw them around a lot.
+- There was a meeting room with a green chalkboard
+  where we held all the ELMO meetings.
+- The basement had a stage with some tables and chairs nearby where we held
+  the ELMO and the talent show, as well as another giant lounge area nearby
+  complete with several sofas, another TV, and a pool table.
+- Neihardt Hall itself enclosed a little garden area,
+  that you could go outside and walk around in.
+
+Also, the Selleck dining is _amazing_. Just saying.
 
 <script type="text/javascript">
 $(() => {
