@@ -300,7 +300,7 @@ or a path to one.
 So for example, `vim secretbox/gossip.tex` is equivalent to
 `cd secretbox/` followed by `vim gossip.tex`.
 
-The orders and space arguments matters.
+The spaces and the order matters.
 The first word is almost always a verb,
 and everything that comes after it is an argument.
 This could be the name of a file as in our example,
