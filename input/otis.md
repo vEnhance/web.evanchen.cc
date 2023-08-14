@@ -107,6 +107,7 @@ participation as students denoted in parentheses.
 
 ### Instructors
 
+- Adhitya Mangudy
 - [Anant Mudgal][anant] (III)
 - [Dávid Matolcsi][david]
 - [Gopal Goel][gopal] (IV-V)
