@@ -489,8 +489,12 @@ Thus, if you find yourself surprised at being unable to solve a problem,
 your reaction should be something like
 "wow, this year's P2 is harder than usual".
 
-Do not misinterpret the difficulty of an exam as a skill issue.
+**Do not misinterpret the difficulty of an exam as a skill issue**.
 This is one of the most common ways to underperform.
+I have seen so many students do poorly on an exam because they thought
+a certain problem must be easy or hard based on its problem number,
+only finding out later they were wrong,
+and then blaming their low score on the test designer (a really lame excuse).
 
 ### {{ faq("C-21", "How should I prepare for the Putnam?") }}
 
