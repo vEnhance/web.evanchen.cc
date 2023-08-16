@@ -119,6 +119,9 @@ If you want a book to follow, the one I grew up with was
     from geometry, number theory, etc. rather than being overly focused
     on bookkeeping and formalism.
 
+If you like excessive information, you might also read my handout
+[Intro to Proofs for the Morbidly Curious](/handouts/NaturalProof/NaturalProof.pdf).
+
 ## {{ hl("usa", "3. (For USA) United States Mathematical Talent Search and USEMO") }}
 
 If you are in the United States,
