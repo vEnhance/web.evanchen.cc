@@ -58,20 +58,6 @@ are welcome; send these by email.
 - Tutorlyte is a tutoring program focused on helping students
   with difficult competition and school curriculum.
 
-## {{ hl("xinke", "Xinke's Math Academy") }}
-
-- Primary contact: [Xinke Guo-Xue](https://artofproblemsolving.com/community/user/40902)
-  ($\text{xinkeguoxue}\texttt{@}\text{gmail}{.}\text{com}$)
-- Website: [xinkesmathacademy.com](https://xinkesmathacademy.com/)
-- Open to small group lessons, with classes capped at 12 students per class.
-  Open to private lessons on a limited and case-by-case basis.
-- Xinke Guo-Xue runs small group lessons for students interested in
-  preparing for Mathcounts, AMC, and AIME.
-  He occasionally also runs classes
-  for other extracurricular math topics and introductory olympiad level topics.
-  He studied math at MIT as an undergraduate,
-  and is passionate about math education.
-
 # {{ hl("individuals", "Individuals") }}
 
 ## {{ hl("alex", "Alex Villaro Krüger") }}

@@ -123,22 +123,19 @@ participation as students denoted in parentheses.
 
 <div class="col-5" markdown="1">
 
-### Graders
-
-- [CJ Quines](https://cjquines.com/)
-- [Xinke Guo-Xue][xinke]
-
-### Past instructors
+### Past staff
 
 [Ankan Bhattacharya][ankan];
 [Anushka Aggarwal][anushka] (V);
 Arindam Bhattacharyya (V);
 Atul Nadig (VII);
+[CJ Quines](https://cjquines.com/);
 [Howard Halim][howard] (III-IV);
 [James Lin][james];
 [Pranjal Srivastava][pranjal] (IV);
 [Reed LaFleche][reed];
 [Sanjana Das][sanjana] (VI);
+[Xinke Guo-Xue][xinke];
 [Zack Chroman][zack] (II-III)
 
 </div>
