@@ -10,7 +10,7 @@ During math classes, I like to LaTeX notes to these classes in real time.
 On this page, I've included copies of notes to current and past courses.
 
 Currently, I live-TeX notes using latexmk and a heavily modified Vim editor.
-(For details on the technical setup, see [the corresponding FAQ](faq-school.html).)
+(For details on the technical setup, see [the corresponding FAQ](faq-latex.html#L-11).)
 Since these notes are written _during_ class, it is quite likely that they contain typos.
 Please send any corrections to me via email.
 
