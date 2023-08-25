@@ -16,9 +16,18 @@ if you are totally new to math contests.
 Before all else, welcome to the olympiad scene!
 It's going to be hard as heck,
 but in my private opinion this is where all the coolest stuff is
-(as far as math contests go, anyway).
+(as far as math contests go, anyway[^medium]).
 Stay around for long enough, and
 you will get to see a lot of really amazing problems.
+
+[^medium]:
+    Insomuch as contest problems have intrinsic artistic value,
+    proof-based exams are a more versatile medium than the short-answer exams,
+    much like how videos are more versatile than static photos.
+    In this analogy, videos don't make stills worthless or obsolete;
+    they aren't automatically better, either.
+    But as a medium, they expand the space of ideas an artist _could_ express,
+    at the cost of being proportionately more work to create.
 
 You may also read [math contest FAQs](faq-contest.html)
 for some more philosophical (and less concrete) advice on studying
