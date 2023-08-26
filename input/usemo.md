@@ -36,20 +36,13 @@ Please check the [full rules and procedures][rules].
 
 # {{ hl("current", "USEMO 2023") }}
 
-- We anticipate USEMO 2023 will be on October 21 and 22.
-- Volunteers for grading are now open; see below.
-- Problem proposals are due May 10, 2023; see below for details.
-
-<!--
-
-- Registration opens early October
+- Registration opens around October 2
   on [AoPS portal](https://aops.com/contests/usemo/).
-  It remains open until end-of-day October 21 or when capacity is reached.
-- Day I is Sat. **22 October 2022**, from 12:30pm ET to 5:00pm ET.
-- Day II is Sun. **23 October 2022**, from 12:30pm ET to 5:00pm ET.
-- [Download problems](exams/USEMO-2022.pdf)
-
--->
+  It remains open until end-of-day October 20 or when capacity is reached.
+- Day I is Sat. **21 October 2023**, from 12:30pm ET to 5:00pm ET.
+- Day II is Sun. **22 October 2023**, from 12:30pm ET to 5:00pm ET.
+- Volunteers for grading are now open; see below.
+- Problem proposals were due May 10, 2023.
 
 ## {{ hl("links", "Links and downloads") }}
 
