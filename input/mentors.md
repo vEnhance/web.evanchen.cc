@@ -33,6 +33,19 @@ are welcome; send these by email.
   All teachers are female/nonbinary and MOPpers/MPfG winners.
   We are a nonprofit and our program costs only \$90 for 3 months.
 
+## {{ hl("mast", "MAST") }}
+
+- Primary contact: Dennis Chen
+  ($\text{dchen}\texttt{@}\text{mathadvance}{.}\text{org}$)
+- Website: [https://dennisc.net/apply-2023.pdf](https://dennisc.net/apply-2023.pdf)
+- Scheduled group meetings: Once a week Sunday 3 PM - ~4 PM **Eastern**, for ~10
+  lessons each semester, with breaks for major contests (see AMCs) and possibly
+  instructor life events (e.g. midterms and finals).
+- Unlike previous iterations of MAST, this time instructors will
+  lead small group lessons for borderline to mid-level AIME qualifiers.
+  There is a short application process and pricing is \$100 for 10 lessons
+  each semester.
+
 ## {{ hl("pleiades", "Pleaides") }}
 
 - Primary contact: [Ram Goel](https://www.imo-official.org/participant_r.aspx?id=31808)
