@@ -117,7 +117,7 @@ participation as students denoted in parentheses.
 - [Ram Goel][ramgoel] (V-VII)
 - [Rohan Goyal][rohan] (V)
 - Rushil Mathur (VII-VIII)
-- Zoltan Gyenes
+- [Zoltan Gyenes][zoltan]
 
 </div>
 
@@ -164,3 +164,4 @@ Atul Nadig (VII);
 [ramgoel]: https://www.imo-official.org/participant_r.aspx?id=31808
 [anushka]: https://www.egmo.org/people/person1429/
 [noah]: https://www.imo-official.org/participant_r.aspx?id=31040
+[zoltan]: https://www.imo-official.org/participant_r.aspx?id=5108
