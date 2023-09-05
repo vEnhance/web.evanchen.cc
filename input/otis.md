@@ -70,7 +70,7 @@ You may send late applications for OTIS 2023-2024 up to **April 30, 2024**.
 See the instructions below.
 
 - [Application instructions and homework for fall 2023](upload/otis-app-ix.pdf)
-- Applications should be sent my email. Check the instructions.
+- Applications should be sent via email. Check the instructions above.
 - [Financial aid request URL for fall 2023](https://forms.gle/jPmWaqAvAavKSAkYA)
 
 ## {{ hl("prereq", "Who can apply (aka, everyone)") }}
