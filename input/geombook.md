@@ -15,6 +15,8 @@ description: Synopsis and errata for EGMO geometry textbook for math olympiad st
 You can also [purchase a PDF][ebook].**
 </span>
 
+(ISBN-10: 0883858398 / ISBN-13: 978-0883858394)
+
 _Euclidean Geometry in Mathematical Olympiads_ (often abbreviated _EGMO_,
 despite an olympiad having the [same name][girls])
 is a comprehensive problem-solving book in Euclidean geometry.
