@@ -5,6 +5,11 @@ indent: 1
 
 ---
 
+Teams I've hunted with include
+[✈✈✈ Galactic Trendsetters ✈✈✈](https://galacticpuzzlehunt.com/archive),
+[teammate](https://teammatehunt.com/), and
+[super team awesome](https://puzzlepotluck.com/).
+
 This page is not a puzzle.
 
 ## {{ hl("own", "Evan's puzzles") }}

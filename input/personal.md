@@ -28,9 +28,6 @@ I think you should try them too!
 I am an avid fan of the
 [MIT mystery hunt](http://web.mit.edu/puzzle/www/huntsbyyear.html)
 and other puzzle hunt activities.
-Teams I've hunted with include ✈✈✈ Galactic Trendsetters ✈✈✈, teammate,
-and super team awesome.
-
 Hunts I contributed to include as a hunt author the
 [Mystery Hunt 2021](https://puzzles.mit.edu/2021/),
 [Mystery Hunt 2023](https://interestingthings.museum/),
