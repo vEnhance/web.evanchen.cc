@@ -23,8 +23,8 @@ If you don't understand how files work, this page will not make much sense.
 
 You should have a working local LaTeX installation working,
 as described in [LaTeX FAQ](faq-latex.html).
-(Overleaf is _not_ an acceptable substitute for this tutorial;
-see [L-2](#L-2a) for why.)
+(Overleaf is _not_ sufficient for this tutorial;
+see [FAQ L-2](faq-latex.html#L-2a) for why.)
 
 You can verify you have LaTeX installed by typing
 
