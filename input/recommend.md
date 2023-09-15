@@ -99,24 +99,31 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 - [A Journey to the IMO](upload/Sarda-Journey.pdf),
   an overview of the IMO written from Nepal student Yuvraj Sarda.
 
+- [Pang-Chung Wu's FE handout](https://aops.com/community/p10968935)
+
 ### {{ hl("books", "Books") }}
 
 - My own: [olympiad geometry book EGMO](geombook.html)
   and [OTIS Excerpts](excerpts.html) for non-geometry.
 
-- [Art and Craft of Problem Solving][acops] by Paul Zeitz,
+- [Art and Craft of Problem-Solving][acops] by Paul Zeitz,
   introduction to math olympiads in general.
 
-- [An olympiad combinatorics book, by Pranav A. Sriram](https://www.aops.com/community/c6h601134).
+- [Olympiad Combinatorics, by Pranav A. Sriram](https://www.aops.com/community/c6h601134).
   The individual chapters are located in posts #1, #11, #49.
-  This is a bit more on the difficult side.
+  This is an intermediate-advanced textbook.
 
 - [Olympiad NT through Challenging Problems](https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
   is an introductory olympiad number theory text,
   at a level somewhat easier than what my own number theory handouts assume.
 
-- [Modern Olympiad Number Theory](https://artofproblemsolving.com/community/c6h2344755), by Aditya Khurmi.
+- [Modern Olympiad Number Theory](https://aops.com/community/c6h2344755), by Aditya Khurmi.
   More olympiad-oriented number theory textbook.
+
+- [Problems from the Book](https://maa.org/press/maa-reviews/problems-from-the-book)
+  by Titu Andreescu and Gabriel Dospinescu.
+  Intermediate-advanced textbook covering topics in inequalities,
+  algebra, analysis, combinatorics, and number theory.
 
 [acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
 

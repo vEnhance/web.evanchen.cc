@@ -159,20 +159,31 @@ since there are some new classes of problems
 that you will likely not have seen before from
 just working on short-answer contests.
 
-To toot my own horn further, as if I haven't enough already,
-I wrote the following two books to be possible introductions:
+Some possible suggestions for introductory books:
 
-- The [OTIS Excerpts](excerpts.html) for everything other than geometry, and
-- The textbook [E.G.M.O.](geombook.html) for classical geometry.
+- General: [Art and Craft of Problem-Solving][acops] by Paul Zeitz
+  is a good "first book" for all the fields.
 
-... but there are some more possibilities listed
-on the [links page](recommend.html).
-Another nice general introduction is
-[Art and Craft of Problem-Solving][acops] by Paul Zeitz.
+- Geometry: My book [E.G.M.O.](geombook.html);
+  and more alternatives are linked at the bottom of that page.
+
+- Number theory: [Modern Olympiad Number Theory](https://aops.com/community/c6h2344755)
+  is the most comprehensive text I know of now.
+
+- The [OTIS Excerpts](excerpts.html) has beginner introductions
+  for several topics:
+
+  - Inequalities (chapters 1-2)
+  - Functional equations (chapters 3-4)
+  - Combinatorics (chapters 6-9)
+
+More possibilities (including intermediate-advanced texts not listed here)
+are on the [links page](recommend.html).
 You might also check
 [Geoff Smith's advice and links](https://people.bath.ac.uk/masgcs/advice.html).
 
 [acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
+[pftb]: https://maa.org/press/maa-reviews/problems-from-the-book
 
 I really want to stress these are mere _suggestions_.
 Just because you have done X does not mean you will achieve your goals,
