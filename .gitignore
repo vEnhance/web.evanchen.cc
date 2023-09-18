@@ -1,6 +1,5 @@
 output/
 poole/*
-static/*
 upload/*
 archive/*
 **/*.pyc

@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usepackage{ifthen}
+\usepackage{answers}
+
+% Setup counters
+\newcounter{hindex}\setcounter{hindex}{0}
+\newcounter{hintcounter}\setcounter{hintcounter}{0}
+
+% Define \addhint and \gethint
+\newcommand\addhint[1]{%
+	\stepcounter{hintcounter}%
+	\ref{hint:\thehintcounter}%
+	\expandafter\gdef\csname hintlist\thehintcounter\endcsname{#1}%
+}
+\newcommand\gethint[1]{%
+	\item \csname hintlist#1\endcsname \label{hint:#1}
+}
+\newenvironment{hint}{\footnotesize \normalfont \textbf{Hints}:}{\hspace{-0.5ex}}
+\pgfmathsetseed{65536} % or any other number: sets the random seed
+
+\begin{document}
+
+
+\section{Problems}
+\begin{description}
+	\item[Problem X] Show that every triangle is isosceles.
+	\begin{hint}
+		\addhint{First, intersect the perpendicular bisector with the angle bisector to get a point $P$; WLOG it lies inside the triangle.}
+		\addhint{Next, drop the altitudes from $P$ to the two sides.}
+		\addhint{Finally, add the lengths of the segments.}
+	\end{hint}
+
+	\item[Problem Y] Show that every triangle is equilateral.
+	\begin{hint}
+		\addhint{This last problem follows from the previous problem.}
+	\end{hint}
+\end{description}
+
+\section{Hints}
+
+\makeatletter
+\def\declarenumlist#1#2#3{%
+\expandafter\edef\csname pgfmath@randomlist@#1\endcsname{#3}%
+\count@\@ne
+\loop
+\expandafter\edef
+\csname pgfmath@randomlist@#1@\the\count@\endcsname
+  {\the\count@}
+\ifnum\count@<#3\relax
+\advance\count@\@ne
+\repeat}
+
+\declarenumlist{hintlist}{1}{\value{hintcounter}}
+
+\def\prunelist#1{%
+\expandafter\edef\csname pgfmath@randomlist@#1\endcsname
+    {\the\numexpr\csname pgfmath@randomlist@#1\endcsname-1\relax}
+\count@\pgfmath@randomtemp
+\loop
+\expandafter\let
+\csname pgfmath@randomlist@#1@\the\count@\expandafter\endcsname
+\csname pgfmath@randomlist@#1@\the\numexpr\count@+1\relax\endcsname
+\ifnum\count@<\csname pgfmath@randomlist@#1\endcsname\relax
+\advance\count@\@ne
+\repeat}
+\makeatother
+
+% Print the hints
+\begin{enumerate}
+\small
+\itemsep2pt
+\setcounter{hindex}{0}%
+\whiledo{\value{hindex} < \value{hintcounter}}{%
+ \addtocounter{hindex}{1}%
+ \pgfmathrandomitem\z{hintlist}
+ \gethint{\z}
+ \prunelist{hintlist}
+}
+\end{enumerate}
+
+\end{document}

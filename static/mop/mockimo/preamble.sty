@@ -1,0 +1,54 @@
+\usepackage{amsfonts}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{graphicx}
+\usepackage{asymptote}
+\usepackage{enumerate}
+\usepackage{von}
+\usepackage[nosetup]{evan}
+\renewcommand{\vonenvname}{problem}
+
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=\parskip \thm@postskip=18pt
+}
+\makeatother
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{}
+\lhead{\logo}
+\rhead{\righthead\vspace{-1em}}
+\rfoot{\emph{\sevenpoints}}
+\setlength{\headheight}{9em}
+\setlength{\headsep}{2em}
+\setlength{\voffset}{-1in}
+\setlength{\hoffset}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\textheight}{0.25in}
+\newlength\FHoffset\setlength\FHoffset{0.5in}
+\addtolength\headwidth{2\FHoffset}
+\fancyheadoffset{\FHoffset}
+\newlength\FHleft\setlength\FHleft{0in}
+\newlength\FHright\setlength\FHright{-1in}
+\newbox\FHline\setbox\FHline=\hbox{\hsize=\paperwidth%
+  \hspace*{\FHleft}%
+  \rule{\dimexpr\headwidth-\FHleft-\FHright\relax}{\headrulewidth}\hspace*{\FHright}%
+}
+\renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}
+\newcommand{\olyinfo}[1]{\begin{flushright} \itshape #1 \end{flushright} \medskip}
+\newcommand{\nmbox}[1]{\fbox{\sffamily\LARGE\vphantom{y}#1} \par\vspace{1em}} % normal box
+\newcommand{\fdbox}[2]{\fbox{\sffamily\LARGE\vphantom{y}#1: \bfseries #2} \par\vspace{1em}} % field box
+
+\newcommand{\sevenpoints}{Time limit: 4 hours and 30 minutes. \\ Each problem is worth seven points.}
+\newcommand{\logo}{\includegraphics[width=3cm]{mockimo.png}}
+
+\newcommand{\righthead}{%
+	\nmbox{\bfseries Mock IMO}
+	\fdbox{Day}{\thepage}}
+
+\usepackage{epigraph}
+\renewcommand{\epigraphsize}{\scriptsize}
+\renewcommand{\epigraphwidth}{60ex}
+\renewcommand{\epigraphflush}{flushleft}

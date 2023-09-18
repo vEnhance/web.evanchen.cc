@@ -1,0 +1,417 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}
+
+\moderncvstyle{banking} % 'casual', 'classic', 'oldstyle' 'banking', 'fancy'
+\moderncvcolor{red} % 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\addtolength{\voffset}{-3.5em}
+\addtolength{\textheight}{7em}
+\setlength{\hintscolumnwidth}{2cm} % width of dates column
+
+\quote{``It's hard to do a really good job
+on anything you don't think about in the shower.''
+--- Paul Graham}
+
+\newcommand{\entry}[6]%
+{\cventry[0.85em]{#4}{#3}{#2}{#1}{#5}{#6}} % banking
+\newcommand{\cvurl}[1]{\bgroup\color{blue}\normalfont\url{#1}\egroup}
+\newcommand{\arxiv}[1]{\bgroup\color{blue}\normalfont\rmfamily%
+\href{http://arxiv.org/abs/#1}{arXiv:#1}\egroup}
+
+\begin{filecontents}{biblio.bib}
+@article{ref:schur,
+  author    = {Evan Chen},
+  title     = {Schur-Concavity for Avoidance of Increasing Subsequences in Block-Ascending Permutations},
+  journal   = {Electr. J. Comb.},
+  volume    = {24},
+  number    = {4},
+  pages     = {P4.4},
+  year      = {2017},
+  url       = {http://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p4},
+}
+
+@article{ref:hypercube,
+  author    = {Evan Chen},
+  title     = {Linear polychromatic colorings of hypercube faces},
+  journal   = {Electr. J. Comb.},
+  volume    = {25},
+  number    = {1},
+  pages     = {P1.2},
+  year      = {2018},
+  url       = {http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i1p2},
+}
+
+@article{ref:thirds,
+  author    = {Evan Chen},
+  title     = {A Family of Partially Ordered Sets with Small Balance Constant},
+  journal   = {Electr. J. Comb.},
+  volume    = {25},
+  number    = {4},
+  pages     = {P4.43},
+  year      = {2018},
+  url       = {http://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i4p43},
+}
+
+@article{ref:RNUT,
+	year={2015},
+	journal={Research in Number Theory},
+	eid={28},
+	volume={1},
+	number={1},
+	doi={10.1007/s40993-015-0028-0},
+	title={Linnik's theorem for Sato-Tate laws on elliptic curves with complex multiplication},
+	url={http://dx.doi.org/10.1007/s40993-015-0028-0},
+	publisher={Springer International Publishing},
+	author={Chen, Evan and Park, Peter S. and Swaminathan, Ashvin A.},
+	language={English}
+}
+
+@article{ref:benford,
+    AUTHOR = {Chen, Evan and Park, Peter S. and Swaminathan, Ashvin A.},
+     TITLE = {On logarithmically {B}enford {S}equences},
+   JOURNAL = {Proc. Amer. Math. Soc.},
+  FJOURNAL = {Proceedings of the American Mathematical Society},
+    VOLUME = {144},
+      YEAR = {2016},
+    NUMBER = {11},
+     PAGES = {4599--4608},
+      ISSN = {0002-9939},
+     CODEN = {PAMYAR},
+   MRCLASS = {11F11 (11N05)},
+  MRNUMBER = {3544512},
+       DOI = {10.1090/proc/13112},
+       URL = {http://dx.doi.org/10.1090/proc/13112},
+}
+
+@book {ref:EGMO,
+    AUTHOR = {Chen, Evan},
+     TITLE = {Euclidean geometry in mathematical olympiads},
+    SERIES = {MAA Problem Books Series},
+ PUBLISHER = {Mathematical Association of America, Washington, DC},
+      YEAR = {2016},
+     PAGES = {xv+311},
+      % ISBN = {978-0-88385-839-4; 978-1-61444-411-4},
+   MRCLASS = {00A07 (51M04 51N20)},
+  MRNUMBER = {3467691},
+}
+
+@article {ref:usamo,
+    AUTHOR = {Chen, Evan and Ensley, Doug},
+     TITLE = {45{$^{th}$} {U}nited {S}tates of {A}merica {M}athematical
+              {O}lympiad and 7{$^{th}$} {U}nited {S}tates of {A}merica
+              {J}unior {M}athematical {O}lympiad},
+   JOURNAL = {Math. Mag.},
+  FJOURNAL = {Mathematics Magazine},
+    VOLUME = {89},
+      YEAR = {2016},
+    NUMBER = {4},
+     PAGES = {303--311},
+      ISSN = {0025-570X},
+     CODEN = {MAMGA8},
+   MRCLASS = {Preliminary Data},
+  MRNUMBER = {3552776},
+       DOI = {10.4169/math.mag.89.4.303},
+       URL = {http://dx.doi.org/10.4169/math.mag.89.4.303},
+}
+
+
+@article {ref:erdos1,
+    AUTHOR = {Deshouillers, J. M. and Erd{\H{o}}s, Paul and S{\'a}rk{\"o}zi,
+              A.},
+     TITLE = {On additive bases},
+   JOURNAL = {Acta Arith.},
+  FJOURNAL = {Polska Akademia Nauk. Instytut Matematyczny. Acta Arithmetica},
+    VOLUME = {30},
+      YEAR = {1976},
+    NUMBER = {2},
+     PAGES = {121--132},
+      ISSN = {0065-1036},
+   MRCLASS = {10L05},
+  MRNUMBER = {0417105},
+MRREVIEWER = {S. Znam},
+}
+
+@article{ref:erdos2,
+    AUTHOR = {Martinet, J. and Deshouillers, J. M. and Cohen, Henri},
+     TITLE = {La fonction somme des diviseurs},
+ BOOKTITLE = {S\'eminaire de {T}h\'eorie des {N}ombres, 1972--1973 ({U}niv.
+              {B}ordeaux {I}, {T}alence), {E}xp. {N}o. 11},
+     PAGES = {10},
+ PUBLISHER = {Lab. Th\'eorie des Nombres, Centre Nat. Recherche Sci.,
+              Talence},
+      YEAR = {1973},
+   MRCLASS = {10A20 (10H10)},
+  MRNUMBER = {0392794},
+MRREVIEWER = {E. Grosswald},
+}
+
+@article{ref:erdos3,
+    AUTHOR = {Cohen, Henri and Rubinstein-Salzedo, Simon and Thorne, Frank},
+     TITLE = {Identities for field extensions generalizing the
+              {O}hno-{N}akagawa relations},
+   JOURNAL = {Compos. Math.},
+  FJOURNAL = {Compositio Mathematica},
+    VOLUME = {151},
+      YEAR = {2015},
+    NUMBER = {11},
+     PAGES = {2059--2075},
+      ISSN = {0010-437X},
+   MRCLASS = {11R21 (11R29)},
+  MRNUMBER = {3427573},
+}
+
+@article {ref:erdos4,
+    AUTHOR = {Rubinstein-Salzedo, Simon and Swaminathan, Ashvin},
+     TITLE = {Analysis on surreal numbers},
+   JOURNAL = {J. Log. Anal.},
+  FJOURNAL = {Journal of Logic and Analysis},
+    VOLUME = {6},
+      YEAR = {2014},
+     PAGES = {Paper 5, 39},
+      ISSN = {1759-9008},
+   MRCLASS = {26E35 (03E10 54J05)},
+  MRNUMBER = {3267278},
+MRREVIEWER = {Philip Ehrlich},
+}
+
+
+@article{ref:ecexplicit,
+    AUTHOR = {Chen, Evan and Park, Peter S. and Swaminathan, Ashvin A.},
+     TITLE = {Elliptic curve variants of the least quadratic nonresidue
+              problem and {L}innik's theorem},
+   JOURNAL = {Int. J. Number Theory},
+  FJOURNAL = {International Journal of Number Theory},
+    VOLUME = {14},
+      YEAR = {2018},
+    NUMBER = {1},
+     PAGES = {255--288},
+      ISSN = {1793-0421},
+   MRCLASS = {11G05 (11M41 11N05 11R44 14H52)},
+  MRNUMBER = {3726253},
+       URL = {https://doi.org/10.1142/S1793042118500161},
+}
+
+@article{ref:algint,
+    AUTHOR = {Chen, Evan},
+     TITLE = {Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures},
+   JOURNAL = {Proc. Amer. Math. Soc.},
+  FJOURNAL = {Proceedings of the American Mathematical Society},
+    VOLUME = {146},
+      YEAR = {2018},
+     PAGES = {4189-4198},
+}
+
+@article{ref:dmtcswilf,
+  TITLE = {{The 26 Wilf-equivalence classes of length five quasi-consecutive
+  patterns}},
+  AUTHOR = {Chen, Evan and Narayanan, Shyam},
+  URL = {https://dmtcs.episciences.org/4912},
+  DOI = {},
+  JOURNAL = {{Discrete Mathematics \& Theoretical Computer Science}},
+  VOLUME = {{vol. 20 no. 2}},
+  YEAR = {2018},
+  MONTH = Oct,
+  KEYWORDS = {Mathematics - Combinatorics ; 05A05, 05A19 ; G.2.1},
+}
+
+@article{ref:orthomorphism,
+  title = {Multiplicative and exponential variations of orthomorphisms of cyclic groups},
+  author = {Chen, Evan},
+  url = {https://www.intlpress.com/site/pub/pages/journals/items/joc/content/vols/0011/0002/a008/index.php},
+  doi = {10.4310/JOC.2020.v11.n2.a8},
+  journal = {Journal of Combinatorics},
+  volume = {11},
+  number = {2},
+  pages = {377 - 389},
+  year = {2020},
+  month = Jan,
+}
+\end{filecontents}
+
+\usepackage[style=chem-rsc,maxnames=7]{biblatex}
+\addbibresource{biblio.bib}
+
+\lfoot{\emph{Last updated \today}}
+
+\newcommand{\subtext}[1]{\bgroup\footnotesize\rmfamily\color{black!70}#1\egroup}
+\newcommand{\previous}[1]{\bgroup\color{black}\bfseries#1\egroup}
+
+\newcommand{\job}[4]{\smallskip\cvitemwithcomment{#2}{#1}{#3}%
+\unskip\subtext{#4}\medskip}
+
+\newcommand{\pub}[2]{\cvlistitem{#1. \\ \subtext{#2}}\smallskip}
+\newcommand{\paper}[3]{\pub{#1}{#2. \arxiv{#3}.}}
+
+\name{Evan}{Chen}
+\email{evan@evanchen.cc}
+\homepage{web.evanchen.cc} % URL
+\social[github]{vEnhance}
+\social[linkedin]{evanchenmath}
+\social[facebook]{evanchenmath}
+\lfoot{\emph{Last updated \today}}
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace*{-1.5em}
+
+\section{Education}
+\entry{Fall 2018 -- present}
+	{Massachusetts Institute of Technology}%
+	{PhD candidate in mathematics.}
+	{}{}{}
+(Full list of major coursework at
+\cvurl{https://web.evanchen.cc/upload/math-coursework.pdf}.)
+
+\subsection{Undergraduate}
+\cvitemwithcomment{Massachusetts Institute of Technology}%
+	{B.S.\ Math (transfer)}{2015 -- 2018}
+\cvitemwithcomment{Harvard College}%
+	{Undergraduate (and took math 55)}{2014 -- 2015}
+\cvitemwithcomment{UC Berkeley}
+	{Concurrent enrollment during high school}
+	{2012 -- 2013}
+\cvitemwithcomment{San Jos\'e State University}
+	{Concurrent enrollment during high school}
+	{2012 -- 2013}
+
+\subsection{Programming experience}
+Python (and Django), \LaTeX, Linux (Arch Linux on i3).
+
+\section{Selected teaching and mentoring}
+\job{Math Olympiad Summer Program (MOP)}%
+{Assistant academic director}{2018 -- present}%
+{Also \previous{head grader (2016-2017)}.
+Training program for the USA team at the International Math Olympiad (IMO).
+Gave lectures, coordinate grading, manage assistant teams,
+direct logistics, exam design.
+Reference: Po-Shen Loh.}
+
+\job{USA Math Olympiad (USAMO)}%
+{Co-Editor-in-Chief}{Starting July 2019}%
+{Also \previous{grader (2015-), problem author (2016-), committee member (2018-2019)}.
+Co-EiC with \emph{Jenny Iglesias} starting July 2019.
+Reference: Bela Bajnok.}
+
+\job{Olympiad Training for Individual Study (OTIS)}
+{Director}{2015 -- present}
+{Director of private individualized classes for students
+who are preparing for USAMO/IMO type exams.
+Details available at \cvurl{https://web.evanchen.cc/otis.html}.}
+
+\job{USA Olympiad Team Selection Tests}%
+{Team selection coordinator}{2017 -- present}%
+{Together with \emph{Ankan Bhattacharya},
+coordinating both the design and grading of team selection tests
+for International Math Olympiad,
+European Girls' Math Olympiad, and Romanian Masters in Mathematics.
+Reference: Po-Shen Loh.}
+
+
+\section{Selected fellowships and awards}
+\cvitem{Morgan prize honorable mention}{awarded January 2019}
+\cvitem{NSF graduate fellowship}{awarded April 2018}
+\cvitem{MIT Akamai presidential graduate fellow}{awarded March 2018}
+
+\cvitem{International Math Olympiad (IMO)}{Gold medal, awarded 2014, rank 12th}
+\cvitem{USA Math Olympiad (USAMO)}{National winner, awarded 2014, rank 2nd}
+\cvitem{William Lowell Putnam Competition}{N1, 2015, rank 13th}
+
+\section{Publications and preprints}
+\paper{A family of partially ordered sets with small balance constant}
+{\fullcite{ref:thirds}.}{1709.05753}
+
+\paper{Avoiding algebraic integers of bounded house in orbits of
+rational functions over cyclotomic closures}
+{\fullcite{ref:algint}}{1608.04146}
+
+\paper{Elliptic curve variants of least quadratic nonresidue and Linnik's theorem}
+{\fullcite{ref:ecexplicit}}{1507.07122}
+
+\paper{Linear polychromatic colorings of hypercube faces}
+{\fullcite{ref:hypercube}}{1609.01247}
+
+\paper{Linnik's theorem for Sato-Tate laws on CM elliptic curves}%
+{\fullcite{ref:RNUT}}{1506.09170}
+
+\paper{Multiplicative and exponential orthomorphisms}
+{\fullcite{ref:orthomorphism}}{1710.02734}
+
+\paper{On logarithmically Benford sequences}%
+{\fullcite{ref:benford}}{1507.02629} % July 2016
+
+\paper{Schur-concavity for avoidance of increasing subsequences 
+in block-ascending permutations}
+{\fullcite{ref:schur}}{1708.01350}
+
+\paper{The 26 Wilf-equivalence classes of length five quasi-consecutive patterns}
+{\fullcite{ref:dmtcswilf}}{1609.04626}
+
+\pub{Euclidean Geometry in Mathematical Olympiads}%
+	{\fullcite{ref:EGMO}. ISBN 978-0-88385-839-4.%
+	300 pp, 248 figures.
+	Synopsis at \cvurl{https://web.evanchen.cc/geombook.html}.}
+
+\pub{45th United States of America Mathematical Olympiad}{\fullcite{ref:usamo}.}
+
+\section{Selected work experience}
+\subsection{Research internships}
+\job{Research Experience for Undergraduates}
+{Duluth REU}{Summer 2016, 2017}
+{Worked on projects in number theory and combinatorics.
+Directed by Joe Gallian.}
+
+\job{Research Experience for Undergraduates}
+{Emory REU}{Summer 2015}
+{Worked on projects in analytic number theory
+on the distribution of primes. Directed by Ken Ono.}
+
+\job{CEE Research Science Institute}
+{RSI participant}{Summer 2013}
+{Worked on high-school project on Bott-Samelson bimodules.
+Directed by Center for Excellence in Education.}
+
+\subsection{Volunteer and outreach}
+\job{International Math Olympiad (IMO)}
+{USA Observer A}{2017 -- present}
+{Part of the USA delegation to the International Math Olympiad.
+Advised on problem voting, helped organize trip for students,
+and helped defend the papers of the USA team.}
+
+\job{Harvard-MIT Math Tournament (HMMT)}
+{Officer}{2014-2020}
+{Served as \previous{problem czar (2014-2016),
+software director (2016-2017), historian (2017-2018),
+chief of staff (2018-2019), chief advisor (2019-2020)}.
+See \cvurl{https://github.com/vEnhance/helium} for a software example.}
+
+\job{American Regional Math League (ARML)}
+{Problem writing team}{2016 -- present}
+{Problem author team for the American Regional Math League
+(ARML), an annual high-school math meet.}
+
+\subsection{More teaching}
+\job{MIT PRIMES}{Mentor and exam designer}{2016 -- present}%
+{Was \previous{mentor (2016-2017), entrance exam designer (2016 - present)}.
+Mentored for high-school/college collaborative research project
+(PRIMES / AoPS CrowdMath); design project, oversee and guide discussion.
+Reference: Tanya Khovanova.}
+
+\job{Art of Problem Solving}{Assistant and curriculum designer}{2014 -- present}%
+{Designed curriculum and materials, and worked as teaching assistant,
+primarily for Worldwide Online Olympiad Training class (WOOT).
+Reference: Richard Rusczyk.}
+
+\job{Summer Program for Applied Rationality\&Cognition}%
+{Counselor}{2015 -- present}
+{Was \previous{junior counselor (2015, 2017, 2018),
+admissions staff (2017, 2018).} Reference: Yan Zhang.}
+
+\subsection{Software}
+\job{Expii Inc.}{Software developer}{2013 -- 2015}
+{Developer for expii.com, an online education platform.
+Main task was the development and maintenance of the website's markup language,
+both specifications and implementation.
+Reference: Po-Shen Loh}
+
+\end{document}

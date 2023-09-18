@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>(new tab)</title>
+<meta charset='UTF-8' />
+<style type='text/css'>
+body {
+	text-align: center;
+	font: Trebuchet MS;
+	background-color: #222;
+}
+input#search {
+	width: 600px;
+	height: 45px;
+	padding: 10px;
+	font-size: 16px;
+	background-color: #888;
+	color: #0f0;
+	border: none;
+}
+div#main {
+	cursor: pointer;
+	margin-top: 20px;
+}
+span.intpart {
+	font-size: 140px;
+	color: cyan;
+}
+span.fracpart {
+	font-size: 80px;
+	color: #ddd;
+}
+</style>
+<script type='text/javascript'>
+function Yearworks(target) {
+	this.target = target;
+}
+Yearworks.prototype.isLeapYear = function(year) {
+	var d = new Date(year, 1, 28);
+	d.setDate(d.getDate() + 1);
+	return d.getMonth() == 1;
+};
+Yearworks.prototype.dateSub = function(dt) {
+	var target = new Date(this.target);
+	target.setTime(target.getTime() + dt.getTimezoneOffset() * 60000);
+	var years = dt.getFullYear() - target.getFullYear();
+	target.setFullYear(target.getFullYear() + years);
+	if (target > dt) {
+		years--;
+		target.setFullYear(target.getFullYear() - 1);
+	}
+	var days = (dt - target) / (3600 * 24 * 1000);
+	return years + days / (this.isLeapYear(dt.getFullYear()) ? 366 : 365);
+};
+Yearworks.prototype.dateAdd = function(years) {
+	var target = new Date(this.target);
+	var whole = years | 0;
+	target.setFullYear(target.getFullYear() + whole);
+	target.setTime(target.getTime()
+		+ (this.isLeapYear(target.getFullYear()) ? 366 : 365) * (years - whole)
+			* (3600 * 24 * 1000));
+	return target;
+};
+
+function YearUpdater(target, callback, precision) {
+	this.yearworks = new Yearworks(target);
+	this.callback = callback;
+	this.precision = precision;
+	this.power = Math.pow(10, this.precision);
+}
+YearUpdater.prototype.update = function() {
+	var years = this.yearworks.dateSub(new Date());
+	var next = 1 + ((this.power * years + 1) | 0) / this.power;
+	this.callback(years);
+	return new Date(this.yearworks.dateAdd(next));
+};
+YearUpdater.prototype.start = function() {
+	var self = this;
+	(function mainloop() {
+		var next = self.update();
+		setTimeout(mainloop, Math.max(0, next - new Date()));
+	})();
+};
+
+function YearDisplay(target, dom, precision) {
+	var self = this;
+	this.updater = new YearUpdater(new Date(target), function(val) {
+		self.update(val);
+	}, precision);
+	this.dom = dom;
+	this.int = this.makeWithClass('span', 'intpart');
+	this.frac = this.makeWithClass('span', 'fracpart');
+	dom.appendChild(this.int);
+	dom.appendChild(this.frac);
+}
+YearDisplay.prototype.makeWithClass = function(type, cls) {
+	var result = document.createElement(type);
+	result.className = cls;
+	return result;
+};
+YearDisplay.prototype.update = function(years) {
+	var whole = years | 0;
+	this.int.innerText = whole;
+	this.frac.innerText = (years - whole).toFixed(this.updater.precision).substring(1);
+};
+YearDisplay.prototype.serve = function() {
+	this.updater.start();
+};
+
+function StorageMan(key, validator, def) {
+	this.key = key;
+	this.validator = validator;
+	this.set(this.get() || def);
+};
+StorageMan.prototype.get = function() {
+	return localStorage.getItem(this.key);
+};
+StorageMan.prototype.set = function(value) {
+	var ok = this.validator(value);
+	if(ok)
+		localStorage.setItem(this.key, value);
+	return ok;
+};
+
+function Prompter(dmsg, resolve, reject) {
+	this.message = dmsg;
+	this.resolve = resolve;
+	this.reject = reject;
+}
+Prompter.prototype.prompt = function(msg) {
+	var result = prompt(msg || this.message);
+	this.resolve(result) || this.reject(result);
+};
+</script>
+</head>
+
+<body>
+<div id='main'></div>
+<div id='searchdiv'>
+	<form action='https://www.duckduckgo.com' method='get'>
+	<input name='q' autocomplete='off' id='search' placeholder="Search" />
+	</form>
+</div>
+
+<script type='text/javascript'>
+var storeman = new StorageMan('time', function(datestr) {
+	return +new Date(datestr);
+}, '0000-01-01');
+var display = new YearDisplay(storeman.get(), document.getElementById('main'), 8);
+var prompter = new Prompter('Enter a date in YYYY-MM-DD format', function(val) {
+	var ok = storeman.set(val);
+	if (ok) { location.reload(); }
+	return ok;
+}, function(val) {
+	alert(val + ' not a valid date!');
+});
+
+document.getElementById('main').addEventListener('click', function() {
+	prompter.prompt();
+});
+display.serve();
+</script>
+</body>
+</html>
