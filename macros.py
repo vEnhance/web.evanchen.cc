@@ -12,7 +12,7 @@ tree = repo.heads.main.commit.tree
 GITHUB_BASE = "https://github.com/vEnhance/web.evanchen.cc"
 
 
-def handout_link(name, filename=None):
+def handout_link(name: str, filename=None) -> str:
     filename = filename or name
     return (
         f'<a href="handouts/{name}/{filename}.pdf">(pdf)</a>'
@@ -22,7 +22,7 @@ def handout_link(name, filename=None):
     )
 
 
-def page_footer(page) -> str:
+def page_footer(page: dict[str, str]) -> str:
     input_name: str = page["url"].replace(".html", ".md")
     input_path = Path("input") / input_name
     try:
@@ -52,7 +52,7 @@ def page_footer(page) -> str:
         )
 
 
-def get_twitch_table():
+def get_twitch_table() -> str:
     if False and (data_directory := Path.home() / "ProGamer/Writeups/").exists():
         tsv_path = data_directory / "data.tsv"
         json_path = data_directory / "urls.json"
@@ -146,7 +146,7 @@ def get_twitch_table():
     return out
 
 
-def get_card_trick():
+def get_card_trick() -> str:
     option_string = r"""<option value="{value}">{value}</option>"""
     ranks = [
         "...",
@@ -192,18 +192,18 @@ def get_card_trick():
     return out
 
 
-def faq(label, question):
+def faq(label: str, question: str) -> str:
     return (
         f'<a id="{label}" href="#{label}" style="color:#004824;">{label}.</a> {question}'
         f'<a href="#{label}" class="hash-link">#</a>'
     )
 
 
-def hl(link, text):
+def hl(link: str, text: str) -> str:
     return f'<a id="{link}"></a>{text}<a href="#{link}" class="hash-link">#</a>'
 
 
-def tshirt(year, alt=None, ext=".png"):
+def tshirt(year: str, alt: str | None = None, ext=".png") -> str:
     location = f"static/mop/shirts/{year}{ext}"
     if alt is None:
         alt = f"{year}."
