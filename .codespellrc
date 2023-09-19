@@ -1,4 +1,4 @@
 [codespell]
-skip=elmo/internal*.yaml,elmo/assemble.py
+skip=elmo/internal*.yaml,elmo/assemble.py,static/CV-example-source-2020.tex
 count=
 ignore-words-list=inthe,ro,progamer
