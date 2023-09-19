@@ -47,6 +47,8 @@ I've been known to [play competitively](https://hanabi-competitions.com/).
 I wrote a
 [short introduction to the rules and H-group conventions](https://tinyurl.com/hanabi-evan-intro)
 if you'd like to get into the game and the strategies my group uses.
+I also wrote a
+[blog post about why I like the game](https://blog.evanchen.cc/2023/09/19/the-depth-of-hanabi/).
 
 ## {{ hl("games", "More games") }}
 
