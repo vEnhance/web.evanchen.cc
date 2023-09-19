@@ -107,17 +107,15 @@ participation as students denoted in parentheses.
 
 ### Instructors
 
-- Adhitya Mangudy
-- [Anant Mudgal][anant] (III)
-- [Dávid Matolcsi][david]
+- [Adhitya Mangudy][adhitya]
 - [Gopal Goel][gopal] (IV-V)
 - [Jeffrey Kwan][jkwan] (IV-V)
+- [Márton Borbényi][marton]
 - [Michael Ren][mren] (I-II)
 - [Noah Walsh][noah] (V-VI)
 - [Ram Goel][ramgoel] (V-VII)
 - [Rohan Goyal][rohan] (V)
 - Rushil Mathur (VII-VIII)
-- [Zoltan Gyenes][zoltan]
 
 </div>
 
@@ -125,18 +123,21 @@ participation as students denoted in parentheses.
 
 ### Past staff
 
+[Anant Mudgal][anant] (III);
 [Ankan Bhattacharya][ankan];
 [Anushka Aggarwal][anushka] (V);
 Arindam Bhattacharyya (V);
 Atul Nadig (VII);
 [CJ Quines](https://cjquines.com/);
+[Dávid Matolcsi][david];
 [Howard Halim][howard] (III-IV);
 [James Lin][james];
 [Pranjal Srivastava][pranjal] (IV);
 [Reed LaFleche][reed];
 [Sanjana Das][sanjana] (VI);
 [Xinke Guo-Xue][xinke];
-[Zack Chroman][zack] (II-III)
+[Zack Chroman][zack] (II-III);
+[Zoltan Gyenes][zoltan]
 
 </div>
 </div>
@@ -146,22 +147,24 @@ Atul Nadig (VII);
 <img src="static/otis-imo-2018.png" width="400" alt="OTIS x IMO 2018 gathering" />
 <img src="static/otis-imo-2019.jpg" width="400" alt="OTIS x IMO 2019 gathering" />
 
+[adhitya]: https://www.imo-official.org/participant_r.aspx?id=31724
 [anant]: https://www.imo-official.org/participant_r.aspx?id=25764
+[ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
+[anushka]: https://www.egmo.org/people/person1429/
 [david]: https://www.imo-official.org/participant_r.aspx?id=27309
 [gopal]: https://www.imo-official.org/participant_r.aspx?id=29882
 [howard]: https://www.imo-official.org/participant_r.aspx?id=28475
 [james]: https://www.imo-official.org/participant_r.aspx?id=27375
 [jkwan]: https://www.imo-official.org/participant_r.aspx?id=29884
-[pranjal]: https://www.imo-official.org/participant_r.aspx?id=28249
-[sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
-[sanjana]: https://www.egmo.org/people/person1748/
-[rohan]: https://www.linkedin.com/in/rohan-goyal-a998aa155/
-[reed]: https://www.linkedin.com/in/reed-lafleche-941481106/
-[xinke]: https://xinkeguoxue.github.io/
-[ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
+[marton]: https://www.imo-official.org/participant_r.aspx?id=27306
 [mren]: https://www.imo-official.org/participant_r.aspx?id=28394
-[zack]: https://www.imo-official.org/participant_r.aspx?id=27374
-[ramgoel]: https://www.imo-official.org/participant_r.aspx?id=31808
-[anushka]: https://www.egmo.org/people/person1429/
 [noah]: https://www.imo-official.org/participant_r.aspx?id=31040
+[pranjal]: https://www.imo-official.org/participant_r.aspx?id=28249
+[ramgoel]: https://www.imo-official.org/participant_r.aspx?id=31808
+[reed]: https://www.linkedin.com/in/reed-lafleche-941481106/
+[rohan]: https://www.linkedin.com/in/rohan-goyal-a998aa155/
+[sanjana]: https://www.egmo.org/people/person1748/
+[sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
+[xinke]: https://xinkeguoxue.github.io/
+[zack]: https://www.imo-official.org/participant_r.aspx?id=27374
 [zoltan]: https://www.imo-official.org/participant_r.aspx?id=5108
