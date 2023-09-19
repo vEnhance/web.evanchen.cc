@@ -68,7 +68,7 @@ Here is a picture of my physical setup (click to enlarge).
 Xiberia V22 headset, Havit HV-KB395L keyboard,
 Inateck MS 1001 mouse, MSI Codex XE Plus computer.
 
-<div style="margin: 0 auto;">
+<div class="text-cenetr" style="margin: 0 auto;">
   <a href="/static/twitch-setup.jpg">
   <img src="/static/twitch-setup-sm.jpg" width="250" alt="Evan's multi-monitor setup for Twitch." />
   </a>
