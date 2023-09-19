@@ -16,8 +16,9 @@ but it became so long that I decided it deserved its own page.
 # Gallery
 
 Here are some examples of pictures you can make with Asymptote.
-You can view the source code for any of them on
-[GitHub](https://github.com/vEnhance/web.evanchen.cc/tree/main/static/asy-gallery/).
+You can [view the source code on GitHub][asy-gallery].
+
+[asy-gallery]: https://github.com/vEnhance/web.evanchen.cc/tree/main/static/asy-gallery
 
 <div class="photo-gallery">
 {{ clickable_asy_image("321avoid") }}
