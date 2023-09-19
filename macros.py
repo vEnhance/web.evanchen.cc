@@ -211,3 +211,9 @@ def tshirt(year: str, alt: str | None = None, ext=".png") -> str:
         f'<a href="{location}" title="{alt}" class="tshirt-link">'
         f'<img src="{location}" alt="{alt}" class="tshirt" /></a>'
     )
+
+
+def clickable_selfie_image(basename: str, alt: str) -> str:
+    image_path = "static/headshots/" + basename + "-full.jpg"
+    thumb_path = "static/headshots/" + basename + "-thumb.jpg"
+    return f'<a href="{image_path}"><img src="{thumb_path}" alt="{alt}" /></a>'
