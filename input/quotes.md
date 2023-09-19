@@ -76,11 +76,12 @@ Alphabetical, does not include song lyrics.
 - I think it's really important to not have an opinion
   on things you don't know much about.
   ([Yi Sun](http://yisun.io/))
-- I want you to know that it's okay if you only save one person,
-  and it's okay if that person is yourself.
 - People only exist when you need them.
 - The more labels you have for yourself, the dumber they make you.
   ([Paul Graham](http://paulgraham.com/identity.html))
+- You all have a little bit of "I want to save the world" in you.
+  I want you to know that it's okay if you only save one person,
+  and it's okay if that person is you.
 
 ## {{ hl("misc", "Miscellaneous") }}
 
