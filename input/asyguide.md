@@ -1,4 +1,4 @@
-title: Asy Guide
+title: Asy guide
 header: Asymptote Guide
 description: Notes on how to set up Asymptote with LaTeX.
 menu-position: 68
