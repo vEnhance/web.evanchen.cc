@@ -13,6 +13,27 @@ but it became so long that I decided it deserved its own page.
 
 <iframe width="448" height="252" src="https://www.youtube-nocookie.com/embed/fhe7atsYLuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+# Gallery
+
+Here are some examples of pictures you can make with Asymptote.
+You can view the source code for any of them on
+[GitHub](https://github.com/vEnhance/web.evanchen.cc/tree/main/static/asy-gallery/).
+
+<div class="photo-gallery">
+{{ clickable_asy_image("321avoid") }}
+{{ clickable_asy_image("AMC-12B-2022-21") }}
+{{ clickable_asy_image("EGMO-2015-2") }}
+{{ clickable_asy_image("IMO-2017-5") }}
+{{ clickable_asy_image("Jan-TST-2013-3") }}
+{{ clickable_asy_image("Mexico-2020-3") }}
+{{ clickable_asy_image("Napkin-cproj2") }}
+{{ clickable_asy_image("open-cover") }}
+{{ clickable_asy_image("ST-Napkin-Extn") }}
+{{ clickable_asy_image("TSTST-2020-1") }}
+{{ clickable_asy_image("USAMO-2009-3") }}
+{{ clickable_asy_image("USAMO-2017-5") }}
+</div>
+
 ---
 
 # Prerequisites

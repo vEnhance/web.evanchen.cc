@@ -217,3 +217,10 @@ def clickable_selfie_image(basename: str, alt: str) -> str:
     image_path = "static/headshots/" + basename + "-full.jpg"
     thumb_path = "static/headshots/" + basename + "-thumb.jpg"
     return f'<a href="{image_path}"><img src="{thumb_path}" alt="{alt}" /></a>'
+
+
+def clickable_asy_image(basename: str) -> str:
+    image_path = "static/asy-gallery/" + basename + ".png"
+    thumb_path = image_path
+    alt = basename
+    return f'<a href="{image_path}"><img src="{thumb_path}" alt="{alt}" /></a>'
