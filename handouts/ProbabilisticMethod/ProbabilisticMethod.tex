@@ -1,0 +1,1000 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{answers}
+\Newassociation{sketch}{hintitem}{hints}
+\renewcommand{\solutionextension}{out}
+
+\usepackage[sexy]{evan}
+\newcommand\EE{\mathbb E}
+\newcommand\PP{\mathbb P}
+
+\begin{document}
+\title{Expected Uses of Probability}
+\date{11 August 2014}
+\maketitle
+\Opensolutionfile{hints}
+
+\begin{abstract}
+  Email: \mailto{evan@evanchen.cc}.
+  This is mostly about expected value, both in its own right
+  and in the context of the probabilistic method.
+\end{abstract}
+
+% EV.pdf
+% ploh handouts
+
+\section{Definitions and Notation}
+Nothing tricky here, just setting up notation.
+I'll try to not be overly formal.
+
+A \textbf{random variable} is just a quantity that we take to vary randomly.
+For example, the outcome of a standard six-sided dice roll, say $D_6$,
+is a random variable.
+We can now discuss the \textbf{probability} of certain events, which we'll denote $\PP(\bullet)$.
+For instance, we can write
+\[ \PP(D_6=1) = \PP(D_6=2) = \dots = \PP(D_6=6) = \frac 16 \]
+or $\PP(D_6=0) = 0$ and $\PP (D_6 \ge 4) = \frac 12$.
+
+We can also discuss the \textbf{expected value} of a random variable $X$, which
+is the ``average'' value. The formal definition is
+\[ \EE[X] \defeq \sum_x \PP(X = x) \cdot x. \]
+But an example for our dice roll $D_6$ makes this clearer:
+\[ \EE[D_6] = \frac 16 \cdot 1 + \frac 16 \cdot 2 + \dots + \frac 16 \cdot 6 = 3.5. \]
+In natural language, we just add up all the outcomes
+weighted by probability they appear.
+
+We'll assume the reader has some familiarity with basic graph theory terms;
+see \url{http://en.wikipedia.org/wiki/Graph_theory#Definitions} otherwise.
+One term we'll define here that may not be so known -- given a graph $G$,
+an \textbf{independent set} is a set of vertices for which no two are connected
+by an edge.
+
+\section{Properties of Expected Value}
+\subsection{A Motivating Example}
+It is an unspoken law that any introduction to expected value
+begins with the following classical example.
+
+\begin{example}
+  At MOP, there are $n$ people, each of who has a name tag.
+  We shuffle the name tags and randomly give each person one of the name tags.
+  Let $S$ be the number of people who receive their own name tag.
+  Prove that the expected value of $S$ is $1$.
+\end{example}
+
+This result might seem surprising, as one might intuitively expect $\EE[S]$ to depend on the choice of $n$.
+
+For simplicity, let us call a person a \emph{fixed point} if they receive their own name tag.\footnote{This is actually a term used to describe points which are unchanged by a permutation. So the usual phrasing of this question is ``what is the expected number of fixed points of a random permutation?''}
+Thus $S$ is just the number of fixed points, and we wish to show that $\EE[S]=1$.
+If we're interested in the expected value, then according to our definition we should go through all $n!$ permutations, count up the total number of fixed points, and then divide by $n!$ to get the average.
+Since we want $\EE[S] = 1$, we expect to see a total of $n!$ fixed points.
+
+Let us begin by illustrating the case $n=4$ first, calling the people $W$, $X$, $Y$, $Z$.
+\begin{center}
+\begin{tabular}[h]{r|cccc|c}
+  & W & X & Y & Z & $\Sigma$ \\ \hline\hline
+
+1 & \textbf{\color{red} W} & \textbf{\color{red} X} & \textbf{\color{red} Y} & \textbf{\color{red} Z} & 4 \\
+2 & \textbf{\color{red} W} & \textbf{\color{red} X} & Z & Y & 2 \\
+3 & \textbf{\color{red} W} & Y & X & \textbf{\color{red} Z} & 2 \\
+4 & \textbf{\color{red} W} & Y & Z & X & 1 \\
+5 & \textbf{\color{red} W} & Z & X & Y & 1 \\
+6 & \textbf{\color{red} W} & Z & \textbf{\color{red} Y} & X & 2 \\
+7 & X & W & \textbf{\color{red} Y} & \textbf{\color{red} Z} & 2 \\
+8 & X & W & Z & Y & 0 \\
+9 & X & Y & W & \textbf{\color{red} Z} & 1 \\
+10 & X & Y & Z & W & 0 \\
+11 & X & Z & W & Y & 0 \\
+12 & X & Z & \textbf{\color{red} Y} & W & 1 \\
+13 & Y & W & X & \textbf{\color{red} Z} & 1 \\
+14 & Y & W & Z & X & 0 \\
+15 & Y & \textbf{\color{red} X} & W & \textbf{\color{red} Z} & 2 \\
+16 & Y & \textbf{\color{red} X} & Z & W & 1 \\
+17 & Y & Z & W & X & 0 \\
+18 & Y & Z & X & W & 0 \\
+19 & Z & W & X & Y & 0 \\
+20 & Z & W & \textbf{\color{red} Y} & X & 1 \\
+21 & Z & \textbf{\color{red} X} & W & Y & 1 \\
+22 & Z & \textbf{\color{red} X} & \textbf{\color{red} Y} & W & 2 \\
+23 & Z & Y & W & X & 0 \\
+24 & Z & Y & X & W & 0 \\
+
+\hline
+$\Sigma$ & 6 & 6 & 6 & 6 & 24
+\end{tabular}
+\end{center}
+
+We've listed all $4! = 24$ permutations, and indeed we see that
+there are a total of $24$ fixed points, which I've bolded in red.
+Unfortunately, if we look at the rightmost column, there doesn't seem to
+be a pattern, and it seems hard to prove that this holds for larger $n$.
+
+However, suppose that
+\emph{rather than trying to add by rows, we add by columns}.
+There's a very clear pattern if we try to add by the columns:
+we see a total of $6$ fixed points in each column.
+Indeed, the six fixed $W$ points correspond to the $3!=6$ permutations
+of the remaining letters $X$, $Y$, $Z$.
+Similarly, the six fixed $X$ points correspond to the $3!=6$ permutations
+of the remaining letters $W$, $Y$, $Z$.
+
+This generalizes very nicely: if we have $n$ letters,
+then each letter appears as a fixed point $(n-1)!$ times.
+
+Thus the expected value is
+\[ \EE[S] =
+  \frac{1}{n!}
+  \left( \underbrace{(n-1)! + (n-1)! + \dots + (n-1)!}_{\text{$n$ times}} \right)
+  = \frac{1}{n!} \cdot n \cdot (n-1)! = 1. \]
+Cute, right? Now let's bring out the artillery.
+
+\subsection{Linearity of Expectation}
+The crux result of this section is the following theorem.
+\begin{theorem}
+  [Linearity of Expectation]
+  Given any random variables $X_1$, $X_2$, \dots, $X_n$, we always have
+  \[ \EE[X_1 + X_2 + \dots + X_n]
+    = \EE[X_1]
+    + \EE[X_2]
+    + \dots
+    + \EE[X_n].
+  \]
+\end{theorem}
+This theorem is obvious if the $X_1$, $X_2$, \dots, $X_n$ are independent of each other
+-- if I roll $100$ dice, I expect an average of $350$. Duh.
+The wonderful thing is that this holds even if the variables are not independent.
+And the basic idea is just the double-counting we did in the earlier example: even if the variables
+depend on each other, if you look only at the expected value, you can still add just by columns.
+The proof of the theorem is just a bunch of sigma signs which say exactly the same thing, so
+I won't bother including it.
+
+Anyways, that means we can now nuke our original problem.
+The trick is to define \textbf{indicator variables} as follows: for each $i=1,2,\dots,n$ let
+\[
+  S_i \defeq
+  \begin{cases}
+    1 & \text{if person $i$ gets his own name tag} \\
+    0 & \text{otherwise}.
+  \end{cases}
+  \]
+Obviously, \[ S = S_1 + S_2 + \dots + S_n. \]
+Moreover, it is easy to see that $\EE[S_i] = \PP(S_i = 1) =  \frac 1n$ for each $i$:
+if we look at any particular person, the probability they get their own name tag is
+simply $\frac 1n$.
+Therefore,
+\[ \EE[S] = \EE[S_1] + \EE[S_2] + \dots + \EE[S_n]
+  = \underbrace{\frac1n + \frac1n + \dots + \frac 1n}_{\text{$n$ times}}
+  = 1. \]
+Now that was a lot easier!
+By working in the context of expected value, we get a framework
+where the ``double-counting'' idea is basically automatic.
+In other words, linearity of expectation lets us only focus on small, local components
+when computing an expected value, without having to think about why it works.
+
+\subsection{More Examples}
+\begin{example}
+  [HMMT 2006] At a nursery, $2006$ babies sit in a circle. Suddenly, each baby randomly pokes either the baby to its left or to its right. What is the expected value of the number of unpoked babies?
+\end{example}
+\begin{soln}
+  Number the babies $1$, $2$, \dots, $2006$.  Define
+  \[
+    X_i \defeq
+    \begin{cases}
+      1 & \text{if baby $i$ is unpoked} \\
+      0 & \text{otherwise}.
+    \end{cases}
+  \]
+  We seek $\EE[X_1 + X_2 + \dots + X_{2006}]$.
+  Note that any particular baby has probability $\left( \half \right)^2 = \frac 14$ of being unpoked (if both its neighbors miss).
+  Hence $\EE[X_i] = \frac 14$ for each $i$, and
+  \[ \EE[X_1 + X_2 + \dots + X_{2006}]
+  = \EE[X_1] + \EE[X_2] + \dots + \EE[X_{2006}]
+  = 2006 \cdot \frac 14
+  = \frac{1003}{2}. \qedhere \]
+\end{soln}
+Seriously, this should feel like cheating.
+
+\subsection{Practice Problems}
+The first two problems are somewhat straightforward applications of the methods described above.
+
+\begin{problem}
+  [AHSME 1989] Suppose that $7$ boys and $13$ girls line up in a row. Let $S$ be the number of places in the row where a boy and a girl are standing next to each other. For example, for the row $GBBGGGBGBGGGBGBGGBGG$ we have $S = 12$. Find the expected value of $S$.  % 9.1
+  \begin{sketch}
+    Answer: $9.1$. Make an indicator variable for each adjacent pair.
+  \end{sketch}
+\end{problem}
+\begin{problem}
+  [AIME 2006 \#6] Let $\mathcal{S}$ be the set of real numbers that can be represented as repeating decimals of the form $0.\overline{abc}$ where $a, b, c$ are distinct digits.  Find the sum of the elements of $\mathcal{S}$. % 720 * 0.5 = 360
+  \begin{sketch}
+    Answer: $360$. Pick $a$, $b$, $c$ randomly and compute $\EE[0.\ol{abc}]$. Then multiply by $\left\lvert \mathcal S \right\rvert$.
+  \end{sketch}
+\end{problem}
+
+The next three problems are harder; in these problems linearity of expectation
+is not the main idea of the solution.
+All problems below were written by Lewis Chen.
+
+\begin{problem}[NIMO 4.3]
+  One day, a bishop and a knight were on squares in the same row of an infinite chessboard, when a huge meteor storm occurred, placing a meteor in each square on the chessboard independently and randomly with probability $p$. Neither the bishop nor the knight were hit, but their movement may have been obstructed by the meteors.  For what value of $p$ is the expected number of valid squares that the bishop can move to (in one move) equal to the expected number of squares that the knight can move to (in one move)? % 1/2
+  \begin{sketch}
+    $8(1-p) = 4 \cdot \left( (1-p)+(1-p)^2+(1-p)^3+\dots \right)$.
+  \end{sketch}
+\end{problem}
+\begin{problem}[NIMO 7.3]
+  Richard has a four infinitely large piles of coins: a pile of pennies, a pile of nickels, a pile of dimes, and a pile of quarters. He chooses one pile at random and takes one coin from that pile. Richard then repeats this process until the sum of the values of the coins he has taken is an integer number of dollars.  What is the expected value of this final sum of money, in cents? % 1025
+  \begin{sketch}
+    Let $x_n$ be the EV at a state with $n \pmod{100}$.
+    Then $x_0 = 0$ and \[ x_n = \frac 14 \left( (x_{n+1}+1) + (x_{n+5}+5) + (x_{n+10}+10) + (x_{n+25}+25) \right). \]
+    Do algebra.
+  \end{sketch}
+\end{problem}
+\begin{problem}[NIMO 5.6]
+  Tom has a scientific calculator. Unfortunately, all keys are broken except for one row: \verb$1$, \verb$2$, \verb$3$, \verb$+$ and \verb$-$.  Tom presses a sequence of $5$ random keystrokes; at each stroke, each key is equally likely to be pressed.  The calculator then evaluates the entire expression, yielding a result of $E$.  Find the expected value of $E$. \par (Note: Negative numbers are permitted, so \verb$13-22$ gives $E = -9$. Any excess operators are parsed as signs, so \verb$-2-+3$ gives $E=-5$ and \verb$-+-31$ gives $E = 31$.  Trailing operators are discarded, so \verb$2++-+$ gives $E=2$.  A string consisting only of operators, such as \verb$-++-+$, gives $E=0$.) % 1866
+  \begin{sketch}
+    Answer: $1866$.
+    Show that one can replace \verb$+$ or \verb$-$ buttons with \verb$STOP$.
+    Show that one can replace \verb$1$ and \verb$3$ buttons with \verb$2$.
+    Let $p = \frac 35$.  Compute $2(p + 10p^2 + \dots + 10^4p^5)$.
+  \end{sketch}
+\end{problem}
+
+\section{Direct Existence Proofs}
+In its simplest form, we can use expected value to show existence as follows:
+suppose we know that the average score of the USAMO 2014 was $12.51$.
+Then there exists a contestant who got at least $13$ points, and a contestant who got at most $12$ points.
+This is similar in spirit to the pigeonhole principle, but the probabilistic phrasing is far more robust.
+
+\subsection{A First Example}
+Let's look at a very simple example,
+taken from the midterm of a class at
+the San Jose State University.\footnote{For a phrasing of the problem without graph theory:
+given $n$ red points and $n$ blue points, suppose we connect at least $n^2-n+1$ pairs of opposite colors.
+Prove that we can select $n$ segments, no two of which share an endpoint.}
+\begin{example}
+  [SJSU M179 Midterm]
+  Prove that any subgraph of $K_{n,n}$ with at least $n^2-n+1$ edges has a perfect matching.
+\end{example}
+
+We illustrate the case $n=4$ in the figure.
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(4cm);
+    pair[] A = new pair[4];
+    pair[] B = new pair[4];
+    for (int i=0; i<4; ++i) {
+      A[i] = (-4, 3*(4-i));
+      B[i] = (4, 3*(4-i));
+    }
+
+    pen p = black;
+    pen q = heavygreen + 1.4;
+    // draw(A[0]--B[0], p);
+    draw(A[0]--B[1], q);
+    draw(A[0]--B[2], p);
+    draw(A[0]--B[3], p);
+
+    // draw(A[1]--B[0], p);
+    draw(A[1]--B[1], p);
+    draw(A[1]--B[2], p);
+    draw(A[1]--B[3], q);
+
+    draw(A[2]--B[0], q);
+    draw(A[2]--B[1], p);
+    draw(A[2]--B[2], p);
+    draw(A[2]--B[3], p);
+
+    draw(A[3]--B[0], p);
+    draw(A[3]--B[1], p);
+    draw(A[3]--B[2], q);
+    // draw(A[3]--B[3], p);
+
+    for (int i=0; i<4; ++i) {
+      dot(A[i], red+5);
+      dot(B[i], blue+5);
+    }
+
+    \end{asy}
+  \caption{The case $n=4$. There are $n^2-n+1=13$ edges, and the matching is highlighted in green.}
+\end{figure}
+
+This problem doesn't ``feel'' like it should be very hard.
+After all, there's only a total of $n^2$ possible edges,
+so having $n^2-n+1$ edges means we have practically all edges present.\footnote{On the other hand, $n^2-n+1$ is actually the best bound possible. Can you construct a counterexample with $n^2-n$?}
+
+So let's be really careless and just \emph{randomly} pair off one set of points with the other,
+regardless of whether there is actually an edge present.
+We call the \emph{score} of such a pairing the number of pairs which are actually connected by an edge.
+We wish to show that some pairing has score $n$, as this will be the desired perfect matching.
+
+So what's the expected value of a random pairing?
+Let $v_1$, \dots, $v_n$ be the $n$ vertices on the left.
+For each $i$, let\footnote{Thanks to D.\ Grozev for a correction here},
+\[
+  X_i \defeq
+  \begin{cases}
+    1 & \text{if the pair with $v_i$ has an edge} \\
+    0 & \text{otherwise}.
+  \end{cases}
+\]
+Then the score of the configuration is $X = X_1 + X_2 + \dots + X_n$.
+Now we have $\EE[X_i] = \frac{\deg v_i}{n}$, so
+\begin{align*}
+  \EE[X] &= \EE[X_1] + \dots + \EE[X_n] \\
+  &= \frac{\deg v_1}{n} + \frac{\deg v_2}{n} + \dots + \frac{\deg v_n}{n} \\
+  &= \frac{n^2-n+1}{n} = n-1 + \frac 1n.
+\end{align*}
+Since $X$ takes only integer values,
+there must be some configuration which achieves $X=n$.
+Thus, we're done.
+
+\subsection{Ramsey Numbers}
+Let's do another simple example. Before we begin, I will quickly introduce a silly algebraic lemma,
+taken from \cite[page 30]{holden}.
+\begin{lemma}
+  For any positive integers $n$ and $k$,
+  \[ \binom nk < \frac 1e \left( \frac{en}{k} \right)^k. \]
+  Here $e \approx 2.718\dots$ is Euler's constant.
+  \label{lem:binom_bound}
+\end{lemma}
+\begin{proof}
+  Do $\binom nk < \frac{n^k}{k!}$ and then use calculus to prove that
+  $k! \ge e(k/e)^k$. Specifically,
+  \[ \ln 1 + \ln 2 + \dots + \ln k \ge \int_{x=1}^k \ln x \; dx = k \ln k - k + 1 \]
+  whence exponentiating works.
+\end{proof}
+Algebra isn't much fun, but at least it's easy. Let's get back to the combinatorics.
+
+\begin{example}
+  [Ramsey Numbers] Let $n$ and $k$ be integers with $n \le 2^{k/2}$ and $k \ge 3$.
+  Then it is possible to color the edges of the complete graph on $n$ vertices
+  each either red or blue with the following property:
+  one cannot find $k$ vertices for which the $\binom k2$ edges among them
+  are monochromatic.
+\end{example}
+\begin{remark*}
+  In the language of Ramsey numbers, prove that $R(k,k) > 2^{k/2}$.
+\end{remark*}
+\begin{soln}
+  Again we just randomly color the edges and hope for the best.
+  We use a coin flip to determine the color of each of the $\binom n2$ edges.
+  Let's call a collection of $k$ vertices \emph{bad} if all $\binom k2$ edges are the same color.
+  The probability that any collection is bad is
+  \[ \left( \half \right)^{\binom k2 - 1}. \]
+  The number of collections in $\binom nk$, so the expected number of bad collections is
+  \[ \EE[\text{number of bad collections}] = \frac{\binom nk}{2^{\binom k2 - 1}}. \]
+  We just want to show this is less than $1$.
+  You can check this fairly easily using \Cref{lem:binom_bound}; in fact, we have a lot of room to spare.
+\end{soln}
+
+\subsection{A Tricky Application}
+To cap off this section, we give a tricky proof (communicated to me via \cite{potalk})
+of the following result.
+
+\begin{theorem}[Ajtai-Koml\'os-Szemer\'edi]
+  Given a triangle-free graph $G$ with average degree $d$ and $N$ vertices,
+  we can find an independent set with size at least $0.01 \frac{N}{d} \log d$.
+\end{theorem}
+
+Here, triangle-free just means there are no three vertices which are all adjacent to each other.\footnote{If you're familiar with the notation $R(m,n)$, here's some food for thought: what's the connection between this and $R(3,t)$?}
+Another phrase for this is \emph{locally sparse}.
+
+Our first move is to try and replace the ``average degree'' $d$ with ``maximum degree'' $\Delta$.
+Here's the trick: notice that at most half of the vertices have degree greater than $2d$.
+So if we throw away these vertices, we still have half the vertices and left, and now the maximum
+degree is $\Delta \le 2d$.
+If we let $n = N/2$, then we just need an independent set of size $0.04 \frac{n}{\Delta} \log \Delta$
+in our new graph.
+
+So now we have $n$ vertices with maximum degree $\Delta$.
+Here's the trick: consider all possible independent sets, and pick one set $S$ uniformly at random (!).
+For this set $S$, we define a \emph{score} $X$ as follows:
+\begin{itemize}
+  \ii For each vertex $u$ in $S$, we write a $+\Delta$ at that $u$.
+  \ii For each vertex $v$ adjacent to something in $S$, we write $+1$ at that vertex.
+  A vertex can receive $+1$ multiple times. However, note that since $S$ is independent, this means $v \notin S$.
+  \ii Define the score $X$ to be the sum of all numbers written.
+\end{itemize}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    pair A  = Drawing("+\Delta", origin);
+    pair U = Drawing("+1", 1.2*dir(110), dir(110));
+    pair V = Drawing("+1", 1.4*dir(200));
+    pair X = Drawing("+2", dir(0));
+    pair B = Drawing("+\Delta", X+dir(15)*0.86);
+    pair Y = Drawing(X-0.7*dir(260));
+    pair Z = Drawing(Y + 0.8*dir(110));
+    pair M = Drawing("+1", B+0.4*dir(70), dir(70));
+    draw(U--A--V);
+    draw(A--X--Y--Z);
+    draw(X--B--M);
+    real r = 0.05;
+    filldraw(CR(A,r), red, red);
+    filldraw(CR(B,r), red, red);
+  \end{asy}
+  \caption{Assigning scores. The elements of $S$ are the large red vertices.}
+\end{figure}
+
+Obviously, $X \le 2 \Delta \left\lvert S \right\rvert$, since each vertex in $S$ bestows $\Delta$ to itself
+and at most $\Delta$ among its neighbors.
+Now, we will place a bound on $\EE[X]$, which will give us the result.
+
+Consider any vertex $v$, and consider its set of neighbors.
+Note that by the triangle-free condition, no neighbors are adjacent to each other.
+Let $X_v$ denote the sum of the scores given to vertex $v$ (so $X = \sum_v X_v$).
+We are going to show that $\EE[X_v] \ge 0.08 \log \Delta$.
+This is enough, because then $\EE[X] \ge 0.08n \log \Delta$, and for a good choice of $X$,
+we then have $\left\lvert S \right\rvert \ge 0.04n \frac{\log \Delta}{\Delta}$.
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(5cm);
+    pair v = Drawing("v", (-1.618,0), dir(-150));
+    for (real y=-2; y<=2; ++y) { draw(v--Drawing((0,y))); }
+    draw(yscale(2.718)*unitcircle);
+    MP("\text{Neighbors}", (1.5,2.5), dir(80));
+    draw( (0,1)--(2.1,-1.3) );
+    draw( (0,-2)--(2.6,0.7) );
+    MP("\dots", (2,0), dir(0));
+  \end{asy}
+  \caption{Ignoring things.}
+\end{figure}
+
+Suppose we're selecting an independent set, and we're done selecting everything aside from $v$ and its neighbors.
+We'll prove that regardless of how the stuff outside is chosen, $\EE[X_v] \ge 0.08 \log \Delta$ still holds.
+Assume that, not including $v$, there are $m$ other vertices in the neighborhood which we can still pick (i.e.\ they
+are not adjacent to anything outside that has been selected).
+
+There are a few ways we can pick the remaining set:
+\begin{itemize}
+  \ii We can pick $v$, but then we can no longer pick any of its neighbors.
+  \ii We can pick any nonempty subset of the $m$ remaining vertices, but then we can no longer pick $v$.
+  \ii We can pick no vertices.
+\end{itemize}
+There are a total of $1 + \left( 2^m-1 \right) + 1$ possibilities.
+In the first scenario, the $X_v = +\Delta$.
+In the second and third scenario, $X_v = \EE[\text{\# neighbors chosen}] = \half m$.
+So,
+\[ \EE[X_v] = \frac{1 \cdot \Delta + 2^m \cdot \half m}{2^m+1}
+  = \frac{\Delta}{2^m+1} + \frac{1}{1+2^{-m}} \cdot \frac{m}{2}
+  > \frac14 \max \left\{ \frac{\Delta}{2^m}, m \right\}. \]
+It remains to prove this is at least $0.08 \log \Delta$.
+You can check this, because if $m \ge \frac 12 \log_2 \Delta$, then $\frac 14m$ is enough;
+otherwise, $\frac{\Delta}{2^m} \ge \sqrt\Delta$ which is certainly sufficient.
+
+\subsection{Practice Problems}
+The first two problems are from \cite{ravi}; the last one is from \cite{poshen}.
+\begin{problem}
+  Show that one can construct a (round-robin) tournament with more than $1000$ people
+  such that in any set of $1000$ people, some contestant beats all of them.
+  \begin{sketch}
+    Suppose there are $n$ people, and decide each edge with a coin flip.
+    Compute the expected number of $1000$-subsets for which there is no one better than all.
+    Check that this is less than $1$ for very large $n$.
+  \end{sketch}
+\end{problem}
+\begin{problem}
+  [BAMO 2004] Consider $n$ real numbers, not all zero, with sum zero.
+  Prove that one can label the numbers as $a_1$, $a_2$, \dots, $a_n$ such that
+  \[ a_1 a_2 + a_2 a_3 + \dots + a_n a_1 < 0. \]
+  \begin{sketch}
+    Show that a random permutations has expected value at most $0$.
+    Why are the inequalities strict?
+  \end{sketch}
+\end{problem}
+\begin{problem}
+  [Russia 1996] In the Duma there are $1600$ delegates, who have formed $16000$ committees of $80$ people each. Prove that one can find two committees having no fewer than four common members.
+  \begin{sketch}
+    Let $n_i$ be the number of committees which the $i$th delegate is in.
+    Pick two committees randomly and find the expected value of the number of common members.
+    Use Jensen's inequality to get a lower bound on $\sum \binom{n_i}{2}$.
+  \end{sketch}
+\end{problem}
+
+
+
+
+\section{Heavy Machinery}
+Here are some really nice ideas used in modern theory.
+Unfortunately I couldn't find many olympiad problems that used them.
+If you know of any, please let me know!
+
+\subsection{Alteration}
+In previous arguments we often proved a result by showing $\EE[\text{bad}] < 1$.
+A second method is to select some things,
+find the expected value of the number of ``bad'' situations,
+and subtract that off.
+An example will make this clear.
+
+\begin{example}
+  [Weak Tur\'an] A graph $G$ has $n$ vertices and average degree $d$.
+  Prove that it is possible to select an independent set of size at least $\frac{n}{2d}$.
+\end{example}
+\begin{proof}
+  Rather than selecting $\frac{n}{2d}$ vertices randomly and hoping the number of edges is $1$,
+  we'll instead select each vertex with probability $p$.
+  (We will pick a good choice of $p$ later.)
+
+  That means the expected number of vertices we will take is $np$.
+  Now there are $\half nd$ edges, so the expected number of ``bad'' situations ({i.e.} an edge
+  in which both vertices are taken) is $\half nd \cdot p^2$.
+
+  Now we can just get rid of all the bad situations.
+  For each bad edge, delete one of its endpoints arbitrarily (possibly with overlap).
+  This costs us at most $\half nd \cdot p^2$ vertices, so the expected value
+  of the number of vertices left is
+  \[ np - \half nd p^2 = np \left[ 1 - \half dp \right]. \]
+  It seems like a good choice of $p$ is $\frac 1d$, which now gives us an expected value
+  of $\frac{n}{2d}$, as desired.
+\end{proof}
+A stronger result is \Cref{thm:carowei}.
+
+
+\subsection{Union Bounds and Markov's Inequality}
+A second way to establish existence is to establish a nonzero probability.
+One way to do this is using a union bound.
+\begin{proposition}[Union Bound]
+  Consider several events $A_1$, $A_2$, \dots, $A_k$.  If
+  \[ \PP(A_1) + \PP(A_2) + \dots + \PP(A_k) < 1 \]
+  then there is a nonzero probability that none of the events occur.
+\end{proposition}
+
+The following assertion is sometimes useful for this purpose.
+\begin{theorem}[Markov's Inequality]
+  Let $X$ be a random variable taking only nonnegative values.
+  Suppose $\EE[X] = c$. Then
+  \[ \PP(X \ge rc) \le \frac{1}{r} . \]
+\end{theorem}
+This is intuitively obvious: if the average score on the USAMO was $7$,
+then at most $\frac 16$ of the contestants got a perfect score.
+The inequality is also sometimes called \emph{Chebyshev's inequality} or
+\emph{the first Chebyshev inequality}.
+
+
+\subsection{Lov\'asz Local Lemma}
+The Lov\'asz Local Lemma (abbreviated LLL)
+is in some sense a refinement of the union bound idea -- if the events in question
+are ``mostly'' independent, then the probability no events occur is still nonzero.
+
+We present below the ``symmetric'' version of the Local Lemma.
+An asymmetric version also exists (see Wikipedia).
+\begin{theorem}
+  [Lov\'asz Local Lemma]
+  Consider several events, each occurring with probability at most $p$,
+  and such that each event is independent of all the others except at most $d$ of them.
+  Then if \[ epd \le 1 \] the probability that no events occur is positive.
+\end{theorem}
+Note that we don't use the number of events, only the number of dependencies.
+
+As the name implies, the local lemma is useful in situations where in a random algorithm,
+it appears that things do not depend much on each other.
+The following Russian problem is such an example.
+
+\begin{example}
+  [Russia 2006] At a tourist camp, each person has at least $50$ and at most $100$ friends among the other persons at the camp.
+  Show that one can hand out a T-shirt to every person such that the T-shirts have (at most) $1331$ different colors,
+  and any person has $20$ friends whose T-shirts all have pairwise different colors.
+\end{example}
+
+The constant $C = 1331$ is extremely weak. We'll reduce it to $C = 48$ below.
+
+\begin{soln}
+  Give each person a random T-shirt.
+  For each person $P$, we consider the event $E(P)$ meaning ``$P$'s neighbors have at most $19$ colors of shirts''.
+  We wish to use the Local Lemma to prove that there is a nonzero probability that no events occur.
+
+  If we have two people $A$ and $B$, and they are neither friends nor have a mutual friend (in graph theoretic language,
+  the distance between them is at least two), then the events $E(A)$ and $E(B)$ do not depend on each other at all.
+  So any given $E(P)$ depends only on friends, and friends of friends.
+  Because any $P$ has at most $100$ friends, and each of these friends has at most $99$ friends other than $P$,
+  $E(P)$ depends on at most $100 + 100 \cdot 99 = 100^2$ other events.
+  Hence in the lemma we can set $d = 100^2$.
+
+  For a given person, look at their $50 \le k \le 100$ neighbors.
+  The probability that there are at most $19$ colors among the neighbors is clearly at most
+  \[ \binom{C}{19} \cdot \left( \frac{19}{C} \right)^k. \]
+  To estimate the binomial coefficient, we can again use our silly \Cref{lem:binom_bound} to get that this is at most
+  \[ \frac 1e \left( \frac{eC}{19} \right)^{19}
+    \cdot \left( \frac{19}{C} \right)^k
+    = e^{18} \cdot \left( \frac{19}{C} \right)^{k-19}
+    \le e^{18} \left( \frac{19}{C} \right)^{31}. \]
+  Thus, we can put $p = e^{18} \left( \frac{19}{C} \right)^{31}$.
+  Thus the Lemma implies we are done as long as
+  \[ e^{19} \left( \frac{19}{C} \right)^{31} \cdot 100^2 \le 1. \]
+  It turns out that $C=48$ is the best possible outcome here.
+  Needless to say, establishing the equality when $C = 1331$ is trivial.
+\end{soln}
+
+
+
+
+
+\section{Grand Final\'e -- IMO 2014, Problem 6}
+This article was motivated by the following problem,
+given at the 55th International Mathematical Olympiad,
+and the talk by Po-Shen Loh \cite{potalk} given on it.
+\begin{example}
+  [IMO 2014/6]
+  A set of lines in the plane is in \emph{general position} if no two are parallel and no three pass through the same point.
+  A set of lines in general position cuts the plane into regions, some of which have finite area; we call these its \emph{finite regions}.
+  Prove that for all sufficiently large $n$,
+  in any set of $n$ lines in general position it is possible to colour at least $\sqrt{n}$ lines blue
+  in such a way that none of its finite regions has a completely blue boundary.
+
+  \emph{Note:} Results with $\sqrt{n}$ replaced by $c\sqrt{n}$ will be awarded points depending on the value of the constant $c$.
+\end{example}
+
+We'll present two partial solutions ($c < 1$), one using Local Lov\'asz, and one using alteration.
+For completeness we also present the official solution obtaining $c=1$, even though it is not probabilistic.
+Then, we will establish the bound $O(\sqrt{n \log n})$ using some modern tools (this was \cite{potalk}).
+
+\subsection{Partial Solution Using LLL}
+We'll show the bound $c \sqrt n$ where $c = (6e)^{-\frac12}$.
+
+Split the $n$ lines into $c \sqrt n$
+groups of size $\frac{\sqrt n}{c}$ each, arbitrarily.
+We are going to select one line from each of the groups at random to be blue.
+Let the regions be $R_1$, $R_2$, \dots, $R_m$.
+For each region $R_k$ we consider an event $A_k$ meaning
+``the three chosen lines bounding $R_k$ are blue'';
+We will show there is a nonzero probability that no events occur.
+
+The probability of $A_k$ is at most $\left( cn^{-1/2} \right)^3$.
+(It is equal to this if the three of the chosen lines are from different groups,
+and is zero if any two are in the same group.)
+
+For each $R_k$, we have three groups to consider.
+Each group consists of $\frac{\sqrt n}{c}$ lines.
+Each line is part of at most $2n-2$ regions.
+Hence $A_k$ depends on at most $3 \cdot \frac{\sqrt n}{c} \cdot (2n-2)$ events.
+
+Thus,
+\[ e \left( \frac{c}{\sqrt n} \right)^3 \left( 3 \cdot \frac{\sqrt{n}}{c} \cdot (2n-2) \right)
+  < 6ec^2 = 1 \]
+and we are done by LLL.
+
+\subsection{Partial Solution Using Alteration}
+We'll show the bound $c \sqrt n$ for any $c < \frac 23$.
+
+First, we need to bound the number of triangles.
+\begin{claim*}
+  There are at most $\frac 13 n^2$ triangles.
+\end{claim*}
+\begin{proof}
+  Consider each of the $\binom n2$ intersection of two lines.
+  One can check it is the vertex of at most two triangles.
+  Since each triangle has three vertices,
+  this implies there are at most $\frac 23 \binom n2 < \frac{1}{3} n^2$ triangles.
+\end{proof}
+It is also not hard to show there are at most $\half n^2$ finite regions\footnote{Say, use $V-E+F=2$ on the graph whose vertices are the $\binom n2$ intersection points and whose edges are the $n(n-2)$ line segments.}.
+
+Now color each line blue with probability $p$.
+The expected value of the number of lines chosen is
+\[ \EE[\text{lines}] = np. \]
+The expected number of completely blue triangles is less than
+\[ \EE[\text{bad triangles}] < \frac 13 n^2 \cdot p^3. \]
+For the other finite regions, of which there are at most $\frac 12 n^2$, the probability
+they are completely blue is at most $p^4$.
+So the expected number of completely blue regions here is at most
+\[ \EE[\text{bad polygons with 4+ sides}] < \frac 12 n^2 \cdot p^4. \]
+Note that the expected number of quadrilaterals (and higher) is really small
+compared to any of the preceding quantities; we didn't even bother subtracting off the triangles
+that we already counted earlier.
+It's just here for completeness, but we expect that it's going to die out pretty soon.
+
+Now we do our alteration -- for each bad, completely blue region, we un-blue one line.
+Hence the expected number of lines which are blue afterwards is
+\[ np - \left( \frac{n^2}{3} \cdot p^3 \right) - \left( \frac{n^2}{2} \cdot p^4 \right)
+  = np\left( 1 - \frac{np^2}{3} - \frac{np^3}{2} \right). \]
+Ignore the rightmost $\frac{np^3}{2}$ for now, since it's really small.
+We want $p = k / \sqrt n$ for some $k$;
+the value is roughly $k \cdot (1-k^2/3)$ at this point,
+so an optimal value of $p$ is $p = n^{-1/2}$ (that is, $k=1$); this gives
+\[ \sqrt n \cdot \left( \frac 23 - \frac{27}{16} \frac{1}{\sqrt n} \right)
+  = \frac 23 \sqrt n - \frac{81}{32}. \]
+For $n$ sufficiently large, this exceeds $c \sqrt n$, as desired.
+
+\subsection{Interlude -- Sketch of Official Solution Obtaining $c=1$}
+This is not probabilistic, but we include it for completeness anyways.
+It is in fact just a greedy algorithm.
+
+Suppose we have colored $k$ of the lines blue, and that
+it is not possible to color any additional lines.
+That means any of the $n-k$ non-blue lines is the side of some finite region with
+an otherwise entirely blue perimeter.
+For each such line $\ell$, select one such region,
+and take the next counterclockwise vertex; this is the intersection of two blue lines $v$.
+We'll say $\ell$ is the \emph{eyelid} of $v$.
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(2cm);
+    pair A = dir(  0); dot(A);
+    pair B = dir( 72); dot(B);
+    pair C = dir(144); dot(C);
+    pair D = dir(216); dot(D);
+    pair E = dir(288); dot(E);
+    draw(D--E--A--B--C, blue);
+    draw(C--D, red);
+    label("$\ell$", 0.5*C+0.5*D, dir(180));
+    label("$v$", E, dir(E));
+  \end{asy}
+  \caption{Here $\ell$ is the eyelid of $v$.}
+\end{figure}
+
+You can prove without too much difficulty that every intersection of two blue lines
+has at most two eyelids.
+Since there are $\binom n2$ such intersections, we see that
+\[ n-k \le 2 \binom k2 = k^2 - k\]
+so $n \le k^2$, as required.
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(2.5cm);
+    real R = 7;
+    real r = 3;
+    real e = 2;
+    pair A = R * dir(90);
+    pair B = R * dir(210);
+    pair C = R * dir(330);
+    draw( (A-r*dir(B-A)) -- (B-r*dir(A-B)), blue );
+    draw( (B-r*dir(C-B)) -- (C-r*dir(B-C)), blue );
+    draw( (C-r*dir(A-C)) -- (A-r*dir(C-A)), blue );
+    void yanpi(pair P) {
+      dot(P, blue);
+      draw( (P+e*dir(P)*dir(70)) -- (P+e*dir(P)*dir(-70)), red);
+      draw( (P+e*dir(P)*dir(110)) -- (P+e*dir(P)*dir(-110)), red);
+    }
+    yanpi(A);
+    yanpi(B);
+    yanpi(C);
+  \end{asy}
+  \caption{The greedy algorithm cannot do better than $\sqrt n$.}
+\end{figure}
+
+It's interesting to note that the greedy algorithm cannot be extended to achieve
+a result better than $\sqrt n$.
+To show this, note that if $n=m^2$, we can consider $m$ arbitrary blue lines in
+general position, and then add $2 \binom m2$ lines, two on either side of a given intersection point.
+(Po-Shen Loh called these ``tubes'' in his talk.)
+Thus each of the new lines is the edge of a triangle with two blue sides, and so the
+greedy algorithm must stop here.
+
+
+\subsection{Overkill Solution}
+This solution is due to Po-Shen Loh \cite{potalk}.
+We are now going to establish the bound $\sqrt{cn \log n}$.
+The heart is the following theorem.
+\begin{theorem}[Duke-Lefmann-R\"odl]
+  Given a hypergraph $G$ with $N$ vertices and with edges all of size $3$, suppose that for any two vertices at most one $3$-edge joins them.
+  Then we can find an independent set with size at least $c \cdot \frac{N}{\sqrt d} \sqrt{\log d}$.
+\end{theorem}
+Here a \emph{hypegraph} is a graph in which an ``edge'' is any subset of vertices, as opposed to just two vertices.
+In the above theorem, all edges have three endpoints, and we require that any two vertices are joined by at most one edge.
+
+In the context of the IMO problem, suppose we consider each of the $n$ lines as a vertex
+and each finite region as a hyper-edge.
+Like in the previous solution, we treat pentagons, hexagons, \dots as just quadrilaterals;
+hence we can assume all edges have size either $3$ or $4$.
+Once again we use a coin flip weighted with probability $p$ to pick whether a vertex is chosen.
+Define the following random variables:
+\begin{itemize}
+  \ii Let $W$ be the number of vertices remaining. Then $\EE[W] = pn$.
+  \ii Let $Y$ be the number of $4$-edges. There are at most $n^2$ such edges, so $\EE[Y] \le p^4n^2$.
+  \ii Let $Z$ be the number of pairs $(u,v)$ with two $3$-edges containing both (in the context of geometry, there are at most two such edges).
+  Then $\EE[Z] \le \binom n2 p^4 < p^4n^2$.
+\end{itemize}
+If we eliminate the situations in $Y$ and $Z$ then we reach a situation in which the theorem can be applied.
+
+Finally, let $X$ be the number of edges altogether remaining. Since each edge has $\ge 3$ vertices and there are $\le n^2$ edges, $\EE[X] \le n^2p^3$.
+
+Using Markov's Inequality, \[ \PP(Y > 4p^4n^2) < \frac 14. \] Similarly, \[ \PP(Z > 4p^4n^2) < \frac 14 \text{ and } \PP(X > 4n^2p^3) < \frac 14. \]
+Meanwhile, $W$ is a binomial distribution, so one can actually show that, \[ \PP(W < 0.99pn) \to 0 \text{ as } n \to \infty. \]
+Consequently, the union bound implies there is a nonzero chance that all these inequalities fail, meaning $Y \le 4p^4n^2$, $Z \le 4p^4n^2$, and $X \le 4n^2p^3$, and $W \ge 0.99pn$.
+
+Now using alteration again, we delete the ``bad'' situations in $Y$ and $Z$.  Then the number of vertices, $N$, is at least
+\[ N \ge W - Y - Z \ge 0.99 pn - 8p^4n^2 \sim pn(1-8p^3n) \]
+Let's pick $p = 0.01n^{-1/3}$.  Now $N \sim pn$.
+
+The average degree is at most \[ d = \frac{3X}{N} \le \frac{\sim n^2p^3}{\sim np} \sim np^2. \]
+The theorem then gives us a bound of
+\[ \frac{N}{\sqrt{d}} \log d \sim \frac{pn}{p\sqrt n} \sqrt{\log \sqrt{pn^2}} \sim \sqrt{n \log n} \]
+as desired.
+
+
+\section{Practice Problems}
+These problems are mostly taken from \cite{ravi,poshen}.
+
+\begin{problem}
+  [IMC 2002] An olympiad has six problems and $200$ contestants.  The contestants are very skilled,
+  so each problem is solved by at least $120$ of the contestants.
+  Prove that there exist two contestants such that each problem is solved by at least one of them.
+  \begin{sketch}
+    Pick the contestants randomly. Find the expected number of problems both miss.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  [Romania 2004] Prove that for any complex numbers $z_1$, $z_2$, \dots, $z_n$, satisfying
+  $\left\lvert z_1 \right\rvert^2 + \left\lvert z_2 \right\rvert^2 + \dots + \left\lvert z_n \right\rvert^2 = 1$,
+  one can select $\eps_1, \eps_2, \dots, \eps_n \in \{-1,1\}$ such that
+  \[ \left\lvert \sum_{k=1}^n \eps_k z_k \right\rvert \le 1. \]
+  \begin{sketch}
+    Select each of the $\eps_i$ randomly with a coin flip.
+    Square the left-hand side and use the fact that $\left\lvert z \right\rvert^2 = z \ol z$ for any $z$.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  [Shortlist 1999 C4] Let $A$ be a set of $N$ residues $\pmod{N^{2}}$. Prove that there exists a set $B$ of of $N$ residues $\pmod{N^{2}}$ such that $A + B = \{a+b|a \in A, b \in B\}$ contains at least half of all the residues $\pmod{N^{2}}$.
+  \begin{sketch}
+    Randomly selecting $B$ works; you can even permit repeated elements in $B$.
+    You may need the inequality $\left( 1 - \frac 1n \right)^n \le \frac 1e$.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  [Iran TST 2008/6] Suppose $799$ teams participate in a round-robin tournament.
+  Prove that one can find two disjoint groups $A$ and $B$ of seven teams each
+  such that all teams in $A$ defeated all teams in $B$.
+  \begin{sketch}
+    Let $d_k$ be the number of teams which defeat the $k$th team (here $1 \le k \le 799$).
+    Select $A$ randomly and compute the expected number of teams dominated by everyone in $A$.
+    You need Jensen on the function $\binom x7$.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  [Caro-Wei Theorem] \label{thm:carowei}
+  Consider a graph $G$ with vertex set $V$. Prove that one can find an independent set
+  with size at least
+  \[ \sum_{v \in V} \frac{1}{\deg v + 1}. \]
+  \begin{sketch}
+    Use the following greedy algorithm --
+    pick a random vertex, then delete it and all its neighbors.
+    Repeat until everything is gone.
+  \end{sketch}
+\end{problem}
+\begin{remark*}
+  Note that, by applying Jensen's inequality, our independent set has size at least $\frac{n}{d+1}$, where $d$ is the average degree.
+  This result is called \textbf{Tur\'an's Theorem} (or the complement thereof).
+\end{remark*}
+
+\begin{problem}
+  [USAMO 2012/6] For integer $n\geq2$, let $x_1, x_2, \ldots, x_n$ be real numbers satisfying $x_1+x_2+\ldots+x_n=0$  and $x_1^2+x_2^2+\ldots+x_n^2=1$. For each subset $A\subseteq\{1, 2, \ldots, n\}$, define\[S_A=\sum_{i\in A}x_i.\](If $A$ is the empty set, then $S_A=0$.) Prove that for any positive number $\lambda$, the number of sets $A$ satisfying $S_A\geq\lambda$ is at most $2^{n-3}/\lambda^2$.  For which choices of $x_1, x_2, \ldots, x_n, \lambda$ does equality hold?
+  \begin{sketch}
+    Compute $\EE[S_A^2]$ for a random choice of $A$.
+    Markov Inequality.
+  \end{sketch}
+\end{problem}
+
+
+\begin{problem}
+  [Online Math Open, Ray Li] Kevin has $2^n-1$ cookies, each labeled with a unique nonempty subset of $\{1,2,\dots,n\}$.
+  Each day, he chooses one cookie uniformly at random out of the cookies not yet eaten.
+  Then, he eats that cookie, and all remaining cookies that are labeled with a subset of that cookie.
+  Compute the expected value of the number of days that Kevin eats a cookie before all cookies are gone. %(3/2)^n - 1
+  \begin{sketch}
+    The number of days equals the number of times a cookie is chosen.
+    Compute the probability any particular cookie is chosen;
+    {i.e.} the expected value of the number of times the cookie is chosen.
+    Sum up.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  Let $n$ be a positive integer.
+  Let $a_k$ denote the number of permutations of $n$ elements with $k$ fixed points.
+  Compute \[ a_1 + 4a_2 + 9a_3 + \dots + n^2a_n. \]
+  \begin{sketch}
+    For a random permutation let $X$ be the number of fixed points.
+    We already know $\EE[X] = 1$.
+    Compute $\EE[\binom{X}{2}]$.
+    Use this to obtain $\EE[X^2]$.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  [Russia 1999] In a certain school, every boy likes at least one girl.
+  Prove that we can find a set $S$ of at least half the students in the school
+  such that each boy in $S$ likes an odd number of girls in $S$.
+  \begin{sketch}
+    Use a coin flip to decide whether to select each girl, then take as many boys as possible.
+    Show that any person, girl or boy, has exactly a 50\% chance of being chosen.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  [Sperner] Consider $N$ distinct subsets $S_1$, $S_2$, \dots, $S_N$ of $\{1,2,\dots,n\}$ such that no $S_i$
+  is a subset of any $S_j$.
+  Prove that
+  \[ N \le \binom{n}{\left\lfloor \half n \right\rfloor}. \]
+  \begin{sketch}
+    First prove that \[ \sum_{k=1}^N \frac{1}{\binom{n}{\left\lvert S_k \right\rvert}} \le 1. \]
+    To do this, consider a random maximal chain of subsets
+    \[ \emptyset = T_0 \subset T_1 \subset T_2 \subset \dots \subset T_n = \{1,2,\dots,n\}. \]
+    Compute the expected number of intersections of this chain with $\{S_1, S_2, \dots, S_N\}$.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  Let $n$ be a positive integer. Suppose $11n$ points are arranged in a circle,
+  colored with one of $n$ colors, so that
+  each color appears exactly $11$ times.
+  Prove that one can select a point of every color such that no two are adjacent.
+  \begin{sketch}
+    LLL. Here $p = 11^{-2}$ and $d = 42$.
+  \end{sketch}
+\end{problem}
+
+\begin{problem}
+  [Sweden 2010, adapted]
+  In a town with $n$ people, any two people either know each other, or they both know someone in common.
+  Prove that one can find a group of at most $\sqrt{n \log n} + 1$ people, such that anyone else knows
+  at least one person in the group.
+  \begin{sketch}
+    If any vertex has small degree, then its neighbors are already the desired set.
+    So assume all degrees are greater than $\sqrt{n \log n}$.
+    Pick each person with probability $p$ for some well-chosen $p$; then we expect to pick $np$ people.
+    Show that the probability someone fails is less than $\frac 1n$ and use a union bound.
+    The inequality $1-p \le e^{-p}$ is helpful.
+  \end{sketch}
+\end{problem}
+\begin{remark*}
+  In graph theoretic language -- given a graph with diameter $2$, prove that a dominating set of
+  size at most $\sqrt{n \log n} + 1$ exists.
+\end{remark*}
+
+
+\begin{problem}
+  [Erd\"os] Prove that in any set $S$ of $n$ distinct positive integers
+  we can always find a subset $T$ with $\frac 13n$ or more elements
+  with the property that $a+b \neq c$ for any $a,b,c \in T$ (not necessarily distinct).
+  \begin{sketch}
+    Work modulo a huge prime $p=3k+2$.
+    Find a nice sum-free (mod $p$) set $U$ of size $k+1$ first,
+    and then consider $U_n = \{ nx \mid x \in U \}$ for a random choice of $n$.
+    Compute $\EE[\left\lvert S \cap U_n \right\rvert]$.
+  \end{sketch}
+\end{problem}
+\begin{remark*}
+  Such sets are called \emph{sum-free}.
+\end{remark*}
+
+\begin{problem}
+  [Korea 2016]
+  Let $U$ be a set of $m$ triangles.
+  Prove that there exists a subset $W \subseteq U$
+  with at least $0.45 m^{0.8}$ triangles, with the following property:
+  there are no points $A$, $B$, $C$, $D$, $E$, $F$
+  for which $ABC$, $BCD$, $CDE$, $DEF$, $EFA$, $FAB$ are all in $W$.
+  \begin{sketch}
+    Fix $U$ and use alteration.
+    Add a triangle to $W$ with probability $p$,
+    then for every bad $6$-tuple contained in $W$,
+    delete one of the triangles from $W$.
+  \end{sketch}
+\end{problem}
+
+\section{Solution Sketches}
+\Closesolutionfile{hints}
+\input{hints.out}
+
+\begin{thebibliography}{99}
+  \bibitem{pythag} pythag011 at \url{http://www.aops.com/Forum/viewtopic.php?f=133&t=481300}
+  \bibitem{ravi} Ravi B's collection of problems, available at: \\ \url{http://www.aops.com/Forum/viewtopic.php?p=1943887#p1943887}.
+  \bibitem{potalk} Problem 6 talk ($c>1$) by Po-Shen Loh, USA leader, at the IMO 2014.
+  \bibitem{poshen} Also MOP lecture notes: \url{http://math.cmu.edu/~ploh/olympiad.shtml}.
+  \bibitem{holden} Lecture notes by Holden Lee from an MIT course: \\ \url{http://web.mit.edu/~holden1/www/coursework/math/18997/notes.pdf}
+\end{thebibliography}
+Thanks to all the sources above.
+Other nice reads that I went through while preparing this, but eventually did not use:
+\begin{enumerate}
+  \ii Alon and Spencer's \emph{The Probabilistic Method}. The first four chapters are here: \url{http://cs.nyu.edu/cs/faculty/spencer/nogabook/}.
+  \ii A MathCamp lecture that gets the girth-chromatic number result:
+  \\ \small \url{http://math.ucsb.edu/~padraic/mathcamp_2010/class_graph_theory_probabilistic/lecture2_girth_chromatic.pdf}
+\end{enumerate}
+
+\end{document}

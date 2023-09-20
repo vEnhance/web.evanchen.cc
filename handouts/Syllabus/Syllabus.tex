@@ -1,0 +1,205 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage{booktabs}
+\usepackage{bbding}
+%\providecommand{\isRp}{{\color{green!60!black}\CheckmarkBold\CheckmarkBold}}
+\providecommand{\isRq}{{\color{green!60!black}\CheckmarkBold}}
+\providecommand{\isUs}{{\color{cyan}\sffamily\bfseries O}}
+\providecommand{\isAv}{{\color{gray}\sffamily\bfseries !!}}
+\providecommand{\isEx}{{\color{red}\sffamily\bfseries X}}
+\ohead{\bfseries\footnotesize Unofficial syllabus for math olympiads}
+
+\begin{document}
+\title{Unofficial syllabus for math olympiads}
+\date{31 January 2023}
+\maketitle
+
+Inspired by the \href{https://ioinformatics.org/files/ioi-syllabus-2019.pdf}
+{syllabus for the IOI},
+the purpose of this document is to give some guidance
+on what sorts of topics could appear on math olympiads.
+
+\section{Disclaimer}
+\alert{This document is not official guidance},
+rather a first approximation based upon one person's experience.
+There is no promise that the International Math Olympiad,
+much less any particular country's exams,
+will follow this syllabus.
+Many top countries at the IMO routinely use problems
+which may demand more knowledge.
+In addition, the content of IMO exam changes over time as well
+(albeit gradually) and in ways that are arbitrary and not easily predictable.
+
+This list is \emph{not} intended to be an exhaustive enumeration;
+it highlights guidelines for the ``most common cases''
+and is deliberately ambiguous about certain topics.
+
+\section{Introduction}
+Each topic is classified into one of the following categories.
+
+\begin{description}
+  \ii[\isRq\ Required]
+  Topics in this category are prerequisite knowledge for solutions,
+  and all contestants are expected to know them.
+
+  \ii[\isUs\ Useful for solution]
+  Topics in this category are often useful in solutions
+  and contestants are encouraged to be familiar with this topic.
+  However, when a solution is related to this topic,
+  often there is a different solution using only ``required'' knowledge,
+  or else the solution would be reasonable even to non-experts.
+  Terms from these topics will typically not appear
+  in problem statements without definition.
+  Therefore, these topics are less important than topics marked as ``required''.
+
+  \ii[\isAv\ Advanced topic]
+  Topics in this area may be helpful (or occasionally even necessary)
+  in more difficult problems on the IMO.
+  However, beginners should prioritize learning
+  other topics before this one.
+  Concepts from this area will typically not appear in
+  problem statements without definition.
+
+  \ii[\isEx\ Not required]
+  Contestants are not expected to know this topic.
+  Problems in which knowledge of these areas
+  gives a substantial advantage are rare at the IMO.
+  They may still be applicable in some situations; however in this case
+  an alternate solution often exists that at least
+  nominally does not use these concepts.
+  Team selection tests from high-performing countries
+  may not necessarily respect this classification.
+\end{description}
+
+%\section{General}
+
+In general, not much knowledge is demanded of contestants.
+Problem statements are largely meant to be understandable even to those
+without much formal training.
+Topics usually covered in advanced undergraduate studies are often excluded.
+Rather, the problems are somewhat meant to
+test ingenuity and intuition rather than mere knowledge,
+and often demand simple tools to be used in unexpected ways.
+
+All students are expected to be fluent with mathematical proofs.
+
+\section{Topics in algebra}
+\begin{center}
+  \begin{tabular}{cp{12cm}}
+  \toprule Status & Topic \\ \midrule
+  \isRq & Elementary manipulation (e.g.\ factoring or expanding)
+    of algebraic equations, expressions, inequalities \\
+  \isRq & Familiarity with $\sum$ and $\prod$ notation \\
+  \isRq & Definition of a function, and concepts such as injectivity and surjectivity \\
+  \isRq & Cauchy's functional equation \\
+  \isRq & Polynomials in one variable and basic properties
+    like Vieta's relations or the fundamental theorem of algebra \\
+  \isRq & Polynomials in two or more variables \\
+  \isRq & Complex numbers, trigonometric functions, and their relations \\
+  \isRq & AM-GM and Cauchy inequality \\
+  \isAv & H\"{o}lder and Jensen inequality \\
+  \isAv & Generating functions \\
+  \isAv & Calculus in one or more variables \\
+  % \isAv & Karamata and Muirhead inequality \\
+  \isEx & Matrices, determinants, and other concepts from linear algebra \\
+  \isEx & Real or complex analysis \\
+  \isEx & Concepts from abstract algebra like groups, rings, fields \\
+  \isEx & Algebraic geometry, e.g.\ nullstellensatz or B\'{e}zout theorem \\
+  % \isAv & Lagrange multipliers \\
+  \bottomrule
+  \end{tabular}
+\end{center}
+
+\section{Topics in combinatorics}
+\begin{center}
+  \begin{tabular}{cp{12cm}}
+  \toprule Status & Topic \\ \midrule
+  \isRq & Basic counting arguments, e.g.\
+    writing expressions like $2^n$, $n!$ or $\binom nk$ \\
+  \isRq & Principle of mathematical induction \\
+  \isRq & Recursion and recurrence relations \\
+  \isRq & The pigeonhole principle \\
+  \isRq & Definition of sets and functions \\
+  \isUs & Elementary probability \\
+  \isUs & Expected value and linearity of expectation \\
+  \isUs & Basic properties and definitions from graph theory,
+    e.g.\ connectedness and degree of a vertex \\
+  %\isAv & Basic results from graph theory such as the existence of spanning trees
+  %  or conditions for a bipartite graph \\
+  %\isUs & First principles and definitions in game theory \\
+  \isUs & Definition and existence of the convex hull of a finite set of points \\
+  \isAv & Nontrivial results from graph theory,
+    such as Hall's marriage lemma or Turan's theorem \\
+  \isEx & Advanced enumerative identities such as the hook-length formula \\
+  \isEx & Nontrivial probability theory, e.g.\ law of large numbers or martingales \\
+  \isEx & Nontrivial theorems or machinery from game theory,
+    such as Nash equilibriums, Sprague-Grundy, folk theorems, etc. \\
+  \bottomrule
+  \end{tabular}
+\end{center}
+
+\section{Topics in geometry}
+\begin{center}
+  \begin{tabular}{cp{12cm}}
+  \toprule Status & Topic \\ \midrule
+  \isRq & Definitions and basic properties
+    of the incenter, centroid, orthocenter, circumcenter,
+    excenters, and nine-point circle \\
+  \isRq & Angle chasing and cyclic quadrilaterals \\
+  \isRq & Similar triangles \\
+  \isRq & Power of a point and radical axis / center \\
+  \isRq & Homothety \\
+  \isRq & Statement of Ceva and Menelaus theorems \\
+  \isUs & Use of trigonometry, e.g.\ law of sines and cosines \\
+  \isUs & Coordinate systems such as Cartesian coordinates,
+    complex numbers, or barycentric coordinates \\
+  \isUs & Inversive geometry \\
+  \isUs & Projective geometry, e.g.\ cross ratios, harmonic bundles, poles and polars,
+    Pascal's theorem, and so on \\
+  \isUs & Spiral similarity \\
+  \isAv & Definitions and basic properties of conic sections \\
+  \isEx & Curves of degree higher than $2$ \\
+  \isEx & Solid geometry \\
+  \bottomrule
+  \end{tabular}
+\end{center}
+
+
+\section{Topics in number theory}
+\begin{center}
+  \begin{tabular}{cp{12cm}}
+  \toprule Status & Topic \\ \midrule
+  \isRq & Basic results about primes like fundamental theorem of arithmetic \\
+  \isRq & Modular arithmetic, and basic results like Fermat's little theorem,
+    Chinese remainder theorem, modular inverses, orders modulo $n$ \\
+  \isRq & Exponents in prime factorizations,
+    and basic properties such as $\nu_p(xy) = \nu_p(x) + \nu_p(y)$
+    or $\nu_p(x+y) \ge \min \left\{ \nu_p(x), \nu_p(y) \right\}$ \\
+  \isRq & Euclidean algorithm and adjacent ideas,
+    e.g.\ $\gcd(a,b) = \gcd(a-b,b)$ \\
+  \isUs & Statement of Dirichlet's theorem on primes in arithmetic progression \\
+  \isUs & Fermat's theorem on integers which are sums of two squares \\
+  \isAv & Quadratic residues and quadratic reciprocity \\
+  \isAv & Statement of the prime number theorem \\
+  % \isAv & Factorization of polynomials over $\ZZ$ \\
+  \isEx & Algebraic number theory, such as number fields, etc. \\
+  \isEx & Analytic number theory, such as $L$-functions, etc. \\
+  \bottomrule
+  \end{tabular}
+\end{center}
+
+\section{Miscellaneous excluded topics}
+\begin{center}
+  \begin{tabular}{cp{12cm}}
+  \toprule Status & Topic \\ \midrule
+  \isEx & Mathematical modelling of real-life situations \\
+  \isEx & Statistics \\
+  \isEx & Theoretical computer science, e.g.\ complexity theory or NP-completeness \\
+  \isEx & Foundational set theory and logic, e.g.\ ZFC axioms \\
+  \isEx & Numerical approximation \\
+  \isEx & Philosophy of mathematics \\
+  \bottomrule
+  \end{tabular}
+\end{center}
+
+\end{document}

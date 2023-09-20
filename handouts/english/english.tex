@@ -1,0 +1,420 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage{epigraph}
+\renewcommand{\epigraphsize}{\scriptsize}
+\renewcommand{\epigraphwidth}{66ex}
+
+\begin{document}
+\title{Remarks on English}
+\subtitle{a.k.a.\ Advice for writing proofs}
+\date{6 March 2020}
+\maketitle
+
+\epigraph{Exposition, criticism, appreciation, is work for second-rate minds.}
+{G.\ H.\ Hardy}
+
+\section{Grading}
+Your score on an olympiad problem is a nonnegative integer at most $7$.
+The unspoken rubric reads something like the following:
+\begin{center}
+\begin{tabular}[h]{ll}
+  & Description \\ \hline
+  \boldmath{$7^\ast$} & Problem was solved \\
+  $6$ & Tiny slip (and contestant could repair) \\
+  $5$ & Small gap or mistake, but non-central \\ \hline
+  $2$ & Lots of genuine progress \\
+  \boldmath{$1^\ast$} & Significant non-trivial progress \\
+  \boldmath{$0^\ast$} & ``Busy work'', special cases, lots of writing
+\end{tabular}
+\end{center}
+The ``default'' scores are starred above.
+Note that, unlike high school English class or the SAT essay,
+you don't get points just because you wrote a lot!
+
+In theory, your solutions to olympiads are graded solely based on math.
+In practice, style still does play a role in some ways:
+the harder your solution is to understand,
+the less likely the grader is to understand you,
+and the less likely you are to earn points you deserve.\footnote{In addition,
+  poorly written solutions make the graders sad,
+  and you wouldn't want that, would you?}
+
+\section{Stylistic suggestions}
+Here are some tips of mine that I don't think are stressed enough.
+
+\subsection{Never write wrong math}
+This is much more of a math issue than a style issue:
+you can lose all of your points for making false claims.
+Personally, I often \emph{stop reading} a solution if it makes
+an egregiously false claim: if someone claims that some fixed
+point is the incenter of $ABC$,
+when it's actually the arc midpoint,
+then I know the solution isn't going to have any substantial progress.
+
+As a special case, don't say something that is partially true
+and then say how to fix it later.
+At best this will annoy the grader;
+at worst they may get confused and think the solution is wrong.
+
+\subsection{Emphasize the point where you cross the ocean}
+Solutions to olympiad problems often involve a few key ideas,
+with the rest of the solution being checking details.
+You want graders to immediately see all the key ideas in the solution:
+this way, they quickly have a high-level understanding of your approach.
+
+Let me share a quote from Scott Aaronson:
+\begin{quote}
+  Suppose your friend in Boston blindfolded you,
+  drove you around for twenty minutes,
+  then took the blindfold off and claimed you were now in Beijing.
+  Yes, you do see Chinese signs and pagoda roofs,
+  and no, you can't immediately disprove him ---
+  but based on your knowledge of both cars and geography,
+  isn't it more likely you're just in Chinatown?
+  \dots
+  \textbf{We start in Boston, we end up in Beijing,
+  and at no point is anything resembling an ocean ever crossed.}
+\end{quote}
+Olympiad solutions work the same way:
+a geometry solution might require a student to do some angle chasing,
+use Fact 5 to deduce that two triangles are congruent,
+and then finish by doing a little more angle chasing.
+In that case, you want to highlight the key step of proving the two triangles
+were congruent, so the grader sees it immediately and can say
+``okay, this student is using this approach''.
+
+Ways that you can highlight this are:
+\begin{itemize}
+  \ii Isolating crucial steps and claims as their own
+  \textbf{lemmas}.\footnote{This is often useful for another reason:
+    breaking the proof into individual steps.
+    The complexity of understanding a proof grows super-linearly
+    in its length; therefore breaking it into smaller chunks
+    is often a good thing.}
+  \ii Using \textbf{claims} to say what you're doing.
+  Rather than doing angle chasing and writing
+  ``blah blah blah, therefore $\triangle M_B I_B M \sim \triangle M_C I_C M$'',
+  consider instead ``We claim $\triangle M_B I_B M \sim \triangle M_C I_C M$, proof''.
+  \ii \textbf{Displaying} important equations.
+  For example, notice how the line
+  \begin{equation}
+    \triangle M_B I_B M \sim \triangle M_C I_C M
+    \label{eq:displaytri}
+  \end{equation}
+  jumps out at the reader.
+  You can even number such claims to reference them letter,
+  e.g.\ ``by \eqref{eq:displaytri}''.
+  This is especially useful in functional equations.
+  \ii Just \textbf{say it}!
+  Little hints like ``the crucial claim is $X$''
+  or ``the main idea is $Y$'' are immensely helpful.
+  Don't make $X$ and $Y$ look like another intermediate step.
+\end{itemize}
+
+\subsection{``Find all\dots''}
+Many problems will ask you to ``find all objects satisfying some condition''
+(for example, functional equations, Diophantine equations).
+For any solution of this form, I strongly recommend that you
+structure your solution as follows:
+\begin{itemize}
+  \ii Start by writing ``\textbf{We claim the answer is \dots}''.
+  \ii Then, say ``\textbf{We prove these satisfy the conditions}'', and do so.
+  For example, in a functional equation with answer $f(x) = x^2$,
+  you should plug this $f$ back in and verify the equation is satisfied.
+  Even if this verification is trivial,
+  you must still explicitly include it,
+  because it is part of the problem.
+  \ii Finally, say ``\textbf{Now we prove these are the only ones}''
+  and do so.
+\end{itemize}
+
+Similarly, some problems will ask you to
+``find the minimum/maximum value of $X$''.
+In such situations, I strongly recommend you write your solution as follows:
+\begin{itemize}
+  \ii Start by writing ``\textbf{We claim the minimum/maximum is \dots}''.
+  \ii Then, say ``\textbf{We prove that this is attainable}'',
+  and give the construction (or otherwise prove existence).
+  Even if this verification is trivial,
+  you must still explicitly include it,
+  because it is part of the problem.
+  \ii Finally, say ``\textbf{We prove this is a lower/upper bound}'', and do so.
+\end{itemize}
+
+Failing to do one of the steps mentioned above is a classic newbie mistake.
+Make it abundantly clear to the grader that you know the difference
+between a bound and a maximum.
+
+\subsection{Leave space}
+Most people don't leave enough space.
+This makes solutions hard to read.
+
+Examples of things you can do:
+\begin{itemize}
+  \ii Skip a line after paragraphs.
+  Use paragraph breaks more often than you already do.
+
+  \ii If you isolate a specific \textbf{lemma or claim} in your proof,
+  then it should be on its own line,
+  with some whitespace before and after it.
+
+  \ii Any time you do \textbf{casework},
+  you should always split cases into separate paragraphs
+  or bullet points.
+  Make it visually clear when each case begins and ends.
+
+  \ii Display important equations,
+  rather than squeezing them into paragraphs.
+  If you have a long calculation,
+  then do an aligned display\footnote{This is the
+    \texttt{align*} environment,
+    for those of you that like \LaTeX.}
+  rather than squeezing it into a paragraph.
+  For example, instead of writing $0 \le {(a - b)^2} = {(a + b)^2} - 4ab = {(10 - c)^2} - 4\left( {25 - c(a + b)} \right) = {(10 - c)^2} - 4\left( {25 - c(10 - c)} \right) = c(20 - 3c)$, write instead
+  \begin{align*}
+    0 &\le {(a - b)^2}\\
+     &= {(a + b)^2} - 4ab\\
+     &= {(10 - c)^2} - 4\left( {25 - c(a + b)} \right)\\
+     &= {(10 - c)^2} - 4\left( {25 - c(10 - c)} \right)\\
+     &= c(20 - 3c).
+  \end{align*}
+\end{itemize}
+
+\subsection{Other things}
+Try to have nice handwriting.
+Include a large, scaled diagram in geometry problems\footnote{And
+try to not have circles which look like potatoes.}.
+Leave 1-inch (or more) margins.
+% Try to avoid making typos.
+Write your proofs forwards even if you solved the problem backwards.
+If you need to cite a theorem, say clearly how you're doing so.
+Use variable names at your discretion.
+Strike out and cross out unwanted parts of your solution (don't scribble).
+
+I'm sure someone has told you these before.
+If not, consider reading
+\url{https://www.artofproblemsolving.com/articles/how-to-write-solution}.
+
+\section{Example}
+Consider the following problem.
+\begin{mdframed}
+  \textbf{(USAMO 2014)}
+  Let $a$, $b$, $c$, $d$ be real numbers such that $b-d \ge 5$
+  and all zeros $x_1$, $x_2$, $x_3$, and $x_4$ of the
+  polynomial $P(x)=x^4+ax^3+bx^2+cx+d$ are real.
+  Find the smallest value the product
+  \[ (x_1^2+1)(x_2^2+1)(x_3^2+1)(x_4^2+1) \]
+  can take.
+\end{mdframed}
+
+Here are two ways you could write the solution.\footnote{Former
+solution worsened June 2018, with suggestions from Mitchell Lee.}
+\begin{mdframed}
+  \textbf{Pretty poor solution}. \; \,
+  $x_j^2+1 = (x-i)(x+i) \forall j$
+  $\implies \prod x_j^2+1 = \prod (x_j+i)(x_j-i) = P(i)P(-i)$
+  so $(b-d-1)^2 + (a-c)^2$.
+  $\because x_j = 1 \rightarrow 16$ and $\binom42-1 = 5$.
+  $b-d \ge 5$, so $\ge 16$.
+\end{mdframed}
+
+\begin{mdframed}
+  \textbf{Better solution}.
+  The answer is $\boxed{16}$.
+  This can be achieved by taking $x_1 = x_2 = x_3 = x_4 = 1$,
+  whence the product is $2^4 = 16$, and $b-d = \binom42-1 = 5$.
+
+  Now, we prove this is a lower bound.
+  The key observation is that
+  \[ \prod_{j=1}^4 \left( x_j^2 + 1 \right)
+    = \prod_{j=1}^4 (x_j - i)(x_j + i)
+    = P(i)P(-i) = |P(i)|^2. \]
+  Consequently, we have
+  \begin{align*}
+    \left( x_1^2 + 1 \right)
+    \left( x_2^2 + 1 \right)
+    \left( x_3^2 + 1 \right)
+    \left( x_4^2 + 1 \right)
+    &= (b-d-1)^2 + (a-c)^2 \\
+    &\ge (5-1)^2 + 0^2 = 16.
+  \end{align*}
+  This proves the lower bound.
+\end{mdframed}
+
+These solutions have the same mathematical content.
+But notice how in the better solution:
+\begin{itemize}
+  \ii The second solution makes it clear
+  from the beginning what the answer is, and what the equality case is.
+  (The first solution mixes these together.)
+  \ii Moreover, the main idea (of factoring with $i$) is explicitly labeled,
+  so that even if you have never seen the problem before,
+  you can tell at a glance what the main idea of the solution is.
+  \ii The equations are displayed in the second solution,
+  making them much easier to read than in the first.
+\end{itemize}
+The second solution, despite being twice as ``long'',
+is by far faster to read than the first solution.
+In this case, the difference is not so bad because the
+problem and solution are quite short.
+However, in more involved problems the ``not-so-good solution''
+becomes the ``completely unreadable solution''.
+
+\newpage
+
+\appendix
+\section{Notes specific to USA(J)MO}
+Up until now I've given my advice for how to write solutions well.
+But I know a lot of you are specifically interested in olympiad grading,
+so here are a few quick remarks to that end.
+These comments are meant for USA(J)MO in particular
+but should apply to other respectable contests as well.
+
+\subsection{More examples of decent write-ups}
+I should note that on my website
+\begin{center}
+  \url{https://web.evanchen.cc/problems.html}
+\end{center}
+there are a very large number of solutions written by me
+to past problems on the USAMO, IMO, USA TST(ST), etc.
+In particular, all USAMO and IMO problems since the year 2000
+are present.
+
+Not all the solutions are complete
+(some of them are just outlines),
+but I think the majority of them are full write-ups,
+and these can help provide more examples of solutions
+that you can compare to or model your own work after.
+
+\subsection{How much detail to include}
+A common question I get is what the minimum amount of detail needed
+to get full marks for a solution is.
+The answer is simple: enough to convince the grader you solved the problem.
+
+There is a myth that, sort of like your high school English or math teacher,
+you can lose points for ``not writing enough'' or not having certain key words
+or leaving out details that were obvious to everyone.
+This is not really how it works.
+USAMO graders are interested in whether you solved the problem
+rather than your ability to fill pages with ink.
+
+Basically, \alert{you lose points if a student who did NOT solve the problem
+could have written the same words as you}.
+For example, whenever you say something like ``it's easy to see $X$'',
+the grader has to ask whether you actually understand why $X$ is true,
+or don't know and are just bluffing.
+So that's always the criteria you should have in your head
+when deciding what needs to be written out in full.
+
+As a very loose rule of thumb,
+the official solutions file for USAMO (published by MAA)
+is about as terse as you can be.
+
+\subsection{Citing lemmas}
+In general it is usually okay to cite a result that is
+(i) named, and (ii) does not trivialize the given problem.
+Anything outside this scope is a ``grey area''
+and I don't want to commit to a hard set of guidelines.
+
+However, the main thing I want to say is that
+\alert{if in doubt, outline a proof}.
+You don't have to choose between the extremes
+``say absolute zero'' and ``prove quoted lemma in full gory detail''.
+It's better to just include a couple lines giving the overall idea of the proof
+to show that you \emph{could} write it out if you wanted to,
+but are omitting it because the result is already known.
+
+
+\subsection{Fake-solving problems}
+With all that said, I would say in the end,
+when \alert{people don't get the points they expect,
+it's because their solution is actually wrong or incomplete},
+not because they wrote it poorly.
+This is true something like 90\% of the time, maybe more.
+
+Some common ways to lose most or all of your points
+by virtue of not having solved the problem:
+\begin{itemize}
+  \ii Flipping an inequality sign.
+  \ii Not understanding what the word ``function'' means
+  in a functional equation.
+  \ii Making some assumption that seems intuitive,
+  but actually requires justification (and is the main difficulty of the problem).
+  \ii Stating key assertions with no proof
+  (often which are equivalent to the problem).
+  \ii Making some actual logical error
+  (for example, the so-called ``pointwise trap'').
+  \ii Missing some case or possibility that the student didn't realize existed.
+  \ii Not understanding the problem statement altogether
+  (for example, not knowing that ``find all'' problems have two parts,
+  and only doing one direction).
+\end{itemize}
+Some examples of USAMO problems that are notorious for generating wrong solutions:
+USAMO 2003/6, USAMO 2007/2, USAMO 2010/3, USAMO 2016/4.
+
+I should say there is no shame in having an incorrect solution to a problem,
+it really happens to everyone more often than anyone wants to admit.
+Just don't delude yourself into thinking that you lost points
+you deserved because the graders didn't like your style.
+
+\pagebreak
+
+\section{Checking your work}
+\subsection{How to check your solutions during the year}
+When you are practicing during the year,
+the best way to get feedback on proofs is to have a friend/coach
+who can check your work and provide suggestions.
+But the supply of people willing to do this is admittedly very low,
+so most people are not so lucky to have access to feedback.
+
+If you don't have access to such feedback,
+I suggest the following second-best measures.
+\begin{itemize}
+  \ii Write up neatly.
+  The more clear your write-up is,
+  the more likely you are to catch your own mistakes.
+
+  \ii Write up your solutions to past IMO/USAMO problems in full,
+  and post them on the Art of Problem Solving forum
+  under the thread for that problem (not the wiki).
+  By Cunningham's Law, if you have a blatantly wrong solution,
+  someone will often point it out within a few hours.
+
+  \ii Compare your solutions to others posted.
+  Often, a problem will have essentially only a few approaches,
+  and you'll find another user who had more or less
+  the same approach.\footnote{There are unfortunately some problems,
+    like USAMO 2017/1,
+    where so many different solutions are possible
+    that any two people are likely to have different approaches.}
+  This serves as a sanity check that what you have does work.
+
+  If you find your solution is way shorter or simpler
+  than everyone else, then you have good reason to be suspicious.
+  Look for the ocean-crossing point in other people's solutions.
+  Why did they have to work so hard there, while you did not?
+  Often, that's where the mistake will be.
+\end{itemize}
+
+\subsection{How to check your solutions during a contest}
+Of course, it is critical to eventually
+be able to check your own work independently
+without consulting other people.
+The IMO does not have live feedback;
+by the time someone tells you about a mistake, it is too late!
+
+If you are a beginner it might take a while to reach this stage,
+but you should set this as a goal for where you want to end up.
+It is easier than you might expect ---
+as you naturally get better at solving problems, your instincts
+about the correctness of proofs will automatically develop too.
+
+During the contest, the only advice I have is
+``write clearly and carefully''
+(which is why developing these habits pays off later).
+I cannot tell you how many times I realized only during the write-up phase
+that the ``solution'' I thought I had was actually flawed.
+
+\end{document}
+
+Didn't mention: scratch paper, style scores

@@ -1,0 +1,87 @@
+\documentclass[10pt]{scrartcl}
+\usepackage{evan}
+\usepackage{booktabs}
+\renewcommand{\thepage}{}
+\addtolength{\textheight}{9em}
+\addtolength{\voffset}{-6em}
+
+\begin{document}
+\title{How to annoy Evan with \LaTeX}
+\subtitle{A list of pet peeves}
+\maketitle
+
+\bgroup\footnotesize
+It is assumed you are using \texttt{amsmath} and \texttt{amssymb} packages,
+which you likely are already if you are trying to type math.
+See also \url{https://web.evanchen.cc/latex-style-guide.html}.
+\egroup
+
+\begin{center}
+\begin{tabular}[h]{llllc}
+  \toprule
+  \multicolumn{2}{c}{Instead of\dots} & \multicolumn{2}{c}{Annoy Evan by using \dots} & Notes \\
+  \midrule
+  \verb#``quotes''# & ``quotes'' & \verb#"quotes"# & "quotes" & \\
+  \verb#$\sin(x)$# & $\sin(x)$ & \verb#$sin(x)$# & $sin(x)$ & \eqref{item:operator} \\
+  \verb#$1,\dots,n$# & $1,\dots,n$ & \verb#$1,...,n$# & $1,...,n$ & \eqref{item:dots} \\
+  \verb#$1,\dots,n$# & $1,\dots,n$ & \verb#$1,\cdots,n$# & $1,\cdots,n$ & \eqref{item:dots} \\
+  \verb#$a$, $b$, and $c$# & $a$, $b$, and $c$ & \verb#$a,b,$ and $c$# & $a,b,$ and $c$ & \eqref{item:comma} \\
+  \verb#$p \mid n$# & $p \mid n$ & \verb#$p | n$# & $p | n$ & \eqref{item:mid} \\
+  \verb#$\ell \parallel m$# & $\ell \parallel m$ & \verb#$\ell || m$# & $\ell || m$ & \\
+  \verb#$a \pmod n$# & $a \pmod n$ & \verb#$a (\text{mod }n)$# & $a (\text{mod }n)$ & \eqref{item:mod} \\
+  \verb#$2 \cdot 3 = 6$# & $2 \cdot 3 = 6$ & \verb#$2 * 3 = 6$# & $2 * 3 = 6$ & \\
+  \verb#$2 \times 3 = 6$# & $2 \times 3 = 6$ & \verb#$2$x$3 = 6$# & $2$x$3 = 6$ & \\
+  \verb#$\left< x,y \right>$# & $\left< x,y\right>$ & \verb#$<x,y>$# & $<x,y>$ & \eqref{item:lr} \\
+  \verb#\[ 1+1=2 \]# & See \eqref{item:display} & \verb#$$1+1=2$$# & See \eqref{item:display} & \eqref{item:display} \\
+  \bottomrule
+\end{tabular}
+\end{center}
+\subsection*{Notes}
+\begin{enumerate}
+  \ii \label{item:operator}
+  This also applies to $\cos$, $\tan$, $\gcd$, $\min$, $\max$, $\deg$,
+  $\log$, $\ln$, $\exp$, $\inf$, $\sup$, \dots.
+  (For custom operators, say $\lcm(a,b)$, write \verb#$\operatorname{lcm}(a,b)$#.
+  Or put \verb#\DeclareMathOperator{\lcm}{lcm}# in the preamble to define \verb#\lcm#.)
+
+  \ii \label{item:dots}
+  Generally, you should almost always use \verb#\dots#, even outside math mode.
+  The two dots commands, \verb#\ldots# ($\ldots$) and \verb#\cdots# ($\cdots$) put the dots
+  in different places.
+  Generally, you want the former for lists and text, the latter between operators.
+  The smarter \verb#\dots# will auto-detect which case you are in.
+
+  \ii \label{item:comma}
+  The spacing right before the variable $b$ is affected.
+
+  \ii \label{item:mid}
+  Also in set notation, e.g.
+  $\left\{ x \mid f(x) > 0 \right\}$ is \verb#$\left\{ x \mid f(x) > 0 \right\}$#.
+
+  \ii \label{item:mod}
+  \verb#$a \mod n$# gives ``$a \mod n$'',
+  \verb#$a \bmod n$# gives ``$a \bmod n$''.
+
+  \ii \label{item:lr}
+  \verb#\left# and \verb#\right# are also used for resizing
+  \verb+()+, \verb+[]+, \verb+\{\}+ to match heights of tall inputs.
+  Compare \verb+\[ f\left( \frac12 \right) \]+ and \verb+\[ f( \frac12 ) \]+:
+  \[ f\left( \half \right) \qquad \text{vs.} \qquad f(\half) . \]
+
+  \ii \label{item:display}
+  \verb+$$...$$+ is a \TeX{} primitive, not officially supported by \LaTeX.
+  It ``usually'' works, but there are
+  \href{https://tex.stackexchange.com/q/503/76888}{occasional mysterious breakages}
+  (whereas \verb#\[ ... \]# always works).
+  For example, the \verb#\qedhere# command will break:
+  \begin{proof}[Example proof with double dollar signs]
+    Follows by $$1 + 1 = 2. \qedhere$$
+  \end{proof}
+  \begin{proof}[Example proof with correct syntax]
+    Follows by \[ 1 + 1 = 2. \qedhere \]
+  \end{proof}
+\end{enumerate}
+
+% display
+
+\end{document}

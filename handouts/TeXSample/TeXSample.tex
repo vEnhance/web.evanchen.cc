@@ -1,0 +1,213 @@
+\documentclass[11pt]{scrartcl}
+
+%%%%%%%%%%%%%% LATEX SAMPLE FILE %%%%%%%%%%%%%%%%
+% A line which starts with a % sign
+% is called a COMMENT. It is IGNORED
+% by the LaTeX processor.
+
+% Include math
+\usepackage{amsmath,amsthm,amssymb}
+% Include links
+\usepackage{hyperref}
+
+
+%%%%%%%%%%%%%  THEOREMS  %%%%%%%%%%%%%%%%%
+% Let's define some theorem environments
+% To use later in the paper
+\theoremstyle{plain} % other options: definition, remark
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+% By including [theorem], the lemma follows the numbering of theorem
+% e.g. Thm 1, Lemma 2, Thm 3, Thm 4, \dots
+\theoremstyle{definition}
+\newtheorem*{definition}{Definition} % the star prevents numbering
+
+% Remarks
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+
+%%%%%%%%%%%%%%  PAGE SETUP %%%%%%%%%%%%%%%%%
+% LaTeX has big default margins
+% The following sets them to 1in
+\usepackage[margin=1.5in]{geometry}
+
+% The following sets up some headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{An Example LaTeX Document} % Left Header
+\rhead{\thepage} % Right Header
+\cfoot{} % Center Foot (empty)
+
+%%%%%%%%%%%%% SHORTCUTS %%%%%%%%%%%%%%%%%%%%
+% You can define your own shortcuts too.
+% Examples of custom commands
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\cbrt}[1]{\sqrt[3]{#1}}
+
+% Document content begins here
+\begin{document}
+
+% Set up a title
+\title{An Example LaTeX Document}
+\author{Evan Chen}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+  This is an example of a \LaTeX\ document,
+  complete with theorems and headers and the like.
+\end{abstract}
+
+% This line makes a ToC
+\tableofcontents
+
+% This line starts a new page
+\eject
+
+\begin{quote}
+  \textbf{Golden Rule}: Do not do anything manually if you can avoid it.
+\end{quote}
+
+I have seen people manually add section numbers, manually bold theorems,
+manually create numbered lists, manually add spacing
+between every single paragraph\dots
+Do not do this. If you do not know how to do something, Google it!
+The site \href{http://tex.stackexchange.com}{TeX.SE} will frequently provide answers.
+Often, \LaTeX\ can do it, and can do it better than you can.
+
+The philosophy here is that what you see is what you mean.
+The source code shows you the logical structure of the document.
+Then the compiler converts that to a PDF.
+
+\section{Paragraphs}
+In \LaTeX, paragraphs are caused when two line breaks are used.
+Single line breaks are ignored.
+Hence this entire block is one paragraph.
+This is useful because it means you can break text at convenient points,
+which makes your source code much more readable than
+if you had lines spanning hundreds of characters.
+
+Now this is a new paragraph. If you want to
+start a new line without a new paragraph, use
+two backslashes like this:
+\\
+Now the next words will be on a new line.
+\textbf{As a general rule, use this as infrequently as possible.}
+
+You can \textbf{bold} or \textit{italicize} text.
+Try to not do so repeatedly for mechanical tasks by,
+e.g.\ using theorem environments (see Section \ref{sec:theorem}).
+
+
+\section{Math}
+Inline math is created with dollar signs,
+like $e^{i \pi} = -1$ or $\half \cdot 2 = 1$.
+
+Display math is created as follows:
+\[ \sum_{k=1}^n k^3 = \left( \sum_{k=1}^n k \right)^2. \]
+This puts the math on a new line.
+Remember to properly add punctuation to the
+end of your sentences -- display math is
+considered part of the sentence too!
+
+Note that the use of \verb+\left(+
+causes the parentheses to be the correct size.
+Without them, get something ugly like
+\[ \sum_{k=1}^n k^3 = ( \sum_{k=1}^n k )^2. \]
+
+\subsection{Using alignment}
+Try this:
+\begin{align*}
+  \prod_{k=1}^4 \left( i-x_k \right)\left( i+x_k \right) &= P(i) \cdot P(-i) \\
+  &= \left( 1-b+d+i(c-a) \right)\left( 1-b+d-i(c-a) \right) \\
+  &= (a-c)^2 + \left( b-d-1 \right)^2.
+\end{align*}
+
+\section{Shortcuts}
+In the beginning of the document we wrote
+\begin{verbatim}
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\cbrt}[1]{\sqrt[3]{#1}}
+\end{verbatim}
+Now we can use these shortcuts.
+\[ \half + \half = 1 \text{ and } \cbrt{8} = 2. \]
+
+\section{Theorems and Proofs}
+\label{sec:theorem}
+% ^ Now we can refer to this
+Let us use the theorem environments we had in the beginning.
+\begin{definition}
+  Let $\mathbb R$ denote the set of real numbers.
+\end{definition}
+Notice how this makes the source code much more readable.
+
+\begin{theorem}
+  [Vasc's Inequality]
+  \label{thm:vasc}
+  For any $a$, $b$, $c$ we have the inequality
+  \[ \left( a^2+b^2+c^2 \right)^2 \ge 3\left( a^3b+b^3c+c^3a \right). \]
+\end{theorem}
+
+For the proof of Theorem \ref{thm:vasc}, we need the following lemma.
+
+\begin{lemma}
+  We have $\left( x+y+z \right)^2 \ge 3(xy+yz+zx)$ for any $x,y,z \in \mathbb R$.
+\end{lemma}
+\begin{proof}
+  This can be rewritten as
+  \[ \half\left( (x-y)^2+(y-z)^2+(z-x)^2 \right) \ge 0 \]
+  which is obvious.
+\end{proof}
+
+\begin{proof}
+  [Proof of Theorem \ref{thm:vasc}]
+  In the lemma, put $x=a^2-ab+bc$, $y=b^2-bc+ca$, $z=c^2-ca+ab$.
+\end{proof}
+
+\begin{remark}
+  In \autoref{thm:vasc}, equality holds if
+  $a : b : c = \cos^2 \frac{2\pi}{7} : \cos^2 \frac{4\pi}{7} : \cos^2 \frac{6\pi}{7}$.
+  This unusual equality case makes the theorem difficult to prove.
+\end{remark}
+
+\section{Referencing}
+The above examples are the simplest cases.
+You can get much fancier: check out
+\href{http://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing}{the Wikibooks}.
+
+\section{Numbered and Bulleted Lists}
+Here is a numbered list.
+\begin{enumerate}
+  \item The environment name is ``enumerate''.
+  \item You can nest enumerates.
+    \begin{enumerate}
+      \item Subitem
+      \item Another subitem
+    \end{enumerate}
+  \item[$2 \half$.] You can also customize any particular label.
+  \item But the labels continue onwards afterwards.
+\end{enumerate}
+
+\bigskip
+
+You can also create a bulleted list.
+\begin{itemize}
+  \item The syntax is the same as ``enumerate''.
+  \item However, we use ``itemize'' instead.
+\end{itemize}
+
+\section{More Sources}
+This is just a modest example of some common usages. For more sources,
+\begin{enumerate}
+  \item The excellent Wikibooks,
+    \url{http://en.wikibooks.org/wiki/LaTeX},
+    provide a much more thorough, comprehensive treatise on using \LaTeX.
+  \item Detexify, \url{http://detexify.kirelabs.org/classify.html},
+    can be useful for locating a particular symbol.
+  \item And finally, Google. Seriously.
+    If you want to know how to do something,
+    a quick Google search suffices 90\% of the time.
+\end{enumerate}
+
+\end{document}

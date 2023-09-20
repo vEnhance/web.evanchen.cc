@@ -1,0 +1,570 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy,von]{evan}
+
+\renewcommand{\vonenvname}{inlineprob}
+\ohead{\bfseries\footnotesize Thoughts on Problem Writing}
+
+\newtheoremstyle{inlined}% name of the style to be used
+  {8pt}% measure of space to leave above the theorem. E.g.: 3pt
+  {3pt}% measure of space to leave below the theorem. E.g.: 3pt
+  {\addtolength{\leftskip}{5ex}}% name of font to use in the body of the theorem
+  {0pt}% measure of space to indent
+  {\bfseries}% name of head font
+  {.}% punctuation between head and body
+  { }% space after theorem head; " " = normal interword space
+  {}% Manually specify head
+
+\theoremstyle{inlined}
+\newtheorem{inlineprob}[theorem]{Example}
+\usepackage{epigraph}
+\renewcommand{\epigraphsize}{\scriptsize}
+\renewcommand{\epigraphwidth}{60ex}
+
+
+\begin{document}
+\title{From the Author's Side: Thoughts on Problem Writing}
+\subtitle{maybe with some advice thrown in}
+\date{14 July 2021}
+\maketitle
+
+\epigraph{It used to be said that a Broadway musical was
+  a success if the audience left the theater whistling the tunes.
+  I want to see contestants leave the Putnam whistling the problems.
+  They should be vivid and striking enough to be shared with roommates and teachers.}
+  {Putnam problems committee greeting letter}
+
+This is a piece about the problem development aspects of math contests.
+Some of the sections will be philosophical,
+with ideas on things like what makes a ``good'' problem.
+Others will be practical, focusing on fine details of writing.
+
+It's worth also reading Ankan Bhattacharya's PPPPPP,
+available at \url{https://aops.com/community/c6h2706746},
+which contains his repository of past problem proposals
+and thoughts on creating problems.
+
+\tableofcontents
+\pagebreak
+
+\section{What makes a good problem?}
+In my opinion, this is both an Art and a Science.
+The Art is making the problem aesthetically attractive.
+The Science is making the problem a good separator.
+(There is a bit of overlap and correlation here.)
+
+There are examples of criteria in each category
+you can use to judge a problem,
+and I think a lot of the variance in ``taste'' is due to different weights.
+
+\subsection{Examples of Art}
+I think in many cases, you can think of the aesthetics
+of the problem in terms of the statement and the solution.
+The elegance may be correlated, but is not the same.
+
+\begin{itemize}
+\ii \alert{Clean or natural statements}:
+You might like the problem statement to be clean and easy to understand,
+something that a contestant would naturally want to work on.
+Walls of text or dense notation are generally not desirable;
+one-sentence problems are often inviting.
+\von{USAMO 2004/3}
+
+\ii \alert{Fundamental statement}:
+I'm not sure how to describe this,
+but there's a sense in which a problem might be ``fundamental''
+(more than just the problem statement being natural).
+Perhaps it is a generalization of some classical facts.
+\von{IMO 2017/6}
+\von{USA TST 2007/3}
+
+\ii \alert{Slick or short solution}:
+Even though the problem appears (or is) challenging,
+the solution turns out to be short.
+There is one big ``a-ha'' moment.
+Conversely, problems might score low on this scale
+if the solution involves lots of computation or casework.
+\von{ELMO 2017/3}
+
+\ii \alert{Surprising}:
+It's often desirable that the problem statement or solution
+is \emph{counter-intuitive}, in the sense that it is
+\emph{surprising} that the problem is true/provable,
+or the answer runs contrary to one's expectations.
+For example:
+\von{January TST 2013/4}
+
+\ii \alert{Inviting}:
+Some problems almost seem to invite contestants to begin playing:
+seeing the problem makes you naturally want to start
+writing down some examples.
+\von{TSTST 2016/5}
+
+\ii \alert{Low-tech solution}:
+It is often desirable that the solution to a problem
+is as elementary as possible (for example a geometry problem
+using only angle chasing).
+One famous example is the windmill problem,
+where the solution looks almost infantile in simplicity
+(but is quite hard to find).
+\von{IMO 2011/2}
+
+\ii \alert{Depth}: The problem might have generalizations,
+or be connected to other fields in some way.
+Sometimes the solution might be extended to eliminate
+entire classes of problems.
+This is part of the reason people might find geometry problems appealing:
+the diagram is often ``rich'' in the sense that there are many
+more things to be proven in a picture even once the original problem is solved.
+\von{Shortlist 2016 G2}
+
+\ii \alert{Multiple solutions}:
+I think this a symptom of some criteria above
+(namely, problems which are ``fundamental'' or ``deep'' often do),
+but some people view having multiple solutions as nice in its own right.
+Geometry problems are especially prone to
+having multiple (synthetic) approaches.
+
+\ii \alert{Sheer difficulty}:
+Some problems are so hard that they become legendary.
+\von{Shortlist 2003 A6}
+\end{itemize}
+
+\subsection{Examples of Science}
+I should say a bit about the dichotomy between the Art and Science.
+The Putnam greeting letter writes is that
+``any problem solved by only one or two contestants is a failure,
+no matter how beautiful it might be''.
+I am sympathetic to this view (though many are not).
+
+In my opinion, contests are not only for fun or beauty;
+they are supposed to be an education experience for their participants.
+A problem solved by no contestants (which has happened plenty of times)
+may not be desirable for this reason --- it does no good
+to have a beautiful problem that no one has time to attempt.
+Conversely, a problem may be nice but simply too easy to use for a particular contest
+(and thus maybe should be submitted to a different contest,
+where it will be better appreciated).
+
+Alas, the issue is not black and white: there is a balance
+one has to strike between selecting problems for
+aesthetic as well as their suitability for an exam.
+
+\begin{itemize}
+  \ii \alert{Appropriate difficulty}:
+  As described above, problems should neither be gimme's
+  nor be completely unapproachable.
+  I want to point out that this may not even depend on the individual problem,
+  but on the rest of the contest as a whole.
+  For example, it was my opinion that
+  IMO 2017/2 (functional equation) spoiled IMO 2017/3 (hunter and rabbit);
+  both problems were popular in the jury's beauty contest,
+  but it was not reasonable for a single 4.5-hour exam
+  to have both problems, regardless of how easy the first problem was.
+  \ii \alert{A good test}:
+  There is a sense in which a problem is a \emph{good test}
+  of whether you understand something well.
+  Such problems are desirable since they make the scores
+  on the contest more meaningful.
+  For example, the following problem from PUMaC is one of my
+  favorites since it is an excellent test of understanding
+  the Chinese Remainder Theorem.
+  \von{PUMaC 2013 N6}
+  \ii \alert{Instructive}:
+  Similar to the previous point,
+  there are problems that you \emph{learn} a lot from working on.
+  For example, if I am trying to teach a student about
+  switching the order of summation,
+  I basically always begin with the following problem.
+  \von*{Phi Floor}
+  \ii \alert{Possible to approach}:
+  It is nice if contestants can still make some progress
+  on a difficult problem even if they cannot solve it completely.
+  This is a much deeper engagement with the problem
+  than simply sitting there drawing a blank.
+  \von{IMO 2017/2}
+  \ii \alert{Novel}: this is really hard.
+  Vieta jumping was a really beautiful trick the first time it appeared,
+  and I think this method is one that every student should see once in their life.
+  But it garnered the universal contempt of the olympiad community
+  after appearing repeatedly on contests until 2010 or so,
+  to the point that contestants simply regurgitated the trick from memory.
+  The first serving of a cake may be delicious; the tenth is probably not.
+  I also like the following note from Bruce Reznick:
+  \begin{quote}
+     This leads to a tradeoff between familiarity and quality.
+     We occasionally receive a complaint that a problem
+     is not new \dots This is unfortunate, but probably inevitable.
+     It would be easy to write an exam with twelve highly convoluted,
+     certifiably original, and thoroughly uninteresting problems.
+  \end{quote}
+\end{itemize}
+
+\section{Okay, but how do you write a problem?}
+\renewcommand{\vonenvname}{example}
+I don't have a good answer to this but can offer some examples
+to give you a sense of my workflow.
+In my case the process flows into two distinct parts:
+\begin{itemize}
+  \ii Constructing the ``core'' of the problem, and
+  \ii Cosmetic changes to the problem.
+\end{itemize}
+The first step is the difficult part, and is quite discrete:
+there is a big difference between having nothing
+and having something that ``could'' appear on a contest
+(and not too much of a grey area in between).
+The next section will talk about how to do edits from a core.
+
+\subsection{Backwards versus forwards}
+I think roughly there's two ways to come up with the core of the problem:
+\begin{itemize}
+  \ii \vocab{Backwards}:
+  start with the main idea of the solution,
+  and try to work it into a reasonable problem statement.
+  \ii \vocab{Forwards}: Start somewhere natural or interesting, and explore.
+  If you have problem statement, try to solve it,
+  but allow yourself to change the problem statement while doing this,
+  in the hopes of getting a workable problem.
+\end{itemize}
+
+These two methods have almost opposite benefits and drawbacks.
+Backwards problems have slick solutions but less interesting statements;
+forwards problems have nice statements but less interesting solutions.
+So the challenge is to try to get both a nice solution and a nice statement.
+Fortunately it is possible to work both forwards and backwards
+while trying to invent a problem, and so the issue is not black-and-white.
+
+\subsection{Two examples of (mostly) backwards problems}
+An example of a problem I wrote backwards was ELMO 2013/2.
+\von{ELMO 2013/2}
+I came up with this problem because I wanted an inequality
+which was solved by applying AM-GM,
+but with the unknowns as the weights:
+\[ \sum_{\text{cyc}} \frac{a}{a+b+c} \cdot x \ge \prod x^{\frac{a}{a+b+c}}. \]
+I soon realized $x = a^r$ would yield something interesting,
+and then that I could hide everything by
+requiring $a^{r-1} + b^{r-1} + c^{r-1} = a+b+c$.
+Then I chose $r = -6/7$, to get seventh roots.
+
+Another problem I wrote backwards was JMO 2016/2.
+\von{JMO 2016/2}
+I invented this problem one day while lying
+on the bed in my dorm room: I had been mindlessly
+thinking about powers of $5$ and came to notice that
+\[ 5^8 \equiv 5^4 \equiv 625 \pmod{10^4} \]
+which meant that $5^8$ should end in $0625$.
+It then occurred to me that using this process I would
+be able to generate as many $0$'s as I wanted near the end of $5^n$.
+And that's exactly how I made the problem,
+but with some aesthetic choices (such as $n < 10^6$
+as $6$ consecutive zeros, which somehow ``lines up'').
+
+\subsection{Two examples of (mostly) forwards problems}
+Nearly every geometry problem I have created is written forwards.
+Here are two illustrative examples done in full:
+\begin{center}
+   \url{http://web.evanchen.cc/handouts/Writing-Oly-Geo/Writing-Oly-Geo.pdf}
+\end{center}
+
+
+\section{Editing the problems}
+Once you have the core of a problem,
+it's often worthwhile to make other design decisions
+on how to present the idea.
+
+\subsection{Real math edits}
+These are edits that change the math content of the problem.
+
+As an example, here is again the JMO 2016/2 mentioned earlier.
+\von{JMO 2016/2}
+The ``core'' of the problem (i.e.\ the hard part to come up with)
+was the idea of generating leading zeros
+by showing $5^n$ is congruent to smaller power of $5$ modulo $10^n$.
+But after this, I still had to decide on some parameters, such as
+\begin{itemize}
+   \ii whether to phrase the question as yes/no or prove existence,
+   \ii specifically asking for six leading zeros
+   (rather than $2016$ or a variable number leading zeros).
+   \ii the choice of requiring $n < 10^6$
+   (rather than allowing any $n$).
+\end{itemize}
+
+The changes can be more substantial than that.
+As an example, here is the diagram for USA TST 2017/5,
+proposed by Danielle Wang and me.
+\von{USA TST 2017/5}
+\begin{center}
+\begin{asy}
+size(12cm);
+pair A = dir(110);
+pair B = dir(210);
+pair C = dir(330);
+pair I = incenter(A, B, C);
+pair M = dir(270);
+pair J = 2*M-I;
+pair D = foot(J, B, C);
+pair E = foot(A, B, C);
+
+pair F = IP(CP(J, D), unitcircle);
+pair G = OP(CP(J, D), unitcircle);
+
+filldraw(unitcircle, opacity(0.1)+lightblue, lightblue);
+draw(arc(J,abs(D-J),-30,210), lightblue);
+
+pair L = midpoint(A--E);
+pair V = extension(G, D, L, L+B-C);
+pair N = extension(F, D, L, L+B-C);
+draw(A--B--C--cycle, lightblue);
+draw(A--E, lightblue);
+draw(G--V, lightblue);
+draw(N--F, lightblue);
+filldraw(E--V--A--N--cycle, opacity(0.1)+lightgreen, heavygreen);
+draw(V--N, heavygreen);
+pair H = extension(G, F, B, C);
+draw(C--H--G, lightblue);
+
+filldraw(circumcircle(B, I, C), opacity(0.1)+lightred, lightred);
+pair Y = IP(circumcircle(B, I, C), circumcircle(D, F, G));
+pair Z = OP(circumcircle(B, I, C), circumcircle(D, F, G));
+pair T = -D+2*foot(J, D, I);
+draw(T--H, blue);
+draw(Z--H, blue);
+draw(L--T, blue);
+draw(Y--I--Z, blue);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$I$", I, dir(I));
+dot("$M$", M, dir(M));
+dot("$J$", J, dir(J));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(E));
+dot("$F$", F, dir(270));
+dot("$G$", G, dir(270));
+dot("$L$", L, dir(L));
+dot("$V$", V, dir(V));
+dot("$N$", N, dir(N));
+dot("$H$", H, dir(H));
+dot("$Y$", Y, dir(Y));
+dot("$Z$", Z, dir(Z));
+dot("$T$", T, dir(T));
+\end{asy}
+\end{center}
+This problem is interesting as a case study because
+the core of the problem came from Danielle,
+but the editing of the problem was all done by me.
+Danielle's discovery was that the point $I$
+was on the $D$-symmedian of $\triangle DFG$.
+This was nice, but defining the $D$-symmedian would give away
+too much of the problem, and was perhaps not so elegant.
+
+So, I suggested the idea that line $DI$ also passed through
+the midpoint of the $A$-altitude;
+taking a projection from $D$ gives the rhombus\footnote{For
+the record, Danielle insisted that I name the rhombus ``$EVAN$''.
+Not my idea.} formulation,
+which (neatly) also eliminates the mention of $I$ from the problem.
+
+\renewcommand{\vonenvname}{inlineprob}
+Here's a couple suggestions for substantial math edits:
+\begin{itemize}
+  \ii \alert{Cut}.
+  In general, given two formulations of a problem, I prefer to pick the shorter one.
+  For example the rhombus in the earlier TST 2017 problem
+  is much shorter than introducing the incenter $I$
+  and then having to work with symmedians.
+
+  \ii \alert{Specialize}.
+  If a problem holds for all $n$ but each individual $n$
+  feels about the same, consider replacing $n$ with $2017$,
+  so that one does not need to write ``let $n$ be a positive integer''.
+  (Some people give the opposite advice, so it may be a matter of taste.)
+  For example, in the JMO problem, I could have asked to
+  show $5^n$ has $k$ consecutive zeros for some $n < f(k)$ less than something,
+  but the problem seems more attractive if I picked $k = 6$, $f(k) = 10^6$.
+  Another example is the following USAMTS problem of mine,
+  which holds for many choices of constants in place of $5/2$
+  but becomes more cumbersome to state and solve then:
+  \von{USAMTS 5/1/28}
+  This has the added benefit that often you can remove
+  awkward quantifier issues (``for each $n$, find the minimum\dots'')
+  and also eliminate questions about ``simplest form''
+  (for problems in which the answer is a function of $n$);
+  these type of issues are addressed in a later step.
+
+  \ii \alert{Clean up ``answer extractions''}.
+  Often the ``natural'' thing to ask for is too awkward to really state.
+  For example, consider the following problem of mine.
+  \von[Fall 2013]{OMO 2013 F22}
+  The ``original'' problem really reads more like:
+  \begin{quote}
+     Find all $M$ for which $n^n \equiv 1 \pmod M \iff n \equiv 1 \pmod M$.
+  \end{quote}
+  but the answer does not fit a short-answer format:
+  the answer is that whenever a prime $q$ divides $M$, so should $q-1$.
+  So instead, I asked for which $m$ the number $M = 2013m$ worked.
+  By then embedding this directly into the problem (without introducing $M$ itself),
+  it become possible to get a one-sentence problem.
+\end{itemize}
+
+You should generally not be surprised if the core changes
+a bit during this process. Writing is rewriting.
+
+\subsection{Push the core as far as it will go}
+In particular, when you have the core of an idea for a problem,
+one thing that's useful to do is to try and squeeze as much as you can out of it.
+Look at the present problem and method of proof.
+Are there more general situations in which the proof could work?
+Or, are there more specific situations in which stronger hypotheses might be true?
+The final version of the problem doesn't necessarily have to be the hardest possible,
+but you should at least do enough due diligence
+so that you are \emph{aware} of the different possible formulations of the problem,
+and can pick the one you like most.
+
+One example of a \emph{failure} to do this is the following problem from TSTST 2020:
+\von{TSTST 2020/3}
+In fact, $n$ is not needed, and the following generalization\footnote{Actually,
+   this generalization was discovered by Luke Robitaille, \emph{while taking the contest}.}
+could have just as easily been asked:
+\begin{quote}
+   We say a nondegenerate triangle whose angles have
+   measures $\theta_1$, $\theta_2$, $\theta_3$ is \emph{quirky}
+   if there exists integers $r_1$, $r_2$, $r_3$, not all zero,
+   such that \[ r_1 \theta_1 + r_2 \theta_2 + r_3 \theta_3 = 0. \]
+   Find all quirky triangles whose sides are integers
+   in arithmetic progression.
+\end{quote}
+
+I don't know if I would have used this version had I known about it:
+it is potentially too difficult.
+But that's beside the point --- I wanted to at least
+\emph{know} that this was in the possibility space,
+while crafting the proposal in its final form.
+
+Of course, you probably will still miss things from time to time. It happens.
+Having co-authors or test-solvers can help with this.
+
+\subsection{Copy editing}
+After substantial edits are done,
+one should do copy edits to ensure that the problem statement
+finally given is clear and complete.
+
+Here are the most common edits I have to make:
+\begin{itemize}
+   \ii Do not start sentences with math mode.
+   \begin{itemize}
+      \ii Bad: ``$I$ is the incenter of triangle $ABC$.''
+      \ii Good: ``Let $I$ be the incenter of triangle $ABC$.''
+   \end{itemize}
+
+   \ii Use punctuation properly at the end of displayed equations.
+   Display equations which are too large to fit inline.
+   (Using \verb+\dfrac+ is almost always a mistake;
+   if it's not readable inline, it should be displayed.)
+
+   \ii Define each variable before using it.
+   Clarify the type of variables (integer, real, complex\dots).
+   \begin{itemize}
+      \ii Bad: ``If $2x+4 = 10$, find $3x+6$.''
+      \ii Good: ``Let $x$ be a real number satisfying $2x+4=10$. Find $3x+6$.''
+      \ii Bad: ``Find all functions $f$ satisfying $f(x+y)=f(x)+f(y)$.''
+      \ii Good ``Find all functions $f \colon \RR \to \RR$
+      such that for all real numbers $x$ and $y$,
+      we have $f(x+y)=f(x)+f(y)$.''
+   \end{itemize}
+
+   \ii \textbf{Quantifiers}: this is tricky to get right
+   and maybe half the copy edits I make are of this form.
+   If you have a problem that has ``varying'' bits,
+   for example a minimum or maximum, then you need to make it clear
+   which things are allowed to vary and which things are fixed.
+
+   A common mistake is to use the word ``let'',
+   which is understood to fix variables in place.
+   For example:
+   \begin{itemize}
+      \ii Bad: ``Let $a$, $b$, $c$ be positive real numbers with $a+b+c=3$.
+      Find the minimum possible value of $a^2+b^2+c^2$.''
+      \ii Okay: ``Given that $a$, $b$, $c$ are positive real numbers with $a+b+c=3$,
+      find the minimum possible value of $a^2+b^2+c^2$.''
+      \ii Good: ``Find the minimum possible value of $a^2+b^2+c^2$
+      over all positive real numbers $a$, $b$, $c$ satisfying $a+b+c=3$.''
+   \end{itemize}
+   Sometimes if your problem is complex, this statement becomes verbose.
+   \begin{quote}
+      \dots Considering all possible starting positions,
+      determine the latest possible moment at which the last ant falls off the checkerboard.
+   \end{quote}
+
+   \ii Edge cases:
+   for example, if you write $\max S$ make sure that $S$ cannot be empty.
+   This is particularly common in geometry problems,
+   in which certain points may coincide or lines become parallel.
+   For this reason I often specify that my triangles are scalene,
+   because of some degeneracy if $AB=AC$.
+
+   \ii For ``are'', ``is'', or similar constructs,
+   be aware of cause confusion about whether something is ``exact'' or not.
+   For example, ``Prove that there are two ways to do $X$''
+   might be interpreted as ``exist at least two''
+   or ``are exactly two''.
+\end{itemize}
+
+%\subsection{An extreme example of editing (before and after)}
+%Here is an extreme example of a problem
+%that had to be edited extensively to make the
+%problem statement presentable for a competition.
+%This is a bit of an unfortunate example because the problem
+%statement became substantially less elegant,
+%but it was necessary to ensure that a complete, correct problem
+%statement was given.
+%
+%\begin{quote}
+%   \textbf{Before}:
+%   Given $n$ reduced positive fractions $\frac{a_i}{b_i}$,
+%   find an $O(n)$ algorithm to compute the largest possible
+%   fraction of the form \[ \frac{a_i+a_j}{b_i+b_j}. \]
+%\end{quote}
+%
+%It seems like it would be impossible to pose
+%this in a completely correct form on a math contest;
+%the $O(n)$ is hard enough to define,
+%but the real challenge is that it is hard to define
+%what a ``step'' in an algorithm is without referencing a Turing machine.
+%
+%Nevertheless, after a lot of work we managed to find a formulation
+%that we could propose for contest.
+%Here is the final form.
+%
+%\von{HMIC 2017/1}
+
+\section{Keep in touch}
+Maybe the most useful advice I have (but the hardest to follow) is:
+\begin{quote}
+   Keep in touch with math contests!
+\end{quote}
+Keep looking at the IMO problems when they come out each year, etc.
+
+Of all the contests I've had the privilege of working closely with,
+it turns out the contest that receives the most problems
+is not the USA TST or the USAMO, but rather the
+\href{http://web.evanchen.cc/elmo/general.html}{ELMO}:
+the sort of joke-pseudo-contest run by the students as annual tradition.
+The problem quality\footnote{The organization of the ELMO is a different story!}
+of ELMO shortlists is in my opinion
+close to that of the IMO shortlist, except the ELMO is run by
+a dozen bored students rather than by 100+ countries.
+
+I don't think this is a coincidence.
+%The strongest contestants each year treat math contests like
+%a full-time job (with ``high-school student'' being almost a charade).
+No one spends more time thinking about contest problems
+than the actual contestants.
+So it shouldn't be surprising they're also the ones with the
+ripest problem ideas.
+
+%In the words of Paul Graham,
+%``it's hard to do a really good job on anything
+%you don't think about in the shower''.
+
+\end{document}
