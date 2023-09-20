@@ -172,7 +172,7 @@ You can also look at [Napkin source code](https://github.com/vEnhance/napkin/).
 
 ### {{ faq("L-10", "Which LaTeX distribution do you recommend?") }}
 
-- Windows: [MikTeX](https://miktex.org/)
+- Windows: [TeX Live](https://en.wikipedia.org/wiki/TeX_Live)
 - Mac: [MacTeX](https://www.tug.org/mactex/)
 - Linux: [TeX Live](https://en.wikipedia.org/wiki/TeX_Live),
   almost certainly available from your package manager
