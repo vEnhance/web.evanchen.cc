@@ -67,6 +67,8 @@ though some of the chapters are more challenging.
 # {{ hl("apply", "Application &mdash; Year IX (2023-2024)") }}
 
 You may send late applications for OTIS 2023-2024 up to **April 30, 2024**.
+(Late applications are rolling/immediate; you can join as soon as your
+application is processed.)
 See the instructions below.
 
 - [Application instructions and homework for fall 2023](upload/otis-app-ix.pdf)
