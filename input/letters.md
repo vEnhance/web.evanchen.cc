@@ -60,7 +60,7 @@ I will decline your request instead.[^support]
 
 [^regret]:
     Regrettably, I speak from experience here.
-    When applying to graduate school and fellowships, a sympathetic person
+    When applying to graduate school and fellowships, a sympathetic interviewer
     tipped me off that one of my letters was "not doing me any favors" and
     warned me to delete it from my graduate school applications if possible.
     I am still grateful to him today since I would likely not have been
