@@ -1,0 +1,315 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[mdthm]{evan}
+
+\declaretheorem[style=thmrecbox,name=Problem]{olyprob}
+
+\begin{document}
+\title{Writing Olympiad Geometry Problems}
+\date{22 December 2015}
+\maketitle
+
+\begin{quote}
+  \sffamily\small
+  You can use a wide range of wild, cultivated or supermarket greens in this recipe.
+  Consider nettles, beet tops, turnip tops, spinach, or watercress in place of chard.
+  The combination is also up to you so choose the ones you like most.
+
+  \medskip
+
+  --- Y. Ottolenghi. Plenty More
+\end{quote}
+
+%%fakesection Introduction
+This is a PDF of my blog post \url{http://wp.me/p3jiSp-8r}.
+Here I'll describe how I come up with geometry proposals
+for olympiad-style contests. In particular, I'll go into detail
+about how I created the following two problems,
+which were the first olympiad problems which I got onto a contest.
+Note that I don't claim this is the only way to write such problems,
+it just happens to be the approach I use, and has consistently
+gotten me reasonably good results.
+
+\begin{olyprob}[USA December TST for 56th IMO]
+  Let $ABC$ be a triangle with incenter $I$ whose incircle is tangent to
+  $\overline{BC}$, $\overline{CA}$, $\overline{AB}$ at $D$, $E$, $F$,
+  respectively.  Denote by $M$ the midpoint of $\overline{BC}$ and
+  let $P$ be a point in the interior of $\triangle ABC$
+  so that $MD = MP$ and $\angle PAB = \angle PAC$.
+  Let $Q$ be a point on the incircle such that $\angle AQD = 90^{\circ}$.
+  Prove that either $\angle PQE = 90^{\circ}$ or $\angle PQF = 90^{\circ}$.
+\end{olyprob}
+
+
+\begin{olyprob}
+  [Taiwan TST Quiz for 56th IMO]
+  In scalene triangle $ABC$ with incenter $I$, the incircle is tangent to
+  sides $CA$ and $AB$ at points $E$ and $F$.
+  The tangents to the circumcircle of $\triangle AEF$ at $E$ and $F$ meet at $S$.
+  Lines $EF$ and $BC$ intersect at $T$.
+  Prove that the circle with diameter $ST$ is orthogonal to
+  the nine-point circle of $\triangle BIC$.
+\end{olyprob}
+
+\begin{center}
+  \includegraphics[scale=0.8]{DecTST/statement.pdf}
+  \includegraphics{TWTST/statement.pdf}
+\end{center}
+
+
+\section{General Procedure}
+Here are the main ingredients you'll need.
+\begin{itemize}
+  \ii The ability to consistently solve medium to hard
+  olympiad geometry problems. The intuition you have from being
+  a contestant proves valuable when you go about looking for things.
+
+  \ii In particular, a good eye:
+  in an accurate diagram, you should be able to notice
+  if three points look collinear or if four points are concyclic,
+  and so on. Fortunately, this is something you'll hopefully have
+  just from having done enough olympiad problems.
+
+  \ii Geogebra, or some other software that will let you quickly
+  draw and edit diagrams.
+\end{itemize}
+
+With that in mind, here's the gist of what you do.
+\begin{enumerate}
+  \ii Start with a configuration of your choice;
+  something that has a bit of nontrivial structure in it,
+  and add something more to it.
+  For example, you might draw a triangle with its incircle
+  and then add in the excircle tangency point,
+  and the circle centered at $BC$ passing through both points
+  (taking advantage of the fact that the two tangency points
+  are equidistant from $B$ and $C$).
+
+  \ii Start playing around, adding in points and so on
+  to see if anything interesting happens.
+  You might be guided by some actual geometry constructions:
+  for example, if you know that the starting configuration
+  has a harmonic bundle in it,
+  you might project this bundle to obtain the new points to play with.
+
+  \ii Keep going with this until you find something unexpected:
+  three points are collinear, four points are cyclic, or so on.
+  Perturb the diagram to make sure your conjecture looks like
+  it's true in all cases.
+
+  \ii Figure out why this coincidence happened.
+  This will probably add more points to you figure,
+  since you often need to construct more auxiliary points
+  to prove the conjecture that you have found.
+
+  \ii Repeat the previous two steps to your satisfaction.
+
+  \ii Once you are happy with what you have,
+  you have a nontrivial statement and probably
+  several things that are equivalent to it.
+  Pick the one that is most elegant (or hardest), and erase
+  auxiliary points you added that are not needed for the
+  problem statement.
+
+  \ii Look for other ways to reduce the number of points
+  even further, by finding other equivalent formulations
+  that have fewer points.
+\end{enumerate}
+Or shorter yet: build up, then tear down.
+
+None of this makes sense written this abstractly,
+so now let me walk you through the two problems I wrote.
+
+\eject
+
+\section{The December TST Problem}
+In this narrative, the point names might be a little strange at first,
+because (to make the story follow-able) I used the point
+names that ended up in the final problem,
+rather than ones I initially gave.
+Please bear with me!
+
+I began by drawing a triangle $ABC$ (always a good start\dots)
+and its incircle, tangent to side $BC$ at $D$.
+Then, I added in the excircle touch point $T$,
+and drew in the circle with diameter $DT$, which was
+centered at the midpoint $M$.
+This was a coy way of using the fact that $MD = MT$;
+I wanted to see whether it would give me anything interesting.
+
+So, I now had the following picture.
+\begin{center}
+  \includegraphics{DecTST/initial.pdf}
+\end{center}
+
+Now I had two circles intersecting at a single point $D$,
+so I added in $Q$, the second intersection.
+But really, this point $Q$ can be thought of another way.
+If we let $DS$ be the diameter of the incircle,
+then as $DT$ is the other diameter, $Q$ is actually just the
+foot of the altitude from $D$ to line $ST$.
+
+But recall that $A$, $S$, $T$ are collinear!
+(Again, this is why it's helpful to be familiar with ``standard''
+contest configurations; you see these kind of things immediately.)
+So $Q$ in fact lies on line $AT$.
+
+\begin{center}
+  \includegraphics{DecTST/point-q.pdf}
+\end{center}
+
+This was pretty cool, though not yet interesting enough to be
+a contest problem. So I looked for most things that might be true.
+
+I don't remember what I tried next; it didn't do anything interesting.
+But I do remember the thing I tried after that:
+I drew in the angle bisector, line $AI$.
+And then, I noticed a big coincidence:
+the first intersection of $AI$ with the circle with diameter $DT$
+seemed to lie on line $DE$!
+I was initially confused by this; it didn't seem like it could
+possibly be true due to symmetry reasons.
+But in my diagram, it was indeed correct.
+A moment later, I realized the reason why this was plausible:
+in fact, the second intersection of line $AI$ with the circle
+was on line $DF$.
+
+\begin{center}
+  \includegraphics{DecTST/collin.pdf}
+\end{center}
+
+Now, I could not see quickly at all why this was true.
+So I started trying to prove it, but initially failed:
+however, I managed to show (via angle chasing) that
+\[ D, P, E \text{ collinear}
+  \iff \angle PQE = 90\dg. \]
+So, at least I had an interesting equivalent statement.
+\begin{center}
+  \includegraphics{DecTST/almost-sol.pdf}
+\end{center}
+
+After another half hour of trying to prove my conjecture,
+I finally realized what was happening.
+The point $P$ was the one attached to a particular lemma:
+the $A$-bisector, $B$-midline, and $C$ touch-chord are concurrent,
+and from this $MD = MP$ just follows by some similar triangles.
+So, drawing in the point $N$ (the midpoint of $AB$),
+I had the full configuration which gave the answer to my conjecture.
+
+\begin{center}
+  \includegraphics{DecTST/full-sol.pdf}
+\end{center}
+
+Finally, I had to clean up the mess that I had made.
+How could I do this?
+Well, the points $N$, $S$ could be eliminated easily enough.
+And we could re-define $Q$ to be a point on the incircle
+such that $\angle AQD = 90\dg$.
+This actually eliminated the green circle and point $T$ altogether,
+provided we defined $P$ by just saying that it was on the angle
+bisector, and that $MD = MP$.
+(So while the circle was still implicit in the condition $MD = MP$,
+it was no longer explicitly part of the problem.)
+
+Finally, we could even remove the line through $D$, $P$ and $E$;
+we ask the contestant to prove $\angle PQE = 90\dg$.
+
+\begin{center}
+  \includegraphics{DecTST/statement.pdf}
+\end{center}
+
+And that was it!
+
+\eject
+
+\section{The Taiwan TST Problem}
+In fact, the starting point of this problem was the same lemma
+which provided the key to the previous solution:
+the circle with diameter $BC$ intersects the $B$ and $C$ bisectors
+on the $A$ touch chord.
+Thus, we had the following diagram.
+\begin{center}
+  \includegraphics{TWTST/iran.pdf}
+\end{center}
+The main idea I had was to look at the points $D$, $X$, $Y$
+in conjunction with each other.
+Specifically, this was the orthic triangle of $\triangle BIC$,
+a situation which I had remembered from working on
+Iran TST 2009, Problem 9.
+So, I decided to see what would happen
+if I drew in the nine-point circle of $\triangle BIC$.
+Naturally, this induces the midpoint $M$ of $BC$.
+\begin{center}
+  \includegraphics{TWTST/nine-point.pdf}
+\end{center}
+At this point, notice (or recall!) that line $AM$
+is concurrent with lines $DI$ and $EF$.
+\begin{center}
+  \includegraphics{TWTST/median.pdf}
+\end{center}
+So the nine-point circle of the problem is very tied
+down to the triangle $BIC$.
+Now, since I was in the mood for something projective,
+I constructed the point $T$,
+the intersection of lines $EF$ and $BC$.
+In fact, what I was trying to do was take perspectivity through $I$.
+From this we actually deduce that $(T,K;X,Y)$ is a harmonic bundle.
+\begin{center}
+  \includegraphics{TWTST/add-T.pdf}
+\end{center}
+
+Now, what could I do with this picture?
+I played around looking for some coincidences,
+but none immediately presented themselves.
+But I was enticed by the point $T$, which was somehow
+related to the cyclic complete quadrilateral $XYMD$.
+So, I went ahead and constructed the pole of $T$
+to the nine-point circle, letting it hit line $BC$ at $L$.
+This was aimed at ``completing'' the picture
+of a cyclic quadrilateral and the pole of an intersection of two sides.
+In particular, $(T,L;D,M)$ was harmonic too.
+\begin{center}
+  \includegraphics{TWTST/almost.pdf}
+\end{center}
+I spent a long time thinking about how I could make this into a problem.
+I unfortunately don't remember exactly what things I tried,
+other than the fact that I was taking a lot of perspectivity.
+In particular, the ``busiest'' point in the picture is $K$,
+so it makes sense to try and take perspectives through it.
+Especially enticing was the harmonic bundle
+\[
+  \left( \overline{KT}, \overline{KL}; \overline{KD}, \overline{KM} \right)
+  = -1.
+\]
+How could I use this to get a nice result?
+
+Finally about half an hour I got the right idea.
+We could take this bundle and intersect it with the ray $AI$!
+Now, letting $N$ be the midpoint $EF$,
+we find that three of the points in the harmonic bundle we obtain
+are $A$, $I$, and $N$; let $S$ be the fourth point,
+which is the intersection of line $KL$ with $AI$.
+Then by hypothesis, we ought to have $(A,I;N,S) = -1$.
+But from this we know exactly what the point $S$.
+Just look at the circumcircle of triangle $AEF$:
+as this has diameter $AI$, we see that $S$
+is the intersection of the tangents at $E$ and $F$.
+\begin{center}
+  \includegraphics{TWTST/final-sol.pdf}
+\end{center}
+Consequently, we know that the point $S$,
+defined very naturally in terms of the original picture,
+lies on the polar of $T$ to the nine-point circle.
+By simply asking the contestant to prove this,
+we thus eliminate all the points $K$, $M$, $D$, $N$, $I$, $X$, and $Y$
+completely from the picture, leaving only the nine-point circle.
+Finally, instead of directly asking the contestant to show
+that $T$ lies on the polar of $S$, one can rephrase the problem as saying
+``the circle with diameter $ST$ is orthogonal to the
+nine-point circle of $\triangle BIC$'', concealing all the work
+that went into the creation of the problem.
+\begin{center}
+  \includegraphics{TWTST/statement.pdf}
+\end{center}
+Fantastic.
+
+\end{document}

@@ -1,0 +1,460 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+
+\begin{document}
+\title{Lagrange Murderpliers Done Correctly}
+\date{8 June 2014}
+\maketitle
+
+\begin{abstract}
+  The aim of this handout is to provide a mathematically complete treatise
+  on Lagrange Multipliers and how to apply them on optimization problems.
+  The ideas here are presented logically rather than pedagogically,
+  so it may be beneficial to read the examples before the formal statements.
+\end{abstract}
+
+Lagrange multipliers offer a way to find the extrema
+of an \vocab{objective function} $f(x_1, x_2, \dots, x_n)$ subject to a
+\vocab{constraint function} $g(x_1, x_2, \dots, x_n) = 0$;
+for example, we may wish to maximize $a+b+c$ subject to $a^2+b^2+c^2=1$.
+
+However, there are lots of tiny details that need to be checked in order
+to completely solve a problem with Lagrange multipliers.
+On an olympiad the use of Lagrange multipliers is almost certain to
+draw the wrath of graders,
+so it is imperative that all these details are done correctly.
+
+\section{Analysis Preliminaries}
+First, we need to define several terms.
+Let $\RR$ denote the set of real numbers,
+and let $\RR^n$ denote the set of $n$-tuples of real numbers;
+that is, $n$-dimensional Euclidean space.
+
+\begin{definition}
+  A \vocab{neighborhood} of a point $p \in \RR^n$ is some set of points of the form
+  \[ \left\{ x \in \RR^n \mid d(x,p) < \eps \right\} \]
+  where $d(x,y)$ denotes the distance between two points, and $\eps$ is a positive real number.
+\end{definition}
+In other words, a neighborhood is just a ``sphere'' with nonzero radius $\eps$.
+Now, we need to introduce some definitions from real analysis.
+
+\begin{definition}
+  A subset $S$ of $\RR^n$ is \vocab{open} in $\RR^n$ if for every point $p \in S$,
+  there exists a neighborhood of $p$ completely contained inside $S$.
+\end{definition}
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(3cm);
+    draw(unitcircle, dashed);
+    pair P = Drawing("p", (0.6,0.2), dir(-90));
+    draw(CR(P, 0.3), dotted);
+    MP("D", dir(45), dir(45));
+  \end{asy}
+  \caption{The open disk $D$ is open.}
+  \label{fig:example_open}
+\end{figure}
+
+\begin{example}
+  In $\RR^2$, the open disk
+  \[ D = \left\{ (x,y) \mid x^2+y^2 < 1 \right\} \]
+  is open because for every point $p$ inside it,
+  we can find a small neighborhood completely inside the disk.
+  See \Cref{fig:example_open},
+  noting that $D$ does not contain its ``boundary''.
+
+  Similarly, the open interval $(0,1)$ is open in $\RR$.
+\end{example}
+
+\begin{definition}
+  A subset $S$ of $\RR^n$ is \vocab{closed} in $\RR^n$ if the following holds:
+  if $x_1$, $x_2$, \dots, is a sequence of points in $S$
+  which converges to some limit $x$, then $x \in S$.
+
+  An equivalent definition is that $\RR^n \setminus S$ should be open.
+\end{definition}
+\begin{example}
+  The closed disk $\ol D = \left\{ (x,y) \mid x^2+y^2 \le 1 \right\}$ is closed.
+  Similarly, the closed interval $[0,1]$ is closed in $\RR$
+  (meaning: if a convergent sequence of reals is between $0$ and $1$ inclusive,
+  then it must converge to a real number between $0$ and $1$ inclusive).
+\end{example}
+
+And now you know why open and closed intervals are so called!
+Note that most sets are neither open nor closed in $\RR^n$,
+and some sets are both open and closed
+(such as $\varnothing$, the empty set, as well as the entire $\RR^n$).
+
+\begin{remark*}
+  Up to now we have been k\"osher in saying that a set $S$ is closed \textbf{in $\RR^n$};
+  this is important because a set is only open or closed relative to its parent.
+  However, we will henceforth drop the clause ``in $\RR^n$'' for brevity.
+\end{remark*}
+
+To aid with constructing closed and open sets, we have the following nice statements.
+\begin{proposition}
+  Let $S$ and $T$ be sets in $\RR^n$.
+  If $S$ and $T$ are both open (resp.\ closed),
+  then $S \cup T$ and $S \cap T$ are also both open (resp.\ closed).
+\end{proposition}
+\begin{proposition}
+  Let $S \subseteq \RR^m$ and $T \subseteq \RR^n$.
+  If $S$ and $T$ are both open (resp.\ closed),
+  then $S \times T$ is open (resp.\ closed) in $\RR^{m+n}$.
+\end{proposition}
+
+You may also have noticed by now that open and closed sets seem to differ
+by a ``boundary''. We can formalize this with the notion of a closure.
+\begin{definition}
+  Given a set $U$ the \vocab{closure} $\ol U$ is the smallest closed set containing $U$.
+\end{definition}
+I've cheated here with the notion of ``smallest'';
+one can prove that ``smallest by inclusion'' works out.
+In practice, for $\RR^n$ this just means {e.g.}\
+adding in the boundary points back into an open set.
+
+%Now, let us define the notion of continuity.
+%\begin{definition}
+%  A function $f: M \to N$ is continuous if the following holds:
+% let $x_1$, $x_2$, \dots, be a sequence of points in $M$ converging to $x$.
+%  Then $f(x_1)$, $f(x_2)$, \dots, is a sequence of points in $N$ converging to $f(x)$.
+%\end{definition}
+
+Finally, we need one other notion, called compactness.
+\begin{definition}
+  A subset $K$ of $\RR^n$ is \vocab{compact}
+  if it is closed and \emph{bounded},
+  i.e.\ can be contained inside a rectangular prism
+  with finite dimensions.\footnote{This
+    is not the ``real'' definition of compactness,
+    it's the one that holds in $\RR^n$.
+    The actual definition in weirder spaces $X$ is that
+    any cover of $X$ with open sets has a finite subcover.}
+\end{definition}
+
+\begin{example}
+  The rectangular box
+  $B = [0,1] \times [0,2] \times [0,3]$ in $\RR^3$
+  is compact.
+\end{example}
+
+\section{Lagrange Multipliers}
+We can give the statement of the theorem of Lagrange Multipliers.
+
+\begin{theorem}
+  [Lagrange Multipliers]
+  Let $U$ be an open subset of $\RR^n$,
+  and let $f \colon U \to \RR$
+  and $g \colon U \to \RR$ be continuous functions
+  with continuous first derivatives.
+  Define the constraint set
+  \[ S = \left\{ \mathbf x \in U \mid g(\mathbf x) = c \right\} \]
+  for some real number $c$.
+
+  Suppose $\mathbf x \in S$ is a
+  \textbf{local extrema} of $f$ along $S$,
+  meaning $\mathbf x$ gives minimal or maximal value
+  of $f$ among points in $S$ for \emph{some} neighborhood around $\mathbf x$.
+  Then either $\nabla g(\mathbf x) = \mathbf 0$ at this point,
+  or for some real number $\lambda$,
+  \[ \nabla f(\mathbf x) = \lambda \nabla g(\mathbf x). \]
+\end{theorem}
+
+This is fine and well, but it does not tell us anything
+about the \textbf{global maximum} of $f$ constrained to $g$.
+Indeed, such a global maximum may not even exist!
+That means there is still tons of work left to
+find the maximum value of $f$, if indeed it exists.
+
+The following two lemmas let us save face.
+\begin{lemma}
+  [Compact sets have unique maximums]
+  Let $K$ be a compact set and $f \colon K \to \RR$
+  be a continuous function.
+  Then $f$ has a \textbf{global} maximum over $K$ --
+  there exists a point $\mathbf x \in K$
+  such that $f(\mathbf x) \ge f(\mathbf y)$
+  for any other point $\mathbf y \in K$.
+\end{lemma}
+\begin{lemma}
+  [Pre-images are closed sets]
+  If $g \colon \RR^n \to \RR$ is a continuous function,
+  then the set
+  $C = \left\{ \mathbf x \in \RR^n \mid g(\mathbf x) = c \right\}$
+  is a closed set for any real number $c$.
+\end{lemma}
+
+Hence, we can escape using the following method.
+Let's take our function $f \colon U \to \RR$
+with $U$ open, and consider the closure $\ol U$ of $U$.
+Let's instead optimize $f \colon \ol U \to \RR^n$,
+where $\ol U$ is the closure of $U$. Define
+\[ C = \left\{ \mathbf x \in \RR^n \mid g(\mathbf x) = c \right\}. \]
+Note that $C$ is closed by our lemma. Also, define
+\[ S = U \cap C =
+  \left\{ \mathbf x \in U \mid g(\mathbf x) = c \right\} \]
+as well as
+\[ \ol S = \ol U \cap C =
+  \left\{ \mathbf x \in \ol U \mid g(\mathbf x) = c \right\}. \]
+As the notation suggests, $\ol S$ is the closure of $S$,
+and in any case is clearly itself closed.
+If either of $C$ or $\ol U$ is bounded,
+then so is $\ol S$, meaning $\ol S$ is compact!
+When that occurs, $f$ achieves a maximum $\mathbf x \in \ol S$
+somewhere on the set $C \cap \ol U$.
+
+We can then consider two cases.
+\begin{itemize}
+  \ii If $\mathbf x \in \ol U - U$,
+  that is, $\mathbf x$ lies in the ``boundary'',
+  then we can check this case manually.
+  \ii If $\mathbf x \in U$, that is,
+  $\mathbf x$ lies in the ``interior'',
+  then we can use Lagrange multipliers.
+  After all, if $\mathbf x$ is a global maximum,
+  then it is certainly a local one as well.
+  Here the constraint set is simply $S = C \cap U$.
+\end{itemize}
+
+This is the method of Lagrange multipliers.
+
+\section{Examples}
+\subsection{An Easy Example}
+\begin{example}
+  [AM-GM] For positive reals $a$, $b$, $c$, prove that
+  \[ a+b+c \ge 3\sqrt[3]{abc}. \]
+\end{example}
+\begin{proof}[Solution]
+  The first step is de-homogenizing the inequality
+  to assume that $a+b+c=3$,
+  in which case we wish to prove $abc \le 1$.
+  Thus, define
+  \[ f(a,b,c) = abc \]
+  and
+  \[ g(a,b,c) = a+b+c. \]
+  Note that $\nabla g = \left<1,1,1\right> \neq \mathbf 0$
+  at all points, and moreover that $f$ and $g$ are continuous
+  with continuous partial derivatives.
+
+  We will let $U = (0,3)^3$, $\ol U = [0,3]^3$
+  (meaning we will actually prove the inequality
+  for all $a,b,c \ge 0$).
+  Note that $\ol U$ is bounded, so the set
+  \[ \ol S = \left\{ \mathbf x \in \ol U : g(\mathbf x) = 3 \right\} \]
+  is closed and hence compact.
+  So $f$ achieves a maximum value on $\ol S$, say $\mathbf x$.
+
+  If $\mathbf x$ lies on the boundary,
+  then at least one component of $\mathbf x$ is zero,
+  whence $abc = 0$; this is clearly not a maximum.
+
+  Otherwise, let $\mathbf x = (a,b,c)$ be a point of
+  $S = \left\{ \mathbf x \in U : g(\mathbf x) = 3 \right\}$.
+  By Lagrange multipliers, we know
+  \[ \nabla f(a,b,c) = \lambda \nabla g(a,b,c) \]
+  or
+  \[ \left< bc, ca, ab \right> = \lambda \left<1,1,1\right>. \]
+  That is, $bc = ca = ab = \lambda$.
+  If $\lambda = 0$, then $a=b=c=0$, and $f$ is zero at such points.
+  Otherwise, we conclude that $a=b=c$.
+  Since $a+b+c=3$, we must have $a=b=c=1$.
+  Hence $f(1,1,1) = 1$.
+
+  We find that the critical point yielding the largest value
+  on $\ol S$ is $(1,1,1)$, which gives $f(1,1,1) = 1$.
+  This must be a maximum, and hence $f(a,b,c) \le 1$
+  for all $a+b+c=3$, $0 \le a,b,c \le 3$, as desired.
+\end{proof}
+
+\subsection{A Hard Example}
+Now we try a much bloodier example.
+\begin{example}
+  [USAMO 2001/3] Let $a$, $b$, $c$ be nonnegative
+  reals with $a^2+b^2+c^2+abc=4$.
+  Prove that
+  \[ 0 \le ab + bc + ca - abc \le 2. \]
+\end{example}
+
+\begin{proof}[Solution]
+The left-hand side of the inequality is trivial;
+just note that $\min \left\{ a,b,c \right\} \le 1$.
+Hence, we focus on the right side.
+We use Lagrange Multipliers.
+
+Define \[ U = \left\{ (a,b,c) \mid a,b,c > 0
+  \text{ and } a^2+b^2+c^2 < 1000 \right\}. \]
+This is an intersection of open sets, so it is open.
+Its closure is
+\[ \overline U = \left\{ (a,b,c) \mid a,b,c \ge 0
+\text{ and } a^2+b^2+c^2 \le 1000 \right\}. \]
+Hence the constraint set
+\[ \overline S = \left\{ \mathbf x \in \overline U : g(\overline x) = 4 \right\} \]
+is compact, where $g(a,b,c) = a^2+b^2+c^2+abc$.
+
+Define \[ f(a,b,c) = a^2+b^2+c^2+ab+bc+ca. \]
+It's equivalent to show that $f \le 6$ subject to $g$.
+Over $\overline S$, it must achieve a global maximum.
+Now we consider two cases.
+
+If $\mathbf x$ lies on the boundary,
+that means one of the components is zero
+(since $a^2+b^2+c^2=1000$ is clearly impossible).
+WLOG $c=0$, then we wish to show $a^2+b^2+ab \le 6$
+for $a^2+b^2=4$, which is trivial.
+
+Now for the interior $U$, we may use the method of Lagrange Multipliers.
+Consider a local maximum $\mathbf x \in U$.
+Compute \[ \nabla f = \left<2a+b+c, 2b+c+a, 2c+a+b \right> \]
+and \[ \nabla g = \left<2a+bc, 2b+ca, 2c+ab\right>. \]
+Of course, $\nabla g \neq \mathbf 0$ everywhere,
+so introducing our multiplier yields
+\[ \left<2a+b+c,a+2b+c,a+b+2c\right> = \lambda \left<2a+bc,2b+ca,2c+ab\right>. \]
+Note that $\lambda \neq 0$ since $a,b,c > 0$.
+Subtracting $2a+b+c = \lambda(2a+bc)$ from $a+2b+c = \lambda(2b+ca)$
+implies that \[ (a-b)(\left[ 2\lambda - 1 \right] - \lambda c) = 0. \]
+We can derive similar equations for the others.
+Hence, we have three cases.
+\begin{enumerate}
+  \item If $a=b=c$, then $a=b=c=1$, and this satisfies $f(1,1,1) \le 6$.
+  \item If $a$, $b$, $c$ are pairwise distinct,
+  then we derive $a = b = c = 2 - \lambda^{-1}$, contradiction.
+  \item Now suppose that $a=b \neq c$.
+  That means $\lambda = \frac{1}{2-a}$
+  (of course our conditions force $c < 2$).
+  Now \[ 2a+2c = a+b+2c = \lambda (2c+ab) = \frac{1}{2-a} (2c+a^2) \]
+  which implies \[ 4a+4c-2a^2-2ac = 2c+a^2 \] meaning
+  (with the additional note that $a \neq 1$) we have \[ c =
+  \frac{3a^2-4a}{2-2a}. \]
+  Note that at this point, $c > 0$ forces $1 < a < \frac 43$.
+\end{enumerate}
+The constraint $a^2+b^2+c^2+abc=4 \iff c^2 + a^2c + (2a^2-4) = 0$ now gives
+\[ \left( 3a^2-4a \right)^2
+  + a^2 \left( 3a^2-4a \right)\left( 2-2a \right)
+  + \left( 2a^2-4 \right)\left( 2-2a \right)^2 = 0. \]
+
+Before expanding this,
+it is prudent to see if it has any rational roots.
+A quick inspection finds that $a=2$ is such a root
+(precisely, $16-32+16=0$).
+Now, we can expand and try to factor:
+\begin{align*}
+  0 &= -6a^5 + 31a^4 - 48a^3 + 8a^2 + 32a - 16 \\
+  &= (a-2)(-6a^4 + 19a^3 - 10a^2 - 12a + 8) \\
+  &= (a-2)^2 \left( -6a^3+7a^2+4a-4 \right) \\
+  &= (a-2)^2 (2-3a)(2a^2-a-2).
+\end{align*}
+The only root $a$ in the interval $\left( 1,\tfrac43 \right)$
+is $a = \frac 14 \left( 1 + \sqrt{17} \right)$.
+To finish, write
+\[ c = \frac{a(3a-4)}{2-2a}
+  = \frac{1}{8} \left( 7 - \sqrt{17} \right) \]
+and
+\[ f(a,b,c) = 3a^2+2ac+c^2
+  = \frac{1}{32} \left( 121 + 17\sqrt{17} \right). \]
+This is the last critical point, so we're done once we check this is less than $6$.
+This follows from the inequality $17^3 < (6 \cdot 32 - 121)^2$;
+in fact, we actually have
+\[ \frac{1}{32} \left( 121 + 17\sqrt{17} \right)
+  \approx 5.97165. \]
+This completes the solution.
+\end{proof}
+
+
+\subsection{A Non-Example}
+The following is not actually an example because you get stuck at the end
+(and it turns out you \emph{must} get stuck, as I explain),
+but I included it because of popular request.
+\begin{example}
+  [USAMO 2014/1] Let $w$, $x$, $y$, $z$ be real numbers satisfying
+  \[ wx+xy+yz+zw+wy+xz \ge 5 + wxyz. \]
+  Prove that
+  \[ (w^2+1)(x^2+1)(y^2+1)(z^2+1) \ge 16. \]
+\end{example}
+
+\begin{proof}[Non-Solution]
+  By scaling appropriately, we can assume our condition is actually an equality.
+  Moreover, we will only prove the inequality in the case where
+  \[ w^2+x^2+y^2+z^2 \le 1000 \]
+  since the conclusion is obvious otherwise.
+
+  Define
+  \[ f(w,x,y,z) = \sum_{\text{cyc}} \ln (w^2+1) \]
+  and
+  \[ g(w,x,y,z) = wx+xy+yz+zw+wy+xz-wxyz-5 \]
+  where we have
+  \[ U = \left\{ (w,x,y,z) \mid w^2+x^2+y^2+z^2 < 1000 \right\} \]
+  an open ball, whence
+  \[ \ol U = \left\{ (w,x,y,z) \mid w^2+x^2+y^2+z^2 \le 1000 \right\} \]
+  is a closed ball, which is compact.
+
+  First, we need to check that $\nabla g \neq \mathbf 0$. Compute
+  \[ \frac{\partial g}{\partial w} = x+y+z - xyz. \]
+  If it is the case that all of these are zero, we will derive a contradiction.
+  This would imply that $wx+wy+wz = wxyz$.
+  Cyclically adding we get $2(5+wxyz) = 4wxyz$, whence $wxyz = 5$.
+  That means $w(x+y+z) = 5$
+  so each of $w$, $x$, $y$, $z$ are the nonzero roots of the quadratic $t^2-(w+x+y+z)t+5 = 0$,
+  and so they take on at most two distinct values.
+  Now we consider a few cases. If $w=x=y=z$ then from $w(x+y+z) = 5$
+  we must have them all equal to $\pm \sqrt{5/3}$, contradicting $wxyz=5$.
+  If $x=y=z$ but $w \neq x$, then $w+x=w+x+y+z \implies y+z = 0$, so $y=z=0$ which is impossible.
+  Finally, if $w=x$ and $y=z$ but $w \neq y$ then $w+y=2(w+y)$, whence $w=-y$.
+  Now we can derive $5=w(x+y+z)=-w^2$, which is impossible.
+  So, $\nabla g \neq \mathbf 0$ everywhere.
+
+  Now, the extrema on the boundary of $\ol U$ trivially satisfy the inequality,
+  so we only need consider the interior.
+  Evidently we have a $\lambda$ with
+  \[ \frac{2w}{w^2+1} = \lambda (x+y+z-xyz). \]
+  If $\lambda = 0$ then $w=x=y=z=0$, which contradicts the given.
+  Otherwise, $\lambda \neq 0$ whence $wxyz \neq 0$.
+  If we let $s = w+x+y+z$ and $d = wxy+xyz+yzx+zxw$ then we can rearrange this as
+  \begin{align*}
+    \frac{2}{\lambda} &= \left( \frac 1w+w \right)(x+y+z-xyz) \\
+    &= \frac{w+x+y+z-xyz}{w}-1 + w(x+y+z) - wxyz \\
+    &= \frac{s}{w} - 1 + 5-(xy+yz+zx) \\
+    \frac{2}{\lambda}-4 &= \frac{s - (wxy+wyz+wzx+xyz)}{w} = \frac{s-d}{w}.
+  \end{align*}
+  Hence we have two cases. Either $\lambda = \half$ and $s = d$, or
+  \[ w = x = y = z = \frac{s-d}{2/\lambda - 4} \]
+  In the latter case, we obtain $6w^2 = w^4+5$,
+  which implies that the constant values are one of $\pm 1$, $\pm \sqrt{5}$.
+  Check that none of these cases give $f(w,x,y,z) < 16$.
+
+  Otherwise, we derive that
+  \begin{equation}
+    w+x+y+z = wxy+xyz+yzw+zwx
+    \label{eq:usamo1}
+  \end{equation}
+  At this point we have used all the constraints.
+  That means Lagrange Multipliers is telling us that any point $(w,x,y,z)$
+  which also satisfies \eqref{eq:usamo1} is possibly a local extrema;
+  in other words, one can check that any $\mathbf x$ satisfying \eqref{eq:usamo1}
+  and $wx+xy+yz+zx+wy+xz = 5+wxyz$ also satisfies
+  $\nabla f(\mathbf x) = \lambda \nabla g(\mathbf x)$.
+
+  Unfortunately, you can't go farther than this because it turns out
+  that \eqref{eq:usamo1} is precisely the equality condition of the original problem.
+  Boo. The end.
+\end{proof}
+
+\section{Practice Problems}
+\begin{enumerate}
+  \ii (USAMO 1978/1) Given that $a$, $b$, $c$, $d$, $e$ are real numbers such that
+  \begin{align*}
+    a+b+c+d+e &= 8 \\
+    a^2+b^2+c^2+d^2+e^2 &= 16,
+  \end{align*}
+  determine the minimum value of $e$.
+  \ii (\href{http://www.aops.com/community/h492263}{Mock Inequalities USAMO})
+  Let $a$, $b$, $c$, $d$ be nonnegative real numbers such that $a+b+c+d=4$.
+  Prove that $3(a^2+b^2+c^2+d^2) + 4abcd \ge 16$.
+  \ii (MOP 2012) Given that $a+b+c+d=4$ for positive reals $a$, $b$, $c$, $d$, prove that
+  \[ \frac{1}{a^2} + \frac{1}{b^2} + \frac{1}{c^2} + \frac{1}{d^2}
+    \ge a^2+b^2+c^2+d^2. \]
+  \ii (Canada 1999/5) Prove that for nonnegative real numbers $a$, $b$, $c$
+  with $a+b+c=1$ we have \[ a^2b + b^2c + c^2a \le \frac{4}{27}. \]
+\end{enumerate}
+
+\end{document}

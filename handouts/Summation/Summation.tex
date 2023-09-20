@@ -1,0 +1,1332 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy,hints]{evan}
+\newcommand{\EE}{\mathbb E}
+
+\begin{document}
+\title{Summations}
+\date{13 October 2016}
+\maketitle
+
+%%fakesection Frontmatter
+\begin{abstract}
+  \sffamily\small
+  Mathematicians just love sigma notation for two reasons.
+  First, it provides a convenient way to express a long or even infinite series.
+  But even more important, it looks really cool and scary,
+  which frightens nonmathematicians into revering mathematicians
+  and paying them more money.
+
+  \medskip
+
+  --- \emph{Calculus II for Dummies} % Mark Zegarelli
+\end{abstract}
+\subsection*{Acknowledgments}
+\textsc{Thanks} to Zack Chroman, Michael Diao,
+Steven Hao, Ryan Kim, Kevin Qian, Colin Tang, Michael Tang, Tyler Zhu,
+for helpful suggestions and comments.
+
+\tableofcontents
+\eject
+
+\section{Introduction}
+This is a handout about how to deal with complicated sums.
+Broadly, sums on olympiad contests fall into a few different categories:
+\begin{itemize}
+  \ii Purely \textbf{algebraic} sums, like $\sum_n \frac{1}{n(n+1)}$,
+  which are mostly exercise in algebraic manipulation.
+  These are the kind you would get in a lecture named ``sums and products''.
+
+  \ii Sums which are \textbf{combinatorial}, involving expressions like $\binom nk$.
+  You would see this in lectures named ``combinatorial sums''
+  and ``counting in two ways'', or perhaps ``generating functions''.
+
+  \ii Sums which are \textbf{number theoretic}, involving functions like
+  $\varphi$, $\mu$, or which involve expressions like $\sum_{d \mid n}$,
+  or which ask you to take a sum modulo $p$.
+  Often appears in ``multiplicative number theory''.
+\end{itemize}
+I think it is preferable to avoid separating the learning of these
+apparently disjoint topics, hence the unified handout.
+There are some connected themes which underlie all three;
+in particular, one of the big ideas which runs through the entire
+handout is the concept of \textbf{swapping the order of summation}.
+\begin{theorem}[Swapping the order of summation]
+  Let $f(a,b)$ be a function. Then
+  \[ \sum_{a \in A} \sum_{b \in B} f = \sum_{b \in B} \sum_{a \in A} f. \]
+\end{theorem}
+This seemingly obvious fact is a nontrivial step in more than 50\%
+of summation problems (in the same way that cyclic quadrilaterals is used
+in more than 50\% of geometry problems).
+We will see this key idea again and again in the examples that follow.
+Thus \textbf{any time you see a double sum}, you should always consider
+computing the sum in the reversed order.
+In fact, even if you only have a single $\sum$ you should consider rewriting
+the expression as a double sum (e.g.\ a generating function)
+so that the above theorem applies.
+You might also need to change the variables before this step; for example we also have
+\[ \sum_{a \ge 0} \sum_{b \ge 0} f = \sum_{k \ge 0} \sum_{\substack{a,b \\ a+b=k}} f. \]
+
+
+\section{Algebraic manipulation}
+These are the most low-tech problems,
+and often appear on short-answer contests as a result.
+These techniques apply to all sums, and especially to those
+which don't have N or C flavor.
+
+Examples of things you can do:
+\begin{itemize}
+  \ii Look at \textbf{telescoping sequences}.
+  The classic example that everyone knows of is
+  \[ \sum_{n=1}^{100} \frac{1}{n(n+1)}. \]
+
+  \ii Generalizing the above point, looking at \textbf{partial fractions}
+  is often a good thing to do if your expression has polynomial denominators.
+
+  \ii Try to \textbf{factor the expression}.
+  In particular, one can factor through double sums:
+  \[ \sum_{a \in A} \sum_{b \in B} a^2(b+1)
+    = \left( \sum_{a \in A} a^2 \right)
+    \left( \sum_{b \in B} (b+1) \right). \]
+
+  \ii Try \textbf{swapping the order of summation}.
+  (This is so important we're saying it again.)
+\end{itemize}
+
+\subsection{Telescoping and partial fractions}
+I won't provide too many examples here
+(though there are plenty in the practice problems!)
+since this is a topic that often appears at the AIME level anyways.
+So here is my token example.
+\begin{example}
+  [Stanford 2011]
+  Evaluate the sum \[ \sum_{n \ge 1} \frac{7n+32}{n(n+2)} \cdot \left( \frac 34 \right)^n. \]
+\end{example}
+\begin{soln}
+  Again, since we have a polynomial denominator,
+  our first reflex is to decompose its partial fractions. This gives us
+  \[ \frac{7n+32}{n(n+2)} = \frac{16}{n} - \frac{9}{n+2}. \]
+  Suddenly we're done, because the sum telescopes
+  according to the fact that $9 = (3/4)^2 \cdot 16$:
+  \[ \sum_{n \ge 1} \frac{16}{n} \left( \frac 34 \right)^n
+    - \frac{16}{n+2} \left( \frac 34 \right)^{n+2} . \]
+  We see the trailing terms in the sum tend to zero as $n \to \infty$.
+  So the answer is $\frac{16}{1} \cdot \frac34 + \frac{16}{2} \cdot \frac{9}{16}
+  = 12 + \frac{9}{2} = \frac{33}{2}$.
+\end{soln}
+
+\subsection{Swapping the order of summation}
+For a less contrived example, we now prove linearity of expectation,
+which is the key result from \cite{ref:EV}.
+
+The motivating example which I always present is that this allows
+one to compute the expected number of fixed points in a random
+permutation of $\{1, \dots, n\}$:
+\begin{example}
+  A random permutation of $\{1, \dots, n\}$ has an average of one fixed point.
+\end{example}
+To see this, let's look at the case $n=4$:
+\begin{center}
+\begin{tabular}[h]{r|cccc|c}
+  & W & X & Y & Z & $\Sigma$ \\ \hline\hline
+1 & \textbf{\color{red} W} & \textbf{\color{red} X} & \textbf{\color{red} Y} & \textbf{\color{red} Z} & 4 \\
+2 & \textbf{\color{red} W} & \textbf{\color{red} X} & Z & Y & 2 \\
+3 & \textbf{\color{red} W} & Y & X & \textbf{\color{red} Z} & 2 \\
+4 & \textbf{\color{red} W} & Y & Z & X & 1 \\
+5 & \textbf{\color{red} W} & Z & X & Y & 1 \\
+6 & \textbf{\color{red} W} & Z & \textbf{\color{red} Y} & X & 2 \\
+7 & X & W & \textbf{\color{red} Y} & \textbf{\color{red} Z} & 2 \\
+8 & X & W & Z & Y & 0 \\
+9 & X & Y & W & \textbf{\color{red} Z} & 1 \\
+10 & X & Y & Z & W & 0 \\
+11 & X & Z & W & Y & 0 \\
+12 & X & Z & \textbf{\color{red} Y} & W & 1 \\
+13 & Y & W & X & \textbf{\color{red} Z} & 1 \\
+14 & Y & W & Z & X & 0 \\
+15 & Y & \textbf{\color{red} X} & W & \textbf{\color{red} Z} & 2 \\
+16 & Y & \textbf{\color{red} X} & Z & W & 1 \\
+17 & Y & Z & W & X & 0 \\
+18 & Y & Z & X & W & 0 \\
+19 & Z & W & X & Y & 0 \\
+20 & Z & W & \textbf{\color{red} Y} & X & 1 \\
+21 & Z & \textbf{\color{red} X} & W & Y & 1 \\
+22 & Z & \textbf{\color{red} X} & \textbf{\color{red} Y} & W & 2 \\
+23 & Z & Y & W & X & 0 \\
+24 & Z & Y & X & W & 0 \\
+\hline
+$\Sigma$ & 6 & 6 & 6 & 6 & 24
+\end{tabular}
+\end{center}
+The idea is as follows:
+nominally, to compute the expected value, one is supposed
+to compute the number of fixed points in each row,
+and then take the average.
+However, the number of fixed points per row is chaotic.
+It would be much simpler to take the sum in each column,
+and take the average of \emph{those} instead:
+in which case we see the answer is $\frac{1}{n!} n \cdot (n-1)! = 1$.
+
+The following theorem generalizes this:
+\begin{example}
+  [Linearity of Expectation]
+  Let $X$ and $Y$ be random variables
+  (not necessarily independent).
+  Then $\EE[X+Y] = \EE[X] + \EE[Y]$.
+\end{example}
+As described in \cite{ref:EV} the proof
+of this is just a ``double summation''.
+We do this formally here:
+\begin{proof}
+  For simplicity we do the case where $X$, $Y$ take
+  nonnegative integer values; for the general case one should use $\int$
+  rather than $\sum$.
+  By definition, we have
+  \[
+    \EE[X+Y] = \sum_{n \ge 0} n P(X+Y=n)
+    = \sum_{n \ge 0} \sum_{a+b=n} n P(X=a,Y=b).
+  \]
+  Unfortunately\footnote{%
+    This was wrong in an earlier published version.
+    Thanks to SH for noticing.}
+  we can't write $P(X=a,Y=b) = P(X=a)P(Y=b)$ since
+  $X$ and $Y$ need not be independent.
+  So instead we write $n=a+b$ and then replace
+  $\sum_{n \ge 0} \sum_{a+b=n}$ with $\sum_{a,b}$
+  This lets us split the sum into two parts,
+  which we sum in two different orders.
+  Here is the calculation:
+  \begin{align*}
+    \EE[X+Y] &= \sum_{n \ge 0} \sum_{a+b=n} (a+b)P(X=a,Y=b) \\
+    &= \sum_{a,b \ge 0} (a+b) P(X=a, Y=b) \\
+    &= \sum_{a \ge 0} \sum_{b \ge 0} a P(X=a, Y=b)
+    + \sum_{b \ge 0} \sum_{a \ge 0} b P(Y=b, X=a) \\
+    &= \sum_{a \ge 0} a P(X=a) + \sum_{b \ge 0} b P(Y=b) \\
+    &= \EE[X] + \EE[Y]. \qedhere
+  \end{align*}
+\end{proof}
+Thus we see that:
+\begin{quote}
+  \bfseries Every application of linearity of expectation is philosophically an application of switching the order of summation.
+\end{quote}
+
+Finally, let's look at some number-theoretic examples.
+First, we prove the following lemma which we will revisit later.
+\begin{lemma}
+  [$\varphi \ast \mathbf 1 = \id$]
+  Let $n \ge 1$ be an integer.
+  Then \[ \sum_{d \mid n} \varphi(d) =  n. \]
+\end{lemma}
+\begin{proof}
+  We will give a more pedestrian proof later on in
+  ``multiplicative number theory'', and so for now
+  let's present the nice combinatorial proof:
+  look at the fractions
+  \[
+    \frac{1}{n}, \quad \frac{2}{n}, \quad \frac{3}{n},
+    \quad \dots, \quad \frac{n}{n}.
+  \]
+  Suppose we reduce all the fractions to simplest form.
+  Then for every $d \mid n$,
+  there are exactly $\varphi(d)$ fractions with denominator $d$.
+  (If you don't see why, try writing out the case $n=15$.)
+  Since there are $n$ fractions total, we're done.
+\end{proof}
+Now I can present my favorite example which illustrates
+just how useful swapping the order of summation can be.
+\begin{example}
+  [AMSP 2011 NT3 Exam]
+  Let $n$ be a positive integer.
+  Prove that
+  \[ \sum_{k \ge 1} \varphi(k) \left\lfloor \frac nk \right\rfloor
+    = \half n (n+1).  \]
+\end{example}
+\begin{proof}
+  The key idea is to rewrite the floor as a sum involving divisors:
+  \[ \sum_{k \ge 1} \varphi(k) \left\lfloor \frac nk \right\rfloor
+    = \sum_{k \ge 1} \varphi(k) \sum_{\substack{m \le n \\ k \mid m}} 1
+    = \sum_{k \ge 1} \sum_{\substack{m \le n \\ k \mid m}} \varphi(k).
+  \]
+  Thus we're computing the sum of $\varphi(k)$
+  over several pairs of integers $(k,m)$ for which $k \mid m$, $m \le n$.
+  For example, if $n = 6$, the possible pairs $(k,m)$ are given be the following table:
+  \[
+    (k,m) \in
+    \left\{
+    \begin{array}{cccccc}
+      (1,1) & (1,2) & (1,3) & (1,4) & (1,5) & (1,6) \\
+      & (2,2) && (2,4) && (2,6) \\
+      && (3,3) &&& (3,6) \\
+      &&& (4,4) && \\
+      &&&& (5,5) & \\
+      &&&&& (6,6)
+    \end{array}
+    \right\}
+  \]
+  Nominally, we're supposed to be summing by the rows of this table
+  (i.e.\ fix $k$ and run the sum over corresponding $m$).
+  However, by interchanging the order of summation we can instead
+  consider this as a sum over the columns:
+  if we instead pick the value of $m$ first, we see that
+  \[
+    \sum_{k \ge 1} \sum_{\substack{k \mid m \\ m \le n}} \varphi(k)
+    = \sum_{m = 1}^n \sum_{k \mid m} \varphi(k).
+  \]
+  But we know how to evaluate the inner sum by the lemma! We get
+  \[ \sum_{m = 1}^n \sum_{k \mid m} \varphi(k)
+    = \sum_{m=1}^n m = \half n(n+1). \qedhere \]
+\end{proof}
+
+\subsection{Roots of unity filters}
+A classic MathCounts-flavored problem goes as follows:
+we wish to compute
+\[ \sum_{k \ge 0} \binom{1000}{2k}. \]
+In order to do this, we use the fact that
+\begin{align*}
+  (1+1)^{1000} &= \sum_{n \ge 0} \binom{1000}{n}  \\
+  (1-1)^{1000} &= \sum_{n \ge 0} \binom{1000}{n}(-1)^n.
+\end{align*}
+Adding these together, we get that twice the desired sum is $2^{1000}$
+hence the answer is $2^{999}$.
+The key fact we used was that
+\[ \frac{1^n + (-1)^n}{2}
+  = \begin{cases}
+    1 & n \text{ even} \\
+    0 & n \text{ odd}.
+  \end{cases}
+\]
+
+This trick can be generalized using a so-called \vocab{roots of unity filter}.
+To motivate it, we consider the following example problem.
+\begin{example}
+  [Classical application of roots of unity filter]
+  Compute
+  \[ \sum_{k \ge 0} \binom{1000}{3k}. \]
+\end{example}
+\begin{soln}
+  We can rewrite the sum as
+  \[ \sum_{n \ge 0} \binom{1000}{n} f(n) \]
+  where
+  \[ f(n) = \begin{cases}
+      1 & n \equiv 0 \pmod 3 \\
+      0 & \text{otherwise}.
+    \end{cases} \]
+  So we want the mod $3$ analog of the parity detector $1^n + (-1)^n$ we had earlier.
+
+  The trick, which gives it the name ``roots of unity filter'',
+  is that we can take
+  \[ f(n) = \frac{1}{3} \left( 1^n + \omega^n + \omega^{2n} \right) \]
+  where $\omega = \exp\left( \frac23\pi i \right)$ is a cube root of unity,
+  satisfying the relation $\omega^2 + \omega + 1 = 0$.
+  Thus, we have
+  \[
+    \sum_{n \ge 0} \binom{1000}{n} f(n)
+    = \frac13 \sum_{n \ge 0} \binom{1000}{n} (1+\omega^{n}+\omega^{2n}).
+  \]
+  We can swap the order of summation now
+  (never gets old, does it?)
+  and instead consider
+  \[
+    \sum_{n \ge 0} \binom{1000}{n} f(n)
+    = \frac13 \sum_{n \ge 0} \binom{1000}{n}
+    + \frac13 \sum_{n \ge 0} \binom{1000}{n} \omega^n
+    + \frac13 \sum_{n \ge 0} \binom{1000}{n} \omega^{2n}.
+  \]
+  (This doesn't look like the previous examples of swapping the order
+  of summation, but perhaps I could instead write
+  $\sum_{n \ge 0} \sum_{k=0}^2 \binom{1000}{n} \omega^{nk}
+  = \sum_{k=0}^2 \sum_{n \ge 0} \binom{1000}{n} \omega^{nk}$.
+  The point is we are exchanging an $1000 \times 3$ sum
+  with a $3 \times 1000$ sum.)
+  Thus by the binomial theorem the expression in question is
+  \begin{align*}
+    \sum_{n \ge 0} \binom{1000}{n} f(n) &= \frac13
+    \left[ (1+1)^{1000} + (1+\omega)^{1000} + (1+\omega^2)^{1000} \right] \\
+    &= \frac13
+    \left[ 2^{1000} + (-\omega^2)^{1000} + (-\omega)^{1000} \right] \\
+    &= \frac13
+    \left[ 2^{1000} + \omega + \omega^2 \right] \\
+    &= \frac13 \left[ 2^{1000} - 1 \right]. \qedhere
+  \end{align*}
+\end{soln}
+
+\subsection{Problems}
+%% Telescoping:
+
+\begin{problem}
+  [Putnam 2011]
+  Let $a_1,a_2,\dots$ and $b_1,b_2,\dots$ be sequences of positive
+  real numbers such that $a_1 = b_1 = 1$ and $b_n = b_{n-1} a_n - 2$ for
+  $n=2,3,\dots$. Assume that the sequence $(b_j)$ is bounded. Prove that
+  \[
+  S = \sum_{n=1}^\infty \frac{1}{a_1 \cdots a_n}
+  \]
+  converges, and evaluate $S$.
+  \begin{hint}
+    Telescoping. $S = 3/2$.
+  \end{hint}
+\end{problem}
+\begin{problem}
+  [Putnam 2013]
+  Let $a_0, a_1, \dots, a_n, x$ be real numbers, where $0 < x < 1$, satisfying
+  \[ \frac{a_0}{1-x} + \frac{a_1}{1-x^2} + \dots + \frac{a_n}{1-x^{n+1}} = 0. \]
+  Prove that for some $0 < y < 1$ we have
+  \[ a_0 + a_1y + a_2y^2 + \dots + a_n y^n = 0. \]
+  \begin{hint}
+    By contradiction and intermediate value theorem.
+    Expand the geometric series and swap the order of summation.
+  \end{hint}
+\end{problem}
+\begin{problem} % 17/21, need Ravi
+  [Putnam 2015]
+  Let $T$ be the set of triples of positive integers
+  whose lengths are the sides of a triangle.
+  Compute \[ \sum_{(a,b,c) \in T} \frac{2^a}{3^b5^c}. \]
+  \begin{hint}
+    $\frac{17}{21}$. Ravi substitution.
+  \end{hint}
+\end{problem}
+
+\begin{problem} % roots of unity filter
+  How many nonempty subsets of $\left\{ 1,2,\dots,1000 \right\}$
+  have sum divisible by $3$?
+  \begin{hint}
+    Roots of unity filter on
+    $-1+(1+x)(1+x^2)(1+x^3)\dots(1+x^{1000})$.
+  \end{hint}
+\end{problem}
+
+\section{Sums modulo a prime}
+Sometimes you have a sum which you'd like to evaluate modulo $p$ instead
+of computing altogether. Most of the same strategies from before still apply,
+and so these problems are not actually too different from before.
+
+However, when working in $\FF_p$ instead of $\RR$, you can take advantage
+of the fact that there are only finitely many elements to get some useful symmetry.
+A simple manifestation of this is
+\begin{lemma}
+  [Fermat's little theorem]
+  Let $p$ be a prime. Then $a^{p-1} \equiv 1 \pmod p$ whenever $\gcd(a,p) = 1$.
+\end{lemma}
+\begin{proof}
+  Multiplication by $a$ exhibits a bijection
+  from $\{1, \dots, p-1\}$ to itself.
+  Now take the products to get $a^{p-1} (p-1)! \equiv (p-1)! \pmod p$,
+  and cancel the resulting $(p-1)!$.
+\end{proof}
+I'm sure you've already seen this lemma before,
+but I included the proof anyways because its main idea of
+exploiting the fact that $\FF_p$ is finite is often useful.
+
+Similarly, a sum or product from $1$ to $p-1$ will often cancel in spectacular ways, such as:
+\begin{lemma}
+  [Wilson's theorem]
+  For any prime $p$,
+  \[ (p-1)! \equiv -1 \pmod p. \]
+\end{lemma}
+\begin{exercise}
+  Prove this theorem if you don't already know how.
+\end{exercise}
+
+The next lemma is somewhat less well-known than it deserves to be.
+\begin{lemma}[Sums of powers modulo $p$]
+  \label{lem:powersum_modp}
+  Let $p$ be a prime and $m$ an integer.
+  Then
+  \[ 1^m + 2^m + \dots + (p-1)^m \equiv
+    \begin{cases}
+      0 \pmod p & \text{if } p-1 \nmid m \\
+      -1 \pmod p & \text{if } p-1 \mid m.
+    \end{cases} \]
+\end{lemma}
+\begin{proof}
+  Suffices to show the case $p-1 \nmid m$ since the other is obvious.
+  Let $g$ be a primitive root modulo $p$ (see \cite{ref:ORPR}),
+  then the above sum equals
+  \[ 1 + g^m + \dots + g^{(p-2)m}
+    \equiv \frac{g^{(p-1)m} - 1}{g^m-1} \pmod p \]
+  which is okay since the denominator isn't zero.
+  But the numerator vanishes.
+\end{proof}
+
+Here is another example.
+\begin{example}
+  [Wolstenholme's theorem]
+  Let $p > 3$ be a prime.
+  Then
+  \[ (p-1)!\left( \frac11 + \frac12 + \dots + \frac1{p-1} \right) \equiv 0 \pmod{p^2}. \]
+\end{example}
+Note the presence of $(p-1)!$ is just a formality to ensure
+the left-hand side is an integer; it makes more sense
+to just evaluate $S = 1\inv + 2\inv + \dots + (p-1)\inv \pmod{p^2}$.
+\begin{proof}
+  Let $S = 1\inv + 2\inv + \dots + (p-1)\inv \pmod{p^2}$.
+  It's already clear (by say \Cref{lem:powersum_modp} with $m = -1$)
+  that $p \mid S$, but we in fact want $p^2 \mid S$.
+  We exploit the symmetry by pairing up the opposite terms:
+  \[
+    2S = \sum_{k \ge 1}^{p-1} \frac{1}{k} + \frac{1}{p-k}
+    = \sum_{k=1}^{p-1} \frac{p}{k(p-k)}.
+  \]
+  So just as before we see that $S$ is divisible by $p$,
+  but this time we know information mod $p^2$: it now suffices to show that
+  \[ \frac{1}{p} \cdot 2S = \sum_{k=1}^{p-1} \frac{1}{k(p-k)} \]
+  is zero modulo $p$ as well.
+  But
+  \[
+    \sum_{k=1}^{p-1} \frac{1}{k(p-k)}
+    \equiv \sum_{k=1}^{p-1} \frac{1}{k(-k)}
+    = -\sum_{k=1}^{p-1} k^{-2}
+    \pmod p
+  \]
+  and we're done by \Cref{lem:powersum_modp} applied at $m=-2$.
+  (Where did we use $p > 3$?)
+\end{proof}
+
+Finally, here is a weird trick which is often useful when
+faced with $\frac1k$ expressions modulo $p$.
+Look through the problems for a few examples.
+\begin{lemma}
+  [Harmonic modulo $p$ trick]
+  \label{lem:harmonic_p_trick}
+  For any integer $k = 1, 2, \dots, p-1$, we have
+  \[ \frac{1}{k} \equiv (-1)^{k-1} \cdot \frac1p \binom pk \pmod p. \]
+\end{lemma}
+\begin{exercise}
+  Check this.
+\end{exercise}
+
+This is often useful because it reduces a computation
+involving $k\inv$'s modulo $p$ to a computation
+involving $\binom pk$ mod $p^2$;
+the latter is often easier to deal with.
+
+\subsection{Problems}
+\begin{problem} % add to database
+  [ELMO 2009, John Berman]
+  % harmonic trick => done
+  Let $p$ be an odd prime and $x$ be an integer
+  such that $p \mid x^3 - 1$ but $p \nmid x - 1$.
+  Prove that $p$ divides
+  \[ (p-1)!
+    \left( x - \frac{x^2}{2} + \frac{x^3}{3} - \dots - \frac{x^{p-1}}{p-1} \right).
+  \]
+  \begin{hint}
+    \Cref{lem:harmonic_p_trick}.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  Let $p > 5$ be a prime.
+  Prove that
+  \[ \frac{1}{1^3} + \frac{1}{2^3} + \dots + \frac{1}{(p-1)^3}
+    \equiv 0 \pmod{p^2}. \]
+  \begin{hint}
+    Repeat the proof of Wolstenholme by adding opposite terms.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [OMO 2013 W42, Victor Wang] % pair up and cancel
+  Find the remainder when
+  \[ \prod_{i=0}^{100} (1-i^2+i^4) \]
+  is divided by $101$.
+  % pair up and cancel
+  \begin{hint}
+    Answer is $9$.
+    Write as $\frac{i^6+1}{i^2+1}$ for $i \neq \pm 10$.
+    Pair up and cancel all the other remaining terms and cancel.
+  \end{hint}
+\end{problem}
+
+\section{Multiplicative number theory}
+Earlier we saw that that $\sum_{d \mid n} \varphi(d) = n$.
+In this section we'll develop a more general theory
+which can handle these divisor-based sums.
+
+To get a grasp of what we're doing, let's redo the example from above.
+The key idea is rooted in the standard MathCounts formula for
+the sum of the prime factors of $n = p_1^{e_1} \dots p_k^{e_k}$:
+it is equal to
+\[
+  \sum_{d \mid n} d
+  = \left( 1 + p_1 + p_1^2 + \dots + p_1^{e_1} \right)
+  \left( 1 + p_2 + p_2^2 + \dots + p_2^{e_2} \right)
+  \dots
+  \left( 1 + p_k + p_k^2 + \dots + p_k^{e_k} \right).
+\]
+Indeed, if we expand the right-hand side, each factor appears exactly once.
+
+But in fact, $\varphi$ has a special property:
+if $m$ and $n$ are relatively prime,
+then $\varphi(mn) = \varphi(m)\varphi(n)$.
+(Proof: Chinese remainder theorem.)
+So we can copy the work above to get
+\[
+  \sum_{d \mid n} \varphi(d)
+  = \left( \varphi(1) + \varphi(p_1) + \dots + \varphi(p_1^{e_1}) \right)
+  \dots
+  \left( \varphi(1) + \varphi(p_k) + \dots + \varphi(p_k^{e_k}) \right).
+\]
+But now we're done,
+because it's easy to see that $\varphi(1) + \varphi(p) + \dots + \varphi(p^e) = p^e$
+when $p$ is a prime, and thus the right-hand side is $n$.
+
+In this short section we will grow this idea into its full generality.
+In what follows, $\NN$ denotes the positive integers.
+
+\subsection{Multiplicative functions}
+\begin{definition}
+  An arithmetic function is a function $f : \NN \to \CC$.
+  It is
+  \begin{itemize}
+    \ii \vocab{multiplicative} if $f(mn) = f(m) f(n)$
+    for \textbf{relatively prime} $m$ and $n$.
+    \ii \vocab{completely multiplicative} if $f(mn) = f(m)f(n)$
+    for \textbf{any} $m$ and $n$.
+  \end{itemize}
+\end{definition}
+
+\begin{example}
+  [Completely multiplicative functions]
+  The following are examples of completely multiplicative functions.
+  \begin{itemize}
+    \ii The identity function $\id$.
+    \ii The Dirichlet delta function, $\delta(n) =
+    \begin{cases}
+      1 & n = 1 \\
+      0 & n \ge 2.
+    \end{cases}$
+    \ii The constant function $\mathbf 1$,
+    given by $\mathbf 1(n) = 1$.
+  \end{itemize}
+\end{example}
+
+\begin{example}
+  [Multiplicative functions]
+  The following are examples of multiplicative functions
+  which are not completely multiplicative.
+  \begin{itemize}
+    \ii Euler's $\varphi$. For example, $\varphi(15) = \varphi(3)\varphi(5)$.
+    But not $\varphi(9) = \varphi(3)\varphi(3)$.
+    \ii The M\"obius function $\mu$, defined by
+    \[
+      \mu(n)
+      =
+      \begin{cases}
+        (-1)^m & \text{if $n$ has $m$ prime factors, all distinct} \\
+        0 & \text{$n$ is not squarefree}.
+      \end{cases}
+    \]
+    For example, $\mu(10) = 1$, $\mu(105) = -1$, but $\mu(12) = 0$.
+    \ii $\sigma$ is the sum of divisors function.
+    For example $\sigma(6) = 1+2+3+6 = 12$.
+    \ii $\tau$ is the divisor counting function.
+    For example $\tau(6) = 4$.
+  \end{itemize}
+\end{example}
+
+Of course, the product of two multiplicative functions is also multiplicative.
+
+The nice property of multiplicative functions is that
+it is \textbf{sufficient to determine their values on prime powers}.
+For example, we have formulas like
+\[
+  \varphi(n)
+  =
+  \left( p_1^{e_1} - p_1^{e_1-1} \right)
+  \left( p_2^{e_2} - p_2^{e_2-1} \right)
+  \dots
+  \left( p_m^{e_m} - p_m^{e_m-1} \right)
+\]
+when $n = p_1^{e_1} \dots p_m^{e_m}$.
+This is one way you can prove the formula above:
+the Chinese remainder theorem implies quickly that $\varphi$ is multiplicative,
+and it is straightforward to compute $\varphi(p^k) = p^k - p^{k-1}$,
+hence the result.
+
+\subsection{Dirichlet convolution}
+Now given two arithmetic functions $f$ and $g$, we define
+the \vocab{Dirichlet convolution} as
+\[ (f \ast g)(n) = \sum_{d \mid n} f(d) g(n/d)
+  = \sum_{de = n} f(d) g(e). \]
+This is more frequent than you might expect:
+\begin{example}
+  [Examples of Convolution]
+  Verify that
+  \begin{itemize}
+    \ii $\mathbf 1 \ast \mathbf 1 = \tau$.
+    \ii $\mathbf 1 \ast \id = \sigma$.
+    \ii $\id \ast \id = n \cdot \tau$.
+    \ii $\mathbf 1 \ast \varphi = \id$ (previous example).
+    \ii $\delta \ast f = f$ for any $f$.
+  \end{itemize}
+\end{example}
+
+Here are some properties of $\ast$:
+\begin{itemize}
+  \ii The identity of $\ast$ is the Dirichlet delta function.
+  \ii Clearly $\ast$ is commutative.
+  \ii The operation $\ast$ is associative because
+  \[
+  \left( (f \ast g) \ast h \right)(n)
+  = \left( f \ast (g \ast h) \right)(n)
+  = \sum_{d_1d_2d_3 = n} f(d_1) g(d_2) h(d_3).
+  \]
+  \ii It distributes over addition: $f \ast (g+h) = f \ast g + f \ast h$.
+  \ii Most important: the \textbf{convolution of two
+    multiplicative functions is also multiplicative}.
+\end{itemize}
+Thus we have an operation on the set of multiplicative functions.
+\begin{exercise}
+  Check that convolutions of multiplicative functions are multiplicative.
+  (Mimic the proof of $\varphi$ we used earlier.)
+\end{exercise}
+
+The upshot of this is that we can now use our theory to completely
+eradicate our earlier example.
+\begin{example}
+  [$\varphi \ast \mathbf 1 = \id$]
+  Let $n \ge 1$ be an integer. Then
+  \[ \sum_{d \mid n} \varphi(d) = n. \]
+\end{example}
+\begin{proof}
+  Rephrasing the problem, we wish to show that
+  \[ \varphi \ast \mathbf 1 = \id. \]
+  It is true for prime powers $n = p^e$, because the left-hand side is
+  $1 + (p-1) + (p^2-p) + \dots + (p^e-p^{e-1}) = p^e$.
+  But since both the LHS and RHS are multiplicative, this implies the problem.
+\end{proof}
+
+\subsection{M\"obius inversion}
+We now know that given a multiplicative function $f$, we have a good handle on
+\[ g(n) = \sum_{d \mid n} f(d) \]
+because $g$ is the Dirichlet convolution $f \ast \mathbf 1$.
+However, occasionally we instead have $g$ and want to recover $f$.
+The way to do this is through M\"obius inversion.
+
+\begin{lemma}
+  [M\"obius is inverse of $\mathbf 1$]
+  We have $\mu \ast \mathbf 1 = \delta$.
+\end{lemma}
+\begin{exercise}
+  Prove this. (Check on prime powers.)
+\end{exercise}
+\begin{theorem}
+  [M\"obius inversion formula]
+  Let $f$ and $g$ be \emph{any} arithmetic functions
+  (possibly not multiplicative).
+  Then
+  \[ g(n) = \sum_{d \mid n} f(d)
+    \iff
+    f(n) = \sum_{d \mid n} \mu(d) g(n/d).
+  \]
+  In other words, if $g = f \ast \mathbf 1$ then $f = g \ast \mu$.
+  % In particular, if $g$ is multiplicative then so is $f$.
+\end{theorem}
+\begin{proof}
+  Assume $g = f \ast \mathbf 1$.
+  Then
+  \[
+    g \ast \mu
+    = (f \ast \mathbf 1) \ast \mu
+    = f \ast (\mathbf 1 \ast \mu)
+    = f \ast \delta = f.
+    \qedhere
+  \]
+\end{proof}
+
+Here is a silly application from the IMO Shortlist.
+\begin{example}
+  [Shortlist 1989] % water problem
+  % http://artofproblemsolving.com/community/c6h226745p5403683
+  % http://artofproblemsolving.com/community/q3h452600p2544765
+  Define a sequence $(a_n)_{n \ge 1}$ by $\sum_{d|n} a_d = 2^n$.
+  Show that $n$ divides $a_n$.
+\end{example}
+\begin{soln}
+  By M\"obius inversion, $a_n = \sum_{d \mid n} \mu(n/d) 2^d$.
+  Now just let $n = p_1^{e_1} \dots p_r^{e_r}$ and bash.
+  Details omitted.
+\end{soln}
+
+\subsection{Problems}
+\begin{problem} % the classic
+  Prove that for any integer $n \ge 1$,
+  \[ \sum_{d \mid n} (\tau(d))^3 = \left( \sum_{d \mid n} \tau(d) \right)^2. \]
+  \begin{hint}
+    Both sides are multiplicative, so check it on prime powers.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Bulgaria 1989]
+  Let $\Omega(n)$ denote the number of prime factors of $n$,
+  counted with multiplicity. Evaluate
+  \[ \sum_{n=1}^{1989} (-1)^{\Omega(n)}
+    \left\lfloor \frac{1989}{n} \right\rfloor.  \]
+  \begin{hint}
+    You will need to compute $\sum_{d \mid n} (-1)^{\Omega(d)}$.
+    Then swap the order of summation with the floor again.
+  \end{hint}
+  % upon switching, sum d|n of (-1)^Omega(d) is 1 if n is square 0 else
+\end{problem}
+
+\begin{problem}
+  % WOOT, use cyclotomics:
+  % if RHS is F(n) then sum d|n of F(d) is \delta
+  Prove that for all positive integers $n$,
+  \[
+    \mu(n)
+    = \sum_{\substack{1 \le k \le n \\ \gcd(k,n)=1}}
+    \cos\left( \frac{2\pi k}{n} \right).
+  \]
+  \begin{hint}
+    Let $F(n)$ be the right-hand side.
+    Show that $F \ast \mathbf 1 = \delta$.
+  \end{hint}
+\end{problem}
+
+\section{Generating functions}
+\begin{quote}
+  A generating function is a device somewhat similar to a bag. Instead of carrying many little objects detachedly, which could be embarrassing, we put them all in a bag, and then we have only one object to carry, the bag. \\ --- George P\'olya
+\end{quote}
+
+The idea of generating functions is as follows:
+given a sequence $a_n$, we consider the formal series
+\[ A(x) = \sum_{n \ge 0} a_n x^n. \]
+This gives us another sum that we can work with.
+Reasons why this could be helpful:
+\begin{itemize}
+  \ii $A(x)$ may often have a nice closed form,
+  like $1 + x + x^2 + \dots = \frac{1}{1-x}$,
+  and as P\'olya has said this makes it much easier to work with.
+  \ii Often $a_n$ is itself a sum,
+  and now we can change the order of summation.
+  See Snake Oil below.
+\end{itemize}
+
+\subsection{Toy applications}
+\begin{example}
+  [The Classic]
+  We have
+  \[ \sum_{n \ge 0} \binom{1000}{n} = 2^{1000}. \]
+\end{example}
+\begin{proof}
+  Let $a_n = \binom{1000}{n}$, for example.
+  Of course, by the binomial theorem we have attached generating function
+  \[ A(x) = \sum_{n \ge 0} a_n x^n
+    = \sum_{n \ge 0} \binom{1000}{n} x^n
+    = (1+x)^{1000}. \]
+  Plugging in $x=1$, for example, then implies the usual identity
+  $\sum_{n \ge 0} \binom{1000}{n} = 2^{1000}$.
+\end{proof}
+\begin{example}
+  [The Derivative of the Classic]
+  We have
+  \[ \sum_{n \ge 0} n\binom{1000}{n} = 1000 \cdot 2^{999}. \]
+\end{example}
+\begin{proof}
+  Take the derivative of the previous example
+  \[ \sum_{n \ge 1} \binom{1000}{n} n x^{n-1}
+    = 1000 (1+x)^{999}. \]
+  This time, the we obtain
+  $\sum_{n \ge 0} n \binom{1000}{n} = 1000 \cdot 2^{999}$.
+\end{proof}
+\begin{exercise}
+  Compute $\sum_{n \ge 0} n^2\binom{1000}{n}$. % 1000*2^999 + 999000*2^998
+\end{exercise}
+
+\subsection{Linear recurrences}
+Let's now use generating functions to derive the closed form of
+the Lucas numbers $L_n$, which are defined by
+\[ L_0 = 2, \quad L_1 = 1, \quad L_{n+2} = L_{n+1} + L_n.\]
+For concreteness, the first few terms are
+$2, 1, 3, 4, 7, 11, 18, 29, 47, 76, \dots$.
+\begin{theorem}[Explicit form for Lucas numbers]
+  Let $\alpha = \half(1+\sqrt5)$ and $\beta=\half(1-\sqrt5)$.
+  Then
+  \[ L_n = \alpha^n + \beta^n. \]
+\end{theorem}
+\begin{proof}
+  We consider the generating function
+  \[ L(x) = 2 + x + 3x^2 + 4x^3 + 7x^4 + \dots. \]
+  We aim to find its compact form.
+  Write
+  \begin{align*}
+    L(x) &= 2 + x + 3x^2 + 4x^3 + 7x^4 + \dots \\
+    xL(x) &= 2x + x^2 + 3x^3 + 4x^4 + \dots \\
+    x^2L(x) &= 2x^2 + x^3 + 3x^4 + \dots.
+  \end{align*}
+  Thus we can deduce
+  \[ L(x) - xL(x) - x^2L(x) = 2-x \]
+  and consequently
+  \[ (1-x-x^2)L(x) = 2-x
+    \implies L(x) = \frac{2-x}{1-x-x^2}. \]
+  Now, what can we do with this?
+  Answer: use \emph{partial fractions} again.
+  The denominator factors into $(1-\alpha x)(1-\beta x)$,
+  and from this we deduce
+  \[
+    L(x) = \sum_{n \ge 0} L_n x^n
+    = \frac{1}{1-\alpha x} + \frac{1}{1 - \beta x}
+    = \sum_{n \ge 0} \left( \alpha^n + \beta^n \right)x^n.
+  \]
+  So we're done upon equating coefficients.
+\end{proof}
+Philosophically, what's happened is that by considering a sum,
+we could compactify all the information about $L_n$ into a single
+rational expression, which we could then use partial fractions on.
+
+\begin{exercise}
+  In the same way, derive Binet's formula:
+  if $F_n$ is the $n$th Fibonacci number then
+  \[ F_n = \frac{1}{\sqrt5}(\alpha^n-\beta^n). \]
+  As an intermediate step,
+  you should find the generating function $\frac{x}{1-x-x^2}$
+  for the Fibonacci numbers.
+\end{exercise}
+
+In principle, every linear recurrence can be solved in this way.
+For more details see for example \cite{ref:linear}.
+
+\subsection{Common generating functions}
+So far, we know that $\frac{1}{1-x} = 1 + x + x^2 + \dots$
+and $(1+x)^n = 1 + \binom n1 x + \binom n2 x^2 + \dots$.
+It turns out we can get more formulas to add to our
+arsenal using the following:
+\begin{theorem}
+  [Generalized binomial theorem]
+  Let $r$ be \emph{any} real number (not necessarily an integer).
+  Then
+  \[ (1+x)^r = \sum_{n \ge 0} \binom{r}{n} x^n
+    \quad\text{where}\quad
+    \binom{r}{n}
+    = \frac{r(r-1) \dots (r-n+1)}{n!}. \]
+\end{theorem}
+\begin{proof}
+  For concreteness,
+  let's show the coefficient of $x^3$ is $\frac{r(r-1)(r-2)}{3!}$.
+  Suppose
+  \[ (1+x)^r = \sum_{k \ge 0} a_k x^k
+  = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 +  \dots. \]
+  Take the triple derivative:
+  \[
+    r(r-1)(r-2) \cdot (1+x)^{r-3}
+    = 6a_3 + 24a_4x + 60a_5 x^2 + \dots
+  \]
+  Now if we compare the constant terms
+  we get $a_3 = \frac16 r(r-1)(r-2)$.
+\end{proof}
+
+This generalized binomial theorem has several applications, described below.
+\begin{itemize}
+\ii For example, if we set $r = -1$ we obtain
+\[
+  \frac{1}{1+x}
+  = \sum_{n \ge 0} \binom{-1}{n} x^n
+  = \sum_{n \ge 0}
+  \frac{(-1) (-2) \dots (-n)}{n!} x^n
+  = \sum_{n \ge 0} (-x)^n.
+\]
+\ii More generally:
+\begin{exercise}
+  Prove that for an \emph{integer} $m$, we have
+  $\binom{-m-1}{k} = (-1)^k \binom{m+k}{k}$.
+  Deduce that
+  \[
+    \frac{1}{(1-x)^{m+1}}
+    = \binom{m}{m} x^0 + \binom{m+1}{m} x^1 + \binom{m+2}{m} x^2 + \dots
+    = \sum_{k \ge 0} \binom{k+m}{m} x^k
+  \]
+\end{exercise}
+\ii A second interesting example is $r = -\half$.
+For convenience, we will look at $(1-4x)^{-\half}$
+rather than $(1-x)^{-\half}$.
+Note that
+\begin{align*}
+  (1-4x)^{-\half}
+  &= \sum_{k \ge 0} (-4)^k \binom{-1/2}{k} x^k \\
+  &= \sum_{k \ge 0} (-4)^k \frac{\left( -\frac12 \right)\left( -\frac32 \right)\dots
+    \left( -\frac{2k-1}{2} \right)}{k!} x^k \\
+  &= \sum_{k \ge 0} 2^k \cdot \frac{1 \cdot 3 \cdot \dots \cdot (2k-1)}{k!} x^k
+    = \sum_{k \ge 0} 2^k \cdot \frac{(2k-1)!!}{k!} x^k \\
+  &= \sum_{k \ge 0} \frac{(2k)!/k!}{k!} x^k
+    = \sum_{k \ge 0} \binom{2k}{k} x^k.
+\end{align*}
+Thus we get the generating function for $\binom{2k}{k}$.
+Here we have used the well-known fact that
+\[ 2^{k} k! (2k-1)!! = (2k)! \]
+If you haven't seen this before, try to prove it!
+
+\ii Finally, let's integrate both sides of
+$(1-4x)^{-\half} = \sum_{k \ge 0} \binom{2k}{k} x^k$.
+This tells us that
+\[ \sum_{k \ge 0} \frac{1}{k+1} \binom{2k}{k} x^{k+1}
+  = \frac{1/4}{-\half}(1-4x)^\half + C \]
+for some constant $C$; by comparing the constant terms, we get $C = \half$.
+Dividing by $x$ we derive
+\[ \sum_{k \ge 0} \frac{1}{k+1} \binom{2k}{k} x^{k}
+  = \frac{1 - \sqrt{1-4x}}{2x}. \]
+The numbers $C_k = \frac{1}{k+1} \binom{2k}{k}$ are the
+infamous \textbf{Catalan numbers}.
+\end{itemize}
+
+In Table~\ref{tab:genfunc} we collect the fruits of our labors above.
+Notice that in particular we can handle both of
+\begin{itemize}
+  \ii sequences of the form $\binom{n}{\ast}$
+  (where the top is fixed while the bottom moves)
+  \ii sequences of the form $\binom{\ast}{n}$
+  (where the bottom is fixed while the top moves).
+\end{itemize}
+These formulas will be indispensable later on.
+
+\begin{table}[ht]
+  \centering
+  \begin{minipage}{0.4\textwidth}
+  \begin{mdframed}
+  \begin{align*}
+    (1+x)^n &= \sum_{k \ge 0} \binom{n}{k} x^k \\
+    \frac{1}{(1-x)^{m+1}}
+      &= \sum_{k \ge 0} \binom{k+m}{m} x^k \\
+    \frac{x^m}{(1-x)^{m+1}}
+      &= \sum_{k \ge 0} \binom{k}{m} x^k
+  \end{align*}
+  \end{mdframed}
+  \end{minipage}
+  \qquad
+  \begin{minipage}{0.4\textwidth}
+  \begin{mdframed}
+  \begin{align*}
+    \frac{1}{\sqrt{1-4x}} &= \sum_{k \ge 0} \binom{2k}{k} x^k \\
+    \frac{1-\sqrt{1-4x}}{2x} &= \sum_{k \ge 0} C_k x^k \\
+      % = \sum_{k \ge 0} \frac{1}{k+1} \binom{2k}{k} x^k
+    e^x &= \sum_{k \ge 0} \frac{1}{k!} x^k
+  \end{align*}
+  \end{mdframed}
+  \end{minipage}
+  \caption{Table of common generating functions}
+  \label{tab:genfunc}
+\end{table}
+
+Here is an application of the formulas.
+\begin{example}
+  [HMMT 2007 Combinatorics \#9]
+  Let $S$ be the set of triples $(i,j,k)$ of positive integers
+  which satisfy $i+j+k=17$. Compute
+  \[ \sum_{(i,j,k) \in S} ijk. \]
+\end{example}
+\begin{soln}
+  The point is to notice that one can consider the quantity
+  \[
+    F(x)
+    =
+    \left( \sum_{i \ge 0} i x^i \right)
+    \left( \sum_{j \ge 0} j x^j \right)
+    \left( \sum_{k \ge 0} k x^k \right)
+  \]
+  and that we merely want the coefficient of $x^{17}$.
+  But
+  \[
+    F(x) = \left( \frac{x}{(1-x)^2} \right)^3
+    = x^3 \frac{1}{(1-x)^6}
+  \]
+  so we need the $x^{14}$ coefficient of $\frac{1}{(1-x)^6}$
+  which we know is $\binom{19}{5}$.
+\end{soln}
+
+\subsection{Snake Oil method}
+% http://www.imomath.com/index.php?options=357&lmm=0
+The so-called Snake Oil method, so dubbed by \cite{ref:gfo},
+is a powerful way to force a combinatorial sum into a
+generating-function double sum.
+It serves as a ``miracle cure'' for a whole class of problems, hence the name.
+
+Here's how it works: suppose we have a sum we want to evaluate in terms of $n$,
+perhaps of the form
+\[ a_n = \sum_k F(k,n) \]
+for some function $F$.
+It would suffice to evaluate the generating function
+\[ A(x) = \sum_{n \ge 0} a_n x^n = \sum_{n \ge 0} \sum_k F(k,n) x^n. \]
+Since this is a double sum, we can now
+\textbf{swap the order of summation} and obtain
+\[ A(x) = \sum_k \sum_{n \ge 0} F(k,n) x^n. \]
+With any luck the interchanged sum
+will be significantly easier to evaluate.
+This works best if $F$ is the product of several functions
+that we know the generating functions of (like in table above).
+
+Let's see an example:
+\begin{example}[\cite{ref:gfo}]
+  For $n \ge 0$, compute
+  \[ \sum_{k \ge 0} \binom{n+k}{2k} 2^{n-k}. \]
+\end{example}
+\begin{proof}
+  As described above, we let
+  \begin{align*}
+    A(x) &= \sum_{n \ge 0}
+    \left[ \sum_{k \ge 0} \binom{n+k}{2k} 2^{n-k} \right] x^n
+    = \sum_{k \ge 0} \sum_{n \ge 0}
+    \binom{n+k}{2k} 2^{n-k} x^n \\
+    &= \sum_{k \ge 0} 2^{-k}
+    \sum_{n \ge 0} \binom{n+k}{2k} (2x)^n
+    = \sum_{k \ge 0} x^k
+    \sum_{n \ge 0} \binom{(n-k) + 2k}{2k} (2x)^{n-k} \\
+    &= \sum_{k \ge 0} x^k
+    \sum_{a \ge 0} \binom{a + 2k}{2k} (2x)^{a}
+    = \sum_{k \ge 0} x^k \left( \frac{1}{1-2x} \right)^{2k+1} \\
+    &= \sum_{k \ge 0}
+    \frac{1}{1-2x} \left( \frac{x}{(1-2x)^2} \right)^k
+    =
+    \frac{1}{1-2x} \frac{1}{1 - \frac{x}{(1-2x)^2}}
+    = \frac{1-2x}{(1-2x)^2 - x} \\
+    &= \frac{1-2x}{1-5x+4x^2}
+    = \frac{1-2x}{(1-4x)(1-x)}
+    = \frac{1/3}{1-x} + \frac{2/3}{1-4x} \\
+    &= \sum_{n \ge 0} \left( \frac13 + \frac23 4^n \right)x^n.
+  \end{align*}
+  Hence by matching the $n$th coefficients we obtain
+  \[
+    \sum_{k \ge 0} \binom{n+k}{2k} 2^{n-k}
+    = \frac{1}{3} + \frac{2}{3} \cdot 4^n. \qedhere
+  \]
+\end{proof}
+
+\begin{example}[\cite{ref:gfo}]
+  For $n \ge 0$, compute
+  \[ \sum_{k \ge 0} \binom{k}{n-k} . \] % = F_{n+1}
+\end{example}
+\begin{soln}
+  Snake Oil:
+  \begin{align*}
+    \sum_{n \ge 0} \left[ \sum_{k \ge 0} \binom{k}{n-k} \right] x^n
+    &= \sum_{k \ge 0} \sum_{n \ge 0}\binom{k}{n-k} x^n \\
+    &= \sum_{k \ge 0} x^k \sum_{k \le n \le 2k}\binom{k}{n-k} x^{n-k} \\
+    &= \sum_{k \ge 0} x^k \cdot (1+x)^k
+      = \frac{1}{1-x(1+x)} \\
+    &= \frac{1}{1-x-x^2}.
+  \end{align*}
+  Thus the sum in question is the Fibonacci number $F_{n+1}$.
+\end{soln}
+
+The snake oil method relies on having the free variable appearing in only one place.
+So the following example doesn't succumb immediately to Snake Oil:
+\begin{mdframed}
+  Prove that for $n \ge 0$ we have
+  \[ \sum_{i=0}^n \binom ni \binom{2n}{n-i} = \binom{3n}{n}. \]
+\end{mdframed}
+However, it is a special case of Vandermonde convolution,
+which \emph{does} succumb to Snake Oil.
+So if a free variable appears in many places,
+this is often a hint to try and consider generalizations of the identity.
+
+\subsection{Problems}
+\begin{problem}
+  [\cite{ref:qiaochu}]
+  Prove that for every integer $n \ge 0$,
+  \[ \sum_{a+b=n} \binom{2a}{a} \binom{2b}{b} = 4^n. \]
+  \begin{hint}
+    Square of $\frac{1}{\sqrt{1-4x}}$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [\cite{ref:qiaochu}]
+  For integers $m,n \ge 0$, prove that
+  \[ \sum_{a+b=m} (-1)^a \binom na \binom{n+b-1}{b} =
+    \begin{cases}
+      1 & m = 0 \\
+      0 & m > 0.
+    \end{cases}
+  \]
+  \begin{hint}
+    Product of $(1+(-x))^n$ and $\frac{1}{(1-x)^n}$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [\cite{ref:imo}]
+  Let $m \le n$ be positive integers.
+  Compute \[ \sum_{k=m}^n \binom nk \binom km.  \]
+  \begin{hint}
+    Snake Oil. $\binom nm 2^{n-m}$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [\cite{ref:gfo}]
+  For $m,n \ge 1$ compute
+  \[ \sum_{k \ge 0} \binom{n+k}{m+2k}
+    \binom{2k}{k} \frac{(-1)^k}{k+1}. \]
+  \begin{hint}
+    Snake Oil. $\binom{n-1}{m-1}$.
+  \end{hint}
+  % n-1 choose m-1
+\end{problem}
+
+
+\section{Author's Pick}
+\begin{problem}
+  [AMSP 2011 NT3 Exam]
+  Let $\mu$ be the M\"obius function. For $n \ge 1$, evaluate
+  \[ \sum_{k=1}^n \mu(k) \left\lfloor \frac nk \right\rfloor. \]
+  \begin{hint}
+    It equals $1$.
+    Switch order of summation with floor as before.
+    Use the fact that $\sum_{d \mid n} \mu(d) = \delta(n)$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [USAMO 2010/5, Titu Andreescu]
+  Let $q = \frac{3p-5}{2}$ where $p$ is an odd prime, and let
+  \[ S_q = \frac{1}{2\cdot 3 \cdot 4} + \frac{1}{5\cdot 6 \cdot 7}
+    + \dots + \frac{1}{q(q+1)(q+2)}. \]
+  Prove that if $\frac{1}{p}-2S_q = \frac{m}{n}$ for integers $m$ and $n$,
+  then $m - n$ is divisible by $p$.
+  \begin{hint}
+    Partial fractions.
+  \end{hint}
+\end{problem}
+
+\begin{problem} % add to database
+  [Princeton Individual Finals 2015, Xiaoyu Xu]
+  % harmonic trick => done
+  Let $p$ be an odd prime. Prove that $p^2 \mid 2^p-2$ if and only if
+  \[
+    \frac{1}{1 \cdot 2}
+    + \frac{1}{3 \cdot 4}
+    + \dots
+    + \frac{1}{(p-2)(p-1)}
+    \equiv 0 \pmod p.
+  \]
+  \begin{hint}
+    Partial fractions, plus \Cref{lem:harmonic_p_trick}.
+  \end{hint}
+\end{problem}
+
+\begin{problem}[Reed Dawson, \cite{ref:gfo}]
+  For $n \ge 0$, compute
+  \[ \sum_{k \ge 0} \binom{2k}{k} \binom nk \left( -\frac14 \right)^k. \]
+  \begin{hint}
+    $2^{-2n} \binom{2n}{n}$. Snake Oil.
+  \end{hint}
+\end{problem}
+
+\begin{problem} % NIMO integral, 1/12, it's F(0)
+  [NIMO 24.8, Evan Chen]
+  For a complex number $z \neq 3$,$4$, let $F(z)$ denote the real part of $\frac{1}{(3-z)(4-z)}$.
+  Compute
+  \[ \int_0^1 F \left( \frac{\cos 2 \pi t + i \sin 2 \pi t}{5} \right) \; dt. \]
+  \begin{hint}
+    Don't be scared by the integral.
+    Partial fractions then geometric series.
+    Switch the sum and integral.
+  \end{hint}
+\end{problem}
+
+\begin{problem} % 2013 / 11 = 183
+  [NIMO 14.8, Evan Chen]
+  Let $x$ be a positive real number. Define
+  \[
+  A = \sum_{k=0}^{\infty} \frac{x^{3k}}{(3k)!}, \quad
+  B = \sum_{k=0}^{\infty} \frac{x^{3k+1}}{(3k+1)!}, \quad\text{and}\quad
+  C = \sum_{k=0}^{\infty} \frac{x^{3k+2}}{(3k+2)!}.
+  \]
+  Given that $A^3+B^3+C^3 + 8ABC = 2014$, compute $ABC$.
+  \begin{hint}
+    Answer is $183$.
+    Show that $A^3+B^3+C^3-3ABC = 1$.
+    Roots of unity filter with $e^x$.
+  \end{hint}
+\end{problem}
+
+\begin{problem} % Answer: 671, telescope
+  [OMO 2013 F24, Evan Chen]
+  The real numbers $a_0, a_1, \dots, a_{2013}$
+  and $b_0, b_1, \dots, b_{2013}$ satisfy
+  \[
+    a_{n} = \frac{1}{63} \sqrt{2n+2} + a_{n-1}
+    \quad\text{and}\quad
+    b_{n} = \frac{1}{96} \sqrt{2n+2} - b_{n-1}
+  \]for every integer $n = 1, 2, \dots, 2013$.
+  If $a_0 = b_{2013}$ and $b_0 = a_{2013}$,
+  compute \[ \sum_{k=1}^{2013} \left( a_k b_{k-1} - a_{k-1}b_k \right). \]
+  \begin{hint}
+    Look at $(a_n-a_{n-1})(b_n+b_{n-1})$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Shortlist 2014 N6]
+  Let $a_1 < a_2 <  \cdots <a_n$ be pairwise coprime positive integers
+  with $a_1$ being prime and $a_1 \ge n + 2$.
+  On the segment $I = [0, a_1 a_2  \cdots a_n ]$ of the real line,
+  mark all integers that are divisible by
+  at least one of the numbers $a_1$, \dots, $a_n$.
+  These points split $I$ into a number of smaller segments.
+  Prove that the sum of the squares of the lengths of these segments
+  is divisible by $a_1$.
+  \begin{hint}
+    Don't be scared that this is an N6.
+    Let $p = a_1$ and look at intervals of the form $[cp, cp+p]$.
+    Break the sum into several organized parts,
+    and show that each part has sum zero.
+    You will likely need \Cref{lem:powersum_modp}.
+  \end{hint}
+\end{problem}
+
+\begin{problem} % 9901
+  [OMO 2014 S25, Michael Kural]
+  Compute \[ \sum_{n=1}^{\infty}
+    \frac{\frac11 + \frac12 + \dots + \frac 1n}{\binom{n+100}{100}}.  \]
+  \begin{hint}
+    $\frac{100}{9801}$.
+    Swap the order of summation, and telescope the inverted
+    $\binom{\ast}{100}$ binomial coefficients into $\binom{\ast}{99}$.
+    Then telescope again.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [OMO 2015 F30, Michael Kural]
+  Ryan is learning number theory.
+  He reads about the \emph{M\"obius function} $\mu : \mathbb N \to \mathbb Z$,
+  defined by $\mu(1)=1$ and
+  $\mu(n) = -\sum_{\substack{d\mid n, d \neq n}} \mu(d)$
+  for $n>1$.
+  However, Ryan doesn't like negative numbers, so he invents his own function:
+  the \emph{dubious function} $\Delta : \mathbb N \to \mathbb N$,
+  defined by the relations $\Delta(1)=1$ and
+  \[ \Delta(n) = \sum_{\substack{d\mid n \\ d \neq n}} \Delta(d) \]
+  for $n > 1$. Help Ryan determine the value
+  \[ \sum_{k=0}^{\infty} \frac{\Delta(15^k)}{15^k}.  \]
+  \begin{hint}
+    Answer: $\frac{11}{7}$.
+    Let $f(i,j) = \Delta(3^i5^j)$.
+    Find a recurrence for $f$, and deduce that the
+    corresponding two-variable generating function obeys
+    $F(x,y)=\frac{1}{2}\left(1+\frac{1}{1-2x-2y+2xy}\right)$.
+    Compute the $s^0$ coefficient of $F(s, \frac{1}{15s})$.
+  \end{hint}
+\end{problem}
+
+\section{Hints}
+\makehints
+
+%%fakesection References
+\begin{thebibliography}{9}
+  \bibitem{ref:ORPR} \textbf{Orders Modulo a Prime}, by Evan Chen.
+    \url{http://web.evanchen.cc/handouts/ORPR/ORPR.pdf}
+  \bibitem{ref:EV} \textbf{Expected Uses of Probability}, by Evan Chen.
+    \url{http://web.evanchen.cc/handouts/ProbabilisticMethod/ProbabilisticMethod.pdf}
+  \bibitem{ref:qiaochu} \textbf{Topics in Generating Functions}, by Qiaochu Yuan.
+    \url{https://math.berkeley.edu/~qchu/TopicsInGF.pdf}.
+  \bibitem{ref:gfo} \textbf{generatingfunctionology}, by Herbert Wilf.
+    \url{https://www.math.upenn.edu/~wilf/DownldGF.html}.
+  \bibitem{ref:linear} \textbf{IMOmath: Recurrence Equations}, by Milan Novakovi\'c.
+    \url{http://www.imomath.com/index.php?options=356&lmm=0}
+  \bibitem{ref:imo} \textbf{IMOmath: The Method of Snake Oil}, by Milan Novakovi\'c.
+    \url{http://www.imomath.com/index.php?options=357&lmm=0}
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,818 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy,hints]{evan}
+
+\begin{document}
+\title{Monsters}
+\date{2 October 2016}
+\maketitle
+\begin{abstract}
+  \sffamily\small
+  Whoever fights monsters should see to it that in the process
+  he does not become a monster.
+  And if you gaze long enough into an abyss,
+  the abyss will gaze back into you.
+
+  \medskip
+
+  --- Friedrich Nietzsche
+\end{abstract}
+
+\subsection*{Acknowledgments}
+\textsc{Thanks} to Ashwin Sah for detailed suggestions on an early draft,
+and to Kaan Dokmeci, Mihir Singhal, David Stoner, Colin Tang, Franklyn Wang,
+Jacob Zhang, and Kairat Zhubayev for several corrections.
+
+\section{Warm-Up}
+\begin{problem}
+  [Tournament of Towns 1983]
+  Suppose $f \colon \ZZ^+ \to \ZZ^+$ is strictly increasing and
+  satisfies $f(f(n)) = 3n$ for every positive integer $n$.
+  Evaluate $f(1983)$.
+\end{problem}
+\noindent Solution at \url{http://www.aops.com/community/c6h390679p2170777}.
+
+\section{Introduction}
+Your typical garden-variety functional equation will ask ``find all functions $f$'',
+and there will be an obvious function like $f(x) = x$ which works.
+Most of the time your job will be to prove these are the only solutions.
+
+Sometimes, though, the functional equation will have a nasty surprise: the obvious solutions
+aren't the only ones! The classic example is the relatively
+innocent-looking \[ f \colon \RR \to \RR \qquad f(x+y) = f(x)+f(y) \]
+which is called \vocab{Cauchy's Functional Equation}.
+It is easy enough to get that $f(x) = x \cdot f(1)$ for $x \in \QQ$,
+yet there exist plenty more pathological solutions:
+we will discuss this example in depth later.
+
+Monsters are most dangerous when you don't know they are there.
+If you stubbornly try to prove that $f(x) = x$ is the only solution when it isn't,
+you are destined to fail.
+On the flip side, if you correctly guess the existence of a pathological solution,
+this gives you a huge upper hand!
+
+\section{Clues}
+Here are some clues that you might be dealing with a
+functional equation with some bizarre solutions.
+
+\begin{itemize}
+  \ii \textbf{Some stubborn case appears that can't be resolved.}
+  For example, suppose you obtain that $f(0) \in \{0,1\}$,
+  and you try without success to dispel the $f(0) = 1$ case.
+  Might it be possible there is actually a solution?
+  Check to see if $f(x) = 1-x$ might be a solution too.
+  What if you have $f(x)^2 = x^2$ for all $x$, but you can't get the sign?
+  Might the function change sign at some values of $x$?
+
+  \ii \textbf{Values of the function seem ``too discrete''}.
+  For example, you have $f \colon \ZZ \to \ZZ$ and kind of find a way to relate $f(n+1)$
+  to $f(n)$, but there is still some degree of freedom left.
+  An extreme example of this is \Cref{ex:gabriel}.
+
+  \ii \textbf{You have some values of $f$ down, but others seem out of reach}.
+  This usually happens when $f \colon \RR \to \RR$.
+  Cauchy's Functional Equation is the classical example of this:
+  you can get $f(x)$ at rational values, but how on Earth are you going
+  to get $f(\sqrt 2)$?
+
+  \ii \textbf{All values are ``wrapped by $f$'s'' in the equation}.
+  In such cases you should immediately check for constant solutions.
+  But it's also possible for the function to have a small range
+  in a bizarre way.
+  The legendary example of this is Shortlist 2004 A6,
+  which is \Cref{prob:SL2004A6}.
+
+  \ii \textbf{The problem only uses one operation}.
+  The real numbers have \emph{two} operations, $+$ and $\times$.
+  So it loses some of its structure if, say, there is no multiplication.
+  This is the real reason that Cauchy's Functional Equation has bad solutions:
+  it \emph{ignores} the multiplication structure of $\RR$
+  and only looks at the additive structure.
+\end{itemize}
+
+Similarly, you can generally classify monsters into a few types.
+\begin{itemize}
+  \ii The mildest type of extra solution is when you get an extra function like
+  $f(x) = 1-2x$ when you originally were only expecting $f(x) = x$.
+
+  It may be worth it, at the start of any problem, to
+  \textbf{begin by plugging in polynomials,
+    especially \boldmath{$f(x) = ax+b$}},
+  and seeing if there are any non-obvious solutions.
+  This will help you notice solutions like $x+c$ or $cx$ or $0$,
+  and it will give you a huge advantage should there be an unexpected solution.
+
+  \ii Some monsters take the form of functions $f \colon \ZZ \to \ZZ$ that behave
+  in cases based on the inputs mod $n$.
+  You often pick up such functions when you try to compute $f$ inductively,
+  but find that the proof just won't go through
+  due to some degrees of freedom.
+
+  \ii Still other monsters might take values or signs at certain inputs
+  and other values at different inputs.
+  For example, you might have a case $f(x)^2 = 1$ for all $x$,
+  and be unable to progress past that.
+  This is more likely to happen in the ``limited range'' case specified earlier.
+
+  \ii Finally, you might be dealing with a functional equation $f \colon \RR \to \RR$
+  which requires a Hamel basis (explained below).
+  This probably won't happen in a real olympiad any time soon\dots
+  but it is good to at least be aware of it.
+\end{itemize}
+
+\section{Linear Algebra Terminology}
+Before I proceed, I want to introduce some linear algebra terms,
+so that I can explain things the ``morally correct'' way,
+rather than having to use clumsy terminology.
+If you know linear algebra well, you should skip this section.
+
+Let $K$ be a field (for our purposes, either $\QQ$ or $\RR$).
+\begin{definition}
+  Informally, a \vocab{\boldmath{$K$}-vector space} is a set $V$ such that
+  \begin{itemize}
+    \ii One can add any two elements of $V$, and
+    \ii One can scale elements of $V$ by \emph{scalars} in $K$.
+  \end{itemize}
+  There are some additional axioms\footnote{Reminder for experts:
+    $(K,+)$ is an abelian group with compatible multiplication by scalars in $K$.}
+  (addition should be commutative, $0 \in V$, and $-v \in V$ for all $v \in V$)
+  but we won't concern ourselves with these.
+\end{definition}
+
+The two best examples I have:
+\begin{itemize}
+  \ii The set of real polynomial of degree $\le 2$, that is,
+  \[ W = \left\{ ax^2 + bx + c \mid a,b,c \in \RR \right\}, \]
+  is a real vector space.
+  You can \emph{add} any two such polynomials,
+  and you can multiply them by real numbers.
+  (Here, possibly $a=0$; what goes wrong if I try to force $a \neq 0$?).
+
+  \ii The set of real polynomials is a real vector space, full stop.
+  The sum of two polynomials is a polynomial, and if $P$ is a polynomial then so is $c \cdot P$.
+\end{itemize}
+Stranger example: $\RR$ is a $\QQ$-vector space.
+This will be important later.
+
+Now, let's return to the example $W = \{ax^2+bx+c \mid a,b,c \in \RR\}$.
+You'll instantly recognize that the set $\{1, x, x^2\}$ plays some special role:
+these elements generate all of $W$ in some clean fashion.
+
+To make this formal:
+\begin{definition}
+  A set $\mathcal B$ of vectors is a \vocab{basis} for a vector
+  space $V$ if every vector $v \in V$ can be written \emph{uniquely}
+  as a finite sum of the form
+  \begin{equation}
+    v = t_1 e_1 + t_2 e_2 + \dots + t_m e_m
+    \label{eq:lincomb}
+  \end{equation}
+  where $t_i \in K$, $e_i \in \mathcal B$.
+\end{definition}
+So, $\{1, x, x^2\}$ is a basis of $W$.
+It's not the only one: $\{2, x, x^2\}$ and $\{x+4, x-2, x^2+x\}$
+are other examples of bases, though not as natural.
+However, the set $S = \{3+x^2, x+1, 5+2x+x^2\}$ is not a basis:
+it fails for the following two reasons.
+
+\begin{itemize}
+  \ii Note that
+  \[ 0 = (3+x^2) + 2(x+1) - (5+2x+x^2). \]
+  This violates our uniqueness condition, since $0 = 0$.
+  In this way, we say the elements of $S$
+  are not \vocab{linearly independent}.
+  \ii It's not possible to write $x^2$ as a sum of elements of $S$.
+  (Try it and see why not.)
+  So $S$ fails to be \vocab{spanning}.
+\end{itemize}
+With these new terms, we can just say a basis is a linearly independent, spanning set.
+As you might guess, you always need exactly three elements for $W$.
+More generally:
+\begin{theorem}
+  [Dimension Theorem]
+  Let $V$ be a vector space which has a basis of size $n$.
+  \begin{enumerate}[(a)]
+    \ii Any other basis of $V$ has size $n$,
+    so we say $V$ is \vocab{\boldmath{$n$}-dimensional}.
+    \ii Given $n$ linearly independent elements, they form a basis.
+    \ii Given $n$ spanning elements, they form a basis.
+  \end{enumerate}
+\end{theorem}
+
+It's also possible to have an infinite basis.
+For example, consider the set of polynomials.
+It has a basis $\{1, x, x^2, \dots\}$ in the sense that any polynomial
+is just a \emph{finite} sum $\sum c_k x^k$.
+(Note that \eqref{eq:lincomb} only permits finite sums!)
+
+\begin{remark}
+  Possible spoiler:
+  the Axiom of Choice is actually equivalent to the fact
+  that every vector space has a (possibly infinite) basis.
+\end{remark}
+
+
+\section{Cauchy's Functional Equation}
+\subsection{The Hamel Basis}
+\begin{example}
+  [Cauchy's Functional Equation]
+  Find all functions $f \colon \RR \to \RR$ satisfying $f(x+y) = f(x)+f(y)$.
+\end{example}
+Let's do this example in closer detail.
+Of course, our first na\"{\i}ve guess is that the solution set
+is $f(x) = cx$ for some real number $c$.
+So, we let $f(1) = c$ (as we may, you can think of this as ``scaling'').
+Then
+\[ f(2) = f(1) + f(1) = 2c. \]
+Next
+\[ f(3) = f(2) + f(1) = 3c \]
+and readily we discover $f(n) = nc$, which is right on track.
+We can extend this to get all rational numbers, as for any integers $p$, $q$ we see that
+\[
+  f\left( p \right)
+  = f\left( \frac pq + \dots + \frac pq \right)
+  = q f\left( \frac pq \right) \]
+so $f(p/q) = f(p) / q = c \cdot (p/q)$, which is still spot on.
+
+However, if you try solving the rest of the problem from here you will quickly get stuck.
+We've pinned down the value of $f$ for all rational numbers,
+but how would we get $f(\sqrt 2)$, for example?
+Try all you want, but it won't work.
+
+Here's why.
+What if, rather than talking about $f \colon \RR \to \RR$,
+I asked for solutions of $f \colon \QQ[\sqrt 2] \to \RR$?
+You might at this point be able to guess a solution:
+\[
+  f\left( a + b \sqrt 2 \right)
+  = a + 2015b.
+\]
+Convince yourself that this is well-defined and works --
+the point is that $\sqrt 2$ and $1$ don't talk to each other.
+Analogously, the function
+\[
+  f\left( a + b \sqrt 2 + c \sqrt 3 \right)
+  = a + 2015b + \sqrt{11} c
+\]
+is a perfectly good solution for the inputs on which it's defined.
+
+At this point you might guess how to construct a monster:
+keep throwing in ``foreign'' (linearly independent) elements
+in this way until you get all of $\RR$.
+The bad news is that you will need not only infinitely many elements,
+but in fact \emph{uncountably} many elements, so this can't be done with normal induction.
+The good news is that this has all been worked out for you,
+and this is where the Axiom of Choice gets used in a so-called \emph{transfinite induction}.
+
+If you're interested in the details, check out
+\url{https://blog.evanchen.cc/2015/04/10/cauchys-functional-equation-and-zorns-lemma/}.
+For this handout I will just state the result.
+
+\begin{proposition}
+  [Hamel Basis]
+  $\RR$ has a basis as a $\QQ$-vector space.
+  Thus, there exists an infinite collection of real numbers
+  $\{e_\alpha\}$ such that for any real number $x \in \RR$,
+  there is a \textbf{unique} way to write $x$ as a
+  \textbf{finite} linear combination
+  \[ x = a_1e_{\alpha_1} + a_2e_{\alpha_2} + \dots + a_n e_{\alpha_n}. \]
+  The numbers $\{e_\alpha\}$ are called a \vocab{Hamel basis}.
+\end{proposition}
+Concretely, you can almost think of this as saying something like
+\[ \RR = \left\{ a_1 + \sqrt2 a_2 + \sqrt3 a_3 + a_4\pi + a_5e + \dots
+  \mid a_1, \dots \in \QQ \right\}. \]
+One literally just keeps throwing in elements until we get all of $\RR$,
+and the Axiom of Choice is used to make this rigorous.
+
+In any case, this resolves the original Cauchy's Functional Equation.
+We simply take a Hamel basis, and assign $f(e_\alpha)$ arbitrarily for each $\alpha$.
+Then, declare
+\[ \boxed{f\left(\sum a_\alpha e_\alpha \right) = \sum a_\alpha f(e_\alpha)}. \]
+Those of you familiar with linear algebra may recognize this as the following assertion:
+to specify a linear map, it suffices to specify it on the basis elements.
+
+\begin{exercise}
+  [Combinatorics Practice]
+  Show that any Hamel basis has \emph{uncountably infinitely} many elements.
+  (This is why I insist on calling it $\{e_\alpha\}$ rather than $e_1$, $e_2$, \dots.)
+\end{exercise}
+
+If you know linear algebra well,
+then you can summarize the entire section as follows:
+view $\RR$ as a $\QQ$-vector space.
+The Axiom of Choice lets you take a basis, which trivializes Cauchy's Functional Equation.
+
+
+\subsection{Repairing Cauchy's Functional Equation}
+Nonetheless, the ``pathological'' solutions to Cauchy's Functional Equation
+exhibit some non-standard behaviors.
+Roughly, they ignore the ``order'' structure of $\RR$.
+
+\begin{theorem}
+  [Properties of the Nonlinear Solutions]
+  Suppose $f \colon \RR \to \RR$ is additive but not linear.
+  Consider the \emph{graph} of $f$, i.e.\ the set of points
+  \[ G = \left\{ (x,y) \in \RR^2 \mid y = f(x) \right\}. \]
+  Then $G$ is dense in the plane:
+  any disk in $\RR^2$ contains points of $G$.
+\end{theorem}
+Hence, if we tried to print a plot of the function,
+the entire page would be covered in ink!
+\begin{proof}[Sketch of Proof]
+  Suppose $f$ is an additive nonlinear function; WLOG $f(1) = 0$ (why?).
+  I'll show one can find points of $f$ close to any given point $(X,Y)$.
+
+  Since $f$ isn't linear, there's some $\alpha$ such that $f(\alpha) \neq 0$,
+  say $f(\alpha) = z \neq 0$.
+  Thus, for any other rational numbers $q$ and $r$, we have
+  \[ f(q\alpha+r) = qz. \]
+  So, pick $q$ such that $qz$ is close to $Y$;
+  then pick $r$ such that $q\alpha+r$ is close to $X$.
+  Since $\QQ$ is ``dense in $\RR$'' we can make this as accurate as we want.
+\end{proof}
+
+Looking at the non-empty half of the glass of water,
+we can mold the above pathology into the following corollary.
+\begin{corollary}
+  [Continuous/Bounded Cauchy]
+  Suppose $f \colon \RR \to \RR$ satisfies Cauchy's Functional Equation,
+  and \textbf{any} of the following conditions holds:
+  \begin{itemize}
+    \ii $f$ is continuous
+    \ii $f$ is monotone
+    \ii $f \ge 0$ for $x \ge 0$ (or any nontrivial interval).
+  \end{itemize}
+  Then $f$ is a linear function.
+\end{corollary}
+
+In general, if an olympiad problem tells you a function is continuous
+(or something even stronger like ``smooth''),
+this is a strong hint that you are trying to prove the function is additive.
+Another possible hint is if the domain is $\QQ$ (but more often this
+means induction-like solutions that don't carry over to $\RR$).
+
+\subsection{Involutions for Cauchy's Functional Equation}
+Here is an example of a condition that's \emph{not} enough to get rid of pathology.
+\begin{example}
+  [Involutions of Cauchy's FE]
+  \label{ex:invol}
+  Find all functions $f \colon \RR \to \RR$  satisfying
+  \[ f(x+y) = f(x)+f(y) \quad\text{and}\quad f(f(x)) = x. \]
+\end{example}
+This might be surprising, since $f(f(x)) = x$
+(such functions are called \vocab{involutions})
+is a fairly strong condition, for example:
+\begin{exercise}
+  Check that an involution must be both injective and surjective.
+\end{exercise}
+Nonetheless, this does have pathological solutions.
+To understand why, we have to think about vector spaces more deeply.
+
+Our hope would be that the only solutions are $f(x) = \pm x$.
+Unfortunately, as we saw in the last problem, you can decompose $\RR$ in such a way that
+``elements in different parts don't talk to each other''.
+We can do the same thing here.
+Imagine we have a Hamel basis $\{e_\alpha\}$.
+What we can do is, for every $\alpha$, pick a sign $\eps_\alpha \in \{\pm1\}$.
+Then, we have a solution given by sending each $e_\alpha$ to $\eps_\alpha e_\alpha$,
+and then extending linearly.
+
+There's another way to think of this in terms of decompositions.
+\begin{definition}
+  Let $V$ be a $K$-vector space, and suppose $A, B \subset V$ are subspaces
+  (meaning they are themselves $K$-vector spaces).
+  We write $V = A \oplus B$ for $A, B \subset V$ if the following holds:
+  every element of $V$ is \emph{uniquely} a sum of the form $a + b$,
+  where $a \in A$, $b \in B$.
+  Equivalently, $A \cap B = \{0\}$ and every element of $V$ is the sum
+  of two elements in $A$ and $B$.
+  We say $V$ is a \vocab{direct sum} of $A$ and $B$.
+\end{definition}
+For example, if $V$ is the set of real polynomials of degree $\le 2$,
+then if we let
+\[ A = \{ kx^2 \mid k \in \RR \} \quad\text{and}\quad B = \{ kx  + \ell \mid k,\ell \in \RR \} \]
+then we have $V = A \oplus B$.
+
+In that case, we can generate solutions to \Cref{ex:invol}
+in the following form: given \emph{any} decomposition $\RR = A \oplus B$,
+we take any given $x = a+b$, and send it to $f(x) = a-b$.
+Thus, $f(f(x)) = f(a + (-b)) = a + b$ back.
+In fact, all solutions look like this!
+
+\begin{proof}[Solution to \Cref{ex:invol}]
+  To be clear, we claim the solutions are exactly those of the following form:
+  for any decomposition $\RR = A \oplus B$,
+  we let $f(a+b) = a-b$.
+  Since such solutions clearly work, we need to prove all solutions
+  can be written in this way.
+
+  Given such a function $f$,
+  let $A$ be the set of $x$ such that $f(x) = +x$
+  and $B$ be the set of $x$ such that $f(x) = -x$.
+  \begin{exercise}
+    Show that $A$ and $B$ are vector spaces with $A \cap B = \{0\}$.
+  \end{exercise}
+
+  We prove that every number $x \in \RR$ can be written as the sum of an element of $A$
+  and the sum of an element from $B$ now.
+  Here's why:
+  \begin{align*}
+    f\left( \frac{x+f(x)}{2} \right) &= \frac{f(x)+f(f(x))}{2} = \frac{f(x)+x}{2} \\
+    f\left( \frac{x-f(x)}{2} \right) &= \frac{f(x)-f(f(x))}{2} = \frac{f(x)-x}{2}.
+  \end{align*}
+  So $\half(x+f(x)) \in A$ and $\half(x-f(x)) \in B$, but these two elements sum to $x$.
+
+  So since $A+B$ generates $\RR$ but $A \cap B = \{0\}$,
+  we deduce that $A$ and $B$ are $\QQ$-supplementary subspaces of $\RR$
+  --- in other words, for every $x \in \RR$,
+  we can \emph{uniquely} write $x = a + b$.
+  This completes the proof.
+\end{proof}
+
+If this was confusing, it may help to redo this problem over $\QQ[\sqrt2] \to \QQ[\sqrt2]$.
+An example of a solution in this simpler situation is
+\[ f(a+b\sqrt2) = a-b\sqrt2. \]
+or even
+\[ f(a+b(\sqrt2+1)) = a-b(\sqrt2+1). \]
+It's harder to visualize for $\RR$ because we have no idea what the Hamel basis looks like.
+
+\begin{remark}
+  [For Linear Algebra Experts]
+  This boils down to the following: we're trying to find all $\QQ$-linear endomorphisms
+  $f \colon \RR \to \RR$ such that $f^2 = \id$.
+  So we see that $A$ is the set of $+1$ eigenvectors of $f$
+  and $B$ is the set of $-1$ eigenvectors of $f$.
+  These are the only possible eigenvalues:
+  if $f(v) = \lambda v$ we have $\lambda^2 v = v$,
+  thus $\lambda = \pm 1$.
+\end{remark}
+
+\section{Example: An Integer Functional Equation}
+We next give an example of a functional equation which has behavior modulo $n$.
+It stems from the fact that one can determine its values from a few inputs,
+but that there is still some freedom left over.
+\begin{example}[Gabriel Dospinescu, 2005]
+  \label{ex:gabriel}
+  Find all $f \colon \ZZ \to \RR$ satisfying
+  \[f (x + y) + f (1) + f (xy) = f (x) + f (y) + f (1 + xy). \]
+\end{example}
+% http://www.artofproblemsolving.com/community/q3h39158p582349
+% http://www.artofproblemsolving.com/community/c6h568652
+
+This solution is involved, and I split it into many pages.
+In my opinion it is not a realistic example of a problem that will show up on a contest.
+But it illustrates the kind of technical difficulties you run into
+when you have a function that is ``kind of'' determined by induction,
+and how they can lead to the existence of pathological solutions.
+
+\begin{exercise}
+  Before reading the solution to follow,
+  try and find as many functions satisfying the condition as you can.
+  \label{exer:foresight}
+\end{exercise}
+
+\subsection{Shifting}
+First, we plug in $f(x) = ax+b$ to see which linear functions work.
+Surprisingly, all of them do!
+While this might be discouraging, it gives us a starting point,
+by shifting $f$ appropriately, we may assume that $f(0) = 0$,
+and then we may assume that $f(1) = 1$.
+To be more verbose, if $\tilde f$ is a solution to the functional equation then so is
+\[
+  f(x) = \tilde f(x) - c_1 x - c_2
+\]
+and we can select $c_1$, $c_2$ such that $f(0) = 0$, $f(1) = 1$.
+So there is no harm in making these assumptions for now.
+
+It's worth noting at this point that this functional equation is \emph{highly linear}.
+Specifically, if $f$ is a solution, so is $c \cdot f$;
+similarly, if $g$ is a solution, then so is $f+g$.
+In linear algebra terms, the set of solutions is a \emph{real vector space}.
+This is worth noting, because if we find even more solutions they can all add
+together to generate further solutions.
+
+\subsection{Reduction to a Finite System}
+Plugging in $x=y=0$ is the natural first move, but here it yields nothing.
+In fact, even plugging in $y=0$ yields nothing
+(and so there is no point in trying $x=0$ either, since the equation is symmetric).
+So, let's instead try plugging in $y=1$ to obtain
+\[ f(x+1) + f(1) + f(x) = f(x) + f(1) + f(x+1). \]
+Incredibly, still nothing.
+
+How about $y=2$? We now have that
+\begin{equation}
+  f(2x+1) + f(2) + f(x) = f(2x) + 1 + f(x+2)
+  \label{eq:n2}
+\end{equation}
+In a similar line of thought, if we use $4$ instead of $2$ we have
+\begin{equation}
+  f(4x+1) + f(4) + f(x) = f(4x) + 1 + f(x+4)
+  \label{eq:n4}
+\end{equation}
+We now want to get terms of \eqref{eq:n2} and \eqref{eq:n4} to cancel.
+So we replace $x$ with $2x$ in \eqref{eq:n2} to get
+\begin{equation}
+  f(4x+1) + f(2) + f(2x) = f(4x) + 1 + f(2x+2)
+  \label{eq:2n2}
+\end{equation}
+Thus, if we subtract \eqref{eq:n4} and \eqref{eq:2n2}, we get massive cancellation;
+when the dust settles we are left with
+\[ f(x) + f(4) + f(2x+2) = f(x+4) + f(2x) + f(2). \]
+In short, we've found that
+\begin{align*}
+  f(2x+1) &= f(2x) + f(x+2) + 1 - f(x) - f(2) \\
+  f(2x+2) &= f(2x) + f(x+4) + f(2) - f(4) - f(x).
+\end{align*}
+This is good, because it lets us construct $f$ inductively given enough base cases,
+at least for positive inputs.
+For example, if we know $f(0)$, $f(1)$, \dots, $f(99)$ then
+we can compute $f(100) = f(98)+f(53)+1-f(4)-f(49)$, and so on.
+In fact:
+\begin{exercise}
+  Check that if we know $f(n)$ for $n=0,1,2,3,4,6$ then we know $f(n)$ for all $n \ge 0$.
+\end{exercise}
+
+Let's now see if we can pin down some information about the negative values of $x$.
+The natural thing to do is put $y=-1$, which tells us
+\[ f(x-1) + f(1) + f(-x) = f(x) + f(-1) + f(1-x). \]
+Thus, we see that if we know $f(-1)$, we can also extract the values of all
+negative integers by induction.
+Happily enough, we already know (or rather, have assumed) that $f(0) = 0$ and $f(1) = 1$,
+and we have narrowed our sights down to seven values of $n$ we'd like to compute.
+
+In fact, we can do even better with the negative integers.
+If we plug in $(-x,-y)$ into the given, we obtain that
+\[ f(-(x+y)) + f(1) + f(xy) = f(-x) + f(-y) + f(1+xy). \]
+This looks quite like the given, and motivates the following idea:
+let $h(x) = f(x)-f(-x)$, then
+\[ h(x+y) = h(x) + h(y) \]
+by subtracting the given from the previously derived equation.
+Thus, $h(x) = x \cdot h(1)$ by induction, and now we obtain
+\[ f(-x) = f(x) - x \left( 1-f(-1) \right). \]
+
+\subsection{Pinning Down}
+The next part is somewhat bloody, so I'll spare the details and just say what things to plug in.
+\begin{exercise}
+  By plugging in $(x,y)=(-2,2)$ and $(-1,4)$, show that
+  \[ f(-1) = f(0) - 2f(2) + 2f(1) - f(3) + f(4). \]
+\end{exercise}
+\begin{exercise}
+  By considering $f(-x)$ for $x\in\{1,2,5,6\}$ and also $(x,y) = (2,2)$ and $(x,y)=(-2,3)$,
+  show that \[ f(6) = f(0) - 3f(2) + 3f(4). \]
+\end{exercise}
+These are not \emph{too} unrealistic to come up with yourself.
+The idea is that we've pinned the problem down to a small, finite set of values.
+So we keep plugging in ``local'' values: small values of $x$ and $y$
+and see what we can make out of it.
+Given enough time, you'll manage to get rid of $f(-1)$ and $f(6)$,
+but not so with the other values of $x$.
+
+(Remark: I think if you change the problem to $\ZZ_{\ge 0} \to \RR$,
+then you can't get rid of $f(6)$ either.)
+
+\subsection{The Solution Set}
+So, it remains to compute $f(0)$, $f(1)$, $f(2)$, $f(3)$, $f(4)$,
+and as we've seen already we may safely assume that $f(0) = 0$, $f(1) = 1$.
+Unfortunately, try as you might, you'll find that it's impossible to determine
+any of $f(2)$, $f(3)$, $f(4)$ from the $f(0) = 0$ or $f(1) = 1$ alone.
+
+Eventually, you get tired of this, and might ask the flip direction:
+``what \emph{does} go wrong if $f(4) \neq 4$, say?''.
+So, let's put $f(2)=2$, $f(3)=3$, $f(4) = 5$ and see where it takes us.
+By pumping the recursion and the formula for $f(6)$,
+we get the first few values of $f$ ``should'' be:
+\[
+  \begin{array}{c|ccccc|ccccccr}
+    f & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & \dots\\ \hline
+      & 0 & 1 & 2 & 3 & 5 & 7 & 9 & 12& 15& 18& 22 & \dots
+  \end{array}
+\]
+and so on.
+Now, we look for the pair $(x,y)$ which causes the given to be false.
+
+And then the surprise comes: there is none.
+In fact, the function defined by the terrible recursion
+is an honest-to-god solution to the original functional equation.
+And in fact, it turns out you can repeat the experiment with \emph{any} values of
+$f(2)$, $f(3)$, $f(4)$, and it will yield a valid solution.
+
+What's going on?
+Well, depending on how many solutions you found in \Cref{exer:foresight},
+you might be more or less surprised than others.
+In particular, if you found the following five solutions then
+this is no surprise at all:
+\begin{align*}
+  f(x) &= 1, x, x^2 \\
+  f(x) &= x \mod 2 \in \{0,1\}\\
+  f(x) &= x^2 \mod 3 \in \{0,1\}.
+\end{align*}
+Letting $\pi_2(x) = x \mod 2$ and $\pi_3(x) = x^2 \mod 3$, we see that
+every function of the form
+\[ f(x) = a + bx + cx^2 + d\pi_2(x) + e\pi_3(x) \]
+is a solution to the functional equation,
+for arbitrary reals $a$, $b$, $c$, $d$, $e$.
+Reason: the five functions exhibited above are linearly independent,
+and since the dimension of the solution space is $\le 5$
+they must form a basis for the entire solution space.
+(In elementary terms, you can just solve for $a$, $b$, $c$, $d$, $e$
+given $f(0)$, $f(1)$, $f(2)$, $f(3)$, $f(4)$.)
+
+So, the set of solutions is the real vector space of dimension $5$
+given by the basis elements $1$, $x$, $x^2$, $x \mod 2$ and $x^2 \mod 3$.
+
+\section{Problems}
+Just to keep you on your toes: two of the problems here are completely benign,
+with only the ``obvious'' solutions.
+Note also that the last few problems are quite difficult (possibly too hard to use on a contest),
+and so even completely guessing the solution set is a fine achievement.
+
+Thanks to Art of Problem Solving user \textbf{pco} for pointing me to many of these.
+Personal recommendations:
+\ref{prob:group}, \ref{prob:fff}, \ref{prob:kaz}, \ref{prob:sevensol}.
+By ``solve over $K$'' I mean ``find all functions $f \colon K \to K$
+such that the equation holds for all inputs in $K$''.
+
+\begin{problem}
+  [Albania TST 2008]
+  Solve $f(x+f(y))=y+f(x+1)$ over $\RR$.
+  % http://www.artofproblemsolving.com/community/c6h578688
+  % 1+x and 1-x
+  \begin{hint}
+    Substituting $f(x) = g(x) + 1$, we get $g$ satisfies \Cref{ex:invol}.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [IMO 2012/4]
+  Find all functions $f \colon \ZZ \to \ZZ$ such that,
+  for all integers $a$, $b$, $c$ that satisfy $a+b+c=0$,
+  the following equality holds:
+  \[ f(a)^2+f(b)^2+f(c)^2 = 2f(a)f(b)+2f(b)f(c)+2f(c)f(a). \]
+  % integer trap
+  \begin{hint}
+    For arbitrary $k \in \ZZ$, we have
+    \begin{enumerate}[(i)]
+      \ii $f(x) = kx^2$,
+      \ii $f(x) = 0$ for even $x$, and $f(x) = k$ for odd $x$, and
+      \ii $f(x) = 0$ for $x \equiv 0 \pmod 4$, $f(x) = k$ for odd $x$, and $f(x) = 4k$ for $x \equiv 2 \pmod 4$.
+    \end{enumerate}
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [ELMO 2014]
+  Find all triples $(f,g,h)$ of injective functions from the set of real numbers to itself satisfying
+  \begin{align*}
+    f(x+f(y)) &= g(x) + h(y) \\
+    g(x+g(y)) &= h(x) + f(y) \\
+    h(x+h(y)) &= f(x) + g(y)
+  \end{align*}
+  for all real numbers $x$ and $y$.
+  % benign
+  \begin{hint}
+    Benign. $x+c$.
+    Let $a=f(0)$, $b=g(0)$, $c=h(0)$, and eliminate $g$, $h$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Shortlist 2001 A4]
+  Find all functions $f \colon \RR \to \RR$ satisfying
+  \[ f(xy)(f(x) - f(y)) = (x-y)f(x)f(y) \]
+  for all real numbers $x$ and $y$.
+  \label{prob:group}
+  % multiplicatively closed subgroup
+  \begin{hint}
+    For any $c \in \RR$, $f(x) \in \{0,cx\}$ for every $x$
+    and $\{ x : f(x) \neq 0 \}$ is a multiplicatively closed group.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [ELMO Shortlist 2013]
+  \label{prob:fff}
+  Let $f^k(n)$ denote the function $f$ applied $k$ times.
+  Solve over positive integers the functional equation
+  \[ f^{f^{f(n)}(n)}(n) = n. \]
+  % just do it
+  \begin{hint}
+    $f$ is a bijection, so consider its finite cycles,
+    and look for divisibility (``order'') conditions.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [EGMO 2012/6]
+  Determine all functions $f \colon \RR \to \RR$ satisfying the condition
+  \[f(y^2+2xf(y)+f(x)^2)=(y+f(x))(x+f(y))\]
+  for all real numbers $x$ and $y$.
+  % extra 1/2 - x
+  \begin{hint}
+    $x$, $-x$ and $\half - x$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [January TST for IMO 2015, ``Cauchy's FE modulo $1$'']
+  Let $f \colon \QQ \to \QQ$ be a function such that for any $x,y \in \QQ$,
+  the number $f(x+y)-f(x)-f(y)$ is an integer.
+  Decide whether there must exist a constant $c$ such that $f(x) - cx$
+  is an integer for every rational number $x$.
+  % just do it
+  \begin{hint}
+    Many constructions exist. Try powers of two, or defining $f(p/q)$ in terms of $p$, $q$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [TSTST 2011/1]
+  Find all $f \colon \RR^2 \to \RR$ with the property that for any $a$, $b$, $c$,
+  the median of $a$, $b$, $c$ is the median of $f(a,b)$, $f(b,c)$, $f(c,a)$.
+  % benign
+  \begin{hint}
+    Benign, only two trivial solutions.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [IMO 2015/5]
+  Solve the functional equation $f(x+f(x+y)) + f(xy) = x + f(x+y) + yf(x)$
+  over the real numbers.
+  % extra 2-x
+  \begin{hint}
+    $x$ and $2-x$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Kazakhstan 2005]
+  \label{prob:kaz}
+  Solve over $\RR$: \[ f(f(x)+x+y)=2x+f(y). \]
+  \begin{hint}
+    $f(a+b) = a-2b$, where $\RR = A \oplus B$ again.
+    You could have seen this coming if you realized both $x$ and $-2x$ were solutions.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Shortlist 2013 A5]
+  Solve $f(f(f(n))) = f(n+1)+1$ over the nonnegative integers.
+  % integer trap
+  \begin{hint}
+    $f(n) = n+1$ and \[
+      f(n) = \begin{cases}
+        n+1 & n \text{ even} \\
+        n+5 & n \equiv 1 \pmod 4 \\
+        n-3 & n\equiv 3 \pmod 4.
+      \end{cases} \]
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [ELMO Shortlist 2012]
+  \label{prob:sevensol}
+  Solve over $\QQ$: \[ f(x)f(y)f(x+y) = f(xy)(f(x) + f(y)). \]
+  % insane
+  \begin{hint}
+    There are seven solutions. To describe them, first for $\gcd(p,q) = 1$ we let
+    \[ g(p/q) =
+      \begin{cases}
+        0 & pq \equiv 0 \pmod 3 \\
+        -2 & pq \not\equiv p-q \equiv 0 \pmod 3 \\
+        2 & pq \not\equiv p+q \equiv 0 \pmod 3.
+      \end{cases}
+    \]
+    Then the solutions are $f(x) = 0$, $f(x) = 2$, $f(x) = x$, $f(x) = g(x)$,
+    or the restrictions of these solutions to $\RR^+$ with $f(x) = 0$ for $x \le 0$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Shortlist 2004 A6]
+  \label{prob:SL2004A6}
+  Find all functions $f\colon \RR \to \RR$ which obey
+  \[ f(x^2+y^2+2f(xy)) = (f(x+y))^2 \]
+  for all real numbers $x$ and $y$.
+  % insane
+  \begin{hint}
+    $f(x) = x$, $f(x) = 0$, and for any set $S \subset (-\infty, -\frac23)$, the solution
+    \[
+      f(x) =
+      \begin{cases}
+        1 & x \notin S \\
+        -1 & x \in S.
+      \end{cases}
+    \]
+  \end{hint}
+\end{problem}
+
+\vspace{2em}
+
+\noindent Hints are on the next page.
+Most of them merely tell you the set of solutions.
+
+\eject
+
+\section{Hints}
+\makehints
+
+\end{document}

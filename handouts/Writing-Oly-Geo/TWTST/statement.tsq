@@ -1,0 +1,25 @@
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+A--B--C--cycle red
+I = incenter A B C R150
+
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T = extension E F B C
+
+O := circumcenter A E F
+S = extension F F+(O-F)*dir(-90) E E+(O-E)*dir(90)
+circumcircle A F E dashed mediumgreen
+E--S--F dashed mediumgreen
+
+B--I--C orange
+E--T--B
+
+circumcircle midpoint B--C midpoint B--I midpoint C--I blue
+CP midpoint S--T S blue
+S--T blue
+!dot(midpoint(B--C));
+!dot(midpoint(B--I));
+!dot(midpoint(C--I));

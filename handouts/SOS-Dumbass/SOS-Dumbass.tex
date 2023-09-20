@@ -1,0 +1,615 @@
+\documentclass{scrartcl}
+\usepackage[sexy]{evan}
+
+\begin{asydef}
+// Draws triangle for Chinese dumbass notation.
+// real[] M are the entries of the triangle, from left to right, up to down.
+// deg is the degree (one less than the number of rows).
+
+void dumbass(real[] M, int deg, pair base=(0,0), real dist = 1) {
+  int n = deg + 1;
+  int k = 0;
+  for (int i=0; i<n; i += 1) {
+    for (int j=0; j<=i; j += 1) {
+      pair P = ( 2*dist*j + dist*(n-i), (n-i)*dist) + base;
+      // string coeff = "$" + string(M[k]) + "$";
+      string coeff = string(M[k]);
+      label(coeff, P);
+      k += 1;
+    }
+  }
+  return;
+}
+\end{asydef}
+
+\begin{document}
+\title{Supersums of Square-Weights (SOS)}
+\subtitle{A Dumbass's Perspective}
+\date{6 January 2013}
+\maketitle
+
+\begin{abstract}
+  The intended audience should already familiar with Muirhead and Schur.
+  This article is centered around two powerful tools
+  for solving polynomial-type inequalities:
+  the SOS technique and Chinese Dumbass Notation.
+\end{abstract}
+
+\section{Introducing SOS}
+\begin{quote}
+  \emph{The whole point of SOS is so that you can use AM-GM backwards}. \\
+  --- MOP 2012
+\end{quote}
+
+\subsection{A Motivating Example}
+\begin{example}
+  For $a,b,c \ge 0$, prove that \[ \frac{2}{3}(a^2+b^2+c^2)^2 \ge a^3(b+c) + b^3(c+a) + c^3(a+b). \]
+\end{example}
+\begin{soln}
+  Schur/Muirhead is not sufficient here.
+  Thinking wishfully, we can write down the two inequalities
+  \begin{align*}
+    \half \left( a^4+b^4 \right) &\ge \half (a^3b+ab^3) \\
+    2a^2b^2 &\le a^3b + ab^3
+  \end{align*}
+
+  The cyclic sum of these two inequalities will yield the desired quantity.
+  Unfortunately, we're not allowed to add two different inequalities in different directions.
+  Or can we?
+
+  Rewrite the two inequalities as:
+  \begin{align*}
+    \half \left( a^2+ab+b^2 \right)(a-b)^2 &\ge 0 \\
+    (-ab)(a-b)^2 &\le 0 \\
+  \end{align*}
+
+  Now their ``sum'' is
+  \[ \half (a^2-ab+b^2)(a-b)^2 \ge 0 \]
+  which is true!
+  \emph{So our attempt to add two inequalities pointing in different directions
+  has led to the identity}:
+  \[ \half \cycsum (a^2-ab+b^2)(a-b)^2 \ge 0 \]
+  and the problem is solved.
+\end{soln}
+
+This is a strong way to motivate the method:
+by factoring out a square $(a-b)^2$, we can ``measure'' the strength of an inequality
+that we are trying to apply, and thus we may add and subtract these square weights
+without regards to direction.
+
+\subsection{The SOS Theorem}
+The basic idea is to write an inequality in the form
+\[ S_a (b-c)^2 + S_b (c-a)^2 + S_c (a-b)^2 \ge 0. \]
+If it so happens that $S_a$, $S_b$ and $S_c$ are nonnegative, then we are done.
+For sharper inequalities this may not be the case;
+however, most of the time we can still finish using some minor adjustments.
+Some of the nicer estimates are provided below.
+They are drawn from \cite{sos}.
+
+\begin{theorem}[Pham Kim Hung]
+  \label{thm:sos}
+  Consider the sum $S = S_a(b-c)^2 + S_b(c-a)^2 + S_c(a-b)^2$.
+  Then $S \ge 0$ if any of the following take place:
+  \begin{enumerate}[(i)]
+    \ii $S_a$, $S_c$, $S_a + 2S_b$, $S_c + 2S_b$ are all nonnegative.
+    \ii $S_b$, $S_a+S_b$ and $S_b+S_c$ are all nonnegative when $b$ is the median of $\{a,b,c\}$.
+    \ii $S_b$, $S_c$ and $b^2S_a + a^2S_b$ are all nonnegative when $a \ge b \ge c$.
+  \end{enumerate}
+\end{theorem}
+\begin{proof}
+  For the first part, the AM-GM $(a+c)^2 + (2b)^2 \ge 4b(a+c)$
+  yields $(a-c)^2 \le 2(a-b)^2 + 2(b-c)^2$.
+  If $S_b \ge 0$ we are already done; else make the estimate
+  \begin{align*}
+    S &\ge S_c(a-b)^2 + S_a(c-b)^2 + \left(2(a-b)^2 + 2(b-c)^2\right) S_b \\
+    &= (S_c+2S_b)(a-b)^2 + (S_a+2S_b)(c-b)^2 \\ &\ge 0. \\
+    \intertext{For the second part,
+      we have $(b-a)(b-c) \le 0 \implies (a-c)^2 \ge (a-b)^2 + (b-c)^2$,
+      so we make the estimate}
+    S &\ge S_a(b-c)^2 + S_c(a-c)^2 + S_b\left( (b-c)^2 + (a-c)^2 \right) \\
+    &= (S_a + S_b)(b-c)^2 + (S_b + S_c)(a-c)^2 \\ &\ge 0. \\
+    \intertext{The third part follows from observing that when $a \ge b \ge c$ we have
+      $\frac{a-c}{b-c} \ge \frac{a}{b}$, so that $(a-c)^2 \ge \frac{a^2}{b^2}(b-c)^2$.
+      Hence, we drop the $S_c(a-b)^2$ term to obtain}
+    S &\ge S_a(b-c)^2 + S_b(a-c)^2 \\
+    &\ge S_a (b-c)^2 + S_b \left( \frac{a^2(b-c)^2}{b^2} \right) \\
+    &= \left( \frac{b-c}{b} \right)^2 \left( b^2S_a + a^2S_b \right) \\
+    &\ge 0. \qedhere
+  \end{align*}
+\end{proof}
+
+\section{Chinese Dumbass Notation}
+Before proceeding further I would like to make sure the reader is acquainted
+with the extremely useful Chinese Dumbass Notation, as described in \cite{cdn}.
+Chinese Dumbass Notation is a convenient way of presenting a polynomial inequality,
+making it significantly easier to find the suitable applications.
+
+The idea is that the coefficients of an inequality of the form $P(a,b,c) \ge 0$
+are held in a triangle of side length $\deg P + 1$,
+where the coefficient of the $a^x b^y c^z$ term are located at the point with
+\href{https://web.evanchen.cc/handouts/bary/bary-full.pdf}{barycentric coordinates} $(x:y:z)$.
+Explicitly for, say, the third degree:
+\[
+  \begin{array}[t]{ccccccc}
+    &&& [a^3] &&& \\
+    && [a^2b] && [a^2c] && \\
+    & [ab^2] && [abc] && [ac^2] & \\ {}
+    [b^3] && [b^2c] && [bc^2] && [c^3]
+  \end{array}
+\]
+To further illustrate the point, here are some common inequalities:
+\begin{figure}[h]
+  \centering
+  \begin{asy}
+  real sep = 10;
+  size(15cm);
+  real[] M = {
+    0,
+    0,0,
+    0,0,0,
+    1,-1,-1,1
+  };
+  dumbass(M,3,(0,7));
+  // b^3+c^3 \ge bc(b+c)
+
+  real[] M = {
+    1,
+    -1,-1,
+    1,-1,1
+  };
+  dumbass(M, 2, (10,7));
+  // a^2+b^2+c^2 \ge ab+bc+ca
+
+  real[] M = {
+    1,
+    -1, -1,
+    -1, 3, -1,
+    1, -1, -1, 1
+  };
+  dumbass(M,3, (20,7));
+
+
+  real[] M = {
+    1,
+    -2,0,
+    1,0,0
+  };
+  dumbass(M,2, (0,0));
+  // (a-b)^2 \ge 0
+
+  real[] M = {
+    2,
+    -3, -3,
+    4, 0, 4,
+    -3, 0, 0, -3,
+    2,-3,4,-3,2
+  };
+  dumbass(M,4, (8,0));
+  // The first example
+
+  real[] M = {
+    1,
+    -1, -1,
+    0, 1, 0,
+    0, 0, 0, 0,
+    -1, 1, 0, 1,-1,
+    1,-1, 0, 0, -1,1
+  };
+  dumbass(M,5, (18,0));
+  // Degree 5 Schur
+
+  \end{asy}
+  \caption{First row: $b^3+c^3 \ge bc(b+c)$, $a^2+b^2+c^2 \ge ab+bc+ca$ and 3rd degree Schur.
+  Second row: $(a-b)^2 \ge 0$, our first example, and 5th degree Schur.}
+  \label{fig:cdnexamples}
+\end{figure}
+
+What makes this notation powerful?
+Once one recognizes Schur and AM-GM, then it is visually easy to see
+how strong\footnote{In particular, if the last row sums to zero
+  then equality holds at $b=c$, $a=0$.} the inequality is.
+Furthermore, if one is using SOS, then they can pull out things like $\{1, -2, 1\}$
+and $\{1, -1, -1, 1\}$ from rows (things like the upper-left diagram).
+One may also recognize $\{1,-4,6,-4,1\}$ as $(a-b)^4$.
+
+Finally, one can often use the identity
+$ a^3+b^3+c^3-3abc = \half \cycsum (a+b+c)(b-c)^2 $
+to convert a $3$-variable application of AM-GM to SOS form.
+But it is usually sufficient to just add/subtract things which are parallel to the sides of the triangle.
+
+\subsection{Chinese Dumbass Notation: An Example}
+To impress the usefulness of this notation, we provide an instructive example.
+The unfamiliar reader is strongly encouraged to try and solve this problem
+(via expansion) before reading the solution below.
+\begin{example}[MOP 2011]
+  Let $a,b,c$ be positive real numbers such that $a+b+c=3$. Show that
+  \[ \frac{1}{a} + \frac{1}{b} + \frac{1}{c} \ge 1 + 2\sqrt{ \frac{a^2+b^2+c^2}{3abc} }. \]
+\end{example}
+
+\begin{soln}
+  Homogenizing and rearranging, this becomes
+  \[ \left( \left( a+b+c \right) \left( \frac{1}{a} + \frac{1}{b} + \frac{1}{c} \right) - 3 \right)^2
+    \ge 4\left( \frac{(a+b+c)(a^2+b^2+c^2)}{abc} \right) \]
+  Expanding and clearing denominators, this reduces to
+  \[ \symsum a^4b^2 + 2\cycsum a^3b^3+ 6a^2b^2c^2 \ge 2 \cycsum a^4bc + 2 \symsum a^3b^2c. \]
+  Trying to fight with this mess is no easy task.
+  But watch how easy the problem once we put in a triangle:
+
+  \begin{figure}[h]
+    \centering
+    \begin{asy}
+    size(6cm);
+    real[] M = {
+      0,
+      0, 0,
+      1, -2, 1,
+      2, -2, -2, 2,
+      1, -2, 6, -2, 1,
+      0, -2, -2, -2, -2, 0,
+      0, 0, 1, 2, 1, 0, 0
+    };
+    dumbass(M, 6);
+    \end{asy}
+    \caption{K4.1 expanded}
+    \label{fig:blackcdn}
+  \end{figure}
+
+  It's hard to see without the triangle, but now we notice that third-degree Schur appears upside-down!
+  The $\{1, -2, 1\}$ on each side also die off: so this problem is merely the identity
+  \[ \cycsum a^4(b-c)^2 + 2\cycsum ab(ab-bc)(ab-ac) \ge 0. \]
+  which is evident.
+\end{soln}
+
+
+\section{Some Examples}
+\subsection{SOS vs Schur}
+\begin{example}
+  Let $a,b,c$ be nonnegative reals.
+  Show that $a^3+b^3+c^3+3abc \ge a^2(b+c) + b^2(c+a) + c^2(a+b)$.
+\end{example}
+\begin{soln}
+  Double both sides and write the inequality in the triangle:
+
+  \begin{figure}[h]
+    \centering
+    \begin{asy}
+    size(4cm);
+    real[] M = {2,
+      -2, -2,
+      -2, 6, -2,
+      2, -2, -2, 2
+    };
+    dumbass(M, 3);
+    \end{asy}
+    \caption{Third-degree Schur}
+    \label{fig:deg3schur}
+  \end{figure}
+
+  We can take out $\cycsum a^3+b^3-a^2b-ab^2 = \cycsum (a+b)(a-b)^2$
+  which will leave us a hexagon in the center; which we break up $-\cycsum a(b-c)^2$.
+  Hence the original problem is equivalent to
+  \[ \half \cycsum (b+c-a) (b-c)^2 \ge 0. \]
+  If $a \ge b \ge c$ then it is trivial to see $S_b$, $S_b + S_a$ and $S_b + S_c$ are all nonnegative;
+  hence we are done.
+\end{soln}
+\begin{exercise*}
+  Put fourth-degree Schur in SOS form.
+\end{exercise*}
+
+In fact, upon discovering $(b-c)(b-a) = \half \left( (b-c)^2 + (b-a)^2 - (a-c)^2 \right)$
+for arbitrary $r$ the inequality may be written as
+\[ \half \cycsum b^r \left( (b-c)^2 + (b-a)^2 - (a-c)^2 \right) = \half \cycsum (b^r+c^r-a^r)(b-c)^2. \]
+which is obviously nonnegative by the SOS criteria.
+
+\subsection{An Asymmetric Inequality}
+\begin{example}[Ukraine 2006]
+  Let $a,b,c$ be positive reals.
+  Prove that \[ 3(a^3+b^3+c^3+abc) \ge 4(a^2b+b^2c+c^2a). \]
+\end{example}
+\begin{soln}
+  Seeking symmetry, we multiply both sides by six and write it as the sum
+  in the following figure.
+  \begin{figure}[h]
+    \centering
+    \begin{asy}
+    size(8cm);
+    real[] M = {
+      8,
+      -16,8,
+      8,0,-16,
+      8,-16,8,8
+    };
+    dumbass(M,3);
+    real[] M = {
+      10,
+      -8,-8,
+      -8,18,-8,
+      10,-8,-8,10
+    };
+    dumbass(M,3, (10,0));
+    \end{asy}
+    \caption{Trying to get symmetry}
+    \label{fig:ukraine}
+  \end{figure}
+
+  The left triangle is contrived using a multiple of the form $\cycsum a(a-b)^2$
+  to get the second addend to be symmetric.
+  Now, we can express it as $5 \cycsum (b+c)(b-c)^2 - 3 \cycsum a(b-c)^2$.
+  All in all, the total is
+  \[ \cycsum (13b+5c-3a)(b-c)^2 \ge 0 \]
+  which is not hard.
+
+  To be fair, the two triangles above are already nonnegative as is,
+  meaning that simple AM-GM and Schur was sufficient.
+\end{soln}
+
+\section{Too Lazy to Expand}
+Up to now, we have used SOS on an inequality
+only if it could be written in Chinese Dumbass notation.
+In fact, with a bit more precision, one can use SOS on inequalities with fractions
+\textit{without} expanding.
+An extremely useful fact is as follows:
+\begin{fact*}
+  If a polynomial expression $f(a,b,c)$ is
+  \begin{enumerate}[(i)]
+    \ii symmetric in $a$ and $b$ (that is, $f(a,b,c) = f(b,a,c)$), and
+    \ii zero when $a=b$ (that is, $f(a,a,c) = 0$)
+  \end{enumerate}
+  then it is divisible by $(a-b)^2$.
+\end{fact*}
+This means that, for example, the expression
+$\frac{a^2}{b+c} + \frac{b^2}{c+a} - \frac{4ab}{a+b+2c}$ is divisible by $(a-b)^2$:
+it's just a matter of computation to extract the factor.
+
+\subsection{A Perfect Example}
+\begin{example}[Calvin Deng, ELMO Shortlist 2010]
+  Let $a,b,c$ be positive reals. Prove that
+  \[ \frac{(a-b)(a-c)}{2a^2 + (b+c)^2} + \frac{(b-c)(b-a)}{2b^2 + (c+a)^2} + \frac{(c-a)(c-b)}{2c^2 + (a+b)^2} \geq 0. \]
+\end{example}
+\begin{soln}
+  We could not have asked for more here: the first two fractions are symmetric in $a$ and $b$,
+  but even better, it's downright \textit{obvious} that it becomes zero at $a=b$.
+  The rest is just courage:
+  \begin{align*}
+    \frac{(a-b)(a-c)}{2a^2+(b+c)^2} + \frac{(b-c)(b-a)}{2b^2+(c+a)^2}
+    &= (a-b) \left( \frac{a-c}{2a^2+(b+c)^2} - \frac{b-c}{2b^2 +(c+a)^2} \right) \\
+    &= (a-b) \cdot \frac{(a-c)(2b^2+(c+a)^2) - (b-c)(2b^2+(c+a)^2)}{(2a^2+(b+c)^2)(2b^2+(c+a)^2)} \\
+    &= (a-b) \cdot \scriptstyle\frac{\left( a^3+a^2c+2ab^2-ac^2-2b^2c-c^3 \right) - \left( b^3+b^2c+2a^2b-bc^2-2a^2c-c^3 \right)}{(2a^2+(b+c)^2)(2b^2+(c+a)^2)} \\
+    &= (a-b) \cdot \textstyle\frac{(a^3-b^3) + c(a^2-b^2) + 2ab(b-a) + c^2(b-a) + 2c(a^2-b^2)}{(2a^2+(b+c)^2)(2b^2+(c+a)^2)} \\
+    &= (a-b)^2 \cdot \frac{a^2+ab+b^2 + c(a+b) -2ab - c^2 + 2c(a+b)}{(2a^2+(b+c)^2) (2b^2+(c+a)^2)} \\
+    &= (a-b)^2 \cdot \frac{a^2-ab+b^2 + 3c(a+b)-c^2}{(2a^2+(b+c)^2) (2b^2+(c+a)^2)}
+  \end{align*}
+  Taking the cyclic sum of this quantity and dividing by two will yield
+  the left-hand side of the inequality.
+
+  At this point we definitely do not want to try and apply one of the criteria;
+  even clearing denominators doesn't look too terrible,
+  since we've already done a good chunk of the work.\footnote{And in general,
+    if SOS it's not obvious how to proceed from here,
+    you're still in a very good position to complete the expansion:
+    you have only one extra denominator to deal with, and whatever you get will already be in SOS form.
+    I suppose you can view this as a ``safety net''.}
+
+  But we've actually chosen the addends here in a good way; assume $c = \min \{a,b,c\}$.
+  Then we can drop the rightmost term $\frac{(c-a)(c-b)}{2c^2+(a+b)^2} \ge 0$,
+  and this is what remains of the left-hand side.
+  But when $c = \min \{a,b,c\}$ this is clearly nonnegative!
+\end{soln}
+
+\begin{proof}[Second Solution]
+  We invoke the powerful identity we discovered earlier with Schur:
+  \[ 2(a-b)(a-c) = (a-b)^2 + (a-c)^2 - (b-c)^2. \]
+
+  Upon letting $X_a = \frac{1}{2a^2+(b+c)^2}$ the inequality rewrites as
+  \[ \half \cycsum \left( X_b+X_c-X_a \right)(b-c)^2 \ge 0 \]
+
+  If $a \ge b \ge c$ then $X_a + X_c - X_b$ is evidently nonnegative.
+  (In fact, check that $X_c \ge X_b$).
+  But now $S_b$, $S_b+S_a$ and $S_b+S_c$ are all nonnegative, so once again we are done.
+\end{proof}
+
+\subsection{Much Sharper}
+\begin{example}[Darij Grinberg]
+  Show that for any positive reals $a,b,c$,
+  \[ \frac{(b+c)^2}{a^2+bc} + \frac{(c+a)^2}{b^2+ca} + \frac{(a+b)^2}{c^2+ab} \ge 6. \]
+\end{example}
+\begin{soln}
+  Begin again with algebra
+  \begin{align*}
+    \cycsum -2 + \frac{(b+c)^2}{a^2+bc} &= \cycsum \frac{b^2+c^2-2a^2}{a^2+bc} \\
+    &= \cycsum \frac{b^2-a^2 + c^2-a^2}{a^2+bc} \\
+    &= \cycsum \frac{b^2-a^2}{a^2+bc} + \frac{a^2-b^2}{b^2+ca} \\
+    \intertext{At which point our lemma applies!}
+    &= \cycsum (a^2-b^2) \left( \frac{1}{b^2+ca} - \frac{1}{a^2+bc} \right) \\
+    &= \cycsum (a^2-b^2) \left( \frac{(a^2+bc)-(b^2+ca)}{(a^2+bc)(b^2+ca)} \right) \\
+    &= \cycsum (a-b)^2(a+b) \cdot \frac{a+b-c}{(a^2+bc)(b^2+ca)}  \\
+    &= \frac{1}{\cycprod (a^2+bc)} \cycsum (a-b)^2(a+b)(a+b-c)(c^2+ab)
+  \end{align*}
+  The equality case $(a,b,c) = (1,1,0)$ appears, so we must be precise.
+  Assume that $a \ge b \ge c$, and further that $a \ge b+c$ (otherwise the result is obvious).
+  By the fourth criterion\footnote{We are motivated to choose this criterion for two reasons.
+    First, it is tight at the equality case; secondly,
+    this weights the positive $S_b$ by $a^2$, which is ``large'' since $a \ge b+c$.}
+  of \Cref{thm:sos} it suffices to prove that
+  \begin{align*}
+    b^2(b+c)(b+c-a)(a^2+bc) + a^2(a+c)(a+c-b)(b^2+ca) &\ge 0 \\
+    \iff a^2(a+c)(a-b+c)(b^2+ca) &\ge b^2(b+c)(a-b-c)(a^2+bc).
+  \end{align*}
+  Again, keeping close in mind the equality case, we write $a-b+c \ge a-b-c$,
+  reducing the inequality to $a^2(a+c)(b^2+ca) \ge b^2(b+c)(a^2+bc)$.
+  But this follows writing the inequalities $a+c \ge b+c$
+  and $a^2(b^2+ca) \ge b^2(a^2+bc)$ and multiplying them!
+\end{soln}
+
+\section{The Ravi Substitution}
+When attacking a problem involving the sides of a triangle,
+it is often beneficial to delay the Ravi substitution until after the inequality
+has been written in SOS form.
+Often by that point it is no longer necessary; especially with the following lemma:
+
+\begin{lemma}
+  \label{thm:trilemma}
+  Let $a \ge b \ge c$ be the sides of a triangle. Then $S_a(b-c)^2 + S_b(c-a)^2 + S_c(a-b)^2$ is nonnegative whenever
+  \[ S_a, S_b \ge 0 \quad \text{and} \quad b^2 S_b + c^2 S_c \ge 0. \]
+\end{lemma}
+\begin{proof}
+  Drop the $S_a(b-c)^2$ term. It suffices to show that
+  \[ S_b \cdot \left( \frac{a-c}{a-b} \right)^2 + S_c \ge 0 \]
+  Note that $\frac{a-c}{a-b} = 1 + \frac{b-c}{a-b}$ is a decreasing function in $a$,
+  so the inequality is sharpest when $a = b+c$ (since of course $a \le b+c$).
+  This is precisely the condition in the problem.
+\end{proof}
+
+If worst comes to worst, we can still use the Ravi substitution
+with the added comfort that the degree will be two less,
+and the result will already be in SOS format.
+
+\subsection{A Small Example}
+\begin{example}
+  Let $a,b,c$ be the sides of a triangle.
+  Prove that \[ a^3(b-c) + b^3(c-a) + c^3(a-b) + 2(a^2b^2+b^2c^2+c^2a^2) \ge 2abc(a+b+c). \]
+\end{example}
+
+\begin{figure}[h]
+  \centering
+  \begin{asy}
+  size(5cm);
+  real[] M = {0,
+    1, -1,
+    2, -2, 2,
+    -1, -2, -2, 1,
+    0, 1, 2, -1, 0
+  };
+  dumbass(M, 4);
+\end{asy}
+\caption{The corresponding triangle}
+\end{figure}
+
+\begin{soln}
+  Of course one can simply perform the Ravi substitution and simply expand, but that's too much work.
+
+  After moving everything to one side, we can consider our given as the sum of the two triangles:
+
+  \begin{figure}[h]
+    \centering
+    \begin{asy}
+    size(9cm);
+    real[] M1 = {0,
+      0, -2,
+      0, 2, 0,
+      -2, 2, 2, 0,
+      0, 0, 0, -2, 0
+    };
+    real[] M2 = {0,
+      1, 1,
+      2, -4, 2,
+      1, -4, -4, 1,
+      0, 1, 2, 1, 0
+    };
+    dumbass(M1, 4, (0, 0));
+    dumbass(M2, 4, (12, 0));
+    \end{asy}
+    \caption{Forcing symmetry unto our inequality.}
+  \end{figure}
+
+  The first triangle is chosen so that the second is symmetric,
+  and so that it can also be written as the sum:
+  \[ -2 \cycsum ab(b-c)^2 \]
+  The second triangle can then be simplified using standard techniques as
+  \[ \cycsum a(b+c)(b-c)^2 + \cycsum a^2(b-c)^2 \]
+
+  So the quantity in question is
+  \[ \cycsum (ab+ac-2ab+a^2)(b-c)^2 = \cycsum a(c+a-b)(b-c)^2 \ge 0. \qedhere \]
+\end{soln}
+
+\subsection{Iran 1996}
+Finally, to top off this article we have the infamous Iran TST 1996 inequality.
+\begin{example}[Iran TST 1996]
+  Let $x$, $y$, $z$ be positive reals. Prove that
+  \[ \left( xy+yz+zx \right)\left( \frac{1}{(x+y)^2} + \frac{1}{(y+z)^2} + \frac{1}{(z+x)^2} \right) \ge \frac{9}{4}. \]
+\end{example}
+\begin{soln}
+  Rather than expanding directly, we apply the Ravi Substitution \textit{in reverse};
+  that is, $a=y+z$, $b=z+x$, $c=x+y$.
+  This yields
+  \[ \left( 2ab+2bc+2ca-a^2-b^2-c^2 \right)\left( \frac{1}{a^2} + \frac{1}{b^2} + \frac{1}{c^2} \right) \ge 9. \]
+  This is much easier to expand! We get:
+  \[ \cycsum b^2c^2(2ab+2bc+2ca-a^2-b^2-c^2) \ge 9a^2b^2c^2 \]
+  Putting this in triangle form gives:
+  \begin{figure}[h]
+    \centering
+    \begin{asy}
+    size(8cm);
+    real[] M = {
+      0,
+      0, 0,
+      -1, 0, -1,
+      2, 2, 2, 2,
+      -1, 2, -12, 2, -1,
+      0, 0, 2, 2, 0, 0,
+      0, 0, -1, 2, -1, 0, 0
+    };
+    dumbass(M, 6);
+    \end{asy}
+    \caption{Iran, expanded}
+  \end{figure}
+
+  Taking out the $\{-1, 2, -1\}$ on the edges and then knocking out the hexagon,
+  we see that we may write this as
+  \[ -\cycsum b^2c^2(b-c)^2 + 2\cycsum a^2bc(b-c)^2 = \cycsum bc(2a^2-bc)(b-c)^2 \]
+  Now applying \Cref{thm:trilemma}, it suffices to prove that
+  \[ b^2 \cdot ca(2b^2-ca) + c^2 \cdot ab(2c^2-ab) \ge 0 \iff 2abc\left( b^3+c^3-abc \right) \ge 0 \]
+  and this is trivial.
+\end{soln}
+
+\section{Summary}
+Some subset of the main ideas:
+\begin{itemize}
+  \ii A polynomial inequality can be written in Chinese Dumbass notation,
+    making it visually easy to see how sharp the inequality is.
+  \ii If a polynomial inequality does not succumb to Schur and Muirhead,
+    then SOS can yield a solution.
+  \ii Cyclic (as opposed to symmetric) inequalities are no harder to put in SOS form.
+  \ii With enough skill, SOS can be used without, before, or to simplify expansion.
+  \ii SOS provides an alternative to the Ravi substitution in triangle-side inequalities.
+\end{itemize}
+Often I will expand an inequality with the hope of applying Schurhead,
+and upon failing, fall back on SOS to provide stronger estimates.
+But as we have seen, this is far from the only way to use SOS.
+
+\section{Exercises}
+\begin{enumerate}
+  \ii Show that for nonnegative $a$, $b$, $c$,
+    \[ 2(a^6+b^6+c^6) + 16(a^3b^3+b^3c^3+c^3a^3) \ge 9a^4(b^2+c^2) + 9b^4(c^2+a^2) + 9c^4(a^2+b^2). \]
+  \ii Show that for all positive reals $x$, $y$, $z$,
+    $\frac{x^3+xyz}{y+z} + \frac{y^3+xyz}{z+x} + \frac{z^3+xyz}{x+y} \ge x^2+y^2+z^2$.
+  \ii (Wenyu Cao, ELMO 2009) Let $a$, $b$, $c$ be nonnegative real numbers.
+    Prove that \[ a(a-b)(a-2b)+b(b-c)(b-2c)+c(c-a)(c-2a)\geq 0. \]
+  \ii For positive reals $a$, $b$, $c$, prove that
+    $\frac{a^{3}+b^{3}+c^{3}}{3abc}+\frac{a(b+c)}{b^{2}+c^{2}}
+    +\frac{b(c+a)}{c^{2}+a^{2}}+\frac{c(a+b)}{a^{2}+b^{2}}\geq 4$.
+  \ii (Michael Rozenberg) Show that for positive reals $a$, $b$, $c$,
+    \[ \frac{a^2}{b+c} + \frac{b^2}{c+a} + \frac{c^2}{a+b} \ge \frac{3}{2} \cdot \frac{a^3+b^3+c^3}{a^2+b^2+c^2}. \]
+  \ii (MOP 2003) Show that for $a,b,c \ge 0$ we have
+  \[ \begin{array}{rccccccccccccc}& & & & & & 0\\\noalign{\smallskip}
+    & & & & & 0 & & 0\\\noalign{\smallskip}
+    & & & & 1 & &-2 & & 1\\\noalign{\smallskip}
+    & & &-2 & & 2 & & 2 & &-2\\\noalign{\smallskip}
+    & & 1 & & 2 & &-6 & & 2 & & 1\\\noalign{\smallskip}
+    & 0 & &-2 & & 2 & & 2 & &-2 & & 0\\\noalign{\smallskip}
+    0 & & 0 & & 1 & &-2 & & 1 & & 0 & & 0\\\noalign{\smallskip}
+    \end{array} \ge 0. \]
+\end{enumerate}
+
+\begin{thebibliography}{99}
+  \bibitem{sos} Pham Kim Hung, \textit{Sums of Squares}.
+    \url{http://www.artofproblemsolving.com/Forum/viewtopic.php?f=55&t=80127}.
+  \bibitem{cdn} Brian Hamrick, \textit{The Art of Dumbassing}.
+    \url{http://www.tjhsst.edu/~2010bhamrick/files/dumbassing.pdf}.
+  \bibitem{add} Thomas Mildorf, \textit{Inequalities - Addendum}.
+    Handout at Red MOP 2011.
+  \bibitem{mildorf} Thomas Mildorf, \textit{Olympiad Inequalities}.
+    \url{http://www.artofproblemsolving.com/Resources/Papers/MildorfInequalities.pdf}.
+\end{thebibliography}
+
+\end{document}

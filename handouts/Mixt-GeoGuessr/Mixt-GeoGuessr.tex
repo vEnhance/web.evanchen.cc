@@ -1,0 +1,315 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+
+\begin{document}
+\title{A Guessing Game: Mixtilinear Incircles}
+\date{11 August 2015}
+\maketitle
+
+\begin{center}
+  \itshape
+  Sometimes figuring out what to prove is harder than actually proving it!
+\end{center}
+
+An important skill for olympiad geometers is to be able to guess when three points are collinear,
+four points are concyclic, three lines are concurrent, and so on.
+Difficult geometry problems (on the level of IMO 3/6) often amount to finding two or three critical claims;
+each of these claims may be no harder to prove than an IMO 1/4, but making the right guesses of \emph{what} to prove
+can turn out to the core difficulty of the problem.
+For a fantastic example, see my solution to
+\href{http://www.aops.com/community/c6h418983p3518149}{IMO 2011/6}.
+
+In this exercise, I'll put write down a configuration of several points, lines, and circles.
+Your job is to find as many ``coincidences'' as you can: nontrivial collinearities, equal angles,
+cyclic quadrilaterals, and so on and so forth.
+Then, see if you can prove them!
+
+\tableofcontents
+
+\section{The Configuration}
+\begin{mdframed}
+  Let $ABC$ be an acute triangle with incenter $I$ and circumcircle $\Gamma$,
+  and let $D$ and $E$ be the contact points of the incircle and $A$-excircle on $BC$.
+  Let $M_A$, $M_B$, $M_C$ be the midpoints of the arcs $BC$, $CA$, $AB$ of $\Gamma$.
+
+  The \textbf{$\boldmath A$-mixtilinear incircle} is the circle $\omega_A$ which is
+  tangent to $AB$, $AC$, $\Gamma$ at points $B_1$, $C_1$, $T$.
+\end{mdframed}
+
+On the next page there is a bare-bones diagram with all these points,
+as well as some hints to get you started.
+However, before using it, \textbf{I encourage you to try and find as many things as you can
+using your own ruler and compass.}
+On an olympiad, you do not have the luxury of referring to a perfect, computer-drawn diagram!
+You can (and should) use more than one hand-drawn diagram.
+
+\eject
+
+\section{Some Hints}
+Now that you've taken a look with the hand-drawn diagram,
+see if you can spot even more things in the following accurate computer-generated figure.
+
+\begin{center}
+\begin{asy}
+unitsize(5cm);
+
+pair A = dir(140);
+pair B = dir(210);
+pair C = dir(330);
+pair M_A = dir(270);
+pair M_B = dir(55);
+pair M_C = dir(175);
+
+pair I = incenter(A, B, C);
+pair D = foot(I, B, C);
+pair E = B+C-D;
+pair B_1 = extension(I, I+dir(90)*dir(A-I), A, B);
+pair C_1 = extension(I, I+dir(90)*dir(A-I), A, C);
+pair T = extension(M_C, B_1, M_B, C_1);
+
+draw(unitcircle);
+draw(A--M_A);
+
+draw(circumcircle(T, B_1, C_1), blue);
+draw(A--B--C--cycle);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$M_A$", M_A, dir(M_A));
+dot("$M_B$", M_B, dir(M_B));
+dot("$M_C$", M_C, dir(M_C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(E));
+dot("$B_1$", B_1, dir(B_1));
+dot("$C_1$", C_1, dir(C_1));
+dot("$T$", T, dir(T));
+
+/* TSQ Source:
+
+!unitsize(5cm);
+
+A = dir 140
+B = dir 210
+C = dir 330
+M_A = dir 270
+M_B = dir 55
+M_C = dir 175
+
+I = incenter A B C
+D = foot I B C
+E = B+C-D
+B_1 = extension I I+dir(90)*dir(A-I) A B
+C_1 = extension I I+dir(90)*dir(A-I) A C
+T = extension M_C B_1 M_B C_1
+
+unitcircle
+A--M_A
+
+circumcircle T B_1 C_1 blue
+A--B--C--cycle
+
+*/
+\end{asy}
+\end{center}
+
+Here are some possible hints for things you could look for:
+\begin{itemize}
+  \ii There are at least three nontrivial collinearities among the labelled points.
+  \ii There are at least two nontrivial cyclic quadrilaterals among the labelled points.
+  \ii There are several nontrivial pairs of equal angles among the labelled points.
+  \ii There is at least one set of concurrent lines (which meet outside the triangle).
+  \ii Look at the ``top'' of the circumcircle.
+  \ii There are at least two lines tangent to some circumcircles.
+\end{itemize}
+
+My list of properties has ten items.
+When you want to see my answers, turn the page.
+
+\eject
+
+\section{Answers}
+\begin{center}
+\begin{asy}
+unitsize(5cm);
+
+pair A = dir(140);
+pair B = dir(210);
+pair C = dir(330);
+pair M_A = dir(270);
+pair M_B = dir(55);
+pair M_C = dir(175);
+
+pair I = incenter(A, B, C);
+pair D = foot(I, B, C);
+pair E = B+C-D;
+
+pair B_1 = extension(I, I+dir(90)*dir(A-I), A, B);
+pair C_1 = extension(I, I+dir(90)*dir(A-I), A, C);
+
+pair T = extension(M_C, B_1, M_B, C_1);
+draw(C--M_C, heavygreen);
+draw(B--M_B, heavygreen);
+
+filldraw(unitcircle, opacity(0.02)+cyan, black);
+
+draw(A--M_A);
+
+filldraw(circumcircle(T, B_1, C_1), opacity(0.05)+lightblue, blue);
+markangle(B,A,T,heavycyan);
+markangle(E,A,C,heavycyan);
+markangle(A,T,B,heavymagenta);
+markangle(C,T,D,heavymagenta);
+
+draw(A--B--C--cycle);
+
+draw(T--M_C, red+dashed);
+draw(T--M_B, red+dashed);
+
+draw(A--E, blue);
+pair X = dir(90);
+draw(T--X, blue);
+
+draw(B--T--C, magenta);
+draw(A--T--D, magenta);
+
+filldraw(circumcircle(T, D, M_A), opacity(0.1)+lightred, orange);
+
+pair Z = extension(B, C, T, M_A);
+draw(Z--C_1, lightgreen);
+draw(Z--B, lightgreen);
+draw(Z--M_A, lightgreen);
+
+filldraw(circumcircle(B, B_1, T), opacity(0.04)+green, heavygreen);
+filldraw(circumcircle(C, C_1, T), opacity(0.04)+green, heavygreen);
+
+pair H = extension(A, D, T, M_A);
+draw(A--H, grey+dashed);
+
+dot(H);
+dot(extension(A,E,X,I));
+dot(extension(T,M_A,B,C));
+dot(extension(A,M_A,B,C));
+dot(X);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$M_A$", M_A, dir(M_A));
+dot("$M_B$", M_B, dir(M_B));
+dot("$M_C$", M_C, dir(M_C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(E));
+dot("$B_1$", B_1, dir(B_1));
+dot("$C_1$", C_1, dir(C_1));
+dot("$T$", T, dir(T));
+
+/* TSQ Source:
+
+!unitsize(5cm);
+
+A = dir 140
+B = dir 210
+C = dir 330
+M_A = dir 270
+M_B = dir 55
+M_C = dir 175
+
+I = incenter A B C
+D = foot I B C
+E = B+C-D
+
+B_1 = extension I I+dir(90)*dir(A-I) A B
+C_1 = extension I I+dir(90)*dir(A-I) A C
+
+T = extension M_C B_1 M_B C_1
+C--M_C heavygreen
+B--M_B heavygreen
+
+unitcircle 0.02 cyan / black
+
+A--M_A
+
+circumcircle T B_1 C_1 0.05 lightblue / blue
+
+A--B--C--cycle
+
+T--M_C red dashed
+T--M_B red dashed
+
+A--E blue
+X := dir 90
+T--X blue
+
+B--T--C magenta
+A--T--D magenta
+
+circumcircle T D M_A 0.1 lightred / orange
+
+Z := extension B C T M_A
+Z--C_1 lightgreen
+Z--B lightgreen
+Z--M_A lightgreen
+
+circumcircle B B_1 T 0.04 green / heavygreen
+circumcircle C C_1 T 0.04 green / heavygreen
+
+H := extension A D T M_A
+A--H grey dashed
+
+!dot(H);
+!dot(extension(A,E,X,I));
+!dot(extension(T,M_A,B,C));
+!dot(extension(A,M_A,B,C));
+!dot(X);
+
+*/
+\end{asy}
+\end{center}
+
+\begin{enumerate}
+  \ii Points $T$, $B_1$, $M_C$ are collinear.
+  Similarly, points $T$, $C_1$, $M_B$ are collinear.
+  \ii Point $I$ is the midpoint of $B_1C_1$.
+  \ii Ray $TI$ passes through the ``topmost'' points of both $\omega_A$ and $\Gamma$
+  (the point opposite $M_A$ on $\Gamma$).
+  In particular, $AE$ and $TI$ meet on $\omega_A$.
+  \ii $\angle BAT = \angle CAE$, and equivalent angles.
+  \ii $\angle ATB = \angle CTD$, and equivalent angles.
+  \ii $\angle ATM_C = \angle M_BTI$ (not shown in figure).
+  \ii Quadrilaterals $BB_1IT$ and $CC_1IT$ are cyclic.
+  \ii Lines $BI$ and $CI$ are tangents to these quadrilaterals the previously mentioned quadrilaterals.
+  \ii The intersection of lines $AI$ and $BC$ lies on the circumcircle of $\triangle DTM_A$.
+  \ii Lines $BC$, $TM_A$, $B_1C_1$ are concurrent.
+  \ii Lines $TM_A$ and $AD$ meet on the mixtilinear incircle. (Thanks to my student H.W.\ for finding this one!)
+\end{enumerate}
+This list is by no means exhaustive --- there are more properties buried in here that I haven't mentioned.
+
+\section{Sketches of Solutions}
+\begin{enumerate}
+  \ii Consider the homothety at $T$ sending $\omega_A$ to $\Gamma$.
+  \ii You can use Pascal's Theorem on $\Gamma$.
+  (The special case when $AB=AC$ was IMO 1978).
+  \ii In $\triangle TB_1C_1$, $TA$ is a symmedian and $TI$ is a median.
+  (This was given as a problem on Iran 2002.)
+  \ii Inversion at $A$. (This was EGMO 2013, Problem 2.)
+  \ii Reflect $T$ across the perpendicular bisector of $BC$.
+  \ii This just follows by symmedians.
+  \ii Angle chasing (using above properties).
+  \ii Angle chasing (using above properties).
+  \ii Some more angle chasing, using $\angle ATB = \angle CTD$.
+  \ii Use Pascal on $\Gamma$ once again.
+  \ii Two homotheties.
+\end{enumerate}
+For more detailed discussion, you might consult \url{http://blog.evanchen.cc/2015/08/11/the-mixtilinear-incircle}.
+
+\vspace{2em}
+Want to try this again?
+See what coincidences you can find if you draw in all three mixtilinear incircles.
+For example, what are their radical axii?
+Can you find some concurrent cevians?
+
+
+\end{document}

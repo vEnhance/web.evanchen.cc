@@ -1,0 +1,27 @@
+!size(8cm);
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+I = incenter A B C
+M = midpoint B--C
+D = foot I B C
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T := extension E F B C
+X = extension C I E F R120
+Y = extension B I E F R60
+
+A--B--C--cycle red
+
+O := circumcenter A E F
+circumcircle D X Y blue+1
+
+F--Y heavycyan
+
+B--Y orange
+X--C orange
+
+B--X blue
+C--Y blue

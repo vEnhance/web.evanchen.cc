@@ -1,0 +1,632 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{amsthm}
+\usepackage[chinese,nothm]{evan}
+\ihead{陳誼廷}
+\ohead{用複數炸幾何}
+
+\newtheorem{theorem}{\color{blue!40!black}定理}
+\newtheorem{lemma}[theorem]{\color{blue!40!black}引理}
+\newtheorem{proposition}[theorem]{\color{blue!40!black}命題}
+\theoremstyle{definition}
+\newtheorem{example}[theorem]{\color{blue!40!black}例子}
+\newtheorem{exercise}[theorem]{\color{blue!40!black}練習題}
+
+\renewcommand{\figurename}{圖}
+
+\expandafter\let\expandafter\oldproof\csname\string\proof\endcsname
+\let\oldendproof\endproof
+\renewenvironment{proof}[1][證]{%
+  \oldproof[\bfseries 【#1】\nopunct]%
+}{\oldendproof}
+\renewenvironment{soln}{\begin{proof}[解]}{\end{proof}}
+
+\begin{asydef}
+  import graph;
+  real[] default_ticks = {-4,-3,-2,-1,0,1,2,3,4};
+  void cplane(real theta=-45, real[] T = default_ticks, real xmin = -5, real xmax = 5, real S = 3) {
+    graph.xaxis("Re", xmin, xmax, graph.Ticks(format="%", Ticks=T, Size=S), Arrows);
+    graph.yaxis("Im", xmin, xmax, graph.Ticks(format="%", Ticks=T, Size=S), Arrows);
+    dot("$0$", (0,0), dir(theta));
+  }
+\end{asydef}
+
+\begin{document}
+\title{Bashing Geometry with Complex Numbers \\ 用複數炸幾何}
+\date{5月2日2014年}
+\maketitle
+
+\begin{abstract}
+  We show how complex numbers can be used to solve geometry problems.
+\end{abstract}
+
+
+\section{複數的平面}
+令 $\CC$ 和 $\RR$ 分別為複數和實數的所形成的集合。
+
+每一個複數 $z$ 可寫成
+\[ z = a+bi = r \left( \cos \theta + i \sin \theta \right) = re^{i \theta} \]
+此處 $a,b,r,\theta \in \RR$ 而 $0 \le \theta < 2\pi$。
+我們寫 $\left\lvert z \right\rvert = r = \sqrt{a^2+b^2}$ 且 $\arg z = \theta$。
+
+更主要，每個複數有一個複共軛 $\ol z = a-bi$。共軛滿足以下的方程：
+\begin{align*}
+  \ol {w \pm z} &= \ol w \pm \ol z \\
+  \ol {w \cdot z} &= \ol w \cdot \ol z  \\
+  \ol {w / z} &= \ol w / \ol z \\
+  \left\lvert z \right\rvert^2 &= z \cdot \ol z
+\end{align*}
+注意 $z \in \RR$ 的充要條件為 $z = \ol z$，且 $z \in i \RR$ 的充要條件為 $z + \ol z = 0$。
+
+我們把平面上每一個點用一個複數表示。
+對每個點 $Z$ 我們會用一個 $z \in \CC$ 來代表（所以大寫的字代表點，小寫的字代表複數）。
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(7cm);
+    cplane(135);
+    pair z = (3,4);
+    pair p = (z.x,0);
+    pair x = (z.x,-z.y);
+    dot("$z = 3+4i$", z, dir(45));
+    dot("$\overline z = 3-4i$", x, dir(-45));
+    dot("$-1-2i$", (-1,-2), dir(225));
+    draw(x--(0,0)--z);
+    dot("$\left\lvert z \right\rvert = 5$", 0.7*z, rotate(90)*dir(z));
+    draw(z--x, dotted);
+    markangle(L="$\theta$", p, (0,0), z, n=1);
+    markrightangle(z, p, (0,0));
+    // MarkAngle("\theta", p, (0,0), z, 1);
+    // draw(rightanglemark(z,p,(0,0)));
+  \end{asy}
+  \caption{平面上取了複數 $z = 3+4i$ 且 $-1-2i$; $\ol z = 3-4i$ 為 $z$ 的共軛.}
+  \label{fig:explain_complex_plane}
+\end{figure}
+
+複數的加減剛好跟向量一樣。
+乘法就比較有趣。對有任何 $z_1, z_2 \in \CC$，我們有
+\[
+  \left\lvert z_1z_2 \right\rvert = \left\lvert z_1 \right\rvert \left\lvert z_2 \right\rvert
+  \text{ 和 }
+  \arg z_1z_2 = \arg z_1 + \arg z_2.
+\]
+我們可從該乘法看出其幾何意義。
+舉個例，對於任意點 $Z$ 和 $W$， 我們可以對 $W$ 把 $Z$ 轉 $90\dg$：
+\[ z \mapsto i(z-w) + w. \]
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(11cm);
+    cplane();
+    pair z = (3,4);
+    pair iz = rotate(90)*z;
+    dot("$z = 3+4i$", z, dir(90));
+    dot("$iz = -4+3i$", iz, dir(90));
+    draw(z--(0,0)--iz,Arrows(SimpleHead,9));
+    markrightangle(z, (0,0), iz);
+    // draw(rightanglemark(z,(0,0),iz));
+    picture pic = CC();
+    cplane();
+    pair z = (-1,-2);
+    pair w = (-2,-4);
+    pair f = rotate(90)*(z-w)+w;
+    pair zw = z-w;
+    pair izw = rotate(90)*(z-w);
+    dot("$z$", z, dir(0));
+    dot("$w$", w, dir(-90));
+    dot("$i(z-w)+w$", f, dir(100));
+    dot("$z-w$", zw, dir(45));
+    dot("$i(z-w)$", izw, dir(135));
+    draw(f--w--z, Arrows(SimpleHead,9));
+    draw(izw--(0,0)--(z-w), Arrows(SimpleHead,9));
+    add(shift((-11,0))*pic);
+  \end{asy}
+  \caption{$z \mapsto i(z-w) + w$.}
+  \label{fig:complex_rotate}
+\end{figure}
+
+
+\section{首先的命題}
+我們先談一些最主要的命題。
+
+\begin{proposition}
+  令 $A$, $B$, $C$, $D$ 為兩兩相異的點。
+  則 $\ol{AB} \perp \ol{CD}$ 的充要條件為 $\frac{d-c}{b-a} \in i \RR$; i.e.
+  \[ \frac{d-c}{b-a} + \ol{\left( \frac{d-c}{b-a} \right)} = 0. \]
+  \label{lem:complex_perp}
+\end{proposition}
+\begin{proof}
+  條件等價與 $\frac{d-c}{b-a} \in i \RR \iff \arg \left( \frac{d-c}{b-a} \right) \equiv \pm 90\dg \iff \ol{AB} \perp \ol{CD}$。
+\end{proof}
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(12cm);
+    cplane();
+    pair a = (2,2); dot("$a$", a, dir(120));
+    pair b = (3,4); dot("$b$", b, dir(120));
+    pair c = (-1,1); dot("$c$", c, dir(90));
+    pair d = (-4,2.5); dot("$d$", d, dir(90));
+    draw(a--b); draw(c--d);
+    add(shift(-11)*CC());
+    cplane();
+    pair x = b-a; dot("$b-a$", x, dir(90));
+    pair y = d-c; dot("$d-c$", y, dir(90));
+    draw(x--(0,0)--y);
+  \end{asy}
+  \caption{$\ol{AB} \perp \ol{CD} \iff \frac{d-c}{b-a} \in i \RR$.}
+\end{figure}
+
+\begin{proposition}
+  令 $A$, $B$, $C$ 為兩兩異的點。則 $A$, $B$, $C$ 共線的充要條件為 $\frac{c-a}{c-b} \in \RR$; i.e.
+  \[ \frac{c-a}{c-b} = \ol{\left( \frac{c-a}{c-b} \right)}. \]
+  \label{prop:complex_collin}
+\end{proposition}
+\begin{proof}
+  跟以上的命題一樣。
+\end{proof}
+
+\begin{proposition}
+  令 $A$, $B$, $C$, $D$ 為兩兩相異的點。則 $A$, $B$, $C$, $D$ 共圓的充要條件為
+  \[ \frac{c-a}{c-b} : \frac{d-a}{d-b} \in \RR. \]
+\end{proposition}
+\begin{proof}
+  可得 $\arg \left( \frac{c-a}{c-b} \right) = \angle ACB$， $\arg \left( \frac{d-a}{d-b} \right) = \angle ADB$， (angles are directed)。
+\end{proof}
+
+我們現在陳述一個比較常用的公式。
+
+\begin{lemma}[對稱點]
+  設 $W$ 為 $Z$ 對一個 $\ol{AB}$ 的對稱點。則
+  \[ w = \frac{(a-b) \ol z + \ol{a}b - a\ol{b}}{\ol a - \ol b}. \]
+  \label{lem:complex_reflect}
+\end{lemma}
+當然這時候 $Z$ 對 $\ol{AB}$ 的垂足為 $\half (w+z)$。
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(4cm);
+    real[] T = {0,2,4};
+    cplane(T=T, xmin=-1.9,xmax=5);
+    dot("$1$", (2,0), dir(-90));
+    pair a = (1,1); dot("$a$", a, dir(-90));
+    pair b = (4,3); dot("$b$", b, dir(10));
+    pair z = (2,3); dot("$z$", z, dir(90));
+    pair w = 2*foot(z,a,b)-z; dot("$w$", w, dir(-45));
+    draw(a--b);
+    draw(z--w, dotted);
+  \end{asy}
+  \quad
+  \begin{asy}
+    size(4cm);
+    real[] T = {0,2,4};
+    cplane(T=T, xmin=-1.9,xmax=5);
+    dot("$1$", (2,0), dir(-90));
+    pair a = (0,0);
+    pair b = (3,2); dot("$b-a$", b, dir(10));
+    pair z = (1,2); dot("$z-a$", z, dir(90));
+    pair w = 2*foot(z,a,b)-z; dot("$w-a$", w, dir(45));
+    draw(a--b);
+    draw(z--w, dotted);
+  \end{asy}
+  \quad
+  \begin{asy}
+    size(4cm);
+    real[] T = {0,1,2};
+    cplane(T=T, xmin=-0.95,xmax=2.50);
+    pair a = (0,0);
+    pair x = (3,2);
+    pair b = (3,2)/x; dot("$1$", b, dir(-90));
+    pair z = (1,2)/x; dot("$\frac{z-a}{b-a}$", z, dir(70));
+    pair w = 2*foot(z,a,b)-z; dot("$\frac{w-a}{b-a}$", w, dir(-70));
+    draw(a--b);
+    draw(z--w, dotted);
+    draw((0,0)--(1,0), black+1);
+  \end{asy}
+  \caption{$Z$ 對 $\ol{AB}$ 的對稱點。}
+  \label{fig:proof_reflect}
+\end{figure}
+
+\begin{proof}
+  根據 \Cref{fig:proof_reflect} 我們可得
+  \[ \frac{w-a}{b-a} = \ol{\left( \frac{z-a}{b-a} \right)} = \frac{\ol z - \ol a}{\ol b - \ol a}. \]
+  從此可解 $w = \frac{(a-b)\ol z + \ol a b - a \ol b}{\ol a-  \ol b}$。
+\end{proof}
+
+我們再給兩條公式。
+
+\begin{theorem}
+  [面積/共線的方程] 令 $A$, $B$, $C$ 位點。則 $\triangle ABC$ 的面積為
+  \[
+    \pm \frac{i}{4}
+    \left\lvert
+    \begin{array}{ccc}
+      a & \ol a & 1 \\
+      b & \ol b & 1 \\
+      c & \ol c & 1 \\
+    \end{array}
+    \right\rvert.
+  \]
+  \textbf{特別地，$A$, $B$, $C$ 共線的充要條件為以上的行列式為零。}
+  \label{thm:complex_shoelace}
+\end{theorem}
+\begin{proof}
+  用直角座標來證。
+\end{proof}
+定理 \ref{thm:complex_shoelace} 常常比命題 \ref{prop:complex_collin} 好用。
+
+其實我們也可以把任意兩條線交叉。
+\begin{proposition}
+  令 $A$, $B$, $C$, $D$ 為點。 則 $AB$ 和 $CD$ 的交叉點位
+  \[ \frac{ (\bar a b - a \bar b )(c-d) - (a-b)(\bar c d - c \bar d) }{(\bar a - \bar b )(c-d) - (a-b)(\bar c - \bar d)}. \]
+  \label{prop:complex_intersect}
+\end{proposition}
+可是除非 $d=0$ 或 $a$, $b$, $c$, $d$ 在單位圓上，這方程不太好用。
+
+
+\section{單位圓和三角形的心}
+\label{sec:unitcircle}
+在複平面上，單位圓是很重要。根據以上，對於每個 $\left\lvert z \right\rvert = 1$ 我們有 \[ \ol z = \frac 1z. \]
+利用上述，我們可得一下的引理。
+
+\begin{lemma}
+  若 $ \left\lvert a \right\rvert = \left\lvert b \right\rvert = 1$ 且 $z \in \CC$, 則 $Z$ 對 $\ol{AB}$ 的對稱點為
+  $a+b-ab \ol z$，
+  而 $Z$ 對 $\ol{AB}$ 的垂足為
+  \[ \half \left( z+a+b -ab \ol z \right). \]
+\end{lemma}
+\begin{lemma}
+  若 $A$, $B$, $C$, $D$ 落在單位圓上，則 $\ol{AB}$ 和 $\ol{CD}$ 的交叉點為
+  \[ \frac{ab(c+d)-cd(a+b)}{ab-cd}. \]
+\end{lemma}
+
+這幾方程比以上的漂亮多了。
+在單位圓上，我們也可馬上得到一個三角形的心：
+\begin{theorem}
+  令 $ABC$ 為三角形。假設 $ABC$ 的外接圓為複平面的單位圓。則 $ABC$ 的外心，重心，垂心分別為 $0$, $\frac 13 (a+b+c)$, $a+b+c$。
+\end{theorem}
+利用以上馬上可證 Euler 線的定理。
+
+\begin{proof}
+  外心和垂心的方程是明顯的。
+  令 $h = a+b+c$。只需證明 $\ol{AH} \perp \ol{BC}$，等等。
+  我們可設
+  \[ z  = \frac{h-a}{b-c} = \frac{b+c}{b-c}. \]
+  則
+  \[ \ol z = \ol{\left( \frac{b+c}{b-c} \right)}
+    = \frac{\ol b + \ol c}{\ol b - \ol c}
+    = \frac{\frac 1b + \frac 1c}{\frac 1b - \frac 1c}
+    = \frac{c+b}{c-b} = -z \]
+  因此 $z \in i \RR$，得證。
+\end{proof}
+
+我們也其實可得到內心的方程。
+\begin{theorem}
+  令 $I$ 和 $\Gamma$ 分別為三角形 $ABC$ 的內心和外接圓。令直線 $AI$, $BI$, $CI$ 分別與 $\Gamma$ 交叉在點 $D$, $E$, $F$。
+  若 $\Gamma$ 為複平面的單位圓，則存在 $x,y,z \in \CC$ 滿住
+  \[ a=x^2, b=y^2, c=z^2 \text{ 且 } d=-yz, e=-zx, f=-xy. \]
+  注意 $\left\lvert x \right\rvert = \left\lvert y \right\rvert = \left\lvert z \right\rvert = 1$。
+  將內心 $I$ 為 $-(xy+yz+zx)$。
+\end{theorem}
+\begin{proof}
+  證明 $I$ 為 $\triangle DEF$ 的垂心。
+\end{proof}
+% 根據以上，垂心就為 $x^2+y^2+z^2$。
+
+\section{另外的公式}
+\begin{lemma}
+  令 $A$, $B$ 落在單位圓上，且取點 $P$ 使得 $\ol{PA}$, $\ol{PB}$ 是切線。則 \[ p = \frac{2}{\ol a + \ol b} = \frac{2ab}{a+b}. \]
+\end{lemma}
+\begin{proof}
+  設 $M$ 為 $\ol{AB}$ 的中點，且 $o=0$。可證 $OM \cdot OP = 1$ 且 $P$ 在射線 $OM$ 上。
+\end{proof}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(4cm);
+    draw(unitcircle);
+    pair A = dir(110); dot("$a$", A, dir(110));
+    pair B = dir(30); dot("$b$", B, dir(30));
+    pair P = 2/conj(A+B);
+    dot("$\frac{2ab}{a+b}$", P, dir(P));
+    dot(origin);
+    draw(A--P--B);
+    draw(A--B, dashed);
+    draw(origin--P, dashed);
+    dot( (A+B)/2 );
+  \end{asy}
+  \caption{兩條切線交叉。$p = \frac{2}{\ol a + \ol b}$。}
+\end{figure}
+
+\begin{lemma}
+  對於任意 $x$, $y$, $z$, 三角形 $XYZ$ 的外心為
+  \[ \left\lvert
+    \begin{array}{ccc}
+      x & x\bar x & 1 \\
+      y & y\bar y & 1 \\
+      z & z\bar z & 1
+    \end{array}
+  \right\rvert
+  \div
+  \left\lvert
+    \begin{array}{ccc}
+      x & \bar x & 1 \\
+      y & \bar y & 1 \\
+      z & \bar z & 1
+    \end{array}
+  \right\rvert. \]
+\end{lemma}
+如需利用這個方程，可平移 $z$ 到 $0$，在算行列式，最後在平移回來。這樣行列式就比較好算。
+
+\section{例子}
+\begin{example}
+  [MOP 2006]
+  令 $H$ 為三角形 $ABC$ 的垂心。取 $D$, $E$, $F$ 在 $ABC$ 的外接圓上，使得 $\ol{AD} \parallel \ol{BE} \parallel \ol{CF}$。
+  設 $S$, $T$, $U$ 分別為 $D$, $E$, $F$ 對 $\ol{BC}$, $\ol{CA}$, $\ol{AB}$ 的對稱點。試證 $S$, $T$, $U$, $H$ 共圓。
+\end{example}
+\begin{proof}
+  設 $(ABC)$ 為單位元，則 $h = a+b+c$。
+  可不方假設 $\ol{AD}$, $\ol{BE}$,  $\ol{CF}$ 跟實軸垂直（要不然把 $ABC$ 專一下\dots）。則 $d = \ol a$, 等等。
+  因此 $s = b+c - bc \ol d = b+c-abc$，等等。從此可得
+  \[ \frac{s-t}{s-u}=\frac{b-a}{c-a}\quad\text{且}\quad\frac{h-t}{h-u}=\frac{b+abc}{c+abc}. \]
+  算出 \[ \frac{s-t}{s-u} : \frac{h-t}{h-u} = \frac{(b-a)(c+abc)}{(c-a)(b+abc)}=\frac{\left(\frac{1}{b}-\frac{1}{a}\right)\left(\frac{1}{c}+\frac{1}{abc}\right)}{\left(\frac{1}{c}-\frac{1}{a}\right)\left(\frac{1}{b}+\frac{1}{abc}\right)} \implies \frac{s-t}{s-u}:\frac{h-t}{h-u} \in \RR \]
+   就得證。
+\end{proof}
+
+
+\begin{example}
+  [模擬競賽 2014]
+  設 $\triangle ABC$ 的內切圓圓心為 $I$，且該內切圓分別與 $\ol{CA}$, $\ol{AB}$ 邊切於點 $E$, $F$。令點 $E$, $F$ 對 $I$ 的對稱點分別為 $G$, $H$。 設點 $Q$ 為 $\ol{GH}$ 與 $\ol{BC}$ 的交點，並設點 $M$ 為 $\ol{BC}$ 的中點。試證 $\ol{IQ}$ 與 $\ol{IM}$ 垂直。
+\end{example}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    pair A = dir(110), B = dir(210), C = dir(330);
+    pair I = incenter(A,B,C);
+    pair E = foot(I,C,A);
+    pair F = foot(I,A,B);
+    pair D = foot(I,B,C);
+    pair G = 2*I-E;
+    pair H = 2*I-F;
+    pair Q = extension(B,C,G,H);
+    pair M = midpoint(B--C);
+    draw(A--B--C--cycle);
+    draw(H--Q);
+    draw(incircle(A,B,C));
+    draw(B--Q--I--M);
+    dot("$A$", A, A);
+    dot("$B$", B, dir(-90));
+    dot("$C$", C, dir(-90));
+    dot("$I$", I, dir(90));
+    dot("$E$", E, dir(C+A-I));
+    dot("$F$", F, dir(A+B-I));
+    dot("$D$", D, dir(B+C-I));
+    dot("$G$", G, dir(I-E));
+    dot("$H$", H, dir(I-F));
+    dot("$Q$", Q, dir(-90));
+    dot("$M$", M, dir(-90));
+  \end{asy}
+\end{figure}
+\begin{soln}
+  令 $D$ 為 $I$ 對 $\ol{BC}$ 的垂足，且設 $(DEF)$ 為單位圓。
+  （這讓我們可利用 \S \ref{sec:unitcircle} 的引理。）
+  則 $\left\lvert d \right\rvert = \left\lvert e \right\rvert = \left\lvert f \right\rvert = 1$，且 $g = -e$, $h = -f$。
+  設 $x = \ol d = \frac 1d$，類似定義 $y$, $z$。
+  則
+  \[ b = \frac{2}{\ol d + \ol f} = \frac{2}{x+z}. \]
+  類似有 $c = \frac{2}{x+y}$，因此
+  \[ m = \half(b+c) = \frac{1}{x+y} + \frac{1}{x+z} = \frac{2x+y+z}{(x+y)(x+z)}. \]
+  再來，我們有 $Q = DD \cap GH$，故
+  \[ q = \frac{dd(g+h)-gh(d+d)}{d^2-gh}
+    = \frac{\frac{1}{x^2} \left( -\frac1y-\frac1z \right) - \frac{1}{yz} \frac{2}{x}}{\frac{1}{x^2} - \frac{1}{yz}}
+    = \frac{2x+y+z}{x^2-yz}. \]
+  因此
+  \[ m/q = \frac{x^2-yz}{(x+y)(x+z)}. \]
+  則
+  \[ \ol{m/q} = \frac{\frac{1}{x^2}-\frac{1}{yz}}{\left( \frac1x+\frac1y \right)\left( \frac1x+\frac1z \right)} = \frac{yz-x^2}{(x+y)(x+z)} = -m/q \]
+  故 $m/q \in i \RR$，得證。
+\end{soln}
+
+\begin{example}
+  [USA 2012] 令 $ABC$ 為三角形，並設 $P$ 為任意一點且設 $\gamma$ 為一條通過 $P$ 的線。定義 $A'$ 為直線 $BC$ 與 $\ol{PA}$ 對 $\gamma$ 的對稱線 的交叉點。類似定義 $B'$ 和 $C'$。試證： $A'$, $B'$, $C'$ 三點共線。
+\end{example}
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(4cm);
+    pair A = dir(110), B = dir(210), C = dir(330);
+    dot("$A$", A, A);
+    dot("$B$", B, dir(-90));
+    dot("$C$", C, dir(-90));
+    draw(A--B--C--cycle);
+    pair P = 0.1*dir(40);
+    dot("$P$", P, dir(-35));
+    pair X1 = P + 1.5 * dir(10);
+    pair X2 = P - 1.5 * dir(10);
+    draw(X1--X2, dashed, Arrows);
+    pair T = 2*foot(A,X1,X2)-A;
+    pair A1 = extension(P,T,B,C);
+    dot("$A'$", A1, dir(-40));
+    draw(A--P--A1);
+  \end{asy}
+\end{figure}
+
+\begin{soln}
+  設 $p=0$ 且設 $\gamma$ 為實軸。
+  則 $A'$ 是 $bc$ 和 $p\bar a$ 的交叉點。從此，利用命題 \ref{prop:complex_intersect} 可得
+  \[ a' = \frac{\bar a(\bar b c - b \bar c)}{(\bar b - \bar c)\bar a-(b-c) a}. \]
+  注意
+  \[ \bar a' = \frac{a (b \bar c - \bar b c)}{(b-c) a - (\bar b - \bar c)\bar a}. \]
+  利用定理 \ref{thm:complex_shoelace}，我們需證
+  \[ 0 = \left\lvert
+  \begin{array}{ccc}
+    \frac{\bar a(\bar b c-b \bar c)}{(\bar b - \bar c)\bar a - (b-c) a} & \frac{a (b \bar c - \bar b c)}{(b-c) a - (\bar b - \bar c) \bar a} & 1 \\
+    \frac{\bar b(\bar c a-c \bar a)}{(\bar c - \bar a)\bar b - (c-a) b} & \frac{b (c \bar a - \bar c a)}{(c-a) b - (\bar c - \bar a) \bar b} & 1 \\
+    \frac{\bar c(\bar a b-a \bar b)}{(\bar a - \bar b)\bar c - (a-b) c} & \frac{c (a \bar b - \bar a b)}{(a-b) c - (\bar a - \bar b)\bar c} & 1
+  \end{array}
+  \right\rvert.
+  \]
+  上述等價與
+  \[ 0 = \left\lvert
+  \begin{array}{ccc}
+    \bar a(\bar b c -b \bar c) & a (\bar b c - b \bar c) & (\bar b - \bar c) \bar a - (b-c) a \\
+    \bar b(\bar c a -c \bar a) & b (\bar c a - c \bar a) & (\bar c - \bar a) \bar b - (c-a) b \\
+    \bar c(\bar a b -a \bar b) & c (\bar a b - a \bar b) & (\bar a - \bar b) \bar c - (a-b) c \\
+  \end{array}
+  \right\rvert. \]
+  把行列式算出來，右邊這等於
+  \[
+  \sum_{\text{cyc}} ((\bar b - \bar c) \bar a - (b-c) a) \cdot - \left\lvert
+    \begin{array}{cc}
+      b & \bar b \\
+      c & \bar c
+    \end{array}
+    \right\rvert \cdot \left( \bar c a - c \bar a \right)\left( \bar a b - a \bar b \right)
+  \]
+  或
+  \[
+    (\bar b c - c \bar b)(\bar c a - c \bar a)(\bar a b - a \bar b) \sum_{\text{cyc}} \left( ab - ac + \bar c \bar a - \bar b \bar a \right) = 0.
+  \qedhere \]
+\end{soln}
+
+\begin{example}
+  [獨立研究 2014]
+  令 $I$ 與 $O$ 分別為三角形 $ABC$ 的內心與外心。設 $\ell$ 為一條直線，為 $ABC$ 的內接圓相切並於 $\ol{BC}$ 平行。
+  取 $X$, $Y$ 在 $\ell$ 上使得 $I$, $O$, $X$ 共線且 $\angle XIY = 90\dg$.
+  試證 $A$, $X$, $O$, $Y$ 共圓。
+\end{example}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    pair A = dir(110), B = dir(220), C = dir(320);
+    dot("$A$", A, A);
+    dot("$B$", B, B);
+    dot("$C$", C, C);
+    draw(A--B--C--cycle);
+    pair O = (0,0);
+    dot("$O$", O, dir(-90));
+    draw(unitcircle);
+    draw(incircle(A,B,C), dotted);
+    pair I = incenter(A,B,C);
+    dot("$I$", I, dir(-90));
+    pair B1 = 2*I-B, C1 = 2*I-C;
+    pair X = extension(B1,C1,O,I);
+    dot("$X$", X, dir(20));
+    pair Y = 2*foot(circumcenter(A,X,O),X,2*I-foot(I,B,C))-X;
+    dot("$Y$", Y, dir(190));
+    draw(circumcircle(A,X,Y));
+    draw(X--Y--I--cycle);
+    pair P = IP(Line(I,Y),unitcircle);
+    pair Q = 2*foot(O,I,P)-P;
+    dot("$P$", P, dir(P-Q));
+    dot("$Q$", Q, dir(Q-P));
+    draw(P--Y,dashed); draw(I--Q,dashed);
+    dot("$Y'$", IP(I--Q,B--C), dir(-110));
+    pair X1 = extension(I,O,B,C);
+    dot("$X'$", X1, dir(-75));
+    draw(X1--I, dashed);
+  \end{asy}
+\end{figure}
+
+\begin{soln}
+  設 $X'$ 和 $Y'$ 分別為 $X$ 和 $Y$ 對 $I$ 的對稱點。注意 $X$, $Y$ 落在 $\ol{BC}$ 上。
+  再來，設 $P$, $Q$ 為 $\ol{IY}$ 和 $ABC$ 的外接圓的交叉點。
+
+  令 $(ABC)$ 為複平面的單位元。設 $j$ 為 $I$ 的複數（所以不會跟 $i=\sqrt{-1}$ 搞混）。
+  則
+  \[ x' = \frac{\left( \ol b c - b \ol c \right)(j-0) - \left( \ol j 0 - j \ol 0 \right)(b-c)}{(\ol b - \ol c)(j-0) - (b-c) (\ol j - \ol 0)}
+    = \frac{j \cdot \frac{c^2-b^2}{bc}}{j \cdot \frac{c-b}{bc} - (b-c) \ol j}
+    = \frac{j(b+c)}{j + bc \ol j} . \]
+  我們在求 $y'$。考慮以下 $z$ 的二次方程：
+  \[ \frac{z-j}{j} + \frac{\frac1z - \ol j}{\ol j} = 0
+    \iff z^2 - 2j z + j / \ol j = 0.\]
+  以上的零點剛好為 $p$ 和 $q$，故 $p+q = 2j$ 而 $pq = j / \ol j$。
+  因此個算
+  \[ y' = \frac{pq(b+c)-bc(p+q)}{pq-bc}
+    = \frac{j(b+c)-2bcj \ol j}{j - bc \ol j} = \frac{j(b+c)-2bcj \ol j}{j-bc\ol j}. \]
+  將可得
+  \[
+    x = 2j - x' = \frac{j(2j-b-c+2bc \ol j)}{j + bc \ol j}
+    \quad\text{和}\quad
+    y = 2j - y' = \frac{j(2j-b-c)}{j - bc \ol j}.
+  \]
+  由此可得
+  \begin{align*}
+    y-x &= j \cdot \frac{(2j-b-c)(j+bc\ol j)-(2j-b-c+2bc\ol j)(j-bc \ol j)}{(j-bc \ol j)(j+bc \ol j)} \\
+    &= j \cdot \frac{2bc \ol j(2j-b-c)-2bc \ol j(j  - bc \ol j)}{(j-bc\ol j)(j+bc\ol j)} \\
+    &= j \cdot \frac{2bc \ol j \left( j-b-c+bc \ol j \right)}{(j-bc\ol j)(j+bc\ol j)} \\
+    X = \frac{y-x}{x} &= \frac{2bc \ol j \left( j-b-c+bc \ol j \right)}{(j-bc\ol j)(2j-b-c+2bc\ol j)} \\
+    A = \frac{y-a}{a} &= \frac{j(2j-b-c-a)+abc\ol j}{a(j-bc\ol j)}
+  \end{align*}
+  我們需證 $X/A = \ol{X/A}$。
+  將設 $a=x^2$, $b=y^2$, $c=z^2$, $j=-(xy+yz+zx)$, $\ol j = -\frac{x+y+z}{xyz}$ （跟以前的 $x$, $y$ 無關）。
+  根據上述改寫成
+  \begin{align*}
+    X &= \frac{2\frac{yz}{x}(x+y+z)(\frac{yz}{x}(x+y+z)+y^2+z^2+xy+yz+zx)}{\left( -\frac{yz}{x}(x+y+z)+xy+yz+zx \right)\left( y^2+z^2+2(xy+yz+zx)+2\frac{yz}{x}(x+y+z) \right)} \\
+    &= \frac{2yz(x+y+z)\left( 2xyz+\sum_{\text{sym}} x^2y \right)}{(y+z)(x^2-yz)\left( x(y+z)(2x+y+z)+2yz(x+y+z) \right)} \\
+    &= \frac{2yz(x+y+z)(x+y)(x+z)}{(x^2-yz)\left( (x^2+yz)(y+z)+(xy+yz+zx)(x+y+z) \right)} \\
+    \intertext{並}
+    A &= \frac{(xy+yz+zx)(x+y+z)^2-xyz(x+y+z)}{x^2(-(xy+yz+zx)+\frac{yz}{x}(x+y+z))} \\
+    &= \frac{(x+y+z)(x+y)(y+z)(z+x)}{x(yz-x^2)(y+z)} \\
+    \intertext{故}
+    X/A &= \frac{-2xyz}{(x^2+yz)(y+z)+(x+y+z)(xy+yz+zx)} \\
+    &= \frac{-\frac{2}{xyz}}%
+    {(\frac{1}{x^2}+\frac1{yz})(\frac1y+\frac1z)  +  (\frac1x+\frac1y+\frac1z)(\frac1{xy}+\frac1{yz}+\frac1{zx})} \\
+    &= \ol{X/A}
+  \end{align*}
+  得證。
+\end{soln}
+
+
+\section{練習題}
+\begin{enumerate}
+  \ii 令 $ABCD$ 為圓內接的四邊形。令 $H_A$, $H_B$, $H_C$, $H_D$
+  分別為三角形 $BCD$, $CDA$, $DAB$, $ABC$ 的垂心。
+  試證 $\ol{AH_A}$, $\ol{BH_B}$, $\ol{CH_C}$, $\ol{DH_D}$ 共點。
+  \ii (China TST 2011) 令 $\Gamma$ 為三角形 $ABC$ 的外接圓。
+  假設 $\ol{AA'}$, $\ol{BB'}$, $\ol{CC'}$ 為 $\Gamma$ 的直徑。
+  設 $P$ 為 $ABC$ 內的莫一點，並設 $D$, $E$, $F$ 分別為 $P$ 對
+  $\ol{BC}$, $\ol{CA}$, $\ol{AB}$ 的垂足。
+  令 $X$ 為 $A'$ 對 $D$ 的對稱點；類似定義 $Y$ 和 $Z$。
+  試證 $\triangle XYZ \sim \triangle ABC$。
+  \ii 令 $ABCD$ 為四邊形，且 $\ol{AB}$, $\ol{BC}$, $\ol{CD}$, $\ol{DA}$ 對莫個圓 $\omega$ 相切。試證：$\ol{AC}$ 的中點，$\ol{BD}$ 的中點，與 $\omega$ 的圓心共線。
+  \ii (Simson 線) 令 $ABC$ 為三角形並 $P$ 為 $ABC$ 的外接圓上的莫一點。
+  \begin{enumerate}[(a)]
+    \ii 令 $D$, $E$, $F$ 為 $P$ 對 $\ol{BC}$, $\ol{CA}$, $\ol{AB}$ 的垂足。試證 $D$, $E$, $F$ 共線。
+    \ii 令 $H$ 為 $ABC$ 的垂心。試證 $\ol{EF}$ 通過 $\ol{PH}$ 的中點。
+  \end{enumerate}
+  \ii (Princeton) 令 $\gamma$ 和 $I$ 分別為三角形 $ABC$ 的內心和內接圓。
+  設 $D$, $E$, $F$ 分別為 $\gamma$ 對 $\ol{BC}$, $\ol{CA}$, $\ol{AB}$ 的切點，
+  並設 $D'$ 為 $D$ 對 $I$ 的對稱點。
+  假設直線 $EF$ 分別為 $\gamma$ 對 $D$ 與 $D'$ 的切線交於點 $P$ 與 $Q$。
+  試證 $\angle DAD' + \angle PIQ = 180\dg$。
+  \ii (Schiffler 點) 令 $I$ 為 $\triangle ABC$ 的內心。試證： $\triangle AIB$, $\triangle BIC$, $\triangle CIA$, $\triangle ABC$ 的歐拉線 (Euler line) 共點。
+  \ii (USA TST 2014) 令 $ABCD$ 為內接圓的四邊形，且設
+  $E$, $F$, $G$, $H$ 分別為 $\ol{AB}$, $\ol{BC}$, $\ol{CD}$, $\ol{DA}$ 的中點。
+  設 $W$, $X$, $Y$, $Z$ 分別為 $AHE$, $BEF$, $CFG$, $DGH$ 的垂心。
+  試證： $ABCD$ 和 $WXYZ$ 的面積相等。
+  \ii 令 $O$ 為三角形 $ABC$ 的外心。
+  一條通過 $O$ 的直線 $\ell$ 分別於 $\ol{AB}$ 與 $\ol{AC}$ 交於點 $X$ 與 $Y$。
+  令 $M$ 和 $N$ 分別為 $BY$ 和 $CX$ 的中點。
+  試證 $\angle MON = \angle BAC$。
+  \ii (APMO 2010) 令 $ABC$ 是銳角三角形，滿足 $AB > BC$ 且 $AC > BC$。
+  分別記 $O$ 與 $H$ 為三角形 $ABC$ 的外心與垂心。
+  設三角形 $AHC$ 的外接圓交直線 $AB$ 於異於 $A$ 的一點 $M$;
+  且三角形 $AHB$ 的外接圓交直線 $AC$ 於異於 $A$ 的一點 $N$。
+  證明三角形 $MNH$ 的外接圓圓心在直線 $OH$ 上。
+  \ii (Iran 2013) 令 $ABC$ 是銳角三角形，並設 $M$ 為劣弧 $\widehat{BC}$ 的中點。
+  取 $N$ 在 $ABC$ 的外接圓上，使得 $\ol{AN} \perp \ol{BC}$，
+  在分別取 $K$, $L$ 在邊 $AB$ 和 $AC$ 上使得 $\ol{OK} \parallel \ol{MB}$,
+  $\ol{OL} \parallel \ol{MC}$，此處 $O$ 為 $ABC$ 的外心。試證 $NK = NL$。
+  \ii (MOP 2006) 令 $ABCD$ 為圓內接的四邊形，並設 $O$ 為 $ABCD$ 的外心。
+  設 $P$ 為平面上的莫一點，且設 $O_1$, $O_2$, $O_3$, $O_4$
+  分別為三角形 $PAB$, $PBC$, $PCD$, $PDA$ 的外心.
+  試證：$\ol{O_1 O_3}$, $\ol{O_2O_4}$, $\ol{OP}$ 的中點共線。
+\end{enumerate}
+
+
+\end{document}

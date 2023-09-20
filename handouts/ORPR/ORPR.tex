@@ -1,0 +1,655 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+
+\usepackage{answers}
+\Newassociation{hint}{hintitem}{all-hints}
+\renewcommand{\solutionextension}{out}
+\renewenvironment{hintitem}[1]{\item[\bf #1.]}{}
+
+\begin{document}
+\title{Orders Modulo A Prime}
+\date{6 March 2015}
+\maketitle
+
+\begin{abstract}
+  In this article I develop the notion of the order of an element modulo $n$,
+  and use it to prove the famous $n^2+1$ lemma as well as a generalization
+  to arbitrary cyclotomic polynomials.
+\end{abstract}
+
+\section{Introduction}
+I might as well state one of the main results of this article up front,
+so the following discussion seems a little more motivated.
+\begin{theorem}
+  \label{thm:nn_plus_one}
+  Let $p$ be an odd prime.
+  Then there exists an integer $n$ such that $p \mid n^2+1$
+  if and only if $p \equiv 1 \pmod 4$.
+\end{theorem}
+By introducing the notion of order, we will prove that $p \mid n^2+1 \implies p \equiv 1 \pmod 4$.
+By introducing the notion of a primitive root, we will prove the converse direction.
+Finally, we will write down the generalized version of this $n^2+1$ lemma using cyclotomic polynomials.
+
+\section{Orders}
+Let $p$ be a prime and take $a \not\equiv 0 \pmod p$.
+The \vocab{order}\footnote{Some sources denote this as $\ord a \pmod p$ or $\ord_p a$, but we will not.}
+of $a \pmod p$ is defined to be the smallest positive integer $m$ such that
+\[ a^m \equiv 1 \pmod p. \]
+This order is clearly finite because \textbf{Fermat's Little Theorem} tells us
+\[ a^{p-1} \equiv 1 \pmod p, \]
+\emph{id est}, the order of $a$ is at most $p-1$.
+
+Exhibited below are the orders of each $a \pmod{11}$ and $a \pmod{13}$.
+\[
+  \begin{array}{r|rr}
+    a & \text{mod $11$} & \text{mod $13$} \\ \hline
+    1  &  1 &  1 \\
+    2  & 10 & 12 \\
+    3  &  5 &  3 \\
+    4  &  5 &  6 \\
+    5  &  5 &  4 \\
+    6  & 10 & 12
+  \end{array}
+  \qquad
+  \begin{array}{r|rr}
+    a & \text{mod $11$} & \text{mod $13$} \\ \hline
+    7  & 10 & 12 \\
+    8  & 10 &  4 \\
+    9  &  5 &  3 \\
+    10 &  2 &  6 \\
+    11 &    & 12 \\
+    12 &    &  2
+  \end{array}
+\]
+
+One observation you might make about this is that it seems that the orders all divide $p-1$.
+Obviously if $m \mid p-1$, then $a^{p-1} \equiv 1 \pmod p$ as well.
+The miracle of orders is that the converse of this statement is true in an even more general fashion.
+
+\begin{theorem}[Fundamental Theorem of Orders]
+  Suppose $a^N \equiv 1 \pmod p$.
+  Then the order of $a \pmod p$ divides $N$.
+  \label{thm:fundamental_order}
+\end{theorem}
+\begin{proof}
+  Important exercise (\emph{mandatory} if you haven't seen it before).
+  As a hint, use the division algorithm.
+\end{proof}
+
+To drive the point home:
+\begin{center}
+  \begin{minipage}[h]{9cm}
+    \begin{mdframed}
+    \bfseries
+    \color{magenta}
+    The only time when $a^N \equiv 1 \pmod p$ is
+    when the order of $a$ divides $N$.
+    \end{mdframed}
+  \end{minipage}
+\end{center}
+That's why considering the order of an element is often a good idea when faced with such an expression.
+The observation that the orders all divide $p-1$ follows from combining
+Fermat's Little Theorem with \Cref{thm:fundamental_order}.
+
+Believe it or not, this is already enough to prove one direction of \Cref{thm:nn_plus_one}.
+
+\begin{proposition}
+  For an odd prime $p$, if $n^2 \equiv -1 \pmod p$, then $p \equiv 1 \pmod 4$.
+\end{proposition}
+\begin{proof}
+  The point is that squaring both sides gives $n^4 \equiv 1 \pmod p$.
+  Now we claim that the order of $n$ modulo $p$ is exactly $4$.
+  If not, it must be either $2$ or $1$, which implies $n^2 \equiv 1 \pmod p$.
+  But since we assumed $n^2 \equiv -1 \pmod p$, that's impossible.
+
+  Hence the order is $4$.
+  Since all orders divide $p-1$, we derive $4 \mid p-1$ as desired.
+\end{proof}
+
+\begin{remark*}
+  \Cref{thm:fundamental_order} (and much of the discussion preceding it)
+  still holds if we replace the prime $p$ with
+  any positive integer $n$ such that $\gcd(a,n) = 1$.
+  In that case we replace $p-1$ with just $\phi(n)$.
+\end{remark*}
+
+\section{Primitive Roots}
+Now we want to prove the other direction of this.
+The morally correct way to do so is to use something called a primitive root.
+
+\begin{theorem}
+  Let $p$ be a prime.
+  Then there exists an integer $g$, called a \vocab{primitive root},
+  such that the order of $g$ modulo $p$ equals $p-1$.
+\end{theorem}
+This theorem can be quoted on a contest without proof.
+Its proof is one of the practice problems.
+
+The point of this theorem is that given a primitive root $g$,
+each nonzero residue modulo $p$ can be \textbf{expressed uniquely} by $g^\alpha$,
+for $\alpha = 1, 2, \dots, p-1$.
+
+\begin{exercise}
+  Suppose $p = 2m+1$.
+  Verify that \[ g^{m} \equiv -1 \pmod p. \]
+  (If you get stuck, try reading the rest of this section first.)
+\end{exercise}
+
+\begin{example}[Primitive Roots Modulo $11$ and $13$]
+It turns out that $g=2$ is a primitive root modulo both $11$ and $13$.
+Let's write this out.
+\[
+  \begin{array}{r|rr}
+    2^n & \text{mod $11$} & \text{mod $13$} \\ \hline
+    2^1 & 2 & 2 \\
+    2^2 & 4 & 4 \\
+    2^3 & 8 & 8 \\
+    2^4 & 5 & 3 \\
+    2^5 & \boxed{10} & 6 \\
+    2^6 & 9 & \boxed{12} \\
+    2^7 & 7 & 11 \\
+    2^8 & 3 & 9 \\
+    2^9 & 6 & 5 \\
+    2^{10} & 1 & 10 \\
+    2^{11} &   & 7 \\
+    2^{12} &   & 1
+  \end{array}
+\]
+I've boxed the two ``half-way'' points: $2^5 \equiv 10 \equiv -1 \pmod{11}$
+and $2^6 \equiv 12 \equiv -1 \pmod{13}$.
+
+Consider $p=11$.
+We already know that $-1$ cannot be a square modulo $p$,
+and you can intuitively see this come through: since $\frac{p-1}{2}=5$ is odd,
+it's not possible to cut $g^5 \equiv -1$ into a perfect square.
+
+On the other hand, if $p=13$ then $p \equiv 1 \pmod 4$, and you can see intuitively why $g^6 \equiv -1$ is a perfect square: just write $g^6 = (g^3)^2$ and we're home free!
+\end{example}
+
+See if you can use this to complete the proof of the other direction of this theorem.
+\begin{proposition}
+  If $p \equiv 1 \pmod 4$ is a prime, then there exists an $n$ such that
+  $n^2 \equiv -1 \pmod p$.
+\end{proposition}
+\begin{proof}
+  Let $g$ be a primitive root modulo $p$ and let $n = g^{\frac{p-1}{4}}$.
+  Why does this work?
+\end{proof}
+
+I had better also state the general theorem.
+\begin{theorem}
+  [Primitive Roots Modulo Non-Primes]
+  A primitive root modulo $n$ is an integer $g$ with $\gcd(g,n) = 1$
+  such that $g$ has order $\phi(n)$.
+  Then a primitive root mod $n$
+  exists if and only if $n=2$, $n=4$, $n=p^k$ or $n=2p^k$,
+  where $p$ is an odd prime.
+\end{theorem}
+\begin{exercise}
+  Show that primitive roots don't exist modulo any number of the form $pq$
+  for distinct odd primes $p$, $q$.
+  (Use the Chinese Remainder Theorem to show that $x^{\opname{lcm}(p-1,q-1)} \equiv 1$
+  for suitable $x$).
+\end{exercise}
+You are invited to extend the result of this exercise to prove that if $n \notin \{2,4,p^k,2p^k\}$
+then no primitive roots exists modulo $n$. (This is not difficult, just a little annoying.)
+
+\section{The Cyclotomic Generalization}
+So we've seen the polynomial $x^2+1$ is somehow pretty special, in part
+because it divides $x^4-1$ and thus lets us use the idea of orders.
+You might also have seen the polynomials $x^2+x+1$ and $x^2-x+1$ show up in some problems; they divide $x^3-1$ and $x^3+1$, respectively, and you might suspect similar results might hold.
+
+Our goal now is to develop a more general result involving the irreducible
+factors of $x^n-1$, thus taking us beyond just the case $n=4$.
+The definition is a little technical, so bear with me for a little bit.
+\begin{definition}
+  A complex number $z$ is called a \vocab{primitive $n$th root of unity} if
+  \[ z^n = 1 \]
+  and moreover $z^k \neq 1$ for $k=1,2,\dots,n-1$.
+  In other words, $z^n$ is the \emph{first} power which is $1$.
+\end{definition}
+\begin{exercise}
+  Let $n$ be a fixed integer, and define
+  \[ \zeta_n = \cos \left( \frac{2\pi}{n} \right) + i \sin\left( \frac{2\pi}{n} \right). \]
+  Show that the primitive $n$th roots of unity are exactly the numbers
+  \[ \cos \left( \frac{2\pi k}{n} \right) + i \sin \left( \frac{2\pi k}{n} \right) = \zeta_n^k \]
+  where $1 \le k \le n$, and $\gcd(k,n) = 1$.
+  In particular, the number of primitive $n$th roots of unity is $\phi(n)$.
+\end{exercise}
+Note that in particular, $1$ is considered a primitive $n$th root of unity only when $n=1$.
+
+You can thus see these numbers visually on the complex plane.
+For example, below we exhibit the primitive $9$th roots of unity,
+of which there are $\phi(9) = 6$.
+\begin{center}
+  \begin{asy}
+    defaultpen(fontsize(11pt));
+    pointfontsize=11;
+    size(8cm);
+    graph.xaxis("Re", -1.5, 1.5, Arrows);
+    graph.yaxis("Im", -1.5, 1.5, Arrows);
+    MP("0", origin, dir(-45));
+
+    draw(unitcircle);
+    dotfactor *= 2;
+    Drawing("\zeta_9^1", dir( 40), dir( 40));
+    Drawing("\zeta_9^2", dir( 80), dir( 80));
+    Drawing("\zeta_9^4", dir(160), dir(160));
+    Drawing("\zeta_9^5", dir(200), dir(200));
+    Drawing("\zeta_9^7", dir(280), dir(280));
+    Drawing("\zeta_9^8", dir(320), dir(320));
+  \end{asy}
+\end{center}
+
+\begin{definition}
+  The \vocab{$n$th cyclotomic polynomial} is the monic polynomial $\Phi_n(x)$ whose roots
+  are exactly the primitive $n$th roots of unity; that is,
+  \[ \Phi_n(X) = \prod_{\substack{\gcd(k,n) = 1 \\ 1 \le k \le n}}
+          \left( X - \zeta^k \right). \]
+\end{definition}
+\begin{example}
+  Because the primitive fourth roots of unity are $i$ and $-i$, we have
+  \[ \Phi_4(X) = (X-i)(X+i) = X^2+1. \]
+\end{example}
+One can actually show $\Phi_n(X)$ always has integer coefficients.
+(In fact, it's the polynomial of \emph{minimal} degree with this property.)
+
+\begin{proposition}[Cyclotomic Polynomials Divide $X^n-1$]
+  \label{prop:cyclotomic_magic}
+  For any integer $n$, we have
+  \[ X^n - 1 = \prod_{d \mid n} \Phi_d(X). \]
+  In particular, if $p$ is a prime then
+  \[ \Phi_p(X) = \frac{X^p-1}{X-1} = X^{p-1} + X^{p-2} + \dots + 1. \]
+\end{proposition}
+
+\begin{exercise}
+  Prove this result.
+  (If you don't see why, do the case $n=4$ first.)
+\end{exercise}
+
+\begin{example}
+  To write this lemma out explicitly for the cases $2 \le n \le 8$:
+  \begin{align*}
+    X^2-1 &= (X-1)(X+1) \\
+    X^3-1 &= (X-1)(X^2+X+1) \\
+    X^4-1 &= (X-1)(X+1)(X^2+1) \\
+    X^5-1 &= (X-1)(X^4+X^3+X^2+X+1) \\
+    X^6-1 &= (X-1)(X+1)(X^2+X+1)(X^2-X+1) \\
+    X^7-1 &= (X-1)(X^6+X^5+X^4+X^3+X^2+X+1) \\
+    X^8-1 &= (X-1)(X+1)(X^2+1)(X^4+1)  \\
+  \intertext{We observe a ``new'' polynomial appearing at each level;
+  these are the cyclotomic polynomials.}
+    \Phi_2(X) &= X+1\\
+    \Phi_3(X) &= X^2+X+1 \\
+    \Phi_4(X) &= X^2+1 \\
+    \Phi_5(X) &= X^4+X^3+X^2+X+1 \\
+    \Phi_6(X) &= X^2-X+1 \\
+    \Phi_7(X) &= X^6+X^5+\dots+1\\
+    \Phi_8(X) &= X^4+1
+  \end{align*}
+\end{example}
+
+Why is all of this in a number theory handout?
+Because of this:
+\begin{theorem}[Divisors of Cyclotomic Values]
+  \label{thm:cyclotomic_main}
+  Let $p$ be a prime, $n$ a positive integer and $a$ any integer.
+  Suppose that \[ \Phi_n(a) \equiv 0 \pmod p. \]
+  Then either
+  \begin{itemize}
+    \ii $a$ has order $n$ modulo $p$, and hence $p \equiv 1 \pmod n$, or
+    \ii $p$ divides $n$.
+  \end{itemize}
+\end{theorem}
+\begin{remark}[How to Remember This Theorem]
+  You can kind of see why this should not be \emph{too} surprising.
+  The idea is that
+  \begin{center}
+    $\Phi_n$ is the polynomial which annihilates complex numbers of ``order'' $n$.
+  \end{center}
+  So you might expect modulo $p$, $\Phi_n$ kills the integers which are of order $n$, and in particular
+  that $p \equiv 1 \pmod n$ if any such integers exist.
+  This theorem says that, except for the few ``edge cases'' where $p \mid n$,
+  this intuition is right.
+\end{remark}
+\begin{proof}
+  Suppose $\Phi_n(a) \equiv 0 \pmod p$.
+  By \Cref{prop:cyclotomic_magic}, we deduce that $a^n-1 \equiv 0 \pmod p$.
+  So the order $m$ of $a \pmod p$ divides $n$.
+  Thus, we have two cases.
+  \begin{itemize}
+    \ii If $m = n$, we are done: $n = m \mid p-1$.
+    \ii Suppose $m < n$ (but still $m \mid n$).
+    Now,
+    \[ 0 \equiv a^m-1 = \prod_{d \mid m} \Phi_d(a) \pmod p. \]
+    Hence, not only do we have $\Phi_n(a) = 0$, but we also have $\Phi_d(a) = 0$ for some $d \mid m$.
+    (Here $d \le m < n$.)
+    Thus $a$ is a \emph{double root} of the polynomial
+    \[ X^n - 1 = \prod_{d \mid n} \Phi_d(X) \pmod p. \]
+    So we can \emph{take the derivative} of this polynomial modulo $p$ to obtain $nX^{n-1} \pmod p$,
+    without changing the fact that $a$ is a root.
+    If $p \mid n$ this is in fact the zero polynomial and we are done.
+    But if $p \nmid n$ then we can only have $a \equiv 0 \pmod p$ (what else is a root of $X^{n-1}$?),
+    which is impossible. \qedhere
+  \end{itemize}
+\end{proof}
+So in fact, \Cref{thm:nn_plus_one}
+is just the $n=4$ case of \Cref{thm:cyclotomic_main}!
+\section{Example Problems}
+\begin{example}
+  [MOP 2011]
+  Let $p$ be a prime and $n$ a positive integer.
+  Suppose that $p^1$ fully divides $2^n-1$ (meaning it is divisible by $p$ but not $p^2$).
+  Prove that $p^1$ fully divides $2^{p-1}-1$.
+\end{example}
+\begin{soln}
+  Obviously $p \neq 2$, so assume $p$ is odd.
+
+  Naturally, we consider the order of $2$ modulo $p$; denote this number by $m$ (so $p \mid 2^m-1$).
+  We automatically know that $m$ divides both $n$ and $p-1$.
+  From $m \mid n$ we derive that
+  \[ p \mid 2^m-1 \mid 2^n-1. \]
+  Now note that $2^n-1$ has exactly one power of $p$ in its prime factorization.
+  Hence from the above we can deduce that $2^m-1$ has exactly one power of $p$ as well
+  (it has at least one since $p \mid 2^m-1$ and at most one since it divides $2^n-1$).
+  In this way we've eliminated $n$ entirely from the problem.
+
+  So it remains to show that, if $p^1$ divides $2^m-1$, then
+  $2^{p-1}-1$ does not gain any prime factors of $p$.
+  So we consider the quotient
+  \[
+    \frac{2^{p-1}-1}{2^m-1}
+    = 1 + 2^m + \left( 2^m \right)^2 + \dots + \left( 2^m \right)^{\frac{p-1}{m}-1}.
+  \]
+  Our goal is to show this isn't divisible by $p$.
+  Taking it modulo $p$, however, we get
+  \[
+    \frac{2^{p-1}-1}{2^m-1}
+    \equiv \underbrace{1 + 1 + \dots + 1}_{\frac{p-1}{m} \text{ terms}} = \frac{p-1}{m} \pmod p
+  \]
+  Since $0 < \frac{p-1}{m} < p$, the conclusion follows.
+\end{soln}
+If you really understand the above example, you have my permission to look up the so-called
+``Lifting the Exponent'' lemma, which you may find useful in the practice problems.
+The reason I don't include it here is that I find many students commit the result to memory
+without actually understanding the proof of the lemma.
+Actually, the proof of the lemma is extremely natural, and if you understand the above solution
+you should not have much difficulty proving the lemma yourself.
+Specifically, you need only check that
+\begin{itemize}
+  \ii If $a \equiv b \not\equiv 0 \pmod p$ and $p \nmid n$,
+  then $\frac{a^n-b^n}{a-b} \not\equiv 0 \pmod p$, and
+  \ii If $p \mid t$ and $a \not\equiv 0 \pmod p$
+  then $p$ fully divides $\frac 1t \left( (a+t)^p-a^p \right)$.
+\end{itemize}
+Once you can prove this, you immediately obtain the following.
+\begin{lemma}
+  [Lifting the Exponent]
+  Let $p$ be an odd prime and let $\nu_p(n)$
+  be the exponent of $p$ in the prime factorization of $n$.
+  If $a \equiv b \not\equiv 0 \pmod p$ then
+  $\nu_p(a^n-b^n) = \nu_p(n) + \nu_p(a-b)$.
+\end{lemma}
+On many olympiad problems,
+one only needs a particular case of this lemma (e.g.\ $\nu_p(n) = 0$)
+and it is completely reasonable to re-derive that special case on the spot.
+This is exactly what I did in MOP 2011.
+
+\begin{example}[Folklore]
+  Find all positive integers $n$ such that $n$ divides $2^n-1$.
+\end{example}
+\begin{soln}
+  As you might guess after some experimentation, the only $n$ which works is $n=1$.
+  It's obvious that $n$ has to be odd (since $2^n-1$ is always odd).
+  But how can we show this?
+
+  Let us first consider any prime $p$ dividing $n$.
+  We get that $p \mid 2^n-1$, or $2^n \equiv 1 \pmod p$.
+  So practically the problem is saying that
+  \begin{center}
+    For any prime $p \mid n$, the order of $2$ mod $p$ also divides $n$.
+  \end{center}
+  (If we're really unlucky, we might have to consider prime powers too, but whatever.)
+
+  This gives us an idea: let's take the \emph{smallest} prime $p$ dividing $n$ (noting that $p>2$).
+  Let $m$ denote the order of $2$ modulo $p$ (keeping in mind that $p \neq 2$).
+  Then the order $m$ has to divide $n$, but it also has to divide $p-1$.
+  This can only occur if $m=1$, which is impossible!
+\end{soln}
+The above solution illustrates a trick perhaps worth mentioning explicitly.
+\begin{lemma}
+  [GCD Trick]
+  If $a^m \equiv 1 \pmod N$ and $a^n \equiv 1 \pmod N$
+  then \[ a^{\gcd(m,n)} \equiv 1 \pmod N. \]
+\end{lemma}
+This is just the famous fact that $\gcd(a^m-1,a^n-1)=a^{\gcd(m,n)}-1$
+phrased using modular arithmetic.
+
+Finally, here is a fun and perhaps somewhat unexpected application of cyclotomic polynomials. In fact, you may have seen the special case $n=4$ already; now that we have the full cyclotomic generalization we can prove a much more general fact.
+\begin{example}
+  [Weak Dirichlet]
+  Show that there are infinitely many primes which are congruent to $1$ modulo $n$ for any positive integer $n$.
+\end{example}
+\begin{soln}
+  Suppose there were only finitely many such primes $p_1$, $p_2$, \dots, $p_N$.
+  Look at the number
+  \[ M = \Phi_n(np_1p_2 \dots p_N). \]
+  As a polynomial, $\Phi_n(X)$ has roots which are all roots of unity (meaning they have norm $1$),
+  so its constant term can only be $\pm 1$.
+  Now take $p$ dividing $M$, and apply \Cref{thm:cyclotomic_main}.
+\end{soln}
+
+\section{Practice Problems}
+Not all of the problems below actually invoke the concept of order in the solution.
+However, the intuition about how exponents behave should nonetheless prove useful (hopefully).
+My favorite problems on this set are \ref{prob:hmmt}, \ref{prob:omo}, \ref{prob:tst};
+I also like \ref{prob:euler}, \ref{prob:imo90}, \ref{prob:imo}.
+
+\Opensolutionfile{all-hints}
+\begin{problem}
+  The decimal representations of $\frac17$, $\frac27$, \dots, $\frac67$ are
+  $0.\ol{142857}$, $0.\ol{285714}$, \dots, $0.\ol{857142}$, which surprisingly are
+  all cyclic shifts of each other.
+  Is this a coincidence?
+  \begin{hint}
+    $10$ is a primitive root modulo $7$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Euler]
+  \label{prob:euler}
+  Prove that all factors of $2^{2^n}+1$ are of the form $k \cdot 2^{n+1}+1$.
+  \begin{hint}
+    It's sufficient to prove the result when $m$ is prime.
+    Find the order of $2$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [IMO 2005/4]
+  Determine all positive integers relatively prime to all terms of the infinite sequence $a_n = 2^n+3^n+6^n-1$ for $n \ge 1$.
+  \begin{hint}
+    Try to pick $n=-1$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  Let $n$ be a positive integer and $p > n+1$ a prime.
+  Prove that $p$ divides
+  \[ 1^n+2^n+ \dots + (p-1)^n. \]
+  \begin{hint}
+    Eradicated by primitive roots.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [China TST 2006]
+  \label{prob:china}
+  Find all positive integers $a$ and $n$ such that
+  \[ \frac{(a+1)^n-a^n}{n} \]
+  is an integer.
+  \begin{hint}
+    What happens when $a=1$? Mimic the example.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Romania TST 1996]
+  Find all primes $p$ and $q$ such that for every integer $n$,
+  the number $n^{3pq} - n$ is divisible by $3pq$.
+  \begin{hint}
+    First show $\{3,p,q\}$ are distinct.
+    Then use primitive roots modulo $p$ and $q$
+    to get some divisibility relations, and finish by bounding.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [HMMT November 2014]
+  \label{prob:hmmt}
+  Determine all positive integers $1 \le m \le 50$
+  for which there exists an integer $n$
+  for which $m$ divides $n^{n+1}+1$.
+  \begin{hint}
+    All odd $m$ work. For the other cases, use the $n^2+1$ lemma.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Taiwan IMO 2014 Team Selection Quiz]
+  Alice and Bob play the following game. They alternate selecting distinct nonzero digits
+	(from $1$ to $9$) until they have chosen seven such digits,
+	and then consider the resulting seven-digit number (i.e. $\overline{A_1B_2A_3B_4A_6B_6A_7}$).
+	Alice wins if and only if the resulting number is the last seven decimal digits of some
+	perfect seventh power. Please determine which player has the winning strategy.
+  \begin{hint}
+    Primitive roots exist modulo prime powers. This is a fairly dumb game and Alice wins.
+    (Also, don't forget the word ``distinct''.)
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Shortlist 2006 N5]
+  Show that \[ \frac{x^7-1}{x-1} = y^5-1 \] doesn't have integer solutions.
+  \begin{hint}
+    The left-hand side is the seventh cyclotomic polynomial.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [IMO 1990/3]
+  \label{prob:imo90}
+  Find all positive integers $n$ such that $n^2$ divides $2^n+1$.
+  \begin{hint}
+    Use the smallest prime trick, but this time $p=3$ is a possibility.
+    Use lifting the exponent to eliminate it.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  Let $p > 5$ be a prime.
+  In terms of $p$, compute the remainder when
+  \[ \prod_{m=1}^{p-1} \left( m^2+1 \right) \]
+  is divided by $p$.
+  \begin{hint}
+    Evaluate the polynomial $\prod_{m=1}^{p-1} (X+m)$ carefully mod $p$, and plug in $X = \pm i$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Online Math Open]
+  \label{prob:omo}
+  Find all integers $m$ with $1 \le m \le 300$ such that
+  for any integer $n$ with $n \ge 2$,
+  if $2013m$ divides $n^n-1$ then $2013m$ also divides $n-1$.
+  \begin{hint}
+    Call a number \emph{good} if $n^n \equiv 1 \pmod m \implies n \equiv 1 \pmod m$.
+    Characterize all good numbers.
+    (For example, why is $10$ good?)
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [Shortlist 2012 N2]
+  Find all positive integers $x \le y \le z$ which obey
+  \[ x^3(y^3+z^3) = 2012(xyz+2). \]
+  \begin{hint}
+    This problem is a little involved.
+    First limit the possible values of $x$.
+    Then try and show $503 \mid y+z$.
+    Set $y+z=503k$ and do some bounding.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [USA TST 2008]
+  \label{prob:tst}
+  Prove that $n^7+7$ is never a perfect square for positive integers $n$.
+  \begin{hint}
+    Add $121$ to both sides.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [USAMO 2013/5] Let $m$ and $n$ be positive integers.
+  Prove that there exists an integer $c$ such that $cm$ and $cn$ have the same nonzero decimal digits.
+  \begin{hint}
+    $10 \pmod{7^k}$.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  [IMO 2003/6]
+  \label{prob:imo}
+  Let $p$ be a prime number.
+  Prove that there exists a prime number $q$ such that for every integer $n$,
+  the number $n^p-p$ is not divisible by $q$.
+  \begin{hint}
+    For this to work we must have $q=pk+1$. Then $n^p \equiv p \iff 1 \equiv p^k$.
+    See if you can pick a $q$ such that $p$ has order $r$ modulo $q$
+    but $k \not\equiv 1 \pmod{r}$, where $r$ is a prime of your choice.
+  \end{hint}
+\end{problem}
+
+\begin{problem}
+  Prove that modulo any prime $p$ there exists a primitive root!
+  \begin{hint}
+    From \cite{ref:lsun}:
+    Consider the cyclotomic polynomial $\Phi_{p-1}(X) \mid X^{p-1}-1$.
+    % dividing $x^{p-1}-1$
+    Show that it factors completely modulo $p$, and pick any root.
+  \end{hint}
+\end{problem}
+
+
+%\begin{problem}
+%  [Shortlist 2005 N6] Let $a$ and $b$ be positive integers such that
+%  $a^n+n$ divides $b^n+n$ for all positive integers $n$.
+%  Prove that $a=b$.
+%\end{problem}
+
+\bigskip
+
+\section{Hints}
+\Closesolutionfile{all-hints}
+\begin{enumerate}
+  \input{all-hints.out}
+\end{enumerate}
+
+\begin{thebibliography}{9}
+  \bibitem{ref:remorov} \textbf{Exponents and Primes},
+    by Alexander Remorov, Canada IMO 2010 Winter Training.
+  \bibitem{ref:darthur} \textbf{Order and Primitive Roots},
+    Canada IMO 2010 Summer Training.
+  \bibitem{ref:me} \textbf{Exponents in Number Theory},
+    Evan Chen, 2014 A* Winter Math Camp.
+  \bibitem{ref:lsun} \textbf{Cyclotomic Polynomials in Olympiad Number Theory},
+    Lawrence Sun.
+  \bibitem{ref:yge} \textbf{Elementary Properties of Cyclotomic Polynomials},
+    Yimin Ge.
+  \bibitem{ref:lte} \textbf{Lifting the Exponent},
+    Amir Hossein.
+\end{thebibliography}
+
+\end{document}

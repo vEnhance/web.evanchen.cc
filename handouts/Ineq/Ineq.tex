@@ -1,0 +1,417 @@
+\documentclass[11pt,nothm]{scrartcl}
+\usepackage[chinese,colorsec]{evan}
+\ihead{陳誼廷}
+\ohead{數學奧林匹克的不等式}
+\usepackage{amsthm}
+
+\newtheorem{theorem}{\color{blue!40!black}定理}
+\theoremstyle{definition}
+\newtheorem{example}[theorem]{\color{blue!40!black}例子}
+\newtheorem{exercise}[theorem]{\color{blue!40!black}練習題}
+
+\expandafter\let\expandafter\oldproof\csname\string\proof\endcsname
+\let\oldendproof\endproof
+\renewenvironment{proof}[1][【證】]{%
+  \oldproof[\bfseries #1\nopunct]%
+}{\oldendproof}
+
+\begin{document}
+\title{Olympiad Inequalities \\ 數學奧林匹克的不等式}
+\date{30 April 2014}
+\maketitle
+
+\begin{abstract}
+  The goal of this document is to provide a easier introduction to olympiad inequalities than the standard exposition \emph{Olympiad Inequalities}, by Thomas Mildorf. I was motivated to write it by feeling guilty for getting free $7$'s on problems by simply regurgitating a few tricks I happened to know, while other students were unable to solve the problem.
+\end{abstract}
+
+首先一些定義： 我們會用到循環總和 $\sum_{\text{cyc}}$ (cyclic sum) 和對稱總和 $\sum_{\text{sym}}$ (symmetric sum).
+% In a problem with $n$ variables, these respectively mean to cycle through the $n$ variables, and to go through all $n!$ permutations. To provide an example, in a three-variable problem we might write
+舉個例，有三個變數的時候，
+\begin{align*}
+  \sum_{\text{cyc}} a^2 &= a^2+b^2+c^2 \\
+  \sum_{\text{cyc}} a^2b &= a^2b+b^2c+c^2a \\
+  \sum_{\text{sym}} a^2 &= a^2+a^2+b^2+b^2+c^2+c^2 \\
+  \sum_{\text{sym}} a^2b &= a^2b+a^2c+b^2c+b^2a+c^2a+c^2b.
+\end{align*}
+
+\section{多項式的不等式}
+\subsection{平均不等式和 Muirhead 不等式}
+考慮以下的定理。
+\begin{theorem}
+  [平均不等式 / AM-GM] 令 $a_1$, $a_2$, \dots, $a_n$ 為正實數。則
+  \[ \frac{a_1 + a_2 + \dots + a_n}{n} \ge \sqrt[n]{a_1 \dots a_n}. \]
+  等號成立的充要條件為 $a_1 = a_2 = \dots = a_n$。
+\end{theorem}
+舉例子，由此可證 \[ a^2+b^2 \ge 2ab, \quad a^3+b^3+c^3 \ge 3abc. \]
+
+把這種不等式加起來，就可得一些基本的命題。舉個例，
+\begin{example}
+  試證 $a^2+b^2+c^2 \ge ab+bc+ca$ 和 $a^4+b^4+c^4 \ge a^2bc+b^2ca+c^2ab$.
+\end{example}
+\begin{proof}
+  利用 AM-GM 可得
+  \[ \frac{a^2+b^2}{2} \ge ab \text{ 和 } \frac{2a^4+b^4+c^4}{4} \ge a^2bc. \]
+  類似有
+  \[ \frac{b^2+c^2}{2} \ge bc \text{ 和 } \frac{2b^4+c^4+a^4}{4} \ge b^2ca. \]
+  \[ \frac{c^2+a^2}{2} \ge ca \text{ 和 } \frac{2c^4+a^4+b^4}{4} \ge c^2ab. \]
+  上述加起來就得
+  \[ a^2+b^2+c^2 \ge ab+bc+ca \text{ 和 } a^4+b^4+c^4 \ge a^2bc+b^2ca+c^2ab. \qedhere \]
+\end{proof}
+\begin{exercise}
+  試證 $a^3+b^3+c^3 \ge a^2b+b^2c+c^2a$.
+\end{exercise}
+\begin{exercise}
+  試證 $a^5+b^5+c^5 \ge a^3bc + b^3ca + c^3ab \ge abc(ab+bc+ca)$.
+\end{exercise}
+最主要是要看得出來一個多項式大概多大，例如 $a^3+b^3+c^3$ 是最大的， $abc$ 是最小的。
+大概來講，比較 ``mixed'' 的多項式是比較小的。
+由此，可明顯看出來 e.g.
+\[ (a+b+c)^3 \ge a^3+b^3+c^3+24abc \]
+因為兩邊把 $a^3+b^3+c^3$ 消掉以後，右邊只剩下 $24abc$，所以用 AM-GM 就解決了。
+
+一個好用的定理是 Muirhead 定理。如果給定兩個數列 $x_1 \ge x_2 \ge \dots \ge x_n$ 和 $y_1 \ge y_2 \ge \dots \ge y_n$， 使得
+\[ x_1 + x_2 + \dots + x_n = y_1 + y_2 + \dots + y_n, \]
+且對於每個 $k=1,2,\dots,n-1$ 有
+\[ x_1 + x_2 + \dots + x_k \ge y_1 + y_2 + \dots + y_k, \]
+我們就說  $(x_n)$ 蓋 (majorizes) $(y_n)$，寫 $(x_n) \succ (y_n)$。
+
+根據上述，我們就有
+\begin{theorem}
+  [Muirhead 不等式] 如果 $a_1, a_2, \dots, a_n$ 為正實數，且 $(x_n)$ 蓋 $(y_n)$，以下的不等式成為：
+  \[ \sum_{\text{sym}} a_1^{x_1} a_2^{x_2} \dots a_n^{x_n}
+    \ge \sum_{\text{sym}} a_1^{y_1} a_2^{y_2} \dots a_n^{y_n}. \]
+\end{theorem}
+\begin{example}
+  因為 $(5,0,0) \succ (3,1,1) \succ (2,2,1)$， 故
+  \begin{align*}
+    a^5+a^5+b^5+b^5+c^5+c^5 &\ge a^3bc+a^3bc+b^3ca+b^3ca+c^3ab+c^3ab \\
+    &\ge a^2b^2c+a^2b^2c + b^2c^2a+b^2c^2a + c^2a^2b + c^2a^2b.
+  \end{align*}
+  由此可得 $a^5+b^5+c^5 \ge a^3bc+b^3ca+c^3ab \ge abc(ab+bc+ca)$.
+\end{example}
+注意 Muirhead 是對稱的， 不是循環的。舉個例，雖然 $(3,0,0) \succ (2,1,0)$； 但是用 Muirhead 可得出
+\[ 2(a^3+b^3+c^3) \ge a^2b+a^2c+b^2c+b^2a+c^2a+c^2b \]
+所以不可用來證明 $a^3+b^3+c^3 \ge a^2b+b^2c+c^2a$。這時還是要用 AM-GM 來解決。
+
+\subsection{不齊次的不等式}
+考慮以下的題目。
+\begin{example}
+  如果 $abc=1$, 試證 $a^2+b^2+c^2 \ge a+b+c$.
+\end{example}
+\begin{proof}
+  平均不等式兩邊的次數都一樣，所以光用 AM-GM 不夠；左邊的次數為二，但是右邊的次數為一。
+  利用 $abc=1$， 原不等式可改寫成
+  \[ a^2+b^2+c^2 \ge a^{1/3}b^{1/3}c^{1/3} \left( a+b+c \right). \]
+  因為不等式現在是齊次，如果我們把 $a$, $b$, $c$ 都乘上一個 $k>0$，等價不等式兩邊乘上 $k^2$, 不影響到原來的不等式。
+  所以這時候就不必要再用到 $abc=1$ 的條件。
+  因為 $(2,0,0) \succ (\frac 43, \frac 13, \frac 13)$，利用 Muirhead 就完成了。
+\end{proof}
+
+這個方法的重點是可以把題目的條件取掉；這很重要。
+（這個方法也可以反過來用：如果一個不等式是齊次，我們也可加一個（不齊次的）條件。）
+
+\subsection{練習題}
+\begin{enumerate}
+  \ii $a^7+b^7+c^7 \ge a^4b^3+b^4c^3+c^4a^3$.
+  \ii 若 $a+b+c=1$, 則 $\frac1a + \frac 1b + \frac 1c \le 3 + 2 \cdot \frac{(a^3+b^3+c^3)}{abc}$.
+  \ii $\frac{a^3}{bc} + \frac{b^3}{ca} + \frac{c^3}{ab} \ge a+b+c$.
+  \ii 若 $\frac1a + \frac1b + \frac 1c =1$, 則 $(a+1)(b+1)(c+1) \ge 64$.
+  \ii (USA 2011) 若 $a^2+b^2+c^2+(a+b+c)^2 \le 4$, 則
+  \[ \frac{ab+1}{(a+b)^2} + \frac{bc+1}{(b+c)^2} + \frac{ca+1}{(c+a)^2} \ge 3. \]
+  \ii 若 $abcd=1$, 則 $a^4b+b^4c+c^4d+d^4a \ge a+b+c+d$.
+\end{enumerate}
+
+\section{任意函數的不等式}
+令 $f : (u,v) \to \RR$ 為函數，且設 $a_1, a_2, \dots, a_n \in (u,v)$。假設我們固定 $\frac{a_1+a_2 + \dots + a_n}{n} = a$
+（如果不等式是齊次的，我們常會自己加這個條件），而想證
+\[ f(a_1) + f(a_2) + \dots + f(a_n) \]
+大於（或小於）$nf(a)$。以下有三個方法。
+
+我們定義一個函數 $f$ 是凸函數如果對於任意 $x$ 有 $f''(x) \ge 0$；若每個 $x$ 有 $f''(x) \le 0$ 我們就定義 $f$ 是凹函數。
+注意如果 $f$ 為凸函數， $-f$ 就為凹函數。
+
+\subsection{Jensen / Karamata}
+\begin{theorem}
+  [Jensen 不等式] 如果 $f$ 為凸函數，則
+  \[ \frac{f(a_1) + \dots + f(a_n)}{n} \ge f\left( \frac{a_1+\dots+a_n}{n} \right). \]
+  若 $f$ 為凹函數，不等式相反。
+\end{theorem}
+\begin{theorem}
+  [Karamata 不等式] 如果 $f$ 為凸函數，且 $(x_n)$ 蓋 $(y_n)$，則
+  \[ f(x_1) + \dots + f(x_n) \ge f(y_1) + \dots + f(y_n). \]
+  若 $f$ 為凹函數，不等式相反。
+\end{theorem}
+\begin{example}
+  [Shortlist 2009] 若 $a+b+c=\frac1a+\frac1b+\frac1c$，試證
+  \[ \frac{1}{(2a+b+c)^2}+\frac{1}{(a+2b+c)^2}+\frac{1}{(a+b+2c)^2}\leq\frac{3}{16}. \]
+\end{example}
+\begin{proof}
+  先把條件用掉：原題等價與
+  \[ \frac{1}{(2a+b+c)^2}+\frac{1}{(a+2b+c)^2}+\frac{1}{(a+b+2c)^2}\leq\frac{3}{16} \cdot \frac{\frac1a+\frac1b+\frac1c}{a+b+c}. \]
+  現在不等式是齊次了，所以可不方假設 $a+b+c=3$。不等式就改變寫成
+  \[ \sum_{\text{cyc}} \frac{1}{16a} - \frac{1}{(a+3)^2} \ge 0. \]
+  若設 $f(x) = \frac{1}{16x} - \frac{1}{(x+3)^2}$, 可證 $f$ 再 $(0,3)$ 上是凸函數，故用 Jensen 就解完了。
+\end{proof}
+\begin{example}
+  試證 \[ \frac{1}{a}+\frac{1}{b}+\frac{1}{c}\geq2\left(\frac{1}{a+b}+\frac{1}{b+c}+\frac{1}{c+a}\right)\geq\frac{9}{a+b+c}. \]
+\end{example}
+\begin{proof}
+  原題等價與
+  \[ \frac{1}{a} + \frac{1}{b} + \frac{1}{c} \ge \frac{1}{\frac{a+b}{2}} + \frac{1}{\frac{b+c}{2}} + \frac{1}{\frac{c+a}{2}} \ge \frac{1}{\frac{a+b+c}{3}} + \frac{1}{\frac{a+b+c}{3}} + \frac{1}{\frac{a+b+c}{3}}. \]
+  不方假設 $a \ge b \ge c$。設 $f(x) = 1/x$。因為
+  \[ (a,b,c) \succ \left( \frac{a+b}{2}, \frac{a+c}{2}, \frac{b+c}{2} \right) \succ \left( \frac{a+b+c}{3}, \frac{a+b+c}{3}, \frac{a+b+c}{3} \right) \]
+  利用 Karamata 就解決了，齊次 $f(x) = \frac 1x$。
+\end{proof}
+\begin{example}
+  [APMO 1996] 若 $a$, $b$, $c$, 是三角形的邊，試證 \[ \sqrt{a+b-c}+\sqrt{b+c-a}+\sqrt{c+a-b}\leq\sqrt{a}+\sqrt{b}+\sqrt{c}. \]
+\end{example}
+\begin{proof}
+  不方假設 $a \ge b \ge c$，再考慮 $(a+b-c, c+a-b, b+c-a) \succ (a,b,c)$，再利用 Karamata 再 $f(x) = \sqrt x$。
+\end{proof}
+
+\subsection{Tangent Line Trick}
+一樣固定 $a = \frac{a_1 + \dots + a_n}{n}$。如果 $f$ 不是凸函數，有時後還是可以證
+\[ f(x) \ge f(a) + f'(a) \left( x-a \right). \]
+如果可證上述，也就可以令。 這個方法叫 tangent line trick。
+
+\begin{example}
+  [David Stoner] 若 $a+b+c=3$，試證 \[ 18\sum_{\text{cyc}}\frac{1}{(3-c)(4-c)}+2(ab+bc+ca)\ge 15. \]
+\end{example}
+\begin{proof}
+  我們可把原題改變寫成
+  \[ \sum_{\text{cyc}} \left( \frac{18}{(3-c)(4-c)} - c^2 \right) \ge 6. \]
+  因為
+  \[ \frac{18}{(3-c)(4-c)} -c^2 \ge \frac{c+3}{2}\iff c(c-1)^2(2c-9)\le 0 \]
+  所以加起來就解決了。
+\end{proof}
+\begin{example}
+  [Japan] 試證 $\sum_{\text{cyc}} \frac{(b+c-a)^2}{a^2+(b+c)^2} \ge \frac 35$。
+\end{example}
+\begin{proof}
+  原題是齊次，所以可不方假設 $a+b+c=3$。所以我們要證明的是
+  \[ \sum_{\text{cyc}} \frac{(3-2a)^2}{a^2+(3-a)^2} \ge \frac 35. \]
+  利用 tangent line method 可以找出
+  \[
+    \frac{(3-2a)^{2}}{(3-a)^{2}+a^{2}}\ge\frac{1}{5} - \frac{18}{25}(a-1)
+    \iff
+    \frac{18}{25}(a-1)^{2}\frac{2a+1}{2a^{2}-6a+9}
+    \ge 0. \qedhere \]
+\end{proof}
+
+\subsection{$n-1$ EV}
+最後以個方法是 $n-1$ EV。
+這算是一個暴力的方法，可是很有用。
+\begin{theorem}
+  [$n-1$ EV] 令 $a_1$, $a_2$, \dots, $a_n$ 為實數，且固定 $a_1 + a_2 + \dots + a_n$。
+  令 $f : \RR \to \RR$ 為一個函數使得 $f$ 有正好一個拐點。
+  若
+  \[ f(a_1) + f(a_2) + \dots + f(a_n) \]
+  達到最大值或最小值，則 $a_i$ 內有 $n-1$ 個變數相等。
+\end{theorem}
+\begin{proof}
+  \emph{Olympiad Inequalities}, by Thomas Mildorf, page 15.
+  證明的想法是利用 Karamata 不等式，把 $a_i$ “推”在一起。
+\end{proof}
+
+\begin{example}
+  [IMO 2001 / APMOC 2014] 令 $a$, $b$, $c$ 為正實數，試證
+  $ 1 \le \sum_{\text{cyc}} \frac{a}{\sqrt{a^2+8bc}} < 2 $。
+\end{example}
+\begin{proof}
+  設 $e^x = \frac{bc}{a^2}$， $e^y = \frac{ca}{b^2}$， $e^z = \frac{ab}{c^2}$。我們固定有 $x+y+z=0$，且想證
+  \[ 1 \le f(x) + f(y) + f(z) < 2 \]
+  此處 $f(x) = \frac{1}{\sqrt{1+8e^x}}$。 可算出
+  \[ f''(x) = \frac{4e^x \left( 4e^x-1 \right)}{(8e^x+1)^{\frac52}} \]
+  所以利用 $n-1$ EV，可不方假設 $x=y$。令 $t=e^x$，所以原題就變成
+  \[ 1 \le \frac{2}{\sqrt{1+8t}} + \frac{1}{\sqrt{1+8/t^2}} < 2. \]
+  這只剩下一個變數，因此這可以用微積分直接解決。
+\end{proof}
+
+\begin{example}
+  [Vietnam 1998] 令 $x_1$, $x_2$, \dots, $x_n$ 為正實數滿足 $\sum_{i=1}^n \frac{1}{1998+x_i} = \frac{1}{1998}$。試證
+  \[ \frac{\sqrt[n]{x_1x_2 \dots x_n}}{n-1} \ge 1998. \]
+\end{example}
+\begin{proof}
+  定義 $y_i = \frac{1998}{1998+x_i}$，因此 $y_1 + y_2 + \dots + y_n = 1$，而我們要真的是
+  \[ \prod_{i=1}^n \left( \frac{1}{y_i} - 1 \right) \ge \left( n-1 \right)^n. \]
+  令 $f(x) = \ln \left( \frac 1x-1 \right)$，所以原題變成 $f(y_1) + \dots + f(y_n) \ge n f\left( \frac 1n \right)$。
+  我們可算
+  \[ f''(y) = \frac{1-2y}{(y^2-y)^2}. \]
+  因此 $f$ 只有一個拐點，所以我們能不方假設 $y_1 = y_2 = \dots = y_{n-1}$。令此為 $t$，我們只要證
+  \[ (n-1) \ln \left( \frac{1}{t}-1 \right) + \ln \left( \frac{1}{1-(n-1)t}-1 \right) \ge n \ln (n-1). \]
+  這也可以直接用微積分。
+\end{proof}
+
+\subsection{練習題}
+\begin{enumerate}
+  \ii 利用 Jensen 證明 AM-GM。
+  \ii 若 $a^2+b^2+c^2=1$, 試證 $\frac{1}{a^2+2}+\frac{1}{b^2+2}+\frac{1}{c^2+2}\le\frac{1}{6ab+c^2}+\frac{1}{6bc+a^2}+\frac{1}{6ca+b^2}$。
+  \ii 若 $a+b+c=3$, 試證 \[ \sum_{\text{cyc}} \frac{a}{2a^2+a+1} \le \frac 34. \]
+  \ii (MOP 2012) 若 $a+b+c+d = 4$, 試證 $\frac{1}{a^2}+\frac{1}{b^2}+\frac{1}{c^2}+\frac{1}{d^2}\ge a^2+b^2+c^2+d^2$。
+\end{enumerate}
+
+\section{消除分母和根號}
+\subsection{Weighted Power Mean}
+AM-GM 可以根據以下 generalize。
+\begin{theorem}
+  [Weighted Power Mean] 令 $a_1, a_2, \dots, a_n$ 為正實數，且 $w_1$, $w_2$, \dots, $w_n$ 為正實數，滿足 $w_1+w_2+\dots+w_n=1$。
+  對於每個實數 $r$， 定義
+  \[ \mathcal P(r) =
+    \begin{cases}
+      \left( w_1 a_1^r + w_2 a_2^r + \dots + w_n a_n^r \right)^{1/r} & r \neq 0 \\[1em]
+      a_1^{w_1} a_2^{w_2} \dots a_n^{w_n} & r = 0.
+    \end{cases}
+  \]
+  若 $r>s$, 則 $\mathcal P(r) \ge \mathcal P(s)$； 等號成立的充要條件是 $a_1 = a_2 = \dots = a_n$。
+\end{theorem}
+特別是，若 $w_1 = w_2 = \dots = w_n = \frac 1n$， 以上的 $\mathcal P(r)$ 等價與
+  \[ \mathcal P(r) =
+    \begin{cases}
+      \left( \displaystyle\frac{a_1^r + a_2^r + \dots + a_n^r}{n} \right)^{1/r} & r \neq 0 \\[1.5em]
+      \sqrt[n]{a_1a_2 \dots a_n} & r = 0.
+    \end{cases}
+  \]
+如果我們再設 $r = 2,1,0,-1$ 就得到
+
+\[ \sqrt{\frac{a_1^2+\dots+a_n^2}{n}}
+  \ge \frac{a_1+\dots+a_n}{n}
+  \ge \sqrt[n]{a_1a_2 \dots a_n}
+  \ge \frac{n}{\frac{1}{a_1} + \dots + \frac{1}{a_n}} \]
+剛好就是 QM-AM-GM-HM。這可以當一個方法來“加”根號，例如
+\[ \sqrt a + \sqrt b + \sqrt c \le 3\sqrt{\frac{a+b+c}{3}}. \]
+
+\begin{example}
+  [獨立研究] 試證 $3(a+b+c) \ge 8\sqrt[3]{abc} + \sqrt[3]{\frac{a^3+b^3+c^3}{3}}$.
+\end{example}
+\begin{proof}
+  利用 Power Mean 與 $r=1$, $s=\frac 13$, $w_1 = \frac 19$, $w_2 = \frac 89$, 可得
+  \[ \left( \frac 19 \sqrt[3]{\frac{a^3+b^3+c^3}{3}} + \frac 89 \sqrt[3]{abc} \right)^3
+  \le \frac19 \left( \frac{a^3+b^3+c^3}{3} \right) + \frac 89 \left( abc \right). \]
+  所以只需要證 $a^3+b^3+c^3+24abc \le (a+b+c)^3$，明顯。
+\end{proof}
+
+\subsection{Cauchy 和 H\"older}
+\begin{theorem}[H\"older 不等式]
+  令 $\lambda_a$, $\lambda_b$, \dots, $\lambda_z$ 為正實數，滿足 $\lambda_a + \lambda_b + \dots + \lambda_z = 1$。 設 $a_1, a_2, \dots, a_n$, $b_1, b_2, \dots, b_n$, \dots, $z_1, z_2, \dots, z_n$ 為正實數。則
+  \[ \left( a_1+\dots+a_n \right)^{\lambda_a}
+    \left( b_1+\dots+b_n \right)^{\lambda_b}
+    \dots
+    \left( z_1+\dots+z_n \right)^{\lambda_z}
+    \ge \sum_{i=1}^n a_i^{\lambda_a} b_i^{\lambda_b} \dots z_i^{\lambda_z}. \]
+  等號成立的充要條件是 $a_1 : a_2 : \dots : a_n \equiv b_1 : b_2 : \dots : b_n \equiv \dots \equiv z_1 : z_2 : \dots : z_n$.
+\end{theorem}
+\begin{proof}
+  不方假設 $a_1+\dots+a_n = b_1+\dots+b_n = \dots = 1$ （注意 $a_i$ 的次數兩邊都為 $\lambda_a$）。則原不等式的左邊為 $1$, 且利用 Weighted AM-GM 可得
+  \[ \sum_{i=1}^n a_i^{\lambda_a} b_i^{\lambda_b} \dots z_i^{\lambda_z}
+    \le \sum_{i=1}^n \left( \lambda_a a_i + \lambda_b b_i + \dots \right)
+    = 1. \qedhere \]
+\end{proof}
+如果我們設 $\lambda_a = \lambda_b = \half$，這就成為 Cauchy 的不等式：
+\[ \left( a_1+a_2+\dots+a_n \right)\left( b_1+b_2+\dots+b_n \right)
+  \ge \left( \sqrt{a_1 b_1} + \sqrt{a_2 b_2} + \dots + \sqrt{a_n b_n} \right)^2. \]
+Cauchy 可以改寫成
+\[ \frac{x_1^2}{y_1} + \frac{x_2^2}{y_2} + \dots + \frac{x_n^2}{y_n} \ge \frac{\left( x_1+x_2+\dots+x_n \right)^2}{y_1+\dots+y_n}. \]
+在美國，上述也叫做 Titu's Lemma。
+
+Cauchy 和 H\"older 不等式有（至少）兩個用法：
+\begin{enumerate}
+  \ii 把根號消除
+  \ii 把分母消除
+\end{enumerate}
+
+我們看一下幾個例子。
+\begin{example}
+  [IMO 2001] 試證 \[ \sum_{\text{cyc}} \frac{a}{\sqrt{a^2+8bc}} \ge 1. \]
+\end{example}
+\begin{proof}
+  利用 H\"older 可得
+  \[
+    \left( \sum_{\text{cyc}} a(a^2+8bc) \right)^{\frac13}
+    \left( \sum_{\text{cyc}} \frac{a}{\sqrt{a^2+8bc}} \right)^{\frac 23}
+    \ge \left( a+b+c \right)
+  \]
+  所以只要證 $(a+b+c)^3 \ge \sum_{\text{cyc}} a(a^2+8bc) = a^3+b^3+c^3+24abc$。看過嗎？
+\end{proof}
+我們這一題是用 H\"older 把根號取消。
+
+
+\begin{example}
+  [Balkan] 試證 $\frac{1}{a(b+c)} + \frac{1}{b(c+a)} + \frac{1}{c(a+b)} \ge \frac{27}{2(a+b+c)^2}$.
+\end{example}
+\begin{proof}
+  一樣用 H\"older：
+  \[
+    \left( \sum_{\text{cyc}} a \right)^{\frac 13}
+    \left( \sum_{\text{cyc}} b+c \right)^{\frac 13}
+    \left( \sum_{\text{cyc}} \frac{1}{a(b+c)} \right)^{\frac13}
+    \ge 1+1+1
+    = 3. \qedhere \]
+\end{proof}
+
+%\begin{example}
+%  試證 \[ \left(\frac{a+b}{b+c}\right)^2+\left(\frac{b+c}{c+a}\right)^2+\left(\frac{c+a}{a+b}\right)^2\ge\frac{3}{2}\left(\frac{a^2+b^2+c^2}{ab+bc+ca}+1\right). \]
+%\end{example}
+%\begin{proof}
+%  用 Cauchy，可得
+%  \[ \sum_{\text{cyc}}\left(\frac{a+b}{b+c}\right)^2 =\sum_{\text{cyc}}\frac{\left( a^2+ab\right)^2 }{ a^2(b+c)^2 }\ge\frac{\left( a^2+ab+b^2+bc+c^2+ca\right)^2 }{\sum_{\text{cyc}}a^2(b+c)^2} \]
+%  所以只要證
+%  \[ 2(ab+bc+ca)(a^2+b^2+c^2+ab+bc+ca)\ge 3\sum_{\text{cyc}}\left( a^2(b+c)^2\right). \]
+%  乘開來以後，就是 $\sum_{\text{sym}} a^3b \ge \sum_{\text{sym}} a^2b^2$，就用 Muirhead。
+%\end{proof}
+
+\begin{example}
+  [USA 2012] 試證 $\sum_{\text{cyc}} \frac{a^3+5b^3}{3a+b} \ge \frac 32 \left( a^2+b^2+c^2 \right)$.
+\end{example}
+\begin{proof}
+  我們用 Cauchy (Titu) 可得
+  \[ \sum_{\text{cyc}} \frac{a^3}{3a+b}  = \sum_{\text{cyc}} \frac{(a^2)^2}{3a^2+ab} \ge \frac{(a^2+b^2+c^2)^2}{\sum_{\text{cyc}} 3a^2+ab}. \]
+  我們可證明這個大於等於 $\frac14 (a^2+b^2+c^2)$
+  （記得 $a^2+b^2+c^2$ 是很“大”；
+  用這個注意可以看出來這個方法一定可以用）。
+  類似可證 $\sum_{\text{cyc}} \frac{5b^3}{3a+b} \ge \frac 54 (a^2+b^2+c^2)$。
+\end{proof}
+
+\begin{example}
+  [USA TST 2010] 若 $abc=1$, 試證 $ \frac{1}{a^5(b+2c)^2}+\frac{1}{b^5(c+2a)^2}+\frac{1}{c^5(a+2b)^2}\ge\frac{1}{3} $。
+\end{example}
+\begin{proof}
+  我們可以用 H\"older 把分母的平方消掉：
+  \[ \left(\sum_{\text{cyc}}ab+2 ac\right)^2\left(\sum_{\text{cyc}}\frac{1}{a^5(b+2c)^2}\right)\ge\left(\sum_{\text{cyc}}\frac{1}{a}\right)^3\ge 3(ab+bc+ca)^2. \qedhere \]
+\end{proof}
+
+%\begin{example}
+%  [Iran] 若 $\frac1x + \frac1y + \frac 1z = 2$, 試證 $\sqrt{x-1}+\sqrt{y-1}+\sqrt{z-1} \le \sqrt{x+y+z}$。
+%\end{example}
+%\begin{proof}
+%  我們的條件等價與 $\frac {x-1}{x} + \frac{y-1}{y} + \frac{z-1}{z} = 1$，
+%  \[
+%    x+y+z = \left( \sum_{\text{cyc}} x \right) \left( \sum_{\text{cyc}} \frac{x-1}{x} \right)
+%    \ge \left( \sqrt{x-1}+\sqrt{y-1}+\sqrt{z-1} \right)^2.
+%    \qedhere
+%  \]
+%\end{proof}
+
+
+\subsection{練習題}
+\begin{enumerate}
+  \ii 若 $a+b+c=1$, 則 $\sqrt{ab+c}+\sqrt{bc+a}+\sqrt{ca+b} \ge 1+\sqrt{ab}+\sqrt{bc}+\sqrt{ca}$.
+  \ii 若 $a^2+b^2+c^2=12$, 試證 $a\cdot\sqrt[3]{b^2+c^2}+b\cdot\sqrt[3]{c^2+a^2}+c\cdot\sqrt[3]{a^2+b^2}\leq 12$.
+  \ii (ISL 2004) 若 $ab+bc+ca=1$， 試證 $ \sqrt[3]{\frac{1}{a}+6b}+\sqrt[3]{\frac{1}{b}+6c}+\sqrt[3]{\frac{1}{c}+6a }\leq\frac{1}{abc}$。
+  \ii (MOP 2011) $\sqrt{a^2-ab+b^2}+\sqrt{b^2-bc+c^2} + \sqrt{c^2-ca+a^2} + 9\sqrt[3]{abc} \le 4(a+b+c)$.
+  \ii (陳誼廷) 若 $a^3+b^3+c^3+abc=4$, 試證
+  \[ \frac{(5a^2+bc)^2}{(a+b)(a+c)}+\frac{(5b^2+ca)^2}{(b+c)(b+a)}+\frac{(5c^2+ab)^2}{(c+a)(c+b)}\ge\frac{(10-abc)^2}{a+b+c}. \]
+  等號什麼時候成立？
+\end{enumerate}
+
+\section{Problems}
+\begin{enumerate}
+  \ii (MOP 2013) 若 $a+b+c=3$, 試證 \[ \sqrt{a^2+ab+b^2}+\sqrt{b^2+bc+c^2}+\sqrt{c^2+ca+a^2} \ge \sqrt 3. \]
+  \ii (IMO 1995) 若 $abc=1$， 試證 $\frac{1}{a^3(b+c)}+\frac{1}{b^3(c+a)}+\frac{1}{c^3(a+b)}\ge\frac{3}{2}$.
+  \ii (USA 2003) 試證 $\sum_{\text{cyc}} \frac{(2a+b+c)^2}{2a^2+(b+c)^2} \le 8$。
+  \ii (Romania) 令 $x_1$, $x_2$, \dots, $x_n$ 為正實數， $x_1x_2 \dots x_n=1$。試證 $\sum_{i=1}^n \frac{1}{n-1+x_i} \le 1$。
+  \ii (USA 2004) 令 $a$, $b$, $c$ 為正實數。試證
+  \[ \left( a^5-a^2+3 \right)\left( b^5-b^2+3 \right)\left( c^5-c^2+3 \right) \ge \left( a+b+c \right)^3. \]
+  \ii (陳誼廷) 令 $a$, $b$, $c$ 為正實數滿足 $a+b+c = \sqrt[7]{a} + \sqrt[7]{b} + \sqrt[7]{c}$。試證 $a^a b^b c^c \ge 1$。
+\end{enumerate}
+
+\end{document}

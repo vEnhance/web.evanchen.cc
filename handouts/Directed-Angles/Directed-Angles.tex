@@ -1,0 +1,661 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy,noasy]{evan}
+\usepackage{asymptote}
+
+%% Legacy code
+\begin{asydef}
+import olympiad;
+import cse5;
+size(8cm);
+usepackage("amsmath");
+usepackage("amssymb");
+pointpen = black;
+\end{asydef}
+
+\begin{document}
+\title{How to Use Directed Angles}
+\date{31 May 2015}
+\maketitle
+
+
+\begin{abstract}
+  \textit{``WLOG, diagram as shown.''} -- Everyone
+\end{abstract}
+
+This is a very brief note on what a directed angle is and how to use it
+to write olympiad solutions which are impervious to configuration issues.
+It is short because I don't actually need to teach you how to
+solve problems, but only to rewrite proofs of problems you've
+already essentially solved.
+
+\section{Introduction}
+Everyone hates configuration issues (both contestants and graders).
+Configuration issues come up because the most fundamental theorem in olympiad geometry
+actually has two cases.
+
+\begin{proposition}
+  [Cyclic Quadrilaterals]
+  Let $A$, $B$, $X$, $Y$ be any four points, no three collinear.
+  \begin{enumerate}[(i)]
+    \ii If $A$ and $B$ lie on the same side of $\ol{XY}$,
+    then the four points are concyclic
+    if and only if $\angle XAY = \angle XBY$.
+    \ii If $A$ and $B$ lie on different sides of $\ol{XY}$,
+    then the four points are concyclic
+    if and only if $\angle XAY + \angle XBY = 180\dg$.
+  \end{enumerate}
+  \label{prop:bad_cyclic_quad}
+\end{proposition}
+
+\begin{figure}
+  \centering
+  \begin{asy}
+    size(4cm);
+    draw(unitcircle);
+    pair A = dir(110);
+    pair X = dir(210);
+    pair Y = dir(330);
+    pair B = dir( 50);
+    dot("$A$", A, A);
+    dot("$B$", B, B);
+    dot("$X$", X, X);
+    dot("$Y$", Y, Y);
+    draw(X--A--Y);
+    draw(X--B--Y);
+    draw(anglemark(X,A,Y));
+    draw(anglemark(X,B,Y));
+  \end{asy}
+  \qquad
+  \begin{asy}
+    size(4cm);
+    draw(unitcircle);
+    pair A = dir(110);
+    pair X = dir(210);
+    pair Y = dir(330);
+    pair B = dir(280);
+    dot("$A$", A, A);
+    dot("$B$", B, B);
+    dot("$X$", X, X);
+    dot("$Y$", Y, Y);
+    draw(X--A--Y);
+    draw(X--B--Y);
+    draw(anglemark(X,A,Y));
+    pair Z = 1.5*B-0.5*X;
+    draw(anglemark(Z,B,Y));
+    draw(B--Z);
+  \end{asy}
+  \caption{The two cases for cyclic quadrilaterals.}
+  \label{fig:cyclic_quad}
+\end{figure}
+
+Doesn't that just look annoying?
+Any time you want to invoke a cyclic quadrilateral, you have to actually check the points lie on the correct side of some line.
+
+In fact, you even have to worry about configuration issues for something as simple as adding two angles.
+\begin{ques}
+  When does the assertion
+  \[ \angle AOP + \angle POB = \angle AOB \]
+  fail?
+\end{ques}
+
+Thus any time you want to add two angles, you technically need to also check that point $P$ lies ``inside'' $\angle AOB$.
+
+Given all this disaster, you might wonder how we ever got any angle chasing done at all.
+The secret is that \textbf{configuration issues are the object of widespread scorn}:
+they are glossed over, swept under a carpet, or ``left as an exercise''.
+I've almost never seen them addressed seriously, except in the very rare circumstances in which they actually matter.
+
+Let's fix this.
+
+\section{Directed Angles}
+In what follows I'm going to write $\measuredangle AOB$ for a directed angle
+to distinguish it from a ``regular'' angle $\angle AOB$.
+But I should warn that \textbf{this notation is absolutely not standard}.
+Thus if you wish to use directed angles on an olympiad, you should explicitly say so in your solution.
+
+Here's the very general definition.
+\begin{definition}
+  Given any two non-parallel lines $\ell$ and $m$,
+  we define the directed angle
+  \[ \dang(\ell, m) \]
+  to be the measure of the angle
+  \emph{starting} from $\ell$ and \emph{ending} at $m$,
+  measured \emph{counterclockwise}.
+\end{definition}
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(5cm);
+    pair L = dir(80);
+    pair LL = -L;
+    pair M = dir(130);
+    pair MM = -M;
+    draw(L--LL);
+    draw(M--MM);
+    MP("\ell", L, L);
+    MP("m", M, M);
+    draw(arc(origin,0.4*L,0.4*M), EndArrow);
+    MP("50^{\circ}", 0.6*dir(105), origin);
+  \end{asy}
+  \caption{The directed angle $\dang(\ell, m) = 50\dg$.}
+  \label{fig:dir_angle_first}
+\end{figure}
+
+Notice that
+\begin{equation}
+  \dang(\ell, m) + \dang(m, \ell) = 180\dg
+  \label{eq:directed_180_old}
+\end{equation}
+holds universally.
+This is kind of nice, but it's a bit annoying to have that $180\dg$
+lying around there, and so we will also \textbf{take all angle measures modulo $180\dg$}.
+That means that $-70\dg = 110\dg = 290\dg = \dots$.
+Once we take mod $180\dg$, \eqref{eq:directed_180_old} becomes
+the following very important result.
+\begin{proposition}
+  For any lines $\ell$ and $m$,
+  $\dang(\ell, m) = - \dang(m, \ell)$.
+  (In other words, measuring the angle clockwise instead
+  of counterclockwise corresponds to negation.)
+\end{proposition}
+Observe why this is intuitively true in \Cref{fig:dir_angle_first}.
+
+You can verify now that with this identification, we have
+\[ \dang (\ell, m) + \dang(m, n) = \dang (\ell, n) \]
+for all concurrent lines $\ell$, $m$, and $n$,
+regardless of configuration.
+
+With this definition in place, we can define $\dang AOB$
+as the angle between the two lines $AO$ and $BO$.
+\begin{definition}
+  Given three points $A$, $O$, $B$ we define
+  \[ \dang AOB \defeq \dang
+    \left( \ol{AO}, \ol{BO} \right). \]
+  Equivalently, if $\ell$ and $m$ are two lines which intersect at $O$,
+  then $\dang(\ell, m) = \dang AOB$
+  for any point $A$ on $\ell$ and $B$ on $m$.
+\end{definition}
+(Note that by $\ol{XY}$ I mean ``line $XY$'', not ``segment $XY$''.)
+
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(5cm);
+    pair L = dir(80);
+    pair LL = -L;
+    pair M = dir(130);
+    pair MM = -M;
+    draw(L--LL);
+    draw(M--MM);
+    label("$\ell$", L, L);
+    label("$m$", M, M);
+    draw(arc(origin,0.4*L,0.4*M), EndArrow);
+    draw(arc(origin,-0.3*M,0.3*L), dotted, BeginArrow);
+    dot("$A$", 0.8*L, dir(-10));
+    dot("$B$", -0.6*M, dir(20));
+    dot("$O$", origin, dir(190));
+    label("$50^{\circ}$", 0.6*dir(105), origin);
+    label("$-130^{\circ}$", 0.5*dir(15), origin);
+  \end{asy}
+  \caption{The directed angle $\dang AOB = -130\dg = 50\dg$.}
+\end{figure}
+
+
+Most of the time we will be using the $\dang AOB$ notation.
+But it is sometimes useful to use the $\dang(\ell, m)$ notation
+in problems where the intersection point $O$ of $\ell$ and $m$
+is not yet named.
+
+\section{Properties of Directed Angles}
+You might ask whether this strange convention is actually useful.
+Let me convince you it is with the following theorem.
+
+\begin{theorem}[Directed Cyclic Quadrilaterals]
+  \label{thm:dir_cyclic_quad}
+  Let $A$, $B$, $X$, $Y$ be four points, no three collinear.
+  Then they are concyclic if and only if
+  \[ \dang XAY = \dang XBY. \]
+\end{theorem}
+\begin{exercise}
+  Go back to \Cref{fig:cyclic_quad} and verify
+  that this theorem actually works for both configurations.
+\end{exercise}
+
+Now you should be paying attention, because I just eliminated one of the biggest pains in olympiad geometry for you.
+Unlike the \Cref{prop:bad_cyclic_quad} you grew up with,
+\Cref{thm:dir_cyclic_quad} has no case distinctions.
+
+Many other things become vastly simpler.
+\begin{theorem}
+  [Angle Addition Postulate]
+  We have $\dang AOP + \dang POB = \dang AOB$.
+\end{theorem}
+Actually, this is a ``special case'' of the following result
+for three concurrent lines $\ell$, $m$, $n$.
+\begin{theorem}
+  [Triangles Sum to $180\dg$]
+  For any lines $\ell$, $m$, $n$ we have
+  \[ \dang(\ell, m) + \dang(m,n) + \dang(n,\ell) = 0. \]
+  In particular, for any points $A$, $B$, $C$ we have
+  \[ \dang ABC + \dang BCA + \dang CAB = 0. \]
+\end{theorem}
+\begin{proof}
+  Check it yourself.
+\end{proof}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(5cm);
+    pair A = dir(70);
+    pair B = dir(330);
+    pair C = dir(210);
+    dot("$A$", A, dir(A));
+    dot("$B$", B, dir(B));
+    dot("$C$", C, dir(C));
+    draw(A--B--C--cycle);
+
+    real r = 0.25;
+    draw(arc(A, A+r*dir(C-A), A+r*dir(B-A)), EndArrow);
+    draw(arc(B, B+r*dir(A-B), B+r*dir(C-B)), EndArrow);
+    draw(arc(C, C+r*dir(B-C), C+r*dir(A-C)), EndArrow);
+    real k = 0.6;
+    label("$\measuredangle CAB$", k*dir(A), origin);
+    label("$\measuredangle ABC$", k*dir(B), origin);
+    label("$\measuredangle BCA$", 0.9*k*dir(C), origin);
+  \end{asy}
+  \caption{Triangle Sum}
+\end{figure}
+
+
+\begin{theorem}
+  [Collinearity Criteria]
+  Let $X$ be any point.
+  Points $A$, $B$, $C$ are collinear if and only if
+  \[ \dang XBC = \dang XBA. \]
+\end{theorem}
+\begin{proof}
+  Prove this yourself.
+  (Show that the assertion is equivalent to $\dang ABC=0$.)
+\end{proof}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    pair X = 0.7*dir(110);
+    dot("$X$", X, dir(X));
+    pair A = 0.8*dir(20); dot("$A$", A, dir(-X));
+    pair B = -0.2*dir(20); dot("$B$", B, dir(-X));
+    pair C = 0.3*dir(20); dot("$C$", C, dir(-X));
+    draw(dir(A)--dir(-A), Arrows);
+    draw(X--B);
+  \end{asy}
+  \qquad
+  \begin{asy}
+    pair X = 0.7*dir(110);
+    dot("$X$", X, dir(X));
+    pair A = -0.6*dir(20); dot("$A$", A, dir(-X));
+    pair B = -0.2*dir(20); dot("$B$", B, dir(-X));
+    pair C = 0.3*dir(20); dot("$C$", C, dir(-X));
+    draw(dir(A)--dir(-A), Arrows);
+    draw(X--B);
+  \end{asy}
+  \caption{Collinearity with directed angles.}
+\end{figure}
+
+Also, note that right angles have the very nice property that
+if $\ell \perp m$ we have
+\[ \dang (\ell, m) = \dang (m, \ell) = 90\dg. \]
+Hence any time you have perpendiculars, you can simply set
+the measure of the directed angle as $90\dg$
+without thinking or worrying about counterclockwise versus clockwise.
+
+\section{Examples}
+Writing a solution using directed angles should, in theory, not take any more additional effort.
+One simply solves the problem by looking at \emph{one particular diagram},
+but writes the solution up using the above rules so
+that they hold for \emph{all diagrams}.
+
+Let me actually give an example now.
+
+\begin{example}
+  [NIMO Winter 2014, Adapted] Let $ABC$ be a triangle with orthocenter $H$
+  and let $M$ be the midpoint of $\overline{BC}$.
+  Denote by $\omega_B$ the circle passing through $B$, $H$, and $M$,
+  and denote by $\omega_C$ the circle passing through $C$, $H$, and $M$.
+  Lines $AB$ and $AC$ meet $\omega_B$ and $\omega_C$ again at $P$ and $Q$, respectively.
+  Rays $PH$ and $QH$ meet $\omega_C$ and $\omega_B$ again at $R$ and $S$, respectively.
+  Prove that $M$, $R$, $S$ are collinear.
+\end{example}
+This is just angle chasing.
+Unfortunately, the configurations when $\triangle ABC$ is acute and
+$\triangle ABC$ is obtuse look quite different from each other.
+
+\begin{center}
+  \begin{asy}
+    size(5cm);
+    pair A = dir(110); dot("$A$", A, dir(110));
+    pair B = dir(210); dot("$B$", B, dir(210));
+    pair C = dir(330); dot("$C$", C, dir(330));
+    draw(A--B--C--cycle, red);
+    pair M = midpoint(B--C); dot("$M$", M, 2*dir(-70));
+    pair H = orthocenter(A,B,C); dot("$H$", H, dir(orthocenter(A,B,C)-M)*2);
+
+    draw(circumcircle(B,H,M), blue);
+    draw(circumcircle(C,H,M), blue);
+    pair OB = circumcenter(B,H,M);
+    pair OC = circumcenter(C,H,M);
+    pair P = 2*foot(OB,B,A)-B; dot("$P$", P, dir(160));
+    pair Q = 2*foot(OC,C,A)-C; dot("$Q$", Q, dir(90));
+    pair R = 2*foot(OC,P,H)-H; dot("$R$", R, dir(45));
+    pair S = 2*foot(OB,Q,H)-H; dot("$S$", S, dir(260));
+    draw(P--R); draw(Q--S);
+    draw(R--S, dotted);
+
+    draw(circumcircle(P,Q,A), dashed);
+  \end{asy}
+  \qquad
+  \begin{asy}
+    size(7cm);
+    pair A = dir(50); dot("$A$", A, dir(10));
+    pair B = dir(170); dot("$B$", B, dir(210));
+    pair C = dir(10); dot("$C$", C, dir(10));
+    draw(A--B--C--cycle, red);
+    pair M = midpoint(B--C); dot("$M$", M, 2*dir(-100));
+    pair H = orthocenter(A,B,C); dot("$H$", H, dir(orthocenter(A,B,C)-M)*2);
+
+    draw(circumcircle(B,H,M), blue);
+    draw(circumcircle(C,H,M), blue);
+    pair OB = circumcenter(B,H,M);
+    pair OC = circumcenter(C,H,M);
+    pair P = 2*foot(OB,B,A)-B; dot("$P$", P, dir(-50));
+    pair Q = 2*foot(OC,C,A)-C; dot("$Q$", Q, dir(100));
+    pair R = 2*foot(OC,P,H)-H; dot("$R$", R, dir(-80));
+    pair S = 2*foot(OB,Q,H)-H; dot("$S$", S, dir(130));
+    draw(P--R); draw(Q--S);
+    draw(R--S, dotted);
+
+    draw(circumcircle(P,Q,A), dashed);
+    draw(A--Q, red+dotted);
+  \end{asy}
+\end{center}
+
+Follow along the proof in both diagrams, asking yourself why each equality is true.
+The beauty of directed angles is that to \emph{write} this proof, I only
+had to look at the first diagram;
+it then works for the other diagram automatically.
+
+\begin{proof}
+  [Verbose Solution]
+  Applying Miquel's Theorem (in the exercises later),
+  we find that quadrilateral $APHQ$ is cyclic.
+  Also from Triangle Sum we have
+  \[ \dang \left( \ol{HB}, \ol{AB} \right)
+    + \dang \left( \ol{AB}, \ol{AC} \right)
+    + \dang \left( \ol{AC}, \ol{HB} \right)
+    = 0 \]
+   we derive that $\dang HBA + \dang BAC = 90\dg$.
+
+  Taking these for granted,
+  we can compute
+  \begin{align*}
+    \dang BPS &= \dang BHS & \text{Cyclic quads} \\
+    &= \dang PHS + \dang BHP & \text{Angle addition} \\
+    &= \dang PHQ + \dang BHP & \text{$S$, $H$, $Q$ collinear} \\
+    &= \dang PAQ + \dang BHP & \text{Cyclic quads} \\
+    &= \dang PAQ - (\dang HPB + \dang PBH) & \text{Triangle Sum} \\
+    &= \dang BAC - (\dang HPB + \dang ABH) & \text{Collinearity} \\
+    &= \dang BAC + \dang BPH + \dang HBA & \text{Negation} \\
+    &= 90\dg + \dang BPH. &
+  \end{align*}
+  But \[ \dang BPS - \dang BPH
+    = \dang BPS + \dang HPB = \dang HPS. \]
+  so we deduce that $\dang HPS = -90\dg = 90\dg$,
+  hence $\dang HMS = 90\dg$ as well.
+  In the same way, $\dang HMR = 90\dg$ as well.
+  Hence $\dang HMS = \dang HMR$, so points $M$, $R$, $S$ are collinear.
+\end{proof}
+In an actual olympiad one need not be so explicit.
+In particular, you can omit the part where I wrote out the explicit reasons
+for each step; I only provided this for reference.
+Here is a second example (much harder) in which I will be much more succinct.
+See if you can follow along the logic.
+
+\begin{example}
+  [European Girl's MO 2012, Problem 7]
+  Let $ABC$ be an acute-angled triangle with circumcircle $\Gamma$ and orthocenter $H$.
+  Let $K$ be a point of $\Gamma$ on the other side of $BC$ from $A$.
+  Let $L$ be the reflection of $K$ in the line $AB$,
+  and let $M$ be the reflection of $K$ in the line $BC$.
+  Let $E$ be the second point of intersection of $\Gamma $ with the circumcircle of triangle $BLM$.
+  Show that the lines $KH$, $EM$ and $BC$ are concurrent.
+\end{example}
+\begin{center}
+  \begin{asy}
+    unitsize(2.5cm);
+    pair A = Drawing("A", dir(50), dir(50));
+    pair B = Drawing("B", dir(209), dir(180));
+    pair C = Drawing("C", dir(331), dir(0));
+    Drawing(A--B--C--cycle);
+    pair H = orthocenter(A,B,C);
+    pair Ka = foot(A,B,C);
+    pair Kc = foot(C,A,B);
+    Drawing("H", H, dir(45));
+    pair Ha = Drawing("H_A", 2*Ka-H, dir(-70));
+    pair Hc = Drawing("H_C", 2*Kc-H, dir(135));
+    pair K = Drawing("K", dir(-64), dir(-90));
+    pair M = Drawing("M", reflect(B,C) * K, dir(180));
+    pair L = Drawing("L", reflect(B,A) * K, dir(90));
+    pair E = Drawing("E'", 2*foot(origin,M,Ha)-Ha, dir(70));
+    Drawing(A--Ha--B--Hc--C);
+    Drawing(L--Hc); Drawing(Hc--E, dotted);
+    draw(unitcircle);
+    draw(Ha--E);
+    draw(B--H--K);
+    draw(L--K--M,dashed);
+    draw(circumcircle(B,L,E), dotted);
+  \end{asy}
+  \begin{asy}
+    unitsize(2.5cm);
+    pair A = Drawing("A", dir(100), dir(100));
+    pair B = Drawing("B", dir(209), dir(250));
+    pair C = Drawing("C", dir(331), dir(0));
+    Drawing(A--B--C--cycle);
+    pair H = orthocenter(A,B,C);
+    pair Ka = foot(A,B,C);
+    pair Kc = foot(C,A,B);
+    Drawing("H", H, dir(45));
+    pair Ha = Drawing("H_A", 2*Ka-H, dir(-70));
+    pair Hc = Drawing("H_C", 2*Kc-H, dir(135));
+    pair K = Drawing("K", dir(-84), dir(-70));
+    pair M = Drawing("M", reflect(B,C) * K, dir(-10));
+    pair L = Drawing("L", reflect(B,A) * K, dir(240));
+    pair E = Drawing("E'", 2*foot(origin,M,Ha)-Ha, dir(70));
+    Drawing(A--Ha--B--Hc--C);
+    Drawing(L--Hc); Drawing(Hc--E, dotted);
+    draw(unitcircle);
+    draw(Ha--E);
+    draw(B--H--K);
+    draw(L--K--M,dashed);
+    pair O = circumcenter(B,L,E);
+    draw(arc(O, abs(O-L), 170, 400), dotted);
+  \end{asy}
+\end{center}
+
+\begin{proof}
+  [Solution]
+  Let $H_A$ and $H_C$ be the reflections of $H$ across $\ol{BC}$ and $\ol{BA}$; it is well-known that these lie on $\Gamma$.
+  Let $E'$ be the second intersection of line $H_AM$ with $\Gamma$.
+  By construction, lines $E'M$ and $HK$ concur on $\ol{BC}$, and our goal is to show that $B$, $L$, $E'$, $M$ are concyclic.
+
+  First, we claim that $L$, $H_C$, and $E'$ are collinear.
+  Due to the reflections,
+  \[ \dang LH_CB = -\dang KHB = \dang MH_AB
+  = \dang E'H_AB = \dang E'H_CB \]
+  which proves the claim.
+  Then
+  \[ \dang LE'M = \dang H_CE'H_A = \dang H_CBH_A = 2\dang ABC \]
+  (the last equality following from reflections; verify it yourself) and
+  \[ \dang LBM = \dang LBK + \dang KBM = 2\dang ABK + 2\dang KBC = 2\dang ABC \]
+  so $B$, $L$, $E'$, $M$ are concyclic. Hence $E=E'$ and we are done.
+\end{proof}
+
+
+\section{A Word of Warning}
+Never take half of a directed angle -- since we are working modulo $180\dg$,
+taking half of an angle doesn't make sense.
+
+\section{Practice Problems}
+Here are some famous lemmas from olympiad geometry that you should know.
+They are not hard to prove (in fact, they are all direct angle chasing) but they do have configuration issues.
+See if you can solve them and then write a single proof which does not need to consider different cases.
+
+\begin{center}
+  \begin{asy}
+    size(4cm);
+    pair A = Drawing("A", dir(110), dir(110));
+    pair B = Drawing("B", dir(210), dir(210));
+    pair C = Drawing("C", dir(330), dir(330));
+    pair D = Drawing("D", foot(A,B,C), dir(-90));
+    pair E = Drawing("E", (A+C)/2, dir(40));
+    pair F = Drawing("F", 0.7*A+0.3*B, dir(160));
+    draw(circumcircle(A,E,F), dotted);
+    draw(circumcircle(B,F,D), dotted);
+    draw(circumcircle(C,D,E), dotted);
+    draw(A--B--C--cycle);
+  \end{asy}
+  \begin{asy}
+    size(3.5cm);
+    pair Y = Drawing("Y", origin, dir(225));
+    pair A = Drawing("A", dir(130), dir(130));
+    pair B = Drawing("B", 1.3*dir(70), dir(110));
+    pair r = 1.7*dir(-40);
+    pair C = Drawing("C", A*r, dir(A*r));
+    pair D = Drawing("D", B*r, dir(B*r));
+    pair X = Drawing("X", extension(A,B,C,D), dir(50));
+    draw(A--X);
+    draw(C--D);
+    draw(circumcircle(A,X,Y));
+    draw(circumcircle(B,X,Y));
+    draw(A--Y--B, dashed);
+    draw(C--Y--D, dashed);
+  \end{asy}
+  \begin{asy}
+    size(5cm);
+    pair A = Drawing("A", dir(130), dir(130));
+    pair B = Drawing("B", dir(210), dir(210));
+    pair C = Drawing("C", dir(330), dir(330));
+    pair I = Drawing(incenter(A,B,C));
+    pair D = Drawing("D", foot(I,B,C), dir(-90));
+    pair E = Drawing("E", foot(I,C,A), dir(70));
+    pair F = Drawing("F", foot(I,A,B), dir(160));
+    pair X = Drawing("X", extension(B,I,E,F), dir(70));
+    pair Y = Drawing("Y", extension(C,I,E,F), dir(70));
+    draw(arc(midpoint(B--C), C, B), dotted);
+    draw(A--B--C--cycle);
+    draw(CP(I,D));
+    draw(B--X);
+    draw(C--Y);
+    draw(F--X);
+  \end{asy}
+\end{center}
+
+
+\begin{problem}
+  [Miquel's Theorem]
+  Let $ABC$ be a triangle.
+  Consider any points $D$, $E$, $F$ on lines $BC$, $CA$, $AB$
+  (distinct from the vertices of $ABC$, but not necessarily
+  in the interiors of the sides).
+  Prove that the circumcircles of triangles $AEF$, $BFD$, and $CDE$
+  intersect at a single point.
+\end{problem}
+
+\begin{problem}
+  [Spiral Similarity Lemma]
+  Two circles $\omega_1$ and $\omega_2$ meet at points $X$ and $Y$.
+  A line through $X$ intersects $\omega_1$ and $\omega_2$ again at $A$ and $B$.
+  A second line through $X$ intersects $\omega_1$ and $\omega_2$ again at $C$ and $D$.
+  Show that $\triangle AYC \sim \triangle BYD$.
+\end{problem}
+
+\begin{problem}
+  [Right Angles on Intouch Chord]
+  Let $ABC$ be a triangle whose incircle touches the opposite sides
+  at $D$, $E$, $F$.
+  The angle bisectors of $\angle B$ and $\angle C$ meet
+  line $EF$ at points $X$ and $Y$.
+  Prove that $X$ and $Y$ lie on the circle with diameter $\ol{BC}$.
+\end{problem}
+
+\section{Contest Practice}
+Some of the following problems are much more nontrivial;
+the last one is infamously difficult.
+Directed angles will help clean up a solution
+but as stressed before will not actually help you find
+the solution in the first place.
+
+\begin{problem}
+  [Folklore]
+  Let $\mathcal C_1$, $\mathcal C_2$, $\mathcal C_3$, $\mathcal C_4$
+  be four distinct circles.
+  For $i=1,2,3,4$, suppose that $\mathcal C_i$ and $\mathcal C_{i+1}$
+  intersect at two distinct points $A_i$ and $B_i$
+  (here $\mathcal C_5 = \mathcal C_1$).
+  Prove that if $A_1A_2A_3A_4$ is cyclic then so is $B_1B_2B_3B_4$.
+\end{problem}
+\begin{problem}
+  [Shortlist 2010/G1]
+  Let $ABC$ be an acute triangle with altitudes
+  $\ol{AD}$, $\ol{BE}$, $\ol{CF}$.
+  One of the intersection points of the line $EF$ and the circumcircle is $P$.
+  The lines $BP$ and $DF$ meet at point $Q$.
+  Prove that $AP = AQ$.
+\end{problem}
+%\begin{problem}
+%  [Zhautkyov Olympiad 2013]
+%  Let $ABCD$ be a trapezoid with $\ol{AD} \parallel \ol{BC}$ and $\angle ABC > 90\dg$.
+%  Point $M$ is chosen on side $AB$.
+%  Let $O_1$ and $O_2$ be the circumcenters of $\triangle MAD$ and $\triangle MBC$, respectively.
+%  The circumcircles of $\triangle MO_1D$ and $\triangle MO_2C$ meet again at point $N$.
+%  Prove that $O_1$, $O_2$, $N$ are collinear.
+%\end{problem}
+\begin{problem}
+  [USAMO 2013/1] In triangle $ABC$,
+  points $P$, $Q$, $R$ lie on sides $BC$, $CA$, $AB$, respectively.
+  Let $\omega_A$, $\omega_B$, $\omega_C$ denote the
+  circumcircles of triangles $AQR$, $BRP$, $CPQ$, respectively.
+  Given the fact that segment $AP$ intersects $\omega_A$, $\omega_B$, $\omega_C$
+  again at $X$, $Y$, $Z$ respectively, prove that $YX/XZ=BP/PC$.
+\end{problem}
+\begin{problem}
+  [Balkan 2009] Let $\ol{MN}$ be a line parallel to the side $\ol{BC}$ of a triangle $ABC$,
+  with $M$ on side $AB$ and $N$ on side $AC$.
+  The lines $BN$ and $CM$ intersect at point $P$.
+  The circumcircles of $\triangle BMP$ and $\triangle CNP$ meet again at $Q$.
+  Prove that $\angle BAQ = \angle CAP$.
+\end{problem}
+\begin{problem}
+  [USA TST 2007/1] Circles $\omega_1$ and $\omega_2$ meet at $P$ and $Q$.
+  Segments $AC$ and $BD$ are chords of $\omega_1$ and $\omega_2$ respectively,
+  such that lines $AB$ and $CD$ meet at $P$.
+  Lines $BD$ and $AC$ meet at $X$.
+  Point $Y$ lies on $\omega_1$ such that $\ol{PY} \parallel \ol{BD}$.
+  Point $Z$ lies on $\omega_2$ such that $\ol{PZ} \parallel \ol{AC}$.
+  Prove that points $Q$, $X$, $Y$, $Z$ are collinear.
+\end{problem}
+\begin{problem}
+  Let $ABC$ be a triangle with circumcircle $\Gamma$.
+  Let $\ell$ be a line in the plane, and let $\ell_a$, $\ell_b$, $\ell_c$ be the lines obtained
+  by reflecting $\ell$ in the lines $BC$, $CA$, and $AB$, respectively.
+  Let $\triangle A'B'C'$ denote the triangle determined by the lines $\ell_a$, $\ell_b$, $\ell_c$.
+  \begin{enumerate}[(a)]
+    \ii (Iran 1995) Prove that the incenter of the $\triangle A'B'C'$ lies on $\Gamma$.
+    \ii (IMO 2011/6) Assume $\ell$ is tangent to $\Gamma$.
+    Show that the circumcircle $\triangle A'B'C'$ is tangent to the circle $\Gamma$.
+  \end{enumerate}
+\end{problem}
+
+
+
+\end{document}

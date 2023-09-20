@@ -1,0 +1,30 @@
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A RP-D
+F = foot I A B
+
+M = midpoint B--C
+P = extension A I D E R200
+A--P blue
+
+D1 := 2*M-D
+Q = foot D A D1 R25
+E--Q--P blue
+P--M--Q heavygreen
+!markscalefactor *= 0.3;
+!draw(rightanglemark(E,Q,P));
+
+D--E heavycyan dashed
+
+CP M P heavygreen
+
+T = extension A Q B C
+S = extension D I A T R70
+A--T orange
+
+D--Q heavygreen

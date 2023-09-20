@@ -1,0 +1,658 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{evan}
+
+\begin{asydef}
+  import graph;
+  real[] default_ticks = {-4,-3,-2,-1,0,1,2,3,4};
+  void cplane(real theta=-45, real[] T = default_ticks, real xmin = -5, real xmax = 5, real S = 3) {
+    graph.xaxis("Re", xmin, xmax, graph.Ticks(format="%", Ticks=T, Size=S), Arrows);
+    graph.yaxis("Im", xmin, xmax, graph.Ticks(format="%", Ticks=T, Size=S), Arrows);
+    D("0", (0,0), dir(theta));
+    markscalefactor *= xmax;
+  }
+  markscalefactor=0.01;
+\end{asydef}
+
+\begin{document}
+\title{Bashing Geometry with Complex Numbers}
+\date{29 August 2015}
+\maketitle
+
+\begin{abstract}
+  This is a (quick) English translation of the complex numbers note
+  I wrote for Taiwan IMO 2014 training.
+  Incidentally I was also working on an airplane.
+\end{abstract}
+
+\section{The Complex Plane}
+Let $\CC$ and $\RR$ denote the set of complex and real numbers, respectively.
+
+Each $z \in \CC$ can be expressed as
+\[ z = a+bi = r \left( \cos \theta + i \sin \theta \right) = re^{i \theta} \]
+where $a,b,r,\theta \in \RR$ and $0 \le \theta < 2\pi$.
+We write $\left\lvert z \right\rvert = r = \sqrt{a^2+b^2}$ and $\arg z = \theta$.
+
+More importantly, each $z$ is associated with a conjugate $\ol z = a-bi$.
+It satisfies the properties
+\begin{align*}
+  \ol {w \pm z} &= \ol w \pm \ol z \\
+  \ol {w \cdot z} &= \ol w \cdot \ol z  \\
+  \ol {w / z} &= \ol w / \ol z \\
+  \left\lvert z \right\rvert^2 &= z \cdot \ol z
+\end{align*}
+Note that $z \in \RR \iff z = \ol z$ and $z \in i \RR \iff z + \ol z = 0$.
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(7cm);
+    cplane(135);
+    pair z = (3,4);
+    pair p = (z.x,0);
+    pair x = (z.x,-z.y);
+    dot("$z = 3+4i$", z, dir(45));
+    dot("$\overline z = 3-4i$", x, dir(-45));
+    dot("$-1-2i$", (-1,-2), dir(225));
+    draw(x--(0,0)--z);
+    dot("$\left\lvert z \right\rvert = 5$", 0.7*z, rotate(90)*dir(z));
+    draw(z--x, dotted);
+    markangle(L="$\theta$", p, (0,0), z, n=1);
+    markrightangle(z, p, (0,0));
+    // MarkAngle("\theta", p, (0,0), z, 1);
+    // draw(rightanglemark(z,p,(0,0)));
+  \end{asy}
+  \caption{Points $z = 3+4i$ and $-1-2i$; $\ol z = 3-4i$ is the conjugate.}
+  \label{fig:explain_complex_plane}
+\end{figure}
+
+We represent every point in the plane by a complex number.
+In particular, we'll use a capital letter (like $Z$) to denote the point associated to a complex number (like $z$).
+
+Complex numbers add in the same way as vectors.
+The multiplication is more interesting: for each $z_1, z_2 \in \CC$ we have
+\[
+  \left\lvert z_1z_2 \right\rvert = \left\lvert z_1 \right\rvert \left\lvert z_2 \right\rvert
+  \text{ and }
+  \arg z_1z_2 = \arg z_1 + \arg z_2.
+\]
+This multiplication lets us capture a geometric structure.
+For example, for any points $Z$ and $W$ we can express rotation of $Z$ at $W$ by $90\dg$ as
+\[ z \mapsto i(z-w) + w. \]
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(11cm);
+    cplane();
+    pair z = (3,4);
+    pair iz = rotate(90)*z;
+    dot("$z = 3+4i$", z, dir(90));
+    dot("$iz = -4+3i$", iz, dir(90));
+    draw(z--(0,0)--iz,Arrows(SimpleHead,9));
+    markrightangle(z, (0,0), iz);
+    // draw(rightanglemark(z,(0,0),iz));
+    picture pic = CC();
+    cplane();
+    pair z = (-1,-2);
+    pair w = (-2,-4);
+    pair f = rotate(90)*(z-w)+w;
+    pair zw = z-w;
+    pair izw = rotate(90)*(z-w);
+    dot("$z$", z, dir(0));
+    dot("$w$", w, dir(-90));
+    dot("$i(z-w)+w$", f, dir(100));
+    dot("$z-w$", zw, dir(45));
+    dot("$i(z-w)$", izw, dir(135));
+    draw(f--w--z, Arrows(SimpleHead,9));
+    draw(izw--(0,0)--(z-w), Arrows(SimpleHead,9));
+    add(shift((-11,0))*pic);
+  \end{asy}
+  \caption{$z \mapsto i(z-w) + w$.}
+  \label{fig:complex_rotate}
+\end{figure}
+
+
+\section{Elementary Propositions}
+First, some fundamental formulas:
+
+\begin{proposition}
+  Let $A$, $B$, $C$, $D$ be pairwise distinct points.
+  Then $\ol{AB} \perp \ol{CD}$ if and only if $\frac{d-c}{b-a} \in i \RR$; i.e.\
+  \[ \frac{d-c}{b-a} + \ol{\left( \frac{d-c}{b-a} \right)} = 0. \]
+  \label{lem:complex_perp}
+\end{proposition}
+\begin{proof}
+  It's equivalent to
+  $\frac{d-c}{b-a} \in i \RR
+  \iff \arg \left( \frac{d-c}{b-a} \right) \equiv \pm 90\dg \iff \ol{AB} \perp \ol{CD}$.
+\end{proof}
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(12cm);
+    cplane();
+    pair a = (2,2); dot("$a$", a, dir(120));
+    pair b = (3,4); dot("$b$", b, dir(120));
+    pair c = (-1,1); dot("$c$", c, dir(90));
+    pair d = (-4,2.5); dot("$d$", d, dir(90));
+    draw(a--b); draw(c--d);
+    add(shift(-11)*CC());
+    cplane();
+    pair x = b-a; dot("$b-a$", x, dir(90));
+    pair y = d-c; dot("$d-c$", y, dir(90));
+    draw(x--(0,0)--y);
+  \end{asy}
+  \caption{$\ol{AB} \perp \ol{CD} \iff \frac{d-c}{b-a} \in i \RR$.}
+\end{figure}
+
+\begin{proposition}
+  Let $A$, $B$, $C$ be pairwise distinct points.
+  Then $A$, $B$, $C$ are collinear if and only if $\frac{c-a}{c-b} \in \RR$; i.e.
+  \[ \frac{c-a}{c-b} = \ol{\left( \frac{c-a}{c-b} \right)}. \]
+  \label{prop:complex_collin}
+\end{proposition}
+\begin{proof}
+  Similar to the previous one.
+\end{proof}
+
+\begin{proposition}
+  Let $A$, $B$, $C$, $D$ be pairwise distinct points.
+  Then $A$, $B$, $C$, $D$ are concyclic if and only if
+  \[ \frac{c-a}{c-b} : \frac{d-a}{d-b} \in \RR. \]
+\end{proposition}
+\begin{proof}
+  It's not hard to see that
+  $\arg \left( \frac{c-a}{c-b} \right) = \angle ACB$
+  and $\arg \left( \frac{d-a}{d-b} \right) = \angle ADB$.
+  (Here angles are directed).
+\end{proof}
+
+Now, let's state a more commonly used formula.
+
+\begin{lemma}[Reflection About a Segment]
+  Let $W$ be the reflection of $Z$ across $\ol{AB}$. Then
+  \[ w = \frac{(a-b) \ol z + \ol{a}b - a\ol{b}}{\ol a - \ol b}. \]
+  \label{lem:complex_reflect}
+\end{lemma}
+Of course, it then follows that the foot from $Z$ to $\ol{AB}$ is exactly $\half (w+z)$.
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(4cm);
+    real[] T = {0,2,4};
+    cplane(T=T, xmin=-1.9,xmax=5);
+    dot("$1$", (2,0), dir(-90));
+    pair a = (1,1); dot("$a$", a, dir(-90));
+    pair b = (4,3); dot("$b$", b, dir(10));
+    pair z = (2,3); dot("$z$", z, dir(90));
+    pair w = 2*foot(z,a,b)-z; dot("$w$", w, dir(-45));
+    draw(a--b);
+    draw(z--w, dotted);
+  \end{asy}
+  \quad
+  \begin{asy}
+    size(4cm);
+    real[] T = {0,2,4};
+    cplane(T=T, xmin=-1.9,xmax=5);
+    dot("$1$", (2,0), dir(-90));
+    pair a = (0,0);
+    pair b = (3,2); dot("$b-a$", b, dir(10));
+    pair z = (1,2); dot("$z-a$", z, dir(90));
+    pair w = 2*foot(z,a,b)-z; dot("$w-a$", w, dir(45));
+    draw(a--b);
+    draw(z--w, dotted);
+  \end{asy}
+  \quad
+  \begin{asy}
+    size(4cm);
+    real[] T = {0,1,2};
+    cplane(T=T, xmin=-0.95,xmax=2.50);
+    pair a = (0,0);
+    pair x = (3,2);
+    pair b = (3,2)/x; dot("$1$", b, dir(-90));
+    pair z = (1,2)/x; dot("$\frac{z-a}{b-a}$", z, dir(70));
+    pair w = 2*foot(z,a,b)-z; dot("$\frac{w-a}{b-a}$", w, dir(-70));
+    draw(a--b);
+    draw(z--w, dotted);
+    draw((0,0)--(1,0), black+1);
+  \end{asy}
+  \caption{The reflection of $Z$ across $\ol{AB}$.}
+  \label{fig:proof_reflect}
+\end{figure}
+
+\begin{proof}
+  According to \Cref{fig:proof_reflect} we obtain
+  \[ \frac{w-a}{b-a} = \ol{\left( \frac{z-a}{b-a} \right)} = \frac{\ol z - \ol a}{\ol b - \ol a}. \]
+  From this we derive $w = \frac{(a-b)\ol z + \ol a b - a \ol b}{\ol a-  \ol b}$.
+\end{proof}
+
+Here are two more formulas.
+
+\begin{theorem}
+  [Complex Shoelace] Let $A$, $B$, $C$ be points.
+  Then $\triangle ABC$ has signed area
+  \[
+    \frac{i}{4}
+    \left\lvert
+    \begin{array}{ccc}
+      a & \ol a & 1 \\
+      b & \ol b & 1 \\
+      c & \ol c & 1 \\
+    \end{array}
+    \right\rvert.
+  \]
+  \textbf{In particular, $A$, $B$, $C$ are collinear if and only if this determinant vanishes.}
+  \label{thm:complex_shoelace}
+\end{theorem}
+\begin{proof}
+  Cartesian coordinates.
+\end{proof}
+Often, \Cref{thm:complex_shoelace} is easier to use than \Cref{prop:complex_collin}.
+
+Actually, we can even write down the formula for an arbitrary intersection of lines.
+\begin{proposition}
+  \label{prop:complex_intersect}
+  Let $A$, $B$, $C$, $D$ be points. Then lines $AB$ and $CD$ intersect at
+  \[ \frac{ (\bar a b - a \bar b )(c-d) - (a-b)(\bar c d - c \bar d) }{(\bar a - \bar b )(c-d) - (a-b)(\bar c - \bar d)}. \]
+\end{proposition}
+But unless $d=0$ or $a$, $b$, $c$, $d$ are on the unit circle, this formula is often too messy to use.
+
+
+\section{The Unit Circle, and Triangle Centers}
+\label{sec:unitcircle}
+On the complex plane, the \textbf{unit circle} is of critical importance.
+Indeed if $\left\lvert z \right\rvert = 1$ we have \[ \ol z = \frac 1z. \]
+Using the above, we can derive the following lemmas.
+
+\begin{lemma}
+  If $ \left\lvert a \right\rvert = \left\lvert b \right\rvert = 1$ and $z \in \CC$,
+  then the reflection of $Z$ across $\ol{AB}$ is
+  $a+b-ab \ol z$,
+  and the foot from $Z$ to $\ol{AB}$ is
+  \[ \half \left( z+a+b -ab \ol z \right). \]
+\end{lemma}
+\begin{lemma}
+  If $A$, $B$, $C$, $D$ lie on the unit circle then
+  the intersection of $\ol{AB}$ and $\ol{CD}$ is given by
+  \[ \frac{ab(c+d)-cd(a+b)}{ab-cd}. \]
+\end{lemma}
+
+These are much easier to work with than the corresponding formulas in general.
+We can also obtain the triangle centers immediately:
+\begin{theorem}
+  Let $ABC$ be a triangle center, and assume that the circumcircle of
+  $ABC$ coincides with the unit circle of the complex plane.
+  Then the circumcenter, centroid, and orthocenter of $ABC$
+  are given by $0$, $\frac 13 (a+b+c)$, $a+b+c$, respectively.
+\end{theorem}
+Observe that the Euler line follows from this.
+
+\begin{proof}
+  The results for the circumcenter and centroid are immediate.
+  Let $h = a+b+c$.
+  By symmetry it suffices to prove $\ol{AH} \perp \ol{BC}$.
+  We may set
+  \[ z  = \frac{h-a}{b-c} = \frac{b+c}{b-c}. \]
+  Then
+  \[ \ol z = \ol{\left( \frac{b+c}{b-c} \right)}
+    = \frac{\ol b + \ol c}{\ol b - \ol c}
+    = \frac{\frac 1b + \frac 1c}{\frac 1b - \frac 1c}
+    = \frac{c+b}{c-b} = -z \]
+  so $z \in i \RR$ as desired.
+\end{proof}
+
+We can actually even get the formula for the incenter.
+\begin{theorem}
+  Let triangle $ABC$ have incenter $I$ and circumcircle $\Gamma$.
+  Lines $AI$, $BI$, $CI$ meet $\Gamma$ again at $D$, $E$, $F$.
+  If $\Gamma$ is the unit circle of the complex plane
+  then there exists $x,y,z \in \CC$ satisfying
+  \[ a=x^2, b=y^2, c=z^2 \text{ and } d=-yz, e=-zx, f=-xy. \]
+  Note that $\left\lvert x \right\rvert = \left\lvert y \right\rvert = \left\lvert z \right\rvert = 1$.
+  Moreover, the incenter $I$ is given by $-(xy+yz+zx)$.
+\end{theorem}
+\begin{proof}
+  Show that $I$ is the orthocenter of $\triangle DEF$.
+\end{proof}
+
+\section{Some Other Lemmas}
+\begin{lemma}
+  Let $A$, $B$ be on the unit circle
+  and select $P$ so that $\ol{PA}$, $\ol{PB}$ are tangents.
+  Then \[ p = \frac{2}{\ol a + \ol b} = \frac{2ab}{a+b}. \]
+\end{lemma}
+\begin{proof}
+  Let $M$ be the midpoint of $\ol{AB}$ and set $O = 0$.
+  One can show $OM \cdot OP = 1$ and that $O$, $M$, $P$ are collinear;
+  the result follows from this.
+\end{proof}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(4cm);
+    draw(unitcircle);
+    pair A = dir(110); dot("$a$", A, dir(110));
+    pair B = dir(30); dot("$b$", B, dir(30));
+    pair P = 2/conj(A+B);
+    dot("$\frac{2ab}{a+b}$", P, dir(P));
+    dot(origin);
+    draw(A--P--B);
+    draw(A--B, dashed);
+    draw(origin--P, dashed);
+    dot( (A+B)/2 );
+  \end{asy}
+  \caption{Two tangents. $p = \frac{2}{\ol a + \ol b}$.}
+\end{figure}
+
+\begin{lemma}
+  For any $x$, $y$, $z$, the circumcenter of $\triangle XYZ$ is given by
+  \[ \left\lvert
+    \begin{array}{ccc}
+      x & x\bar x & 1 \\
+      y & y\bar y & 1 \\
+      z & z\bar z & 1
+    \end{array}
+  \right\rvert
+  \div
+  \left\lvert
+    \begin{array}{ccc}
+      x & \bar x & 1 \\
+      y & \bar y & 1 \\
+      z & \bar z & 1
+    \end{array}
+  \right\rvert. \]
+\end{lemma}
+This formula is often easier to apply if we shift $z$ to the point $0$ first, then shift back afterwards.
+
+\section{Examples}
+\begin{example}
+  [MOP 2006]
+  Let $H$ be the orthocenter of triangle $ABC$.
+  Let $D$, $E$, $F$ lie on the circumcircle of $ABC$ such that $\ol{AD} \parallel \ol{BE} \parallel \ol{CF}$.
+  Let $S$, $T$, $U$ respectively denote the reflections of $D$, $E$, $F$ across $\ol{BC}$, $\ol{CA}$, $\ol{AB}$.
+  Prove that points $S$, $T$, $U$, $H$ are concyclic.
+\end{example}
+\begin{proof}
+  Let $(ABC)$ be the unit circle and $h = a+b+c$.
+  WLOG, $\ol{AD}$, $\ol{BE}$,  $\ol{CF}$ are perpendicular to the real axis (rotate appropriately); thus $d = \ol a$ and so on.
+  Thus $s = b+c - bc \ol d = b+c-abc$ and so on; we now have
+  \[ \frac{s-t}{s-u}=\frac{b-a}{c-a}\quad\text{and}\quad\frac{h-t}{h-u}=\frac{b+abc}{c+abc}. \]
+  Compute \[ \frac{s-t}{s-u} : \frac{h-t}{h-u} = \frac{(b-a)(c+abc)}{(c-a)(b+abc)}
+    = \frac{\left(\frac{1}{b}-\frac{1}{a}\right)\left(\frac{1}{c}+\frac{1}{abc}\right)}{\left(\frac{1}{c}-\frac{1}{a}\right)\left(\frac{1}{b}+\frac{1}{abc}\right)}
+    \implies \frac{s-t}{s-u}:\frac{h-t}{h-u} \in \RR \]
+  as desired.
+\end{proof}
+
+
+\begin{example}
+  [Taiwan TST 2014]
+  In $\triangle ABC$ with incenter $I$,
+  the incircle is tangent to $\ol{CA}$, $\ol{AB}$ at $E$, $F$.
+  The reflections of $E$, $F$ across $I$ are $G$, $H$.
+  Let $Q$ be the intersection of $\ol{GH}$ and $\ol{BC}$, and let $M$ be the midpoint of $\ol{BC}$.
+  Prove that $\ol{IQ}$ and $\ol{IM}$ are perpendicular.
+\end{example}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    pair A = dir(110), B = dir(210), C = dir(330);
+    pair I = incenter(A,B,C);
+    pair E = foot(I,C,A);
+    pair F = foot(I,A,B);
+    pair D = foot(I,B,C);
+    pair G = 2*I-E;
+    pair H = 2*I-F;
+    pair Q = extension(B,C,G,H);
+    pair M = midpoint(B--C);
+    draw(A--B--C--cycle);
+    draw(H--Q);
+    draw(incircle(A,B,C));
+    draw(B--Q--I--M);
+    dot("$A$", A, A);
+    dot("$B$", B, dir(-90));
+    dot("$C$", C, dir(-90));
+    dot("$I$", I, dir(90));
+    dot("$E$", E, dir(C+A-I));
+    dot("$F$", F, dir(A+B-I));
+    dot("$D$", D, dir(B+C-I));
+    dot("$G$", G, dir(I-E));
+    dot("$H$", H, dir(I-F));
+    dot("$Q$", Q, dir(-90));
+    dot("$M$", M, dir(-90));
+  \end{asy}
+\end{figure}
+\begin{soln}
+  Let $D$ be the foot from $I$ to $\ol{BC}$, and set $(DEF)$ as the unit circle.
+  (This lets us exploit the results of \Cref{sec:unitcircle}.)
+  Thus $\left\lvert d \right\rvert = \left\lvert e \right\rvert = \left\lvert f \right\rvert = 1$,
+  and moreover $g = -e$, $h = -f$.
+  Let $x = \ol d = \frac 1d$ and define $y$, $z$ similarly.
+  Then
+  \[ b = \frac{2}{\ol d + \ol f} = \frac{2}{x+z}. \]
+  Similarly, $c = \frac{2}{x+y}$, so
+  \[ m = \half(b+c) = \frac{1}{x+y} + \frac{1}{x+z} = \frac{2x+y+z}{(x+y)(x+z)}. \]
+  Next, we have $Q = DD \cap GH$, which implies
+  \[ q = \frac{dd(g+h)-gh(d+d)}{d^2-gh}
+    = \frac{\frac{1}{x^2} \left( -\frac1y-\frac1z \right) - \frac{1}{yz} \frac{2}{x}}{\frac{1}{x^2} - \frac{1}{yz}}
+    = \frac{2x+y+z}{x^2-yz}. \]
+  so
+  \[ m/q = \frac{x^2-yz}{(x+y)(x+z)}. \]
+  Now,
+  \[ \ol{m/q} = \frac{\frac{1}{x^2}-\frac{1}{yz}}{\left( \frac1x+\frac1y \right)\left( \frac1x+\frac1z \right)} = \frac{yz-x^2}{(x+y)(x+z)} = -m/q \]
+  thus $m/q \in i \RR$, as desired.
+\end{soln}
+
+\begin{example}
+  [USAMO 2012]
+  Let $P$ be a point in the plane of $\triangle ABC$, and $\gamma$ a line through $P$.
+  Let $A', B', C'$ be the points where the reflections of lines $PA, PB, PC$ with
+  respect to $\gamma$ intersect lines $BC, AC, AB$ respectively.
+  Prove that $A', B', C'$ are collinear.
+\end{example}
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(4cm);
+    pair A = dir(110), B = dir(210), C = dir(330);
+    dot("$A$", A, A);
+    dot("$B$", B, dir(-90));
+    dot("$C$", C, dir(-90));
+    draw(A--B--C--cycle);
+    pair P = 0.1*dir(40);
+    dot("$P$", P, dir(-35));
+    pair X1 = P + 1.5 * dir(10);
+    pair X2 = P - 1.5 * dir(10);
+    draw(X1--X2, dashed, Arrows);
+    pair T = 2*foot(A,X1,X2)-A;
+    pair A1 = extension(P,T,B,C);
+    dot("$A'$", A1, dir(-40));
+    draw(A--P--A1);
+  \end{asy}
+\end{figure}
+
+\begin{soln}
+  Let $p=0$ and set $\gamma$ as the real line.
+  Then $A'$ is the intersection of $bc$ and $p\bar a$.
+  So, using \Cref{prop:complex_intersect} we get
+  \[ a' = \frac{\bar a(\bar b c - b \bar c)}{(\bar b - \bar c)\bar a-(b-c) a}. \]
+  Note that
+  \[ \bar a' = \frac{a (b \bar c - \bar b c)}{(b-c) a - (\bar b - \bar c)\bar a}. \]
+  Thus by \Cref{thm:complex_shoelace}, it suffices to prove
+  \[ 0 = \left\lvert
+  \begin{array}{ccc}
+    \frac{\bar a(\bar b c-b \bar c)}{(\bar b - \bar c)\bar a - (b-c) a} & \frac{a (b \bar c - \bar b c)}{(b-c) a - (\bar b - \bar c) \bar a} & 1 \\
+    \frac{\bar b(\bar c a-c \bar a)}{(\bar c - \bar a)\bar b - (c-a) b} & \frac{b (c \bar a - \bar c a)}{(c-a) b - (\bar c - \bar a) \bar b} & 1 \\
+    \frac{\bar c(\bar a b-a \bar b)}{(\bar a - \bar b)\bar c - (a-b) c} & \frac{c (a \bar b - \bar a b)}{(a-b) c - (\bar a - \bar b)\bar c} & 1
+  \end{array}
+  \right\rvert.
+  \]
+  This is equivalent to
+  \[ 0 = \left\lvert
+  \begin{array}{ccc}
+    \bar a(\bar b c -b \bar c) & a (\bar b c - b \bar c) & (\bar b - \bar c) \bar a - (b-c) a \\
+    \bar b(\bar c a -c \bar a) & b (\bar c a - c \bar a) & (\bar c - \bar a) \bar b - (c-a) b \\
+    \bar c(\bar a b -a \bar b) & c (\bar a b - a \bar b) & (\bar a - \bar b) \bar c - (a-b) c \\
+  \end{array}
+  \right\rvert. \]
+  Evaluating the determinant gives
+  \[
+  \sum_{\text{cyc}} ((\bar b - \bar c) \bar a - (b-c) a) \cdot - \left\lvert
+    \begin{array}{cc}
+      b & \bar b \\
+      c & \bar c
+    \end{array}
+    \right\rvert \cdot \left( \bar c a - c \bar a \right)\left( \bar a b - a \bar b \right)
+  \] or, noting the determinant is $b\bar c - \bar b c$ and factoring it out,
+  \[
+    (\bar b c - c \bar b)(\bar c a - c \bar a)(\bar a b - a \bar b) \sum_{\text{cyc}} \left( ab - ac + \bar c \bar a - \bar b \bar a \right) = 0.
+  \qedhere \]
+\end{soln}
+
+\begin{example}
+  [Taiwan TST Quiz 2014]
+  Let $I$ and $O$ be the incenter and circumcenter of $ABC$.
+  A line $\ell$ is drawn parallel to $\ol{BC}$ and tangent to the incircle of $ABC$.
+  Let $X$, $Y$ be on $\ell$ so that $I$, $O$, $X$ are collinear and $\angle XIY = 90\dg$.
+  Show that $A$, $X$, $O$, $Y$ are concyclic.
+\end{example}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    pair A = dir(110), B = dir(220), C = dir(320);
+    dot("$A$", A, A);
+    dot("$B$", B, B);
+    dot("$C$", C, C);
+    draw(A--B--C--cycle);
+    pair O = (0,0);
+    dot("$O$", O, dir(-90));
+    draw(unitcircle);
+    draw(incircle(A,B,C), dotted);
+    pair I = incenter(A,B,C);
+    dot("$I$", I, dir(-90));
+    pair B1 = 2*I-B, C1 = 2*I-C;
+    pair X = extension(B1,C1,O,I);
+    dot("$X$", X, dir(20));
+    pair Y = 2*foot(circumcenter(A,X,O),X,2*I-foot(I,B,C))-X;
+    dot("$Y$", Y, dir(190));
+    draw(circumcircle(A,X,Y));
+    draw(X--Y--I--cycle);
+    pair P = IP(Line(I,Y),unitcircle);
+    pair Q = 2*foot(O,I,P)-P;
+    dot("$P$", P, dir(P-Q));
+    dot("$Q$", Q, dir(Q-P));
+    draw(P--Y,dashed); draw(I--Q,dashed);
+    dot("$Y'$", IP(I--Q,B--C), dir(-110));
+    pair X1 = extension(I,O,B,C);
+    dot("$X'$", X1, dir(-75));
+    draw(X1--I, dashed);
+  \end{asy}
+\end{figure}
+
+\begin{soln}
+  Let $X'$ and $Y'$ respectively denote the reflections of $X$ and $Y$ across $I$.
+  Note that $X$, $Y$ lie on $\ol{BC}$.
+  Also, let $P$, $Q$ be the intersections of $\ol{IY}$ with the circumcircle.
+
+  Of course, $(ABC)$ is the unit circle.
+  Let $j$ be the complex number corresponding to $I$ (to avoid confusion with $i = \sqrt{-1}$).
+  Thus,
+  \[ x' = \frac{\left( \ol b c - b \ol c \right)(j-0) - \left( \ol j 0 - j \ol 0 \right)(b-c)}{(\ol b - \ol c)(j-0) - (b-c) (\ol j - \ol 0)}
+    = \frac{j \cdot \frac{c^2-b^2}{bc}}{j \cdot \frac{c-b}{bc} - (b-c) \ol j}
+    = \frac{j(b+c)}{j + bc \ol j} . \]
+  We seek $y'$ now. Consider the quadratic equation in $z$ given by
+  \[ \frac{z-j}{j} + \frac{\frac1z - \ol j}{\ol j} = 0
+    \iff z^2 - 2j z + j / \ol j = 0.\]
+  Its zeros in $z$ are $p$ and $q$,
+  which implies that $p+q = 2j$ and $pq = j / \ol j$
+  (by Vieta!).
+  From this we can compute
+  \[ y' = \frac{pq(b+c)-bc(p+q)}{pq-bc}
+    = \frac{j(b+c)-2bcj \ol j}{j - bc \ol j} = \frac{j(b+c)-2bcj \ol j}{j-bc\ol j}. \]
+  which gives
+  \[
+    x = 2j - x' = \frac{j(2j-b-c+2bc \ol j)}{j + bc \ol j}
+    \quad\text{and}\quad
+    y = 2j - y' = \frac{j(2j-b-c)}{j - bc \ol j}.
+  \]
+  From this we can obtain
+  \begin{align*}
+    y-x &= j \cdot \frac{(2j-b-c)(j+bc\ol j)-(2j-b-c+2bc\ol j)(j-bc \ol j)}{(j-bc \ol j)(j+bc \ol j)} \\
+    &= j \cdot \frac{2bc \ol j(2j-b-c)-2bc \ol j(j  - bc \ol j)}{(j-bc\ol j)(j+bc\ol j)} \\
+    &= j \cdot \frac{2bc \ol j \left( j-b-c+bc \ol j \right)}{(j-bc\ol j)(j+bc\ol j)} \\
+    X = \frac{y-x}{x} &= \frac{2bc \ol j \left( j-b-c+bc \ol j \right)}{(j-bc\ol j)(2j-b-c+2bc\ol j)} \\
+    A = \frac{y-a}{a} &= \frac{j(2j-b-c-a)+abc\ol j}{a(j-bc\ol j)}
+  \end{align*}
+  We need to prove $X/A = \ol{X/A}$.
+  Now set $a=x^2$, $b=y^2$, $c=z^2$, $j=-(xy+yz+zx)$, $\ol j = -\frac{x+y+z}{xyz}$
+  (this is a different $x$, $y$ than the points $X$ and $Y$.)
+  So, the above rewrites as
+  \begin{align*}
+    X &= \frac{2\frac{yz}{x}(x+y+z)(\frac{yz}{x}(x+y+z)+y^2+z^2+xy+yz+zx)}{\left( -\frac{yz}{x}(x+y+z)+xy+yz+zx \right)\left( y^2+z^2+2(xy+yz+zx)+2\frac{yz}{x}(x+y+z) \right)} \\
+    &= \frac{2yz(x+y+z)\left( 2xyz+\sum_{\text{sym}} x^2y \right)}{(y+z)(x^2-yz)\left( x(y+z)(2x+y+z)+2yz(x+y+z) \right)} \\
+    &= \frac{2yz(x+y+z)(x+y)(x+z)}{(x^2-yz)\left( (x^2+yz)(y+z)+(xy+yz+zx)(x+y+z) \right)} \\
+    \intertext{and}
+    A &= \frac{(xy+yz+zx)(x+y+z)^2-xyz(x+y+z)}{x^2(-(xy+yz+zx)+\frac{yz}{x}(x+y+z))}
+    = \frac{(x+y+z)(x+y)(y+z)(z+x)}{x(yz-x^2)(y+z)} \\
+    \intertext{thus}
+    X/A &= \frac{-2xyz}{(x^2+yz)(y+z)+(x+y+z)(xy+yz+zx)} \\
+    &= \frac{-\frac{2}{xyz}}%
+    {(\frac{1}{x^2}+\frac1{yz})(\frac1y+\frac1z)  +  (\frac1x+\frac1y+\frac1z)(\frac1{xy}+\frac1{yz}+\frac1{zx})} = \ol{X/A}. \qedhere
+  \end{align*}
+\end{soln}
+
+
+\section{Practice Problems}
+\begin{enumerate}
+  \ii Let $ABCD$ be cyclic.
+  Let $H_A$, $H_B$, $H_C$, $H_D$ denote the orthocenters of $BCD$, $CDA$, $DAB$, $ABC$.
+  Show that $\ol{AH_A}$, $\ol{BH_B}$, $\ol{CH_C}$, $\ol{DH_D}$ are concurrent.
+  \ii (China TST 2011)
+  Let $\Gamma$ be the circumcircle of a triangle $ABC$.
+  Assume $\ol{AA'}$, $\ol{BB'}$, $\ol{CC'}$ are diameters of $\Gamma$.
+  Let $P$ be a point inside $ABC$ and let $D$, $E$, $F$ be the feet from $P$ to $\ol{BC}$, $\ol{CA}$, $\ol{AB}$.
+  Let $X$ be the reflection of $A'$ across $D$; define $Y$ and $Z$ similarly.
+  Prove that $\triangle XYZ \sim \triangle ABC$.
+  \ii In circumscribed quadrilateral $ABCD$ with incircle $\omega$,
+  Prove that the midpoint of $\ol{AC}$ and the midpoint of $\ol{BD}$ are collinear with the center of $\omega$.
+  \ii (Simson Line) Let $ABC$ be a triangle and $P$ a point on its circumcircle.
+  \begin{enumerate}[(a)]
+    \ii Let $D$, $E$, $F$ be the feet from $P$ to $\ol{BC}$, $\ol{CA}$, $\ol{AB}$.
+    Show that $D$, $E$, $F$ are collinear.
+    \ii Moreover, prove that the line through these points bisects $\ol{PH}$,
+    where $H$ is the orthocenter of $ABC$.
+  \end{enumerate}
+  \ii (PUMaC Finals) Let $\gamma$ and $I$ be the incircle and incenter of triangle $ABC$.
+  Let $D$, $E$, $F$ be the tangency points of $\gamma$ to $\ol{BC}$, $\ol{CA}$, $\ol{AB}$
+  and let $D'$ be the reflection of $D$ about $I$.
+  Assume $EF$ intersects the tangents to $\gamma$ at $D$ and $D'$ at points $P$ and $Q$.
+  Show that $\angle DAD' + \angle PIQ = 180\dg$.
+  \ii (Schiffler Point) Let triangle $ABC$ have incenter $I$.
+  Prove that the Euler lines of $\triangle AIB$, $\triangle BIC$, $\triangle CIA$, $\triangle ABC$ are concurrent.
+  \ii (USA TST 2014) Let $ABCD$ be a cyclic quadrilateral and let
+  $E$, $F$, $G$, $H$ be the midpoints of $\ol{AB}$, $\ol{BC}$, $\ol{CD}$, $\ol{DA}$.
+  Call $W$, $X$, $Y$, $Z$ the orthocenters of $AHE$, $BEF$, $CFG$, $DGH$.
+  Prove that $ABCD$ and $WXYZ$ have the same area.
+  \ii (Iran 2004) Let $O$ be the circumcenter of $ABC$.
+  A line $\ell$ through $O$ cuts $\ol{AB}$ and $\ol{AC}$ at points $X$ and $Y$.
+  Let $M$ and $N$ be the midpoints of $\ol{BY}$, $\ol{CX}$. Show that $\angle MON = \angle BAC$.
+  \ii (APMO 2010) Let $ABC$ be an acute triangle, where $AB > BC$ and $AC > BC$.
+  Denote by $O$ and $H$ the circumcenter and orthocenter.
+  The circumcircle of $AHC$ intersects $AB$ again at $M$;
+  the circumcircle of $AHB$ intersects $AC$ again at $N$.
+  Prove that the circumcenter of triangle $MNH$ lies on line $OH$.
+  \ii (Iran 2013) Let $ABC$ be acute, and $M$ the midpoint of minor arc $\widehat{BC}$.
+  Let $N$ be on the circumcircle of $ABC$ such that $\ol{AN} \perp \ol{BC}$,
+  and let $K$, $L$ lie on $AB$, $AC$ so that $\ol{OK} \parallel \ol{MB}$, $\ol{OL} \parallel \ol{MC}$.
+  (Here $O$ is the circumcenter of $ABC$). Prove that $NK = NL$.
+  \ii (MOP 2006) Cyclic quadrilateral $ABCD$ has circumcenter $O$.
+  Let $P$ be a point in the plane
+  and let $O_1$, $O_2$, $O_3$, $O_4$ be the circumcenters of $PAB$, $PBC$, $PCD$, $PDA$.
+  Show that the midpoints of
+  $\ol{O_1 O_3}$, $\ol{O_2O_4}$, $\ol{OP}$ are concurrent.
+\end{enumerate}
+
+
+\end{document}

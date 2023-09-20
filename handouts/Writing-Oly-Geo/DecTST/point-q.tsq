@@ -1,0 +1,18 @@
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A R70
+F = foot I A B
+
+M = midpoint B--C
+T = 2*M-D
+Q = foot D A T R25
+
+CP M Q heavygreen
+
+S = extension D I A T R70
+A--T orange dashed

@@ -1,0 +1,423 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+
+\begin{document}
+\title{A Brief Introduction to Olympiad Inequalities}
+\date{30 April 2014}
+\maketitle
+
+\begin{abstract}
+  The goal of this document is to provide a easier introduction to olympiad inequalities
+  than the standard exposition \emph{Olympiad Inequalities}, by Thomas Mildorf.
+  I was motivated to write it by feeling guilty for getting
+  free $7$'s on problems by simply regurgitating a few tricks I happened to know,
+  while other students were unable to solve the problem.
+
+  \textbf{Warning}: These are notes, not a full handout.
+  Lots of the exposition is very minimal, and many things are left to the reader.
+\end{abstract}
+
+In a problem with $n$ variables, these respectively mean to cycle through the $n$ variables,
+and to go through all $n!$ permutations.
+To provide an example, in a three-variable problem we might write
+\begin{align*}
+  \sum_{\text{cyc}} a^2 &= a^2+b^2+c^2 \\
+  \sum_{\text{cyc}} a^2b &= a^2b+b^2c+c^2a \\
+  \sum_{\text{sym}} a^2 &= a^2+a^2+b^2+b^2+c^2+c^2 \\
+  \sum_{\text{sym}} a^2b &= a^2b+a^2c+b^2c+b^2a+c^2a+c^2b.
+\end{align*}
+
+\section{Polynomial Inequalities}
+\subsection{AM-GM and Muirhead}
+Consider the following theorem.
+\begin{theorem}
+  [AM-GM] For nonnegative reals $a_1$, $a_2$, \dots, $a_n$ we have
+  \[ \frac{a_1 + a_2 + \dots + a_n}{n} \ge \sqrt[n]{a_1 \dots a_n}. \]
+  Equality holds if and only if $a_1 = a_2 = \dots = a_n$.
+\end{theorem}
+For example, this implies \[ a^2+b^2 \ge 2ab, \quad a^3+b^3+c^3 \ge 3abc. \]
+
+Adding such inequalities can give us some basic propositions.
+\begin{example}
+  Prove that $a^2+b^2+c^2 \ge ab+bc+ca$ and $a^4+b^4+c^4 \ge a^2bc+b^2ca+c^2ab$.
+\end{example}
+\begin{proof}
+  By AM-GM,
+  \[ \frac{a^2+b^2}{2} \ge ab \text{ and } \frac{2a^4+b^4+c^4}{4} \ge a^2bc. \]
+  Similarly,
+  \[ \frac{b^2+c^2}{2} \ge bc \text{ and } \frac{2b^4+c^4+a^4}{4} \ge b^2ca. \]
+  \[ \frac{c^2+a^2}{2} \ge ca \text{ and } \frac{2c^4+a^4+b^4}{4} \ge c^2ab. \]
+  Summing the above statements gives
+  \[ a^2+b^2+c^2 \ge ab+bc+ca \text{ and } a^4+b^4+c^4 \ge a^2bc+b^2ca+c^2ab. \qedhere \]
+\end{proof}
+\begin{exercise}
+  Prove that $a^3+b^3+c^3 \ge a^2b+b^2c+c^2a$.
+\end{exercise}
+\begin{exercise}
+  Prove that $a^5+b^5+c^5 \ge a^3bc + b^3ca + c^3ab \ge abc(ab+bc+ca)$.
+\end{exercise}
+The fundamental intuition is being able to decide which symmetric polynomials of a given degree are bigger.
+For example, for degree $3$, the polynomial $a^3+b^3+c^3$ is biggest and $abc$ is the smallest.
+Roughly, the more ``mixed'' polynomials are the smaller.
+From this, for example, one can immediately see that the inequality
+\[ (a+b+c)^3 \ge a^3+b^3+c^3+24abc \]
+must be true, since upon expanding the LHS and cancelling $a^3+b^3+c^3$,
+we find that the RHS contains only the piddling term $24abc$.
+That means a straight AM-GM will suffice.
+
+A useful formalization of this is Muirhead's Inequality.
+Suppose we have two sequences $x_1 \ge x_2 \ge \dots \ge x_n$ and $y_1 \ge y_2 \ge \dots \ge y_n$ such that
+\[ x_1 + x_2 + \dots + x_n = y_1 + y_2 + \dots + y_n, \]
+and for $k=1,2,\dots,n-1$
+\[ x_1 + x_2 + \dots + x_k \ge y_1 + y_2 + \dots + y_k, \]
+Then we say that $(x_n)$ \emph{majorizes} $(y_n)$, written $(x_n) \succ (y_n)$.
+
+Using the above, we have the following theorem.
+\begin{theorem}
+  [Muirhead's Inequality] If$a_1, a_2, \dots, a_n$ are positive reals,
+  and $(x_n)$ majorizes $(y_n)$ then we have the inequality.
+  \[ \sum_{\text{sym}} a_1^{x_1} a_2^{x_2} \dots a_n^{x_n}
+    \ge \sum_{\text{sym}} a_1^{y_1} a_2^{y_2} \dots a_n^{y_n}. \]
+\end{theorem}
+\begin{example}
+  Since $(5,0,0) \succ (3,1,1) \succ (2,2,1)$,
+  \begin{align*}
+    a^5+a^5+b^5+b^5+c^5+c^5 &\ge a^3bc+a^3bc+b^3ca+b^3ca+c^3ab+c^3ab \\
+    &\ge a^2b^2c+a^2b^2c + b^2c^2a+b^2c^2a + c^2a^2b + c^2a^2b.
+  \end{align*}
+  From this we derive $a^5+b^5+c^5 \ge a^3bc+b^3ca+c^3ab \ge abc(ab+bc+ca)$.
+\end{example}
+Notice that Muirhead is \emph{symmetric}, not \emph{cyclic}.
+For example, even though $(3,0,0) \succ (2,1,0)$, Muirhead's inequality only gives that
+\[ 2(a^3+b^3+c^3) \ge a^2b+a^2c+b^2c+b^2a+c^2a+c^2b \]
+and in particular this does \emph{not} imply that $a^3+b^3+c^3 \ge a^2b+b^2c+c^2a$.
+These situations must still be resolved by AM-GM.
+
+\subsection{Non-homogeneous inequalities}
+Consider the following example.
+\begin{example}
+  Prove that if $abc=1$ then $a^2+b^2+c^2 \ge a+b+c$.
+\end{example}
+\begin{proof}
+  AM-GM alone is hopeless here,
+  because whenever we apply AM-GM, the left and right hand sides of the inequality all have the same degree.
+  So we want to use the condition $abc=1$ to force the problem to have the same degree.
+  The trick is to notice that the given inequality can be rewritten as
+  \[ a^2+b^2+c^2 \ge a^{1/3}b^{1/3}c^{1/3} \left( a+b+c \right). \]
+  Now the inequality is homogeneous.
+  Observe that if we multiply $a$, $b$, $c$ by any real number $k > 0$,
+  all that happens is that both sides of the inequality are multiplied by $k^2$,
+  which doesn't change anything.
+  That means the condition $abc = 1$ can be ignored now.
+  Since $(2,0,0) \succ (\frac 43, \frac 13, \frac 13)$,
+  applying Muirhead's Inequality solves the problem.
+\end{proof}
+
+The importance of this problem is that it shows us how to eliminate a given condition
+by homogenizing the inequality; this is very important.
+(In fact, we will soon see that we can use this in reverse ---
+we can impose an arbitrary condition on a homogeneous inequality.)
+
+\subsection{Practice Problems}
+\begin{enumerate}
+  \ii $a^7+b^7+c^7 \ge a^4b^3+b^4c^3+c^4a^3$.
+  \ii If $a+b+c=1$, then $\frac1a + \frac 1b + \frac 1c \le 3 + 2 \cdot \frac{(a^3+b^3+c^3)}{abc}$.
+  \ii $\frac{a^3}{bc} + \frac{b^3}{ca} + \frac{c^3}{ab} \ge a+b+c$.
+  \ii If $\frac1a + \frac1b + \frac 1c =1$, then $(a+1)(b+1)(c+1) \ge 64$.
+  \ii (USA 2011) If $a^2+b^2+c^2+(a+b+c)^2 \le 4$, then
+  \[ \frac{ab+1}{(a+b)^2} + \frac{bc+1}{(b+c)^2} + \frac{ca+1}{(c+a)^2} \ge 3. \]
+  \ii If $abcd=1$, then $a^4b+b^4c+c^4d+d^4a \ge a+b+c+d$.
+\end{enumerate}
+
+\section{Inequalities in Arbitrary Functions}
+Let $f : (u,v) \to \RR$ be a function and let $a_1, a_2, \dots, a_n \in (u,v)$.
+Suppose that we fix $\frac{a_1+a_2 + \dots + a_n}{n} = a$
+(if the inequality is homogeneous, we will often insert such a condition)
+and we want to prove that
+\[ f(a_1) + f(a_2) + \dots + f(a_n) \]
+is at least (or at most) $nf(a)$.
+In this section we will provide three methods for doing so.
+
+We say that function $f$ is \emph{convex} if $f''(x) \ge 0$ for all $x$;
+we say it is \emph{concave} if $f''(x) \le 0$ for all $x$.
+Note that $f$ is convex if and only if $-f$ is concave.
+
+\subsection{Jensen / Karamata}
+\begin{theorem}
+  [Jensen's Inequality] If $f$ is convex, then
+  \[ \frac{f(a_1) + \dots + f(a_n)}{n} \ge f\left( \frac{a_1+\dots+a_n}{n} \right). \]
+  The reverse inequality holds when $f$ is concave.
+\end{theorem}
+\begin{theorem}
+  [Karamata's Inequality] If $f$ is convex, and $(x_n)$ majorizes $(y_n)$ then
+  \[ f(x_1) + \dots + f(x_n) \ge f(y_1) + \dots + f(y_n). \]
+  The reverse inequality holds when $f$ is concave.
+\end{theorem}
+\begin{example}
+  [Shortlist 2009] Given $a+b+c=\frac1a+\frac1b+\frac1c$, prove that
+  \[ \frac{1}{(2a+b+c)^2}+\frac{1}{(a+2b+c)^2}+\frac{1}{(a+b+2c)^2}\leq\frac{3}{16}. \]
+\end{example}
+\begin{proof}
+  First, we want to eliminate the condition.
+  The original problem is equivalent to
+  \[ \frac{1}{(2a+b+c)^2}+\frac{1}{(a+2b+c)^2}+\frac{1}{(a+b+2c)^2}\leq\frac{3}{16} \cdot \frac{\frac1a+\frac1b+\frac1c}{a+b+c}. \]
+  Now the inequality is homogeneous, so we can assume that $a+b+c=3$.
+  Now our original problem can be rewritten as
+  \[ \sum_{\text{cyc}} \frac{1}{16a} - \frac{1}{(a+3)^2} \ge 0. \]
+  Set $f(x) = \frac{1}{16x} - \frac{1}{(x+3)^2}$. We can check that $f$ over $(0,3)$ is convex so Jensen completes the problem.
+\end{proof}
+\begin{example}
+  Prove that \[ \frac{1}{a}+\frac{1}{b}+\frac{1}{c} \geq
+    2\left(\frac{1}{a+b}+\frac{1}{b+c}+\frac{1}{c+a}\right)
+    \geq\frac{9}{a+b+c}. \]
+\end{example}
+\begin{proof}
+  The problem is equivalent to
+  \[ \frac{1}{a} + \frac{1}{b} + \frac{1}{c}
+    \ge \frac{1}{\frac{a+b}{2}} + \frac{1}{\frac{b+c}{2}} + \frac{1}{\frac{c+a}{2}}
+  ge \frac{1}{\frac{a+b+c}{3}} + \frac{1}{\frac{a+b+c}{3}} + \frac{1}{\frac{a+b+c}{3}}. \]
+  Assume WLOG that $a \ge b \ge c$. Let $f(x) = 1/x$. Since
+  \[ (a,b,c) \succ \left( \frac{a+b}{2}, \frac{a+c}{2}, \frac{b+c}{2} \right) \succ \left( \frac{a+b+c}{3}, \frac{a+b+c}{3}, \frac{a+b+c}{3} \right) \]
+  the conclusion follows by Karamata.
+\end{proof}
+\begin{example}
+  [APMO 1996] If $a$, $b$, $c$ are the three sides of a triangle,
+  prove that \[ \sqrt{a+b-c}+\sqrt{b+c-a}+\sqrt{c+a-b}\leq\sqrt{a}+\sqrt{b}+\sqrt{c}. \]
+\end{example}
+\begin{proof}
+  Again assume WLOG that $a \ge b \ge c$ and notice that $(a+b-c,c+a-b,b+c-a) \succ (a,b,c)$. Apply Karamata on $f(x) = \sqrt x$.
+\end{proof}
+
+\subsection{Tangent Line Trick}
+Again fix $a = \frac{a_1 + \dots + a_n}{n}$.
+If $f$ is not convex, we can sometimes still prove the inequality
+\[ f(x) \ge f(a) + f'(a) \left( x-a \right). \]
+If this inequality manages to hold for all $x$,
+then simply summing the inequality will give us the desired conclusion.
+This method is called the \emph{tangent line trick}.
+
+\begin{example}
+  [David Stoner] If $a+b+c=3$, prove that \[ 18\sum_{\text{cyc}}\frac{1}{(3-c)(4-c)}+2(ab+bc+ca)\ge 15. \]
+\end{example}
+\begin{proof}
+  We can rewrite the given inequality as
+  \[ \sum_{\text{cyc}} \left( \frac{18}{(3-c)(4-c)} - c^2 \right) \ge 6. \]
+  Using the tangent line trick lets us obtain the magical inequality
+  \[ \frac{18}{(3-c)(4-c)} -c^2 \ge \frac{c+3}{2}\iff c(c-1)^2(2c-9)\le 0 \]
+  and the conclusion follows by summing.
+\end{proof}
+\begin{example}
+  [Japan] Prove $\sum_{\text{cyc}} \frac{(b+c-a)^2}{a^2+(b+c)^2} \ge \frac 35$.
+\end{example}
+\begin{proof}
+  Since the inequality is homogeneous, we may assume WLOG that $a+b+c=3$.
+  So the inequality we wish to prove is
+  \[ \sum_{\text{cyc}} \frac{(3-2a)^2}{a^2+(3-a)^2} \ge \frac 35. \]
+  With some computation, the tangent line trick gives away the magical inequality:
+  \[
+    \frac{(3-2a)^{2}}{(3-a)^{2}+a^{2}}\ge\frac{1}{5} - \frac{18}{25}(a-1)
+    \iff
+    \frac{18}{25}(a-1)^{2}\frac{2a+1}{2a^{2}-6a+9}
+    \ge 0. \qedhere \]
+\end{proof}
+
+\subsection{$n-1$ EV}
+The last such technique is $n-1$ EV.
+This is a brute force method involving much calculus, but it is nonetheless a useful weapon.
+\begin{theorem}
+  [$n-1$ EV] Let $a_1$, $a_2$, \dots, $a_n$ be real numbers, and suppose $a_1 + a_2 + \dots + a_n$ is fixed.
+  Let $f : \RR \to \RR$ be a function with exactly one inflection point.
+  If
+  \[ f(a_1) + f(a_2) + \dots + f(a_n) \]
+  achieves a maximal or minimal value, then $n-1$ of the $a_i$ are equal to each other.
+\end{theorem}
+\begin{proof}
+  See page 15 of \emph{Olympiad Inequalities}, by Thomas Mildorf.
+  The main idea is to use Karamata to ``push'' the $a_i$ together.
+\end{proof}
+
+\begin{example}
+  [IMO 2001 / APMOC 2014] Let $a$, $b$, $c$ be positive reals.
+  Prove
+  $ 1 \le \sum_{\text{cyc}} \frac{a}{\sqrt{a^2+8bc}} < 2 $.
+\end{example}
+\begin{proof}
+  Set $e^x = \frac{bc}{a^2}$, $e^y = \frac{ca}{b^2}$, $e^z = \frac{ab}{c^2}$. We have the condition $x+y+z=0$ and want to prove
+  \[ 1 \le f(x) + f(y) + f(z) < 2 \]
+  where $f(x) = \frac{1}{\sqrt{1+8e^x}}$. You can compute
+  \[ f''(x) = \frac{4e^x \left( 4e^x-1 \right)}{(8e^x+1)^{\frac52}} \]
+  so by $n-1$ EV, we only need to consider the case $x=y$.
+  Let $t=e^x$; that means we want to show that
+  \[ 1 \le \frac{2}{\sqrt{1+8t}} + \frac{1}{\sqrt{1+8/t^2}} < 2. \]
+  Since this a function of one variable, we can just use standard Calculus BC methods.
+\end{proof}
+
+\begin{example}
+  [Vietnam 1998] Let $x_1$, $x_2$, \dots, $x_n$ be positive reals satisfying $\sum_{i=1}^n \frac{1}{1998+x_i} = \frac{1}{1998}$. Prove
+  \[ \frac{\sqrt[n]{x_1x_2 \dots x_n}}{n-1} \ge 1998. \]
+\end{example}
+\begin{proof}
+  Let $y_i = \frac{1998}{1998+x_i}$. Since $y_1 + y_2 + \dots + y_n = 1$, the problem becomes
+  \[ \prod_{i=1}^n \left( \frac{1}{y_i} - 1 \right) \ge \left( n-1 \right)^n. \]
+  Set $f(x) = \ln \left( \frac 1x-1 \right)$, so the inequality becomes $f(y_1) + \dots + f(y_n) \ge n f\left( \frac 1n \right)$.
+  We can prove that
+  \[ f''(y) = \frac{1-2y}{(y^2-y)^2}. \]
+  So $f$ has one inflection point, we can assume WLOG that $y_1 = y_2 = \dots y_{n-1}$. Let this common value be $t$; we only need to prove
+  \[ (n-1) \ln \left( \frac{1}{t}-1 \right) + \ln \left( \frac{1}{1-(n-1)t}-1 \right) \ge n \ln (n-1). \]
+  Again, since this is a one-variable inequality,
+  calculus methods suffice.
+\end{proof}
+
+\subsection{Practice Problems}
+\begin{enumerate}
+  \ii Use Jensen to prove AM-GM.
+  \ii If $a^2+b^2+c^2=1$ then $\frac{1}{a^2+2}+\frac{1}{b^2+2}+\frac{1}{c^2+2}\le\frac{1}{6ab+c^2}+\frac{1}{6bc+a^2}+\frac{1}{6ca+b^2}$.
+  \ii If $a+b+c=3$ then \[ \sum_{\text{cyc}} \frac{a}{2a^2+a+1} \le \frac 34. \]
+  \ii (MOP 2012) If $a+b+c+d = 4$, then $\frac{1}{a^2}+\frac{1}{b^2}+\frac{1}{c^2}+\frac{1}{d^2}\ge a^2+b^2+c^2+d^2$.
+\end{enumerate}
+
+\section{Eliminating Radicals and Fractions}
+\subsection{Weighted Power Mean}
+AM-GM has the following natural generalization.
+\begin{theorem}
+  [Weighted Power Mean] Let $a_1, a_2, \dots, a_n$ and $w_1$, $w_2$, \dots, $w_n$  be positive reals with $w_1+w_2+\dots+w_n=1$.
+  For any real number $r$, we define
+  \[ \mathcal P(r) =
+    \begin{cases}
+      \left( w_1 a_1^r + w_2 a_2^r + \dots + w_n a_n^r \right)^{1/r} & r \neq 0 \\[1em]
+      a_1^{w_1} a_2^{w_2} \dots a_n^{w_n} & r = 0.
+    \end{cases}
+  \]
+  If $r>s$, then $\mathcal P(r) \ge \mathcal P(s)$ equality occurs if and only if $a_1 = a_2 = \dots = a_n$.
+\end{theorem}
+In particular, if $w_1 = w_2 = \dots = w_n = \frac 1n$, the above $\mathcal P(r)$ is just
+  \[ \mathcal P(r) =
+    \begin{cases}
+      \left( \displaystyle\frac{a_1^r + a_2^r + \dots + a_n^r}{n} \right)^{1/r} & r \neq 0 \\[1.5em]
+      \sqrt[n]{a_1a_2 \dots a_n} & r = 0.
+    \end{cases}
+  \]
+By setting $r=2,1,0,-1$ we derive
+\[ \sqrt{\frac{a_1^2+\dots+a_n^2}{n}}
+  \ge \frac{a_1+\dots+a_n}{n}
+  \ge \sqrt[n]{a_1a_2 \dots a_n}
+  \ge \frac{n}{\frac{1}{a_1} + \dots + \frac{1}{a_n}} \]
+which is QM-AM-GM-HM. Moreover, AM-GM lets us ``add'' roots, like
+\[ \sqrt a + \sqrt b + \sqrt c \le 3\sqrt{\frac{a+b+c}{3}}. \]
+
+\begin{example}
+  [Taiwan TST Quiz] Prove $3(a+b+c) \ge 8\sqrt[3]{abc} + \sqrt[3]{\frac{a^3+b^3+c^3}{3}}$.
+\end{example}
+\begin{proof}
+  By Power Mean with $r=1$, $s=\frac 13$, $w_1 = \frac 19$, $w_2 = \frac 89$, we find that
+  \[ \left( \frac 19 \sqrt[3]{\frac{a^3+b^3+c^3}{3}} + \frac 89 \sqrt[3]{abc} \right)^3
+  \le \frac19 \left( \frac{a^3+b^3+c^3}{3} \right) + \frac 89 \left( abc \right). \]
+  so we want to prove $a^3+b^3+c^3+24abc \le (a+b+c)^3$, which is clear.
+\end{proof}
+
+\subsection{Cauchy and H\"older}
+\begin{theorem}[H\"older's Inequality]
+  Let $\lambda_a$, $\lambda_b$, \dots, $\lambda_z$ be positive reals with $\lambda_a + \lambda_b + \dots + \lambda_z = 1$.
+  Let $a_1$, $a_2$, \dots, $a_n$, $b_1$, $b_2$, \dots, $b_n$, \dots, $z_1$, $z_2$, \dots, $z_n$ be positive reals.
+  Then
+  \[ \left( a_1+\dots+a_n \right)^{\lambda_a}
+    \left( b_1+\dots+b_n \right)^{\lambda_b}
+    \dots
+    \left( z_1+\dots+z_n \right)^{\lambda_z}
+    \ge \sum_{i=1}^n a_i^{\lambda_a} b_i^{\lambda_b} \dots z_i^{\lambda_z}. \]
+  Equality holds if $a_1 : a_2 : \dots : a_n \equiv b_1 : b_2 : \dots : b_n \equiv \dots \equiv z_1 : z_2 : \dots : z_n$.
+\end{theorem}
+\begin{proof}
+  WLOG $a_1+\dots+a_n = b_1+\dots+b_n = \dots = 1$
+  (note that the degree of the $a_i$ on either side is $\lambda_a$).
+  In that case, the LHS of the inequality is $1$, and we just note
+  \[ \sum_{i=1}^n a_i^{\lambda_a} b_i^{\lambda_b} \dots z_i^{\lambda_z}
+    \le \sum_{i=1}^n \left( \lambda_a a_i + \lambda_b b_i + \dots \right)
+    = 1. \qedhere \]
+\end{proof}
+If we set $\lambda_a = \lambda_b = \half$, we derive what is called the Cauchy-Schwarz inequality.
+\[ \left( a_1+a_2+\dots+a_n \right)\left( b_1+b_2+\dots+b_n \right)
+  \ge \left( \sqrt{a_1 b_1} + \sqrt{a_2 b_2} + \dots + \sqrt{a_n b_n} \right)^2. \]
+Cauchy can be rewritten as
+\[ \frac{x_1^2}{y_1} + \frac{x_2^2}{y_2} + \dots + \frac{x_n^2}{y_n}
+  \ge \frac{\left( x_1+x_2+\dots+x_n \right)^2}{y_1+\dots+y_n}. \]
+This form it is often called Titu's Lemma in the United States.
+
+Cauchy and H\"older have at least two uses:
+\begin{enumerate}
+  \ii eliminating radicals,
+  \ii eliminating fractions.
+\end{enumerate}
+
+Let us look at some examples.
+\begin{example}
+  [IMO 2001] Prove \[ \sum_{\text{cyc}} \frac{a}{\sqrt{a^2+8bc}} \ge 1. \]
+\end{example}
+\begin{proof}
+  By Holder
+  \[
+    \left( \sum_{\text{cyc}} a(a^2+8bc) \right)^{\frac13}
+    \left( \sum_{\text{cyc}} \frac{a}{\sqrt{a^2+8bc}} \right)^{\frac 23}
+    \ge \left( a+b+c \right)
+  \]
+  So it suffices to prove $(a+b+c)^3 \ge \sum_{\text{cyc}} a(a^2+8bc) = a^3+b^3+c^3+24abc$. Does this look familiar?
+\end{proof}
+
+
+\begin{example}
+  [Balkan] Prove $\frac{1}{a(b+c)} + \frac{1}{b(c+a)} + \frac{1}{c(a+b)} \ge \frac{27}{2(a+b+c)^2}$.
+\end{example}
+\begin{proof}
+  Again by Holder,
+  \[
+    \left( \sum_{\text{cyc}} a \right)^{\frac 13}
+    \left( \sum_{\text{cyc}} b+c \right)^{\frac 13}
+    \left( \sum_{\text{cyc}} \frac{1}{a(b+c)} \right)^{\frac13}
+    \ge 1+1+1
+    = 3. \qedhere \]
+\end{proof}
+
+\begin{example}
+  [JMO 2012] Prove $\sum_{\text{cyc}} \frac{a^3+5b^3}{3a+b} \ge \frac 32 \left( a^2+b^2+c^2 \right)$.
+\end{example}
+\begin{proof}
+  We use Cauchy (Titu) to obtain
+  \[ \sum_{\text{cyc}} \frac{a^3}{3a+b}  = \sum_{\text{cyc}} \frac{(a^2)^2}{3a^2+ab} \ge \frac{(a^2+b^2+c^2)^2}{\sum_{\text{cyc}} 3a^2+ab}. \]
+  We can easily prove this is at least $\frac14 (a^2+b^2+c^2)$
+  (recall $a^2+b^2+c^2$ is the ``biggest'' sum,
+  so we knew in advance this method would work).
+  Similarly $\sum_{\text{cyc}} \frac{5b^3}{3a+b} \ge \frac 54 (a^2+b^2+c^2)$.
+\end{proof}
+
+\begin{example}
+  [USA TST 2010] If $abc=1$, prove $ \frac{1}{a^5(b+2c)^2}+\frac{1}{b^5(c+2a)^2}+\frac{1}{c^5(a+2b)^2}\ge\frac{1}{3} $.
+\end{example}
+\begin{proof}
+  We can use H\"older to eliminate the square roots in the denominator:
+  \[ \left(\sum_{\text{cyc}}ab+2 ac\right)^2\left(\sum_{\text{cyc}}\frac{1}{a^5(b+2c)^2}\right)\ge\left(\sum_{\text{cyc}}\frac{1}{a}\right)^3\ge 3(ab+bc+ca)^2. \qedhere \]
+\end{proof}
+
+
+\subsection{Practice Problems}
+\begin{enumerate}
+  \ii If $a+b+c=1$, then$\sqrt{ab+c}+\sqrt{bc+a}+\sqrt{ca+b} \ge 1+\sqrt{ab}+\sqrt{bc}+\sqrt{ca}$.
+  \ii If $a^2+b^2+c^2=12$, then $a\cdot\sqrt[3]{b^2+c^2}+b\cdot\sqrt[3]{c^2+a^2}+c\cdot\sqrt[3]{a^2+b^2}\leq 12$.
+  \ii (ISL 2004) If $ab+bc+ca=1$, prove $ \sqrt[3]{\frac{1}{a}+6b}+\sqrt[3]{\frac{1}{b}+6c}+\sqrt[3]{\frac{1}{c}+6a }\leq\frac{1}{abc}$.
+  \ii (MOP 2011) $\sqrt{a^2-ab+b^2}+\sqrt{b^2-bc+c^2} + \sqrt{c^2-ca+a^2} + 9\sqrt[3]{abc} \le 4(a+b+c)$.
+  \ii (Evan Chen) If $a^3+b^3+c^3+abc=4$, prove
+  \[ \frac{(5a^2+bc)^2}{(a+b)(a+c)}+\frac{(5b^2+ca)^2}{(b+c)(b+a)}+\frac{(5c^2+ab)^2}{(c+a)(c+b)}\ge\frac{(10-abc)^2}{a+b+c}. \]
+  When does equality hold?
+\end{enumerate}
+
+\section{Problems}
+\begin{enumerate}
+  \ii (MOP 2013) If $a+b+c=3$, then \[ \sqrt{a^2+ab+b^2}+\sqrt{b^2+bc+c^2}+\sqrt{c^2+ca+a^2} \ge \sqrt 3. \]
+  \ii (IMO 1995) If $abc=1$, then $\frac{1}{a^3(b+c)}+\frac{1}{b^3(c+a)}+\frac{1}{c^3(a+b)}\ge\frac{3}{2}$.
+  \ii (USA 2003) Prove $\sum_{\text{cyc}} \frac{(2a+b+c)^2}{2a^2+(b+c)^2} \le 8$.
+  \ii (Romania) Let $x_1$, $x_2$, \dots, $x_n$ be positive reals with $x_1x_2 \dots x_n=1$. Prove that $\sum_{i=1}^n \frac{1}{n-1+x_i} \le 1$.
+  \ii (USA 2004) Let $a$, $b$, $c$ be positive reals. Prove that
+  \[ \left( a^5-a^2+3 \right)\left( b^5-b^2+3 \right)\left( c^5-c^2+3 \right) \ge \left( a+b+c \right)^3. \]
+  \ii (Evan Chen) Let $a$, $b$, $c$ be positive reals satisfying $a+b+c = \sqrt[7]{a} + \sqrt[7]{b} + \sqrt[7]{c}$. Prove $a^a b^b c^c \ge 1$.
+\end{enumerate}
+
+\end{document}
