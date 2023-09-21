@@ -68,6 +68,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 - <b>Introduction to Functional Equations</b> {{ handout_link_src("FuncEq-Intro") }}
   An introduction to functional equations for olympiad students.
+  An updated version appears as Chapter 3 of [OTIS Excerpts][excerpts].
 
 - <b>Lagrange Multipliers Done Correctly</b> {{ handout_link_src("LM") }}
   This is a description of the conditions necessary to
@@ -75,11 +76,13 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 - <b>Monsters</b> {{ handout_link_src("Monsters") }}
   A handout discussing pathological functional equations.
+  An updated version appears as Chapter 4 of [OTIS Excerpts][excerpts].
 
 - <b>Olympiad Inequalities</b> {{ handout_link_src("Ineq", "en") }}
   English translation of my original notes in Chinese.
   Describes some "standard strategies" for handling olympiad inequalities. <br>
   Original Chinese version: {{ handout_link_src("Ineq") }}
+  An updated version appears as Chapter 3 of [OTIS Excerpts][excerpts].
 
 - <b>SOS: A Dumbass's Perspective</b> {{ handout_link_src("SOS-Dumbass") }}
   Describes the SOS method for solving inequalities.
@@ -145,6 +148,7 @@ of [my textbook][geombook].
   Article on orders and primitive roots,
   in particular featuring the sum of squares lemma and its generalization
   to arbitrary cyclotomic polynomials.
+  An updated version appears as Chapter 13 of [OTIS Excerpts][excerpts].
 
 - <b>The Chinese Remainder Theorem</b> {{ handout_link_src("CRT") }}
   An article on the Chinese Remainder "Theorem".
@@ -181,3 +185,4 @@ of [my textbook][geombook].
 [egmo2]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
 [egmo8]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
 [geombook]: geombook.html
+[excerpts]: /excerpts.html
