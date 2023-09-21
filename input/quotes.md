@@ -58,6 +58,7 @@ Alphabetical, does not include song lyrics.
   The future is something that emerges as we build it,
   even as we are thrown into it.
   ([Chris Peterson](https://mitadmissions.org/blogs/entry/choosing-to-become-yourself/))
+- School is for underachievers.
 - Talk is cheap. Show me the code.
   ([Linus Torvalds](http://lkml.org/lkml/2000/8/25/132))
 - To me, it feels very empowering to say "I _can_ improve, but I _don't want to_."
