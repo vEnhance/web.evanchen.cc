@@ -27,8 +27,6 @@ def handout_link_src(name: str, filename=None) -> str:
     return (
         f'<a href="handouts/{name}/{filename}.pdf">(pdf)</a>'
         " "
-        f'<a href="handouts/{name}/{filename}.tex">(tex)</a>'
-        " "
         f'<a href="{GITHUB_BASE}/tree/main/handouts/{name}">(git)</a>'
         "<br>"
     )
