@@ -1,0 +1,733 @@
+\documentclass[twocolumn]{scrartcl}
+\usepackage[sexy]{evan}
+\renewcommand\ii[2][]{\item[#1] \textsl{\pinyin{#2}}}
+
+% Definitions of Pinyin
+\makeatletter
+\def\py@yunpriv#1{%
+  \if a#1 10\else
+  \if o#1 9\else
+  \if e#1 8\else
+  \if i#1 7\else
+  \if u#1 6\else
+  \if v#1 5\else
+  \if A#1 4\else
+  \if O#1 3\else
+  \if E#1 2\fi\fi\fi\fi\fi\fi\fi\fi\fi0
+}
+\def\py@init{%
+  \edef\py@befirst{}%
+  \edef\py@char{}\edef\py@tuneletter{}%
+  \def\py@last{}%
+  \def\py@tune{5}%
+}
+% Usage:
+% \pinyin{Hao3hao3\ xue2xi2} （好好学习）
+\def\pinyin#1{%
+  \edef\py@postscan{#1}%
+  \py@init
+  % scan
+  \loop
+  \edef\py@char{\expandafter\@car\py@postscan\@nil}%
+  \edef\py@postscan{\expandafter\@cdr\py@postscan\@nil}%
+  \ifnum 0 < 0\py@char
+    \edef\py@tune{\py@char}%
+    \py@first \py@tuneat\py@tuneletter\py@tune \py@last\kern -4sp\kern 4sp{}\py@init
+  \else
+    \ifnum\py@yunpriv\py@char > \py@yunpriv\py@tuneletter
+      \edef\py@tuneletter{\py@char}\edef\py@first{\py@befirst}\def\py@last{}%
+    \else
+      \edef\py@last{\py@last\if v\py@char\"u\else\py@char\fi}%
+    \fi
+    \edef\py@befirst{\py@befirst\if v\py@char\"u\else\py@char\fi}%
+  \fi
+  \ifx\py@postscan\@empty\else
+  \repeat
+}
+\let\py@macron \= %chktex 14
+\let\py@acute \'  %chktex 14
+\let\py@hacek \v  %chktex 14
+\let\py@grave \`  %chktex 14
+
+%% \py@tuneat{Letter}{tune}
+\def\py@tuneat#1#2{%
+  \if v#1%
+    \py@tune@v #2%
+  \else
+  \if i#1%
+    \py@tune@i #2%
+  \else
+    \ifcase#2%
+      \or\py@macron #1\or\py@acute #1\or\py@hacek #1\or\py@grave #1\else #1%
+    \fi
+  \fi\fi
+}
+\def\py@tune@v#1{{%
+    \dimen@ii 1ex%
+    \fontdimen5\font 1.1ex%
+    \rlap{\"u}%
+    \fontdimen5\font .6ex%
+    \ifcase#1%
+      \or\py@macron u\or\py@acute u\or\py@hacek u\or\py@grave u\else u%
+    \fi
+    \fontdimen5\font\dimen@ii
+  }}
+\def\py@tune@i#1{%
+  \ifcase#1
+    \or\py@macron \i\or\py@acute \i\or\py@hacek \i\or\py@grave \i\else i%
+  \fi
+}
+\makeatletter
+% End of pinyin
+
+\begin{document}
+\title{Chinese Terminology Sheet}
+\date{30 October 2022}
+
+\twocolumn[
+  \begin{@twocolumnfalse}
+  \maketitle
+  \begin{abstract}
+  Chinese terminology sheet initially compiled as part of preparation
+  for the Taiwan IMO 2014 camps, but later expanded.
+  There are likely many typos.
+  Please email any corrections to \texttt{evan@evanchen.cc}.
+  \end{abstract}
+  \vspace*{1ex}
+  \end{@twocolumnfalse}
+]
+
+
+\section{General Math}
+\begin{description}
+  \ii[值]{zhi2} value
+  \ii[取]{qu3} select
+  \ii[由]{you2} from
+  \ii[此]{ci3} this
+  \ii[令]{ling4} let
+  \ii[已知]{yi3zhi1} known
+  \ii[考慮]{kao3lv4} consider
+  \ii[分別]{fen1bie2} respectively
+  \ii[是否]{shi4fou3} whether
+  \ii[確定]{que4ding4} determine
+  \ii[判斷]{pan4duan4} determine
+  \ii[達]{da2} achieve
+  \ii[從未]{cong2wei2} never
+  \ii[定義]{ding4yi4} define
+  \ii[欲]{yu4} we wish to
+  \ii[今]{jin1} now
+  \ii[某]{mou3} some, certain
+  \ii[若干]{ruo4gan1} some
+  \ii[的數量]{de5shu4liang4} the number of \dots
+  \ii[的個數]{de5ge4shu4} the number of \dots
+  \ii[按上述]{an4shang4shu4} from above
+  \ii[末]{mo4} last
+  \ii[性質]{xing4zhi4} property
+  \ii[端]{duan1} end
+\end{description}
+
+\subsection{Logical Conjunctions}
+\begin{description}
+  \ii[若]{ruo4} if
+  \ii[則]{ze2} then
+  \ii[故]{gu4} therefore
+  \ii[因此]{yin1ci3} therefore
+  \ii[即]{ji2} i.e.
+  \ii[且]{qie3} and
+  \ii[及]{ji2} and
+  \ii[亦]{yi4} also
+  \ii[根據]{gen1ju4} according to
+  \ii[使得]{shi3de2} such that
+  \ii[具有]{ju4you3} posses (a property)
+  \ii[滿足]{man3zu2} satisfy
+  \ii[符合]{fu2he2} satisfy
+  \ii[此處]{ci3chu4} here
+  \ii[其中]{qi2zhong1} \dots where \dots
+  \ii[與]{yu3} with
+\end{description}
+
+\subsection{More Logic}
+\begin{description}
+  \ii[任意]{ren4yi4} any
+  \ii[皆]{jie1} all
+  \ii[均]{jun1} all
+  \ii[對於任何]{dui4yu2ren4he2} \dots for any
+  \ii[對所有的]{dui4suo2you3de5} \dots for all
+  \ii[某些]{mou3xie1} some, certain
+  \ii[存在]{cun2zai4} exists
+  \ii[恰]{qia4} exactly
+  \ii[唯一]{wei2yi1} unique
+  \ii[必]{bi4} must
+\end{description}
+
+\subsection{Technical Terms}
+\begin{description}
+  \ii[嚴格]{yan2ge2} strictly
+  \ii[相異]{xiang1yi4} distinct
+  \ii[兩兩相異]{liang3liang3xiang1yi4} pairwise distinct
+  \ii[有限]{you3xian4} finite / bounded
+  \ii[無窮多]{wu2qiong2duo1} infinitely many
+  \ii[當且僅當]{dang1qie3jin3dang1} if and only if
+  \ii[若且唯若]{ruo4qie3wei2ruo4} if and only if
+  %\ii[充分必要條件]{chong1fen4bi4yao4tiao2jian4} necessary and sufficient condition
+  \ii[充要條件]{chong1yao4tiao2jian4} necessary and sufficient condition
+  \ii[類似地]{lei4si4de5} similarly
+  \ii[互]{hu4} mutual
+  \ii[彼]{bi3} that, those, one another
+  \ii[固定]{gu4ding4} fixed
+
+  \ii[等價於]{deng3jia4yu2} is equivalent to
+  \ii[方程]{fang1cheng2} equation
+  \ii[公式]{gong1shi4} formula
+  \ii[陳述]{chen2shu4} state
+  \ii[變量]{bian4liang4} variable
+  \ii[循環]{xun2huan2} cyclic
+  \ii[歸法]{gui1fa3} induction (數學歸納法)
+  \ii[廣義]{guang3yi4} generalized
+  \ii[術語]{shu4yu3} terms
+
+  \ii[階]{jie1} order
+  \ii[秩]{zhi4} rank
+  \ii[度]{du4} degree
+  \ii[正規]{zheng4gui1} normal
+  \ii[正交]{zheng4jiao1} orthogonal
+\end{description}
+
+\subsection{Solutions}
+\begin{description}
+  \ii[不妨假設]{bu4fang2jia3she4} without loss of generality
+  \ii[解]{jie3} derive, solution
+  \ii[構造]{gou4zao4} construct
+  \ii[反證]{fan3zheng4} proceed by contradiction
+  \ii[假設]{jia3she4} assume
+  \ii[矛盾]{mao2dun4} contradiction
+  \ii[只需證明]{zhi3xu1zheng4ming2} suffices to prove
+  \ii[注意]{zhu4yi4} note that
+  \ii[定理]{ding4li3} theorem
+  \ii[引理]{yin3li3} lemma
+  \ii[命題]{ming4ti2} proposition
+  \ii[推論]{tui1lun4} corollary
+  \ii[證明]{zheng4ming2} proof
+  \ii[註]{zhu4} note / remark (as a heading)
+  \ii[情況]{qing2kuang4} case
+  \ii[特別地]{te4bie2de5} in particular
+  \ii[述]{shu4} statement (often 上述).
+  \ii[同理]{tong2li3} similarly
+  \ii[顯然]{xian3ran2} obviously
+  \ii[得證]{de2zheng4} QED
+\end{description}
+
+
+\subsection{Numbers}
+\begin{description}
+  \ii[符號]{fu2hao4} sign
+  \ii[最大值]{zui4da4zhi2} maximum
+  \ii[最小值]{zui4xiao3zhi2} minimum
+  \ii[數值]{shu4zhi2} number, value
+  \ii[總和]{zong3he2} sum
+  \ii[乘積]{cheng2ji1} product
+  \ii[數線]{shu4xian4} number line
+  \ii[有序對]{you3xu4dui4} ordered pair
+  \ii[有序三元]{you3xu4san1yuan2} ordered triple
+\end{description}
+
+\subsection{Olympiads}
+\begin{description}
+  \ii[奧林匹克]{ao4lin2pi3ke4} olympiad
+  \ii[國際]{guo2ji4} international
+  \ii[炸]{zha4} bash
+  \ii[國手]{guo2shou3} national champion; often IMO team member
+  \ii[候補]{hou4bu3} alternate
+  \ii[隊選拔考試]{dui4xuan3ba2kao3shi4} Team Selection Test
+  \ii[金牌]{jin1pai2} gold medal
+  \ii[銀牌]{yin2pai2} silver medal
+  \ii[銅牌]{tong2pai2} bronze medal
+  \ii[榮譽獎]{rong2yu4jiang3} honorable mention
+\end{description}
+
+
+\section{Algebra}
+\begin{description}
+  \ii[代數學]{dai4shu4xue2} Algebra
+  \ii[實數]{shi2shu4} real number ($\mathbb R$)
+  \ii[複數]{fu4shu4} complex number
+  \ii[虛數]{xu1shu4} imaginary part
+  \ii[絕對值]{jue2dui4zhi2} absolute value
+  \ii[比值]{bi3zhi2} ratio
+  \ii[共軛]{gong4'e4} conjugate (complex 複共軛)
+  \ii[常數]{chang2shu4} constant
+  \ii[線性]{xian4xing4} linear
+  \ii[冪]{mi4} power
+  \ii[區間]{qu1jian1} interval
+  \ii[開]{kai1} open
+  \ii[閉]{bi4} closed
+  \ii[單位]{dan1wei4} unit
+  \ii[三角函數]{san1jiao3han2shu4} trig function
+  \ii[正弦]{zheng4xian2} sine
+  \ii[餘弦]{yu2xian2} cosine
+  \ii[微分]{wei1fen1} differentiate
+  \ii[積分]{ji1fen1} integrate
+\end{description}
+
+\subsection{Algebraic Structures}
+\begin{description}
+  \ii[群]{qun2} group (algebraic structure)
+  \ii[環]{huan2} ring
+  \ii[域]{yu4} field
+  \ii[運算]{yun4suan4} operations
+  \ii[交換律]{jiao1huan4lv4} commutative property
+  \ii[分配律]{fen1pei4lv4} distributive property
+  \ii[傳遞律]{chuan2di4lv4} transitive property
+\end{description}
+\subsection{Inequalities}
+\begin{description}
+  \ii[不等式]{bu4deng3shi4} inequality
+  \ii[界]{jie4} bound
+  \ii[等號成立]{deng3hao4cheng2li4} with equality
+  \ii[等號]{deng3hao4} equals sign
+  \ii[等式]{deng3shi4} equality
+  \ii[均值不等式]{jun1zhi2bu4deng3shi4} AM-GM Inequality
+  \ii[排列不等式]{pai2lie4bu4deng3shi4} Rearrangement Inequality
+
+  \ii[蓋]{gai4} cover / majorize
+\end{description}
+
+\subsection{Functions}
+\begin{description}
+  \ii[函數]{han2shu4} function
+  \ii[映到]{ying4dao4} project to
+  \ii[單射]{dan1she4} injective
+  \ii[滿射]{man3she4} surjective
+  \ii[一對一]{yi1dui4yi1} one-to-one
+  \ii[映成]{ying4cheng2} onto
+  \ii[雙射]{shuang1she4} bijection
+  \ii[遞增]{di4zeng1} increasing
+  \ii[遞減]{di4jian3} decreasing
+  \ii[拐點]{guai3dian3} inflection point
+\end{description}
+
+\subsection{Polynomials}
+\begin{description}
+  \ii[多項式]{duo1xiang4shi4} polynomial
+  \ii[係數]{xi4shu4} coefficients
+  \ii[首項係數]{shou3xiang4xi4shu4} leading coefficient
+  \ii[次數]{ci4shu4} degree
+  \ii[齊次]{qi2ci4} homogeneous
+  \ii[零點]{ling2dian3} root of polynomial
+  \ii[根]{gen1} root of polynomial
+  \ii[二項式]{er4xiang4shi4} binomial
+\end{description}
+
+\subsection{Sequences}
+\begin{description}
+  \ii[數列]{shu4lie4} sequence
+  \ii[遞迴]{di4gui1} recursive
+  \ii[係式]{xi4shi4} relation
+  \ii[週期]{zhou1qi1} periodic
+  \ii[算數平均數值]{suan4shu4ping2jun1shu4zhi2} arithmetic mean
+  \ii[幾何平均數值]{ji3he2ping2jun1shu4zhi2} geometric mean
+  \ii[等差數列]{deng3cha1ji2shu4} arithmetic seq
+  \ii[等比數列]{deng3bi3ji2shu4} geometric seq
+\end{description}
+
+\subsection{Linear Algebra}
+\begin{description}
+  \ii[線性代數]{xian4xing1dai4shu4} linear algebra
+  \ii[基]{ji1} basis
+  \ii[基向量]{ji1xiang1liang4} basis vector
+  \ii[向量空間]{xiang1liang4kong1jian} vector space
+\end{description}
+
+\section{Combinatorics}
+\begin{description}
+  \ii[組合數學]{zu3he2shu4xue2} Combinatorics
+  \ii[鄰]{lin2} adjacent
+  \ii[組]{zu3} group
+  \ii[對]{dui4} pair
+  \ii[將]{jiang1} now
+  \ii[狀態]{zhuang4tai4} state, status
+  \ii[調整]{tiao2zheng3} adjust
+  \ii[置換]{zhi4huan4} permutation
+  \ii[令牌]{ling4pai2} token
+  \ii[籌碼]{chou2ma3} counter
+  \ii[彈珠]{dan1zhu1} marble (toy)
+  \ii[初]{chu1} initially
+  \ii[逆時針]{ni4shi2zhen1} counterclockwise
+  \ii[順時針]{shun4shi2zhen1} counterclockwise
+\end{description}
+\subsection{Probability}
+\begin{description}
+  \ii[事件]{shi4jian4} event
+  \ii[獨立]{du2li4} independent
+  \ii[機率]{ji1lv4} probability
+  \ii[機率方法]{ji1lv4fang1fa3} probabilistic method
+  \ii[期望值]{qi1wang4zhi2} expected value
+  \ii[銅板]{tong2ban3} token
+  \ii[硬币]{ying4bi4} coin
+  \ii[骰子]{tou2zi5} dice
+  \ii[公平]{gong1ping2} fair
+  \ii[隨機]{sui2ji1} random
+\end{description}
+\subsection{Sets}
+\begin{description}
+  \ii[集合]{ji2he2} set
+  \ii[子集]{zi3ji2} subset
+  \ii[真子集]{zhen1zi3ji2} proper subset
+  \ii[族]{zu2} family (of sets)
+  \ii[聯集]{lian2ji2} union (of sets)
+  \ii[并集]{bing4ji2} union (of sets)
+  \ii[交集]{jiao1ji2} intersection (of sets)
+  \ii[包含]{bao1han2} contain
+  \ii[元素]{yuan2su4} element
+  \ii[元素個數]{yuan2su4ge4shu4} number of elements
+  \ii[互斥]{hu4zhi4} mutually exclusive (disjoint)
+  \ii[空集]{kong1ji2} empty set
+  \ii[非空]{fei1kong1} nonempty
+  \ii[多種集]{duo1zhong3ji2} multiset
+  \ii[集合劃分]{ji2he2hua4fen1} partition (of set)
+\end{description}
+\subsection{Chess, Grids, and Labels}
+\begin{description}
+  \ii[棋盤]{qi2pan2} chessboard
+  \ii[格]{ge2} grid
+  \ii[表格]{biao1ge2} table (as a grid)
+  \ii[方格]{fang1ge2} square (of a grid)
+  \ii[標]{biao1} mark
+  \ii[標籤]{biao1qian1} label (noun)
+  \ii[編號]{bian1hao4} numbered
+  \ii[兵]{bing1} pawn
+  \ii[卒]{zu2} pawn
+  \ii[馬]{ma3} knight
+  \ii[象]{xiang4} bishop
+  \ii[車]{che1} rook
+  \ii[后]{hou4} queen
+  \ii[王]{wang2} king
+\end{description}
+\subsection{Game Theory}
+\begin{description}
+  \ii[甲]{jia3} A (Alice)
+  \ii[乙]{yi3} B (Bob)
+  \ii[丙]{bing3} C
+  \ii[丁]{ding1} D
+  \ii[輪流]{lun2liu2} take turns
+  \ii[回合]{hui2he2} round
+  \ii[移動]{yi2dong4} move
+  \ii[操作]{cao1zuo4} operation
+  \ii[選擇]{xuan3ze2} select
+  \ii[移走]{yi2zou3} remove
+  \ii[勝]{sheng4} victory
+  \ii[獲勝]{huo4sheng4} to win
+  \ii[輸]{shu1} lose
+  \ii[必勝法]{bi4sheng4fa3} winning strategy
+  \ii[策略]{ce4lue4} tactic
+\end{description}
+\subsection{Graph Theory}
+\begin{description}
+  \ii[圖論]{tu2lun4} graph theory
+  \ii[圖]{tu2} graph
+  \ii[同構]{tong2gou4} isomorphic
+  \ii[自同構]{zi4tong2gou4} automorphism
+  \ii[點色數]{dian3se4shu4} chromatic number
+  \ii[入度]{ru4du4} indegree
+  \ii[出度]{chu1du4} outdegree
+  \ii[子圖]{zi3tu2} subgraph
+  \ii[自環]{zi4huan2} cycle
+  \ii[路徑]{lu4jing4} path
+  \ii[簡單圖]{jian3dan1tu2} simple graph
+  \ii[完全圖]{wan2quan2tu2} complete graph
+  \ii[二部圖]{er4bu4tu2} bipartite graph
+  \ii[$n$-部圖]{n-bu4tu2} $n$-partite graph
+  \ii[有向圖]{you3xiang4tu2} directed graph
+  \ii[無環圖]{wu2huan2tu2} acyclic graph
+  \ii[補圖]{bu3tu2} complement of graph
+  \ii[樹]{shu4} tree
+  \ii[連通圖]{lian2tong1tu2} connected graph
+  \ii[連通分量]{lian2tong1fen1liang4} connected component
+  \ii[強連通]{qiang2lian2tong1} strongly connected
+  \ii[正則圖]{zheng4ze2tu2} regular graph
+\end{description}
+
+
+\subsection{Strings}
+\begin{description}
+  \ii[字符串]{zi4fu2chuan4} string / word
+  \ii[回文]{hui2wen2} palindrome
+  \ii[連接]{lian2jie1} concatenate
+  \ii[空字符串]{kong1zi4fu2chuan4} empty string
+  \ii[位數]{wei4shu4} digit
+  \ii[附加]{fu4jia1} append
+  \ii[十進制數]{shi2jin4zhi4shu4} decimal digit
+  \ii[底數]{di1shu4} base / radix
+  \ii[二進制]{er4jin4zhi4} binary
+\end{description}
+
+\subsection{Colors}
+\begin{description}
+  \ii[染色]{ran3se4} coloring
+  \ii[紅色]{hong2se4} red
+  \ii[綠色]{lv4se4} green
+  \ii[藍色]{lan2se4} blue
+  \ii[黃色]{huang2se4} yellow
+  \ii[白]{bai2} white
+  \ii[黑]{hei1} black
+\end{description}
+
+\section{Geometry}
+\begin{description}
+  \ii[幾何學]{ji3he2xue2} Geometry
+  \ii[純幾]{chun2ji3} synthetic
+  \ii[中點]{zhong1dian3} midpoint
+  \ii[對分]{dui4fen1} bisect
+  \ii[共線]{gong4xian4} collinear
+  \ii[共圓]{gong4yuan2} concyclic (``are concyclic'')
+  \ii[共點]{gong4dian3} concurrent
+  \ii[圓內接]{yuan2nei4jie1} cyclic (``cyclic quadrilateral'')
+  \ii[角]{jiao3} angle
+  \ii[直角]{zhi2jiao3} right angle
+  \ii[全等的]{quan2deng3de5} congruent
+  \ii[內接於]{nei4jie1yu2} is inscribed in
+  \ii[介於]{jie4yu2} between
+  \ii[陣點]{zhen4dian3} lattice point
+  \ii[交於]{jiao1yu2} intersect at (verb)
+  \ii[交點]{jiao1dian3} intersect point
+  \ii[定點]{ding4dian3} fixed point
+  \ii[相似]{xiang1si4} similar (esp. 相似三角形)
+  \ii[位似]{wei4si4} homothety
+  \ii[鏡射]{jing4she4} reflection
+  \ii[對稱]{dui4chen4} symmetric
+  \ii[軌跡]{gui3ji4} locus
+\end{description}
+
+\subsection{Lines}
+\begin{description}
+  \ii[垂直]{chui2zhi2} perpendicular
+  \ii[垂直平分線]{chui2zhi2ping2fen1xian4} perpendicular bisector
+  \ii[垂足]{chui2zu2} foot
+  \ii[平行]{ping2xing2} parallel
+  \ii[距離]{ju4li2} distance
+  \ii[長度]{chang2du4} length
+  \ii[延長]{yan2chang2} extend
+  \ii[落]{luo4} lies on
+  \ii[線]{xian4} line
+  \ii[折線]{zhe2xian4} broken line
+  \ii[封閉]{feng1bi4} closed
+  \ii[射線]{she4xian4} ray
+  \ii[線段]{xian4duan4} segment
+\end{description}
+
+\subsection{Polygons}
+\begin{description}
+  \ii[多邊形]{duo1bian1xing2} polygon
+  \ii[簡單]{jian3dan1} simple (polygon)
+  \ii[四邊形]{si4bian1xing2} quadrilateral
+  \ii[五邊形]{wu3bian1xing2} pentagon
+  \ii[正多邊形]{zheng4duo1bian1xing2} regular polygon
+  \ii[凸]{tu1} convex
+  \ii[凹]{ao1} concave
+  \ii[形]{xing2} shape
+  \ii[界]{jie4} boundary
+  \ii[內部]{nei4bu4} interior
+  \ii[界分]{jie4fen1} boundary points
+  \ii[週長]{zhou1chang2} perimeter
+  \ii[面積]{mian4ji1} area
+  \ii[對角線]{dui4jiao3xian4} diagonal
+  \ii[凸包]{tu1bao1} convex hull
+  \ii[邊]{bian1} side, edge
+  \ii[邊長]{bian1chang2} side length
+  \ii[區域]{qu1yv4} region
+\end{description}
+
+\subsection{Polyhedrons}
+\begin{description}
+  \ii[多面體]{duo1mian4ti3} polyhedron
+  \ii[面]{mian4} face
+  \ii[立方體]{li4fang1ti3} cube
+  \ii[錐體]{zhui1ti3} pyramid
+  \ii[四面體]{si4mian4ti3} tetrahedron
+  \ii[圓錐]{yuan2zhui1} cone
+  \ii[球面]{qiu2mian4} (surface of) sphere
+  \ii[球]{qiu2} closed ball
+  \ii[體積]{ti3ji1} volume
+\end{description}
+
+\subsection{Coordinates}
+\begin{description}
+  \ii[坐標]{zuo4biao1} coordinates
+  \ii[笛卡爾平面]{di2ka3'er3ping2mian4} Cartesian (coordinate) plane
+  \ii[笛卡爾空間]{di2ka3'er3kong1jian1} Cartesian space
+  \ii[平面]{ping2mian4} plane
+  \ii[超平面]{chao1ping2mian4} hyperplane
+  \ii[原點]{yuan2dian3} origin
+  \ii[軸]{zhou2} axis
+  \ii[拋物線]{pao1wu4xian4} parabola
+\end{description}
+
+\subsection{Quadrilaterals}
+\begin{description}
+  \ii[菱形]{ling2xing2} rhombus
+  \ii[梯形]{ti1xing2} trapezoid
+  \ii[平行四邊形]{ping2xing2si4bian1xing2} parallelogram
+  \ii[長方形]{chang2fang1xing2} rectangle
+  \ii[矩形]{ju3xing2} rectangle
+  \ii[正方形]{zheng4fang1xing2} square
+  \ii[單位正方形]{dan1wei4zheng4fang1xing2} unit square
+\end{description}
+
+\subsection{Circles}
+\begin{description}
+  \ii[圓]{yuan2} circle
+  \ii[圓周]{yuan2zhou1} circumference
+  \ii[圓弧]{yuan2hu2} arc
+  \ii[單位圓]{dan1wei4yuan2} unit circle
+  \ii[弧]{hu2} arc
+  \ii[弦]{xian2} chord
+  \ii[半徑]{ban4jing4} radius
+  \ii[直徑]{zhi2jing4} diameter
+  \ii[圓心]{yuan2xin1} center
+  \ii[相切]{xiang1qie1} tangent
+  \ii[內切]{nei4qie1} internally tangent
+  \ii[切點]{qie1dian3} tangency point
+  \ii[圓冪]{yuan2mi4} power of a point
+  \ii[根軸]{gen1zhou2} radical axis
+  \ii[根心]{gen1xin1} radical center
+\end{description}
+
+\subsection{Types of Triangles}
+\begin{description}
+  \ii[三角形]{san1jiao3xing2} triangle
+  \ii[等腰]{deng3yao1} isosceles
+  \ii[等邊]{deng3bian1} equilateral
+  \ii[等角]{deng3jiao3} equilangular
+  \ii[等邊三角形]{deng3bian1san1jiao3xing2} equilateral triangle
+  \ii[直角三角形]{zhi2jiao3san1jiao3xing2} right triangle
+  \ii[銳角]{rui4jiao3} acute
+  \ii[鈍角]{dun4jiao3} obtuse
+  \ii[不等邊三角形]{bu4deng3bian1san1jiao3xing2} scalene triangle
+\end{description}
+
+\subsection{Centers of a Triangle}
+\begin{description}
+  \ii[頂點]{ding3dian3} vertex
+  \ii[重心]{zhong4xin1} centroid/barycenter
+  \ii[垂心]{chui2xin1} orthocenter
+  \ii[內心]{nei4xin1} incenter
+  \ii[內接圓]{nei4jie1yuan2} incircle
+  \ii[外心]{wai4xin1} circumcenter
+  \ii[外接圓]{wai4jie1yuan2} circumcircle
+  \ii[旁心]{pang2xin1} excenter
+  \ii[傍心]{bang4xin1} excenter
+  \ii[旁切圓]{pang2qie1yuan2} excircle
+  \ii[偽內切圓]{wei3nei4qie1yuan2} mixtilinear incircle
+  \ii[高]{gao1} altitude / height
+  \ii[底]{di3} base
+  \ii[中線]{zhong1xian4} median
+  \ii[角平分線]{jiao3ping2fen1xian4} angle bisector
+  \ii[陪位中線]{pei2wei4zhong1xian4} symmedian
+  \ii[等角中線]{deng3jiao3zhong1xian4} symmedian
+  \ii[等角共軛]{deng3jiao3gong4'e4} isogonal conjugate
+  \ii[等距共軛]{deng3ju4gong4'e4} isotomic conjugate
+\end{description}
+
+
+\subsection{Higher Geometry}
+\begin{description}
+  \ii[反演]{fan3yan3} inversion
+  \ii[射影]{she4ying3} projective
+  \ii[交比]{jiao1bi3} cross-ratio
+  \ii[調和]{tiao2he2} harmonic
+  \ii[調和點列]{tiao2he2dian3lie4} harmonic bundle
+  \ii[行列式]{hang2lie4shi4} determinant
+  \ii[極]{ji2} pole
+  \ii[極線]{ji2xian4} polar
+  \ii[完全四邊形]{wan2quan2si4bian1xing2} complete quadrilateral
+  \ii[射影變換]{she4ying3bian4huan4} projective transformation
+  \ii[圓錐曲線]{yuan2zhui1qu1xian4} conic section
+  \ii[無窮遠點]{wu2qiong2yuan3dian3} point at infinity
+  \ii[向量]{xiang4liang4} vector
+\end{description}
+
+\section{Number Theory}
+\begin{description}
+  \ii[數論]{shu4lun4} Number Theory
+  \ii[整數]{zheng3shu4} integer
+  \ii[正數]{zheng4shu4} positive number
+  \ii[負數]{fu4shu4} negative number
+  \ii[自然數]{zi4ran2shu4} natural number
+  \ii[非負]{fei1fu4} nonnegative
+  \ii[偶數]{ou3shu4} even number
+  \ii[奇數]{ji1shu4} odd number
+  \ii[分數]{fen1shu4} fraction
+  \ii[分子]{fen1zi3} numerator
+  \ii[分母]{fen1mu3} denominator
+  \ii[有理數]{you3li3shu4} rational number
+  \ii[無理數]{wu2li3shu4} irrational number
+  \ii[質數]{zhi2shu4} prime number
+  \ii[素数]{su4shu4} prime number
+  \ii[倍數]{bei4shu4} multiple
+  \ii[因數]{yin1shu4} divisor/factor
+  \ii[整除]{zheng3chu2} divides
+  \ii[互質]{hu4zhi4} relatively prime
+  \ii[合數]{he2shu4} composite number
+  \ii[平方數]{ping2fang1shu4} perfect square
+  \ii[立方數]{li4fang1shu4} perfect cube
+  \ii[次方]{ci4fang1} power
+  \ii[模]{mo2} mod
+  \ii[原根]{yuan2gen1} primitive root
+  \ii[剩餘]{sheng4yu2} remainder
+  \ii[二次剩餘]{er4ci4sheng4yu2} quadratic residue
+  \ii[階乘]{jie1cheng2} factorial
+\end{description}
+
+\section{Calculus}
+\begin{description}
+  \ii[微積分]{wei2ji1fen1} calculus
+  \ii[極限]{ji2xian4} limit
+  \ii[微分]{wei2fen1} derivative
+  \ii[積分]{ji1fen1} integral
+\end{description}
+
+\section{Miscellaneous}
+\subsection{Category Theory}
+\begin{description}
+  \ii[範疇論]{fan4chou2lun4} category theory
+  \ii[範疇]{fan4chou2} category
+  \ii[核]{he2} kernel
+  \ii[預層]{yu4ceng2} presheaf
+  \ii[函子]{han2zi3} functor
+  \ii[自然變換]{zi4ran2bian4huan4} natural transformation
+  \ii[類]{lei4} class
+  \ii[物件]{wu4jian4} objects
+  \ii[態射]{tai4she4} morphism
+  \ii[箭號]{jian4hao4} arrows
+  \ii[二元運算]{er4yuan2yun4suan4} binary operation
+  \ii[結合律]{jie2he2lv4} associative law
+  \ii[複合]{fu4he2} composition
+\end{description}
+
+\subsection{Analysis}
+\begin{description}
+  \ii[解析]{jie3xi1} analysis, analytic
+\end{description}
+
+\subsection{Flavor text}
+\begin{description}
+  \ii[捲餅]{juan3bing3} burrito
+  \ii[鴿子]{ge1zi5} pidgeon
+  \ii[河]{he2} river
+  \ii[睡蓮科]{shui4lian2ke1} lilypad
+  \ii[藥丸]{yao4wan2} pill
+  \ii[體重]{ti3zhong4} weight
+  \ii[冰塊]{bing1kuai4} ice cube
+  \ii[青蛙]{qing1wa1} frog
+  \ii[罐]{guan4} jar
+  \ii[石頭]{shi2tou2} rock
+  \ii[桶]{tong3} bucket
+  \ii[蟾蜍]{chan2chu2} toad
+  \ii[朋友]{peng2you3} friend
+  \ii[楊輝三角]{yang1hui4san1jiao3} Pascal triangle
+  \ii[忒修斯]{te4xui1si1} Theseus
+  \ii[網球]{wang3qiu2} tennis
+  \ii[循環賽]{xun2huan2sai4} round-robin tournament
+\end{description}
+
+\end{document}

@@ -1,0 +1,475 @@
+值;zhi2;value
+取;qu3;select
+由;you2;from
+此;ci3;this
+令;ling4;let
+已知;yi3zhi1;known
+考慮;kao3lv4;consider
+分別;fen1bie2;respectively
+是否;shi4fou3;whether
+確定;que4ding4;determine
+判斷;pan4duan4;determine
+達;da2;achieve
+從未;cong2wei2;never
+定義;ding4yi4;define
+欲;yu4;we wish to
+今;jin1;now
+某;mou3;some, certain
+若干;ruo4gan1;some
+的數量;de5shu4liang4;the number of \dots
+的個數;de5ge4shu4;the number of \dots
+按上述;an4shang4shu4;from above
+末;mo4;last
+性質;xing4zhi4;property
+端;duan1;end
+若;ruo4;if
+則;ze2;then
+故;gu4;therefore
+因此;yin1ci3;therefore
+即;ji2;i.e.
+且;qie3;and
+及;ji2;and
+亦;yi4;also
+根據;gen1ju4;according to
+使得;shi3de2;such that
+具有;ju4you3;posses (a property)
+滿足;man3zu2;satisfy
+符合;fu2he2;satisfy
+此處;ci3chu4;here
+其中;qi2zhong1;\dots where \dots
+與;yu3;with
+任意;ren4yi4;any
+皆;jie1;all
+均;jun1;all
+對於任何;dui4yu2ren4he2;\dots for any
+對所有的;dui4suo2you3de5;\dots for all
+某些;mou3xie1;some, certain
+存在;cun2zai4;exists
+恰;qia4;exactly
+唯一;wei2yi1;unique
+必;bi4;must
+嚴格;yan2ge2;strictly
+相異;xiang1yi4;distinct
+兩兩相異;liang3liang3xiang1yi4;pairwise distinct
+有限;you3xian4;finite / bounded
+無窮多;wu2qiong2duo1;infinitely many
+當且僅當;dang1qie3jin3dang1;if and only if
+若且唯若;ruo4qie3wei2ruo4;if and only if
+充要條件;chong1yao4tiao2jian4;necessary and sufficient condition
+類似地;lei4si4de5;similarly
+互;hu4;mutual
+彼;bi3;that, those, one another
+固定;gu4ding4;fixed
+等價於;deng3jia4yu2;is equivalent to
+方程;fang1cheng2;equation
+公式;gong1shi4;formula
+陳述;chen2shu4;state
+變量;bian4liang4;variable
+循環;xun2huan2;cyclic
+歸法;gui1fa3;induction (數學歸納法)
+廣義;guang3yi4;generalized
+術語;shu4yu3;terms
+階;jie1;order
+秩;zhi4;rank
+度;du4;degree
+正規;zheng4gui1;normal
+正交;zheng4jiao1;orthogonal
+不妨假設;bu4fang2jia3she4;without loss of generality
+解;jie3;derive, solution
+構造;gou4zao4;construct
+反證;fan3zheng4;proceed by contradiction
+假設;jia3she4;assume
+矛盾;mao2dun4;contradiction
+只需證明;zhi3xu1zheng4ming2;suffices to prove
+注意;zhu4yi4;note that
+定理;ding4li3;theorem
+引理;yin3li3;lemma
+命題;ming4ti2;proposition
+推論;tui1lun4;corollary
+證明;zheng4ming2;proof
+註;zhu4;note / remark (as a heading)
+情況;qing2kuang4;case
+特別地;te4bie2de5;in particular
+述;shu4;statement (often 上述).
+同理;tong2li3;similarly
+顯然;xian3ran2;obviously
+得證;de2zheng4;QED
+符號;fu2hao4;sign
+最大值;zui4da4zhi2;maximum
+最小值;zui4xiao3zhi2;minimum
+數值;shu4zhi2;number, value
+總和;zong3he2;sum
+乘積;cheng2ji1;product
+數線;shu4xian4;number line
+有序對;you3xu4dui4;ordered pair
+有序三元;you3xu4san1yuan2;ordered triple
+奧林匹克;ao4lin2pi3ke4;olympiad
+國際;guo2ji4;international
+炸;zha4;bash
+國手;guo2shou3;national champion; often IMO team member
+候補;hou4bu3;alternate
+隊選拔考試;dui4xuan3ba2kao3shi4;Team Selection Test
+金牌;jin1pai2;gold medal
+銀牌;yin2pai2;silver medal
+銅牌;tong2pai2;bronze medal
+榮譽獎;rong2yu4jiang3;honorable mention
+代數學;dai4shu4xue2;Algebra
+實數;shi2shu4;real number ($\mathbb R$)
+複數;fu4shu4;complex number
+虛數;xu1shu4;imaginary part
+絕對值;jue2dui4zhi2;absolute value
+比值;bi3zhi2;ratio
+常數;chang2shu4;constant
+線性;xian4xing4;linear
+冪;mi4;power
+區間;qu1jian1;interval
+開;kai1;open
+閉;bi4;closed
+單位;dan1wei4;unit
+三角函數;san1jiao3han2shu4;trig function
+正弦;zheng4xian2;sine
+餘弦;yu2xian2;cosine
+微分;wei1fen1;differentiate
+積分;ji1fen1;integrate
+群;qun2;group (algebraic structure)
+環;huan2;ring
+域;yu4;field
+運算;yun4suan4;operations
+交換律;jiao1huan4lv4;commutative property
+分配律;fen1pei4lv4;distributive property
+傳遞律;chuan2di4lv4;transitive property
+不等式;bu4deng3shi4;inequality
+界;jie4;bound
+等號成立;deng3hao4cheng2li4;with equality
+等號;deng3hao4;equals sign
+等式;deng3shi4;equality
+均值不等式;jun1zhi2bu4deng3shi4;AM-GM Inequality
+排列不等式;pai2lie4bu4deng3shi4;Rearrangement Inequality
+蓋;gai4;cover / majorize
+函數;han2shu4;function
+映到;ying4dao4;project to
+單射;dan1she4;injective
+滿射;man3she4;surjective
+一對一;yi1dui4yi1;one-to-one
+映成;ying4cheng2;onto
+雙射;shuang1she4;bijection
+遞增;di4zeng1;increasing
+遞減;di4jian3;decreasing
+拐點;guai3dian3;inflection point
+多項式;duo1xiang4shi4;polynomial
+係數;xi4shu4;coefficients
+首項係數;shou3xiang4xi4shu4;leading coefficient
+次數;ci4shu4;degree
+齊次;qi2ci4;homogeneous
+零點;ling2dian3;root of polynomial
+根;gen1;root of polynomial
+二項式;er4xiang4shi4;binomial
+數列;shu4lie4;sequence
+遞迴;di4gui1;recursive
+係式;xi4shi4;relation
+週期;zhou1qi1;periodic
+算數平均數值;suan4shu4ping2jun1shu4zhi2;arithmetic mean
+幾何平均數值;ji3he2ping2jun1shu4zhi2;geometric mean
+等差數列;deng3cha1ji2shu4;arithmetic seq
+等比數列;deng3bi3ji2shu4;geometric seq
+線性代數;xian4xing1dai4shu4;linear algebra
+基;ji1;basis
+基向量;ji1xiang1liang4;basis vector
+向量空間;xiang1liang4kong1jian;vector space
+組合數學;zu3he2shu4xue2;Combinatorics
+鄰;lin2;adjacent
+組;zu3;group
+對;dui4;pair
+將;jiang1;now
+狀態;zhuang4tai4;state, status
+調整;tiao2zheng3;adjust
+置換;zhi4huan4;permutation
+令牌;ling4pai2;token
+籌碼;chou2ma3;counter
+彈珠;dan1zhu1;marble (toy)
+初;chu1;initially
+逆時針;ni4shi2zhen1;counterclockwise
+順時針;shun4shi2zhen1;counterclockwise
+事件;shi4jian4;event
+獨立;du2li4;independent
+機率;ji1lv4;probability
+機率方法;ji1lv4fang1fa3;probabilistic method
+期望值;qi1wang4zhi2;expected value
+銅板;tong2ban3;token
+硬币;ying4bi4;coin
+骰子;tou2zi5;dice
+公平;gong1ping2;fair
+隨機;sui2ji1;random
+集合;ji2he2;set
+子集;zi3ji2;subset
+真子集;zhen1zi3ji2;proper subset
+族;zu2;family (of sets)
+聯集;lian2ji2;union (of sets)
+并集;bing4ji2;union (of sets)
+交集;jiao1ji2;intersection (of sets)
+包含;bao1han2;contain
+元素;yuan2su4;element
+元素個數;yuan2su4ge4shu4;number of elements
+互斥;hu4zhi4;mutually exclusive (disjoint)
+空集;kong1ji2;empty set
+非空;fei1kong1;nonempty
+多種集;duo1zhong3ji2;multiset
+集合劃分;ji2he2hua4fen1;partition (of set)
+棋盤;qi2pan2;chessboard
+格;ge2;grid
+表格;biao1ge2;table (as a grid)
+方格;fang1ge2;square (of a grid)
+標;biao1;mark
+標籤;biao1qian1;label (noun)
+編號;bian1hao4;numbered
+兵;bing1;pawn
+卒;zu2;pawn
+馬;ma3;knight
+象;xiang4;bishop
+車;che1;rook
+后;hou4;queen
+王;wang2;king
+甲;jia3;A (Alice)
+乙;yi3;B (Bob)
+丙;bing3;C
+丁;ding1;D
+輪流;lun2liu2;take turns
+回合;hui2he2;round
+移動;yi2dong4;move
+操作;cao1zuo4;operation
+選擇;xuan3ze2;select
+移走;yi2zou3;remove
+勝;sheng4;victory
+獲勝;huo4sheng4;to win
+輸;shu1;lose
+必勝法;bi4sheng4fa3;winning strategy
+策略;ce4lue4;tactic
+圖論;tu2lun4;graph theory
+圖;tu2;graph
+同構;tong2gou4;isomorphic
+自同構;zi4tong2gou4;automorphism
+點色數;dian3se4shu4;chromatic number
+入度;ru4du4;indegree
+出度;chu1du4;outdegree
+子圖;zi3tu2;subgraph
+自環;zi4huan2;cycle
+路徑;lu4jing4;path
+簡單圖;jian3dan1tu2;simple graph
+完全圖;wan2quan2tu2;complete graph
+二部圖;er4bu4tu2;bipartite graph
+有向圖;you3xiang4tu2;directed graph
+無環圖;wu2huan2tu2;acyclic graph
+補圖;bu3tu2;complement of graph
+樹;shu4;tree
+連通圖;lian2tong1tu2;connected graph
+連通分量;lian2tong1fen1liang4;connected component
+強連通;qiang2lian2tong1;strongly connected
+正則圖;zheng4ze2tu2;regular graph
+字符串;zi4fu2chuan4;string / word
+回文;hui2wen2;palindrome
+連接;lian2jie1;concatenate
+空字符串;kong1zi4fu2chuan4;empty string
+位數;wei4shu4;digit
+附加;fu4jia1;append
+十進制數;shi2jin4zhi4shu4;decimal digit
+底數;di1shu4;base / radix
+二進制;er4jin4zhi4;binary
+染色;ran3se4;coloring
+紅色;hong2se4;red
+綠色;lv4se4;green
+藍色;lan2se4;blue
+黃色;huang2se4;yellow
+白;bai2;white
+黑;hei1;black
+幾何學;ji3he2xue2;Geometry
+純幾;chun2ji3;synthetic
+中點;zhong1dian3;midpoint
+對分;dui4fen1;bisect
+共線;gong4xian4;collinear
+共圓;gong4yuan2;concyclic (``are concyclic'')
+共點;gong4dian3;concurrent
+圓內接;yuan2nei4jie1;cyclic (``cyclic quadrilateral'')
+角;jiao3;angle
+直角;zhi2jiao3;right angle
+全等的;quan2deng3de5;congruent
+內接於;nei4jie1yu2;is inscribed in
+介於;jie4yu2;between
+陣點;zhen4dian3;lattice point
+交於;jiao1yu2;intersect at (verb)
+交點;jiao1dian3;intersect point
+定點;ding4dian3;fixed point
+相似;xiang1si4;similar (esp. 相似三角形)
+位似;wei4si4;homothety
+鏡射;jing4she4;reflection
+對稱;dui4chen4;symmetric
+軌跡;gui3ji4;locus
+垂直;chui2zhi2;perpendicular
+垂直平分線;chui2zhi2ping2fen1xian4;perpendicular bisector
+垂足;chui2zu2;foot
+平行;ping2xing2;parallel
+距離;ju4li2;distance
+長度;chang2du4;length
+延長;yan2chang2;extend
+落;luo4;lies on
+線;xian4;line
+折線;zhe2xian4;broken line
+封閉;feng1bi4;closed
+射線;she4xian4;ray
+線段;xian4duan4;segment
+多邊形;duo1bian1xing2;polygon
+簡單;jian3dan1;simple (polygon)
+四邊形;si4bian1xing2;quadrilateral
+五邊形;wu3bian1xing2;pentagon
+正多邊形;zheng4duo1bian1xing2;regular polygon
+凸;tu1;convex
+凹;ao1;concave
+形;xing2;shape
+界;jie4;boundary
+內部;nei4bu4;interior
+界分;jie4fen1;boundary points
+週長;zhou1chang2;perimeter
+面積;mian4ji1;area
+對角線;dui4jiao3xian4;diagonal
+凸包;tu1bao1;convex hull
+邊;bian1;side, edge
+邊長;bian1chang2;side length
+區域;qu1yv4;region
+多面體;duo1mian4ti3;polyhedron
+面;mian4;face
+立方體;li4fang1ti3;cube
+錐體;zhui1ti3;pyramid
+四面體;si4mian4ti3;tetrahedron
+圓錐;yuan2zhui1;cone
+球面;qiu2mian4;(surface of) sphere
+球;qiu2;closed ball
+體積;ti3ji1;volume
+坐標;zuo4biao1;coordinates
+平面;ping2mian4;plane
+超平面;chao1ping2mian4;hyperplane
+原點;yuan2dian3;origin
+軸;zhou2;axis
+拋物線;pao1wu4xian4;parabola
+菱形;ling2xing2;rhombus
+梯形;ti1xing2;trapezoid
+平行四邊形;ping2xing2si4bian1xing2;parallelogram
+長方形;chang2fang1xing2;rectangle
+矩形;ju3xing2;rectangle
+正方形;zheng4fang1xing2;square
+單位正方形;dan1wei4zheng4fang1xing2;unit square
+圓;yuan2;circle
+圓周;yuan2zhou1;circumference
+圓弧;yuan2hu2;arc
+單位圓;dan1wei4yuan2;unit circle
+弧;hu2;arc
+弦;xian2;chord
+半徑;ban4jing4;radius
+直徑;zhi2jing4;diameter
+圓心;yuan2xin1;center
+相切;xiang1qie1;tangent
+內切;nei4qie1;internally tangent
+切點;qie1dian3;tangency point
+圓冪;yuan2mi4;power of a point
+根軸;gen1zhou2;radical axis
+根心;gen1xin1;radical center
+三角形;san1jiao3xing2;triangle
+等腰;deng3yao1;isosceles
+等邊;deng3bian1;equilateral
+等角;deng3jiao3;equilangular
+等邊三角形;deng3bian1san1jiao3xing2;equilateral triangle
+直角三角形;zhi2jiao3san1jiao3xing2;right triangle
+銳角;rui4jiao3;acute
+鈍角;dun4jiao3;obtuse
+不等邊三角形;bu4deng3bian1san1jiao3xing2;scalene triangle
+頂點;ding3dian3;vertex
+重心;zhong4xin1;centroid/barycenter
+垂心;chui2xin1;orthocenter
+內心;nei4xin1;incenter
+內接圓;nei4jie1yuan2;incircle
+外心;wai4xin1;circumcenter
+外接圓;wai4jie1yuan2;circumcircle
+旁心;pang2xin1;excenter
+傍心;bang4xin1;excenter
+旁切圓;pang2qie1yuan2;excircle
+偽內切圓;wei3nei4qie1yuan2;mixtilinear incircle
+高;gao1;altitude / height
+底;di3;base
+中線;zhong1xian4;median
+角平分線;jiao3ping2fen1xian4;angle bisector
+陪位中線;pei2wei4zhong1xian4;symmedian
+等角中線;deng3jiao3zhong1xian4;symmedian
+反演;fan3yan3;inversion
+射影;she4ying3;projective
+交比;jiao1bi3;cross-ratio
+調和;tiao2he2;harmonic
+調和點列;tiao2he2dian3lie4;harmonic bundle
+行列式;hang2lie4shi4;determinant
+極;ji2;pole
+極線;ji2xian4;polar
+完全四邊形;wan2quan2si4bian1xing2;complete quadrilateral
+射影變換;she4ying3bian4huan4;projective transformation
+圓錐曲線;yuan2zhui1qu1xian4;conic section
+無窮遠點;wu2qiong2yuan3dian3;point at infinity
+向量;xiang4liang4;vector
+數論;shu4lun4;Number Theory
+整數;zheng3shu4;integer
+正數;zheng4shu4;positive number
+負數;fu4shu4;negative number
+自然數;zi4ran2shu4;natural number
+非負;fei1fu4;nonnegative
+偶數;ou3shu4;even number
+奇數;ji1shu4;odd number
+分數;fen1shu4;fraction
+分子;fen1zi3;numerator
+分母;fen1mu3;denominator
+有理數;you3li3shu4;rational number
+無理數;wu2li3shu4;irrational number
+質數;zhi2shu4;prime number
+素数;su4shu4;prime number
+倍數;bei4shu4;multiple
+因數;yin1shu4;divisor/factor
+整除;zheng3chu2;divides
+互質;hu4zhi4;relatively prime
+合數;he2shu4;composite number
+平方數;ping2fang1shu4;perfect square
+立方數;li4fang1shu4;perfect cube
+次方;ci4fang1;power
+模;mo2;mod
+原根;yuan2gen1;primitive root
+剩餘;sheng4yu2;remainder
+二次剩餘;er4ci4sheng4yu2;quadratic residue
+階乘;jie1cheng2;factorial
+微積分;wei2ji1fen1;calculus
+極限;ji2xian4;limit
+微分;wei2fen1;derivative
+積分;ji1fen1;integral
+範疇論;fan4chou2lun4;category theory
+範疇;fan4chou2;category
+核;he2;kernel
+預層;yu4ceng2;presheaf
+函子;han2zi3;functor
+自然變換;zi4ran2bian4huan4;natural transformation
+類;lei4;class
+物件;wu4jian4;objects
+態射;tai4she4;morphism
+箭號;jian4hao4;arrows
+二元運算;er4yuan2yun4suan4;binary operation
+結合律;jie2he2lv4;associative law
+複合;fu4he2;composition
+解析;jie3xi1;analysis, analytic
+捲餅;juan3bing3;burrito
+鴿子;ge1zi5;pidgeon
+河;he2;river
+睡蓮科;shui4lian2ke1;lilypad
+藥丸;yao4wan2;pill
+體重;ti3zhong4;weight
+冰塊;bing1kuai4;ice cube
+青蛙;qing1wa1;frog
+罐;guan4;jar
+石頭;shi2tou2;rock
+桶;tong3;bucket
+蟾蜍;chan2chu2;toad
+朋友;peng2you3;friend
+楊輝三角;yang1hui4san1jiao3;Pascal triangle
+忒修斯;te4xui1si1;Theseus
+網球;wang3qiu2;tennis
+循環賽;xun2huan2sai4;round-robin tournament

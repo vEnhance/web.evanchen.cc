@@ -160,7 +160,6 @@ of [my textbook][geombook].
   traditional Chinese in preparation
   for the Taiwan IMO selection and training camps.
   It is updated occasionally as I add entries.
-  Needs [extra preamble file](/handouts/Chinese/preamble.sty).
 
 - <b>How to annoy Evan with LaTeX</b> {{ handout_link_src("LaTeXPetPeeve") }}
   A list of pet peeves in LaTeX.
