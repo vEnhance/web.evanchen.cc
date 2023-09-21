@@ -22,6 +22,18 @@ def handout_link(name: str, filename=None) -> str:
     )
 
 
+def handout_link_src(name: str, filename=None) -> str:
+    filename = filename or name
+    return (
+        f'<a href="handouts/{name}/{filename}.pdf">(pdf)</a>'
+        " "
+        f'<a href="handouts/{name}/{filename}.tex">(tex)</a>'
+        " "
+        f'<a href="{GITHUB_BASE}/tree/main/handouts/{name}">(git)</a>'
+        "<br>"
+    )
+
+
 def page_footer(page: dict[str, str]) -> str:
     input_name: str = page["url"].replace(".html", ".md")
     input_path = Path("input") / input_name
