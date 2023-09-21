@@ -7,10 +7,8 @@
   void cplane(real theta=-45, real[] T = default_ticks, real xmin = -5, real xmax = 5, real S = 3) {
     graph.xaxis("Re", xmin, xmax, graph.Ticks(format="%", Ticks=T, Size=S), Arrows);
     graph.yaxis("Im", xmin, xmax, graph.Ticks(format="%", Ticks=T, Size=S), Arrows);
-    D("0", (0,0), dir(theta));
-    markscalefactor *= xmax;
+    dot("$0$", (0,0), dir(theta));
   }
-  markscalefactor=0.01;
 \end{asydef}
 
 \begin{document}

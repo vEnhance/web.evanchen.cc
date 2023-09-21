@@ -4,7 +4,7 @@
 \usepackage{answers}
 \Newassociation{hint}{hintitem}{all-hints}
 \renewcommand{\solutionextension}{out}
-\renewenvironment{hintitem}[1]{\item[\bf #1.]}{}
+\renewenvironment{hintitem}[1]{\item[\bfseries #1.]}{}
 
 \begin{document}
 \title{Orders Modulo A Prime}
@@ -82,8 +82,7 @@ To drive the point home:
     \begin{mdframed}
     \bfseries
     \color{magenta}
-    The only time when $a^N \equiv 1 \pmod p$ is
-    when the order of $a$ divides $N$.
+    The only time when $a^N \equiv 1 \pmod p$ is when the order of $a$ divides $N$.
     \end{mdframed}
   \end{minipage}
 \end{center}
@@ -224,20 +223,20 @@ of which there are $\phi(9) = 6$.
 \begin{center}
   \begin{asy}
     defaultpen(fontsize(11pt));
-    pointfontsize=11;
     size(8cm);
+    import graph;
     graph.xaxis("Re", -1.5, 1.5, Arrows);
     graph.yaxis("Im", -1.5, 1.5, Arrows);
-    MP("0", origin, dir(-45));
+    label("$0$", origin, dir(-45));
 
     draw(unitcircle);
     dotfactor *= 2;
-    Drawing("\zeta_9^1", dir( 40), dir( 40));
-    Drawing("\zeta_9^2", dir( 80), dir( 80));
-    Drawing("\zeta_9^4", dir(160), dir(160));
-    Drawing("\zeta_9^5", dir(200), dir(200));
-    Drawing("\zeta_9^7", dir(280), dir(280));
-    Drawing("\zeta_9^8", dir(320), dir(320));
+    dot("$\zeta_9^1$", dir( 40), dir( 40));
+    dot("$\zeta_9^2$", dir( 80), dir( 80));
+    dot("$\zeta_9^4$", dir(160), dir(160));
+    dot("$\zeta_9^5$", dir(200), dir(200));
+    dot("$\zeta_9^7$", dir(280), dir(280));
+    dot("$\zeta_9^8$", dir(320), dir(320));
   \end{asy}
 \end{center}
 
@@ -248,8 +247,7 @@ of which there are $\phi(9) = 6$.
           \left( X - \zeta^k \right). \]
 \end{definition}
 \begin{example}
-  Because the primitive fourth roots of unity are $i$ and $-i$, we have
-  \[ \Phi_4(X) = (X-i)(X+i) = X^2+1. \]
+  The primitive fourth roots of unity are $\pm i$, so $\Phi_4(X) = (X-i)(X+i) = X^2+1$.
 \end{example}
 One can actually show $\Phi_n(X)$ always has integer coefficients.
 (In fact, it's the polynomial of \emph{minimal} degree with this property.)
@@ -268,6 +266,7 @@ One can actually show $\Phi_n(X)$ always has integer coefficients.
 \end{exercise}
 
 \begin{example}
+  \small
   To write this lemma out explicitly for the cases $2 \le n \le 8$:
   \begin{align*}
     X^2-1 &= (X-1)(X+1) \\
@@ -276,7 +275,7 @@ One can actually show $\Phi_n(X)$ always has integer coefficients.
     X^5-1 &= (X-1)(X^4+X^3+X^2+X+1) \\
     X^6-1 &= (X-1)(X+1)(X^2+X+1)(X^2-X+1) \\
     X^7-1 &= (X-1)(X^6+X^5+X^4+X^3+X^2+X+1) \\
-    X^8-1 &= (X-1)(X+1)(X^2+1)(X^4+1)  \\
+    X^8-1 &= (X-1)(X+1)(X^2+1)(X^4+1).  \\
   \intertext{We observe a ``new'' polynomial appearing at each level;
   these are the cyclotomic polynomials.}
     \Phi_2(X) &= X+1\\
@@ -285,7 +284,7 @@ One can actually show $\Phi_n(X)$ always has integer coefficients.
     \Phi_5(X) &= X^4+X^3+X^2+X+1 \\
     \Phi_6(X) &= X^2-X+1 \\
     \Phi_7(X) &= X^6+X^5+\dots+1\\
-    \Phi_8(X) &= X^4+1
+    \Phi_8(X) &= X^4+1.
   \end{align*}
 \end{example}
 
