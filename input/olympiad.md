@@ -54,13 +54,13 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   This describes my experiences competing as TWN2 at the 55th IMO 2014.
   (You can download [full-resolution photos from the trip][imo-2014-photos].)
 
-- <b>Taiwan TST 2014 Reflection</b> {{ handout_link("TaiwanTST") }}
+- <b>Taiwan TST 2014 Reflection</b> {{ handout_link_src("TaiwanTST") }}
   This describes my experiences competing for a position on the Taiwan IMO 2014 team.
   It also contains an extensive commentary on each of the
   [Team Selection Tests and Quizzes](https://www.aops.com/community/c41558),
   which together covered most of the 2013 IMO Shortlist.
 
-- <b>USAMO 2014 Contest Analysis</b> {{ handout_link("USAMO2014") }}
+- <b>USAMO 2014 Contest Analysis</b> {{ handout_link_src("USAMO2014") }}
   This describes in detail the thought process behind each of
   my solutions to the USAMO 2014.
   I also [scanned the solutions I submitted.](upload/usamo-2014-my-sols.pdf)
@@ -158,7 +158,7 @@ of [my textbook][geombook].
 
 ## {{ hl("misc", "Miscellaneous") }}
 
-- <b>Chinese Terminology Sheet</b> {{ handout_link("Chinese") }}
+- <b>Chinese Terminology Sheet</b> {{ handout_link_src("Chinese") }}
   These are the notes that I took when I was studying
   traditional Chinese in preparation
   for the Taiwan IMO selection and training camps.

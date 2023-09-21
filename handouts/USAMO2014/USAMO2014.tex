@@ -1,0 +1,487 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+
+\newcommand{\stage}[1]{\begin{center} \fbox{\begin{minipage}{0.8\textwidth} #1 \end{minipage}} \end{center}}
+\newcommand{\one}{Let $a,b,c,d$ be real numbers such that $b-d \ge 5$ and all zeros $x_1, x_2, x_3,$ and $x_4$ of the polynomial $P(x)=x^4+ax^3+bx^2+cx+d$ are real. Find the smallest value the product $(x_1^2+1)(x_2^2+1)(x_3^2+1)(x_4^2+1)$ can take.}
+\newcommand{\two}{Let $\mathbb{Z}$ be the set of integers. Find all functions $f : \mathbb{Z} \rightarrow \mathbb{Z}$ such that \[xf(2f(y)-x)+y^2f(2x-f(y))=\frac{f(x)^2}{x}+f(yf(y))\] for all $x, y \in \mathbb{Z}$ with $x \neq 0$.}
+\newcommand{\three}{Prove that there exists an infinite set of points \[ \dots, \; P_{-3}, \; P_{-2},\; P_{-1},\; P_0,\; P_1,\; P_2,\; P_3,\; \dots \] in the plane with the following property: For any three distinct integers $a,b,$ and $c$, points $P_a$, $P_b$, and $P_c$ are collinear if and only if $a+b+c=2014$.}
+\newcommand{\four}{Let $k$ be a positive integer. Two players $A$ and $B$ play a game on an infinite grid of regular hexagons. Initially all the grid cells are empty. Then the players alternately take turns with $A$ moving first. In his move, $A$ may choose two adjacent hexagons in the grid which are empty and place a counter in both of them. In his move, $B$ may choose any counter on the board and remove it. If at any time there are $k$ consecutive grid cells in a line all of which contain a counter, $A$ wins. Find the minimum value of $k$ for which $A$ cannot win in a finite number of moves, or prove that no such minimum value exists.}
+\newcommand{\five}{Let $ABC$ be a triangle with orthocenter $H$ and let $P$ be the second intersection of the circumcircle of triangle $AHC$ with the internal bisector of the angle $\angle BAC$.  Let $X$ be the circumcenter of triangle $APB$ and $Y$ the orthocenter of triangle $APC$.  Prove that the length of segment $XY$ is equal to the circumradius of triangle $ABC$.}
+\newcommand{\six}{Prove that there is a constant $c>0$ with the following property: If $a, b, n$ are positive integers such that $\gcd(a+i, b+j)>1$ for all $i, j\in\{0, 1, \ldots n\}$, then\[\min\{a, b\}>c^n\cdot n^{\frac{n}{2}}.\]}
+
+\begin{asydef}
+  void mark(int x, int y) {
+    pair P = dir(0)*x + dir(60)*y;
+    filldraw(circle(P,0.2), grey, black);
+  }
+  void spot(int x, int y) {
+    pair P = dir(0)*x + dir(60)*y;
+    draw(circle(P, 0.2));
+  }
+\end{asydef}
+
+\begin{document}
+\title{USAMO 2014 Contest Analysis}
+\date{24 May 2014}
+\maketitle
+
+\begin{abstract}
+  Much thanks to \textbf{Professor Ming-Yen Lin}
+  for proctoring this test for me at such an ungodly hour.
+
+  I took the 2014 USAMO in Taiwan
+  from 12:30 AM to 5 AM each day.
+  This is my best attempt to reconstruct my thought process
+  during the entire test, based off of my memory,
+  the actual scratch paper from the contest,
+  as well as the papers I submitted.
+\end{abstract}
+
+\tableofcontents
+\section*{Solutions}
+You can read a copy of my solutions at:
+\begin{center}
+  \url{https://web.evanchen.cc/upload/usamo-2014-my-sols.pdf}
+\end{center}
+\eject
+
+\section{Prelude}
+\emph{Taichung, Taiwan}.
+
+I was not really in the best of spirits today as I had just gotten thoroughly pounded by the last day of Taiwan TST, and was now really afraid I might have not made the team.
+Well, no matter -- I had to focus my attention on the task at hand.
+
+This was my last USAMO. Having practically shot myself in the foot during last year's test with 8 points, I was hoping to redeem myself this year. The USAMO awards ceremony was always around my birthday, and it would be a nice 18th birthday present to be in Maryland. I also thought that maybe this time I might fulfill my dream of getting a $42$, but I doubted that would happen. I had never even come close.
+
+It was going to be a long two nights.
+I do my best to try and nap as much as I can before the test, but I only manage to get two or three hours of sleep before midnight rolls around. I drag myself up and move into the testing room, covered in the 23 incessantly itching bug bites that I had accumulated during my trip.
+
+
+\section{Day I}
+\emph{12:30 AM}. Somehow I no longer felt sleep the moment I could see the printed page in front of me. I walked up to the desk.
+
+\begin{enumerate}
+  \ii[USAMO 1.] \one
+  \ii[USAMO 2.] \two
+  \ii[USAMO 3.] \three
+\end{enumerate}
+
+For a couple seconds I was too surprised to actually do anything. No geometry or number theory, just algebra and what looked to be like combinatorial geometry. And the first two problems just looked plain ugly.
+And indeed, the first few words about of my mouth were ``怎麼每一題都那麼醜'', meaning ``why are all the problems so ugly?''.\footnote{I was surprised to find that, after just a few days of Taiwan TST camp, that my internal thoughts during contests had changed from English to Mandarin. This hasn't worn off yet.}
+
+\subsection{Problem One -- Inequality on a Quartic}
+I began with \#1, assuming it would be a pretty easy 5-minute inequality.
+(It wasn't, as I was soon to find out).
+
+\stage\one
+
+I guessed that the answer was probably just $2^4=16$, achieved at $x_1=x_2=x_3=x_4=1$.
+So I first began with the dumbest bounds\footnote{I recommend trying dumb things quickly before moving on to smart things. It takes not a lot of time, and you'll be kicking yourself if it turns out that you failed to solve a problem just because it was easier than you anticipated. See, for example, the USAMO 2012 \#2 fiasco.} I could:
+\[ \sum_{\text{cyc}} x_1x_2 \ge 5 + x_1x_2x_3x_4 \ge 6d^{1/6}. \]
+This got me nowhere.
+
+I then tried to start expanding directly, as
+\[ \prod \left( x_i^2+1 \right) = s_4^2 + s_3^2 - \dots \]
+where $s_i$ are the usual symmetric sums. I stopped after about a minute of this because it was getting ugly -- a \#1 should not need to be this bashy!
+
+Well, maybe I could try fudging the terms. I wrote down
+\[ \prod \left( 1+x_i^2 \right) \ge 16x_1x_2x_3x_4 \]
+and then hoped that maybe I could prove $d \ge 1$. Of course not -- this is false.
+
+At this point I had been trying things for 15 minutes, and I started to worry a little. At this point I should have stepped back and to see what I was dealing with, but I kept on attacking.\footnote{Attacking is different from scouting. Attacking means you try things you think will solve the problem. Scouting is trying to understand the problem better. Think StarCraft. I have a handout to write about this at some point.}
+I tried some trickier estimates, like
+\[ \sqrt{\prod \left( x_i^2+1 \right)}
+  \ge \left( x_1x_2+1 \right)\left( x_3x_4+1 \right)
+  = x_1x_2 + x_3x_4 + x_1x_2x_3x_4 + 1. \]
+Summing cyclically meant that I just needed $3+b+3d \ge 12$.
+Maybe this would work!
+
+I decided at this point to actually figure out what the bounds on $d$ were, so I wrote down
+\[ (5+d)^2 = b^2 \ge 36d \implies (d-25)(d-1) \ge 0. \]
+So the given implied $d \le 1$ or $d \ge 25$. And then it became obvious what I tried above wouldn't work.
+
+Dang it! Symmetric sums were not doing a thing. I could expand the whole thing with Vieta\footnote{Most people did end up just expanding, painful as it was.}, but it looked so horrible\dots
+
+I looked back now at the original problem. I needed to deal with
+\[ \left( x_1^2+1 \right)\left( x_2^2+1 \right)\left( x_3^2+1 \right)\left( x_4^2+1 \right). \]
+I didn't really want to expand\dots I thought how this problem would be so much nicer if it were $x_1^2-1$ instead of $x_1^2+1$. That would be so much easier to deal with.
+
+Suddenly I got an idea. Maybe I could force that to happen\dots
+
+I wrote down
+\begin{align*}
+  \prod_{\text{cyc}} \left( i-x_1 \right)\left( i+x_1 \right)
+  &= \left( 1-b+d+i(c-a) \right)\left( 1-b+d-i(c-a) \right) \\
+  &= (a-c)^2 + \left( b-d-1 \right)^2.
+\end{align*}
+\dots What. I drew a big star next to this and moved on to \#2.\footnote{I don't write up solutions right away. Usually I do write-ups when I need a break from solving a later problem.}
+Four hours left\dots
+
+\subsection{Problem Two -- Integer Functional Equation}
+\stage\two
+
+This just felt ugly. It looked like $f \equiv 0$ worked, but I had no idea what the nontrivial solution was, if there was one.
+Without much better to do, I dropped $y=0$ into the given to obtain
+\[ x f\left( 2f(0)-x \right) = \frac{f(x)^2}{x} + f(0). \]
+Now I realized that $f(x) \equiv x^2$ satisfied this.  I then checked to see if it satisfied the original problem, which it did.
+Well, at least I knew what the other solution was.
+I took a moment to verify that variants such that $f(x) = x^2+c$ and $f(x) = dx^2$ did \emph{not} work.
+
+Everything was still too ugly to deal with: I wanted to get $f(0) = 0$, at the very least.
+At that point I decided to think about the integer condition a little, and I realized that in fact, there was a non-integer $\frac{f(x)^2}{x}$ in a giant integer expression. That meant that $x \mid f(x)^2$ for every integer $x$ other than zero.
+I would have liked $x \mid f(x)$ or some variant though, since otherwise a bunch of ugly cases come up depending on the exponents of various primes in $x$.
+
+I then tried some other things, like $x=2f(y)$, taking modulo $p$, and some blah, but everything I got just looked so ugly, filled with $f(0)$ all over the place. Finally I looked back at the equation
+\[ f(0) + \frac{f(x)^2}{x} = xf(2f(0)-x). \]
+It occurred to me that I could just pick $x=p$ to be a prime; then I would preclude the ugly cases I mentioned before.
+Then $p \mid f(p)$, so $p \mid \frac{f(p)^2}{p}$ -- that would cause everything but $f(0)$ to be divisible by $p$, which is clearly impossible with $p$ large unless $f(0) = 0$. There we go!
+
+Just like that, the equation practically dissolved, and I saw that for all nonzero $x$,
+\[ f(x)^2 = x^2 f(-x). \]
+Of course, this trivially holds for $x=0$ as well. I wonder if I could show that $f(x)$ was even -- that would be perfect.
+I considered what happened if I swapped the sign of $x$ to get
+\[ f(-x)^2 = x^2f(x). \]
+Subtracting and factoring from the first implied that either $f(x) = f(-x)$ or $f(x) + f(-x) = x^2$ (here $x \neq 0$). But plugging the latter into the first equation gives
+\[ f(x)^2 = x^2 \left[ x^2 - f(x) \right] \implies f(x)^2 + x^2 f(x) + x^4 = 0. \]
+Miraculously, this had a negative discriminant!
+So in fact I got exactly what I wanted. Thus, I in fact had that
+\[ f(x)^2 = x^2f(x). \]
+for all $x$.
+
+It was probably around this time that I ran out of coffee or something, because I spent the next 10 minutes wondering what to do with this, until I realized I was being an idiot and the $f(x)$ was on both sides. Almost done -- I now had either $f(x) = 0$ or $f(x) = x^2$ for each individual $x$.
+I crossed my fingers that there were no pathological solutions to the original problem, but I guessed there might be.\footnote{Perhaps because of some recent problems that I had tried doing that had very pathological solutions.}
+
+Well, what would a pathological solution look like? Let us say that $x$ is good if $f(x) = x^2$ and bad otherwise (noting that $0$ was both good and bad).\footnote{I didn't actually use this notation during the test, but it makes the following discussion clearer.} Suppose that there was a bad nonzero $y$. Plugging this in gave
+\[ xf(-x) + y^2 f(2x) = \frac{f(x)^2}{x} \]
+Since $f(-x) = f(x)$, regardless of whether $f(x)$ was $x^2$ or $0$ we would have $y^2 \cdot f(2x) = 0$. But $y \neq 0$, so $f(2x) = 0$.
+That meant $f(\text{even}) = 0$; that is, all the even numbers were bad.
+I immediately considered the possibility that $f$ could be bad on the even numbers and good elsewhere, but soon found a counterexample to this construction.\footnote{I think paranoia is a good attitude to have with functional equations, especially the integer-flavored ones for which weird solutions are possible. Optimism leads to ``jumping to conclusions'', missing little details, whatever. Paranoia leads to careful, sanitized calculations.}
+
+At this point I decided it was likely that $f \equiv 0$ and $f \equiv x^2$ were the only solutions, and so I started writing up what I had on the official solution sheets. I was confident that probably whatever I wrote down for the end would start working, since the functional equation was almost dead.
+I also wanted to know right away if I had made any mistakes earlier, since writing up my solution would hopefully cause me to notice errors.
+
+No errors appeared, and I was up to even numbers bad; I wanted to show that odd numbers were bad. I wrote down ``select $x=2k \neq 0$ in the given'' and obtained, after cleanup,
+\[ y^2 f(4k - f(y)) = f(yf(y)). \]
+Now I assumed for contradiction there was a nonzero good $g$, and put $g=y$.
+If $g^3$ was good as well, this led to an immediate contradiction, so this meant that
+\[ f(4k-g^2) = f(g^2-4k) = f(g^3) = 0 \]
+for all integers $k \neq 0$. Since $k$ could vary, now all the integers were bad! Unless\dots
+
+Unless $k=0$. It was conceivable that $g^2$ itself might be good.
+This was no big deal -- we still get that $g$ was bad using the above, which is absurd since we began by assuming there was a nonzero good $g$.
+
+Unless $g = \pm g^2$ -- oh no. I had one last function that might be a candidate -- $f(x) = 1$ if $x=\pm 1$ and zero otherwise.\footnote{I heard that the official solution provided at grading actually missed this case. This did not prevent the graders from realizing this and fixing said solution.}
+I immediately became convinced that this was the trap to this problem I had feared at the beginning.
+To see if this function worked, I had about four cases to consider:
+\begin{itemize}
+  \ii If $x = \pm 1$ and $y = \pm 1$, then we got $1+1 = 1+1$. Fine.
+  \ii If $x = \pm 1$ but $y \neq \pm 1$, then we got $1 = 1$.  Fine.
+  \ii If $x,y$ are both not $\pm 1$, then both sides were just $0=0$. Fine.
+\end{itemize}
+Fortunately, this function turns out to fail at $x \neq \pm 1$, $y = \pm 1$ (although at first I thought it worked here too, and thus my solution had a lot of strike-outs.)
+After checking this another several times, I wrote down the finishing steps and moved on to \#3.
+I was disappointed -- I was hoping that finding a pathological solution would give me a leg up over everyone else, but apparently it would only boost me a few points.
+
+\subsection{Problem Three -- Elliptic Curves}
+I almost laughed at the absurdity of the situation now. I had a couple hours, and was finally up against a \#3.
+I didn't really think I stood much of a chance.
+But I had two hours left, so what was I supposed to do?
+
+\stage\three
+
+
+Well, first things first -- shift the indices so the condition is $a+b+c=1$. No sense in dealing with that $2014$.
+
+I thought that this was going to be some tricky combinatorial construction, but instead the first thing that occurred to me was ``barybash''!
+Indeed, it would be really cool if I could coax out a determinant that would do what I wanted; I'd just associate each point with
+\[ P_t = \left( f(t) : g(t) : h(t) \right) \]
+for some functions $f$, $g$, $h$.
+I actually did not think this was going to the official solution, but I figured that I didn't stand a chance if it was actually combinatorics.
+I decided that now was a good time to actually write up the solution to \#1; then, I went back to attacking \#3.
+
+Unfortunately, at this point I came up with a ``proof'' that $a+b+c=0$ could not work in lieu of $a+b+c=1$, thus meaning that $2014 \equiv 1 \pmod 3$ was important to the following.
+Here is the fake proof.
+\begin{quote}
+  We have
+    \[ (-1)+0+1=0 \implies P_{-1},\ P_0,\ P_1 \text{ collinear} \]
+    \[ 0+1+2=0 \implies P_0,\ P_1,\ P_2 \text{ collinear} \]
+  So $P_{-1}$, $P_0$, $P_2$ were collinear, a contradiction since $-1+0+2 = 1$.
+\end{quote}
+Of course, the flaw in this proof is that $0+1+2$ is $3$ and not $0$.
+Oops.
+I guess that's what happens when your brain is running on caffeine instead of sleep.
+
+Unfortunately this led me to spend the next hour trying to construct piecewise formulas for the $f$, $g$, $h$ to no avail.
+Lots of crazy thing, involving $(a-b)(a+b+c-1)$ and things like that.
+
+Finally after eight pages or so of attempts I got fed up\footnote{Thankfully. I don't think I would have solved this problem if I were anywhere as patient as most people I know.} of this, frustrated at having a lot of near misses.
+What did I want to happen, anyways? The most stupid thing\footnote{Another instance of trying stupid things first.} I could try was to have
+\[ (a-b)(b-c)(c-a)(a+b+c) \]
+as the final result of my Shoelace determinant, where I had shifted by $\tfrac 13$, but my fake proof had convinced me this could not happen.
+
+Nonetheless, I was so flustered I expanded it anyways. This led to
+\begin{align*}
+  (a-b)(b-c)(c-a)(a+b+c) &= -\sum_{\text{cyc}} a^2(b-c)(a+b+c) \\
+  &= -\sum_{\text{cyc}} a^3(b-c) + a^2(b^2-c^2) \\
+  &= -\sum_{\text{cyc}} a^3(b-c)
+\end{align*}
+The instant I wrote  the last line my heart skipped a beat. For this could only be
+\[ \left\lvert
+  \begin{array}{ccc}
+    1 & a & a^3 \\
+    1 & b & b^3 \\
+    1 & c & c^3
+  \end{array}
+  \right\rvert \]
+and I was done, with a full hour to spare!
+
+Now to hope I could pull this off on Day II also\dots
+
+\subsection{After Day I}
+I log onto Facebook, Gmail, and AoPS half an hour after the test concludes to see how everyone else did.
+I'm pleasantly surprised to see that I have built a lead over quite a bit of the Selection Team -- I had always felt that if I could solve a problem on the USAMO then most of the winners would solve it too. This was the first year where this was not the case.
+
+I ignore the well-suggested advice of Steve Dunbar and proceed to discuss all the problems on the Art of Problem Solving forums. It's not until later that day that I fall into sleep.
+I got quite a bit more sleep before today's test.
+
+\section{Day II}
+\emph{12:30 AM}.  Like yesterday, the professor was kind enough to prepare me a cup of coffee.
+
+\begin{enumerate}
+  \ii[USAMO 4.] \four
+  \ii[USAMO 5.] \five
+  \ii[USAMO 6.] \six
+\end{enumerate}
+
+Well, it looked like the combinatorics problem had finally come out; thankfully it was \#4. So had the geometry problem.
+
+During the Taiwan camps I found that geometry skills, once my strongest subject by far, had become quite questionable.
+After writing my monstrosity of a textbook, I started seeing almost all geometry problems structurally.
+The end result that I had begun complex bashing almost everything, because it was just so easy and straightforward and it almost always worked.
+
+I decided to start with the geometry problem anyways, as I would take geometry over combinatorics any day.
+
+\subsection{Problem Five -- A Geometry Problem}
+
+I hoped that today I might actually be able to do something synthetically.
+
+\stage\five
+
+The first thing I noticed was the point $H$. \emph{Floating orthocenter}?\footnote{See Problem 7 of the 2012 European Girl's Math Olympiad for another floating orthocenter.} It wasn't tied into the rest of the diagram at all. It was just\dots there.
+
+Well, floating orthocenters would not do. Immediately I reflect the point $P$ over side $\ol{AC}$ to the point $Q$.
+Thus $Q$ was on the circumcircle of triangle $ABC$.
+Moreover, $\angle CAQ = \half \angle BAC$.
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(7cm);
+    pair A = Drawing("A", dir(110), dir(110));
+    pair B = Drawing("B", dir(210), dir(210));
+    pair C = Drawing("C", dir(330), dir(330));
+    draw(A--B--C--cycle);
+    draw(unitcircle);
+    pair Q = dir(30); // 330 - 1/2 * (330-210)
+    Drawing("Q", Q, Q);
+    pair P = A+C-A*C*conj(Q);
+    P = Drawing("P", P, dir(Q-P));
+    pair X = Drawing("X", circumcenter(A,P,B), dir(225));
+    pair Y = Drawing("Y", orthocenter(A,P,C), dir(225));
+    pair X1 = Drawing("X'", A+C-A*C*conj(X), dir(45));
+    pair Y1 = Drawing("Y'", A+C-A*C*conj(Y), dir(45));
+    Drawing("H", A+B+C, dir(170));
+    draw(circumcircle(A,P,C));
+    pair B1 = Drawing("B'", A+C-A*C*conj(B), dir(45));
+    draw(A--Q--C--cycle);
+    draw(X--Y);
+    draw(X1--Y1);
+    Drawing("O", origin, dir(45));
+  \end{asy}
+  \caption{Problem 5 diagram.}
+\end{figure}
+
+This led me to reflect the point $B$ over $\ol{AC}$ as well. Then $X'$ and $Y'$ were the orthocenter and circumcenter of these reflected points.
+And this could clearly be done by complex numbers\dots
+
+I groaned\dots Not again.
+快快把複數丟掉。
+No use -- I tried synthetic things for another 10 minutes and found nothing.
+I decided to put my morals aside and just complex bash.
+Not now, though; I would to work on Problem 4 first, and then get back to bashing this when I got stuck.
+
+\subsection{Problem Four -- A Game on a Hexagonal Board}
+\stage\four
+When I started I had four hours left.
+
+The first thing I did was play the game a bit. It was obvious that I could get an equilateral triangle on Alice's second turn; then Bob reduced that to two-in-a-row..
+Thus Alice could indeed get four-in-a-row.
+But I felt like it might to be possible to get $k=5$ as well.
+
+Specifically, on $A$'s third turn we could easily obtain the following threat, \Cref{fig:threat}.
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(6cm);
+    mark(0,0);
+    mark(1,0);
+    spot(2,0);
+    spot(3,0);
+    mark(4,0);
+    mark(5,0);
+  \end{asy}
+  \caption{Threats.}
+  \label{fig:threat}
+\end{figure}
+
+This basically forces $B$ to take either of the two inner counter,s which we could repeatedly fill back in.
+However, I couldn't easily coax a $k=5$ win to work.
+
+Thus I tried find upper bounds.
+At first I was trying to find colorings that would show $k=5$ could not work.
+In retrospect this was stupid, because I should have started with the dumbest bounds I could\footnote{Yet another instance of doing stupid things first.} to get a feeling for what might be happening.
+
+Fortunately this time around, it didn't really hurt me, it just led to me try a couple things that didn't work before I stumbled across \Cref{fig:coloring}.
+
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+    size(6cm);
+    int N = 3;
+    for (int x=-N; x<=N; ++x) {
+      for (int y=-N; y<=N; ++y) {
+        if ((x-y) % 3 == 0) mark(x,y);
+        else spot(x,y);
+      }
+    }
+  \end{asy}
+  \caption{Hexagonal grid coloring.}
+  \label{fig:coloring}
+\end{figure}
+
+By having $B$ constantly remove anything that falls on a colored cell, we establish that it's impossible to get $6$ in a row.
+This led me to believe that $k=5$ was probably doable.
+Indeed, I soon concoct what I think is a strategy to get $k=5$; I won't write the details here because it's long and messy, but you just do it.
+I decide to defer writing this up until I get stuck on \#6; however, I decide I should probably make sure that I finished the complex bash on \#5 before trying \#6.
+
+
+\subsection{Bashing}
+Fortunately, my \#5 bash is even cleaner than I had thought it would be in my head.
+I felt kinda bad, but you got to do what you got to do. % Sorry, Alicia.
+
+For completeness, here is the solution.
+We set $(ABC)$ as the unit circle.
+Obviously $y' = a + q + c$. Now we need to compute $x'$. You can get this using the circumcenter formula \[ x' = a + \frac{(b'-a)(q-a)\left( \overline{q-a}-\overline{b'-a} \right)}{(b'-a)\overline{(q-a)} - \overline{(b'-a)}(q-a)}. \]
+Using the angle condition we know $b = \frac{c^3}{q^2}$, and then that \[ b' = a+c - ac\ol b = a+c-\frac{aq^2}{c^2}. \]
+Thus \begin{align*}
+  x' &= a + \frac{\left( c-\frac{aq^2}{c^2} \right)\left( q-a \right)\left( \frac 1q - \frac 1a - \frac 1c + \frac{c^2}{aq^2}  \right)}{\left( c-\frac{aq^2}{c^2} \right)\left( \frac 1q - \frac 1a \right) - \left( \frac 1c - \frac{c^2}{aq^2} \right)\left( q-a \right)} \\
+  &= a + \frac{\frac{c^3-aq^2}{c^2} \left( q-a \right)\left( \frac 1q - \frac 1a - \frac 1c + \frac{c^2}{aq^2} \right)}{-\frac{c^3-aq^2}{c^2}\frac{q-a}{qa} + \frac{c^3-aq^2}{aq^2c}(q-a)} \\
+  &= a + \frac{\frac 1q - \frac 1a - \frac 1c + \frac{c^2}{aq^2}}{-\frac{1}{qa} + \frac{c}{aq^2}} \\
+  &= a + \frac{c^2-q^2 + aq-\frac{aq^2}{c}}{c-q} \\
+  &= a + c + q + \frac{aq}{c}
+\end{align*} whence \[ \left\lvert x'-y' \right\rvert = \left\lvert \frac{aq}{c} \right\rvert = 1.\]
+
+\subsection{Problem Six -- Gabriel's NT Problem}
+This time I had 2.5 hours left and I was feeling pretty good.
+Number theory had always secretly been my best subject after I took Number Theory 3 at AwesomeMath 2011 with Gabriel Dospinescu.
+And as fate would have it, guess who wrote the sixth problem?\footnote{I actually guessed this was likely to be his problem since it was asymptotic number theory. The only other asymptotic NT I had seen was TSTST 2011 \#3. Although I had absolutely no idea at the time, it turned out they were actually the same problem.}
+
+\stage\six
+
+The first thing I noted was that the right-hand side was basically $(cn)^{n/2}$. I'm not sure why it wasn't written that way, but whatever.
+
+Now to actually deal with the problem. What does size have to do with anything?
+I guessed that it probably meant that some $a+i$ had to be really divisible -- that is, divisible by so many primes and prime powers that it was forced to be large.\footnote{See, for example, my \#8 on the NIMO 2013 Winter Contest.} After all, size and factors are not otherwise terribly related.
+
+Thus, I tried looking at prime factors. For example, suppose that $\gcd(a+i,b) > 1$ for all $i=0,1,\dots,n$.
+I considered looking at a ``stream'' of prime factors as $i$ ranged; say for $i=0,1,\dots,20$ we might have something like the following.
+\[
+  \begin{array}{r|ccccccccccccccccccccc}
+    i & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 \\ \hline
+      & 2 & 3 & 2 & \ast & 2 & 5 & 2 & 3 & 2 & \ast & 2 & \ast & 2 & 3 & 2 & 5 & 2 & \ast & 2 & 3 & 2
+  \end{array}
+\]
+Here the $\ast$ primes are fairly large. Maybe we could use this to get a lower bound on $b$?
+I supposed the main idea was that I wanted to show that there were a lot of large primes at some point in this stream, and multiply them to get the estimate.
+
+I played with this idea some, as well as doing some stuff with the Chinese Remainder Theorem.
+In retrospect I think I should have realized the Chinese Remainder Theorem wasn't useful here, because it really didn't say anything about size.
+
+Anyways, I thought a bit about why this approach wasn't being strong enough. It soon occurred to me -- a prime potentially could cover up to $\frac{1}{p}$ of the entries, and $\sum \frac 1p$ diverged.
+Indeed, I wasn't considering $j$ at all, so it wasn't surprising I couldn't get what I wanted.
+
+The main idea dawned on me now -- why am I not looking at the entire $(n+1) \times (n+1)$ table?
+What on Earth was I doing?
+Why was I restricting myself to a stupid, narrow stream?
+
+I drew such a table with $n=6$.
+\[
+  \begin{array}{r|ccccccc}
+      & 0 & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline
+    0 & 2 & 3 & 2 & . & 2 & . & 2 \\
+    1 & 5 & . & . & . & . & 5 & . \\
+    2 & 2 & . & 2 & . & 2 & . & 2 \\
+    3 & . & 3 & . & . & 3 & . & . \\
+    4 & 2 & . & 2 & . & 2 & . & 2 \\
+    5 & . & . & . & . & . & . & . \\
+    6 & 2 & 3 & 2 & . & 2 & 5 & 2
+  \end{array}
+  \]
+I noticed that this time, I was having a much harder time filling up a substantial portion of the table, unlike the stream.
+Then I realized this was obvious, because here I was only filling up $p^{-2}$ of the table with a prime $p$.
+This was much smaller.
+
+Now I took some advice I got from Gabriel Dospinescu -- \emph{use obvious inequalities}.\footnote{Also known as, try stupid things first. This seems to be becoming a trend!}
+For now I ignored all the overlapping between prime covers.
+
+Suppose that the entire table was covered by primes at most $M$, and let's say there are $r$ such primes.
+Since each prime covers at most $\left\lceil N/p \right\rceil^2$ entries (here $N = n+1$), in total they cover at most
+\begin{align*}
+  \sum_{p \le M} \left\lceil \frac Np \right\rceil^2 \le \left( \frac Np +1\right)^2
+  =&\phantom+ N^2 \underbrace{\left( \frac{1}{2^2} + \frac{1}{3^2} \dots \right)}_{\text{$r$ terms}} \\
+  &+ 2N \underbrace{\left( \frac12 + \frac 13 + \dots   \right)}_{\text{$r$ terms}} \\
+  &+ \underbrace{\left( 1+1+\dots \right)}_{\text{$r$ terms}}.
+\end{align*}
+
+We're past the hard part now -- I just need to pick a good choice of $M$.
+I'll present one that gets you $(cn)^n$ (which is much stronger than the original) for large $n$.
+Let's pick $M=0.001n^2$.
+
+Now, we can prove with enough care that
+\[ \frac{1}{2^2} + \frac{1}{3^2} + \frac{1}{5^2} + \dots < \sum_{\text{all primes $p$}} p^{-2} <  0.498. \]
+Also, one can show that \[ \frac12 + \frac 13 + \dots < \frac11 + \frac12 + \dots + \frac 1M \sim O(\log M) \]
+Finally, it's obvious that $r < M < 0.001N^2$.
+That means the first term is at most $0.498N^2$, the second term is negligibly small (certainly smaller than $0.001N^2$), and the last term is also less than $0.001N^2$.
+So the entire sum is at most $\half N^2$.
+
+That means at the half the entries in the table are greater than $M$. Hence some row has at least half its entries greater than $M$.
+Since $M > N$ eventually, these entries are all distinct. So the product of the primes in that row is at least
+\[ M^{\half N} > (0.001n^2)^{\half n} = (cn)^n \]
+for some constant $c$, as required.
+
+The details are somewhat cumbersome to work out exactly, but the idea is pretty natural at heart. And that's how you crack a USAMO \#6.
+
+\subsection{The Last Hour}
+After I finished \#6 I had about an hour left. I spent an hour carefully writing up \#6, making sure I got all the details right. The last thing I wanted was to get a 6 on this problem and end up with a 41. This careful write-up took a full 30 minutes to produce.
+
+With half an hour left, I went to write up the solution to \#4 -- I had been so absorbed in \#6 that I never did put it down to work on writing.
+No matter. I wrote that the answer was $k=6$, gave them the coloring, and then proceeded to write up the strategy\dots
+
+And then my heart froze.
+
+I realized that my ``winning strategy'' for $k=5$ didn't actually work.
+
+What followed was the most nerve-wracking $20$ minutes of any olympiad I had ever taken.
+I didn't bother using scratch paper -- I just wrote down my thoughts on the official solution templates as they came to me, crossing out what I didn't need as I went.
+The whole time, all I could think about was how this was all that stood between me and a perfect USAMO.
+I don't even remember the solution by now. All I can remember was the pressure.
+
+Despite all that, by some miracle, I walked out of the room with a complete solution written up in trembling handwriting across four pages.
+
+\section{Aftermath}
+Alas, no perfect score -- I got a $41$ because of some stupid detail somewhere.
+That means my dream of acing the USAMO will always remain a dream, now and forever.
+
+My birthday present, on the other hand\dots
+
+\end{document}
