@@ -50,8 +50,9 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 ## {{ hl("journals", "Journals") }}
 
-- <b>IMO 2014 Journal</b> {{ handout_link("IMO-2014") }}
+- <b>IMO 2014 Journal</b> {{ handout_link_src("IMO-2014") }}
   This describes my experiences competing as TWN2 at the 55th IMO 2014.
+  (You can download [full-resolution photos from the trip][imo-2014-photos].)
 
 - <b>Taiwan TST 2014 Reflection</b> {{ handout_link("TaiwanTST") }}
   This describes my experiences competing for a position on the Taiwan IMO 2014 team.
@@ -63,6 +64,8 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   This describes in detail the thought process behind each of
   my solutions to the USAMO 2014.
   I also [scanned the solutions I submitted.](upload/usamo-2014-my-sols.pdf)
+
+[imo-2014-photos]: https://github.com/vEnhance/web.evanchen.cc/tree/main/handouts/IMO-2014/photos-maxres/
 
 ## {{ hl("alg", "Algebra (Hufflepuff)") }}
 
