@@ -63,7 +63,7 @@ def page_footer(page: dict[str, str]) -> str:
 
 
 def get_twitch_table() -> str:
-    if False and (data_directory := Path.home() / "ProGamer/Writeups/").exists():
+    if (data_directory := Path.home() / "ProGamer/Writeups/").exists():
         tsv_path = data_directory / "data.tsv"
         json_path = data_directory / "urls.json"
     elif (data_directory := Path("twitch-data")).exists():
