@@ -172,11 +172,23 @@ You can also look at [Napkin source code](https://github.com/vEnhance/napkin/).
 
 ### {{ faq("L-10", "Which LaTeX distribution do you recommend?") }}
 
-- Windows: [TeX Live](https://en.wikipedia.org/wiki/TeX_Live)
+- Windows:
+
+  - [MikTeX](https://miktex.org/) is most common for Windows,
+    but suffers from a number of issues like shipping outdated components
+    leading to, e.g. [Asymptote issue](https://tex.stackexchange.com/q/663245/76888).
+
+  - [TeX Live](https://en.wikipedia.org/wiki/TeX_Live) is better,
+    but often takes forever to install on Windows for
+    [reasons unknown to humanity](https://tex.stackexchange.com/q/666988/76888).
+
 - Mac: [MacTeX](https://www.tug.org/mactex/)
+
 - Linux: [TeX Live](https://en.wikipedia.org/wiki/TeX_Live),
   almost certainly available from your package manager
-  (e.g. `pacman -S texlive-core` or `apt install texlive`)
+  (e.g. `pacman -S texlive-core` or `apt install texlive`).
+  Unlike Windows, on Linux this should install in at most a few minutes
+  if your Internet connection is decent.
 
 ### {{ faq("L-11", "Which text editor do you use/recommend?") }}
 
