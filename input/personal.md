@@ -100,8 +100,8 @@ rather than QWERTY.
 - [Math contest photos and history](history.html)
 - Myers-Briggs: INFJ-T, but see [criticism of the MBTI](https://en.wikipedia.org/wiki/Myers-Briggs_Type_Indicator#Criticism)
 - [Monkeytype: > 150wpm](https://monkeytype.com/profile/vEnhance)
-- Favorite city: Duluth, Minnesota
-- Most hated city: New York
+- Favorite city: [Duluth, Minnesota](https://en.wikipedia.org/wiki/Duluth%2C_Minnesota)
+- Most hated city: [New York](https://en.wikipedia.org/wiki/New_York_City)
 
 [orthocenter]: https://mathworld.wolfram.com/Orthocenter.html
 [mixt]: https://mathworld.wolfram.com/MixtilinearIncircles.html
