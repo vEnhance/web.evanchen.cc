@@ -126,7 +126,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 - <b>How to Use Directed Angles</b> {{ handout_link_src("Directed-Angles") }}
   A short note on the use of directed angles in olympiad solutions.
-  Why didn't anyone beat me to writing this?
+  See also [FAQ C-11](faq-contest.html#C-11).
 
 - <b>Lemmas in AoPS Geometry</b> {{ handout_link_src("GeoSlang") }}
   A sardonically named handout that lists some silly names
