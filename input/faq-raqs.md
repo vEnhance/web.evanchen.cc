@@ -149,9 +149,17 @@ or differentiating students.
 
 ### {{ faq("R-6", "Should I graduate early from high school?") }}
 
-I am usually against it.
+There's actually two versions of this question.
 
-In short, my model of high school (and to some extent college as well) is that
+One is leaving high school a year early to do something like a gap year or other
+break from traditional schooling. That seems fine to me.
+
+The second version is leaving high school a year early to
+attend university or start work one year ahead of time.
+I usually recommend against this.
+(And I'm not alone; I think both Po-Shen and Zuming are really against it too.)
+
+In short, my model of high school (and college as well) is that
 this is the time to **gain as many experience points as possible**.
 The specifics of what domain you do this in are not important.
 
@@ -159,6 +167,17 @@ So to me, "my high school is not sufficiently challenging for me" seems
 insufficient justification to throw away a year of this growth time,
 because since when does high school teach you anyway?
 You are responsible for your own learning.
+
+Starting college a year early doesn't increase the amount of time you get
+to be an undergraduate. It just means you replace one year of high school
+with one extra year of being a working adult way later.
+Frankly, this seems like a terrible trade to me.
+I think many people, in practice, are going to have way more
+freedom to learn things on their own, or just explore interests and hobbies,
+while they are a student than once they become a "real adult".
+
+There's no race to graduate from school; if anything,
+I would do the opposite and try to postpone leaving school as long as possible.
 
 ### {{ faq("R-7", "I am a parent. Give me advice!") }}
 
