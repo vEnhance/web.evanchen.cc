@@ -89,7 +89,8 @@ actually has two cases.
 \end{figure}
 
 Doesn't that just look annoying?
-Any time you want to invoke a cyclic quadrilateral, you have to actually check the points lie on the correct side of some line.
+Any time you want to invoke a cyclic quadrilateral,
+you have to actually check the points lie on the correct side of some line.
 
 In fact, you even have to worry about configuration issues for something as simple as adding two angles.
 \begin{ques}
@@ -101,7 +102,7 @@ In fact, you even have to worry about configuration issues for something as simp
 Thus any time you want to add two angles, you technically need to also check that point $P$ lies ``inside'' $\angle AOB$.
 
 Given all this disaster, you might wonder how we ever got any angle chasing done at all.
-The secret is that \textbf{configuration issues are the object of widespread scorn}:
+The secret is that \alert{configuration issues are the object of widespread scorn}:
 they are glossed over, swept under a carpet, or ``left as an exercise''.
 I've almost never seen them addressed seriously, except in the very rare circumstances in which they actually matter.
 
@@ -110,7 +111,9 @@ Let's fix this.
 \section{Directed Angles}
 In what follows I'm going to write $\measuredangle AOB$ for a directed angle
 to distinguish it from a ``regular'' angle $\angle AOB$.
-But I should warn that \textbf{this notation is absolutely not standard}.
+But I should warn that \textbf{this notation is not standard}.\footnote{Editor note:
+  As of 2023, this notation is more standard now,
+  due to the publishing of the textbook EGMO. (This handout was written in 2015.)}
 Thus if you wish to use directed angles on an olympiad, you should explicitly say so in your solution.
 
 Here's the very general definition.
@@ -656,6 +659,35 @@ the solution in the first place.
   \end{enumerate}
 \end{problem}
 
+\newpage
+\appendix
+\section{Addendum}
+\href{https://web.evanchen.cc/faq-contest.html#C-11}{FAQ C-11 from evanchen.cc},
+which was written several years later, is worth mentioning:
 
+\begin{ques*}
+Directed angles are really confusing! Can I just use normal angles?
+\end{ques*}
+
+\noindent\textbf{Answer.}
+You could probably get away with it,
+because it is common practice to not deduct for configuration issues
+(although it does happen from time to time).
+So, if you really hate it, you can ignore it.
+
+However, in the words of Ankan Bhattacharya:
+\begin{quote}
+You should learn directed angles,
+not necessarily because they deal with inessential configuration issues,
+but because once you know them angle chasing with directed angles
+becomes easier than normal angle chasing.
+\end{quote}
+
+I have the same opinion.
+I initially used directed angles anyway because I cared about having
+complete correct solutions even if I didn't lose points for it.
+But then I realized it's actually easier once you get used to it,
+because you don't need to keep track of $x$ vs $180\dg-x$ anymore.
+So I don't think I would go back to using normal angles even if I could.
 
 \end{document}
