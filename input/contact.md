@@ -117,12 +117,22 @@ Because of this, the replies are informative and targeted.
 
 ## {{ hl("tech", "Tech help") }}
 
-If you want to ask for tech support with LaTeX or Linux, there are a couple
-channels in my personal Discord where you might get responses.
-If you do have a question:
+First, at the risk of stating the obvious, try search engines.
+If that fails, there are a couple channels in my personal Discord
+where you might get responses.
 
-- Try search engine first.
-- Always paste code as text (or pastebin, etc.); **do not use screenshots**.
-- For LaTeX always include a
-  [minimal working example](https://www.texfaq.org/FAQ-minxampl).
-- For Linux, write what commands you typed and the output.
+If you do have a question for me or my Discord, note two important guidelines:
+
+- You must include a
+  [minimal working example (MWE)](https://www.texfaq.org/FAQ-minxampl).
+
+  - For LaTeX, this means: post a complete file, starting from `\documentclass`
+    and ending with `\end{document}`, that shows the issue.
+    This way I can compile the code myself and then try to edit it.
+
+  - For Linux issues, show the commands you typed and their output.
+
+  - Similarly for other languages; provide a full self-contained example.
+
+- You should send the code as text or pastebin so that I can copy it.
+  Do not use a screenshot.
