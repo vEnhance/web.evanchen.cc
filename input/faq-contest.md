@@ -503,6 +503,8 @@ except that [Euclidean geometry][geombook] is absent,
 while abstract and linear algebra, calculus,
 and a bit of real analysis are fair game.
 Most non-geometry resources on this website should work equally well for Putnam.
+For the undergraduate topics, reading a bit of [Napkin](napkin.html)
+may be helpful for grounding if you haven't seen those areas before.
 
 Format-wise, the most stark difference, in my opinion,
 is that the time controls for the Putnam are much faster.
