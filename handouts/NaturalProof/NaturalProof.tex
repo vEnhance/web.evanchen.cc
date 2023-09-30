@@ -1,9 +1,16 @@
 \documentclass[11pt]{scrartcl}
 \usepackage[sexy]{evan}
+\usepackage{epigraph}
 
 \begin{document}
 \title{Intro to Proofs for the Morbidly Curious}
 \maketitle
+\epigraph{It's weird how we taught students to encode
+  their understanding of math in their understanding of social permission
+  (what they're ``allowed'' to do).
+  Permission has nothing to do with it.
+  The question is what procedures turns true statements into true statements.}
+  {\href{https://twitter.com/QiaochuYuan/status/1306035720109404162}{Qiaochu Yuan, on Twitter}}
 
 \tableofcontents
 
@@ -53,19 +60,16 @@ So here are two imperfect analogies.
 
 \subsection{Analogy from programming}
 Suppose you're writing a Hello World program in C++, like
-\begin{lstlisting}[language=C++,basicstyle=\small\ttfamily]
+\begin{lstlisting}[language=C++,basicstyle=\scriptsize\ttfamily]
 #include <iostream>
-int main() {
-    std::cout << "Hello World!";
-    return 0;
-}
+int main() { std::cout << "Hello World!"; return 0; }
 \end{lstlisting}
 What happens after you write this code?
 Well, after that, the compiler will translate the
 program into \emph{machine code}.
 And this machine code is incomprehensible to humans.
-For example, an intermediate step in the compilation process might look like:
-\begin{lstlisting}[basicstyle=\scriptsize\ttfamily]
+For example, an intermediate step in the compilation process might start with:
+\begin{lstlisting}[basicstyle=\tiny\ttfamily,numbers=none]
   .file  "hello.cpp"
   .text
   .local  _ZStL8__ioinit
@@ -89,7 +93,6 @@ main:
   leaq  _ZSt4cout(%rip), %rax
   movq  %rax, %rdi
   call  _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
-[ . . . and so on ]
 \end{lstlisting}
 Holy cow! And that's just one of the intermediate steps.
 The final output is going to be some bytes run by machine.
@@ -117,7 +120,7 @@ are unimportant; it only matters that it \emph{could} be done in theory.
 Another metaphor you can think about is Western chess.
 Officially, a game of Western chess ``is''
 a sequence of moves in algebraic notation, such as:
-\begin{lstlisting}[basicstyle=\normalsize\ttfamily]
+\begin{lstlisting}[basicstyle=\normalsize\ttfamily,numbers=none]
 1.  e4   e5
 2. Nf3  Nc6
 3. Bb5   a6
@@ -160,12 +163,12 @@ An example of a definition in geometry might look like:
 \end{definition}
 But of course you can then ask further:
 \begin{itemize}
-  \ii What is the definition of an ``altitude''?
+  \ii What's the definition of an ``altitude''?
   We define the altitude to be the line
   through a vertex perpendicular to the opposite side.
-  \ii What is the definition of ``perpendicular''?
+  \ii What's the definition of ``perpendicular''?
   The two lines should meet at a $90\dg$ angle.
-  \ii What is the definition of ``angle''? Well\dots
+  \ii What's the definition of ``angle''? Well\dots
 \end{itemize}
 At some point, you have to stop somewhere.
 And there is a way to stop somewhere,
@@ -243,7 +246,7 @@ and argue why their definition (subjectively) makes more sense.
 
 \subsection{Proving things in real life}
 That's fine and all, but a lot of the readers of this article
-are probably proving results that are a lot more complicated than
+are probably proving results a lot more complicated than
 ``product of two even numbers is even''.
 
 For example, here is an example of a competition problem:
@@ -552,7 +555,7 @@ but some of the advice still applies.)
   so any time you can ``divide and conquer'', it's almost always good.
   \end{itemize}
 
-  \ii For competition problems, identifying critical steps is especially
+  \ii For competition problems, \alert{identifying critical steps} is especially
   important because those problems tend to have one or two key ideas.
 
   As an example, I was a grader for the recent geometry problem
