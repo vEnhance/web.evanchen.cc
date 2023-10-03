@@ -14,11 +14,10 @@ This idea was taken from [Paul Graham][raq].
 
 Mostly by cutting out activities that aren't important to me.
 
-I feel high school students tend to focus too much on "local" changes
+I feel high school students tend to focus too much on small changes
 (using Chrome productivity extensions, shaving time off X, etc.)
-rather than "global" changes (dropping entire classes or commitments).
-It's not that local changes are bad, but you should usually
-consider global changes first before local changes
+rather than big changes (dropping entire classes or commitments).
+It's not that small changes are bad, but you should consider big changes first
 ([see so-called 80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
 Aggressively dropping classes and extracurriculars
 that aren't adding value to your life
@@ -38,11 +37,9 @@ take graduate math classes, learn to play
 sleep a ton, AND play StarCraft.
 While I don't encourage everyone to do this, I think it illustrates my point.
 
-For those of you who were at Math Prize 2015,
+For those of you who were at Math Prize for Girls in 2015,
 Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
 [which you can watch here, 49:30 -- 55:30][vxia].
-
-[See here for more discussion][aopstime].
 
 ### {{ faq("R-2", "I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?") }}
 
@@ -72,9 +69,8 @@ or that you've always wanted to do, and then try to do it.
 I think this often turns out to be easier than you might expect,
 because you already have a lot of experience learning something
 that felt too hard for you (through math contests).
-As far difficulty goes,
-the optimum is to pick a project with a 50% chance of success.
-But really the main thing is to optimize for fun,
+Perhaps try to pick a project with a 50% chance of success,
+but really the main thing is to optimize for fun,
 because otherwise you won't be able to force yourself to work on it anyway.
 
 It's understandably daunting to move into something
@@ -141,8 +137,7 @@ is the most important things you get have almost nothing to do with math
 
 I think of math contests primarily as a way to stimulate
 intellectual curiosity, cultivate good study habits,
-develop independent learning ability,
-and build a supportive community.
+develop independent learning ability, and build a supportive community.
 Despite the fact that this is nominally a competition,
 I am not really that interested in talent identification
 or differentiating students.
