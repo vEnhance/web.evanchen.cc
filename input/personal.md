@@ -94,7 +94,7 @@ rather than QWERTY.
 - Favorite triangle center: [Orthocenter][orthocenter]
 - Favorite circle: [A-mixtilinear incircle][mixt]
 - Favorite color: [Aquamarine][aquamarine]
-- Favorite movie: [I Want My Hat Back][hat]
+- Favorite movies: [A Whisker Away][awa], [I Want My Hat Back][hat]
 - Favorite music group: [Dreamcatcher][dreamcatcher]
 - Favorite song: [Paradise SIYEON][paradise]
 - [Math contest photos and history](history.html)
@@ -110,3 +110,4 @@ rather than QWERTY.
 [hat]: https://www.imdb.com/title/tt2935976/
 [dreamcatcher]: https://en.wikipedia.org/wiki/Dreamcatcher_(group)
 [paradise]: https://www.youtube.com/watch?v=6TyOvuMWGSQ&ab_channel=Dreamcatcherofficial
+[awa]: https://en.wikipedia.org/wiki/A_Whisker_Away
