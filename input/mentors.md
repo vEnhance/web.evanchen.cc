@@ -17,8 +17,9 @@ The lists below are in alphabetical order.
 Larger programs (not in the categories above) are not included in this list.
 The descriptions are provided by the individuals, not by me.
 
-Suggestions for additions to this list (including self-nominations)
-are welcome; send these by email.
+Suggestions for additions to this list (including self-nominations) are welcome;
+[submit a pull request](https://github.com/vEnhance/web.evanchen.cc/edit/main/input/mentors.md)
+or (less preferably) send me an email.
 
 # {{ hl("programs", "Programs") }}
 
