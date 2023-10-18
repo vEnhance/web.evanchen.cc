@@ -110,7 +110,7 @@ are welcome; send these by email.
   problem-solving and in more advanced levels, you will also learn how to
   create new ideas!
 
-  ## {{ hl("Luka", "Luka Macharashvili") }}
+  ## {{ hl("luka", "Luka Macharashvili") }}
 
 - Contact: $\text{olympicmathtutor}@\text{gmail}{.}\text{com}$
 - Website: [olympicmathtutor.com](https://olympicmathtutor.com/);
