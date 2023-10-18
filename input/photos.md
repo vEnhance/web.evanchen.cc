@@ -12,6 +12,9 @@ These images are licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
 essentially meaning you may use them freely provided attribution is given.
 
+You can also find more pictures of me on
+[Instagram](https://www.instagram.com/evanchen.cc/).
+
 ## Recent photos
 
 <div class="photo-gallery">
