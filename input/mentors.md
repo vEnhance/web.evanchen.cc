@@ -109,7 +109,7 @@ are welcome; send these by email.
   classes, by teaching classified ideas, you will achieve proper mastery in
   problem-solving and in more advanced levels, you will also learn how to
   create new ideas!
-  
+
   ## {{ hl("Luka", "Luka Macharashvili") }}
 
 - Contact: $\text{olympicmathtutor}@\text{gmail}{.}\text{com}$
@@ -126,4 +126,3 @@ are welcome; send these by email.
   With over three years of experience in IMO preparation and more than a year dedicated
   to AIME and AMC, I'm ready to help you achieve your mathematical aspirations.
   Let's embark on this mathematical journey together!
-
