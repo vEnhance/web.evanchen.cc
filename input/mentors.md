@@ -85,6 +85,23 @@ are welcome; send these by email.
   among other things. However, I do not have personal experience in US specific
   olympiads such as AIME.
 
+## {{ hl("luka", "Luka Macharashvili") }}
+
+- Contact: $\text{olympicmathtutor}@\text{gmail}{.}\text{com}$
+- Website: [olympicmathtutor.com](https://olympicmathtutor.com/);
+- Open to both 1:1 and group lessons.
+- I'm Luka Macharashvili, a mathematician with a passion for nurturing young talents
+  and sharing my love for mathematics. My journey in the world of problem-solving
+  began with a remarkable achievement as a 2019 IMO medalist. In 2023, I had the
+  privilege of leading the Georgian team at the Romanian Master of Mathematics (RMM)
+  and Balkan Mathematical Olympiad (BMO). Furthermore, I'm honored to have tutored
+  the 2023 IMO Gold medalist, guiding them towards their impressive success.
+  If you're eager to explore the fascinating world of mathematics, you can find me
+  on my YouTube channel (https://www.youtube.com/@OlympicMathTutor).
+  With over three years of experience in IMO preparation and more than a year dedicated
+  to AIME and AMC, I'm ready to help you achieve your mathematical aspirations.
+  Let's embark on this mathematical journey together!
+
 ## {{ hl("raghav", "Raghav Aggarwal") }}
 
 - Contact: $\text{raghavaggarwal2005}@\text{gmail}{.}\text{com}$
@@ -109,20 +126,3 @@ are welcome; send these by email.
   classes, by teaching classified ideas, you will achieve proper mastery in
   problem-solving and in more advanced levels, you will also learn how to
   create new ideas!
-
-  ## {{ hl("luka", "Luka Macharashvili") }}
-
-- Contact: $\text{olympicmathtutor}@\text{gmail}{.}\text{com}$
-- Website: [olympicmathtutor.com](https://olympicmathtutor.com/);
-- Open to both 1:1 and group lessons.
-- I'm Luka Macharashvili, a mathematician with a passion for nurturing young talents
-  and sharing my love for mathematics. My journey in the world of problem-solving
-  began with a remarkable achievement as a 2019 IMO medalist. In 2023, I had the
-  privilege of leading the Georgian team at the Romanian Master of Mathematics (RMM)
-  and Balkan Mathematical Olympiad (BMO). Furthermore, I'm honored to have tutored
-  the 2023 IMO Gold medalist, guiding them towards their impressive success.
-  If you're eager to explore the fascinating world of mathematics, you can find me
-  on my YouTube channel (https://www.youtube.com/@OlympicMathTutor).
-  With over three years of experience in IMO preparation and more than a year dedicated
-  to AIME and AMC, I'm ready to help you achieve your mathematical aspirations.
-  Let's embark on this mathematical journey together!
