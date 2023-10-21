@@ -46,6 +46,7 @@ Please check the [full rules and procedures][rules].
   The problems are available for download starting 12:30pm ET.
   - You can check your registration status at
     [this link](https://aops.com/contests/usemo/register).
+- Discussion of problems opens at 7:00pm ET each evening after the exam.
 - Volunteers for grading are now open; see below.
 - Problem proposals were due May 10, 2023.
 
