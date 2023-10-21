@@ -132,7 +132,7 @@ For more concrete times, here was the 2022 weekday timetable as an example
 - `10:40-12:10` Morning class 2
 - `12:10-13:20` Lunch
 - Exactly one of:
-  - `13:20-14:50` Afternoon class, OR
+  - `13:20-14:50` Afternoon class,
   - `13:20-17:50` Mock olympiad / Team Selection Test, OR
   - `13:20-14:00` Assembly meeting (for announcements, etc.)
 - `17:00-20:00` Dinner hours
@@ -140,7 +140,7 @@ For more concrete times, here was the 2022 weekday timetable as an example
   OR seminar on higher math (both optional)
 - `22:30-23:00` Evening check-in
 
-There is a lot of free time built into schedule, and this is intentional.
+There is a lot of free time built into the schedule, and this is intentional.
 Some examples of recent activities include singing troupe (see below),
 the double-elimination fish tournament, the plank countdown,
 trips to Waffallonia, dance tutorials,
@@ -156,7 +156,7 @@ Here are recent songs we performed:
 <div class="chooser empty-chooser"></div>
 <div data-header="Singing troupe 2023" data-year="2023" class="hidden" markdown="1">
 - Defying Gravity
-- Unravel
+- Unravel (English version)
 - Another Day of Sun
 - Rewrite the Stars
 - Audition
@@ -230,7 +230,7 @@ Here are recent songs we performed:
 
 ## {{ hl("puzzle", "MOP Puzzle Hunt") }}
 
-[mosp.evanchen.cc](mosp.evanchen.cc) hosts:
+[mosp.evanchen.cc](https://mosp.evanchen.cc) hosts:
 
 - A miniature one-round hunt written by
   Evan Chen, Isabella Quan, Sanjana Das, and Serena An for MOP 2021.
