@@ -41,6 +41,11 @@ Please check the [full rules and procedures][rules].
   It remains open until end-of-day October 20 or when capacity is reached.
 - Day I is Sat. **21 October 2023**, from 12:30pm ET to 5:00pm ET.
 - Day II is Sun. **22 October 2023**, from 12:30pm ET to 5:00pm ET.
+- On each day, the AoPS portal will be functional
+  between 12:00 noon ET and 6:00pm ET, to allow some time for setup
+  and for scanning and submitting solutions.
+  - You can check your registration status at
+    [this link](https://aops.com/contests/usemo/register).
 - Volunteers for grading are now open; see below.
 - Problem proposals were due May 10, 2023.
 
