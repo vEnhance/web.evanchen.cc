@@ -143,7 +143,7 @@ And of course, [my geometry textbook][geombook].
 
 ### {{ faq("C-4", "Is it possible for me to go from X level to Y level in Z time?") }}
 
-I probably don't know much more than you do.
+I probably [don't know much more than you do][generic].
 
 Predicting improvement in math contests is a lot like trying to predict the
 stock market. We have some common sense, but no one _really_
@@ -213,7 +213,7 @@ My gut feeling is that the effect size of this is sufficiently small that
 (iii) it's rounding error compared to the actual final result.
 Therefore, I think the correct thing to do is try both,
 see which one you like better, and just go with that,
-[without worrying about whether it is "right"][right].
+[without worrying about whether it is "right"][generic].
 
 ### {{ faq("C-8", "How do I make fewer careless errors?") }}
 
@@ -418,7 +418,7 @@ You will find it's impossible to learn well if you hang a clock over your head.
 
 ### {{ faq("C-17", "Do I need to make a study plan?") }}
 
-You can if you want to, but it's not that important.
+You can if you want to, but in my opinion [it's not that important][generic].
 I certainly never made a plan as a student.
 
 The reason I have somewhat dim views of study plans is that
@@ -542,6 +542,7 @@ or harder than the worthless expected value that you worked out beforehand.
 [articles]: olympiad.html
 [c15link]: https://aops.com/community/p18587427
 [ebook]: https://www.maa.org/ebooks/EGMO/
+[generic]: https://blog.evanchen.cc/2023/10/03/yet-another-reason-i-dont-give-much-generic-advice/
 [geoff]: https://people.bath.ac.uk/masgcs/geo.pdf
 [geombook]: geombook.html
 [howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
@@ -549,7 +550,6 @@ or harder than the worthless expected value that you worked out beforehand.
 [mohs]: upload/MOHS-hardness.pdf
 [perfect]: https://blog.evanchen.cc/2016/04/17/against-perfect-scores/
 [recs]: recommend.html
-[right]: https://artofproblemsolving.com/community/c5h520900
 [shower]: https://www.paulgraham.com/top.html
 [tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [usamts]: https://usamts.org/index.php
