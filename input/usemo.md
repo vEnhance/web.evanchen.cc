@@ -19,10 +19,8 @@ develop interest and ability in mathematics (rather than measure it).
 However, it is one of few
 proof-based contests **open to all US middle and high school students**.
 
-The USEMO is hosted on the
-[Art of Problem Solving website][aops-usemo].
-This contest is _not_ sponsored
-by the Math Association of America
+The USEMO is hosted on the [Art of Problem-Solving website][aops-usemo].
+This contest is _not_ sponsored by the Math Association of America
 (which runs the [USAMO][usamo]).
 
 The difficulty of the contest is intended to be similar to [IMO][imo].
@@ -40,6 +38,7 @@ Please check the [full rules and procedures][rules].
   on [AoPS portal](https://aops.com/contests/usemo/).
   It remains open until end-of-day October 20 or when capacity is reached.
 - Day I is Sat. **21 October 2023**, from 12:30pm ET to 5:00pm ET.
+  - Download [Day 1 problems](/exams/USEMO-2023-Day1.pdf).
 - Day II is Sun. **22 October 2023**, from 12:30pm ET to 5:00pm ET.
 - On each day, the AoPS portal will be functional
   between 12:00 noon ET and 6:00pm ET, to allow some time for setup
