@@ -44,6 +44,7 @@ Please check the [full rules and procedures][rules].
 - On each day, the AoPS portal will be functional
   between 12:00 noon ET and 6:00pm ET, to allow some time for setup
   and for scanning and submitting solutions.
+  The problems are available for download starting 12:30pm ET.
   - You can check your registration status at
     [this link](https://aops.com/contests/usemo/register).
 - Volunteers for grading are now open; see below.
