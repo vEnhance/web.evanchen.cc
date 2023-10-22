@@ -37,8 +37,8 @@ Please check the [full rules and procedures][rules].
 - Registration opens around October 2
   on [AoPS portal](https://aops.com/contests/usemo/).
   It remains open until end-of-day October 20 or when capacity is reached.
+- Download [problems from 2023](/exams/USEMO-2023.pdf).
 - Day I is Sat. **21 October 2023**, from 12:30pm ET to 5:00pm ET.
-  - Download [Day 1 problems](/exams/USEMO-2023-Day1.pdf).
 - Day II is Sun. **22 October 2023**, from 12:30pm ET to 5:00pm ET.
 - On each day, the AoPS portal will be functional
   between 12:00 noon ET and 6:00pm ET, to allow some time for setup
@@ -69,6 +69,7 @@ You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 - USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
 - USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
 - USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions and results)](exams/report-usemo-2022.pdf)
+- USEMO 2023 [(problems)](exams/USEMO-2023.pdf)
 
 ## {{ hl("hall", "Hall of Fame") }}
 
