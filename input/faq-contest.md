@@ -21,7 +21,7 @@ However, it is not right now. Instead, I recommend the famous
 
 When you first start, you should do some subset
 of the following things for several weeks
-until you have a picture of what the landscape looks like, so to speak.
+until you have a picture of [what the landscape looks like][townstory]:
 
 1. Pick up any standard textbook like [AoPS v1][v1]
    or [AoPS v2][v2] to work through, so you learn some
@@ -551,6 +551,7 @@ or harder than the worthless expected value that you worked out beforehand.
 [perfect]: https://blog.evanchen.cc/2016/04/17/against-perfect-scores/
 [recs]: recommend.html
 [shower]: https://www.paulgraham.com/top.html
+[townstory]: https://blog.evanchen.cc/2023/10/23/a-story-of-a-town/
 [tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [usamts]: https://usamts.org/index.php
 [wpcontest]: https://blog.evanchen.cc/2019/01/31/math-contest-platitudes-v3/
