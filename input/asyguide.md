@@ -231,9 +231,7 @@ If you really pay attention to Evan's stream,
 you might notice that Evan often generates olympiad geometry diagrams
 by writing what looks like pseudocode that magically transpiles to Asymptote.
 (One example is
-[5:55 of this video](https://youtu.be/wMdc6hUhhaA?si=jMwl5qUx_baomfXp),
-where a diagram from GeoGebra on the left half of the screen
-is redrawn manually on the right half of the screen for better quality.)
+[14:30 of this video](https://youtu.be/wMdc6hUhhaA?si=TdIrURf-ZnIDi2Bg&t=870).)
 
 The way this is done is that CJ Quines and I wrote a
 [Asymptote preprocessor](https://github.com/cjquines/tsqx)
