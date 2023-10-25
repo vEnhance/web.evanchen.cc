@@ -221,13 +221,21 @@ I ended up writing my own [Python script][ggb-clean]
 to make the source code output a little more presentable;
 you can pipe the copied Asymptote code to standard input to this program.
 
+As an example, you can watch me export a diagram for IMO 2023/2 at
+[1:08:20 of this video](https://youtu.be/Alz2OWHH7QY?si=ERpn8N2to5t01W9A&t=4100)
+from [my Twitch stream](videos.html).
+
 [ggb-clean]: https://github.com/vEnhance/dotfiles/blob/main/py-scripts/export-ggb-clean-asy.py
 
 ## Bonus: Using CJ Quine's TSQX
 
 If you really pay attention to Evan's stream,
-you might notice that Evan actually generates olympiad geometry diagrams
+you might notice that Evan often generates olympiad geometry diagrams
 by writing what looks like pseudocode that magically transpiles to Asymptote.
+(One example is
+[5:55 of this video](https://youtu.be/wMdc6hUhhaA?si=jMwl5qUx_baomfXp),
+where a diagram from GeoGebra on the left half of the screen
+is redrawn manually on the right half of the screen for better quality.)
 
 The way this is done is that CJ Quines and I wrote a
 [Asymptote preprocessor](https://github.com/cjquines/tsqx)
