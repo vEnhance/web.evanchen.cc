@@ -179,10 +179,8 @@ every computer you use. It would be a major nuisance, to say the least.
 
 Instead, Asymptote has a built-in module called `geometry` already,
 that does almost everything you would want in practice.
-You could read
-[the geometry manual](https://web.archive.org/web/20180417141555if_/http://www.piprime.fr:80/files/res/geometry_en.pdf)
-for instructions on how to use it,
-or the page
+You could read [the geometry manual](/static/geometry_en.pdf)
+for instructions on how to use it, or the page
 [on the Asymptote website](https://asymptote.sourceforge.io/doc/geometry.html),
 but you could probably also just copy Evan's code as a template
 and that might be easier than reading the fairly long manual.
