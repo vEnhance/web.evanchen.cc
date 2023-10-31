@@ -237,12 +237,10 @@ h6 {
 }
 
 /* Brighten side box on hover */
-#side,
-#feed {
+#side {
   opacity: 0.6;
 }
-#side:hover,
-#feed:hover {
+#side:hover {
   opacity: 1;
 }
 #side h4,

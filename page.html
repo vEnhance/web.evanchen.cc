@@ -122,28 +122,38 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
             /></a>
           </div>
         </div>
+        <div id="feed" class="col-12 ml-md-3 mr-md-3">
+          <iframe
+            src="https://cdn.lightwidget.com/widgets/90dc888fdd63572186f83253c9a50415.html"
+            scrolling="no"
+            allowtransparency="true"
+            class="lightwidget-widget"
+            style="width: 100%; border: 0; overflow: hidden"
+          ></iframe>
+        </div>
       </div>
       <div id="content" class="row">
         <div class="col-12 col-md-3 order-md-last pl-md-1">
-          <div id="side">
-            <nav class="navbar-light d-md-none navbar">
-              <div class="navbar-brand" id="navtitle">
-                <code>web.evanchen.cc</code>
-              </div>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsedContent"
-                aria-controls="collapsedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-light navbar-toggler-icon"></span>
-              </button>
-            </nav>
-            <div class="collapse d-md-block" id="collapsedContent">
-              <!--%
+          <div class="row">
+            <div id="side" class="col-12">
+              <nav class="navbar-light d-md-none navbar">
+                <div class="navbar-brand" id="navtitle">
+                  <code>web.evanchen.cc</code>
+                </div>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsedContent"
+                  aria-controls="collapsedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-light navbar-toggler-icon"></span>
+                </button>
+              </nav>
+              <div class="collapse d-md-block" id="collapsedContent">
+                <!--%
 mpages = [p for p in pages if "menu-position" in p]
 mpages.sort(key=lambda p: int(p["menu-position"]))
 for p in mpages:
@@ -160,26 +170,19 @@ for p in mpages:
     entry = open_tag + '<a href="%s">%s</a>' + close_tag
     print(entry % (p["url"], hx(p["title"])))
 %-->
+                <br />
+                <p>
+                  <a href="https://ko-fi.com/evanchen" target="_blank"
+                    ><img
+                      height="28"
+                      style="border: 0px; height: 28px"
+                      src="//az743702.vo.msecnd.net/cdn/kofi4.png?v=0"
+                      border="0"
+                      alt="Buy Me a Coffee at ko-fi.com"
+                  /></a>
+                </p>
+              </div>
             </div>
-          </div>
-          <div id="feed" class="d-none d-md-block">
-            <iframe
-              src="https://cdn.lightwidget.com/widgets/90dc888fdd63572186f83253c9a50415.html"
-              scrolling="no"
-              allowtransparency="true"
-              class="lightwidget-widget"
-              style="width: 100%; border: 0; overflow: hidden"
-            ></iframe>
-            <p>
-              <a href="https://ko-fi.com/evanchen" target="_blank"
-                ><img
-                  height="28"
-                  style="border: 0px; height: 28px"
-                  src="//az743702.vo.msecnd.net/cdn/kofi4.png?v=0"
-                  border="0"
-                  alt="Buy Me a Coffee at ko-fi.com"
-              /></a>
-            </p>
           </div>
         </div>
         <div class="col-12 col-md-9 order-md-first pr-md-2">
