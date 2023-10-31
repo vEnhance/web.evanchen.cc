@@ -161,7 +161,7 @@ h6 {
   moz-border-radius: 11px;
   -webkit-border-radius: 11px;
   background-color: #b2fee1; /* light green color */
-  margin-top: 12px;
+  margin-top: 7px;
   margin-left: 0px;
 }
 
@@ -219,8 +219,11 @@ h6 {
   background-color: #afeeee;
   /* light blue background for side */
   line-height: 20px;
-  padding: 12px;
-  margin-top: 12px;
+  padding-top: 9px;
+  padding-bottom: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 7px;
 }
 
 #feed {
@@ -232,7 +235,7 @@ h6 {
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   background-color: #ffffaa;
-  margin-top: 12px;
+  margin-top: 4px;
 }
 
 /* Brighten side box on hover */
@@ -295,7 +298,7 @@ h6 {
 
 div.entry {
   border-bottom: 1px dashed #cccccc;
-  margin-top: 16px;
+  margin-top: 9px;
   overflow: hidden;
   padding-bottom: 16px;
 }
