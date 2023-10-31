@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -eq 0 ]; then
-	gsutil -m setmeta -h 'Cache-Control:public, max-age=3600' gs://web.evanchen.cc/*.html gs://web.evanchen.cc/FAQs/*.html
+	gsutil -m setmeta -h 'Cache-Control:public, max-age=3600' gs://web.evanchen.cc/*.html
 elif [ $1 = "-c" ]; then
 	gsutil -m setmeta -R -h 'Cache-Control:public, max-age=3600' gs://web.evanchen.cc/**.css
 elif [ $1 = "-e" ]; then
