@@ -122,15 +122,6 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
             /></a>
           </div>
         </div>
-        <div id="feed" class="col-12 ml-md-3 mr-md-3">
-          <iframe
-            src="https://cdn.lightwidget.com/widgets/90dc888fdd63572186f83253c9a50415.html"
-            scrolling="no"
-            allowtransparency="true"
-            class="lightwidget-widget"
-            style="width: 100%; border: 0; overflow: hidden"
-          ></iframe>
-        </div>
       </div>
       <div id="content" class="row">
         <div class="col-12 col-md-3 order-md-last pl-md-1">
@@ -185,7 +176,16 @@ for p in mpages:
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-9 order-md-first pr-md-2">
+        <div id="feed" class="col-12 order-md-first">
+          <iframe
+            src="https://cdn.lightwidget.com/widgets/90dc888fdd63572186f83253c9a50415.html"
+            scrolling="no"
+            allowtransparency="true"
+            class="lightwidget-widget"
+            style="width: 100%; border: 0; overflow: hidden"
+          ></iframe>
+        </div>
+        <div class="col-12 col-md-9 order-md-1 pr-md-2">
           <div id="main">
             <div class="entry">
               <h1 id="pagetitle">
