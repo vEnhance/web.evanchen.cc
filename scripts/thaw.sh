@@ -3,9 +3,9 @@
 if [ $# -eq 0 ]; then
   gsutil -m setmeta -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/*.html
 elif [ "$1" = "-j" ]; then
-  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**.js
+  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**/*.js
 elif [ "$1" = "-c" ]; then
-  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**.css
+  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**/*.css
 elif [ "$1" = "-e" ]; then
   gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/exams/*
 elif [ "$1" = "-o" ]; then
@@ -13,13 +13,13 @@ elif [ "$1" = "-o" ]; then
 elif [ "$1" = "-s" ]; then
   gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/static/*
 elif [ "$1" = "-h" ]; then
-  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**.html
+  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**/*.html
 elif [ "$1" = "-t" ]; then
-  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**.tex
+  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**/*.tex
 elif [ "$1" = "-p" ]; then
-  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**.pdf
+  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/**/*.pdf
 elif [ "$1" = "-u" ]; then
-  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/upload/* gs://web.evanchen.cc/private/* gs://web.evanchen.cc/textbooks/*
+  gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/upload/** gs://web.evanchen.cc/private/** gs://web.evanchen.cc/textbooks/**
 elif [ "$1" = "-a" ]; then
   gsutil -m setmeta -R -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/
 else
