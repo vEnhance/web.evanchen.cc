@@ -151,8 +151,7 @@ h6 {
 
 /*
  * ID'ed elements
- * #header, #main, #side
- * #email_box
+ * #header, #main, #side, #email_box, #feed
  */
 
 #main {
@@ -275,7 +274,7 @@ h6 {
   padding-top: 3px;
   padding-bottom: 3px;
   font-size: 80%;
-  width: 100%;
+  display: inline-block;
 }
 
 #navtitle {
