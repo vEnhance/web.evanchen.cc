@@ -224,11 +224,25 @@ h6 {
   margin-top: 12px;
 }
 
+#feed {
+  border: 1px solid #ffcc00;
+  border-radius: 11px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  background-color: #ffffaa;
+  margin-top: 12px;
+}
+
 /* Brighten side box on hover */
-#side {
+#side,
+#feed {
   opacity: 0.6;
 }
-#side:hover {
+#side:hover,
+#feed:hover {
   opacity: 1;
 }
 #side h4,

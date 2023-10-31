@@ -160,18 +160,26 @@ for p in mpages:
     entry = open_tag + '<a href="%s">%s</a>' + close_tag
     print(entry % (p["url"], hx(p["title"])))
 %-->
-              <br />
-              <p>
-                <a href="https://ko-fi.com/evanchen" target="_blank"
-                  ><img
-                    height="28"
-                    style="border: 0px; height: 28px"
-                    src="//az743702.vo.msecnd.net/cdn/kofi4.png?v=0"
-                    border="0"
-                    alt="Buy Me a Coffee at ko-fi.com"
-                /></a>
-              </p>
             </div>
+          </div>
+          <div id="feed" class="d-none d-md-block">
+            <iframe
+              src="https://cdn.lightwidget.com/widgets/90dc888fdd63572186f83253c9a50415.html"
+              scrolling="no"
+              allowtransparency="true"
+              class="lightwidget-widget"
+              style="width: 100%; border: 0; overflow: hidden"
+            ></iframe>
+            <p>
+              <a href="https://ko-fi.com/evanchen" target="_blank"
+                ><img
+                  height="28"
+                  style="border: 0px; height: 28px"
+                  src="//az743702.vo.msecnd.net/cdn/kofi4.png?v=0"
+                  border="0"
+                  alt="Buy Me a Coffee at ko-fi.com"
+              /></a>
+            </p>
           </div>
         </div>
         <div class="col-12 col-md-9 order-md-first pr-md-2">
@@ -188,6 +196,7 @@ for p in mpages:
       </div>
     </div>
     <!-- end container -->
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
     <script src="js/blog.js"></script>
     <script src="js/ga.js"></script>
     <script src="js/k.js"></script>
