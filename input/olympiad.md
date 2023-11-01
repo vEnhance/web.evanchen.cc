@@ -164,6 +164,10 @@ of [my textbook][geombook].
   for the Taiwan IMO selection and training camps.
   It is updated occasionally as I add entries.
 
+- <b>EXCL 2023: Thoughts and Q/A on math olympiad coaching</b> {{ handout_link_src("EXCL-2023-11-04-slides") }}
+  Slides from a talk I gave in November 2023
+  about experiences with coaching students for math olympiads.
+
 - <b>How to annoy Evan with LaTeX</b> {{ handout_link_src("LaTeXPetPeeve") }}
   A list of pet peeves in LaTeX.
   See also [Evan's LaTeX style guide](latex-style-guide.html).
