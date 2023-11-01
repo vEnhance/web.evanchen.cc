@@ -28,7 +28,8 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 
 - [Interview with Song Yong-jin (2017)](https://www.youtube.com/watch?v=TlGl7Vikf5Y),
   the longtime beloved team leader from South Korea.
-- [Slides to Evan's EXCL talk](TODO) TO BE ADDED.
+- [Slides to Evan's EXCL talk](/handouts/EXCL-2023-11-04-slides/EXCL-2023-11-04-slides.pdf)
+  as part of Global Talent Network initiatives (November 2023).
 
 ## Top teaching posts from Evan's blog
 
@@ -56,9 +57,21 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 For the most part, the [resources for the students](wherestart.html)
 will work equally well for coaches looking for ideas for what to teach.
 
-If you have a degree in math or related field but not much
-competition-specific experience,
+If you have a degree in math or related field
+but not much competition-specific experience,
 here are some specific pointers for things to watch for:
+
+- You likely have good experience working with proofs, proof methods
+  like induction, and quantifiers like $\forall$, $\exists$.[^usasux]
+  That's good and you'll want to lean on it.
+
+  I'll mention that olympiad problems have two new "types" of imperatives:
+  "find all" and "find the minimum/maximum".
+  As I explain in [sections 2.3-2.4 of English](/handouts/english/english.pdf)
+  and in [chapter 1 of the OTIS Excerpts](excerpts.html),
+  these problems are always implicitly two-part problems.
+  This may be obvious to math majors, but my experience is students
+  new to proofs often don't notice this until it's pointed out.
 
 - The combinatorics problems in olympiads are _tricky_,
   but they are mostly not going to use any theory you haven't seen before.
@@ -69,7 +82,8 @@ here are some specific pointers for things to watch for:
 
   So for the most part, you can jump right in to the combinatorics section.
   You might not necessarily be able to solve all the problems,
-  but you should be able to understand most of the solutions.
+  but you should be able to understand most of the solutions,
+  and improve your solving ability with practice.
 
 - Number theory is a little more involved, but not by that much.
   If you're comfortable working in $\mathbb Z/n\mathbb Z$
@@ -102,3 +116,5 @@ here are some specific pointers for things to watch for:
   You might want to read a handout or two on these specifically.
 
 - Especially when starting out, you won't need much calculus or analysis.
+
+[^usasux]: Lucky for you, because most American high school students don't.
