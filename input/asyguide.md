@@ -9,11 +9,11 @@ indent: 1
 This was originally [LaTeX FAQ L-8](faq-latex.html#L-8),
 but it became so long that I decided it deserved its own page.
 
-# Video screencast
+# {{ hl("screencast", "Video screencast") }}
 
 <iframe width="448" height="252" src="https://www.youtube-nocookie.com/embed/fhe7atsYLuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Gallery
+# {{ hl("gallery", "Gallery") }}
 
 Here are some examples of pictures you can make with Asymptote.
 You can [view the source code on GitHub][asy-gallery].
@@ -37,7 +37,7 @@ You can [view the source code on GitHub][asy-gallery].
 
 ---
 
-# Prerequisites
+# {{ hl("prereq", "Prerequisites") }}
 
 First, if you haven't already, make sure you know everything in
 the [File systems beginner page](https://web.evanchen.cc/filesys.html).
@@ -79,7 +79,7 @@ You may have to instead type the long string
 
 ---
 
-# The main workflow
+# {{ hl("workflow", "The main workflow") }}
 
 Once you have Asymptote installed, to integrate it with LaTeX,
 the compilation workflow requires three steps.
@@ -122,7 +122,7 @@ pdflatex meow
 
 ---
 
-# Automating the workflow with latexmk
+# {{ hl("latexmk", "Automating the workflow with latexmk") }}
 
 In principle, you can run this three-step process by hand each time
 you change the diagrams on your page. But this is super annoying.
@@ -157,9 +157,9 @@ for further instructions on how to do this.
 
 ---
 
-# Advanced stuff
+# {{ hl("advanced", "Advanced stuff") }}
 
-## Olympiad geometry macros
+## {{ hl("oly", "Olympiad geometry macros") }}
 
 If you're using Asymptote to typeset diagrams,
 chances are you'd appreciate having commands like `circumcircle`.
@@ -186,7 +186,7 @@ but you could probably also just copy Evan's code as a template
 and that might be easier than reading the fairly long manual.
 Read on to the next section to see how to do this.
 
-## Using asydef for geometry and other purposes
+## {{ hl("asydef", "Using asydef for geometry and other purposes") }}
 
 In practice, there are some setup commands I want to have automatically done for
 every Asymptote picture that I draw.
@@ -209,7 +209,7 @@ You can copy the one from
 if you like; look for the lines `\begin{asydef}` and `\end{asydef}` and copy
 everything in between into your preamble. This is shown in the video.
 
-## Exporting from GeoGebra
+## {{ hl("geogebra", "Exporting from GeoGebra") }}
 
 GeoGebra Classic 5 supports exporting GeoGebra figures to Asymptote code
 directly that you can include in your file.
@@ -225,7 +225,7 @@ from [my Twitch stream](videos.html).
 
 [ggb-clean]: https://github.com/vEnhance/dotfiles/blob/main/py-scripts/export-ggb-clean-asy.py
 
-## Bonus: Using CJ Quine's TSQX
+## {{ hl("tsqx", "Using CJ Quine's TSQX") }}
 
 If you really pay attention to Evan's stream,
 you might notice that Evan often generates olympiad geometry diagrams
@@ -253,7 +253,7 @@ to get [this figure](https://github.com/cjquines/tsqx)!
 It's a Python script, so this will only be useful to you if you know
 how to run a Python script.
 
-## Help
+## {{ hl("help", "Help") }}
 
 If you need help, in my [public Discord](discord.html), there's a channel
 called `#latex-asy-help-!mwe` that you might drop by.[^otisdiscord]

@@ -16,7 +16,7 @@ This page is not a puzzle.
 
 See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 
-### Mystery Hunt 2021
+### {{ hl("mh2021", "Mystery Hunt 2021") }}
 
 - [Nutrition Facts](https://web.mit.edu/puzzle/www/2021/puzzle/nutrition-facts/)
 - [Blind Calculation](https://web.mit.edu/puzzle/www/2021/puzzle/blind-calculation/)
@@ -27,7 +27,7 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 - [Escape From Life](https://web.mit.edu/puzzle/www/2021/puzzle/escape-from-life/)
 - [The IMO Shortlist](https://web.mit.edu/puzzle/www/2021/puzzle/the-imo-shortlist/)
 
-### Mystery Hunt 2023
+### {{ hl("mh2023", "Mystery Hunt 2023") }}
 
 - [Much Ado About Nothing](https://interestingthings.museum/puzzles/much-ado-about-nothing)
 - [Diagramless](https://puzzlefactory.place/office/diagramless), with Lumia Neyo.
@@ -36,7 +36,7 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 - [4D Geo](https://puzzlefactory.place/puzzles/4d-geo), with Austin Lei, Moor Xu, and Nathan Wong
 - [Flooded Caves](https://puzzlefactory.place/puzzles/flooded-caves), with Alex Gotsis and Cameron Montag
 
-### MOP Mini-events
+### {{ hl("mop", "MOP Mini-events") }}
 
 - [MOP 2021 puzzle hunt](https://mosp.evanchen.cc),
   a miniature one-round hunt

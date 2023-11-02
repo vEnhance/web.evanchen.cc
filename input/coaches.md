@@ -14,7 +14,7 @@ I would be extremely grateful for suggestions for more content to link here.
 You can either email me suggestions directly,
 or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.cc/edit/main/input/coaches.md).
 
-## Thoughts on problem writing and test-setting
+## {{ hl("write", "Thoughts on problem writing and test-setting") }}
 
 - [Bruce Reznick on Putnam development](https://faculty.math.illinois.edu/~reznick/putnam.pdf)
 - [USEMO test development process](https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/)
@@ -24,20 +24,20 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
   - [David Speyer on math.SE](https://math.stackexchange.com/a/203448)
   - [Izabella Laba on Putnam](https://ilaba.wordpress.com/2009/11/22/putnam/)
 
-## Talks and interviews with trainers
+## {{ hl("talks", "Talks and interviews with trainers") }}
 
 - [Interview with Song Yong-jin (2017)](https://www.youtube.com/watch?v=TlGl7Vikf5Y),
   the longtime beloved team leader from South Korea.
 - [Slides to Evan's EXCL talk](/handouts/EXCL-2023-11-04-slides/EXCL-2023-11-04-slides.pdf)
   as part of Global Talent Network initiatives (November 2023).
 
-## Top teaching posts from Evan's blog
+## {{ hl("blog", "Top teaching posts from Evan's blog") }}
 
 - [Running OTIS](https://blog.evanchen.cc/2023/11/03/things-ive-found-from-running-otis/)
 - [Point-based problem sets](https://blog.evanchen.cc/2018/03/27/i-switched-to-point-based-problem-sets/)
 - [Selecting topics and designing materials](https://blog.evanchen.cc/2017/04/08/on-designing-olympiad-training/)
 
-## International Math Olympiad lore
+## {{ hl("lore", "International Math Olympiad lore") }}
 
 - The United Kingdom keeps
   [team leader reports](https://bmos.ukmt.org.uk/home/imo.shtml) for the
@@ -47,7 +47,7 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
   It's as close as you can get to seeing the IMO in action without being there.
 - [Evan's FAQ CR-10 about IMO coordination](faq-rules.html#CR-10).
 
-## Other resources
+## {{ hl("misc", "Other resources") }}
 
 - The "math circles" movement was developed as a model of math enrichment at all
   levels, originating in Eastern Europe before appearing in the United States.
@@ -56,7 +56,7 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 - [Excellence in Coaching and Leadership (EXCL) Program](https://www.globtalent.org/excl)
   run by the Global Talent Network.
 
-## Tips for learning the math olympiad syllabus
+## {{ hl("syllabus", "Tips for learning the math olympiad syllabus") }}
 
 For the most part, the [resources for the students](wherestart.html)
 will work equally well for coaches looking for ideas for what to teach.

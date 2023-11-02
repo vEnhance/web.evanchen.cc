@@ -14,14 +14,14 @@ See also the [list of pet peeves][peeves].
 
 [peeves]: https://web.evanchen.cc/handouts/LaTeXPetPeeve/LaTeXPetPeeve.pdf
 
-## Keywords
+## {{ hl("keywords", "Keywords") }}
 
 The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
 NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in
 [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119).
 
-## Requirements
+## {{ hl("requirements", "Requirements") }}
 
 1. Source lines MUST be wrapped to be at most 100 characters long,
    and SHOULD be wrapped to at most 80 characters long,
@@ -109,7 +109,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 17. When specifying domains and ranges of mathematical functions,
     use `\colon` instead of `:`, e.g. `$f \colon \mathbb{R} \to \mathbb{R}$`.
 
-## Example
+## {{ hl("example", "Example") }}
 
 The following is a solution to
 [AIME II 2022 Problem 13](https://aops.com/community/p24447196).
@@ -143,7 +143,7 @@ the given equation rewrites as
 By balls-and-urns the answer is $\binom{9+3}{3} = 220$.
 ```
 
-## Template
+## {{ hl("template", "Template") }}
 
 For a self-contained example, see the
 [math olympiad proposal submission template](/upload/submission-template.tex)
