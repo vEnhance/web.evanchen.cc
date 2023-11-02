@@ -49,6 +49,10 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 
 ## Other resources
 
+- The "math circles" movement was developed as a model of math enrichment at all
+  levels, originating in Eastern Europe before appearing in the United States.
+  Some resources for organizers can be found at
+  [mathcircles.org](https://mathcircles.org/organizers/).
 - [Excellence in Coaching and Leadership (EXCL) Program](https://www.globtalent.org/excl)
   run by the Global Talent Network.
 
@@ -63,7 +67,7 @@ here are some specific pointers for things to watch for:
 
 - You likely have good experience working with proofs, proof methods
   like induction, and quantifiers like $\forall$, $\exists$.[^usasux]
-  That's good and you'll want to lean on it.
+  That's good, and you'll want to lean on it.
 
   I'll mention that olympiad problems have two new "types" of imperatives:
   "find all" and "find the minimum/maximum".
