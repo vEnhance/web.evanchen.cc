@@ -159,7 +159,7 @@ for further instructions on how to do this.
 
 # {{ hl("advanced", "Advanced stuff") }}
 
-## {{ hl("oly", "Olympiad geometry macros") }}
+## {{ hl("olygeo", "Olympiad geometry macros") }}
 
 If you're using Asymptote to typeset diagrams,
 chances are you'd appreciate having commands like `circumcircle`.
