@@ -14,6 +14,28 @@ I would be extremely grateful for suggestions for more content to link here.
 You can either email me suggestions directly,
 or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.cc/edit/main/input/coaches.md).
 
+## {[ hl("general", "A few general truisms") }}
+
+- Prioritize talent development over mere talent identification.
+- Don't worry too much about initial results seeming slow.
+  The best-case scenario for a coach is to have a system
+  with exponentially growing returns,
+  and exponential functions are _supposed_ to look flat near $t=0$.
+  So if you can somehow ensure your growth curve maintains exponential _shape_,
+  then all that remains is to be patient.
+- Once your students pass the critical point where they understand
+  what a proof is and can verify correctness of proofs independently,
+  you should gradually shift from teaching specific lessons
+  to [teaching them how to fish for themselves][fishquote].
+  Strive to eventually become a guide rather than a lecturer.
+- Fellow MO coaches are always welcome to email me with questions or for advice.
+  Specific inquiries are usually better than generic ones. Something like "can
+  you look at this lesson plan and give suggestions" is both easier for me to
+  answer (because it’s so concrete) and also more informative for you (because
+  it's so targeted). In general the more concrete the better.
+
+[fishquote]: https://en.wiktionary.org/wiki/give_a_man_a_fish_and_you_feed_him_for_a_day;_teach_a_man_to_fish_and_you_feed_him_for_a_lifetime
+
 ## {{ hl("write", "Thoughts on problem writing and test-setting") }}
 
 - [Bruce Reznick on Putnam development](https://faculty.math.illinois.edu/~reznick/putnam.pdf)
@@ -60,6 +82,8 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 
 For the most part, the [resources for the students](wherestart.html)
 will work equally well for coaches looking for ideas for what to teach.
+You can also see my [unofficial syllabus](/handouts/Syllabus/Syllabus.pdf)
+which is a rough map of the topics that show up in math olympiads.
 
 If you have a degree in math or related field
 but not much competition-specific experience,
