@@ -46,29 +46,27 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 
 ## {{ hl("new", "New to puzzle hunts?") }}
 
-If you are totally new to puzzle hunts,
-[betaveros has a nice introduction](https://blog.vero.site/post/puzzlehunts).
-(Small quibble: _Alter Rivals_ actually took me a while to get.)
-You'll probably also want a copy of
-[a code reference sheet](upload/EvanPuzzleCodings.pdf) with you.
+- If you want a sales pitch for why I love puzzle hunts so much,
+  check the [advertisement blog post](https://blog.evanchen.cc/2023/11/06/an-advertisement-for-what-puzzle-hunts-are-about-and-why-theyre-cooler-than-everyday-puzzles/).
+- If you'd like the beginner guide and how to solve puzzles,
+  [betaveros has a nice introduction](https://blog.vero.site/post/puzzlehunts).
+  (Small quibble: _Alter Rivals_ actually took me a while to get.)
+  You'll probably also want a copy of
+  [a code reference sheet](upload/EvanPuzzleCodings.pdf) with you.
+- Nice beginner hunts:
+  - [Zelda minihunt](https://deusovi.github.io/puzzlefiles/zelda-minihunt.pdf),
+    3 feeder puzzles and one metapuzzle.
+  - [Brian Chen's Splash 2016 hunt](https://blog.vero.site/pdf/intro-puzzles.pdf),
+    5 feeder puzzles and a pure metapuzzle (meaning the metapuzzle has no given
+    content besides the feeder answers).
+  - [MIT Aquarium Puzzle Hunt](https://puzzles.mit.edu/aquarium/)
+- Some good beginner puzzles from more difficult hunts:
+  - [Yeah, But It Didn't Work!](https://www.mit.edu/~puzzle/2018/full/puzzle/yeah_but_it_didnt_work.html)
+    (Mystery Hunt 2018)
+  - [The MetaMetaMeta... Puzzle](https://2020.galacticpuzzlehunt.com/puzzle/the-meta-meta-meta-puzzle)
+    (Galactic Puzzle Hunt 2020)
 
-Nice beginner hunts:
-
-- [Zelda minihunt](https://deusovi.github.io/puzzlefiles/zelda-minihunt.pdf),
-  3 feeder puzzles and one metapuzzle.
-- [Brian Chen's Splash 2016 hunt](https://blog.vero.site/pdf/intro-puzzles.pdf),
-  5 feeder puzzles and a pure metapuzzle (meaning the metapuzzle has no given
-  content besides the feeder answers).
-- [MIT Aquarium Puzzle Hunt](https://puzzles.mit.edu/aquarium/)
-
-Some good beginner puzzles from more difficult hunts:
-
-- [Yeah, But It Didn't Work!](https://www.mit.edu/~puzzle/2018/full/puzzle/yeah_but_it_didnt_work.html)
-  (Mystery Hunt 2018)
-- [The MetaMetaMeta... Puzzle](https://2020.galacticpuzzlehunt.com/puzzle/the-meta-meta-meta-puzzle)
-  (Galactic Puzzle Hunt 2020)
-
-You can find a
+You can also find a
 [index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
 and it's great fun to just pick a random past puzzle to work through.
 
