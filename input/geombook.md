@@ -145,10 +145,13 @@ here are some possible places to look:
 Of course there are other good geometry textbooks too.
 A few that I recommend are:
 
-- [106][106], [107][107], and [110][110] Geometry Problems
-- [A Beautiful Journey Through Olympiad Geometry][stefan], which is pay-what-you-want!
+- [A Beautiful Journey Through Olympiad Geometry][stefan] by Stefan Lozanovski,
+  which is free (though I encourage you to donate to the author if you can).
+  This book ramps up more slowly than mine,
+  so I would also recommend it to beginners.
 - [Lemmas in Olympiad Geometry][log]
 - [UKMT Plane Euclidean Geometry][ukmt], but consider starting from Chapter 3
+- [106][106], [107][107], and [110][110] Geometry Problems
 
 See also [advice from Geoff Smith on geometry](https://people.bath.ac.uk/masgcs/geo.pdf).
 
