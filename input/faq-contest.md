@@ -510,8 +510,10 @@ Format-wise, the most stark difference, in my opinion,
 is that the time controls for the Putnam are much faster.
 In each session, you have six problems to solve in three hours.
 (In contrast, the IMO gives three problems to solve in 4.5 hours.)
-So, the skill of deciding in five minutes whether to continue
-working on a problem or not is significantly more important.
+Moreover, the difficulty ramp-up from 1 to 6 is less steep than you might
+be used to if you've only done high-school olympiads before.
+So, **the skill of deciding in five minutes whether to continue
+working on a problem or not is significantly more important**.
 
 Finally, disclaimer: these days, many top-scoring Putnam students
 do not seriously prepare for the Putnam during the school year
