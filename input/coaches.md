@@ -14,7 +14,7 @@ I would be extremely grateful for suggestions for more content to link here.
 You can either email me suggestions directly,
 or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.cc/edit/main/input/coaches.md).
 
-## {[ hl("general", "A few general truisms") }}
+## {{ hl("general", "A few general truisms") }}
 
 - Prioritize talent development over mere talent identification.
 - Don't worry too much about initial results seeming slow.
