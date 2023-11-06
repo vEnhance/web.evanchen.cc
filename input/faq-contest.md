@@ -542,7 +542,7 @@ or harder than the worthless expected value that you worked out beforehand.
 ### {{ faq("C-23", "Since contests get harder over time, should I only work on recent years?") }}
 
 At time of writing (2023), I'd say anything post-2000 is probably fine.
-It's probably true that 2000-2010 is on average harder than 2010+,
+It's probably true that 2000-2010 is on average easier than 2010+,
 but not by enough that I would really care, especially if you're a beginner.
 (In fact, for beginners, the 2000-2010 era of problems
 could actually be better fits than the 2010+ era on average,
