@@ -47,7 +47,8 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 ## {{ hl("new", "New to puzzle hunts?") }}
 
 - If you want a sales pitch for why I love puzzle hunts so much,
-  check the [advertisement blog post](https://blog.evanchen.cc/2023/11/06/an-advertisement-for-what-puzzle-hunts-are-about-and-why-theyre-cooler-than-everyday-puzzles/).
+  check my [advertisement blog post][blog-evan-puzzle-intro],
+  or [Alex Rosenthal's TED talk][rosenthal-ted].
 - If you'd like the beginner guide and how to solve puzzles,
   [betaveros has a nice introduction](https://blog.vero.site/post/puzzlehunts).
   (Small quibble: _Alter Rivals_ actually took me a while to get.)
@@ -69,6 +70,9 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 You can also find a
 [index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
 and it's great fun to just pick a random past puzzle to work through.
+
+[blog-puzzle-evan-intro]: https://blog.evanchen.cc/2023/11/06/an-advertisement-for-what-puzzle-hunts-are-about-and-why-theyre-cooler-than-everyday-puzzles/
+[rosenthal-ted]: https://www.ted.com/talks/alex_rosenthal_the_joyful_perplexing_world_of_puzzle_hunts?language=en
 
 ## {{ hl("advice", "Evan's advice for puzzle solving") }}
 
