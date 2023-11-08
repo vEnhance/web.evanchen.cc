@@ -86,6 +86,10 @@ Alphabetical, does not include song lyrics.
 
 ## {{ hl("misc", "Miscellaneous") }}
 
+- Grant me the Serenity to accept the things I cannot change,<br />
+  the Courage to change the things I can,<br />
+  and the Wisdom to know the difference.
+  ([Serenity prayer](https://en.wikipedia.org/wiki/Serenity_Prayer))
 - I mean ... like... like, many people sometimes tell me, you should
   finish StarCraft 2, you should retire. And maybe, you should give up...
   But look at me now.
