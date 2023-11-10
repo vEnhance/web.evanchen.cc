@@ -107,6 +107,8 @@ If you do ask a letter for me, I need the following information.
    I am expecting to add on to what other (usually more traditional)
    teachers have to say.
 8. State explicitly when the **deadline** is.
+9. Indicate your current grade-level in your high school/college,
+   and what year you expect to graduate.
 
 Additional technical instructions:
 
