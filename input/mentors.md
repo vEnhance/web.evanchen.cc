@@ -89,7 +89,7 @@ or (less preferably) send me an email.
 ## {{ hl("luka", "Luka Macharashvili") }}
 
 - Contact: $\text{olympicmathtutor}@\text{gmail}{.}\text{com}$
-- Website: [olympicmathtutor.com](https://olympicmathtutor.com/);
+- Website: [olympicmathtutor.com](https://olympicmathtutor.com/)
 - Open to both 1:1 and group lessons.
 - I'm Luka Macharashvili, a mathematician with a passion for nurturing young talents
   and sharing my love for mathematics. My journey in the world of problem-solving
