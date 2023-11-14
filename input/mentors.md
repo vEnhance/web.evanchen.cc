@@ -33,6 +33,7 @@ or (less preferably) send me an email.
   math lessons for students, along with fun community-building events like games and movies.
   All teachers are female/nonbinary and MOPpers/MPfG winners.
   We are a nonprofit and our program costs only \$90 for 3 months.
+- Evan is an advisor/board member for Athemath (but not an instructor).
 
 ## {{ hl("mast", "MAST") }}
 
