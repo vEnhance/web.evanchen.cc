@@ -27,7 +27,7 @@ or (less preferably) send me an email.
 
 - Primary contact: [Vivian Loh](https://www.egmo.org/people/person2122/)
   ($\text{president}\texttt{@}\text{athemath}{.}\text{org}$)
-- Website: [athemath.org](https://athemath.org);
+- Website: [athemath.org](https://athemath.org)
 - 1:5 instruction for **nonbinary and female students only**.
 - Athemath provides a hybrid math program which includes small group
   math lessons for students, along with fun community-building events like games and movies.
