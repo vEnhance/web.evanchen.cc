@@ -32,8 +32,8 @@ Around the time, the USA Junior Math Olympiad was created,
 and back then it was much easier to qualify than it was today.
 After two years of working through many past problems,
 I placed highly in the first [2010 USA Junior MO](/exams/JMO-2010-notes.pdf)
-(the problems were much easier by today's standards),
-and although I wasn't invited to MOP,
+(the problems were much easier by today's standards).
+Although I wasn't invited to MOP because I was only in 8th grade,
 that success motivated me to keep studying.
 
 Over my high-school years (2010-2014), I was mentored by Zvezda Stankova
@@ -50,6 +50,7 @@ But I did poorly on USAMO 2013, and did not qualify for that year's MOP.
 Back then, there was no redemption for a poor 11th grade USAMO performance,
 so that single score not only lost me a chance to attend IMO 2013,
 but made me ineligible to qualify for the USA team at IMO 2014 either.
+
 I wasn't ready to give up on my IMO dream, and spent my senior year
 flying back and forth to Taiwan, for which I had dual citizenship.
 I ended up on that year's Taiwan team and earned a [gold medal as TWN2][imo].
