@@ -164,6 +164,7 @@ the selection process for the USA IMO team.
 - IMO 2020 [(PDF)](exams/IMO-2020-notes.pdf) [(TeX)](exams/IMO-2020-notes.tex) [(video)](https://youtu.be/JfRrlvbzKHk)
 - IMO 2021 [(PDF)](exams/IMO-2021-notes.pdf) [(TeX)](exams/IMO-2021-notes.tex)
 - IMO 2022 [(PDF)](exams/IMO-2022-notes.pdf) [(TeX)](exams/IMO-2022-notes.tex)
+- IMO 2023 [(PDF)](exams/IMO-2023-notes.pdf) [(TeX)](exams/IMO-2023-notes.tex)
 
 ## {{ hl("usemo", "USEMO") }}
 
