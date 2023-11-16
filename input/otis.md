@@ -110,6 +110,7 @@ participation as students denoted in parentheses.
 ### Instructors
 
 - [Adhitya Mangudy][adhitya]
+- Galin Totev
 - [Gopal Goel][gopal] (IV-V)
 - [Jeffrey Kwan][jkwan] (IV-V)
 - [Márton Borbényi][marton]
