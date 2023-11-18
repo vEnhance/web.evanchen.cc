@@ -106,7 +106,7 @@ who can check your work and provide suggestions.
 But the supply of people willing to do this is admittedly very low,
 so most people are not so lucky to have access to feedback.
 The second-best thing to do is write up your solution
-and post it on [AoPS contest index](https://aops.com/community/c13_contests);
+and post it on [AoPS contest index](https://aops.com/community/c13)[^nowiki];
 by [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law),
 wrong solutions are often exposed quite rapidly.
 You should also compare your solutions to existing ones.[^sufficient]
@@ -115,6 +115,10 @@ You should also compare your solutions to existing ones.[^sufficient]
     Of course, you should set your sights on becoming self-sufficient eventually.
     During an exam, you do not have access to feedback or other's solutions,
     so you need to be able to know when you've solved a problem!
+
+[^nowiki]:
+    I do NOT recommend using the AoPS Wiki in place of the Contest Index.
+    The solution quality in the wiki is generally much poorer than the forum.
 
 If you want a book to follow, the one I grew up with was
 [Rotman's Journey into Mathematics: An Introduction to Proofs][rotman].[^rnote]

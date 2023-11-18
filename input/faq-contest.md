@@ -31,7 +31,7 @@ until you have a picture of [what the landscape looks like][townstory]:
    For example, if you are in the United States,
    then you can find all past AMC problems from
    [the Contests section](https://aops.com/community/c13)
-   under "USA Contests".
+   under "USA Contests".[^nowiki]
    The same should be true for many other countries.
    Pick any year (later years are harder)
    and work through some problems without a time limit.
@@ -42,6 +42,10 @@ until you have a picture of [what the landscape looks like][townstory]:
 3. Rope some friends into learning with you.
    It's more fun that way, and you can learn from each other.
    It's okay to have different levels of experience.
+
+[^nowiki]:
+    I do NOT recommend using the AoPS Wiki in place of the Contest Index.
+    The solution quality in the wiki is generally much poorer than the forum.
 
 You should repeat these steps until you have some comfort
 with the kinds of problems that appear.

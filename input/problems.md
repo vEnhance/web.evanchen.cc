@@ -9,6 +9,9 @@ description: Archive of PDF's of math olympiad problems.
 This page contains problems and solutions
 to several USA contests, and a few others.
 
+Check the [AoPS contest index](https://aops.com/community/c13)
+for even more problems and solutions, including most of the ones below.
+
 ## {{ hl("mohs", "Hardness scale") }}
 
 Here is an
