@@ -28,6 +28,7 @@ Updated for 2023-2024:
 
 **Read the above syllabus first** if you're new to OTIS.
 
+- [Video tour of website](https://youtu.be/VCSmRQtwOwo)
 - [List of topics][unitlist] (now featuring artwork)
 - Example materials from each of the three difficulty tracks:
 
