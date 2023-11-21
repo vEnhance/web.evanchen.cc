@@ -10,7 +10,9 @@ Teams I've hunted with include
 [teammate](https://teammatehunt.com/), and
 [super team awesome](https://puzzlepotluck.com/).
 
-This page is not a puzzle.
+You can find a calendar of upcoming puzzle hunt events and Discord servers at
+[https://puzzlehuntcalendar.com/](https://puzzlehuntcalendar.com/).
+This page is not itself a puzzle.
 
 ## {{ hl("own", "Evan's puzzles") }}
 
@@ -84,26 +86,22 @@ In descending order of importance for new solvers:
    (See also [Microsoft's common encoding list][msenc].)
 1. **Always make a spreadsheet** whenever you are working on a puzzle.
    (Trying to do a puzzle without a spreadsheet is
-   analogous to not bringing scratch paper to the USAMO.
-   It’s literally impossible.)
+   analogous to not bringing scratch paper to a math exam.)
    Google spreadsheet works well if you are working in teams.
    - If using Google spreadsheets, there are some annoying tasks
      you might like to automate such as A=1 to Z=26,
      indexing with spaces deleted, etc.
      [There's a library for this](https://github.com/mmachenry/mystery-hunt-sheets-addons).
-2. Use **multiple screens**
-   (e.g. extra monitor, old laptop, tablet, smart TV, etc.).
-   Being able to view both a spreadsheet
-   and the puzzle at the same time is tremendously useful.
+2. Use **multiple screens** (e.g. extra monitor, old laptop, tablet, smart TV, etc.).
+   Being able to view both a spreadsheet and the puzzle at the same time is tremendously useful.
    Also, if you have a printer or pencil/paper,
    having hard copies of relevant information can be similarly helpful.
-3. **Check your work!**
-   (Better yet, have teammates help you check your work.)
+3. **Check your work!** (Better yet, have teammates help you check your work.)
    Quote from [Allen Rabinovich's advice][advice]:
    "A good friend of mine once said that if he were to write a guide
    on how to solve puzzles, that’s all he would say."
 4. Print out a [code sheet](upload/EvanPuzzleCodings.pdf)
-   of **common encodings**
+   of **common encodings**.
    There are other charts like [Puzzled Pint][ppint]).
 5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
    given only some of the letters.
