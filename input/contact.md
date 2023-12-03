@@ -28,7 +28,7 @@ Note there are _special instructions_ if you are asking about:
 - [tech support](#tech),
 - [a letter of recommendation](letters.html).
 
-## {{ hl("discord", "About Discord") }}
+## {{ hl("discord", "Public Discord is preferable, private Discord DM's suck") }}
 
 If your inquiry is not private (for example, looking for advice on textbooks),
 you could consider asking questions on my
@@ -52,6 +52,15 @@ Email is more reliable.
 
 Here are some hints:
 
+- Don't be too shy.
+  I actually enjoy helping people (if that's not obvious).<br>
+  (Examples of good requests: specific math query,
+  something I wrote is unclear, found a typo,
+  follow-up questions, permission requests,
+  questions on my experiences, etc. I'm sure there's more.)
+
+- [Don't ask to ask, just ask](https://dontasktoask.com/).
+
 - Comments, thanks, or suggestions on my writing are always appreciated!
   This includes any typos you find, no matter how trivial.
 
@@ -64,15 +73,6 @@ Here are some hints:
 - Proper syntax, English, capitalization, etc is appreciated.
   (I know some of you are not native English speakers,
   so I try to overlook this when I can.)
-
-- _Don't be too shy_! I might sound scary here,
-  but I do genuinely enjoy helping people where I can.<br>
-  (Examples of good requests: specific math query,
-  something I wrote is unclear, found a typo,
-  follow-up questions, permission requests,
-  questions on my experiences, etc. I'm sure there's more.)
-
-- [Don't ask to ask, just ask](https://dontasktoask.com/).
 
 ## {{ hl("problems", "Special instructions for particular problems") }}
 
@@ -90,7 +90,12 @@ Either way, if you _do_ ask about a math problem:
 - Please state where the problem is from, and link it if possible.
 - Please describe what you've already tried on the problem.
 
+As mentioned above, you will get faster answers from asking in my
+[personal Discord server](discord.html) than emailing me directly.
+
 ## {{ hl("advice", "Special instructions for study advice") }}
+
+First, read the [Contest FAQ](faq-contest.html) if you haven't already.
 
 If you are asking a question along the lines of "how do I improve at math contests",
 it is helpful to include as much specific information as possible[^sc].
@@ -114,6 +119,9 @@ It focuses on a specific topic, describes what the asker's mindset is,
 names specific examples of problems and how the asker tried the problem,
 and mentions what resources the asker has already tried.
 Because of this, the replies are informative and targeted.
+
+As mentioned above, you will get more answers from asking in my
+[personal Discord server](discord.html) than from emailing me directly.
 
 ## {{ hl("tech", "Tech help") }}
 
