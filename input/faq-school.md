@@ -245,6 +245,26 @@ You should not feel obligated to "learn calculus first".
 ([Napkin](napkin.html) takes this approach, where the tongue-in-cheek
 "calculus 101" part has metric topology as a prerequisite.)
 
+### {{ faq("S-11", "What's undergrad life like in college?") }}
+
+I think this will vary wildly from person to person
+and depend a lot on certain subfactors like
+
+- what living group you're in;
+- what activities you do;
+- and what courses you take, because unlike high school,
+  you have so many courses to choose from and so much more choice what to take.
+
+The relative importance will vary by which school you go to.
+When I went to MIT the order for me was clearly `dorm > activities > classes`,
+because MIT has significant living group and dorm culture,
+and student activities are one of [MIT's distinctions][mit-sao].
+As another example, in schools where dorms are assigned randomly
+the choice of dorm you end up in will tend to be less important because
+the dorms are all (because of the randomness) similar overall,
+although your luck with roommates may have an effect.
+
+[mit-sao]: https://mitadmissions.org/discover/life-culture/clubs-activities/
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
 [tuition]: https://web.mit.edu/facts/tuition.html
