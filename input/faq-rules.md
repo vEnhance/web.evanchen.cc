@@ -399,6 +399,15 @@ but it's _definitely_ plagiarism
     instead, either another related law or contract is violated,
     or consequences instead come from a school/institution/etc.
 
+### {{ faq("CR-13", "Are AIME I problems harder/easier than AIME II?") }}
+
+There is no pattern.
+The two drafts are called something like Lion/Tiger or Holmes/Watson or Heart/Soul
+or whatever while being written, then randomly assigned to one of I and II.
+So any trends that one exam has more difficult problems is purely noise.
+
+Same is true for AMC A and B exams.
+
 [amc]: https://www.maa.org/math-competitions
 [usa2003]: upload/usamo-2003-rubric.pdf
 [taiwan]: handouts/TaiwanTST/TaiwanTST.pdf
