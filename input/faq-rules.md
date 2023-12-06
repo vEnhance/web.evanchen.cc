@@ -136,8 +136,8 @@ Graders don't give points for things they can't comprehend ;)
 
 If you want to see more examples of problem rubrics,
 you should check out the reports of the [USEMO](usemo.html).
-These rubrics are designed by veteran graders
-and released to the public,
+In particular, the first few USEMO years had rubrics
+designed by veteran graders and released to the public,
 so the standards for these rubrics is likely to be similar
 to what you might encounter at USAMO.
 
