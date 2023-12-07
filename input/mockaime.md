@@ -6,7 +6,7 @@ description: Satisfactory. Keep cooking.
 
 ---
 
-> _Satisfactory. Keep cooking._
+_Satisfactory. Keep cooking._
 
 <img src="static/otter-cooking.png"
   alt="An otter in front of a blackboard cooking a dish."
