@@ -69,7 +69,7 @@ You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 - USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
 - USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
 - USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions and results)](exams/report-usemo-2022.pdf)
-- USEMO 2023 [(problems)](exams/USEMO-2023.pdf)
+- USEMO 2023 [(problems)](exams/USEMO-2023.pdf) [(solutions and results)](exams/report-usemo-2023.pdf)
 
 ## {{ hl("hall", "Hall of Fame") }}
 
@@ -81,6 +81,7 @@ The list below is sorted alphabetically by first name (not by place).
 - USEMO 2020: Ankit Bisain, Gopal Goel, Noah Walsh
 - USEMO 2021: Eric Shen, Kristie Sue, Ram Goel (with Raymond Feng tying third place)
 - USEMO 2022: JunWen Huang, Krishna Pothapragada, Maximus Lu
+- USEMO 2023: Linus Tang, Hannah Fox, Henrick Rabinovitz
 
 # {{ hl("volunteer", "Volunteer") }}
 
