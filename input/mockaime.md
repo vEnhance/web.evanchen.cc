@@ -22,7 +22,7 @@ are composed by students from the [OTIS program](otis.html).
 That is, Evan runs this annual exam as a way to give his students
 a chance to try their hand at problem composition.
 
-## Current edition
+## {{ hl("current", "Current edition") }}
 
 The first exam will probably be posted sometime
 between Christmas 2023 and early January 2024.
@@ -32,7 +32,7 @@ and submit their answers for scoring.
 We may recognize high scores for bragging rights
 but don't otherwise offer prizes.
 
-## Past exams
+## {{ hl("past", "Past exams") }}
 
 Nothing here yet!
 
