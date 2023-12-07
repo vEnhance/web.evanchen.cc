@@ -28,7 +28,7 @@ though some of the chapters are more challenging.
 There is also a [user-created forum][forum]
 for discussing the examples and problems from the text.
 
-### Contents
+### {{ hl("contents", "Contents") }}
 
 The Excerpts consist of selected problems from the following
 twelve topics from the [OTIS catalog][catalog]:
@@ -56,7 +56,7 @@ and solutions to recent USA team selection test problems.
 Geometry is not covered;
 [there is already a textbook for that](geombook.html).
 
-### Source
+### {{ hl("source", "Source") }}
 
 The source code is sludge,
 but if you really want it [here's a ZIP](textbooks/OTIS-Excerpts.src.zip).
