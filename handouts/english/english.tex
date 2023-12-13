@@ -99,16 +99,15 @@ if it takes a while to understand even the ``good'' solution; it's not an easy p
 \subsection*{❌ Bad solution.}
 Impose coordinates $(x,y)$.
 If $B$ always removes counters from cells $(x,y)$ with $x + y \equiv 0 \pmod 3$,
-then any line by $A$ will get interrupted.
-So in the worst case $A$ can get up to $k=2+1+2=5$.
-For $A$ to get the worst case, make an equilateral triangle on $A$'s second turn
-and then put two more counters two away on $A$'s third turn.
-This makes a threat so $B$ removes an inner counter.
-If $A$ then puts this inner counter back it makes another threat each turn,
-so $B$ has to keep removing one of the two inner counters.
-Eventually one of the two inner counters has to get surrounded by a full hexagon.
-Finally $A$ fills in the other gap between the inner counters.
-This creates an double threat for $A$'s next turn so $A$ wins.
+then any line by $A$ gets interrupted so worst case $A$ gets up to $k=2+1+2=5$.
+For $A$, make an equilateral triangle on second turn
+and then put two more counters two away on third turn.
+This makes a threat so $B$ removes an inner counter,
+then $A$ puts this inner counter back it makes another threat each turn,
+so $B$ has to keep doing this.
+Eventually one of the inner counters is surrounded by a full hexagon,
+so $A$ fills in the other gap,
+which creates an double threat for $A$'s next turn so $A$ wins, answer $6$.
 
 \subsection*{✅ Good solution.}
 The answer is $k = 6$.
