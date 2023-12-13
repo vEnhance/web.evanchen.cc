@@ -4,39 +4,269 @@
 \begin{document}
 \title{Remarks on English}
 \subtitle{a.k.a.\ Advice for writing proofs}
-\date{6 March 2020}
+\date{13 December 2023}
 \maketitle
 
 \epigraph{Exposition, criticism, appreciation, is work for second-rate minds.}
 {G.\ H.\ Hardy}
 
-\section{Grading}
-Your score on an olympiad problem is a nonnegative integer at most $7$.
-The unspoken rubric reads something like the following:
+\tableofcontents
+
+\section{Examples of good and bad writing that we'll refer back to}
+Following the examples-first philosophy, here are two problems with commentary
+that we'll refer back to when we provide concrete advice.
+
+\subsection{Introductory example: USAMO 2014 Problem 1}
+This example is meant to be short and more accessible.
+\begin{example}
+  [USAMO 2014/1]
+  Let $a$, $b$, $c$, $d$ be real numbers such that $b-d \ge 5$ and all zeros
+  $x_1$, $x_2$, $x_3$, and $x_4$ of the polynomial $P(x)=x^4+ax^3+bx^2+cx+d$ are real.
+  Find the smallest value the product $(x_1^2+1)(x_2^2+1)(x_3^2+1)(x_4^2+1)$ can take.
+\end{example}
+
+Here are two ways you could write the solution.\footnote{Former
+solution worsened June 2018, with suggestions from Mitchell Lee.}
+
+\subsection*{❌ Bad solution.}
+$x_j^2+1 = (x-i)(x+i) \forall j$
+$\implies \prod x_j^2+1 = \prod (x_j+i)(x_j-i) = P(i)P(-i)$
+so $(b-d-1)^2 + (a-c)^2$.
+$\because x_j = 1 \rightarrow 16$ and $\binom42-1 = 5$.
+$b-d \ge 5$, so $\ge 16$.
+
+\subsection*{✅ Good solution.}
+The answer is $\boxed{16}$.
+This can be achieved by taking $x_1 = x_2 = x_3 = x_4 = 1$,
+whence the product is $2^4 = 16$, and $b-d = 5$.
+
+We now show the quantity is always at least $16$.
+We prove:
+\begin{claim*}
+  We always have $(x_1^2+1)(x_2^2+1)(x_3^2+1)(x_4^2+1) = (b-d-1)^2 + (a-c)^2$.
+\end{claim*}
+\begin{proof}
+  Let $i = \sqrt{-1}$.
+  The key observation is that
+  \[ \prod_{j=1}^4 \left( x_j^2 + 1 \right)
+    = \prod_{j=1}^4 (x_j - i)(x_j + i)
+    = P(i)P(-i) = |P(i)|^2. \]
+  Since $P(i) = (-1+b-d) + (c-a)i$, the claim follows.
+\end{proof}
+Since $b-d-1 \ge 4$, we get the desired lower bound of $4^2+0^2=16$.
+
+\subsection*{💬 Commentary.}
+These solutions have the same mathematical content.
+But notice how in the better solution:
+\begin{itemize}
+  \ii The second solution makes it clear
+  from the beginning what the answer is, and what the equality case is.
+  (The first solution mixes these together.)
+  \ii Moreover, the main idea (of factoring with $i$) is explicitly labeled,
+  so that even if you have never seen the problem before,
+  you can tell at a glance what the main idea of the solution is.
+  \ii The equations are displayed in the second solution,
+  making them much easier to read than in the first.
+\end{itemize}
+The second solution, despite being twice as ``long'',
+is by far faster to read than the first solution.
+In this case, the difference is not so bad because the
+problem and solution are quite short.
+However, in more involved problems the ``not-so-good solution''
+becomes the ``completely unreadable solution''.
+
+
+\subsection{Advanced example: USAMO 2014 Problem 4}
+This example is meant to show what a more involved solution could look like.
+(Beginners or even intermediate students shouldn't be discouraged
+if it takes a while to understand even the ``good'' solution; it's not an easy problem.)
+
+\begin{example}
+  [USAMO 2014 Problem 4]
+  Let $k$ be a positive integer.
+  Two players $A$ and $B$ play a game on an infinite grid of regular hexagons.
+  Initially all the grid cells are empty.
+  Then the players alternately take turns with $A$ moving first.
+  In her move, $A$ may choose two adjacent hexagons in the grid
+  which are empty and place a counter in both of them.
+  In his move, $B$ may choose any counter on the board and remove it.
+  If at any time there are $k$ consecutive grid cells
+  in a line all of which contain a counter, $A$ wins.
+  Find the minimum value of $k$ for which $A$ cannot
+  win in a finite number of moves, or prove that no such minimum value exists.
+\end{example}
+
+\subsection*{❌ Bad solution.}
+Impose coordinates $(x,y)$.
+If $B$ always removes counters from cells $(x,y)$ with $x + y \equiv 0 \pmod 3$,
+then any line by $A$ will get interrupted.
+So in the worst case $A$ can get up to $k=2+1+2=5$.
+For $A$ to get the worst case, make an equilateral triangle on $A$'s second turn
+and then put two more counters two away on $A$'s third turn.
+This makes a threat so $B$ removes an inner counter.
+If $A$ then puts this inner counter back it makes another threat each turn,
+so $B$ has to keep removing one of the two inner counters.
+Eventually one of the two inner counters has to get surrounded by a full hexagon.
+Finally $A$ fills in the other gap between the inner counters.
+This creates an double threat for $A$'s next turn so $A$ wins.
+
+\subsection*{✅ Good solution.}
+The answer is $k = 6$.
+
+\paragraph{Proof that $A$ cannot win if $k=6$.}
+We give a strategy for $B$ to prevent $A$'s victory.
+Shade in every third cell, as shown in the figure below.
+Then $A$ can never cover two shaded cells simultaneously on her turn.
+Now suppose $B$ always removes a counter on a shaded cell
+(and otherwise does whatever he wants).
+Then he can prevent $A$ from ever getting six consecutive counters,
+because any six consecutive cells contain two shaded cells.
+
 \begin{center}
-\begin{tabular}[h]{ll}
-  & Description \\ \hline
-  \boldmath{$7^\ast$} & Problem was solved \\
-  $6$ & Tiny slip (and contestant could repair) \\
-  $5$ & Small gap or mistake, but non-central \\ \hline
-  $2$ & Lots of genuine progress \\
-  \boldmath{$1^\ast$} & Significant non-trivial progress \\
-  \boldmath{$0^\ast$} & ``Busy work'', special cases, lots of writing
-\end{tabular}
+  \begin{asy}
+    path hexagon = scale(0.5)*(dir(30)--dir(90)--dir(150)--dir(210)--dir(270)--dir(330)--cycle);
+    unitsize(0.6cm);
+    void mark(int x, int y) {
+      pair P = dir(0)*x + dir(60)*y;
+      filldraw(shift(P)*hexagon, purple, black+1);
+    }
+    void spot(int x, int y) {
+      pair P = dir(0)*x + dir(60)*y;
+      draw(shift(P)*hexagon);
+    }
+    int N = 4;
+    for (int x=-N; x<=N; ++x) {
+      for (int y=-N; y<=N; ++y) {
+        if ( (abs(x+y)) > N ) continue;
+        if (
+          (x-y) % 3 == 0
+        ) mark(x,y);
+        else spot(x,y);
+      }
+    }
+  \end{asy}
 \end{center}
-The ``default'' scores are starred above.
-Note that, unlike high school English class or the SAT essay,
-you don't get points just because you wrote a lot!
 
-In theory, your solutions to olympiads are graded solely based on math.
-In practice, style still does play a role in some ways:
-the harder your solution is to understand,
-the less likely the grader is to understand you,
-and the less likely you are to earn points you deserve.\footnote{In addition,
-  poorly written solutions make the graders sad,
-  and you wouldn't want that, would you?}
+\paragraph{Example of a strategy for $A$ when $k=5$.}
+We describe a winning strategy for $A$ explicitly.
+Note that after $B$'s first turn there is one counter,
+so then $A$ may create an equilateral triangle,
+and hence after $B$'s second turn there are two consecutive counters.
+Then, on her third turn,
+$A$ places a pair of counters two spaces away on the same line.
+Label the two inner cells $x$ and $y$ as shown below.
+\begin{center}
+  \begin{asy}
+    path hexagon = scale(0.5)*(dir(30)--dir(90)--dir(150)--dir(210)--dir(270)--dir(330)--cycle);
+    unitsize(0.6cm);
+    void mark(int x, int y) {
+      pair P = dir(0)*x + dir(60)*y;
+      filldraw(shift(P)*hexagon, palecyan, black);
+      filldraw(CR(P, 0.3), paleblue, blue);
+    }
+    void spot(int x, int y) {
+      pair P = dir(0)*x + dir(60)*y;
+      draw(shift(P)*hexagon);
+    }
+    for (int x=-3; x<=4; ++x) {
+      for (int y=-2; y<=2; ++y) {
+        if ( x+y < -3 ) continue;
+        if ( x+y > 4 ) continue;
+        spot(x,y);
+      }
+    }
+    mark(-2, 0);
+    mark(-1, 0);
+    mark( 2, 0);
+    mark( 3, 0);
+    label("$x$", (-1)*dir(0));
+    label("$y$", (2)*dir(0));
+  \end{asy}
+\end{center}
+Now it is $B$'s turn to move;
+in order to avoid losing immediately,
+he must remove either $x$ or $y$.
+Then on any subsequent turn, $A$ can replace $x$ or $y$
+(whichever was removed)
+and add one more adjacent counter.
+This continues until either $x$ or $y$ has all its neighbors filled
+(we ask $A$ to do so in such a way that
+she avoids filling in the two central cells between $x$ and $y$
+as long as possible).
 
-\section{Stylistic suggestions}
+So, let's say without loss of generality (by symmetry) that $x$
+is completely surrounded by tokens.
+Again, $B$ must choose to remove $x$ (or $A$ wins on her next turn).
+After $x$ is removed by $B$, consider the following figure.
+\begin{center}
+  \begin{asy}
+    path hexagon = scale(0.5)*(dir(30)--dir(90)--dir(150)--dir(210)--dir(270)--dir(330)--cycle);
+    unitsize(0.6cm);
+    void mark(int x, int y) {
+      pair P = dir(0)*x + dir(60)*y;
+      filldraw(shift(P)*hexagon, palecyan, black);
+      filldraw(CR(P, 0.3), paleblue, blue);
+    }
+    void spot(int x, int y) {
+      pair P = dir(0)*x + dir(60)*y;
+      draw(shift(P)*hexagon);
+    }
+    for (int x=-4; x<=5; ++x) {
+      for (int y=-3; y<=3; ++y) {
+        if ( x+y < -4 ) continue;
+        if ( x+y > 5 ) continue;
+        spot(x,y);
+      }
+    }
+    mark(-2, 0);
+    mark( 0, 0);
+    mark( 0, -1);
+    mark(-1, 1);
+    mark(-1, -1);
+    mark(-2, 1);
+
+    mark( 2, 0);
+    mark( 2, 1);
+    mark( 3, 0);
+    label("$x$", (-1)*dir(0));
+    label("$y$", (2)*dir(0));
+    void win(int x, int y, pen p1, pen p2) {
+      pair P = dir(0)*x + dir(60)*y;
+      filldraw(shift(P)*hexagon, p1, p2);
+    }
+    win(1,0, lightgreen, deepgreen);
+    win(0,1, lightgreen, deepgreen);
+    win(0,2, lightred, red);
+    win(0,3, lightred, red);
+    win(4,0, lightred, red);
+    win(5,0, lightred, red);
+  \end{asy}
+\end{center}
+We let $A$ play in the two marked green cells.
+Then, regardless of what move $B$ plays,
+one of the two choices of moves marked in red lets $A$ win.
+Thus, we have described a winning strategy when $k=5$ for $A$.
+
+\subsection*{💬 Commentary.}
+The bad solution doesn't give definitions of any of the objects it is using,
+such as how the coordinates $(x,y)$ are specified,
+or the meanings of any of the made-up terms like ``line by $A$'',
+``threat'', ``inner counter'', ``worst case'', ``surrounded by a full hexagon'',
+``fills in the other gap'', ``double threat''.
+The reader is forced to guess.
+
+Diagrams are absent, and there are no names besides the $k$ given in the problem
+(which is abused slightly as $k = 2+1+2 = 5$).
+It also never clearly states what the answer is,
+and smashes everything into one paragraph.
+
+You can read lots of solutions to this problem on AoPS at
+\url{https://aops.com/community/p3478584}
+if you want to see more examples of good and bad writing.
+
+\newpage
+
+\section{Concrete advice}
 Here are some tips of mine that I don't think are stressed enough.
 
 \subsection{Never write wrong math}
@@ -82,17 +312,17 @@ were congruent, so the grader sees it immediately and can say
 
 Ways that you can highlight this are:
 \begin{itemize}
-  \ii Isolating crucial steps and claims as their own
-  \textbf{lemmas}.\footnote{This is often useful for another reason:
+  \ii \alert{Isolating crucial steps and claims}
+  as their own self-contained parts.\footnote{This is often useful for another reason:
     breaking the proof into individual steps.
     The complexity of understanding a proof grows super-linearly
     in its length; therefore breaking it into smaller chunks
     is often a good thing.}
-  \ii Using \textbf{claims} to say what you're doing.
+  \ii Using \alert{claims} to say what you're doing.
   Rather than doing angle chasing and writing
   ``blah blah blah, therefore $\triangle M_B I_B M \sim \triangle M_C I_C M$'',
   consider instead ``We claim $\triangle M_B I_B M \sim \triangle M_C I_C M$, proof''.
-  \ii \textbf{Displaying} important equations.
+  \ii \alert{Displaying important equations}.
   For example, notice how the line
   \begin{equation}
     \triangle M_B I_B M \sim \triangle M_C I_C M
@@ -102,11 +332,24 @@ Ways that you can highlight this are:
   You can even number such claims to reference them letter,
   e.g.\ ``by \eqref{eq:displaytri}''.
   This is especially useful in functional equations.
-  \ii Just \textbf{say it}!
+  \ii \alert{Just say it}!
   Little hints like ``the crucial claim is $X$''
   or ``the main idea is $Y$'' are immensely helpful.
   Don't make $X$ and $Y$ look like another intermediate step.
 \end{itemize}
+
+In the good USAMO 2014/1 sample, we can see two examples of this.
+First, the critical identity
+\[ (x_1^2+1)(x_2^2+1)(x_3^2+1)(x_4^2+1) = (b-d-1)^2 + (a-c)^2 \]
+was written out as a separate independent claim, with a self-contained proof.
+This divorces the ``prove an identity'' part of the problem from the
+``prove the lower bound'' part of the problem,
+splitting the solution into two independent halves.
+The reader doesn't need to consider $b-d \geq 5$ in the first half;
+this compartmentalization helps make things easier.
+Second, the introduction of $i$ on its separate display,
+explicitly telegraphed with ``the key observation'',
+makes it obvious to the reader that this particular step is the heart of the proof.
 
 \subsection{``Find all\dots''}
 Many problems will ask you to ``find all objects satisfying some condition''
@@ -114,58 +357,51 @@ Many problems will ask you to ``find all objects satisfying some condition''
 For any solution of this form, I strongly recommend that you
 structure your solution as follows:
 \begin{itemize}
-  \ii Start by writing ``\textbf{We claim the answer is \dots}''.
-  \ii Then, say ``\textbf{We prove these satisfy the conditions}'', and do so.
+  \ii Start by writing ``\alert{We claim the answer is \dots}''.
+  \ii Then, say ``\alert{We prove these satisfy the conditions}'', and do so.
   For example, in a functional equation with answer $f(x) = x^2$,
   you should plug this $f$ back in and verify the equation is satisfied.
-  Even if this verification is trivial,
-  you must still explicitly include it,
+  Even if this verification is trivial, you must still explicitly include it,
   because it is part of the problem.
-  \ii Finally, say ``\textbf{Now we prove these are the only ones}''
-  and do so.
+  \ii Finally, say ``\alert{Now we prove these are the only ones}'' and do so.
 \end{itemize}
 
-Similarly, some problems will ask you to
-``find the minimum/maximum value of $X$''.
+Similarly, some problems will ask you to ``find the minimum/maximum value of $X$''.
 In such situations, I strongly recommend you write your solution as follows:
 \begin{itemize}
-  \ii Start by writing ``\textbf{We claim the minimum/maximum is \dots}''.
-  \ii Then, say ``\textbf{We prove that this is attainable}'',
+  \ii Start by writing ``\alert{We claim the minimum/maximum is \dots}''.
+  \ii Then, say ``\alert{We prove that this is attainable}'',
   and give the construction (or otherwise prove existence).
-  Even if this verification is trivial,
-  you must still explicitly include it,
+  Even if this verification is trivial, you must still explicitly include it,
   because it is part of the problem.
-  \ii Finally, say ``\textbf{We prove this is a lower/upper bound}'', and do so.
+  \ii Finally, say ``\alert{We prove this is a lower/upper bound}'', and do so.
 \end{itemize}
 
 Failing to do one of the steps mentioned above is a classic newbie mistake.
 Make it abundantly clear to the grader that you know the difference
 between a bound and a maximum.
+The good solutions to both problems on USAMO 2014 follow this structure.
 
 \subsection{Leave space}
-Most people don't leave enough space.
-This makes solutions hard to read.
+Most people don't leave enough space. This makes solutions hard to read.
 
 Examples of things you can do:
 \begin{itemize}
-  \ii Skip a line after paragraphs.
+  \ii \alert{Skip a line after paragraphs}.
   Use paragraph breaks more often than you already do.
 
-  \ii If you isolate a specific \textbf{lemma or claim} in your proof,
+  \ii If you isolate a specific \alert{lemma or claim} in your proof,
   then it should be on its own line,
   with some whitespace before and after it.
 
-  \ii Any time you do \textbf{casework},
-  you should always split cases into separate paragraphs
-  or bullet points.
+  \ii Any time you do casework,
+  you should always \alert{split cases into separate paragraphs or bullet points}.
   Make it visually clear when each case begins and ends.
 
-  \ii Display important equations,
-  rather than squeezing them into paragraphs.
+  \ii Display important equations, rather than squeezing them into paragraphs.
   If you have a long calculation,
   then do an aligned display\footnote{This is the
-    \texttt{align*} environment,
-    for those of you that like \LaTeX.}
+    \texttt{align*} environment, for those of you that like \LaTeX.}
   rather than squeezing it into a paragraph.
   For example, instead of writing $0 \le {(a - b)^2} = {(a + b)^2} - 4ab = {(10 - c)^2} - 4\left( {25 - c(a + b)} \right) = {(10 - c)^2} - 4\left( {25 - c(10 - c)} \right) = c(20 - 3c)$, write instead
   \begin{align*}
@@ -177,10 +413,88 @@ Examples of things you can do:
   \end{align*}
 \end{itemize}
 
+\subsection{For the love of god please include a diagram if you needed one}
+If you used a diagram to solve the problem, give one to the reader too.
+(This is not limited to just geometry problems.)
+
+In competition settings, you do \emph{not} need to draw a new diagram for the solution.
+Just turn in the one that you already drew when solving the problem,
+by adding the appropriate page headers to it.
+
+``Why can't the reader draw their own diagram in Geogebra?''
+Well, yes, in theory. But theory is not the same as practice.
+For example, suppose you write ``let $M$ be the midpoint of $\ol{BC}$''
+when you meant ``let $M$ be the midpoint of $\ol{EF}$''.
+Now because of that one typo, you're \emph{completely screwed},
+because you \emph{also} forced the reader to draw their own diagram,
+which is now different from yours.
+The reader has no way to fix your mistake for you.
+There's no reason to press your luck like this; just include a diagram.
+
+If you want to understand how painful it is to read a solution with no diagram provided,
+check out the AoPS thread for USAMO 2014/4 at \url{https://aops.com/community/p3478584}
+and try reading some of the text-only solutions.
+
+\subsection{Pay special attention to definitions}
+The previous illustration of how the typo
+``let $M$ be the midpoint of $\ol{BC}$'' can kill you
+illustrates a more general point: you have to get definitions right.
+For intermediate logic, a reader can rely on truth/falsity of statements
+to help fill in gaps or fix typos --- but definitions cannot be
+intrinsically right or wrong, so the reader has to use the one you gave them.
+
+Thus it's absolutely critical your definitions are solid.
+Whenever you define a new object or algorithm,
+pay special care that your specifications are complete and correct.
+
+Tips:
+\begin{itemize}
+  \ii \alert{Write in complete sentences}.
+  Do not skimp on words when you're defining objects, they're too important.
+  (If you want to be lazy, do so in the main body of your solution, not the definitions.)
+
+  \ii If the definition is complicated enough, \alert{give some examples}.
+  (To be honest, I always thought the examples were worth more than the formal definition.)
+  Compare for example
+  \begin{quote}
+  \slshape
+  Define a \textbf{block} of letters to be a maximal
+  contiguous subsequence of consecutive letters.
+  \end{quote}
+  versus
+  \begin{quote}
+  \slshape
+  Define a \textbf{block} of letters to be a maximal
+  contiguous subsequence of consecutive letters.
+  For example, the word $aabbbcaaa$ has four blocks, namely $aa$, $bbb$, $c$, $aaa$.
+  \end{quote}
+
+  \ii If you are defining an object, consider whether it makes sense to name them.
+  Consider for example
+  \begin{quote}
+  \slshape
+  Given a word $A$, we introduce the following notation for its $m$ blocks:
+  \[ A =
+    A_1 A_2 \dots A_m
+    = \underbrace{a_1 \dots a_1}_{x_1}
+    \underbrace{a_2 \dots a_2}_{x_2}
+    \dots
+    \underbrace{a_m \dots a_m}_{x_m}.
+  \]
+  \end{quote}
+
+  \ii \alert{Never write the words ``worst case''} unless you really,
+  really know what you are doing.
+  This term is tantamount to saying to the reader,
+  ``I'm only going to consider this case, but I won't explain why'',
+  and is quite commonly accompanied by false or circular reasoning.
+\end{itemize}
+The examples for USAMO 2014/4 shows a night-and-day contrast.
+In the bad write-up, nothing is defined, illustrated, or named.
+In the good write-up, all named objects are explicitly shown.
+
 \subsection{Other things}
 Try to have nice handwriting.
-Include a large, scaled diagram in geometry problems\footnote{And
-try to not have circles which look like potatoes.}.
 Leave 1-inch (or more) margins.
 % Try to avoid making typos.
 Write your proofs forwards even if you solved the problem backwards.
@@ -190,72 +504,7 @@ Strike out and cross out unwanted parts of your solution (don't scribble).
 
 I'm sure someone has told you these before.
 If not, consider reading
-\url{https://www.artofproblemsolving.com/articles/how-to-write-solution}.
-
-\section{Example}
-Consider the following problem.
-\begin{mdframed}
-  \textbf{(USAMO 2014)}
-  Let $a$, $b$, $c$, $d$ be real numbers such that $b-d \ge 5$
-  and all zeros $x_1$, $x_2$, $x_3$, and $x_4$ of the
-  polynomial $P(x)=x^4+ax^3+bx^2+cx+d$ are real.
-  Find the smallest value the product
-  \[ (x_1^2+1)(x_2^2+1)(x_3^2+1)(x_4^2+1) \]
-  can take.
-\end{mdframed}
-
-Here are two ways you could write the solution.\footnote{Former
-solution worsened June 2018, with suggestions from Mitchell Lee.}
-\begin{mdframed}
-  \textbf{Pretty poor solution}. \; \,
-  $x_j^2+1 = (x-i)(x+i) \forall j$
-  $\implies \prod x_j^2+1 = \prod (x_j+i)(x_j-i) = P(i)P(-i)$
-  so $(b-d-1)^2 + (a-c)^2$.
-  $\because x_j = 1 \rightarrow 16$ and $\binom42-1 = 5$.
-  $b-d \ge 5$, so $\ge 16$.
-\end{mdframed}
-
-\begin{mdframed}
-  \textbf{Better solution}.
-  The answer is $\boxed{16}$.
-  This can be achieved by taking $x_1 = x_2 = x_3 = x_4 = 1$,
-  whence the product is $2^4 = 16$, and $b-d = \binom42-1 = 5$.
-
-  Now, we prove this is a lower bound.
-  The key observation is that
-  \[ \prod_{j=1}^4 \left( x_j^2 + 1 \right)
-    = \prod_{j=1}^4 (x_j - i)(x_j + i)
-    = P(i)P(-i) = |P(i)|^2. \]
-  Consequently, we have
-  \begin{align*}
-    \left( x_1^2 + 1 \right)
-    \left( x_2^2 + 1 \right)
-    \left( x_3^2 + 1 \right)
-    \left( x_4^2 + 1 \right)
-    &= (b-d-1)^2 + (a-c)^2 \\
-    &\ge (5-1)^2 + 0^2 = 16.
-  \end{align*}
-  This proves the lower bound.
-\end{mdframed}
-
-These solutions have the same mathematical content.
-But notice how in the better solution:
-\begin{itemize}
-  \ii The second solution makes it clear
-  from the beginning what the answer is, and what the equality case is.
-  (The first solution mixes these together.)
-  \ii Moreover, the main idea (of factoring with $i$) is explicitly labeled,
-  so that even if you have never seen the problem before,
-  you can tell at a glance what the main idea of the solution is.
-  \ii The equations are displayed in the second solution,
-  making them much easier to read than in the first.
-\end{itemize}
-The second solution, despite being twice as ``long'',
-is by far faster to read than the first solution.
-In this case, the difference is not so bad because the
-problem and solution are quite short.
-However, in more involved problems the ``not-so-good solution''
-becomes the ``completely unreadable solution''.
+\url{https://www.aops.com/articles/how-to-write-solution}.
 
 \section{Funny quote}
 From \href{https://www.gleech.org/better-maths}{Steven Witten}:
@@ -283,6 +532,31 @@ But I know a lot of you are specifically interested in olympiad grading,
 so here are a few quick remarks to that end.
 These comments are meant for USA(J)MO in particular
 but should apply to other respectable contests as well.
+
+\subsection{Grading}
+Your score on an olympiad problem is a nonnegative integer at most $7$.
+The unspoken rubric reads something like the following:
+\begin{center}
+\begin{tabular}[h]{ll}
+  & Description \\ \hline
+  \boldmath{$7^\ast$} & Problem was solved \\
+  $6$ & Tiny slip (and contestant could repair) \\
+  $5$ & Small gap or mistake, but non-central \\ \hline
+  $2$ & Lots of genuine progress \\
+  \boldmath{$1^\ast$} & Significant non-trivial progress \\
+  \boldmath{$0^\ast$} & ``Busy work'', special cases, lots of writing
+\end{tabular}
+\end{center}
+The ``default'' scores are starred above.
+Note that, unlike high school English class or the SAT essay,
+you don't get points just because you wrote a lot!
+
+In theory, your solutions to olympiads are graded solely based on math.
+In practice, style still does play a role in some ways:
+the harder your solution is to understand,
+the less likely the grader is to understand you,
+and the less likely you are to earn points you deserve.\footnote{In addition,
+  poorly written solutions make the graders sad, and you wouldn't want that, would you?}
 
 \subsection{More examples of decent write-ups}
 I should note that on my website
