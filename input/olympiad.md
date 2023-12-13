@@ -31,7 +31,8 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 
 - <b>English</b> {{ handout_link_src("english") }}
   Notes on proof-writing style.
-  These were used at [MOP](mop.html) in 2016, later updated March 2020.
+  These were used at [MOP](mop.html) in 2016, later updated March 2020 and
+  December 2023.
 
 - <b>From the Author's Side: Thoughts on Problem Writing</b> {{ handout_link_src("ProblemWrite") }}
   A short philosophical blurb about writing problems
