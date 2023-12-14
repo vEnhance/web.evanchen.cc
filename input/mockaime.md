@@ -24,8 +24,8 @@ a chance to try their hand at problem composition.
 
 ## {{ hl("current", "Current edition") }}
 
-The first exam will probably be posted sometime
-between Christmas 2023 and early January 2024.
+Tentatively, the 2024 exam will be posted here
+around noon Pacific time on Friday, December 22, 2023.
 
 Anyone will be able to download the exam and attempt the problems,
 and submit their answers for scoring.
