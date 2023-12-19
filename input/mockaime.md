@@ -25,12 +25,12 @@ a chance to try their hand at problem composition.
 ## {{ hl("current", "Current edition") }}
 
 - Problems will be posted here publicly around
-  _noon Pacific time on Friday, December 22, 2023_.
+  **noon Pacific time on Friday, December 22, 2023**.
   No registration or pre-commitment is required.
 
 - The problems file will provide a link to submit answers.
   If you'd like to submit for statistics/bragging, the deadline is
-  _Monday, January 15, 2024 at 11:59pm Pacific time_.
+  **Monday, January 15, 2024 at 11:59pm Pacific time**.
   Please avoid public spoilers for the problems before that date.
 
 - Solutions and statistics will be posted no later than January 20, 2024.
@@ -51,10 +51,9 @@ and all answers are integers ranging from 000 to 999, inclusive.
 No aids other than scratch paper, graph paper, ruler, compass,
 and protractor are permitted.
 
-Problem statements follow [ARML conventions][arml],
+Problem statements follow [ARML 2014 conventions][arml],
 so for example $\left\lfloor x \right\rfloor$ is the floor of $x$.
 You may refer to these conventions during the exam.
 
 [aime]: https://en.wikipedia.org/wiki/American_Invitational_Mathematics_Examination
-
-[arml]: https://www.arml.com/ARML/arml_2019/public_documents Conventions/ARML_Conventions_2014.pdf
+[arml]: /static/ARML_Conventions_2014.pdf
