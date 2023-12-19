@@ -24,8 +24,16 @@ a chance to try their hand at problem composition.
 
 ## {{ hl("current", "Current edition") }}
 
-Tentatively, the 2024 exam will be posted here
-around noon Pacific time on Friday, December 22, 2023.
+- Problems will be posted here publicly around
+  _noon Pacific time on Friday, December 22, 2023_.
+  No registration or pre-commitment is required.
+
+- The problems file will provide a link to submit answers.
+  If you'd like to submit for statistics/bragging, the deadline is
+  _Monday, January 15, 2024 at 11:59pm Pacific time_.
+  Please avoid public spoilers for the problems before that date.
+
+- Solutions and statistics will be posted no later than January 20, 2024.
 
 Anyone will be able to download the exam and attempt the problems,
 and submit their answers for scoring.
@@ -36,4 +44,17 @@ but don't otherwise offer prizes.
 
 Nothing here yet!
 
+## {{ hl("format", "Format") }}
+
+Like the AIME, there are 15 problems to solve in 3 continuous hours
+and all answers are integers ranging from 000 to 999, inclusive.
+No aids other than scratch paper, graph paper, ruler, compass,
+and protractor are permitted.
+
+Problem statements follow [ARML conventions][arml],
+so for example $\left\lfloor x \right\rfloor$ is the floor of $x$.
+You may refer to these conventions during the exam.
+
 [aime]: https://en.wikipedia.org/wiki/American_Invitational_Mathematics_Examination
+
+[arml]: https://www.arml.com/ARML/arml_2019/public_documents Conventions/ARML_Conventions_2014.pdf
