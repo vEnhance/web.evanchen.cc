@@ -48,12 +48,15 @@ Nothing here yet!
 
 Like the AIME, there are 15 problems to solve in 3 continuous hours
 and all answers are integers ranging from 000 to 999, inclusive.
-No aids other than scratch paper, graph paper, ruler, compass,
-and protractor are permitted.
 
 Problem statements follow [ARML 2014 conventions][arml],
 so for example $\left\lfloor x \right\rfloor$ is the floor of $x$.
 You may refer to these conventions during the exam.
+
+For scored submissions, no aids other than writing utensils and erasers,
+scratch paper, graph paper, ruler, compass, protractor are permitted.
+In particular, books, notes, calculators, cell phones, computers, abacuses,
+ChatGPT, magic crystal balls, etc., are all prohibited.
 
 [aime]: https://en.wikipedia.org/wiki/American_Invitational_Mathematics_Examination
 [arml]: /static/ARML_Conventions_2014.pdf
