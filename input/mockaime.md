@@ -35,7 +35,7 @@ a chance to try their hand at problem composition.
 
 - Solutions and statistics will be posted no later than January 20, 2024.
 
-- There's an [forum thread on AoPS](https://aops.com/community/p29466910)
+- There's a [forum thread on AoPS](https://aops.com/community/p29466910)
   for discussion of the problems and so on.
 
 Anyone will be able to download the exam and attempt the problems,
