@@ -21,7 +21,7 @@ description: OTIS Excerpts, a mini-book based on OTIS lecture notes.
 _The OTIS Excerpts_ is a mini-book
 that I put together from
 [lecture notes I use during the year](otis.html).
-It is a collection of 192 problems and solutions.
+It is a collection of 202 problems and solutions.
 It is designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
@@ -31,11 +31,12 @@ for discussing the examples and problems from the text.
 ### {{ hl("contents", "Contents") }}
 
 The Excerpts consist of selected problems from the following
-twelve topics from the [OTIS catalog][catalog]:
+thirteen topics from the [OTIS catalog][catalog]:
 
 - Standard inequalities
 - Functional equations
 - Monsters
+- Two-part problems (a simplified version of "entry combo" from OTIS)
 - Global
 - Local
 - Rigid
@@ -47,8 +48,7 @@ twelve topics from the [OTIS catalog][catalog]:
 - Constructions in Number Theory
 
 Most of the lecture material is adapted from
-[existing handouts of mine](olympiad.html)
-but some of it is new.
+[existing handouts of mine](olympiad.html) but some of it is new.
 In addition, there is a chapter for beginners in proof-writing,
 and three chapters consisting of selected problems
 and solutions to recent USA team selection test problems.
@@ -61,8 +61,7 @@ Geometry is not covered;
 The source code is sludge,
 but if you really want it [here's a ZIP](textbooks/OTIS-Excerpts.src.zip).
 Much of the underlying TeX is actually machine generated
-(by interactions with my problem database),
-so don't learn any habits from it.
+(by interactions with my problem database), so don't learn any habits from it.
 
 [recent]: https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf
 [catalog]: https://web.evanchen.cc/static/otis-samples/synopsis.html
