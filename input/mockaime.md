@@ -24,12 +24,12 @@ a chance to try their hand at problem composition.
 
 ## {{ hl("current", "Current edition") }}
 
-- Problems will be posted here publicly around
-  **noon Pacific time on Friday, December 22, 2023**.
-  No registration or pre-commitment is required.
+- You can download the [2024 problems now](/exams/OTIS-Mock-AIME-2024.pdf).
 
 - The problems file will provide a link to submit answers.
-  If you'd like to submit for statistics/bragging, the deadline is
+  No registration or pre-commitment is required.
+
+- If you'd like to submit for statistics/bragging, the deadline is
   **Monday, January 15, 2024 at 11:59pm Pacific time**.
   Please avoid public spoilers for the problems before that date.
 
@@ -45,7 +45,7 @@ but don't otherwise offer prizes.
 
 ## {{ hl("past", "Past exams") }}
 
-Nothing here yet!
+- 2024: [problems](/exams/OTIS-Mock-AIME-2024.pdf)
 
 ## {{ hl("format", "Format") }}
 
