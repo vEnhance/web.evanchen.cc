@@ -34,6 +34,9 @@ a chance to try their hand at problem composition.
   Please avoid public spoilers for the problems before that date.
 
 - Solutions and statistics will be posted no later than January 20, 2024.
+  If you've already submitted (or won't submit for scoring)
+  and would like hints or solutions on problems before then, though,
+  feel free to email Evan for a nudge.
 
 - There's a [forum thread on AoPS](https://aops.com/community/p29466910)
   for discussion of the problems and so on.
