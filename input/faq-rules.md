@@ -169,7 +169,11 @@ that the graders can't understand!
 
 There are no hard criteria set in stone, but in general,
 any well-known result which does not trivialize the problem is okay.
-If you are still unsure, it is strictly better to include the proof.
+If you are still unsure, a good practice is to include a sketch of the proof
+which only needs to be a few sentences long
+(this is much better than gambling by omitting the proof altogether
+because it only takes a few extra seconds).
+
 See [English handout][english] for more discussion.
 
 ### {{ faq("CR-6", "How much detail should I include in a proof to avoid losing points?") }}
