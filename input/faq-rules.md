@@ -145,25 +145,6 @@ to what you might encounter at USAMO.
 
 No. It is a long-standing policy of AMC that decisions of the
 USAMO graders are final and may not be appealed.
-I am also not able to look up your exact score distribution for you.
-
-I won't claim that we graders never make mistakes,
-but all papers are read independently by at least two graders
-(and sometimes more if the solution is especially different or unusual);
-these graders must agree before a score is assigned.
-Then the top papers on each contest
-(anyone within one problem or so of an award or MOP invitation)
-are re-graded again, independently, by a third (or fourth, ...) grader.
-Nearly all the graders are either past USAMO winners or IMO medalists
-or high-scorers of some national olympiad.
-
-I will say that USAMO grading tends to be stricter than IMO grading,
-or most other national olympiads for that matter.
-
-All that being said,
-this is a good incentive to learn to write your solutions neatly.
-You don't want to be the one with a correct solution
-that the graders can't understand!
 
 ### {{ faq("CR-5", "What results may be cited without proof on USAMO or IMO?") }}
 
