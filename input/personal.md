@@ -42,7 +42,8 @@ check the [dedicated page](puzzlehunt.html).
 is a cooperative logic-based deduction game.
 I play Hanabi with the [H-group](https://github.com/Zamiell/hanabi-conventions),
 under the username [vEnhance](https://hanab.live/scores/vEnhance).
-I've been known to [play competitively](https://hanabi-competitions.com/).
+I played in some [tournaments from 2020-2022](https://hanabi-competitions.com/)
+and later in the [Hanabi Pro Hunting League](https://hanabi-league.com/player/vEnhance/).
 
 I wrote a
 [short introduction to the rules and H-group conventions](https://tinyurl.com/hanabi-evan-intro)
