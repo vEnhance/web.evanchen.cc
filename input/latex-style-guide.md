@@ -37,9 +37,12 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 3. Operators like `\sin` MUST be typeset correctly,
    either using builtin commands or using the `\operatorname` command.
 
-4. Ellipses MUST be written with `\dots` unless the auto-detection would cause
-   the wrong type of ellipses to be used; in that case, either `\cdots` or
-   `\ldots` MUST be used instead.
+4. Ellipses MUST be written with amsmath's `\dots` except in the rare cases
+   where the auto-detection would cause the wrong type of ellipses to be used;
+   in that case, use the appropriate
+   [AMSMath semantic dots](https://tex.stackexchange.com/a/122493/76888),
+   that is, one of `\dotsc`, `\dotso`, `\dotsb`, `\dotsi`, `\dotsm`.
+   The older commands `\ldots` or `\cdots` MUST NOT be used.
 
 5. Grammatical commas and grammatical periods MUST NOT appear in inline math.
    For example:
