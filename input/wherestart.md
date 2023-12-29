@@ -120,10 +120,10 @@ You should also compare your solutions to existing ones.[^sufficient]
     I do NOT recommend using the AoPS Wiki in place of the Contest Index.
     The solution quality in the wiki is generally much poorer than the forum.
 
-If you want a book to follow, the one I grew up with was
-[Rotman's Journey into Mathematics: An Introduction to Proofs][rotman].[^rnote]
+If you want a book to follow, the one I grew up with was Joseph J Rotman's
+[Journey into Mathematics: An Introduction to Proofs][rotman].[^rnote]
 
-[rotman]: https://store.doverpublications.com/0486453065.html).
+[rotman]: https://store.doverpublications.com/0486453065.html
 
 [^rnote]:
     It shares my philosophy that teaching proof-based classes by

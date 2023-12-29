@@ -182,7 +182,7 @@ After this, my advice is
 3. Get feedback on these solutions (from a mentor, on the forums, etc.).
 
 If you want to follow a book, the one I grew up with was
-[Rotman's textbook](https://store.doverpublications.com/0486453065.html).
+[Joseph J Rotman's textbook](https://store.doverpublications.com/0486453065.html).
 It shares my philosophy that teaching proof-based classes by
 force-feeding set theory notation is not particularly helpful,
 and instead develops proof-writing by discussing real mathematical content
