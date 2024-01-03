@@ -60,7 +60,8 @@ I had participated casually the year before that.
 
 ### {{ faq("P-5", "Are you available to tutor my child in math contests?") }}
 
-See [my teaching page][otis] for more details.
+See [my teaching page][otis] for details on my MO training program.
+I no longer have the capacity to do teaching outside this program.
 
 ### {{ faq("P-6", "What is your favorite math olympiad problem?") }}
 
@@ -74,7 +75,7 @@ See [source code](https://github.com/vEnhance/web.evanchen.cc).
 
 ### {{ faq("P-8", "Pronouns?") }}
 
-Don't care, use whatever comes naturally to you.
+Couldn't care less, use whatever comes naturally to you.
 
 ### {{ faq("P-9", "Gender identity?") }}
 
@@ -85,22 +86,13 @@ Cis-het. Though I defected to girl fashion because
 
 `N ≥ G ≥ C > A ≫ FE`.
 
-[aimescratch]: static/AIME-2013-scratch.pdf
-[aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
+### {{ faq("P-11", "Spirit animal?") }}
+
+Small black kitten.
+
 [articles]: olympiad.html
-[ebook]: https://www.maa.org/ebooks/EGMO/
-[geoff]: https://people.bath.ac.uk/masgcs/geo.pdf
 [geombook]: geombook.html
-[howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [otis]: otis.html
-[mistakes]: https://www.artofproblemsolving.com/articles/stupid-mistakes
 [history]: history.html
-[right]: https://artofproblemsolving.com/community/c5h520900
 [shower]: https://www.paulgraham.com/top.html
-[tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
-[usa2003]: exams/usamo-2003-rubric.pdf
-[usamts]: https://usamts.org/index.php
-[wpcontest]: https://blog.evanchen.cc/20n4/07/27/what-leads-to-success-at-math-contests/
-[wpgeo]: https://blog.evanchen.cc/2016/01/19/some-advice-for-olympiad-geometry/
-[yufei]: https://yufeizhao.com/olympiad.html
 [cofinite]: https://en.wikipedia.org/wiki/Cofiniteness
