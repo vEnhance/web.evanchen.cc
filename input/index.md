@@ -15,7 +15,7 @@ _信言不美，美言不信。_
 
 This is the homepage of Evan Chen (陳誼廷),
 known also as `vEnhance` on many websites.
-I'm an [MIT grad student](https://math.mit.edu/directory/profile.html?pid=2106)
+I'm a [math grad student at Mass Tech](https://math.mit.edu/directory/profile.html?pid=2106)
 under [Wei Zhang](https://math.mit.edu/~wz2113/),
 and also a math olympiad [coach](otis.html),
 [volunteer](volunteer.html), and
