@@ -41,6 +41,11 @@ a chance to try their hand at problem composition.
 - There's a [forum thread on AoPS](https://aops.com/community/p29466910)
   for discussion of the problems and so on.
 
+- For the 2024 exam, Evan will stream a review session
+  (presenting the solutions to all the problems)
+  on twitch.tv/vEnhance starting at 10pm Eastern time on Tuesday, January 16.
+  The video recording will be on YouTube later.
+
 Anyone will be able to download the exam and attempt the problems,
 and submit their answers for scoring.
 We may recognize high scores for bragging rights
