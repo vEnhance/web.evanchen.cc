@@ -116,6 +116,10 @@ Additional technical instructions:
   (If it's less than one month, you can still ask, but I may decline.)
 - Requests, and accompanying materials/info, must be sent **by email**.
   Not Discord direct message. I can't keep track of those.
+- When writing your request, start the subject line of your email with the
+  phrase `[LOR]` (including the brackets, and all uppercase).
+  This helps me with searching through emails over time;
+  it also lets me know that you've read this page.
 - When inviting me to whatever application the school or program uses,
   it's best if you invite the address `evan at evanchen.cc`.
   - _Exception_: for some reason, MathPrograms.org (which is used by REU's
