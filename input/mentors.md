@@ -105,16 +105,6 @@ or (less preferably) send me an email.
   to AIME and AMC, I'm ready to help you achieve your mathematical aspirations.
   Let's embark on this mathematical journey together!
 
-## {{ hl("raghav", "Raghav Aggarwal") }}
-
-- Contact: $\text{raghavaggarwal2005}@\text{gmail}{.}\text{com}$
-- Open to both 1:1 and group lessons.
-- Raghav has the expertise to create very strong fundamentals in
-  problem-solving. He runs lesson for students (of any origin) preparing for
-  both computational exams (MathCounts, AMCs, AIME etc.) and proof-based
-  olympiads. He is also open to any specific topic-teaching in math. He has a
-  very unique set of teaching skills which any student always dreamt of!
-
 ## {{ hl("soroush", "Soroush Rezaei") }}
 
 - Contact: $\text{soroush.rezaei78}@\text{gmail}{.}\text{com}$
