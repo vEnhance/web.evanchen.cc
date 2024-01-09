@@ -32,14 +32,14 @@ to get a better sense for the goals of the competition.
 The USEMO is largely run on an honor system, although we may offer prizes.
 Please check the [full rules and procedures][rules].
 
-# {{ hl("current", "USEMO 2023") }}
+# {{ hl("current", "USEMO 2024") }}
 
 - Registration opens around October 2
-  on [AoPS portal](https://aops.com/contests/usemo/).
+on [AoPS portal](https://aops.com/contests/usemo/).
+<!--
   It remains open until end-of-day October 20 or when capacity is reached.
-- Download [problems from 2023](/exams/USEMO-2023.pdf).
-- Day I is Sat. **21 October 2023**, from 12:30pm ET to 5:00pm ET.
-- Day II is Sun. **22 October 2023**, from 12:30pm ET to 5:00pm ET.
+- Day I is Sat. **N October 2024**, from 12:30pm ET to 5:00pm ET.
+- Day II is Sun. **N October 2024**, from 12:30pm ET to 5:00pm ET.
 - On each day, the AoPS portal will be functional
   between 12:00 noon ET and 6:00pm ET, to allow some time for setup
   and for scanning and submitting solutions.
@@ -47,8 +47,9 @@ Please check the [full rules and procedures][rules].
   - You can check your registration status at
     [this link](https://aops.com/contests/usemo/register).
 - Discussion of problems opens at 7:00pm ET each evening after the exam.
+  -->
 - Volunteers for grading are now open; see below.
-- Problem proposals were due May 10, 2023.
+- Problem proposals were due May 10, 2024.
 
 ## {{ hl("links", "Links and downloads") }}
 
@@ -92,20 +93,19 @@ The two biggest things we can use help with are:
   If you have any capability to read through some submissions, please help!
   While you need experience reading mathematical proofs
   to fulfill this role, you do NOT need past competition experience.
-  We will provide marking schemes,
-  and pair up experienced graders with newer ones.
+  We will provide marking schemes, and pair up experienced graders with newer ones.
   You can read [more info about the grading here][grading-info];
   see also the [advice for problem captains][captain].
   <br>
   To sign up for grading,
-  [fill out this 2023 form](https://forms.gle/6qRjvaGxiEGya2jH6).
+  [fill out this 2024 form](https://forms.gle/d3JM3x8obCwQVdTn6).
 
 - **Problem proposals**: we welcome proposals for problems
   from anyone who is not eligible for the contest.
   See the [problem proposal guidelines][propose].
-  For USEMO 2023, the deadline for submissions is **10 May 2023**.
+  For USEMO 2024, the deadline for submissions is **10 May 2024**.
 
-Please contact the directors for details on these,
+Please contact the directors for further details on these,
 or if you have other ideas on how you could help out.
 
 [usamts]: https://usamts.org/
@@ -117,6 +117,5 @@ or if you have other ideas on how you could help out.
 [captain]: static/usemo/captain-guidance-usemo.pdf
 [grading-info]: static/usemo/grading-brief-usemo.pdf
 [propose]: static/usemo/proposal-guidelines-usemo.pdf
-[signup]: https://forms.gle/P7tqip2xst8EMXLJ7
 [aops-usemo]: https://www.aops.com/contests/usemo
 [review]: https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/
