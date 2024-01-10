@@ -49,7 +49,7 @@ on [AoPS portal](https://aops.com/contests/usemo/).
 - Discussion of problems opens at 7:00pm ET each evening after the exam.
   -->
 - Volunteers for grading are now open; see below.
-- Problem proposals were due May 10, 2024.
+- Problem proposals are due May 10, 2024.
 
 ## {{ hl("links", "Links and downloads") }}
 
