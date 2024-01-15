@@ -44,7 +44,7 @@ a chance to try their hand at problem composition.
 - For the 2024 exam, Evan will stream a review session
   (presenting the solutions to all the problems)
   on [twitch.tv/vEnhance](https://twitch.tv/vEnhance)
-  starting at 10pm Eastern time on Tuesday, January 16.
+  starting at 8pm Eastern time on Friday, January 19, 2024.
   The video recording will be on YouTube later.
 
 Anyone will be able to download the exam and attempt the problems,
