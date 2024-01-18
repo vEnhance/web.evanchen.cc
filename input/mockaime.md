@@ -24,10 +24,15 @@ a chance to try their hand at problem composition.
 
 ## {{ hl("current", "Current edition") }}
 
+<!--
+
 - You can download the [2024 problems now](/exams/OTIS-Mock-AIME-2024.pdf).
 
 - The problems file will provide a link to submit answers.
   No registration or pre-commitment is required.
+
+- There's a [forum thread on AoPS](https://aops.com/community/p29466910)
+  for discussion of the problems and so on.
 
 - If you'd like to submit for statistics/bragging, the deadline is
   **Monday, January 15, 2024 at 11:59pm Pacific time**.
@@ -38,8 +43,9 @@ a chance to try their hand at problem composition.
   and would like hints or solutions on problems before then, though,
   feel free to email Evan for a nudge.
 
-- There's a [forum thread on AoPS](https://aops.com/community/p29466910)
-  for discussion of the problems and so on.
+-->
+
+- The 2024 exam has concluded. See the archive below for relevant links.
 
 - For the 2024 exam, Evan will stream a review session
   (presenting the solutions to all the problems)
@@ -49,12 +55,15 @@ a chance to try their hand at problem composition.
 
 Anyone will be able to download the exam and attempt the problems,
 and submit their answers for scoring.
-We may recognize high scores for bragging rights
-but don't otherwise offer prizes.
+We may recognize high scores for bragging rights but don't otherwise offer prizes.
 
 ## {{ hl("past", "Past exams") }}
 
-- 2024: [problems](/exams/OTIS-Mock-AIME-2024.pdf)
+- 2024:
+  [(problems)](/exams/OTIS-Mock-AIME-2024.pdf)
+  [(solutions)](/exams/sols-OTIS-Mock-AIME-2024.pdf)
+  [(thread)](https://aops.com/community/p29466910)
+  (video)
 
 ## {{ hl("format", "Format") }}
 
