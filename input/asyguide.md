@@ -29,6 +29,7 @@ You can [view the source code on GitHub][asy-gallery].
 {{ clickable_asy_image("Jan-TST-2013-3") }}
 {{ clickable_asy_image("Mexico-2020-3") }}
 {{ clickable_asy_image("Napkin-cproj2") }}
+{{ clickable_asy_image("OTIS-Mock-AIME-2024-12") }}
 {{ clickable_asy_image("open-cover") }}
 {{ clickable_asy_image("ST-Napkin-Extn") }}
 {{ clickable_asy_image("TSTST-2020-1") }}
