@@ -90,59 +90,60 @@ This project has evolved to more than just forty hours.
 31. Holomorphic functions
 32. Meromorphic functions
 33. Holomorphic square roots and logarithms
-34. Measure spaces
-35. Constructing the Borel and Lebesgue measure
-36. Lebesgue integration
-37. Swapping order with Lebesgue integrals
-38. Bonus: A hint of Pontryagin duality
-39. Random variables (TO DO)
-40. Large number laws (TO DO)
-41. Stopped martingales (TO DO)
-42. Multivariable calculus done correctly
-43. Differential forms
-44. Integrating differential forms
-45. A bit of manifolds
-46. Algebraic integers
-47. Unique factorization (finally!)
-48. Minkowski bound and class groups
-49. More properties of the discriminant
-50. Bonus: Let's solve Pell's equation!
-51. Things Galois
-52. Finite fields
-53. Ramification theory
-54. The Frobenius element
-55. Bonus: A Bit on Artin Reciprocity
-56. Some topological constructions
-57. Fundamental groups
-58. Covering projections
-59. Objects and morphisms
-60. Functors and natural transformations
-61. Limits in categories (TO DO)
-62. Abelian categories
-63. Singular homology
-64. The long exact sequence
-65. Excision and relative homology
-66. Bonus: Cellular homology
-67. Singular cohomology
-68. Application of cohomology
-69. Affine varieties
-70. Affine varieties as ringed spaces
-71. Projective varieties
-72. Bonus: B\'ezout's theorem
-73. Morphisms of varieties
-74. Sheaves and ringed spaces
-75. Localization
-76. Affine schemes: the Zariski topology
-77. Affine schemes: the sheaf
-78. Interlude: nineteen examples of affine schemes
-79. Morphisms of locally ringed spaces
-80. Interlude: Cauchy's functional equation and Zorn's lemma
-81. Zermelo-Fraenkel with choice
-82. Ordinals
-83. Cardinals
-84. Inner model theory
-85. Forcing
-86. Breaking the continuum hypothesis
+34. Bonus: Topological Abel-Ruffini Theorem
+35. Measure spaces
+36. Constructing the Borel and Lebesgue measure
+37. Lebesgue integration
+38. Swapping order with Lebesgue integrals
+39. Bonus: A hint of Pontryagin duality
+40. Random variables (TO DO)
+41. Large number laws (TO DO)
+42. Stopped martingales (TO DO)
+43. Multivariable calculus done correctly
+44. Differential forms
+45. Integrating differential forms
+46. A bit of manifolds
+47. Algebraic integers
+48. Unique factorization (finally!)
+49. Minkowski bound and class groups
+50. More properties of the discriminant
+51. Bonus: Let's solve Pell's equation!
+52. Things Galois
+53. Finite fields
+54. Ramification theory
+55. The Frobenius element
+56. Bonus: A Bit on Artin Reciprocity
+57. Some topological constructions
+58. Fundamental groups
+59. Covering projections
+60. Objects and morphisms
+61. Functors and natural transformations
+62. Limits in categories (TO DO)
+63. Abelian categories
+64. Singular homology
+65. The long exact sequence
+66. Excision and relative homology
+67. Bonus: Cellular homology
+68. Singular cohomology
+69. Application of cohomology
+70. Affine varieties
+71. Affine varieties as ringed spaces
+72. Projective varieties
+73. Bonus: B\'ezout's theorem
+74. Morphisms of varieties
+75. Sheaves and ringed spaces
+76. Localization
+77. Affine schemes: the Zariski topology
+78. Affine schemes: the sheaf
+79. Interlude: nineteen examples of affine schemes
+80. Morphisms of locally ringed spaces
+81. Interlude: Cauchy's functional equation and Zorn's lemma
+82. Zermelo-Fraenkel with choice
+83. Ordinals
+84. Cardinals
+85. Inner model theory
+86. Forcing
+87. Breaking the continuum hypothesis
 
 [recent]: https://venhance.github.io/napkin/Napkin.pdf
 [wp]: https://blog.evanchen.cc/napkin/
