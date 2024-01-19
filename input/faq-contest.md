@@ -252,22 +252,19 @@ See also: [Against Perfect Scores][perfect].
 ### {{ faq("C-9", "Should I take the time to write up full solutions to problems I solve in training?") }}
 
 It depends on who you ask; you'll get different advice.
-On the one hand, writing the solution completely is actually really helpful
-(cleaning up solution, noticing errors, just getting to know things better).
-On the other hand, can also be very time-consuming
+The obvious downside is that it's time-consuming
 (time that could be spent solving a different problem).
-So you get some varying answers, and it may just depend on the person.
+But I think the upsides are understated; see [FAQ C-24](#C-24).
+For this reason, a lot of strong students still do full write-ups anyway,
+especially those who have a "do things well" habit.
 
 That said, I think it is usually a mistake to write nothing at all.
-I require my students to at least write down a couple sentences on
-the main idea of their solution --- so that, if they read the solution a few years later,
-they would understand the main idea,
+For OTIS, I require my students to at least write down a couple sentences on
+the main idea of their solution --- so that,
+if they read this a few years later, they would understand the main idea,
 and basically know how to work out the rest of the details from there.
 This process of having to summarize the key ideas is also helpful,
 and takes so little time that there's no excuse not to do it (in my opinion).
-
-Of course, a lot of strong students still do full write-ups anyway,
-and I do so myself, just out of a habit of trying to do things well.
 
 ### {{ faq("C-10", "Can you solve X problem for me?") }}
 
@@ -551,6 +548,53 @@ but not by enough that I would really care, especially if you're a beginner.
 (In fact, for beginners, the 2000-2010 era of problems
 could actually be better fits than the 2010+ era on average,
 because on average they assume less training and background knowledge.)
+
+### {{ faq("C-24", "Why are you such a stickler about write-ups? You get 7 points at a contest as long as the solution is correct, right?") }}
+
+I think that if you try to divorce the solving process from the writing process,
+it will damage your ability to do both.
+
+Many of you have this idea that you should solve the problem first
+and then just transcribe what's in your head onto paper.
+You indeed can get away with this at IMO because there's no deduction
+for garbage-but-correct papers.
+But your solutions will be both less comprehensible
+and mathematically less elegant if you work this way,
+even if they are technically correct.
+(And your error rate will be higher as well.)
+
+Whereas if you are trying to write the solution well
+(not just for the 7 points like many of you have been trained to do),
+you should often find that the content of your solution will be different
+from what was in your head before you started writing.
+If you watch me do [write-ups live on stream](/videos.html) you'll see this.
+It's only during the so-called "write-up" phase that a lot of the claims
+are restructured or reordered, or steps are consolidated and simplified,
+or worse still, I realize the solution I had in my head doesn't actually work.
+(Sometimes it's a minor patch, but sometimes the whole thing is broken.)
+
+Essay-writing and painting work similarly.
+Paul Graham wrote the following [quote about essays](https://paulgraham.com/essay.html)
+
+> If all you want to do is figure things out, why do you need to write anything,
+> though? Why not just sit and think? Well, there precisely is Montaigne's great
+> discovery. Expressing ideas helps to form them. Indeed, helps is far too weak
+> a word. Most of what ends up in my essays I only thought of when I sat down to
+> write them. That's why I write them.
+
+and the following about [painting](https://paulgraham.com/hp.html):
+
+> Another example we can take from painting is the way that paintings are
+> created by gradual refinement. Paintings usually begin with a sketch.
+> Gradually the details get filled in. But it is not merely a process of
+> filling in. Sometimes the original plans turn out to be mistaken. Countless
+> paintings, when you look at them in xrays, turn out to have limbs that have
+> been moved or facial features that have been readjusted.
+
+It does kind of suck that on actual high-school exams,
+you have to write solutions with pen and paper.
+These days I type everything, so it's much easier to edit work-in-progress.
+For example cut-and-paste is a godsend.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
