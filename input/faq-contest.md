@@ -258,6 +258,13 @@ But I think the upsides are understated; see [FAQ C-24](#C-24).
 For this reason, a lot of strong students still do full write-ups anyway,
 especially those who have a "do things well" habit.
 
+I'd say use your judgment.
+If your solution involves a long but straightforward arithmetic calculation,
+for example, then transcribing that full calculation
+into a text editor is likely unnecessary.
+Conversely, if you have a lot of moving parts or confusing logic,
+writing those out can help you make sure it checks out.
+
 That said, I think it is usually a mistake to write nothing at all.
 For OTIS, I require my students to at least write down a couple sentences on
 the main idea of their solution --- so that,
@@ -553,6 +560,8 @@ because on average they assume less training and background knowledge.)
 
 I think that if you try to divorce the solving process from the writing process,
 it will damage your ability to do both.
+I treat the writing process as a chance to improve and clean the solution
+rather than merely a chore of transcribing it.
 
 Many of you have this idea that you should solve the problem first
 and then just transcribe what's in your head onto paper.
@@ -569,9 +578,9 @@ you should often find that the content of your solution will be different
 from what was in your head before you started writing.
 If you watch me do [write-ups live on stream](/videos.html) you'll see this.
 It's only during the so-called "write-up" phase that a lot of the claims
-are restructured or reordered, or steps are consolidated and simplified,
-or worse still, I realize the solution I had in my head doesn't actually work.
-(Sometimes it's a minor patch, but sometimes the whole thing is broken.)
+are restructured or reordered, or steps are consolidated and simplified.
+(Or worse still, I realize the solution I had in my head doesn't actually work.
+Sometimes it's a minor patch, but sometimes the whole thing is broken.)
 
 Essay-writing and painting work similarly.
 Paul Graham wrote the following [quote about essays](https://paulgraham.com/essay.html)
@@ -595,6 +604,9 @@ It does kind of suck that on actual high-school exams,
 you have to write solutions with pen and paper.
 These days I type everything, so it's much easier to edit work-in-progress.
 For example cut-and-paste is a godsend.
+So by all means, during a contest, focus on just getting full marks.
+But when you're at home practicing, I encourage you to not settle for
+"technically correct" because you'll learn more that way.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
