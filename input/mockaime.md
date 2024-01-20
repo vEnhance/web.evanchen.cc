@@ -15,7 +15,8 @@ _Satisfactory. Keep cooking._
 The **OTIS Mock AIME** is an annual 3-hour exam consisting of 15 problems
 whose answers are integers between $0$ and $999$.
 As the name suggests, it is yet another unofficial paper intended to emulate the
-[American Invitational Mathematics Exam][aime].
+[American Invitational Mathematics Exam][aime],
+although we expect that the average difficulty will be higher by 2-3 problems.
 
 The defining characteristic of the OTIS Mock AIME is that all the problems
 are composed by students from the [OTIS program](otis.html).
@@ -43,10 +44,6 @@ a chance to try their hand at problem composition.
   and would like hints or solutions on problems before then, though,
   feel free to email Evan for a nudge.
 
--->
-
-- The 2024 exam has concluded. See the archive below for relevant links.
-
 - For the 2024 exam, Evan will stream a review session
   (presenting the solutions to all the problems)
   on [twitch.tv/vEnhance](https://twitch.tv/vEnhance)
@@ -57,13 +54,18 @@ Anyone will be able to download the exam and attempt the problems,
 and submit their answers for scoring.
 We may recognize high scores for bragging rights but don't otherwise offer prizes.
 
+-->
+
+- The 2024 exam has concluded. See the archive below for relevant links.
+- The 2025 exam will probably take place from December 2024 to January 2025.
+
 ## {{ hl("past", "Past exams") }}
 
 - 2024:
   [(problems)](/exams/OTIS-Mock-AIME-2024.pdf)
   [(solutions)](/exams/sols-OTIS-Mock-AIME-2024.pdf)
   [(thread)](https://aops.com/community/p29466910)
-  (video)
+  [(video)](https://youtu.be/eO13kdQ153o)
 
 ## {{ hl("format", "Format") }}
 
