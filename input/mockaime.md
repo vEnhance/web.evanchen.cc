@@ -65,6 +65,7 @@ We may recognize high scores for bragging rights but don't otherwise offer prize
   [(problems)](/exams/OTIS-Mock-AIME-2024.pdf)
   [(solutions)](/exams/sols-OTIS-Mock-AIME-2024.pdf)
   [(thread)](https://aops.com/community/p29466910)
+  [(AoPS)](https://aops.com/community/c3727730)
   [(video)](https://youtu.be/eO13kdQ153o)
 
 ## {{ hl("format", "Format") }}
