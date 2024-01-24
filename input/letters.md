@@ -130,4 +130,29 @@ Additional technical instructions:
   So if it's less than a week until the deadline and the letter I promised
   hasn't been submitted yet, then please double-check on it.
 
+## {{ hl("decline", "Declined requests") }}
+
+I decline to write letters if I do not have enough time before the deadline
+and/or I do not have enough material to write a letter with nonnegative value.
+This happens more often than people expect[^schoolteacher],
+because rushed or lukewarm letters are often worse than nothing.
+
+[^schoolteacher]:
+    This is in contrast to many schoolteachers;
+    many of them accept letter requests indiscriminately to avoid conflict,
+    and then spend 10 minutes writing a mediocre letter
+    knowing the student will never see it.
+    I think this is worse for the applicant than just declining the request,
+    and am not willing to do this.
+
+Thus, if I decline a request from you, please do not be offended.
+This always says more about how well I know you than about you.
+It is harder than people expect to write a good letter of recommendation.
+I do not want to take chances with anyone's application.
+
+In particular, if your request is declined,
+**please do not ask me to defend my decision** (as has happened before).
+I will be honest and say I find such cross-examination to be really offensive.
+It's okay to ask for a letter; it's not okay to demand one.
+
 [mitsupp]: https://mitadmissions.org/apply/firstyear/letters-of-recommendation/
