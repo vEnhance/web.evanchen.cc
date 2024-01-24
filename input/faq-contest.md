@@ -606,7 +606,7 @@ These days I type everything, so it's much easier to edit work-in-progress.
 For example cut-and-paste is a godsend.
 So by all means, during a contest, focus on just getting full marks.
 But when you're at home practicing, I encourage you to not settle for
-"technically correct" because you'll learn more that way.
+"technically correct" because I think you'll learn more that way.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
