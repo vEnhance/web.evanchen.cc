@@ -20,7 +20,8 @@ If so, these pages may be for you.
 > People who can code in the world of technology companies are a dime
 > a dozen and get no respect. People who can code in biology, medicine,
 > government, sociology, physics, history, and mathematics are respected and can
-> do amazing things to advance those disciplines.  
+> do amazing things to advance those disciplines.
+>
 > --- [Zed A. Shaw](https://learnpythonthehardway.org/python3/advice.html)
 
 This page will attempt to convince you to learn to code and how to get started.
