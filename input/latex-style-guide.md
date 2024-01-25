@@ -121,10 +121,10 @@ The following is a solution to
 Expand the generating function and take mod $x^{2023}$
 to find that $P(x)$ is given by
 \begin{align*}
-  (-1)^{11-4} \cdot &(1+x^{30}+x^{60}+\cdots)
-  \cdot (1+x^{42}+x^{84}+\cdots) \\
-  \cdot &(1+x^{70}+x^{140}+\cdots)
-  \cdot (1+x^{105}+x^{210}+\cdots).
+  (-1)^{11-4} \cdot &(1+x^{30}+x^{60}+\dotsb)
+  \cdot (1+x^{42}+x^{84}+\dotsb) \\
+  \cdot &(1+x^{70}+x^{140}+\dotsb)
+  \cdot (1+x^{105}+x^{210}+\dotsb).
 \end{align*}
 So it is equivalent to find the number of quadruples of
 nonnegative integers $(a,b,c,d)$ which satisfy
