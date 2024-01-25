@@ -109,13 +109,19 @@ looking much up beforehand (to avoid spoilers).
   this game is not suitable for young audiences or those easily disturbed.
 
 - [<b>Ghost Trick: Phantom Detective</b>](https://en.wikipedia.org/wiki/Ghost_Trick) <br>
-  Nintendo DS adventure game (also on iOS I believe).
+  Now on [Steam](https://store.steampowered.com/app/1967430/Ghost_Trick_Phantom_Detective/)!
   Involves solving puzzles, and enjoying the really well-done plot.
   The story follows a recently deceased Sissel,
-  a ghost who tries to recover his memories and identity,
-  and discover why he died.
+  a ghost who tries to recover his memories and identity, and discover why he died.
   Sissel progresses through the game by manipulating the environment
   (hence the name "ghost trick").
+
+- [<b>Ace Attorney series</b>](https://en.wikipedia.org/wiki/Ace_Attorney) <br>
+  Courtroom drama visual novel.
+  Find contradictions in witness testimonies to defend your client.
+  The six main games from this series have been ported to Steam,
+  the first three as the [Phoenix Wright trilogy](https://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/)
+  and the latter three as the [Apollo Justice trilogy](https://store.steampowered.com/app/2187220/Apollo_Justice_Ace_Attorney_Trilogy/).
 
 - [<b>Undertale</b>](https://undertale.com/about/) <br>
   Role-playing video game. Amazing music and characters.
