@@ -30,7 +30,7 @@ See [FAQ L-14](faq-latex.html#L-11).
 
 ### {{ faq("S-4", "How did you take undergraduate / graduate math classes in high school?") }}
 
-Context: in high school I five classes from
+Context: in high school I took five classes from
 UC Berkeley and San Jose State total; you can see [the notes I took][notes].
 
 The main limiting factor is getting your high school to let you run off.
