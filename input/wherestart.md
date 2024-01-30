@@ -81,7 +81,7 @@ _Solving_ the problems completely is difficult,
 but if you really have a completely correct solution to a problem,
 it is actually pretty hard to _not_ get full credit.
 I would say at least 90% of the time,
-when a student loses points on USA(J)MO unexpectedly,
+when a student loses points on the USA(J)MO unexpectedly,
 it's because their proof is actually incomplete, not (just) badly-written.
 
 Of course, you should still try to write your solutions as clearly as possible.
@@ -105,20 +105,19 @@ If possible, the best way is to have a friend or coach
 who can check your work and provide suggestions.
 But the supply of people willing to do this is admittedly very low,
 so most people are not so lucky to have access to feedback.
-The second-best thing to do is write up your solution
-and post it on [AoPS contest index](https://aops.com/community/c13)[^nowiki];
-by [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law),
-wrong solutions are often exposed quite rapidly.
-You should also compare your solutions to existing ones.[^sufficient]
+Almost everyone gets by instead with something like the following algorithm:
 
-[^sufficient]:
-    Of course, you should set your sights on becoming self-sufficient eventually.
-    During an exam, you do not have access to feedback or other's solutions,
-    so you need to be able to know when you've solved a problem!
+1. Write up your solution neatly.
+2. Look up the problem on
+   [AoPS contest index](https://aops.com/community/c13)[^nowiki];
+   and compare your solution to those by reputable users.
+3. Edit your solution and post it on the thread.
+   By [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law),
+   wrong solutions are often exposed quite rapidly.
 
-[^nowiki]:
-    I do NOT recommend using the AoPS Wiki in place of the Contest Index.
-    The solution quality in the wiki is generally much poorer than the forum.
+Together these three steps should catch "most" substantial errors.
+See [Section B.1 of my English handout](/handouts/english/english.pdf)
+for more details about this procedure.
 
 If you want a book to follow, the one I grew up with was Joseph J Rotman's
 [Journey into Mathematics: An Introduction to Proofs][rotman].[^rnote]
