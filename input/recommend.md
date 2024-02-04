@@ -60,9 +60,11 @@ Here are some additional links.
   Some minimal knowledge of group theory and linear algebra is used in the examples.
   See also [the corresponding print book](https://www.maths.ed.ac.uk/~tl/bct/).
 
-- [Analytic NT notes](https://www.math.illinois.edu/~hildebr/ant/) by AJ Hildebrand.
+- [Analytic NT notes](https://www.math.illinois.edu/~hildebr/ant/) by AJ Hildebrand
+  (this was Math 531 at University of Illinois).
   A set of lecture notes for analytic number theory, suitable for self-study.
   A light introduction where you get to prove versions of the Prime Number Theorem and Dirichlet's Theorem.
+  (The link seems to unfortunately be offline now.)
 
 - [Algebraic Geometry](https://www.mathematik.uni-kl.de/~gathmann/de/alggeom.php) by Andreas Gathmann.
   My preferred introduction to algebraic geometry; short but complete.
