@@ -63,6 +63,8 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
     5 feeder puzzles and a pure metapuzzle (meaning the metapuzzle has no given
     content besides the feeder answers).
   - [MIT Aquarium Puzzle Hunt](https://puzzles.mit.edu/aquarium/)
+  - [DP Puzzle Hunt](https://dp.puzzlehunt.net/unlocking.html),
+    probably the most polished one in this list.
 - Some good beginner puzzles from more difficult hunts:
   - [Yeah, But It Didn't Work!](https://www.mit.edu/~puzzle/2018/full/puzzle/yeah_but_it_didnt_work.html)
     (Mystery Hunt 2018)
