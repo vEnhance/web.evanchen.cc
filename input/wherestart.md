@@ -131,6 +131,10 @@ If you want a book to follow, the one I grew up with was Joseph J Rotman's
     from geometry, number theory, etc. rather than being overly focused
     on bookkeeping and formalism.
 
+[^nowiki]:
+    I do NOT recommend using the AoPS Wiki in place of the Contest Index.
+    The solution quality in the wiki is generally much poorer than the forum.
+
 If you like excessive information, you might also read my handout
 [Intro to Proofs for the Morbidly Curious](/handouts/NaturalProof/NaturalProof.pdf).
 
