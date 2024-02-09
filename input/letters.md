@@ -13,18 +13,15 @@ Inspired by [Ravi Vakil](https://math.stanford.edu/~vakil/recommendations.html).
 
 ## {{ hl("programs", "Programs I can write for") }}
 
-I write letters most commonly for
-[RSI](https://www.cee.org/research-science-institute)
-and typical undergraduate colleges (MIT and Common App).
-For the latter, most people prefer to invite me as a supplemental letter
+In general, it's up to you.
+Common requests include summer camps like Canada/USA MathCamp, PROMYS/ROSS,
+etc., as well as normal university applications.
+For the latter, many students prefer to invite me as a supplemental letter
 rather than as a math teacher proper.
 I can also write letters for
-[MIT PRIMES](https://math.mit.edu/research/highschool/primes/index.html),
-although I am of the impression that the awards and entrance exam
-hold much more weight than rec letters for PRIMES (compared to, say, college apps).
-
-I've also written letters for summer math camps
-such as Canada/USA MathCamp, PROMYS/ROSS, etc.
+[MIT PRIMES](https://math.mit.edu/research/highschool/primes/index.html) and
+[RSI](https://www.cee.org/research-science-institute)
+(but see [FAQ S-5](https://web.evanchen.cc/faq-school.html#S-5)).
 
 ## {{ hl("ask", "Whether to ask") }}
 
