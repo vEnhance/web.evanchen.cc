@@ -1,4 +1,3 @@
-import datetime
 import heapq
 import sys
 
@@ -9,13 +8,13 @@ if len(sys.argv) > 1 and sys.argv[1] == "--local":
     BASE = r"file:///home/evan/Sync/www/elmo/"
 else:
     BASE = r"//web.evanchen.cc/elmo/"
-YEAR_NEXT = datetime.datetime.today().year
-YEAR_PREV = YEAR_NEXT - 1
-YEARS = range(2012, YEAR_NEXT + 1)
 with open("internal/prob_links.yaml") as d:
     data = yaml.load(d, Loader=yaml.SafeLoader)
-    PREV_URL = data[YEAR_PREV]["AoPS Thread"]
-    NEXT_URL = data[YEAR_NEXT]["AoPS Thread"]
+YEAR_NEXT = max(data.keys())
+YEAR_PREV = YEAR_NEXT - 1
+YEARS = range(2012, YEAR_NEXT + 1)
+PREV_URL = data[YEAR_PREV]["AoPS Thread"]
+NEXT_URL = data[YEAR_NEXT]["AoPS Thread"]
 
 # Create header {{{1
 with open("static/header.html") as f:
