@@ -14,7 +14,7 @@ menu-position: 50
   </a>
   <br />
   <h3><a href="https://www.youtube.com/c/vEnhance">
-  youtube.com/vEnhance
+  youtube.com/@vEnhance
   </a></h3>
   </td>
   <td rowspan="2">
