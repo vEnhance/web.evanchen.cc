@@ -252,6 +252,13 @@ I think the two most helpful tips I have are:
 
 Conversely, these are also the heuristics I use when _giving_ advice.
 
+### {{ faq("R-11", "Any advice for writing?") }}
+
+Yeah, [write like you talk](https://paulgraham.com/talk.html).
+
+Obviously there's much more to writing too, but so few people pass this
+basic standard that I feel saying anything more would be premature.
+
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
