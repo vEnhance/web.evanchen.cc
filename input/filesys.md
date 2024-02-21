@@ -86,9 +86,7 @@ that would be a plain text file.
 Other examples:
 
 - The source code for most programming languages is input in plain text format,
-  such as in C++, Python, Go, Java, Lisp, etc. I actually can't think of a
-  single example of a real programming language whose source codes are not in
-  plain text format.
+  such as in C++, Python, Go, Java, Lisp, etc.
 - LaTeX source files are in plain text too.
 - This document being in Markdown is written in plain text format.
 - HTML is considered plain text too. It may not be particularly _intuitive_
@@ -120,6 +118,7 @@ their own encoding system, rather than standard A=97, B=98, ...
   but Microsoft Word will only read/write documents in Ishkashimi language,
   thus forcing you to keep using Microsoft Word.)
 - PDF also uses its own compressed format.
+- Images like `*.png`, `*.jpg`, etc. are also a different encoding.
 - And of course, `*.tar.gz` or `*.zip` archive files use a different
   encoding to achieve compression that isn't possible with plain text.
 
@@ -134,10 +133,8 @@ given a piece of paper, you can append, alter, or delete contents.
 
 Because the most common file is a plain text file,
 the most common editor is a **text editor**.
-That's an editor that understand plain text files,
-and can manipulate them in natural ways.
-The beauty of this is the following principle,
-which you must understand.
+That's an editor that read and modify plain text files.
+The beauty of this is the following principle, which you must understand.
 
 > **Important Principle: ANY text editor can edit ANY plain text file**.
 
@@ -187,10 +184,8 @@ You write a file called `nt.tex` as follows:
 
 \begin{document}
 \maketitle
-Let $\theta$ be a real number such that
-$\cos(20\theta)$ and $\cos(21\theta)$
-are rational numbers.
-Is $\cos(\theta)$ necessarily rational?
+Let $\theta$ be a real number such that $\cos(20\theta)$ and $\cos(21\theta)$
+are rational numbers. Is $\cos(\theta)$ necessarily rational?
 \end{document}
 ```
 
@@ -265,7 +260,7 @@ $ pwd
 $ ls
 evil-plans.txt kitten.png papers/
 
-$ cd math/
+$ cd papers/
 
 $ pwd
 /home/evan/Documents/papers
@@ -295,8 +290,7 @@ But there are some catches.
    over and read the `gossip.txt` document.
 3. Vim does its thing.
 
-The argument can be a filename in the current directory,
-or a path to one.
+The argument can be a filename in the current directory, or a path to one.
 So for example, `vim secretbox/gossip.tex` is equivalent to
 `cd secretbox/` followed by `vim gossip.tex`.
 
