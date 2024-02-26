@@ -119,3 +119,16 @@ or (less preferably) send me an email.
   classes, by teaching classified ideas, you will achieve proper mastery in
   problem-solving and in more advanced levels, you will also learn how to
   create new ideas!
+
+## {{ hl("xinke", "Xinke Guo-Xue") }}
+
+- Contact: $\text{xinkeguoxue}@\text{gmail}{.}\text{com}$
+- Website: [xinkesmathacademy.com](https://xinkesmathacademy.com/)
+- Open to small group lessons and 1:1 tutoring, including 1:1 correspondence
+  tutoring via email.
+- I am able to teach problem solving for math competitions, math concepts
+  needed for math competitions, extracurricular math topics outside of math
+  competitions, and school math more in depth than you'd see in school. I
+  teach math for the sake of explaining math well, in a way that is fun and
+  accessible, with proper rigour if needed, and not for the sake of doing
+  well on math competitions.
