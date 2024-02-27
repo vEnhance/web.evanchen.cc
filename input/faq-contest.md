@@ -650,9 +650,10 @@ Examples of things that get thrown into the massive umbrella "algebra" include:
   happened to use the word "integer".
 
 So if you are one of the countless students who has written to me the question
-"how do I get better at olympiad algebra", **the first step to enlightenment
-is realizing there's no such thing**.
-I'd say it's better to focus on particular sub-skill or idea with real cohesion.
+"how do I get better at olympiad algebra",
+**the first step to enlightenment is realizing there's no such thing**.
+I'd say it's better to instead focus on a particular sub-skill
+or idea with real cohesion.
 
 `#algebraisntreal`, fight me.
 
