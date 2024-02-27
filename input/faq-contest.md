@@ -608,6 +608,51 @@ So by all means, during a contest, focus on just getting full marks.
 But when you're at home practicing, I encourage you to not settle for
 "technically correct" because I think you'll learn more that way.
 
+### {{ faq("C-25", "Why don't you have any olympiad algebra book recommendations?") }}
+
+Because "olympiad algebra" is a hodgepodge of unrelated topics.
+(And confusing things further[^algebra], it is largely unrelated
+to [abstract/modern algebra](https://w.wiki/92uT) as well.)
+
+[^algebra]:
+    Ironically, the parts of olympiad algebra that aren't about
+    manipulating artificial expressions are actually most closely related
+    to analysis in the university syllabus.
+    Whereas olympiad number theory is much closer to university algebra.
+
+Examples of things that get thrown into the massive umbrella "algebra" include:
+
+- A bunch of functional equations that deal with manipulating
+  artificial expressions like $f(x+f(x+y))+f(xy)$ with equals signs.
+- Some rarer (but more interesting to me personally) functional equations
+  that say something conceptually like
+  [USA TST 2021/3](https://aops.com/community/p20672681)
+  rather than just being ad-hoc manipulation.
+- Really exact inequalities that come down to manipulating an
+  artificial expression like $\sum \frac{ab+1}{(a+b)^2}$
+  using AM-GM/Schur/Holder and friends.
+- Problems involving comparing the size of two quantities
+  and using big-O asymptotic reasoning or similar,
+  like [Shortlist 2002 A2](https://aops.com/community/p118699)
+  and [IMO 2016/5](https://aops.com/community/p6642565),
+  rather than a really precise AM-GM or similar.
+- Other problems that touch on ideas in real analysis
+  like [USA TST 2020/1](https://aops.com/community/p13654466),
+  [USEMO 2023/2](https://aops.com/community/p28992221),
+  or [USA TSTST 2021/2](https://aops.com/community/p23586635).
+- Problems about polynomials with integer, real, or complex coefficients,
+  which can be either analytic in nature or more algebraic (e.g. Vieta), or both.
+- Miscellaneous problems about manipulating more random artificial expressions
+  even though they're not an FE or inequality (in OTIS, we call this the "Alg Manip" unit).
+- Combinatorics problems that got tossed into the algebra list anyway.
+- Number theory problems that got tossed into the algebra list anyway.
+- Algebra problems that got tossed into the number theory list because they
+  happened to use the word "integer".
+
+So if you are one of the countless students who has written to me the question
+"how do I get better at olympiad algebra", **the first step to enlightenment
+is realizing there's no such thing**. `#algebraisntreal`, fight me.
+
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
