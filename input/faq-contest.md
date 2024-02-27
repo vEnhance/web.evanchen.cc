@@ -655,7 +655,7 @@ So if you are one of the countless students who has written to me the question
 I'd say it's better to instead focus on a particular sub-skill
 or idea with real cohesion.
 
-`#algebraisntreal`, fight me.
+`#AlgebraIsntReal`, fight me.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
