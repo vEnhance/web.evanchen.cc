@@ -282,7 +282,7 @@ I will generally be nice enough to write back and outline or link the solution.
 But otherwise I will likely be too embarrassed to admit I don't have time to
 work on every problem that students send me, and simply archive your message.
 
-### {{ faq("C-11", "Directed angles are really confusing! Can I just use normal angles?") }}
+### {{ faq("C-11", "I can't be bothered to learn directed angles. Can I just use normal angles?") }}
 
 As I allude to in [the directed-angles handout](handouts/Directed-Angles/Directed-Angles.pdf)
 you could probably get away with it,
