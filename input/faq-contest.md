@@ -657,6 +657,18 @@ or idea with real cohesion.
 
 `#AlgebraIsntReal`, fight me.
 
+### {{ faq("C-26", "My big important MO is next week, what should I do?") }}
+
+Wind down.
+
+In general, usually it’s more important to be rested (e.g. sleeping enough)
+and have a clear head in the last few weeks leading up to the contest,
+rather than trying to do additional math practice.
+Math olympiads are meant to be a year-round studying.
+
+(I know some past students who try to increase intensity in the last week,
+but it ends up making them more nervous, hence net harmful to their score.)
+
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
