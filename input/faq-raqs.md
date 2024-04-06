@@ -60,7 +60,7 @@ that I worked on (both successful and unsuccessful):
   [clerk at my high school's office](https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/))
 - Writing fiction stories (which I failed miserably at;
   tried at least two or three times)
-- K-pop dance (not good at it yet but trying!)
+- K-pop dance (extremely unsuccessful)
 - Creating a problem database (this took me five or six tries before it worked out)
 - Creating a constructed language (failed at least five times)
 
