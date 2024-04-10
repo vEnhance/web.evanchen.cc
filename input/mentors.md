@@ -49,6 +49,17 @@ or (less preferably) email me.
   There is a short application process and pricing is \$100 for 10 lessons
   each semester.
 
+## {{ hl("mathzone", "Math Zone") }}
+
+- Primary contact: Galin Totev
+  ($\text{gagototev}@\text{gmail}{.}\text{com}$)
+- Website: [math-zone.net](https://math-zone.net/)
+- Open for Bulgarian students interested in math olympiads.
+- This is a free Bulgarian program for olympiad mathematics.
+  The program is run from former competitors
+  that present online lectures 3–4 times a week.
+  Occasionally mock exams and problem-solving sessions are being held.
+
 ## {{ hl("pleiades", "Pleaides") }}
 
 - Primary contact: [Ram Goel](https://www.imo-official.org/participant_r.aspx?id=31808)
