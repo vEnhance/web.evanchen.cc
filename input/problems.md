@@ -83,6 +83,7 @@ of the problems and solutions of the olympiad.
 - USAMO 2021 [(PDF)](exams/USAMO-2021-notes.pdf) [(TeX)](exams/USAMO-2021-notes.tex) [(video)](https://youtu.be/9WNgDETHOlI)
 - USAMO 2022 [(PDF)](exams/USAMO-2022-notes.pdf) [(TeX)](exams/USAMO-2022-notes.tex)
 - USAMO 2023 [(PDF)](exams/USAMO-2023-notes.pdf) [(TeX)](exams/USAMO-2023-notes.tex)
+- USAMO 2024 [(PDF)](exams/USAMO-2024-notes.pdf) [(TeX)](exams/USAMO-2024-notes.tex)
 - JMO 2010 [(PDF)](exams/JMO-2010-notes.pdf) [(TeX)](exams/JMO-2010-notes.tex)
 - JMO 2011 [(PDF)](exams/JMO-2011-notes.pdf) [(TeX)](exams/JMO-2011-notes.tex)
 - JMO 2012 [(PDF)](exams/JMO-2012-notes.pdf) [(TeX)](exams/JMO-2012-notes.tex)
@@ -97,6 +98,7 @@ of the problems and solutions of the olympiad.
 - JMO 2021 [(PDF)](exams/JMO-2021-notes.pdf) [(TeX)](exams/JMO-2021-notes.tex) [(video)](https://youtu.be/9WNgDETHOlI)
 - JMO 2022 [(PDF)](exams/JMO-2022-notes.pdf) [(TeX)](exams/JMO-2022-notes.tex)
 - JMO 2023 [(PDF)](exams/JMO-2023-notes.pdf) [(TeX)](exams/JMO-2023-notes.tex)
+- JMO 2024 [(PDF)](exams/JMO-2024-notes.pdf) [(TeX)](exams/JMO-2024-notes.tex)
 
 ## {{ hl("tstst", "USA TST Selection Test (TSTST)") }}
 
