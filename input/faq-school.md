@@ -245,6 +245,13 @@ You should not feel obligated to "learn calculus first".
 ([Napkin](napkin.html) takes this approach, where the tongue-in-cheek
 "calculus 101" part has metric topology as a prerequisite.)
 
+For book recommendations, I grew up on
+[Pugh's Real Mathematical Analysis](https://link.springer.com/book/10.1007/978-3-319-17771-7)
+which I liked, but have heard second-hand recommendations for
+[Tao's Analysis I](https://link.springer.com/book/10.1007/978-981-19-7261-4) as well.
+The most famous book is [Baby Rudin](https://w.wiki/9osm),
+but I have heard mixed things about it.
+
 ### {{ faq("S-11", "What's undergrad life like in college?") }}
 
 I think this will vary wildly from person to person
