@@ -70,6 +70,11 @@ Alphabetical, does not include song lyrics.
 ## {{ hl("people", "People") }}
 
 - Ethics is informal politics. (own)
+- Everyone knows that death is inevitable;
+  there's absolutely no surprise about that.
+  Yet it arrives as a surprise,
+  because we spend most of our lives refusing to think about it.
+  ([Schneier on Security](https://www.schneier.com/blog/archives/2023/06/snowden-ten-years-later.html))
 - Everything before the word "but" is bullshit.
 - I don't believe in zero-sum games.
   ([Scott Alexander](https://slatestarcodex.com/2015/01/01/untitled/))
