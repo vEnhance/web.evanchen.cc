@@ -132,6 +132,7 @@ rather than QWERTY.
 - Favorite movies: [A Whisker Away][awa], [I Want My Hat Back][hat]
 - Favorite music group: [Dreamcatcher][dreamcatcher]
 - Favorite song: [Paradise SIYEON][paradise]
+- Favorite K-drama: [구경이 (Inspector Koo)](https://w.wiki/9sw9)
 - [Math contest photos and history](history.html)
 - Myers-Briggs: INFJ-T, but see [criticism of the MBTI](https://en.wikipedia.org/wiki/Myers-Briggs_Type_Indicator#Criticism)
 - [Monkeytype: > 150wpm](https://monkeytype.com/profile/vEnhance)
