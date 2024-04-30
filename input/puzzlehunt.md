@@ -115,6 +115,10 @@ In descending order of importance for new solvers:
    if either order is irrelevant or the solver needs to re-order themselves.
 7. Look at the **puzzle title** and **flavor text** for clues.
 
+For intermediate-advanced solvers, Alex Irpan has a nice post
+[Puzzlehunting 201](https://www.alexirpan.com/2024/04/30/puzzlehunting-201.html)
+with more detailed solving advice.
+
 ## {{ hl("writing", "Thoughts on puzzle-writing") }}
 
 Two blog posts of mine:
