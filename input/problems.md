@@ -7,34 +7,41 @@ description: Archive of PDF's of math olympiad problems.
 ---
 
 This page contains problems and solutions
-to several USA contests, and a few others.
-
+to the International Math Olympiad and several USA contests, and a few others.
 Check the [AoPS contest index](https://aops.com/community/c13)
 for even more problems and solutions, including most of the ones below.
 
-## {{ hl("mohs", "Hardness scale") }}
+# {{ hl("imo", "International Math Olympiad") }}
 
-Here is an
-[index of many problems](upload/MOHS-hardness.pdf)
-by my opinions on their difficulty and subject.
-The difficulties are rated from 0 to 50 in increments of 5,
-using a scale I devised called **MOHS**.[^acronym]
+- IMO 1997 [(PDF)](exams/IMO-1997-notes.pdf) [(TeX)](exams/IMO-1997-notes.tex)
+- IMO 1998 [(PDF)](exams/IMO-1998-notes.pdf) [(TeX)](exams/IMO-1998-notes.tex)
+- IMO 1999 [(PDF)](exams/IMO-1999-notes.pdf) [(TeX)](exams/IMO-1999-notes.tex)
+- IMO 2000 [(PDF)](exams/IMO-2000-notes.pdf) [(TeX)](exams/IMO-2000-notes.tex)
+- IMO 2001 [(PDF)](exams/IMO-2001-notes.pdf) [(TeX)](exams/IMO-2001-notes.tex)
+- IMO 2002 [(PDF)](exams/IMO-2002-notes.pdf) [(TeX)](exams/IMO-2002-notes.tex)
+- IMO 2003 [(PDF)](exams/IMO-2003-notes.pdf) [(TeX)](exams/IMO-2003-notes.tex)
+- IMO 2004 [(PDF)](exams/IMO-2004-notes.pdf) [(TeX)](exams/IMO-2004-notes.tex)
+- IMO 2005 [(PDF)](exams/IMO-2005-notes.pdf) [(TeX)](exams/IMO-2005-notes.tex)
+- IMO 2006 [(PDF)](exams/IMO-2006-notes.pdf) [(TeX)](exams/IMO-2006-notes.tex)
+- IMO 2007 [(PDF)](exams/IMO-2007-notes.pdf) [(TeX)](exams/IMO-2007-notes.tex)
+- IMO 2008 [(PDF)](exams/IMO-2008-notes.pdf) [(TeX)](exams/IMO-2008-notes.tex)
+- IMO 2009 [(PDF)](exams/IMO-2009-notes.pdf) [(TeX)](exams/IMO-2009-notes.tex)
+- IMO 2010 [(PDF)](exams/IMO-2010-notes.pdf) [(TeX)](exams/IMO-2010-notes.tex)
+- IMO 2011 [(PDF)](exams/IMO-2011-notes.pdf) [(TeX)](exams/IMO-2011-notes.tex)
+- IMO 2012 [(PDF)](exams/IMO-2012-notes.pdf) [(TeX)](exams/IMO-2012-notes.tex)
+- IMO 2013 [(PDF)](exams/IMO-2013-notes.pdf) [(TeX)](exams/IMO-2013-notes.tex)
+- IMO 2014 [(PDF)](exams/IMO-2014-notes.pdf) [(TeX)](exams/IMO-2014-notes.tex)
+- IMO 2015 [(PDF)](exams/IMO-2015-notes.pdf) [(TeX)](exams/IMO-2015-notes.tex)
+- IMO 2016 [(PDF)](exams/IMO-2016-notes.pdf) [(TeX)](exams/IMO-2016-notes.tex)
+- IMO 2017 [(PDF)](exams/IMO-2017-notes.pdf) [(TeX)](exams/IMO-2017-notes.tex)
+- IMO 2018 [(PDF)](exams/IMO-2018-notes.pdf) [(TeX)](exams/IMO-2018-notes.tex)
+- IMO 2019 [(PDF)](exams/IMO-2019-notes.pdf) [(TeX)](exams/IMO-2019-notes.tex)
+- IMO 2020 [(PDF)](exams/IMO-2020-notes.pdf) [(TeX)](exams/IMO-2020-notes.tex) [(video)](https://youtu.be/JfRrlvbzKHk)
+- IMO 2021 [(PDF)](exams/IMO-2021-notes.pdf) [(TeX)](exams/IMO-2021-notes.tex)
+- IMO 2022 [(PDF)](exams/IMO-2022-notes.pdf) [(TeX)](exams/IMO-2022-notes.tex)
+- IMO 2023 [(PDF)](exams/IMO-2023-notes.pdf) [(TeX)](exams/IMO-2023-notes.tex)
 
-[^acronym]:
-    The acronym stands from "math olympiad hardness scale",
-    [pun fully intended](https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness).
-
-In 2020, Rustam Turdibaev and Olimjon Olimov, compiled a **336-problem index**
-[of recent problems by subject and MOHS rating][rustam].
-In addition, the linked file also contains a hyperlink
-to each of the corresponding solution threads on Art of Problem-Solving.
-
-[rustam]: https://drive.google.com/file/d/1G9a5f6EW9cIDw5rTMI46iLlc4UMs6KRW/view
-
-This document will probably see a lot of updates.
-Anyway, I cannot repeat enough the disclaimer that the ratings
-(and even philosophy) are my own personal opinion,
-rather than some sort of indisputable truth.
+# Premier USA Contests
 
 ## {{ hl("usamo", "USA Math Olympiad (USAMO)") }}
 
@@ -141,35 +148,7 @@ the selection process for the USA IMO team.
 - Because of the pandemic, there was no USA Winter TST for IMO 2022.
 - USA Winter TST 2023 [(probs)](exams/IMO-2023-TST.pdf) [(sols)](exams/sols-TST-IMO-2023.pdf) [(TeX)](exams/sols-TST-IMO-2023.tex) [(stats)](exams/stats-TST-IMO-2023.pdf)
 
-## {{ hl("imo", "International Math Olympiad") }}
-
-- IMO 1997 [(PDF)](exams/IMO-1997-notes.pdf) [(TeX)](exams/IMO-1997-notes.tex)
-- IMO 1998 [(PDF)](exams/IMO-1998-notes.pdf) [(TeX)](exams/IMO-1998-notes.tex)
-- IMO 1999 [(PDF)](exams/IMO-1999-notes.pdf) [(TeX)](exams/IMO-1999-notes.tex)
-- IMO 2000 [(PDF)](exams/IMO-2000-notes.pdf) [(TeX)](exams/IMO-2000-notes.tex)
-- IMO 2001 [(PDF)](exams/IMO-2001-notes.pdf) [(TeX)](exams/IMO-2001-notes.tex)
-- IMO 2002 [(PDF)](exams/IMO-2002-notes.pdf) [(TeX)](exams/IMO-2002-notes.tex)
-- IMO 2003 [(PDF)](exams/IMO-2003-notes.pdf) [(TeX)](exams/IMO-2003-notes.tex)
-- IMO 2004 [(PDF)](exams/IMO-2004-notes.pdf) [(TeX)](exams/IMO-2004-notes.tex)
-- IMO 2005 [(PDF)](exams/IMO-2005-notes.pdf) [(TeX)](exams/IMO-2005-notes.tex)
-- IMO 2006 [(PDF)](exams/IMO-2006-notes.pdf) [(TeX)](exams/IMO-2006-notes.tex)
-- IMO 2007 [(PDF)](exams/IMO-2007-notes.pdf) [(TeX)](exams/IMO-2007-notes.tex)
-- IMO 2008 [(PDF)](exams/IMO-2008-notes.pdf) [(TeX)](exams/IMO-2008-notes.tex)
-- IMO 2009 [(PDF)](exams/IMO-2009-notes.pdf) [(TeX)](exams/IMO-2009-notes.tex)
-- IMO 2010 [(PDF)](exams/IMO-2010-notes.pdf) [(TeX)](exams/IMO-2010-notes.tex)
-- IMO 2011 [(PDF)](exams/IMO-2011-notes.pdf) [(TeX)](exams/IMO-2011-notes.tex)
-- IMO 2012 [(PDF)](exams/IMO-2012-notes.pdf) [(TeX)](exams/IMO-2012-notes.tex)
-- IMO 2013 [(PDF)](exams/IMO-2013-notes.pdf) [(TeX)](exams/IMO-2013-notes.tex)
-- IMO 2014 [(PDF)](exams/IMO-2014-notes.pdf) [(TeX)](exams/IMO-2014-notes.tex)
-- IMO 2015 [(PDF)](exams/IMO-2015-notes.pdf) [(TeX)](exams/IMO-2015-notes.tex)
-- IMO 2016 [(PDF)](exams/IMO-2016-notes.pdf) [(TeX)](exams/IMO-2016-notes.tex)
-- IMO 2017 [(PDF)](exams/IMO-2017-notes.pdf) [(TeX)](exams/IMO-2017-notes.tex)
-- IMO 2018 [(PDF)](exams/IMO-2018-notes.pdf) [(TeX)](exams/IMO-2018-notes.tex)
-- IMO 2019 [(PDF)](exams/IMO-2019-notes.pdf) [(TeX)](exams/IMO-2019-notes.tex)
-- IMO 2020 [(PDF)](exams/IMO-2020-notes.pdf) [(TeX)](exams/IMO-2020-notes.tex) [(video)](https://youtu.be/JfRrlvbzKHk)
-- IMO 2021 [(PDF)](exams/IMO-2021-notes.pdf) [(TeX)](exams/IMO-2021-notes.tex)
-- IMO 2022 [(PDF)](exams/IMO-2022-notes.pdf) [(TeX)](exams/IMO-2022-notes.tex)
-- IMO 2023 [(PDF)](exams/IMO-2023-notes.pdf) [(TeX)](exams/IMO-2023-notes.tex)
+# Other contests
 
 ## {{ hl("usemo", "USEMO") }}
 
@@ -236,5 +215,29 @@ Neither contest is active at the time of writing (April 2021) but I
 [collected all the materials and put them in a Google Drive link][old]
 since the websites for those contests is not currently online.
 Most of the problems are short-answer problems.
+
+# {{ hl("mohs", "Hardness scale") }}
+
+Here is an
+[index of many problems](upload/MOHS-hardness.pdf)
+by my opinions on their difficulty and subject.
+The difficulties are rated from 0 to 50 in increments of 5,
+using a scale I devised called **MOHS**.[^acronym]
+
+[^acronym]:
+    The acronym stands from "math olympiad hardness scale",
+    [pun fully intended](https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness).
+
+In 2020, Rustam Turdibaev and Olimjon Olimov, compiled a **336-problem index**
+[of recent problems by subject and MOHS rating][rustam].
+In addition, the linked file also contains a hyperlink
+to each of the corresponding solution threads on Art of Problem-Solving.
+
+[rustam]: https://drive.google.com/file/d/1G9a5f6EW9cIDw5rTMI46iLlc4UMs6KRW/view
+
+This document will probably see a lot of updates.
+Anyway, I cannot repeat enough the disclaimer that the ratings
+(and even philosophy) are my own personal opinion,
+rather than some sort of indisputable truth.
 
 [old]: https://drive.google.com/drive/u/1/folders/1jVXuZMdk-GkucFtqPWAIg5xMiQN-E3gf
