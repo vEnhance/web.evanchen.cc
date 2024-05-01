@@ -101,7 +101,7 @@ Alphabetical, does not include song lyrics.
   ([Oliveira after winning IEM Katowice 2023](https://www.youtube.com/watch?v=SknnGr_-KuI&t=35664s))
 - Just trying to do my part as a helper elf!
   ([Jia Tan](https://www.mail-archive.com/xz-devel@tukaani.org/msg00518.html),
-  shortly before his [promotion to "special author"][xz])
+  before his [promotion to "special author"][xz])
 
 [^lander]: From the USAMO 2021 awards ceremony.
 
