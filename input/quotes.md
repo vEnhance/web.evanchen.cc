@@ -99,6 +99,9 @@ Alphabetical, does not include song lyrics.
   finish StarCraft 2, you should retire. And maybe, you should give up...
   But look at me now.
   ([Oliveira after winning IEM Katowice 2023](https://www.youtube.com/watch?v=SknnGr_-KuI&t=35664s))
+- Just trying to do my part as a helper elf!
+  ([Jia Tan](https://www.mail-archive.com/xz-devel@tukaani.org/msg00518.html)
+  preparing the [xz backdoor](https://en.wikipedia.org/wiki/XZ_Utils_backdoor))
 
 [^lander]: From the USAMO 2021 awards ceremony.
 
