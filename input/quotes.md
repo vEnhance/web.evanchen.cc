@@ -100,11 +100,13 @@ Alphabetical, does not include song lyrics.
   But look at me now.
   ([Oliveira after winning IEM Katowice 2023](https://www.youtube.com/watch?v=SknnGr_-KuI&t=35664s))
 - Just trying to do my part as a helper elf!
-  ([Jia Tan](https://www.mail-archive.com/xz-devel@tukaani.org/msg00518.html)
-  preparing the [xz backdoor](https://en.wikipedia.org/wiki/XZ_Utils_backdoor))
+  ([Jia Tan](https://www.mail-archive.com/xz-devel@tukaani.org/msg00518.html),
+  shortly before his [promotion to "special author"][xz])
 
 [^lander]: From the USAMO 2021 awards ceremony.
 
 ![I suppose if we couldn't laugh at things that don't make sense,
 we couldn't react to a lot of life.](static/calvin-hobbes-life.jpg){width=327}
 {style="text-align:center;"}
+
+[xz]: https://github.com/tukaani-project/xz/commit/77a294d98a9d2d48f7e4ac273711518bf689f5c4
