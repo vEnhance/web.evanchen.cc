@@ -213,7 +213,12 @@ students will often colloquially refer to the cutoffs by color as well,
 in an abuse of terminology that leads to endless confusion.
 For example, in Internet slang, "blue cutoff" would mean the minimum score
 for an 11th grader to be invited MOP through USAMO,
-even though this student could be placed in any class group.
+even though such a student could be placed in any class group.[^blue11]
+
+[^blue11]:
+    Corollary: it is _absolutely untrue_ that an 11th grade student will not be
+    placed in Red or Green. This happens _all the time_, and if you email me
+    "bUt I tHoUgHt I wAs BlUe mOvE mE uP", I will laugh in your face.
 
 Some students (not staff) even refer to the 5th cutoff
 in [CR-7](#CR-7) as the "pink" cutoff,
@@ -228,7 +233,7 @@ Finally, I better explain that **color groups are not that important**.
 Once the USA students arrive at MOP, they are all treated equally in team selection:
 no matter their color group, past USAMO score, gender, or what-have-you.
 The team selection is not based on a caste system.
-As a matter of principle, anyone attending MOP of year $N$
+As a matter of principle, any USA student attending MOP of year $N$
 and still in high school could qualify for IMO of year $N+1$.
 
 [abusenote]: https://en.wikipedia.org/wiki/Abuse_of_notation
