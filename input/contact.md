@@ -12,7 +12,7 @@ The two best ways to reach me are
 
 Although I do my best to respond to as much as I can,
 I admit that I am not able to respond to everything.
-(Also, my replies are often terse.
+(Also, my replies are often [terse](https://phdcomics.com/comics/archive_print.php?comicid=1047).
 Please don't be offended if so; I am just trying to be efficient.)
 
 You might want to skim some parts of the website
