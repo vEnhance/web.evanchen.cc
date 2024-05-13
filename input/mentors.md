@@ -6,8 +6,7 @@ indent: 1
 
 ---
 
-This page contains a list of referrals for
-math competition training at various levels.
+This page contains a list of referrals for math mentorship at various levels.
 They are divided into two categories:
 
 - Small programs offering either 1:1 instruction or small group lessons; and
@@ -16,7 +15,8 @@ They are divided into two categories:
 The lists below are in alphabetical order.
 Larger programs (not in the categories above) are not included in this list.
 The descriptions are provided by the individuals, not by me.
-Not all entries are vetted; use at your own risk.
+**Not all entries are vetted; use at your own risk**.
+Listing on this page does not imply endorsement.
 
 Suggestions for additions to this list (including self-nominations) are welcome;
 [submit a pull request](https://github.com/vEnhance/web.evanchen.cc/edit/main/input/mentors.md)
