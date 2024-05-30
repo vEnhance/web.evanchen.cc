@@ -36,12 +36,9 @@ you could consider asking questions on my
 rather than emailing it privately.
 There are a few benefits to doing so:
 
-- Anyone can answer the question,
-  so you may get faster responses or multiple responses.
-- Anyone can see the answers provided,
-  so it is more valuable to the community this way.
-- It is easier to go back-and-forth in real time
-  over Discord than over email.
+- Anyone can answer the question, so you may get faster responses or multiple responses.
+- Anyone can see the answers provided, so it is more valuable to the community this way.
+- It is easier to go back-and-forth in real time over Discord than over email.
 
 Discord _direct messages_ to me are worse than emails;
 they do not have any of the above benefits, and I am slower with them.
@@ -73,6 +70,9 @@ Here are some hints:
 - Proper syntax, English, capitalization, etc is appreciated.
   (I know some of you are not native English speakers,
   so I try to overlook this when I can.)
+
+- Please include a descriptive nonempty subject.
+  My mail client doesn't always sort replies correctly if the subject is left empty.
 
 ## {{ hl("problems", "Special instructions for particular problems") }}
 
