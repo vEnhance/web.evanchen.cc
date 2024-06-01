@@ -75,7 +75,7 @@ You can also find a
 [index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
 and it's great fun to just pick a random past puzzle to work through.
 
-[blog-puzzle-evan-intro]: https://blog.evanchen.cc/2023/11/06/an-advertisement-for-what-puzzle-hunts-are-about-and-why-theyre-cooler-than-everyday-puzzles/
+[blog-evan-puzzle-intro]: https://blog.evanchen.cc/2023/11/06/an-advertisement-for-what-puzzle-hunts-are-about-and-why-theyre-cooler-than-everyday-puzzles/
 [rosenthal-ted]: https://www.ted.com/talks/alex_rosenthal_the_joyful_perplexing_world_of_puzzle_hunts?language=en
 
 ## {{ hl("advice", "Evan's advice for puzzle solving") }}
