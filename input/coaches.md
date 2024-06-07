@@ -42,7 +42,6 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 - [USEMO test development process](https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/)
   (we use a similar process for USAMO and USA TST too)
 - Anecdotes and stories about the writing of certain problems
-  - [Ankan Bhattacharya's enormous collection, named PPPPPP](https://aops.com/community/c6h2706746)
   - [David Speyer on math.SE](https://math.stackexchange.com/a/203448)
   - [Izabella Laba on Putnam](https://ilaba.wordpress.com/2009/11/22/putnam/)
 
