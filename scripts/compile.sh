@@ -19,7 +19,9 @@ python3 poole/poole.py -b --base-url="$BASE_URL" \
 
 # reformat output with tidy
 tidy -config ./tidyrc -qm ./output/*.html
+
 # reformat it with prettier afterwards
 prettier -w ./output/*.html
-# validate with htmlhint
-htmlhint output/*.html
+
+# Lint everything
+./lint.sh

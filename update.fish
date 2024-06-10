@@ -1,5 +1,6 @@
 #!/bin/fish
 
+./scripts/compile.sh
 git diff --quiet
 
 if test $status -eq 1 -a -z "$argv[1]"
