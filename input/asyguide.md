@@ -23,6 +23,7 @@ You can [view the source code on GitHub][asy-gallery].
 <div class="photo-gallery">
 {{ clickable_asy_image("321avoid") }}
 {{ clickable_asy_image("AMC-12B-2022-21") }}
+{{ clickable_asy_image("ARML-2024-I-6") }}
 {{ clickable_asy_image("EGMO-2015-2") }}
 {{ clickable_asy_image("IMO-1974-4") }}
 {{ clickable_asy_image("IMO-2017-5") }}
