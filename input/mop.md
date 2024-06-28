@@ -288,7 +288,7 @@ Here are recent songs we performed:
 - Jordan: "Why does GeoGebra name my point `B'''_3`??"
 - Julia: "I saw a woman with orange hair and thought she was a live size red
   panda."
-  - Owen: "Life is not a mountain of pain but a valley of fun."
+- Owen: "Life is not a mountain of pain but a valley of fun."
 - Linus Tang:
   - Exhibit A: 0.4 style score
   - Exhibit B: 3 staples
