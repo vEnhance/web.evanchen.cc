@@ -46,14 +46,16 @@ and the back contains everyone's signature.
 
 {{ tshirt(2016) }}
 {{ tshirt(2017) }}
-{{ tshirt(2018, alt = "2018; reference to 2017 G8.") }}
-{{ tshirt(2019, alt = "2019; reference to ELMO 2019/2.") }}
+{{ tshirt(2018, alt = "2018; reference to 2017 G8") }}
+{{ tshirt(2019, alt = "2019; reference to ELMO 2019/2") }}
 {{ tshirt(2020) }}
-{{ tshirt(2020, alt = "2020; reverse.", ext = "back.png") }}
-{{ tshirt(2021, alt = "2021; reference to USAMO 2021/3.") }}
-{{ tshirt(2021, alt = "2021; reverse.", ext = "back.png") }}
+{{ tshirt(2020, alt = "2020; reverse", ext = "back.png") }}
+{{ tshirt(2021, alt = "2021; reference to USAMO 2021/3") }}
+{{ tshirt(2021, alt = "2021; reverse", ext = "back.png") }}
 {{ tshirt(2022, alt = "2022; reference to USAMO 2022/2") }}
 {{ tshirt(2023, alt = "2023; reference to USAMO 2023/1") }}
+{{ tshirt(2024, alt = "2024; reference to many USAMO 2024 problems") }}
+{{ tshirt(2024, alt = "2024; reverse", ext = "back.png") }}
 
 ## {{ hl("problems", "Problems") }}
 
@@ -105,6 +107,7 @@ Here are calendars for recent years of MOP:
 
 <div class="chooser list-chooser" markdown="block">
 
+- [2024](static/mop/schedules/2023.pdf)
 - [2023](static/mop/schedules/2023.pdf)
 - [2022](static/mop/schedules/2022.pdf)
 - [2021](static/mop/schedules/2021.pdf)
@@ -155,6 +158,15 @@ started by Evan o'Dorney; it starts and ends the closing ceremony.
 Here are recent songs we performed:
 
 <div class="chooser empty-chooser"></div>
+<div data-header="Singing troupe 2024" data-year="2024" class="hidden" markdown="1">
+- Another Day of Sun
+- How Far I'll Go
+- Defying Gravity
+- Blank Space
+- Let It Go
+- A Million Dreams
+</div>
+
 <div data-header="Singing troupe 2023" data-year="2023" class="hidden" markdown="1">
 - Defying Gravity
 - Unravel (English version)
