@@ -297,12 +297,12 @@ Here are recent songs we performed:
   - Exhibit E: request for style points (denied)
   - Exhibit F: Table of contents
 - Krishna: "No, it's actually kind of hard. But yeah, it's trivial."
-- Mingyue: "Your hyperbola got you seven points. I don't get it, I thouht you
+- Mingyue: "Your hyperbola got you seven points. I don't get it, I thought you
   could only pass it through five."
 - Mingyue's [rap during talent show](/static/mop/CoBAUR-2024.txt)
 - Raz: "The Schiffler point is the leader of the Libertarian party."
 - Richard: "I really don't like eigenvalues."
-- Ritwin: "When do you think the last time I dad integral was?"<br>
+- Ritwin: "When do you think the last time I did integral was?"<br>
   Henry: "Wasn't integration completed in 1964?"<br>
   Jonathan: "Before 1964 did they use Riemann sums?"<br>
   Henry: "Yeah they split into parts."
