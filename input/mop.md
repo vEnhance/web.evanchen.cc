@@ -276,6 +276,7 @@ Here are recent songs we performed:
   If you need help computing the Legendre symbol, either use Python builtin `pow`,
   or quadratic reciprocity if you want to do it by hand.
   (We don't recommend ChatGPT. We tried it and it had 50% success.)"
+- Gloria: "Everything is a fork if you stab hard enough."
 - Gloria: "I bought 24 copies of Anki, so I can have different decks open and
   stuff." (It cost \$480.)
 - Henry: "Is Evan Chen bad for your lungs?"
