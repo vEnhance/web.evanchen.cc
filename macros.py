@@ -234,3 +234,20 @@ def clickable_asy_image(basename: str) -> str:
     thumb_path = image_path
     alt = basename
     return f'<a href="{image_path}"><img src="{thumb_path}" alt="{alt}" /></a>'
+
+
+def chooser_link(dirname: str, header_str: str) -> str:
+    s = r'<div class="chooser empty-chooser"></div>' + "\n"
+    paths = list(Path(dirname).glob("*.md"))
+    assert len(paths) > 0, Path(dirname)
+    paths.sort()
+    paths.reverse()
+    for p in paths:
+        s += (
+            f'<div data-year="{p.stem}" data-header="{header_str % p.stem}" class="hidden" markdown="block">'
+            + "\n"
+        )
+        with open(p) as f:
+            s += "".join(f.readlines())
+        s += "</div>" + "\n"
+    return s
