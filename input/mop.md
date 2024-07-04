@@ -17,19 +17,17 @@ It's similar in spirit to the [MOPper world](http://moppers.kaseorg.com/)
 that ran between 1997 and 2004.
 This page isn't a puzzle.
 
-MOP is a three-week camp now held at [CMU](https://cmu.edu).
-In 2020 and 2021, the camp was run on Discord.
+Between 2015 and 2024, MOP was held at [Carnegie Mellon](https://cmu.edu)
+under [Po-Shen Loh](https://www.poshenloh.com/),
+besides 2020 and 2021 when the camp was run on Discord due to COVID-19.
 Prior to 2015, the camp was held in [Nebraska](https://unl.edu).
 
 See [FAQ CR-7](https://web.evanchen.cc/faq-rules.html#CR-7)
 for invitation rules.
 
-Today, the camp is headed by director
-[Po-Shen Loh](https://www.math.cmu.edu/~ploh/cmu.shtml)
-and assistant academic director [Evan Chen](index.html).
+I am currently the assistant academic director of MOP.
 (There is no academic director or assistant director.)
-Staff includes instructors, [RA][ra]'s, and
-teaching assistants (aka graders).
+Staff includes instructors, [RA][ra]'s, and teaching assistants (aka graders).
 
 [ra]: https://en.wikipedia.org/wiki/Resident_assistant
 
