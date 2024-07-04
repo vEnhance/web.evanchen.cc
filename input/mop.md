@@ -289,7 +289,7 @@ Here are recent songs we performed:
 - Jordan: "Why does GeoGebra name my point `B'''_3`??"
 - Julia: "I saw a woman with orange hair and thought she was a live size red
   panda."
-- Owen: "Life is not a mountain of pain but a valley of fun."
+- Krishna: "No, it's actually kind of hard. But yeah, it's trivial."
 - Linus Tang:
   - Exhibit A: 0.4 style score
   - Exhibit B: 3 staples
@@ -297,10 +297,10 @@ Here are recent songs we performed:
   - Exhibit D: the other staple (front)
   - Exhibit E: request for style points (denied)
   - Exhibit F: Table of contents
-- Krishna: "No, it's actually kind of hard. But yeah, it's trivial."
 - Mingyue: "Your hyperbola got you seven points. I don't get it, I thought you
   could only pass it through five."
 - Mingyue's [rap during talent show](/static/mop/CoBAUR-2024.txt)
+- Owen: "Life is not a mountain of pain but a valley of fun."
 - Raz: "The Schiffler point is the leader of the Libertarian party."
 - Richard: "I really don't like eigenvalues."
 - Ritwin: "When do you think the last time I did integral was?"<br>
