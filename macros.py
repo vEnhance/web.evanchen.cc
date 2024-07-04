@@ -66,7 +66,7 @@ def get_twitch_table() -> str:
     if (data_directory := Path.home() / "ProGamer/Writeups/").exists():
         tsv_path = data_directory / "data.tsv"
         json_path = data_directory / "urls.json"
-    elif (data_directory := Path("twitch-data")).exists():
+    elif (data_directory := Path("data/twitch/")).exists():
         tsv_path = data_directory / "data.tsv"
         json_path = data_directory / "urls.json"
     else:
