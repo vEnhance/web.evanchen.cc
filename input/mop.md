@@ -159,6 +159,12 @@ Here are recent songs we performed:
 
 {{ chooser_link("data/mop/singeing", "Singing Troupe %s") }}
 
+## {{ hl("kmop", "K-MOP") }}
+
+I would say this was not my idea, but that would be a lie.
+
+{{ chooser_link("data/mop/kmop", "K-MOP %s") }}
+
 ## {{ hl("puzzle", "MOP Puzzle Hunt") }}
 
 [mosp.evanchen.cc](https://mosp.evanchen.cc) hosts:
