@@ -41,6 +41,7 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 - [Bruce Reznick on Putnam development](https://faculty.math.illinois.edu/~reznick/putnam.pdf)
 - [USEMO test development process](https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/)
   (we use a similar process for USAMO and USA TST too)
+- [Evan's problem-writing thoughts](https://web.evanchen.cc/handouts/ProblemWrite/ProblemWrite.pdf)
 - Anecdotes and stories about the writing of certain problems
   - [David Speyer on math.SE](https://math.stackexchange.com/a/203448)
   - [Izabella Laba on Putnam](https://ilaba.wordpress.com/2009/11/22/putnam/)
