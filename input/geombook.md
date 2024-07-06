@@ -166,7 +166,7 @@ See also [advice from Geoff Smith on geometry](https://people.bath.ac.uk/masgcs/
 [egmo2]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
 [egmo8]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
 [googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false
-[amazon]: https://smile.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/0883858398?ie=UTF8&*Version*=1&*entries*=0
+[amazon]: https://www.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/1470466201
 [hardcopy]: https://bookstore.ams.org/prb-27/
 [girls]: https://www.egmo.org/
 [contests]: https://artofproblemsolving.com/community/c13_contests
