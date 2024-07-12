@@ -161,6 +161,8 @@ of [my textbook][geombook].
   traditional Chinese in preparation
   for the Taiwan IMO selection and training camps.
   It is updated occasionally as I add entries.
+  I use traditional characters, but you can also find a version with
+  [simplified characters](/handouts/Chinese/chn-simplified.pdf) too.
 
 - <b>EXCL 2023: Thoughts and Q/A on math olympiad coaching</b> {{ handout_link_src("EXCL-2023-11-04-slides") }}
   Slides from a talk I gave in November 2023
