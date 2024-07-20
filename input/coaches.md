@@ -28,6 +28,14 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
   you should gradually shift from teaching specific lessons
   to [teaching them how to fish for themselves][fishquote].
   Strive to eventually become a guide rather than a lecturer.
+  - In particular, as students get stronger, you may consider moving emphasis
+    from specific techniques and theorems (induction, invariants, ...) to
+    less formalizable [heuristics and understanding][hardsoft].
+- It's important that your systems work _in practice_, not just in theory.
+  For example: if you send monthly problem sets during the school year,
+  and nobody does them, it's tempting to say,
+  "well, the students didn't do the problems I sent, it's not my fault".
+  And sure, maybe it isn't your fault, but that doesn't change the end result.
 - Fellow MO coaches are always welcome to email me with questions or for advice.
   Specific inquiries are usually better than generic ones. Something like "can
   you look at this lesson plan and give suggestions" is both easier for me to
@@ -35,16 +43,13 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
   it's so targeted). In general the more concrete the better.
 
 [fishquote]: https://en.wiktionary.org/wiki/give_a_man_a_fish_and_you_feed_him_for_a_day;_teach_a_man_to_fish_and_you_feed_him_for_a_lifetime
+[hardsoft]: https://blog.evanchen.cc/2019/05/03/hard-and-soft-techniques/
 
-## {{ hl("write", "Thoughts on problem writing and test-setting") }}
+## {{ hl("blog", "Top teaching posts from Evan's blog") }}
 
-- [Bruce Reznick on Putnam development](https://faculty.math.illinois.edu/~reznick/putnam.pdf)
-- [USEMO test development process](https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/)
-  (we use a similar process for USAMO and USA TST too)
-- [Evan's problem-writing thoughts](https://web.evanchen.cc/handouts/ProblemWrite/ProblemWrite.pdf)
-- Anecdotes and stories about the writing of certain problems
-  - [David Speyer on math.SE](https://math.stackexchange.com/a/203448)
-  - [Izabella Laba on Putnam](https://ilaba.wordpress.com/2009/11/22/putnam/)
+- [Running OTIS](https://blog.evanchen.cc/2023/11/03/things-ive-found-from-running-otis/)
+- [Point-based problem sets](https://blog.evanchen.cc/2018/03/27/i-switched-to-point-based-problem-sets/)
+- [Selecting topics and designing materials](https://blog.evanchen.cc/2017/04/08/on-designing-olympiad-training/)
 
 ## {{ hl("talks", "Talks and interviews with trainers") }}
 
@@ -52,12 +57,6 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
   the longtime beloved team leader from South Korea.
 - [Slides to Evan's EXCL talk](/handouts/EXCL-2023-11-04-slides/EXCL-2023-11-04-slides.pdf)
   as part of Global Talent Network initiatives (November 2023).
-
-## {{ hl("blog", "Top teaching posts from Evan's blog") }}
-
-- [Running OTIS](https://blog.evanchen.cc/2023/11/03/things-ive-found-from-running-otis/)
-- [Point-based problem sets](https://blog.evanchen.cc/2018/03/27/i-switched-to-point-based-problem-sets/)
-- [Selecting topics and designing materials](https://blog.evanchen.cc/2017/04/08/on-designing-olympiad-training/)
 
 ## {{ hl("lore", "International Math Olympiad lore") }}
 
@@ -68,6 +67,16 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
   and anecdotes about the proceedings of the IMO.
   It's as close as you can get to seeing the IMO in action without being there.
 - [Evan's FAQ CR-10 about IMO coordination](faq-rules.html#CR-10).
+
+## {{ hl("write", "Thoughts on problem writing and test-setting") }}
+
+- [Bruce Reznick on Putnam development](https://faculty.math.illinois.edu/~reznick/putnam.pdf)
+- [USEMO test development process](https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/)
+  (we use a similar process for USAMO and USA TST too)
+- [Evan's problem-writing thoughts](https://web.evanchen.cc/handouts/ProblemWrite/ProblemWrite.pdf)
+- Anecdotes and stories about the writing of certain problems
+  - [David Speyer on math.SE](https://math.stackexchange.com/a/203448)
+  - [Izabella Laba on Putnam](https://ilaba.wordpress.com/2009/11/22/putnam/)
 
 ## {{ hl("misc", "Other resources") }}
 
