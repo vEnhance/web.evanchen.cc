@@ -131,7 +131,7 @@ You can [download the TeX source of my CV](static/CV-example-source-2020.tex)
 
 ### {{ faq("L-7", "How do you get the LaTeX to auto-compile?") }}
 
-Use [`latexmk`](https://personal.psu.edu/~jcc8/software/latexmk/)
+Use [`latexmk`](https://www.cantab.net/users/johncollins/latexmk/index.html)
 with the `-pvc` flag,
 and a PDF viewer that does not "lock" the PDF file from being written
 (Adobe reader does not work).
