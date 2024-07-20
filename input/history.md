@@ -124,4 +124,4 @@ but I'll forget them if I don't write them down.
 - AMC 8 2008: 24
 - AMC 10B 2009: 87.0
 
-[imo]: https://imo-official.org/participant_r.aspx?id=24870
+[imo]: https://www.imo-official.org/participant_r.aspx?id=24870
