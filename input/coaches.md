@@ -63,9 +63,12 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 - The United Kingdom keeps
   [team leader reports](https://bmos.ukmt.org.uk/home/imo.shtml) for the
   International Math Olympiad.
-  These reports contain a lot of interesting stories
+  Earlier reports contain a lot of interesting stories
   and anecdotes about the proceedings of the IMO.
   It's as close as you can get to seeing the IMO in action without being there.
+- Tom Verhoeff has a particularly comprehensive
+  [report for IMO 2002](https://www.win.tue.nl/~wstomv/publications/imo2002report.pdf)
+  that shows a lot about how the IMO works.
 - [Evan's FAQ CR-10 about IMO coordination](faq-rules.html#CR-10).
 
 ## {{ hl("write", "Thoughts on problem writing and test-setting") }}
