@@ -40,6 +40,7 @@ for even more problems and solutions, including most of the ones below.
 - IMO 2021 [(PDF)](exams/IMO-2021-notes.pdf) [(TeX)](exams/IMO-2021-notes.tex)
 - IMO 2022 [(PDF)](exams/IMO-2022-notes.pdf) [(TeX)](exams/IMO-2022-notes.tex)
 - IMO 2023 [(PDF)](exams/IMO-2023-notes.pdf) [(TeX)](exams/IMO-2023-notes.tex)
+- IMO 2024 [(PDF)](exams/IMO-2024-notes.pdf) [(TeX)](exams/IMO-2024-notes.tex)
 
 # Premier USA Contests
 
