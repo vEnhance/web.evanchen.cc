@@ -105,7 +105,7 @@ Here are calendars for recent years of MOP:
 
 <div class="chooser list-chooser" markdown="block">
 
-- [2024](static/mop/schedules/2023.pdf)
+- [2024](static/mop/schedules/2024.pdf)
 - [2023](static/mop/schedules/2023.pdf)
 - [2022](static/mop/schedules/2022.pdf)
 - [2021](static/mop/schedules/2021.pdf)
