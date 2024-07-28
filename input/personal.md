@@ -112,6 +112,7 @@ rather than QWERTY.
 - Onion. A round sloth. Showed up mysteriously in the mail one day.
 - Pear. A probe. She went on a trip to [King's Cove][kc] once.
 - Sgt Billy. A blue marine. Remember, say no to [stim][stim]!
+- Snowcone. A Yeti. Has a goofy grin.
 - Starfish. An infestor. Always has his tongue out.
 - Stirfry. Another infestor. Doesn't seem to have Neural Parasite yet.
 - Toast. Mostly light brown, with a bit of butter as well.
