@@ -24,11 +24,16 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 ## {{ hl("requirements", "Requirements") }}
 
 1. Source lines MUST be wrapped to be at most 100 characters long,
-   and SHOULD be wrapped to at most 80 characters long,
-   except in situations where this is impossible (e.g. long URL).
+   except in situations where this is impossible (e.g. long URL),
+   and SHOULD be wrapped to at most 80 characters long.
    (Note this is referring to lines in the _source code_, not the output.)
-   When possible, line breaks SHOULD be inserted in natural places
+
+   More importantly, line breaks SHOULD be inserted in natural places
    like the end of sentences, after commas, or between phrases and clauses.
+   There is nothing wrong with short lines if it improves legibility.
+   (One is _not_ expected to use up all 80-100 characters per line;
+   it's more important to put line breaks in readable places
+   than to use all available screen space.[^prettier])
 
 2. Quotation marks MUST be
    [inputted correctly in LaTeX](https://tex.stackexchange.com/a/621924/76888).
@@ -151,3 +156,18 @@ By balls-and-urns the answer is $\binom{9+3}{3} = 220$.
 For a self-contained example, see the
 [math olympiad proposal submission template](/upload/submission-template.tex)
 that I created for the USEMO.
+
+[^prettier]:
+    I like the following excerpt from
+    [prettier's documentation on its `print-width` option][printwidth]:
+    "In code style guides, maximum line length rules are often set to 100 or 120.
+    However, when humans write code,
+    they don’t strive to reach the maximum number of columns on every line.
+    Developers often use whitespace to break up long lines for readability.
+    In practice, the average line length often ends up well below the maximum...
+    Remember, computers are dumb.
+    You need to explicitly tell them what to do,
+    while humans can make their own (implicit) judgements,
+    for example on when to break a line."
+
+[printwidth]: https://prettier.io/docs/en/options#print-width
