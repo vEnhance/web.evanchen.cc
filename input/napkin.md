@@ -7,8 +7,8 @@ description: Description of Napkin project, a free book covering all sorts of hi
 ---
 
 <span style="float:right;padding:10px; font-size:80%; text-align:center;">
-<a href="https://web.evanchen.cc/upload/recent-flowchart.png">
-<img src="https://web.evanchen.cc/upload/recent-flowchart.png" width="250" alt="Flowchart for Napkin" >
+<a href="https://venhance.github.io/napkin/flowchart.png">
+<img src="https://venhance.github.io/napkin/flowchart.png" width="250" alt="Flowchart for Napkin" >
 <br>(click to enlarge)</a>
 </span>
 
@@ -25,8 +25,7 @@ It is however even more visibly incomplete,
 with several chapters scheduled but not yet written.
 In addition, many chapters still lack problems or solutions.
 
-See link above for the most recent draft,
-and [here for a listing of periodic snapshots][wp].
+See link above for the most recent draft.
 You can also view the
 [source code on GitHub](https://github.com/vEnhance/napkin/);
 the most recent version is
@@ -57,6 +56,10 @@ This project has evolved to more than just forty hours.
 
 ## {{ hl("toc", "Current Table of Contents") }}
 
+Might be stale.
+See a [more detailed auto-generated table of contents as text][toc].
+
+0. Sales pitches
 1. Groups
 2. Metric spaces
 3. Homomorphisms and quotient groups
@@ -103,47 +106,54 @@ This project has evolved to more than just forty hours.
 44. Differential forms
 45. Integrating differential forms
 46. A bit of manifolds
-47. Algebraic integers
-48. Unique factorization (finally!)
-49. Minkowski bound and class groups
-50. More properties of the discriminant
-51. Bonus: Let's solve Pell's equation!
-52. Things Galois
-53. Finite fields
-54. Ramification theory
-55. The Frobenius element
-56. Bonus: A Bit on Artin Reciprocity
-57. Some topological constructions
-58. Fundamental groups
-59. Covering projections
-60. Objects and morphisms
-61. Functors and natural transformations
-62. Limits in categories (TO DO)
-63. Abelian categories
-64. Singular homology
-65. The long exact sequence
-66. Excision and relative homology
-67. Bonus: Cellular homology
-68. Singular cohomology
-69. Application of cohomology
-70. Affine varieties
-71. Affine varieties as ringed spaces
-72. Projective varieties
-73. Bonus: B\'ezout's theorem
-74. Morphisms of varieties
-75. Sheaves and ringed spaces
-76. Localization
-77. Affine schemes: the Zariski topology
-78. Affine schemes: the sheaf
-79. Interlude: nineteen examples of affine schemes
-80. Morphisms of locally ringed spaces
-81. Interlude: Cauchy's functional equation and Zorn's lemma
-82. Zermelo-Fraenkel with choice
-83. Ordinals
-84. Cardinals
-85. Inner model theory
-86. Forcing
-87. Breaking the continuum hypothesis
+47. Basic definitions
+48. Morphisms between Riemann surfaces
+49. Affine and projective plane curves
+50. Differential forms
+51. The Riemann-Roch theorem
+52. Line bundles
+53. Algebraic integers
+54. The ring of integers
+55. Unique factorization (finally!)
+56. Minkowski bound and class groups
+57. More properties of the discriminant
+58. Bonus: Let's solve Pell's equation!
+59. Things Galois
+60. Finite fields
+61. Ramification theory
+62. The Frobenius element
+63. Bonus: A Bit on Artin Reciprocity
+64. Some topological constructions
+65. Fundamental groups
+66. Covering projections
+67. Objects and morphisms
+68. Functors and natural transformations
+69. Limits in categories (TO DO)
+70. Abelian categories
+71. Singular homology
+72. The long exact sequence
+73. Excision and relative homology
+74. Bonus: Cellular homology
+75. Singular cohomology
+76. Application of cohomology
+77. Affine varieties
+78. Affine varieties as ringed spaces
+79. Projective varieties
+80. Bonus: B\'ezout's theorem
+81. Morphisms of varieties
+82. Sheaves and ringed spaces
+83. Localization
+84. Affine schemes: the Zariski topology
+85. Affine schemes: the sheaf
+86. Interlude: eighteen examples of affine schemes
+87. Morphisms of locally ringed spaces
+88. Interlude: Cauchy's functional equation and Zorn's lemma
+89. Zermelo-Fraenkel with choice
+90. Ordinals
+91. Cardinals
+92. Inner model theory
+93. Forcing
+94. Breaking the continuum hypothesis
 
 [recent]: https://venhance.github.io/napkin/Napkin.pdf
-[wp]: https://blog.evanchen.cc/napkin/
+[toc]: https://venhance.github.io/napkin/toc.txt
