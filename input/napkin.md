@@ -16,7 +16,8 @@ description: Description of Napkin project, a free book covering all sorts of hi
 
 **Download the [most recent draft of Napkin][recent].**
 
-You can also download individual chapters below.
+You can also see [all generated files][all],
+including a folder with each individual part.
 
 ## {{ hl("status", "Project Status") }}
 
@@ -31,7 +32,7 @@ See link above for the most recent draft.
 You can also view the
 [source code on GitHub](https://github.com/vEnhance/napkin/);
 the most recent version is
-[automatically compiled from that source](https://venhance.github.io/napkin).
+[automatically compiled from that source][all].
 
 I would highly appreciate any corrections, suggestions, or comments.
 
@@ -60,34 +61,37 @@ This project has evolved to more than just forty hours.
 
 You can also see an [auto-generated table of contents as text][toc].
 
-You can download the [entire PDF][recente].
+You can download the [entire PDF][recent].
 Nonetheless, if you need a per-part PDF, you can use the ones below;
 though note hyperlinks that span across parts will obviously not work.
+If you want the figures, check [all generated files][all].
 
 - [Frontmatter](https://venhance.github.io/napkin/Parts/part-00-napkin-frontmatter.pdf)
-- I. [Starting Out](https://venhance.github.io/napkin/Parts/part-01-napkin-starting-out.pdf)
-- II. [Basic Abstract Algebra](https://venhance.github.io/napkin/Parts/part-02-napkin-basic-abstract-algebra.pdf)
-- III. [Basic Topology](https://venhance.github.io/napkin/Parts/part-03-napkin-basic-topology.pdf)
-- IV. [Linear Algebra](https://venhance.github.io/napkin/Parts/part-04-napkin-linear-algebra.pdf)
-- V. [More on Groups](https://venhance.github.io/napkin/Parts/part-05-napkin-more-on-groups.pdf)
-- VI. [Representation Theory](https://venhance.github.io/napkin/Parts/part-06-napkin-representation-theory.pdf)
-- VII. [Quantum Algorithms](https://venhance.github.io/napkin/Parts/part-07-napkin-quantum-algorithms.pdf)
-- VIII. [Calculus 101](https://venhance.github.io/napkin/Parts/part-08-napkin-calculus-101.pdf)
-- IX. [Complex Analysis](https://venhance.github.io/napkin/Parts/part-09-napkin-complex-analysis.pdf)
-- X. [Measure Theory](https://venhance.github.io/napkin/Parts/part-10-napkin-measure-theory.pdf)
-- XI. [Probability (TO DO)](https://venhance.github.io/napkin/Parts/part-11-napkin-probability-to-do.pdf)
-- XII. [Differential Geometry](https://venhance.github.io/napkin/Parts/part-12-napkin-differential-geometry.pdf)
-- XIII. [Riemann Surfaces](https://venhance.github.io/napkin/Parts/part-13-napkin-riemann-surfaces.pdf)
-- XIV. [Algebraic NT I: Rings of Integers](https://venhance.github.io/napkin/Parts/part-14-napkin-algebraic-nt-i.pdf)
-- XV. [Algebraic NT II: Galois and Ramification Theory](https://venhance.github.io/napkin/Parts/part-15-napkin-algebraic-nt-ii.pdf)
-- XVI. [Algebraic Topology I: Homotopy](https://venhance.github.io/napkin/Parts/part-16-napkin-algebraic-topology-i.pdf)
-- XVII. [Category Theory](https://venhance.github.io/napkin/Parts/part-17-napkin-category-theory.pdf)
-- XVIII. [Algebraic Topology II: Homology](https://venhance.github.io/napkin/Parts/part-18-napkin-algebraic-topology-ii.pdf)
-- XIX. [Algebraic Geometry I: Classical Varieties](https://venhance.github.io/napkin/Parts/part-19-napkin-algebraic-geometry-i.pdf)
-- XX. [Algebraic Geometry II: Affine Schemes](https://venhance.github.io/napkin/Parts/part-20-napkin-algebraic-geometry-ii.pdf)
-- XXI. [Set Theory I: ZFC, Ordinals, and Cardinals](https://venhance.github.io/napkin/Parts/part-21-napkin-set-theory-i.pdf)
-- XXII. [Set Theory II: Model Theory and Forcing](https://venhance.github.io/napkin/Parts/part-22-napkin-set-theory-ii.pdf)
-- XXIII. [Appendix](https://venhance.github.io/napkin/Parts/part-23-napkin-appendix.pdf)
+
+1. [Starting Out](https://venhance.github.io/napkin/Parts/part-01-napkin-starting-out.pdf)
+2. [Basic Abstract Algebra](https://venhance.github.io/napkin/Parts/part-02-napkin-basic-abstract-algebra.pdf)
+3. [Basic Topology](https://venhance.github.io/napkin/Parts/part-03-napkin-basic-topology.pdf)
+4. [Linear Algebra](https://venhance.github.io/napkin/Parts/part-04-napkin-linear-algebra.pdf)
+5. [More on Groups](https://venhance.github.io/napkin/Parts/part-05-napkin-more-on-groups.pdf)
+6. [Representation Theory](https://venhance.github.io/napkin/Parts/part-06-napkin-representation-theory.pdf)
+7. [Quantum Algorithms](https://venhance.github.io/napkin/Parts/part-07-napkin-quantum-algorithms.pdf)
+8. [Calculus 101](https://venhance.github.io/napkin/Parts/part-08-napkin-calculus-101.pdf)
+9. [Complex Analysis](https://venhance.github.io/napkin/Parts/part-09-napkin-complex-analysis.pdf)
+10. [Measure Theory](https://venhance.github.io/napkin/Parts/part-10-napkin-measure-theory.pdf)
+11. [Probability (TO DO)](https://venhance.github.io/napkin/Parts/part-11-napkin-probability-to-do.pdf)
+12. [Differential Geometry](https://venhance.github.io/napkin/Parts/part-12-napkin-differential-geometry.pdf)
+13. [Riemann Surfaces](https://venhance.github.io/napkin/Parts/part-13-napkin-riemann-surfaces.pdf)
+14. [Algebraic NT I: Rings of Integers](https://venhance.github.io/napkin/Parts/part-14-napkin-algebraic-nt-i.pdf)
+15. [Algebraic NT II: Galois and Ramification Theory](https://venhance.github.io/napkin/Parts/part-15-napkin-algebraic-nt-ii.pdf)
+16. [Algebraic Topology I: Homotopy](https://venhance.github.io/napkin/Parts/part-16-napkin-algebraic-topology-i.pdf)
+17. [Category Theory](https://venhance.github.io/napkin/Parts/part-17-napkin-category-theory.pdf)
+18. [Algebraic Topology II: Homology](https://venhance.github.io/napkin/Parts/part-18-napkin-algebraic-topology-ii.pdf)
+19. [Algebraic Geometry I: Classical Varieties](https://venhance.github.io/napkin/Parts/part-19-napkin-algebraic-geometry-i.pdf)
+20. [Algebraic Geometry II: Affine Schemes](https://venhance.github.io/napkin/Parts/part-20-napkin-algebraic-geometry-ii.pdf)
+21. [Set Theory I: ZFC, Ordinals, and Cardinals](https://venhance.github.io/napkin/Parts/part-21-napkin-set-theory-i.pdf)
+22. [Set Theory II: Model Theory and Forcing](https://venhance.github.io/napkin/Parts/part-22-napkin-set-theory-ii.pdf)
+23. [Appendix](https://venhance.github.io/napkin/Parts/part-23-napkin-appendix.pdf)
 
 [recent]: https://venhance.github.io/napkin/Napkin.pdf
 [toc]: https://venhance.github.io/napkin/toc.txt
+[all]: https://venhance.github.io/napkin
