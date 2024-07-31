@@ -112,14 +112,12 @@ participation as students denoted in parentheses.
 ### Instructors
 
 - [Adhitya Mangudy][adhitya]
+- [Archit Manas][archit] (VII-VIII)
 - Galin Totev
-- [Gopal Goel][gopal] (IV-V)
 - [Jeffrey Kwan][jkwan] (IV-V)
-- [Márton Borbényi][marton]
+- [Márton Borbényi][marton];
 - [Michael Ren][mren] (I-II)
-- [Noah Walsh][noah] (V-VI)
-- [Ram Goel][ramgoel] (V-VII)
-- [Rohan Goyal][rohan] (V)
+- [Noah Walsh][noah] (V-VI);
 - Rushil Mathur (VII-VIII)
 
 </div>
@@ -135,10 +133,13 @@ Arindam Bhattacharyya (V);
 Atul Nadig (VII);
 [CJ Quines](https://cjquines.com/);
 [Dávid Matolcsi][david];
+[Gopal Goel][gopal] (IV-V);
 [Howard Halim][howard] (III-IV);
 [James Lin][james];
 [Pranjal Srivastava][pranjal] (IV);
+[Ram Goel][ramgoel] (V-VII);
 [Reed LaFleche][reed];
+[Rohan Goyal][rohan] (V);
 [Sanjana Das][sanjana] (VI);
 [Xinke Guo-Xue][xinke];
 [Zack Chroman][zack] (II-III);
@@ -156,6 +157,7 @@ Atul Nadig (VII);
 [anant]: https://www.imo-official.org/participant_r.aspx?id=25764
 [ankan]: https://www.imo-official.org/participant_r.aspx?id=26643
 [anushka]: https://www.egmo.org/people/person1429/
+[archit]: https://www.imo-official.org/participant_r.aspx?id=33408
 [david]: https://www.imo-official.org/participant_r.aspx?id=27309
 [gopal]: https://www.imo-official.org/participant_r.aspx?id=29882
 [howard]: https://www.imo-official.org/participant_r.aspx?id=28475
