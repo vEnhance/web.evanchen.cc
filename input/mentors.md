@@ -131,10 +131,10 @@ or (less preferably) email me.
   problem-solving and in more advanced levels, you will also learn how to
   create new ideas!
 
-## {{ hl("xinke", "Xinke Guo-Xue") }}
+## {{ hl("jacob", "Jacob Guo-Xue") }}
 
 - Contact: $\text{xinkeguoxue}@\text{gmail}{.}\text{com}$
-- Website: [xinkesmathacademy.com](https://xinkesmathacademy.com/)
+- Website: [jacoblark.com](https://jacoblark.com/)
 - Open to small group lessons and 1:1 tutoring, including 1:1 correspondence
   tutoring via email.
 - I am able to teach problem solving for math competitions, math concepts
