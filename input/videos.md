@@ -57,7 +57,7 @@ Software used on the stream includes:
 - LaTeX typeset with [TeX Live](https://www.tug.org/texlive/)
   and [Beamer](<https://en.wikipedia.org/wiki/Beamer_(LaTeX)>),
   viewed in [Zathura](<https://en.wikipedia.org/wiki/Zathura_(document_viewer)>)
-- Text editor is [NeoVim](neovim.org)
+- Text editor is [NeoVim](https://neovim.org)
 - White board via [Miro](https://miro.com)
 - Geometry diagrams using [GeoGebra Classic 5](https://wiki.geogebra.org/en/Reference:GeoGebra_Installation#GeoGebra_Classic_5_for_Desktop)
 - Music by [Pretzel Rocks](https://pretzel.rocks)
