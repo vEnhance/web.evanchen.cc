@@ -1,16 +1,16 @@
-title: Napkin (v1.5)
+title: Napkin (v1.6)
 menu-position: 72
-header: The Napkin project (v1.5)
+header: The Napkin project (v1.6)
 indent: 1
 description: Description of Napkin project, a free book covering all sorts of higher math.
 
 ---
 
-<span style="float:right;padding:10px; font-size:80%; text-align:center;">
-<a href="https://venhance.github.io/napkin/flowchart.png">
-<img src="https://venhance.github.io/napkin/flowchart.png" width="250" alt="Flowchart for Napkin" >
-<br>(click to enlarge)</a>
-</span>
+<div style="text-align:center;">
+<a href="https://venhance.github.io/napkin/cover-art.jpg">
+<img src="https://venhance.github.io/napkin/cover-art.png" width="350" alt="Flowchart for Napkin" />
+</a>
+</div>
 
 ## {{ hl("download", "Download") }}
 
@@ -21,12 +21,11 @@ including a folder with each individual part.
 
 ## {{ hl("status", "Project Status") }}
 
-The **recent v1.5** is a new update which revises
-many of the earlier chapters and adds new content
-in real analysis, measure theory, and algebraic geometry.
-It is however even more visibly incomplete,
-with several chapters scheduled but not yet written.
-In addition, many chapters still lack problems or solutions.
+Following [semver](https://semver.org/), the version number 1.6
+indicates the addition of a few new chapters (and many typo fixes),
+as well as a pretty cover artwork.
+Nonetheless, there are several chapters scheduled but not yet written,
+and many chapters still lack problems or solutions.
 
 See link above for the most recent draft.
 You can also view the
@@ -35,6 +34,10 @@ the most recent version is
 [automatically compiled from that source][all].
 
 I would highly appreciate any corrections, suggestions, or comments.
+The best way to propose changes is to submit a
+[pull request on GitHub](https://github.com/vEnhance/napkin/pulls).
+Alternatively, for longer discussion or general action items,
+submit an [issue on GitHub](https://github.com/vEnhance/napkin/issues).
 
 ## {{ hl("description", "Description") }}
 
@@ -65,6 +68,14 @@ You can download the [entire PDF][recent].
 Nonetheless, if you need a per-part PDF, you can use the ones below;
 though note hyperlinks that span across parts will obviously not work.
 If you want the figures, check [all generated files][all].
+
+There's also a flowchart by chapter number (rather than part number).
+
+<span style="float:right;padding:10px; text-align:center;">
+<a href="https://venhance.github.io/napkin/flowchart.png">
+<img src="https://venhance.github.io/napkin/flowchart.png" width="250" alt="Flowchart for Napkin" >
+</a>
+</span>
 
 - [Frontmatter](https://venhance.github.io/napkin/Parts/part-00-napkin-frontmatter.pdf)
 
