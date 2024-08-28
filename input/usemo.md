@@ -35,11 +35,10 @@ Please check the [full rules and procedures][rules].
 # {{ hl("current", "USEMO 2024") }}
 
 - Registration opens around October 2
-on [AoPS portal](https://aops.com/contests/usemo/).
-<!--
-  It remains open until end-of-day October 20 or when capacity is reached.
-- Day I is Sat. **N October 2024**, from 12:30pm ET to 5:00pm ET.
-- Day II is Sun. **N October 2024**, from 12:30pm ET to 5:00pm ET.
+  on [AoPS portal](https://aops.com/contests/usemo/).
+  It remains open until end-of-day October 25 or when capacity is reached.
+  Day I is Sat. **26 October 2024**, from 12:30pm ET to 5:00pm ET.
+- Day II is Sun. **27 October 2024**, from 12:30pm ET to 5:00pm ET.
 - On each day, the AoPS portal will be functional
   between 12:00 noon ET and 6:00pm ET, to allow some time for setup
   and for scanning and submitting solutions.
@@ -47,9 +46,8 @@ on [AoPS portal](https://aops.com/contests/usemo/).
   - You can check your registration status at
     [this link](https://aops.com/contests/usemo/register).
 - Discussion of problems opens at 7:00pm ET each evening after the exam.
-  -->
 - Volunteers for grading are now open; see below.
-- Problem proposals are due May 10, 2024.
+- Problem proposals were due May 10, 2024.
 
 ## {{ hl("links", "Links and downloads") }}
 
