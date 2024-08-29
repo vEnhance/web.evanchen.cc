@@ -145,7 +145,6 @@ there are too many; these are just ones I have seen recently.
   - [USA Junior](problems.html)
 - Other olympiads:
   - [ELMO](problems.html)
-  - [NICE Olympiad](https://www.nicecontest.xyz)
   - [USEMO](usemo.html)
 - Team selection tests:
   - [China](https://aops.com/community/c3282)
