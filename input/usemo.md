@@ -37,7 +37,7 @@ Please check the [full rules and procedures][rules].
 - Registration opens around October 2
   on [AoPS portal](https://aops.com/contests/usemo/).
   It remains open until end-of-day October 25 or when capacity is reached.
-  Day I is Sat. **26 October 2024**, from 12:30pm ET to 5:00pm ET.
+- Day I is Sat. **26 October 2024**, from 12:30pm ET to 5:00pm ET.
 - Day II is Sun. **27 October 2024**, from 12:30pm ET to 5:00pm ET.
 - On each day, the AoPS portal will be functional
   between 12:00 noon ET and 6:00pm ET, to allow some time for setup
