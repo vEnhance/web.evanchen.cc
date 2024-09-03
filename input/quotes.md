@@ -85,6 +85,10 @@ Alphabetical, does not include song lyrics.
 - People only exist when you need them.
 - The more labels you have for yourself, the dumber they make you.
   ([Paul Graham](http://paulgraham.com/identity.html))
+- To me, relinquishing an important friendship is literally giving up
+  a piece of your identity and history.
+  We store ourselves in others; they make us whole.
+  ([bookbear express](https://www.avabear.xyz/p/friends-shape-your-identity))
 - You all have a little bit of "I want to save the world" in you.
   I want you to know that it's okay if you only save one person,
   and it's okay if that person is you.
