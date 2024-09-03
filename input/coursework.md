@@ -6,9 +6,7 @@ description: Lecture notes from math classes I have taken at Harvard, MIT, etc. 
 
 ---
 
-During math classes, I like to LaTeX notes to these classes in real time.
-On this page, I've included copies of notes to current and past courses.
-
+This page contains notes I typed in classes I've taken.
 Currently, I live-TeX notes using latexmk and a heavily modified Vim editor.
 (For details on the technical setup, see [the corresponding FAQ](faq-latex.html#L-11).)
 Since these notes are written _during_ class, it is quite likely that they contain typos.
@@ -16,13 +14,9 @@ Please send any corrections to me via email.
 
 For more polished exposition on some selected topics, see the [Napkin project](napkin.html).
 
-Here is a **[download link for descriptions of all courses][transcript]**,
+Here is a **[download link for descriptions of courses I took][transcript]**,
 even including the ones which I do not have notes for.
 (The list below just includes the one for which I have notes to share.)
-
-<!-- Some of the links are temporary Dropbox links.
-If you want to link these notes, you should always link to this page.
-The Dropbox links will expire at the end of each semester. -->
 
 ## {{ hl("mit", "Massachusetts Institute of Technology") }}
 
@@ -45,8 +39,10 @@ The Dropbox links will expire at the end of each semester. -->
 - <b>(18.950) Differential Geometry</b> [(pdf)](notes/MIT-18-950.pdf)<br>
   Taught by Xin Zhou. Fall 2015.
 
-- <b>(SCUM) Student Colloqium in Mathematics</b> [(pdf)](notes/SCUM.pdf)<br>
+- <b>(SCUM) Student Colloquium in Mathematics</b> [(pdf)](notes/SCUM.pdf)<br>
   Not a class, but free dinner and math lectures every Wednesday.
+
+There's also a page for the [one semester I led 18.02 recitation](1802.html).
 
 ## {{ hl("harvard", "Harvard College") }}
 
