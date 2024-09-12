@@ -271,9 +271,57 @@ the choice of dorm you end up in will tend to be less important because
 the dorms are all (because of the randomness) similar overall,
 although your luck with roommates may have an effect.
 
+### {{ faq("S-12", "I'm a high schooler trying to decide on prospective majors and careers later on. Do you have advice?") }}
+
+In general, trying to optimize for college majors is premature[^starcraft] until
+you actually know which university you're attending (because you want to know
+what the department there is like, what the requirements are, etc.). Career
+advice is even more premature.
+
+[^starcraft]:
+    In fact, in my teenage years, I'm pretty sure the time I spent in high
+    school thinking about colleges and careers --- which is what all the adults
+    told me I should be doing instead of studying math all day --- was actually
+    _net harmful_, and I would have been better off just playing StarCraft
+    instead of reading about college majors. I'm admittedly a bit of an extreme
+    case and I don't think it ends up being net harmful for most people, but I'm
+    trying to make a point.
+
+With that disclaimer, a lot of you still want to hear me yap about math majors,
+so here are some hints about math majoring that may or may not be useful to you.
+(They will necessarily be limited in value because they are broad strokes about
+general trends at a few universities that may not apply to the college you end
+up actually attending.)
+
+- Many university math exams do not require the level of problem-solving
+  demanded by contests like the USAMO/IMO. (I think people tend to overestimate
+  the average amount of problem-solving required because they see that olympiads
+  are branded as a high-school contest and assume college is even scarier.)
+
+- Many university math major requirements are quite lax.
+  For example, at MIT you can get a math major
+  [only taking 1 math class per semester][genmath].
+  So I often encourage [otters](/otis.html) at MIT to still at least consider
+  math majors, even if they don't want to primarily study math and they have
+  zero interest in going into academia, because in some cases they'd nearly get
+  the major by accident while taking the math classes that sound cool.
+
+- Broadly, your choice of major matters much less for career options than many
+  people believe in the United States after you graduate. (Like, my brother was
+  an English major, and then later switched into a job in software programming.)
+
+### {{ faq("S-13", "Any advice for math PhD admissions?") }}
+
+The three most important parts of your application are your first rec letter,
+your second rec letter, and your third rec letter.
+Don't sweat too much about anything else like the personal statement.
+And I don't even know which schools still consider or accept the
+[GRE](https://w.wiki/BAtU) after the pandemic.
+
 [mit-sao]: https://mitadmissions.org/discover/life-culture/clubs-activities/
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
 [tuition]: https://web.mit.edu/facts/tuition.html
 [blank]: https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/comment-page-1/#comment-1694
 [tr011ey]: https://blog.evanchen.cc/2019/04/01/undergraduate-math-011-a-first-year-course-in-geometry/
+[genmath]: https://math.mit.edu/academics/undergrad/major/course18/general.php
