@@ -79,7 +79,7 @@ Here's one example:
 
 When I say this, it's not because we tried really hard to find such integers
 and eventually gave up and decreed the task as impossible.
-It's because we have a proof: the sum three odd numbers is odd,
+It's because we have a proof: the sum of three odd numbers is odd,
 and therefore it can never equal 1000000.
 
 The impossibility of trisecting the angle is obviously more complicated,
