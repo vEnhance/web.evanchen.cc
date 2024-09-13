@@ -73,7 +73,7 @@ In descending order of importance for new solvers:
    Quote from [Allen Rabinovich's advice][advice]:
    "A good friend of mine once said that if he were to write a guide
    on how to solve puzzles, that’s all he would say."
-4. Print out a [code sheet][code] of **common encodings**.
+4. Print out a [code sheet][codes] of **common encodings**.
    There are other equivalent charts like [Puzzled Pint][ppint] or [Microsoft][msenc].
 5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
    given only some of the letters.
