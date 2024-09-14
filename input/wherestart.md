@@ -41,7 +41,7 @@ giving some guidance on what topics appear on math olympiads.
 
 ## {{ hl("letter", "1. First reading: the welcome letter") }}
 
-For the USA Math Olympiad in 2020, the board of the USAMO
+For the USA Math Olympiad in 2020, the board of the olympiad
 prepared an invitation letter[^covid] for all the qualifiers,
 congratulating them on their achievement
 and giving them some suggestions on where to begin.
@@ -62,9 +62,9 @@ This letter contains:
 
 You can download the letters here:
 
-- [JMO welcome letter](static/welcome-jmo.pdf),
+- [Welcome letter for junior students (9th-10th grade)](static/welcome-jmo.pdf),
   and [solutions to examples](static/sol-welcome-jmo.pdf)
-- [USAMO welcome letter](static/welcome-usamo.pdf),
+- [Welcome letter for older students (11th-12th grade)](static/welcome-usamo.pdf),
   and [solutions to examples](static/sol-welcome-usamo.pdf)
 
 I suggest starting by reading through this letter,
@@ -155,8 +155,8 @@ Things that make the USAMTS special:
 I also run a contest called the [USEMO](usemo.html) in the fall
 which is also free and offers feedback,
 but it is more difficult since is intended to mimic
-the USAMO and IMO in format and difficulty.
-One could try using it as "practice USAMO" in the fall.
+the USA Math Olympiad and International Math Olympiad in format and difficulty.
+One could try using it as "practice IMO" in the fall.
 
 ## {{ hl("books", "4. Books to read") }}
 
@@ -197,8 +197,7 @@ Just because you have done X does not mean you will achieve your goals,
 and conversely, there are surely many fantastic resources
 that I have not even heard of.
 If you are looking for a list of materials which are
-"guaranteed to be enough" for solving IMO #1 and #4,
-then unfortunately I can't help you.
+"guaranteed to be enough" for solving IMO #1 and #4, ask elsewhere.
 
 ## {{ hl("problems", "5. Problem sources") }}
 
