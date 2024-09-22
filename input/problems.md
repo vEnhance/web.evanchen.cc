@@ -42,6 +42,22 @@ for even more problems and solutions, including most of the ones below.
 - IMO 2023 [(PDF)](exams/IMO-2023-notes.pdf) [(TeX)](exams/IMO-2023-notes.tex)
 - IMO 2024 [(PDF)](exams/IMO-2024-notes.pdf) [(TeX)](exams/IMO-2024-notes.tex)
 
+# {{ hl("egmo", "European Girls Math Olympiad") }}
+
+- EGMO 2012 [(PDF)](exams/EGMO-2012-notes.pdf) [(TeX)](exams/EGMO-2012-notes.tex)
+- EGMO 2013 [(PDF)](exams/EGMO-2013-notes.pdf) [(TeX)](exams/EGMO-2013-notes.tex)
+- EGMO 2014 [(PDF)](exams/EGMO-2014-notes.pdf) [(TeX)](exams/EGMO-2014-notes.tex)
+- EGMO 2015 [(PDF)](exams/EGMO-2015-notes.pdf) [(TeX)](exams/EGMO-2015-notes.tex)
+- EGMO 2016 [(PDF)](exams/EGMO-2016-notes.pdf) [(TeX)](exams/EGMO-2016-notes.tex)
+- EGMO 2017 [(PDF)](exams/EGMO-2017-notes.pdf) [(TeX)](exams/EGMO-2017-notes.tex)
+- EGMO 2018 [(PDF)](exams/EGMO-2018-notes.pdf) [(TeX)](exams/EGMO-2018-notes.tex)
+- EGMO 2019 [(PDF)](exams/EGMO-2019-notes.pdf) [(TeX)](exams/EGMO-2019-notes.tex)
+- EGMO 2020 [(PDF)](exams/EGMO-2020-notes.pdf) [(TeX)](exams/EGMO-2020-notes.tex)
+- EGMO 2021 [(PDF)](exams/EGMO-2021-notes.pdf) [(TeX)](exams/EGMO-2021-notes.tex)
+- EGMO 2022 to be written
+- EGMO 2023 to be written
+- EGMO 2024 to be written
+
 # Premier USA Contests
 
 ## {{ hl("usamo", "USA Math Olympiad (USAMO)") }}
