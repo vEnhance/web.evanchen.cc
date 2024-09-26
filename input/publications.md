@@ -21,6 +21,8 @@ My two most major expository works have their own page at the right:
 ## {{ hl("research", "Research Publications") }}
 
 Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
+I'm also [MR Author ID 1158569](https://mathscinet.ams.org/mathscinet/MRAuthorID/1158569)
+and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
 
 - [arXiv:1709.05753](https://arxiv.org/abs/1709.05753).<br>
   <b>A family of partially ordered sets with small balance constant</b>.<br>
