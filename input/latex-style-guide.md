@@ -81,22 +81,22 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 
 10. For single-line display math, double dollar signs MUST NOT ever be used;
     the use of `\[ ... \]` instead is REQUIRED.
-    Inserting newlines after `\[` and before `\]` is OPTIONAL;
-    if the newline is not included there MUST be a space instead.
-    There SHOULD be single newlines before and after displayed expressions;
-    but there MUST NOT be double newlines unless it is intentional
+    Inserting line breaks after `\[` and before `\]` is OPTIONAL;
+    if the line break is not included there MUST be a space instead.
+    There SHOULD be single line break before and after displayed expressions;
+    but there MUST NOT be double line breaks unless it is intentional
     that the displayed line should be its own paragraph
     (which is almost never the case).
 
-11. When a series of equation are too long to fit on a new line,
+11. When a series of equation are too long to fit on a single line,
     one MUST NOT have adjacent `\[ ... \]` expressions.
     In most cases, the `align*` environment SHOULD be used instead.
 
 12. When using `align*`, the invocations
     `\begin{align*}` and `\end{align*}` MUST be on their own line.
-    There MUST be a new line after each `\\` newline.
-    There MAY be additional newlines for legibility,
-    and there MUST be additional newlines if they are necessary to keep
+    There MUST be a line break after each `\\` invocation.
+    There MAY be additional line breaks for legibility,
+    and there MUST be additional line breaks if they are necessary to keep
     the line length within the specified limit.
 
 13. The contents of any `\begin{...} ... \end{...}` environment
@@ -105,7 +105,8 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 14. There must not be any trailing whitespace,
     i.e. no line may end with a whitespace character.
 
-15. Paragraph breaks MUST be typeset using two or more newlines,
+15. Paragraph breaks MUST be typeset using two or more line breaks
+    (i.e. one empty line between the paragraphs),
     and MUST NOT be typeset using `\\\\` or other similar antics.
 
 16. Any mathematical variables MUST be enclosed in dollar signs,
