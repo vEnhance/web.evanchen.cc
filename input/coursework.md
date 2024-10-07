@@ -20,6 +20,15 @@ even including the ones which I do not have notes for.
 
 ## {{ hl("mit", "Massachusetts Institute of Technology") }}
 
+- <b>(18.02) Multivariable calculus</b>
+  [(pdf, work-in-progress)](/upload/1802/lamv.pdf)
+  [(github)](https://github.com/vEnhance/1802)
+  <br>
+  Here I was a recitation leader rather than a student,
+  so this one actually looks more like a book.
+  If you're actually in my section,
+  you should check the [class page instead](1802.html).
+
 - <b>(18.217) Combinatorial Theory</b>
   [(pdf, incomplete)](notes/MIT-18-217.pdf)<br>
   Taught by Alex Postnikov. Fall 2018.
@@ -41,8 +50,6 @@ even including the ones which I do not have notes for.
 
 - <b>(SCUM) Student Colloquium in Mathematics</b> [(pdf)](notes/SCUM.pdf)<br>
   Not a class, but free dinner and math lectures every Wednesday.
-
-There's also a page for the [one semester I led 18.02 recitation](1802.html).
 
 ## {{ hl("harvard", "Harvard College") }}
 
