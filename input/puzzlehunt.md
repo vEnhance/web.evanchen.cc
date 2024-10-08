@@ -114,12 +114,12 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 
 ### {{ hl("mh2023", "Mystery Hunt 2023") }}
 
-- [Much Ado About Nothing](https://interestingthings.museum/puzzles/much-ado-about-nothing)
-- [Diagramless](https://puzzlefactory.place/office/diagramless), with Lumia Neyo.
-- [Circuit](https://puzzlefactory.place/basement/circuit), with Jacqui Fashimpaur.
-- [Zambonis](https://puzzlefactory.place/office/zambonis), with Catherine Wu, Nicholai Dimov, and Steven Silverman
-- [4D Geo](https://puzzlefactory.place/puzzles/4d-geo), with Austin Lei, Moor Xu, and Nathan Wong
-- [Flooded Caves](https://puzzlefactory.place/puzzles/flooded-caves), with Alex Gotsis and Cameron Montag
+- [Much Ado About Nothing](https://puzzles.mit.edu/2023/interestingthings.museum/puzzles/much-ado-about-nothing)
+- [Diagramless](https://puzzles.mit.edu/2023/puzzlefactory.place/office/diagramless), with Lumia Neyo.
+- [Circuit](https://puzzles.mit.edu/2023/puzzlefactory.place/basement/circuit), with Jacqui Fashimpaur.
+- [Zambonis](https://puzzles.mit.edu/2023/puzzlefactory.place/office/zambonis), with Catherine Wu, Nicholai Dimov, and Steven Silverman
+- [4D Geo](https://puzzles.mit.edu/2023/puzzlefactory.place//puzzles/4d-geo), with Austin Lei, Moor Xu, and Nathan Wong
+- [Flooded Caves](https://puzzles.mit.edu/2023/puzzlefactory.place//puzzles/flooded-caves), with Alex Gotsis and Cameron Montag
 
 ### {{ hl("mop", "MOP Mini-events") }}
 
