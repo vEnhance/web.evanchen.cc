@@ -212,7 +212,7 @@ with the first four bullets in [CR-7](#CR-7),
 students will often colloquially refer to the cutoffs by color as well,
 in an abuse of terminology that leads to endless confusion.
 For example, in Internet slang, "blue cutoff" would mean the minimum score
-for an 11th grader to be invited MOP through USAMO,
+for an 11th grader to be invited to MOP through USAMO,
 even though such a student could be placed in any class group.[^blue11]
 
 [^blue11]:
