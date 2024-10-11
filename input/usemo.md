@@ -49,6 +49,13 @@ Please check the [full rules and procedures][rules].
 - Volunteers for grading are now open; see below.
 - Problem proposals were due May 10, 2024.
 
+The organizers of the USEMO are grateful to be sponsored in 2024
+by the [CoRe Lab, Institute of Artificial Intelligence, Peking University](https://pku.ai/).
+
+<a href="https://pku.ai/">
+<img width="240" src="static/usemo/core.jpg" alt="CoRE Lab" />
+</a>
+
 ## {{ hl("links", "Links and downloads") }}
 
 - [Registration and submission portal][aops-usemo]
