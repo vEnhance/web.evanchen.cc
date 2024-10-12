@@ -25,6 +25,7 @@ You can also find more pictures of me on
 {{ clickable_selfie_image("janice2", "PC Janice") }}
 {{ clickable_selfie_image("marilyn", "PC Marilyn") }}
 {{ clickable_selfie_image("mit2022", "MIT 2022") }}
+{{ clickable_selfie_image("photoday24", "PC Itala Keller") }}
 </div>
 
 ## Teenager photos
