@@ -4,7 +4,7 @@ set -euxo
 
 mkdir thumbnails
 for i in ./*-full.jpg; do
-  convert -thumbnail 128 "$i" "thumbnails/$i"
+  magick -thumbnail 128 "$i" "thumbnails/$i"
 done
 
 cd thumbnails
