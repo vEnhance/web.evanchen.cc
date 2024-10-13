@@ -111,6 +111,8 @@ There are two ways you can do this:
 
    - [List of "default" directories on various systems](https://tex.stackexchange.com/a/1167/76888)
    - [Instructions for TeX Live](https://tex.stackexchange.com/a/1138/76888)
+   - Once you know where `TEXMFHOME` is, place under
+     `TEXMFHOME/tex/latex/evan/evan.sty`.
    - [Instructions for MikTeX](https://tex.stackexchange.com/a/2066/76888)
    - [Registering to package database](https://tex.stackexchange.com/a/2066/76888)
 
