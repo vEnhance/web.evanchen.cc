@@ -2,5 +2,5 @@
 
 set -xeo pipefail
 
-PYTHONWARNINGS="ignore" gsutil -m cp output/videos.html gs://web.evanchen.cc/
-PYTHONWARNINGS="ignore" gsutil -m setmeta -h 'Cache-Control:private, max-age=0, no-transform' gs://web.evanchen.cc/videos.html
+gcloud storage cp output/videos.html gs://web.evanchen.cc/
+gcloud storage objects update --custom-metadata='Cache-Control="private,max-age=0"' gs://web.evanchen.cc/videos.html
