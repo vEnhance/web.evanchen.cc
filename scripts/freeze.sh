@@ -1,27 +1,27 @@
 #!/bin/bash
 
 if [ $# -eq 0 ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/*.html
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/*.html
 elif [ "$1" = "-j" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/**/*.js
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/**/*.js
 elif [ "$1" = "-c" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/**/*.css
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/**/*.css
 elif [ "$1" = "-e" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/exams/*
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/exams/*
 elif [ "$1" = "-o" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/elmo/*
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/elmo/*
 elif [ "$1" = "-s" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/static/*
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/static/*
 elif [ "$1" = "-h" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/**/*.html
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/**/*.html
 elif [ "$1" = "-t" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/**/*.tex
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/**/*.tex
 elif [ "$1" = "-p" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/**/*.pdf
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/**/*.pdf
 elif [ "$1" = "-u" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/upload/** gs://web.evanchen.cc/private/** gs://web.evanchen.cc/textbooks/**
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/upload/** gs://web.evanchen.cc/private/** gs://web.evanchen.cc/textbooks/**
 elif [ "$1" = "-a" ]; then
-  gcloud storage objects update --custom-metadata='Cache-Control="public,max-age=3600"' gs://web.evanchen.cc/
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/
 else
   echo "huh?"
 fi

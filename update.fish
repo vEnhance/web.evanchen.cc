@@ -19,7 +19,7 @@ if test $status -eq 1 -a -z "$argv[1]"
         exit
     end
     gcloud storage cp (git status -s | grep -E -o "input/[^ ]*.md" | sed s/.md\$/.html/ | sed s/^input/output/) gs://web.evanchen.cc/ --cache-control="private,max-age=0"
-    # gcloud storage objects update --custom-metadata='Cache-Control="private,max-age=0"' (git status -s | grep -E -o "input/[^ ]*.md" | sed s/.md\$/.html/ | sed s/^input/gs:\\/\\/web.evanchen.cc/)
+    # gcloud storage objects update --cache-control="private,max-age=0" (git status -s | grep -E -o "input/[^ ]*.md" | sed s/.md\$/.html/ | sed s/^input/gs:\\/\\/web.evanchen.cc/)
 else
     set --local commit "$argv[1]"
     if test -z "$commit"
@@ -40,6 +40,6 @@ else
         echo "No md files found"
     else
         gcloud storage cp (git show $commit --format="" --name-only | grep -E -o "input/[^ ]*.md" | sed s/.md\$/.html/ | sed s/^input/output/) gs://web.evanchen.cc/ --cache-control="private,max-age=0"
-        # gcloud storage objects update --custom-metadata='Cache-Control="private,max-age=0"' (git show $commit --format="" | grep -E -o "input/[^ ]*.md" | sed s/.md\$/.html/ | sed s/^input/gs:\\/\\/web.evanchen.cc/)
+        # gcloud storage objects update --cache-control="private,max-age=0" (git show $commit --format="" | grep -E -o "input/[^ ]*.md" | sed s/.md\$/.html/ | sed s/^input/gs:\\/\\/web.evanchen.cc/)
     end
 end
