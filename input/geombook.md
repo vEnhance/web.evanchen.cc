@@ -162,7 +162,7 @@ See also [advice from Geoff Smith on geometry](https://people.bath.ac.uk/masgcs/
 [stefan]: https://www.olympiadgeometry.com/
 [ukmt]: https://shop.ukmt.org.uk/ukmt-books/plane-euclidean-geometry
 [ebook]: https://bookstore.ams.org/prb-27/
-[cover]: https://www.maa.org/sites/default/files/images/ebooks/problem_books/EGMO.png
+[cover]: /static/egmo-cover.jpg
 [egmo2]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
 [egmo8]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
 [googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false
