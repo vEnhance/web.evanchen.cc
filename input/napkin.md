@@ -7,7 +7,7 @@ description: Description of Napkin project, a free book covering all sorts of hi
 ---
 
 <div style="text-align:center;">
-<a href="https://venhance.github.io/napkin/cover-art.jpg">
+<a href="https://venhance.github.io/napkin/Napkin.pdf">
 <img src="https://venhance.github.io/napkin/cover-art.png" width="350" alt="Flowchart for Napkin" />
 </a>
 </div>
@@ -15,6 +15,7 @@ description: Description of Napkin project, a free book covering all sorts of hi
 ## {{ hl("download", "Download") }}
 
 **Download the [most recent draft of Napkin][recent].**
+Or download the [cover art image](https://venhance.github.io/napkin/cover-art.png).
 
 You can also see [all generated files][all],
 including a folder with each individual part.
