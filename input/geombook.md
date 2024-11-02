@@ -46,8 +46,6 @@ even if you don't know any geometrical theorems.
 Here is a freely available subset of the book:
 
 - [Table of contents][toc].
-- [Chapter 2 (Circles)][egmo2] and [Chapter 8 (Inversion)][egmo8]
-  (available for free).
 - [Chapters 1-3][googlebook] on Google Books preview.
 - _Parody version of entire book_: check out
   [Undergraduate Math 011: a firsT yeaR coursE in geometrY](textbooks/tr011ey.pdf),
@@ -163,8 +161,6 @@ See also [advice from Geoff Smith on geometry](https://people.bath.ac.uk/masgcs/
 [ukmt]: https://shop.ukmt.org.uk/ukmt-books/plane-euclidean-geometry
 [ebook]: https://bookstore.ams.org/prb-27/
 [cover]: /static/egmo-cover.jpg
-[egmo2]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
-[egmo8]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
 [googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false
 [amazon]: https://www.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/1470466201
 [hardcopy]: https://bookstore.ams.org/prb-27/
