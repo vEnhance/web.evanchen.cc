@@ -34,6 +34,7 @@ Please check the [full rules and procedures][rules].
 
 # {{ hl("current", "USEMO 2024") }}
 
+- You can [download the problems file for USEMO 2024 now](/exams/USEMO-2024.pdf).
 - Registration opens around October 2
   on [AoPS portal](https://aops.com/contests/usemo/).
   It remains open until end-of-day October 25 or when capacity is reached.
@@ -76,6 +77,7 @@ You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 - USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
 - USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions and results)](exams/report-usemo-2022.pdf)
 - USEMO 2023 [(problems)](exams/USEMO-2023.pdf) [(solutions and results)](exams/report-usemo-2023.pdf)
+- USEMO 2024 [(problems)](exams/USEMO-2024.pdf)
 
 ## {{ hl("hall", "Hall of Fame") }}
 
