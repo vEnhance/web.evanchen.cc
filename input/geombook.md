@@ -72,7 +72,7 @@ to move forward with any translation proposals (on 22 April 2023 17:19 UTC).
 
 The errata list is now embarrassingly extensive. You can see:
 
-- [List of mistakes in PDF format](upload/geombook-errata.pdf)
+- [List of mistakes in PDF format](/textbooks/geombook-errata.pdf)
 - [List of mistakes in TeX format](https://github.com/vEnhance/egmo-book-errata)
 - [Instructions for submitting errata](https://github.com/vEnhance/egmo-book-errata#submitting-more-errata)
 
