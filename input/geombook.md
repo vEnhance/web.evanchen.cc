@@ -136,7 +136,7 @@ here are some possible places to look:
 5. If all of the above fail, try posting on the AoPS forums directly.
 
 [userforum]: https://artofproblemsolving.com/community/c618937h1605831_egmo_problem_discussions_links
-[agest]: upload/AGEST.pdf
+[agest]: textbooks/AGEST.pdf
 
 ## {{ hl("resources", "More resources") }}
 
