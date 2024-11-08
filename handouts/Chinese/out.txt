@@ -116,7 +116,9 @@
 代數學;dai4shu4xue2;Algebra
 實數;shi2shu4;real number ($\mathbb R$)
 複數;fu4shu4;complex number
-虛數;xu1shu4;imaginary part
+虛數;xu1shu4;imaginary number
+實部;shi2bu4;real part
+虛部;xu1bu4;imaginary part
 絕對值;jue2dui4zhi2;absolute value
 比值;bi3zhi2;ratio
 常數;chang2shu4;constant
@@ -333,7 +335,7 @@
 凸包;tu1bao1;convex hull
 邊;bian1;side, edge
 邊長;bian1chang2;side length
-區域;qu1yv4;region
+區域;qu1yu4;region
 多面體;duo1mian4ti3;polyhedron
 面;mian4;face
 立方體;li4fang1ti3;cube
@@ -397,6 +399,7 @@
 角平分線;jiao3ping2fen1xian4;angle bisector
 陪位中線;pei2wei4zhong1xian4;symmedian
 等角中線;deng3jiao3zhong1xian4;symmedian
+陪位重心;pei2wei4zhong4xin1;symmedian point
 反演;fan3yan3;inversion
 射影;she4ying3;projective
 交比;jiao1bi3;cross-ratio
