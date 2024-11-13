@@ -8,7 +8,7 @@ description: Description of Napkin project, a free book covering all sorts of hi
 
 <div style="text-align:center;">
 <a href="https://venhance.github.io/napkin/Napkin.pdf">
-<img src="https://venhance.github.io/napkin/cover-art.png" width="350" alt="Flowchart for Napkin" />
+<img src="https://venhance.github.io/napkin/cover-art.png" width="350" alt="Cover art for Napkin" />
 </a>
 </div>
 
