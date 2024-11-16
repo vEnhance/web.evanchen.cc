@@ -38,6 +38,8 @@ Alphabetical, does not include song lyrics.
   ([Grace Hopper](https://en.wikiquote.org/wiki/Grace_Hopper))<br />
   (Editorial note: aimed at working in teams with pre-built trust.
   Does _not_ apply to personal relationships.)
+- If you're thinking without writing, you only think you're thinking.
+  (Leslie Lamport)
 - Nobody should start to undertake a large project.
   You start with a small _trivial_ project,
   and you should never expect it to get large.
