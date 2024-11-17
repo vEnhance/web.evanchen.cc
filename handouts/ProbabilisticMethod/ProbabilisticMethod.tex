@@ -331,12 +331,12 @@ Let's do another simple example. Before we begin, I will quickly introduce a sil
 taken from \cite[page 30]{holden}.
 \begin{lemma}
   For any positive integers $n$ and $k$,
-  \[ \binom nk < \frac 1e \left( \frac{en}{k} \right)^k. \]
+  \[ \binom nk \le \frac 1e \left( \frac{en}{k} \right)^k. \]
   Here $e \approx 2.718\dots$ is Euler's constant.
   \label{lem:binom_bound}
 \end{lemma}
 \begin{proof}
-  Do $\binom nk < \frac{n^k}{k!}$ and then use calculus to prove that
+  Do $\binom nk \le \frac{n^k}{k!}$ and then use calculus to prove that
   $k! \ge e(k/e)^k$. Specifically,
   \[ \ln 1 + \ln 2 + \dots + \ln k \ge \int_{x=1}^k \ln x \; dx = k \ln k - k + 1 \]
   whence exponentiating works.

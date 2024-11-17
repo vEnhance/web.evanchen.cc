@@ -256,10 +256,14 @@ This is the method of Lagrange multipliers.
   or
   \[ \left< bc, ca, ab \right> = \lambda \left<1,1,1\right>. \]
   That is, $bc = ca = ab = \lambda$.
-  If $\lambda = 0$, then $a=b=c=0$, and $f$ is zero at such points.
-  Otherwise, we conclude that $a=b=c$.
-  Since $a+b+c=3$, we must have $a=b=c=1$.
-  Hence $f(1,1,1) = 1$.
+  Considering cases on whether $\lambda$ is zero:
+  \begin{itemize}
+    \ii If $\lambda = 0$, then at least two of $\{a,b,c\}$ must be zero; hence the last one is $3$.
+    We note that $f(3,0,0) = f(0,3,0) = f(0,0,3) = 0$.
+    \ii Otherwise, we conclude that $a=b=c$.
+    Since $a+b+c=3$, we must have $a=b=c=1$.
+    Hence $f(1,1,1) = 1$.
+  \end{itemize}
 
   We find that the critical point yielding the largest value
   on $\ol S$ is $(1,1,1)$, which gives $f(1,1,1) = 1$.
@@ -289,7 +293,7 @@ Its closure is
 \[ \overline U = \left\{ (a,b,c) \mid a,b,c \ge 0
 \text{ and } a^2+b^2+c^2 \le 1000 \right\}. \]
 Hence the constraint set
-\[ \overline S = \left\{ \mathbf x \in \overline U : g(\overline x) = 4 \right\} \]
+\[ \overline S = \left\{ \mathbf x \in \overline U \mid g(\mathbf x) = 4 \right\} \]
 is compact, where $g(a,b,c) = a^2+b^2+c^2+abc$.
 
 Define \[ f(a,b,c) = a^2+b^2+c^2+ab+bc+ca. \]
@@ -321,13 +325,14 @@ Hence, we have three cases.
   then we derive $a = b = c = 2 - \lambda^{-1}$, contradiction.
   \item Now suppose that $a=b \neq c$.
   That means $\lambda = \frac{1}{2-a}$
-  (of course our conditions force $c < 2$).
+  (of course our conditions force $a < 2$).
   Now \[ 2a+2c = a+b+2c = \lambda (2c+ab) = \frac{1}{2-a} (2c+a^2) \]
   which implies \[ 4a+4c-2a^2-2ac = 2c+a^2 \] meaning
   (with the additional note that $a \neq 1$) we have \[ c =
   \frac{3a^2-4a}{2-2a}. \]
   Note that at this point, $c > 0$ forces $1 < a < \frac 43$.
 \end{enumerate}
+
 The constraint $a^2+b^2+c^2+abc=4 \iff c^2 + a^2c + (2a^2-4) = 0$ now gives
 \[ \left( 3a^2-4a \right)^2
   + a^2 \left( 3a^2-4a \right)\left( 2-2a \right)
@@ -359,7 +364,14 @@ in fact, we actually have
   \approx 5.97165. \]
 This completes the solution.
 \end{proof}
-
+\begin{remark*}
+  Noah Walsh points out that it's actually unnecessary to compute the last critical point
+  $a = b = \frac{1+\sqrt{17}}{4}$ and $c = \frac{7-\sqrt{17}}{8}$ above.
+  Instead we just directly substitute $a=b$ and $c=2-a^2$ into the desired inequality:
+  \[ a^2+2a(2-a^2)-a^2(2-a^2) = (a-1)^2(a^2-2) + 2 \le 2 \]
+  since $a \le \sqrt 2$.
+  So any point here satisfies the inequality anyways.
+\end{remark*}
 
 \subsection{A Non-Example}
 The following is not actually an example because you get stuck at the end

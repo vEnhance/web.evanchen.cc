@@ -29,7 +29,7 @@ void dumbass(real[] M, int deg, pair base=(0,0), real dist = 1) {
 \maketitle
 
 \begin{abstract}
-  The intended audience should already familiar with Muirhead and Schur.
+  The intended audience should already be familiar with Muirhead and Schur.
   This article is centered around two powerful tools
   for solving polynomial-type inequalities:
   the SOS technique and Chinese Dumbass Notation.
@@ -373,7 +373,7 @@ it's just a matter of computation to extract the factor.
   \begin{align*}
     \frac{(a-b)(a-c)}{2a^2+(b+c)^2} + \frac{(b-c)(b-a)}{2b^2+(c+a)^2}
     &= (a-b) \left( \frac{a-c}{2a^2+(b+c)^2} - \frac{b-c}{2b^2 +(c+a)^2} \right) \\
-    &= (a-b) \cdot \frac{(a-c)(2b^2+(c+a)^2) - (b-c)(2b^2+(c+a)^2)}{(2a^2+(b+c)^2)(2b^2+(c+a)^2)} \\
+    &= (a-b) \cdot \frac{(a-c)(2b^2+(c+a)^2) - (b-c)(2a^2+(b+c)^2)}{(2a^2+(b+c)^2)(2b^2+(c+a)^2)} \\
     &= (a-b) \cdot \scriptstyle\frac{\left( a^3+a^2c+2ab^2-ac^2-2b^2c-c^3 \right) - \left( b^3+b^2c+2a^2b-bc^2-2a^2c-c^3 \right)}{(2a^2+(b+c)^2)(2b^2+(c+a)^2)} \\
     &= (a-b) \cdot \textstyle\frac{(a^3-b^3) + c(a^2-b^2) + 2ab(b-a) + c^2(b-a) + 2c(a^2-b^2)}{(2a^2+(b+c)^2)(2b^2+(c+a)^2)} \\
     &= (a-b)^2 \cdot \frac{a^2+ab+b^2 + c(a+b) -2ab - c^2 + 2c(a+b)}{(2a^2+(b+c)^2) (2b^2+(c+a)^2)} \\
@@ -404,7 +404,7 @@ it's just a matter of computation to extract the factor.
   \[ \half \cycsum \left( X_b+X_c-X_a \right)(b-c)^2 \ge 0 \]
 
   If $a \ge b \ge c$ then $X_a + X_c - X_b$ is evidently nonnegative.
-  (In fact, check that $X_c \ge X_b$).
+  (In fact, check that $X_c \ge X_b$.)
   But now $S_b$, $S_b+S_a$ and $S_b+S_c$ are all nonnegative, so once again we are done.
 \end{proof}
 

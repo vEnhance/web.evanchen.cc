@@ -244,7 +244,7 @@ of which there are $\phi(9) = 6$.
   The \vocab{$n$th cyclotomic polynomial} is the monic polynomial $\Phi_n(x)$ whose roots
   are exactly the primitive $n$th roots of unity; that is,
   \[ \Phi_n(X) = \prod_{\substack{\gcd(k,n) = 1 \\ 1 \le k \le n}}
-          \left( X - \zeta^k \right). \]
+          \left( X - \zeta_n^k \right). \]
 \end{definition}
 \begin{example}
   The primitive fourth roots of unity are $\pm i$, so $\Phi_4(X) = (X-i)(X+i) = X^2+1$.
@@ -254,7 +254,7 @@ One can actually show $\Phi_n(X)$ always has integer coefficients.
 
 \begin{proposition}[Cyclotomic Polynomials Divide $X^n-1$]
   \label{prop:cyclotomic_magic}
-  For any integer $n$, we have
+  For any positive integer $n$, we have
   \[ X^n - 1 = \prod_{d \mid n} \Phi_d(X). \]
   In particular, if $p$ is a prime then
   \[ \Phi_p(X) = \frac{X^p-1}{X-1} = X^{p-1} + X^{p-2} + \dots + 1. \]
