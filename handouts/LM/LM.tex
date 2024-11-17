@@ -144,21 +144,18 @@ We can give the statement of the theorem of Lagrange Multipliers.
 
 \begin{theorem}
   [Lagrange Multipliers]
-  Let $U$ be an open subset of $\RR^n$,
-  and let $f \colon U \to \RR$
-  and $g \colon U \to \RR$ be continuous functions
-  with continuous first derivatives.
+  Let $U$ be an open subset of $\RR^n$, and let $f \colon U \to \RR$
+  and $g \colon U \to \RR$ be continuous functions with continuous first derivatives.
   Define the constraint set
-  \[ S = \left\{ \mathbf x \in U \mid g(\mathbf x) = c \right\} \]
+  \[ S = \left\{ \mathbf{x} \in U \mid g(\mathbf{x}) = c \right\} \]
   for some real number $c$.
 
-  Suppose $\mathbf x \in S$ is a
-  \textbf{local extrema} of $f$ along $S$,
-  meaning $\mathbf x$ gives minimal or maximal value
-  of $f$ among points in $S$ for \emph{some} neighborhood around $\mathbf x$.
-  Then either $\nabla g(\mathbf x) = \mathbf 0$ at this point,
+  Suppose $\mathbf{x} \in S$ is a \textbf{local extrema} of $f$ along $S$,
+  meaning $\mathbf{x}$ gives minimal or maximal value
+  of $f$ among points in $S$ for \emph{some} neighborhood around $\mathbf{x}$.
+  Then either $\nabla g(\mathbf{x}) = \mathbf{0}$ at this point,
   or for some real number $\lambda$,
-  \[ \nabla f(\mathbf x) = \lambda \nabla g(\mathbf x). \]
+  \[ \nabla f(\mathbf{x}) = \lambda \nabla g(\mathbf{x}). \]
 \end{theorem}
 
 This is fine and well, but it does not tell us anything
@@ -170,18 +167,15 @@ find the maximum value of $f$, if indeed it exists.
 The following two lemmas let us save face.
 \begin{lemma}
   [Compact sets have unique maximums]
-  Let $K$ be a compact set and $f \colon K \to \RR$
-  be a continuous function.
-  Then $f$ has a \textbf{global} maximum over $K$ --
-  there exists a point $\mathbf x \in K$
-  such that $f(\mathbf x) \ge f(\mathbf y)$
-  for any other point $\mathbf y \in K$.
+  Let $K$ be a compact set and $f \colon K \to \RR$ be a continuous function.
+  Then $f$ has a \textbf{global} maximum over $K$; that is,
+  there exists a point $\mathbf{x} \in K$ such that $f(\mathbf{x}) \ge f(\mathbf{y})$
+  for any other point $\mathbf{y} \in K$.
 \end{lemma}
 \begin{lemma}
   [Pre-images are closed sets]
-  If $g \colon \RR^n \to \RR$ is a continuous function,
-  then the set
-  $C = \left\{ \mathbf x \in \RR^n \mid g(\mathbf x) = c \right\}$
+  If $g \colon \RR^n \to \RR$ is a continuous function, then the set
+  $C = \left\{ \mathbf{x} \in \RR^n \mid g(\mathbf{x}) = c \right\}$
   is a closed set for any real number $c$.
 \end{lemma}
 
@@ -190,30 +184,27 @@ Let's take our function $f \colon U \to \RR$
 with $U$ open, and consider the closure $\ol U$ of $U$.
 Let's instead optimize $f \colon \ol U \to \RR^n$,
 where $\ol U$ is the closure of $U$. Define
-\[ C = \left\{ \mathbf x \in \RR^n \mid g(\mathbf x) = c \right\}. \]
+\[ C = \left\{ \mathbf{x} \in \RR^n \mid g(\mathbf{x}) = c \right\}. \]
 Note that $C$ is closed by our lemma. Also, define
 \[ S = U \cap C =
-  \left\{ \mathbf x \in U \mid g(\mathbf x) = c \right\} \]
+  \left\{ \mathbf{x} \in U \mid g(\mathbf{x}) = c \right\} \]
 as well as
 \[ \ol S = \ol U \cap C =
-  \left\{ \mathbf x \in \ol U \mid g(\mathbf x) = c \right\}. \]
+  \left\{ \mathbf{x} \in \ol U \mid g(\mathbf{x}) = c \right\}. \]
 As the notation suggests, $\ol S$ is the closure of $S$,
 and in any case is clearly itself closed.
 If either of $C$ or $\ol U$ is bounded,
 then so is $\ol S$, meaning $\ol S$ is compact!
-When that occurs, $f$ achieves a maximum $\mathbf x \in \ol S$
+When that occurs, $f$ achieves a maximum $\mathbf{x} \in \ol S$
 somewhere on the set $C \cap \ol U$.
 
 We can then consider two cases.
 \begin{itemize}
-  \ii If $\mathbf x \in \ol U - U$,
-  that is, $\mathbf x$ lies in the ``boundary'',
+  \ii If $\mathbf{x} \in \ol U - U$, that is, $\mathbf{x}$ lies in the ``boundary'',
   then we can check this case manually.
-  \ii If $\mathbf x \in U$, that is,
-  $\mathbf x$ lies in the ``interior'',
+  \ii If $\mathbf{x} \in U$, that is, $\mathbf{x}$ lies in the ``interior'',
   then we can use Lagrange multipliers.
-  After all, if $\mathbf x$ is a global maximum,
-  then it is certainly a local one as well.
+  After all, if $\mathbf{x}$ is a global maximum, then it is certainly a local one as well.
   Here the constraint set is simply $S = C \cap U$.
 \end{itemize}
 
@@ -233,7 +224,7 @@ This is the method of Lagrange multipliers.
   \[ f(a,b,c) = abc \]
   and
   \[ g(a,b,c) = a+b+c. \]
-  Note that $\nabla g = \left<1,1,1\right> \neq \mathbf 0$
+  Note that $\nabla g = \left<1,1,1\right> \neq \mathbf{0}$
   at all points, and moreover that $f$ and $g$ are continuous
   with continuous partial derivatives.
 
@@ -241,16 +232,16 @@ This is the method of Lagrange multipliers.
   (meaning we will actually prove the inequality
   for all $a,b,c \ge 0$).
   Note that $\ol U$ is bounded, so the set
-  \[ \ol S = \left\{ \mathbf x \in \ol U : g(\mathbf x) = 3 \right\} \]
+  \[ \ol S = \left\{ \mathbf{x} \in \ol U : g(\mathbf{x}) = 3 \right\} \]
   is closed and hence compact.
-  So $f$ achieves a maximum value on $\ol S$, say $\mathbf x$.
+  So $f$ achieves a maximum value on $\ol S$, say $\mathbf{x}$.
 
-  If $\mathbf x$ lies on the boundary,
-  then at least one component of $\mathbf x$ is zero,
+  If $\mathbf{x}$ lies on the boundary,
+  then at least one component of $\mathbf{x}$ is zero,
   whence $abc = 0$; this is clearly not a maximum.
 
-  Otherwise, let $\mathbf x = (a,b,c)$ be a point of
-  $S = \left\{ \mathbf x \in U : g(\mathbf x) = 3 \right\}$.
+  Otherwise, let $\mathbf{x} = (a,b,c)$ be a point of
+  $S = \left\{ \mathbf{x} \in U : g(\mathbf{x}) = 3 \right\}$.
   By Lagrange multipliers, we know
   \[ \nabla f(a,b,c) = \lambda \nabla g(a,b,c) \]
   or
@@ -293,7 +284,7 @@ Its closure is
 \[ \overline U = \left\{ (a,b,c) \mid a,b,c \ge 0
 \text{ and } a^2+b^2+c^2 \le 1000 \right\}. \]
 Hence the constraint set
-\[ \overline S = \left\{ \mathbf x \in \overline U \mid g(\mathbf x) = 4 \right\} \]
+\[ \overline S = \left\{ \mathbf{x} \in \overline U \mid g(\mathbf{x}) = 4 \right\} \]
 is compact, where $g(a,b,c) = a^2+b^2+c^2+abc$.
 
 Define \[ f(a,b,c) = a^2+b^2+c^2+ab+bc+ca. \]
@@ -301,17 +292,17 @@ It's equivalent to show that $f \le 6$ subject to $g$.
 Over $\overline S$, it must achieve a global maximum.
 Now we consider two cases.
 
-If $\mathbf x$ lies on the boundary,
+If $\mathbf{x}$ lies on the boundary,
 that means one of the components is zero
 (since $a^2+b^2+c^2=1000$ is clearly impossible).
 WLOG $c=0$, then we wish to show $a^2+b^2+ab \le 6$
 for $a^2+b^2=4$, which is trivial.
 
 Now for the interior $U$, we may use the method of Lagrange Multipliers.
-Consider a local maximum $\mathbf x \in U$.
+Consider a local maximum $\mathbf{x} \in U$.
 Compute \[ \nabla f = \left<2a+b+c, 2b+c+a, 2c+a+b \right> \]
 and \[ \nabla g = \left<2a+bc, 2b+ca, 2c+ab\right>. \]
-Of course, $\nabla g \neq \mathbf 0$ everywhere,
+Of course, $\nabla g \neq \mathbf{0}$ everywhere,
 so introducing our multiplier yields
 \[ \left<2a+b+c,a+2b+c,a+b+2c\right> = \lambda \left<2a+bc,2b+ca,2c+ab\right>. \]
 Note that $\lambda \neq 0$ since $a,b,c > 0$.
@@ -400,7 +391,7 @@ but I included it because of popular request.
   \[ \ol U = \left\{ (w,x,y,z) \mid w^2+x^2+y^2+z^2 \le 1000 \right\} \]
   is a closed ball, which is compact.
 
-  First, we need to check that $\nabla g \neq \mathbf 0$. Compute
+  First, we need to check that $\nabla g \neq \mathbf{0}$. Compute
   \[ \frac{\partial g}{\partial w} = x+y+z - xyz. \]
   If it is the case that all of these are zero, we will derive a contradiction.
   This would imply that $wx+wy+wz = wxyz$.
@@ -413,7 +404,7 @@ but I included it because of popular request.
   If $x=y=z$ but $w \neq x$, then $w+x=w+x+y+z \implies y+z = 0$, so $y=z=0$ which is impossible.
   Finally, if $w=x$ and $y=z$ but $w \neq y$ then $w+y=2(w+y)$, whence $w=-y$.
   Now we can derive $5=w(x+y+z)=-w^2$, which is impossible.
-  So, $\nabla g \neq \mathbf 0$ everywhere.
+  So, $\nabla g \neq \mathbf{0}$ everywhere.
 
   Now, the extrema on the boundary of $\ol U$ trivially satisfy the inequality,
   so we only need consider the interior.
@@ -442,9 +433,9 @@ but I included it because of popular request.
   At this point we have used all the constraints.
   That means Lagrange Multipliers is telling us that any point $(w,x,y,z)$
   which also satisfies \eqref{eq:usamo1} is possibly a local extrema;
-  in other words, one can check that any $\mathbf x$ satisfying \eqref{eq:usamo1}
+  in other words, one can check that any $\mathbf{x}$ satisfying \eqref{eq:usamo1}
   and $wx+xy+yz+zx+wy+xz = 5+wxyz$ also satisfies
-  $\nabla f(\mathbf x) = \lambda \nabla g(\mathbf x)$.
+  $\nabla f(\mathbf{x}) = \lambda \nabla g(\mathbf{x})$.
 
   Unfortunately, you can't go farther than this because it turns out
   that \eqref{eq:usamo1} is precisely the equality condition of the original problem.
