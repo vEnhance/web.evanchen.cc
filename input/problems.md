@@ -181,6 +181,7 @@ Also listed on the [USEMO page](usemo.html).
   - [(video 1)](https://www.youtube.com/watch?v=kjcY8qQAi5U) [(video 2)](https://www.youtube.com/watch?v=UvOQQaLlVV8)
 - USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions+results)](exams/report-usemo-2022.pdf)
 - USEMO 2023 [(problems)](exams/USEMO-2023.pdf) [(solutions+results)](exams/report-usemo-2023.pdf)
+- USEMO 2024 [(problems)](exams/USEMO-2024.pdf) [(solutions+results)](exams/report-usemo-2024.pdf)
 
 ## {{ hl("elmo", "ELMO") }}
 
