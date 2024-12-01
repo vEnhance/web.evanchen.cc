@@ -36,6 +36,8 @@ then print an [encoding sheet][codes] and try some of the easy hunts below.
   - [MIT Aquarium Puzzle Hunt](https://puzzles.mit.edu/aquarium/)
   - [DP Puzzle Hunt](https://dp.puzzlehunt.net/unlocking.html),
     probably the most polished one in this list.
+  - [MIT Mystery Heist](https://mitmysteryheist.com/puzzles/),
+    a prelude to the MIT Mystery Hunt 2025.
 - Some good beginner puzzles from more difficult hunts:
   - [Yeah, But It Didn't Work!](https://www.mit.edu/~puzzle/2018/full/puzzle/yeah_but_it_didnt_work.html)
     (Mystery Hunt 2018)
