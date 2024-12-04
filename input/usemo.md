@@ -90,6 +90,7 @@ The list below is sorted alphabetically by first name (not by place).
 - USEMO 2021: Eric Shen, Kristie Sue, Ram Goel (with Raymond Feng tying third place)
 - USEMO 2022: JunWen Huang, Krishna Pothapragada, Maximus Lu
 - USEMO 2023: Linus Tang, Hannah Fox, Henrick Rabinovitz
+- USEMO 2024: Alexander Wang, Feodor Yevtushenko, Oron Wang
 
 # {{ hl("volunteer", "Volunteer") }}
 
