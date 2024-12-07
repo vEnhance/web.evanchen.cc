@@ -102,7 +102,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 13. The contents of any `\begin{...} ... \end{...}` environment
     SHOULD be indented by at least two spaces.
 
-14. There must not be any trailing whitespace,
+14. There MUST NOT be any trailing whitespace,
     i.e. no line may end with a whitespace character.
 
 15. Paragraph breaks MUST be typeset using two or more line breaks
@@ -116,7 +116,8 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
     `add $1$ to both sides`.
 
 17. When specifying domains and ranges of mathematical functions,
-    use `\colon` instead of `:`, e.g. `$f \colon \mathbb{R} \to \mathbb{R}$`.
+    one MUST use `\colon` instead of `:`,
+    e.g. `$f \colon \mathbb{R} \to \mathbb{R}$`.
 
 ## {{ hl("example", "Example") }}
 
