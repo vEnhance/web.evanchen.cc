@@ -67,8 +67,10 @@ I will decline your request instead.[^support]
 
 [^support]:
     This is because I believe a good mentor should be
-    unconditionally supportive, much like a parent,
+    unconditionally supportive, much like a good friend,
     and that it's not my place to judge students.
+    (I think parents should be like this too,
+    but a lot of them aren't in practice.)
 
 ## {{ hl("sample", "Sample letter") }}
 
