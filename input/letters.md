@@ -40,7 +40,7 @@ Here are a few reasons why:
   This is not to say the comparison will necessarily be unfavorable.
   However, the letter is probably not going to say you are the
   strongest student I've ever met, either, whereas many of you _are_
-  the best student your local high school has ever seen.
+  the most mathematically advanced student your local high school has ever seen.
 
 [^fancy]: Although I am gradually picking up increasingly fancy titles.
 
