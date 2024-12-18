@@ -152,17 +152,36 @@ You are asking the wrong person; I am not an admissions officer.
 Instead, you should read [mitadmissions.org](https://mitadmissions.org).
 For example the post
 [Applying Sideways](https://mitadmissions.org/blogs/entry/applying_sideways/)
-will literally tell you the answer to this question,
+will literally tell you the answer to this question[^ao1],
 even though it's not the answer you want to hear.
 
 I have nothing to add to this. Really.
+
+[^ao1]:
+    Actually, this reminds me a lot of how I get tons of questions that say,
+    "how do I get better at math", and when I say "do more hard problems",
+    they feel like I'm hiding something, because I won't tell them
+    exactly which books to read, or which country's problems to do,
+    or how many minutes to study each day, or whether X goal is "possible", etc.
+    A lot of times I worry these study inquiries are _really_ saying
+    "please give me an exact list of things to do which 100% guarantee success".
+    And it simply doesn't work that way.
 
 People always want to believe there are some mythical criteria
 or hidden goals in the admissions process,
 a closely guarded secret held from the public,
 and hence the best route is to find out this insider information.
-No, seriously, just listen to the people who do admissions for a living.
+No, seriously, just listen to the people who do admissions for a living.[^ao2]
 MIT is not the Illuminati, even if it is a subsequence.
+
+[^ao2]:
+    A lot of you have this model of an adversarial game
+    where you and the AO are on opposite sides, and your goal is to swindle them.
+    I don't think this model is accurate, but if you insist on using it,
+    I would caution you to avoid bold claims that you have a winning strategy,
+    given that you are playing for the first time,
+    the AO is playing for the 10000th time,
+    the AO decides the rules, and also the AO doesn't tell you the rules.
 
 ### {{ faq("S-8", "Is it worth looking at olympiad problems in college if I didn't do competitions in high school, or should I just stick to college math classes?") }}
 
