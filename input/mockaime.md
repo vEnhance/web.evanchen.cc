@@ -24,12 +24,15 @@ a chance to try their hand at problem composition.
 
 ## {{ hl("current", "Current edition") }}
 
-The OTIS Mock AIME 2025 will be out **Thursday, December 19, 2024**,
-released around noon Pacific time.
+The OTIS Mock AIME 2025 is out! There are two versions this year, I and II.
+You can do either or both!
+The submission link is in the PDF file itself
+(note the links are different for the two versions).
 
-This year there we'll offer two editions, I and II.
-You can do either or both! We'll release them at the same time.
-However, the two versions are intentionally quite different:
+- [Download OTIS 2025 Mock AIME I](/exams/OTIS-Mock-AIME-2025-I.pdf)
+- [Download OTIS 2025 Mock AIME II](/exams/OTIS-Mock-AIME-2025-II.pdf)
+
+Note that the two tests are quite different from each other:
 
 1. The _OTIS Mock AIME I_ is going to be tough.
    It will definitely be harder than the actual AIME, by perhaps 2 to 4 problems.
