@@ -26,7 +26,7 @@ See also [S-6](#S-6) below.
 
 ### {{ faq("S-3", "How do you live-TeX your notes so quickly?") }}
 
-See [FAQ L-14](faq-latex.html#L-11).
+See [FAQ L-14](faq-latex.html#L-14).
 
 ### {{ faq("S-4", "How did you take undergraduate / graduate math classes in high school?") }}
 
