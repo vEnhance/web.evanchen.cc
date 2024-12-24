@@ -151,8 +151,6 @@ Pretty similar to reasons I use Linux.
   [text](https://github.com/vEnhance/dotfiles/blob/main/vimrc),
   and by a gazillion plugins (also via text)
   for IDE-like features and autocomplete and so on.
-  (On the scale of Vim users, I lean feature-heavy over lightweight;
-  I use both ALE and CoC.)
 - Any Linux computer will have it.
 - It's fast.
 - It is programmable. If you want to, say,
@@ -184,6 +182,9 @@ becomes a navigation tool like "go to end of line", "delete line",
 
 The main downside to Vim is that there is a learning curve.
 I paid that price long ago 😉
+
+If you're interested in trying out Vim but don't want to build a configuration
+from scratch, I suggest [LazyVim](https://www.lazyvim.org/#-learn) to start.
 
 ### {{ faq("X-6b", "Emacs?") }}
 

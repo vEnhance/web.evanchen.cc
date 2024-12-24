@@ -99,7 +99,7 @@ Some of the popular ones include
 although it's a bit more sophisticated than the beginner ones above.
 
 On the other extreme, the two most famous text editors in the
-world of hackers are [Vim](https://www.vim.org/)
+world of hackers are [NeoVim](https://www.neovim.org/)
 and [Emacs](https://en.wikipedia.org/wiki/Emacs).
 These editors are really powerful and efficient,
 but they take a long time to learn how to use
@@ -109,6 +109,10 @@ I would stay with a simpler editor to start
 to avoid learning too many things at once.
 Unless you don't mind learning multiple things at once,
 in which case you do you.
+
+If you do want to try out Vim and don't want to build your own setup,
+I recommend starting with [LazyVim](https://www.lazyvim.org/#-learn),
+which has a lot of pre-configured plugins and shortcuts.
 
 ## {{ hl("advanced", "Advanced stuff (skip for now)") }}
 
