@@ -15,11 +15,10 @@ I admit that I am not able to respond to everything.
 (Also, my replies are often [terse](https://phdcomics.com/comics/archive_print.php?comicid=1047).
 Please don't be offended if so; I am just trying to be efficient.)
 
-You might want to skim some parts of the website
-to see if it's already answered, e.g.
-[coaching page](otis.html) for OTIS questions,
+You should generally read other parts of the website for common questions,
+e.g. [the OTIS syllabus](otis.html) for OTIS questions,
 [contest resource recommendations](recommend.html),
-and the <del>propaganda section</del> [FAQ](faqs.html).
+and of course the [Frequently Asked Questions](faqs.html).
 
 Note there are _special instructions_ if you are asking about:
 
@@ -74,6 +73,12 @@ Here are some hints:
 - Please include a descriptive nonempty subject.
   My mail client doesn't always sort replies correctly if the subject is left empty.
 
+- In general,
+  [How to ask questions the smart way](http://www.catb.org/~esr/faqs/smart-questions.html)
+  is worth reading if you haven't seen it before.
+  (That document is meant for technical computing advice from hackers,
+  but a lot of the advice like STFW, be precise, etc. applies well here.)
+
 ## {{ hl("problems", "Special instructions for particular problems") }}
 
 If you need help with an olympiad problem,
@@ -88,6 +93,8 @@ work on every problem that students send me, and simply archive your message.
 Either way, if you _do_ ask about a math problem:
 
 - Please state where the problem is from, and link it if possible.
+  If you only include a problem statement with no context on where you found it,
+  I am much less likely to reply.
 - Please describe what you've already tried on the problem.
 
 As mentioned above, you will get faster answers from asking in my
@@ -144,3 +151,8 @@ If you do have a question for me or my Discord, note two important guidelines:
 
 - You should send the code as text or pastebin so that I can copy it.
   Do not use a screenshot.
+
+You should also definitely read
+[How to ask questions the smart way](http://www.catb.org/~esr/faqs/smart-questions.html)
+is worth reading if you haven't seen it before.
+(But do not ask the authors of the document your question; see the Disclaimer.)
