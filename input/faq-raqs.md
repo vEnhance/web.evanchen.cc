@@ -12,34 +12,37 @@ This idea was taken from [Paul Graham][raq].
 
 ### {{ faq("R-1", "How did/do you have so much time?") }}
 
-Mostly by cutting out activities that aren't important to me.
+1. I still think energy management is more important than time management.
+   If you are really excited about something, you will find time for it.
 
-I feel high school students tend to focus too much on small changes
-(using Chrome productivity extensions, shaving time off X, etc.)
-rather than big changes (dropping entire classes or commitments).
-It's not that small changes are bad, but you should consider big changes first
-([see so-called 80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
-Aggressively dropping classes and extracurriculars
-that aren't adding value to your life
-(e.g. not taking AP classes solely for college applications)
-are good examples that I think people don't do enough.
+2. Conversely, I cut out a lot of things that weren't important to me.
 
-I admittedly have spent a lot of time optimizing my workflow,
-like typing quickly, using Vim/Linux, organizing tasks on calendars, etc.
-But I think these are second-order effects.
+   I feel high school students tend to focus too much on small changes
+   (using Chrome productivity extensions, shaving time off X, etc.)
+   rather than big changes (dropping entire classes or commitments).
+   It's not that small changes are bad, but you should consider big changes first
+   ([see so-called 80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
+   Aggressively dropping classes and extracurriculars
+   that aren't adding value to your life
+   (e.g. not taking "advanced" classes solely for college applications)
+   are good examples that I think people don't do enough.
 
-I took this to extreme measures in high school.
-As a senior I took a total of 2 regular high-school classes
-and spent on the order of 30 minutes on homework _per week_;
-as a result I had enough time to do math, write a geometry textbook,
-take graduate math classes, learn to play
-[this piece](https://www.youtube.com/watch?v=Pi8xsZXibIc),
-sleep a ton, AND play StarCraft.
-While I don't encourage everyone to do this, I think it illustrates my point.
+   I took this to extreme measures in high school.
+   As a senior I took a total of 2 regular high-school classes
+   and spent on the order of 30 minutes on homework _per week_;
+   as a result I had enough time to do math, write a geometry textbook,
+   take graduate math classes, learn to play
+   [this piece](https://www.youtube.com/watch?v=Pi8xsZXibIc),
+   sleep 8–10 hours a day, and play StarCraft.
+   While I don't encourage everyone to do this, I think it illustrates my point.
 
-For those of you who were at Math Prize for Girls in 2015,
-Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
-[which you can watch here, 49:30 -- 55:30][vxia].
+   For those of you who were at Math Prize for Girls in 2015,
+   Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
+   [which you can watch here, 49:30 -- 55:30][vxia].
+
+3. I admittedly have spent a lot of time optimizing my workflow,
+   like typing quickly, using Vim/Linux, organizing tasks on calendars, etc.
+   But I think that's a secondary effect.
 
 ### {{ faq("R-2", "I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?") }}
 
