@@ -1,0 +1,32 @@
+---
+extends: capitalization
+level: warning
+match: "$sentence"
+message: "Use sentence-style capitalization in '%s'."
+scope: heading
+exceptions:
+  - USAMO
+  - IMO
+  - OTIS
+  - Excerpts
+  - I
+  - II
+  - III
+  - IV
+  - V
+  - VI
+  - VII
+  - VIII
+  - IX
+  - X
+  - XI
+  - XII
+  - XIII
+  - XIV
+  - XV
+  - XVI
+  - XVII
+  - XVIII
+  - XIX
+  - XX
+prefix: '^\{\{\s*hl\(\"[a-z]+\",\s*\"'
