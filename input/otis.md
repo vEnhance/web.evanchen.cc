@@ -54,7 +54,7 @@ Around the start of 2019, I posted publicly a
 [collection of 192 problems and solutions](excerpts.html)
 based on materials for OTIS.
 This mini-book was named _The OTIS Excerpts_.
-It is designed to mostly be beginner-friendly
+It's designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
 <div style="margin: 0 auto;">
@@ -69,12 +69,12 @@ though some of the chapters are more challenging.
 
 You may send standard applications for OTIS 2024-2025 up to **August 1, 2024**.
 Late applications are open for OTIS 2024-2025 up to **April 30, 2025**.
-(Late applications are rolling/immediate; you can join as soon as your
-application is processed.)
+(Late applications are rolling/immediate; you can join as soon
+I process your application.)
 See the instructions below.
 
 - [Application instructions and homework for fall 2024](upload/otis-app-x.pdf)
-- Applications should be sent via email. Check the instructions above.
+- Applications should be emailed. Check the instructions above.
 - [Financial aid request URL for fall 2024](https://forms.gle/R9GTEN5p9TLTV5AKA)
 
 ## {{ hl("prereq", "Who can apply (aka, everyone)") }}
@@ -86,7 +86,7 @@ are especially encouraged to apply. (I promise I don't bite.)
 (even late) and admissions is need-blind.**
 There are no age restrictions on OTIS in either direction.
 
-Admissions are only done to ensure students have sufficient mathematical
+Admissions are only done to ensure students have enough mathematical
 background and writing ability (due to sheer number of students,
 there is no "grading"), understand English,
 and are able to learn from Evan-style writing.
@@ -105,7 +105,7 @@ participation as students denoted in parentheses.
 <div class="row" markdown="1">
 <div class="col-7" markdown="1">
 
-### Game Master
+### Game master
 
 - [Evan Chen](https://web.evanchen.cc), director
 
@@ -115,6 +115,7 @@ participation as students denoted in parentheses.
 - [Archit Manas][archit] (VII-VIII)
 - Galin Totev
 - [Jeffrey Kwan][jkwan] (IV-V)
+- [Kanav Talwar][kanav] (IX)
 - [Márton Borbényi][marton];
 - [Michael Ren][mren] (I-II)
 - [Noah Walsh][noah] (V-VI);
@@ -163,6 +164,7 @@ Atul Nadig (VII);
 [howard]: https://www.imo-official.org/participant_r.aspx?id=28475
 [james]: https://www.imo-official.org/participant_r.aspx?id=27375
 [jkwan]: https://www.imo-official.org/participant_r.aspx?id=29884
+[kanav]: https://www.imo-official.org/participant_r.aspx?id=34561
 [marton]: https://www.imo-official.org/participant_r.aspx?id=27306
 [mren]: https://www.imo-official.org/participant_r.aspx?id=28394
 [noah]: https://www.imo-official.org/participant_r.aspx?id=31040
