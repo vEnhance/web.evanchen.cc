@@ -44,8 +44,8 @@ Here are a few reasons why:
 
 [^fancy]: Although I am gradually picking up increasingly fancy titles.
 
-Usually people will ask me for letters if they want to add
-some context about their math contest experiences that's more than just score,
+Usually people ask me for letters if they want
+some context about their math contest experiences beyond just score,
 or to have me advocate for their mathematical ability.
 I try to also, when I have enough data, say a bit about what you're like
 as a person when interacting with me or other OTIS students.
@@ -87,7 +87,8 @@ If you do ask a letter for me, I need the following information.
 1. Please remind me which years I worked with you (in OTIS/MOP/SPARC/etc.).
    I have been doing this for so long that the years are all mixed
    up in my head, so I'd like to double-check!
-2. Provide any recent math olympiad results,
+   Also, if you're in OTIS, send a link to your dashboard.
+2. Give any recent math olympiad results,
    like USAMO / TSTST / TST / IMO.
    (I may not use them, but I want to have them if I need them).
 3. **Is there anything in particular I should discuss?**
@@ -97,7 +98,7 @@ If you do ask a letter for me, I need the following information.
    This way, I can tailor my letter to complement
    what you've already written.
 5. If I've written a letter for you in the past, please remind me about it.
-6. Please also specify which email address you applied to the program with.
+6. Please also specify which email you applied to the program with.
 7. Specify what "type" of letter I am writing, if applicable.
    For example, colleges commonly distinguish between, say
    "required" letters from a math teacher, or optional "supplements"
@@ -121,7 +122,7 @@ Additional technical instructions:
   it also lets me know that you've read this page.
 - When inviting me to whatever application the school or program uses,
   it's best if you invite the address `evan at evanchen.cc`.
-  - _Exception_: for some reason, MathPrograms.org (which is used by REU's
+  - _Exception_: for some reason, MathPrograms.org (used by REU's
     and MIT PRIMES) does not seem to work well with my professional email.
     You should use `evanchen at mit.edu` there.
 - Usually, I will always submit letters
@@ -149,7 +150,7 @@ This always says more about how well I know you than about you.
 It is harder than people expect to write a good letter of recommendation.
 I do not want to take chances with anyone's application.
 
-In particular, if your request is declined,
+In particular, if I decline your request,
 **please do not ask me to defend my decision** (as has happened before).
 I will be honest and say I find such cross-examination to be really offensive.
 It's okay to ask for a letter; it's not okay to demand one.
