@@ -124,7 +124,7 @@ Additional technical instructions:
   it's best if you invite the address `evan at evanchen.cc`.
   - _Exception_: for some reason, MathPrograms.org (used by REU's
     and MIT PRIMES) does not seem to work well with my professional email.
-    You should use `evanchen at mit.edu` there.
+    You should use `evanchen at alum.mit.edu` there.
 - Usually, I will always submit letters
   at least a week in advance if you asked ahead of time.
   So if it's less than a week until the deadline and the letter I promised
