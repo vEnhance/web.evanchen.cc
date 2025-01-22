@@ -87,7 +87,7 @@ Reason: there is way, way too much math to learn
 beyond the calculus / linalg / multivar.
 
 I put it this way: look at the
-[Napkin topics diagram](https://web.evanchen.cc/upload/recent-flowchart.png).
+[Napkin topics diagram](https://venhance.github.io/napkin/flowchart.png).
 All of this material is stuff that a strong undergraduate
 is likely to learn over their four years of university, and more.
 (It does not include most graduate-level topics.)
