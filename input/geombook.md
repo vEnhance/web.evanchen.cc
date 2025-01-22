@@ -65,7 +65,7 @@ Here is a freely available subset of the book:
 
 Contact `reprint-permission [at] ams.org` if you are interested in
 a proposal for a translation into a different language.
-I have pre-emptively granted blanket author-approval to the AMS
+I have preemptively granted blanket author-approval to the AMS
 to move forward with any translation proposals (on 22 April 2023 17:19 UTC).
 
 ## {{ hl("errata", "Errata (aka selected solutions to Problem 11.0)") }}
