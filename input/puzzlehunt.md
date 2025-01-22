@@ -105,14 +105,14 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 
 ### {{ hl("mh2021", "Mystery Hunt 2021") }}
 
-- [Nutrition Facts](https://web.mit.edu/puzzle/www/2021/puzzle/nutrition-facts/)
-- [Blind Calculation](https://web.mit.edu/puzzle/www/2021/puzzle/blind-calculation/)
-- [A Bit of Light](https://web.mit.edu/puzzle/www/2021/puzzle/a-bit-of-light/)
+- [Nutrition Facts](https://puzzles.mit.edu/2021/puzzle/nutrition-facts/)
+- [Blind Calculation](https://puzzles.mit.edu/2021/puzzle/blind-calculation/)
+- [A Bit of Light](https://puzzles.mit.edu/2021/puzzle/a-bit-of-light/)
 - [Le chiffre indéchiffrable](https://puzzles.mit.edu/2021/puzzle/le-chiffre-ind%C3%A9chiffrable/)
-- [Clueless](https://web.mit.edu/puzzle/www/2021/puzzle/clueless/)
-- [Divided Is Us](https://web.mit.edu/puzzle/www/2021/puzzle/divided-is-us/), with Jakob Weisblat
-- [Escape From Life](https://web.mit.edu/puzzle/www/2021/puzzle/escape-from-life/)
-- [The IMO Shortlist](https://web.mit.edu/puzzle/www/2021/puzzle/the-imo-shortlist/)
+- [Clueless](https://puzzles.mit.edu/2021/puzzle/clueless/)
+- [Divided Is Us](https://puzzles.mit.edu/2021/puzzle/divided-is-us/), with Jakob Weisblat
+- [Escape From Life](https://puzzles.mit.edu/2021/puzzle/escape-from-life/)
+- [The IMO Shortlist](https://puzzles.mit.edu/2021/puzzle/the-imo-shortlist/)
 
 ### {{ hl("mh2023", "Mystery Hunt 2023") }}
 
