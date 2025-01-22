@@ -11,8 +11,8 @@ description: Synopsis and errata for EGMO geometry textbook for math olympiad st
 </span>
 
 <span style="color:red; font-size: 120%;">
-**You can get a hard copy from [Amazon][amazon] or [the AMS][hardcopy].
-You can also [purchase a PDF][ebook].**
+**You can get a hardcopy from [Amazon][amazon] or [the AMS][hardcopy].
+You can also [buy a PDF][ebook].**
 </span>
 
 (ISBN-10: 0883858398 / ISBN-13: 978-0883858394)
@@ -26,8 +26,8 @@ However, it has no prerequisites other than a good deal of courage:
 any student with proof experience
 should be able to follow the exposition.
 
-The book contains a selection of about 300 problems from around the world
-and is accompanied by about 250 figures.
+The book has a selection of about 300 problems from around the world
+and about 250 figures.
 Some solutions are provided in [this solutions file][agest].
 
 I wrote this textbook while
@@ -39,8 +39,8 @@ You can [read about the publication process][publishing].
 There are essentially no geometry prerequisites;
 EGMO is **entirely self-contained**.
 (This was one of the design goals.)
-The main limiting factor is instead the ability to **read proofs**;
-as long as you can follow mathematical arguments,
+The main limiting factor is instead the ability to **read proofs**.
+As long as you can follow mathematical arguments,
 then you should be able to follow the exposition
 even if you don't know any geometrical theorems.
 Here is a freely available subset of the book:
@@ -63,7 +63,7 @@ Here is a freely available subset of the book:
   and [amazon.co.jp](https://www.amazon.co.jp/dp/4535789789).<br />
   ISBN-10: 4535789789 / ISBN-13: 978-4535789784.
 
-Contact `reprint-permission [at] ams.org` if you would be interested in
+Contact `reprint-permission [at] ams.org` if you are interested in
 a proposal for a translation into a different language.
 I have pre-emptively granted blanket author-approval to the AMS
 to move forward with any translation proposals (on 22 April 2023 17:19 UTC).
@@ -76,8 +76,8 @@ The errata list is now embarrassingly extensive. You can see:
 - [List of mistakes in TeX format](https://github.com/vEnhance/egmo-book-errata)
 - [Instructions for submitting errata](https://github.com/vEnhance/egmo-book-errata#submitting-more-errata)
 
-Most mistakes are harmless, but a few of the mistakes are significant;
-the important ones are reproduced here, too.
+Most mistakes are harmless, but a few of the mistakes are significant.
+Here are the important ones:
 
 - On **page 4**, the proof of Theorem 1.3 is incomplete
   because it assumes that the point $O$ lies inside the triangle $ABC$.
@@ -121,7 +121,7 @@ here are some possible places to look:
 
 2. The [Automatically Generated EGMO Solutions Treasury][agest]
    contains updated solutions to a significant number of the sourced problems.
-   (However, the solutions were compiled by problem,
+   (However, I compiled the solutions by problem,
    so they don't necessarily "match" the chapter the problem appears in.)
 
 3. There is a [user-created forum][userforum]
