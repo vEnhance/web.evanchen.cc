@@ -18,6 +18,17 @@ My two most major expository works have their own page at the right:
 - My personal exposition project [An Infinitely Large Napkin](napkin.html).
   Nearing 1000 pages.
 
+## {{ hl("thesis", "PhD thesis") }}
+
+Some materials related to my PhD thesis:
+
+- [Thesis PDF](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf)
+  - Link to thesis at MIT libraries to be added later
+- [Slides from my thesis defense](/textbooks/thesis-slides.pdf)
+- [Notes from pre-quals](/textbooks/phd-notebook.pdf)
+  (not polished or edited, so rough and likely non-useful)
+- [Source code for all files](https://github.com/vEnhance/evans-phd-notebook)
+
 ## {{ hl("research", "Research publications") }}
 
 Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
