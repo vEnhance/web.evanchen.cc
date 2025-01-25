@@ -8,7 +8,7 @@ description: Mathematical research papers and lecture notes by Evan Chen.
 Here is information are my various research papers,
 lecture handouts, textbooks, and so on.
 
-## {{ hl("major", "Major Writings") }}
+## {{ hl("major", "Major writings") }}
 
 My two most major expository works have their own page at the right:
 
@@ -18,7 +18,7 @@ My two most major expository works have their own page at the right:
 - My personal exposition project [An Infinitely Large Napkin](napkin.html).
   Nearing 1000 pages.
 
-## {{ hl("research", "Research Publications") }}
+## {{ hl("research", "Research publications") }}
 
 Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
 I'm also [MR Author ID 1158569](https://mathscinet.ams.org/mathscinet/MRAuthorID/1158569)
@@ -65,13 +65,13 @@ and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
 In high school I would often give lectures and talks
 at math circles and the like.
 These are in general easier than my Olympiad handouts.
-They also tend to leave out lots of details
+They also tend to omit many details
 (after all, the handout usually accompanies a two-hour talk).
 I've included notes for these here.
 
 To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 
-### {{ hl("bmc-advanced", "Berkeley Math Circle -- Advanced Group") }}
+### {{ hl("bmc-advanced", "Berkeley Math Circle -- Advanced group") }}
 
 - <b>AMC 12 Preparation</b> {{ handout_link("BMC_AMC12Prep_2013") }}
   TeX source contains answers.
@@ -82,7 +82,7 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 - <b>Combinatorial Nullstellensatz</b> {{ handout_link("BMC_Combo_Null") }}
   Applies the combinatorial nullstellensatz to several olympiad-style problems.
 
-### {{ hl("bmc-intermediate", "Berkeley Math Circle -- Intermediate II Group") }}
+### {{ hl("bmc-intermediate", "Berkeley Math Circle -- Intermediate II group") }}
 
 - <b>Triangle Centers</b> {{ handout_link("BMC-TriCenter") }}
   Standard fare on the Euler line and the nine-point circle.
