@@ -17,22 +17,7 @@ whose answers are integers between $0$ and $999$.
 As the name suggests, it is yet another unofficial paper intended to emulate the
 [American Invitational Mathematics Exam][aime].
 
-The defining characteristic of the OTIS Mock AIME is that all the problems
-are composed by students from the [OTIS program](otis.html).
-That is, Evan runs this annual exam as a way to give his students
-a chance to try their hand at problem composition.
-
-## {{ hl("current", "Current edition") }}
-
-The OTIS Mock AIME 2025 is out! There are two versions this year, I and II.
-You can do either or both!
-The submission link is in the PDF file itself
-(note the links are different for the two versions).
-
-- [Download OTIS 2025 Mock AIME I](/exams/OTIS-Mock-AIME-2025-I.pdf)
-- [Download OTIS 2025 Mock AIME II](/exams/OTIS-Mock-AIME-2025-II.pdf)
-
-Note that the two tests are quite different from each other:
+Starting from 2025, we offer two versions of the test, which are different:
 
 1. The _OTIS Mock AIME I_ is going to be tough.
    It will definitely be harder than the actual AIME, by perhaps 2 to 4 problems.
@@ -45,6 +30,24 @@ Note that the two tests are quite different from each other:
    There will inevitably still be some more IMO-flavored problems,
    but they'll appear later in the ordering.
 
+The defining characteristic of the OTIS Mock AIME is that all the problems
+are composed by students from the [OTIS program](otis.html).
+That is, Evan runs this annual exam as a way to give his students
+a chance to try their hand at problem composition.
+
+[^vision]: I think of what the AIME could be, a vision of the one I see...
+
+## {{ hl("current", "Current edition") }}
+
+The OTIS Mock AIME 2025 has concluded. You can download the problems below:
+
+- [Download OTIS 2025 Mock AIME I](/exams/OTIS-Mock-AIME-2025-I.pdf)
+- [Download OTIS 2025 Mock AIME II](/exams/OTIS-Mock-AIME-2025-II.pdf)
+- [Download solutions and results](/exams/sols-OTIS-Mock-AIME-2025.pdf)
+
+See you next year!
+
+<!--
 Logistics:
 
 - The problems file will provide a link to submit answers.
@@ -58,27 +61,19 @@ Logistics:
   and submit their answers for scoring.
   We may recognize high scores for bragging rights but don't otherwise offer prizes.
 
-[^vision]: I think of what the AIME could be, a vision of the one I see...
-
-<!--
-- You can download the [2024 problems now](/exams/OTIS-Mock-AIME-2024.pdf).
-
-- There's a [forum thread on AoPS](https://aops.com/community/p29466910)
-  for discussion of the problems and so on.
-
-- Solutions and statistics will be posted no later than January 20, 2024.
-  If you've already submitted (or won't submit for scoring)
-  and would like hints or solutions on problems before then, though,
-  feel free to email Evan for a nudge.
-
-- For the 2024 exam, Evan will stream a review session
-  (presenting the solutions to all the problems)
-  on [twitch.tv/vEnhance](https://twitch.tv/vEnhance)
-  starting at 8pm Eastern time on Friday, January 19, 2024.
-  The video recording will be on YouTube later.
 -->
 
 ## {{ hl("past", "Past exams") }}
+
+Here is an [AoPS collection for all past threads](https://aops.com/community/c4180954).
+
+- 2025:
+  [(AIME I)](/exams/OTIS-Mock-AIME-2025-I.pdf)
+  [(AIME II)](/exams/OTIS-Mock-AIME-2025-II.pdf)
+  [(solutions)](/exams/sols-OTIS-Mock-AIME-2025.pdf)
+  [(thread)](https://aops.com/community/p33385624)
+  [(AoPS I)](https://aops.com/community/c4180955)
+  [(AoPS II)](https://aops.com/community/c4180956)
 
 - 2024:
   [(problems)](/exams/OTIS-Mock-AIME-2024.pdf)
