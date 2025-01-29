@@ -76,8 +76,19 @@ some excerpts from [Euler Circle][euler] which I agree with:
 
 Nonetheless, there are good research-based programs out there.
 Consider programs like
-[PRIMES](https://math.mit.edu/research/highschool/primes/index.php),
-Euler Circle itself, or finding a professor near you.
+[PRIMES](https://math.mit.edu/research/highschool/primes/index.php) and
+Euler Circle itself.[^prof]
+
+[^prof]:
+    Sometimes people advise emailing random professors.
+    I am bit more pessimistic about this.
+    It’s probably true that there _exist_ professors out there who are able
+    and excited to help mentor a research project,
+    but I suspect they would be pretty rare
+    (like less than one percent rare) and don’t know how I would find them.
+    Note also that professors at prestigious schools are also flooded with
+    emails from rando's who think they've proved Goldbach's conjecture
+    and probably don't want additional emails from strangers.
 
 With that said, if a high school student is interested in higher math,
 my personal recommendation is to also **learn new subjects**.
@@ -94,6 +105,9 @@ is likely to learn over their four years of university, and more.
 Each of these nodes has at least
 [as much theory as olympiad Euclidean geometry](textbooks/tr011ey.pdf)
 (and in many cases the comparison is off by an order of magnitude).
+Personally, I think it doesn't make sense to pursue research until you have
+at least completed abstract/linear algebra and real/complex analysis
+at the absolute bare minimum. (And really you want more than that.)
 
 Patiently learning foundational material is
 admittedly neither flashy nor attractive.
