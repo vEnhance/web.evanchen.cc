@@ -83,6 +83,7 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 
 ## {{ hl("misc", "Other resources") }}
 
+- [List of popular textbooks with difficulty ratings](https://aops.com/community/c5h3486769)
 - The "math circles" movement was developed as a model of math enrichment at all
   levels, originating in Eastern Europe before appearing in the United States.
   Some resources for organizers can be found at
