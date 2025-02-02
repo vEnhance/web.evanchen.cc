@@ -6,8 +6,8 @@ indent: 1
 
 ---
 
-Sometimes high school students ask me for reference letters.
-(Some of them even got in!)
+Sometimes students ask me for reference letters.
+(Some of them even got in to places!)
 So here are some details.
 Inspired by [Ravi Vakil](https://math.stanford.edu/~vakil/recommendations.html).
 
@@ -32,7 +32,7 @@ Here are a few reasons why:
 - I am not formally a teacher or professor,
   which may confuse any clueless admissions officers[^fancy].
 - Also, if I only worked with you at
-  [MOP](https://en.wikipedia.org/wiki/Mathematical_Olympiad_Program)
+  [MOP](https://web.evanchen.cc/mop.html)
   or [OTIS](otis.html), I may not have spent enough time
   with you in-person to "paint a picture"
   compared to a teacher at your school, so to speak.
@@ -88,15 +88,13 @@ If you do ask a letter for me, I need the following information.
    I have been doing this for so long that the years are all mixed
    up in my head, so I'd like to double-check!
    Also, if you're in OTIS, send a link to your dashboard.
-2. Give any recent math olympiad results,
-   like USAMO / TSTST / TST / IMO.
+2. Give any recent math olympiad results, like USAMO / TSTST / TST / IMO.
    (I may not use them, but I want to have them if I need them).
 3. **Is there anything in particular I should discuss?**
    In particular, how math-focused do you want me to be?
 4. Please **send me any application essays or completed forms**
    you are willing to share (drafts of essays are okay).
-   This way, I can tailor my letter to complement
-   what you've already written.
+   This way, I can tailor my letter to complement what you've already written.
 5. If I've written a letter for you in the past, please remind me about it.
 6. Please also specify which email you applied to the program with.
 7. Specify what "type" of letter I am writing, if applicable.
