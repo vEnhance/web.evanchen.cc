@@ -51,7 +51,7 @@ Updated for 2023-2024:
 ## {{ hl("excerpts", "The OTIS Excerpts") }}
 
 Around the start of 2019, I posted publicly a
-[collection of 192 problems and solutions](excerpts.html)
+[collection of 202 problems and solutions](excerpts.html)
 based on materials for OTIS.
 This mini-book was named _The OTIS Excerpts_.
 It's designed to mostly be beginner-friendly
