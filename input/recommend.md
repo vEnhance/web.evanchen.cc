@@ -109,6 +109,8 @@ See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
 - [Art and Craft of Problem-Solving][acops] by Paul Zeitz,
   introduction to math olympiads in general.
 
+- [An Exploration of Olympiad Combinatorics, by Rushil Mathur](https://www.rushilmathur.com/combinatorics-book).
+
 - [Olympiad Combinatorics, by Pranav A. Sriram](https://www.aops.com/community/c6h601134).
   The individual chapters are located in posts #1, #11, #49.
   This is an intermediate-advanced textbook.
