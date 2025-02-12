@@ -119,7 +119,7 @@ participation as students denoted in parentheses.
 - [Márton Borbényi][marton];
 - [Michael Ren][mren] (I-II)
 - [Noah Walsh][noah] (V-VI);
-- Rushil Mathur (VII-VIII)
+- [Rushil Mathur][rushil] (VII-VIII)
 
 </div>
 
@@ -172,6 +172,7 @@ Atul Nadig (VII);
 [ramgoel]: https://www.imo-official.org/participant_r.aspx?id=31808
 [reed]: https://www.linkedin.com/in/reed-lafleche-941481106/
 [rohan]: https://www.linkedin.com/in/rohan-goyal-a998aa155/
+[rushil]: https://www.imo-official.org/participant_r.aspx?id=34562
 [sanjana]: https://www.egmo.org/people/person1748/
 [sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
 [xinke]: https://xinkeguoxue.github.io/
