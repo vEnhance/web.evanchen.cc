@@ -70,7 +70,8 @@ here is Evan's tier list:
 [cpp]: https://en.wikipedia.org/wiki/C%2B%2B
 [java]: https://en.wikipedia.org/wiki/Java_(programming_language)
 
-Second-hand, I've also heard a lot of good things about [Go](https://go.dev/).
+Second-hand, I've also heard a lot of good things about [Go](https://go.dev/)
+and [Rust](https://www.rust-lang.org/).
 
 Sidenote: HTML and LaTeX are
 [markup languages](https://stackoverflow.com/a/145179),
