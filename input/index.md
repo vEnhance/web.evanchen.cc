@@ -14,21 +14,18 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 _信言不美，美言不信。_
 
 This is the homepage of Evan Chen (陳誼廷),
-known also as `vEnhance` on many websites.
-I completed my [math PhD at Mass Tech](https://math.mit.edu/directory/profile.html?pid=2106).
-My [thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf)
-was supervised by [Wei Zhang](https://math.mit.edu/~wz2113/).
-I am also a math olympiad [coach](otis.html),
-[volunteer](volunteer.html), and
-[YouTuber](https://www.youtube.com/c/vEnhance) on the side.
+also known by my screen name `vEnhance`.
+I completed my [number theory PhD thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf)
+at [Mass Tech](https://math.mit.edu) under
+[Wei Zhang](<https://en.wikipedia.org/wiki/Wei_Zhang_(mathematician)>).
 
-In the boring real world,
-my research interests are in number theory and combinatorics.
-You can [download my CV](upload/public-CV.pdf),
-see my [publications](publications.html)
+Here's [my CV](upload/public-CV.pdf),
+my [publications](publications.html)
 and [research](https://arxiv.org/a/chen_e_2.html),
-or [read my university transcript](upload/math-coursework.pdf).
+and [my university transcript](upload/math-coursework.pdf).
 Outside of math, I hate cooking.
+
+See my [now page](now.html) for what I've been thinking about recently.
 
 I am on [GitHub](https://github.com/vEnhance/),
 [Instagram](https://www.instagram.com/evanchen.cc/),
@@ -56,7 +53,7 @@ Taiwan TST Quiz 2015
 
 ## {{ hl("about", "About Evan") }}
 
-Evan is a math PhD student at MIT, and a math olympiad coach.
+Evan is a math olympiad coach who completed his number theory PhD at MIT.
 In addition to helping train the United States team,
 Evan runs his own [training program](otis.html) while
 [streaming olympiad math for public entertainment](videos.html).
