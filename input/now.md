@@ -48,9 +48,10 @@ I'm still living near MIT for now at the same place I've been since 2019.
 
 ## Future plans
 
-Career mostly TBD.
-I still plan to be at [MOP](mop.html) in June
-and [IMO](http://imo-official.org/) in July.
+Career mostly TBD, but for summer I plan to:
+
+- Work at [MOP](mop.html) in June, again as assistant director;
+- Attend [IMO 2025](http://imo-official.org/) as a coordinator.
 
 ## Recent checkpoints
 
