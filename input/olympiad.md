@@ -130,6 +130,10 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   A sardonically named handout that lists some silly names
   in olympiad geometry popular culture on the Internet.
 
+- <b>Olympiad GeoGuessr</b> [(link)](https://web.evanchen.cc/guessr/index.html) [(git)](https://github.com/vEnhance/oly-geoguessr) <br />
+  A simple online game where you can practice looking for collinear
+  or concyclic points in diagrams from real MO-style problems.
+
 - <b>The Incenter/Excenter Lemma</b> {{ handout_link_src("Fact5") }}
   A collection of problems which exhibit the
   first olympiad configuration I got to know well,
