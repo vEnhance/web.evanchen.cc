@@ -15,9 +15,9 @@ _信言不美，美言不信。_
 
 This is the homepage of Evan Chen (陳誼廷),
 also known by my screen name `vEnhance`.
-I completed my [number theory PhD thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf)
-at [Mass Tech](https://math.mit.edu) under
-[Wei Zhang](<https://en.wikipedia.org/wiki/Wei_Zhang_(mathematician)>).
+I recently finished my [number theory PhD at MIT](https://credentials.mit.edu/certificate/fb5dea8b0db8537293e2967b64e97777).
+My [thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf)
+was supervised by [Wei Zhang](https://w.wiki/DDok).
 
 Here's [my CV](upload/public-CV.pdf),
 my [publications](publications.html)
