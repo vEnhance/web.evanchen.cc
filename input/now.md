@@ -48,9 +48,10 @@ I'm still living near MIT for now at the same place I've been since 2019.
 
 ## Future plans
 
-Career mostly TBD, but for summer I plan to:
+Career mostly TBD, but for summer I'm looking to
 
 - Work at [MOP](mop.html) in June, again as assistant director;
+- Visit the [Duluth REU](https://sites.google.com/view/gallian-reu/home);
 - Attend [IMO 2025](http://imo-official.org/) as a coordinator.
 
 ## Recent checkpoints
