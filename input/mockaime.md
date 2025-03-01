@@ -45,6 +45,11 @@ The OTIS Mock AIME 2025 has concluded. You can download the problems below:
 - [Download OTIS 2025 Mock AIME II](/exams/OTIS-Mock-AIME-2025-II.pdf)
 - [Download solutions and results](/exams/sols-OTIS-Mock-AIME-2025.pdf)
 
+The 2024-2025 problems are also available as a
+[dataset on HuggingFace](https://huggingface.co/datasets/EpochAI/otis-mock-aime-24-25)
+for those of you interested in that kind of thing.
+See also [major AI models attempting the OTIS Mock AIME](https://epoch.ai/data/ai-benchmarking-dashboard).
+
 See you next year!
 
 <!--
