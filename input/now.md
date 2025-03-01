@@ -56,10 +56,11 @@ Career mostly TBD, but for summer I plan to:
 ## Recent checkpoints
 
 - In December 2024 I defended my
-  [thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf).
+  [thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf),
+  and in February 2025 I got my [diploma](https://credentials.mit.edu/certificate/fb5dea8b0db8537293e2967b64e97777).
   But I'm not planning to continue in academia.
 
 - In January 2025 I finished a [multivariable calculus textbook](1802.html)
   that I wrote primarily during the fall of 2024,
   when I was teaching a recitation section.
-  It's supposed to go up on MIT OpenCourseWare soon.
+  That book is now on [MIT OpenCourseWare](https://ocw.mit.edu/courses/res-18-016-multivariable-calculus-recitation-notes-fall-2024/).
