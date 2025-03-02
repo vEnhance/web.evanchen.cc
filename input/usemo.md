@@ -94,9 +94,6 @@ The list below is sorted alphabetically by first name (not by place).
 
 # {{ hl("volunteer", "Volunteer") }}
 
-Volunteering is open to anyone who is not themselves eligible to compete.
-The two biggest things we can use help with are:
-
 - **Grading**: this is by far the main bottleneck.
   If you have any capability to read through some submissions, please help!
   While you need experience reading mathematical proofs
@@ -105,13 +102,12 @@ The two biggest things we can use help with are:
   You can read [more info about the grading here][grading-info];
   see also the [advice for problem captains][captain].
   <br>
-  To sign up for grading,
-  [fill out this 2024 form](https://forms.gle/d3JM3x8obCwQVdTn6).
+  Signups for 2025 grading will be posted later.
 
-- **Problem proposals**: we welcome proposals for problems
-  from anyone who is not eligible for the contest.
+- **Problem proposals**: we welcome proposals from anyone, although preference
+  is given to proposals from those who have completed high school.
   See the [problem proposal guidelines][propose].
-  For USEMO 2024, the deadline for submissions is **10 May 2024**.
+  For USEMO 2025, the deadline for submissions is **10 May 2025**.
 
 Please contact the directors for further details on these,
 or if you have other ideas on how you could help out.
