@@ -18,8 +18,6 @@ OTIS is a proof-based olympiad training program.
 
 ## {{ hl("syllabus", "Syllabus") }}
 
-Updated for 2023-2024:
-
 <div markdown="1" style="text-align: center;">
 [🗎 <b>DOWNLOAD SYLLABUS</b>](upload/otis-syllabus.pdf)
 </div>
