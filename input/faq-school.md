@@ -339,9 +339,9 @@ up actually attending.)
   zero interest in going into academia, because in some cases they'd nearly get
   the major by accident while taking the math classes that sound cool.
 
-- Broadly, your choice of major matters much less for career options than many
-  people believe in the United States after you graduate. (Like, my brother was
-  an English major, and then later switched into a job in software programming.)
+- Broadly, in the United States, your choice of major matters much less for
+  career options than many people believe. (Like, my brother was an English
+  major, and then later switched into a job in software programming.)
 
 ### {{ faq("S-13", "Any advice for math PhD admissions?") }}
 
