@@ -58,8 +58,10 @@ Career mostly TBD, but for summer I'm looking to
 
 - In December 2024 I defended my
   [thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf),
-  and in February 2025 I got my [diploma](https://credentials.mit.edu/certificate/fb5dea8b0db8537293e2967b64e97777).
-  But I'm not planning to continue in academia.
+  and in February 2025 I finally received my
+  [diploma](https://credentials.mit.edu/certificate/fb5dea8b0db8537293e2967b64e97777).
+  (It went to the spam folder in my email, which is hilarious.)
+  Right now I'm not planning to continue in academia.
 
 - In January 2025 I finished a [multivariable calculus textbook](1802.html)
   that I wrote primarily during the fall of 2024,
