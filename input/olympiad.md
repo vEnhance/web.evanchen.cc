@@ -97,8 +97,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 - <b>Expected Uses of Probability</b> {{ handout_link_src("ProbabilisticMethod") }}
   Inspired by Po-Shen Loh's talk at the 55th IMO 2014 on Problem 6.
   Talks about expected value and the probabilistic method.
-  This article was included in
-  [Mathematical Reflections, Issue 6 of 2014](https://www.awesomemath.org/wp-pdf-files/math-reflections/mr-2014-06/probabilistic.pdf).
+  (This article also appeared in Mathematical Reflections, Issue 6 of 2014.)
 
 ## {{ hl("geo", "Geometry (Slytherin)") }}
 
