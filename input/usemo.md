@@ -13,11 +13,11 @@ description: Landing page for the USEMO
 </span>
 
 The **US Ersatz Math Olympiad** is a proof-based
-competition open to all US middle and high school students.
+competition open to all middle and high school students.
 Like many competitions, its goals are to
 develop interest and ability in mathematics (rather than measure it).
-However, it is one of few
-proof-based contests **open to all US middle and high school students**.
+However, it is one of few proof-based contests
+**open to all middle and high school students**.
 
 The USEMO is hosted on the [Art of Problem-Solving website][aops-usemo].
 This contest is _not_ sponsored by the Math Association of America
