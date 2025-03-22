@@ -27,7 +27,9 @@ then print an [encoding sheet][codes] and try some of the easy hunts below.
   (Small quibble: _Alter Rivals_ actually took me a while to get.)
   You'll probably also want a copy of
   [a code reference sheet][codes] with you.
-- Nice beginner hunts to try out:
+- If you're new and want to try out a hunt for the first time, I recommend
+  [MIT Aquarium Puzzle Hunt 2021](https://puzzles.mit.edu/aquarium/2021/).
+- Other nice beginner hunts to try out:
   - [Zelda minihunt](https://deusovi.github.io/puzzlefiles/zelda-minihunt.pdf),
     3 feeder puzzles and one metapuzzle.
   - [Brian Chen's Splash 2016 hunt](https://blog.vero.site/pdf/intro-puzzles.pdf),
