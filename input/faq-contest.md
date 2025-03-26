@@ -675,7 +675,7 @@ but it ends up making them more nervous, hence net harmful to their score.)
 [c15link]: https://aops.com/community/p18587427
 [ebook]: https://www.maa.org/ebooks/EGMO/
 [generic]: https://blog.evanchen.cc/2023/10/03/yet-another-reason-i-dont-give-much-generic-advice/
-[geoff]: https://people.bath.ac.uk/masgcs/geo.pdf
+[geoff]: https://web.archive.org/web/20250124090959/https://people.bath.ac.uk/masgcs/advice.html
 [geombook]: geombook.html
 [howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [mistakes]: https://www.artofproblemsolving.com/articles/stupid-mistakes
