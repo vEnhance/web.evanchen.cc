@@ -75,7 +75,7 @@ label("$
     \begin{array}{cccccccc}
       L_8 & L_7 & L_6 & L_5 & L_4 & L_3 & L_2 & L_1 \\\\
       \mathsf{N} & \mathsf{S} & \mathsf{S} & \mathsf{S} &
-      \mathsf{N} & \mathsf{N} & \mathsf{S} & \mathsf{N} \\\\
+      \mathsf{N} & \mathsf{N} & \mathsf{S} & \mathsf{S} \\\\
       \mathsf{E} & \mathsf{E} & \mathsf{W} & \mathsf{E} &
       \mathsf{E} & \mathsf{E} & \mathsf{W} & \mathsf{E} \\\\
     \end{array}
