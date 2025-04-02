@@ -83,7 +83,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   English translation of my original notes in Chinese.
   Describes some "standard strategies" for handling olympiad inequalities. <br>
   Original Chinese version: {{ handout_link_src("Ineq") }}
-  An updated version appears as Chapter 3 of [OTIS Excerpts][excerpts].
+  An updated version appears as Chapter 2 of [OTIS Excerpts][excerpts].
 
 - <b>SOS: A Dumbass's Perspective</b> {{ handout_link_src("SOS-Dumbass") }}
   Describes the SOS method for solving inequalities.
