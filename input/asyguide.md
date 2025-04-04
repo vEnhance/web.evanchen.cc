@@ -46,7 +46,7 @@ First, if you haven't already, make sure you know everything in
 the [File systems beginner page](https://web.evanchen.cc/filesys.html).
 If you don't understand how files work, this page will not make much sense.
 
-You should have a working local LaTeX installation working,
+You should have a working local LaTeX installation,
 as described in [LaTeX FAQ](faq-latex.html).
 (Overleaf is _not_ sufficient for this tutorial;
 see [FAQ L-2](faq-latex.html#L-2a) for why.)
