@@ -125,6 +125,14 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 - [4D Geo](https://puzzles.mit.edu/2023/puzzlefactory.place//puzzles/4d-geo), with Austin Lei, Moor Xu, and Nathan Wong
 - [Flooded Caves](https://puzzles.mit.edu/2023/puzzlefactory.place//puzzles/flooded-caves), with Alex Gotsis and Cameron Montag
 
+### {{ hl("tph2025", "Teammate Hunt 2025") }}
+
+- [Black or White](https://2025.teammatehunt.com/puzzles/black-or-white)
+- [Black or White or Moon or Sun](https://2025.teammatehunt.com/puzzles/black-or-white-or-moon-or-sun)
+- [Digits](https://2025.teammatehunt.com/puzzles/digits)
+- [Behold a Puzzle](https://2025.teammatehunt.com/puzzles/behold-a-puzzle), with Kaity Du and Sebastian Cordova
+- The sequence of six [Tetrogram](https://2025.teammatehunt.com/puzzles/tetrogram) puzzles, with Olga Vinogradova
+
 ### {{ hl("mop", "MOP Mini-events") }}
 
 - [MOP 2021 puzzle hunt](https://mosp.evanchen.cc),
