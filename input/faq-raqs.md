@@ -257,11 +257,40 @@ Conversely, these are also the heuristics I use when _giving_ advice.
 
 ### {{ faq("R-11", "Any advice for writing?") }}
 
-Yeah, [write like you talk](https://paulgraham.com/talk.html).
+Yeah, [write like you talk][talk].
 
 Obviously there's much more to writing too, but so few people pass this
 basic standard that I feel saying anything more would be premature.
 
+### {{ faq("R-12", "I want to write a technical textbook in an area I know well. What advice do you have?") }}
+
+A few pointers:
+
+1. [Write like you talk][talk].
+2. For technical subjects, [write naturally][s1].
+   It's not enough to be technically correct.
+   I like the following image from [Math With Bad Drawings][math-with-bad-draw]
+   (click to enlarge):
+
+   <a href="/static/int-rigor.jpg"><img src="/static/int-rigor.jpg" width="400"
+   alt="A good mathematician can make arguments intuitive OR rigorous. A good mathematician can make arguments intuitive AND rigorous. (Credits: Math With Bad Drawings.)"
+   /></a>
+
+3. Get the proofreading and copy-editing right.
+   If you're not a native English speaker, get a friend or editor to help you.
+   And get many eyes to fix errors or ambiguities.
+   [This is not something I did well for EGMO](https://web.evanchen.cc/textbooks/geombook-errata.pdf).
+
+4. Get the formatting right.
+   If you're using LaTeX, learn how to do things right.
+   (If you're the kind of person that uses Overleaf and `\\ \textbf{Theorem 1:}`,
+   then, well, you have a lot to learn.)
+
+I also have a blog post on
+[some thoughts from when I wrote EGMO and more][thoughts]
+that might be relevant to problem-solving texts.
+
+[talk]: https://paulgraham.com/talk.html
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
@@ -269,3 +298,6 @@ basic standard that I feel saying anything more would be premature.
 [procrastinate]: https://paulgraham.com/procrastination.html
 [lessons]: https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/
 [laser]: https://xkcd.com/382/
+[thoughts]: https://blog.evanchen.cc/2017/04/08/on-designing-olympiad-training/
+[s1]: https://blog.evanchen.cc/2019/10/26/understanding-with-system-1/
+[math-with-bad-draw]: https://mathwithbaddrawings.com/2015/12/16/good-mathematician-vs-great-mathematician/
