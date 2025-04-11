@@ -649,7 +649,7 @@ Examples of things that get thrown into the massive umbrella "algebra" include:
 - Algebra problems that got tossed into the number theory list because they
   happened to use the word "integer".
 
-So if you are one of the countless students who has written to me the question
+So if you are one of the countless students who has asked me
 "how do I get better at olympiad algebra",
 **the first step to enlightenment is realizing there's no such thing**.
 I'd say it's better to instead focus on a particular sub-skill
@@ -664,10 +664,38 @@ Wind down.
 In general, usually it’s more important to be rested (e.g. sleeping enough)
 and have a clear head in the last few weeks leading up to the contest,
 rather than trying to do additional math practice.
-Math olympiads are meant to be a year-round studying.
+Math olympiads studying should be year-round.
 
 (I know some past students who try to increase intensity in the last week,
 but it ends up making them more nervous, hence net harmful to their score.)
+
+### {{ faq("C-27", "Is it bad if I spend lots of time on practice problems and don't solve them?") }}
+
+This is actually the same answer as [C-12](#C-12).
+If you're sitting there for hours drawing a blank, then you should give up.
+But if you're fighting for hours because you have an idea you're invested in,
+then that seems fine to me.
+
+Remember, your goal in practice is to maximize the number of experience points you gain.
+It's not to solve an old problem in the shortest time possible.
+That's what the actual contest is for.
+
+That means I don't think there is anything wrong with fully
+trying out ideas during practice even if they don't eventually work.
+You don't want to do that during a timed exam.
+But in practice, your goal is learning.
+So trying to push your method until you understand why it ultimately
+fails is a good experience, not a sign of weakness.
+You want to learn this while the timer is off, not when the timer is on.
+
+To give an example, sometime in early 2025 I spent four hours
+trying to repair a solution a student had sent me to [IMO 2004/5](https://aops.com/community/p34115726).
+The student's solution was wrong,
+and I already had a correct solution I had written 10 years ago.
+But the student had a certain idea of eliminating $P$
+and using only angle chasing that piqued my interest.
+So I spent a long time to see what happened when I fixed the mistake,
+and I think I learned a lot from that process.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
