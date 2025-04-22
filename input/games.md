@@ -98,6 +98,9 @@ These games are much more plot-heavy
 For these games, I suggest playing without
 looking much up beforehand (to avoid spoilers).
 
+- [<b>Paper Mario: The Thousand-Year Door</b>](https://w.wiki/kZS)<br>
+  It's such a charming RPG. It's so good. Trust me.
+
 - [<b>Doki Doki Literature Club</b>](https://ddlc.moe/)<br>
   Free-to-play visual novel game for PC/Mac/Linux.
   Appears as a dating simulator in which you write poetry with four girls.
