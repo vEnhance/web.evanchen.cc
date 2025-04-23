@@ -273,7 +273,7 @@ A few pointers:
    (click to enlarge):
 
    <a href="/static/int-rigor.jpg"><img src="/static/int-rigor.jpg" width="400"
-   alt="A good mathematician can make arguments intuitive OR rigorous. A good mathematician can make arguments intuitive AND rigorous. (Credits: Math With Bad Drawings.)"
+   alt="A good mathematician can make arguments intuitive OR rigorous. A great mathematician can make arguments intuitive AND rigorous. (Credits: Math With Bad Drawings.)"
    /></a>
 
 3. Get the proofreading and copy-editing right.
