@@ -95,10 +95,11 @@ with more detailed solving advice.
 
 ## {{ hl("writing", "Thoughts on puzzle-writing") }}
 
-Two blog posts of mine:
+A few blog posts of mine:
 
-- [Some general comments](https://blog.evanchen.cc/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
+- [General puzzle-writing thoughts](https://blog.evanchen.cc/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
 - [Long stories for Mystery Hunt 2021](https://blog.evanchen.cc/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
+- [Long stories for Teammate Hunt 2025](https://blog.evanchen.cc/2025/04/23/teammate-hunt-2025-author-notes/)
 
 ## {{ hl("own", "A list of Evan's puzzles") }}
 
