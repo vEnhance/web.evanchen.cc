@@ -168,7 +168,7 @@ the selection process for the USA IMO team.
 - Because of the pandemic, there was no USA Winter TST for IMO 2022.
 - USA Winter TST 2023 [(probs)](exams/IMO-2023-TST.pdf) [(sols)](exams/sols-TST-IMO-2023.pdf) [(TeX)](exams/sols-TST-IMO-2023.tex) [(stats)](exams/stats-TST-IMO-2023.pdf)
 - USA Winter TST 2024 [(probs)](exams/IMO-2024-TST.pdf) [(sols)](exams/sols-TST-IMO-2024.pdf) [(TeX)](exams/sols-TST-IMO-2024.tex) [(stats)](exams/stats-TST-IMO-2024.pdf)
-- USA Winter TST 2025 [(probs)](exams/IMO-2025-TST.pdf) [(sols)](exams/sols-TST-IMO-2025.pdf)
+- USA Winter TST 2025 [(probs)](exams/IMO-2025-TST.pdf) [(sols)](exams/sols-TST-IMO-2025.pdf) [(stats)](exams/stats-TST-IMO-2025.pdf)
 
 # Other contests
 
