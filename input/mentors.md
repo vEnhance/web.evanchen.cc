@@ -85,6 +85,17 @@ or (less preferably) email me.
 - Tutorlyte is a tutoring program focused on helping students
   with difficult competition and school curriculum.
 
+## {{ hl("mixedmathematicsacademy", "MixedMathematicsAcademy") }}
+- Contact: [support@mmamathematics.com] $\text{support}@\text{mmamathematics}.\text{com}$
+- Website: [mmamathematics.com] (https://www.mmamathematics.com/)
+- 1:1 instruction
+- At MMA Math, experienced tutors, who have excelled in both teaching and competition,
+  have come together to create a place where students can thrive. Our approach, shaped
+  by years of firsthand experience, has already helped young minds worldwide, from top
+  students in elite schools to those overcoming challenges in math. This proven method
+  has guided International Mathematical Olympiad medalists, national and regional contest
+   winners, top SAT scorers, and students striving for excellence in their school exams
+
 # {{ hl("individuals", "Individuals") }}
 
 ## {{ hl("alex", "Alex Villaro Krüger") }}
