@@ -61,6 +61,7 @@ or (less preferably) email me.
   Occasionally mock exams and problem-solving sessions are being held.
 
 ## {{ hl("mixedmathematicsacademy", "MixedMathematicsAcademy") }}
+
 - Contact: [support@mmamathematics.com] $\text{support}@\text{mmamathematics}.\text{com}$
 - Website: [mmamathematics.com] (https://www.mmamathematics.com/)
 - 1:1 instruction
@@ -70,7 +71,7 @@ or (less preferably) email me.
   students in elite schools to those overcoming challenges in math. This proven method
   has guided International Mathematical Olympiad medalists, national and regional contest
   winners, top SAT scorers, and students striving for excellence in their school exams.
-  
+
 ## {{ hl("pleiades", "Pleaides") }}
 
 - Primary contact: [Ram Goel](https://www.imo-official.org/participant_r.aspx?id=31808)
