@@ -94,7 +94,7 @@ or (less preferably) email me.
   by years of firsthand experience, has already helped young minds worldwide, from top
   students in elite schools to those overcoming challenges in math. This proven method
   has guided International Mathematical Olympiad medalists, national and regional contest
-   winners, top SAT scorers, and students striving for excellence in their school exams
+  winners, top SAT scorers, and students striving for excellence in their school exams.
 
 # {{ hl("individuals", "Individuals") }}
 
