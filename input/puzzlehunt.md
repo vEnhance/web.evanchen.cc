@@ -113,7 +113,7 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 - [A Bit of Light](https://puzzles.mit.edu/2021/puzzle/a-bit-of-light/)
 - [Le chiffre indéchiffrable](https://puzzles.mit.edu/2021/puzzle/le-chiffre-ind%C3%A9chiffrable/)
 - [Clueless](https://puzzles.mit.edu/2021/puzzle/clueless/)
-- [Divided Is Us](https://puzzles.mit.edu/2021/puzzle/divided-is-us/), with Jakob Weisblat
+- [Divided Is Us](https://puzzles.mit.edu/2021/puzzle/divided-is-us/), with Azalea Weisblat
 - [Escape From Life](https://puzzles.mit.edu/2021/puzzle/escape-from-life/)
 - [The IMO Shortlist](https://puzzles.mit.edu/2021/puzzle/the-imo-shortlist/)
 
