@@ -17,13 +17,14 @@ It's similar in spirit to the [MOPper world](http://moppers.kaseorg.com/)
 that ran between 1997 and 2004.
 This page isn't a puzzle.
 
-Between 2015 and 2024, MOP was held at [Carnegie Mellon](https://cmu.edu)
+The 2025 MOP is hosted by [IMSA](https://imsa.edu).
+Between 2015 and 2024, MOP was at [Carnegie Mellon](https://cmu.edu)
 under [Po-Shen Loh](https://www.poshenloh.com/),
 besides 2020 and 2021 when the camp was run on Discord due to COVID-19.
-Prior to 2015, the camp was held in [Nebraska](https://unl.edu).
+Prior to 2015, the camp was in [University of Nebraska-Lincoln](https://unl.edu).
 
 See [FAQ CR-7](https://web.evanchen.cc/faq-rules.html#CR-7)
-for invitation rules.
+for approximate invitation criteria.
 
 I am currently the assistant academic director of MOP.
 (There is no academic director or assistant director.)
