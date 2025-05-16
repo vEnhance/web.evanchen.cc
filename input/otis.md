@@ -63,17 +63,12 @@ though some of the chapters are more challenging.
 
 ---
 
-# {{ hl("apply", "Application &mdash; Year X (2024-2025)") }}
+# {{ hl("apply", "Application &mdash; Year XI (2025-2026)") }}
 
-You may send standard applications for OTIS 2024-2025 up to **August 1, 2024**.
-Late applications are open for OTIS 2024-2025 up to **April 30, 2025**.
-(Late applications are rolling/immediate; you can join as soon
-I process your application.)
-See the instructions below.
-
-- [Application instructions and homework for fall 2024](upload/otis-app-x.pdf)
-- Applications should be emailed. Check the instructions above.
-- [Financial aid request URL for fall 2024](https://forms.gle/R9GTEN5p9TLTV5AKA)
+The application for 2025-2026 will be posted sometime in May/June 2025
+and be due August 1, 2025. The homework problems will be the same as
+[last year](upload/otis-app-x.pdf), so if you are sure you will apply
+you can look at the 2024-2025 application to get started.
 
 ## {{ hl("prereq", "Who can apply (aka, everyone)") }}
 
