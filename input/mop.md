@@ -69,6 +69,7 @@ and the back contains everyone's signature.
 
 <div class="chooser list-chooser" markdown="block">
 
+- [2024](static/mop/mockimo/2024.pdf)
 - [2023](static/mop/mockimo/2023.pdf)
 - [2022](static/mop/mockimo/2022.pdf)
 - [2021](static/mop/mockimo/2021.pdf)
@@ -86,6 +87,7 @@ and the back contains everyone's signature.
 
 <div class="chooser list-chooser" markdown="block">
 
+- [2025](static/mop/homework/MOP2025HW.pdf)
 - [2024](static/mop/homework/MOP2024HW.pdf)
 - [2023](static/mop/homework/MOP2023HW.pdf)
 - [2022](static/mop/homework/MOP2022HW.pdf)
