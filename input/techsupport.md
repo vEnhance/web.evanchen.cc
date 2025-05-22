@@ -73,10 +73,9 @@ here is Evan's tier list:
 Second-hand, I've also heard a lot of good things about [Go](https://go.dev/)
 and [Rust](https://www.rust-lang.org/).
 
-Sidenote: HTML and LaTeX are
+Sidenote: HTML+CSS and LaTeX are
 [markup languages](https://stackoverflow.com/a/145179),
-and not programming languages in practice.
-CSS is not a programming language either for similar reasons.[^pedant]
+and not programming languages in practice.[^pedant]
 
 [^pedant]:
     Pedants may argue they are _technically_ Turing-complete
