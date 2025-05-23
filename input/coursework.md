@@ -20,10 +20,8 @@ even including the ones which I do not have notes for.
 
 ## {{ hl("mit", "Massachusetts Institute of Technology") }}
 
-- <b>(18.02) Multivariable calculus</b>
-  [(pdf, work-in-progress)](/textbooks/lamv.pdf)
-  [(GitHub)](https://github.com/vEnhance/1802)
-  <br>
+- <b>(18.02) Multivariable calculus book (LAMV)</b>
+  [(pdf)](/textbooks/lamv.pdf) [(GitHub)](https://github.com/vEnhance/1802) <br>
   Here I was a recitation leader rather than a student,
   so this one actually looks more like a book.
   If you're actually in my section,
