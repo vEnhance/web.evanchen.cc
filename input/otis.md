@@ -65,10 +65,11 @@ though some of the chapters are more challenging.
 
 # {{ hl("apply", "Application &mdash; Year XI (2025-2026)") }}
 
-The application for 2025-2026 will be posted sometime in May/June 2025
-and be due August 1, 2025. The homework problems will be the same as
-[last year](upload/otis-app-x.pdf), so if you are sure you will apply
-you can look at the 2024-2025 application to get started.
+The application for 2025-2026 is available now and is due August 1, 2025.
+
+- [Application homework and instructions](upload/otis-app-xi.pdf)
+- [Submission form](https://forms.gle/yDnoCMzkA15NNbT5A)
+- [Financial aid request form](https://forms.gle/JKoGbiSPFDqmoJDc8)
 
 ## {{ hl("prereq", "Who can apply (aka, everyone)") }}
 
