@@ -62,8 +62,8 @@ or (less preferably) email me.
 
 ## {{ hl("mixedmathematicsacademy", "MixedMathematicsAcademy") }}
 
-- Contact: [support@mmamathematics.com] $\text{support}@\text{mmamathematics}.\text{com}$
-- Website: [mmamathematics.com] (https://www.mmamathematics.com/)
+- Contact: $\text{support}@\text{mmamathematics}.\text{com}$
+- Website: [mmamathematics.com](https://www.mmamathematics.com/)
 - 1:1 instruction
 - At MMA Math, experienced tutors, who have excelled in both teaching and competition,
   have come together to create a place where students can thrive. Our approach, shaped
