@@ -10,7 +10,7 @@ description: Synopsis of my teaching for olympiad contestants.
   alt="Calvin and Hobbes comic from Sept 21, 1992." />
 </a>
 
-OTIS is a proof-based olympiad training program.
+OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 (Students not yet ready for proofs may be interested in
 [my list of mentors and programs](mentors.html).)
 
