@@ -156,7 +156,7 @@ Pretty similar to reasons I use Linux.
 - It is programmable. If you want to, say,
   toggle the case of the first character of the next 100 lines,
   you type `qa~j^q99@a`. You don't need any external program.
-- Most importantly, it is a [modal editor](https://en.wikipedia.org/wiki/Vi_(text_editor)#Interface).
+- Most importantly, it is a [modal editor](<https://en.wikipedia.org/wiki/Vi_(text_editor)#Interface>).
 
 The last item is the most important one for me,
 and also the one that will be most foreign to newcomers.
