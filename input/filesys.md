@@ -73,7 +73,7 @@ A **file** is a piece of data; officially, a sequence of characters.
 The characters are officially 0's and 1's,
 but most often they're grouped into sets of eight bits called "bytes"
 that map onto a set of printable characters
-(01100001=97=A, 98=B, ...).
+(01000001=65=`A`, 66=`B`, ...).
 Files are stored in folders.
 
 ### {{ hl("plaintext", "Plain text files") }}
