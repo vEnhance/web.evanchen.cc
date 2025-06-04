@@ -291,7 +291,7 @@ But there are some catches.
 3. Vim does its thing.
 
 The argument can be a filename in the current directory, or a path to one.
-So for example, `vim secretbox/gossip.tex` is equivalent to
+So for example, `vim secretbox/gossip.tex` opens the same file as
 `cd secretbox/` followed by `vim gossip.tex`.
 
 The spaces and the order matters.
