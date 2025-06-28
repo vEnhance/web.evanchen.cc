@@ -1,6 +1,6 @@
 title: Course notes
 header: Mathematics Coursework and Lecture Notes
-menu-position: 73
+menu-position: 75
 indent: 1
 description: Lecture notes from math classes I have taken at Harvard, MIT, etc. over the years.
 
