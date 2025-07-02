@@ -237,7 +237,7 @@ by writing what looks like pseudocode that magically transpiles to Asymptote.
 [14:30 of this video](https://youtu.be/wMdc6hUhhaA?si=TdIrURf-ZnIDi2Bg&t=870).)
 
 The way this is done is that CJ Quines and I wrote a
-[Asymptote preprocessor](https://github.com/cjquines/tsqx)
+[Asymptote preprocessor](https://github.com/vEnhance/tsqx)
 where you can write something like
 
 ```text
@@ -252,7 +252,7 @@ A--D
 B--F' / dashed blue
 ```
 
-to get [this figure](https://github.com/cjquines/tsqx)!
+to get [this figure](https://github.com/vEnhance/tsqx)!
 It's a Python script, so this will only be useful to you if you know
 how to run a Python script.
 
