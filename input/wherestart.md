@@ -179,7 +179,6 @@ Some possible suggestions for introductory books:
 
 - The [OTIS Excerpts](excerpts.html) has beginner introductions
   for several topics:
-
   - Inequalities (chapters 1-2)
   - Functional equations (chapters 3-4)
   - Combinatorics (chapters 6-9)

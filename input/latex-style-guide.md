@@ -51,7 +51,6 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 
 5. Grammatical commas and grammatical periods MUST NOT appear in inline math.
    For example:
-
    - `Thus $x=3.$` is not acceptable and MUST be typeset as `Thus $x=3$.`
      instead.
    - `$a,b,$ and $c$` is not acceptable

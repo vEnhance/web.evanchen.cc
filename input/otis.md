@@ -29,7 +29,6 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 - [Video tour of website](https://youtu.be/VCSmRQtwOwo)
 - [List of topics][unitlist] (now featuring artwork)
 - Example materials from each of the three difficulty tracks:
-
   - B-level track [handout][sample-bcw] (easiest track)
   - D-level track [handout][sample-dny] and [solutions][sample-dnysol]
   - Z-level track [handout][sample-zgx] (hardest track)

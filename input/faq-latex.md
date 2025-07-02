@@ -108,7 +108,6 @@ There are two ways you can do this:
    Depending on your system, you may also have to update package database.
 
    Some possible hints:
-
    - [List of "default" directories on various systems](https://tex.stackexchange.com/a/1167/76888)
    - [Instructions for TeX Live](https://tex.stackexchange.com/a/1138/76888)
    - Once you know where `TEXMFHOME` is, place under
@@ -175,7 +174,6 @@ You can also look at [Napkin source code](https://github.com/vEnhance/napkin/).
 ### {{ faq("L-10", "Which LaTeX distribution do you recommend?") }}
 
 - Windows:
-
   - [MikTeX](https://miktex.org/) is most common for Windows,
     but suffers from a number of issues like shipping outdated components
     leading to, e.g. [Asymptote issue](https://tex.stackexchange.com/q/663245/76888).

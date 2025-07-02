@@ -16,7 +16,6 @@ I'm still living near MIT for now at the same place I've been since 2019.
 ## Things I'm doing
 
 - I'm still running [OTIS](otis.html), 10 years later.
-
   - In February and March 2025, I'm probably going to be spending
     some time catching up on some OTIS-related maintenance
     that I shelved while I was working on my thesis and 18.02 book.
@@ -31,7 +30,6 @@ I'm still living near MIT for now at the same place I've been since 2019.
     and I don't want it to be the only pathway to math in the USA.
 
 - I'm still building a lot of puzzle hunts:
-
   - I've been helping put together the
     [2025 Teammate Hunt](https://teammatehunt.com),
     that will launch at the end of March 2025.
