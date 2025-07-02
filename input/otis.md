@@ -91,36 +91,32 @@ See the application PDF for more details.
 
 # {{ hl("people", "People") }}
 
-## {{ hl("staff", "Staff") }}
+Currently [Evan Chen](https://web.evanchen.cc) (Game Master)
+is the only employee.
 
-Staff who were themselves alum's have their years of
-participation as students denoted in parentheses.
+## {{ hl("photos", "Photos") }}
 
-<div class="row" markdown="1">
-<div class="col-7" markdown="1">
+<img src="static/otis-imo-2018.png" width="400" alt="OTIS x IMO 2018 gathering" />
+<img src="static/otis-imo-2019.jpg" width="400" alt="OTIS x IMO 2019 gathering" />
 
-### Game master
+## Authorized third-party instructors
 
-- [Evan Chen](https://web.evanchen.cc), director
+Generally, OTIS is internal use only.
+In some cases (usually only by invitation for people I know)
+I permit some private third-party instructors to borrow the OTIS platform
+for their own use.
+A list of instructors who have done this at least once before
+(parentheses indicated years as a _student_ in the program):
 
-### Instructors
-
-- [Adhitya Mangudy][adhitya]
-- [Archit Manas][archit] (VII-VIII)
-- Galin Totev
-- [Jeffrey Kwan][jkwan] (IV-V)
-- [Kanav Talwar][kanav] (IX)
-- [Márton Borbényi][marton];
-- [Michael Ren][mren] (I-II)
-- [Noah Walsh][noah] (V-VI);
-- [Rushil Mathur][rushil] (VII-VIII)
-
-</div>
-
-<div class="col-5" markdown="1">
-
-### Past staff
-
+[Adhitya Mangudy][adhitya];
+[Archit Manas][archit] (VII-VIII);
+Galin Totev;
+[Jeffrey Kwan][jkwan] (IV-V);
+[Kanav Talwar][kanav] (IX);
+[Márton Borbényi][marton];
+[Michael Ren][mren] (I-II);
+[Noah Walsh][noah] (V-VI);
+[Rushil Mathur][rushil] (VII-VIII);
 [Anant Mudgal][anant] (III);
 [Ankan Bhattacharya][ankan];
 [Anushka Aggarwal][anushka] (V);
@@ -138,15 +134,7 @@ Atul Nadig (VII);
 [Sanjana Das][sanjana] (VI);
 [Xinke Guo-Xue][xinke];
 [Zack Chroman][zack] (II-III);
-[Zoltan Gyenes][zoltan]
-
-</div>
-</div>
-
-## {{ hl("photos", "Photos") }}
-
-<img src="static/otis-imo-2018.png" width="400" alt="OTIS x IMO 2018 gathering" />
-<img src="static/otis-imo-2019.jpg" width="400" alt="OTIS x IMO 2019 gathering" />
+[Zoltan Gyenes][zoltan].
 
 [adhitya]: https://www.imo-official.org/participant_r.aspx?id=31724
 [anant]: https://www.imo-official.org/participant_r.aspx?id=25764
