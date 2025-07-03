@@ -47,7 +47,6 @@ with open("static/sidebar.html") as f:
 
 with open("index.html", "w") as f:
     print(index_html, file=f)
-
 # }}}
 
 
@@ -190,6 +189,8 @@ class ELMOYear:
 
 # Statistics
 def stat_avg(S):
+    if len(S) == 0:
+        return 0
     return sum(S) / float(len(S))
 
 
@@ -584,16 +585,17 @@ for year in ELMO:
         print("</table>", file=f)
 
         N = len(year.students)
-        print("<h4>Overall Statistics</h4>", file=f)
-        print("<ul>", file=f)
-        print(
-            f"<li><b>{stat_avg([student.score for student in year.students]):.2f}</b> was the average score</li>",
-            file=f,
-        )
-        print(
-            f"<li><b>{year.students[int(N / 2)].score}</b> was the median score</li>",
-            file=f,
-        )
+        if N > 0:
+            print("<h4>Overall Statistics</h4>", file=f)
+            print("<ul>", file=f)
+            print(
+                f"<li><b>{stat_avg([student.score for student in year.students]):.2f}</b> was the average score</li>",
+                file=f,
+            )
+            print(
+                f"<li><b>{year.students[int(N / 2)].score}</b> was the median score</li>",
+                file=f,
+            )
         for medal, thresh in year.cutoffs.items():
             print(f"<li><b>{thresh}</b> points for {medal}</li>", file=f)
         print("</ul>", file=f)
