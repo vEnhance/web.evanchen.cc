@@ -221,7 +221,6 @@ Here are some particular contests I like (alphabetical):
 - [Canada national olympiad](https://cms.math.ca/Competitions/CMO/)
 - [European Girls Math Olympiad](https://www.egmo.org/egmos/)
 - [IMO and IMO Shortlist](https://www.imo-official.org/problems.aspx)
-- [NICE](https://www.nicecontest.xyz), open to anyone
 - [USA Team Selection Tests](problems.html)
 
 The bottom of the [recommendations page](recommend.html)
