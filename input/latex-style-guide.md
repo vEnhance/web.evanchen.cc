@@ -80,6 +80,9 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 
 10. For single-line display math, double dollar signs MUST NOT ever be used;
     the use of `\[ ... \]` instead is REQUIRED.
+    Double-dollar signs have been deprecated since the 1980's
+    and [cause spacing issues](https://tex.stackexchange.com/q/503).
+
     Inserting line breaks after `\[` and before `\]` is OPTIONAL;
     if the line break is not included there MUST be a space instead.
     There SHOULD be single line break before and after displayed expressions;
