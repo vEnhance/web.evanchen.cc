@@ -69,7 +69,7 @@ By the way, I use [Arch Linux](https://www.archlinux.org/).
 Some details about my setup:
 
 - Window manager: [i3](https://i3wm.org/),
-  with [py3status](https://py3status.readthedocs.io/en/latest/index.html)
+  with [py3status](https://ultrabug.github.io/py3status/)
   and [rofi](https://github.com/davatorium/rofi)
 - Browser: [qutebrowser](https://en.wikipedia.org/wiki/Qutebrowser)
 - [Browser homepage](static/browser-homepage.html)
