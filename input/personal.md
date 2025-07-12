@@ -81,8 +81,8 @@ Some details about my setup:
 - TeX distribution: [TeX Live](https://tug.org/texlive/)
 - Shell: [Fish](http://fishshell.com/),
   using [xfce4-terminal](https://docs.xfce.org/apps/xfce4-terminal/start)
-- To-do list: [Taskwarrior](https://taskwarrior.org/),
-  with [Vit](https://github.com/vit-project/vit) and [inthe.AM](https://inthe.am/).
+- To-do list: [Taskwarrior 2](https://taskwarrior.org/),
+  with [WingTask](https://docs.wingtask.com/).
 
 You can find a lot of my configuration files on my
 [dotfiles GitHub repository](https://github.com/vEnhance/dotfiles).
