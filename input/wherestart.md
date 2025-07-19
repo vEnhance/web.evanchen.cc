@@ -186,8 +186,9 @@ Some possible suggestions for introductory books:
 More possibilities (including intermediate-advanced texts not listed here)
 are on the [links page](recommend.html).
 You might also check
-[Geoff Smith's advice and links](https://people.bath.ac.uk/masgcs/advice.html).
+[Geoff Smith's advice and links][geoff].
 
+[geoff]: https://web.archive.org/web/20250124090959/https://people.bath.ac.uk/masgcs/advice.html
 [acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
 [pftb]: https://maa.org/press/maa-reviews/problems-from-the-book
 

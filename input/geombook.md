@@ -151,7 +151,7 @@ A few that I recommend are:
 - [UKMT Plane Euclidean Geometry][ukmt], but consider starting from Chapter 3
 - [106][106], [107][107], and [110][110] Geometry Problems
 
-See also [advice from Geoff Smith on geometry](https://people.bath.ac.uk/masgcs/geo.pdf).
+See also [advice from Geoff Smith on geometry](https://web.archive.org/web/20250124103026/https://people.bath.ac.uk/masgcs/geo.pdf).
 
 [106]: https://www.awesomemath.org/product/106-geometry-problems-from-amsp/
 [107]: https://www.awesomemath.org/product/107-geometry-problems-from-amy/

@@ -76,7 +76,9 @@ Here are some additional links.
 
 ## {{ hl("olympiad", "Olympiad Resources") }}
 
-See also [Geoff Smith's page](https://people.bath.ac.uk/masgcs/advice.html).
+See also [Geoff Smith's page][geoff].
+
+[geoff]: https://web.archive.org/web/20250124090959/https://people.bath.ac.uk/masgcs/advice.html
 
 ### {{ hl("handouts", "Handouts") }}
 
