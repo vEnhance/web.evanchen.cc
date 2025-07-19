@@ -41,6 +41,7 @@ for even more problems and solutions, including most of the ones below.
 - IMO 2022 [(PDF)](exams/IMO-2022-notes.pdf) [(TeX)](exams/IMO-2022-notes.tex)
 - IMO 2023 [(PDF)](exams/IMO-2023-notes.pdf) [(TeX)](exams/IMO-2023-notes.tex)
 - IMO 2024 [(PDF)](exams/IMO-2024-notes.pdf) [(TeX)](exams/IMO-2024-notes.tex)
+- IMO 2025 [(PDF)](exams/IMO-2025-notes.pdf) [(TeX)](exams/IMO-2025-notes.tex)
 
 # {{ hl("egmo", "European Girls Math Olympiad") }}
 
