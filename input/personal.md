@@ -99,7 +99,7 @@ rather than QWERTY.
 - Eeyore. Curiously, he's always smiling.
 - Egg. An adopted purple zergling, and Eggy's twin. The quieter one.
 - Eggy. An adopted purple zergling, and Egg's twin. The louder one.
-- Elliott. A zealot. He looks like a [little kid][ragelot].
+- Elliot. A zealot. He looks like a [little kid][ragelot].
 - Gekota. Just like in _Toaru Kagaku no Railgun_.
 - Hit Point. Fills you with determination.
 - Humphrey. Small grey elephant. Likes to ride on Roomba's.
