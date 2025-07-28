@@ -8,15 +8,17 @@ description: Mathematical research papers and lecture notes by Evan Chen.
 Here is information are my various research papers,
 lecture handouts, textbooks, and so on.
 
-## {{ hl("major", "Major writings") }}
+## {{ hl("major", "Textbooks") }}
 
-My two most major expository works have their own page at the right:
-
-- My textbook [Euclidean Geometry in Mathematical Olympiads](geombook.html).
+- [Euclidean Geometry in Mathematical Olympiads](geombook.html).
   300 pages, published under _MAA Problem Book Series_ (by the AMS).
 
-- My personal exposition project [An Infinitely Large Napkin](napkin.html).
-  Nearing 1000 pages.
+- [An Infinitely Large Napkin](napkin.html),
+  higher math introduction. Nearing 1000 pages.
+
+- [18.02 course notes](1802.md),
+  textbook for MIT's multivariable calculus course,
+  published under [MIT OpenCourseWare](https://ocw.mit.edu/courses/res-18-016-multivariable-calculus-recitation-notes-fall-2024/).
 
 ## {{ hl("thesis", "PhD thesis") }}
 
@@ -28,6 +30,8 @@ Some materials related to my PhD thesis:
 - [Notes from pre-quals](/textbooks/phd-notebook.pdf)
   (not polished or edited, so rough and likely non-useful)
 - [Source code for all files](https://github.com/vEnhance/evans-phd-notebook)
+- [Accompanying arXiv paper](https://arxiv.org/abs/2502.06078)
+  (subset of thesis)
 
 ## {{ hl("research", "Research publications") }}
 
