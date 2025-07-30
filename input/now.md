@@ -41,7 +41,7 @@ near [Duke](https://www.duke.edu).
 - I had a busy summer in 2025, where among other things,
   I taught at [MOP](mop.html) as assistant director,
   visited the [Duluth REU](https://sites.google.com/view/gallian-reu/home),
-  and attended [IMO 2025](http://imo-official.org/) as a coordinator
+  and attended [IMO 2025][coord] as a coordinator
   (I was on problem 3 with Gheehyun Nahm).
 
 - In March 2025, the [2025 Teammate Hunt](https://teammatehunt.com) aired.
@@ -58,3 +58,5 @@ near [Duke](https://www.duke.edu).
   and in February 2025 I finally received my
   [diploma](https://credentials.mit.edu/certificate/fb5dea8b0db8537293e2967b64e97777).
   (It went to the spam folder in my email, which is hilarious.)
+
+[coord]: https://blog.evanchen.cc/2025/07/29/imo/
