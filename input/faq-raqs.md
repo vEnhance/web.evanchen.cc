@@ -279,7 +279,7 @@ A few pointers:
 3. Get the proofreading and copy-editing right.
    If you're not a native English speaker, get a friend or editor to help you.
    And get many eyes to fix errors or ambiguities.
-   [This is not something I did well for EGMO](https://web.evanchen.cc/textbooks/geombook-errata.pdf).
+   [This is not something I did well for my geometry book](https://web.evanchen.cc/textbooks/geombook-errata.pdf).
 
 4. Get the formatting right.
    If you're using LaTeX, learn how to do things right.
@@ -287,8 +287,35 @@ A few pointers:
    then, well, you have a lot to learn.)
 
 I also have a blog post on
-[some thoughts from when I wrote EGMO and more][thoughts]
+[some thoughts from when I wrote my geometry book and more][thoughts]
 that might be relevant to problem-solving texts.
+
+### {{ faq("R-13", "How do you navigate balancing doing things for prestige and enjoyment?") }}
+
+Varies from person to person, but here's a frame that helped me.
+
+I think prestige (and money, test scores, college apps, resume-building, etc.)
+all fall into a bucket my former mentor describes as "seductive".
+The properties are:
+
+1. They're not intrinsically bad, and in fact can be good in moderation
+   (e.g. getting into good colleges is nice).
+2. They're impractical to avoid entirely (e.g., you can't just ignore money).
+3. However, they are really, really easy to get sucked into if you're not careful
+   (or even if you are careful).
+   Which is why you get to hear so many horror stories about bribing politicians,
+   or committing fraud to impress Harvard, and so on ad nauseum.
+
+I think this label was helpful for me because I could recognize when
+I was in a situation where I was like,
+"okay, I can't avoid X completely, but I should be on high alert".
+
+It reminds me a little bit of
+[Paul Graham's essay on distraction](https://www.paulgraham.com/distraction.html),
+actually, particularly the quote:
+
+> If you drink too much, you can solve that problem by stopping entirely.
+> But you can't solve the problem of overeating by stopping eating.
 
 [talk]: https://paulgraham.com/talk.html
 [raq]: https://paulgraham.com/raq.html
