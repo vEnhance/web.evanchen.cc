@@ -61,7 +61,7 @@ and the back contains everyone's signature.
 - The **ELMO** is written by returning MOPpers for new MOPpers,
   featuring "teams" and coordination.
   See [ELMO page](https://web.evanchen.cc/elmo/general.html).
-- The **Mock IMO** is run by staff using [ISL](faq-rules.html#CR-11);
+- The **Mock IMO** is run by staff using [IMO Shortlist](faq-rules.html#CR-11);
   it also features a mock
   [coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
   It's one of several practice tests run by the staff at MOP each year.
@@ -69,6 +69,7 @@ and the back contains everyone's signature.
 
 <div class="chooser list-chooser" markdown="block">
 
+- [2025](static/mop/mockimo/2025.pdf)
 - [2024](static/mop/mockimo/2024.pdf)
 - [2023](static/mop/mockimo/2023.pdf)
 - [2022](static/mop/mockimo/2022.pdf)
