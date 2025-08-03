@@ -64,7 +64,8 @@ though some of the chapters are more challenging.
 
 # {{ hl("apply", "Application &mdash; Year XI (2025-2026)") }}
 
-The application for 2025-2026 is available now and is due August 1, 2025.
+You can submit late applications for the 2025-2026 school year
+up until April 2026. See instructions below.
 
 - [Application homework and instructions](upload/otis-app-xi.pdf)
 - [Submission form](https://forms.gle/yDnoCMzkA15NNbT5A)
