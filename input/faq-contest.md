@@ -600,6 +600,10 @@ and the following about [painting](https://paulgraham.com/hp.html):
 > paintings, when you look at them in xrays, turn out to have limbs that have
 > been moved or facial features that have been readjusted.
 
+You can see
+[this blog post on 2011 N1](https://blog.evanchen.cc/2025/07/16/write-well/)
+for a more concrete demonstration of how writing poorly can burn you.
+
 It does kind of suck that on actual high-school exams,
 you have to write solutions with pen and paper.
 These days I type everything, so it's much easier to edit work-in-progress.
