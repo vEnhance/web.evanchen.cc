@@ -148,6 +148,8 @@ see [the FAQ on the USA IMO team selection](faq-rules.html).
 - TSTST 2023 [(probs)](exams/TSTST-2023.pdf) [(sols)](exams/sols-TSTST-2023.pdf) [(TeX)](exams/sols-TSTST-2023.tex) [(stats)](exams/stats-TSTST-2023.pdf)
 - TSTST 2024 [(probs)](exams/TSTST-2024.pdf) [(sols)](exams/sols-TSTST-2024.pdf) [(TeX)](exams/sols-TSTST-2024.tex) [(stats)](exams/stats-TSTST-2024.pdf)
 
+For 2025 and onwards, see [USA TST Public Archive][usa-tst-archive].
+
 ## {{ hl("tst", "USA Team Selection Test (TST)") }}
 
 These exams are used in the final part of
@@ -170,6 +172,8 @@ the selection process for the USA IMO team.
 - USA Winter TST 2023 [(probs)](exams/IMO-2023-TST.pdf) [(sols)](exams/sols-TST-IMO-2023.pdf) [(TeX)](exams/sols-TST-IMO-2023.tex) [(stats)](exams/stats-TST-IMO-2023.pdf)
 - USA Winter TST 2024 [(probs)](exams/IMO-2024-TST.pdf) [(sols)](exams/sols-TST-IMO-2024.pdf) [(TeX)](exams/sols-TST-IMO-2024.tex) [(stats)](exams/stats-TST-IMO-2024.pdf)
 - USA Winter TST 2025 [(probs)](exams/IMO-2025-TST.pdf) [(sols)](exams/sols-TST-IMO-2025.pdf) [(stats)](exams/stats-TST-IMO-2025.pdf)
+
+For 2026 and onwards, see [USA TST Public Archive][usa-tst-archive].
 
 # Other contests
 
@@ -266,3 +270,4 @@ Anyway, I cannot repeat enough the disclaimer that the ratings
 rather than some sort of indisputable truth.
 
 [old]: https://drive.google.com/drive/u/1/folders/1jVXuZMdk-GkucFtqPWAIg5xMiQN-E3gf
+[usa-tst-archive]: https://github.com/usa-tst-public/USA-TST-Archive
