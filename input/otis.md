@@ -74,6 +74,8 @@ up until the end of April 2026. See instructions below.
 ## {{ hl("prereq", "Who can apply (aka, everyone)") }}
 
 OTIS is open to anyone, including international students from all countries.
+There is no age restrictions at all (younger than 9th grade
+or older than 12th grade are both OK, nor do you have to be in school).
 Students from minorities and underrepresented groups
 are especially encouraged to apply. (I promise I don't bite.)
 **Full financial aid is available for all applications
