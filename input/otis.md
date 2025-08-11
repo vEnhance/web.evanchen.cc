@@ -110,6 +110,7 @@ for their own use.
 A list of instructors who have done this at least once before
 (parentheses indicated years as a _student_ in the program):
 
+Abdullahil Kafi (VII-VIII);
 [Adhitya Mangudy][adhitya];
 [Archit Manas][archit] (VII-VIII);
 Galin Totev;
