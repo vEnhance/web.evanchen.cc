@@ -104,6 +104,15 @@ There's also a flowchart by chapter number (rather than part number).
 22. [Set Theory II: Model Theory and Forcing](https://venhance.github.io/napkin/Parts/part-22-napkin-set-theory-ii.pdf)
 23. [Appendix](https://venhance.github.io/napkin/Parts/part-23-napkin-appendix.pdf)
 
+## {{ hl("community", "Community solutions") }}
+
+There is a community working on both human-readable and Lean4 proofs
+of Napkin problems and examples. See:
+
+- Napkin formal proofs written in Lean4: https://github.com/napkin-community/proofs
+- Napkin human-readible solutions written in Typst: https://github.com/napkin-community/solutions
+  - Rendered: https://napkin-community.github.io/solutions/ (written in Typst)
+
 [recent]: https://venhance.github.io/napkin/Napkin.pdf
 [toc]: https://venhance.github.io/napkin/toc.txt
 [all]: https://venhance.github.io/napkin
