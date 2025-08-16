@@ -5,7 +5,7 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 ---
 
-<span style="float:right;padding:10px;">
+<span class="d-none d-sm-block" style="float:right;padding:10px;">
 <a href="https://www.instagram.com/p/DMl_2h0JV-1">
 <img src="https://web.evanchen.cc/static/top-self.jpg" width="200" alt="Self-portrait of Evan Chen." />
 </a>

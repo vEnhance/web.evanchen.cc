@@ -69,7 +69,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
           <div id="header">
             <a href="/">
               <h1 id="sitetitle">
-                Evan Chen《陳誼廷》
+                Evan Chen<span class="d-none d-sm-inline">《陳誼廷》</span>
                 <img
                   height="54"
                   src="icons/android-chrome-192x192.png"
@@ -82,7 +82,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 d-none d-md-block">
           <div id="feed" class="px-1 pt-1 pb-0">
             <iframe
               src="https://cdn.lightwidget.com/widgets/90dc888fdd63572186f83253c9a50415.html"
@@ -93,13 +93,13 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
             ></iframe>
           </div>
         </div>
-        <div class="col-10 col-sm-6 col-md-7">
+        <div class="col-10 col-sm-6 col-md-7 d-none d-md-block">
           <div id="latest_blog" class="badge px-2 pt-2 pb-1 mx-0 mt-1 mb-0">
             <a id="latest_blog_anchor"></a>
             <span class="badge bg-success" id="latest_blog_date"></span>
           </div>
         </div>
-        <div class="col-10 col-sm-6 col-md-5 text-sm-end">
+        <div class="col-10 col-sm-6 col-md-5 text-sm-end d-none d-md-block">
           <div id="email_box">
             <a class="emoji-link" href="contact.html"
               ><img height="24" src="icons/social-mail.png" alt="Email"
