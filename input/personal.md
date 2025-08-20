@@ -13,6 +13,7 @@ Some other places on the Internet you can find me:
 - [Steam][steam]
 - [My Anime List](https://myanimelist.net/animelist/vEnhance)
 - [Spotify](https://open.spotify.com/user/31ligpcn22uiybn6wwrfrouklsxq/playlists)
+- [Microblog on wall.evanchen.cc](https://wall.evanchen.cc/)
 
 Here's a little about myself, including things I like so much that
 I think you should try them too!
