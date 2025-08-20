@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTSK Lesson Redirector</title>
+  </head>
+  <body>
+    <p>Redirecting to lesson...</p>
+
+    <script>
+      // Lesson mapping from CSV
+      const lessons = {
+        1: "https://www.howtostudykorean.com/?page_id=279",
+        2: "https://www.howtostudykorean.com/?page_id=281",
+        3: "https://www.howtostudykorean.com/?page_id=283",
+        4: "https://www.howtostudykorean.com/?page_id=286",
+        5: "https://www.howtostudykorean.com/?page_id=289",
+        6: "https://www.howtostudykorean.com/?page_id=291",
+        7: "https://www.howtostudykorean.com/?page_id=294",
+        8: "https://www.howtostudykorean.com/?page_id=297",
+        9: "https://www.howtostudykorean.com/?page_id=502",
+        10: "https://www.howtostudykorean.com/?page_id=693",
+        11: "https://www.howtostudykorean.com/?page_id=872",
+        12: "https://www.howtostudykorean.com/?page_id=943",
+        13: "https://www.howtostudykorean.com/?page_id=965",
+        14: "https://www.howtostudykorean.com/?page_id=1073",
+        15: "https://www.howtostudykorean.com/?page_id=1166",
+        16: "https://www.howtostudykorean.com/?page_id=1237",
+        17: "https://www.howtostudykorean.com/?page_id=1255",
+        18: "https://www.howtostudykorean.com/?page_id=1261",
+        19: "https://www.howtostudykorean.com/?page_id=1357",
+        20: "https://www.howtostudykorean.com/?page_id=1435",
+        21: "https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-21-asking-questions-in-korean-why-when-where-and-who/",
+        22: "https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-22/",
+        23: "https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-23/",
+        24: "https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-24/",
+        25: "https://www.howtostudykorean.com/unit1/unit-1-lessons-17-25-2/lesson-25/",
+        26: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-26-33/lesson-26/",
+        27: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-26-33/lesson-27/",
+        28: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-26-33/lesson-28/",
+        29: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-26-33/lesson-29/",
+        30: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-26-33/lesson-30/",
+        31: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-26-33/lesson-31/",
+        32: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-26-33/lesson-32/",
+        33: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-26-33/lesson-33/",
+        34: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-34-41/lesson-34/",
+        35: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-34-41/lesson-35/",
+        36: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-34-41/lesson-36/",
+        37: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-34-41/lesson-37/",
+        38: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-34-41/lesson-38/",
+        39: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-34-41/lesson-39/",
+        40: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-34-41/lesson-40/",
+        41: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-34-41/lesson-41/",
+        42: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-42/",
+        43: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-43/",
+        44: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-44/",
+        45: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-45/",
+        46: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-46/",
+        47: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-47/",
+        48: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-48/",
+        49: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-49/",
+        50: "https://www.howtostudykorean.com/unit-2-lower-intermediate-korean-grammar/unit-2-lessons-42-50/lesson-50/",
+        51: "https://www.howtostudykorean.com/unit-3-lessons-51-58/lesson-51/",
+        52: "https://www.howtostudykorean.com/unit-3-lessons-51-58/lesson-52/",
+        53: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-51-58/lesson-53/",
+        54: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-51-58/lesson-54/",
+        55: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-51-58/lesson-55/",
+        56: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-51-58/lesson-56/",
+        57: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-51-58/lesson-57/",
+        58: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-51-58/lesson-58/",
+        59: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-59-66/lesson-59/",
+        60: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-59-66/lesson-60/",
+        61: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-59-66/lesson-61/",
+        62: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-59-66/lesson-62/",
+        63: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-59-66/lesson-63/",
+        64: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-59-66/lesson-64/",
+        65: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-59-66/lesson-65/",
+        66: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/unit-3-lessons-59-66/lesson-66/",
+        67: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-67/",
+        68: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-68/",
+        69: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-69/",
+        70: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-70/",
+        71: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-71/",
+        72: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-72/",
+        73: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-73/",
+        74: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-74/",
+        75: "https://www.howtostudykorean.com/unit-3-intermediate-korean-grammar/lessons-67-75/lesson-75/",
+        76: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-76-83/lesson-76/",
+        77: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-76-83/lesson-77/",
+        78: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-76-83/lesson-78/",
+        79: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-76-83/lesson-79/",
+        80: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-76-83/lesson-80/",
+        81: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-76-83/lesson-81/",
+        82: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-76-83/lesson-82-2/",
+        83: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-76-83/lesson-83/",
+        84: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-84-91/lesson-84/",
+        85: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-84-91/lesson-85/",
+        86: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-84-91/lesson-86/",
+        87: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-84-91/lesson-87/",
+        88: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-84-91/lesson-88/",
+        89: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-84-91/lesson-89/",
+        90: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-84-91/lesson-90/",
+        91: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-84-91/lesson-91/",
+        92: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-82/",
+        93: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-93/",
+        94: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-94/",
+        95: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-95/",
+        96: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-96/",
+        97: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-97/",
+        98: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-98/",
+        99: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-99/",
+        100: "https://www.howtostudykorean.com/upper-intermediate-korean-grammar/unit-4-lessons-92-100/lesson-100/",
+        101: "https://www.howtostudykorean.com/unit-5/lessons-101-108/lesson-101/",
+        102: "https://www.howtostudykorean.com/unit-5/lessons-101-108/lesson-102/",
+        103: "https://www.howtostudykorean.com/unit-5/lessons-101-108/lesson-103/",
+        104: "https://www.howtostudykorean.com/unit-5/lessons-101-108/lesson-104/",
+        105: "https://www.howtostudykorean.com/unit-5/lessons-101-108/lesson-105a/",
+        106: "https://www.howtostudykorean.com/unit-5/lessons-101-108/lesson-106/",
+        107: "https://www.howtostudykorean.com/unit-5/lessons-101-108/lesson-107/",
+        108: "https://www.howtostudykorean.com/unit-5/lessons-101-108/lesson-108/",
+        109: "https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-109/",
+        110: "https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-110/",
+        111: "https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-111/",
+        112: "https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-112/",
+        113: "https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-113/",
+        114: "https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-114/",
+        115: "https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-115/",
+        116: "https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-116/",
+        117: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-117/",
+        118: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-118/",
+        119: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-119/",
+        120: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-120/",
+        121: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-121/",
+        122: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-122/",
+        123: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-123/",
+        124: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-124/",
+        125: "https://www.howtostudykorean.com/unit-5/unit-5-lessons-117-125/lesson-125-i-said-that/",
+        126: "https://www.howtostudykorean.com/unit-6/lessons-126-133/lesson-126/",
+      };
+
+      // Get the 'q' parameter from URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const lessonNumber = urlParams.get("q");
+
+      if (lessonNumber && lessons[lessonNumber]) {
+        // Redirect to the lesson URL
+        window.location.href = lessons[lessonNumber];
+      } else {
+        // Show error message for invalid lesson numbers
+        document.body.innerHTML = `
+                <h1>Error</h1>
+                <p>Invalid lesson number: ${lessonNumber || "none provided"}</p>
+                <p>Please provide a valid lesson number between 1 and 126.</p>
+                <p>Example: <code>?q=25</code></p>
+            `;
+      }
+    </script>
+  </body>
+</html>
