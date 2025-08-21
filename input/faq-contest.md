@@ -197,7 +197,7 @@ one month to produce full solutions to a set of five problems.
 
 ### {{ faq("C-6", "Am I ready to do X level problems, read book Y, etc.?") }}
 
-The correct thing to do is just try it out (e.g.
+The correct thing to do is **just try it and see** (e.g.
 try some problems from a past X paper, read a chapter from Y, etc.)
 and see how it feels.
 You all know what it feels like when something is too easy
@@ -208,6 +208,9 @@ the dreaded "I have no clue what's going on".
 
 Anything not too close to either extreme is probably fine.
 If in doubt, I recommend picking whatever is most enjoyable.
+
+This is worth stressing:
+_you seriously don't need [permission](https://blog.evanchen.cc/2023/08/09/agency/) to read a book_.
 
 ### {{ faq("C-7", "Should I read X book versus Y book, spend M hours versus N hours per week, etc.?") }}
 
