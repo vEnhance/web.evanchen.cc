@@ -700,9 +700,29 @@ trying to repair a solution a student had sent me to [IMO 2004/5](https://aops.c
 The student's solution was wrong,
 and I already had a correct solution I had written 10 years ago.
 But the student had a certain idea of eliminating $P$
-and using only angle chasing that piqued my interest.
+and using only angle chasing that piqued my curiosity.
+It bugged me so much I couldn't stop thinking about it.
 So I spent a long time to see what happened when I fixed the mistake,
 and I think I learned a lot from that process.
+
+### {{ faq("C-28", "How much of your geometry book do I need to read for IMO?") }}
+
+You should definitely know everything in chapters 1-3,
+which are the bread-and-butter techniques used in most problems.
+I'll refer to these as basic tools (angle chasing, power of point, homothety).
+
+I do think you should _eventually_ read the later chapters too;
+to me EGMO is close to the "core" material.
+That said, you don't need to rush to it.
+If you are more excited to start trying out past problems
+using just the basic tools than reading the book, that seems fine to me.
+
+To be more precise, I think both of the following statements are true:
+
+- Most IMO 1/2/4/5 problems _can be reasonably solved_ using only basic tools.
+  Even a lot of the 3/6 ones can be, too.
+- Nonetheless, later chapters _can be helpful_ for opening up
+  additional solution paths on many, many problems, even in the 1/4 slots.
 
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
