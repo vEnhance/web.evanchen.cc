@@ -145,7 +145,7 @@ For specific materials, see [my own handouts][articles]
 or [Yufei Zhao's][yufei], among others.
 And of course, [my geometry textbook][geombook].
 
-### {{ faq("C-4", "Is it possible for me to go from X level to Y level in Z time?") }}
+### {{ faq("C-4", "Is it possible for me to improve by X amount in Y time if I spend Z hours a week?") }}
 
 I probably [don't know much more than you do][generic].
 
