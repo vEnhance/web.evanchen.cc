@@ -55,7 +55,7 @@ The IMO team is known shortly after the USAMO grading in May.
 
 Here are the details for IMO 2014 (the year which I participated),
 A series of tests/camps take place and at each step the number of contestants is reduced.
-Interestingly, the Taiwan national olympiad is not involved in the selection process at all.
+Interestingly, the Taiwan national olympiad was not present.
 
 - The first test worth mentioning is the APMOC, an exam in the same format as the APMO.
 - High scores on the APMOC are invited to another camp at which the APMO is given in March.
@@ -75,6 +75,10 @@ The selection process takes a few months.
 The team is known shortly after the third camp, a couple of days into May.
 
 For more details, see [my report on Taiwan IMO][taiwan].
+
+A decade later, I was also sent an
+[updated flowchart of the selection process for 2024](static/taiwan-select-2024.pdf).
+This now includes a pathway to the EGMO.
 
 ### {{ faq("CR-3", "How is USAMO / IMO graded?") }}
 
