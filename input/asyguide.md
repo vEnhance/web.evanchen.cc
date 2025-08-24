@@ -106,9 +106,9 @@ Here's the sample file if you want to copy and try it yourself.
 \begin{asy}
   size(6cm);
   draw(unitcircle);
-  draw( (0.3,0.3)--(0.3,0.4) );
-  draw( (-0.3,0.3)--(-0.3,0.4) );
-  draw( (0.6,-0.2)..(0,-0.4)..(-0.6,-0.2) );
+  draw((0.3,0.3)--(0.3,0.4));
+  draw((-0.3,0.3)--(-0.3,0.4));
+  draw((0.6,-0.2)..(0,-0.4)..(-0.6,-0.2));
 \end{asy}
 \end{center}
 \end{document}
