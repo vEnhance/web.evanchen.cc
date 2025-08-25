@@ -724,6 +724,40 @@ To be more precise, I think both of the following statements are true:
 - Nonetheless, later chapters _can be helpful_ for opening up
   additional solution paths on many, many problems, even in the 1/4 slots.
 
+### {{ faq("C-29", "Why won't you give me a straight answer to my question?") }}
+
+This usually means that the question is in the following list:
+
+- What are the best resources to use?
+  This is [C-2](#C-2), but some people insist I must output a personally tailored list.
+
+- What chance do I have at making X goal within Y years starting from Z?
+  This is [C-4](#C-4), but some people insist I must output a probability.
+
+- How many hours do I need to spend per day?
+  This is [C-7](#C-7), but some people insist I must output a real number.
+
+And the reason I won't output a number
+(besides the fact [I don't know what it is][generic], even with error bars)
+is that it won't help you[^hurt].
+Nobody succeeded by learning a magic number of hours to spend per day.
+I like [Palmer's quote](https://aops.com/community/p2192045):
+
+> All the time obsessing over the goal is time not doing the work.
+
+If you really desperately want specific personal advice,
+[at least read the instructions](contact.html#advice).
+
+[^hurt]:
+    In fact, if you are the kind of person asking for that number,
+    my hunch is that a concrete number will hurt you.
+    Suppose I make a post somewhere where I say something like,
+    "to reach IMO bronze level, a realistic study plan is M hours per day over N years".
+    Can you imagine how people would misuse that information?
+    I can already imagine people setting phone timers for M hours
+    to make sure they're meeting the daily quota.
+    [Even MOHS was a mistake][mohs-mistake].
+
 [aimescratch]: static/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
@@ -735,6 +769,7 @@ To be more precise, I think both of the following statements are true:
 [howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [mistakes]: https://www.artofproblemsolving.com/articles/stupid-mistakes
 [mohs]: upload/MOHS-hardness.pdf
+[mohs-mistake]: https://blog.evanchen.cc/2024/01/05/mohs-was-a-mistake/
 [perfect]: https://blog.evanchen.cc/2016/04/17/against-perfect-scores/
 [recs]: recommend.html
 [shower]: https://www.paulgraham.com/top.html
