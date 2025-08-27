@@ -4,9 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTSK Lesson Redirector</title>
+    <style type="text/css">
+      #west,
+      #east {
+        height: 100vh;
+      }
+    </style>
   </head>
   <body>
-    <p>Redirecting to lesson...</p>
+    <div id="main">
+      <iframe id="west" width="48%"></iframe>
+      <iframe id="east" width="48%"></iframe>
+    </div>
 
     <script>
       // Lesson mapping from CSV
@@ -141,19 +150,19 @@
 
       // Get the 'q' parameter from URL
       const urlParams = new URLSearchParams(window.location.search);
-      const lessonNumber = urlParams.get("q");
+      const q = urlParams.get("q");
 
-      if (lessonNumber && lessons[lessonNumber]) {
+      if (q && lessons[q]) {
         // Redirect to the lesson URL
-        window.location.href = lessons[lessonNumber];
+        window.location.href = lessons[q];
+      } else if (q) {
+        document.getElementById("west").src =
+          "https://en.m.wiktionary.org/wiki/" + q;
+        document.getElementById("east").src =
+          "https://korean.dict.naver.com/koendict/#/search?query=" + q;
       } else {
-        // Show error message for invalid lesson numbers
-        document.body.innerHTML = `
-                <h1>Error</h1>
-                <p>Invalid lesson number: ${lessonNumber || "none provided"}</p>
-                <p>Please provide a valid lesson number between 1 and 126.</p>
-                <p>Example: <code>?q=25</code></p>
-            `;
+        alert("fail");
+        document.getElementById("main").innerHTML = "<h1>Error</h1>";
       }
     </script>
   </body>
