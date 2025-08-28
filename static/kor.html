@@ -161,8 +161,7 @@
         document.getElementById("east").src =
           "https://korean.dict.naver.com/koendict/#/search?query=" + q;
       } else {
-        alert("fail");
-        document.getElementById("main").innerHTML = "<h1>Error</h1>";
+        document.getElementById("main").innerHTML = "<h1>Error</h1><p>Need to pass a GET parameter named q. Read the source code to understand what this does.</p>";
       }
     </script>
   </body>
