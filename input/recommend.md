@@ -111,6 +111,10 @@ See also [Geoff Smith's page][geoff].
 - [Art and Craft of Problem-Solving][acops] by Paul Zeitz,
   introduction to math olympiads in general.
 
+- [The CMUMC POTD Book](https://cims.nyu.edu/~tjl8195/cmumcpotd.html) by Thomas Lam.
+  This is among the best general problem collections I've seen.
+  (CMUMC is Carnegie Mellon University Math Club, and POTD means Problem of the Day.)
+
 - [An Exploration of Olympiad Combinatorics, by Rushil Mathur](https://www.rushilmathur.com/combinatorics-book).
 
 - [Olympiad Combinatorics, by Pranav A. Sriram](https://www.aops.com/community/c6h601134).
