@@ -115,6 +115,14 @@ See also [Geoff Smith's page][geoff].
   This is among the best general problem collections I've seen.
   (CMUMC is Carnegie Mellon University Math Club, and POTD means Problem of the Day.)
 
+- [Counting Rocks! An Introduction to Combinatorics](https://arxiv.org/abs/2108.04902),
+  by Henry Adams, Kelly Emmrich, Maria Gillespie, Shannon Golden, Rachel Pries.
+  Freely available on arXiv.
+  This is a beginner textbook that starts from pre-olympiad content
+  (e.g. binomial coefficients)
+  to some early olympiad-level material.
+  It also has some linked video lectures.
+
 - [An Exploration of Olympiad Combinatorics, by Rushil Mathur](https://www.rushilmathur.com/combinatorics-book).
 
 - [Olympiad Combinatorics, by Pranav A. Sriram](https://www.aops.com/community/c6h601134).
