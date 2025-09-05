@@ -25,7 +25,7 @@ lecture handouts, textbooks, and so on.
 Some materials related to my PhD thesis:
 
 - [Thesis PDF](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf)
-  - Link to thesis at MIT libraries to be added later
+  - [MIT Libraries version](https://hdl.handle.net/1721.1/158792) (has more typos)
 - [Slides from my thesis defense](/textbooks/thesis-slides.pdf)
 - [Notes from pre-quals](/textbooks/phd-notebook.pdf)
   (not polished or edited, so rough and likely non-useful)
