@@ -1,4 +1,4 @@
-header: OPAL Puzzle Hunt
+header: OPAL puzzle hunt public archive
 title: OPAL Hunt
 menu-position: 27
 indent: 1
@@ -6,41 +6,56 @@ description: OTIS puzzle hunt
 
 ---
 
-In OTIS, the OPAL hunt (OTIS Puzzle Assembly Line)
-is an annual one-round beginner-level
-[puzzle hunt](https://blog.vero.site/post/puzzlehunts)
-hosted for the [OTIS program](otis.html).
-This page contains an archive of past OPAL puzzles
-so that people in the public can try the puzzles too as well.
-(If you're currently in OTIS, you should solve on the live OTIS-WEB
-instead of here.)
+In OTIS, the OPAL hunt[^acronym]
+is an annual one-round beginner-level [puzzle hunt](puzzlehunt.html)
+hosted for [OTIS students](otis.html).
+This page is a public archive of past OPAL puzzles.
+Current or past otters should solve on OTIS-WEB, not here.[^otisweb]
 
-At some point soon (tm), I will implement a JavaScript answer checker as well here.
+Because of the audience, there's a lot of math and OTIS references[^idiosyn].
+I don't have solutions, but you can email me with hint requests.
 
-A couple notes specific to the OPAL hunt.
-The puzzles are written for OTIS students, so they may assume familiarity with
-the various quirks of the OTIS program and website[^idiosyn]
-Math is also represented pretty heavily.
+[^acronym]: Stands for OTIS Puzzle Assembly Line.
+
+[^otisweb]:
+    The live website will track your progress,
+    provide pre-written hints, and grant rewards on completing the metapuzzle.
 
 [^idiosyn]:
-    For example, one puzzle references a problem on the OTIS application.
-    Technically all the information needed is publicly available,
-    but you may have to know to look for it.
-
-I don't have solutions, but if you're stuck on a puzzle
-feel free to email me for a hint request.
+    In particular, puzzles might expect solvers to know about OTIS-related
+    things; for example, one puzzle references a problem on the OTIS application.
+    Other puzzles may assume other data specific to OTIS.
+    All needed information needed is publicly available (e.g. in the OTIS
+    syllabus), but you may have to know to look for it.
 
 ## {{ hl("opal2", "OPAL 2: Museum of OTIS Things") }}
 
 OPAL 2 started on September 5, 2025.
-For now, just the first four puzzles are uploaded.
-The rest will be uploaded later.
 
 1. [patri〇TISm](/opals/patriotism.pdf), by Evan Chen
 2. [Sine](/opals/sine.pdf), by Evan Chen
 3. [Flower](/opals/flower.pdf), by Evan Chen
 4. [Word Search](/opals/word-search.pdf), by Abel George Mathew, Evan Chen, and Manu Param
+5. ... for now, just the first four puzzles are uploaded. The rest will be uploaded later.
 
 ## {{ hl("opal1", "OPAL 1: Alice in OTISLand") }}
 
 OPAL 1 started on August 30, 2024.
+
+1. [Plot](/opals/plot.pdf), by Evan Chen
+2. [Binary](/opals/binary.pdf), by Evan Chen
+3. [elemeNT](/opals/element.pdf), by Rachel Chen, Rohan Garg, Sean Yeh
+4. [eIGen-bIGrams](/opals/eigen-bigrams.pdf), by Evan Chen
+5. [Learn to Code](/opals/learn-to-code.pdf), by Evan Chen
+6. [Diagramless Crossword](/opals/diagramless-crossword.pdf), by Calvin Wang and Royce Yao
+7. [Steam](/opals/steam.pdf), by Evan Chen
+8. [Catalog](/opals/catalog.pdf), by Evan Chen
+9. [Last Layer Magic](/opals/last-layer-magic.pdf), by Ethan Lee
+10. [Digitized](/opals/digitized.pdf), by Jiya Dani and Charles Zhang
+11. [r/AnarchyChess](/opals/r-anarchy-chess.pdf), by Arul Kolla
+12. [Operators](/opals/operators.pdf), by Elijah Liu
+13. [Alice in OTISLand](/opals/alice-in-otisland.pdf) (meta), by Evan Chen
+
+## {{ hl("check", "Answer checker") }}
+
+Coming soon (tm).

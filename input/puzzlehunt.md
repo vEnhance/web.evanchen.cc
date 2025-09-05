@@ -106,6 +106,10 @@ A few blog posts of mine:
 Hunt puzzles I've written.
 See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 
+### {{ hl("opal", "OPAL, the OTIS puzzle hunt") }}
+
+The [OTIS](otis.html) program has its own puzzle hunt, named [OPAL](opal.html).
+
 ### {{ hl("mh2021", "Mystery Hunt 2021") }}
 
 - [Nutrition Facts](https://puzzles.mit.edu/2021/puzzle/nutrition-facts/)

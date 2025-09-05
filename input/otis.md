@@ -34,6 +34,7 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
   - Z-level track [handout][sample-zgx] (hardest track)
 
 - Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
+- [OPAL puzzle hunt](opal.html)
 
 [sample-dny]: static/otis-samples/DNY-ntconstruct.pdf
 [sample-dnysol]: static/otis-samples/DNY-sol-ntconstruct.pdf
