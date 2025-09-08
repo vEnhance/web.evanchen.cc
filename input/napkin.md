@@ -42,24 +42,16 @@ submit an [issue on GitHub](https://github.com/vEnhance/napkin/issues).
 
 ## {{ hl("description", "Description") }}
 
-The Napkin project is a personal exposition project of mine
-aimed at making higher math accessible to high school students.
-The philosophy is stated in the preamble:
-
-> I'll be eating a quick lunch with some friends of mine who are still in high school.
-> They'll ask me what I've been up to the last few weeks, and I'll tell them that I've been learning category theory.
-> They'll ask me what category theory is about.
-> I tell them it's about abstracting things by looking at just the structure-preserving morphisms between them, rather than the objects themselves.
-> I'll try to give them the standard example Gp, but then I'll realize that they don't know what a homomorphism is.
-> So then I'll start trying to explain what a homomorphism is, but then I'll remember that they haven't learned what a group is.
-> So then I'll start trying to explain what a group is, but by the time I finish writing the group axioms on my napkin, they've already forgotten why I was talking about groups in the first place.
-> And then it's 1PM, people need to go places, and I can't help but think:
->
-> _<span style="color:red;">Man, if I had forty hours instead of forty minutes, I bet I could actually have explained this all.</span>_
->
-> This book is my attempt at those forty hours.
-
-This project has evolved to more than just forty hours.
+_An Infinitely Large Napkin_ is a light
+and mostly self-contained introduction to higher math,
+roughly ranging from the undergraduate syllabus to first-year graduate topics.
+The Napkin provides a general bird's-eye views of main ideas of fields
+and what makes them cool or interesting.
+It's less detailed than a real textbook
+but more precise than pop-math books and assumes proof experience.
+So for example, definitions and theorem statements
+will typically be complete and precise,
+but explanations for why a result "should" be true will supersede formal proofs.
 
 ## {{ hl("toc", "PDF's for individual parts") }}
 
@@ -109,9 +101,9 @@ There's also a flowchart by chapter number (rather than part number).
 There is a community working on both human-readable and Lean4 proofs
 of Napkin problems and examples. See:
 
-- Napkin formal proofs written in Lean4: https://github.com/napkin-community/proofs
-- Napkin human-readible solutions written in Typst: https://github.com/napkin-community/solutions
-  - Rendered: https://napkin-community.github.io/solutions/ (written in Typst)
+- Napkin formal proofs (Lean4): [napkin-community/proofs](https://github.com/napkin-community/proofs)
+- Napkin human-readable solutions (Typst): [napkin-community/solutions](https://github.com/napkin-community/solutions)
+  - Rendered: [napkin-community.github.io/solutions](https://napkin-community.github.io/solutions/) (written in Typst)
 
 [recent]: https://venhance.github.io/napkin/Napkin.pdf
 [toc]: https://venhance.github.io/napkin/toc.txt
