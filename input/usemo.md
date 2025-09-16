@@ -32,14 +32,14 @@ to get a better sense for the goals of the competition.
 The USEMO is largely run on an honor system, although we may offer prizes.
 Please check the [full rules and procedures][rules].
 
-# {{ hl("current", "USEMO 2024") }}
+# {{ hl("current", "USEMO 2025") }}
 
 - You can [download the problems file for USEMO 2024 now](/exams/USEMO-2024.pdf).
-- Registration opens around October 2
+- Registration opens around October 1
   on [AoPS portal](https://aops.com/contests/usemo/).
-  It remains open until end-of-day October 25 or when capacity is reached.
-- Day I is Sat. **26 October 2024**, from 12:30pm ET to 5:00pm ET.
-- Day II is Sun. **27 October 2024**, from 12:30pm ET to 5:00pm ET.
+  It remains open until end-of-day October 24 or when capacity is reached.
+- Day I is Sat. **25 October 2024**, from 12:30pm ET to 5:00pm ET.
+- Day II is Sun. **26 October 2024**, from 12:30pm ET to 5:00pm ET.
 - On each day, the AoPS portal will be functional
   between 12:00 noon ET and 6:00pm ET, to allow some time for setup
   and for scanning and submitting solutions.
@@ -47,10 +47,10 @@ Please check the [full rules and procedures][rules].
   - You can check your registration status at
     [this link](https://aops.com/contests/usemo/register).
 - Discussion of problems opens at 7:00pm ET each evening after the exam.
-- Volunteers for grading are now open; see below.
-- Problem proposals were due May 10, 2024.
+- Volunteers for grading will be announced later.
+- Problem proposals were due May 10, 2025.
 
-The organizers of the USEMO are grateful to be sponsored in 2024
+The organizers of the USEMO are grateful to be sponsored in 2025
 by the [CoRe Lab, Institute of Artificial Intelligence, Peking University](https://pku.ai/).
 
 <a href="https://pku.ai/">
