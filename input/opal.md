@@ -28,6 +28,17 @@ I don't have solutions, but you can email me with hint requests.
     All needed information needed is publicly available (e.g. in the OTIS
     syllabus), but you may have to know to look for it.
 
+## {{ hl("check", "Static answer checker") }}
+
+<div class="answer-form">
+  <input type="text" id="answerInput" placeholder="Enter your answer here..." autocomplete="off">
+  <button id="submitButton">Submit</button>
+</div>
+<div id="result" class="result" style="display: none;"></div>
+
+<script src="/opals/opal-hashes.js"></script>
+<script src="/static/opal-checker.js"></script>
+
 ## {{ hl("opal2", "OPAL 2: Museum of OTIS Things") }}
 
 OPAL 2 started on September 5, 2025.
@@ -37,6 +48,7 @@ OPAL 2 started on September 5, 2025.
 3. [Flower](/opals/flower.pdf), by Evan Chen
 4. [Word Search](/opals/word-search.pdf), by Abel George Mathew, Evan Chen, and Manu Param
 5. ... for now, just the first four puzzles are uploaded. The rest will be uploaded later.
+   (If you don't want to wait, email me and I can send you the rest.)
 
 ## {{ hl("opal1", "OPAL 1: Alice in OTISLand") }}
 
@@ -55,7 +67,3 @@ OPAL 1 started on August 30, 2024.
 11. [r/AnarchyChess](/opals/r-anarchy-chess.pdf), by Arul Kolla
 12. [Operators](/opals/operators.pdf), by Elijah Liu
 13. [Alice in OTISLand](/opals/alice-in-otisland.pdf) (meta), by Evan Chen
-
-## {{ hl("check", "Answer checker") }}
-
-Coming soon (tm).
