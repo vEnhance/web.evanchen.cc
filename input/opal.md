@@ -39,6 +39,9 @@ I don't have solutions, but you can email me with hint requests.
 <script src="/opals/opal-hashes.js"></script>
 <script src="/static/opal-checker.js"></script>
 
+The static checker above can be used to check a final answer to any OPAL puzzle.
+Partial answer confirmation not supported.
+
 ## {{ hl("opal2", "OPAL 2: Museum of OTIS Things") }}
 
 OPAL 2 started on September 5, 2025.
