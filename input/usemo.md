@@ -38,8 +38,8 @@ Please check the [full rules and procedures][rules].
 - Registration opens around October 1
   on [AoPS portal](https://aops.com/contests/usemo/).
   It remains open until end-of-day October 24 or when capacity is reached.
-- Day I is Sat. **25 October 2024**, from 12:30pm ET to 5:00pm ET.
-- Day II is Sun. **26 October 2024**, from 12:30pm ET to 5:00pm ET.
+- Day I is Saturday **25 October 2025**, from 12:30pm ET to 5:00pm ET.
+- Day II is Sunday **26 October 2025**, from 12:30pm ET to 5:00pm ET.
 - On each day, the AoPS portal will be functional
   between 12:00 noon ET and 6:00pm ET, to allow some time for setup
   and for scanning and submitting solutions.
@@ -47,7 +47,7 @@ Please check the [full rules and procedures][rules].
   - You can check your registration status at
     [this link](https://aops.com/contests/usemo/register).
 - Discussion of problems opens at 7:00pm ET each evening after the exam.
-- Volunteers for grading will be announced later.
+- Volunteers for grading are open at link below.
 - Problem proposals were due May 10, 2025.
 
 The organizers of the USEMO are grateful to be sponsored in 2025
@@ -102,7 +102,9 @@ The list below is sorted alphabetically by first name (not by place).
   You can read [more info about the grading here][grading-info];
   see also the [advice for problem captains][captain].
   <br>
-  Signups for 2025 grading will be posted later.
+  [You can sign up for grading 2025 here](https://forms.gle/fRmfBXnb15fUmNPC7).
+  Grading will start in November 2025 this year.
+  The deadline for grading signup is October 25, 2025.
 
 - **Problem proposals**: we welcome proposals from anyone, although preference
   is given to proposals from those who have completed high school.
