@@ -8,9 +8,15 @@ description: Satisfactory. Keep cooking.
 
 _Satisfactory. Keep cooking._
 
+<div style="text-align: center;">
+<a href="static/otter-cooking.png">
 <img src="static/otter-cooking.png"
   alt="An otter in front of a blackboard cooking a dish."
   width="400" />
+</a>
+</div>
+
+## {{ hl("about", "About") }}
 
 The **OTIS Mock AIME** is an annual 3-hour exam consisting of 15 problems
 whose answers are integers between $0$ and $999$.
@@ -34,6 +40,9 @@ The defining characteristic of the OTIS Mock AIME is that all the problems
 are composed by students from the [OTIS program](otis.html).
 That is, Evan runs this annual exam as a way to give his students
 a chance to try their hand at problem composition.
+
+Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing
+the cover artwork.
 
 [^vision]: I think of what the AIME could be, a vision of the one I see...
 
