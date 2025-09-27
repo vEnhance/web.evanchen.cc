@@ -63,10 +63,7 @@ def page_footer(page: dict[str, str]) -> str:
 
 
 def get_twitch_table() -> str:
-    if (data_directory := Path.home() / "ProGamer/Writeups/").exists():
-        tsv_path = data_directory / "data.tsv"
-        json_path = data_directory / "urls.json"
-    elif (data_directory := Path("data/twitch/")).exists():
+    if (data_directory := Path("data/twitch/")).exists():
         tsv_path = data_directory / "data.tsv"
         json_path = data_directory / "urls.json"
     else:
@@ -120,12 +117,9 @@ def get_twitch_table() -> str:
             basename = "Ep%03d" % int(n) + "-"
             basename += key.replace(" ", "-").replace("/", "-").replace(".", "-")
             basename += "-Solution"
-            basename_tex = basename + ".tex"
-            basename_pdf = basename + ".pdf"
-            filename = Path.home() / "youtube-tex" / basename_tex
-            if filename.exists():
-                pdf_url = f"twitch/{basename_pdf}"
-                src_url = f"twitch/{basename_tex}"
+            if key in url_dict:
+                pdf_url = f"twitch/{basename}.pdf"
+                src_url = f"twitch/{basename}.tex"
                 src_type = "tex"
             else:
                 pdf_url = None
@@ -177,7 +171,7 @@ def get_card_trick() -> str:
     suits = ["...", "♣Clubs", "♦Diamonds", "♥Hearts", "♠Spades"]
     out = ""
     for n in range(0, 4):
-        out += f"<h2>Card {n+1}</h2>" + "\n"
+        out += f"<h2>Card {n + 1}</h2>" + "\n"
         out += r'<div class="container trick-container">' + "\n"
         out += f'<select class="form-select rank-select" id="rank-{n}">' + "\n"
         for r in ranks:
