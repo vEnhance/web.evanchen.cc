@@ -66,7 +66,7 @@ Software used on the stream includes:
 
 Here is a picture of my physical setup (click to enlarge).
 Xiberia V22 headset, Havit HV-KB395L keyboard,
-Inateck MS 1001 mouse, MSI Codex XE Plus computer.
+Inateck MS 1001 mouse, Wacom Intuos S tablet, MSI Codex XE Plus computer.
 
 <div class="text-cenetr" style="margin: 0 auto;">
   <a href="/static/twitch-setup.jpg">
