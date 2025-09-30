@@ -81,7 +81,6 @@ Students from minorities and underrepresented groups
 are especially encouraged to apply. (I promise I don't bite.)
 **Full financial aid is available for all applications
 (even late) and admissions is need-blind.**
-There are no age restrictions on OTIS in either direction.
 
 Admissions are only done to ensure students have enough mathematical
 background and writing ability (due to sheer number of students,
