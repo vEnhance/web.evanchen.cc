@@ -73,6 +73,10 @@ Here are some hints:
 - Please include a descriptive nonempty subject.
   My mail client doesn't always sort replies correctly if the subject is left empty.
 
+- Prefer text to images or screenshots.
+  [I check my email in a terminal](https://neomutt.org/).
+  So images will not show up inline.
+
 - In general,
   [How to ask questions the smart way](http://www.catb.org/~esr/faqs/smart-questions.html)
   is worth reading if you haven't seen it before.
@@ -117,8 +121,11 @@ in terms of preparation.
 
 If you are able to, **please pick 3–10 examples of recent problems**
 that you tried but could not solve.
-For each problem, reproduce the statement,
-and then describe your thought process and what you tried.
+For each problem,
+
+- reproduce the statement (as text, not screenshots)
+- describe your thought process and what you tried.
+
 This helps me understand how you think and where you are at.
 
 [This is an example of a well-thought question](https://aops.com/community/p15430373).
