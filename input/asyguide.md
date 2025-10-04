@@ -173,19 +173,20 @@ and they actually wrote their own packages called
 However, this is probably _not_ the solution you want to use[^links],
 because it means you have to rely on some nonstandard packages written by
 some math olympiad enthusiasts that you'd have to copy back and forth between
-every computer you use. It would be a major nuisance, to say the least.
+every computer you use.
+Take it from me: that's a major headache.
 
 [^links]:
     If you really want, though, you can download a copy of these two packages
     from [my dotfiles](https://github.com/vEnhance/dotfiles/tree/main/asy).
     I have these because a bunch of legacy code sometimes uses them.
 
-Instead, Asymptote has a built-in module called `geometry` already,
+Instead, Asymptote has a
+[builtin `geometry` module](https://asymptote.sourceforge.io/doc/geometry.html),
 that does almost everything you would want in practice.
-You could read [the geometry manual](/static/geometry_en.pdf)
-for instructions on how to use it, or the page
-[on the Asymptote website](https://asymptote.sourceforge.io/doc/geometry.html),
-but you could probably also just copy Evan's code as a template
+Here is [the geometry manual in English](/static/geometry_en.pdf)
+(for some reason this is so hard to find I just uploaded a copy on my own server).
+You could probably also just copy Evan's code as a template
 and that might be easier than reading the fairly long manual.
 Read on to the next section to see how to do this.
 
