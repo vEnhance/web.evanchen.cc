@@ -54,6 +54,7 @@ Since I'm a nice person,
 I promise to not intentionally write a negative letter.[^regret]
 If I feel I cannot write you a letter with nonnegative value,
 I will decline your request instead.[^support]
+I do not use any AI to write or edit letters.
 
 [^regret]:
     Regrettably, I speak from experience here.
