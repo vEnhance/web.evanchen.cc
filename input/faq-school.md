@@ -174,9 +174,9 @@ I have nothing to add to this. Really.
 [^ao1]:
     Actually, this reminds me a lot of how I get tons of questions that say,
     "how do I get better at math", and when I say "do more hard problems",
-    they feel like I'm hiding something, because I won't tell them
-    exactly which books to read, or which country's problems to do,
-    or how many minutes to study each day, or whether X goal is "possible", etc.
+    they feel like I'm hiding something, because
+    [I won't tell them exactly which books to read, or which country's problems to do,
+    or how many minutes to study each day, or whether X goal is "possible", etc.](faq-contest.html#C-29)
     A lot of times I worry these study inquiries are _really_ saying
     "please give me an exact list of things to do which 100% guarantee success".
     And it simply doesn't work that way.
