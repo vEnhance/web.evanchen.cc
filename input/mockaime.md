@@ -10,9 +10,9 @@ _Satisfactory. Keep cooking._
 
 <div style="text-align: center;">
 <a href="static/otter-cooking.png">
-<img src="static/otter-cooking.png"
+<img src="static/otter-cooking-sm.png"
   alt="An otter in front of a blackboard cooking a dish."
-  width="400" />
+  width="384" />
 </a>
 </div>
 
