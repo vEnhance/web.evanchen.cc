@@ -128,6 +128,7 @@ Additional technical instructions:
   at least a week in advance if you asked ahead of time.
   So if it's less than a week until the deadline and the letter I promised
   hasn't been submitted yet, then please double-check on it.
+- You must waive your right to see the letter.
 
 ## {{ hl("decline", "Declined requests") }}
 
