@@ -50,8 +50,16 @@ OPAL 2 started on September 5, 2025.
 2. [Sine](/opals/sine.pdf), by Evan Chen
 3. [Flower](/opals/flower.pdf), by Evan Chen
 4. [Word Search](/opals/word-search.pdf), by Abel George Mathew, Evan Chen, and Manu Param
-5. ... for now, just the first four puzzles are uploaded. The rest will be uploaded later.
-   (If you don't want to wait, email me and I can send you the rest.)
+5. [Protoss Cookbook](/opals/protoss-cookbook.pdf), by Evan Chen
+6. [The Menu](/opals/the-menu.pdf), by Calvin Wang
+7. [Chain](/opals/chain.pdf), by Evan Chen
+8. [Forged Under Pressure](/opals/forged-under-pressure.pdf), by Žiga Oštir
+9. [Bitstream Player](/opals/bitstream-player.pdf), by Evan Chen
+10. [Conundrum](/opals/conundrum.pdf), by Evan Chen and Patrick Du
+11. [Function Composition](/opals/function-composition.pdf), by Jason Mao
+12. [The Great Debate](/opals/the-great-debate.pdf), by Calvin Wang and Patrick Du
+13. [Cryptanalysis](/opals/cryptanalysis.pdf), by Evan Chen
+14. [OTIS Art Gallery Problem](/opals/otis-art-gallery-problem.pdf) (meta), by Elaine Hou and Evan Chen
 
 ## {{ hl("opal1", "OPAL 1: Alice in OTISLand") }}
 
