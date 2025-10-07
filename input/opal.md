@@ -25,8 +25,8 @@ I don't have solutions, but you can email me with hint requests.
     In particular, puzzles might expect solvers to know about OTIS-related
     things; for example, one puzzle references a problem on the OTIS application.
     Other puzzles may assume other data specific to OTIS.
-    All needed information needed is publicly available (e.g. in the OTIS
-    syllabus), but you may have to know to look for it.
+    All needed information is publicly available (e.g. in the OTIS syllabus),
+    but you may have to know to look for it.
 
 ## {{ hl("check", "Static answer checker") }}
 
