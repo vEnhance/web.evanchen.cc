@@ -18,8 +18,8 @@ I don't have solutions, but you can email me with hint requests.
 [^acronym]: Stands for OTIS Puzzle Assembly Line.
 
 [^otisweb]:
-    The live website will track your progress,
-    provide pre-written hints, and grant rewards on completing the metapuzzle.
+    The live website will track your progress, provide pre-written hints,
+    confirm partial answers, and grant rewards on completing the metapuzzle.
 
 [^idiosyn]:
     In particular, puzzles might expect solvers to know about OTIS-related
