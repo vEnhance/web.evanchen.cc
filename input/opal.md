@@ -19,7 +19,7 @@ I don't have solutions, but you can email me with hint requests.
 
 [^otisweb]:
     The live website will track your progress, provide pre-written hints,
-    confirm partial answers, and grant rewards on completing the metapuzzle.
+    and grant rewards on completing the metapuzzle.
 
 [^idiosyn]:
     In particular, puzzles might expect solvers to know about OTIS-related
@@ -40,7 +40,8 @@ I don't have solutions, but you can email me with hint requests.
 <script src="/static/opal-checker.js"></script>
 
 The static checker above can be used to check a final answer to any OPAL puzzle.
-Partial answer confirmation not supported.
+A few puzzles will also confirm partial answers if you're close
+(the checker will say "keep going!" instead of just "incorrect").
 
 ## {{ hl("opal2", "OPAL 2: Museum of OTIS Things") }}
 

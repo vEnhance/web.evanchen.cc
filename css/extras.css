@@ -122,6 +122,12 @@ div.photo-gallery a:hover > img {
   border: 1px solid #c3e6cb;
 }
 
+.result.partial {
+  background-color: #c4daed;
+  color: #152457;
+  border: 1px solid #93cbe6;
+}
+
 .result.error {
   background-color: #f8d7da;
   color: #721c24;

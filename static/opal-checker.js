@@ -31,7 +31,9 @@ async function checkAnswer(userInput) {
   const hashedInput = await hashAnswer(normalized);
 
   // Check if hash exists in the answer list
-  return ANSWER_HASHES.includes(hashedInput);
+  if (ANSWER_HASHES.includes(hashedInput)) return 1;
+  else if (PARTIAL_HASHES.includes(hashedInput)) return 2;
+  return 0;
 }
 
 // DOM utility functions for easy integration
@@ -58,12 +60,15 @@ function setupAnswerChecker(inputSelector, buttonSelector, resultSelector) {
     button.textContent = "Checking...";
 
     try {
-      const isCorrect = await checkAnswer(userAnswer);
+      const verdict = await checkAnswer(userAnswer);
 
-      if (isCorrect) {
+      if (verdict === 1) {
         result.textContent = "✓ Correct!";
         result.className = "result success";
         input.value = "";
+      } else if (verdict === 2) {
+        result.textContent = "‼ Keep going!";
+        result.className = "result partial";
       } else {
         result.textContent = "✗ Incorrect answer";
         result.className = "result error";
@@ -92,7 +97,10 @@ function setupAnswerChecker(inputSelector, buttonSelector, resultSelector) {
 // Initialize the answer checker when the page loads
 document.addEventListener("DOMContentLoaded", function () {
   // Check if ANSWER_HASHES is loaded
-  if (typeof ANSWER_HASHES === "undefined") {
+  if (
+    typeof ANSWER_HASHES === "undefined" ||
+    typeof PARTIAL_HASHES === "undefined"
+  ) {
     document.getElementById("result").textContent =
       "Error: Answer hashes not loaded. Run generate_hashes.py first!";
     document.getElementById("result").className = "result error";
