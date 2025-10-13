@@ -78,17 +78,22 @@ or (less preferably) email me.
 - Contact: $\text{olympicmathtutor}@\text{gmail}{.}\text{com}$
 - Website: [olympicmathtutor.com](https://olympicmathtutor.com/)
 - Open to both 1:1 and group lessons.
-- I'm Luka Macharashvili, a mathematician with a passion for nurturing young talents
-  and sharing my love for mathematics. My journey in the world of problem-solving
-  began with a remarkable achievement as a 2019 IMO medalist. In 2023, I had the
-  privilege of leading the Georgian team at the Romanian Master of Mathematics (RMM)
-  and Balkan Mathematical Olympiad (BMO). Furthermore, I'm honored to have tutored
-  the 2023 IMO Gold medalist, guiding them towards their impressive success.
-  If you're eager to explore the fascinating world of mathematics, you can find me
+- I'm Luka Macharashvili, a mathematician who loves helping young students grow
+  and sharing my passion for mathematics. My journey in problem-solving began
+  with earning a medal at the 2019 International Mathematical Olympiad (IMO).
+  In 2023, I had the honor of leading the Georgian team at the Romanian Master
+  of Mathematics (RMM) and the Balkan Mathematical Olympiad (BMO). I’m also proud
+  to have taught the 2023 and 2024 IMO Gold medalists.
+  In 2025, my students achieved great results — one represented the USA team at
+  RMM 2025 and won a Silver Medal, while another took 2nd place at the European
+  Girls’ Mathematical Olympiad (EGMO 2025) as an official participant.
+  I have worked with many students preparing for American competitions such as
+  the AMC and AIME, helping them improve problem-solving skills, qualify for the
+  AIME, and advance toward USA(J)MO level.
+  If you’d like to explore the exciting world of mathematics, you can find me
   on my YouTube channel (https://www.youtube.com/@OlympicMathTutor).
-  With over three years of experience in IMO preparation and more than a year dedicated
-  to AIME and AMC, I'm ready to help you achieve your mathematical aspirations.
-  Let's embark on this mathematical journey together!
+  With over five years of experience in IMO training and strong knowledge of
+  AIME and AMC preparation, I’m ready to help you reach your goals.
 
 ## {{ hl("soroush", "Soroush Rezaei") }}
 
