@@ -36,19 +36,6 @@ or (less preferably) email me.
   We are a nonprofit and our program costs only \$90 for 3 months.
 - Evan is an advisor/board member for Athemath (but not an instructor).
 
-## {{ hl("mast", "MAST") }}
-
-- Primary contact: Dennis Chen
-  ($\text{dchen}\texttt{@}\text{mathadvance}{.}\text{org}$)
-- Website: [https://dennisc.net/apply-2023.pdf](https://dennisc.net/apply-2023.pdf)
-- Scheduled group meetings: Once a week Sunday 3 PM - ~4 PM **Eastern**, for ~10
-  lessons each semester, with breaks for major contests (see AMCs) and possibly
-  instructor life events (e.g. midterms and finals).
-- Unlike previous iterations of MAST, this time instructors will
-  lead small group lessons for borderline to mid-level AIME qualifiers.
-  There is a short application process and pricing is \$100 for 10 lessons
-  each semester.
-
 ## {{ hl("mathzone", "Math Zone") }}
 
 - Primary contact: Galin Totev
@@ -71,31 +58,6 @@ or (less preferably) email me.
   students in elite schools to those overcoming challenges in math. This proven method
   has guided International Mathematical Olympiad medalists, national and regional contest
   winners, top SAT scorers, and students striving for excellence in their school exams.
-
-## {{ hl("pleiades", "Pleaides") }}
-
-- Primary contact: [Ram Goel](https://www.imo-official.org/participant_r.aspx?id=31808)
-  ($\text{pleiadesacad}\texttt{@}\text{gmail}{.}\text{com}$)
-- Website: [pleiades.academy](https://pleiades.academy/)
-- The math program is approximately 3:30 group tutoring
-  (3-4 teachers, 20-30+ students).
-- Pleiades Academy is a 12-week STEM training program created by 7 MIT
-  students who've participated in and won Olympiads and other competitions at
-  the international and national levels (medalists at IMO, IPhO, IOAA, STS
-  finalists, ISEF winners, etc.). Students will reach the next level of their
-  academic and Olympiad potential through rigorous coaching and assignments
-  while also meeting a community of like-minded peers.
-  We offer training in a variety of Olympiad subjects, including Math,
-  Computer Science, Physics, Astronomy, and Chemistry!
-
-## {{ hl("tutorlyte", "Tutorlyte") }}
-
-- Primary contact: [Dylan Yu](https://yu-dylan.github.io/)
-  ($\text{dylanyu66}\texttt{@}\text{gmail}{.}\text{com}$)
-- Website: [tutorlyte.github.io](https://tutorlyte.github.io/)
-- 1:1 and group lessons offered
-- Tutorlyte is a tutoring program focused on helping students
-  with difficult competition and school curriculum.
 
 # {{ hl("individuals", "Individuals") }}
 
