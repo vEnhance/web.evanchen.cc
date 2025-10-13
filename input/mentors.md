@@ -61,18 +61,6 @@ or (less preferably) email me.
 
 # {{ hl("individuals", "Individuals") }}
 
-## {{ hl("alex", "Alex Villaro Krüger") }}
-
-- Contact: $\text{alex}@\text{drechslerspil}{.}\text{dk}$
-- 1:1 instruction
-- I'm interested in tutoring one on one with students who are interested in
-  olympiads and in exploring problems over a longer time (for instance problems
-  leading to existing theory). I study mathematics in Moscow, but I am from
-  Denmark where I have taken initiative to Nordic participation in
-  [RMM](https://en.wikipedia.org/wiki/Romanian_Master_of_Mathematics_and_Sciences),
-  among other things. However, I do not have personal experience in US specific
-  olympiads such as AIME.
-
 ## {{ hl("luka", "Luka Macharashvili") }}
 
 - Contact: $\text{olympicmathtutor}@\text{gmail}{.}\text{com}$
