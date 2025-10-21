@@ -8,7 +8,7 @@ indent: 1
 
 This is a [now page](https://nownownow.com/about).
 It's my public answer to "what have you been up to lately"?
-Last updated 24 July 2025.
+Last updated 21 October 2025.
 
 ## Coordinates
 
@@ -38,6 +38,8 @@ near [Duke](https://www.duke.edu).
 
 ## Recent checkpoints
 
+- OTIS released its [second puzzle hunt](opal.html).
+
 - I had a busy summer in 2025, where among other things,
   I taught at [MOP](mop.html) as assistant director,
   visited the [Duluth REU](https://sites.google.com/view/gallian-reu/home),
@@ -50,7 +52,7 @@ near [Duke](https://www.duke.edu).
 
 - In January 2025 I finished a [multivariable calculus textbook](1802.html)
   that I wrote primarily during the fall of 2024,
-  when I was teaching a recitation section.
+  when I was [teaching a recitation section](https://blog.evanchen.cc/2025/08/08/teaching-multivar/).
   That book is now on [MIT OpenCourseWare](https://ocw.mit.edu/courses/res-18-016-multivariable-calculus-recitation-notes-fall-2024/).
 
 - In December 2024 I defended my
