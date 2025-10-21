@@ -115,26 +115,28 @@ See also [Geoff Smith's page][geoff].
   This is among the best general problem collections I've seen.
   (CMUMC is Carnegie Mellon University Math Club, and POTD means Problem of the Day.)
 
-- [Counting Rocks! An Introduction to Combinatorics](https://arxiv.org/abs/2108.04902),
-  by Henry Adams, Kelly Emmrich, Maria Gillespie, Shannon Golden, Rachel Pries.
-  Freely available on arXiv.
-  This is a beginner textbook that starts from pre-olympiad content
-  (e.g. binomial coefficients)
-  to some early olympiad-level material.
-  It also has some linked video lectures.
+- Combinatorics textbooks in increasing difficulty order:
+  - [Counting Rocks! An Introduction to Combinatorics](https://arxiv.org/abs/2108.04902),
+    by Henry Adams, Kelly Emmrich, Maria Gillespie, Shannon Golden, Rachel Pries.
+    Freely available on arXiv.
+    This is a beginner textbook that starts from pre-olympiad content
+    (e.g. binomial coefficients)
+    to some early olympiad-level material.
+    It also has some linked video lectures.
 
-- [An Exploration of Olympiad Combinatorics, by Rushil Mathur](https://www.rushilmathur.com/combinatorics-book).
+  - [An Exploration of Olympiad Combinatorics, by Rushil Mathur](https://www.rushilmathur.com/combinatorics-book).
 
-- [Olympiad Combinatorics, by Pranav A. Sriram](https://www.aops.com/community/c6h601134).
-  The individual chapters are located in posts #1, #11, #49.
-  This is an intermediate-advanced textbook.
+  - [Olympiad Combinatorics, by Pranav A. Sriram](https://www.aops.com/community/c6h601134).
+    The individual chapters are located in posts #1, #11, #49.
+    This is an intermediate-advanced textbook.
 
-- [Olympiad NT through Challenging Problems](https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
-  is an introductory olympiad number theory text,
-  at a level somewhat easier than what my own number theory handouts assume.
+- Number theory textbooks in increasing difficulty order:
+  - [Olympiad NT through Challenging Problems](https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/olympiad-number-theory.pdf), by Justin Stevens,
+    is an introductory olympiad number theory text,
+    at a level somewhat easier than what my own number theory handouts assume.
 
-- [Modern Olympiad Number Theory](https://aops.com/community/c6h2344755), by Aditya Khurmi.
-  More olympiad-oriented number theory textbook.
+  - [Modern Olympiad Number Theory](https://aops.com/community/c6h2344755), by Aditya Khurmi.
+    More olympiad-oriented number theory textbook.
 
 - [Problems from the Book](https://maa.org/press/maa-reviews/problems-from-the-book)
   by Titu Andreescu and Gabriel Dospinescu.
