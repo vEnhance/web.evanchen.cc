@@ -34,7 +34,8 @@ Please check the [full rules and procedures][rules].
 
 # {{ hl("current", "USEMO 2025") }}
 
-- You can [download the problems file for USEMO 2024 now](/exams/USEMO-2024.pdf).
+- [Day 1 and 2 problems are posted here now](/exams/USEMO-2025.pdf),
+  for people not participating who still want to see them.
 - Registration opens around October 1
   on [AoPS portal](https://aops.com/contests/usemo/).
   It remains open until end-of-day October 24 or when capacity is reached.
