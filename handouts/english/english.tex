@@ -536,7 +536,7 @@ If you're a beginner, you probably shouldn't worry about this at all.
 But here is some advice for intermediate-level students
 who want to refine their writing style further.
 
-I think in a lot of cases the students think there's a sort of dial on
+I think in a lot of cases students think there's a sort of dial on
 ``how much detail should I include?'',
 like a microscope you could zoom in or zoom out on.
 If that was true, you just need to change the threshold,
@@ -588,7 +588,8 @@ where the example is achieved by setting
 \end{equation}
 Let's focus on just the verification that \eqref{eq:egmo_construction}
 does indeed produce exactly $\binom{n-1}{2}+1$ interesting pairs.
-Here are again two ways you could write that verification.
+Here are again two ways you could write that verification.\footnote{The
+  verbose example is adapted from a real write-up, with permission.}
 
 \subsubsection*{❌ Verbose way to write the verification.}
 To see that \eqref{eq:egmo_construction} gives $\binom{n-1}{2}+1$ interesting pairs,
@@ -616,19 +617,18 @@ Indeed:
   \item If $i>1$ and $j<n$, then $a_j - a_i = \frac{2a_j-2a_i}{2} = \frac{a_{j+1}-a_{i+1}}{2}$.
   \item If $i=n-1$ and $j=n$, then $a_j - a_i = 2^{n-3} = \frac{a_n - a_1}{2}$.
 \end{itemize}
-But if $1 \le i \le n-2$ and $j=n$, then
-\[ 2(a_n - a_i) \geq  2(2^{n-2} - 2^{n-4}) = 2^{n-1} - 2^{n-3} > 2^{n-2} = a_n - a_1
-  \ge a_\ell - a_k \]
+But if $i \le n-2$ and $j=n$, then
+\[ a_n - a_i \geq 2^{n-2} - 2^{n-4} > 2^{n-3} = \frac{a_n - a_1}{2}
+  \ge \frac{a_\ell - a_k}{2} \]
 for any $1 \le k < \ell \le n$, so these $n-2$ pairs are uninteresting.
 This gives a count of $\binom{n}{2} - (n-2) = \binom{n-2}{2}+1$ interesting pairs.
 
 \subsubsection*{💬 Commentary.}
 Nothing in the verbose solution is unclear or incomplete \emph{per se},
-unlike some of the bad solutions we showed at the beginning of these notes.
+unlike some of the bad solutions we showed in \Cref{sec:examples}.
 (The bad examples in \Cref{sec:examples} were missing so much explanation
 that a reader might not understand them at all.)
-Still, note how a little bit of planning and organization
-can improve both readability and conciseness.
+Still, note how much difference a little bit of planning and organization can make.
 
 The verbose solution reads a bit like a stream of consciousness,
 where the student just wrote the steps in the order they thought of.
