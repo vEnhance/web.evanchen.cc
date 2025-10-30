@@ -4,7 +4,7 @@
 \begin{document}
 \title{Remarks on English}
 \subtitle{a.k.a.\ Advice for writing proofs}
-\date{13 December 2023}
+\date{30 October 2025}
 \maketitle
 
 \epigraph{Exposition, criticism, appreciation, is work for second-rate minds.}
@@ -544,7 +544,7 @@ like a microscope you could zoom in or zoom out on.
 If that was true, you just need to change the threshold,
 zooming out to the perfect setting to satisfy the reader.
 
-But I have found this is usually \emph{not} the issue.
+But I have found that ``too much detail'' is usually \emph{not} the issue.
 Most of the time, when solutions seem to be too long,
 \alert{it's due to disorganized writing that cannot be fixed with the delete key}.
 You need to actually \emph{rewrite} the sentences, not just cut parts out.
@@ -582,8 +582,7 @@ To illustrate this, consider the following example problem.
   For each $n\geq 3$, find the largest possible number of interesting pairs
   in a sequence of length $n$.
 \end{example}
-The answer to this problem turns out to be $\binom{n-1}{2}+1$,
-where the example is achieved by setting
+The answer to this problem turns out to be $\binom{n-1}{2}+1$, achieved by setting
 \begin{equation}
   a_1 = 0, \qquad a_k = 2^{k-2} \text{ for all } k \ge 2
   \label{eq:egmo_construction}
@@ -612,18 +611,18 @@ less than the double of $a_n-a_1$.
 
 \subsubsection*{✅ Concise way to write the verification.}
 We claim that for \eqref{eq:egmo_construction},
-all $(i,j)$ are interesting \emph{except} for the cases where $j = n$ and $i \in \{1,2,\dots,n-2\}$.
+all $(i,j)$ are interesting \emph{except} for the case where $j = n$ and $i \in \{1,2,\dots,n-2\}$.
 Indeed:
 \begin{itemize}
   \item If $i=1$ and $j<n$, then $a_j - a_i = 2^{j-2} = \frac{a_{j+1}-a_j}{2}$.
   \item If $i>1$ and $j<n$, then $a_j - a_i = \frac{2a_j-2a_i}{2} = \frac{a_{j+1}-a_{i+1}}{2}$.
   \item If $i=n-1$ and $j=n$, then $a_j - a_i = 2^{n-3} = \frac{a_n - a_1}{2}$.
 \end{itemize}
-But if $i \le n-2$ and $j=n$, then
+But if $i \le n-2$ and $j=n$, then for any $1 \le k < \ell \le n$ we have
 \[ a_n - a_i \geq 2^{n-2} - 2^{n-4} > 2^{n-3} = \frac{a_n - a_1}{2}
   \ge \frac{a_\ell - a_k}{2} \]
-for any $1 \le k < \ell \le n$, so these $n-2$ pairs are uninteresting.
-This gives a count of $\binom{n}{2} - (n-2) = \binom{n-2}{2}+1$ interesting pairs.
+so these $n-2$ pairs are uninteresting.
+This gives a count of $\binom{n}{2} - (n-2) = \binom{n-1}{2}+1$ interesting pairs.
 
 \subsubsection*{💬 Commentary.}
 Nothing in the verbose solution is unclear or incomplete \emph{per se},
