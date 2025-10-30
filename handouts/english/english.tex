@@ -11,13 +11,17 @@
 {G.\ H.\ Hardy}
 
 \tableofcontents
+\newpage
 
 \section{Examples of good and bad writing that we'll refer back to}
-Following the examples-first philosophy, here are two problems with commentary
-that we'll refer back to when we provide concrete advice.
+\label{sec:examples}
+Following the examples-first philosophy, here are two examples with commentary.
 
 \subsection{Introductory example: USAMO 2014 Problem 1}
 This example is meant to be short and more accessible.
+(Thanks to Mitchell Lee for some suggestions in June 2018 how to make the
+bad solution even worse.)
+
 \begin{example}
   [USAMO 2014/1]
   Let $a$, $b$, $c$, $d$ be real numbers such that $b-d \ge 5$ and all zeros
@@ -25,17 +29,14 @@ This example is meant to be short and more accessible.
   Find the smallest value the product $(x_1^2+1)(x_2^2+1)(x_3^2+1)(x_4^2+1)$ can take.
 \end{example}
 
-Here are two ways you could write the solution.\footnote{Former
-solution worsened June 2018, with suggestions from Mitchell Lee.}
-
-\subsection*{❌ Bad solution.}
+\subsubsection*{❌ Bad solution.}
 $x_j^2+1 = (x-i)(x+i) \forall j$
 $\implies \prod x_j^2+1 = \prod (x_j+i)(x_j-i) = P(i)P(-i)$
 so $(b-d-1)^2 + (a-c)^2$.
 $\because x_j = 1 \rightarrow 16$ and $\binom42-1 = 5$.
 $b-d \ge 5$, so $\ge 16$.
 
-\subsection*{✅ Good solution.}
+\subsubsection*{✅ Good solution.}
 The answer is $\boxed{16}$.
 This can be achieved by taking $x_1 = x_2 = x_3 = x_4 = 1$,
 whence the product is $2^4 = 16$, and $b-d = 5$.
@@ -55,8 +56,8 @@ We prove:
 \end{proof}
 Since $b-d-1 \ge 4$, we get the desired lower bound of $4^2+0^2=16$.
 
-\subsection*{💬 Commentary.}
-These solutions have the same mathematical content.
+\subsubsection*{💬 Commentary.}
+These solutions have the same math content.
 But notice how in the better solution:
 \begin{itemize}
   \ii The second solution makes it clear
@@ -74,7 +75,6 @@ In this case, the difference is not so bad because the
 problem and solution are quite short.
 However, in more involved problems the ``not-so-good solution''
 becomes the ``completely unreadable solution''.
-
 
 \subsection{Advanced example: USAMO 2014 Problem 4}
 This example is meant to show what a more involved solution could look like.
@@ -96,7 +96,7 @@ if it takes a while to understand even the ``good'' solution; it's not an easy p
   win in a finite number of moves, or prove that no such minimum value exists.
 \end{example}
 
-\subsection*{❌ Bad solution.}
+\subsubsection*{❌ Bad solution.}
 Impose coordinates $(x,y)$.
 If $B$ always removes counters from cells $(x,y)$ with $x + y \equiv 0 \pmod 3$,
 then any line by $A$ gets interrupted so worst case $A$ gets up to $k=2+1+2=5$.
@@ -109,7 +109,7 @@ Eventually one of the inner counters is surrounded by a full hexagon,
 so $A$ fills in the other gap,
 which creates an double threat for $A$'s next turn so $A$ wins, answer $6$.
 
-\subsection*{✅ Good solution.}
+\subsubsection*{✅ Good solution.}
 The answer is $k = 6$.
 
 \paragraph{Proof that $A$ cannot win if $k=6$.}
@@ -246,7 +246,7 @@ Then, regardless of what move $B$ plays,
 one of the two choices of moves marked in red lets $A$ win.
 Thus, we have described a winning strategy when $k=5$ for $A$.
 
-\subsection*{💬 Commentary.}
+\subsubsection*{💬 Commentary.}
 The bad solution doesn't give definitions of any of the objects it is using,
 such as how the coordinates $(x,y)$ are specified,
 or the meanings of any of the made-up terms like ``line by $A$'',
@@ -262,8 +262,6 @@ and smashes everything into one paragraph.
 You can read lots of solutions to this problem on AoPS at
 \url{https://aops.com/community/p3478584}
 if you want to see more examples of good and bad writing.
-
-\newpage
 
 \section{Concrete advice}
 Here are some tips of mine that I don't think are stressed enough.
@@ -529,6 +527,117 @@ If not, consider reading
   or even the environment it was supposed to run.
   \end{itemize}
 \end{quote}
+
+\section{Writing concisely (for intermediate students)}
+\renewcommand{\theequation}{\fnsymbol{equation}}
+On a few occasions I'm approached by students who feel like their solutions
+are \emph{too} verbose and want advice on how to trim them down.
+If you're a beginner, you probably shouldn't worry about this at all.
+But here is some advice for intermediate-level students
+who want to refine their writing style further.
+
+I think in a lot of cases the students think there's a sort of dial on
+``how much detail should I include?'',
+like a microscope you could zoom in or zoom out on.
+If that was true, you just need to change the threshold,
+zooming out to the perfect setting to satisfy the reader.
+
+But I have found this is usually \emph{not} the issue.
+Most of the time, when solutions seem to be too long,
+\alert{it's due to disorganized writing that cannot be fixed with the delete key}.
+You need to actually \emph{rewrite} the sentences, not just cut parts out.
+
+For example, one way you can tighten writing is to plan ahead! That means:
+\begin{itemize}
+  \ii Organize your proof into a tight sequence of discrete claims.
+  \ii When working with cases, split them neatly, e.g., with bullet points.
+  \ii Write logical steps forwards, not backwards
+  (see ``sdrawkcaB knihT, Write Forwards'' from the
+  \href{https://www.aops.com/articles/how-to-write-solution}{AoPS article earlier}
+  for more on that).
+  The TL;DR is:
+  \begin{itemize}
+    \ii When possible, write like this: ``$X$ implies $Y$ thus $Z$''.
+    \ii Don't write like this: ``we want $Z$ to be true,
+    and if $Y$ was true it would imply $Z$,
+    and $X$ is equivalent to $Y$ true, but $X$ is given, so $Z$ holds''.\footnote{One
+      of the coordinators for the geometry problem IMO 2025/2
+      mentioned to me this was a common issue that slowed down grading that problem.
+      In IMO 2025/2, several key points had many possible definitions and properties,
+      and students were often unclear about which things were definitions,
+      which things were proven from which others, etc.}
+  \end{itemize}
+  This applies both at the level of individual sentences,
+  and also at the overall shape of the entire solution.
+\end{itemize}
+To illustrate this, consider the following example problem.
+\begin{example}
+  [EGMO 2024/4]
+  For a sequence $a_1<a_2<\dots<a_n$ of integers,
+  a pair $(a_i,a_j)$ with $1\leq i<j\leq n$ is called \emph{interesting}
+  if there exists a pair $(a_k,a_\ell)$ of integers with $1\leq k<\ell\leq n$ such that
+  \[ \frac{a_\ell-a_k}{a_j-a_i}=2. \]
+  For each $n\geq 3$, find the largest possible number of interesting pairs
+  in a sequence of length $n$.
+\end{example}
+The answer to this problem turns out to be $\binom{n-1}{2}+1$,
+where the example is achieved by setting
+\begin{equation}
+  a_1 = 0, \qquad a_k = 2^{k-2} \text{ for all } k \ge 2
+  \label{eq:egmo_construction}
+\end{equation}
+Let's focus on just the verification that \eqref{eq:egmo_construction}
+does indeed produce exactly $\binom{n-1}{2}+1$ interesting pairs.
+Here are again two ways you could write that verification.
+
+\subsubsection*{❌ Verbose way to write the verification.}
+To see that \eqref{eq:egmo_construction} gives $\binom{n-1}{2}+1$ interesting pairs,
+note that for any $2\leq i < j \leq n-1$, we have that
+\[ \frac{a_{j+1} - a_{i+1}}{a_j - a_i} = \frac{2a_j-2a_i}{a_j-a_i} = 2, \]
+so the $\binom{n-2}{2}$ pairs $(a_i, a_j)$ for $2\leq i<j \leq n-1$ are interesting.
+Furthermore, the $n-2$ pairs $(a_1, a_j)$ for $2\leq j\leq n-1$ are interesting, since
+\[ \frac{a_{j+1} - a_1}{a_j-a_1} = \frac{a_{j+1}}{a_j} = \frac{2^{j-1}}{2^{j-2}} = 2. \]
+Also, $(a_{n-1}, a_n)$ is interesting because
+\[ \frac{a_n-a_0}{a_n - a_{n-1}} = \frac{2^{n-2}}{2^{n-3}} = 2, \]
+so we have a total of $\binom{n-2}{2} + (n-2) + 1 = \frac{n-1}{2} + 1$ interesting pairs so far,
+and the other pairs are of the form $(a_i, a_n)$ for $1\leq i\leq n-2$,
+which are all uninteresting because
+\[ 2(a_n - a_i) \geq  2(2^{n-2} - 2^{n-4}) = 2^{n-1} - 2^{n-3} > 2^{n-2} = a_n - a_1, \]
+so the double of $a_n-a_i$ cannot be a difference $a_\ell-a_k$
+because the largest such difference is $a_n-a_1$, which we've just shown is
+less than the double of $a_n-a_1$.
+
+\subsubsection*{✅ Concise way to write the verification.}
+We claim that for \eqref{eq:egmo_construction},
+all $(i,j)$ are interesting \emph{except} for the cases where $j = n$ and $i \in \{1,2,\dots,n-2\}$.
+Indeed:
+\begin{itemize}
+  \item If $i=1$ and $j<n$, then $a_j - a_i = 2^{j-2} = \frac{a_{j+1}-a_j}{2}$.
+  \item If $i>1$ and $j<n$, then $a_j - a_i = \frac{2a_j-2a_i}{2} = \frac{a_{j+1}-a_{i+1}}{2}$.
+  \item If $i=n-1$ and $j=n$, then $a_j - a_i = 2^{n-3} = \frac{a_n - a_1}{2}$.
+\end{itemize}
+But if $1 \le i \le n-2$ and $j=n$, then
+\[ 2(a_n - a_i) \geq  2(2^{n-2} - 2^{n-4}) = 2^{n-1} - 2^{n-3} > 2^{n-2} = a_n - a_1
+  \ge a_\ell - a_k \]
+for any $1 \le k < \ell \le n$, so these $n-2$ pairs are uninteresting.
+This gives a count of $\binom{n}{2} - (n-2) = \binom{n-2}{2}+1$ interesting pairs.
+
+\subsubsection*{💬 Commentary.}
+Nothing in the verbose solution is unclear or incomplete \emph{per se},
+unlike some of the bad solutions we showed at the beginning of these notes.
+(The bad examples in \Cref{sec:examples} were missing so much explanation
+that a reader might not understand them at all.)
+Still, note how a little bit of planning and organization
+can improve both readability and conciseness.
+
+The verbose solution reads a bit like a stream of consciousness,
+where the student just wrote the steps in the order they thought of.
+In particular, the last seven lines are actually a single run-on sentence.
+That's a clear sign of trouble!
+
+In contrast, the concise solution states up-front which pairs $(i,j)$
+are uninteresting, divides it into bullets for each of the cases,
+and then executes each one in a self-contained way.
 
 \appendix
 
