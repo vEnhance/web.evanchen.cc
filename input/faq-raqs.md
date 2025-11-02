@@ -290,6 +290,47 @@ I also have a blog post on
 [some thoughts from when I wrote my geometry book and more][thoughts]
 that might be relevant to problem-solving texts.
 
+Kevin Zhou also has a
+[nice passage on how good textbooks are typically written](https://knzhou.github.io/writing/Advice.pdf).
+I reproduced it below.
+
+(begin quote)
+
+Of course, books and courses also vary widely in quality,
+and it's important to avoid getting stuck on a poor one.
+To understand why, you have to consider how good textbooks are created in the first place.
+Usually, a teacher will start a course using an existing textbook.
+If they care enough, they'll consider a wide variety of approaches,
+then gradually synthesize a new one for their lectures, based on their preferences;
+perhaps it will be more modern, more mathematically rigorous, or more intuitive than the others.
+Then they'll start typing up lecture notes, and once those get refined enough,
+they can drop the textbook and have the students read the notes directly.
+Over many years, students will find errors and confusing spots in the notes,
+which the teacher fixes up, while accruing a large bank of classroom-tested,
+interesting questions from the annual problem sets and exams.
+Finally, the teacher staples all the materials together, and a new textbook is born.
+
+All of the books and courses I recommend in this document were made this way.
+There are two active ingredients in the process.
+The first is the students, who act as dedicated test-readers,
+pushing the teacher to improve their materials year after year.
+Books that aren't student tested tend to be plagued with issues,
+such as constant typos, trivial or nonsensical problems, huge jumps in difficulty, and crucial omissions.
+The second is the teacher's deep expertise.
+To write a good book, the teacher must know far more than what is actually contained in the book.
+This lets them identify the big picture, understand problem solving strategies,
+create new problems, and see the limitations of the usual formulas.
+Without this kind of expertise, books can still be clear, but they'll be missing something.
+They'll tend to have lots of unoriginal plug-and-chug problems,
+rigid advice that only works on such problems
+("never use rotating frames", "always begin by writing F = ma for every particle"),
+and generalizations that don't actually hold in the real world.
+Therefore, a reliable way to find good books and courses is to look for those
+that have been refined over a long period of time, by one or two professors,
+teaching a dedicated course at a good university.
+
+(end quote)
+
 ### {{ faq("R-13", "How do you navigate balancing doing things for prestige and enjoyment?") }}
 
 Varies from person to person, but here's a frame that helped me.
