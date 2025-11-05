@@ -69,8 +69,21 @@ You can submit late applications for the 2025-2026 school year
 up until the end of April 2026. See instructions below.
 
 - [Application homework and instructions](upload/otis-app-xi.pdf)
-- [Submission form](https://forms.gle/yDnoCMzkA15NNbT5A)
-- [Financial aid request form](https://forms.gle/JKoGbiSPFDqmoJDc8)
+- [Application portal at apply.evanchen.cc](https://apply.evanchen.cc)
+
+The application portal is a brand-new experiment (released November 2025)
+and I'm hoping it makes the application process a little smoother[^aidbad].
+Send me bug reports as you find them.
+
+[^aidbad]:
+    The main sore point before was that the financial aid application
+    used to be a separate Google form that people would often
+    forget to fill out, or put a wrong email address or different name, etc.
+    The script I used to upload financial aid onto OTIS-WEB
+    from the Google Form was also janky as hell and often mismatched.
+    I hope that with apply.evanchen.cc
+    I can stop having to deal with financial aid not making
+    it onto OTIS-WEB correctly.
 
 ## {{ hl("prereq", "Who can apply (aka, everyone)") }}
 
