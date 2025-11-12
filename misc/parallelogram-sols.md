@@ -44,9 +44,7 @@ Compute $AM = 84$.
 
 Now, let $A_1$ be the reflection of $A$ over $M$.
 We can compute
-\begin{align*}
-[AST] = [AA_1T] = \frac{AM^2 \sin \beta \sin \gamma}{2 \sin \left( \beta + \gamma \right)} = 7^2 \cdot 288 \cdot \frac{\frac{5}{13} \cdot \frac{3}{5}}{\frac{5}{13} \cdot \frac{4}{5} + \frac{12}{13} \cdot \frac{3}{5}} = 7^2 \cdot 288 \cdot \frac{15}{56} = 3780.
-\end{align*}
+$$[AST] = [AA_1T] = \frac{AM^2 \sin \beta \sin \gamma}{2 \sin \left( \beta + \gamma \right)} = 7^2 \cdot 288 \cdot \frac{\frac{5}{13} \cdot \frac{3}{5}}{\frac{5}{13} \cdot \frac{4}{5} + \frac{12}{13} \cdot \frac{3}{5}} = 7^2 \cdot 288 \cdot \frac{15}{56} = 3780.$$
 In that case, the desired quantity is
 $[ABC]-[AST] = 84 \cdot 7^2 - 3780 = \boxed{336}$.
 
