@@ -109,6 +109,7 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 
 - <b>Parallelograms</b> {{ handout_link("BMC_Parallelograms") }}
   All you have to do is construct a parallelogram!
+  Some terse solutions outlined [here][parallelogram-sols].
 
 - <b>BAMO Preparation</b> {{ handout_link("BMC_Int_BAMO_Prep") }}
   A combinatorially flavored practice session for the Bay Area Math Olympiad.
@@ -131,3 +132,4 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [dmtcs-wilf]: https://dmtcs.episciences.org/paper/view/id/4912
 [ejc-poset]: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i4p43
 [joc-orthomorphism]: https://www.intlpress.com/site/pub/pages/journals/items/joc/content/_home/index.php
+[parallelogram-sols]: https://github.com/vEnhance/web.evanchen.cc/blob/main/misc/parallelogram-sols.md
