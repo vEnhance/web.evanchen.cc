@@ -6,17 +6,10 @@ menu-position: 52
 
 ---
 
-By using the link
-
-<p style="text-align:center">
-  <a href="https://discord.gg/KzFXYwqRFX">https://discord.gg/KzFXYwqRFX</a>
-</p>
-
-you can join vEnhance's Discord server.
-This Discord server is centered around my
-[_Twitch Solves ISL_ stream](videos.html),
-so it is usually most active while the stream is live, or around that time.
-However, you should feel welcome to post math questions or discussion at any time.
+By using the invite code `uMYxM3DY` you can join vEnhance's Discord server.
+This Discord server broadcasts announcements about when
+[my Twitch stream will run](videos.html);
+you should feel welcome to post math questions or discussion at any time.
 
 <iframe src="https://discord.com/widget?id=780468665019269191&amp;theme=dark"
   width="350"
