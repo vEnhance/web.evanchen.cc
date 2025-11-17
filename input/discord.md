@@ -6,7 +6,7 @@ menu-position: 52
 
 ---
 
-By using the invite code `uMYxM3DY` you can join vEnhance's Discord server.
+By using the invite code `8JeSem2MNv` you can join vEnhance's Discord server.
 This Discord server broadcasts announcements about when
 [my Twitch stream will run](videos.html);
 you should feel welcome to post math questions or discussion at any time.
