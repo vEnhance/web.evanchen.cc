@@ -52,8 +52,14 @@ $[ABC]-[AST] = 84 \cdot 7^2 - 3780 = \boxed{336}$.
 
 ## Problem 8
 
-I don't remember anymore.
-Please submit a pull request if you know.
+Draw parallelogram $AMTN$ with center $Z$.
+Then $Z$ is the midpoint of $MN$ and $T$ is the midpoint of $BC$.
+By Ceva's theorem on triangle $PMN$,
+we get that $MY$, $NX$, and $PZ$ concur.
+Therefore, line $OP$ is the same as line $OZ$.
+Now the desired conclusion is equivalent to $H$, $T$, and the $A$-antipode on $(ABC)$ being collinear
+by a homothety of scale factor $2$ centered at $A$.
+This is well known (reflecting the orthocenter lemma).
 
 ## Problem 9 (Simson lines)
 
