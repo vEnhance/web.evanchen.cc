@@ -173,11 +173,11 @@ def get_card_trick() -> str:
     for n in range(0, 4):
         out += f"<h2>Card {n + 1}</h2>" + "\n"
         out += r'<div class="container trick-container">' + "\n"
-        out += f'<select class="form-select rank-select" id="rank-{n}">' + "\n"
+        out += f'<select class="rank-select" id="rank-{n}">' + "\n"
         for r in ranks:
             out += option_string.format(type="rank", name=n, value=r) + "\n"
         out += r"</select>" + "\n"
-        out += f'<select class="form-select suit-select" id="suit-{n}">' + "\n"
+        out += f'<select class="suit-select" id="suit-{n}">' + "\n"
         for s in suits:
             out += option_string.format(type="suit", name=n, value=s) + "\n"
         out += r"</select>" + "\n"
@@ -187,12 +187,15 @@ def get_card_trick() -> str:
     out += r"<h2>Card 5</h2>" + "\n"
     out += r'<h1 id="answer">...</h1>' + "\n"
     out += r'<button type="button" class="btn" id="trick-button"></button>' + "\n"
-    out += r'<script type="text/javascript" src="/static/trick.min.js"></script>' + "\n"
     out += (
-        r'<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>'
+        r'<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slim-select@latest/dist/slimselect.min.css" />'
         + "\n"
     )
-    out += r'<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />'
+    out += (
+        r'<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slim-select@latest/dist/slimselect.min.js"></script>'
+        + "\n"
+    )
+    out += r'<script type="text/javascript" src="/js/trick.js"></script>' + "\n"
     return out
 
 
