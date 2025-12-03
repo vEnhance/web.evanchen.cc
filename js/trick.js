@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
     rankSelects.push(
       new SlimSelect({
         select: `#rank-${i}`,
-      })
+      }),
     );
     suitSelects.push(
       new SlimSelect({
         select: `#suit-${i}`,
-      })
+      }),
     );
   }
 
@@ -96,32 +96,34 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  document.getElementById("trick-button").addEventListener("click", function () {
-    const data = getInputs();
-    if (!isValid(data)) {
-      return;
-    }
-    const [r0, r1, r2, r3, s0, s1, s2, s3] = data;
-    const s = s0;
-    const [a, b, c] = [100 * r1 + s1, 100 * r2 + s2, 100 * r3 + s3];
-    let r = r0;
-    if (a < b && a < c) {
-      r += b < c ? 1 : 2;
-    } else if (a > b && a > c) {
-      r += b < c ? 5 : 6;
-    } else {
-      r += b < c ? 3 : 4;
-    }
-    r %= 13;
-    document.getElementById("answer").innerHTML =
-      "Last card: " + ranks[r + 1] + " " + suits[s + 1];
-    done = true;
-    const button = document.getElementById("trick-button");
-    button.disabled = true;
-    button.classList.remove("btn-primary");
-    button.classList.add("btn-success");
-    button.innerHTML = "Done!";
-  });
+  document
+    .getElementById("trick-button")
+    .addEventListener("click", function () {
+      const data = getInputs();
+      if (!isValid(data)) {
+        return;
+      }
+      const [r0, r1, r2, r3, s0, s1, s2, s3] = data;
+      const s = s0;
+      const [a, b, c] = [100 * r1 + s1, 100 * r2 + s2, 100 * r3 + s3];
+      let r = r0;
+      if (a < b && a < c) {
+        r += b < c ? 1 : 2;
+      } else if (a > b && a > c) {
+        r += b < c ? 5 : 6;
+      } else {
+        r += b < c ? 3 : 4;
+      }
+      r %= 13;
+      document.getElementById("answer").innerHTML =
+        "Last card: " + ranks[r + 1] + " " + suits[s + 1];
+      done = true;
+      const button = document.getElementById("trick-button");
+      button.disabled = true;
+      button.classList.remove("btn-primary");
+      button.classList.add("btn-success");
+      button.innerHTML = "Done!";
+    });
 
   buttonSetState(false);
 });
