@@ -215,25 +215,4 @@ We had a lot of different lounge spaces, which also had names:
 
 Also, the Selleck dining is _amazing_. Just saying.
 
-<script type="text/javascript">
-$(() => {
-  $('.list-chooser a').attr('target', '_blank');
-  $('.empty-chooser').html('<ul></ul>');
-  $(".hidden").each((index, el) => {
-    const heading = $(el).attr('data-header');
-    const h3 = $(`<h3>${heading}</h3>`);
-    const close = $(`<button type="button" class="close"
-    data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-    </button>`);
-    h3.append(close);
-    close.on('click', () => { $(el).hide(); });
-    $(el).prepend(h3);
-    const year = $(el).attr('data-year');
-    const link = $(`<li><a href="javascript:void(0);">${year}</a></li>`);
-    const ambient = $(el).prevAll('.empty-chooser').first().find('ul');
-    ambient.append(link);
-    link.on('click', () => { $('.hidden').hide(); $(el).show(); });
-  });
-});
-</script>
+<script src="/js/mop.js"></script>
