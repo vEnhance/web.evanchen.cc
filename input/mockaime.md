@@ -23,59 +23,42 @@ whose answers are integers between $0$ and $999$.
 As the name suggests, it is yet another unofficial paper intended to emulate the
 [American Invitational Mathematics Exam][aime].
 
-Starting from 2025, we offer two versions of the test, which are different:
-
-1. The _OTIS Mock AIME I_ is going to be tough.
-   It will definitely be harder than the actual AIME, by perhaps 2 to 4 problems.
-   But more tangibly, it will also have _significant artistic license_.[^vision]
-   Problems will freely assume IMO-style background throughout the test,
-   and intentionally stretch the boundary of what constitutes an "AIME problem".
-
-2. The _OTIS Mock AIME II_ is meant to be more practically useful.
-   It will adhere more closely to the difficulty and style of past official AIME's.
-   There will inevitably still be some more IMO-flavored problems,
-   but they'll appear later in the ordering.
-
 The defining characteristic of the OTIS Mock AIME is that all the problems
 are composed by students from the [OTIS program](otis.html).
 That is, Evan runs this annual exam as a way to give his students
 a chance to try their hand at problem composition.
 
-Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing
-the cover artwork.
+In general[^2025] the OTIS Mock AIME will be somewhat harder than the actual AIME,
+by perhaps 2 to 4 problems.
+But more tangibly, it will also have _significant artistic license_.[^vision]
+Problems will freely assume IMO-style background throughout the test,
+and intentionally stretch the boundary of what constitutes an "AIME problem".
 
 [^vision]: I think of what the AIME could be, a vision of the one I see...
 
+[^2025]:
+    In 2025 we had a surprisingly good harvest and ran two AIME's that
+    year. For that year, the II was meant to look closer to a real-life AIME.
+
+Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing the cover art.
+
 ## {{ hl("current", "Current edition") }}
 
-The OTIS Mock AIME 2025 has concluded. You can download the problems below:
+The 2026 problems will come out on
+**Thursday December 18th, 2025** by noon Pacific time.
 
-- [Download OTIS 2025 Mock AIME I](/exams/OTIS-Mock-AIME-2025-I.pdf)
-- [Download OTIS 2025 Mock AIME II](/exams/OTIS-Mock-AIME-2025-II.pdf)
-- [Download solutions and results](/exams/sols-OTIS-Mock-AIME-2025.pdf)
-
-The 2024-2025 problems are also available as a
-[dataset on HuggingFace](https://huggingface.co/datasets/EpochAI/otis-mock-aime-24-25)
-for those of you interested in that kind of thing.
-See also [major AI models attempting the OTIS Mock AIME](https://epoch.ai/data/ai-benchmarking-dashboard).
-
-See you next year!
-
-<!--
 Logistics:
 
 - The problems file will provide a link to submit answers.
   No registration or pre-commitment is required.
 
 - If you'd like to submit for statistics/bragging, the deadline is
-  **Monday, January 20, 2025 at 11:59pm Pacific time** (for both tests).
+  **Tuesday, January 20, 2026 at 11:59pm Pacific time**.
   Please avoid public spoilers for the problems before that date.
 
 - Anyone will be able to download the exam and attempt the problems,
   and submit their answers for scoring.
   We may recognize high scores for bragging rights but don't otherwise offer prizes.
-
--->
 
 ## {{ hl("past", "Past exams") }}
 
@@ -88,6 +71,7 @@ Here is an [AoPS collection for all past threads](https://aops.com/community/c41
   [(thread)](https://aops.com/community/p33385624)
   [(AoPS I)](https://aops.com/community/c4180955)
   [(AoPS II)](https://aops.com/community/c4180956)
+  [(HuggingFace)](https://huggingface.co/datasets/EpochAI/otis-mock-aime-24-25)
 
 - 2024:
   [(problems)](/exams/OTIS-Mock-AIME-2024.pdf)
