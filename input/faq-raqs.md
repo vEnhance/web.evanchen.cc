@@ -272,7 +272,7 @@ A few pointers:
    I like the following image from [Math With Bad Drawings][math-with-bad-draw]
    (click to enlarge):
 
-   <a href="/static/int-rigor.jpg"><img src="/static/int-rigor.jpg" width="400"
+   <a href="/static/int-rigor.webp"><img src="/static/int-rigor.webp" width="400"
    alt="A good mathematician can make arguments intuitive OR rigorous. A great mathematician can make arguments intuitive AND rigorous. (Credits: Math With Bad Drawings.)"
    /></a>
 
