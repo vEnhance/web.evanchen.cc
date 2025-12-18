@@ -8,7 +8,7 @@ indent: 1
 
 This is a [now page](https://nownownow.com/about).
 It's my public answer to "what have you been up to lately"?
-Last updated 21 October 2025.
+Last updated 20 December 2025.
 
 ## Coordinates
 
@@ -20,7 +20,7 @@ near [Duke](https://www.duke.edu).
 
 - I'm still running [OTIS](otis.html), 10 years later.
   - For the 2025-2026 school year, OTIS will officially be a full-time job.
-    Accordingly, I finally [made OTIS into an LLC](https://www.instagram.com/p/DKcMIsUOXAZ/).
+    Hence, I finally [made OTIS into an LLC](https://www.instagram.com/p/DKcMIsUOXAZ/).
 
   - That said, I feel like OTIS hasn't evolved much in the last few years.
     The number of students has stabilized to around 750 per year, and
@@ -28,13 +28,31 @@ near [Duke](https://www.duke.edu).
     I feel like the program could use some fresh life.
 
   - I'm also thinking about what might happen beyond competitions.
-    In particular, the USA math contest system has a lot of serious issues now,
+    In particular, the USA math contest ecosystem is crumbling,
     and I don't want it to be the only pathway to math in the USA.
+
+- I have signed on with [OMEGA](https://omegausa.org) to help organize their first event.
+  OMEGA is a new organization hoping to develop their own math contest series
+  for students in the United States.
+  It has many long-term ambitious goals, but the first half-year
+  will be focused on running a single small event in May 2026 to get started.
+  Almost everything about this pilot event (as of December 2025) is still "TBD".
+  We certainly have our work cut out for us.
+
+- I am a math consultant for [Axiom Math](https://axiommath.ai).
+  To state my allegiances on the AI-in-math issue,
+  I'm most interested in formalization (rather than just
+  [feeding contest problems to LLM's for bragging on Twitter][epoch]).
+  I think making Lean into something that's practically usable
+  as a way to both verify and digitize proofs actually sounds pretty cool.
+  [arXiv:2311.00007](https://arxiv.org/pdf/2311.00007v1) has some food for thought.
 
 - Starting in January 2025, I've been occasionally studying some Korean.
   I don't really have any compelling reason why.
   I've just decided this is something I want to try.
   But I haven't made much progress.
+
+[epoch]: https://epoch.ai/gradient-updates/we-didnt-learn-much-from-the-imo
 
 ## Recent checkpoints
 
