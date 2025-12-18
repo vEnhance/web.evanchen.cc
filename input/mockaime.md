@@ -44,10 +44,13 @@ Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing
 
 ## {{ hl("current", "Current edition") }}
 
-The 2026 problems will come out on
-**Thursday December 18th, 2025** by noon Pacific time.
+We're live!
+
+[Download the 2026 problems](/exams/OTIS-Mock-AIME-2026.pdf){.btn .btn-success}
 
 Logistics:
+
+- The [2026 problems](/exams/OTIS-Mock-AIME-2026.pdf) are now posted.
 
 - The problems file will provide a link to submit answers.
   No registration or pre-commitment is required.
@@ -63,6 +66,10 @@ Logistics:
 ## {{ hl("past", "Past exams") }}
 
 Here is an [AoPS collection for all past threads](https://aops.com/community/c4180954).
+
+- 2026:
+  [(problems)](/exams/OTIS-Mock-AIME-2026.pdf)
+  [(thread)](https://aops.com/community/p36663514)
 
 - 2025:
   [(AIME I)](/exams/OTIS-Mock-AIME-2025-I.pdf)
