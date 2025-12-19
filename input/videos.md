@@ -41,7 +41,7 @@ I primarily live-solve math problems while talking to Twitch chat,
 but sometimes I'll play games on stream too.
 
 - Past broadcasts are on [YouTube](https://youtube.com/c/vEnhance),
-- We have a [Discord server](https://discord.gg/KzFXYwqRFX).
+- We have a [Discord server](/discord.html).
 
 ## {{ hl("schedule", "Twitch schedule") }}
 
