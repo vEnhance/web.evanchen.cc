@@ -77,6 +77,12 @@ Sidenote: HTML+CSS and LaTeX are
 [markup languages](https://stackoverflow.com/a/145179),
 and not programming languages in practice.[^pedant]
 
+[^js]:
+    The reason I specifically anti-recommend PHP and vanilla JavaScript is
+    that as a beginner I think you shouldn't get in the habit of writing code like
+    `"You have " + n + " dollars"` when you are first starting out.
+    (Okay, I also hate both languages, but that's unrelated.)
+
 [^pedant]:
     Pedants may argue they are _technically_ Turing-complete
     if abused enough, but why would you do that?
@@ -126,12 +132,6 @@ For now, your job is to pick a language and mess with it.
 
 Once you've done that you can check
 [FAQs on Linux](faq-linux.html) for elaborations on the advanced stuff.
-
-[^js]:
-    The reason I specifically anti-recommend PHP and vanilla JavaScript is
-    that as a beginner I think you shouldn't get in the habit of writing code like
-    `"You have " + n + " dollars"` when you are first starting out.
-    (Okay, I also hate both languages, but that's unrelated.)
 
 ## {{ hl("euler", "Shout-out to Project Euler") }}
 
