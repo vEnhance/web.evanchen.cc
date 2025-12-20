@@ -102,7 +102,7 @@ in some way. Here are just a few examples:
   Solving puzzles is, of course, greatly aided by code as well,
   and in some cases essentially required.
 
-- The [Automatically Generated EGMO Solutions Treasury](https://web.evanchen.cc/upload/AGEST.pdf)
+- The [Automatically Generated EGMO Solutions Treasury](https://web.evanchen.cc/textbooks/AGEST.pdf)
   is true to its name --- it's auto-compiled from
   [the problem database I wrote myself](https://github.com/venhance/von).
   The OTIS Excerpts, MOHS rating chart, and the various solutions files
