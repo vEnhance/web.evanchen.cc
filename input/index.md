@@ -25,7 +25,8 @@ and [research](https://arxiv.org/a/chen_e_2.html),
 and [my university transcript](upload/math-coursework.pdf).
 Outside of math, I hate cooking.
 
-See my [now page](now.html) for what I've been thinking about recently.
+See my [now page](now.html) for what I've been thinking about recently
+and my currently employer list.
 
 I am on [GitHub](https://github.com/vEnhance/),
 [Instagram](https://www.instagram.com/evanchen.cc/),
