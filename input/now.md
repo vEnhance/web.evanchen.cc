@@ -41,8 +41,9 @@ near [Duke](https://www.duke.edu).
 
 - I am a math consultant for [Axiom Math](https://axiommath.ai).
   To state my allegiances on the AI-in-math issue,
-  I'm most interested in formalization (rather than just
-  [feeding contest problems to LLM's for bragging on Twitter][epoch]).
+  I'm most interested in formalization, rather than just
+  feeding contest problems to LLM's for medal-bragging on Twitter
+  (see [Epoch][epoch] and [Xena][xena] on IMO 2025).
   I think making Lean into something that's practically usable
   as a way to both verify and digitize proofs actually sounds pretty cool.
   [arXiv:2311.00007](https://arxiv.org/pdf/2311.00007v1) has some food for thought.
@@ -53,6 +54,7 @@ near [Duke](https://www.duke.edu).
   But I haven't made much progress.
 
 [epoch]: https://epoch.ai/gradient-updates/we-didnt-learn-much-from-the-imo
+[xena]: https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/
 
 ## Recent checkpoints
 
