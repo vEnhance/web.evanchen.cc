@@ -137,6 +137,12 @@ Because of this, the replies are informative and targeted.
 As mentioned above, you will get more answers from asking in my
 [personal Discord server](discord.html) than from emailing me directly.
 
+If you ignore this request and send a bland "how to get good" question,
+your may get a curt reply with a link to the [beginner's page](wherestart.html),
+the [FAQ](faq-contest.html), and this page.
+If that happens, it's not because I didn't read your question,
+but because I have nothing to say beyond what is already written here.
+
 ## {{ hl("tech", "Tech help") }}
 
 First, at the risk of stating the obvious, try search engines.
