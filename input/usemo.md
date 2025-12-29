@@ -37,19 +37,9 @@ Please check the [full rules and procedures][rules].
 - [Solutions and results are now posted](/exams/report-usemo-2025.pdf).
 - [Day 1 and 2 problems are posted here now](/exams/USEMO-2025.pdf),
   for people not participating who still want to see them.
-- Registration opens around October 1
-  on [AoPS portal](https://aops.com/contests/usemo/).
-  It remains open until end-of-day October 24 or when capacity is reached.
-- Day I is Saturday **25 October 2025**, from 12:30pm ET to 5:00pm ET.
-- Day II is Sunday **26 October 2025**, from 12:30pm ET to 5:00pm ET.
-- On each day, the AoPS portal will be functional
-  between 12:00 noon ET and 6:00pm ET, to allow some time for setup
-  and for scanning and submitting solutions.
-  The problems are available for download starting 12:30pm ET.
-  - You can check your registration status at
-    [this link](https://aops.com/contests/usemo/register).
-- Discussion of problems opens at 7:00pm ET each evening after the exam.
-- Volunteers for grading are open at link below.
+- Day I was Saturday **25 October 2025**, from 12:30pm ET to 5:00pm ET.
+- Day II was Sunday **26 October 2025**, from 12:30pm ET to 5:00pm ET.
+- Discussion of problems opened at 7:00pm ET each evening after the exam.
 - Problem proposals were due May 10, 2025.
 
 The organizers of the USEMO are grateful to be sponsored in 2025
@@ -69,8 +59,10 @@ by the [CoRe Lab, Institute of Artificial Intelligence, Peking University](https
 
 ## {{ hl("contact", "Contact") }}
 
-The director of the USEMO is Evan Chen.
-You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
+Until 2025, the director of the USEMO is Evan Chen.
+Starting from USEMO 2026, the director will be Anant Mudgal.
+You can expect in early 2026 some announcements of possible changes
+to the structure and organization of USEMO.
 
 # {{ hl("archive", "Archive") }}
 
