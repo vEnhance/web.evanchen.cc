@@ -34,6 +34,7 @@ Please check the [full rules and procedures][rules].
 
 # {{ hl("current", "USEMO 2025") }}
 
+- [Solutions and results are now posted](/exams/report-usemo-2025.pdf).
 - [Day 1 and 2 problems are posted here now](/exams/USEMO-2025.pdf),
   for people not participating who still want to see them.
 - Registration opens around October 1
@@ -79,7 +80,7 @@ You may use the email $\text{usemo}\texttt{@}\text{evanchen}{.}\text{cc}$.
 - USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions and results)](exams/report-usemo-2022.pdf)
 - USEMO 2023 [(problems)](exams/USEMO-2023.pdf) [(solutions and results)](exams/report-usemo-2023.pdf)
 - USEMO 2024 [(problems)](exams/USEMO-2024.pdf) [(solutions and results)](exams/report-usemo-2024.pdf)
-- USEMO 2025 [(problems)](exams/USEMO-2025.pdf)
+- USEMO 2025 [(problems)](exams/USEMO-2025.pdf) [(solutions and results)](exams/report-usemo-2025.pdf)
 
 ## {{ hl("hall", "Hall of Fame") }}
 
@@ -93,6 +94,7 @@ The list below is sorted alphabetically by first name (not by place).
 - USEMO 2022: JunWen Huang, Krishna Pothapragada, Maximus Lu
 - USEMO 2023: Hannah Fox, Henrick Rabinovitz, Linus Tang
 - USEMO 2024: Alexander Wang, Feodor Yevtushenko, Oron Wang
+- USEMO 2025: Darsh Patel, Jiahe Liu, Royce Yao
 
 # {{ hl("volunteer", "Volunteer") }}
 
