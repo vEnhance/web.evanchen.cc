@@ -91,6 +91,15 @@ Because of large demand, I do not take advance requests.
 
 [points]: https://help.twitch.tv/s/article/channel-points-guide?language=en_US#viewers
 
+## {{ hl("fullarchive", "Full stream archives") }}
+
+The full archive of Twitch broadcasts is at the following unlisted playlist:
+
+<https://www.youtube.com/playlist?list=PLi6h8GM1FA6yS2Ehkb-wHKAa6-C_okgLG>
+
+(I don't spend much time maintaining this, so there might be gaps, or things out
+of order, etc.)
+
 ## {{ hl("evanorhso", "Evan or HSO?") }}
 
 Fan-made game: [Evan or HSO](https://incompleteusern.github.io/evanorhso/),
