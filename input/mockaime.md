@@ -44,29 +44,22 @@ Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing
 
 ## {{ hl("current", "Current edition") }}
 
-We're live!
-
 [Download the 2026 problems](/exams/OTIS-Mock-AIME-2026.pdf){.btn .btn-success}
 
-Logistics:
-
 - The [2026 problems](/exams/OTIS-Mock-AIME-2026.pdf) are now posted.
+  The deadline was Tuesday, January 20, 2026 at 11:59pm Pacific time
+
+- Solutions and results will be out by the end of the month.
+  In the meantime, community discussion is taking place on AOPS
+  as [all fifteen problems are now posted](https://aops.com/community/c4686568).
 
 - **Errata**: at Sun Dec 21 03:57:36 AM UTC 2025,
   we realized the numbers in problem 13 led to an impossible configuration.
   We have updated the numbers so that the quadrilateral actually exists.
   We will award credit for either the originally intended answer
-  (which many students still submitted)
-  or the updated answer after the fix.
+  (which many students still submitted) or the updated answer after the fix.
 
   The error is Evan's mistake, not that of the problem author.
-
-- The problems file will provide a link to submit answers.
-  No registration or pre-commitment is required.
-
-- If you'd like to submit for statistics/bragging, the deadline is
-  **Tuesday, January 20, 2026 at 11:59pm Pacific time**.
-  Please avoid public spoilers for the problems before that date.
 
 - Anyone will be able to download the exam and attempt the problems,
   and submit their answers for scoring.
@@ -79,6 +72,7 @@ Here is an [AoPS collection for all past threads](https://aops.com/community/c41
 - 2026:
   [(problems)](/exams/OTIS-Mock-AIME-2026.pdf)
   [(thread)](https://aops.com/community/p36663514)
+  [(AoPS)](https://aops.com/community/c4686568)
 
 - 2025:
   [(AIME I)](/exams/OTIS-Mock-AIME-2025-I.pdf)
