@@ -75,8 +75,8 @@ Here is an [AoPS collection for all past threads](https://aops.com/community/c41
   [(AoPS)](https://aops.com/community/c4686568)
 
 - 2025:
-  [(AIME I)](/exams/OTIS-Mock-AIME-2025-I.pdf)
-  [(AIME II)](/exams/OTIS-Mock-AIME-2025-II.pdf)
+  [(problems I)](/exams/OTIS-Mock-AIME-2025-I.pdf)
+  [(problems II)](/exams/OTIS-Mock-AIME-2025-II.pdf)
   [(solutions)](/exams/sols-OTIS-Mock-AIME-2025.pdf)
   [(thread)](https://aops.com/community/p33385624)
   [(AoPS I)](https://aops.com/community/c4180955)
