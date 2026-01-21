@@ -69,31 +69,36 @@ or (less preferably) email me.
 - Programs: 1-1 OTIS style meetings and online lecture courses spanning difficulty ranges from AMC 10/12,
   AIME, USA(J)MO, TSTs and the IMO.
 
-- About me: Hi, I am Anant. I have been involved with maths olympiads and the IMO for over a decade now.
+- About me:
+  Hi, I am Anant.
+  I have been involved with maths olympiads and the IMO for over a decade now.
   I represented India at the IMO from 2015 to 2018.
   I have been a leading coach of the Indian IMO team since 2019.
   I graduated from CMI in India and did my Master's (Part III) at Trinity College,
   Cambridge (England) on the Ramanujan Research Studentship.
   In my previous career, after a brief detour in academia in California,
-  I was a Quant Trader at a firm in Singapore. I am now building my own maths education company, Mathelots.
+  I was a Quant Trader at a firm in Singapore.
+  I am now building my own maths education company, Mathelots.
 
-I have been involved with the US maths contests as well,
-and been on various problem review and grading committees.
-Olympiads I have been involved with include the USA(J)MO, USA TST(ST), MP4G, RMM, APMO, and the Putnam.
+  I have been involved with the US maths contests as well,
+  and been on various problem review and grading committees.
+  Olympiads I have been involved with include the USA(J)MO, USA TST(ST),
+  MP4G, RMM, APMO, and the Putnam.
 
-A few feathers in my ever-growing Olympiad cap.
+  A few feathers in my ever-growing Olympiad cap.
+  1. I became a member of the Problem Selection Committee (PSC)
+     of IMO 2025 held in Sunshine Coast, Australia.
+  2. I am now the Director of the United States Ersatz Maths Olympiad (USEMO)
+     for USEMO 2026 and onwards.
+  3. I have mentored IMO teams of dozens of countries,
+     and my students so far have come from 25+ nations across all six continents.
+  4. I have proposed problems to many national and international olympiads.
+     Most notably, I proposed IMO 2019/6 and all six problems on INMO 2026.
+  5. In Fall 2025, I ran the largest cohort of OTIS students by an authorised instructor.
+     Spring 2026 has already beaten my previous record as well.
+  6. I was the first student on the OTIS online platform. My dashboard lists "Student ID: 1".
 
-1. I became a member of the Problem Selection Committee (PSC) of IMO 2025 held in Sunshine Coast, Australia.
-2. I am now the Director of the United States Ersatz Maths Olympiad (USEMO) for USEMO 2026 and onwards.
-3. I have mentored IMO teams of dozens of countries,
-   and my students so far have come from 25+ nations across all six continents.
-4. I have proposed problems to many national and international olympiads.
-   Most notably, I proposed IMO 2019/6 and all six problems on INMO 2026.
-5. In Fall 2025, I ran the largest cohort of OTIS students by an authorised instructor.
-   Spring 2026 has already beaten my previous record as well.
-6. I was the first student on the OTIS online platform. My dashboard lists "Student ID: 1".
-
-I prefer "maths" to "math".
+  I prefer "maths" to "math".
 
 - Sign-up: Email me at `amudgal2024@gmail.com`
   with subject title "Olympiad Training".
