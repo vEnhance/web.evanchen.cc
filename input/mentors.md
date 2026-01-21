@@ -103,6 +103,19 @@ or (less preferably) email me.
 - Sign-up: Email me at `amudgal2024@gmail.com`
   with subject title "Olympiad Training".
 
+## {{ hl("jacob", "Jacob Guo-Xue") }}
+
+- Contact: $\text{xinkeguoxue}@\text{gmail}{.}\text{com}$
+- Website: [jacoblark.com](https://jacoblark.com/)
+- Open to small group lessons and 1:1 tutoring, including 1:1 correspondence
+  tutoring via email.
+- I am able to teach problem solving for math competitions, math concepts
+  needed for math competitions, extracurricular math topics outside of math
+  competitions, and school math more in depth than you'd see in school. I
+  teach math for the sake of explaining math well, in a way that is fun and
+  accessible, with proper rigour if needed, and not for the sake of doing
+  well on math competitions.
+
 ## {{ hl("luka", "Luka Macharashvili") }}
 
 - Contact: $\text{olympicmathtutor}@\text{gmail}{.}\text{com}$
@@ -139,16 +152,3 @@ or (less preferably) email me.
   classes, by teaching classified ideas, you will achieve proper mastery in
   problem-solving and in more advanced levels, you will also learn how to
   create new ideas!
-
-## {{ hl("jacob", "Jacob Guo-Xue") }}
-
-- Contact: $\text{xinkeguoxue}@\text{gmail}{.}\text{com}$
-- Website: [jacoblark.com](https://jacoblark.com/)
-- Open to small group lessons and 1:1 tutoring, including 1:1 correspondence
-  tutoring via email.
-- I am able to teach problem solving for math competitions, math concepts
-  needed for math competitions, extracurricular math topics outside of math
-  competitions, and school math more in depth than you'd see in school. I
-  teach math for the sake of explaining math well, in a way that is fun and
-  accessible, with proper rigour if needed, and not for the sake of doing
-  well on math competitions.
