@@ -24,7 +24,7 @@ or (less preferably) email me.
 
 # {{ hl("programs", "Programs") }}
 
-## {{ hl("Anant Mudgal", "Anant Mudgal") }}
+## {{ hl("anant", "Anant Mudgal") }}
 
 - Primary contact: [Anant Mudgal](https://www.imo-official.org/participant_r.aspx?id=25764)
   ($\text{amudgal2024}\texttt{@}\text{gmail}{.}\text{com}$)
