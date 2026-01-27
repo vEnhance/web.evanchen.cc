@@ -67,7 +67,7 @@ or (less preferably) email me.
   ($\text{amudgal2024}\texttt{@}\text{gmail}{.}\text{com}$)
 - Website: [mathelots.com](https://mathelots.com/founder/)
 - Programs: 1-1 OTIS style meetings and online lecture courses spanning difficulty ranges from AMC 10/12,
-  AIME, USA(J)MO, TSTs and the IMO. 
+  AIME, USA(J)MO, TSTs and the IMO.
 
 - About me:
   Hi, I am Anant.
