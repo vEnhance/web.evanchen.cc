@@ -86,16 +86,22 @@ or (less preferably) email me.
   MP4G, RMM, APMO, and the Putnam.
 
   A few feathers in my ever-growing Olympiad cap.
+  
   1. I became a member of the Problem Selection Committee (PSC)
      of IMO 2025 held in Sunshine Coast, Australia.
+     
   2. I am now the Director of the United States Ersatz Maths Olympiad (USEMO)
      for USEMO 2026 and onwards.
+     
   3. I have mentored IMO teams of dozens of countries,
      and my students so far have come from 25+ nations across all six continents.
+     
   4. I have proposed problems to many national and international olympiads.
      Most notably, I proposed IMO 2019/6 and all six problems on INMO 2026.
+     
   5. In Fall 2025, I ran the largest cohort of OTIS students by an authorised instructor.
      Spring 2026 has already beaten my previous record as well.
+     
   6. I was the first student on the OTIS online platform. My dashboard lists "Student ID: 1".
 
   I prefer "maths" to "math".
