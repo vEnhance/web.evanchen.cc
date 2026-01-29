@@ -1,4 +1,4 @@
-header: OPAL puzzle hunt public archive
+header: OPAL Hunt: Public archive
 title: OPAL Hunt
 menu-position: 27
 indent: 1
@@ -6,20 +6,11 @@ description: OTIS puzzle hunt
 
 ---
 
-In OTIS, the OPAL hunt[^acronym]
-is an annual one-round beginner-level [puzzle hunt](puzzlehunt.html)
+OPAL is an annual one-round beginner-level [puzzle hunt](puzzlehunt.html)
 hosted for [OTIS students](otis.html).
-This page is a public archive of past OPAL puzzles.
-Current or past otters should solve on OTIS-WEB, not here.[^otisweb]
 
-Because of the audience, there's a lot of math and OTIS references[^idiosyn].
 I don't have solutions, but you can email me with hint requests.
-
-[^acronym]: Stands for OTIS Puzzle Assembly Line.
-
-[^otisweb]:
-    The live website will track your progress, provide pre-written hints,
-    and grant rewards on completing the metapuzzle.
+Expect a lot of math and OTIS references[^idiosyn].
 
 [^idiosyn]:
     In particular, puzzles might expect solvers to know about OTIS-related
@@ -42,6 +33,11 @@ I don't have solutions, but you can email me with hint requests.
 The static checker above can be used to check a final answer to any OPAL puzzle.
 A few puzzles will also confirm partial answers if you're close
 (the checker will say "keep going!" instead of just "incorrect").
+Current or past otters should solve on OTIS-WEB, not here.[^otisweb]
+
+[^otisweb]:
+    The live website will track your progress, provide pre-written hints,
+    and grant rewards on completing the metapuzzle.
 
 ## {{ hl("opal2", "OPAL 2: Museum of OTIS Things") }}
 
