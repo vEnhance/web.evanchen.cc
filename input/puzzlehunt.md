@@ -14,6 +14,14 @@ You can find a calendar of upcoming puzzle hunt events and Discord servers at
 [https://puzzlehuntcalendar.com/](https://puzzlehuntcalendar.com/).
 This page is not itself a puzzle.
 
+## {{ hl("writing", "Thoughts on puzzle-writing") }}
+
+A few blog posts of mine:
+
+- [General puzzle-writing thoughts](https://blog.evanchen.cc/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
+- [Long stories for Mystery Hunt 2021](https://blog.evanchen.cc/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
+- [Long stories for Teammate Hunt 2025](https://blog.evanchen.cc/2025/04/23/teammate-hunt-2025-author-notes/)
+
 ## {{ hl("new", "New to puzzle hunts?") }}
 
 **TL;DR**: start by skimming [the betaveros introduction][betaveros],
@@ -92,14 +100,6 @@ In descending order of importance for new solvers:
 For intermediate-advanced solvers, Alex Irpan has a nice post
 [Puzzlehunting 201](https://www.alexirpan.com/2024/04/30/puzzlehunting-201.html)
 with more detailed solving advice.
-
-## {{ hl("writing", "Thoughts on puzzle-writing") }}
-
-A few blog posts of mine:
-
-- [General puzzle-writing thoughts](https://blog.evanchen.cc/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
-- [Long stories for Mystery Hunt 2021](https://blog.evanchen.cc/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
-- [Long stories for Teammate Hunt 2025](https://blog.evanchen.cc/2025/04/23/teammate-hunt-2025-author-notes/)
 
 ## {{ hl("own", "A list of Evan's puzzles") }}
 
