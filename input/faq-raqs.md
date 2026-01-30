@@ -257,10 +257,32 @@ Conversely, these are also the heuristics I use when _giving_ advice.
 
 ### {{ faq("R-11", "Any advice for writing?") }}
 
-Yeah, [write like you talk][talk].
+[The Age of the Essay](https://www.paulgraham.com/essay.html)
+is a good starting point for context,
+if only to help you fix mistaken beliefs you have from English class.
 
-Obviously there's much more to writing too, but so few people pass this
-basic standard that I feel saying anything more would be premature.
+After that, the two things I'd say are:
+
+1. [Write like you talk][talk].
+   So few people pass this basic standard it astounds me.
+
+2. As far as practicing writing goes,
+   I think my advice is to write about things you've already
+   spent a lot of time thinking about.
+   It's a mistake to think that you could give me an arbitrary topic
+   and that I would be able to write something useful about it[^idgaf].
+   I only write about things I've been pondering for a while (often months).
+
+   So instead of
+   "I want to practice writing, let me think of a topic",
+   you should instead flip the order and say,
+   "I have something I've been thinking a lot about,
+   let me try writing out my thoughts".
+
+[^idgaf]:
+    Especially if it's some topic IDGAF about, like an English class essay prompt.
+    I actually generally got mediocre grades on school writing assignments,
+    because I was not good at pretending I had something to say when I didn't care.
 
 ### {{ faq("R-12", "I want to write a technical textbook in an area I know well. What advice do you have?") }}
 
