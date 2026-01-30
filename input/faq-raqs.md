@@ -314,7 +314,6 @@ that might be relevant to problem-solving texts.
 
 Kevin Zhou also has a
 [nice passage on how good textbooks are typically written](https://knzhou.github.io/writing/Advice.pdf).
-I reproduced it below.
 
 ### {{ faq("R-13", "How do you navigate balancing doing things for prestige and enjoyment?") }}
 
