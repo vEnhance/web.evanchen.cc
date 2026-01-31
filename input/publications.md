@@ -16,7 +16,7 @@ lecture handouts, textbooks, and so on.
 - [An Infinitely Large Napkin](napkin.html),
   higher math introduction. Nearing 1000 pages.
 
-- [18.02 course notes](1802.md),
+- [18.02 course notes](1802.html),
   textbook for MIT's multivariable calculus course,
   published under [MIT OpenCourseWare](https://ocw.mit.edu/courses/res-18-016-multivariable-calculus-recitation-notes-fall-2024/).
 
