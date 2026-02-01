@@ -49,9 +49,8 @@ Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing
 - The [2026 problems](/exams/OTIS-Mock-AIME-2026.pdf) are now posted.
   The deadline was Tuesday, January 20, 2026 at 11:59pm Pacific time
 
-- Solutions and results will be out by the end of the month.
-  In the meantime, community discussion is taking place on AOPS
-  as [all fifteen problems are now posted](https://aops.com/community/c4686568).
+- The [2026 solutions and results](/exams/sols-OTIS-Mock-AIME-2026.pdf) are now posted.
+  In addition, [all fifteen problems were posted on AOPS](https://aops.com/community/c4686568).
 
 - **Errata**: at Sun Dec 21 03:57:36 AM UTC 2025,
   we realized the numbers in problem 13 led to an impossible configuration.
@@ -71,6 +70,7 @@ Here is an [AoPS collection for all past threads](https://aops.com/community/c41
 
 - 2026:
   [(problems)](/exams/OTIS-Mock-AIME-2026.pdf)
+  [(solutions)](/exams/sols-OTIS-Mock-AIME-2026.pdf)
   [(thread)](https://aops.com/community/p36663514)
   [(AoPS)](https://aops.com/community/c4686568)
 
