@@ -130,7 +130,7 @@ rather than QWERTY.
 
 - Favorite triangle center: [Orthocenter][orthocenter]
 - Favorite circle: [A-mixtilinear incircle][mixt]
-- Favorite color: [Aquamarine][aquamarine]
+- Favorite color: [00cca7][aquamarine]
 - Favorite movies: [A Whisker Away][awa], [I Want My Hat Back][hat]
 - Favorite music group: [Dreamcatcher][dreamcatcher]
 - Favorite song: [Paradise SIYEON][paradise]
@@ -144,7 +144,7 @@ rather than QWERTY.
 
 [orthocenter]: https://mathworld.wolfram.com/Orthocenter.html
 [mixt]: https://mathworld.wolfram.com/MixtilinearIncircles.html
-[aquamarine]: https://en.wikipedia.org/wiki/Aquamarine_(color)
+[aquamarine]: https://www.color-hex.com/color/00cca7
 [steam]: https://steamcommunity.com/id/vEnhance/games/?tab=all
 [hat]: https://www.imdb.com/title/tt2935976/
 [dreamcatcher]: https://en.wikipedia.org/wiki/Dreamcatcher_(group)
