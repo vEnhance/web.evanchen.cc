@@ -41,39 +41,55 @@ and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
 
 - [arXiv:1709.05753](https://arxiv.org/abs/1709.05753).<br>
   <b>A family of partially ordered sets with small balance constant</b>.<br>
-  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-poset].
+  E. Chen. [Electronic Journal of Combinatorics][ejc-poset].
 
 - [arXiv:1608.04146](https://arxiv.org/abs/1608.04146).<br>
   <b>Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures</b>.<br>
-  E. Chen. Published in [Proceedings of the AMS][pams-algint].
+  E. Chen. [Proceedings of the AMS][pams-algint].
 
 - [arXiv:1507.07122](https://arxiv.org/abs/1507.07122).<br>
   <b>Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem</b>.<br>
-  E. Chen, P. Park, and A. Swaminathan. Published in [Intl Journal of Number Theory][ijnt].
+  E. Chen, P. Park, and A. Swaminathan. [Intl Journal of Number Theory][ijnt].
+
+- [arXiv:2602.03716](https://arxiv.org/abs/2602.03716).<br>
+  <b>Fel's Conjecture on Syzygies of Numerical Semigroups</b>.<br>
+  arXiv preprint.
+
+- [arXiv:2411.04872](https://arxiv.org/abs/2411.04872).<br>
+  <b>FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI</b>.<br>
+  arXiv preprint.
 
 - [arXiv:1609.01247](https://arxiv.org/abs/1609.01247).<br>
   <b>Linear polychromatic colorings of hypercube faces</b>.<br>
-  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-hypercube].
+  E. Chen. [Electronic Journal of Combinatorics][ejc-hypercube].
 
 - [arXiv:1506.09170](https://arxiv.org/abs/1506.09170).<br>
   <b>Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication</b>.<br>
-  E. Chen, P. Park, and A. Swaminathan. Published in [Research in Number Theory][rnut].
+  E. Chen, P. Park, and A. Swaminathan. [Research in Number Theory][rnut].
 
 - [arXiv:1710.02734](https://arxiv.org/abs/1710.02734).<br>
   <b>Multiplicative and exponential orthomorphisms</b>.<br>
-  E. Chen. Published in [Journal of Combinatorics][joc-orthomorphism].
+  E. Chen. [Journal of Combinatorics][joc-orthomorphism].
 
 - [arXiv:1507.02629](https://arxiv.org/abs/1507.02629).<br>
   <b>On Logarithmically Benford Sequences</b>.<br>
-  E. Chen, P. Park, and A. Swaminathan. Published in [Proceedings of the AMS][pams-benford].
+  E. Chen, P. Park, and A. Swaminathan. [Proceedings of the AMS][pams-benford].
+
+- [arXiv:2602.03722](https://arxiv.org/abs/2602.03722).<br>
+  <b>Parity of k-differentials in genus zero and one</b>.<br>
+  arXiv preprint.
 
 - [arXiv:1708.01350](https://arxiv.org/abs/1708.01350).<br>
   <b>Schur-concavity for avoidance of increasing subsequences in block-ascending permutations</b>.<br>
-  E. Chen. Published in [Electronic Journal of Combinatorics][ejc-schur].
+  E. Chen. [Electronic Journal of Combinatorics][ejc-schur].
+
+- [arXiv:2502.06078](https://arxiv.org/abs/2502.06078).<br>
+  <b>Semi-Lie arithmetic fundamental lemma for the full spherical Hecke algebra</b>.<br>
+  arXiv preprint.
 
 - [arXiv:1609.04626](https://arxiv.org/abs/1609.04626).<br>
   <b>The 26 Wilf-equivalence classes of length five quasi-consecutive patterns</b>.<br>
-  E. Chen, S. Narayanam. Published in [Discrete Math and Theoretical CS][dmtcs-wilf].
+  E. Chen, S. Narayanam. [Discrete Math and Theoretical CS][dmtcs-wilf].
 
 ## {{ hl("lectures", "High school lectures") }}
 
