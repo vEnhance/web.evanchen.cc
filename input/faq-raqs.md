@@ -329,7 +329,7 @@ The properties are:
 3. However, they are really, really easy to get sucked into if you're not careful
    (or even if you are careful).
    Which is why you get to hear so many horror stories about bribing politicians,
-   or committing fraud to impress Harvard, and so on ad nauseum.
+   or committing fraud to impress Harvard, and so on ad nauseam.
 
 I think this label was helpful for me because I could recognize when
 I was in a situation where I was like,
