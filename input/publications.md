@@ -43,6 +43,10 @@ and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
   <b>A family of partially ordered sets with small balance constant</b>.<br>
   E. Chen. [Electronic Journal of Combinatorics][ejc-poset].
 
+- [arXiv:2602.05090](https://arxiv.org/abs/2602.05090).<br>
+  <b>Almost all primes are partially regular</b>.<br>
+  arXiv preprint.
+
 - [arXiv:1608.04146](https://arxiv.org/abs/1608.04146).<br>
   <b>Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures</b>.<br>
   E. Chen. [Proceedings of the AMS][pams-algint].
