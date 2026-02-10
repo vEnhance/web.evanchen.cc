@@ -8,7 +8,7 @@ indent: 1
 
 This is a [now page](https://nownownow.com/about).
 It's my public answer to "what have you been up to lately"?
-Last updated 20 December 2025.
+Last updated 9 February 2026.
 
 ## Coordinates
 
@@ -36,7 +36,7 @@ near [Duke](https://www.duke.edu).
   for students in the United States.
   It has many long-term ambitious goals, but the first half-year
   will be focused on running a single small event in May 2026 to get started.
-  Almost everything about this pilot event (as of December 2025) is still "TBD".
+  Almost everything about this pilot event is still "TBD".
   We certainly have our work cut out for us.
 
 - I am a math consultant for [Axiom Math](https://axiommath.ai).
@@ -49,9 +49,10 @@ near [Duke](https://www.duke.edu).
   [arXiv:2311.00007](https://arxiv.org/pdf/2311.00007v1) has some food for thought.
 
 - Starting in January 2025, I've been occasionally studying some Korean.
-  I don't really have any compelling reason why.
-  I've just decided this is something I want to try.
-  But I haven't made much progress.
+  I don't really have any compelling reason why; just a hobby.
+  I haven't actually learned anything and
+  at most I can say some really basic sentences like 저는 멍청합니다
+  and 저는 고양이가 되고 싶습니다.
 
 [epoch]: https://epoch.ai/gradient-updates/we-didnt-learn-much-from-the-imo
 [xena]: https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/
