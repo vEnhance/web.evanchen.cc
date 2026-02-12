@@ -48,7 +48,7 @@ roughly ranging from the undergraduate syllabus to first-year graduate topics.
 The Napkin provides a general bird's-eye views of main ideas of fields
 and what makes them cool or interesting.
 It's less detailed than a real textbook
-but more precise than pop-math books and assumes proof experience.
+(but more precise than pop-math books) and assumes proof experience.
 So for example, definitions and theorem statements
 will typically be complete and precise,
 but explanations for why a result "should" be true will supersede formal proofs.
