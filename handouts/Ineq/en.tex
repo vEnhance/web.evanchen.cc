@@ -165,7 +165,8 @@ Note that $f$ is convex if and only if $-f$ is concave.
   Now the inequality is homogeneous, so we can assume that $a+b+c=3$.
   Now our original problem can be rewritten as
   \[ \sum_{\text{cyc}} \frac{1}{16a} - \frac{1}{(a+3)^2} \ge 0. \]
-  Set $f(x) = \frac{1}{16x} - \frac{1}{(x+3)^2}$. We can check that $f$ over $(0,3)$ is convex so Jensen completes the problem.
+  Set $f(x) = \frac{1}{16x} - \frac{1}{(x+3)^2}$.
+  We can check that $f$ over $(0,3)$ is convex so Jensen completes the problem.
 \end{proof}
 \begin{example}
   Prove that \[ \frac{1}{a}+\frac{1}{b}+\frac{1}{c} \geq
@@ -186,7 +187,8 @@ Note that $f$ is convex if and only if $-f$ is concave.
   prove that \[ \sqrt{a+b-c}+\sqrt{b+c-a}+\sqrt{c+a-b}\leq\sqrt{a}+\sqrt{b}+\sqrt{c}. \]
 \end{example}
 \begin{proof}
-  Again assume WLOG that $a \ge b \ge c$ and notice that $(a+b-c,c+a-b,b+c-a) \succ (a,b,c)$. Apply Karamata on $f(x) = \sqrt x$.
+  Again assume WLOG that $a \ge b \ge c$ and notice that $(a+b-c,c+a-b,b+c-a) \succ (a,b,c)$.
+  Apply Karamata on $f(x) = \sqrt x$.
 \end{proof}
 
 \subsection{Tangent Line Trick}
@@ -319,15 +321,18 @@ which is QM-AM-GM-HM. Moreover, AM-GM lets us ``add'' roots, like
 
 \subsection{Cauchy and H\"older}
 \begin{theorem}[H\"older's Inequality]
-  Let $\lambda_a$, $\lambda_b$, \dots, $\lambda_z$ be positive reals with $\lambda_a + \lambda_b + \dots + \lambda_z = 1$.
-  Let $a_1$, $a_2$, \dots, $a_n$, $b_1$, $b_2$, \dots, $b_n$, \dots, $z_1$, $z_2$, \dots, $z_n$ be positive reals.
+  Let $\lambda_a$, $\lambda_b$, \dots,
+  $\lambda_z$ be positive reals with $\lambda_a + \lambda_b + \dots + \lambda_z = 1$.
+  Let $a_1$, $a_2$, \dots, $a_n$, $b_1$, $b_2$, \dots, $b_n$, \dots, $z_1$, $z_2$, \dots,
+  $z_n$ be positive reals.
   Then
   \[ \left( a_1+\dots+a_n \right)^{\lambda_a}
     \left( b_1+\dots+b_n \right)^{\lambda_b}
     \dots
     \left( z_1+\dots+z_n \right)^{\lambda_z}
     \ge \sum_{i=1}^n a_i^{\lambda_a} b_i^{\lambda_b} \dots z_i^{\lambda_z}. \]
-  Equality holds if $a_1 : a_2 : \dots : a_n \equiv b_1 : b_2 : \dots : b_n \equiv \dots \equiv z_1 : z_2 : \dots : z_n$.
+  Equality holds if $a_1 : a_2 : \dots : a_n \equiv b_1 : b_2 : \dots : b_n \equiv \dots \equiv z_1 : z_2 : \dots
+  : z_n$.
 \end{theorem}
 \begin{proof}
   WLOG $a_1+\dots+a_n = b_1+\dots+b_n = \dots = 1$
@@ -362,7 +367,8 @@ Let us look at some examples.
     \left( \sum_{\text{cyc}} \frac{a}{\sqrt{a^2+8bc}} \right)^{\frac 23}
     \ge \left( a+b+c \right)
   \]
-  So it suffices to prove $(a+b+c)^3 \ge \sum_{\text{cyc}} a(a^2+8bc) = a^3+b^3+c^3+24abc$. Does this look familiar?
+  So it suffices to prove $(a+b+c)^3 \ge \sum_{\text{cyc}} a(a^2+8bc) = a^3+b^3+c^3+24abc$.
+  Does this look familiar?
 \end{proof}
 
 

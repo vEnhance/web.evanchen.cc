@@ -162,7 +162,9 @@ We already know that $-1$ cannot be a square modulo $p$,
 and you can intuitively see this come through: since $\frac{p-1}{2}=5$ is odd,
 it's not possible to cut $g^5 \equiv -1$ into a perfect square.
 
-On the other hand, if $p=13$ then $p \equiv 1 \pmod 4$, and you can see intuitively why $g^6 \equiv -1$ is a perfect square: just write $g^6 = (g^3)^2$ and we're home free!
+On the other hand, if $p=13$ then $p \equiv 1 \pmod 4$,
+and you can see intuitively why $g^6 \equiv -1$ is a perfect square:
+just write $g^6 = (g^3)^2$ and we're home free!
 \end{example}
 
 See if you can use this to complete the proof of the other direction of this theorem.
@@ -196,7 +198,8 @@ then no primitive roots exists modulo $n$. (This is not difficult, just a little
 \section{The Cyclotomic Generalization}
 So we've seen the polynomial $x^2+1$ is somehow pretty special, in part
 because it divides $x^4-1$ and thus lets us use the idea of orders.
-You might also have seen the polynomials $x^2+x+1$ and $x^2-x+1$ show up in some problems; they divide $x^3-1$ and $x^3+1$, respectively, and you might suspect similar results might hold.
+You might also have seen the polynomials $x^2+x+1$ and $x^2-x+1$ show up in some problems;
+they divide $x^3-1$ and $x^3+1$, respectively, and you might suspect similar results might hold.
 
 Our goal now is to develop a more general result involving the irreducible
 factors of $x^n-1$, thus taking us beyond just the case $n=4$.
@@ -424,10 +427,13 @@ The above solution illustrates a trick perhaps worth mentioning explicitly.
 This is just the famous fact that $\gcd(a^m-1,a^n-1)=a^{\gcd(m,n)}-1$
 phrased using modular arithmetic.
 
-Finally, here is a fun and perhaps somewhat unexpected application of cyclotomic polynomials. In fact, you may have seen the special case $n=4$ already; now that we have the full cyclotomic generalization we can prove a much more general fact.
+Finally, here is a fun and perhaps somewhat unexpected application of cyclotomic polynomials.
+In fact, you may have seen the special case $n=4$ already;
+now that we have the full cyclotomic generalization we can prove a much more general fact.
 \begin{example}
   [Weak Dirichlet]
-  Show that there are infinitely many primes which are congruent to $1$ modulo $n$ for any positive integer $n$.
+  Show that there are infinitely many primes which are congruent to $1$ modulo
+  $n$ for any positive integer $n$.
 \end{example}
 \begin{soln}
   Suppose there were only finitely many such primes $p_1$, $p_2$, \dots, $p_N$.
@@ -467,7 +473,8 @@ I also like \ref{prob:euler}, \ref{prob:imo90}, \ref{prob:imo}.
 
 \begin{problem}
   [IMO 2005/4]
-  Determine all positive integers relatively prime to all terms of the infinite sequence $a_n = 2^n+3^n+6^n-1$ for $n \ge 1$.
+  Determine all positive integers relatively prime to all terms of the infinite
+  sequence $a_n = 2^n+3^n+6^n-1$ for $n \ge 1$.
   \begin{hint}
     Try to pick $n=-1$.
   \end{hint}

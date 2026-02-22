@@ -21,7 +21,11 @@
 \maketitle
 
 \begin{abstract}
-  The goal of this document is to provide a easier introduction to olympiad inequalities than the standard exposition \emph{Olympiad Inequalities}, by Thomas Mildorf. I was motivated to write it by feeling guilty for getting free $7$'s on problems by simply regurgitating a few tricks I happened to know, while other students were unable to solve the problem.
+  The goal of this document is to provide a easier introduction to olympiad
+  inequalities than the standard exposition \emph{Olympiad Inequalities}, by Thomas Mildorf.
+  I was motivated to write it by feeling guilty for getting free $7$'s on
+  problems by simply regurgitating a few tricks I happened to know,
+  while other students were unable to solve the problem.
 \end{abstract}
 
 首先一些定義： 我們會用到循環總和 $\sum_{\text{cyc}}$ (cyclic sum) 和對稱總和 $\sum_{\text{sym}}$ (symmetric sum).
@@ -153,7 +157,8 @@
   若設 $f(x) = \frac{1}{16x} - \frac{1}{(x+3)^2}$, 可證 $f$ 再 $(0,3)$ 上是凸函數，故用 Jensen 就解完了。
 \end{proof}
 \begin{example}
-  試證 \[ \frac{1}{a}+\frac{1}{b}+\frac{1}{c}\geq2\left(\frac{1}{a+b}+\frac{1}{b+c}+\frac{1}{c+a}\right)\geq\frac{9}{a+b+c}. \]
+  試證 \[ \frac{1}{a}+\frac{1}{b}+\frac{1}{c}\geq2\left(\frac{1}{a+b}+\frac{1}{b+c}+\frac{1}{c+a}\right)\geq\frac{9}{a+b+c}.
+  \]
 \end{example}
 \begin{proof}
   原題等價與
@@ -163,7 +168,8 @@
   利用 Karamata 就解決了，齊次 $f(x) = \frac 1x$。
 \end{proof}
 \begin{example}
-  [APMO 1996] 若 $a$, $b$, $c$, 是三角形的邊，試證 \[ \sqrt{a+b-c}+\sqrt{b+c-a}+\sqrt{c+a-b}\leq\sqrt{a}+\sqrt{b}+\sqrt{c}. \]
+  [APMO 1996] 若 $a$, $b$, $c$, 是三角形的邊，試證 \[
+  \sqrt{a+b-c}+\sqrt{b+c-a}+\sqrt{c+a-b}\leq\sqrt{a}+\sqrt{b}+\sqrt{c}. \]
 \end{example}
 \begin{proof}
   不方假設 $a \ge b \ge c$，再考慮 $(a+b-c, c+a-b, b+c-a) \succ (a,b,c)$，再利用 Karamata 再 $f(x) = \sqrt x$。
@@ -292,7 +298,9 @@ AM-GM 可以根據以下 generalize。
 
 \subsection{Cauchy 和 H\"older}
 \begin{theorem}[H\"older 不等式]
-  令 $\lambda_a$, $\lambda_b$, \dots, $\lambda_z$ 為正實數，滿足 $\lambda_a + \lambda_b + \dots + \lambda_z = 1$。 設 $a_1, a_2, \dots, a_n$, $b_1, b_2, \dots, b_n$, \dots, $z_1, z_2, \dots, z_n$ 為正實數。則
+  令 $\lambda_a$, $\lambda_b$, \dots,
+  $\lambda_z$ 為正實數，滿足 $\lambda_a + \lambda_b + \dots + \lambda_z = 1$。 設 $a_1, a_2, \dots, a_n$,
+  $b_1, b_2, \dots, b_n$, \dots, $z_1, z_2, \dots, z_n$ 為正實數。則
   \[ \left( a_1+\dots+a_n \right)^{\lambda_a}
     \left( b_1+\dots+b_n \right)^{\lambda_b}
     \dots
@@ -301,7 +309,8 @@ AM-GM 可以根據以下 generalize。
   等號成立的充要條件是 $a_1 : a_2 : \dots : a_n \equiv b_1 : b_2 : \dots : b_n \equiv \dots \equiv z_1 : z_2 : \dots : z_n$.
 \end{theorem}
 \begin{proof}
-  不方假設 $a_1+\dots+a_n = b_1+\dots+b_n = \dots = 1$ （注意 $a_i$ 的次數兩邊都為 $\lambda_a$）。則原不等式的左邊為 $1$, 且利用 Weighted AM-GM 可得
+  不方假設 $a_1+\dots+a_n = b_1+\dots+b_n = \dots = 1$ （注意 $a_i$ 的次數兩邊都為 $\lambda_a$）。則原不等式的左邊為 $1$,
+  且利用 Weighted AM-GM 可得
   \[ \sum_{i=1}^n a_i^{\lambda_a} b_i^{\lambda_b} \dots z_i^{\lambda_z}
     \le \sum_{i=1}^n \left( \lambda_a a_i + \lambda_b b_i + \dots \right)
     = 1. \qedhere \]

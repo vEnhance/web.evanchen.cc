@@ -64,7 +64,8 @@ Note that $z \in \RR \iff z = \ol z$ and $z \in i \RR \iff z + \ol z = 0$.
 \end{figure}
 
 We represent every point in the plane by a complex number.
-In particular, we'll use a capital letter (like $Z$) to denote the point associated to a complex number (like $z$).
+In particular, we'll use a capital letter (like $Z$) to denote the point
+associated to a complex number (like $z$).
 
 Complex numbers add in the same way as vectors.
 The multiplication is more interesting: for each $z_1, z_2 \in \CC$ we have
@@ -369,12 +370,14 @@ This formula is often easier to apply if we shift $z$ to the point $0$ first, th
   [MOP 2006]
   Let $H$ be the orthocenter of triangle $ABC$.
   Let $D$, $E$, $F$ lie on the circumcircle of $ABC$ such that $\ol{AD} \parallel \ol{BE} \parallel \ol{CF}$.
-  Let $S$, $T$, $U$ respectively denote the reflections of $D$, $E$, $F$ across $\ol{BC}$, $\ol{CA}$, $\ol{AB}$.
+  Let $S$, $T$, $U$ respectively denote the reflections of $D$, $E$, $F$ across $\ol{BC}$, $\ol{CA}$,
+  $\ol{AB}$.
   Prove that points $S$, $T$, $U$, $H$ are concyclic.
 \end{example}
 \begin{proof}
   Let $(ABC)$ be the unit circle and $h = a+b+c$.
-  WLOG, $\ol{AD}$, $\ol{BE}$,  $\ol{CF}$ are perpendicular to the real axis (rotate appropriately); thus $d = \ol a$ and so on.
+  WLOG, $\ol{AD}$, $\ol{BE}$,  $\ol{CF}$ are perpendicular to the real axis (rotate appropriately);
+  thus $d = \ol a$ and so on.
   Thus $s = b+c - bc \ol d = b+c-abc$ and so on; we now have
   \[ \frac{s-t}{s-u}=\frac{b-a}{c-a}\quad\text{and}\quad\frac{h-t}{h-u}=\frac{b+abc}{c+abc}. \]
   Compute \[ \frac{s-t}{s-u} : \frac{h-t}{h-u} = \frac{(b-a)(c+abc)}{(c-a)(b+abc)}
@@ -433,7 +436,8 @@ This formula is often easier to apply if we shift $z$ to the point $0$ first, th
   \[ m = \half(b+c) = \frac{1}{x+y} + \frac{1}{x+z} = \frac{2x+y+z}{(x+y)(x+z)}. \]
   Next, we have $Q = DD \cap GH$, which implies
   \[ q = \frac{dd(g+h)-gh(d+d)}{d^2-gh}
-    = \frac{\frac{1}{x^2} \left( -\frac1y-\frac1z \right) - \frac{1}{yz} \frac{2}{x}}{\frac{1}{x^2} - \frac{1}{yz}}
+    = \frac{\frac{1}{x^2} \left( -\frac1y-\frac1z \right) - \frac{1}{yz}
+    \frac{2}{x}}{\frac{1}{x^2} - \frac{1}{yz}}
     = \frac{2x+y+z}{x^2-yz}. \]
   so
   \[ m/q = \frac{x^2-yz}{(x+y)(x+z)}. \]
