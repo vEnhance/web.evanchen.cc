@@ -402,7 +402,7 @@ So any trends that one exam has more difficult problems is purely noise.
 
 Same is true for AMC A and B exams.
 
-[amc]: https://www.maa.org/math-competitions
+[amc]: https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/
 [usa2003]: upload/usamo-2003-rubric.pdf
 [taiwan]: handouts/TaiwanTST/TaiwanTST.pdf
 [english]: handouts/english/english.pdf
