@@ -106,6 +106,14 @@ A few feathers in my ever-growing Olympiad cap.
 
 I prefer "maths" to "math".
 
+## {{ hl("ido", "Ido Karshon") }}
+
+- Contact: $\text{ido.karshon}@\text{gmail}{.}\text{com}$
+- Open to both 1:1 and group lessons
+
+Hi! I'm Ido. I represented Israel in the 2018-2019 IMOs, winning a bronze medal and a gold medal. Since then, I have coached the Israeli IMO team for 6 years.
+I love teaching math, both competitive and academic, and I offer tutoring for olympiads at all levels (from introductory competitions to IMO level), as well as for university math at all levels (from calculus and linear algebra up to graduate-level courses).
+
 ## {{ hl("jacob", "Jacob Guo-Xue") }}
 
 - Contact: $\text{xinkeguoxue}@\text{gmail}{.}\text{com}$
