@@ -110,6 +110,14 @@ See also [my devjoe page](http://devjoe.appspot.com/huntindex/author/chenevan).
 
 The [OTIS](otis.html) program has its own puzzle hunt, named [OPAL](opal.html).
 
+### {{ hl("mop", "MOP Mini-events") }}
+
+MOP 2021 had an online hunt called
+[MOSP](https://mosp.evanchen.cc),
+a miniature one-round hunt
+written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
+This hunt is a bit harder than OPAL.
+
 ### {{ hl("mh2021", "Mystery Hunt 2021") }}
 
 - [Nutrition Facts](https://puzzles.mit.edu/2021/puzzle/nutrition-facts/)
@@ -137,14 +145,6 @@ The [OTIS](otis.html) program has its own puzzle hunt, named [OPAL](opal.html).
 - [Digits](https://2025.teammatehunt.com/puzzles/digits)
 - [Behold a Puzzle](https://2025.teammatehunt.com/puzzles/behold-a-puzzle), with Kaity Du and Sebastian Cordova
 - The sequence of six [Tetrogram](https://2025.teammatehunt.com/puzzles/tetrogram) puzzles, with Olga Vinogradova
-
-### {{ hl("mop", "MOP Mini-events") }}
-
-- [MOP 2021 puzzle hunt](https://mosp.evanchen.cc),
-  a miniature one-round hunt
-  written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
-- [MOP 2022 puzzle hunt](https://mosp.evanchen.cc),
-  directed by Luke Robitaille.
 
 [betaveros]: https://blog.vero.site/post/puzzlehunts
 [codes]: /upload/EvanPuzzleCodings.pdf
