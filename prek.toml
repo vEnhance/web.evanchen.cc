@@ -130,5 +130,6 @@ hooks = [
     language = "system",
     pass_filenames = false,
     stages = ["pre-push"],
+    always_run = true,
   }
 ]
