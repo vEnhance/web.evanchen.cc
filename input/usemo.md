@@ -7,8 +7,8 @@ description: Landing page for the USEMO
 ---
 
 <span style="float:right;padding:10px;">
-<a href="static/usemo/usemo-logo.png">
-<img width="240" src="static/usemo/usemo-logo.png" alt="USEMO logo" />
+<a href="/upload/usemo/usemo-logo.png">
+<img width="240" src="/upload/usemo/usemo-logo.png" alt="USEMO logo" />
 </a>
 </span>
 
@@ -46,7 +46,7 @@ The organizers of the USEMO are grateful to be sponsored in 2025
 by the [CoRe Lab, Institute of Artificial Intelligence, Peking University](https://pku.ai/).
 
 <a href="https://pku.ai/">
-<img width="240" src="static/usemo/core.jpg" alt="CoRE Lab" />
+<img width="240" src="/upload/usemo/core.jpg" alt="CoRE Lab" />
 </a>
 
 ## {{ hl("links", "Links and downloads") }}
@@ -113,11 +113,11 @@ or if you have other ideas on how you could help out.
 [usamts]: https://usamts.org/
 [imo]: https://www.imo-official.org
 [usamo]: https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad
-[answersheet]: static/usemo/answer-template-usemo.pdf
-[mission]: static/usemo/mission-usemo.pdf
-[rules]: static/usemo/rules-usemo.pdf
-[captain]: static/usemo/captain-guidance-usemo.pdf
-[grading-info]: static/usemo/grading-brief-usemo.pdf
-[propose]: static/usemo/proposal-guidelines-usemo.pdf
+[answersheet]: /upload/usemo/answer-template-usemo.pdf
+[mission]: /upload/usemo/mission-usemo.pdf
+[rules]: /upload/usemo/rules-usemo.pdf
+[captain]: /upload/usemo/captain-guidance-usemo.pdf
+[grading-info]: /upload/usemo/grading-brief-usemo.pdf
+[propose]: /upload/usemo/proposal-guidelines-usemo.pdf
 [aops-usemo]: https://www.aops.com/contests/usemo
 [review]: https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/
