@@ -15,4 +15,4 @@ tidy -config ./tidyrc -qm ./output/*.html
 prettier -w ./output/*.html
 
 # Lint everything
-./lint.sh
+./scripts/lint.sh

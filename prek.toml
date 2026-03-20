@@ -125,8 +125,8 @@ repo = "local"
 hooks = [
   {
     id = "lint",
-    name = "Compile HTML and check",
-    entry = "scripts/lint.sh",
+    name = "Check HTML output",
+    entry = "scripts/compile.sh",
     language = "system",
     pass_filenames = false,
     stages = ["pre-push"],
