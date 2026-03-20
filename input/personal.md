@@ -32,7 +32,7 @@ and other puzzle hunt activities.
 Hunts I contributed to include as a hunt author the
 [Mystery Hunt 2021](https://puzzles.mit.edu/2021/),
 [Mystery Hunt 2023](https://interestingthings.museum/),
-and the [2021 MOP mini-hunt](mop/2021.html).
+and the [2021 MOP mini-hunt](https://mosp.evanchen.cc/).
 
 If you want to learn more about puzzle hunts,
 check the [dedicated page](puzzlehunt.html).
