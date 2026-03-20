@@ -4,138 +4,119 @@
 
  *  *  *  *  *  *  *  *  *  *  *  */
 
-#main 
-{
-	padding: 0em 2em 2em 1em;
+#main {
+  padding: 0em 2em 2em 1em;
 }
 
-#main #content 
-{
-	position: relative;
-	top: 1em; 
-	overflow: hidden;
+#main #content {
+  position: relative;
+  top: 1em;
+  overflow: hidden;
 }
 
-.pointer 
-{
-	text-decoration: none;
+.pointer {
+  text-decoration: none;
 }
 
-a.pointer:hover 
-{
-	text-decoration: none;
+a.pointer:hover {
+  text-decoration: none;
 }
 
-.small 
-{
-	font-size: 0.85em;
+.small {
+  font-size: 0.85em;
 }
 
-#main *[type="submit"] 
-{
-	color: black;
-	border: 1px solid #9F998E;
-	background-color: #D4D0C8;
+#main *[type="submit"] {
+  color: black;
+  border: 1px solid #9f998e;
+  background-color: #d4d0c8;
 }
 
-.female 
-{
-	color: Maroon;
+.female {
+  color: Maroon;
 }
 
 .male {
-	color: Navy;
+  color: Navy;
 }
 
-.gold 
-{
-   color: #ffcc00;
-}
-   
-.silver 
-{ 
-   color: #cccccc; 
-}
-   
-.bronze
-{
-    color: #cc9966;
+.gold {
+  color: #ffcc00;
 }
 
-.hm
-{
-    color: #ff3399;
+.silver {
+  color: #cccccc;
 }
 
-.showprnI
-{ 
-    display: none ;  
-}    
-
-.hideprnI
-{ 
-    display: inline ;
-}
-   
-.pbbPrint 
-{
-    page-break-before: auto;  
-}  
-
-.cmd 
-{   background-color : black;
-    color : white;
-    font-family: monospace;
-    font-weight : bold;
-    padding : 0.5ex;
+.bronze {
+  color: #cc9966;
 }
 
-.gfloat
-{   font-size: 0.8em; 
-    position: absolute; 
-    top: 8; 
-    left: 8;
-    z-index: 200; 
-    padding: 8px; 
-    background-color: white; 
-    border: 0;
+.hm {
+  color: #ff3399;
 }
 
-.inprogress
-{
-    background-color: red;
-    color: White;
+.showprnI {
+  display: none;
 }
 
-.inprogress a {color: white;}
-
-.calling
-{
-    background-color: #FFFF00;  
+.hideprnI {
+  display: inline;
 }
 
-.completed
-{
-  background-color  : #00FF00;
+.pbbPrint {
+  page-break-before: auto;
 }
 
-.rescheduling
-{
-  background-color  : #00FFFF;
+.cmd {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  padding: 0.5ex;
 }
 
-.rescheduled
-{
-  background-color  : #CCCCCC;
+.gfloat {
+  font-size: 0.8em;
+  position: absolute;
+  top: 8;
+  left: 8;
+  z-index: 200;
+  padding: 8px;
+  background-color: white;
+  border: 0;
+}
+
+.inprogress {
+  background-color: red;
+  color: White;
+}
+
+.inprogress a {
+  color: white;
+}
+
+.calling {
+  background-color: #ffff00;
+}
+
+.completed {
+  background-color: #00ff00;
+}
+
+.rescheduling {
+  background-color: #00ffff;
+}
+
+.rescheduled {
+  background-color: #cccccc;
   text-decoration: blink;
 }
 
-.verified
-{
-  background-color  : #32CD32;
+.verified {
+  background-color: #32cd32;
 }
 
-.stored
-{
-  background-color  : #FF00FF;
+.stored {
+  background-color: #ff00ff;
 }

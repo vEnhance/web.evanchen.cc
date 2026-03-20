@@ -3,90 +3,97 @@
 	print
 
  *  *  *  *  *  *  *  *  *  *  *  */
-    
+
 body {
-	font-family: serif;
-	font-size: 12pt;
-	background-color: white;
-	overflow: visible;
+  font-family: serif;
+  font-size: 12pt;
+  background-color: white;
+  overflow: visible;
 }
 
 html {
-	overflow: visible;
+  overflow: visible;
 }
 
 #header {
   /*xborder: 1px solid red; */
-	position: relative;
-	margin: 0;
-	top: 0;
-	left: 0;
-	display: block;
-	width: 100%;
-	z-index: 5;
-	background-color: transparent;
-    height: auto;
-	display: none;
+  position: relative;
+  margin: 0;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  z-index: 5;
+  background-color: transparent;
+  height: auto;
+  display: none;
 }
 
 #header #sub {
-	display: none;
+  display: none;
 }
 
 #header #lang {
-	display: none;
+  display: none;
 }
 
 #sidebar {
-	display: none;
+  display: none;
 }
-    
-#main 
-{
-	top :auto ;
-    /*xborder: 1px solid green;*/
-	position: relative;
-	overflow:  visible;
-	text-align: inherit;
-	left: auto;
-	right: auto;
-	bottom: auto;
-	margin: 0;
-	width: auto;
+
+#main {
+  top: auto;
+  /*xborder: 1px solid green;*/
+  position: relative;
+  overflow: visible;
+  text-align: inherit;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  margin: 0;
+  width: auto;
 }
 
 #footer {
-	display: none;
+  display: none;
 }
 
-h2, h2 a, h2 a:visited, h3, h3 a, h4 {
-	color: black;
+h2,
+h2 a,
+h2 a:visited,
+h3,
+h3 a,
+h4 {
+  color: black;
 }
 
 h4 {
-	text-align: left;
+  text-align: left;
 }
 
-a, a:hover, a:visited {
-	color: black;
+a,
+a:hover,
+a:visited {
+  color: black;
 }
 
-#main thead a, #main thead a:hover, #main thead a:visited {
-	text-decoration: none;
+#main thead a,
+#main thead a:hover,
+#main thead a:visited {
+  text-decoration: none;
 }
 
-#main table
-{
-    font-size: 90%;
-} 
-    
+#main table {
+  font-size: 90%;
+}
+
 #main td {
-	padding: 0.25ex;
+  padding: 0.25ex;
 }
 
 #main th {
-    font-size : inherit;
-	padding: 0.25ex;
+  font-size: inherit;
+  padding: 0.25ex;
 }
 
 /*
@@ -96,28 +103,30 @@ a, a:hover, a:visited {
 */
 
 .box div {
-	border: 0px;
-	background-color: transparent;
+  border: 0px;
+  background-color: transparent;
 }
 
-#logoutBtn{
-	display: none;
+#logoutBtn {
+  display: none;
 }
 
 #langForm {
-	display: none;
+  display: none;
 }
 
-.pointer, .sort, .no-sort, .hideprn, .hideprnI {
-display: none;
+.pointer,
+.sort,
+.no-sort,
+.hideprn,
+.hideprnI {
+  display: none;
 }
 
-.showprnI
-{ 
-    display: inline ;  
-}    
+.showprnI {
+  display: inline;
+}
 
-.pbbPrint 
-{
-     page-break-before: always; 
-}  
+.pbbPrint {
+  page-break-before: always;
+}

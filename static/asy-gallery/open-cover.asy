@@ -25,4 +25,3 @@ open_ball((6.0,-2.4), 4.0, yellow);
 label("$Y$", (8,3), dir(5), blue);
 
 label(scale(2)*"$Y = \bigcup_\alpha U_\alpha$", (0,4), blue);
-

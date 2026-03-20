@@ -21,9 +21,7 @@ MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/", REPO / "output"),
 ]
 SKIP_PREFIXES = tuple(
-    line.strip()
-    for line in (REPO / "EXTDIRS").read_text().splitlines()
-    if line.strip()
+    line.strip() for line in (REPO / "EXTDIRS").read_text().splitlines() if line.strip()
 )
 
 
@@ -34,7 +32,7 @@ def resolve(url_path: str) -> Path | None:
         return None
     for prefix, directory in MOUNTPOINTS:
         if url_path.startswith(prefix):
-            fspath = directory / url_path[len(prefix):]
+            fspath = directory / url_path[len(prefix) :]
             # Treat bare directories as index.html
             if fspath.is_dir():
                 fspath = fspath / "index.html"

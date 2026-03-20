@@ -17,4 +17,3 @@ for perm in itertools.permutations(letters):
 	print '&',
 	print bold.count(True),
 	print r'\\'
-

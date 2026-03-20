@@ -15,9 +15,7 @@ MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/", REPO / "output"),
 ]
 REDIRECT_PREFIXES = tuple(
-    line.strip()
-    for line in (REPO / "EXTDIRS").read_text().splitlines()
-    if line.strip()
+    line.strip() for line in (REPO / "EXTDIRS").read_text().splitlines() if line.strip()
 )
 
 

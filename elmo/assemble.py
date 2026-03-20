@@ -416,8 +416,8 @@ for year in ELMO:
         )
         print(FOOTER, file=f)
 
-    jquery_script = (
-        lambda n, k: r"<script>"
+    jquery_script = lambda n, k: (
+        r"<script>"
         + r'$(function() { $("#table_main").tablesorter({sortList: [[%d,%d]]}); } );'
         % (n, k)
         + r"</script>"
