@@ -195,7 +195,7 @@ def get_card_trick() -> str:
         r'<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slim-select@latest/dist/slimselect.min.js"></script>'
         + "\n"
     )
-    out += r'<script type="text/javascript" src="/js/trick.js"></script>' + "\n"
+    out += r'<script type="text/javascript" src="/static/js/trick.js"></script>' + "\n"
     return out
 
 

@@ -62,10 +62,10 @@ This letter contains:
 
 You can download the letters here:
 
-- [Welcome letter for junior students (9th-10th grade)](static/welcome-jmo.pdf),
-  and [solutions to examples](static/sol-welcome-jmo.pdf)
-- [Welcome letter for older students (11th-12th grade)](static/welcome-usamo.pdf),
-  and [solutions to examples](static/sol-welcome-usamo.pdf)
+- [Welcome letter for junior students (9th-10th grade)](static/docs/welcome-jmo.pdf),
+  and [solutions to examples](static/docs/sol-welcome-jmo.pdf)
+- [Welcome letter for older students (11th-12th grade)](static/docs/welcome-usamo.pdf),
+  and [solutions to examples](static/docs/sol-welcome-usamo.pdf)
 
 I suggest starting by reading through this letter,
 trying the example problems (you will probably not solve them all;

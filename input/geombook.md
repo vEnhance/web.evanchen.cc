@@ -160,7 +160,7 @@ See also [advice from Geoff Smith on geometry](https://web.archive.org/web/20250
 [stefan]: https://www.olympiadgeometry.com/
 [ukmt]: https://shop.ukmt.org.uk/ukmt-books/plane-euclidean-geometry
 [ebook]: https://bookstore.ams.org/prb-27/
-[cover]: /static/egmo-cover.jpg
+[cover]: /static/images/egmo-cover.jpg
 [googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false
 [amazon]: https://www.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/1470466201
 [hardcopy]: https://bookstore.ams.org/prb-27/

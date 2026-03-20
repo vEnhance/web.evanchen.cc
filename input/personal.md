@@ -73,7 +73,7 @@ Some details about my setup:
   with [py3status](https://ultrabug.github.io/py3status/)
   and [rofi](https://github.com/davatorium/rofi)
 - Browser: [qutebrowser](https://en.wikipedia.org/wiki/Qutebrowser)
-- [Browser homepage](static/browser-homepage.html)
+- [Browser homepage](applets/homepage.html)
   (click the timer to change target date)
 - Editor: [NeoVim](https://neovim.io/)
 - File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)

@@ -10,7 +10,7 @@ menu-position: 50
 <tr>
   <td style="text-align: center;">
   <a href="https://youtube.com/c/vEnhance">
-  <img src="static/logo-youtube.png" width="120" alt="YouTube logo" />
+  <img src="static/icons/social-youtube.png" width="70" alt="YouTube logo" />
   </a>
   <br />
   <h3><a href="https://www.youtube.com/c/vEnhance">
@@ -24,7 +24,7 @@ menu-position: 50
 <tr>
   <td style="text-align:center;">
   <a href="https://twitch.tv/vEnhance/">
-  <img src="static/logo-twitch.png" width="70" alt="Twitch logo" />
+  <img src="static/icons/social-twitch.png" width="70" alt="Twitch logo" />
   </a>
   <br />
   <h3><a href="https://twitch.tv/vEnhance/">
@@ -69,8 +69,8 @@ Xiberia V22 headset, Havit HV-KB395L keyboard,
 Inateck MS 1001 mouse, Wacom Intuos S tablet, MSI Codex XE Plus computer.
 
 <div class="text-cenetr" style="margin: 0 auto;">
-  <a href="/static/twitch-setup.jpg">
-  <img src="/static/twitch-setup-sm.jpg" width="250" alt="Evan's multi-monitor setup for Twitch." />
+  <a href="/static/images/twitch-setup.jpg">
+  <img src="/static/images/twitch-setup-sm.jpg" width="250" alt="Evan's multi-monitor setup for Twitch." />
   </a>
 </div>
 

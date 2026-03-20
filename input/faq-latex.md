@@ -127,7 +127,7 @@ See examples in [FAQ L-9](#L-9).
 ### {{ faq("L-6", "What package did you use to typeset your CV?") }}
 
 I use [moderncv](https://ctan.org/pkg/moderncv?lang=en).
-You can [download the TeX source of my CV](static/CV-example-source-2020.tex)
+You can [download the TeX source of my CV](static/docs/CV-example-source-2020.tex)
 (with slight modifications for simplicity; this link is not updated).
 
 ### {{ faq("L-7", "How do you get the LaTeX to auto-compile?") }}
@@ -215,7 +215,7 @@ I use [Zathura](https://pwmt.org/projects/zathura/).
 
 ### {{ faq("L-13", "How did you get randomized hint order in your geometry textbook?") }}
 
-It's a bit of a hack, but here is [demo code](static/random-hints.tex)
+It's a bit of a hack, but here is [demo code](static/docs/random-hints.tex)
 corresponding to the version used in my geometry book.
 
 Dennis Chen wrote a more sophisticated version `scrambledenvs`,

@@ -6,7 +6,7 @@ description: Synopsis of my teaching for olympiad contestants.
 ---
 
 <a href="https://www.gocomics.com/calvinandhobbes/1992/09/21">
-<img src="static/43616c76696e486f62626573.gif" width="100%"
+<img src="static/images/43616c76696e486f62626573.gif" width="100%"
   alt="Calvin and Hobbes comic from Sept 21, 1992." />
 </a>
 
@@ -111,8 +111,8 @@ is the only employee.
 
 ## {{ hl("photos", "Photos") }}
 
-<img src="static/otis-imo-2018.png" width="400" alt="OTIS x IMO 2018 gathering" />
-<img src="static/otis-imo-2019.jpg" width="400" alt="OTIS x IMO 2019 gathering" />
+<img src="static/images/otis-imo-2018.png" width="400" alt="OTIS x IMO 2018 gathering" />
+<img src="static/images/otis-imo-2019.jpg" width="400" alt="OTIS x IMO 2019 gathering" />
 
 ## Authorized third-party instructors
 

@@ -28,7 +28,7 @@ Expect a lot of math and OTIS references[^idiosyn].
 <div id="result" class="result" style="display: none;"></div>
 
 <script src="/opals/opal-hashes.js"></script>
-<script src="/js/opal-checker.js"></script>
+<script src="/static/js/opal-checker.js"></script>
 
 The static checker above can be used to check a final answer to any OPAL puzzle.
 A few puzzles will also confirm partial answers if you're close

@@ -170,7 +170,7 @@ Here's a picture of what my cheat sheet looks like,
 [taken from vi-emu](https://boredzo.org/vi_tutorial/vi_tutorial-Dvorak-Color.pdf)
 (Dvorak keys):
 
-![Power overwhelming.](static/vim-dvorak.png)
+![Power overwhelming.](static/images/vim-dvorak.png)
 
 That means that if when you want to do a specific thing like
 "go to line 100" or "go to the end of this paragraph",

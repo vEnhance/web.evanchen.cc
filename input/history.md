@@ -66,7 +66,7 @@ I ended up on that year's Taiwan team and earned a [gold medal as TWN2][imo].
 Here is a stack of used scratch paper from my
 contest preparation over four years of high school.
 
-<img src="static/scratch.jpg" height="500" alt="A stack of scratch paper from Evan's math contest career, with a USAMO winner medal and an IMO gold medal on top." />
+<img src="static/images/scratch.jpg" height="500" alt="A stack of scratch paper from Evan's math contest career, with a USAMO winner medal and an IMO gold medal on top." />
 
 The medal on the left is a USAMO winner medal;
 the medal on the right is an IMO gold medal, both from 2014.

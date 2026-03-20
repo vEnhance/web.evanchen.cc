@@ -44,7 +44,7 @@ Learn. To. Code. Learn to code god-damn it!
 [![Tiny Evan knows Python. You can too!][tiny]{width=90%}][tiny]
 {class=text-center}
 
-[tiny]: static/learnpython.jpg
+[tiny]: static/images/learnpython.jpg
 
 I don't think everyone should be able to solve IOI problems[^ioi].
 But I am adamant you should at least have a basic understanding

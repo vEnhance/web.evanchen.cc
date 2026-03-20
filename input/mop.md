@@ -216,4 +216,4 @@ We had a lot of different lounge spaces, which also had names:
 
 Also, the Selleck dining is _amazing_. Just saying.
 
-<script src="/js/mop.js"></script>
+<script src="/static/js/mop.js"></script>

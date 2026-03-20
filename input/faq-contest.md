@@ -758,7 +758,7 @@ If you really desperately want specific personal advice,
     to make sure they're meeting the daily quota.
     [Even MOHS was a mistake][mohs-mistake].
 
-[aimescratch]: static/AIME-2013-scratch.pdf
+[aimescratch]: static/docs/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
 [c15link]: https://aops.com/community/p18587427

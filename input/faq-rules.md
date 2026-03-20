@@ -77,7 +77,7 @@ The team is known shortly after the third camp, a couple of days into May.
 For more details, see [my report on Taiwan IMO][taiwan].
 
 A decade later, I was also sent an
-[updated flowchart of the selection process for 2024](static/taiwan-select-2024.pdf).
+[updated flowchart of the selection process for 2024](static/docs/taiwan-select-2024.pdf).
 This now includes a pathway to the EGMO.
 
 ### {{ faq("CR-3", "How is USAMO / IMO graded?") }}

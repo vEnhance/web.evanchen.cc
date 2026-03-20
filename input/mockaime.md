@@ -9,8 +9,8 @@ description: Satisfactory. Keep cooking.
 _Satisfactory. Keep cooking._
 
 <div style="text-align: center;">
-<a href="static/otter-cooking.png">
-<img src="static/otter-cooking-sm.png"
+<a href="static/images/otter-cooking.png">
+<img src="static/images/otter-cooking-sm.png"
   alt="An otter in front of a blackboard cooking a dish."
   width="384" />
 </a>
@@ -105,4 +105,4 @@ In particular, books, notes, calculators, cell phones, computers, abacuses,
 ChatGPT, magic crystal balls, etc., are all prohibited.
 
 [aime]: https://en.wikipedia.org/wiki/American_Invitational_Mathematics_Examination
-[arml]: /static/ARML_Conventions_2014.pdf
+[arml]: /static/docs/ARML_Conventions_2014.pdf

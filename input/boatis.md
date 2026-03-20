@@ -24,8 +24,8 @@ If you're in OTIS, you can redeem the reward:
 Happy April Fool's Day!
 You can see the original April 1st joke on [my website][boatis-blog].
 
-<a href="/static/BOATIS.png">
-<img width="512" src="/static/BOATIS-sm.png" alt="BOATIS logo" />
+<a href="/static/images/BOATIS.png">
+<img width="512" src="/static/images/BOATIS-sm.png" alt="BOATIS logo" />
 </a>
 
 [boatis-blog]: https://blog.evanchen.cc/2023/04/01/announcing-%E2%9B%B5is-the-successor-to-otis/

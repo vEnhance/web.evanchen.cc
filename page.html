@@ -39,27 +39,38 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="icons/apple-touch-icon.png"
+      href="/static/icons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
-      href="icons/favicon-32x32.png"
+      href="/static/icons/favicon-32x32.png"
       sizes="32x32"
     />
     <link
       rel="icon"
       type="image/png"
-      href="icons/favicon-16x16.png"
+      href="/static/icons/favicon-16x16.png"
       sizes="16x16"
     />
-    <link rel="manifest" href="icons/manifest.json" />
-    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5" />
-    <link rel="shortcut icon" href="icons/favicon.ico" />
-    <meta name="msapplication-config" content="icons/browserconfig.xml" />
+    <link rel="manifest" href="/static/icons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/static/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/static/icons/favicon.ico" />
+    <meta
+      name="msapplication-config"
+      content="/static/icons/browserconfig.xml"
+    />
     <meta name="theme-color" content="#ffffff" />
-    <link type="text/css" rel="stylesheet" href="css/simple-53544.css" />
-    <link type="text/css" rel="stylesheet" href="css/extras.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/static/css/simple-53544.css"
+    />
+    <link type="text/css" rel="stylesheet" href="/static/css/extras.css" />
   </head>
   <body>
     <div class="container">
@@ -71,7 +82,7 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
                 Evan Chen<span class="d-none d-sm-inline">《陳誼廷》</span>
                 <img
                   height="54"
-                  src="icons/android-chrome-192x192.png"
+                  src="/static/icons/android-chrome-192x192.png"
                   style="vertical-align: text-bottom"
                   alt="Logo"
                 />
@@ -101,34 +112,49 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
         <div class="col-10 col-sm-6 col-md-5 text-sm-end d-none d-md-block">
           <div id="email_box">
             <a class="emoji-link" href="contact.html"
-              ><img height="24" src="icons/social-mail.png" alt="Email"
+              ><img height="24" src="/static/icons/social-mail.png" alt="Email"
             /></a>
             &nbsp;
             <a class="emoji-link" href="https://blog.evanchen.cc/"
-              ><img height="24" src="icons/social-wordpress.png" alt="Blog"
+              ><img
+                height="24"
+                src="/static/icons/social-wordpress.png"
+                alt="Blog"
             /></a>
             &nbsp;
             <a class="emoji-link" href="https://www.instagram.com/evanchen.cc/"
               ><img
                 height="24"
-                src="icons/social-instagram.png"
+                src="/static/icons/social-instagram.png"
                 alt="Instagram"
             /></a>
             &nbsp;
             <a class="emoji-link" href="https://youtube.com/c/vEnhance"
-              ><img height="24" src="icons/social-youtube.png" alt="YouTube"
+              ><img
+                height="24"
+                src="/static/icons/social-youtube.png"
+                alt="YouTube"
             /></a>
             &nbsp;
             <a class="emoji-link" href="https://twitch.tv/vEnhance"
-              ><img height="24" src="icons/social-twitch.png" alt="Twitch"
+              ><img
+                height="24"
+                src="/static/icons/social-twitch.png"
+                alt="Twitch"
             /></a>
             &nbsp;
             <a class="emoji-link" href="discord.html"
-              ><img height="24" src="icons/social-discord.png" alt="Discord"
+              ><img
+                height="24"
+                src="/static/icons/social-discord.png"
+                alt="Discord"
             /></a>
             &nbsp;
             <a class="emoji-link" href="https://www.github.com/vEnhance/"
-              ><img height="24" src="icons/social-github.png" alt="Github"
+              ><img
+                height="24"
+                src="/static/icons/social-github.png"
+                alt="Github"
             /></a>
           </div>
         </div>
@@ -199,8 +225,8 @@ for p in mpages:
     </div>
     <!-- end container -->
     <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-    <script src="js/blog.js"></script>
-    <script src="js/ga.js"></script>
-    <script src="js/k.js"></script>
+    <script src="/static/js/blog.js"></script>
+    <script src="/static/js/ga.js"></script>
+    <script src="/static/js/k.js"></script>
   </body>
 </html>
