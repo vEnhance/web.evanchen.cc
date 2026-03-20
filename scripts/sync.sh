@@ -6,6 +6,6 @@ gcloud storage rsync -R elmo/ gs://web.evanchen.cc/elmo/
 gcloud storage cp static/icons/favicon.ico gs://web.evanchen.cc/favicon.ico
 
 echo ""
-echo "Gentle reminder: exams, handouts, private, upload directory not sync'ed"
+echo "Gentle reminder: EXTDIRS and handouts directory not sync'ed"
 
 ./scripts/thaw.sh

@@ -14,13 +14,10 @@ MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/handouts/", REPO / "handouts"),
     ("/", REPO / "output"),
 ]
-REDIRECT_PREFIXES = (
-    "/exams/",
-    "/notes/",
-    "/opals/",
-    "/textbooks/",
-    "/twitch/",
-    "/upload/",
+REDIRECT_PREFIXES = tuple(
+    line.strip()
+    for line in (REPO / "EXTDIRS").read_text().splitlines()
+    if line.strip()
 )
 
 

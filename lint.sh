@@ -14,4 +14,7 @@ codespell "${SPELL_FILES_ARRAY[@]}"
 echo "Running htmlhint..."
 htmlhint output/*.html
 
+echo "Checking for broken links..."
+./scripts/broken-links.py
+
 echo "✅ All OK!"
