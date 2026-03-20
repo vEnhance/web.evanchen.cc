@@ -4,8 +4,10 @@
 
 default_install_hook_types = [
   "pre-commit",
-  "commit-msg"
-  ]
+  "commit-msg",
+  "pre-push"
+]
+
 default_stages = ["pre-commit"]
 
 [[repos]]
@@ -115,5 +117,18 @@ hooks = [
       "temp",
       "tests"
     ]
+  }
+]
+
+[[repos]]
+repo = "local"
+hooks = [
+  {
+    id = "lint",
+    name = "Compile HTML and check",
+    entry = "scripts/lint.sh",
+    language = "system",
+    pass_filenames = false,
+    stages = ["pre-push"],
   }
 ]
