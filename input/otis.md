@@ -36,15 +36,15 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 - Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 - [OPAL puzzle hunt](opal.html)
 
-[sample-dny]: static/otis-samples/DNY-ntconstruct.pdf
-[sample-dnysol]: static/otis-samples/DNY-sol-ntconstruct.pdf
-[sample-bcw]: static/otis-samples/BCW-global.pdf
-[sample-zgx]: static/otis-samples/ZGX-weirdgeo.pdf
-[sample-jmo]: static/otis-samples/Exam-Sample-08-JMO.pdf
-[sample-usamo]: static/otis-samples/Exam-Sample-08-USAMO.pdf
-[sample-sol]: static/otis-samples/Exam-Sample-08-Soln.pdf
-[sample-zack]: static/otis-samples/zack-local.pdf
-[unitlist]: static/otis-samples/synopsis.html
+[sample-dny]: /upload/otis-samples/DNY-ntconstruct.pdf
+[sample-dnysol]: /upload/otis-samples/DNY-sol-ntconstruct.pdf
+[sample-bcw]: /upload/otis-samples/BCW-global.pdf
+[sample-zgx]: /upload/otis-samples/ZGX-weirdgeo.pdf
+[sample-jmo]: /upload/otis-samples/Exam-Sample-08-JMO.pdf
+[sample-usamo]: /upload/otis-samples/Exam-Sample-08-USAMO.pdf
+[sample-sol]: /upload/otis-samples/Exam-Sample-08-Soln.pdf
+[sample-zack]: /upload/otis-samples/zack-local.pdf
+[unitlist]: /upload/otis-samples/synopsis.html
 
 ## {{ hl("excerpts", "The OTIS Excerpts") }}
 
