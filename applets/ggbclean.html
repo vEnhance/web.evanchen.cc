@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>GeoGebra Asymptote cleaner</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        max-width: 1024px;
+        width: 100vw;
+        margin: 10px auto;
+        font-family: "Mate", serif;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+      #container {
+        display: flex;
+        gap: 10px;
+        height: 20em;
+        max-height: 100vh;
+      }
+      textarea {
+        flex: 1;
+        background-color: #333;
+        color: #eee;
+        border: 1px solid #555;
+        font-family: monospace;
+        padding: 8px;
+        overflow-x: scroll;
+        overflow-y: scroll;
+      }
+      textarea#output {
+        color: #8f8;
+      }
+      textarea#output.error {
+        color: #f88;
+      }
+      @media (max-width: 600px) {
+        #container {
+          flex-direction: column;
+          max-height: 50vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GeoGebra Asymptote cleaner</h1>
+    <p>
+      This is a JavaScript translation of the original
+      <a
+        href="https://github.com/vEnhance/dotfiles/blob/main/py-scripts/export-ggb-clean-asy.py"
+        >Python script by Evan</a
+      >.
+    </p>
+    <div id="container">
+      <textarea
+        id="input"
+        placeholder="Paste GeoGebra Asymptote export here..."
+      ></textarea>
+      <textarea
+        id="output"
+        readonly
+        placeholder="Cleaned output will appear here..."
+      ></textarea>
+    </div>
+    <script>
+      const ADVERTISEMENT = `/*
+Converted from GeoGebra by User:Azjps using Evan's magic cleaner
+https://github.com/vEnhance/dotfiles/blob/main/py-scripts/export-ggb-clean-asy.py
+*/
+`;
+
+      function replaceNumbers(s) {
+        return s.replace(/(\d+\.\d{5})\d+/g, "$1");
+      }
+
+      function parseCoords(s) {
+        const m = s.match(/\(\s*([\d.\-]+)\s*,\s*([\d.\-]+)\s*\)/);
+        return m ? [parseFloat(m[1]), parseFloat(m[2])] : null;
+      }
+
+      function processGGB(input) {
+        const lines = input.split("\n");
+        let i = 0;
+
+        // Step 1: Header check — consume if present, don't crash if absent
+        if (
+          i < lines.length &&
+          lines[i].includes("Geogebra to Asymptote conversion")
+        ) {
+          i++;
+        }
+
+        const outputLines = [];
+        const pointCoordsDict = {};
+
+        // Step 2: Preamble
+        for (; i < lines.length; i++) {
+          let line = replaceNumbers(lines[i]).trim();
+          if (line === "" || line.includes("/* draw figures */")) {
+            i++;
+            break;
+          }
+          if (
+            line.includes("real labelscalefactor") ||
+            line.includes("pen dps") ||
+            line.includes("pen dotstyle") ||
+            line.includes("real xmin")
+          ) {
+            continue;
+          }
+          if (line.startsWith("pair ")) {
+            const content = line.slice(5).trim().replace(/;$/, "");
+            const assignments = content.split(", ");
+            for (const assn of assignments) {
+              const eqIdx = assn.indexOf(" = ");
+              if (eqIdx !== -1) {
+                const pointName = assn.slice(0, eqIdx);
+                const pointCoords = assn.slice(eqIdx + 3);
+                pointCoordsDict[pointName] = parseCoords(pointCoords);
+              }
+            }
+          }
+          for (const stmt of line.split(";")) {
+            if (stmt.trim()) {
+              outputLines.push(stmt.trim() + ";");
+            }
+          }
+        }
+
+        // Step 3: Draw figures
+        for (; i < lines.length; i++) {
+          let line = replaceNumbers(lines[i]).trim();
+          if (line.includes("dots and labels")) {
+            i++;
+            break;
+          }
+          if (line.includes("draw figures") || line.includes("grid")) {
+            continue;
+          }
+          line = line.replace("linewidth(2.)", "linewidth(0.6)");
+          outputLines.push(line);
+        }
+
+        let figuresCode = outputLines.join("\n") + "\n";
+
+        // Step 4: Dots and labels
+        const dotRegex = /^dot\(([a-zA-Z0-9_]+|\([0-9.\-,]+\)),.*?dotstyle\);$/;
+        const labelRegex = /^label\("(.+?)", (\([0-9.\-,]+\)), .+?\);$/;
+        const labelToCoords = {};
+
+        while (i < lines.length) {
+          const dotLine = replaceNumbers(lines[i].trim());
+          i++;
+          if (dotLine === "/* end of picture */" || dotLine === "") {
+            break;
+          }
+          const dotMatch = dotLine.match(dotRegex);
+          if (!dotMatch) continue;
+
+          if (i >= lines.length) break;
+          const labelLine = replaceNumbers(lines[i].trim());
+          i++;
+          const labelMatch = labelLine.match(labelRegex);
+          if (!labelMatch) continue;
+
+          const pointCoords = dotMatch[1];
+          const label = labelMatch[1];
+          const labelLoc = parseCoords(labelMatch[2]);
+
+          let coords;
+          if (
+            Object.prototype.hasOwnProperty.call(pointCoordsDict, pointCoords)
+          ) {
+            coords = pointCoordsDict[pointCoords];
+          } else {
+            coords = parseCoords(pointCoords);
+          }
+
+          if (coords === null || labelLoc === null) {
+            figuresCode += `dot("${label}", ${pointCoords}, dir(45));\n`;
+          } else {
+            const dx = 100 * (labelLoc[0] - coords[0]);
+            const dy = 100 * (labelLoc[1] - coords[1]);
+            let vdir = Math.round((Math.atan2(dy, dx) * 180) / Math.PI);
+            if (vdir < 0) vdir += 360;
+            figuresCode += `dot("${label}", ${pointCoords}, dir(${vdir}));\n`;
+          }
+          labelToCoords[label] = pointCoords;
+        }
+
+        // Step 5: Cleanup — named variables
+        let pairDeclarations = "";
+        for (const [label, pointCoords] of Object.entries(labelToCoords)) {
+          if (!label.startsWith("$") || !label.endsWith("$")) continue;
+          const varName = label
+            .slice(1, -1)
+            .replace(/'/g, "p")
+            .replace(/[^a-zA-Z0-9_]/g, "");
+          figuresCode = figuresCode.replaceAll(pointCoords, varName);
+          pairDeclarations += `pair ${varName} = ${pointCoords};\n`;
+        }
+
+        return (ADVERTISEMENT + pairDeclarations + "\n" + figuresCode).trim();
+      }
+
+      const inputEl = document.getElementById("input");
+      const outputEl = document.getElementById("output");
+
+      inputEl.addEventListener("input", () => {
+        const val = inputEl.value.trim();
+        if (!val) {
+          outputEl.value = "";
+          outputEl.className = "";
+          return;
+        }
+        try {
+          outputEl.value = processGGB(val);
+          outputEl.className = "";
+        } catch (e) {
+          outputEl.value = e;
+          outputEl.className = "error";
+        }
+      });
+    </script>
+  </body>
+</html>
