@@ -23,7 +23,7 @@ under [Po-Shen Loh](https://www.poshenloh.com/),
 besides 2020 and 2021 when the camp was run on Discord due to COVID-19.
 Prior to 2015, the camp was in [University of Nebraska-Lincoln](https://unl.edu).
 
-See [FAQ CR-7](https://web.evanchen.cc/faq-rules.html#CR-7)
+See [FAQ CR-7](faq-rules.html#CR-7)
 for approximate invitation criteria.
 
 I was an organizer of MOP from 2016 to 2025;
@@ -64,7 +64,7 @@ and the back contains everyone's signature.
   See [ELMO page](https://web.evanchen.cc/elmo/general.html).
 - The **Mock IMO** is run by staff using [IMO Shortlist](faq-rules.html#CR-11);
   it also features a mock
-  [coordination](https://web.evanchen.cc/faq-rules.html#CR-10).
+  [coordination](faq-rules.html#CR-10).
   It's one of several practice tests run by the staff at MOP each year.
   You can download the problems here:
 

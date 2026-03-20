@@ -106,7 +106,7 @@ See the application PDF for more details.
 
 # {{ hl("people", "People") }}
 
-Currently [Evan Chen](https://web.evanchen.cc) (Game Master)
+Currently [Evan Chen](index.html) (Game Master)
 is the only employee.
 
 ## {{ hl("photos", "Photos") }}

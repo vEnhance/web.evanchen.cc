@@ -579,7 +579,7 @@ Whereas if you are trying to write the solution well
 (not just for the 7 points like many of you have been trained to do),
 you should often find that the content of your solution will be different
 from what was in your head before you started writing.
-If you watch me do [write-ups live on stream](/videos.html) you'll see this.
+If you watch me do [write-ups live on stream](videos.html) you'll see this.
 It's only during the so-called "write-up" phase that a lot of the claims
 are restructured or reordered, or steps are consolidated and simplified.
 (Or worse still, I realize the solution I had in my head doesn't actually work.

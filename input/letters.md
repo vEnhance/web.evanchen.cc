@@ -21,7 +21,7 @@ rather than as a math teacher proper.
 I can also write letters for
 [MIT PRIMES](https://math.mit.edu/research/highschool/primes/index.html) and
 [RSI](https://www.cee.org/research-science-institute)
-(but see [FAQ S-5](https://web.evanchen.cc/faq-school.html#S-5)).
+(but see [FAQ S-5](faq-school.html#S-5)).
 
 ## {{ hl("ask", "Whether to ask") }}
 
@@ -32,7 +32,7 @@ Here are a few reasons why:
 - I am not formally a teacher or professor,
   which may confuse any clueless admissions officers[^fancy].
 - Also, if I only worked with you at
-  [MOP](https://web.evanchen.cc/mop.html)
+  [MOP](mop.html)
   or [OTIS](otis.html), I may not have spent enough time
   with you in-person to "paint a picture"
   compared to a teacher at your school, so to speak.

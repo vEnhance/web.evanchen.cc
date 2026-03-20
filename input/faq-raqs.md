@@ -301,7 +301,7 @@ A few pointers:
 3. Get the proofreading and copy-editing right.
    If you're not a native English speaker, get a friend or editor to help you.
    And get many eyes to fix errors or ambiguities.
-   [This is not something I did well for my geometry book](https://web.evanchen.cc/textbooks/geombook-errata.pdf).
+   [This is not something I did well for my geometry book](/textbooks/geombook-errata.pdf).
 
 4. Get the formatting right.
    If you're using LaTeX, learn how to do things right.

@@ -12,7 +12,7 @@ Of course, others should feel free to use or adopt it freely.
 
 See also the [list of pet peeves][peeves].
 
-[peeves]: https://web.evanchen.cc/handouts/LaTeXPetPeeve/LaTeXPetPeeve.pdf
+[peeves]: /handouts/LaTeXPetPeeve/LaTeXPetPeeve.pdf
 
 ## {{ hl("keywords", "Keywords") }}
 

@@ -334,7 +334,7 @@ up actually attending.)
 - Many university math major requirements are quite lax.
   For example, at MIT you can get a math major
   [only taking 1 math class per semester][genmath].
-  So I often encourage [otters](/otis.html) at MIT to still at least consider
+  So I often encourage [otters](otis.html) at MIT to still at least consider
   math majors, even if they don't want to primarily study math and they have
   zero interest in going into academia, because in some cases they'd nearly get
   the major by accident while taking the math classes that sound cool.

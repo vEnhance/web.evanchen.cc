@@ -116,7 +116,7 @@ But anyway, here's the career advice I promised you:
    There is _so much_ math after Calculus III;
    see the [Napkin](napkin.html), for example.
    This is the same reason why I anti-recommend most
-   [high school math research](https://web.evanchen.cc/faq-school.html#S-5).
+   [high school math research](faq-school.html#S-5).
 
 3. If you really must work on open problems, avoid the famous ones.
    (See [Terence Tao's thoughts on that][tao-famous].)

@@ -43,7 +43,7 @@ You can [view the source code on GitHub][asy-gallery].
 # {{ hl("prereq", "Prerequisites") }}
 
 First, if you haven't already, make sure you know everything in
-the [File systems beginner page](https://web.evanchen.cc/filesys.html).
+the [File systems beginner page](filesys.html).
 If you don't understand how files work, this page will not make much sense.
 
 You should have a working local LaTeX installation,

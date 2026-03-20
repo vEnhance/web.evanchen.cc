@@ -82,7 +82,7 @@ in some way. Here are just a few examples:
   and the program runs on its own [dedicated Django server, OTIS-WEB][otisweb].
   It would simply not be possible to run OTIS without OTIS-WEB.
 
-- Running [MOP](https://web.evanchen.cc/mop.html) involves a lot of Python
+- Running [MOP](mop.html) involves a lot of Python
   scripts now for things like collating tests, printing score packets, etc.
   I think it would be unmanageable otherwise.
 
@@ -102,11 +102,11 @@ in some way. Here are just a few examples:
   Solving puzzles is, of course, greatly aided by code as well,
   and in some cases essentially required.
 
-- The [Automatically Generated EGMO Solutions Treasury](https://web.evanchen.cc/textbooks/AGEST.pdf)
+- The [Automatically Generated EGMO Solutions Treasury](/textbooks/AGEST.pdf)
   is true to its name --- it's auto-compiled from
   [the problem database I wrote myself](https://github.com/venhance/von).
   The OTIS Excerpts, MOHS rating chart, and the various solutions files
-  on this website's [problems page](https://web.evanchen.cc/problems.html),
+  on this website's [problems page](problems.html),
   as well as the list of solved YouTube problems,
   were all produced using Python scripts as well.
 

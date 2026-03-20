@@ -63,6 +63,6 @@ but if you really want it [here's a ZIP](textbooks/OTIS-Excerpts.src.zip).
 Much of the underlying TeX is actually machine generated
 (by interactions with my problem database), so don't learn any habits from it.
 
-[recent]: https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf
-[catalog]: https://web.evanchen.cc/static/otis-samples/synopsis.html
+[recent]: /textbooks/OTIS-Excerpts.pdf
+[catalog]: /static/otis-samples/synopsis.html
 [forum]: https://artofproblemsolving.com/community/c1123852_otis_excerpts

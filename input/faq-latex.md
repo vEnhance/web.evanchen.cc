@@ -31,7 +31,7 @@ Any text editor will work with any compiler will work with any PDF viewer.
 [Read Wikibooks](https://en.wikibooks.org/wiki/LaTeX), it's really comprehensive.
 Also, [this tutorial is good too](https://www.latex-tutorial.com/tutorials/).
 
-See also the [example file](https://web.evanchen.cc/handouts/TeXSample/TeXSample.tex).
+See also the [example file](/handouts/TeXSample/TeXSample.tex).
 
 ### {{ faq("L-2a", "What about online suites like Overleaf?") }}
 
@@ -287,4 +287,4 @@ If your expression is so complicated that it isn't legible without using
 
 [Thought you'd never ask][petpeeve].
 
-[petpeeve]: https://web.evanchen.cc/handouts/LaTeXPetPeeve/LaTeXPetPeeve.pdf
+[petpeeve]: /handouts/LaTeXPetPeeve/LaTeXPetPeeve.pdf
