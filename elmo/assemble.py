@@ -232,7 +232,7 @@ for year_num in YEARS:
     students = []
     aopsers = []
     for country_dict in country_dicts:
-        if type(country_dict) == type({}):  # Ordinary ELMO country
+        if isinstance(country_dict, dict):
             country_dict["year"] = year
             this_country_obj = ELMOCountry(**country_dict)
             # Convert the list of strings into a list of Student objects
@@ -248,7 +248,7 @@ for year_num in YEARS:
                 this_country_students.append(student)
             this_country_obj.students = this_country_students
             year.countries.append(this_country_obj)
-        elif type(country_dict) == type([]):
+        elif isinstance(country_dict, list):
             # Special AoPS "country", just list of scores
             for student_string in country_dict:
                 student = AoPSStudent(student_string)
@@ -416,12 +416,14 @@ for year in ELMO:
         )
         print(FOOTER, file=f)
 
-    jquery_script = lambda n, k: (
-        r"<script>"
-        + r'$(function() { $("#table_main").tablesorter({sortList: [[%d,%d]]}); } );'
-        % (n, k)
-        + r"</script>"
-    )
+    def jquery_script(n, k):
+        return (
+            r"<script>"
+            + r'$(function() { $("#table_main").tablesorter({sortList: [[%d,%d]]}); } );'
+            % (n, k)
+            + r"</script>"
+        )
+
     with open(f"results/{year.year_num}_countries.html", "w") as f:
         print(HEADER, file=f)
         print(result_header, file=f)
