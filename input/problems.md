@@ -193,7 +193,7 @@ Also listed on the [USEMO page](usemo.html).
 
 ## {{ hl("elmo", "ELMO") }}
 
-See also [general ELMO information](elmo/general.html).
+See also [general ELMO information](https://elmo.evanchen.cc/).
 
 - ELMO 2010 [(problems)](exams/ELMO-2010.pdf) [(solutions)](exams/ELMO-2010-sols.pdf)
 - ELMO 2011 [(problems)](exams/ELMO-2011.pdf) [(solutions)](exams/ELMO-2011-sols.pdf)

@@ -1,10 +1,10 @@
 title: ELMO
 header: ELMO
 menu-position: 36
-url: elmo/index.html
+url: https://elmo.evanchen.cc/
 indent: 1
 
 ---
 
 You can find all past ELMO materials on the
-[ELMO website](elmo/index.html).
+[ELMO website](https://elmo.evanchen.cc).

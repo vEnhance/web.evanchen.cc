@@ -61,7 +61,7 @@ and the back contains everyone's signature.
 
 - The **ELMO** is written by returning MOPpers for new MOPpers,
   featuring "teams" and coordination.
-  See [ELMO page](https://web.evanchen.cc/elmo/general.html).
+  See [ELMO page](https://elmo.evanchen.cc/).
 - The **Mock IMO** is run by staff using [IMO Shortlist](faq-rules.html#CR-11);
   it also features a mock
   [coordination](faq-rules.html#CR-10).

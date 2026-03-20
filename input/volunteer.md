@@ -18,9 +18,9 @@ the various high school math activities I have helped organize.
   - Summer program 2020 instructor
 - CMIMC: [Carnegie Mellon Informatics Math Competition](https://www.cmimc.org/)
   - Exchange volunteer, 2018, 2019
-- ELMO: [Experimental Lincoln Math Olympiad](https://web.evanchen.cc/elmo/index.html)
+- ELMO: [Experimental Lincoln Math Olympiad](https://elmo.evanchen.cc/)
   - Problem author, 2013, 2014
-  - Shortlist coordinator, 2013 - present
+  - Shortlist coordinator, 2013 - 2016
 - HMMT: [Harvard-MIT Math Tournament](https://www.hmmt.org)
   - Chief of staff, 2018 - 2019
   - Historian, 2017 - 2018

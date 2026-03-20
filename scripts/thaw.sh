@@ -8,8 +8,6 @@ elif [ "$1" = "-c" ]; then
   gcloud storage objects update --cache-control="private,max-age=0" gs://web.evanchen.cc/**/*.css
 elif [ "$1" = "-e" ]; then
   gcloud storage objects update --cache-control="private,max-age=0" gs://web.evanchen.cc/exams/*
-elif [ "$1" = "-o" ]; then
-  gcloud storage objects update --cache-control="private,max-age=0" gs://web.evanchen.cc/elmo/**
 elif [ "$1" = "-s" ]; then
   gcloud storage objects update --cache-control="private,max-age=0" gs://web.evanchen.cc/static/*
 elif [ "$1" = "-h" ]; then
