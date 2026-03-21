@@ -93,6 +93,13 @@ hooks = [
 ]
 
 [[repos]]
+repo = "https://github.com/astral-sh/uv-pre-commit"
+rev = "0.10.12"
+hooks = [
+  { id = "uv-lock" },
+]
+
+[[repos]]
 repo = "https://github.com/compilerla/conventional-pre-commit"
 rev = "v4.4.0"
 hooks = [
