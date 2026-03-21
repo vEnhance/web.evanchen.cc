@@ -2,14 +2,10 @@
 
 if [ $# -eq 0 ]; then
   gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/*.html
-elif [ "$1" = "-j" ]; then
-  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/**/*.js
-elif [ "$1" = "-c" ]; then
-  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/**/*.css
 elif [ "$1" = "-e" ]; then
   gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/exams/*
 elif [ "$1" = "-s" ]; then
-  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/static/*
+  gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/static/**
 elif [ "$1" = "-h" ]; then
   gcloud storage objects update --cache-control="public,max-age=3600" gs://web.evanchen.cc/**/*.html
 elif [ "$1" = "-t" ]; then
