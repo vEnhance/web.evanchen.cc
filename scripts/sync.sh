@@ -7,4 +7,4 @@ gcloud storage cp static/icons/favicon.ico gs://web.evanchen.cc/favicon.ico
 echo ""
 echo "Gentle reminder: EXTDIRS and handouts directory not sync'ed"
 
-./scripts/thaw.sh
+./scripts/thaw.sh -a
