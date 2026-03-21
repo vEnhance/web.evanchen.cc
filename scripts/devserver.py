@@ -10,12 +10,14 @@ LIVE = "https://web.evanchen.cc"
 
 MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/static/", REPO / "static"),
-    ("/applets/", REPO / "applets"),
+    ("/applets/", REPO / "data" / "applets"),
     ("/handouts/", REPO / "handouts"),
     ("/", REPO / "output"),
 ]
 REDIRECT_PREFIXES = tuple(
-    line.strip() for line in (REPO / "EXTDIRS").read_text().splitlines() if line.strip()
+    line.strip()
+    for line in (REPO / "data" / "EXTDIRS").read_text().splitlines()
+    if line.strip()
 )
 
 

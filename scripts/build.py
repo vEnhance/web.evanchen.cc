@@ -14,7 +14,7 @@ from urllib.parse import urljoin, urlparse
 import markdown
 from jinja2 import Environment, FileSystemLoader
 
-PROJECT = Path(__file__).parent
+PROJECT = Path(__file__).parent.parent
 DIR_IN = PROJECT / "input"
 DIR_OUT = PROJECT / "output"
 
@@ -27,7 +27,7 @@ RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
 
 MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/static/", PROJECT / "static"),
-    ("/applets/", PROJECT / "applets"),
+    ("/applets/", PROJECT / "data" / "applets"),
     ("/handouts/", PROJECT / "handouts"),
     ("/", DIR_OUT),
 ]
@@ -39,7 +39,9 @@ MOUNTPOINTS: list[tuple[str, Path]] = [
 
 
 def load_macros() -> dict:
-    spec = importlib.util.spec_from_file_location("macros", PROJECT / "macros.py")
+    spec = importlib.util.spec_from_file_location(
+        "macros", PROJECT / "data" / "macros.py"
+    )
     module = importlib.util.module_from_spec(spec)
     sys.modules["macros"] = module
     spec.loader.exec_module(module)
@@ -78,7 +80,7 @@ def parse_page(path: Path) -> dict:
 
 
 def load_nav_links() -> list[dict]:
-    with open(PROJECT / "nav_links.toml", "rb") as f:
+    with open(PROJECT / "data" / "nav_links.toml", "rb") as f:
         data = tomllib.load(f)
     return [{"_nav_only": True, **link} for link in data.get("links", [])]
 
@@ -98,7 +100,7 @@ def build() -> None:
     md_env.globals["pages"] = pages
 
     tmpl_env = Environment(
-        loader=FileSystemLoader(str(PROJECT)),
+        loader=FileSystemLoader(str(PROJECT / "data")),
         autoescape=False,
         keep_trailing_newline=True,
     )
@@ -232,7 +234,7 @@ def _broken_links(path: Path, skip_prefixes: tuple) -> list[str]:
 def audit() -> bool:
     skip_prefixes = tuple(
         line.strip()
-        for line in (PROJECT / "EXTDIRS").read_text().splitlines()
+        for line in (PROJECT / "data" / "EXTDIRS").read_text().splitlines()
         if line.strip()
     )
 
