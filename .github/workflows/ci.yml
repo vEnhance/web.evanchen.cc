@@ -1,0 +1,33 @@
+name: CI
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  prek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: j178/prek-action@v2
+
+  build:
+    needs: prek
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v5
+      - run: uv run scripts/build.py
+
+      - uses: google-github-actions/auth@v3
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        with:
+          project_id: ${{ secrets.GOOGLE_PROJECT_ID }}
+          workload_identity_provider: ${{ secrets.GOOGLE_WORKFLOW_IDENTITY_PROVIDER }}
+      - uses: google-github-actions/upload-cloud-storage@v2
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        with:
+          path: output
+          destination: web.evanchen.cc
+          glob: "*.html"
+          headers: |-
+            cache-control: private,max-age=0
