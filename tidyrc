@@ -1,5 +1,0 @@
-drop-empty-elements: false
-warn-proprietary-attributes: false
-indent: auto
-indent-spaces: 1
-wrap: 0
