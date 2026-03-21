@@ -131,9 +131,9 @@ hooks = [
 repo = "local"
 hooks = [
   {
-    id = "lint",
-    name = "Check HTML output",
-    entry = "scripts/compile.sh",
+    id = "build",
+    name = "Check build script works correctly",
+    entry = "scripts/build.py",
     language = "system",
     pass_filenames = false,
     stages = ["pre-push"],
