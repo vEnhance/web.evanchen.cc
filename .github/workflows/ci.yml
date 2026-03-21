@@ -41,6 +41,7 @@ jobs:
         with:
           path: output
           destination: web.evanchen.cc
+          parent: false
           glob: "*.html"
           headers: |-
             cache-control: private,max-age=0
