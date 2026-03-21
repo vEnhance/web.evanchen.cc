@@ -278,12 +278,12 @@ Not that elegant, but works.
 Prepare a [minimal working example](http://tug.ctan.org/info/dickimaw/dickimaw-minexample.pdf)
 and ask on [tex.SE](https://tex.stackexchange.com/).
 
-### {{ faq("L-22", r"Why do you anti-recommend \dfrac or \displaystyle?") }}
+### {{ faq("L-22", "Why do you anti-recommend \\dfrac or \\displaystyle?") }}
 
 If your expression is so complicated that it isn't legible without using
 `\dfrac` or `\displaystyle`, then it should probably be displayed.
 
-### {{ faq("L-23", r"Any common mistakes?") }}
+### {{ faq("L-23", "Any common mistakes?") }}
 
 [Thought you'd never ask][petpeeve].
 

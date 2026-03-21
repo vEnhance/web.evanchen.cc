@@ -2,11 +2,7 @@
 
 set -euo pipefail
 
-python3 poole/poole.py -b \
-  --md-ext=extra \
-  --md-ext=smarty \
-  --md-ext=sane_lists \
-  --md-ext=mdx_truly_sane_lists >/dev/null
+python3 build.py
 
 # reformat output with tidy
 tidy -config ./tidyrc -qm ./output/*.html

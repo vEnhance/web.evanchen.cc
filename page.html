@@ -33,9 +33,7 @@
     <meta content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="evan chen, math, olympiad, IMO, education" />
-    <!--%
-print('<meta description="Evan Chen | %s">' % page.get('description', page['title']))
-%-->
+    <meta name="description" content="Evan Chen | {{ page.get('description', page['title']) }}">
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -179,23 +177,13 @@ print('<meta description="Evan Chen | %s">' % page.get('description', page['titl
               </button>
             </nav>
             <div class="collapse d-md-block" id="collapsedContent">
-              <!--%
-mpages = [p for p in pages if "menu-position" in p]
-mpages.sort(key=lambda p: int(p["menu-position"]))
-for p in mpages:
-  if "indent" in p:
-    open_tag = r'<h5>&nbsp; &bullet; &nbsp;'
-    close_tag = r'</h5>'
-  else:
-    open_tag = '<h4>'
-    close_tag = '</h4>'
-  if p["title"] == page["title"]:
-    entry = open_tag + '<strong>%s</strong>' + close_tag
-    print(entry % (hx(p["title"])))
-  else:
-    entry = open_tag + '<a href="%s">%s</a>' + close_tag
-    print(entry % (p["url"], hx(p["title"])))
-%-->
+              {%- for p in pages if "menu-position" in p %}
+              {%- if "indent" in p %}
+              <h5>&nbsp; • &nbsp;{% if p["title"] == page["title"] %}<strong>{{ p["title"] }}</strong>{% else %}<a href="{{ p["url"] }}">{{ p["title"] }}</a>{% endif %}</h5>
+              {%- else %}
+              <h4>{% if p["title"] == page["title"] %}<strong>{{ p["title"] }}</strong>{% else %}<a href="{{ p["url"] }}">{{ p["title"] }}</a>{% endif %}</h4>
+              {%- endif %}
+              {%- endfor %}
               <br />
               <p>
                 <a href="https://ko-fi.com/evanchen" target="_blank"
@@ -214,9 +202,9 @@ for p in mpages:
           <div id="main">
             <div class="entry">
               <h1 id="pagetitle">
-                <a href="{{page['url']}}">{{ page["header"] }}</a>
+                <a href="{{ page['url'] }}">{{ page["header"] }}</a>
               </h1>
-              <div class="entrywrap">{{ __content__ }}</div>
+              <div class="entrywrap">{{ content }}</div>
             </div>
             <div>{{ page_footer(page) }}</div>
           </div>
