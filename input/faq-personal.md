@@ -70,8 +70,8 @@ on [cofinitely][cofinite] many of the pages. ;)
 
 ### {{ faq("P-7", "How did you make your website?") }}
 
-I use [Poole](https://hg.sr.ht/~obensonne/poole).
 See [source code](https://github.com/vEnhance/web.evanchen.cc).
+(Formerly using [Poole](https://hg.sr.ht/~obensonne/poole).)
 
 ### {{ faq("P-8", "Pronouns?") }}
 
