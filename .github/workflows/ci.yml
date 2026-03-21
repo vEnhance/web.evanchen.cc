@@ -36,7 +36,7 @@ jobs:
       - uses: google-github-actions/auth@v3
         with:
           project_id: ${{ secrets.GOOGLE_PROJECT_ID }}
-          workload_identity_provider: ${{ secrets.GOOGLE_WORKFLOW_IDENTITY_PROVIDER }}
+          workload_identity_provider: ${{ secrets.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
       - uses: google-github-actions/upload-cloud-storage@v2
         with:
           path: output
