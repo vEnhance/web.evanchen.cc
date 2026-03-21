@@ -4,6 +4,7 @@ import importlib.util
 import os
 import re
 import sys
+import tomllib
 import urllib.parse
 from pathlib import Path
 
@@ -64,12 +65,20 @@ def parse_page(path: Path) -> dict:
     }
 
 
+def load_nav_links() -> list[dict]:
+    """Load nav-only entries (external links, PDFs) from nav_links.toml."""
+    with open(PROJECT / "nav_links.toml", "rb") as f:
+        data = tomllib.load(f)
+    return [{"_nav_only": True, **link} for link in data.get("links", [])]
+
+
 def build() -> None:
     os.chdir(PROJECT)
-
-    DIR_OUT.mkdir(exists_ok=True)
+    DIR_OUT.mkdir(exist_ok=True)
     macros = load_macros()
+
     pages = [parse_page(p) for p in sorted(DIR_IN.rglob("*.md"))]
+    pages += load_nav_links()
     pages.sort(key=lambda p: int(p.get("menu-position", 9999)))
 
     # Jinja2 environment for pre-processing markdown content
@@ -91,6 +100,9 @@ def build() -> None:
     md_converter = markdown.Markdown(extensions=MD_EXTENSIONS)
 
     for page in pages:
+        if page.get("_nav_only"):
+            continue
+
         # Step 1: pre-process markdown source through Jinja2
         # (evaluates {{ macro_call() }} expressions in .md files)
         md_env.globals["page"] = page
@@ -106,8 +118,6 @@ def build() -> None:
         # Step 4: rewrite relative href/src values to absolute paths
         html = RE_REL_URL.sub(lambda m: urllib.parse.urljoin("/", m.group(1)), html)
 
-        # Output path is always derived from source filename, not page["url"]
-        # (page["url"] may be overridden to an external URL for nav-only pages)
         src_rel = Path(page["fname"]).relative_to(DIR_IN)
         out_path = DIR_OUT / src_rel.with_suffix(".html")
         out_path.parent.mkdir(parents=True, exist_ok=True)
