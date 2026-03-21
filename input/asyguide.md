@@ -184,7 +184,7 @@ Take it from me: that's a major headache.
 Instead, Asymptote has a
 [builtin `geometry` module](https://asymptote.sourceforge.io/doc/geometry.html),
 that does almost everything you would want in practice.
-Here is [the geometry manual in English](/upload/docs/geometry_en.pdf)
+Here is [the geometry manual in English](/static/docs/geometry_en.pdf)
 (for some reason this is so hard to find I just uploaded a copy on my own server).
 You could probably also just copy Evan's code as a template
 and that might be easier than reading the fairly long manual.
