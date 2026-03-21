@@ -1,0 +1,28 @@
+[project]
+name = "web-evanchen-cc"
+version = "1.0.0"
+description = "Static website for web.evanchen.cc"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gitpython>=3.1.46",
+    "jinja2>=3.1.6",
+    "markdown>=3.10.2",
+    "mdx-truly-sane-lists>=1.3",
+]
+
+[tool.djlint]
+profile = "jinja"
+ignore = "H006,H021,J004,J018"
+
+[tool.codespell]
+skip = "static/docs/CV-example-source-2020.tex"
+ignore-words-list = "inthe,ro,progamer,alph,ques,non-useful,nd,ABD"
+
+[dependency-groups]
+dev = [
+    "codespell>=2.4.2",
+    "djlint>=1.36.4",
+    "prek>=0.3.6",
+    "ruff>=0.15.7",
+]
