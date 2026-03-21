@@ -14,6 +14,7 @@ dependencies = [
 [tool.djlint]
 profile = "jinja"
 ignore = "H006,H021,J004,J018"
+indent = 2
 
 [tool.codespell]
 skip = "static/docs/CV-example-source-2020.tex"
