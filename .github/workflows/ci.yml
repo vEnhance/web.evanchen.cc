@@ -9,7 +9,6 @@ jobs:
       - uses: j178/prek-action@v2
 
   build:
-    needs: prek
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -17,14 +16,28 @@ jobs:
           fetch-depth: 0
       - uses: astral-sh/setup-uv@v5
       - run: uv run scripts/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: output
+          path: output/
 
+  deploy:
+    needs: [prek, build]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    permissions:
+      contents: "read"
+      id-token: "write"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: output
+          path: output/
       - uses: google-github-actions/auth@v3
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         with:
           project_id: ${{ secrets.GOOGLE_PROJECT_ID }}
           workload_identity_provider: ${{ secrets.GOOGLE_WORKFLOW_IDENTITY_PROVIDER }}
       - uses: google-github-actions/upload-cloud-storage@v2
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         with:
           path: output
           destination: web.evanchen.cc
