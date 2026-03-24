@@ -190,6 +190,7 @@ Also listed on the [USEMO page](usemo.html).
 - USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions+results)](exams/report-usemo-2022.pdf)
 - USEMO 2023 [(problems)](exams/USEMO-2023.pdf) [(solutions+results)](exams/report-usemo-2023.pdf)
 - USEMO 2024 [(problems)](exams/USEMO-2024.pdf) [(solutions+results)](exams/report-usemo-2024.pdf)
+- USEMO 2025 [(problems)](exams/USEMO-2025.pdf) [(solutions+results)](exams/report-usemo-2025.pdf)
 
 ## {{ hl("elmo", "ELMO") }}
 
