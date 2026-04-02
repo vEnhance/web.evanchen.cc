@@ -11,7 +11,7 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 </a>
 </span>
 
-_信言不美，美言不信。_
+_信言不美，美言不信。_ <!-- rumdl-disable-line MD036 -->
 
 This is the homepage of Evan Chen (陳誼廷),
 also known by my screen name `vEnhance`.
