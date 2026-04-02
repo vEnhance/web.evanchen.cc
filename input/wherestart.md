@@ -107,13 +107,13 @@ But the supply of people willing to do this is admittedly very low,
 so most people are not so lucky to have access to feedback.
 Almost everyone gets by instead with something like the following algorithm:
 
-1. Write up your solution neatly.
-2. Look up the problem on
-   [AoPS contest index](https://aops.com/community/c13)[^nowiki];
-   and compare your solution to those by reputable users.
-3. Edit your solution and post it on the thread.
-   By [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law),
-   wrong solutions are often exposed quite rapidly.
+1.  Write up your solution neatly.
+2.  Look up the problem on
+    [AoPS contest index](https://aops.com/community/c13)[^nowiki];
+    and compare your solution to those by reputable users.
+3.  Edit your solution and post it on the thread.
+    By [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law),
+    wrong solutions are often exposed quite rapidly.
 
 Together these three steps should catch "most" substantial errors.
 See [Section B.1 of my English handout](/handouts/english/english.pdf)

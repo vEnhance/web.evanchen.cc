@@ -23,25 +23,25 @@ When you first start, you should do some subset
 of the following things for several weeks
 until you have a picture of [what the landscape looks like][townstory]:
 
-1. Pick up any standard textbook like [AoPS v1][v1]
-   or [AoPS v2][v2] to work through, so you learn some
-   of the standard theory that is tested in math contests.
-   Or, search around the web; there are lots of other sources.
-2. Go through some past problems from previous contests.
-   For example, if you are in the United States,
-   then you can find all past AMC problems from
-   [the Contests section](https://aops.com/community/c13)
-   under "USA Contests".[^nowiki]
-   The same should be true for many other countries.
-   Pick any year (later years are harder)
-   and work through some problems without a time limit.
-   For now, just pick whichever problems look most interesting.
-   When you hit one you can't solve for an hour, read the solution.
-   Every contest will have problems ranging from super easy
-   to really difficult, so find the right ones.
-3. Rope some friends into learning with you.
-   It's more fun that way, and you can learn from each other.
-   It's okay to have different levels of experience.
+1.  Pick up any standard textbook like [AoPS v1][v1]
+    or [AoPS v2][v2] to work through, so you learn some
+    of the standard theory that is tested in math contests.
+    Or, search around the web; there are lots of other sources.
+2.  Go through some past problems from previous contests.
+    For example, if you are in the United States,
+    then you can find all past AMC problems from
+    [the Contests section](https://aops.com/community/c13)
+    under "USA Contests".[^nowiki]
+    The same should be true for many other countries.
+    Pick any year (later years are harder)
+    and work through some problems without a time limit.
+    For now, just pick whichever problems look most interesting.
+    When you hit one you can't solve for an hour, read the solution.
+    Every contest will have problems ranging from super easy
+    to really difficult, so find the right ones.
+3.  Rope some friends into learning with you.
+    It's more fun that way, and you can learn from each other.
+    It's okay to have different levels of experience.
 
 [^nowiki]:
     I do NOT recommend using the AoPS Wiki in place of the Contest Index.
@@ -175,11 +175,11 @@ Reasons it might appear hard:
 To get you started, try reading [this article][aopswrite], or perhaps [this article][howproof].
 After this, my advice is
 
-1. Read the proofs to problems you think you've solved (on AoPS, or official solutions).
-   Note that these don't have to be from proof contests!
-   The official solutions to any decent contest would all pass as proofs.
-2. Try writing up proofs to problems you think you've solved, and
-3. Get feedback on these solutions (from a mentor, on the forums, etc.).
+1.  Read the proofs to problems you think you've solved (on AoPS, or official solutions).
+    Note that these don't have to be from proof contests!
+    The official solutions to any decent contest would all pass as proofs.
+2.  Try writing up proofs to problems you think you've solved, and
+3.  Get feedback on these solutions (from a mentor, on the forums, etc.).
 
 If you want to follow a book, the one I grew up with was
 [Joseph J Rotman's textbook](https://store.doverpublications.com/0486453065.html).
@@ -363,22 +363,22 @@ trying to only use a subset.
 
 Yes. Here is why:
 
-1. In math contest world, it is **extremely common for problem difficulty
-   to be rather volatile**.
-   Sometimes the test difficulty is out-of-order (see IMO 2021).
-   Sometimes problem 2 is ridiculously hard (see IMO 2017).
-   Sometimes the test has three problems that are more like medium (see USAMO 2022).
-   Sometimes problem 6 is secretly a medium problem (see IMO 2016).
-   The list of weird scenarios never ends.
-   (The [MOHS chart][mohs] has concrete but imperfect data.)
-2. Moreover, problem difficulty is personal and differs between people.
-   (In cliché format, you have your own unique individual strengths and weaknesses.)
-   So, every contest you will see score distributions like 070 or even 007 ("James Bond").
-3. Even in cases when problems 3 and 6 are genuinely difficult,
-   partial marks on them may often be accessible.
-   See IMO 2020 for an example.
-4. Personally, I suspect the attitude that a late-placed problem is definitely out of reach
-   and there is no point reading them is counterproductive in the long term.
+1.  In math contest world, it is **extremely common for problem difficulty
+    to be rather volatile**.
+    Sometimes the test difficulty is out-of-order (see IMO 2021).
+    Sometimes problem 2 is ridiculously hard (see IMO 2017).
+    Sometimes the test has three problems that are more like medium (see USAMO 2022).
+    Sometimes problem 6 is secretly a medium problem (see IMO 2016).
+    The list of weird scenarios never ends.
+    (The [MOHS chart][mohs] has concrete but imperfect data.)
+2.  Moreover, problem difficulty is personal and differs between people.
+    (In cliché format, you have your own unique individual strengths and weaknesses.)
+    So, every contest you will see score distributions like 070 or even 007 ("James Bond").
+3.  Even in cases when problems 3 and 6 are genuinely difficult,
+    partial marks on them may often be accessible.
+    See IMO 2020 for an example.
+4.  Personally, I suspect the attitude that a late-placed problem is definitely out of reach
+    and there is no point reading them is counterproductive in the long term.
 
 I believe this so firmly that I actually often give the following suggestion:
 

@@ -281,14 +281,14 @@ $ pwd
 Moreover, bash can then issue commands like `vim gossip.txt`.
 But there are some catches.
 
-1. First, Bash looks around for a file called `gossip.txt`
-   in the folder that Bash happens to be in.
-   It looks for `gossip.txt` in the current folder.
-   If it's there, it picks up that piece of paper.
-2. Then, Bash looks for a command called `vim`.
-   There is a Vim editor on the system so Bash radios Vim to come
-   over and read the `gossip.txt` document.
-3. Vim does its thing.
+1.  First, Bash looks around for a file called `gossip.txt`
+    in the folder that Bash happens to be in.
+    It looks for `gossip.txt` in the current folder.
+    If it's there, it picks up that piece of paper.
+2.  Then, Bash looks for a command called `vim`.
+    There is a Vim editor on the system so Bash radios Vim to come
+    over and read the `gossip.txt` document.
+3.  Vim does its thing.
 
 The argument can be a filename in the current directory, or a path to one.
 So for example, `vim secretbox/gossip.tex` opens the same file as

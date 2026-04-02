@@ -14,16 +14,16 @@ If I was personally teaching computer literacy,
 I would break it down into the following steps
 (this is obviously not the only layout):
 
-1. Learning how to use a command prompt to navigate files and folders
-   in a terminal, and execute commands.
-   You can learn this in a day or two from [Zed Shaw][term]
-   or [missing.csail.mit.edu][missing-csail] or [djangogirls][term2] or
-   whatever you find on Google.
-2. Find a text editor you like (as stated, any text editor opens any plain
-   text file). Be able to open, edit, and save an arbitrary text file. (This
-   is likely to be covered in step 1 already; LaTeX users may also know this
-   step already.)
-3. You should then learn your first programming language. The hardest part!
+1.  Learning how to use a command prompt to navigate files and folders
+    in a terminal, and execute commands.
+    You can learn this in a day or two from [Zed Shaw][term]
+    or [missing.csail.mit.edu][missing-csail] or [djangogirls][term2] or
+    whatever you find on Google.
+2.  Find a text editor you like (as stated, any text editor opens any plain
+    text file). Be able to open, edit, and save an arbitrary text file. (This
+    is likely to be covered in step 1 already; LaTeX users may also know this
+    step already.)
+3.  You should then learn your first programming language. The hardest part!
 
 ## {{ hl("language", "Picking a language") }}
 
@@ -32,38 +32,38 @@ discussions about race and religion.
 That said, among languages I have used at least a little bit,
 here is Evan's tier list:
 
-1. [Python][python]: reads like English, simple to learn, and Evan's native language.
-   This is my personally recommended first language.
-   The main downside is that it is a lot slower.
-   I grew up on [this Python book](http://openbookproject.net/thinkcs/python/english3e/index.html)
-   and recommend it;
-   there are [tons of other free Python tutorials][nonpro].
-   (Note for experts: Python doesn't have type safety by default,
-   but [it can](https://docs.python.org/3/library/typing.html).)
+1.  [Python][python]: reads like English, simple to learn, and Evan's native language.
+    This is my personally recommended first language.
+    The main downside is that it is a lot slower.
+    I grew up on [this Python book](http://openbookproject.net/thinkcs/python/english3e/index.html)
+    and recommend it;
+    there are [tons of other free Python tutorials][nonpro].
+    (Note for experts: Python doesn't have type safety by default,
+    but [it can](https://docs.python.org/3/library/typing.html).)
 
-2. [TypeScript][typescript]: It actually compiles _to_ JavaScript,
-   i.e. there is a program that accepts TypeScript input
-   and produces JavaScript output.
-   Besides that, it has some similarity to Python,
-   but as its name suggests has stricter type safety.
+2.  [TypeScript][typescript]: It actually compiles _to_ JavaScript,
+    i.e. there is a program that accepts TypeScript input
+    and produces JavaScript output.
+    Besides that, it has some similarity to Python,
+    but as its name suggests has stricter type safety.
 
-3. [C++][cpp]: Much faster than Python, but harder to read and write.
-   However, if you want to do
-   [competitive programming](https://ioinformatics.org/)
-   then you probably want to use this one.
+3.  [C++][cpp]: Much faster than Python, but harder to read and write.
+    However, if you want to do
+    [competitive programming](https://ioinformatics.org/)
+    then you probably want to use this one.
 
-4. [JavaScript](https://www.destroyallsoftware.com/talks/wat):
-   Less recommended.[^js] I suggest TypeScript instead.
-   (Longer argument on [blog](https://blog.evanchen.cc/?p=1437).)
+4.  [JavaScript](https://www.destroyallsoftware.com/talks/wat):
+    Less recommended.[^js] I suggest TypeScript instead.
+    (Longer argument on [blog](https://blog.evanchen.cc/?p=1437).)
 
-5. [Java][java]: It's a pretty wordy language.
-   I don't personally like it much, but I can see the appeal.
-   The main reason it's still relevant to kids today is because
-   of AP Computer Science A,
-   but that class does a pretty bad job of teaching it anyway.
+5.  [Java][java]: It's a pretty wordy language.
+    I don't personally like it much, but I can see the appeal.
+    The main reason it's still relevant to kids today is because
+    of AP Computer Science A,
+    but that class does a pretty bad job of teaching it anyway.
 
-6. [PHP](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/):
-   Please no.
+6.  [PHP](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/):
+    Please no.
 
 [python]: https://www.python.org/
 [typescript]: https://www.typescriptlang.org/

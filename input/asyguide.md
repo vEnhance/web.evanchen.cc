@@ -87,10 +87,10 @@ You may have to instead type the long string
 Once you have Asymptote installed, to integrate it with LaTeX,
 the compilation workflow requires three steps.
 
-1. Run PDFLaTeX on, say, `meow.tex`.
-   This creates `meow-N.asy` for the N'th diagram.
-2. You need to then run the Asymptote binary on `meow-N.asy` to generate `meow-N.pdf`.
-3. The diagram `meow-N.pdf` then gets incorporated when you run PDFLaTeX again.
+1.  Run PDFLaTeX on, say, `meow.tex`.
+    This creates `meow-N.asy` for the N'th diagram.
+2.  You need to then run the Asymptote binary on `meow-N.asy` to generate `meow-N.pdf`.
+3.  The diagram `meow-N.pdf` then gets incorporated when you run PDFLaTeX again.
 
 This is shown in detail in the video at the top of the page.
 Here's the sample file if you want to copy and try it yourself.

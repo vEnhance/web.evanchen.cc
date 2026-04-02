@@ -23,62 +23,62 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
 
 ## {{ hl("requirements", "Requirements") }}
 
-1. Source lines MUST be wrapped to be at most 100 characters long,
-   except in situations where this is impossible (e.g. long URL),
-   and SHOULD be wrapped to at most 80 characters long.
-   (Note this is referring to lines in the _source code_, not the output.)
+1.  Source lines MUST be wrapped to be at most 100 characters long,
+    except in situations where this is impossible (e.g. long URL),
+    and SHOULD be wrapped to at most 80 characters long.
+    (Note this is referring to lines in the _source code_, not the output.)
 
-   More importantly, line breaks SHOULD be inserted in natural places
-   like the end of sentences, after commas, or between phrases and clauses.
-   There is nothing wrong with short lines if it improves legibility.
-   (One is _not_ expected to use up all 80-100 characters per line;
-   it's more important to put line breaks in readable places
-   than to use all available screen space.[^prettier])
+    More importantly, line breaks SHOULD be inserted in natural places
+    like the end of sentences, after commas, or between phrases and clauses.
+    There is nothing wrong with short lines if it improves legibility.
+    (One is _not_ expected to use up all 80-100 characters per line;
+    it's more important to put line breaks in readable places
+    than to use all available screen space.[^prettier])
 
-2. Quotation marks MUST be
-   [inputted correctly in LaTeX](https://tex.stackexchange.com/a/621924/76888).
-   You MUST NOT type a literal quotation mark `"`.
+1.  Quotation marks MUST be
+    [inputted correctly in LaTeX](https://tex.stackexchange.com/a/621924/76888).
+    You MUST NOT type a literal quotation mark `"`.
 
-3. Operators like `\sin` MUST be typeset correctly,
-   either using builtin commands or using the `\operatorname` command.
+1.  Operators like `\sin` MUST be typeset correctly,
+    either using builtin commands or using the `\operatorname` command.
 
-4. Ellipses MUST be written with amsmath's `\dots` except in the rare cases
-   where the auto-detection would cause the wrong type of ellipses to be used;
-   in that case, use the appropriate
-   [AMSMath semantic dots](https://tex.stackexchange.com/a/122493/76888),
-   that is, one of `\dotsc`, `\dotso`, `\dotsb`, `\dotsi`, `\dotsm`.
-   The older commands `\ldots` or `\cdots` MUST NOT be used.
+1.  Ellipses MUST be written with amsmath's `\dots` except in the rare cases
+    where the auto-detection would cause the wrong type of ellipses to be used;
+    in that case, use the appropriate
+    [AMSMath semantic dots](https://tex.stackexchange.com/a/122493/76888),
+    that is, one of `\dotsc`, `\dotso`, `\dotsb`, `\dotsi`, `\dotsm`.
+    The older commands `\ldots` or `\cdots` MUST NOT be used.
 
-5. Grammatical commas and grammatical periods MUST NOT appear in inline math.
-   For example:
-   - `Thus $x=3.$` is not acceptable and MUST be typeset as `Thus $x=3$.`
-     instead.
-   - `$a,b,$ and $c$` is not acceptable
-     and MUST be typeset as `$a$, $b$, and $c$` instead.
-   - `Let $x_1, \dots, x_n$ be integers` is not acceptable
-     and MUST be typeset as `Let $x_1$, \dots, $x_n$ be integers` instead.
+1.  Grammatical commas and grammatical periods MUST NOT appear in inline math.
+    For example:
+    - `Thus $x=3.$` is not acceptable and MUST be typeset as `Thus $x=3$.`
+      instead.
+    - `$a,b,$ and $c$` is not acceptable
+      and MUST be typeset as `$a$, $b$, and $c$` instead.
+    - `Let $x_1, \dots, x_n$ be integers` is not acceptable
+      and MUST be typeset as `Let $x_1$, \dots, $x_n$ be integers` instead.
 
-   Obviously, mathematical commas like those in `$f(a,b)$` and `$\{a,b,c\}$`
-   should still be in the dollar signs.
-   This applies only to grammatical commas.
+    Obviously, mathematical commas like those in `$f(a,b)$` and `$\{a,b,c\}$`
+    should still be in the dollar signs.
+    This applies only to grammatical commas.
 
-6. There MUST NOT be extraneous spaces preceding punctuation
-   or around dollar signs.
-   Using two spaces after a sentence is OPTIONAL.
+1.  There MUST NOT be extraneous spaces preceding punctuation
+    or around dollar signs.
+    Using two spaces after a sentence is OPTIONAL.
 
-7. There SHOULD generally be spaces around binary operators
-   and relations such as `+` or `=`,
-   but these spaces MAY be omitted for short expressions.
-   The use of spacing MUST be symmetric, e.g. `$x =3$` is not acceptable.
+1.  There SHOULD generally be spaces around binary operators
+    and relations such as `+` or `=`,
+    but these spaces MAY be omitted for short expressions.
+    The use of spacing MUST be symmetric, e.g. `$x =3$` is not acceptable.
 
-8. Delimiters of complex expressions SHOULD be balanced
-   with `\left` and `\right`, or variants of `\big`.
+1.  Delimiters of complex expressions SHOULD be balanced
+    with `\left` and `\right`, or variants of `\big`.
 
-9. Approximations of predefined operators MUST NOT be used.
-   This means `||` MUST NOT be used in place of `\parallel`,
-   or `.` in place of `\cdot`, etc.
+1.  Approximations of predefined operators MUST NOT be used.
+    This means `||` MUST NOT be used in place of `\parallel`,
+    or `.` in place of `\cdot`, etc.
 
-10. For single-line display math, double dollar signs MUST NOT ever be used;
+1.  For single-line display math, double dollar signs MUST NOT ever be used;
     the use of `\[ ... \]` instead is REQUIRED.
     Double-dollar signs have been deprecated since the 1980's
     and [cause spacing issues](https://tex.stackexchange.com/q/503).
@@ -90,34 +90,34 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
     that the displayed line should be its own paragraph
     (which is almost never the case).
 
-11. When a series of equation are too long to fit on a single line,
+1.  When a series of equation are too long to fit on a single line,
     one MUST NOT have adjacent `\[ ... \]` expressions.
     In most cases, the `align*` environment SHOULD be used instead.
 
-12. When using `align*`, the invocations
+1.  When using `align*`, the invocations
     `\begin{align*}` and `\end{align*}` MUST be on their own line.
     There MUST be a line break after each `\\` invocation.
     There MAY be additional line breaks for legibility,
     and there MUST be additional line breaks if they are necessary to keep
     the line length within the specified limit.
 
-13. The contents of any `\begin{...} ... \end{...}` environment
+1.  The contents of any `\begin{...} ... \end{...}` environment
     SHOULD be indented by at least two spaces.
 
-14. There MUST NOT be any trailing whitespace,
+1.  There MUST NOT be any trailing whitespace,
     i.e. no line may end with a whitespace character.
 
-15. Paragraph breaks MUST be typeset using two or more line breaks
+1.  Paragraph breaks MUST be typeset using two or more line breaks
     (i.e. one empty line between the paragraphs),
     and MUST NOT be typeset using `\\\\` or other similar antics.
 
-16. Any mathematical variables MUST be enclosed in dollar signs,
+1.  Any mathematical variables MUST be enclosed in dollar signs,
     e.g. `let n=2022` is not acceptable and MUST be typeset as `let $n=2022$`.
     This also includes constants like 1 used in a mathematical context,
     e.g. `add 1 to both sides` is not acceptable and MUST be typeset as
     `add $1$ to both sides`.
 
-17. When specifying domains and ranges of mathematical functions,
+1.  When specifying domains and ranges of mathematical functions,
     one MUST use `\colon` instead of `:`,
     e.g. `$f \colon \mathbb{R} \to \mathbb{R}$`.
 

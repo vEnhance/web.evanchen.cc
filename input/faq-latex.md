@@ -11,14 +11,14 @@ These are FAQs about LaTeX.
 Before anything else, I need to define some terms.
 You can think of LaTeX workflow as having three components:
 
-1. A **text editor** that you type your content into,
-   like gedit, Sublime, Vim, or Emacs.
-   (See [tech briefing](filesys.html#editors) for details.)
-2. A **LaTeX compiler** (aka **LaTeX distribution**)
-   that converts the source into a PDF.
-   See question [L-10](#L-10) for recommendations.
-3. A **PDF viewer**, the same one you use for normally viewing PDF's.
-   See question [L-12](#L-12) for recommendations.
+1.  A **text editor** that you type your content into,
+    like gedit, Sublime, Vim, or Emacs.
+    (See [tech briefing](filesys.html#editors) for details.)
+2.  A **LaTeX compiler** (aka **LaTeX distribution**)
+    that converts the source into a PDF.
+    See question [L-10](#L-10) for recommendations.
+3.  A **PDF viewer**, the same one you use for normally viewing PDF's.
+    See question [L-12](#L-12) for recommendations.
 
 What you need to know right now is that **these three components are disjoint**.
 Some text editors may let you invoke a compiler directly,
@@ -94,26 +94,26 @@ Abridged summary: the source file itself looks something like:
 Then you need to place `evan.sty` or similar somewhere LaTeX can find it.
 There are two ways you can do this:
 
-1. Place the file in the same directory as the file you're trying to compile.
-   In other words, if the file you're trying to compile is `/path/to/document.tex`
-   then place `evan.sty` in `/path/to/evan.sty`.
+1.  Place the file in the same directory as the file you're trying to compile.
+    In other words, if the file you're trying to compile is `/path/to/document.tex`
+    then place `evan.sty` in `/path/to/evan.sty`.
 
-   This is easy, but it has the major annoyance that you will end up
-   with a copy of `evan.sty` in a gazillion directories if you want to
-   use the file in multiple places.
+    This is easy, but it has the major annoyance that you will end up
+    with a copy of `evan.sty` in a gazillion directories if you want to
+    use the file in multiple places.
 
-2. Place the file in LaTeX's directory.
-   This is trickier because the correct path depends on operating system,
-   but you only have to do it once.
-   Depending on your system, you may also have to update package database.
+2.  Place the file in LaTeX's directory.
+    This is trickier because the correct path depends on operating system,
+    but you only have to do it once.
+    Depending on your system, you may also have to update package database.
 
-   Some possible hints:
-   - [List of "default" directories on various systems](https://tex.stackexchange.com/a/1167/76888)
-   - [Instructions for TeX Live](https://tex.stackexchange.com/a/1138/76888)
-   - Once you know where `TEXMFHOME` is, place under
-     `TEXMFHOME/tex/latex/evan/evan.sty`.
-   - [Instructions for MikTeX](https://tex.stackexchange.com/a/2066/76888)
-   - [Registering to package database](https://tex.stackexchange.com/a/2066/76888)
+    Some possible hints:
+    - [List of "default" directories on various systems](https://tex.stackexchange.com/a/1167/76888)
+    - [Instructions for TeX Live](https://tex.stackexchange.com/a/1138/76888)
+    - Once you know where `TEXMFHOME` is, place under
+      `TEXMFHOME/tex/latex/evan/evan.sty`.
+    - [Instructions for MikTeX](https://tex.stackexchange.com/a/2066/76888)
+    - [Registering to package database](https://tex.stackexchange.com/a/2066/76888)
 
 ### {{ faq("L-5", "How do I get the colored boxes and section headers with evan.sty?") }}
 
