@@ -34,11 +34,11 @@ But more tangibly, it will also have _significant artistic license_.[^vision]
 Problems will freely assume IMO-style background throughout the test,
 and intentionally stretch the boundary of what constitutes an "AIME problem".
 
-[^vision]: I think of what the AIME could be, a vision of the one I see...
-
 [^2025]:
     In 2025 we had a surprisingly good harvest and ran two AIME's that
     year. For that year, the II was meant to look closer to a real-life AIME.
+
+[^vision]: I think of what the AIME could be, a vision of the one I see...
 
 Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing the cover art.
 

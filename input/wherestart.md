@@ -35,7 +35,7 @@ for math contests in general.
 
 ## {{ hl("syllabus", "0. Syllabus") }}
 
-I wrote an [unofficial syllabus for math olympiads](handouts/Syllabus/Syllabus.pdf)
+I wrote an [unofficial syllabus for math olympiads](/handouts/Syllabus/Syllabus.pdf)
 (also linked on [handouts](olympiad.html))
 giving some guidance on what topics appear on math olympiads.
 
@@ -62,10 +62,10 @@ This letter contains:
 
 You can download the letters here:
 
-- [Welcome letter for junior students (9th-10th grade)](static/docs/welcome-jmo.pdf),
-  and [solutions to examples](static/docs/sol-welcome-jmo.pdf)
-- [Welcome letter for older students (11th-12th grade)](static/docs/welcome-usamo.pdf),
-  and [solutions to examples](static/docs/sol-welcome-usamo.pdf)
+- [Welcome letter for junior students (9th-10th grade)](/static/docs/welcome-jmo.pdf),
+  and [solutions to examples](/static/docs/sol-welcome-jmo.pdf)
+- [Welcome letter for older students (11th-12th grade)](/static/docs/welcome-usamo.pdf),
+  and [solutions to examples](/static/docs/sol-welcome-usamo.pdf)
 
 I suggest starting by reading through this letter,
 trying the example problems (you will probably not solve them all;
@@ -89,7 +89,7 @@ To that end, here are some links to advice:
 
 - [How to write a solution](https://aops.com/news/articles/how-to-write-a-solution),
   from Art of Problem Solving.
-- [Remarks on English](handouts/english/english.pdf),
+- [Remarks on English](/handouts/english/english.pdf),
   written by me.
 - [How to write proofs](https://zimmer.csufresno.edu/%7Elarryc/proofs/proofs.html),
   by Larry W. Cusick.
@@ -124,16 +124,16 @@ If you want a book to follow, the one I grew up with was Joseph J Rotman's
 
 [rotman]: https://store.doverpublications.com/0486453065.html
 
+[^nowiki]:
+    I do NOT recommend using the AoPS Wiki in place of the Contest Index.
+    The solution quality in the wiki is generally much poorer than the forum.
+
 [^rnote]:
     It shares my philosophy that teaching proof-based classes by
     force-feeding set theory notation is not particularly helpful,
     and instead develops proof-writing by discussing real mathematical content
     from geometry, number theory, etc. rather than being overly focused
     on bookkeeping and formalism.
-
-[^nowiki]:
-    I do NOT recommend using the AoPS Wiki in place of the Contest Index.
-    The solution quality in the wiki is generally much poorer than the forum.
 
 If you like excessive information, you might also read my handout
 [Intro to Proofs for the Morbidly Curious](/handouts/NaturalProof/NaturalProof.pdf).
@@ -190,7 +190,6 @@ You might also check
 
 [geoff]: https://web.archive.org/web/20250124090959/https://people.bath.ac.uk/masgcs/advice.html
 [acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
-[pftb]: https://maa.org/press/maa-reviews/problems-from-the-book
 
 I really want to stress these are mere _suggestions_.
 Just because you have done X does not mean you will achieve your goals,

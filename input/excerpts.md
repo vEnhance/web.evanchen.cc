@@ -59,7 +59,7 @@ Geometry is not covered;
 ### {{ hl("source", "Source") }}
 
 The source code is sludge,
-but if you really want it [here's a ZIP](textbooks/OTIS-Excerpts.src.zip).
+but if you really want it [here's a ZIP](/textbooks/OTIS-Excerpts.src.zip).
 Much of the underlying TeX is actually machine generated
 (by interactions with my problem database), so don't learn any habits from it.
 

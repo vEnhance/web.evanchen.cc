@@ -289,13 +289,16 @@ After that, the two things I'd say are:
 A few pointers:
 
 1. [Write like you talk][talk].
+
 2. For technical subjects, [write naturally][s1].
    It's not enough to be technically correct.
    I like the following image from [Math With Bad Drawings][math-with-bad-draw]
    (click to enlarge):
 
    <a href="/static/images/int-rigor.webp"><img src="/static/images/int-rigor.webp" width="400"
-   alt="A good mathematician can make arguments intuitive OR rigorous. A great mathematician can make arguments intuitive AND rigorous. (Credits: Math With Bad Drawings.)"
+    alt="A good mathematician can make arguments intuitive OR rigorous.
+      A great mathematician can make arguments intuitive AND rigorous.
+      (Credits: Math With Bad Drawings.)"
    /></a>
 
 3. Get the proofreading and copy-editing right.
@@ -346,8 +349,6 @@ actually, particularly the quote:
 [raq]: https://paulgraham.com/raq.html
 [tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
-[aopstime]: https://www.artofproblemsolving.com/community/c5h1147943p5421541
-[procrastinate]: https://paulgraham.com/procrastination.html
 [lessons]: https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/
 [laser]: https://xkcd.com/382/
 [thoughts]: https://blog.evanchen.cc/2017/04/08/on-designing-olympiad-training/

@@ -150,7 +150,7 @@ I have worked with many students preparing for American competitions such as
 the AMC and AIME, helping them improve problem-solving skills, qualify for the
 AIME, and advance toward USA(J)MO level.
 If you’d like to explore the exciting world of mathematics, you can find me
-on my YouTube channel (https://www.youtube.com/@OlympicMathTutor).
+on my YouTube channel (<https://www.youtube.com/@OlympicMathTutor>).
 With over five years of experience in IMO training and strong knowledge of
 AIME and AMC preparation, I’m ready to help you reach your goals.
 

@@ -245,7 +245,7 @@ There's also a command `pwd` to print the working directory,
 and `ls` to list the contents of the current folder.
 So navigation might look something like
 
-```
+```text
 $ pwd
 /home/evan
 

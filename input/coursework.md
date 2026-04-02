@@ -88,4 +88,4 @@ even including the ones which I do not have notes for.
 - <b>(Math 275) Algebraic Topology</b> [(pdf)](/notes/SJSU275.pdf)<br>
   Taught by Richard Kulbelka. Fall 2012.
 
-[transcript]: upload/math-coursework.pdf
+[transcript]: /upload/math-coursework.pdf

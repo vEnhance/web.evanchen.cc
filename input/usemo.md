@@ -110,7 +110,6 @@ The list below is sorted alphabetically by first name (not by place).
 Please contact the directors for further details on these,
 or if you have other ideas on how you could help out.
 
-[usamts]: https://usamts.org/
 [imo]: https://www.imo-official.org
 [usamo]: https://en.wikipedia.org/wiki/United_States_of_America_Mathematical_Olympiad
 [answersheet]: /upload/usemo/answer-template-usemo.pdf
@@ -120,4 +119,3 @@ or if you have other ideas on how you could help out.
 [grading-info]: /upload/usemo/grading-brief-usemo.pdf
 [propose]: /upload/usemo/proposal-guidelines-usemo.pdf
 [aops-usemo]: https://www.aops.com/contests/usemo
-[review]: https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/

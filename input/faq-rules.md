@@ -77,7 +77,7 @@ The team is known shortly after the third camp, a couple of days into May.
 For more details, see [my report on Taiwan IMO][taiwan].
 
 A decade later, I was also sent an
-[updated flowchart of the selection process for 2024](static/docs/taiwan-select-2024.pdf).
+[updated flowchart of the selection process for 2024](/static/docs/taiwan-select-2024.pdf).
 This now includes a pathway to the EGMO.
 
 ### {{ faq("CR-3", "How is USAMO / IMO graded?") }}
@@ -240,8 +240,6 @@ The team selection is not based on a caste system.
 As a matter of principle, any USA student attending MOP of year $N$
 and still in high school could qualify for IMO of year $N+1$.
 
-[abusenote]: https://en.wikipedia.org/wiki/Abuse_of_notation
-
 ### {{ faq("CR-9", "When are ties on the USA(J)MO broken?") }}
 
 Between 2016 and 2019, ties are generally only broken for USAMO winners,
@@ -293,9 +291,7 @@ particularly if the student's approach is novel or uncommon.
 
 [regulation]: https://www.imo-official.org/documents/RegulationsIMO.pdf
 [verhoeff]: https://www.win.tue.nl/~wstomv/publications/imo2002report.pdf
-[imo2019reddit]: https://www.reddit.com/r/math/comments/cgwayt/how_coordination_went_for_imo_2019_problem_5/
 [michaelng]: https://michaelng126.wordpress.com/2019/07/28/imo-2019-coordination-part-2/
-[quora]: https://www.quora.com/How-are-IMO-solutions-graded
 
 ### {{ faq("CR-11", "What is ISL / IMO Shortlist?") }}
 
@@ -403,6 +399,6 @@ So any trends that one exam has more difficult problems is purely noise.
 Same is true for AMC A and B exams.
 
 [amc]: https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/
-[usa2003]: upload/usamo-2003-rubric.pdf
-[taiwan]: handouts/TaiwanTST/TaiwanTST.pdf
-[english]: handouts/english/english.pdf
+[usa2003]: /upload/usamo-2003-rubric.pdf
+[taiwan]: /handouts/TaiwanTST/TaiwanTST.pdf
+[english]: /handouts/english/english.pdf

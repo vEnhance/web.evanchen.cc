@@ -129,7 +129,7 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 
 - <b>Parallelograms</b> {{ handout_link("BMC_Parallelograms") }}
   All you have to do is construct a parallelogram!
-  Some terse solutions outlined [here][parallelogram-sols].
+  Some terse solutions outlined in [the solutions document][parallelogram-sols].
 
 - <b>BAMO Preparation</b> {{ handout_link("BMC_Int_BAMO_Prep") }}
   A combinatorially flavored practice session for the Bay Area Math Olympiad.
@@ -142,7 +142,6 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [ordinals]: https://blog.evanchen.cc/2014/11/18/set-theory-part-2-constructing-the-ordinals/
 [sparc]: https://www.sparc-camp.org
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
-[ebook]: https://www.maa.org/ebooks/EGMO
 [rnut]: https://link.springer.com/article/10.1007/s40993-015-0028-0
 [ejc-schur]: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p4
 [ijnt]: https://dx.doi.org/10.1142/S1793042118500161

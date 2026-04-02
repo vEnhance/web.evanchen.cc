@@ -103,7 +103,7 @@ All of this material is stuff that a strong undergraduate
 is likely to learn over their four years of university, and more.
 (It does not include most graduate-level topics.)
 Each of these nodes has at least
-[as much theory as olympiad Euclidean geometry](textbooks/tr011ey.pdf)
+[as much theory as olympiad Euclidean geometry](/textbooks/tr011ey.pdf)
 (and in many cases the comparison is off by an order of magnitude).
 Personally, I think it doesn't make sense to pursue research until you have
 at least completed abstract/linear algebra and real/complex analysis
@@ -354,7 +354,6 @@ And I don't even know which schools still consider or accept the
 [mit-sao]: https://mitadmissions.org/discover/life-culture/clubs-activities/
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
-[tuition]: https://web.mit.edu/facts/tuition.html
 [blank]: https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/comment-page-1/#comment-1694
 [tr011ey]: https://blog.evanchen.cc/2019/04/01/undergraduate-math-011-a-first-year-course-in-geometry/
 [genmath]: https://math.mit.edu/academics/undergrad/major/course18/general.php

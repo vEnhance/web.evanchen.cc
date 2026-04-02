@@ -19,10 +19,10 @@ I recently finished my [number theory PhD at MIT](https://credentials.mit.edu/ce
 My [thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf)
 was supervised by [Wei Zhang](https://w.wiki/DDok).
 
-Here's [my CV](upload/public-CV.pdf),
+Here's [my CV](/upload/public-CV.pdf),
 my [publications](publications.html)
 and [research](https://arxiv.org/a/chen_e_2.html),
-and [my university transcript](upload/math-coursework.pdf).
+and [my university transcript](/upload/math-coursework.pdf).
 Outside of math, I hate cooking.
 
 See my [now page](now.html) for what I've been thinking about recently
@@ -72,4 +72,4 @@ Outside of math and teaching, Evan's hobbies include
 [ubuntu-key]: http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2911981b5d39118d80d782779474e9565d64c443
 [opengpg-key]: https://keys.openpgp.org/vks/v1/by-fingerprint/2911981B5D39118D80D782779474E9565D64C443
 [mit-key]: http://pgp.mit.edu/pks/lookup?op=get&search=0x9474E9565D64C443
-[gpg]: upload/2911981B5D39118D80D782779474E9565D64C443.asc
+[gpg]: /upload/2911981B5D39118D80D782779474E9565D64C443.asc

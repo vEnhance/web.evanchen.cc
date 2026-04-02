@@ -15,7 +15,7 @@ In addition, you might see the following sub-pages:
 Please notify me of any broken links, suggestions, etc. by email.
 
 An abridged version of this page for olympiad students
-can be found [here](wherestart.html).
+can be found on the [beginner's page](wherestart.html).
 
 ## {{ hl("auto", "Mathematician autobiographies") }}
 
@@ -98,7 +98,7 @@ See also [Geoff Smith's page][geoff].
 - [Po-Shen Loh](https://math.cmu.edu/~ploh/olympiad.shtml), mostly combinatorics.
   See especially the handouts on the probabilistic method.
 
-- [A Journey to the IMO](upload/Sarda-Journey.pdf),
+- [A Journey to the IMO](/upload/Sarda-Journey.pdf),
   an overview of the IMO written from Nepal student Yuvraj Sarda.
 
 - [Pang-Chung Wu's FE handout](https://aops.com/community/p10968935)

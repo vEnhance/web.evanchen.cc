@@ -156,7 +156,7 @@ knows much more than that.
 ### {{ faq("C-5", "How do I learn to write proofs?") }}
 
 There's an extremely verbose answer in the handout
-[Intro to Proofs for the Morbidly Curious](handouts/NaturalProof/NaturalProof.pdf)
+[Intro to Proofs for the Morbidly Curious](/handouts/NaturalProof/NaturalProof.pdf)
 but here's a shorter answer:
 
 I don't think there's actually a leap between computation and proof-writing, and
@@ -287,7 +287,7 @@ work on every problem that students send me, and simply archive your message.
 
 ### {{ faq("C-11", "I can't be bothered to learn directed angles. Can I just use normal angles?") }}
 
-As I allude to in [the directed-angles handout](handouts/Directed-Angles/Directed-Angles.pdf)
+As I allude to in [the directed-angles handout](/handouts/Directed-Angles/Directed-Angles.pdf)
 you could probably get away with it,
 because it is common practice to not deduct for configuration issues
 (although it does happen from time to time).
@@ -758,23 +758,19 @@ If you really desperately want specific personal advice,
     to make sure they're meeting the daily quota.
     [Even MOHS was a mistake][mohs-mistake].
 
-[aimescratch]: static/docs/AIME-2013-scratch.pdf
+[aimescratch]: /static/docs/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
-[c15link]: https://aops.com/community/p18587427
-[ebook]: https://www.maa.org/ebooks/EGMO/
 [generic]: https://blog.evanchen.cc/2023/10/03/yet-another-reason-i-dont-give-much-generic-advice/
 [geoff]: https://web.archive.org/web/20250124090959/https://people.bath.ac.uk/masgcs/advice.html
 [geombook]: geombook.html
 [howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [mistakes]: https://www.artofproblemsolving.com/articles/stupid-mistakes
-[mohs]: upload/MOHS-hardness.pdf
+[mohs]: /upload/MOHS-hardness.pdf
 [mohs-mistake]: https://blog.evanchen.cc/2024/01/05/mohs-was-a-mistake/
 [perfect]: https://blog.evanchen.cc/2016/04/17/against-perfect-scores/
-[recs]: recommend.html
 [shower]: https://www.paulgraham.com/top.html
 [townstory]: https://blog.evanchen.cc/2023/10/23/a-story-of-a-town/
-[tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
 [usamts]: https://usamts.org/index.php
 [wpcontest]: https://blog.evanchen.cc/2019/01/31/math-contest-platitudes-v3/
 [wpgeo]: https://blog.evanchen.cc/2016/01/19/some-advice-for-olympiad-geometry/

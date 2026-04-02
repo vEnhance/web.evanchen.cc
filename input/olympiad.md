@@ -61,7 +61,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 - <b>USAMO 2014 Contest Analysis</b> {{ handout_link_src("USAMO2014") }}
   This describes in detail the thought process behind each of
   my solutions to the USAMO 2014.
-  I also [scanned the solutions I submitted.](upload/usamo-2014-my-sols.pdf)
+  I also [scanned the solutions I submitted.](/upload/usamo-2014-my-sols.pdf)
 
 [imo-2014-photos]: https://github.com/vEnhance/web.evanchen.cc/tree/main/handouts/IMO-2014/photos-maxres/
 
@@ -107,8 +107,8 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   cyclic quadrilaterals, and so on beforehand.
 
 - <b>Barycentric Coordinates in Olympiad Geometry</b>
-  [(full)](handouts/bary/bary-full.pdf)
-  [(abridged)](handouts/bary/bary-short.pdf) <br>
+  [(full)](/handouts/bary/bary-full.pdf)
+  [(abridged)](/handouts/bary/bary-short.pdf) <br>
   One of my most famous handouts from 2012.
   Introduces from scratch the method of barycentric coordinates.
   This was the basis of chapter 7 of [my geometry textbook](geombook.html).
@@ -185,12 +185,10 @@ of [my textbook][geombook].
   running the future installments of the contest, as one of
   us is graduating.
 
-- <b>USAMO 2003 Rubric</b> [(pdf)](upload/usamo-2003-rubric.pdf) <br>
+- <b>USAMO 2003 Rubric</b> [(pdf)](/upload/usamo-2003-rubric.pdf) <br>
   The grading rubric for USAMO 2003.
 
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
-[olympiad.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/olympiad.asy
-[cse5.asy]: https://github.com/vEnhance/dotfiles/blob/master/asy/cse5.asy
 [egmo2]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
 [egmo8]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
 [geombook]: geombook.html

@@ -32,7 +32,6 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
   - B-level track [handout][sample-bcw] (easiest track)
   - D-level track [handout][sample-dny] and [solutions][sample-dnysol]
   - Z-level track [handout][sample-zgx] (hardest track)
-
 - Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 - [OPAL puzzle hunt](opal.html)
 
@@ -43,7 +42,6 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 [sample-jmo]: /upload/otis-samples/Exam-Sample-08-JMO.pdf
 [sample-usamo]: /upload/otis-samples/Exam-Sample-08-USAMO.pdf
 [sample-sol]: /upload/otis-samples/Exam-Sample-08-Soln.pdf
-[sample-zack]: /upload/otis-samples/zack-local.pdf
 [unitlist]: /upload/otis-samples/synopsis.html
 
 ## {{ hl("excerpts", "The OTIS Excerpts") }}
@@ -68,7 +66,7 @@ though some of the chapters are more challenging.
 You can submit late applications for the 2025-2026 school year
 up until the end of April 2026. See instructions below.
 
-- [Application homework and instructions](upload/otis-app-xi.pdf)
+- [Application homework and instructions](/upload/otis-app-xi.pdf)
 - [Application portal at apply.evanchen.cc](https://apply.evanchen.cc)
 
 The application portal is a brand-new experiment (released November 2025)
@@ -172,7 +170,6 @@ Atul Nadig (VII);
 [rohan]: https://www.linkedin.com/in/rohan-goyal-a998aa155/
 [rushil]: https://www.imo-official.org/participant_r.aspx?id=34562
 [sanjana]: https://www.egmo.org/people/person1748/
-[sebastian]: https://www.imo-official.org/participant_r.aspx?id=29355
 [xinke]: https://xinkeguoxue.github.io/
 [zack]: https://www.imo-official.org/participant_r.aspx?id=27374
 [zoltan]: https://www.imo-official.org/participant_r.aspx?id=5108

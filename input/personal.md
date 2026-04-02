@@ -73,7 +73,7 @@ Some details about my setup:
   with [py3status](https://ultrabug.github.io/py3status/)
   and [rofi](https://github.com/davatorium/rofi)
 - Browser: [qutebrowser](https://en.wikipedia.org/wiki/Qutebrowser)
-- [Browser homepage](applets/homepage.html)
+- [Browser homepage](/applets/homepage.html)
   (click the timer to change target date)
 - Editor: [NeoVim](https://neovim.io/)
 - File manager: [Thunar](https://en.wikipedia.org/wiki/Thunar)
@@ -114,16 +114,16 @@ rather than QWERTY.
 - Pear. A probe. She went on a trip to [King's Cove][kc] once.
 - Sgt Billy. A blue marine. Remember, say no to [stim][stim]!
 - Snowcone. A Yeti. Has a goofy grin.
-- Starfish. An infestor. Always has his tongue out.
-- Stirfry. Another infestor. Doesn't seem to have Neural Parasite yet.
+- Starfish. An [infestor][infestor]. Always has his tongue out.
+- Stirfry. Another [infestor][infestor]. Doesn't seem to have Neural Parasite yet.
 - Toast. Mostly light brown, with a bit of butter as well.
-- Totoro. Grey with three arrows on his chest.
+- Totoro. Gray with three arrows on his chest.
 - Turnip. A burrito-shaped Chococat. Tried to run for president once.
 
 [kc]: https://liquipedia.net/starcraft2/King%27s_Cove_LE
 [candycornmix]: https://github.com/Hanabi-Live/hanabi-live/blob/main/docs/variants.md#candy-corn-mix-5-suits
-[ragelot]: https://carbotanimations.fandom.com/wiki/Bob_the_Ragelot
 [infestor]: https://carbotanimations.fandom.com/wiki/Infestor
+[ragelot]: https://carbotanimations.fandom.com/wiki/Bob_the_Ragelot
 [stim]: https://liquipedia.net/starcraft2/Stimpack
 
 ## {{ hl("misc", "Miscellaneous") }}

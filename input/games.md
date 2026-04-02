@@ -32,7 +32,7 @@ here are some of the games I like.
   and declaring once they have identified the locations
   of groups of six cards called half-suits.
 
-- [<b>Diplomat</b>](upload/diplomat.pdf) (3-4 players) <br>
+- [<b>Diplomat</b>](/upload/diplomat.pdf) (3-4 players) <br>
   Also with a standard 52-card deck, and harder than Fish!
   Ideally three to five players.
   Players take turns asking each other _arbitrary_ yes-no questions
@@ -129,6 +129,3 @@ looking much up beforehand (to avoid spoilers).
 - [<b>Undertale</b>](https://undertale.com/about/) <br>
   Role-playing video game. Amazing music and characters.
   Also quite famous, so I won't say too much here.
-
-[yomi]: https://en.wikipedia.org/wiki/Yomi_(card_game)
-[aeonend]: https://boardgamegeek.com/boardgame/218417/aeons-end-war-eternal

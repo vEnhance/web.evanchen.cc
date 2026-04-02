@@ -246,7 +246,7 @@ Most of the problems are short-answer problems.
 # {{ hl("mohs", "Hardness scale") }}
 
 Here is an
-[index of many problems](upload/MOHS-hardness.pdf)
+[index of many problems](/upload/MOHS-hardness.pdf)
 by my opinions on their difficulty and subject.
 The difficulties are rated from 0 to 50 in increments of 5,
 using a scale I devised called **MOHS**.[^acronym]
