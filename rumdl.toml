@@ -1,6 +1,15 @@
 [global]
-disable = ["MD026", "MD033", "MD041", "MD025", "MD051"]
+disable = [
+  "MD025", # Allow multiple h1
+  "MD026", # Permit punctuation in heading
+  "MD033", # Permit inline HTML
+  "MD041", # Allow first line to be anything (not just h1)
+  "MD051", # Anchors like #L-1 are not detectable
+  "MD064", # Multi consecutive spaces: blocked on https://github.com/rvben/rumdl/issues/558
+]
+
 extend-enable = ["MD060"]
+exclude = [".git", "LICENSE.md"]
 respect-gitignore = true
 
 [MD013]
@@ -8,3 +17,7 @@ line-length = 160
 code-blocks = false
 tables = false
 headings = false
+
+[MD030]
+ol-single = 2
+ol-multi = 2
