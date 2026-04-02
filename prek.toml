@@ -7,8 +7,19 @@ default_install_hook_types = [
   "commit-msg",
   "pre-push"
 ]
-
 default_stages = ["pre-commit"]
+
+[[repos]]
+repo = "https://github.com/compilerla/conventional-pre-commit"
+rev = "v4.4.0"
+hooks = [
+  {
+    id = "conventional-pre-commit",
+    stages = ["commit-msg"],
+    args = ["feat", "fix", "build", "ci", "chore", "docs", "drop", "edit",
+     "perf", "polish", "root", "refactor", "revert", "style", "temp", "tests"]
+  }
+]
 
 [[repos]]
 repo = "builtin"
@@ -23,78 +34,32 @@ hooks = [
   { id = "end-of-file-fixer" },
   { id = "fix-byte-order-marker" },
   { id = "mixed-line-ending" },
-  {
-    id = "trailing-whitespace",
-    args = ["--markdown-linebreak-ext=md"]
-  }
+  { id = "trailing-whitespace" },
 ]
 
 [[repos]]
 repo = "meta"
-hooks = [
-  { id = "check-useless-excludes" },
-]
-
-[[repos]]
-repo = "https://github.com/djlint/djLint"
-rev = "v1.36.4"
-hooks = [
-  {
-    id = "djlint",
-    files = "data/page.html",
-  },
-  {
-    id = "djlint-reformat",
-    files = "data/page.html",
-  }
-]
-
-[[repos]]
-repo = "https://github.com/codespell-project/codespell"
-rev = "v2.4.2"
-hooks = [
-  { id = "codespell" }
-]
+hooks = [{ id = "check-useless-excludes" }]
 
 [[repos]]
 repo = "https://github.com/astral-sh/ruff-pre-commit"
 rev = "v0.15.8"
-hooks = [
-  { id = "ruff-check" },
-  { id = "ruff-format" }
-]
+hooks = [{ id = "ruff-check" }, { id = "ruff-format" }]
+
+[[repos]]
+repo = "https://github.com/codespell-project/codespell"
+rev = "v2.4.2"
+hooks = [{ id = "codespell" }]
 
 [[repos]]
 repo = "https://github.com/JoC0de/pre-commit-prettier"
 rev = "v3.8.1"
-hooks = [
-  {
-    id = "prettier",
-    types_or = [
-      "css",
-      "javascript",
-      "markdown",
-      "json",
-      "toml",
-      "yaml"
-    ]
-  }
-]
+hooks = [{ id = "prettier", types_or = ["css", "javascript", "json", "yaml"] }]
 
 [[repos]]
-repo = "https://github.com/scop/pre-commit-shfmt"
-rev = "v3.13.0-1"
-hooks = [
-  {
-    id = "shfmt",
-    args = [
-      "-i",
-      "2",
-      "-ci"
-    ],
-    files = '\.sh$'
-  }
-]
+repo = "https://github.com/rvben/rumdl-pre-commit"
+rev = "v0.1.65"
+hooks = [{ id = "rumdl" }, { id = "rumdl-fmt" }]
 
 [[repos]]
 repo = "https://github.com/Jarmos-san/shellcheck-precommit"
@@ -107,39 +72,17 @@ hooks = [
 ]
 
 [[repos]]
-repo = "https://github.com/astral-sh/uv-pre-commit"
-rev = "0.11.3"
+repo = "https://github.com/djlint/djLint"
+rev = "v1.36.4"
 hooks = [
-  { id = "uv-lock" },
+  { id = "djlint-reformat", types = ["html"], files = "data/page.html" },
+  { id = "djlint", types = ["html"], files = "data/page.html" }
 ]
 
 [[repos]]
-repo = "https://github.com/compilerla/conventional-pre-commit"
-rev = "v4.4.0"
-hooks = [
-  {
-    id = "conventional-pre-commit",
-    stages = ["commit-msg"],
-    args = [
-      "feat",
-      "fix",
-      "build",
-      "ci",
-      "chore",
-      "docs",
-      "drop",
-      "edit",
-      "perf",
-      "polish",
-      "root",
-      "refactor",
-      "revert",
-      "style",
-      "temp",
-      "tests"
-    ]
-  }
-]
+repo = "https://github.com/astral-sh/uv-pre-commit"
+rev = "0.11.3"
+hooks = [{ id = "uv-lock" }]
 
 [[repos]]
 repo = "local"
