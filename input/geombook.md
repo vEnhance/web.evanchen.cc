@@ -48,7 +48,7 @@ Here is a freely available subset of the book:
 - [Table of contents][toc].
 - [Chapters 1-3][googlebook] on Google Books preview.
 - _Parody version of entire book_: check out
-  [Undergraduate Math 011: a firsT yeaR coursE in geometrY](textbooks/tr011ey.pdf),
+  [Undergraduate Math 011: a firsT yeaR coursE in geometrY](/textbooks/tr011ey.pdf),
   made for April Fool's Day 2019.
 - [Solutions to a lot of the problems][agest].
 
@@ -136,7 +136,7 @@ here are some possible places to look:
 5. If all of the above fail, try posting on the AoPS forums directly.
 
 [userforum]: https://artofproblemsolving.com/community/c618937h1605831_egmo_problem_discussions_links
-[agest]: textbooks/AGEST.pdf
+[agest]: /textbooks/AGEST.pdf
 
 ## {{ hl("resources", "More resources") }}
 

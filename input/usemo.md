@@ -66,13 +66,13 @@ to the structure and organization of USEMO.
 
 # {{ hl("archive", "Archive") }}
 
-- USEMO 2019 [(problems)](exams/USEMO-2019.pdf) [(solutions and results)](exams/report-usemo-2019.pdf)
-- USEMO 2020 [(problems)](exams/USEMO-2020.pdf) [(solutions and results)](exams/report-usemo-2020.pdf)
-- USEMO 2021 [(problems)](exams/USEMO-2021.pdf) [(solutions and results)](exams/report-usemo-2021.pdf)
-- USEMO 2022 [(problems)](exams/USEMO-2022.pdf) [(solutions and results)](exams/report-usemo-2022.pdf)
-- USEMO 2023 [(problems)](exams/USEMO-2023.pdf) [(solutions and results)](exams/report-usemo-2023.pdf)
-- USEMO 2024 [(problems)](exams/USEMO-2024.pdf) [(solutions and results)](exams/report-usemo-2024.pdf)
-- USEMO 2025 [(problems)](exams/USEMO-2025.pdf) [(solutions and results)](exams/report-usemo-2025.pdf)
+- USEMO 2019 [(problems)](/exams/USEMO-2019.pdf) [(solutions and results)](/exams/report-usemo-2019.pdf)
+- USEMO 2020 [(problems)](/exams/USEMO-2020.pdf) [(solutions and results)](/exams/report-usemo-2020.pdf)
+- USEMO 2021 [(problems)](/exams/USEMO-2021.pdf) [(solutions and results)](/exams/report-usemo-2021.pdf)
+- USEMO 2022 [(problems)](/exams/USEMO-2022.pdf) [(solutions and results)](/exams/report-usemo-2022.pdf)
+- USEMO 2023 [(problems)](/exams/USEMO-2023.pdf) [(solutions and results)](/exams/report-usemo-2023.pdf)
+- USEMO 2024 [(problems)](/exams/USEMO-2024.pdf) [(solutions and results)](/exams/report-usemo-2024.pdf)
+- USEMO 2025 [(problems)](/exams/USEMO-2025.pdf) [(solutions and results)](/exams/report-usemo-2025.pdf)
 
 ## {{ hl("hall", "Hall of Fame") }}
 
