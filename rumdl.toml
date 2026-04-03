@@ -5,7 +5,6 @@ disable = [
   "MD033", # Permit inline HTML
   "MD041", # Allow first line to be anything (not just h1)
   "MD051", # Anchors like #L-1 are not detectable
-  "MD064", # Multi consecutive spaces: blocked on https://github.com/rvben/rumdl/issues/558
 ]
 
 extend-enable = ["MD060"]
