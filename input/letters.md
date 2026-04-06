@@ -85,29 +85,29 @@ are welcome to use this as an example.)
 
 If you do ask a letter for me, I need the following information.
 
-1.  Please remind me which years I worked with you (in OTIS/MOP/SPARC/etc.).
-    I have been doing this for so long that the years are all mixed
-    up in my head, so I'd like to double-check!
-    Also, if you're in OTIS, send a link to your dashboard.
-2.  Give any recent math olympiad results, like USAMO / TSTST / TST / IMO.
-    (I may not use them, but I want to have them if I need them).
-3.  **Is there anything in particular I should discuss?**
-    In particular, how math-focused do you want me to be?
-4.  Please **send me any application essays or completed forms**
-    you are willing to share (drafts of essays are okay).
-    This way, I can tailor my letter to complement what you've already written.
-5.  If I've written a letter for you in the past, please remind me about it.
-6.  Please also specify which email you applied to the program with.
-7.  Specify what "type" of letter I am writing, if applicable.
-    For example, colleges commonly distinguish between, say
-    "required" letters from a math teacher, or optional "supplements"
-    (see e.g. [MIT][mitsupp], second-to-last paragraph).
-    It is useful for me to know whether I am the main voice or if
-    I am expecting to add on to what other (usually more traditional)
-    teachers have to say.
-8.  State explicitly when the **deadline** is.
-9.  Indicate your current grade-level in your high school/college,
-    and what year you expect to graduate.
+1. Please remind me which years I worked with you (in OTIS/MOP/SPARC/etc.).
+   I have been doing this for so long that the years are all mixed
+   up in my head, so I'd like to double-check!
+   Also, if you're in OTIS, send a link to your dashboard.
+2. Give any recent math olympiad results, like USAMO / TSTST / TST / IMO.
+   (I may not use them, but I want to have them if I need them).
+3. **Is there anything in particular I should discuss?**
+   In particular, how math-focused do you want me to be?
+4. Please **send me any application essays or completed forms**
+   you are willing to share (drafts of essays are okay).
+   This way, I can tailor my letter to complement what you've already written.
+5. If I've written a letter for you in the past, please remind me about it.
+6. Please also specify which email you applied to the program with.
+7. Specify what "type" of letter I am writing, if applicable.
+   For example, colleges commonly distinguish between, say
+   "required" letters from a math teacher, or optional "supplements"
+   (see e.g. [MIT][mitsupp], second-to-last paragraph).
+   It is useful for me to know whether I am the main voice or if
+   I am expecting to add on to what other (usually more traditional)
+   teachers have to say.
+8. State explicitly when the **deadline** is.
+9. Indicate your current grade-level in your high school/college,
+   and what year you expect to graduate.
 
 Additional technical instructions:
 

@@ -65,37 +65,37 @@ and it's great fun to just pick a random past puzzle to work through.
 
 In descending order of importance for new solvers:
 
-0.  **Read [betaveros's post][betaveros] if you haven't already**,
-    so you are familiar with all "standard" techniques
-    since many hunts will assume familiarity with no further comment.
-    (And have a look at the list of [standard encodings][codes].)
-1.  **Always make a spreadsheet** whenever you are working on a puzzle.
-    (Trying to do a puzzle without a spreadsheet is
-    analogous to not bringing scratch paper to a math exam.)
-    Google spreadsheet works well if you are working in teams.
-    - If using Google spreadsheets, there are some annoying tasks
-      you might like to automate such as A=1 to Z=26,
-      indexing with spaces deleted, etc.
-      [There's a library for this](https://github.com/mmachenry/mystery-hunt-sheets-addons).
-2.  Use **multiple screens** (e.g. extra monitor, old laptop, tablet, smart TV, etc.).
-    Being able to view both a spreadsheet and the puzzle at the same time is tremendously useful.
-    Also, if you have a printer or pencil/paper,
-    having hard copies of relevant information can be similarly helpful.
-3.  **Check your work!** (Better yet, have teammates help you check your work.)
-    Quote from [Allen Rabinovich's advice][advice]:
-    "A good friend of mine once said that if he were to write a guide
-    on how to solve puzzles, that’s all he would say."
-4.  Print out a [code sheet][codes] of **common encodings**.
-    There are other equivalent charts like [Puzzled Pint][ppint] or [Microsoft][msenc].
-5.  Use [Nutrimatic](https://nutrimatic.org) to find phrases
-    given only some of the letters.
-6.  Always ask what **information is not used yet**.
-    In a well-designed puzzle, there will rarely be any superfluous information
-    (much like in USAMO, usually there are no extraneous conditions on problems).
-    Good puzzle writers will tend to "destroy" information if it’s not relevant.
-    In particular, it's extremely common for lists to be in **alphabetical order**
-    if either order is irrelevant or the solver needs to re-order themselves.
-7.  Look at the **puzzle title** and **flavor text** for clues.
+0. **Read [betaveros's post][betaveros] if you haven't already**,
+   so you are familiar with all "standard" techniques
+   since many hunts will assume familiarity with no further comment.
+   (And have a look at the list of [standard encodings][codes].)
+1. **Always make a spreadsheet** whenever you are working on a puzzle.
+   (Trying to do a puzzle without a spreadsheet is
+   analogous to not bringing scratch paper to a math exam.)
+   Google spreadsheet works well if you are working in teams.
+   - If using Google spreadsheets, there are some annoying tasks
+     you might like to automate such as A=1 to Z=26,
+     indexing with spaces deleted, etc.
+     [There's a library for this](https://github.com/mmachenry/mystery-hunt-sheets-addons).
+2. Use **multiple screens** (e.g. extra monitor, old laptop, tablet, smart TV, etc.).
+   Being able to view both a spreadsheet and the puzzle at the same time is tremendously useful.
+   Also, if you have a printer or pencil/paper,
+   having hard copies of relevant information can be similarly helpful.
+3. **Check your work!** (Better yet, have teammates help you check your work.)
+   Quote from [Allen Rabinovich's advice][advice]:
+   "A good friend of mine once said that if he were to write a guide
+   on how to solve puzzles, that’s all he would say."
+4. Print out a [code sheet][codes] of **common encodings**.
+   There are other equivalent charts like [Puzzled Pint][ppint] or [Microsoft][msenc].
+5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
+   given only some of the letters.
+6. Always ask what **information is not used yet**.
+   In a well-designed puzzle, there will rarely be any superfluous information
+   (much like in USAMO, usually there are no extraneous conditions on problems).
+   Good puzzle writers will tend to "destroy" information if it’s not relevant.
+   In particular, it's extremely common for lists to be in **alphabetical order**
+   if either order is irrelevant or the solver needs to re-order themselves.
+7. Look at the **puzzle title** and **flavor text** for clues.
 
 For intermediate-advanced solvers, Alex Irpan has a nice post
 [Puzzlehunting 201](https://www.alexirpan.com/2024/04/30/puzzlehunting-201.html)

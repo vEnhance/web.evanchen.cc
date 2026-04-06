@@ -114,26 +114,26 @@ practice problems in the back of the textbook
 If you are stuck on a problem for which no solution is provided,
 here are some possible places to look:
 
-1.  Each problem in the text has one or more hints,
-    the intention is that the union of all the hints
-    should form an outline of the complete solution
-    (even if the details are omitted).
+1. Each problem in the text has one or more hints,
+   the intention is that the union of all the hints
+   should form an outline of the complete solution
+   (even if the details are omitted).
 
-2.  The [Automatically Generated EGMO Solutions Treasury][agest]
-    contains updated solutions to a significant number of the sourced problems.
-    (However, I compiled the solutions by problem,
-    so they don't necessarily "match" the chapter the problem appears in.)
+2. The [Automatically Generated EGMO Solutions Treasury][agest]
+   contains updated solutions to a significant number of the sourced problems.
+   (However, I compiled the solutions by problem,
+   so they don't necessarily "match" the chapter the problem appears in.)
 
-3.  There is a [user-created forum][userforum]
-    which has a link to discussion for every problem.
+3. There is a [user-created forum][userforum]
+   which has a link to discussion for every problem.
 
-4.  I included sources for as many of the problems as possible,
-    so looking up the corresponding thread on
-    [Art of Problem-Solving's Contest Index][contests]
-    will generally yield a solution to any sourced problem.
-    (The search function can work too, but is usually less helpful.)
+4. I included sources for as many of the problems as possible,
+   so looking up the corresponding thread on
+   [Art of Problem-Solving's Contest Index][contests]
+   will generally yield a solution to any sourced problem.
+   (The search function can work too, but is usually less helpful.)
 
-5.  If all of the above fail, try posting on the AoPS forums directly.
+5. If all of the above fail, try posting on the AoPS forums directly.
 
 [userforum]: https://artofproblemsolving.com/community/c618937h1605831_egmo_problem_discussions_links
 [agest]: /textbooks/AGEST.pdf

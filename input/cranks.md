@@ -109,16 +109,16 @@ All of these are good traits for any scientist to have.)
 
 But anyway, here's the career advice I promised you:
 
-1.  If you don't understand what a proof is, learn that first.
-    That is more important than anything else.
+1. If you don't understand what a proof is, learn that first.
+   That is more important than anything else.
 
-2.  Prioritize learning new math over trying to solve open problems.
-    There is _so much_ math after Calculus III;
-    see the [Napkin](napkin.html), for example.
-    This is the same reason why I anti-recommend most
-    [high school math research](faq-school.html#S-5).
+2. Prioritize learning new math over trying to solve open problems.
+   There is _so much_ math after Calculus III;
+   see the [Napkin](napkin.html), for example.
+   This is the same reason why I anti-recommend most
+   [high school math research](faq-school.html#S-5).
 
-3.  If you really must work on open problems, avoid the famous ones.
-    (See [Terence Tao's thoughts on that][tao-famous].)
+3. If you really must work on open problems, avoid the famous ones.
+   (See [Terence Tao's thoughts on that][tao-famous].)
 
 [tao-famous]: https://terrytao.wordpress.com/career-advice/dont-prematurely-obsess-on-a-single-big-problem-or-big-theory/

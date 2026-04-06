@@ -12,37 +12,37 @@ This idea was taken from [Paul Graham][raq].
 
 ### {{ faq("R-1", "How did/do you have so much time?") }}
 
-1.  I still think energy management is more important than time management.
-    If you are really excited about something, you will find time for it.
+1. I still think energy management is more important than time management.
+   If you are really excited about something, you will find time for it.
 
-2.  Conversely, I cut out a lot of things that weren't important to me.
+2. Conversely, I cut out a lot of things that weren't important to me.
 
-    I feel high school students tend to focus too much on small changes
-    (using Chrome productivity extensions, shaving time off X, etc.)
-    rather than big changes (dropping entire classes or commitments).
-    It's not that small changes are bad, but you should consider big changes first
-    ([see so-called 80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
-    Aggressively dropping classes and extracurriculars
-    that aren't adding value to your life
-    (e.g. not taking "advanced" classes solely for college applications)
-    are good examples that I think people don't do enough.
+   I feel high school students tend to focus too much on small changes
+   (using Chrome productivity extensions, shaving time off X, etc.)
+   rather than big changes (dropping entire classes or commitments).
+   It's not that small changes are bad, but you should consider big changes first
+   ([see so-called 80-20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
+   Aggressively dropping classes and extracurriculars
+   that aren't adding value to your life
+   (e.g. not taking "advanced" classes solely for college applications)
+   are good examples that I think people don't do enough.
 
-    I took this to extreme measures in high school.
-    As a senior I took a total of 2 regular high-school classes
-    and spent on the order of 30 minutes on homework _per week_;
-    as a result I had enough time to do math, write a geometry textbook,
-    take graduate math classes, learn to play
-    [this piece](https://www.youtube.com/watch?v=Pi8xsZXibIc),
-    sleep 8–10 hours a day, and play StarCraft.
-    While I don't encourage everyone to do this, I think it illustrates my point.
+   I took this to extreme measures in high school.
+   As a senior I took a total of 2 regular high-school classes
+   and spent on the order of 30 minutes on homework _per week_;
+   as a result I had enough time to do math, write a geometry textbook,
+   take graduate math classes, learn to play
+   [this piece](https://www.youtube.com/watch?v=Pi8xsZXibIc),
+   sleep 8–10 hours a day, and play StarCraft.
+   While I don't encourage everyone to do this, I think it illustrates my point.
 
-    For those of you who were at Math Prize for Girls in 2015,
-    Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
-    [which you can watch here, 49:30 -- 55:30][vxia].
+   For those of you who were at Math Prize for Girls in 2015,
+   Victoria Xia made a somewhat similar point at this year's MPFG Alumni address,
+   [which you can watch here, 49:30 -- 55:30][vxia].
 
-3.  I admittedly have spent a lot of time optimizing my workflow,
-    like typing quickly, using Vim/Linux, organizing tasks on calendars, etc.
-    But I think that's a secondary effect.
+3. I admittedly have spent a lot of time optimizing my workflow,
+   like typing quickly, using Vim/Linux, organizing tasks on calendars, etc.
+   But I think that's a secondary effect.
 
 ### {{ faq("R-2", "I'm a high-school senior who is not eligible for MOP / IMO anymore. What should I work on now?") }}
 
@@ -187,20 +187,20 @@ Here are a few great talks from the Math Prize for Girls event.
 
 ### {{ faq("R-8", "What advice would you give high schoolers?") }}
 
-1.  Learn any difficult skill deeply.
-    I don't care what the specific skill is as long as it's hard;
-    almost anything sufficiently competitive will do.
-    (In the process, you will learn how to learn.)
-2.  [Learn to code](techsupport.html).
-3.  In your spare time, build things you are totally perfectionist about.
-    It can be a piece of software or fiction story or expository article
-    or art project or [auto-targeting kilowatt laser][laser] or whatever.
-    But build stuff you insist on getting completely flawless.
-    Genuine craftsmanship is deeply underrated.
-4.  Ignore all advice that you don't agree with, including this website.
-    When I look back to my high school days,
-    more than half the advice I got was bullshit.
-    I would have been better off inverting all advice than following it.
+1. Learn any difficult skill deeply.
+   I don't care what the specific skill is as long as it's hard;
+   almost anything sufficiently competitive will do.
+   (In the process, you will learn how to learn.)
+2. [Learn to code](techsupport.html).
+3. In your spare time, build things you are totally perfectionist about.
+   It can be a piece of software or fiction story or expository article
+   or art project or [auto-targeting kilowatt laser][laser] or whatever.
+   But build stuff you insist on getting completely flawless.
+   Genuine craftsmanship is deeply underrated.
+4. Ignore all advice that you don't agree with, including this website.
+   When I look back to my high school days,
+   more than half the advice I got was bullshit.
+   I would have been better off inverting all advice than following it.
 
 ### {{ faq("R-9", "Why do you still play video games?") }}
 
@@ -263,21 +263,21 @@ if only to help you fix mistaken beliefs you have from English class.
 
 After that, the two things I'd say are:
 
-1.  [Write like you talk][talk].
-    So few people pass this basic standard it astounds me.
+1. [Write like you talk][talk].
+   So few people pass this basic standard it astounds me.
 
-2.  As far as practicing writing goes,
-    I think my advice is to write about things you've already
-    spent a lot of time thinking about.
-    It's a mistake to think that you could give me an arbitrary topic
-    and that I would be able to write something useful about it[^idgaf].
-    I only write about things I've been pondering for a while (often months).
+2. As far as practicing writing goes,
+   I think my advice is to write about things you've already
+   spent a lot of time thinking about.
+   It's a mistake to think that you could give me an arbitrary topic
+   and that I would be able to write something useful about it[^idgaf].
+   I only write about things I've been pondering for a while (often months).
 
-    So instead of
-    "I want to practice writing, let me think of a topic",
-    you should instead flip the order and say,
-    "I have something I've been thinking a lot about,
-    let me try writing out my thoughts".
+   So instead of
+   "I want to practice writing, let me think of a topic",
+   you should instead flip the order and say,
+   "I have something I've been thinking a lot about,
+   let me try writing out my thoughts".
 
 [^idgaf]:
     Especially if it's some topic IDGAF about, like an English class essay prompt.
@@ -288,28 +288,28 @@ After that, the two things I'd say are:
 
 A few pointers:
 
-1.  [Write like you talk][talk].
+1. [Write like you talk][talk].
 
-2.  For technical subjects, [write naturally][s1].
-    It's not enough to be technically correct.
-    I like the following image from [Math With Bad Drawings][math-with-bad-draw]
-    (click to enlarge):
+2. For technical subjects, [write naturally][s1].
+   It's not enough to be technically correct.
+   I like the following image from [Math With Bad Drawings][math-with-bad-draw]
+   (click to enlarge):
 
-    <a href="/static/images/int-rigor.webp"><img src="/static/images/int-rigor.webp" width="400"
-     alt="A good mathematician can make arguments intuitive OR rigorous.
-       A great mathematician can make arguments intuitive AND rigorous.
-       (Credits: Math With Bad Drawings.)"
-     /></a>
+   <a href="/static/images/int-rigor.webp"><img src="/static/images/int-rigor.webp" width="400"
+    alt="A good mathematician can make arguments intuitive OR rigorous.
+      A great mathematician can make arguments intuitive AND rigorous.
+      (Credits: Math With Bad Drawings.)"
+    /></a>
 
-3.  Get the proofreading and copy-editing right.
-    If you're not a native English speaker, get a friend or editor to help you.
-    And get many eyes to fix errors or ambiguities.
-    [This is not something I did well for my geometry book](/textbooks/geombook-errata.pdf).
+3. Get the proofreading and copy-editing right.
+   If you're not a native English speaker, get a friend or editor to help you.
+   And get many eyes to fix errors or ambiguities.
+   [This is not something I did well for my geometry book](/textbooks/geombook-errata.pdf).
 
-4.  Get the formatting right.
-    If you're using LaTeX, learn how to do things right.
-    (If you're the kind of person that uses Overleaf and `\\ \textbf{Theorem 1:}`,
-    then, well, you have a lot to learn.)
+4. Get the formatting right.
+   If you're using LaTeX, learn how to do things right.
+   (If you're the kind of person that uses Overleaf and `\\ \textbf{Theorem 1:}`,
+   then, well, you have a lot to learn.)
 
 I also have a blog post on
 [some thoughts from when I wrote my geometry book and more][thoughts]
@@ -326,13 +326,13 @@ I think prestige (and money, test scores, college apps, resume-building, etc.)
 all fall into a bucket my former mentor describes as "seductive".
 The properties are:
 
-1.  They're not intrinsically bad, and in fact can be good in moderation
-    (e.g. getting into good colleges is nice).
-2.  They're impractical to avoid entirely (e.g., you can't just ignore money).
-3.  However, they are really, really easy to get sucked into if you're not careful
-    (or even if you are careful).
-    Which is why you get to hear so many horror stories about bribing politicians,
-    or committing fraud to impress Harvard, and so on ad nauseam.
+1. They're not intrinsically bad, and in fact can be good in moderation
+   (e.g. getting into good colleges is nice).
+2. They're impractical to avoid entirely (e.g., you can't just ignore money).
+3. However, they are really, really easy to get sucked into if you're not careful
+   (or even if you are careful).
+   Which is why you get to hear so many horror stories about bribing politicians,
+   or committing fraud to impress Harvard, and so on ad nauseam.
 
 I think this label was helpful for me because I could recognize when
 I was in a situation where I was like,
