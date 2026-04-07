@@ -1,9 +1,7 @@
 ---
-title: Discord
-header: vEnhance's Discord
+title: vEnhance's Discord
 description: Link to Evan's personal Discord
 indent: 1
-menu-position: 52
 ---
 
 By using the invite code `8JeSem2MNv` you can join vEnhance's Discord server.

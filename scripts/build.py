@@ -22,7 +22,7 @@ MD_EXTENSIONS = ["extra", "smarty", "sane_lists", "mdx_truly_sane_lists", "meta"
 
 
 class NavItem(TypedDict):
-    title: str
+    shortname: str
     src: str | None
     url: str | None
     indent: bool
@@ -70,7 +70,7 @@ def build() -> None:
     )
     tmpl_env.globals["nav_links"] = get_nav_data(PROJECT / "data" / "nav.toml")
     tmpl_env.globals.update(macros)
-    template = tmpl_env.get_template("page.html")
+    template = tmpl_env.get_template("page.html.j2")
     md_converter = markdown.Markdown(extensions=MD_EXTENSIONS)
 
     for path in DIR_IN.rglob("*.md"):

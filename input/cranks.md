@@ -1,6 +1,5 @@
 ---
-title: Famous open problems
-header: For claimed solutions to famous problems
+title: For claimed solutions to famous problems
 description: People claiming to solve an open problem
 ---
 

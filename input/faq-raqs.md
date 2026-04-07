@@ -1,6 +1,5 @@
 ---
 title: Rarely Asked Questions
-header: Rarely Asked Questions
 description: Some FAQs about math contests and my personal life.
 ---
 

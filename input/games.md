@@ -1,9 +1,7 @@
 ---
-title: Games
-header: Some Favorite Games
+title: Some Favorite Games
 indent: 1
 description: Tabletop, card, video games that I enjoy
-menu-position: 42
 ---
 
 ## {{ hl("tabletop", "Tabletop games") }}

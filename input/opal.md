@@ -1,7 +1,5 @@
 ---
-header: OPAL Hunt — Public archive
-title: OPAL Hunt
-menu-position: 26
+title: OPAL Hunt — Public archive
 indent: 1
 description: OTIS puzzle hunt
 ---

@@ -1,7 +1,5 @@
 ---
-title: EGMO book
-menu-position: 71
-header: Euclidean Geometry in Mathematical Olympiads (EGMO)
+title: Euclidean Geometry in Mathematical Olympiads (EGMO)
 indent: 1
 description: Synopsis and errata for EGMO geometry textbook for math olympiad students.
 ---

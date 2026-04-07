@@ -1,7 +1,5 @@
 ---
-title: Teaching (OTIS)
-header: Olympiad Training for Individual Study (OTIS)
-menu-position: 20
+title: Olympiad Training for Individual Study (OTIS)
 description: Synopsis of my teaching for olympiad contestants.
 ---
 

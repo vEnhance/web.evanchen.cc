@@ -1,6 +1,5 @@
 ---
 title: Personal FAQs
-header: Personal FAQs
 description: Some FAQs about math contests and my personal life.
 ---
 

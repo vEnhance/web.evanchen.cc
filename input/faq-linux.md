@@ -1,6 +1,5 @@
 ---
 title: Linux FAQs
-header: Linux FAQs
 description: Some FAQs about Linux and the like.
 ---
 

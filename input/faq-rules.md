@@ -1,6 +1,5 @@
 ---
 title: Contest Rules FAQs
-header: Contest Rules FAQs
 description: Some FAQs about math contests and my personal life.
 ---
 

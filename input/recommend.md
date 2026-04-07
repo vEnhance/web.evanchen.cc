@@ -1,7 +1,5 @@
 ---
-title: Recommendations
-header: Recommended Readings
-menu-position: 90
+title: Recommended Readings
 description: Links to references and readings that I enjoyed.
 ---
 

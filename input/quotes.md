@@ -1,7 +1,5 @@
 ---
-title: Quotes
-header: List of quotes
-menu-position: 95
+title: List of quotes
 description: List of quotes that Evan likes
 indent: 1
 ---

@@ -1,7 +1,5 @@
 ---
-title: Problems
-menu-position: 33
-header: Olympiad Problems and Solutions
+title: Olympiad Problems and Solutions
 indent: 1
 description: Archive of PDF's of math olympiad problems.
 ---

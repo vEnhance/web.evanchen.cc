@@ -1,9 +1,7 @@
 ---
-title: For beginners
-header: Math olympiad beginner's page
+title: Math olympiad beginner's page
 description: Suggestions for starting on math olympiads
 indent: 1
-menu-position: 31
 ---
 
 This page is meant for people who don't have much

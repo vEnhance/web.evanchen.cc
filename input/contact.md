@@ -1,8 +1,6 @@
 ---
-title: Contact
-header: Contacting Evan
+title: Contacting Evan
 description: If you want to email or message me.
-menu-position: 100
 ---
 
 The two best ways to reach me are

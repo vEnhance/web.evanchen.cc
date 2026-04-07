@@ -1,7 +1,5 @@
 ---
-title: Now
-header: What I'm up to now
-menu-position: 2
+title: What I'm up to now
 description: Now page. What I've been up to recently
 indent: 1
 ---

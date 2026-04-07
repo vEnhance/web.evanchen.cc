@@ -1,7 +1,5 @@
 ---
-title: plz learn code
-header: Speech on why coding is important
-menu-position: 60
+title: Speech on why coding is important
 ---
 
 Are you scared by watching Evan's fingers repeatedly smashing

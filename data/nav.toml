@@ -1,81 +1,81 @@
 [[block]]
-title = "About"
+shortname = "About"
 src = "index"
 subpages = [
-  {title = "Now", src = "now"},
-  {title = "CV", url = "upload/public-CV.pdf"},
-  {title = "Blog", url = "https://blog.evanchen.cc"},
+  {shortname = "Now", src = "now"},
+  {shortname = "CV", url = "upload/public-CV.pdf"},
+  {shortname = "Blog", url = "https://blog.evanchen.cc"},
 ]
 
 [[block]]
-title = "Teaching (OTIS)"
+shortname = "Teaching (OTIS)"
 src = "otis"
 subpages = [
-  {title = "OTIS Excerpts", src = "excerpts"},
-  {title = "OPAL Hunt", src = "opal"},
-  {title = "Mock AIME", src = "mockaime"},
+  {shortname = "OTIS Excerpts", src = "excerpts"},
+  {shortname = "OPAL Hunt", src = "opal"},
+  {shortname = "Mock AIME", src = "mockaime"},
 ]
 
 [[block]]
-title = "Olympiad"
+shortname = "Olympiad"
 src = "olympiad"
 subpages = [
-  {title = "For beginners", src = "wherestart"},
-  {title = "For coaches", src = "coaches"},
-  {title = "Problems", src = "problems"},
-  {title = "MOP", src = "mop"},
-  {title = "ELMO", url = "https://elmo.evanchen.cc/"},
-  {title = "USEMO", src = "usemo"},
+  {shortname = "For beginners", src = "wherestart"},
+  {shortname = "For coaches", src = "coaches"},
+  {shortname = "Problems", src = "problems"},
+  {shortname = "MOP", src = "mop"},
+  {shortname = "ELMO", url = "https://elmo.evanchen.cc/"},
+  {shortname = "USEMO", src = "usemo"},
 ]
 
 [[block]]
-title = "Personal/Hobbies"
+shortname = "Personal/Hobbies"
 src = "personal"
 subpages = [
-  {title = "Puzzle hunts", src = "puzzlehunt"},
-  {title = "Games", src = "games"},
-  {title = "Photos", src = "photos"},
+  {shortname = "Puzzle hunts", src = "puzzlehunt"},
+  {shortname = "Games", src = "games"},
+  {shortname = "Photos", src = "photos"},
 ]
 
 [[block]]
-title = "YouTube/Twitch"
+shortname = "YouTube/Twitch"
 src = "videos"
 subpages = [
-  {title = "Discord", src = "discord"},
+  {shortname = "Discord", src = "discord"},
 ]
 
 [[block]]
-title = "plz lean code"
+shortname = "plz lean code"
 src = "techspeech"
 subpages = [
-  {title = "Filesys concepts", src = "filesys"},
-  {title = "Learning path", src = "techsupport"},
-  {title = "LaTeX style", src = "latex-style-guide"},
-  {title = "Asy guide", src = "asyguide"},
+  {shortname = "Filesys concepts", src = "filesys"},
+  {shortname = "Learning path", src = "techsupport"},
+  {shortname = "LaTeX style", src = "latex-style-guide"},
+  {shortname = "Asy guide", src = "asyguide"},
 ]
 
 [[block]]
-title = "Publications"
+shortname = "Publications"
 src = "publications"
 subpages = [
-  {title = "EGMO book", src = "geombook"},
-  {title = "Napkin (v1.6)", src = "napkin"},
-  {title = "18.02 book", src = "1802"},
-  {title = "Course notes", src = "coursework"},
+  {shortname = "EGMO book", src = "geombook"},
+  {shortname = "Napkin (v1.6)", src = "napkin"},
+  {shortname = "18.02 book", src = "1802"},
+  {shortname = "Course notes", src = "coursework"},
 ]
 
 [[block]]
-title = "Recommendations"
+shortname = "Recommendations"
 src = "recommend"
 subpages = [
-  {title = "Mentors", src = "mentors"},
-  {title = "Quotes", src = "quotes"},
-  {title = "FAQs", src = "faqs"},
+  {shortname = "Mentors", src = "mentors"},
+  {shortname = "Quotes", src = "quotes"},
+  {shortname = "FAQs", src = "faqs"},
 ]
 
 [[block]]
 ttile = "Contact"
 src = "contact"
 subpages = [
-  {title = "Rec letters", src = "letters"},
+  {shortname = "Rec letters", src = "letters"},
 ]

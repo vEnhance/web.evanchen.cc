@@ -1,9 +1,7 @@
 ---
-title: LaTeX style
-header: Evan's LaTeX Style Guide
+title: Evan's LaTeX Style Guide
 description: Evan's LaTeX Style Guide
 indent: 1
-menu-position: 66
 ---
 
 This document describes the specifications requested by Evan

@@ -1,6 +1,5 @@
 ---
 title: ⛵IS
-header: ⛵IS
 description: April Fool's gag 2023.
 ---
 

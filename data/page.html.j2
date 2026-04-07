@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Evan Chen • {{ page["header"] }}</title>
+    <title>Evan Chen • {{ page["title"] }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,400&amp;family=Mate:ital@0;1&amp;family=Noto+Serif+TC:wght@500&amp;family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Roboto+Slab:wght@400;500;600&amp;display=swap"
@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="evan chen, math, olympiad, IMO, education" />
     <meta name="description"
-          content="Evan Chen | {{ page.get('description', page['header']) }}">
+          content="Evan Chen | {{ page.get('description', page['title']) }}">
     <link rel="apple-touch-icon"
           sizes="180x180"
           href="/static/icons/apple-touch-icon.png" />
@@ -140,21 +140,21 @@
                   <h5>
                     &nbsp; • &nbsp;
                     {% if nl.get("src") == src %}
-                      <strong>{{ nl["title"] }}</strong>
+                      <strong>{{ nl["shortname"] }}</strong>
                     {% elif nl["src"] %}
-                      <a href="/{{ nl["src"] }}.html">{{ nl["title"] }}</a>
+                      <a href="/{{ nl["src"] }}.html">{{ nl["shortname"] }}</a>
                     {% else %}
-                      <a href="{{ nl["url"] }}">{{ nl["title"] }}</a>
+                      <a href="{{ nl["url"] }}">{{ nl["shortname"] }}</a>
                     {% endif %}
                   </h5>
                 {%- else %}
                   <h4>
                     {% if nl.get("src") == src %}
-                      <strong>{{ nl["title"] }}</strong>
+                      <strong>{{ nl["shortname"] }}</strong>
                     {% elif nl["src"] %}
-                      <a href="/{{ nl["src"] }}.html">{{ nl["title"] }}</a>
+                      <a href="/{{ nl["src"] }}.html">{{ nl["shortname"] }}</a>
                     {% else %}
-                      <a href="{{ nl["url"] }}">{{ nl["title"] }}</a>
+                      <a href="{{ nl["url"] }}">{{ nl["shortname"] }}</a>
                     {% endif %}
                   </h4>
                 {%- endif %}
@@ -176,7 +176,7 @@
           <div id="main">
             <div class="entry">
               <h1 id="pagetitle">
-                <a href="/{{ src }}.html">{{ page["header"] }}</a>
+                <a href="/{{ src }}.html">{{ page["title"] }}</a>
               </h1>
               <div class="entrywrap">{{ content }}</div>
             </div>

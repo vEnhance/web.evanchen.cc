@@ -1,6 +1,5 @@
 ---
-title: Math Contest History
-header: Math Contest Photos and History
+title: Math Contest Photos and History
 description: Records of my high school contest scores, for comedic value.
 ---
 

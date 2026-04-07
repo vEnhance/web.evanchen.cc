@@ -1,6 +1,5 @@
 ---
-title: Outreach
-header: Outreach for High School Math
+title: Outreach for High School Math
 description: Listing of volunteer roles
 ---
 

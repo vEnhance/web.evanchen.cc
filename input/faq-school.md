@@ -1,6 +1,5 @@
 ---
 title: School FAQs
-header: School FAQs
 description: Some FAQs about math contests and my personal life.
 ---
 

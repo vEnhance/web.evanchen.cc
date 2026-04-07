@@ -1,7 +1,5 @@
 ---
-header: Photos
 title: Photos
-menu-position: 48
 indent: 1
 ---
 

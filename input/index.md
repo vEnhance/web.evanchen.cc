@@ -1,7 +1,5 @@
 ---
-title: About
-header: Homepage of Evan Chen
-menu-position: 0
+title: Homepage of Evan Chen
 description: Homepage of Evan Chen. Course notes, olympiad materials, writings, CV.
 ---
 

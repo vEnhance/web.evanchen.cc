@@ -1,8 +1,6 @@
 ---
-title: Asy guide
-header: Asymptote Guide
+title: Asymptote Guide
 description: Notes on how to set up Asymptote with LaTeX.
-menu-position: 68
 indent: 1
 ---
 

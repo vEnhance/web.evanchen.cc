@@ -1,7 +1,5 @@
 ---
-title: Olympiad
-header: Olympiad Articles
-menu-position: 30
+title: Olympiad Articles
 description: Popular math olympiad training materials written by Evan Chen.
 ---
 

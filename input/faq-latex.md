@@ -1,6 +1,5 @@
 ---
 title: LaTeX FAQs
-header: LaTeX FAQs
 description: Some FAQs about LaTeX
 ---
 

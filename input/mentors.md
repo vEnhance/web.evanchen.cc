@@ -1,7 +1,5 @@
 ---
-title: Mentors
-header: Competition mentors
-menu-position: 92
+title: Competition mentors
 description: Listing of other people who take students
 indent: 1
 ---
