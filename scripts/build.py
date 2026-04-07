@@ -7,7 +7,6 @@ import sys
 import tomllib
 import urllib.parse
 from pathlib import Path
-from typing import TypedDict
 
 import frontmatter
 import markdown
@@ -21,18 +20,6 @@ RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
 MD_EXTENSIONS = ["extra", "smarty", "sane_lists", "mdx_truly_sane_lists", "meta"]
 
 
-class NavItem(TypedDict):
-    shortname: str
-    src: str | None
-    url: str | None
-    indent: bool
-
-
-# =============================================================================
-# Build
-# =============================================================================
-
-
 def load_macros() -> dict:
     spec = importlib.util.spec_from_file_location(
         "macros", PROJECT / "data" / "macros.py"
@@ -44,7 +31,7 @@ def load_macros() -> dict:
     return {k: v for k, v in module.__dict__.items() if not k.startswith("__")}
 
 
-def get_nav_data(toml_path: Path) -> list[NavItem]:
+def get_nav_data(toml_path: Path) -> list[dict]:
     with open(toml_path, "rb") as f:
         data = tomllib.load(f)
     out = []
@@ -80,9 +67,9 @@ def build() -> None:
             page = frontmatter.load(f)
         md_env.globals["page"] = page
         rendered_md = md_env.from_string(page.content).render()
+
         md_converter.reset()
         content_html = md_converter.convert(rendered_md)
-
         html = template.render(page=page, src=src, content=content_html)
         html = RE_REL_URL.sub(lambda m: urllib.parse.urljoin("/", m.group(1)), html)
 

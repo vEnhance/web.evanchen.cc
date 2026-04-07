@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import sys
 from collections import defaultdict
 from html.parser import HTMLParser
@@ -15,7 +16,6 @@ MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/", DIR_OUT),
 ]
 
-#
 # =============================================================================
 # Audit: HTML validation + broken links
 # =============================================================================

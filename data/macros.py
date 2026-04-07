@@ -47,7 +47,9 @@ def page_footer(src: str) -> str:
         )
     else:
         commit = next(repo.iter_commits(paths=blob.path, max_count=1))
-        last_update_dt = datetime.datetime.utcfromtimestamp(commit.committed_date)
+        last_update_dt = datetime.datetime.fromtimestamp(
+            commit.committed_date, tz=datetime.timezone.utc
+        )
         last_update_str = last_update_dt.strftime("%a %-d %b %Y, %H:%M:%S UTC")
         return (
             "<div>\n"
