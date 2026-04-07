@@ -10,7 +10,7 @@ LIVE = "https://web.evanchen.cc"
 
 MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/static/", REPO / "static"),
-    ("/applets/", REPO / "data" / "applets"),
+    ("/applets/", REPO / "applets"),
     ("/handouts/", REPO / "handouts"),
     ("/", REPO / "output"),
 ]

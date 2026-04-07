@@ -17,7 +17,7 @@ The build script is intentionally short, less than 100 lines of code.
 - There is only one Jinja template: `data/page.html.j2`.
 - Navigation links on the right are controlled by `data/nav.toml`.
 - Python macros are written in `data/macros.py`, available to Jinja.
-- The `data/applets`, `handouts/`, `static/` folders contain additional files
+- The `applets`, `handouts/`, `static/` folders contain additional files
   uploaded directly to the web server from my computer.
 
 ## Development

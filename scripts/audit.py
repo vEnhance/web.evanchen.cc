@@ -11,7 +11,7 @@ DIR_OUT = PROJECT / "output"
 
 MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/static/", PROJECT / "static"),
-    ("/applets/", PROJECT / "data" / "applets"),
+    ("/applets/", PROJECT / "applets"),
     ("/handouts/", PROJECT / "handouts"),
     ("/", DIR_OUT),
 ]
