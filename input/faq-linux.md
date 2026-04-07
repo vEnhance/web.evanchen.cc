@@ -1,7 +1,7 @@
+---
 title: Linux FAQs
 header: Linux FAQs
 description: Some FAQs about Linux and the like.
-
 ---
 
 [Return to FAQ Index.](faqs.html)
@@ -9,6 +9,7 @@ description: Some FAQs about Linux and the like.
 These are FAQs about software I use.
 You might also see [LaTeX FAQs](faq-latex.html).
 
+<!-- rumdl-disable-next-line MD001 -->
 ### {{ faq("X-1", "If I don't know anything, where do I start?") }}
 
 Check the [plz learn code](techsupport.html) page.

@@ -1,8 +1,8 @@
+---
 title: About
 header: Homepage of Evan Chen
 menu-position: 0
 description: Homepage of Evan Chen. Course notes, olympiad materials, writings, CV.
-
 ---
 
 <span class="d-none d-sm-block" style="float:right;padding:10px;">

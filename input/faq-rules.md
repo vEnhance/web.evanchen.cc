@@ -1,7 +1,7 @@
+---
 title: Contest Rules FAQs
 header: Contest Rules FAQs
 description: Some FAQs about math contests and my personal life.
-
 ---
 
 [Return to FAQ Index.](faqs.html)
@@ -16,6 +16,7 @@ See the [official AMC website][amc] for authoritative answers.
 If you are looking for training advice,
 see [Contest FAQs](faq-contest.html).
 
+<!-- rumdl-disable-next-line MD001 -->
 ### {{ faq("CR-1", "How is the USA IMO team determined?") }}
 
 Starting in 2011 and as of 2019, the IMO selection procedure is as follows.

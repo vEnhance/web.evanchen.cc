@@ -1,13 +1,14 @@
+---
 title: School FAQs
 header: School FAQs
 description: Some FAQs about math contests and my personal life.
-
 ---
 
 [Return to FAQ Index.](faqs.html)
 
 These are FAQs about high school and college.
 
+<!-- rumdl-disable-next-line MD001 -->
 ### {{ faq("S-1", "Why did you transfer from Harvard to MIT?") }}
 
 Short answer: mostly social reasons,

@@ -1,7 +1,7 @@
+---
 title: Math Contest History
 header: Math Contest Photos and History
 description: Records of my high school contest scores, for comedic value.
-
 ---
 
 Sometimes people ask me a bit about how I got into math as a kid,

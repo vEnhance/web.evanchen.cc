@@ -1,9 +1,9 @@
+---
 title: USEMO
 header: US Ersatz Math Olympiad
 indent: 1
 menu-position: 39
 description: Landing page for the USEMO
-
 ---
 
 <span style="float:right;padding:10px;">

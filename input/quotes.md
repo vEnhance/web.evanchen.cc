@@ -1,9 +1,9 @@
+---
 title: Quotes
 header: List of quotes
 menu-position: 95
 description: List of quotes that Evan likes
 indent: 1
-
 ---
 
 Some of my favorite quotes that stuck with me forever.

@@ -1,9 +1,9 @@
+---
 header: OPAL Hunt: Public archive
 title: OPAL Hunt
 menu-position: 26
 indent: 1
 description: OTIS puzzle hunt
-
 ---
 
 OPAL is an annual one-round beginner-level [puzzle hunt](puzzlehunt.html)

@@ -1,8 +1,8 @@
+---
 title: Learning path
 header: One possible tech learning path
 menu-position: 64
 indent: 1
-
 ---
 
 Once you've read [the previous page about what a file is](filesys.html),

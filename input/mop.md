@@ -1,9 +1,9 @@
+---
 title: MOP
 header: MOPper World 2.0
 menu-position: 35
 description: Popular math olympiad training materials written by Evan Chen.
 indent: 1
-
 ---
 
 [![Not an official logo, but comedic](/static/mop/abcde.png){width=150}](/static/mop/abcde.png)

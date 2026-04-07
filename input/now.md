@@ -1,9 +1,9 @@
+---
 title: Now
 header: What I'm up to now
 menu-position: 2
 description: Now page. What I've been up to recently
 indent: 1
-
 ---
 
 This is a [now page](https://nownownow.com/about).

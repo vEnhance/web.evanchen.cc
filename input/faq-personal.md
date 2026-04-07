@@ -1,7 +1,7 @@
+---
 title: Personal FAQs
 header: Personal FAQs
 description: Some FAQs about math contests and my personal life.
-
 ---
 
 [Return to FAQ Index.](faqs.html)
@@ -9,6 +9,7 @@ description: Some FAQs about math contests and my personal life.
 These are FAQs about me and my contest history.
 You might also see [School FAQs](faq-school.html).
 
+<!-- rumdl-disable-next-line MD001 -->
 ### {{ faq("P-1", "How much time did you spend on math preparation?") }}
 
 I never kept track because the number wasn't important to me,

@@ -1,7 +1,7 @@
+---
 title: Famous open problems
 header: For claimed solutions to famous problems
 description: People claiming to solve an open problem
-
 ---
 
 This page is meant to be a canned response to emails I receive from

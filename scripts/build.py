@@ -21,7 +21,6 @@ DIR_OUT = PROJECT / "output"
 MD_EXTENSIONS = ["extra", "smarty", "sane_lists", "mdx_truly_sane_lists"]
 
 RE_EOM = re.compile(r"^---+\s*$", re.MULTILINE)
-RE_VARDEF = re.compile(r"^([^\n:=]+?)[:=]((?:.|\n )*)", re.MULTILINE)
 RE_MKD = re.compile(r"\.(?:md|mkd|mdown|markdown)$")
 RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
 
@@ -51,20 +50,21 @@ def load_macros() -> dict:
 def parse_page(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
 
-    match = RE_EOM.search(text)
-    if match:
-        fm_text = text[: match.start()]
-        content = text[match.end() :]
+    if text.startswith("---\n"):
+        rest = text[4:]
+        match = RE_EOM.search(rest)
+        if match:
+            fm_text, content = rest[: match.start()], rest[match.end() :]
+        else:
+            fm_text, content = "", rest
     else:
-        fm_text = ""
-        content = text
+        fm_text, content = "", text
 
-    metadata: dict[str, str] = {}
-    for m in RE_VARDEF.finditer(fm_text):
-        key = m.group(1).strip()
-        val = m.group(2).strip()
-        val = re.sub(r" *\n +", " ", val)
-        metadata[key] = val
+    metadata = {}
+    for line in fm_text.splitlines():
+        if ": " in line:
+            k, v = line.split(": ", 1)
+            metadata[k.strip()] = v.strip()
 
     rel = path.relative_to(DIR_IN)
     default_url = RE_MKD.sub(".html", rel.as_posix())

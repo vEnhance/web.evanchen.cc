@@ -1,8 +1,8 @@
+---
 title: Filesys concepts
 header: File systems: Concepts for beginners
 menu-position: 62
 indent: 1
-
 ---
 
 ## {{ hl("intro", "Introduction (can be skipped)") }}

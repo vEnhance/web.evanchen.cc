@@ -1,9 +1,9 @@
+---
 title: FAQs
 header: Frequently Asked Questions
 menu-position: 99
 description: Some FAQs about math contests and my personal life.
 indent: 1
-
 ---
 
 This is a compilation of answers to questions that I have been asked over time.

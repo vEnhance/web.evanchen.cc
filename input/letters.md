@@ -1,9 +1,9 @@
+---
 title: Rec letters
 header: Letters of recommendation
 menu-position: 105
 description: If you want to ask me for a recommendation letter
 indent: 1
-
 ---
 
 Sometimes students ask me for reference letters.

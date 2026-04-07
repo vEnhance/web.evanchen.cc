@@ -1,7 +1,7 @@
+---
 title: Math Contest FAQs
 header: Math Contest FAQs
 description: Some FAQs about math contests and my personal life.
-
 ---
 
 [Return to FAQ Index.](faqs.html)
@@ -9,6 +9,7 @@ description: Some FAQs about math contests and my personal life.
 These are FAQs about math contests and particularly
 how to go about training for them.
 
+<!-- rumdl-disable-next-line MD001 -->
 ### {{ faq("C-0", "I have zero experience with math contests. Where should I start?") }}
 
 For the first several weeks,

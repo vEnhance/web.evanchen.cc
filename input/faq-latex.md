@@ -1,7 +1,7 @@
+---
 title: LaTeX FAQs
 header: LaTeX FAQs
 description: Some FAQs about LaTeX
-
 ---
 
 [Return to FAQ Index.](faqs.html)
@@ -26,6 +26,7 @@ and others may be designed specifically for LaTeX editing,
 but it is a mistake to confuse the editor with the compiler.
 Any text editor will work with any compiler will work with any PDF viewer.
 
+<!-- rumdl-disable-next-line MD001 -->
 ### {{ faq("L-1", "I don't know anything. Where do I start?") }}
 
 [Read Wikibooks](https://en.wikibooks.org/wiki/LaTeX), it's really comprehensive.

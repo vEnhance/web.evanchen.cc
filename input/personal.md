@@ -1,7 +1,7 @@
+---
 title: Personal/Hobbies
 header: Hobbies and trivia about myself
 menu-position: 40
-
 ---
 
 Some other places on the Internet you can find me:

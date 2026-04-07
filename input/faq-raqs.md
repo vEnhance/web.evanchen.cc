@@ -1,7 +1,7 @@
+---
 title: Rarely Asked Questions
 header: Rarely Asked Questions
 description: Some FAQs about math contests and my personal life.
-
 ---
 
 [Return to FAQ Index.](faqs.html)
@@ -10,6 +10,7 @@ These are questions I've been asked only once or twice,
 but which were thought-provoking enough that I want to post them anyway.
 This idea was taken from [Paul Graham][raq].
 
+<!-- rumdl-disable-next-line MD001 -->
 ### {{ faq("R-1", "How did/do you have so much time?") }}
 
 1. I still think energy management is more important than time management.

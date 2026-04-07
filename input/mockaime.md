@@ -1,9 +1,9 @@
+---
 header: The OTIS Mock AIME
 title: Mock AIME
 menu-position: 27
 indent: 1
 description: Satisfactory. Keep cooking.
-
 ---
 
 _Satisfactory. Keep cooking._

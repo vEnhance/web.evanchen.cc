@@ -1,8 +1,8 @@
+---
 title: Puzzle hunts
 header: Puzzle hunts
 menu-position: 41
 indent: 1
-
 ---
 
 Teams I've hunted with include

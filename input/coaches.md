@@ -1,9 +1,9 @@
+---
 title: For coaches
 header: Math olympiad coach's page
 description: Pointers for math olympiad trainers
 indent: 1
 menu-position: 32
-
 ---
 
 This page contains some pointers for coaches who are looking for advice

@@ -1,8 +1,8 @@
+---
 title: Recommendations
 header: Recommended Readings
 menu-position: 90
 description: Links to references and readings that I enjoyed.
-
 ---
 
 This page has a bunch of links you might want to read.

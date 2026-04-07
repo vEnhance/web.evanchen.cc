@@ -1,8 +1,8 @@
+---
 title: Teaching (OTIS)
 header: Olympiad Training for Individual Study (OTIS)
 menu-position: 20
 description: Synopsis of my teaching for olympiad contestants.
-
 ---
 
 <a href="https://www.gocomics.com/calvinandhobbes/1992/09/21">

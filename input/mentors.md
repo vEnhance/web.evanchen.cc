@@ -1,9 +1,9 @@
+---
 title: Mentors
 header: Competition mentors
 menu-position: 92
 description: Listing of other people who take students
 indent: 1
-
 ---
 
 This page contains a list of referrals for math mentorship at various levels.
