@@ -1,5 +1,5 @@
 ---
-header: OPAL Hunt: Public archive
+header: OPAL Hunt — Public archive
 title: OPAL Hunt
 menu-position: 26
 indent: 1

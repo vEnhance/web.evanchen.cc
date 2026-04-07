@@ -91,7 +91,7 @@ hooks = [
   {
     id = "build",
     name = "Check build script works correctly",
-    entry = "scripts/build.py",
+    entry = "scripts/build.py && scripts/audit.py",
     language = "system",
     pass_filenames = false,
     stages = ["pre-push"],

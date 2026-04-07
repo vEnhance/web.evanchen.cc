@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Evan Chen • {{ page["title"] }}</title>
+    <title>Evan Chen • {{ page["header"] }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,400&amp;family=Mate:ital@0;1&amp;family=Noto+Serif+TC:wght@500&amp;family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Roboto+Slab:wght@400;500;600&amp;display=swap"
@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="evan chen, math, olympiad, IMO, education" />
     <meta name="description"
-          content="Evan Chen | {{ page.get('description', page['title']) }}">
+          content="Evan Chen | {{ page.get('description', page['header']) }}">
     <link rel="apple-touch-icon"
           sizes="180x180"
           href="/static/icons/apple-touch-icon.png" />
@@ -135,22 +135,26 @@
               </button>
             </nav>
             <div class="collapse d-md-block" id="collapsedContent">
-              {%- for p in pages if "menu-position" in p %}
-                {%- if "indent" in p %}
+              {%- for nl in nav_links %}
+                {%- if "indent" in nl %}
                   <h5>
                     &nbsp; • &nbsp;
-                    {% if p["title"] == page["title"] %}
-                      <strong>{{ p["title"] }}</strong>
+                    {% if nl.get("src") == src %}
+                      <strong>{{ nl["title"] }}</strong>
+                    {% elif nl["src"] %}
+                      <a href="/{{ nl["src"] }}.html">{{ nl["title"] }}</a>
                     {% else %}
-                      <a href="{{ p["url"] }}">{{ p["title"] }}</a>
+                      <a href="{{ nl["url"] }}">{{ nl["title"] }}</a>
                     {% endif %}
                   </h5>
                 {%- else %}
                   <h4>
-                    {% if p["title"] == page["title"] %}
-                      <strong>{{ p["title"] }}</strong>
+                    {% if nl.get("src") == src %}
+                      <strong>{{ nl["title"] }}</strong>
+                    {% elif nl["src"] %}
+                      <a href="/{{ nl["src"] }}.html">{{ nl["title"] }}</a>
                     {% else %}
-                      <a href="{{ p["url"] }}">{{ p["title"] }}</a>
+                      <a href="{{ nl["url"] }}">{{ nl["title"] }}</a>
                     {% endif %}
                   </h4>
                 {%- endif %}
@@ -172,11 +176,11 @@
           <div id="main">
             <div class="entry">
               <h1 id="pagetitle">
-                <a href="{{ page['url'] }}">{{ page["header"] }}</a>
+                <a href="/{{ src }}.html">{{ page["header"] }}</a>
               </h1>
               <div class="entrywrap">{{ content }}</div>
             </div>
-            <div>{{ page_footer(page) }}</div>
+            <div>{{ page_footer(src) }}</div>
           </div>
         </div>
       </div>

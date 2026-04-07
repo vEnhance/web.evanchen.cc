@@ -1,6 +1,6 @@
 ---
 title: Filesys concepts
-header: File systems: Concepts for beginners
+header: File systems — concepts for beginners
 menu-position: 62
 indent: 1
 ---

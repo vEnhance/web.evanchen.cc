@@ -32,9 +32,8 @@ def handout_link_src(name: str, filename=None) -> str:
     )
 
 
-def page_footer(page: dict[str, str]) -> str:
-    input_name: str = page["url"].replace(".html", ".md")
-    input_path = Path("input") / input_name
+def page_footer(src: str) -> str:
+    input_path = Path("input") / f"{src}.md"
     try:
         blob = tree[str(input_path)]
     except KeyError:

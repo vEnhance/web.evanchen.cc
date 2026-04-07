@@ -1,0 +1,81 @@
+[[block]]
+title = "About"
+src = "index"
+subpages = [
+  {title = "Now", src = "now"},
+  {title = "CV", url = "upload/public-CV.pdf"},
+  {title = "Blog", url = "https://blog.evanchen.cc"},
+]
+
+[[block]]
+title = "Teaching (OTIS)"
+src = "otis"
+subpages = [
+  {title = "OTIS Excerpts", src = "excerpts"},
+  {title = "OPAL Hunt", src = "opal"},
+  {title = "Mock AIME", src = "mockaime"},
+]
+
+[[block]]
+title = "Olympiad"
+src = "olympiad"
+subpages = [
+  {title = "For beginners", src = "wherestart"},
+  {title = "For coaches", src = "coaches"},
+  {title = "Problems", src = "problems"},
+  {title = "MOP", src = "mop"},
+  {title = "ELMO", url = "https://elmo.evanchen.cc/"},
+  {title = "USEMO", src = "usemo"},
+]
+
+[[block]]
+title = "Personal/Hobbies"
+src = "personal"
+subpages = [
+  {title = "Puzzle hunts", src = "puzzlehunt"},
+  {title = "Games", src = "games"},
+  {title = "Photos", src = "photos"},
+]
+
+[[block]]
+title = "YouTube/Twitch"
+src = "videos"
+subpages = [
+  {title = "Discord", src = "discord"},
+]
+
+[[block]]
+title = "plz lean code"
+src = "techspeech"
+subpages = [
+  {title = "Filesys concepts", src = "filesys"},
+  {title = "Learning path", src = "techsupport"},
+  {title = "LaTeX style", src = "latex-style-guide"},
+  {title = "Asy guide", src = "asyguide"},
+]
+
+[[block]]
+title = "Publications"
+src = "publications"
+subpages = [
+  {title = "EGMO book", src = "geombook"},
+  {title = "Napkin (v1.6)", src = "napkin"},
+  {title = "18.02 book", src = "1802"},
+  {title = "Course notes", src = "coursework"},
+]
+
+[[block]]
+title = "Recommendations"
+src = "recommend"
+subpages = [
+  {title = "Mentors", src = "mentors"},
+  {title = "Quotes", src = "quotes"},
+  {title = "FAQs", src = "faqs"},
+]
+
+[[block]]
+ttile = "Contact"
+src = "contact"
+subpages = [
+  {title = "Rec letters", src = "letters"},
+]
