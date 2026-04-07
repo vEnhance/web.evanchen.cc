@@ -1,6 +1,6 @@
 import csv
 import datetime
-import json
+import tomllib
 from html import escape
 from pathlib import Path
 
@@ -65,17 +65,17 @@ def page_footer(src: str) -> str:
 
 def get_twitch_table() -> str:
     if (data_directory := Path("data/twitch/")).exists():
-        tsv_path = data_directory / "data.tsv"
-        json_path = data_directory / "urls.json"
+        csv_path = data_directory / "problems.csv"
+        url_path = data_directory / "urls.lock"
     else:
         return "(Error: could not read Twitch table)"
 
-    with open(json_path) as f:
-        url_dict = json.load(f)
+    with open(url_path, "rb") as f:
+        url_dict = tomllib.load(f)
 
     data = []
-    with open(tsv_path) as f:
-        reader = csv.DictReader(f, delimiter="\t")
+    with open(csv_path) as f:
+        reader = csv.DictReader(f)
         for row in reader:
             data.append(row)
 
@@ -114,7 +114,8 @@ def get_twitch_table() -> str:
                 src_url = None
             key = "💻" + key[1:]
         else:
-            url = url_dict.get(key, None)
+            # HACK: empty string should be convert backed into None at this step
+            url = url_dict.get(key) or None
             basename = "Ep%03d" % int(n) + "-"
             basename += key.replace(" ", "-").replace("/", "-").replace(".", "-")
             basename += "-Solution"
