@@ -1,4 +1,4 @@
-name: CI
+name: web.evanchen.cc CI
 on: [push, pull_request, workflow_dispatch]
 
 permissions: {}
