@@ -1,12 +1,13 @@
 name: CI
 on: [push, pull_request, workflow_dispatch]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   prek:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
@@ -18,6 +19,8 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
@@ -35,8 +38,8 @@ jobs:
     needs: [prek, build]
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     permissions:
-      contents: "read"
-      id-token: "write"
+      contents: read
+      id-token: write
     runs-on: ubuntu-latest
     environment: deployment
     steps:

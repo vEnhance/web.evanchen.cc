@@ -1,4 +1,4 @@
-name: "Conventional commits"
+name: "Conventional commit"
 
 on:
   pull_request:
@@ -8,9 +8,10 @@ on:
       - synchronize
       - reopened
 
-permissions:
-  pull-requests: write
+permissions: {}
 
 jobs:
-  main:
-    uses: vEnhance/dotfiles@6fe4f49fd29e1e09fab6bbc586044293694514b7 # main
+  conv-commit:
+    permissions:
+      pull-requests: read
+    uses: vEnhance/dotfiles@5687553c4974d7b4485d7decd84453e4ffa8014d # main
