@@ -136,12 +136,12 @@ See also [Geoff Smith's page][geoff].
   - [Modern Olympiad Number Theory](https://aops.com/community/c6h2344755), by Aditya Khurmi.
     More olympiad-oriented number theory textbook.
 
-- [Problems from the Book](https://maa.org/press/maa-reviews/problems-from-the-book)
-  by Titu Andreescu and Gabriel Dospinescu.
+- [Problems from the Book][pftb] by Titu Andreescu and Gabriel Dospinescu.
   Intermediate-advanced textbook covering topics in inequalities,
   algebra, analysis, combinatorics, and number theory.
 
 [acops]: https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving%2C+3rd+Edition-p-9781119239901
+[pftb]: https://bookstore.ams.org/view?ProductCode=XYZ/54
 
 ### {{ hl("contests", "Contests") }}
 
