@@ -1,29 +1,29 @@
 N,Source,YouTube
-1,Shortlist 2008 N2
-1,Shortlist 2012 C2
-1,Shortlist 2012 G2
-2,Shortlist 2007 C1
+1,Shortlist 2008 N2,
+1,Shortlist 2012 C2,
+1,Shortlist 2012 G2,
+2,Shortlist 2007 C1,
 2,Shortlist 2007 G2,https://www.youtube.com/watch?v=vA1iwW41Jmw&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-2,Shortlist 2009 C1
-3,Shortlist 2005 G3
+2,Shortlist 2009 C1,
+3,Shortlist 2005 G3,
 3,Shortlist 2007 N4,https://www.youtube.com/watch?v=L-gy9W0sY-8&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-4,Shortlist 2006 A2
+4,Shortlist 2006 A2,
 4,Shortlist 2007 G8,https://www.youtube.com/watch?v=syyRZfWhoyI&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 5,Shortlist 2004 N1,https://www.youtube.com/watch?v=yiBPjy49z80&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 5,Shortlist 2006 G2,https://www.youtube.com/watch?v=--mpFb3GbBA&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-5,Shortlist 2013 A2
-6,Twitch 006.1
+5,Shortlist 2013 A2,
+6,Twitch 006.1,
 6,Shortlist 2005 C1,https://www.youtube.com/watch?v=HjR-g-AMhC8&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 6,Shortlist 2006 A5,https://www.youtube.com/watch?v=DGLLEYuvHVA&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 6,Shortlist 2012 G3,https://www.youtube.com/watch?v=DpUbRGjqTiI&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 7,Shortlist 2004 A2,https://www.youtube.com/watch?v=ESnvvXn0B6Q&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 7,Shortlist 2004 C3,https://www.youtube.com/watch?v=0f4qSCsWQjI&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 7,Shortlist 2004 G3,https://www.youtube.com/watch?v=3W4kkTPJup0&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-7,Shortlist 2004 N2
+7,Shortlist 2004 N2,
 8,Shortlist 2008 C5,https://www.youtube.com/watch?v=ikvgjL-82tE&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 8,Shortlist 2008 G6,https://www.youtube.com/watch?v=okxnxCnAAas&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-8,Shortlist 2009 A1
-9,Shortlist 2004 C5
+8,Shortlist 2009 A1,
+9,Shortlist 2004 C5,
 9,Shortlist 2012 A2,https://www.youtube.com/watch?v=pG4Ea3O88aA&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 10,USEMO 2019/1,https://www.youtube.com/watch?v=V2TNgUwbs6A&list=PLi6h8GM1FA6yfhMMNqJi1mht4KmZnXpj6
 10,USEMO 2019/2,https://www.youtube.com/watch?v=V2TNgUwbs6A&list=PLi6h8GM1FA6yfhMMNqJi1mht4KmZnXpj6
@@ -31,8 +31,8 @@ N,Source,YouTube
 11,USEMO 2019/4,https://www.youtube.com/watch?v=0rdn01T_q4Y&list=PLi6h8GM1FA6yfhMMNqJi1mht4KmZnXpj6
 11,USEMO 2019/5,https://www.youtube.com/watch?v=0rdn01T_q4Y&list=PLi6h8GM1FA6yfhMMNqJi1mht4KmZnXpj6
 11,USEMO 2019/6,https://www.youtube.com/watch?v=0rdn01T_q4Y&list=PLi6h8GM1FA6yfhMMNqJi1mht4KmZnXpj6
-12,EGMO 2012/4
-12,India TST 2019/2
+12,EGMO 2012/4,
+12,India TST 2019/2,
 12,Japan 2019/4,https://www.youtube.com/watch?v=cm8svlDoPfs&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 13,Twitch 013.1,https://www.youtube.com/watch?v=6DxiStGJQb0&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 13,IMO 1993/3,https://www.youtube.com/watch?v=9YfK2HmNkEs&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
@@ -57,7 +57,7 @@ N,Source,YouTube
 18,Shortlist 2002 C7,https://www.youtube.com/watch?v=4AxsoRBAYE0&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 19,KJMO 2012/1,https://www.youtube.com/watch?v=lC1g-01Me-w&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 19,Romania JBMO TST 2019/3.1,https://www.youtube.com/watch?v=yAU826DfIdo&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-20,Singapore 2017/J2/2
+20,Singapore 2017/J2/2,
 21,Mexico 2019/6,https://www.youtube.com/watch?v=lxuqQaN59tU&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 21,IMO 1979/3,https://www.youtube.com/watch?v=cavQ_A0QS8o&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 21,Shortlist 1996 C6,https://www.youtube.com/watch?v=4oTU6jWCrzw&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
@@ -158,7 +158,7 @@ N,Source,YouTube
 50,USAMO 1997/1,https://www.youtube.com/watch?v=5jIFaUjnkg0&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 50,USAMO 1997/6,https://www.youtube.com/watch?v=q4n-74-t1xY&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 51,ELMO 2013/6,https://www.youtube.com/watch?v=qyfqm9u2ulQ&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-51,Iberoamerican 2020/6
+51,Iberoamerican 2020/6,
 52,AMC 12A 2021/24,https://www.youtube.com/watch?v=O-fh01O_Zao&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 52,IGO 2020/A4,https://www.youtube.com/watch?v=hlP-tSi3Eb8&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 53,AMC 10B 2021/24,https://www.youtube.com/watch?v=wJAPIFfdPJs&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
@@ -184,7 +184,7 @@ N,Source,YouTube
 62,Putnam 1972 B6,https://www.youtube.com/watch?v=iKfVuypCVos&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 62,Shortlist 2004 C2,https://www.youtube.com/watch?v=Su-mzHWfLjE&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 62,CAMO 2021/2,https://www.youtube.com/watch?v=AlIvbT2FCI4&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-64,Fary theorem
+64,Fary theorem,
 64,Shortlist 2014 A2,https://www.youtube.com/watch?v=LrqjMNxmzcw&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 64,ToT Fall 2015 S-A7,https://www.youtube.com/watch?v=purSYt9etTE&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 64,USAMO 1997/4,https://www.youtube.com/watch?v=Nc4E8-QtjHk&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
@@ -261,11 +261,11 @@ N,Source,YouTube
 91,IMO 1999/6,https://www.youtube.com/watch?v=rlMW65i_VtI&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 92,Twitch 092.3,https://www.youtube.com/watch?v=9sK8ISzHCvQ&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 94,IMO 1998/3,https://www.youtube.com/watch?v=mKfgxyfdn2w&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-95,Sylver coinage
+95,Sylver coinage,
 97,gcd det,https://www.youtube.com/watch?v=SnEj4CljU18&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 97,ToT Fall 2012 J-A7,https://www.youtube.com/watch?v=K759pczb7-A&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 98,IMO 1999/1,https://www.youtube.com/watch?v=QIkoSVCHrR8&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-99,IMO 1997/6
+99,IMO 1997/6,
 99,IMO 1997/4,https://www.youtube.com/watch?v=qMGDgxJqzIU&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 99,Schweitzer 2020/1,https://www.youtube.com/watch?v=i1d3h_Rs9Iw&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 100,Poland 2019/1/12,https://www.youtube.com/watch?v=8edyF716Mr8&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
@@ -312,7 +312,7 @@ N,Source,YouTube
 115,!CodeForces 1770C,https://www.youtube.com/watch?v=i0hXoYTq8Fw&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 116,IMO 1997/1,https://www.youtube.com/watch?v=zOToam5MzlM&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 116,IMO 1997/3,https://www.youtube.com/watch?v=zY4Uxk7i2Gg&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-116,!CodeForces 1703A
+116,!CodeForces 1703A,
 117,IMO 1987/5,https://www.youtube.com/watch?v=MQizW3_nrZE&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 117,!AtCoder ABC 286F,https://www.youtube.com/watch?v=NFlt3yTkkwg&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 118,Twitch 118.1,https://www.youtube.com/watch?v=W5EgJeHEIec&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
@@ -444,31 +444,32 @@ N,Source,YouTube
 163,EGMO 2025/1,https://www.youtube.com/watch?v=2g3avY_TJAU&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 163,EGMO 2025/2,https://www.youtube.com/watch?v=qm5tzRWuQpI&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
 163,EGMO 2025/4,https://www.youtube.com/watch?v=Nu_RjYVYHPw&list=PLi6h8GM1FA6yHh4gDk_ZYezmncU1EJUmZ
-164,EGMO 2023/1
-164,Canada 2025/2
-165,math.SE 5095573
-165,Twitch 165.2
-166,Twitch 166.1
-166,ELMO SL 2025 G7
-167,EGMO 2022/2
-167,Thailand 2025/9
-167,Serbia TST 2024/6
-168,Korea Winter 2020/1/3
-170,!CodeForces 2168C
-170,Mexico 2025/6
-171,!AtCoder ARC 140E
-172,EGMO 2022/4
-172,BAMO 2013/5
-173,Mexico 2025/5
-174,Twitch 174.1
-174,EGMO 2022/5
-174,RMM 2026/3
-175,EGMO 2023/4
-175,UMich 2008
-176,JMO 2026/6
-176,JMO 2026/1
-176,JMO 2026/2
-176,JMO 2026/4
-176,USAMO 2026/4
-177,USAMO 2026/6
-177,USAMO 2026/1
+164,EGMO 2023/1,
+164,Canada 2025/2,
+165,math.SE 5095573,
+165,Twitch 165.2,
+166,Twitch 166.1,
+166,EGMO 2023/5,https://www.youtube.com/watch?v=ngwTkx1iEtw
+166,ELMO SL 2025 G7,https://www.youtube.com/watch?v=H8kBnK1zUUY
+167,EGMO 2022/2,https://www.youtube.com/watch?v=nf7Xg0QfBl4
+167,Thailand 2025/9,
+167,Serbia TST 2024/6,https://www.youtube.com/watch?v=c8HCLo2B7J4
+168,Korea Winter 2020/1/3,
+170,!CodeForces 2168C,https://www.youtube.com/watch?v=lf4skne5Ez0
+170,Mexico 2025/6,https://www.youtube.com/watch?v=tUQyUUsxqV0
+171,!AtCoder ARC 140E,
+172,EGMO 2022/4,
+172,BAMO 2013/5,https://www.youtube.com/watch?v=3Tlt_aKy0UU
+173,Mexico 2025/5,
+174,Twitch 174.1,
+174,EGMO 2022/5,
+174,RMM 2026/3,https://www.youtube.com/watch?v=p8hKff6YUMo
+175,EGMO 2023/4,
+175,UMich 2008,
+176,JMO 2026/6,
+176,JMO 2026/1,
+176,JMO 2026/2,
+176,JMO 2026/4,
+176,USAMO 2026/4,
+177,USAMO 2026/6,https://www.youtube.com/watch?v=FJX1iXhpXVQ
+177,USAMO 2026/1,https://www.youtube.com/watch?v=lf4skne5Ez0
