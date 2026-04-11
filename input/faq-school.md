@@ -13,7 +13,7 @@ These are FAQs about high school and college.
 Short answer: mostly social reasons,
 I'm [too nerdy for Harvard](https://www.thecrimson.com/article/2009/3/19/demise-of-the-nerds-for-generations/).
 
-Long answer: [See here](https://blog.evanchen.cc/2015/06/28/transferring/).
+Long answer: [See here](https://blog.evanchen.cc/transfer/).
 
 ### {{ faq("S-2", "I'm interested in learning some higher math. Where can I start?") }}
 
@@ -38,7 +38,7 @@ Every college professor I've met is more than happy to help out a
 high school student who is interested in learning more math.
 (This may be untrue at certain top schools just because those professors
 get more audit requests than they can actually accommodate.)
-It's the [high school bureaucrats that put their foot down][blank].
+It's the high school bureaucrats that put their foot down.
 
 Talk with your high school administration and see if you can strike a deal.
 If one person says no, talk to someone else.
@@ -354,6 +354,5 @@ And I don't even know which schools still consider or accept the
 [mit-sao]: https://mitadmissions.org/discover/life-culture/clubs-activities/
 [notes]: coursework.html
 [euler]: https://eulercircle.com/research/thoughts-on-research/
-[blank]: https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/comment-page-1/#comment-1694
-[tr011ey]: https://blog.evanchen.cc/2019/04/01/undergraduate-math-011-a-first-year-course-in-geometry/
+[tr011ey]: https://blog.evanchen.cc/tr011ey/
 [genmath]: https://math.mit.edu/academics/undergrad/major/course18/general.php

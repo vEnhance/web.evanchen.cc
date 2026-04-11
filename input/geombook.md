@@ -28,8 +28,7 @@ The book has a selection of about 300 problems from around the world
 and about 250 figures.
 Some solutions are provided in [this solutions file][agest].
 
-I wrote this textbook while
-[serving time as a high school clerk][fillblank].
+I wrote this textbook while serving time as a high school clerk.
 You can [read about the publication process][publishing].
 
 ## {{ hl("prereq", "Prerequisites and material") }}
@@ -164,6 +163,5 @@ See also [advice from Geoff Smith on geometry](https://web.archive.org/web/20250
 [hardcopy]: https://bookstore.ams.org/prb-27/
 [girls]: https://www.egmo.org/
 [contests]: https://artofproblemsolving.com/community/c13_contests
-[fillblank]: https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/
-[publishing]: https://blog.evanchen.cc/2016/11/11/notes-on-publishing-my-textbook/
+[publishing]: https://blog.evanchen.cc/publishing/
 [toc]: https://www.maa.org/sites/default/files/pdf/pubs/books/EGMO_TOC.pdf

@@ -16,9 +16,9 @@ This page is not itself a puzzle.
 
 A few blog posts of mine:
 
-- [General puzzle-writing thoughts](https://blog.evanchen.cc/2021/02/18/some-puzzle-writing-thoughts-from-an-amateur/)
-- [Long stories for Mystery Hunt 2021](https://blog.evanchen.cc/2021/02/21/unnecessarily-detailed-stories-of-my-mystery-hunt-puzzles/)
-- [Long stories for Teammate Hunt 2025](https://blog.evanchen.cc/2025/04/23/teammate-hunt-2025-author-notes/)
+- [General puzzle-writing thoughts](https://blog.evanchen.cc/puzzle-writing/)
+- [Long stories for Mystery Hunt 2021](https://blog.evanchen.cc/mh-2021/)
+- [Long stories for Teammate Hunt 2025](https://blog.evanchen.cc/tmh-2025/)
 
 ## {{ hl("new", "New to puzzle hunts?") }}
 
@@ -56,7 +56,7 @@ You can also find a
 [index of all past mystery hunt puzzles](https://devjoe.appspot.com/huntindex/)
 and it's great fun to just pick a random past puzzle to work through.
 
-[blog-evan-puzzle-intro]: https://blog.evanchen.cc/2023/11/06/an-advertisement-for-what-puzzle-hunts-are-about-and-why-theyre-cooler-than-everyday-puzzles/
+[blog-evan-puzzle-intro]: https://blog.evanchen.cc/puzzles/
 [rosenthal-ted]: https://www.ted.com/talks/alex_rosenthal_the_joyful_perplexing_world_of_puzzle_hunts?language=en
 
 ## {{ hl("advice", "Evan's advice for puzzle solving") }}

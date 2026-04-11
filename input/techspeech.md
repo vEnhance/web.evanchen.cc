@@ -50,7 +50,7 @@ of how computers work, and be able to automate trivial tasks.
 For example, you should be able to write a script that
 batch renames the files `a1.out`, `a2.out`, ..., `a100.out`
 to `output001.txt`, `output002.txt`, ..., `output100.txt`.
-Or to [hack together a program](https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/)
+Or to [hack together a program](https://blog.evanchen.cc/usemo-dev/)
 that reads the data from a Google form,
 and sums the result into a table that you can send out.
 

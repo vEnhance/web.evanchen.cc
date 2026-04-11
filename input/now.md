@@ -67,11 +67,11 @@ near [Duke](https://www.duke.edu).
 
 - In March 2025, the [2025 Teammate Hunt](https://teammatehunt.com) aired.
   See the [wrapup](https://2025.teammatehunt.com/wrapup) and
-  [author notes on my puzzle](https://blog.evanchen.cc/2025/04/23/teammate-hunt-2025-author-notes/).
+  [author notes on my puzzle](https://blog.evanchen.cc/tmh-2025/).
 
 - In January 2025 I finished a [multivariable calculus textbook](1802.html)
   that I wrote primarily during the fall of 2024,
-  when I was [teaching a recitation section](https://blog.evanchen.cc/2025/08/08/teaching-multivar/).
+  when I was [teaching a recitation section](https://blog.evanchen.cc/mulitvar/).
   That book is now on [MIT OpenCourseWare](https://ocw.mit.edu/courses/res-18-016-multivariable-calculus-recitation-notes-fall-2024/).
 
 - In December 2024 I defended my
@@ -80,4 +80,4 @@ near [Duke](https://www.duke.edu).
   [diploma](https://credentials.mit.edu/certificate/fb5dea8b0db8537293e2967b64e97777).
   (It went to the spam folder in my email, which is hilarious.)
 
-[coord]: https://blog.evanchen.cc/2025/07/29/imo/
+[coord]: https://blog.evanchen.cc/coord/

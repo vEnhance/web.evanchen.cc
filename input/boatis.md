@@ -27,4 +27,4 @@ You can see the original April 1st joke on [my website][boatis-blog].
 <img width="512" src="/static/images/BOATIS-sm.png" alt="BOATIS logo" />
 </a>
 
-[boatis-blog]: https://blog.evanchen.cc/2023/04/01/announcing-%E2%9B%B5is-the-successor-to-otis/
+[boatis-blog]: https://blog.evanchen.cc/boatis/

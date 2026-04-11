@@ -210,7 +210,7 @@ Anything not too close to either extreme is probably fine.
 If in doubt, I recommend picking whatever is most enjoyable.
 
 This is worth stressing:
-_you seriously don't need [permission](https://blog.evanchen.cc/2023/08/09/agency/) to read a book_.
+_you seriously don't need [permission](https://blog.evanchen.cc/agency/) to read a book_.
 
 ### {{ faq("C-7", "Should I read X book versus Y book, spend M hours versus N hours per week, etc.?") }}
 
@@ -450,7 +450,7 @@ work on whatever you feel like, planned or not.
 
 ### {{ faq("C-18", "Do I have to do EVERY problem from X?") }}
 
-[No](https://blog.evanchen.cc/2018/03/27/i-switched-to-point-based-problem-sets/).
+[No](https://blog.evanchen.cc/points/).
 
 ### {{ faq("C-19", "Should I practice with hand-drawn or digital geo diagrams?") }}
 
@@ -604,7 +604,7 @@ and the following about [painting](https://paulgraham.com/hp.html):
 > been moved or facial features that have been readjusted.
 
 You can see
-[this blog post on 2011 N1](https://blog.evanchen.cc/2025/07/16/write-well/)
+[this blog post on 2011 N1](https://blog.evanchen.cc/write-well/)
 for a more concrete demonstration of how writing poorly can burn you.
 
 It does kind of suck that on actual high-school exams,
@@ -761,17 +761,17 @@ If you really desperately want specific personal advice,
 [aimescratch]: /static/docs/AIME-2013-scratch.pdf
 [aopswrite]: https://artofproblemsolving.com/articles/how-to-write-solution
 [articles]: olympiad.html
-[generic]: https://blog.evanchen.cc/2023/10/03/yet-another-reason-i-dont-give-much-generic-advice/
+[generic]: https://blog.evanchen.cc/generic/
 [geoff]: https://web.archive.org/web/20250124090959/https://people.bath.ac.uk/masgcs/advice.html
 [geombook]: geombook.html
 [howproof]: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html
 [mistakes]: https://www.artofproblemsolving.com/articles/stupid-mistakes
 [mohs]: /upload/MOHS-hardness.pdf
-[mohs-mistake]: https://blog.evanchen.cc/2024/01/05/mohs-was-a-mistake/
-[perfect]: https://blog.evanchen.cc/2016/04/17/against-perfect-scores/
+[mohs-mistake]: https://blog.evanchen.cc/mohs/
+[perfect]: https://blog.evanchen.cc/perfect/
 [shower]: https://www.paulgraham.com/top.html
-[townstory]: https://blog.evanchen.cc/2023/10/23/a-story-of-a-town/
+[townstory]: https://blog.evanchen.cc/town/
 [usamts]: https://usamts.org/index.php
-[wpcontest]: https://blog.evanchen.cc/2019/01/31/math-contest-platitudes-v3/
-[wpgeo]: https://blog.evanchen.cc/2016/01/19/some-advice-for-olympiad-geometry/
+[wpcontest]: https://blog.evanchen.cc/platitudes/
+[wpgeo]: https://blog.evanchen.cc/geo-advice/
 [yufei]: https://yufeizhao.com/olympiad.html

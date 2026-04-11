@@ -41,13 +41,13 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
   it's so targeted). In general the more concrete the better.
 
 [fishquote]: https://en.wiktionary.org/wiki/give_a_man_a_fish_and_you_feed_him_for_a_day;_teach_a_man_to_fish_and_you_feed_him_for_a_lifetime
-[hardsoft]: https://blog.evanchen.cc/2019/05/03/hard-and-soft-techniques/
+[hardsoft]: https://blog.evanchen.cc/hard-and-soft/
 
 ## {{ hl("blog", "Top teaching posts from Evan's blog") }}
 
-- [Running OTIS](https://blog.evanchen.cc/2023/11/03/things-ive-found-from-running-otis/)
-- [Point-based problem sets](https://blog.evanchen.cc/2018/03/27/i-switched-to-point-based-problem-sets/)
-- [Selecting topics and designing materials](https://blog.evanchen.cc/2017/04/08/on-designing-olympiad-training/)
+- [Running OTIS](https://blog.evanchen.cc/otis/)
+- [Point-based problem sets](https://blog.evanchen.cc/points/)
+- [Selecting topics and designing materials](https://blog.evanchen.cc/design/)
 
 ## {{ hl("talks", "Talks and interviews with trainers") }}
 
@@ -72,7 +72,7 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 ## {{ hl("write", "Thoughts on problem writing and test-setting") }}
 
 - [Bruce Reznick on Putnam development](https://faculty.math.illinois.edu/~reznick/putnam.pdf)
-- [USEMO test development process](https://blog.evanchen.cc/2020/12/16/usemo-problem-development-behind-the-scenes/)
+- [USEMO test development process](https://blog.evanchen.cc/usemo-dev/)
   (we use a similar process for USAMO and USA TST too)
 - [Evan's problem-writing thoughts](/handouts/ProblemWrite/ProblemWrite.pdf)
 - Anecdotes and stories about the writing of certain problems

@@ -4,8 +4,7 @@ description: Popular math olympiad training materials written by Evan Chen.
 ---
 
 These are some handouts I've written over the years.
-The [Math](https://blog.evanchen.cc/category/mathematics/) and
-[Problem-Solving](https://blog.evanchen.cc/category/problem-solving/) sections
+The [Math](https://blog.evanchen.cc/category/math) section
 of my personal blog might also be of interest.
 See also [Recommendations](recommend.html) for other authors I like,
 and my [geometry book](geombook.html) for a

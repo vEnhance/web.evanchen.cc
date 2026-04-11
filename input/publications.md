@@ -137,7 +137,7 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 - <b>Combinatorial Nullstellensatz (SPARC)</b> {{ handout_link("SPARC_Combo_Null_Slides") }}
   Slides from an informal lecture I gave on the nullstellensatz at [SPARC 2013][sparc].
 
-[ordinals]: https://blog.evanchen.cc/2014/11/18/set-theory-part-2-constructing-the-ordinals/
+[ordinals]: https://blog.evanchen.cc/zfc2/
 [sparc]: https://www.sparc-camp.org
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
 [rnut]: https://link.springer.com/article/10.1007/s40993-015-0028-0

@@ -52,7 +52,7 @@ here is Evan's tier list:
 
 4. [JavaScript](https://www.destroyallsoftware.com/talks/wat):
    Less recommended.[^js] I suggest TypeScript instead.
-   (Longer argument on [blog](https://blog.evanchen.cc/?p=1437).)
+   (Longer argument on [blog](https://blog.evanchen.cc/javascript/).)
 
 5. [Java][java]: It's a pretty wordy language.
    I don't personally like it much, but I can see the appeal.

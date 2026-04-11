@@ -59,8 +59,7 @@ that I worked on (both successful and unsuccessful):
 - Programming projects ([GitHub](https://github.com/vEnhance))
 - Installing Arch Linux and figuring out how to use it
 - Writing nonfiction e.g. Napkin and EGMO
-  (the latter was written while I was a
-  [clerk at my high school's office](https://blog.evanchen.cc/2016/05/27/fill-in-the-blank/))
+  (the latter was written while I was a clerk at my high school's office)
 - Writing fiction stories (which I failed miserably at;
   tried at least two or three times)
 - K-pop dance (extremely unsuccessful)
@@ -347,10 +346,10 @@ actually, particularly the quote:
 
 [talk]: https://paulgraham.com/talk.html
 [raq]: https://paulgraham.com/raq.html
-[tutor]: https://blog.evanchen.cc/2016/02/07/stop-paying-me-per-hour/
+[tutor]: https://blog.evanchen.cc/per-hour/
 [vxia]: https://techtv.mit.edu/collections/mathprizeforgirls/videos/32759-math-prize-for-girls-ceremony-part-2
-[lessons]: https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/
+[lessons]: https://blog.evanchen.cc/lessons/
 [laser]: https://xkcd.com/382/
-[thoughts]: https://blog.evanchen.cc/2017/04/08/on-designing-olympiad-training/
-[s1]: https://blog.evanchen.cc/2019/10/26/understanding-with-system-1/
+[thoughts]: https://blog.evanchen.cc/design/
+[s1]: https://blog.evanchen.cc/sys1/
 [math-with-bad-draw]: https://mathwithbaddrawings.com/2015/12/16/good-mathematician-vs-great-mathematician/
