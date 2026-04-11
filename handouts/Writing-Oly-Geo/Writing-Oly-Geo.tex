@@ -1,5 +1,5 @@
 \documentclass[11pt]{scrartcl}
-\usepackage[mdthm]{evan}
+\usepackage[sexy]{evan}
 
 \declaretheorem[style=thmrecbox,name=Problem]{olyprob}
 
@@ -39,7 +39,6 @@ gotten me reasonably good results.
   Prove that either $\angle PQE = 90^{\circ}$ or $\angle PQF = 90^{\circ}$.
 \end{olyprob}
 
-
 \begin{olyprob}
   [Taiwan TST Quiz for 56th IMO]
   In scalene triangle $ABC$ with incenter $I$, the incircle is tangent to
@@ -51,10 +50,129 @@ gotten me reasonably good results.
 \end{olyprob}
 
 \begin{center}
-  \includegraphics[scale=0.8]{DecTST/statement.pdf}
-  \includegraphics{TWTST/statement.pdf}
-\end{center}
+\begin{asy}
+size(6cm);
+pair A = dir(130);
+pair B = dir(210);
+pair C = dir(330);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+draw(incircle(A, B, C), blue);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
 
+pair M = midpoint(B--C);
+pair P = extension(A, I, D, E);
+draw(A--P, blue);
+
+pair D1 = 2*M-D;
+pair Q = foot(D, A, D1);
+draw(E--Q--P, blue);
+draw(P--M, blue);
+markrightangle(E,Q,P,heavygreen);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(E));
+dot("$F$", F, dir(F));
+dot("$M$", M, dir(M));
+dot("$P$", P, dir(P));
+dot("$Q$", Q, dir(Q));
+
+/* TSQ Source:
+
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A
+F = foot I A B
+
+M = midpoint B--C
+P = extension A I D E
+A--P blue
+
+D1 := 2*M-D
+Q = foot D A D1
+E--Q--P blue
+P--M blue
+
+*/
+\end{asy}
+\begin{asy}
+pair A = dir(150);
+pair B = dir(220);
+pair C = dir(320);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+draw(incircle(A, B, C), dotted+red);
+pair T = extension(E, F, B, C);
+
+pair O = circumcenter(A, E, F);
+pair S = extension(F, F+(O-F)*dir(-90), E, E+(O-E)*dir(90));
+draw(circumcircle(A, F, E), dashed+mediumgreen);
+draw(E--S--F, dashed+mediumgreen);
+
+draw(B--I--C, orange);
+draw(E--T--B);
+
+draw(circumcircle(midpoint(B--C), midpoint(B--I), midpoint(C--I)), blue);
+draw(CP(midpoint(S--T), S), blue);
+draw(S--T, blue);
+dot(midpoint(B--C));
+dot(midpoint(B--I));
+dot(midpoint(C--I));
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(-90));
+dot("$C$", C, dir(-90));
+dot("$I$", I, dir(150));
+dot("$E$", E, dir(60));
+dot("$F$", F, dir(F));
+dot("$T$", T, dir(T));
+dot("$S$", S, dir(S));
+
+/* TSQ Source:
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+A--B--C--cycle red
+I = incenter A B C R150
+
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T = extension E F B C
+
+O := circumcenter A E F
+S = extension F F+(O-F)*dir(-90) E E+(O-E)*dir(90)
+circumcircle A F E dashed mediumgreen
+E--S--F dashed mediumgreen
+
+B--I--C orange
+E--T--B
+
+circumcircle midpoint B--C midpoint B--I midpoint C--I blue
+CP midpoint S--T S blue
+S--T blue
+!dot(midpoint(B--C));
+!dot(midpoint(B--I));
+!dot(midpoint(C--I));
+
+*/
+\end{asy}
+\end{center}
 
 \section{General Procedure}
 Here are the main ingredients you'll need.
@@ -138,7 +256,49 @@ I wanted to see whether it would give me anything interesting.
 
 So, I now had the following picture.
 \begin{center}
-  \includegraphics{DecTST/initial.pdf}
+\begin{asy}
+pair A = dir(130);
+pair B = dir(210);
+pair C = dir(330);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+draw(incircle(A, B, C), blue);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+
+pair M = midpoint(B--C);
+pair T = 2*M-D;
+draw(CP(M, D), heavygreen);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(70));
+dot("$F$", F, dir(F));
+dot("$M$", M, dir(M));
+dot("$T$", T, dir(T));
+
+/* TSQ Source:
+
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A R70
+F = foot I A B
+
+M = midpoint B--C
+T = 2*M-D
+CP M D heavygreen
+
+*/
+\end{asy}
 \end{center}
 
 Now I had two circles intersecting at a single point $D$,
@@ -154,7 +314,61 @@ contest configurations; you see these kind of things immediately.)
 So $Q$ in fact lies on line $AT$.
 
 \begin{center}
-  \includegraphics{DecTST/point-q.pdf}
+\begin{asy}
+pair A = dir(130);
+pair B = dir(210);
+pair C = dir(330);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+draw(incircle(A, B, C), blue);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+
+pair M = midpoint(B--C);
+pair T = 2*M-D;
+pair Q = foot(D, A, T);
+
+draw(CP(M, Q), heavygreen);
+
+pair S = extension(D, I, A, T);
+draw(A--T, orange+dashed);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(70));
+dot("$F$", F, dir(F));
+dot("$M$", M, dir(M));
+dot("$T$", T, dir(T));
+dot("$Q$", Q, dir(25));
+dot("$S$", S, dir(70));
+
+/* TSQ Source:
+
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A R70
+F = foot I A B
+
+M = midpoint B--C
+T = 2*M-D
+Q = foot D A T R25
+
+CP M Q heavygreen
+
+S = extension D I A T R70
+A--T orange dashed
+
+*/
+\end{asy}
 \end{center}
 
 This was pretty cool, though not yet interesting enough to be
@@ -174,7 +388,74 @@ in fact, the second intersection of line $AI$ with the circle
 was on line $DF$.
 
 \begin{center}
-  \includegraphics{DecTST/collin.pdf}
+\begin{asy}
+pair A = dir(130);
+pair B = dir(210);
+pair C = dir(330);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+draw(incircle(A, B, C), blue);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+
+pair M = midpoint(B--C);
+pair P = extension(A, I, D, E);
+draw(A--P, blue);
+
+pair D1 = 2*M-D;
+pair Q = foot(D, A, D1);
+
+draw(D--E, heavycyan+dashed);
+
+draw(CP(M, P), heavygreen);
+
+pair T = extension(A, Q, B, C);
+pair S = extension(D, I, A, T);
+draw(A--T, orange);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(P-D));
+dot("$F$", F, dir(F));
+dot("$M$", M, dir(M));
+dot("$P$", P, dir(200));
+dot("$Q$", Q, dir(25));
+dot("$T$", T, dir(T));
+dot("$S$", S, dir(70));
+
+/* TSQ Source:
+
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A RP-D
+F = foot I A B
+
+M = midpoint B--C
+P = extension A I D E R200
+A--P blue
+
+D1 := 2*M-D
+Q = foot D A D1 R25
+
+D--E heavycyan dashed
+
+CP M P heavygreen
+
+T = extension A Q B C
+S = extension D I A T R70
+A--T orange
+
+*/
+\end{asy}
 \end{center}
 
 Now, I could not see quickly at all why this was true.
@@ -184,7 +465,83 @@ however, I managed to show (via angle chasing) that
   \iff \angle PQE = 90\dg. \]
 So, at least I had an interesting equivalent statement.
 \begin{center}
-  \includegraphics{DecTST/almost-sol.pdf}
+\begin{asy}
+pair A = dir(130);
+pair B = dir(210);
+pair C = dir(330);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+draw(incircle(A, B, C), blue);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+
+pair M = midpoint(B--C);
+pair P = extension(A, I, D, E);
+draw(A--P, blue);
+
+pair D1 = 2*M-D;
+pair Q = foot(D, A, D1);
+draw(E--Q--P, blue);
+draw(P--M--Q, heavygreen);
+markrightangle(E,Q,P,heavygreen);
+
+draw(D--E, heavycyan+dashed);
+
+draw(CP(M, P), heavygreen);
+
+pair T = extension(A, Q, B, C);
+pair S = extension(D, I, A, T);
+draw(A--T, orange);
+
+draw(D--Q, heavygreen);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(P-D));
+dot("$F$", F, dir(F));
+dot("$M$", M, dir(M));
+dot("$P$", P, dir(200));
+dot("$Q$", Q, dir(25));
+dot("$T$", T, dir(T));
+dot("$S$", S, dir(70));
+
+/* TSQ Source:
+
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A RP-D
+F = foot I A B
+
+M = midpoint B--C
+P = extension A I D E R200
+A--P blue
+
+D1 := 2*M-D
+Q = foot D A D1 R25
+E--Q--P blue
+P--M--Q heavygreen
+
+D--E heavycyan dashed
+
+CP M P heavygreen
+
+T = extension A Q B C
+S = extension D I A T R70
+A--T orange
+
+D--Q heavygreen
+
+*/
+\end{asy}
 \end{center}
 
 After another half hour of trying to prove my conjecture,
@@ -196,7 +553,88 @@ So, drawing in the point $N$ (the midpoint of $AB$),
 I had the full configuration which gave the answer to my conjecture.
 
 \begin{center}
-  \includegraphics{DecTST/full-sol.pdf}
+\begin{asy}
+pair A = dir(130);
+pair B = dir(210);
+pair C = dir(330);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+draw(incircle(A, B, C), blue);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+
+pair M = midpoint(B--C);
+pair P = extension(A, I, D, E);
+draw(A--P, blue);
+
+pair D1 = 2*M-D;
+pair Q = foot(D, A, D1);
+draw(E--Q--P, blue);
+draw(P--M--Q, heavygreen);
+markrightangle(E,Q,P,heavygreen);
+
+pair N = midpoint(A--B);
+draw(N--P, heavygreen+dashed);
+draw(D--E, heavycyan+dashed);
+
+draw(CP(M, P), heavygreen);
+
+pair T = extension(A, Q, B, C);
+pair S = extension(D, I, A, T);
+draw(A--T, orange);
+draw(D--Q, heavygreen);
+draw(D--S, blue+dashed);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(P-D));
+dot("$F$", F, dir(F));
+dot("$M$", M, dir(M));
+dot("$P$", P, dir(200));
+dot("$Q$", Q, dir(25));
+dot("$N$", N, dir(N));
+dot("$T$", T, dir(T));
+dot("$S$", S, dir(70));
+
+/* TSQ Source:
+
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A RP-D
+F = foot I A B
+
+M = midpoint B--C
+P = extension A I D E R200
+A--P blue
+
+D1 := 2*M-D
+Q = foot D A D1 R25
+E--Q--P blue
+P--M--Q heavygreen
+
+N = midpoint A--B
+N--P heavygreen dashed
+D--E heavycyan dashed
+
+CP M P heavygreen
+
+T = extension A Q B C
+S = extension D I A T R70
+A--T orange
+D--Q heavygreen
+D--S blue dashed
+
+*/
+\end{asy}
 \end{center}
 
 Finally, I had to clean up the mess that I had made.
@@ -214,7 +652,61 @@ Finally, we could even remove the line through $D$, $P$ and $E$;
 we ask the contestant to prove $\angle PQE = 90\dg$.
 
 \begin{center}
-  \includegraphics{DecTST/statement.pdf}
+\begin{asy}
+pair A = dir(130);
+pair B = dir(210);
+pair C = dir(330);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+draw(incircle(A, B, C), blue);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+
+pair M = midpoint(B--C);
+pair P = extension(A, I, D, E);
+draw(A--P, blue);
+
+pair D1 = 2*M-D;
+pair Q = foot(D, A, D1);
+draw(E--Q--P, blue);
+draw(P--M, blue);
+markrightangle(E,Q,P,heavygreen);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(B));
+dot("$C$", C, dir(C));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(E));
+dot("$F$", F, dir(F));
+dot("$M$", M, dir(M));
+dot("$P$", P, dir(P));
+dot("$Q$", Q, dir(Q));
+
+/* TSQ Source:
+
+A = dir 130
+B = dir 210
+C = dir 330
+A--B--C--cycle red
+I = incenter A B C
+incircle A B C blue
+D = foot I B C
+E = foot I C A
+F = foot I A B
+
+M = midpoint B--C
+P = extension A I D E
+A--P blue
+
+D1 := 2*M-D
+Q = foot D A D1
+E--Q--P blue
+P--M blue
+
+*/
+\end{asy}
 \end{center}
 
 And that was it!
@@ -228,7 +720,73 @@ the circle with diameter $BC$ intersects the $B$ and $C$ bisectors
 on the $A$ touch chord.
 Thus, we had the following diagram.
 \begin{center}
-  \includegraphics{TWTST/iran.pdf}
+\begin{asy}
+size(8cm);
+
+pair A = dir(150);
+pair B = dir(220);
+pair C = dir(320);
+pair I = incenter(A, B, C);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+draw(incircle(A, B, C), dotted+red);
+pair T = extension(E, F, B, C);
+pair X = extension(C, I, E, F);
+pair Y = extension(B, I, E, F);
+
+draw(A--B--C--cycle, red);
+
+pair O = circumcenter(A, E, F);
+draw(F--Y, heavycyan);
+
+draw(B--Y, orange);
+draw(X--C, orange);
+
+draw(B--X, blue);
+draw(C--Y, blue);
+draw(arc(midpoint(B--C), C, B), blue+dashed);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(-90));
+dot("$C$", C, dir(-90));
+dot("$I$", I, dir(I));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(60));
+dot("$F$", F, dir(F));
+dot("$X$", X, dir(120));
+dot("$Y$", Y, dir(60));
+
+/* TSQ Source:
+
+!size(8cm);
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+I = incenter A B C
+D = foot I B C
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T := extension E F B C
+X = extension C I E F R120
+Y = extension B I E F R60
+
+A--B--C--cycle red
+
+O := circumcenter A E F
+F--Y heavycyan
+
+B--Y orange
+X--C orange
+
+B--X blue
+C--Y blue
+!draw(arc(midpoint(B--C), C, B), blue+dashed);
+
+*/
+\end{asy}
 \end{center}
 The main idea I had was to look at the points $D$, $X$, $Y$
 in conjunction with each other.
@@ -239,12 +797,155 @@ So, I decided to see what would happen
 if I drew in the nine-point circle of $\triangle BIC$.
 Naturally, this induces the midpoint $M$ of $BC$.
 \begin{center}
-  \includegraphics{TWTST/nine-point.pdf}
+\begin{asy}
+size(8cm);
+
+pair A = dir(150);
+pair B = dir(220);
+pair C = dir(320);
+pair I = incenter(A, B, C);
+pair M = midpoint(B--C);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+draw(incircle(A, B, C), dotted+red);
+pair T = extension(E, F, B, C);
+pair X = extension(C, I, E, F);
+pair Y = extension(B, I, E, F);
+
+draw(A--B--C--cycle, red);
+
+pair O = circumcenter(A, E, F);
+draw(circumcircle(D, X, Y), blue+1);
+
+draw(F--Y, heavycyan);
+
+draw(B--Y, orange);
+draw(X--C, orange);
+
+draw(B--X, blue);
+draw(C--Y, blue);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(-90));
+dot("$C$", C, dir(-90));
+dot("$I$", I, dir(I));
+dot("$M$", M, dir(M));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(60));
+dot("$F$", F, dir(F));
+dot("$X$", X, dir(120));
+dot("$Y$", Y, dir(60));
+
+/* TSQ Source:
+
+!size(8cm);
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+I = incenter A B C
+M = midpoint B--C
+D = foot I B C
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T := extension E F B C
+X = extension C I E F R120
+Y = extension B I E F R60
+
+A--B--C--cycle red
+
+O := circumcenter A E F
+circumcircle D X Y blue+1
+
+F--Y heavycyan
+
+B--Y orange
+X--C orange
+
+B--X blue
+C--Y blue
+
+*/
+\end{asy}
 \end{center}
 At this point, notice (or recall!) that line $AM$
 is concurrent with lines $DI$ and $EF$.
 \begin{center}
-  \includegraphics{TWTST/median.pdf}
+\begin{asy}
+size(8cm);
+
+pair A = dir(150);
+pair B = dir(220);
+pair C = dir(320);
+pair I = incenter(A, B, C);
+pair M = midpoint(B--C);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+draw(incircle(A, B, C), dotted+red);
+pair T = extension(E, F, B, C);
+pair X = extension(C, I, E, F);
+pair Y = extension(B, I, E, F);
+
+draw(A--B--C--cycle, red);
+
+pair O = circumcenter(A, E, F);
+pair K = extension(E, F, I, D);
+draw(circumcircle(D, X, Y), blue+1);
+
+draw(K--D, heavycyan);
+draw(F--Y, heavycyan);
+draw(A--M, heavycyan);
+
+draw(B--Y, orange);
+draw(X--C, orange);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(-90));
+dot("$C$", C, dir(-90));
+dot("$I$", I, dir(I));
+dot("$M$", M, dir(M));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(60));
+dot("$F$", F, dir(F));
+dot("$X$", X, dir(120));
+dot("$Y$", Y, dir(60));
+dot("$K$", K, dir(70));
+
+/* TSQ Source:
+
+!size(8cm);
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+I = incenter A B C
+M = midpoint B--C
+D = foot I B C
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T := extension E F B C
+X = extension C I E F R120
+Y = extension B I E F R60
+
+A--B--C--cycle red
+
+O := circumcenter A E F
+K = extension E F I D R70
+circumcircle D X Y blue+1
+
+K--D heavycyan
+F--Y heavycyan
+A--M heavycyan
+
+B--Y orange
+X--C orange
+
+*/
+\end{asy}
 \end{center}
 So the nine-point circle of the problem is very tied
 down to the triangle $BIC$.
@@ -254,7 +955,82 @@ the intersection of lines $EF$ and $BC$.
 In fact, what I was trying to do was take perspectivity through $I$.
 From this we actually deduce that $(T,K;X,Y)$ is a harmonic bundle.
 \begin{center}
-  \includegraphics{TWTST/add-T.pdf}
+\begin{asy}
+size(10cm);
+
+pair A = dir(150);
+pair B = dir(220);
+pair C = dir(320);
+pair I = incenter(A, B, C);
+pair M = midpoint(B--C);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+draw(incircle(A, B, C), dotted+red);
+pair T = extension(E, F, B, C);
+pair X = extension(C, I, E, F);
+pair Y = extension(B, I, E, F);
+
+draw(A--B--C--cycle, red);
+draw(T--B, red);
+
+pair O = circumcenter(A, E, F);
+pair K = extension(E, F, I, D);
+draw(circumcircle(D, X, Y), blue+1);
+
+draw(K--D, heavycyan);
+draw(T--Y, heavycyan);
+draw(A--M, heavycyan);
+
+draw(B--Y, orange);
+draw(X--C, orange);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(-90));
+dot("$C$", C, dir(-90));
+dot("$I$", I, dir(I));
+dot("$M$", M, dir(M));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(60));
+dot("$F$", F, dir(F));
+dot("$T$", T, dir(T));
+dot("$X$", X, dir(120));
+dot("$Y$", Y, dir(60));
+dot("$K$", K, dir(70));
+
+/* TSQ Source:
+
+!size(10cm);
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+I = incenter A B C
+M = midpoint B--C
+D = foot I B C
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T = extension E F B C
+X = extension C I E F R120
+Y = extension B I E F R60
+
+A--B--C--cycle red
+T--B red
+
+O := circumcenter A E F
+K = extension E F I D R70
+circumcircle D X Y blue+1
+
+K--D heavycyan
+T--Y heavycyan
+A--M heavycyan
+
+B--Y orange
+X--C orange
+
+*/
+\end{asy}
 \end{center}
 
 Now, what could I do with this picture?
@@ -268,7 +1044,87 @@ This was aimed at ``completing'' the picture
 of a cyclic quadrilateral and the pole of an intersection of two sides.
 In particular, $(T,L;D,M)$ was harmonic too.
 \begin{center}
-  \includegraphics{TWTST/almost.pdf}
+\begin{asy}
+size(10cm);
+
+pair A = dir(150);
+pair B = dir(220);
+pair C = dir(320);
+pair I = incenter(A, B, C);
+pair M = midpoint(B--C);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+draw(incircle(A, B, C), dotted+red);
+pair T = extension(E, F, B, C);
+pair X = extension(C, I, E, F);
+pair Y = extension(B, I, E, F);
+
+draw(A--B--C--cycle, red);
+draw(T--B, red);
+
+pair O = circumcenter(A, E, F);
+pair K = extension(E, F, I, D);
+draw(circumcircle(D, X, Y), blue+1);
+
+pair L = extension(K, S, B, C);
+draw(K--L, heavycyan+1);
+draw(K--D, heavycyan);
+draw(T--Y, heavycyan);
+draw(A--M, heavycyan);
+
+draw(B--Y, orange);
+draw(X--C, orange);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(-90));
+dot("$C$", C, dir(-90));
+dot("$I$", I, dir(I));
+dot("$M$", M, dir(M));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(60));
+dot("$F$", F, dir(F));
+dot("$T$", T, dir(T));
+dot("$X$", X, dir(120));
+dot("$Y$", Y, dir(60));
+dot("$K$", K, dir(70));
+dot("$L$", L, dir(-90));
+
+/* TSQ Source:
+
+!size(10cm);
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+I = incenter A B C
+M = midpoint B--C
+D = foot I B C
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T = extension E F B C
+X = extension C I E F R120
+Y = extension B I E F R60
+
+A--B--C--cycle red
+T--B red
+
+O := circumcenter A E F
+K = extension E F I D R70
+circumcircle D X Y blue+1
+
+L = extension K S B C R-90
+K--L heavycyan+1
+K--D heavycyan
+T--Y heavycyan
+A--M heavycyan
+
+B--Y orange
+X--C orange
+
+*/
+\end{asy}
 \end{center}
 I spent a long time thinking about how I could make this into a problem.
 I unfortunately don't remember exactly what things I tried,
@@ -294,7 +1150,103 @@ Just look at the circumcircle of triangle $AEF$:
 as this has diameter $AI$, we see that $S$
 is the intersection of the tangents at $E$ and $F$.
 \begin{center}
-  \includegraphics{TWTST/final-sol.pdf}
+\begin{asy}
+size(10cm);
+
+pair A = dir(150);
+pair B = dir(220);
+pair C = dir(320);
+pair I = incenter(A, B, C);
+pair M = midpoint(B--C);
+pair D = foot(I, B, C);
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+draw(incircle(A, B, C), dotted+red);
+pair T = extension(E, F, B, C);
+pair X = extension(C, I, E, F);
+pair Y = extension(B, I, E, F);
+
+draw(A--B--C--cycle, red);
+draw(T--B, red);
+
+pair O = circumcenter(A, E, F);
+
+pair K = extension(E, F, I, D);
+pair S = extension(F, F+(O-F)*dir(-90), E, E+(O-E)*dir(90));
+draw(circumcircle(A, F, E), dashed+mediumgreen);
+
+draw(circumcircle(D, X, Y), blue+1);
+pair N = midpoint(E--F);
+draw(E--S--F, mediumgreen);
+
+pair L = extension(K, S, B, C);
+draw(K--L, heavycyan+1);
+draw(K--D, heavycyan);
+draw(T--Y, heavycyan);
+draw(A--M, heavycyan);
+
+draw(B--Y, orange);
+draw(X--C, orange);
+draw(A--S, dashed+orange);
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(-90));
+dot("$C$", C, dir(-90));
+dot("$I$", I, dir(I));
+dot("$M$", M, dir(M));
+dot("$D$", D, dir(D));
+dot("$E$", E, dir(60));
+dot("$F$", F, dir(F));
+dot("$T$", T, dir(T));
+dot("$X$", X, dir(120));
+dot("$Y$", Y, dir(60));
+dot("$K$", K, dir(70));
+dot("$S$", S, dir(S));
+dot("$N$", N, dir(80));
+dot("$L$", L, dir(-90));
+
+/* TSQ Source:
+
+!size(10cm);
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+I = incenter A B C
+M = midpoint B--C
+D = foot I B C
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T = extension E F B C
+X = extension C I E F R120
+Y = extension B I E F R60
+
+A--B--C--cycle red
+T--B red
+
+O := circumcenter A E F
+
+K = extension E F I D R70
+S = extension F F+(O-F)*dir(-90) E E+(O-E)*dir(90)
+circumcircle A F E dashed+mediumgreen
+
+circumcircle D X Y blue+1
+N = midpoint E--F R80
+E--S--F mediumgreen
+
+L = extension K S B C R-90
+K--L heavycyan+1
+K--D heavycyan
+T--Y heavycyan
+A--M heavycyan
+
+B--Y orange
+X--C orange
+A--S dashed orange
+
+*/
+\end{asy}
 \end{center}
 Consequently, we know that the point $S$,
 defined very naturally in terms of the original picture,
@@ -308,7 +1260,72 @@ that $T$ lies on the polar of $S$, one can rephrase the problem as saying
 nine-point circle of $\triangle BIC$'', concealing all the work
 that went into the creation of the problem.
 \begin{center}
-  \includegraphics{TWTST/statement.pdf}
+\begin{asy}
+pair A = dir(150);
+pair B = dir(220);
+pair C = dir(320);
+draw(A--B--C--cycle, red);
+pair I = incenter(A, B, C);
+
+pair E = foot(I, C, A);
+pair F = foot(I, A, B);
+draw(incircle(A, B, C), dotted+red);
+pair T = extension(E, F, B, C);
+
+pair O = circumcenter(A, E, F);
+pair S = extension(F, F+(O-F)*dir(-90), E, E+(O-E)*dir(90));
+draw(circumcircle(A, F, E), dashed+mediumgreen);
+draw(E--S--F, dashed+mediumgreen);
+
+draw(B--I--C, orange);
+draw(E--T--B);
+
+draw(circumcircle(midpoint(B--C), midpoint(B--I), midpoint(C--I)), blue);
+draw(CP(midpoint(S--T), S), blue);
+draw(S--T, blue);
+dot(midpoint(B--C));
+dot(midpoint(B--I));
+dot(midpoint(C--I));
+
+dot("$A$", A, dir(A));
+dot("$B$", B, dir(-90));
+dot("$C$", C, dir(-90));
+dot("$I$", I, dir(150));
+dot("$E$", E, dir(60));
+dot("$F$", F, dir(F));
+dot("$T$", T, dir(T));
+dot("$S$", S, dir(S));
+
+/* TSQ Source:
+
+A = dir 150
+B = dir 220 R-90
+C = dir 320 R-90
+A--B--C--cycle red
+I = incenter A B C R150
+
+E = foot I C A R60
+F = foot I A B
+incircle A B C dotted red
+T = extension E F B C
+
+O := circumcenter A E F
+S = extension F F+(O-F)*dir(-90) E E+(O-E)*dir(90)
+circumcircle A F E dashed mediumgreen
+E--S--F dashed mediumgreen
+
+B--I--C orange
+E--T--B
+
+circumcircle midpoint B--C midpoint B--I midpoint C--I blue
+CP midpoint S--T S blue
+S--T blue
+!dot(midpoint(B--C));
+!dot(midpoint(B--I));
+!dot(midpoint(C--I));
+
+*/
+\end{asy}
 \end{center}
 Fantastic.
 
