@@ -57,7 +57,7 @@ and sums the result into a table that you can send out.
 [![Not made by hand][usemo]{width=90%}][usemo]
 {class=text-center}
 
-[usemo]: https://usamo.files.wordpress.com/2020/12/table.png
+[usemo]: /static/images/usemo-table.webp
 
 Unlike something like quadratic formula or differentiation,
 most careers _directly_ benefit from some computer literacy[^think].
