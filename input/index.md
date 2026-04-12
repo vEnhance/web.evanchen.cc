@@ -28,8 +28,9 @@ and my currently employer list.
 
 I am on [GitHub](https://github.com/vEnhance/),
 [Instagram](https://www.instagram.com/evanchen.cc/),
-[Twitch](https://twitch.tv/vEnhance),
-and [WordPress](https://blog.evanchen.cc).
+[Twitch](https://twitch.tv/vEnhance).
+I have a [serious blog](https://blog.evanchen.cc)
+as well as a [less serious blog](https://wall.evanchen.cc).
 You can also see my [personal page](personal.html) for trivia about myself.
 Fellow Linux geeks can download my [GPG key][gpg] from [ubuntu][ubuntu-key],
 [opengpg][opengpg-key], [MIT][mit-key], or [GitHub](https://github.com/vEnhance.gpg).
