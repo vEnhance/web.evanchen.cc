@@ -99,7 +99,7 @@ See also [Geoff Smith's page][geoff].
 - [A Journey to the IMO](/upload/Sarda-Journey.pdf),
   an overview of the IMO written from Nepal student Yuvraj Sarda.
 
-- [Pang-Chung Wu's FE handout](https://aops.com/community/p10968935)
+- [Pang-Cheng Wu's FE handout](https://aops.com/community/p10968935)
 
 ### {{ hl("books", "Books") }}
 
