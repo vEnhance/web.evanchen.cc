@@ -155,7 +155,7 @@ See also [advice from Geoff Smith on geometry](https://web.archive.org/web/20250
 [110]: https://bookstore.ams.org/xyz-14/
 [log]: https://www.awesomemath.org/product/lemmas-in-olympiad-geometry/
 [stefan]: https://www.olympiadgeometry.com/
-[ukmt]: https://shop.ukmt.org.uk/ukmt-books/plane-euclidean-geometry
+[ukmt]: https://ukmt.org.uk/product/plane-euclidean-geometry-theory-and-problems.
 [ebook]: https://bookstore.ams.org/prb-27/
 [cover]: /static/images/egmo-cover.jpg
 [googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false
