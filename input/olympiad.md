@@ -139,10 +139,6 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   For students who are interested in writing their own olympiad geometry problems!
   Or more generally, anyone who is curious how my geometry problems get created.
 
-Also: [chapter 2 (on power of point)][egmo2]
-or [chapter 8 (on inversion)][egmo8]
-of [my textbook][geombook].
-
 ## {{ hl("nt", "Number theory (Ravenclaw)") }}
 
 - <b>Orders Modulo a Prime</b> {{ handout_link_src("ORPR") }}
@@ -186,7 +182,4 @@ of [my textbook][geombook].
   The grading rubric for USAMO 2003.
 
 [evan.sty]: https://github.com/vEnhance/dotfiles/blob/master/texmf/tex/latex/evan/evan.sty
-[egmo2]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter2.pdf
-[egmo8]: https://www.maa.org/sites/default/files/pdf/ebooks/pdf/EGMO_chapter8.pdf
-[geombook]: geombook.html
 [excerpts]: /excerpts.html
