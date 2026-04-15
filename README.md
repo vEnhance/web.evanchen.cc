@@ -7,7 +7,7 @@ Formerly, the website was generated using [Poole](https://hg.sr.ht/~obensonne/po
 We now use a custom build script with
 [Jinja2](https://jinja.palletsprojects.com/) and
 [Python-Markdown](https://python-markdown.github.io/) (with extensions).
-The build script is intentionally short, less than 100 lines of code.
+The [build script](scripts/build.py) is intentionally short, less than 100 lines of code.
 
 ## Main content structure
 
@@ -51,6 +51,6 @@ You may want to periodically check no random files got in here by accident.
   - USEMO problems and reports
   - statistics from some contests
 - `notes/`: Manually uploaded lecture notes. Probably pretty fixed now.
-- `textbooks/`: Textbooks of various kinds.
+- `textbooks/`: Various longer textbooks I've written.
 - `upload/`: [The miscellaneous box](https://xkcd.com/1077/).
   Kind of the wild west in here. Read at your own peril.
