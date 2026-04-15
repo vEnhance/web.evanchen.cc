@@ -45,7 +45,7 @@ subpages = [
 ]
 
 [[block]]
-shortname = "plz lean code"
+shortname = "plz learn code"
 src = "techspeech"
 subpages = [
   {shortname = "Filesys concepts", src = "filesys"},
