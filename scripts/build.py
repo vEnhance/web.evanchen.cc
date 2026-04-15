@@ -12,9 +12,9 @@ import frontmatter
 import markdown
 from jinja2 import Environment, FileSystemLoader
 
-PROJECT = Path(__file__).parent.parent
-DIR_IN = PROJECT / "input"
-DIR_OUT = PROJECT / "output"
+REPO_ROOT = Path(__file__).parent.parent
+DIR_IN = REPO_ROOT / "input"
+DIR_OUT = REPO_ROOT / "output"
 
 RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
 MD_EXTENSIONS = ["extra", "smarty", "sane_lists", "mdx_truly_sane_lists", "meta"]
@@ -22,7 +22,7 @@ MD_EXTENSIONS = ["extra", "smarty", "sane_lists", "mdx_truly_sane_lists", "meta"
 
 def load_macros() -> dict:
     spec = importlib.util.spec_from_file_location(
-        "macros", PROJECT / "data" / "macros.py"
+        "macros", REPO_ROOT / "data" / "macros.py"
     )
     assert spec is not None and spec.loader is not None
     module = importlib.util.module_from_spec(spec)
@@ -45,17 +45,17 @@ def get_nav_data(toml_path: Path) -> list[dict]:
 
 
 def build() -> None:
-    os.chdir(PROJECT)
+    os.chdir(REPO_ROOT)
     DIR_OUT.mkdir(exist_ok=True)
     macros = load_macros()
     md_env = Environment(autoescape=False, keep_trailing_newline=True)
     md_env.globals.update(macros)
     tmpl_env = Environment(
-        loader=FileSystemLoader(str(PROJECT / "data")),
+        loader=FileSystemLoader(str(REPO_ROOT / "data")),
         autoescape=False,
         keep_trailing_newline=True,
     )
-    tmpl_env.globals["nav_links"] = get_nav_data(PROJECT / "data" / "nav.toml")
+    tmpl_env.globals["nav_links"] = get_nav_data(REPO_ROOT / "data" / "nav.toml")
     tmpl_env.globals.update(macros)
     template = tmpl_env.get_template("page.html.j2")
     md_converter = markdown.Markdown(extensions=MD_EXTENSIONS)
