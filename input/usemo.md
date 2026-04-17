@@ -33,7 +33,8 @@ Please check the [full rules and procedures][rules].
 # {{ hl("current", "USEMO 2026") }}
 
 USEMO 2026 will be the first USEMO directed by Anant Mudgal.
-Note the change of email address above.
+Note the new email address
+$\text{usersatzmo}@\text{gmail}.\text{com}$ for contact.
 
 [Problem proposals for USEMO 2026 are open][propose].
 They are due 31 May 2026.
