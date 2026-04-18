@@ -3,10 +3,7 @@ title: Olympiad Training for Individual Study (OTIS)
 description: Synopsis of my teaching for olympiad contestants.
 ---
 
-<a href="https://www.gocomics.com/calvinandhobbes/1992/09/21">
-<img src="static/images/43616c76696e486f62626573.gif" width="100%"
-  alt="Calvin and Hobbes comic from Sept 21, 1992." />
-</a>
+[![Calvin and Hobbes comic from Sept 21, 1992.](/static/images/43616c76696e486f62626573.gif)](https://www.gocomics.com/calvinandhobbes/1992/09/21)
 
 OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 (Students not yet ready for proofs may be interested in
@@ -50,7 +47,7 @@ It's designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
 
 <div style="margin: 0 auto;">
-<img src="static/otis-logo-v2022.svg"
+<img src="/static/otis-logo-v2022.svg"
   width="50%"
   alt="OTIS logo, v2022" />
 </div>
@@ -105,8 +102,9 @@ is the only employee.
 
 ## {{ hl("photos", "Photos") }}
 
-<img src="static/images/otis-imo-2018.png" width="400" alt="OTIS x IMO 2018 gathering" />
-<img src="static/images/otis-imo-2019.jpg" width="400" alt="OTIS x IMO 2019 gathering" />
+![OTIS x IMO 2018 gathering](/static/images/otis-imo-2018.png)
+
+![OTIS x IMO 2019 gathering](/static/images/otis-imo-2019.png)
 
 ## Authorized third-party instructors
 

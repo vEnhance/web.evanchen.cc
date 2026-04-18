@@ -52,9 +52,7 @@ They are due 31 May 2026.
 The organizers of the USEMO are grateful to be sponsored in 2025
 by the [CoRe Lab, Institute of Artificial Intelligence, Peking University](https://pku.ai/).
 
-<a href="https://pku.ai/">
-<img width="240" src="/upload/usemo/core.jpg" alt="CoRE Lab" />
-</a>
+[![CoRE Lab](/upload/usemo/core.jpg)](https://pku.ai/)
 
 ## {{ hl("contact", "Contact") }}
 

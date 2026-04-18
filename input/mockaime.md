@@ -6,13 +6,7 @@ description: Satisfactory. Keep cooking.
 
 _Satisfactory. Keep cooking._
 
-<div style="text-align: center;">
-<a href="static/images/otter-cooking.png">
-<img src="static/images/otter-cooking-sm.png"
-  alt="An otter in front of a blackboard cooking a dish."
-  width="384" />
-</a>
-</div>
+[![An otter in front of a blackboard cooking a dish.](/static/images/otter-cooking-sm.png)](/static/images/otter-cooking.png)
 
 ## {{ hl("about", "About") }}
 

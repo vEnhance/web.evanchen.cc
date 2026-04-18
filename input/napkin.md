@@ -4,11 +4,7 @@ indent: 1
 description: Description of Napkin project, a free book covering all sorts of higher math.
 ---
 
-<div style="text-align:center;">
-<a href="https://venhance.github.io/napkin/Napkin.pdf">
-<img src="https://venhance.github.io/napkin/cover-art.png" width="350" alt="Cover art for Napkin" />
-</a>
-</div>
+[![Cover art for Napkin](https://venhance.github.io/napkin/cover-art.png)](https://venhance.github.io/napkin/Napkin.pdf)
 
 ## {{ hl("download", "Download") }}
 

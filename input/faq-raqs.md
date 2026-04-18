@@ -294,11 +294,7 @@ A few pointers:
    I like the following image from [Math With Bad Drawings][math-with-bad-draw]
    (click to enlarge):
 
-   <a href="/static/images/int-rigor.webp"><img src="/static/images/int-rigor.webp" width="400"
-    alt="A good mathematician can make arguments intuitive OR rigorous.
-      A great mathematician can make arguments intuitive AND rigorous.
-      (Credits: Math With Bad Drawings.)"
-    /></a>
+   [![A good mathematician can make arguments intuitive OR rigorous. A great mathematician can make arguments intuitive AND rigorous. (Credits: Math With Bad Drawings.)](/static/images/int-rigor.webp)](/static/images/int-rigor.webp)
 
 3. Get the proofreading and copy-editing right.
    If you're not a native English speaker, get a friend or editor to help you.
