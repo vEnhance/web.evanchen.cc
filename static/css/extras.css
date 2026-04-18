@@ -1,5 +1,10 @@
 /* From mop.md */
 
+.entrywrap img:not(.tshirt) {
+  display: block;
+  margin: auto;
+}
+
 a img.tshirt {
   width: 150px;
   border: 2px grey solid;

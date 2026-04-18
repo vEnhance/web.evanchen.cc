@@ -9,15 +9,14 @@ import urllib.parse
 from pathlib import Path
 
 import frontmatter
-import markdown
 from jinja2 import Environment, FileSystemLoader
+from markdown_it_pyrs import MarkdownIt
 
 REPO_ROOT = Path(__file__).parent.parent
 DIR_IN = REPO_ROOT / "input"
 DIR_OUT = REPO_ROOT / "output"
 
 RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
-MD_EXTENSIONS = ["extra", "smarty", "sane_lists", "mdx_truly_sane_lists", "meta"]
 
 
 def load_macros() -> dict:
@@ -58,7 +57,9 @@ def build() -> None:
     tmpl_env.globals["nav_links"] = get_nav_data(REPO_ROOT / "data" / "nav.toml")
     tmpl_env.globals.update(macros)
     template = tmpl_env.get_template("page.html.j2")
-    md_converter = markdown.Markdown(extensions=MD_EXTENSIONS)
+    md_converter = MarkdownIt().enable_many(
+        ["table", "footnote", "smartquotes", "deflist", "strikethrough"]
+    )
 
     for path in DIR_IN.rglob("*.md"):
         print(f"* {path}")
@@ -68,8 +69,7 @@ def build() -> None:
         md_env.globals["page"] = page
         rendered_md = md_env.from_string(page.content).render()
 
-        md_converter.reset()
-        content_html = md_converter.convert(rendered_md)
+        content_html = md_converter.render(rendered_md)
         html = template.render(page=page, src=src, content=content_html)
         html = RE_REL_URL.sub(lambda m: urllib.parse.urljoin("/", m.group(1)), html)
 

@@ -4,8 +4,7 @@ description: Popular math olympiad training materials written by Evan Chen.
 indent: 1
 ---
 
-[![Not an official logo, but comedic](/static/mop/abcde.png){width=150}](/static/mop/abcde.png)
-{style="float:right;"}
+<img src="/static/mop/abcde.png" alt="Not an official logo, but comedic" width="150" style="float:right;" />
 
 ## {{ hl("about", "About MOP") }}
 
@@ -66,39 +65,13 @@ and the back contains everyone's signature.
   It's one of several practice tests run by the staff at MOP each year.
   You can download the problems here:
 
-<div class="chooser list-chooser" markdown="block">
-
-- [2025](/static/mop/mockimo/2025.pdf)
-- [2024](/static/mop/mockimo/2024.pdf)
-- [2023](/static/mop/mockimo/2023.pdf)
-- [2022](/static/mop/mockimo/2022.pdf)
-- [2021](/static/mop/mockimo/2021.pdf)
-- [2020](/static/mop/mockimo/2020.pdf)
-- [2019](/static/mop/mockimo/2019.pdf)
-- [2018](/static/mop/mockimo/2018.pdf)
-- [2017](/static/mop/mockimo/2017.pdf)
-- [2016](/static/mop/mockimo/2016.pdf)
-
-</div>
+{{ year_chooser("chooser list-chooser", "/static/mop/mockimo/{year}.pdf", 2016, 2025) }}
 
 - The staff also provide **MOP homework** to work on before camp starts,
   mostly for fun and so people have something to talk about at airports.
   Here are recent homework problems:
 
-<div class="chooser list-chooser" markdown="block">
-
-- [2025](/static/mop/homework/MOP2025HW.pdf)
-- [2024](/static/mop/homework/MOP2024HW.pdf)
-- [2023](/static/mop/homework/MOP2023HW.pdf)
-- [2022](/static/mop/homework/MOP2022HW.pdf)
-- [2021](/static/mop/homework/MOP2021HW.pdf)
-- [2020](/static/mop/homework/MOP2020HW.pdf)
-- [2019](/static/mop/homework/MOP2019HW.pdf)
-- [2018](/static/mop/homework/MOP2018HW.pdf)
-- [2017](/static/mop/homework/MOP2017HW.pdf)
-- [2016](/static/mop/homework/MOP2016HW.pdf)
-
-</div>
+{{ year_chooser("chooser list-chooser", "/static/mop/homework/MOP{year}HW.pdf", 2016, 2025) }}
 
 ---
 
@@ -106,28 +79,7 @@ and the back contains everyone's signature.
 
 Here are calendars for recent years of MOP:
 
-<div class="chooser list-chooser" markdown="block">
-
-- [2025](/static/mop/schedules/2025.pdf)
-- [2024](/static/mop/schedules/2024.pdf)
-- [2023](/static/mop/schedules/2023.pdf)
-- [2022](/static/mop/schedules/2022.pdf)
-- [2021](/static/mop/schedules/2021.pdf)
-- [2020](/static/mop/schedules/2020.pdf)
-- [2019](/static/mop/schedules/2019.pdf)
-- [2018](/static/mop/schedules/2018.pdf)
-- [2017](/static/mop/schedules/2017.pdf)
-- [2016](/static/mop/schedules/2016.pdf)
-- [2015](/static/mop/schedules/2015.pdf)
-- [2014](/static/mop/schedules/2014.pdf)
-- [2013](/static/mop/schedules/2013.pdf)
-- [2012](/static/mop/schedules/2012.pdf)
-- [2011](/static/mop/schedules/2011.pdf)
-- [2010](/static/mop/schedules/2010.pdf)
-- [2009](/static/mop/schedules/2009.pdf)
-- [2008](/static/mop/schedules/2008.pdf)
-
-</div>
+{{ year_chooser("chooser list-chooser", "/static/mop/schedules/{year}.pdf", 2008, 2025) }}
 
 For more concrete times, here was the 2022 weekday timetable as an example
 (which should be read alongside the

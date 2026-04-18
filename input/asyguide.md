@@ -222,7 +222,7 @@ to make the source code output a little more presentable;
 you can pipe the copied Asymptote code to standard input to this program.
 Here is a JavaScript adaptation of the same script with fewer options:
 
-[GGB Cleaner applet (browser)](/applets/ggbclean.html){.btn .btn-primary}
+<a href="/applets/ggbclean.html" class="btn btn-primary">GGB Cleaner applet (browser)</a>
 
 As an example, you can watch me export a diagram for IMO 2023/2 at
 [1:08:20 of this video](https://youtu.be/Alz2OWHH7QY?si=ERpn8N2to5t01W9A&t=4100)

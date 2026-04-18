@@ -5,6 +5,12 @@ from html import escape
 from pathlib import Path
 
 from git.repo import Repo
+from markdown_it_pyrs import MarkdownIt
+
+_md = MarkdownIt().enable_many(
+    ["table", "footnote", "smartquotes", "deflist", "strikethrough"]
+)
+
 
 repo = Repo(Path(__file__).parent, search_parent_directories=True)
 tree = repo.heads.main.commit.tree
@@ -235,6 +241,15 @@ def clickable_asy_image(basename: str) -> str:
     return f'<a href="{image_path}"><img src="{thumb_path}" alt="{alt}" /></a>'
 
 
+def year_chooser(classes: str, url_pattern: str, start: int, end: int) -> str:
+    s = f'<div class="{classes}"><ul>\n'
+    for year in range(end, start - 1, -1):
+        url = url_pattern.format(year=year)
+        s += f'<li><a href="{url}">{year}</a></li>\n'
+    s += "</ul></div>"
+    return s
+
+
 def chooser_link(dirname: str, header_str: str) -> str:
     s = r'<div class="chooser empty-chooser"></div>' + "\n"
     paths = list(Path(dirname).glob("*.md"))
@@ -243,10 +258,10 @@ def chooser_link(dirname: str, header_str: str) -> str:
     paths.reverse()
     for p in paths:
         s += (
-            f'<div data-year="{p.stem}" data-header="{header_str % p.stem}" class="hidden" markdown="block">'
+            f'<div data-year="{p.stem}" data-header="{header_str % p.stem}" class="hidden">'
             + "\n"
         )
         with open(p) as f:
-            s += "".join(f.readlines())
+            s += _md.render(f.read())
         s += "</div>" + "\n"
     return s

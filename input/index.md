@@ -42,14 +42,13 @@ or my [archive of past problems and solutions](problems.html).
 
 ---
 
-<img src="static/images/home-art.png" width="400" alt="Diagram to Taiwan TST 2014 problem." /><br />
+<p style="text-align:center;"><img src="static/images/home-art.png" width="400" alt="Diagram to Taiwan TST 2014 problem." /><br />
 <small>The nine-point circle of $\triangle BIC$ is orthogonal to
 the circle with diameter $ST$.</small><br />
 <small>Problem source:
 <a href="https://artofproblemsolving.com/community/c6h1113644p5087419">
 Taiwan TST Quiz 2015
-</a></small>
-{style=text-align:center;}
+</a></small></p>
 
 ## {{ hl("about", "About Evan") }}
 

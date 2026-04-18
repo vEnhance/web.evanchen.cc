@@ -39,10 +39,7 @@ here is my advice for you: **sit down and learn it**.
 Seriously, [learn to code](https://youtu.be/TYCxbFad36g?t=2070).
 Learn. To. Code. Learn to code god-damn it!
 
-[![Tiny Evan knows Python. You can too!][tiny]{width=90%}][tiny]
-{class=text-center}
-
-[tiny]: /static/images/learnpython.jpg
+![Tiny Evan knows Python. You can too!](/static/images/learnpython.jpg)
 
 I don't think everyone should be able to solve IOI problems[^ioi].
 But I am adamant you should at least have a basic understanding
@@ -54,10 +51,7 @@ Or to [hack together a program](https://blog.evanchen.cc/usemo-dev/)
 that reads the data from a Google form,
 and sums the result into a table that you can send out.
 
-[![Not made by hand][usemo]{width=90%}][usemo]
-{class=text-center}
-
-[usemo]: /static/images/usemo-table.webp
+![Not made by hand](/static/images/usemo-table.webp)
 
 Unlike something like quadratic formula or differentiation,
 most careers _directly_ benefit from some computer literacy[^think].

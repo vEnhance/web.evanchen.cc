@@ -16,9 +16,7 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 
 ## {{ hl("syllabus", "Syllabus") }}
 
-<div markdown="1" style="text-align: center;">
-[🗎 <b>DOWNLOAD SYLLABUS</b>](upload/otis-syllabus.pdf)
-</div>
+<p style="text-align: center;"><a href="/upload/otis-syllabus.pdf">🗎 <b>DOWNLOAD SYLLABUS</b></a></p>
 
 ## {{ hl("docs", "Other documents") }}
 
