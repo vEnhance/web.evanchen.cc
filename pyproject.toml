@@ -24,6 +24,6 @@ ignore-words-list = "inthe,ro,progamer,alph,ques,non-useful,nd,ABD"
 dev = [
     "codespell>=2.4.2",
     "djlint>=1.36.4",
-    "prek>=0.3.6",
-    "ruff>=0.15.7",
+    "prek>=0.3.9",
+    "ruff>=0.15.11",
 ]
