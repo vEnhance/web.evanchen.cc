@@ -13,16 +13,16 @@ from jinja2 import Environment, FileSystemLoader
 from markdown_it_pyrs import MarkdownIt
 
 REPO_ROOT = Path(__file__).parent.parent
+MACROS_PATH = REPO_ROOT / "data" / "macros.py"
 DIR_IN = REPO_ROOT / "input"
 DIR_OUT = REPO_ROOT / "output"
+MARKDOWN_EXTENSIONS = ["table", "footnote", "smartquotes", "deflist", "strikethrough"]
 
 RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
 
 
 def load_macros() -> dict:
-    spec = importlib.util.spec_from_file_location(
-        "macros", REPO_ROOT / "data" / "macros.py"
-    )
+    spec = importlib.util.spec_from_file_location("macros", MACROS_PATH)
     assert spec is not None and spec.loader is not None
     module = importlib.util.module_from_spec(spec)
     sys.modules["macros"] = module
@@ -57,9 +57,7 @@ def build() -> None:
     tmpl_env.globals["nav_links"] = get_nav_data(REPO_ROOT / "data" / "nav.toml")
     tmpl_env.globals.update(macros)
     template = tmpl_env.get_template("page.html.j2")
-    md_converter = MarkdownIt().enable_many(
-        ["table", "footnote", "smartquotes", "deflist", "strikethrough"]
-    )
+    md_converter = MarkdownIt().enable_many(MARKDOWN_EXTENSIONS)
 
     for path in DIR_IN.rglob("*.md"):
         print(f"* {path}")

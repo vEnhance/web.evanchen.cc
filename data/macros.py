@@ -7,10 +7,7 @@ from pathlib import Path
 from git.repo import Repo
 from markdown_it_pyrs import MarkdownIt
 
-_md = MarkdownIt().enable_many(
-    ["table", "footnote", "smartquotes", "deflist", "strikethrough"]
-)
-
+_md = MarkdownIt()
 
 repo = Repo(Path(__file__).parent, search_parent_directories=True)
 tree = repo.heads.main.commit.tree
