@@ -2,7 +2,7 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited 31 Oct 2023
+Last edited 18 Apr 2026
 
 To use the fonts specified in this stylesheet,
 add the following lines to your HTML preamble:
@@ -88,7 +88,7 @@ h3 a:visited {
 }
 #main img {
   border: 0 none;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 a.hash-link {

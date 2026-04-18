@@ -102,9 +102,9 @@ is the only employee.
 
 ## {{ hl("photos", "Photos") }}
 
-![OTIS x IMO 2018 gathering](/static/images/otis-imo-2018.png)
+![OTIS x IMO 2018 gathering](/static/images/otis-imo-2018.jpg)
 
-![OTIS x IMO 2019 gathering](/static/images/otis-imo-2019.png)
+![OTIS x IMO 2019 gathering](/static/images/otis-imo-2019.jpg)
 
 ## Authorized third-party instructors
 
