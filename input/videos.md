@@ -66,11 +66,7 @@ Here is a picture of my physical setup (click to enlarge).
 Xiberia V22 headset, Havit HV-KB395L keyboard,
 Inateck MS 1001 mouse, Wacom Intuos S tablet, MSI Codex XE Plus computer.
 
-<div class="text-cenetr" style="margin: 0 auto;">
-  <a href="/static/images/twitch-setup.jpg">
-  <img src="/static/images/twitch-setup-sm.jpg" width="250" alt="Evan's multi-monitor setup for Twitch." />
-  </a>
-</div>
+[![Evan's multi-monitor setup for Twitch.](/static/images/twitch-setup-sm.jpg)](/static/images/twitch-setup.jpg)
 
 ## {{ hl("archive", "Archive of past problems") }}
 
