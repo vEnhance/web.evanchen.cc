@@ -3,7 +3,7 @@ title: Olympiad Training for Individual Study (OTIS)
 description: Synopsis of my teaching for olympiad contestants.
 ---
 
-[![Calvin and Hobbes comic from Sept 21, 1992.](/static/images/43616c76696e486f62626573.gif)](https://www.gocomics.com/calvinandhobbes/1992/09/21)
+<img alt="OTIS logo, v2022" src="/static/otis-logo-v2022.svg" width="200" />
 
 OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 (Students not yet ready for proofs may be interested in
@@ -45,12 +45,6 @@ based on materials for OTIS.
 This mini-book was named _The OTIS Excerpts_.
 It's designed to mostly be beginner-friendly
 though some of the chapters are more challenging.
-
-<div style="margin: 0 auto;">
-<img src="/static/otis-logo-v2022.svg"
-  width="50%"
-  alt="OTIS logo, v2022" />
-</div>
 
 ---
 
@@ -143,6 +137,10 @@ Atul Nadig (VII);
 [Xinke Guo-Xue][xinke];
 [Zack Chroman][zack] (II-III);
 [Zoltan Gyenes][zoltan].
+
+# Comic
+
+[![Calvin and Hobbes comic from Sept 21, 1992.](/static/images/43616c76696e486f62626573.gif)](https://www.gocomics.com/calvinandhobbes/1992/09/21)
 
 [adhitya]: https://www.imo-official.org/participant_r.aspx?id=31724
 [anant]: https://www.imo-official.org/participant_r.aspx?id=25764
