@@ -4,16 +4,20 @@ indent: 1
 description: Synopsis and errata for EGMO geometry textbook for math olympiad students.
 ---
 
-<span style="float:left;padding:10px;">
-[![Book cover][cover]][ebook]
+<span style="float:left;">
+<a href="https://bookstore.ams.org/prb-27/">
+<img src="/static/images/egmo-cover.jpg" alt="Book cover" />
+</a>
 </span>
 
-<span style="color:red; font-size: 120%;">
 **You can get a hardcopy from [Amazon][amazon] or [the AMS][hardcopy].
-You can also [buy a PDF][ebook].**
-</span>
+You can also [buy a PDF](https://bookstore.ams.org/prb-27/).**
 
-(ISBN-10: 0883858398 / ISBN-13: 978-0883858394)
+ISBN-10: 0883858398
+
+ISBN-13: 978-0883858394
+
+---
 
 _Euclidean Geometry in Mathematical Olympiads_ (often abbreviated _EGMO_,
 despite an olympiad having the [same name][girls])
@@ -156,8 +160,6 @@ See also [advice from Geoff Smith on geometry](https://web.archive.org/web/20250
 [log]: https://www.awesomemath.org/product/lemmas-in-olympiad-geometry/
 [stefan]: https://www.olympiadgeometry.com/
 [ukmt]: https://ukmt.org.uk/product/plane-euclidean-geometry-theory-and-problems.
-[ebook]: https://bookstore.ams.org/prb-27/
-[cover]: /static/images/egmo-cover.jpg
 [googlebook]: https://books.google.com/books?id=47UaDAAAQBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false
 [amazon]: https://www.amazon.com/Euclidean-Geometry-Mathematical-Olympiads-Problem/dp/1470466201
 [hardcopy]: https://bookstore.ams.org/prb-27/
