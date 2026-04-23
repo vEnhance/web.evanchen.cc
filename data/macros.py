@@ -10,7 +10,7 @@ from markdown_it_pyrs import MarkdownIt
 _md = MarkdownIt()
 
 repo = Repo(Path(__file__).parent, search_parent_directories=True)
-tree = repo.heads.main.commit.tree
+tree = repo.head.commit.tree
 
 GITHUB_BASE = "https://github.com/vEnhance/web.evanchen.cc"
 
