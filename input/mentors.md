@@ -69,8 +69,8 @@ winners, top SAT scorers, and students striving for excellence in their school e
 - Website: [mathelots.com](https://mathelots.com/founder/)
 - Programs: 1-1 OTIS style meetings and online lecture courses spanning difficulty ranges from AMC 10/12,
   AIME, USA(J)MO, TSTs and the IMO.
-- Sign-up: Email me at `amudgal2024@gmail.com`
-  with subject title "Olympiad Training".
+- Sign-up: Email me at `mathelots.olympiad@gmail.com` (with CC to `amudgal2024@gmail.com` if you wish)
+  with subject title "Olympiad Training". My team will respond within 1-3 business days.
 
 About me:
 Hi, I am Anant.
