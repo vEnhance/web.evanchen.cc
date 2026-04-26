@@ -5,7 +5,7 @@ description = "Static website for web.evanchen.cc"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "gitpython>=3.1.46",
+    "gitpython>=3.1.47",
     "jinja2>=3.1.6",
     "markdown-it-pyrs>=0.4.0",
     "python-frontmatter>=1.1.0",
