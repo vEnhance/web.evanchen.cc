@@ -53,9 +53,7 @@ for even more problems and solutions, including most of the ones below.
 - EGMO 2019 [(PDF)](/exams/EGMO-2019-notes.pdf) [(TeX)](/exams/EGMO-2019-notes.tex)
 - EGMO 2020 [(PDF)](/exams/EGMO-2020-notes.pdf) [(TeX)](/exams/EGMO-2020-notes.tex)
 - EGMO 2021 [(PDF)](/exams/EGMO-2021-notes.pdf) [(TeX)](/exams/EGMO-2021-notes.tex)
-- EGMO 2022 to be written
-- EGMO 2023 to be written
-- EGMO 2024 to be written
+- EGMO 2022+ to be written
 
 # Premier USA Contests
 
@@ -108,6 +106,7 @@ of the problems and solutions of the olympiad.
 - USAMO 2023 [(PDF)](/exams/USAMO-2023-notes.pdf) [(TeX)](/exams/USAMO-2023-notes.tex)
 - USAMO 2024 [(PDF)](/exams/USAMO-2024-notes.pdf) [(TeX)](/exams/USAMO-2024-notes.tex)
 - USAMO 2025 [(PDF)](/exams/USAMO-2025-notes.pdf) [(TeX)](/exams/USAMO-2025-notes.tex)
+- USAMO 2026 [(PDF)](/exams/USAMO-2026-notes.pdf) [(TeX)](/exams/USAMO-2026-notes.tex)
 - JMO 2010 [(PDF)](/exams/JMO-2010-notes.pdf) [(TeX)](/exams/JMO-2010-notes.tex)
 - JMO 2011 [(PDF)](/exams/JMO-2011-notes.pdf) [(TeX)](/exams/JMO-2011-notes.tex)
 - JMO 2012 [(PDF)](/exams/JMO-2012-notes.pdf) [(TeX)](/exams/JMO-2012-notes.tex)
@@ -124,6 +123,7 @@ of the problems and solutions of the olympiad.
 - JMO 2023 [(PDF)](/exams/JMO-2023-notes.pdf) [(TeX)](/exams/JMO-2023-notes.tex)
 - JMO 2024 [(PDF)](/exams/JMO-2024-notes.pdf) [(TeX)](/exams/JMO-2024-notes.tex)
 - JMO 2025 [(PDF)](/exams/JMO-2025-notes.pdf) [(TeX)](/exams/JMO-2025-notes.tex)
+- JMO 2026 [(PDF)](/exams/JMO-2026-notes.pdf) [(TeX)](/exams/JMO-2026-notes.tex)
 
 ## {{ hl("tstst", "USA TST Selection Test (TSTST)") }}
 
