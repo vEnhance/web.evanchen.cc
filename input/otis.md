@@ -48,17 +48,20 @@ though some of the chapters are more challenging.
 
 ---
 
-# {{ hl("apply", "Application &mdash; Year XI (2025-2026)") }}
+# {{ hl("apply", "Application &mdash; Year XII (2026-2027)") }}
 
-You can submit late applications for the 2025-2026 school year
-up until the end of April 2026. See instructions below.
+Applications for the 2026-2027 school year are open now
+and will remain open until **August 1, 2026, 23:59 UTC**.
+See instructions below:
 
-- [Application homework and instructions](/upload/otis-app-xi.pdf)
+- [Application homework and instructions](/upload/otis-app-xii.pdf)
 - [Application portal at apply.evanchen.cc](https://apply.evanchen.cc)
 
-The application portal is a brand-new experiment (released November 2025)
-and I'm hoping it makes the application process a little smoother[^aidbad].
-Send me bug reports as you find them.
+This is still using the new application portal[^aidbad].
+I hope this is smoother than the previous years' Google forms!
+
+If you miss the regular deadline,
+you can also submit late applications up until April 30, 2027.
 
 [^aidbad]:
     The main sore point before was that the financial aid application
@@ -66,7 +69,7 @@ Send me bug reports as you find them.
     forget to fill out, or put a wrong email address or different name, etc.
     The script I used to upload financial aid onto OTIS-WEB
     from the Google Form was also janky as hell and often mismatched.
-    I hope that with apply.evanchen.cc
+    I hope that with `apply.evanchen.cc`
     I can stop having to deal with financial aid not making
     it onto OTIS-WEB correctly.
 
