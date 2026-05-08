@@ -33,16 +33,18 @@ This website has some subfolders.
 
 ### Directories managed with a single authoritative source
 
-- `applets/`: Sync'ed to `applets/` here
-- `handouts/`: Sync'ed using `handouts/sync.sh`
-- `opals/`: Sync'ed from an external OPAL repository, contains published puzzle PDF files
-- `otis/`: Sync'ed from external OTIS artwork repository
-- `static`: Sync'ed to `static/` here
-- `twitch/`: Sync'ed using `scripts/upload-twitch-tex-and-pdfs.sh`
+- `applets/`: direct copy of `$REPO/applets/`
+- `handouts/`: managed using `$REPO/handouts/sync.sh`
+- `opals/`: mirrored from an external OPAL repository,
+  contains published puzzle PDF files for the
+  [OPAL hunt](https://web.evanchen.cc/opal.html)
+- `otis/`: mirrored from an external OTIS repository with artwork
+- `static/`: direct copy of `$REPO/static/`
+- `twitch/`: managed using `scripts/upload-twitch-tex-and-pdfs.sh`
 
 ### Directories with lots of stuff
 
-You may want to periodically check no random files got in here by accident.
+(Note to self: periodically check no random files got in here by accident.)
 
 - `exams/`: Contains lots of math contests of various sorts.
   - uploads from `SolArchive` with EGMO, USA(J)MO, USA TST(ST), IMO.
