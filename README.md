@@ -33,8 +33,8 @@ This website has some subfolders.
 
 ### Directories managed with a single authoritative source
 
-- `applets`: Sync'ed to `applets/` here
-- `handouts`: Sync'ed using `handouts/sync.sh`
+- `applets/`: Sync'ed to `applets/` here
+- `handouts/`: Sync'ed using `handouts/sync.sh`
 - `opals/`: Sync'ed from an external OPAL repository, contains published puzzle PDF files
 - `otis/`: Sync'ed from external OTIS artwork repository
 - `static`: Sync'ed to `static/` here
