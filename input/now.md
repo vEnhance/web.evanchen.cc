@@ -6,28 +6,20 @@ indent: 1
 
 This is a [now page](https://nownownow.com/about).
 It's my public answer to "what have you been up to lately"?
-Last updated 9 February 2026.
+Last updated 10 May 2026.
 
 ## Coordinates
 
-I'm a bit nomadic now,
-but starting from August 2025, I will officially be based in Durham,
-near [Duke](https://www.duke.edu).
+I'm all over the place for summer 2026.
+I don't know if anyone believes me when I say I don't like traveling.
 
-## Things I'm doing
+Most notably though I will be attending IMO 2026 as a coordinator.
+(At least if my visa application ever gets read. It's taking a while.)
 
-- I'm still running [OTIS](otis.html), 10 years later.
-  - For the 2025-2026 school year, OTIS will officially be a full-time job.
-    Hence, I finally [made OTIS into an LLC](https://www.instagram.com/p/DKcMIsUOXAZ/).
+## Jobs
 
-  - That said, I feel like OTIS hasn't evolved much in the last few years.
-    The number of students has stabilized to around 750 per year, and
-    I haven't had many new ideas for topics or infrastructure.
-    I feel like the program could use some fresh life.
-
-  - I'm also thinking about what might happen beyond competitions.
-    In particular, the USA math contest ecosystem is crumbling,
-    and I don't want it to be the only pathway to math in the USA.
+- I'm still running [OTIS](otis.html), which is
+  [accepting applications for its 12th year](otis.html).
 
 - I have signed on with [OMEGA](https://omegausa.org) to help organize their first event.
   OMEGA is a new organization hoping to develop their own math contest series
@@ -37,14 +29,31 @@ near [Duke](https://www.duke.edu).
   Almost everything about this pilot event is still "TBD".
   We certainly have our work cut out for us.
 
-- I am a math consultant for [Axiom Math](https://axiommath.ai).
-  To state my allegiances on the AI-in-math issue,
-  I'm most interested in formalization, rather than just
-  feeding contest problems to LLM's for medal-bragging on Twitter
-  (see [Epoch][epoch] and [Xena][xena] on IMO 2025).
-  I think making Lean into something that's practically usable
-  as a way to both verify and digitize proofs actually sounds pretty cool.
-  [arXiv:2311.00007](https://arxiv.org/pdf/2311.00007v1) has some food for thought.
+- I am a math consultant for [Axiom Math](https://axiommath.ai)[^ai-in-math]
+  where I now work with my former mentor [Ken Ono](https://w.wiki/N4uN).
+  This has resulted in [several new papers](https://arxiv.org/a/chen_e_2.html).
+
+[^ai-in-math]:
+    To state my allegiances on the AI-in-math issue,
+    I'm most interested in formalization, rather than just
+    feeding contest problems to LLM's for medal-bragging on Twitter
+    (see [Epoch][epoch] and [Xena][xena] on IMO 2025).
+    I think making Lean into something that's practically usable
+    as a way to both verify and digitize proofs actually sounds pretty cool.
+    [arXiv:2311.00007](https://arxiv.org/pdf/2311.00007v1) has some food for thought.
+
+## Side quests
+
+- My blog got a [complete redesign](https://blog.evanchen.cc/pelican/)!
+  This took several months of slowly migrating all the posts off WordPress.
+  It has a new [mailing list](https://list.evanchen.cc/), too.
+
+- There's a new [microblog as well too](https://wall.evanchen.cc/).
+  (Same mailing list.)
+
+- I've been trying to get faster at reading
+  [braille, Morse, and semaphore](https://github.com/vENhance/borse),
+  though I'm still not that fast.
 
 - Starting in January 2025, I've been occasionally studying some Korean.
   I don't really have any compelling reason why; just a hobby.
@@ -52,12 +61,17 @@ near [Duke](https://www.duke.edu).
   at most I can say some really basic sentences like 저는 멍청합니다
   and 저는 고양이가 되고 싶습니다.
 
+- A few other secret projects I haven't told anyone about yet 😉
+  (mostly because they're going nowhere fast).
+
 [epoch]: https://epoch.ai/gradient-updates/we-didnt-learn-much-from-the-imo
 [xena]: https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/
 
 ## Recent checkpoints
 
-- OTIS released its [second puzzle hunt](opal.html).
+- OTIS completed its eleventh year with around 800 students in the most recent class.
+  This included the second year of the [OPAL hunt](opal.html),
+  and the third year of the [OTIS Mock AIME](mockaime.html).
 
 - I had a busy summer in 2025, where among other things,
   I taught at [MOP](mop.html) as assistant director,
