@@ -64,14 +64,18 @@ div.chooser {
   }
 }
 
-div.photo-gallery a > img {
+div.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.entrywrap div.photo-gallery a > img {
   height: 96px;
   width: 96px;
   object-fit: cover;
   margin: 6px 6px 6px 6px;
   box-shadow: 0px 0px 15px #6666dd;
 }
-div.photo-gallery a:hover > img {
+.entrywrap div.photo-gallery a:hover > img {
   animation-name: glow-yellow;
   animation-duration: 2s;
 }
