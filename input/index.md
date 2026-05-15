@@ -26,11 +26,9 @@ Outside of math, I hate cooking.
 See my [now page](now.html) for what I've been thinking about recently
 and my currently employer list.
 
-I am on [GitHub](https://github.com/vEnhance/),
-[Instagram](https://www.instagram.com/evanchen.cc/),
-[Twitch](https://twitch.tv/vEnhance).
-I have a [serious blog](https://blog.evanchen.cc)
-as well as a [less serious blog](https://wall.evanchen.cc).
+I also have a [serious blog](https://blog.evanchen.cc)
+as well as a [less serious microblog](https://wall.evanchen.cc),
+both with a [mailing list](https://list.evanchen.cc).
 You can also see my [personal page](personal.html) for trivia about myself.
 Fellow Linux geeks can download my [GPG key][gpg] from [ubuntu][ubuntu-key],
 [opengpg][opengpg-key], [MIT][mit-key], or [GitHub](https://github.com/vEnhance.gpg).
