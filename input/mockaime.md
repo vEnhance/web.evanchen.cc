@@ -42,14 +42,6 @@ Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing
 - The [2026 solutions and results](/exams/sols-OTIS-Mock-AIME-2026.pdf) are now posted.
   In addition, [all fifteen problems were posted on AOPS](https://aops.com/community/c4686568).
 
-- **Errata**: at Sun Dec 21 03:57:36 AM UTC 2025,
-  we realized the numbers in problem 13 led to an impossible configuration.
-  We have updated the numbers so that the quadrilateral actually exists.
-  We will award credit for either the originally intended answer
-  (which many students still submitted) or the updated answer after the fix.
-
-  The error is Evan's mistake, not that of the problem author.
-
 - Anyone will be able to download the exam and attempt the problems,
   and submit their answers for scoring.
   We may recognize high scores for bragging rights but don't otherwise offer prizes.
