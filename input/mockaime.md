@@ -36,8 +36,6 @@ Thanks to [missfit.ann](https://www.instagram.com/missfit.ann/) for contributing
 
 ## {{ hl("current", "Current edition") }}
 
-[Download the 2026 problems](/exams/OTIS-Mock-AIME-2026.pdf){.btn .btn-success}
-
 - The [2026 problems](/exams/OTIS-Mock-AIME-2026.pdf) are now posted.
   The deadline was Tuesday, January 20, 2026 at 11:59pm Pacific time
 
