@@ -118,6 +118,10 @@ I suggest reading through the [beginner's page](wherestart.html) first.
 - <b>Constructing Diagrams</b> {{ handout_link_src("Constructions") }}
   A handout on advice for drawing diagrams on geometry problems.
 
+- <b>Curves of degree greater than 2</b> {{ handout_link_src("cubics") }}
+  A for-fun lecture about Chasles Theorem and Cayley-Bacharach theorem.
+  Adapted from a lecture at the 2025 IMO training camp.
+
 - <b>How to Use Directed Angles</b> {{ handout_link_src("Directed-Angles") }}
   A short note on the use of directed angles in olympiad solutions.
   See also [FAQ C-11](faq-contest.html#C-11).
