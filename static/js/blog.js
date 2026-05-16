@@ -1,15 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const url = "https://blog.evanchen.cc/feeds/all.atom.xml";
+  const url = "https://blog.evanchen.cc/latest.json";
 
   fetch(url)
-    .then((response) => response.text())
-    .then((str) => new DOMParser().parseFromString(str, "application/xml"))
+    .then((response) => response.json())
     .then((data) => {
-      const entry = data.querySelector("entry");
-
-      const title = entry.querySelector("title").textContent;
-      const link = entry.querySelector("link").getAttribute("href");
-      const pub_date = entry.querySelector("updated").textContent;
+      const title = data.title;
+      const link = data.url;
+      const pub_date = data.date;
 
       const cut_title =
         title.length < 45 ? title : title.substring(0, 45) + "…";
