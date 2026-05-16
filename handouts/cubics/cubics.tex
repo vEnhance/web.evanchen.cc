@@ -1,33 +1,68 @@
 \documentclass[11pt]{scrartcl}
-\usepackage[von,sexy]{evan}
+\usepackage[sexy]{evan}
 \usepackage{booktabs}
 \usepackage{wrapfig}
 
 \begin{document}
 \title{Curves of degree greater than 2}
-\subtitle{MOP 2025}
+\subtitle{Some short notes from a MOP 2025 lecture}
 \date{June 2025}
 \maketitle
 
+\setcounter{section}{-1}
+
+\section{Warning}
+This is a slight expansion of a \emph{in-person} lecture
+I gave at the 2025 United States training camp.
+That means there are going to be a \emph{lot} of details left out,
+because the handout given was supposed to be just be a skeleton
+for an actual lecture where the true dialogue was given orally.
+I've gone back and added in some of the details for posterity,
+but there are still a lot of unstated prerequisites.
+In particular, I assume familiarity with $\mathbb{CP}^2$.
+
+Also: to be clear, this handout is considered IMO-expert territory.
+I can't blame students for being curious about fancy words
+(really, curiosity is a good thing!), so here you go.
+I just want to be clear that I consider this mostly for-fun side excursion,
+rather than officially recommended training material for everyone.
+
 \section{Cayley-Bacharach}
-\subsection{Curves of degree $d$}
 We work in $\mathbb{CP}^2$ always in this lecture.
-We'll often make use of the following.
-\begin{lemma}
-  [Bezout theorem]
-  Two curves of degree $a$ and $b$ sharing no irreducible component
-  intersect at up to $ab$ points (in fact exactly $ab$ ``with multiplicity'').
-\end{lemma}
-Then a degree-$d$ curve is given by a homogeneous polynomial of degree $d$ in
+
+\subsection{How many points determine a curve of degree $d$?}
+For example, we all know that two points uniquely determine a line.
+Algebraically, the way you can see this is that a line has coordinates
+\[ Ax + By + C = 0 \]
+for three constants $(A,B,C) \in \RR^3$, and two lines are the same if they have the same scale factor.
+So you have $3-1 = 2$ degrees of freedom.
+
+\dots At least, that's what I would say in $\RR^2$.
+But actually, as I said, we're working in $\mathbb{CP}^2$.
+So really I ought to write
+\[ Ax + By + Cz = 0 \]
+instead, with $(A,B,C) \in \CC^3$.
+Note that we've made two changes:
+we'll always work over $\CC$ instead of $\RR$,
+and we use a homogeneous coordinate system $(x:y:z)$ rather than the Cartesian $(x,y)$.
+
+For the same reason, we see five points ought to uniquely determine a conic:
+\[ Ax^2 + Bxy + Cy^2 + Dxz + Eyz + Fz^2 = 0 \]
+has six variables, so once we account for scaling, we get $6-1=5$ parameters.
+
+More generally a degree-$d$ curve is given by a homogeneous polynomial of degree $d$ in
 $\mathbb C[x,y,z]$, up to scaling.
 This means a generic choice of $\binom{d+2}{2}-1$ points
 should determine unique degree-$d$ curve: $2$ points determine a line,
 $5$ points determine a conic, $9$ points determine a cubic, etc.
 And for linear algebra reasons!
 
-However, these are all only true in ``sufficiently general position''.
+\subsection{Redundancy}
+\dots Except the previous statement was a white lie;
+it's only true in ``sufficiently general position''.
 For example, if one takes four distinct collinear points,
 any conic passing through three of them passes through the fourth.
+
 Let's fix some (non-standard) terminology for this:
 \begin{definition}
   Fix a degree $d \ge 0$.
@@ -38,7 +73,26 @@ For example, three points are redundant for lines if and only if they're colline
 (But four noncollinear points are redundant for lines too, due to vacuous truth ---
 passing through $3$ points ``implies'' any conclusion.)
 
+\subsection{Bezout's theorem}
+The other fact about curves we should know is:
+\begin{lemma}
+  [Bezout theorem]
+  Two curves of degree $a$ and $b$ sharing no irreducible component
+  intersect at up to $ab$ points (in fact exactly $ab$ ``with multiplicity'').
+\end{lemma}
+
 \subsection{Chasles theorem for cubics}
+Most of the time, we only see the cases $\max(a,b) \le 2$ in olympiad geometry,
+and so Bezout theorem isn't that surprising.
+However, let's think about the case $a=b=3$, where something weird first happens.
+
+Let's say we draw two random irreducible cubics out of a hat, $\mathcal{C}_1 \neq \mathcal{C}_2$.
+We expect them to meet at $9$ points.
+However, we \emph{also} just said that $9$ points usually determine a unique cubic.
+And yet we have two \emph{different} cubics passing through them!
+So there must be some redundancy happening here.
+
+That's what the following theorem makes precise.
 According to \cite{EGH}, this should be called Chasles theorem (due to Michel Chasles).
 \begin{theorem}
   [Chasles]
@@ -50,29 +104,113 @@ According to \cite{EGH}, this should be called Chasles theorem (due to Michel Ch
     \ii Hence, any cubic passing through any $8$ points must pass through the ninth.
   \end{enumerate}
 \end{theorem}
-\noindent Part (c) is the one quoted by contestants, and follows from (a) and (b).
-Example usage:
-\begin{example}
-  Deduce Pascal theorem from Chasles theorem.
-\end{example}
 
-\noindent Meanwhile, part (a) is obvious:
+As I just explained, part (a) is obvious:
 cubics are supposed to be determined by $9$ points,
 but we're \emph{given} two distinct cubics pass through these.
 The bulk of the work of the theorem is to prove (b),
-and it turns out you can do this with just Bezout, no AG machinery:
+and it turns out you can do this with just Bezout, no algebraic geometry machinery:
 \begin{problem}
   [{\cite[Proposition 1]{EGH}}]
   \label{prob:elem}
   Let $d \ge 1$ and consider $n$ points.
-  Restrict attention\footnote{I
-    want to emphasize $n \le 2d+2$ is a huge assumption.
-    Removing this hypothesis is the main difficulty
-    to general Cayley-Bacharach statements.}
+  Restrict attention
   to the case $n \le 2d+2$.
   Show that these points are redundant for degree-$d$ curves if and only if
   either $d+2$ are collinear, or $n = 2d+2$ and all points lie on a conic.
 \end{problem}
+I want to emphasize $n \le 2d+2$ is a huge assumption.
+Removing this hypothesis is the main difficulty
+to general Cayley-Bacharach statements.
+
+\subsection{Application of Chasles theorem}
+Part (c) of Chasles theorem is the one actually quoted by contestants,
+and it follows from (a) and (b).
+Here's an example of how you can use it:
+\begin{example}
+  [Pascal's theorem]
+  Let $ABCDEF$ be a hexagon inscribed in a conic $\Gamma$.
+  Then the points $X \coloneq \ol{BC} \cap \ol{EF}$,
+  $Y \coloneq \ol{CD} \cap \ol{FA}$, $Z \coloneq \ol{DE} \cap \ol{AB}$ are collinear.
+\end{example}
+
+\begin{center}
+  \begin{asy}
+  size(6cm);
+
+  draw(unitcircle);
+  pair A = dir(85);
+  pair B = dir(230);
+  pair C = dir(55);
+  pair D = dir(280);
+  pair E = dir(135);
+  pair F = dir(310);
+  pair X = extension(B, C, E, F);
+  pair Y = extension(C, D, F, A);
+  pair Z = extension(D, E, A, B);
+
+  draw(A--B, red);
+  draw(C--D, red);
+  draw(E--F, red);
+
+  draw(B--C, blue);
+  draw(D--E, blue);
+  draw(F--A, blue);
+
+  dot("$A$", A, dir(A));
+  dot("$B$", B, dir(B));
+  dot("$C$", C, dir(C));
+  dot("$D$", D, dir(D));
+  dot("$E$", E, dir(E));
+  dot("$F$", F, dir(F));
+  dot("$X$", X, dir(X));
+  dot("$Y$", Y, dir(Y));
+  dot("$Z$", Z, dir(Z));
+
+  /* --------------------------------+
+  | TSQX: by Evan Chen and CJ Quines |
+  | https://github.com/vEnhance/tsqx |
+  +----------------------------------+
+  !size(6cm);
+
+  unitcircle
+  A = dir 85
+  B = dir 230
+  C = dir 55
+  D = dir 280
+  E = dir 135
+  F = dir 310
+  X = extension B C E F
+  Y = extension C D F A
+  Z = extension D E A B
+
+  A--B / red
+  C--D / red
+  E--F / red
+
+  B--C / blue
+  D--E / blue
+  F--A / blue
+  */
+
+  \end{asy}
+\end{center}
+
+\begin{proof}
+  We consider the following three cubics:
+  \begin{itemize}
+    \ii Let $\mathcal{C}_1$ be the union of lines $AB$, $CD$, $EF$.
+      (In the figure, these lines are red.)
+    \ii Let $\mathcal{C}_2$ be the union of lines $BC$, $DE$, $FA$.
+      (In the figure, these lines are blue.)
+    \ii Let $\mathcal{C}_3$ be the union of line $XY$ and $\Gamma$.
+  \end{itemize}
+  Note that $\mathcal{C}_1$ and $\mathcal{C}_2$ meet at these nine points:
+  \[ \mathcal{C}_1 \cap \mathcal{C}_2
+    = \left\{ A, \; B, \; C, \; D, \; E, \; F, \; X, \; Y, \; Z \right\}. \]
+  Also, $\mathcal{C}_3$ passes through the first eight points.
+  So by part (c) of Chasles theorem, $\mathcal{C}_3$ passes through the ninth point $Z$ as well.
+\end{proof}
 
 \begin{remark}
   [Elliptic curve addition]
@@ -122,6 +260,21 @@ but they require language about schemes to state correctly.)
 \end{itemize}
 
 \section{Making Cayley-Bacharach practical for competing}
+This is fine and all, but most olympiad problems you see won't have cubic curves
+in their problem statements.
+Therefore, in order to actually be useful, we need to be able to find a source of cubics.
+
+In the example with Pascal's theorem,
+we already saw how to make cubics by taking the unions of lines and circles.
+That's the most common case!
+To make this further practical, one will often use the \emph{circle points}
+described shortly: these are two special points in $\mathbb{CP}^2$ that any two circles pass through.
+(Remember, in $\mathbb{CP}^2$, we expect two circles to meet at $2 \cdot 2 = 4$ points.)
+
+There are also two sources of \emph{irreducible} cubics: isopivotal and isoptic cubics.
+We describe those too below briefly,
+although we defer the example usage to the problems section.
+
 \subsection{Circle points (most important and used all the time)}
 In $\mathbb{CP}^2$, we consider two special points $\alpha$ and $\bar\alpha$
 that every circle passes through, known as the \alert{circle points}.
@@ -130,7 +283,7 @@ In Cartesian coordinates they are defined via:
   \alpha &\coloneq (1:i:0) \\
   \bar{\alpha} &\coloneq (1:-i:0).
 \end{align*}
-\vspace{-0.7cm} % ???
+
 \begin{definition}
   A cubic curve is \alert{circular} if it passes through $\alpha$ and $\bar\alpha$.
 \end{definition}
@@ -143,6 +296,53 @@ In Cartesian coordinates they are defined via:
   [Radical axis theorem]
   Show that the three common chords of any three pairwise intersecting circles concur.
 \end{example}
+\begin{proof}
+  Refer to the following figure that I definitely did not steal from a
+  textbook I wrote as a teenager.
+  We call the three circles $\omega_1$, $\omega_2$, $\omega_3$.
+  We let $\omega_2$ and $\omega_3$ meet at points $X$ and $X'$;
+  define $Y$, $Y'$, $Z$, $Z'$ in the same way.
+  \begin{center}
+  \begin{asy}
+    size(9cm);
+    path w1 = circle((3,5), 4);
+    path w2 = circle((0,0), 6);
+    path w3 = circle((6,0), 5);
+    pair[] X = intersectionpoints(w2, w3);
+    pair[] Y = intersectionpoints(w3, w1);
+    pair[] Z = intersectionpoints(w1, w2);
+    draw(w1, gray);
+    draw(w2, gray);
+    draw(w3, gray);
+    draw(X[0]--X[1]);
+    draw(Y[0]--Y[1]);
+    draw(Z[0]--Z[1]);
+    dot("$X$", X[0], dir(X[0]-X[1]));
+    dot("$X'$", X[1], dir(X[1]-X[0]));
+    dot("$Y$", Y[0], dir(Y[0]-Y[1]));
+    dot("$Y'$", Y[1], dir(Y[1]-Y[0]));
+    dot("$Z$", Z[0], dir(Z[0]-Z[1]));
+    dot("$Z'$", Z[1], dir(Z[1]-Z[0]));
+    dot("$\alpha$ (on all circles)", (10,9), red);
+    dot("$\bar{\alpha}$ (on all circles)", (10,7), red);
+    label("$\omega_1$", (3,5)+4*dir(90), dir(90), mediumblue);
+    label("$\omega_2$", (0,0)+6*dir(225), dir(225), mediumblue);
+    label("$\omega_3$", (6,0)+5*dir(315), dir(315), mediumblue);
+  \end{asy}
+  \end{center}
+  Again we consider three cubics:
+  \begin{itemize}
+    \ii Let $\mathcal{C}_1$ be the union of line $XX'$ with $\omega_1$.
+    \ii Let $\mathcal{C}_2$ be the union of line $YY'$ with $\omega_2$.
+    \ii Let $\mathcal{C}_3$ be the union of line $ZZ'$ with $\omega_3$.
+  \end{itemize}
+  Note that $\mathcal{C}_1$ and $\mathcal{C}_2$ meet at these nine points:
+  \[ \mathcal{C}_1 \cap \mathcal{C}_2 = \left\{ X, \; X', \; Y, \; Y', \; Z, \; Z', \;
+      \alpha, \; \bar\alpha, \; \ol{XX'} \cap \ol{YY'} \right\}. \]
+  Also, $\mathcal{C}_3$ passes through the first eight points.
+  So by part (c) of Chasles theorem, $\mathcal{C}_3$ passes through $\ol{XX'} \cap \ol{YY'}$ too.
+\end{proof}
+
 
 \subsection{Isopivotal cubics (used sometimes)}
 In what follows $ABC$ is a fixed triangle and we use barycentric coordinates.
@@ -156,27 +356,29 @@ In what follows $ABC$ is a fixed triangle and we use barycentric coordinates.
 \end{definition}
 \begin{proposition}
   [Points on isopivotal cubics]
-  A isopivotal cubic is self-isogonal and passes through all of the following points:
+  Every isopivotal cubic is self-isogonal and passes through all of the following $11$ points:
   the vertices $A$, $B$, $C$ of the triangle;
   the incenter and all three excenters;
   the pivot point $P$;
-  the points $AP \cap BC$, $BP \cap CA$, $CP \cap AB$.
+  and the points $AP \cap BC$, $BP \cap CA$, $CP \cap AB$.
 \end{proposition}
 \begin{exercise}
   For which $P$ is the isopivotal cubic with pivot $P$ a circular cubic?
 \end{exercise}
 
-\noindent Many choices of $P$ have names.
-Most prominently,
-the \emph{Thomson cubic} (also called the 23-point cubic) has pivot $G$ (centroid),
-and passes through $I$, $G$, $O$, $H$, $K$ and all altitude midpoints.
-The \emph{Neuberg cubic} (also called the 21-point or 37-point curve)
-has pivot $X_{30}$, the Euler infinity point (hence is circular),
-the reflections of $A$, $B$, $C$ across the opposite sides,
-and the six vertices of equilateral triangles constructed on the sides of $ABC$.
-The \emph{McCay cubic} has pivot $O$ (circumcenter);
-the \emph{orthocubic} has pivot $H$ (orthocenter);
-the \emph{Darboux cubic} has pivot at the de Longchamps point.
+Many choices of $P$ have names.
+Most prominently:
+\begin{itemize}
+\ii The \emph{Thomson cubic} (also called the 23-point cubic) has pivot $G$ (centroid),
+  and passes through $I$, $G$, $O$, $H$, $K$ and all altitude midpoints.
+\ii The \emph{Neuberg cubic} (also called the 21-point or 37-point curve)
+  has pivot $X_{30}$, the Euler infinity point (hence is circular),
+  the reflections of $A$, $B$, $C$ across the opposite sides,
+  and the six vertices of equilateral triangles constructed on the sides of $ABC$.
+\ii The \emph{McCay cubic} has pivot $O$ (circumcenter);
+  the \emph{orthocubic} has pivot $H$ (orthocenter);
+  the \emph{Darboux cubic} has pivot at the de Longchamps point.
+\end{itemize}
 
 \subsection{Isoptic cubics (used sometimes)}
 Now we assume $ABCD$ is a quadrilateral.
@@ -198,15 +400,16 @@ and $ABCD$ is not a parallelogram.
   [{\cite[Definition 2.3; Theorem 7.1]{Hu}}]
   The set of such $P$ is a nondegenerate \alert{circular} cubic curve
   passing through the vertices of $ABCD$,
-  called the \alert{isoptic cubic}\footnote{\cite{Hu}
-    uses the name ``isogonal cubic'' instead.}
+  called the \alert{isoptic cubic}
   of $ABCD$.
   The isoptic cubic passes through the Miquel point $M$ of $ABCD$;
   moreover, $M\alpha$ and $M\bar\alpha$ are tangent to the isoptic cubic.
 \end{theorem}
+Note the emphasis on the word ``circular'' in the above theorem:
+that's really important!
+(Also, note that \cite{Hu} uses the name ``isogonal cubic'' instead.)
 
 \begin{thebibliography}{9}
-\small
 \bibitem[EGH95]{EGH}
   David Eisenbud, Mark Green, Joe Harris.
   \textit{Cayley-Bacharach theorems and conjectures.}
@@ -218,6 +421,8 @@ and $ABCD$ is not a parallelogram.
   Daniel Hu. \textit{Constructions in the locus of isogonal conjugates of a quadrilateral}.
   arXiv:1912.08296.
 \end{thebibliography}
+
+\newpage
 
 \section{Problems}
 \subsection{Problems for class}
@@ -342,5 +547,6 @@ at two distinct points $B_1$ and $B_2$.
 Prove that the radical axis of the circumcircles of
 $\triangle BB_1B_2$ and $\triangle CC_1C_2$ passes through the midpoint $M$ of $\overline{DK}$.
 \end{problem}
+
 
 \end{document}
