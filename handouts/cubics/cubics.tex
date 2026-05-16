@@ -1,0 +1,346 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[von,sexy]{evan}
+\usepackage{booktabs}
+\usepackage{wrapfig}
+
+\begin{document}
+\title{Curves of degree greater than 2}
+\subtitle{MOP 2025}
+\date{June 2025}
+\maketitle
+
+\section{Cayley-Bacharach}
+\subsection{Curves of degree $d$}
+We work in $\mathbb{CP}^2$ always in this lecture.
+We'll often make use of the following.
+\begin{lemma}
+  [Bezout theorem]
+  Two curves of degree $a$ and $b$ sharing no irreducible component
+  intersect at up to $ab$ points (in fact exactly $ab$ ``with multiplicity'').
+\end{lemma}
+Then a degree-$d$ curve is given by a homogeneous polynomial of degree $d$ in
+$\mathbb C[x,y,z]$, up to scaling.
+This means a generic choice of $\binom{d+2}{2}-1$ points
+should determine unique degree-$d$ curve: $2$ points determine a line,
+$5$ points determine a conic, $9$ points determine a cubic, etc.
+And for linear algebra reasons!
+
+However, these are all only true in ``sufficiently general position''.
+For example, if one takes four distinct collinear points,
+any conic passing through three of them passes through the fourth.
+Let's fix some (non-standard) terminology for this:
+\begin{definition}
+  Fix a degree $d \ge 0$.
+  A set of points in $\mathbb{CP}^2$ is \emph{redundant} for degree-$d$ curves
+  if vanishing on some proper subset implies vanishing on all of them.
+\end{definition}
+For example, three points are redundant for lines if and only if they're collinear.
+(But four noncollinear points are redundant for lines too, due to vacuous truth ---
+passing through $3$ points ``implies'' any conclusion.)
+
+\subsection{Chasles theorem for cubics}
+According to \cite{EGH}, this should be called Chasles theorem (due to Michel Chasles).
+\begin{theorem}
+  [Chasles]
+  Suppose two plane cubics meet at exactly $9$ points. Then:
+  \begin{enumerate}[(a)]
+    \itemsep1pt
+    \ii This set of $9$ points is redundant for cubics.
+    \ii No subset of size $8$ is redundant.
+    \ii Hence, any cubic passing through any $8$ points must pass through the ninth.
+  \end{enumerate}
+\end{theorem}
+\noindent Part (c) is the one quoted by contestants, and follows from (a) and (b).
+Example usage:
+\begin{example}
+  Deduce Pascal theorem from Chasles theorem.
+\end{example}
+
+\noindent Meanwhile, part (a) is obvious:
+cubics are supposed to be determined by $9$ points,
+but we're \emph{given} two distinct cubics pass through these.
+The bulk of the work of the theorem is to prove (b),
+and it turns out you can do this with just Bezout, no AG machinery:
+\begin{problem}
+  [{\cite[Proposition 1]{EGH}}]
+  \label{prob:elem}
+  Let $d \ge 1$ and consider $n$ points.
+  Restrict attention\footnote{I
+    want to emphasize $n \le 2d+2$ is a huge assumption.
+    Removing this hypothesis is the main difficulty
+    to general Cayley-Bacharach statements.}
+  to the case $n \le 2d+2$.
+  Show that these points are redundant for degree-$d$ curves if and only if
+  either $d+2$ are collinear, or $n = 2d+2$ and all points lie on a conic.
+\end{problem}
+
+\begin{remark}
+  [Elliptic curve addition]
+  For experts: another application of Chasles
+  is to show that addition on an elliptic curve is associative.
+  In fact one can even use this on cubic curves for competition problems
+  --- by defining a group law on the cubics to gain additional collinearities.
+\end{remark}
+
+\subsection{Cayley-Bacharach for all degrees}
+Higher-degree versions of Cayley-Bacharach come in different forms.
+Here is one formulation that I've adapted for contest use from \cite[Theorem CB5]{EGH};
+however, it doesn't handle multiplicity.
+(There are versions of Cayley-Bacharach that do handle multiplicity,
+but they require language about schemes to state correctly.)
+\begin{theorem}
+  [Cayley-Bacharach]
+  Suppose two curves of degree $a$ and $b$ meet at exactly $ab$ points,
+  partitioned into two sets $S \sqcup T$.
+  Let $d,e \ge 0$ with $d+e = a+b-3$.
+  Then the following statements are equivalent:
+  \begin{enumerate}[(i)]
+    \itemsep1pt
+    \ii Any degree-$d$ curve passing through all of $S$ passes through all of $T$.
+    \ii The set $T$ is not redundant for curves of degree $e$.
+  \end{enumerate}
+\end{theorem}
+\noindent Special cases:
+\begin{itemize}
+  \itemsep1pt
+  \ii Chasles theorem is the special case where $a=b=3$, $d=3$, $e=0$, $|S|=8$, $|T|=1$.
+
+  \ii Another common case called ``\alert{quartic Cayley-Bacharach}''\footnote{The
+    projective geometry chapter of \cite{MODA}
+    claims that the following condition on $S$ also works
+    (instead of $T$ non-collinear):
+    no five points of $S$ are collinear,
+    no nine are co-conic, no twelve are co-cubic.
+    Proving this seems to need a stronger non-elementary version
+    of \Cref{prob:elem} without the condition that $n \le 2d+2$.
+    In any case, contestants are often sloppy with hypotheses.
+    I was careful to show Chasles theorem with 3 parts,
+    to emphasize that higher-degree versions are more subtle.}
+  by contestants is when $a=b=4$,
+  $d=4$, $e=1$, $|S|=13$, and $|T|=3$ (note this requires $T$ non-collinear).
+  Then any quartic passing through the first $13$ points passes through the last $3$.
+\end{itemize}
+
+\section{Making Cayley-Bacharach practical for competing}
+\subsection{Circle points (most important and used all the time)}
+In $\mathbb{CP}^2$, we consider two special points $\alpha$ and $\bar\alpha$
+that every circle passes through, known as the \alert{circle points}.
+In Cartesian coordinates they are defined via:
+\begin{align*}
+  \alpha &\coloneq (1:i:0) \\
+  \bar{\alpha} &\coloneq (1:-i:0).
+\end{align*}
+\vspace{-0.7cm} % ???
+\begin{definition}
+  A cubic curve is \alert{circular} if it passes through $\alpha$ and $\bar\alpha$.
+\end{definition}
+\begin{exercise}
+  Show that $\alpha$ and $\bar\alpha$ are isogonal conjugates
+  with respect to any triangle.
+  % The line at infinity swaps with the circumcircle, so it's clear
+\end{exercise}
+\begin{example}
+  [Radical axis theorem]
+  Show that the three common chords of any three pairwise intersecting circles concur.
+\end{example}
+
+\subsection{Isopivotal cubics (used sometimes)}
+In what follows $ABC$ is a fixed triangle and we use barycentric coordinates.
+\begin{definition}
+  Let $ABC$ be a triangle and $P = (u:v:w)$ a point.
+  The \alert{isopivotal cubic} with pivot $P$ is the cubic curve
+  \[ 0 = \det \begin{bmatrix} u & v & w \\
+    x & y & z \\ a^2 yz & b^2 zx & c^2 xy \end{bmatrix}.  \]
+  It contains all $X$ such that $X$ and its isogonal conjugate
+  $X^\ast$ are collinear with $P$.
+\end{definition}
+\begin{proposition}
+  [Points on isopivotal cubics]
+  A isopivotal cubic is self-isogonal and passes through all of the following points:
+  the vertices $A$, $B$, $C$ of the triangle;
+  the incenter and all three excenters;
+  the pivot point $P$;
+  the points $AP \cap BC$, $BP \cap CA$, $CP \cap AB$.
+\end{proposition}
+\begin{exercise}
+  For which $P$ is the isopivotal cubic with pivot $P$ a circular cubic?
+\end{exercise}
+
+\noindent Many choices of $P$ have names.
+Most prominently,
+the \emph{Thomson cubic} (also called the 23-point cubic) has pivot $G$ (centroid),
+and passes through $I$, $G$, $O$, $H$, $K$ and all altitude midpoints.
+The \emph{Neuberg cubic} (also called the 21-point or 37-point curve)
+has pivot $X_{30}$, the Euler infinity point (hence is circular),
+the reflections of $A$, $B$, $C$ across the opposite sides,
+and the six vertices of equilateral triangles constructed on the sides of $ABC$.
+The \emph{McCay cubic} has pivot $O$ (circumcenter);
+the \emph{orthocubic} has pivot $H$ (orthocenter);
+the \emph{Darboux cubic} has pivot at the de Longchamps point.
+
+\subsection{Isoptic cubics (used sometimes)}
+Now we assume $ABCD$ is a quadrilateral.
+It could be self-intersecting, but we assume no three of vertices are collinear,
+and $ABCD$ is not a parallelogram.
+\begin{theorem}
+  [{\cite[Theorem 1.5]{Hu}}]
+  The following are equivalent for a point $P$:
+  \begin{enumerate}[(i)]
+    \itemsep1pt
+    \ii $\dang APB = \dang DPC$.
+    \ii $\angle APC$ and $\angle BPD$ have the same bisectors.
+    \ii The feet from $P$ to the sides are concyclic.
+    \ii $P$ has an isogonal conjugate with respect to $ABCD$.
+    \ii $P$ is the focus of some ellipse tangent to the four sides.
+  \end{enumerate}
+\end{theorem}
+\begin{theorem}
+  [{\cite[Definition 2.3; Theorem 7.1]{Hu}}]
+  The set of such $P$ is a nondegenerate \alert{circular} cubic curve
+  passing through the vertices of $ABCD$,
+  called the \alert{isoptic cubic}\footnote{\cite{Hu}
+    uses the name ``isogonal cubic'' instead.}
+  of $ABCD$.
+  The isoptic cubic passes through the Miquel point $M$ of $ABCD$;
+  moreover, $M\alpha$ and $M\bar\alpha$ are tangent to the isoptic cubic.
+\end{theorem}
+
+\begin{thebibliography}{9}
+\small
+\bibitem[EGH95]{EGH}
+  David Eisenbud, Mark Green, Joe Harris.
+  \textit{Cayley-Bacharach theorems and conjectures.}
+
+\bibitem[Gr12]{MODA}
+  Adam Groucher. \textit{Mathematical Olympiad Dark Arts}.
+
+\bibitem[Hu19]{Hu}
+  Daniel Hu. \textit{Constructions in the locus of isogonal conjugates of a quadrilateral}.
+  arXiv:1912.08296.
+\end{thebibliography}
+
+\section{Problems}
+\subsection{Problems for class}
+These problems collectively cover the main techniques for the lecture
+without being too complicated.
+If this material is mostly new to you, these are good ones to start with.
+
+% vanilla Chasles application
+\begin{problem}
+  [Miquel point]
+  Triangle $DEF$ is inscribed in triangle $ABC$.
+  Show that the circumcircles of $AEF$, $BFD$, $CDE$ meet at a point.
+\end{problem}
+
+% isoptic cubic
+\begin{problem}
+  [Romania TST 2017]
+  Let $ABCD$ be a convex quadrilateral and let $P$ and $Q$ be variable points
+  inside this quadrilateral so that $\angle APB=\angle CPD=\angle AQB=\angle CQD$.
+  Prove that the lines $PQ$ obtained in this way all pass through a fixed point,
+  or they are all parallel.
+\end{problem}
+
+% degree-four Cayley Bacharach
+\begin{problem}
+  % https://artofproblemsolving.com/community/c6h515448p2897891
+  % Groucher
+  Let $ABCD$ be a convex cyclic quadrilateral whose diagonals meet at $E$.
+  Prove that there exists a conic passing through the incenters of triangles
+  $ABC$, $BCD$, $CDA$, $DAB$, $ABE$, $BCE$, $CDE$, $DAE$.
+\end{problem}
+
+% isopivotal cubic using the infinity point along line $AE$
+\begin{problem}[\href{https://aops.com/community/p27349354}{USAMO 2023/6}]
+Let $ABC$ be a triangle with incenter $I$
+and excenters $I_a$, $I_b$, $I_c$ opposite $A$, $B$, and $C$, respectively.
+Given an arbitrary point $D$ on the circumcircle of $\triangle ABC$
+that does not lie on any of the lines $II_a$, $I_bI_c$, or $BC$,
+suppose the circumcircles of $\triangle DII_a$ and $\triangle DI_bI_c$
+intersect at two distinct points $D$ and $F$.
+If $E$ is the intersection of lines $DF$ and $BC$,
+prove that $\angle BAD = \angle EAC$.
+\end{problem}
+
+\begin{wrapfigure}[12]{r}{6cm}
+\centering
+\begin{asy}
+/*
+Converted from GeoGebra by User:Azjps using Evan's magic cleaner
+https://github.com/vEnhance/dotfiles/blob/main/py-scripts/export-ggb-clean-asy.py
+*/
+pair B = (10.12122,2.49871);
+pair A = (2.99463,1.73330);
+pair C = (11.69783,-4.81262);
+pair D = (2.18048,-4.59861);
+pair E = (4.32162,1.87582);
+pair F = (8.72099,2.34833);
+pair G = (10.46541,0.90259);
+pair H = (11.18169,-2.41907);
+pair I = (9.88187,-4.77178);
+pair J = (3.81855,-4.63544);
+pair K = (2.58210,-1.47503);
+pair L = (2.69159,-0.62352);
+pair W = (4.15065,-0.33709);
+pair X = (9.00350,0.61559);
+pair Y = (9.46760,-2.23090);
+pair Z = (4.05027,-1.63620);
+
+import graph;
+size(5cm);
+pen zzttqq = rgb(0.6,0.2,0.);
+pen qqwuqq = rgb(0.,0.39215,0.);
+pen cqcqcq = rgb(0.75294,0.75294,0.75294);
+draw(A--B--C--D--cycle, linewidth(0.6) + zzttqq);
+
+draw(circle((7.,-2.), 5.47544), linewidth(0.6) + blue);
+draw(A--B, linewidth(0.6) + zzttqq);
+draw(B--C, linewidth(0.6) + zzttqq);
+draw(C--D, linewidth(0.6) + zzttqq);
+draw(D--A, linewidth(0.6) + zzttqq);
+draw(circle((6.92,-1.6), 4.33969), linewidth(0.6) + blue);
+draw(F--I, linewidth(0.6));
+draw(E--J, linewidth(0.6));
+draw(L--G, linewidth(0.6));
+draw(H--K, linewidth(0.6));
+draw(circle((6.83965,-1.19828), 2.82354), linewidth(0.6) + dashed + qqwuqq);
+
+dotfactor *= 2;
+dot(A); dot(B); dot(C); dot(D);
+dot(E); dot(F); dot(G); dot(H);
+dot(I); dot(J); dot(K); dot(L);
+dot(W); dot(X); dot(Y); dot(Z);
+\end{asy}
+\end{wrapfigure}
+
+\subsection{Rumors}
+The following problems have claimed solutions in various levels of detail,
+but all of them have some part I'm not totally happy with.
+If you're an expert in cubics, please help me fill in the gaps.
+
+\begin{problem}[\href{https://aops.com/community/p23586650}{TSTST 2021/1}]
+Let $ABCD$ be a quadrilateral inscribed in a circle with center $O$.
+Points $X$ and $Y$ lie on sides $AB$ and $CD$, respectively.
+Suppose the circumcircles of $ADX$ and $BCY$
+meet line $XY$ again at $P$ and $Q$, respectively.
+Show that $OP=OQ$.
+\end{problem}
+
+\begin{problem}
+  In the figure (with the outer two circles as given),
+  show the four inner points are cyclic.
+\end{problem}
+
+\begin{problem}[\href{https://aops.com/community/p6580553}{TSTST 2016/6}]
+Let $ABC$ be a triangle with incenter $I$, and whose incircle is tangent
+to $\overline{BC}$, $\overline{CA}$, $\overline{AB}$ at $D$, $E$, $F$, respectively.
+Let $K$ be the foot of the altitude from $D$ to $\overline{EF}$.
+Suppose that the circumcircle of $\triangle AIB$
+meets the incircle at two distinct points $C_1$ and $C_2$,
+while the circumcircle of $\triangle AIC$ meets the incircle
+at two distinct points $B_1$ and $B_2$.
+Prove that the radical axis of the circumcircles of
+$\triangle BB_1B_2$ and $\triangle CC_1C_2$ passes through the midpoint $M$ of $\overline{DK}$.
+\end{problem}
+
+\end{document}
