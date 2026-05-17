@@ -47,6 +47,13 @@ but sometimes I'll play games on stream too.
 
 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=a2g4cTZ2ZW5zc2JnN2JxaWJiM2pzOXB1ZTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=twitch.tv%2FvEnhance&amp;showPrint=0&amp;showTabs=1&amp;mode=MONTH" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
 
+## {{ hl("evanorhso", "Evan or HSO?") }}
+
+Fan-made game: [Evan or HSO](https://incompleteusern.github.io/evanorhso/),
+in which you have to guess whether a certain string is the thumbnail
+of a _Twitch Solves ISL_ video or the title of an AoPS forum thread
+in the High School Olympiads forum.
+
 ## {{ hl("setup", "Streaming setup") }}
 
 Software used on the stream includes:
@@ -93,10 +100,3 @@ The full archive of Twitch broadcasts is at the following unlisted playlist:
 
 (I don't spend much time maintaining this, so there might be gaps, or things out
 of order, etc.)
-
-## {{ hl("evanorhso", "Evan or HSO?") }}
-
-Fan-made game: [Evan or HSO](https://incompleteusern.github.io/evanorhso/),
-in which you have to guess whether a certain string is the thumbnail
-of a _Twitch Solves ISL_ video or the title of an AoPS forum thread
-in the High School Olympiads forum.
