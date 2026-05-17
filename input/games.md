@@ -4,19 +4,30 @@ indent: 1
 description: Tabletop, card, video games that I enjoy
 ---
 
-## {{ hl("tabletop", "Tabletop games") }}
+Game recommendations.
+See also:
 
-You can find my page on
-[Board Game Geek profile](https://boardgamegeek.com/user/vEnhance/);
-here are some of the games I like.
+- [My Steam collection](https://steamcommunity.com/id/vEnhance/games/?tab=all)
+- [My Board Game Geek profile](https://boardgamegeek.com/user/vEnhance/)
 
-<script language="javascript" src="https://boardgamegeek.com/jswidget.php?username=vEnhance&amp;numitems=5&amp;text=title&amp;images=small-fixed&amp;show=random&amp;imagesonly=1&amp;imagepos=left&amp;domains%5B%5D=boardgame"></script>
+## {{ hl("hanabi", "Hanabi") }}
 
-## {{ hl("steam", "Steam") }}
+[Hanabi](<https://en.wikipedia.org/wiki/Hanabi_(card_game)>)
+is a cooperative logic-based deduction game.
+I play Hanabi with the [H-group](https://github.com/Zamiell/hanabi-conventions),
+under the username [vEnhance](https://hanab.live/scores/vEnhance).
+I played in some [tournaments from 2020-2022](https://hanabi-competitions.com/)
+and later in the [Hanabi Pro Hunting League](https://hanabi-league.com/player/vEnhance/).
 
-[Link to Steam collection](https://steamcommunity.com/id/vEnhance/games/?tab=all).
+I wrote a
+[short introduction to the rules and H-group conventions](https://tinyurl.com/hanabi-evan-intro)
+if you'd like to get into the game and the strategies my group uses.
+I also wrote a
+[blog post about why I like the game](https://blog.evanchen.cc/hanabi/).
 
 ## {{ hl("card", "Card games (with standard 52-card deck)") }}
+
+If you have a 52-card deck…
 
 - [<b>Beleaguered Castle</b>](https://en.wikipedia.org/wiki/Beleaguered_Castle)
   (solitaire) <br>
@@ -30,9 +41,8 @@ here are some of the games I like.
   and declaring once they have identified the locations
   of groups of six cards called half-suits.
 
-- [<b>Diplomat</b>](/upload/diplomat.pdf) (3-4 players) <br>
+- [<b>Diplomat</b>](/upload/diplomat.pdf) (3-5 players) <br>
   Also with a standard 52-card deck, and harder than Fish!
-  Ideally three to five players.
   Players take turns asking each other _arbitrary_ yes-no questions
   in attempts to claim the thirteen ranks.
 
@@ -77,17 +87,11 @@ here are some of the games I like.
 
 ## {{ hl("rhythm", "Rhythm games") }}
 
-- [<b>osu!</b>](https://osu.ppy.sh/home) <br>
-  Free-to-play rhythm game for PC/Mac.
-  You poke numbered circles.
-  This one is really fun to play if you have a touch screen.
-
 - [<b>StepMania</b>](https://www.stepmania.com/download/) <br>
   My sole form of exercise.
   Free to download and play for PC/Mac/Linux,
   but you'll need to buy a dance mat, unless you want to be lame
   and use the arrow keys on the keyboard.
-  (I like the deluxe foam mat from Dance Pad Mania.)
 
 ## {{ hl("story", "Story games") }}
 
@@ -98,16 +102,7 @@ looking much up beforehand (to avoid spoilers).
 
 - [<b>Paper Mario: The Thousand-Year Door</b>](https://w.wiki/kZS)<br>
   It's such a charming RPG. It's so good. Trust me.
-
-- [<b>Doki Doki Literature Club</b>](https://ddlc.moe/)<br>
-  Free-to-play visual novel game for PC/Mac/Linux.
-  Appears as a dating simulator in which you write poetry with four girls.
-  It is pretty short; a first run-through takes maybe four hours.
-  The game is extremely plot-heavy, so I strongly recommend
-  not finding spoilers (or anything about the game at all).
-  I should note to take the game's
-  [content warnings](https://ddlc.moe/warning.html) seriously;
-  this game is not suitable for young audiences or those easily disturbed.
+  (I think I play through the entire game again every five years or so.)
 
 - [<b>Ghost Trick: Phantom Detective</b>](https://en.wikipedia.org/wiki/Ghost_Trick) <br>
   Now on [Steam](https://store.steampowered.com/app/1967430/Ghost_Trick_Phantom_Detective/)!
@@ -124,6 +119,7 @@ looking much up beforehand (to avoid spoilers).
   the first three as the [Phoenix Wright trilogy](https://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/)
   and the latter three as the [Apollo Justice trilogy](https://store.steampowered.com/app/2187220/Apollo_Justice_Ace_Attorney_Trilogy/).
 
-- [<b>Undertale</b>](https://undertale.com/about/) <br>
+- [<b>Undertale</b>](https://undertale.com/about/)
+  and [<b>Deltarune</b>](https://deltarune.com/) <br>
   Role-playing video game. Amazing music and characters.
   Also quite famous, so I won't say too much here.
