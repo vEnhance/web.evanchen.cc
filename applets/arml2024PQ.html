@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+      window.onerror = (errmsg, url, lineno) => {
+        if (lineno > 0) {
+          alert("ERR on line " + lineno + ": " + errmsg);
+          return true;
+        }
+      };
+    </script>
+    <title>ARML PQ 2024 Checker</title>
+    <style type="text/css">
+      #container {
+        margin: 0 auto;
+        font-family: sans-serif;
+      }
+      #student-string td {
+        width: 4vw;
+        text-align: center;
+        height: 8vh;
+      }
+      #top-row td {
+        font-size: 3vw;
+      }
+      #bottom-row td {
+        font-size: 3.5vw;
+      }
+      #student-string td.bad {
+        background-color: orange;
+      }
+
+      button.colorbutton {
+        height: 20vh;
+        width: 10vw;
+        font-size: 10vh;
+        text-align: center;
+      }
+      button.colorbutton:hover {
+        filter: brightness(65%);
+      }
+      button.editorbutton {
+        height: 20vh;
+        width: 14vw;
+        font-size: 10vh;
+      }
+
+      #cR {
+        background-color: #ffaaaa;
+      }
+      #cG {
+        background-color: #aaffaa;
+      }
+      #cB {
+        background-color: #aaaaff;
+      }
+      #cY {
+        background-color: #ffffaa;
+      }
+      #cP {
+        background-color: #ffaaff;
+      }
+      button {
+        touch-action: manipulation;
+      }
+
+      #qnumber {
+        width: 40vw;
+        height: 8vh;
+        font-size: 6vh;
+        margin-bottom: 4vh;
+      }
+
+      #verdict {
+        margin-top: 5vh;
+        font-size: 7vh;
+      }
+      span.pass {
+        font-weight: 700;
+        color: #003300;
+        background-color: #eeffee;
+      }
+      span.fail {
+        font-weight: 400;
+        color: #330000;
+        background-color: #ffeeee;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <p>
+        <b>ARML PQ 2024 Checker, by Evan Chen.</b>
+        On phones, use landscape. On desktop, you can type (escape to clear).
+      </p>
+      <select id="qnumber" onchange="changeChosenQuestion()">
+        <option value="2a" selected>Question 2a</option>
+        <option value="5">Question 5</option>
+        <option value="6">Question 6</option>
+        <option value="8a">Question 8a</option>
+        <option value="8b">Question 8b</option>
+        <option value="8c">Question 8c</option>
+        <option value="8d">Question 8d (and 12)</option>
+        <option value="9a">Question 9a</option>
+      </select>
+      <div id="buttons">
+        <button class="colorbutton" id="cR">R</button>
+        <button class="colorbutton" id="cG">G</button>
+        <button class="colorbutton" id="cB">B</button>
+        <button class="colorbutton" id="cY">Y</button>
+        <button class="colorbutton" id="cP">P</button>
+        <button class="editorbutton emoji" id="backspace">🔙</button>
+        <button class="editorbutton emoji" id="delete">🚫</button>
+      </div>
+
+      <table id="student-string">
+        <tr id="top-row">
+          <td id="h1">1</td>
+          <td id="h2">2</td>
+          <td id="h3">3</td>
+          <td id="h4">4</td>
+          <td id="h5">5</td>
+          <td id="h6">6</td>
+          <td id="h7">7</td>
+          <td id="h8">8</td>
+          <td id="h9">9</td>
+          <td id="h10">10</td>
+          <td id="h11">11</td>
+          <td id="h12">12</td>
+          <td id="h13">13</td>
+          <td id="h14">14</td>
+          <td id="h15">15</td>
+          <td id="h16">16</td>
+          <td id="h17">17</td>
+          <td id="h18">18</td>
+          <td id="h19">19</td>
+          <td id="h20">20</td>
+        </tr>
+        <tr id="bottom-row">
+          <td id="s1"></td>
+          <td id="s2"></td>
+          <td id="s3"></td>
+          <td id="s4"></td>
+          <td id="s5"></td>
+          <td id="s6"></td>
+          <td id="s7"></td>
+          <td id="s8"></td>
+          <td id="s9"></td>
+          <td id="s10"></td>
+          <td id="s11"></td>
+          <td id="s12"></td>
+          <td id="s13"></td>
+          <td id="s14"></td>
+          <td id="s15"></td>
+          <td id="s16"></td>
+          <td id="s17"></td>
+          <td id="s18"></td>
+          <td id="s19"></td>
+          <td id="s20"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="verdict"></div>
+
+    <script type="text/javascript">
+      let s = ""; // the student's string
+      const colors = ["R", "G", "B", "Y", "P"];
+
+      // Search for a k-AP a, a+d, ..., a+(k-1)d
+      // Returns (a,d) if found, else null
+      function searchAP(k) {
+        const n = s.length;
+        for (let a = 0; a < n; a++) {
+          for (let d = 1; a + (k - 1) * d < n; d++) {
+            let seen = [];
+            let ok = true;
+            for (let j = 0; j < k; j++) {
+              let c = s.charAt(a + j * d);
+              if (seen.includes(c)) {
+                ok = false;
+                break;
+              } else {
+                seen.push(c);
+              }
+            }
+            if (ok) {
+              return [a, d];
+            }
+          }
+        }
+        return null;
+      }
+
+      // Shortcuts for selecting DOM elements
+      function DOMStrCell(i) {
+        return document.querySelector("#s" + (i + 1));
+      }
+      function DOMHeadCell(i) {
+        return document.querySelector("#h" + (i + 1));
+      }
+      function DOMColorButton(c) {
+        return document.querySelector("#c" + c);
+      }
+      const DOMQNumber = document.querySelector("#qnumber");
+
+      // Get the judge's parameters as a function of the question number
+      function getQuestionParameters(qn) {
+        let maxlen, k, num_colors_needed;
+        if (qn === "2a") {
+          maxlen = 5;
+          k = 3;
+          num_colors_needed = 3;
+        } else if (qn === "5") {
+          maxlen = 10;
+          k = 3;
+          num_colors_needed = 4;
+        } else if (qn === "6") {
+          maxlen = 20;
+          k = 5;
+          num_colors_needed = 5;
+        } else if (qn === "8a") {
+          maxlen = 5;
+          k = 4;
+          num_colors_needed = 4;
+        } else if (qn === "8b") {
+          maxlen = 6;
+          k = 3;
+          num_colors_needed = 3;
+        } else if (qn === "8c") {
+          maxlen = 6;
+          k = 4;
+          num_colors_needed = 5;
+        } else if (qn === "8d") {
+          maxlen = 8;
+          k = 3;
+          num_colors_needed = 4;
+        } else if (qn === "9a") {
+          maxlen = 8;
+          k = 4;
+          num_colors_needed = 5;
+        }
+        return [maxlen, k, num_colors_needed];
+      }
+
+      // Main routine --- update all displays based on inputs
+      function update() {
+        const qn = DOMQNumber.value;
+        const params = getQuestionParameters(qn);
+        const maxlen = params[0];
+        const k = params[1];
+        const num_colors_needed = params[2];
+
+        // Truncate the string to the max len for this problem
+        s = s.slice(0, maxlen);
+
+        // Update the table displaying the string
+        for (let i = 0; i < 20; ++i) {
+          let sid = "#s" + (i + 1);
+          DOMStrCell(i).innerHTML = s.slice(i, i + 1);
+          DOMStrCell(i).classList.remove("bad");
+          DOMHeadCell(i).style.visibility = i < maxlen ? "visible" : "hidden";
+          DOMHeadCell(i).classList.remove("bad");
+        }
+
+        // Calculate the number of distinct colors that appear
+        let num_colors_found = 0;
+        colors.forEach((c) => {
+          const found = s.indexOf(c) > -1;
+          num_colors_found += found ? 1 : 0;
+          DOMColorButton(c).style.fontWeight = found ? 700 : 400;
+          DOMColorButton(c).style.fontStyle = found ? "" : "italic";
+        });
+
+        // Highlight a k-AP if any are found with the "bad" CSS class
+        const result = searchAP(k);
+        if (result !== null) {
+          const a = result[0];
+          const d = result[1];
+          for (let j = 0; j < k; ++j) {
+            let i = a + j * d;
+            DOMStrCell(i).classList.add("bad");
+            DOMHeadCell(i).classList.add("bad");
+          }
+        }
+
+        // Check whether the various criterion pass
+        const num_colors_ok = num_colors_found === num_colors_needed;
+        const length_ok = maxlen === s.length;
+        const ap_ok = result === null;
+        // For Q6 specifically, count number of times each color appears
+        // (we need 4 of each)
+        let q6_counts_ok = true;
+        const color_counts = [];
+        if (qn === "6") {
+          colors.forEach((c) => {
+            const num_times_seen = s.split(c).length - 1;
+            color_counts.push(num_times_seen);
+            if (num_times_seen != 4) {
+              q6_counts_ok = false;
+            }
+          });
+        }
+
+        // Update the verdict text for whether the example passes or not
+        let verdictHTML = '<span class="emoji">';
+        verdictHTML +=
+          num_colors_ok && length_ok && ap_ok && q6_counts_ok ? "✅" : "❌";
+        verdictHTML += "</span>";
+        verdictHTML += " ";
+        verdictHTML += "Length ";
+        verdictHTML += '<span class="' + (length_ok ? "pass" : "fail") + '">';
+        verdictHTML += s.length + " / " + maxlen;
+        verdictHTML += "</span>; saw ";
+        verdictHTML +=
+          '<span class="' + (num_colors_ok ? "pass" : "fail") + '">';
+        verdictHTML += num_colors_found + " / " + num_colors_needed;
+        verdictHTML += " colors</span>. ";
+        verdictHTML += k + "-AP ";
+        if (ap_ok) {
+          verdictHTML += '<span class="pass">avoided</span>.';
+        } else {
+          verdictHTML += '<span class="fail">found</span>.';
+        }
+        if (qn === "6") {
+          verdictHTML += "<br />For P6 only, the color counts were ";
+          verdictHTML += q6_counts_ok
+            ? '<span class="pass">'
+            : '<span class="fail">';
+          verdictHTML += color_counts + "</span>.";
+        }
+        document.querySelector("#verdict").innerHTML = verdictHTML;
+      }
+      update();
+
+      function changeChosenQuestion() {
+        s = ""; // reset
+        update();
+      }
+
+      // Bind keyboard shortcuts on desktop
+      document.addEventListener("keyup", (event) => {
+        const keyName = event.key.toUpperCase();
+        if (colors.includes(keyName)) {
+          s += keyName;
+        } else if (keyName === "ESCAPE") {
+          s = ""; // reset
+        } else if (keyName === "BACKSPACE") {
+          s = s.slice(0, -1); // delete last character
+        } else {
+          return;
+        }
+        DOMQNumber.blur();
+        update();
+      });
+
+      // Bind buttons
+      colors.forEach((c) => {
+        DOMColorButton(c).addEventListener("click", () => {
+          s += c;
+          update();
+        });
+      });
+      document.querySelector("#backspace").addEventListener("click", () => {
+        s = s.slice(0, -1); // delete last character
+        update();
+      });
+      document.querySelector("#delete").addEventListener("click", () => {
+        s = ""; // reset
+        update();
+      });
+    </script>
+  </body>
+</html>
