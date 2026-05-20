@@ -75,6 +75,13 @@ Check the license that appears.
 You should either copy-paste the 600-ish lines of code into a text file,
 or else click "Raw" and save the file.
 
+Besides `evan.sty`, I should mention there are other custom style files out there too,
+if you want to shop around:
+
+- Jason Chen's [chez.sty](https://github.com/chezbgone/chez-sty)
+- Dennis Chen's [bounce.cls](https://gitlab.com/chennisden/tex/bounce)
+- unity858's [seto.cls][seto]
+
 ### {{ faq("L-4", "How do I use a custom style file like evan.sty?") }}
 
 [Check Google.](https://www.google.com/search?q=where+to+put+latex+custom+package)
