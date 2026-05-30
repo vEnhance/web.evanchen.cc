@@ -52,7 +52,7 @@ Most notably though I will be attending IMO 2026 as a coordinator.
   (Same mailing list.)
 
 - I've been trying to get faster at reading
-  [braille, Morse, and semaphore](https://github.com/vENhance/borse),
+  [braille, Morse, and semaphore](https://github.com/vEnhance/borse),
   though I'm still not that fast.
 
 - Starting in January 2025, I've been occasionally studying some Korean.
