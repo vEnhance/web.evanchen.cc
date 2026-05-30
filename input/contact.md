@@ -3,44 +3,37 @@ title: Contacting Evan
 description: If you want to email or message me.
 ---
 
-The two best ways to reach me are
+## {{ hl("email", "Email") }}
 
-- by email to $\text{evan}\texttt{@}\text{evanchen}{.}\text{cc}$ for private inquiries;
-- via my [personal Discord](discord.html) for math advice or questions (see below).
+You can reach by email to $\text{evan}\texttt{@}\text{evanchen}{.}\text{cc}$.
 
 Although I do my best to respond to as much as I can,
 I admit that I am not able to respond to everything.
-(Also, my replies are often [terse](https://phdcomics.com/comics/archive_print.php?comicid=1047).
-Please don't be offended if so; I am just trying to be efficient.)
+(Also, my replies are often [terse](https://phdcomics.com/comics/archive_print.php?comicid=1047).)
 
-You should generally read other parts of the website for common questions,
-e.g. [the OTIS syllabus](otis.html) for OTIS questions,
-[contest resource recommendations](recommend.html),
-and of course the [Frequently Asked Questions](faqs.html).
-
-Note there are _special instructions_ if you are asking about:
+Note there are also _special instructions_ if you are asking about:
 
 - [a specific math problem](#problems),
 - [math contest study advice](#advice),
 - [tech support](#tech),
-- [a letter of recommendation](letters.html).
+- [recommendation letters](letters.html).
 
-## {{ hl("discord", "Public Discord is preferable, private Discord DM's suck") }}
+### {{ hl("dm", "No direct messages") }}
 
-If your inquiry is not private (for example, looking for advice on textbooks),
-you could consider asking questions on my
-[personal Discord server](discord.html)
-rather than emailing it privately.
+**I don't generally reply to direct messages** on Discord or otherwise.
+I mean, sometimes I manage to, but usually I see them and forget about them.
+I have no interest in using Discord as a secondary inbox.
+
+### {{ hl("discord", "Public Discord server") }}
+
+I have a [public Discord server](discord.html).
+If your question doesn't need to be private,
+you could consider asking there instead of emailing it to just me.
 There are a few benefits to doing so:
 
 - Anyone can answer the question, so you may get faster responses or multiple responses.
 - Anyone can see the answers provided, so it is more valuable to the community this way.
 - It is easier to go back-and-forth in real time over Discord than over email.
-
-Discord _direct messages_ to me are worse than emails;
-they do not have any of the above benefits, and I am slower with them.
-I do my best with Discord DM's, but I've been known to miss them sometimes.
-Email is more reliable.
 
 ## {{ hl("notes", "Some notes for emails") }}
 
@@ -52,6 +45,12 @@ Here are some hints:
   something I wrote is unclear, found a typo,
   follow-up questions, permission requests,
   questions on my experiences, etc. I'm sure there's more.)
+
+- On the other hand, you can save yourself an email by checking
+  if the question you are asking is here already.
+  See e.g. [the OTIS syllabus](otis.html) for OTIS questions,
+  [contest resource recommendations](recommend.html),
+  and of course the [Frequently Asked Questions](faqs.html).
 
 - [Don't ask to ask, just ask](https://dontasktoask.com/).
 

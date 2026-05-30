@@ -5,6 +5,7 @@ subpages = [
   {shortname = "Now", src = "now"},
   {shortname = "CV", url = "upload/public-CV.pdf"},
   {shortname = "Blog", url = "https://blog.evanchen.cc"},
+  {shortname = "Contact", src = "contact"},
 ]
 
 [[block]]
