@@ -3,37 +3,34 @@ title: Contacting Evan
 description: If you want to email or message me.
 ---
 
-## {{ hl("email", "Email") }}
+The two best ways to reach me are:
 
-You can reach by email to $\text{evan}\texttt{@}\text{evanchen}{.}\text{cc}$.
+- **Private**: email me at $\text{evan}\texttt{@}\text{evanchen}{.}\text{cc}$.
+- **Public**: post in [my public Discord server](discord.html). (No DM's.)
+
+Note that **I don't reply to DM's** on Discord or otherwise.[^forget]
+If your question doesn't need to be private,
+there are some benefits to public asks:
+
+- Anyone can answer the question.
+- Anyone can see the answers provided (more valuable to community).
+- It is easier to go back-and-forth in real time.
+
+[^forget]:
+    I mean, sometimes I will see them and reply,
+    but usually I see them and forget about them.
+    Or I don't see them at all.
+    I have no interest in using Discord as a secondary inbox.
 
 Although I do my best to respond to as much as I can,
 I admit that I am not able to respond to everything.
 (Also, my replies are often [terse](https://phdcomics.com/comics/archive_print.php?comicid=1047).)
-
 Note there are also _special instructions_ if you are asking about:
 
 - [a specific math problem](#problems),
 - [math contest study advice](#advice),
 - [tech support](#tech),
 - [recommendation letters](letters.html).
-
-### {{ hl("dm", "No direct messages") }}
-
-**I don't generally reply to direct messages** on Discord or otherwise.
-I mean, sometimes I manage to, but usually I see them and forget about them.
-I have no interest in using Discord as a secondary inbox.
-
-### {{ hl("discord", "Public Discord server") }}
-
-I have a [public Discord server](discord.html).
-If your question doesn't need to be private,
-you could consider asking there instead of emailing it to just me.
-There are a few benefits to doing so:
-
-- Anyone can answer the question, so you may get faster responses or multiple responses.
-- Anyone can see the answers provided, so it is more valuable to the community this way.
-- It is easier to go back-and-forth in real time over Discord than over email.
 
 ## {{ hl("notes", "Some notes for emails") }}
 
