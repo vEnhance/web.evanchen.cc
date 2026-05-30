@@ -18,7 +18,7 @@ indent = 2
 
 [tool.codespell]
 skip = "static/docs/CV-example-source-2020.tex"
-ignore-words-list = "inthe,ro,progamer,alph,ques,non-useful,nd,ABD"
+ignore-words-list = "inthe,ro,progamer,alph,ques,non-useful,nd,ABD,Wil"
 
 [dependency-groups]
 dev = [

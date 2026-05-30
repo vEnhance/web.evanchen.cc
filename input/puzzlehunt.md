@@ -116,6 +116,11 @@ a miniature one-round hunt
 written by Evan Chen, Isabella Quan, Sanjana Das, and Serena An.
 This hunt is a bit harder than OPAL.
 
+### {{ hl("omega", "OMEGA Hunt") }}
+
+Wil Zambole and I hosted a small hunt [AMM 2026](https://hunt.omegausa.org)
+with puzzle contributions from David Shukan, Jen McTeague and Michael Ma.
+
 ### {{ hl("mh2021", "Mystery Hunt 2021") }}
 
 - [Nutrition Facts](https://puzzles.mit.edu/2021/puzzle/nutrition-facts/)
