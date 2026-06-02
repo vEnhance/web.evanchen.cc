@@ -78,7 +78,7 @@ hooks = [{ id = "shfmt", args = ["-i", "2", "-ci"], files = '\.sh$' }]
 
 [[repos]]
 repo = "https://github.com/astral-sh/uv-pre-commit"
-rev = "0.11.17"
+rev = "0.11.18"
 hooks = [{ id = "uv-lock" }]
 
 [[repos]]
