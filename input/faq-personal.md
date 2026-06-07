@@ -90,6 +90,15 @@ Cis-het. Though I defected to girl fashion because
 
 Small black kitten.
 
+### {{ faq("P-12", "What do you use Anki for?") }}
+
+So far, two things:
+
+- Friends' birthdays
+- Korean vocabulary
+
+(For those of you that don't know, [Anki is a flashcard program](https://w.wiki/Qg$g).)
+
 [articles]: olympiad.html
 [geombook]: geombook.html
 [otis]: otis.html
