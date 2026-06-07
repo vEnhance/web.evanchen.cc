@@ -200,7 +200,7 @@ You can also look at [Napkin source code](https://github.com/vEnhance/napkin/).
 ### {{ faq("L-11", "Which text editor do you use/recommend?") }}
 
 I use [NeoVim](https://neovim.io/) with
-[LaTeX Suite](http://vim-latex.sourceforge.net/index.php?subject=manual&title=Manual#user-manual).
+[VimTeX](https://github.com/lervag/vimtex).
 But that is a pretty advanced setup, so if you are a beginner,
 it may be overwhelming to learn Vim and LaTeX at the same time.
 
