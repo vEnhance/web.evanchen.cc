@@ -12,6 +12,11 @@ See also the [list of pet peeves][peeves].
 
 [peeves]: /handouts/LaTeXPetPeeve/LaTeXPetPeeve.pdf
 
+## {{ hl("lastlint", "lastlint") }}
+
+The [lastlint](https://pypi.org/project/lastlint/) package, by CJ Quines,
+implements several of the rules here.
+
 ## {{ hl("keywords", "Keywords") }}
 
 The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
