@@ -11,8 +11,8 @@ The [build script](scripts/build.py) is intentionally short, less than 100 lines
 
 ## Main content structure
 
-- Content is written in `input/`, and written to `output/`.
-  A page `filename.md` is written directly to `output/filename.html`.
+- Content is written in `input/`, and written to `public/`.
+  A page `filename.md` is written directly to `public/filename.html`.
   To keep things simple, directory structures are explicitly not supported.
 - There is only one Jinja template: `data/page.html.j2`.
 - Navigation links on the right are controlled by `data/nav.toml`.

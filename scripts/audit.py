@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 PROJECT = Path(__file__).parent.parent
-DIR_OUT = PROJECT / "output"
+DIR_OUT = PROJECT / "public"
 
 MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/static/", PROJECT / "static"),

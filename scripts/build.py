@@ -15,7 +15,7 @@ from markdown_it_pyrs import MarkdownIt
 REPO_ROOT = Path(__file__).parent.parent
 MACROS_PATH = REPO_ROOT / "data" / "macros.py"
 DIR_IN = REPO_ROOT / "input"
-DIR_OUT = REPO_ROOT / "output"
+DIR_OUT = REPO_ROOT / "public"
 MARKDOWN_EXTENSIONS = ["table", "footnote", "smartquotes", "deflist", "strikethrough"]
 
 RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
