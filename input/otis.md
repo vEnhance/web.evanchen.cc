@@ -20,7 +20,7 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 **Read the above syllabus first** if you're new to OTIS.
 
 - [Video tour of website](https://youtu.be/VCSmRQtwOwo)
-- [List of topics][unitlist] (now featuring artwork)
+- [OTIS Unit Catalog Wiki](https://catalog.evanchen.cc) (now featuring artwork)
 - Example materials from each of the three difficulty tracks:
   - B-level track [handout][sample-bcw] (easiest track)
   - D-level track [handout][sample-dny] and [solutions][sample-dnysol]
@@ -35,7 +35,6 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 [sample-jmo]: /upload/otis-samples/Exam-Sample-08-JMO.pdf
 [sample-usamo]: /upload/otis-samples/Exam-Sample-08-USAMO.pdf
 [sample-sol]: /upload/otis-samples/Exam-Sample-08-Soln.pdf
-[unitlist]: /upload/otis-samples/synopsis.html
 
 ## {{ hl("excerpts", "The OTIS Excerpts") }}
 

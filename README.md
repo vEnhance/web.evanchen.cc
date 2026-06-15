@@ -38,7 +38,6 @@ This website has some subfolders.
 - `opals/`: mirrored from an external OPAL repository,
   contains published puzzle PDF files for the
   [OPAL hunt](https://web.evanchen.cc/opal.html)
-- `otis/`: mirrored from an external OTIS repository with artwork
 - `static/`: direct copy of `$REPO/static/`
 - `twitch/`: managed using `scripts/upload-twitch-tex-and-pdfs.sh`
 
