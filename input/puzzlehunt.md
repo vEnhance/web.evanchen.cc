@@ -118,7 +118,7 @@ This hunt is a bit harder than OPAL.
 
 ### {{ hl("omega", "OMEGA Hunt") }}
 
-Wil Zambole and I hosted a small hunt [AMM 2026](https://hunt.omegausa.org)
+Wil Zambole and I hosted a [small hunt for AMM 2026](https://hunt.omegausa.org)
 with puzzle contributions from David Shukan, Jen McTeague and Michael Ma.
 
 ### {{ hl("mh2021", "Mystery Hunt 2021") }}

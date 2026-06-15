@@ -6,7 +6,7 @@ indent: 1
 
 This is a [now page](https://nownownow.com/about).
 It's my public answer to "what have you been up to lately"?
-Last updated 10 May 2026.
+Last updated 15 June 2026.
 
 ## Coordinates
 
@@ -21,13 +21,9 @@ Most notably though I will be attending IMO 2026 as a coordinator.
 - I'm still running [OTIS](otis.html), which is
   [accepting applications for its 12th year](otis.html).
 
-- I have signed on with [OMEGA](https://omegausa.org) to help organize their first event.
+- I work as Head Writer for [OMEGA](https://omegausa.org).
   OMEGA is a new organization hoping to develop their own math contest series
   for students in the United States.
-  It has many long-term ambitious goals, but the first half-year
-  will be focused on running a single small event in May 2026 to get started.
-  Almost everything about this pilot event is still "TBD".
-  We certainly have our work cut out for us.
 
 - I am a math consultant for [Axiom Math](https://axiommath.ai)[^ai-in-math]
   where I now work with my former mentor [Ken Ono](https://w.wiki/N4uN).
@@ -68,6 +64,10 @@ Most notably though I will be attending IMO 2026 as a coordinator.
 [xena]: https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/
 
 ## Recent checkpoints
+
+- OMEGA held its first event, the [AMM 2026](https://blog.evanchen.cc/after-amm-2026/).
+  The event seemed to be received quite well.
+  We even had our own [puzzle hunt](https://hunt.omegausa.org/).
 
 - OTIS completed its eleventh year with around 800 students in the most recent class.
   This included the second year of the [OPAL hunt](opal.html),
