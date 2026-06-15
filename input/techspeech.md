@@ -10,7 +10,7 @@ Have you just been overwhelmed by all the black magic that
 Evan and his orz-ers seems to exercise like it's nothing?
 
 (Or are you just here because of the $N = p^2+q^3$ question
-on the OTIS application? Good, it's working.)
+on the [OTIS application](otis.html#apply)? Good, it's working.)
 
 If so, these pages may be for you.
 
@@ -51,6 +51,13 @@ Or to [hack together a program](https://blog.evanchen.cc/usemo-dev/)
 that reads the data from a Google form,
 and sums the result into a table that you can send out.
 
+[^ioi]:
+    The IOI is an algorithmic contest,
+    which means that part of the problem is first _finding_ an algorithm,
+    and after that actually _implementing_ it in C++.
+    I'm here to say that even the latter ability alone is valuable,
+    even if you never learn graph theory or Dijkstra's algorithm.
+
 ![Not made by hand](/static/images/usemo-table.webp)
 
 Unlike something like quadratic formula or differentiation,
@@ -59,6 +66,11 @@ Programming is so efficient that, once you achieve a basic amount of literacy,
 the extra productivity will rapidly repay the time invested in learning.
 But making cumbersome tasks merely _faster_ is not the true reward;
 the real payoff is changing _outright impossible_ into _straightforward_.
+
+[^think]:
+    I, and several others, also suspect that knowing programming changes
+    the way you think. But this is harder to measure or prove, so I only stated the
+    weaker claim.
 
 I think _every single job_ I've had since leaving high school used programming
 in some way. Here are just a few examples:
@@ -114,17 +126,5 @@ the space of things you're able to work on.
 - Read on about [files and folders](filesys.html).
 - See [the learning path](techsupport.html)
   for advice about things like what language to work with.
-
-[^ioi]:
-    The IOI is an algorithmic contest,
-    which means that part of the problem is first _finding_ an algorithm,
-    and after that actually _implementing_ it in C++.
-    I'm here to say that even the latter ability alone is valuable,
-    even if you never learn graph theory or Dijkstra's algorithm.
-
-[^think]:
-    I, and several others, also suspect that knowing programming changes
-    the way you think. But this is harder to measure or prove, so I only stated the
-    weaker claim.
 
 [otisweb]: https://github.com/vEnhance/otis-web
