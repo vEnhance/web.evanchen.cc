@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OBS Clock</title>
+  <style>
+    body {
+      margin: 0;
+      background: transparent;
+    }
+    #clock {
+      font: bold 30px monospace;
+      color: lightgreen;
+      display: inline-block;
+      border-radius: 5px;
+      padding: 2px 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="clock"></div>
+  <script>
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function tick() {
+      const d = new Date();
+      const s = d.getFullYear() + '-'
+        + pad(d.getMonth() + 1) + '-'
+        + pad(d.getDate()) + ' '
+        + pad(d.getHours()) + ':'
+        + pad(d.getMinutes()) + ':'
+        + pad(d.getSeconds());
+      document.getElementById('clock').textContent = s;
+    }
+    tick();
+    setInterval(tick, 1000);
+  </script>
+</body>
+</html>
