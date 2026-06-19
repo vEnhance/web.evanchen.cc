@@ -12,7 +12,7 @@ MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/static/", REPO / "static"),
     ("/applets/", REPO / "applets"),
     ("/handouts/", REPO / "handouts"),
-    ("/", REPO / "public"),
+    ("/", REPO / "output"),
 ]
 REDIRECT_PREFIXES = tuple(
     line.strip()
@@ -27,7 +27,7 @@ class Handler(SimpleHTTPRequestHandler):
         for prefix, directory in MOUNTPOINTS:
             if path.startswith(prefix):
                 return str(directory / path[len(prefix) :])
-        return str(REPO / "public" / path.lstrip("/"))
+        return str(REPO / "output" / path.lstrip("/"))
 
     def do_GET(self) -> None:
         for prefix in REDIRECT_PREFIXES:
