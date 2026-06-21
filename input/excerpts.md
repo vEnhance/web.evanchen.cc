@@ -62,5 +62,5 @@ Much of the underlying TeX is actually machine generated
 (by interactions with my problem database), so don't learn any habits from it.
 
 [recent]: /textbooks/OTIS-Excerpts.pdf
-[catalog]: /upload/otis-samples/synopsis.html
+[catalog]: https://catalog.evanchen.cc
 [forum]: https://artofproblemsolving.com/community/c1123852_otis_excerpts
