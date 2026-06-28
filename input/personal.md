@@ -44,6 +44,14 @@ Note the keybindings are written for
 [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard),
 rather than QWERTY.
 
+You can download my [GPG key][gpg] from [ubuntu][ubuntu-key],
+[opengpg][opengpg-key], [MIT][mit-key], or [GitHub](https://github.com/vEnhance.gpg).
+
+[ubuntu-key]: http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2911981b5d39118d80d782779474e9565d64c443
+[opengpg-key]: https://keys.openpgp.org/vks/v1/by-fingerprint/2911981B5D39118D80D782779474E9565D64C443
+[mit-key]: http://pgp.mit.edu/pks/lookup?op=get&search=0x9474E9565D64C443
+[gpg]: /upload/2911981B5D39118D80D782779474E9565D64C443.asc
+
 ## {{ hl("misc", "Miscellaneous") }}
 
 - Favorite triangle center: [Orthocenter][orthocenter]

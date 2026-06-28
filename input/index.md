@@ -30,8 +30,6 @@ I also have a [serious blog](https://blog.evanchen.cc)
 as well as a [less serious microblog](https://wall.evanchen.cc),
 both with a [mailing list](https://list.evanchen.cc).
 You can also see my [personal page](personal.html) for trivia about myself.
-Fellow Linux geeks can download my [GPG key][gpg] from [ubuntu][ubuntu-key],
-[opengpg][opengpg-key], [MIT][mit-key], or [GitHub](https://github.com/vEnhance.gpg).
 
 If you are a high school student interested in math olympiads,
 you may visit the [beginner's page](wherestart.html),
@@ -66,8 +64,3 @@ which was published in 2016.
 
 Outside of math and teaching, Evan's hobbies include
 [Arch Linux, competitive Hanabi and puzzle hunts](personal.html).
-
-[ubuntu-key]: http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2911981b5d39118d80d782779474e9565d64c443
-[opengpg-key]: https://keys.openpgp.org/vks/v1/by-fingerprint/2911981B5D39118D80D782779474E9565D64C443
-[mit-key]: http://pgp.mit.edu/pks/lookup?op=get&search=0x9474E9565D64C443
-[gpg]: /upload/2911981B5D39118D80D782779474E9565D64C443.asc
