@@ -1,10 +1,8 @@
 #!/bin/bash
-gcloud storage rsync -R output/ gs://web.evanchen.cc/
-gcloud storage rsync -R static/ gs://web.evanchen.cc/static/
-gcloud storage rsync -R applets/ gs://web.evanchen.cc/applets/
-gcloud storage cp static/icons/favicon.ico gs://web.evanchen.cc/favicon.ico
+rclone -v copy output/  web:
+rclone -v sync static/  web:static/
+rclone -v sync applets/ web:applets/
+rclone -v copyto static/icons/favicon.ico web:favicon.ico
 
 echo ""
 echo "Gentle reminder: EXTDIRS and handouts directory not sync'ed"
-
-./scripts/thaw.sh -a

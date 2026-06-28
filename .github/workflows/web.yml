@@ -39,7 +39,6 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     permissions:
       contents: read
-      id-token: write
     runs-on: ubuntu-latest
     environment: deployment
     steps:
@@ -47,15 +46,12 @@ jobs:
         with:
           name: output
           path: output/
-      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
-        with:
-          project_id: ${{ secrets.GOOGLE_PROJECT_ID }}
-          workload_identity_provider: ${{ secrets.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}
-      - uses: google-github-actions/upload-cloud-storage@c0f6160ff80057923ff50e5e567695cea181ec23 # v2
-        with:
-          path: output
-          destination: web.evanchen.cc
-          parent: false
-          glob: "*.html"
-          headers: |-
-            cache-control: private,max-age=0
+      - name: Deploy to R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: |
+          aws s3 cp output/ s3://web-evanchen-cc/ \
+            --endpoint-url https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com \
+            --recursive \
+            --exclude "*" --include "*.html"
