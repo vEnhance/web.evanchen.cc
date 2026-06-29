@@ -25,7 +25,7 @@ except ImportError:
 
 
 TWITCH_DATA_DIR = Path(__file__).parent.parent / "data" / "twitch"
-OUT_FOLDER = Path.home() / "youtube-tex"
+OUT_FOLDER = Path.home() / "Freezer" / "youtube-tex"
 
 assert OUT_FOLDER.exists(), f"{OUT_FOLDER} does not exist on this computer"
 

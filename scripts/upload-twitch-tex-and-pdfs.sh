@@ -8,8 +8,4 @@ if [ "$USER" != "evan" ]; then
   exit 1
 fi
 
-mkdir -p /tmp/twitch/
-cp ~/youtube-tex/Ep*Solution.tex /tmp/twitch/
-cp ~/youtube-tex/Ep*Solution.pdf /tmp/twitch/
-
-gcloud storage rsync /tmp/twitch/ gs://web.evanchen.cc/twitch/
+rclone sync -v ~/Freezer/youtube-tex/ web:twitch/ --include 'Ep[0-9][0-9][0-9]-*-Solution.{pdf,tex}'
