@@ -65,8 +65,13 @@ I no longer have the capacity to do teaching outside this program.
 
 ### {{ faq("P-6", "What is your favorite math olympiad problem?") }}
 
-One of the favorites is hidden somewhere on this website,
-on [cofinitely][cofinite] many of the pages. ;)
+It's too hard for me to pick a single favorite!
+But I'll give a few that I really like,
+which you might not have heard of if you're not in my circles:
+
+- [Shortlist 2018 C5](https://aops.com/community/p12752820)
+- [Taiwan Quiz 2015/3J/6](https://aops.com/community/p14169228)
+- [TSTST 2019/3](https://aops.com/community/p12608769)
 
 ### {{ faq("P-7", "How did you make your website?") }}
 
@@ -99,9 +104,12 @@ So far, two things:
 
 (For those of you that don't know, [Anki is a flashcard program](https://w.wiki/Qg$g).)
 
+### {{ faq("P-13", "Can I get an autograph or photo if I meet you in person?") }}
+
+Yes, just ask!
+
 [articles]: olympiad.html
 [geombook]: geombook.html
 [otis]: otis.html
 [history]: history.html
 [shower]: https://www.paulgraham.com/top.html
-[cofinite]: https://en.wikipedia.org/wiki/Cofiniteness
