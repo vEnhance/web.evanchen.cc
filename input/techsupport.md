@@ -103,7 +103,7 @@ Some of the popular ones include
 although it's a bit more sophisticated than the beginner ones above.
 
 On the other extreme, the two most famous text editors in the
-world of hackers are [NeoVim](https://www.neovim.org/)
+world of hackers are [NeoVim](https://www.neovim.io/)
 and [Emacs](https://en.wikipedia.org/wiki/Emacs).
 These editors are really powerful and efficient,
 but they take a long time to learn how to use
