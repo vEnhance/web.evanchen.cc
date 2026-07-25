@@ -15,16 +15,6 @@ tree = repo.head.commit.tree
 GITHUB_BASE = "https://github.com/vEnhance/web.evanchen.cc"
 
 
-def handout_link(name: str, filename=None) -> str:
-    filename = filename or name
-    return (
-        f'<a href="handouts/{name}/{filename}.pdf">(pdf)</a>'
-        " "
-        f'<a href="handouts/{name}/{filename}.tex">(tex)</a>'
-        "<br>"
-    )
-
-
 def handout_link_src(name: str, filename=None) -> str:
     filename = filename or name
     return (

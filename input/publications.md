@@ -106,35 +106,35 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 
 ### {{ hl("bmc-advanced", "Berkeley Math Circle -- Advanced group") }}
 
-- <b>AMC 12 Preparation</b> {{ handout_link("BMC_AMC12Prep_2013") }}
+- <b>AMC 12 Preparation</b> {{ handout_link_src("BMC_AMC12Prep_2013") }}
   TeX source contains answers.
 
-- <b>Barycentric Coordinates</b> {{ handout_link("BMC_Bary") }}
+- <b>Barycentric Coordinates</b> {{ handout_link_src("BMC_Bary") }}
   A quick introduction to barycentric coordinates.
 
-- <b>Combinatorial Nullstellensatz</b> {{ handout_link("BMC_Combo_Null") }}
+- <b>Combinatorial Nullstellensatz</b> {{ handout_link_src("BMC_Combo_Null") }}
   Applies the combinatorial nullstellensatz to several olympiad-style problems.
 
 ### {{ hl("bmc-intermediate", "Berkeley Math Circle -- Intermediate II group") }}
 
-- <b>Triangle Centers</b> {{ handout_link("BMC-TriCenter") }}
+- <b>Triangle Centers</b> {{ handout_link_src("BMC-TriCenter") }}
   Standard fare on the Euler line and the nine-point circle.
   Might be interesting to people starting out on olympiad geometry.
 
-- <b>Set Theory</b> {{ handout_link("BMC-SetTheory") }}
+- <b>Set Theory</b> {{ handout_link_src("BMC-SetTheory") }}
   Talked about ZFC and the construction of the ordinals.
   Essentially equivalent to [this blog post of mine][ordinals].
 
-- <b>Parallelograms</b> {{ handout_link("BMC_Parallelograms") }}
+- <b>Parallelograms</b> {{ handout_link_src("BMC_Parallelograms") }}
   All you have to do is construct a parallelogram!
   Some terse solutions outlined in [the solutions document][parallelogram-sols].
 
-- <b>BAMO Preparation</b> {{ handout_link("BMC_Int_BAMO_Prep") }}
+- <b>BAMO Preparation</b> {{ handout_link_src("BMC_Int_BAMO_Prep") }}
   A combinatorially flavored practice session for the Bay Area Math Olympiad.
 
 ### {{ hl("misc", "Miscellaneous") }}
 
-- <b>Combinatorial Nullstellensatz (SPARC)</b> {{ handout_link("SPARC_Combo_Null_Slides") }}
+- <b>Combinatorial Nullstellensatz (SPARC)</b> {{ handout_link_src("SPARC_Combo_Null_Slides") }}
   Slides from an informal lecture I gave on the nullstellensatz at [SPARC 2013][sparc].
 
 [ordinals]: https://blog.evanchen.cc/zfc2/

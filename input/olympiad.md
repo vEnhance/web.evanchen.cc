@@ -176,7 +176,7 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   A short document which shows what a "typical" LaTeX file looks like.
   It was written for beginners.
 
-- <b>OMO Spring 2014 Executive Report</b> {{ handout_link("OMOSpring14Report") }}
+- <b>OMO Spring 2014 Executive Report</b> {{ handout_link_src("OMOSpring14Report") }}
   A short report on running the Online Math Open for Spring 2014.
   This is mostly for the sake of those who will be
   running the future installments of the contest, as one of
