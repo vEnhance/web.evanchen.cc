@@ -1,0 +1,86 @@
+\chapter{Vectors Tutorial}
+\label{appendix:vectors}
+\begin{quote}
+  ``Are you making progress on these problems? Or are you making Congress?''
+  \\ --Zuming Feng
+\end{quote}
+
+\section{Definitions}
+Our definition of a vector is just an arrow that points from some reference point, denoted $\vec 0$, to another point.  In this paper, we are only considering vectors in the plane (e.g. two-dimensional vectors), but the concept extends easily to multiple dimensions.  It is assumed that the reader is familiar with vector addition, the concept of magnitude, etc.
+
+In order to make the theory of vectors applicable to geometry, we can associate every point with the vector that points to it.
+
+Of particular use in the world of vectors is the dot product defined by
+\begin{definition}
+  Let $\vec u$ and $\vec v$ be vectors.  Then the \textit{dot product} $\vec u \cdot \vec v$ is defined as
+  \[ \vec u \cdot \vec v = |\vec u||\vec v| \cos \theta \]
+  where $\theta$ is the angle between the two vectors.
+\end{definition}
+
+The dot product has the following very nice properties:
+\begin{enumerate}
+  \item $\vec u \cdot \vec u = |u|^2$.
+  \item $\vec u \cdot \vec v = 0$ if and only if the vectors are perpendicular.
+  \item The dot product is commutative, distributive, and associative.
+\end{enumerate}
+
+\begin{exercise}
+  Let $A,B,C,D$ be points in the plane.  Prove that $AC \perp BD$ if and only if $(\vec A - \vec C) \cdot (\vec B - \vec D) = 0$.
+\end{exercise}
+
+\section{Triangle ABC}
+Let $ABC$ be a triangle in the plane with circumcenter $O$.  Let $\vec O = \vec 0$ be the reference point.  Then it's obvious that $|\vec A| = |\vec B| = |\vec C| = R$, where $R$ is the circumradius of the triangle.
+
+Now for the key fact:
+\begin{fact}
+  $\vec A \cdot \vec B = R^2 - \frac{c^2}{2}$.  Cyclic variations hold.
+\end{fact}
+\begin{proof}
+  Using the definition,
+  \begin{align*}
+    \vec A \cdot \vec B &= | \vec A || \vec B | \cos \angle AOB \\
+    &= R^2 \cos 2\angle ACB \\
+    &= R^2 (1 - 2\sin^2 \angle ACB) \\
+    &= R^2 (1 - 2\sin^2 C) \\
+    &= R^2 - \half (2R \cdot \sin C)^2 \\
+    &= R^2 - \frac{c^2}{2}
+  \end{align*}
+  the last step following by the Law of Sines.
+\end{proof}
+
+Barycentric coordinates allow us to write any point in the plane in the form $x \vec A + y \vec B + z \vec C$.  In that case, displacement vectors, points, etc. can all be written as a linear combination of $\vec A$, $\vec B$ and $\vec C$.  The above fact allows us to compute arbitrary dot products via the distributive law.  Using properties 1 and 2 above, we can construct criterion for perpendiculars and lengths; this leads to EFFT and the distance formula.
+
+\section{Special Points}
+Again setting $\vec O = \vec 0$, we have the orthocenter\footnote{To check that this is correct, verify that $(\vec H - \vec A) \cdot (\vec B - \vec C) = 0$, implying $HA \perp BC$.} $\vec H = \vec A + \vec B + \vec C$, the centroid $\vec G = \frac{1}{3} \vec H$, and the nine-point center $\vec N = \half \vec H$.  In other words, the points on the Euler Line are very, very nice.
+
+This allows us, for example, to compute $OH^2$ as
+\begin{align*}
+  OH^2 &= \vec H \cdot \vec H \\
+  &= (\vec A + \vec B + \vec C) \cdot (\vec A + \vec B + \vec C) \\
+  &= 3R^2 + 2(R^2-a^2/2) + 2(R^2-b^2/2) + 2(R^2-c^2/2) \\
+  &= 9R^2-a^2-b^2-c^2
+\end{align*}
+
+
+\chapter{Formula Sheet}
+\label{appendix:formulasheet}
+\begin{quote}
+  My formula sheets were pretty thorough, but perhaps they were missing something.
+  \\ --Richard Rusczyk
+\end{quote}
+
+%import tech
+\section{Standard Formulas}
+
+\makeatletter
+\let\actuallabel\label
+\makeatother
+\renewcommand{\label}[1]{
+%Do Nothing
+}
+\InputTempFile{tech}
+\renewcommand{\label}[1]{\label{#1}}
+
+
+\section{More Obscure Formulas}
+\input{content/ch_formulaobscure}

@@ -1,0 +1,199 @@
+\chapter{Trickier Tactics}
+\begin{quote}
+  All you have to do is construct a parallelogram!
+  \\ -- James Tao
+\end{quote}
+
+Here are some strategies which are occasionally useful.
+\section{Areas and Lines}
+The area formula \cite{infinity,abel,yiu} is as follows:
+
+\begin{StoreCode}{tech}
+\begin{theorem}[Area Formula]
+  \label{tech:area}
+  The area of a triangle with vertices $P=(x_1,y_1,z_1)$, $Q=(x_2,y_2,z_2)$ and $R=(x_3,y_3,z_3)$ is
+  \[ [PQR] = [ABC] \cdot \left| \begin{array}{ccc} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{array} \right| \]
+\end{theorem}
+\end{StoreCode}
+
+A proof of the area formula can be found in \cite{abel}.
+
+From this, we immediately find two corollaries, which also appear in \cite{infinity} and \cite{abel}.
+\begin{StoreCode}{tech}
+\begin{corollary}[First Collinearity Criteria]
+  \label{tech:collnaive}
+  The points $P=(x_1:y_1:z_1)$, $Q=(x_2:y_2:z_2)$ and $R=(x_3:y_3:z_3)$ are collinear if and only if
+  \[ \left| \begin{array}{ccc} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{array} \right| = 0 \]
+\end{corollary}
+\end{StoreCode}
+\begin{proof}
+  The points are collinear iff the area of the triangle they determine is zero, and this doesn't change under scaling $(x,y,z) \mapsto (kx:ky:kz)$.
+\end{proof}
+
+\begin{StoreCode}{tech}
+\begin{corollary}[Line Through 2 Points]
+  \label{tech:line2pt}
+  The equation of a line through the points $P=(x_1:y_1:z_1)$ and $Q=(x_2:y_2:z_2)$ is
+  \[ \left| \begin{array}{ccc} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x & y & z \end{array} \right| = 0\]
+\end{corollary}
+\end{StoreCode}
+The previous corollary also implies the line formula.
+
+On the other hand, when normalized, Corollary \ref{tech:collnaive} can be simplified by
+\begin{StoreCode}{tech}
+\begin{corollary}[Second Collinearity Criteria]
+  \label{tech:coll}
+  The points $P=(x_1,y_1,z_1)$, $Q=(x_2,y_2,z_2)$ and $R=(x_3,y_3,z_3)$, %where $x_i+y_i+z_i=1$ for all $i$,
+  are collinear if and only if
+  \[ \left| \begin{array}{ccc} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{array} \right| = 0\]
+  Cyclic variations hold.
+\end{corollary}
+\end{StoreCode}
+\begin{proof}
+  It is a property of the determinant that
+  \[ \left| \begin{array}{ccc} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{array} \right| = \left| \begin{array}{ccc} x_1 & y_1 & x_1+y_1+z_1 \\ x_2 & y_2 & x_2+y_2+z_2 \\ x_3 & y_3 & x_3+y_3+z_3 \end{array} \right|\]
+\end{proof}
+
+This has a substantial computational advantage.
+
+
+
+
+\section{Non-normalized Coordinates}
+\label{sec:notnormal}
+
+Suppose $x+y+z=1$.  Non-normalized coordinates involve the notion of extending the notation $(x,y,z)$ as follows: for all nonzero $k$, the triple $(kx:ky:kz)$ refers to the point $(x,y,z)$.  We will also make the same scaling for displacement vectors: the displacement vector $(x,y,z)$ can also be written $(kx:ky:kz)$.
+
+It turns out that, if one is merely intersecting lines and circles, we can actually use non-normalized coordinates during the computation, simplifying calculations greatly (cf. \cite{infinity}).  This holds because the equations for lines and circles are \textit{homogeneous}; that is, scaling $x,y,z$ in them does not affect the validity of the equation.  However, when using the area formula, distance formula, etc. it is extremely important that points be normalized before the calculations are applied.
+
+\begin{exercise}
+  Check that the distance formula fails for non-normalized coordinates, but holds for EFFT.
+\end{exercise}
+
+%From here on outwards, the point $(kx:ky:kz)$ will always refer to the point $(x,y,z)$ unless otherwise specified.
+Some sources, including the first version of this article, simply use $(kx,ky,kz)$ instead of $(kx:ky:kz)$.  We use the latter to avoid confusion, but a reader should keep in mind that not all authors choose to do this.
+
+
+
+
+
+
+\section{O, H, and Strong EFFT}
+As we can see easily in Section \ref{sec:specialpt}, in fact the least elegant points are $H$ and $O$.  This seems contrary to expectation: in complex numbers and vectors, we frequently set $\vec O$ as zero, and $\vec H = \vec A + \vec B + \vec C$.  One might be inclined to think that, given the vector-based definition of barycentric coordinates, we might be able to utilize this.
+
+Unfortunately, the area formula, and hence the line equation, relies on the fact that $(x,y,z)$ reflect the actual ratio of areas.  However, we can get some partial tools to simplify computations related to $O$ and $H$.
+
+\begin{StoreCode}{tech}
+\label{tech:strongefft}
+\begin{theorem}[Strong EFFT]
+  Suppose $M$, $N$, $P$ and $Q$ are points with
+  \begin{align*}
+    \overrightarrow{MN} &= x_1 \overrightarrow{AO} + y_1 \overrightarrow{BO} + z_1 \overrightarrow{CO} \\
+    \overrightarrow{PQ} &= x_2 \overrightarrow{AO} + y_2 \overrightarrow{BO} + z_2 \overrightarrow{CO}
+  \end{align*}
+  If either $x_1+y_1+z_1=0$ or $x_2+y_2+z_2=0$, then $MN \perp PQ$ if and only if
+  \[  0 = a^2(z_1y_2 + y_1z_2) + b^2(x_1z_2 + z_1x_2) + c^2(y_1x_2 + x_1y_2)\]
+\end{theorem}
+\end{StoreCode}
+\begin{proof}
+  Reproduce the proof of Theorem \ref{tech:efft}, with a few modifications.  Here, the ``displacement vector'' $\vec PQ$ has already been shifted, so that the properties of the dot product $A \cdot A = R^2$ and $A \cdot B = R^2 - c^2/2$ hold.
+
+  In the final step, instead of $0 \cdot 0 = 0$ we have $0 \cdot (x_2+y_2+z_2) = 0$, which is just as well.
+\end{proof}
+\begin{note}
+  If $MN = (x_1,y_1,z_1)$ is a displacement vector, then we automatically have both $x_1+y_1+z_1=0$ and $\vec MN = x_1 \vec A + y_1 \vec B + z_1 \vec C$, since this is independent of the location of the null vector (here $\vec O$).  Therefore, Strong EFFT is usually useful for showing some more unusual vector is perpendicular to a standard displacement vector.
+
+  Once again, scaling is valid: the condition is homogeneous in each of $x_1,y_1,z_1$ and $x_2,y_2,z_2$.
+\end{note}
+
+This is particularly useful if one of the points involved is $H$, for $\vec H = \vec A + \vec B + \vec C$.  See problem \ref{exam:2005islg5} for an example.
+
+The other point for which Strong EFFT is useful is $O$; for example, the following corollary is immediate
+\begin{StoreCode}{tech}
+\begin{corollary}
+  The equation for the tangent to the circumcircle at $A$ is $b^2z+c^2y=0$.
+\end{corollary}
+\end{StoreCode}
+\begin{exercise}
+  Prove the above corollary.
+\end{exercise}
+
+
+
+
+
+
+
+\section{Conway's Formula}
+\label{sec:conway}
+Conway's Formula gives a nice way to work with (some) angles in a triangle.  Most of the results here are from \cite{spanish}.
+
+We start by defining some notation:
+
+\begin{StoreCode}{tech}
+\begin{definition}[Conway's Notation]
+  \label{tech:conwaydef}
+  Let $S$ be twice the area of the triangle.  Define $S_{\theta}=S\cot{\theta}$, and define the shorthand notation $S_{\theta\phi}=S_{\theta}S_{\phi}$.
+\end{definition}
+\end{StoreCode}
+
+\begin{StoreCode}{tech}
+\begin{fact}
+We have $S_A=\frac{-a^2+b^2+c^2}{2}=bc\cos{A}$ and its cyclic variations.  (We also have $S_{\omega}=\frac{a^2+b^2+c^2}{2}$, where $\omega$ is the Brocard angle.  This follows from $\cot{\omega}=\cot{A}+\cot{B}+\cot{C}$.)
+\end{fact}
+\end{StoreCode}
+
+\begin{StoreCode}{tech}
+\begin{fact}
+  We have the identities \[S_B + S_C = a^2 \] and \[ S_{AB}+S_{BC}+S_{CA}=S^2 \]
+\end{fact}
+\end{StoreCode}
+\begin{exercise}
+  Prove the above facts.
+\end{exercise}
+
+This gives us slightly more convenient ways to express some things.  For example
+
+\begin{StoreCode}{tech}
+\begin{fact}
+  $O=(a^2S_A : b^2S_B : c^2S_C)$ and $H=(S_{BC} : S_{CA} : S_{AB}) = \left( \frac{1}{S_A} : \frac{1}{S_B} : \frac{1}{S_C} \right)$.
+\end{fact}
+\end{StoreCode}
+
+(Note that these do not sum to $1$; we are using the conventions spelled out in section \ref{sec:notnormal}).
+
+Now for the main result of this chapter:
+\begin{StoreCode}{tech}
+\begin{theorem}[Conway's Formula]
+  \label{tech:conwayformula}
+   Given a point $P$ with counter-clockwise directed angles $\dang PBC=\theta$ and $\dang BCP=\phi$, we have $P=(-a^2 : S_C+S_\phi : S_B+S_\theta)$.
+\end{theorem}
+\end{StoreCode}
+
+\begin{proof}
+  By the Law of Sines on triangle $PBC$, $BP=\frac{a\sin{\phi}}{\sin{(\theta+\phi)}}$, and $CP=\frac{a\sin{\theta}}{\sin{(\theta+\phi)}}$, so the area of triangle $PBC$ is \[ \frac{1}{2} \cdot BC \cdot BP \sin{\theta} = \frac{a^2\sin{\theta}\sin{\phi}}{2\sin{\left(\theta+\phi\right)}} \]
+
+  Similarly, the area of $PCA$ and $PBA$ can be found to be $\frac{ab\sin{\theta}\sin{\left(\phi+C\right)}}{2\sin{(\theta+\phi)}}$ and $\frac{ac\sin{\phi}\sin{\left(\theta+B\right)}}{2\sin{(\theta+\phi)}}$ respectively.
+
+  Eliminating the denominator gives that $P$'s barycentric coordinates are at:
+  \begin{align*}
+    & (-a^2\sin{\theta}\sin{\phi} : ab\sin{\theta}\sin{\left(\phi+C\right)} : ac\sin{\phi}\sin{\left(\theta+B\right)}) \\
+    &=\left(-a^2 : ab\sin{\left(\phi+C\right)}{\sin{\phi}} : \frac{ac\sin{(\theta+B)}}{\sin{\theta}}\right) \\
+    &=(-a^2 : ab\cos{C}+ab\sin{C}\cot{\phi} : ca\cos{B}+ca\sin{B}\cot{\theta}) \\
+    &=(-a^2 : S_C+S_\phi : S_B+S_\theta)
+  \end{align*}
+  as desired.
+\end{proof}
+
+An example of an application of Conway's Formula can be found in problem \ref{exam:2001islg1}.
+
+\section{A Few Final Lemmas}
+\begin{StoreCode}{tech}
+\begin{lemma}[Parallelogram Lemma]
+  The points $ABCD$ form a parallelogram iff $A+C = B+D$ (here the points are normalized), where addition is done component-wise.
+\end{lemma}
+\begin{lemma}[Concurrence Lemma]
+  The three lines $u_ix+v_iy+w_iz=0$, for $i=1,2,3$ are concurrent if and only if
+  \[ \left| \begin{array}{ccc} u_1 & v_1 & w_1 \\ u_2 & v_2 & w_2 \\ u_3 & v_3 & w_3 \end{array} \right| = 0\]
+\end{lemma}
+\end{StoreCode}

@@ -1,0 +1,43 @@
+\section{USAMO 2001/2}
+\label{exam:2001usamo2}
+We begin with a USAMO problem which literally (figuratively?) screams for an analytic solution.
+
+\secps
+\begin{problem}[USAMO 2001/2]
+  Let $ABC$ be a triangle and let $\omega$ be its incircle. Denote by $D_1$ and $E_1$ the points where $\omega$ is tangent to sides $BC$ and $AC$, respectively. Denote by $D_2$ and $E_2$ the points on sides $BC$ and $AC$, respectively, such that $CD_2=BD_1$ and $CE_2=AE_1$, and denote by $P$ the point of intersection of segments $AD_2$ and $BE_2$. Circle $\omega$ intersects segment $AD_2$ at two points, the closer of which to the vertex $A$ is denoted by $Q$. Prove that $AQ=D_2P$.
+\end{problem}
+
+\barydiagram{USAMO 2001/2}{2001usamo2}
+
+\begin{soln}
+  (Evan Chen) So we use barycentric coordinates.
+
+  It's obvious that un-normalized, $D_1=(0:s-c:s-b) \implies D_2 = (0:s-b:s-c)$, so we get a normalized $D_2 = \left(0, \frac{s-b}{a}, \frac{s-c}{a}\right)$.  Similarly, $E_2 = \left(\frac{s-a}{b},0,\frac{s-c}{b}\right)$.
+
+  Now we obtain the points $P=\left(\frac{s-a}{s}, \frac{s-b}{s}, \frac{s-c}{s}\right)$ by intersecting the lines $AD_2: (s-c)y=(s-b)z$ and $BE_2: (s-c)x=(s-a)z$.
+
+  Let $Q'$ be such that $AQ' = PD_2$.  It's obvious that $Q'_y + P_y = A_y + D_{2y}$, so we find that $Q'_y = \frac{s-b}{a} - \frac{s-b}{s} = \frac{(s-a)(s-b)}{sa}$.  Also, since it lies on the line $AD_2$, we get that $Q'_z = \frac{s-c}{s-b} \cdot Q'_y = \frac{(s-a)(s-c)}{sa}$.  Hence, \[ Q'_x = 1 - \frac{((s-b)+(s-c))(s-a)}{sa} = \frac{sa - a(s-a)}{sa} = \frac{a}{s} \] Hence,
+  \[ Q' = \left( \frac{a}{s}, \frac{(s-a)(s-b)}{sa}, \frac{(s-a)(s-c)}{sa}\right)\]
+
+  Let $I = \left(\frac{a}{2s}, \frac{b}{2s}, \frac{c}{2s}\right)$.  We claim that, in fact, $I$ is the midpoint of $Q'D_1$.  Indeed,
+  \begin{align*}
+    \half \left( 0 + \frac{a}{s} \right) &= \frac{a}{2s} \\
+    \half \left( \frac{(s-a)(s-b)}{sa} + \frac{s-c}{a} \right) &= \frac{(s-a)(s-b) + s(s-c) }{2sa} \\
+    &= \frac{ab}{2sa} \\
+    &= \frac{b}{2s} \\
+    \half \left( \frac{(s-a)(s-c)}{sa} + \frac{s-b}{a} \right) &= \frac{c}{2s}
+  \end{align*}
+
+  Implying that $Q$ lies on the circle; in particular, diametrically opposite from $D_1$, so it is the closer of the two points.  Hence, $Q=Q'$, so we're done.
+
+  %Then the displacement vector of $\overrightarrow{Q'I}$ is \[ v=Q'-I=\left(\frac{a}{2s}, \frac{2(s-a)(s-b)-ab}{2as}, \frac{2(s-a)(s-c)-ac}{2acs}\right) \] which we want to show has length $r$.  Let $j=2(s-a)(s-b)-ab$ and $k=2(s-a)(s-c)-ac$.  Using the distance formula, as well as $rs=K$, this becomes equivalent to:  \begin{align*} -\frac{1}{4} \cdot \frac{16K^2}{4s^2} &= a^2 \cdot \frac{jk}{(2as)^2} + b^2 \cdot \frac{ak}{4as^2} + c^2 \cdot \frac{aj}{4as^2} \\ &= \frac{jk + b^2k + c^2j}{4s^2} \\ \Leftrightarrow -16K^2 &= 4(jk+b^2k+c^2j) \end{align*}
+
+  %But we also know that $-16K^2 = a^4+b^4+c^4-2a^2b^2-2b^2c^2-2c^2a^2$ by Heron, and  \begin{align*} j &= 2(s-a)(s-b)-ab \\ &= 2s^2-2(a+b)s+ab \\ &= \frac{1}{2} (a+b+c)^2 - (a+b)(a+b+c) + ab \\ &= \frac{1}{2}(a^2+b^2+c^2) + (ab+bc+ca)-(a^2+2ab+b^2+ca+ab)+ab \\ &= \frac{1}{2}(ac^2-a^2-b^2) \end{align*}  Similarly, \[ k=\frac{1}{2} (b^2-a^2-c^2)\]
+
+  %So now we just compute  \begin{align*} 4jk + 4b^2k+4c^2j &= (c^2-a^2-b^2)(b^2-a^2-c^2) + 2b^2(b^2-a^2-c^2) + 2c^2(c^2-a^2-b^2) \\ &= (a^2+(b^2-c^2))(a^2+(c^2-b^2)) + 2b^4 + 2c^4 -2a^2b^2 - 2a^2c^2 - 4b^2c^2 \\ &= a^4-(b^2-c^2)^2  + 2b^4 + 2c^4 -2a^2b^2 - 2a^2c^2 - 4b^2c^2 \\ &= a^4+b^4+c^4-2a^2b^2 - 2b^2c^2-2c^2a^2 \\ &= -16K^2 \end{align*}  as desired.
+\end{soln}
+
+\seccm
+The unusual points $D_2$, and $E_2$ make this problem ripe for barycentric coordinates, since they can be written as ratios on the appropriate sides.  The point $Q'$ is also easy to construct because of lengths.
+
+Now it turns out that it's well known that $AD_2$ passes through the point directly above $D_1$, so it is merely a matter of length chasing to construct $Q'$ and subsequently use midpoints.

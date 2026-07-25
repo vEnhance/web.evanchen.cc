@@ -1,0 +1,27 @@
+Here's some miscellaneous formulas and the like.  These were not included in the main text.
+
+From \cite{leibnizthm},
+\begin{theorem}[Leibniz Theorem]
+  Let $Q$ be a point with homogeneous barycentric coordinates $(u: v: w)$ with respect to $\triangle ABC$.  For any point $P$ on the plane $ABC$ the following relation holds:
+  \[ uPA^2 + vPB^2 + wPC^2 = (u + v + w)PQ^2 + uQA^2 + vQB^2 + wQC^2 \]
+\end{theorem}
+
+\subsection{Other Special Points}
+\begin{tabular}{r|l}
+  Point & Coordinates \\ \hline
+  Gregonne Point \cite{wolfram} & $\text{Ge} = ((s-b)(s-c) : (s-c)(s-a) : (s-a)(s-b))$ \\
+  Nagel Point \cite{wolfram} & $\text{Na} = (s-a : s-b : s-c)$ \\
+  Isogonal Conjugate \cite{infinity} & $P^\ast = \left( \frac{a^2}{x} : \frac{b^2}{y} : \frac{c^2}{z} \right)$ \\
+  Isotomic Conjugate \cite{infinity} & $P^t = \left( \frac{1}{x} : \frac{1}{y} : \frac{1}{z} \right)$ \\
+  Feuerbach Point \cite{fpoint} & $F = \left((b+c-a)(b-c)^2 : (c+a-b)(c-a)^2 : (a+b-c)(a-b)^2 \right)$ \\
+  Nine-point Center & $N = (a\cos(B-C) : b\cos(C-A) : c\cos(A-B))$
+\end{tabular}
+
+\subsection{Special Lines and Circles}
+
+\begin{tabular}{rl}
+  Nine-point Circle & $-a^2yz-b^2xz-c^2xy+ \half (x+y+z)(S_Ax+S_By+S_Cz) = 0$ \\
+  Incircle & $-a^2yz - b^2zx  - c^2xy + (x+y+z)\left( (s-a)^2x + (s-b)^2y + (s-c)^2z \right) = 0$ \\
+  $A$-excircle \cite{book} & $-a^2yz - b^2zx - c^2xy + (x+y+z)\left( s^2 x + (s-c)^2 y + (s-b)^2 z \right) = 0$ \\
+  Euler Line \cite{book} & $S_A(S_B-S_C)x + S_B(S_C-S_A)y + S_C(S_A-S_B)z = 0$
+\end{tabular}

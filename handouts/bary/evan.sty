@@ -1,0 +1,260 @@
+\ProvidesPackage{evan}
+%August 2012 Edition
+
+\usepackage{ifthen}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[usenames,dvipsnames]{color}
+
+%Default Arguments
+\newif\ifevanfancy\evanfancytrue
+\newif\ifevanhdr\evanhdrtrue
+\newif\ifevanhref\evanhreftrue
+\newif\ifevanmassive\evanmassivefalse
+\newif\ifevansetup\evansetuptrue
+\newif\ifevanthm\evanthmtrue
+\newif\ifevansecthm\evansecthmfalse
+\newif\ifevanht\evanhtfalse
+\newif\ifevanpkg\evanpkgtrue
+\newif\ifevanpdf\evanpdftrue
+\newif\ifevantitling
+\@ifundefined{KOMAClassName}{\evantitlingfalse}{\evantitlingtrue}
+
+%Receive Arguments
+\DeclareOption{nofancy}{\evanfancyfalse}
+\DeclareOption{nohdr}{\evanhdrfalse}
+\DeclareOption{nohref}{\evanhreffalse}
+\DeclareOption{hugefonts}{\evanmassivetrue}
+\DeclareOption{nosetup}{\evansetupfalse}
+\DeclareOption{nothm}{\evanthmfalse}
+\DeclareOption{secthm}{\evansecthmtrue}
+\DeclareOption{ht}{\evanhttrue}
+\DeclareOption{nopdf}{\evanpdffalse}
+\DeclareOption{nopkg}{\evanpkgfalse}
+\DeclareOption{oldtitle}{\evantitlingfalse}
+\DeclareOption{newtitle}{\evantitlingtrue}
+\ProcessOptions\relax
+
+%Small commands
+\newcommand{\myqed}{\textsc{Q.e.d.}}
+\newcommand{\cbrt}[1]{\sqrt[3]{#1}}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceiling}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\inv}{^{-1}}
+\newcommand{\normal}{\trianglelefteq}
+\newcommand{\exmp}{\textbf{Example. }}
+\newcommand{\mailto}[1]{\href{mailto:#1}{#1}}
+\renewcommand{\iff}{\Leftrightarrow}
+\renewcommand{\implies}{\Rightarrow}
+\newcommand{\cycsum}{\sum_{\text{cyc}}}
+\newcommand{\symsum}{\sum_{\text{sym}}}
+\newcommand{\charin}{\text{ char }}
+\newcommand{\hrulebar}{
+  %\nointerlineskip \vspace{\baselineskip}
+  \par\hspace{\fill}\rule{0.95\linewidth}{.7pt}\hspace{\fill}
+  \par\nointerlineskip \vspace{\baselineskip}
+}
+%For use in author command
+\newcommand{\plusemail}[1]{\\ \normalfont \texttt{\mailto{#1}}}
+
+%More commands and math operators
+\DeclareMathOperator{\cis}{cis}
+\DeclareMathOperator{\lcm}{lcm}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Syl}{Syl}
+
+%Convenient Environments
+\newenvironment{soln}{\begin{proof}[Solution]}{\end{proof}}
+\newenvironment{parlist}{\begin{inparaenum}[(i)]}{\end{inparaenum}}
+
+
+%Asy commands
+\usepackage{asymptote}
+\newcounter{asyfignum}
+\setcounter{asyfignum}{0}
+\newenvironment{fasy}
+{\stepcounter{asyfignum}
+\begin{figure}[ht]
+\centering
+\begin{asy}
+import olympiad; import cse5; import evan;
+pointpen=black; pathpen=black;
+pathfontpen=black; anglepen=black; anglefontpen=black;
+}
+{\label{fig:asyfig\theasyfignum}
+\end{figure}}%
+
+%Other Commands
+\def\ang{\angle}
+\def\dg{^\circ}
+\def\be{\begin{enumerate}}
+\def\bee{\begin{enumerate} \ii}
+\def\ee{\end{enumerate}}
+\def\bi{\begin{itemize}}
+\def\bii{\begin{itemize} \ii}
+\def\ei{\end{itemize}}
+\def\ii{\item}
+
+%More shortcuts (mostly from K. Kedlaya's Geo Unbound)
+\def\lpar{\left(}
+\def\rpar{\right)}
+\def\sang{\sin \angle}
+\def\cang{\cos \angle}
+\def\half{\frac{1}{2}}
+
+\def\vA{\vec{A}}
+\def\vB{\vec{B}}
+\def\vC{\vec{C}}
+\def\CC{\mathbb C}
+\def\FF{\mathbb F}
+\def\NN{\mathbb N}
+\def\QQ{\mathbb Q}
+\def\RR{\mathbb R}
+\def\ZZ{\mathbb Z}
+
+\def\norm#1{\lVert #1 \rVert}
+
+\def\dang{\measuredangle} %% Directed angle
+\def\line#1{\overleftrightarrow{#1}}
+\def\ray#1{\overrightarrow{#1}}
+\def\seg#1{\overline{#1}}
+\def\arc#1{\wideparen{#1}}
+
+%Archaic
+\newcommand{\mytitle}[1]{\title{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifevansetup
+	%Setup Title/Auth/Date
+	\AtBeginDocument{
+	\author{Evan Chen}
+	\date{\today}}
+
+	%Loads a bunch of useful packages
+	\ifevanpkg
+		\usepackage{listings}
+		\usepackage{paralist}
+		\usepackage{titling}
+		%If we have titling...
+		\newlength{\posttitledrop} \setlength{\posttitledrop}{-2.2em}
+		\newlength{\postauthordrop} \setlength{\postauthordrop}{-2.2em}
+
+		\ifevantitling
+		\pretitle{\begin{center}\bfseries\large}
+		\posttitle{\end{center}\vspace{\posttitledrop}}
+		\preauthor{\begin{center} \scshape}
+		\postauthor{\end{center}\vspace{\postauthordrop}}
+		\predate{\begin{center}\small}
+		\postdate{\end{center}}
+
+		\else
+
+		\fi
+	\else
+	\fi
+
+	\ifevanthm
+		%New Theorem Styles
+		\theoremstyle{plain}
+		%Branching here: the option secthm changes theorems to be labelled by section
+		\ifevansecthm
+			\newtheorem{theorem}{Theorem}[section]
+		\else
+			\newtheorem{theorem}{Theorem}
+		\fi
+		\newtheorem{lemma}[theorem]{Lemma}
+		\newtheorem{conjecture}[theorem]{Conjecture}
+		\newtheorem{corollary}[theorem]{Corollary}
+		\newtheorem{proposition}[theorem]{Proposition}
+
+		%These are more universal
+		\theoremstyle{definition}
+		\newtheorem{algorithm}[theorem]{Algorithm}
+		\newtheorem{case}{Case}
+		\newtheorem*{claim}{Claim}
+		\newtheorem*{counterexample}{Counterexample}
+		\newtheorem*{definition}{Definition}
+		\newtheorem*{example}{Example}
+		\newtheorem*{exercise}{Exercise}
+		\newtheorem*{fact}{Fact}
+		\newtheorem*{note}{Note}
+		\newtheorem*{notation}{Notation}
+		\newtheorem*{problem}{Problem}
+		\newtheorem*{remark}{Remark}
+		\newtheorem*{question}{Question}
+		\newtheorem{puzzle}{Puzzle}
+		\newtheorem*{joke}{Joke}
+		\newtheorem*{motivation}{Motivation}
+	\else
+	\fi
+
+	%Page Setup
+	\ifevanfancy
+		\usepackage{fancyhdr}
+		\setlength{\headheight}{0.75in}
+		\setlength{\oddsidemargin}{0in}
+		\setlength{\evensidemargin}{0in}
+		\setlength{\voffset}{-1.0in}
+		\setlength{\headsep}{10pt}
+		\setlength{\textwidth}{6.5in}
+		\setlength{\headwidth}{6.5in}
+		\setlength{\textheight}{8.75in}
+		\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+		\setlength{\textwidth}{6.5in}
+
+		\addtolength{\headheight}{-0.4in}
+		\addtolength{\textheight}{1in}
+		\setlength{\footskip}{0.3in}
+
+		\@ifundefined{KOMAClassName}
+		{
+			\addtolength{\posttitledrop}{0.4em}
+			\addtolength{\postauthordrop}{0.2em}
+		}
+		{
+			\addtolength{\headheight}{1cm}
+			\addtolength{\textheight}{2cm}
+		}
+
+
+			%Setup FancyHeaders
+			\ifevanhdr
+			\renewcommand{\headrulewidth}{0.5pt}
+			\renewcommand{\footrulewidth}{0.3pt}
+			\pagestyle{fancy}
+			\lhead{\thetitle, by Evan Chen}
+			\chead{}
+			\rhead{\thepage}
+			\lfoot{\today}
+			\cfoot{}
+			\rfoot{}  %\rfoot{Page \thepage \  of \pageref{LastPage}}
+			\else
+			\fi
+	\else
+	\fi
+
+	%Href
+	\ifevanhref
+		\usepackage{hyperref}
+	\else
+	\fi
+
+	\ifevanmassive
+		\usepackage{anyfontsize}
+		%Custom Font Size Commands
+		\newcommand{\massive}{\fontsize{48}{53}\selectfont}
+		\newcommand{\Massive}{\fontsize{60}{66}\selectfont}
+		\newcommand{\MASSIVE}{\fontsize{72}{79}\selectfont}
+		\newcommand{\colossal}{\fontsize{120}{132}\selectfont}
+		\newcommand{\Colossal}{\fontsize{180}{198}\selectfont}
+		\newcommand{\COLOSSAL}{\fontsize{240}{264}\selectfont}
+	\else
+	\fi
+
+\else
+\fi

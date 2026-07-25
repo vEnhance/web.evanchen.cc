@@ -1,0 +1,47 @@
+\section{USA TSTST 2011/4}
+\label{exam:2011tstst4}
+The solution to this problem involves a synthetic observation, followed by an application of Vieta.   Normally, solving for $P$ involves an incredibly painful quadratic.  However, by first computing the other intersection, we can actually use Vieta to deduce the coordinate of the point we care about.
+\secps
+\begin{problem}[TSTST Problem 4]
+  Acute triangle $ABC$ is inscribed in circle $\omega$. Let $H$ and $O$ denote its orthocenter and circumcenter, respectively. Let $M$ and $N$ be the midpoints of sides $AB$ and $AC$, respectively. Rays $MH$ and $NH$ meet $\omega$ at $P$ and $Q$, respectively. Lines $MN$ and $PQ$ meet at $R$. Prove that $OA \perp RA$.
+\end{problem}
+
+\barydiagram{2011 TSTST, Problem 4}{2011tstst4}
+
+\begin{soln}
+  (Evan Chen) We use barycentric coordinates.  Set $A=(1,0,0)$, $B=(0,1,0)$ and $C=(0,0,1)$.  Let $T_A = \frac{1}{S_A}$ in Conway's Notation, so that $H = (T_A : T_B : T_C)$.
+
+  First we will compute the point $R' = (x:y:z)$ on $MN$ with $R'A \perp OA$.  Setting $\vec O = 0$, and applying Strong EFFT, we find that the point satisfies equations $c^2y+b^2z=0$ (per EFFT) and $x=y+z$ (per midline).  Thus, we may write $\boxed{R' = (b^2-c^2:b^2:-c^2)}$.
+
+  Next, we will compute the coordinates of $P$.  Check that we have the line \[ HM: x-y + \frac{T_B - T_A}{T_C} z = 0 \] Furthermore, the circumcircle has equation $z[a^2y+b^2x] + c^2xy = 0$.  WLOG, homogenize so that $z=-T_C$; then the first equation becomes $y = x + T_A - T_B$.  Substituting in the second equation, this becomes simply
+  \[ c^2x(x+(T_A-T_B)) + a^2(-T_C)(x+T_A-T_B) + b^2(-T_C)(x) = 0 \]
+  Expanding, and collecting coefficients of $x$, this reduces to
+  \[ c^2x^2 + [c^2(T_A-T_B)-a^2T_C-b^2T_C] x + a^2(-T_C)(T_A-T_B) = 0 \]
+
+  Now here's the trick: it's well known that the reflection of $H$ across $M$ lies on the circle.  So the other solution to this equation is $\vec H' = \vec A + \vec B - \vec H$ (since $H'AHB$ is a parallelogram).  We can thus quickly deduce that, in barycentric coordinates, $H'=(T_B+T_C : T_A+T_C : -T_C)$.  So by Vieta's Formulas, the $x$-coordinate we seek is just
+  \[ x = -\frac{c^2(T_A-T_B)-a^2T_C-b^2T_C}{c^2} - (T_B+T_C) = \frac{a^2+b^2-c^2}{c^2} T_C - T_A \]
+  Hence, \[ y = \frac{a^2+b^2-c^2}{c^2} T_C - T_B \]
+
+  So finally, we obtain \[ \boxed{P = \left( \frac{a^2+b^2-c^2}{c^2} T_C - T_A : \frac{a^2+b^2-c^2}{c^2}T_C - T_B : -T_C \right)} \] Similarly, \[ \boxed{Q = \left( \frac{a^2+c^2-b^2}{b^2} T_B - T_A : -T_B : \frac{a^2+c^2-b^2}{b^2}T_B - T_C \right) } \]
+
+  It remains to show that $P$, $Q$ and $R'$ are collinear.  This occurs if and only if
+  \[ 0 = \det \left( \begin{array}{ccc}
+  \frac{a^2+b^2-c^2}{c^2} T_C - T_A & \frac{a^2+b^2-c^2}{c^2}T_C - T_B & -T_C \\
+  \frac{a^2+c^2-b^2}{c^2} T_B - T_A & -T_B & \frac{a^2+c^2-b^2}{b^2}T_B - T_C  \\
+  b^2-c^2 & b^2 & -c^2 \end{array} \right) \]
+
+  Subtracting the second and third column from the first, this is equivalent to
+  \[ 0 = \det \left( \begin{array}{ccc}
+  T_C + T_B - T_A & \frac{a^2+b^2-c^2}{c^2}T_C - T_B & -T_C \\
+  T_C + T_B - T_A & -T_B & \frac{a^2+c^2-b^2}{b^2}T_B - T_C  \\
+  0 & b^2 & -c^2 \end{array} \right) \]
+
+  Expanding the determinant, and factoring out the term $T_C+T_B-T_A$, we see that it suffices to show that
+  \[ 0 = c^2T_B - b^2T_C - \left[ -(c^2)\left(\frac{a^2+b^2-c^2}{c^2} T_C - T_B\right) + (b^2)\left(\frac{a^2+c^2-b^2}{b^2} T_B - T_C \right) \right]\]
+  Expanding, this is just
+  \[ -(a^2-b^2+c^2) T_B + (a^2+b^2-c^2) T_C \]
+
+  But $T_B = \frac{1}{S_B} = \frac{2}{a^2-b^2+c^2}$ and $T_C = \frac{2}{a^2+b^2-c^2}$.  Since $-2 + 2 = 0$, we conclude that the three points are collinear.
+
+\seccm
+The application of Vieta played a critical role in this problem.  BTW, during the actual TSTST, only one person successfully bashed this problem (via complex numbers).  Had I known about this technique at the time, I think I could have gotten a positive score on Day 2.

@@ -1,0 +1,40 @@
+\section{USAMO 2008/2}
+\label{exam:2008usamo2}
+We follow this with another problem, made possible by EFFT (theorem \ref{tech:efft}).  As we shall see, EFFT is particularly useful for constructing perpendiculars to the sides of the triangle.
+
+\secps
+\begin{problem}[USAMO 2008/2]
+  Let $ABC$ be an acute, scalene triangle, and let $M$, $N$, and $P$ be the midpoints of $\overline{BC}$, $\overline{CA}$, and $\overline{AB}$, respectively. Let the perpendicular bisectors of $\overline{AB}$ and $\overline{AC}$ intersect ray $AM$ in points $D$ and $E$ respectively, and let lines $BD$ and $CE$ intersect in point $F$, inside of triangle $ABC$. Prove that points $A$, $N$, $F$, and $P$ all lie on one circle.
+\end{problem}
+
+\barydiagram{USAMO 2008/2}{2008usamo2}
+
+\begin{soln}
+  (Evan Chen) Set $A=(1,0,0)$, $B=(0,1,0)$ and $C=(0,0,1)$.  Evidently $P=(\frac12, \frac12, 0)$, etc.  Check that the equation of the line $AM$ is $y=z$.
+
+  We will now compute the coordinates of the point $D$.  Write $D=(1-2t, t, t)$ as it lies on the line $AM$.  Applying EFFT to $DP \perp AB$,
+  \begin{align*}
+  \left(\left(t-\frac12\right) - \left(\frac12 - 2t\right)\right)\left(-c^2/2\right) + t\left(a^2-b^2/2\right) &= 0\\
+  \implies (3t-1)(-c^2) + t(a^2-b^2) &= 0 \\
+  \implies (a^2-b^2-3c^2)t &= -c^2 \\
+  \implies t &= \frac{c^2}{3c^2+b^2-a^2}
+  \end{align*}
+  Call this value $j$.  Then $D=(1-2j, j, j)$.  Similarly, $E=(1-2k, k, k)$ where $k= \frac{b^2}{3b^2+c^2-a^2}$.
+
+  Now the line $BD$ has equation $\frac zx = \frac{j}{1-2j}$, whilst the line $CE$ has equation $\frac yx = \frac{k}{1-2k}$.  So if $F=(p,q,r)$, then $p+q+r=1$, $\frac rp = \frac{j}{1-2j}$, and $\frac qp = \frac{k}{1-2k}$.
+
+  In fact, $\frac rp = \frac{c^2}{(3c^2+b^2-a^2)-2c^2} = \frac{c^2}{c^2+b^2-a^2}$, and $\frac qp = \frac{b^2}{b^2+c^2-a^2}$.  Evidently $\frac 1p = 1 + \frac rp + \frac qp = 1+\frac{b^2+c^2}{c^2+b^2-a^2} = \frac{2S+a^2}{S} = 2 +\frac{a^2}{S}$.  Let $S = c^2+b^2-a^2$ for convenience.
+
+  Dilate $F$ to $F'=2F-A = (2p-1, 2q, 2r)$.  It suffices to show this lies on the circumcircle of triangle $ABC$ (since this will send $P$ and $N$ to $B$ and $C$, respectively), which has equation $a^2yz + b^2zx + c^2xy=0$.  Hence it suffices to show that
+  \begin{align*}
+  0 &= a^2(2q)(2r) + b^2(2r)(2p-1) + c^2(2p-1)(2q) \\
+  \iff 0 &= 4a^2\frac qp \frac rp + (2+\frac1p)(2b^2 \frac rp + 2c^2 \frac qp) \\
+  \iff -(2-(2+\frac{a^2}{S}))(2b^2 \frac{c^2}{S} + 2c^2 \frac{b^2}{S}) &= 4a^2 \frac{b^2c^2}{S^2}  \\
+  \iff a^2(2b^2c^2 + 2c^2b^2) &= 4a^2b^2c^2 \\
+  \iff 4a^2b^2c^2 &= 4a^2b^2c^2
+  \end{align*}
+  which is true.
+\end{soln}
+
+\seccm
+EFFT provides a method for constructing the perpendicular bisectors (in actuality this is just corollary \ref{tech:perpbis}), from which it is not hard at all to intersect lines.  The final conclusion involves a circle, so we dilate the points such that this circle is simply the circumcircle, which has a very simple form.

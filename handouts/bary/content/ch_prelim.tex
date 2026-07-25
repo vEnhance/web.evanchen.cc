@@ -1,0 +1,42 @@
+\chapter{Preliminaries}
+\begin{quote}
+  So many problems are killed by it.  It's just that no one knows it.
+  \\ --Max Schindler
+\end{quote}
+
+Over the course of olympiad geometry, several computational approaches have surfaced as a method of producing complete solutions to geometry problems given sufficient computational fortitude.  Each has their advantages and drawbacks.
+
+\textit{Barycentric coordinates}, also called areal coordinates, provide a new ``bash'' approach for geometry problems.  Barycentric coordinates offer a length-based, coordinate approach to geometry problems.
+
+\section{Advantages of barycentric coordinates}
+The advantages of the system include
+\begin{itemize}
+  \item Sides of the triangle playing the role of the axes.
+  \item Simple expressions for lines in general, making it computationally feasible to intersect lines.
+  \item Simple forms for some common points (centroid, incenter, symmedian point...)
+  \item Very strong handling of ratios of lengths.
+  \item A useful method for dropping arbitrary perpendiculars.
+  \item An area formula.
+  \item Circle formula.
+  \item Distance formula.
+\end{itemize}
+
+
+This arsenal of tools is far more extensive than that of many other computational techniques.  Cartesian coordinates are woefully inadequate for most olympiad geometry problems because the forms for special points are typically hideous, and the equation of a circle is difficult to work with.  Complex numbers and vectors are more popular, but the concept of an ``equation of a line'' is complicated in the former and virtually nonexistent in the latter.
+
+
+\section{Notations and Conventions}
+\begin{StoreCode}{tech}
+Throughout this paper, $\triangle ABC$ is a triangle with vertices in counterclockwise order.   The lengths will be abbreviated $a=BC$, $b=CA$, $c=AB$.  These correspond with points in the vector plane $\vec A$, $\vec B$, $\vec C$.
+%Finally, we will assume that the circumcenter $O$ of $ABC$ is at the null vector $\vec 0$. %Do we want this?
+
+For arbitrary points $P$, $Q$, $R$, $[PQR]$ will denote the signed area of $\triangle PQR$.\footnote{For $ABC$ counterclockwise, this is positive when $P$, $Q$ and $R$ are in counterclockwise order, and negative otherwise.  When $ABC$ is labeled clockwise the convention is reversed; that is, $[PQR]$ is positive if and only if it is oriented in the same way as $ABC$.  In this article, $ABC$ will always be labeled counterclockwise.}
+\end{StoreCode}
+
+
+\section{How to Use this Article}
+You could read the entire thing, but the page count makes this prospect rather un-inviting.  About half of it is theory, and half of it is example problems; it's probably possible to read either half only and then go straight to the problems.
+
+I'm assuming that the majority of readers would like to read just the examples, and attack the problems with a formula sheet beside them.  I've included Appendix \ref{appendix:formulasheet} to facilitate these needs; I also have a version which includes \textit{just} the formula sheet and the problems, which should be floating around.
+
+Happy bashing!

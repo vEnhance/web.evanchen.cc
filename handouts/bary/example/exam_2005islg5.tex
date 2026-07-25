@@ -1,0 +1,93 @@
+\section{ISL 2005 G5}
+\label{exam:2005islg5}
+We now present a solution to an ISL problem involving Strong EFFT (theorem \ref{tech:strongefft}).  This problem was proposed by Romania, and is relatively difficult to approach synthetically.
+
+\secps
+\begin{problem}[ISL 2005/G5]
+  Let $\triangle ABC$ be an acute-angled triangle with $AB \neq AC$. Let $H$ be the orthocenter of triangle $ABC$, and let $M$ be the midpoint of the side $BC$. Let $D$ be a point on the side $AB$ and $E$ a point on the side $AC$ such that $AE=AD$ and the points $D$, $H$, $E$ are on the same line. Prove that the line $HM$ is perpendicular to the common chord of the circumscribed circles of triangle $\triangle ABC$ and triangle $\triangle ADE$.
+\end{problem}
+
+\barydiagram{ISL 2005 G5}{2005islg5}
+
+\begin{soln}
+  (Max Schindler) We use barycentric coordinates.
+
+  Let the length $AD=AE=\ell$.
+
+  Then, $D=(c-\ell:\ell:0)$, $E=(b-\ell:0:\ell)$, and, using Conway's Notation, $H=\left(\frac{1}{S_A}:\frac{1}{S_B}:\frac{1}{S_C}\right)$.
+
+  Since they are collinear,
+  \begin{align*}
+  \det \left(
+  \begin{array}{ccc}
+  c-\ell & \ell & 0 \\
+  b-\ell & 0 & \ell \\
+  \frac{1}{S_A} & \frac{1}{S_B} & \frac{1}{S_C}
+  \end{array}
+  \right) &=0 \\
+  \implies \frac{-\ell(c-\ell)}{S_B}-\ell\left(\frac{b-\ell}{S_C}-\frac{\ell}{S_A}\right) &= 0 \\
+  \implies \frac{cS_C-bS_B}{S_BS_C} &= \ell\left[\frac{1}{S_A}+\frac{1}{S_B}+\frac{1}{S_C}\right]
+  \end{align*}
+
+
+
+  Thus, $\ell = \frac{S_A(cS_C-bS_B)}{S_BS_C+S_AS_C+S_AS_B}$.
+
+  Substituting in $S_A=\frac{b^2+c^2-a^2}{2}$ and similar, remembering that $S_BS_C+S_AS_C+S_AS_B=S^2$ gives:
+
+  \[ \ell=\frac{(b^2+c^2-a^2)[c(a^2+b^2-c^2)+b(a^2-b^2+c^2)]}{(a+b+c)(a+b-c)(b+c-a)(c+b-a)}\]
+
+  It can easily be seen that $c=-b$ is a root of the bracketed part of the numerator; factoring it out leaves $a^2+2bc-b^2-c^2=a^2-(b-c)^2=(a-b+c)(a+b-c)$.
+
+  Thus, \[ \ell=\frac{(b^2+c^2-a^2)(b+c)(a-b+c)(a+b-c)}{(a+b+c)(a+b-c)(b+c-a)(c+b-a)} \implies \boxed{\ell = \frac{(b^2+c^2-a^2)(b+c)}{(a+b+c)(b+c-a)}}\]
+
+
+
+
+  Meanwhile, the circumcircle of $ADE$ has equation given by $-a^2yz-b^2zx-c^2xy + (x+y+z)(ux+vy+wz) = 0$, as usual, so upon substituting the points $A$, $D$ and $E$ we find that
+
+  \begin{align*}
+     u &= 0 \\
+     -c^2(c-\ell)(\ell) + c\left((c-\ell) u + \ell v\right) &= 0 \\
+     -b^2(b-\ell)(\ell) + b\left((b-\ell) u + \ell w\right) &= 0
+  \end{align*}
+
+  Conveniently enough, the first equation immediately gives $u=0$, and we can easily solve for $v$ and $w$ to get $v = c(c-\ell)$ and $w=b(b-\ell)$.
+
+  Now we need the common chord of the two circles
+
+  \begin{align*}
+     -a^2yz - b^2zx - c^2xy &= 0 \\
+     -a^2yz - b^2zx - c^2xy + (x+y+z)(c(c-\ell) y + b(b-\ell) z) &= 0\\
+  \end{align*}
+
+  But this is easy: subtract the two equations.  We find that the common chord has equation
+  \[ c(c-\ell) y + b(b-\ell) z = 0\]
+
+
+
+
+  Now, we have everything we need to finish this problem off.
+
+  Consider two points on this chord, $A=(1,0,0)$ and $P=(0:b(b-\ell):-c(c-\ell))$.
+
+  Then, the (scaled) displacement vector $\overrightarrow{PA}$ is $(b(b-\ell)-c(c-\ell):-b(b-\ell):c(c-\ell))$.
+
+  Let the circumcenter be the null vector. Then, the displacement vector $\overrightarrow{MH}$ is $\vec A+\vec B + \vec C-\frac{\vec B + \vec C}{2}=\left(1,\frac{1}{2},\frac{1}{2}\right)$ which can be scaled as $(2:1:1)$
+
+  Since $PA$ has coefficient-sum $0$, we can apply Strong EFFT: \[ MH \perp PA \Leftrightarrow a^2[c(c-\ell)-b(b-\ell)]+b^2[c(c-\ell)+b(b-\ell)]+c^2[-b(b-\ell)-c(c-\ell)] =0 \] which becomes  \[ b(a^2-b^2+c^2)(b-\ell)=c(a^2+b^2-c^2)(c-\ell) \]
+
+  But we have \[ b-\ell=\frac{b(a+b+c)(b+c-a)-(b^2+c^2-a^2)(b+c)}{(a+b+c)(b+c-a)}=\frac{c(a^2+b^2-c^2)}{(a+b+c)(b+c-a)}\]  Similarly, \[ c-\ell=\frac{b(a^2-b^2+c^2)}{(a+b+c)(b+c-a)} \]
+
+  Thus,
+  \begin{align*}
+    b(a^2-b^2+c^2)(b-\ell) &= b(a^2-b^2+c^2)\frac{c(a^2+b^2-c^2)}{(a+b+c)(b+c-a)} \\
+    &=c(a^2+b^2-c^2)(c-\ell) \\
+    &\implies MH \perp PA
+  \end{align*}
+\end{soln}
+
+\seccm
+While we eventually did have to use the somewhat messy form of $H$, Strong EFFT permits us to avoid doing so when finding the condition for perpendicular chords.  The other useful insight was computing the radical axis by simply subtracting the two equations: keep this in mind!
+
+By the way, it is true in general (as the diagram implies) that $M$, $H$ and $F$ are collinear.  To my best knowledge, the easiest way to prove this is to first prove the original problem.

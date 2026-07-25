@@ -1,0 +1,95 @@
+\chapter{The Basics}
+\begin{quote}
+  We will bary you!
+  \\ -- Schindler-Khruschev
+\end{quote}
+
+\section{The Coordinates}
+\begin{StoreCode}{tech}
+\begin{definition}
+  Each point in the plane is assigned an ordered triple of real numbers $P = (x,y,z)$ such that \[ \vec P = x \vec A + y \vec B + z \vec C \quad \text{and} \quad x+y+z = 1 \]
+\end{definition}
+\end{StoreCode}
+
+It is not hard to verify that the coordinates of any point are well-defined.  These are sometimes called areal coordinates because if $P=(x,y,z)$, then the signed area $[CPB]$ is equal to $x[ABC]$, and so on \cite{infinity,abel}.  In other words, these coordinates can viewed as \[ P = \frac{1}{[ABC]}([PBC], [PCA], [PAB]) \]
+
+Of course, notice that $A=(1,0,0)$, $B=(0,1,0)$ and $C=(0,0,1)$!  This is why barycentric coordinates are substantially more suited for standard triangle geometry problems.
+
+\begin{exercise}
+  Find the coordinates for the midpoint of $AB$.
+\end{exercise}
+\begin{exercise}
+  When is a point $(x,y,z)$ in the interior of a triangle?
+\end{exercise}
+
+
+\section{Lines}
+\subsection{The Equation of a Line}
+The equation of a line \cite{infinity,abel} in barycentric coordinates is astoundingly simple.
+\begin{StoreCode}{tech}
+\begin{theorem}[Line]
+  \label{tech:line}
+  The equation of a line is $ux+vy+wz = 0$ where $u,v,w$ are reals.  (These $u$, $v$ and $w$ are unique up to scaling.)
+\end{theorem}
+\end{StoreCode}
+This is a corollary of the area formula, Theorem \ref{tech:area}.
+
+In particular, if a line $\ell$ passes through a vertex, say $A$, then $u(1) + v(0) + w(0) = 0 \implies u= 0$.  So we rearrange to obtain
+\begin{corollary}[Line through a vertex]
+  The equation of a line passing through $A$ is simply of the form $y = kz$ for some constant $k$.
+\end{corollary}
+
+In particular, the equation for the line $AB$ is simply $z=0$, by substituting $(1,0,0)$ and $(0,1,0)$ into $ux+vy+wz=0$.
+
+\subsection{Ceva and Menelaus}
+In fact, the above techniques are already sufficient to prove both Ceva's and Menelaus's Theorem, as in \cite{infinity}.
+\begin{corollary}[Ceva's Theorem]
+  \label{tech:ceva}
+  Let $AD$, $BE$ and $CF$ be cevians of a triangle $ABC$.  Then the cevians concur if and only if \[ \frac{BD}{DC} \frac{CE}{EA} \frac{AF}{FB} = 1\]
+\end{corollary}
+\begin{proof}
+  Since $D$ lies on $BC$, the point $D$ has the form $D=(0,d,1-d)$.  So the equation of line $AD$  is simply \[ z = \frac{1-d}{d} y \] Similarly, if we let $E=(1-e,0,e)$ and $F=(f,1-f,0)$ then the lines $BE$ and $CF$ have equations $x = \frac{1-e}{e} z$ and $y = \frac{1-f}{f} x$, respectively.
+
+  Notice that this system of three equations is homogeneous, so we may ignore the condition that $x+y+z=1$ temporarily.  Then it is easy to see that this equation has solutions if and only if \[ \frac{(1-d)(1-e)(1-f)}{def} = 1 \] which is equivalent to Ceva's Theorem.
+\end{proof}
+
+\begin{exercise}
+  Prove Menelaus's Theorem.
+\end{exercise}
+
+\section{Special points in barycentric coordinates}
+\label{sec:specialpt}
+Here we give explicit forms for several special points in barycentric coordinates (compiled from \cite{infinity,wolfram,yiu}).  In this section, it will be understood that $(u:v:w)$ refers to the point $\frac{1}{u+v+w} (u,v,w)$; that is, we are not normalizing the coordinates such that they sum to $1$.\footnote{These ``standard'' coordinates with $u+v+w=1$ are sometimes referred to \textit{homogenized barycentric coordinates} to emphasize the distinction.}
+
+\StoreText{\subsubsection*{Coordinates of Special Points} From this point on, the point $(kx:ky:kz)$ will refer to the point $(x,y,z)$ for $k \neq 0$.  In fact, the equations for the line and circle are still valid; hence, when one is simply intersecting lines and circles, it is permissible to use these un-homogenized forms in place of their normal forms.}{tech}
+
+\begin{StoreCode}{tech}
+Again, the coordinates here are not homogenized!
+
+\begin{tabular}{r|ll}
+Point & Coordinates & Sketch of Proof \\ \hline
+Centroid & $G = (1:1:1)$ & Trivial \\
+Incenter & $I = (a:b:c)$ & Angle bisector theorem \\
+Symmedian point & $K=(a^2:b^2:c^2)$ & Similar to above \\
+Excenter & $I_a = (-a:b:c)$, etc. & Similar to above \\
+Orthocenter & $H=(\tan A : \tan B : \tan C)$ & Use area definition \\
+Circumcenter & $O=(\sin 2A : \sin 2B : \sin 2C)$ & Use area definition
+\end{tabular}
+
+\end{StoreCode}
+
+One will notice that $O$ and $H$ are not particularly nice in barycentric coordinates (as compared to in, say, complex numbers), but $I$ and $K$ are particularly pretty.
+
+\begin{StoreCode}{tech}
+  If absolutely necessary, it is sometimes useful to convert the trigonometric forms of $H$ and $O$ into expressions entirely in terms of the side lengths (cf. \cite{wolfram,yiu}) by \[ O = (a^2(b^2+c^2-a^2) : b^2(c^2+a^2-b^2) : c^2(a^2+b^2-c^2)) \] and \[ H = ((a^2+b^2-c^2)(c^2+a^2-b^2) : (b^2+c^2-a^2)(a^2+b^2-c^2) : (c^2+a^2-b^2)(b^2+c^2-a^2)) \]
+\end{StoreCode}
+%\StoreText{\eject}{tech}
+As we will see in section \ref{sec:conway}, Conway's notation gives a more viable way of manipulating the expressions.
+
+\begin{exercise}
+  Prove the formulas given in the table above are correct (or email me telling me about a typo.)
+\end{exercise}
+
+Some of these proofs are given in \cite{abel}.
+
+When calculating ratios and areas, etc., it is important that coordinates are normalized.  There are circumstances where it is both legitimate and computationally easier to use $(kx:ky:kz)$ in place of $(x,y,z)$.  See section \ref{sec:notnormal} for details.  It is recommended that one keep coordinates normalized when they are still learning this technique in order to avoid pitfalls.

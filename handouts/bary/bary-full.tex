@@ -1,0 +1,69 @@
+\documentclass[11pt, notitlepage]{report}
+%\usepackage[amsthm,hyperref]{ntheorem}
+\usepackage[nohdr]{evan}
+%\lhead{Barycentric Coordinates}
+\usepackage{StoreCode}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\LARGE\bfseries}{\chaptertitlename\ \thechapter}{10pt}{\huge}
+\titlespacing*{\chapter}{0pt}{0pt}{10pt}
+%\renewcommand{\vec}[1]{\overrightarrow{#1}}
+
+\newif\iflong
+\longtrue
+
+
+%TODO LIST:
+%Add special circles
+%Clean up TSTST #2
+
+\begin{document}
+\title{Barycentric Coordinates in Olympiad Geometry}
+\author{
+  Max Schindler\thanks{Mewto55555, Missouri.
+  I can be contacted at \href{mailto:igoroogenflagenstein@gmail.com}{igoroogenflagenstein@gmail.com}.}
+  \qquad
+  Evan Chen\thanks{v\_Enhance, SFBA.
+  %I am much indebted to Max Schindler for this fantastic technique.
+  I can be reached at \href{mailto:chen.evan6@gmail.com}{chen.evan6@gmail.com}.}
+  }
+\date{July 13, 2012}
+
+\addcontentsline{toc}{chapter}{Title Page}
+\maketitle
+
+
+%\vspace*{.2\textheight}
+\begin{center}
+\begin{minipage}{8.4cm}
+  \textit{I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.}
+\end{minipage}
+\end{center}
+
+%\vspace*{2cm}
+
+\begin{abstract}
+In this paper we present a powerful computational approach to large class of olympiad geometry problems-- barycentric coordinates.  We then extend this method using some of the techniques from vector computations to greatly extend the scope of this technique.
+
+Special thanks to Amir Hossein and the other olympiad moderators for helping to get this article featured: I certainly did not have such ambitious goals in mind when I first wrote this!
+\end{abstract}
+%\clearpage
+%\addcontentsline{toc}{chapter}{Table of Contents}
+\tableofcontents
+
+\include{content/ch_prelim}
+\include{content/ch_basic}
+\include{content/ch_tech1}
+\include{content/ch_tech2}
+\include{content/ch_example}
+\include{content/ch_exer}
+\include{content/ch_mop}
+
+\appendix
+\include{content/ch_append}
+\include{content/ch_bib}
+
+
+%\TempToTeX{tech}
+
+\end{document}

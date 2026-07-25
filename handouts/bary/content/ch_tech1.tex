@@ -1,0 +1,144 @@
+\chapter{Standard Strategies}
+\begin{quote}
+  Uh, perpendiculars should be okay right?  Dot product?
+  \\ -- Evan Chen, on EFFT
+\end{quote}
+
+This chapter will cover some typical techniques which arise in olympiad problems.
+
+First, we begin the following definition \cite{infinity}:
+\begin{StoreCode}{tech}
+\begin{definition}
+  The \textit{displacement vector} of two (normalized) points $P = (p_1, p_2, p_3)$ and $Q = (q_1, q_2, q_3)$ is denoted by $\overrightarrow{PQ}$ and is equal to $(p_1-q_1, p_2-q_2, p_3-q_3)$.
+\end{definition}
+\end{StoreCode}
+
+Note that the sum of the coordinates of a displacement vector is $0$.
+
+In the proofs of this chapter, we will invoke some properties which will be familiar to those who have done vector bashing; namely, when $\vec O = \vec 0$
+\begin{align*}
+  \vec A \cdot \vec A &= R^2 \\
+  \vec A \cdot \vec B &= R^2-c^2/2
+\end{align*}
+where $R$ is the circumradius.
+
+If you don't care about the proofs, then this doesn't matter; otherwise, see appendix \ref{appendix:vectors} for a treatise on some elementary vector bashing.
+
+This chapter will frequently involve translating $O$ to the null vector $\vec 0$, so that we may invoke useful properties about dot products mentioned above.  This is valid since the point $(x,y,z)$ satisfies $x+y+z=1$, so translation is actually an invariant.  As a consequence, however, take heed of the following.
+\begin{note}
+  It is important that $x+y+z=1$ when doing calculations!
+\end{note}
+
+
+
+
+
+\StoreText{\subsubsection*{A Note on Scaling Displacement Vectors} In EFFT, one can write a displacement vector $(x,y,z)$ as $(kx:ky:kz)$, and the theorem will still be true.  This is also true for Strong EFFT, but NOT for the distance formula.}{tech}
+
+\section{EFFT: Perpendicular Lines}
+In fact there is a fast characterization for when two lines $MN$ and $PQ$ are perpendicular.  This lemma also appears in \cite{book}, with a proof via the Pythagorean Theorem.
+\begin{StoreCode}{tech}
+\begin{theorem}[Evan's Favorite Forgotten Trick]
+  \label{tech:efft}
+  Consider displacement vectors $\overrightarrow{MN} = (x_1, y_1, z_1)$ and $\overrightarrow{PQ} = (x_2, y_2, z_2)$.  Then $MN \perp PQ$ if and only if
+  \[  0 = a^2(z_1y_2 + y_1z_2) + b^2(x_1z_2 + z_1x_2) + c^2(y_1x_2 + x_1y_2)\]
+\end{theorem}
+\end{StoreCode}
+\begin{proof}
+  Translate $\vec O$ to $\vec 0$.  It is necessary and sufficient that $(x_1\vec A + y_1\vec B + z_1 \vec C) \cdot (x_2 \vec A + y_2 \vec B + z_2 \vec C) = 0$.  Expanding, this is just
+  \[ \cycsum \left(x_1x_2 \vec A \cdot \vec A \right) + \cycsum \left( \left(x_1y_2 + x_2y_1\right) \vec A \cdot \vec B \right) = 0 \]
+
+  Utilizing the fact that $\vec O = \vec 0$, we make the standard substitutions and rearrange:
+
+  \begin{align*}
+    \iff \cycsum (x_1x_2 R^2) + \cycsum \left(x_1y_2 + x_2y_1\right)\left(R^2 - \frac{c^2}{2}\right) &= 0 \\
+    \iff R^2 \left( \cycsum (x_1x_2) + \cycsum(x_1y_2 + x_2y_1) \right) &= \half \cycsum \left( (x_1y_2 + x_2y_1)(c^2) \right) \\
+    \iff R^2 (x_1 + y_1 + z_1)(x_2 + y_2 + z_2) &= \half \cycsum \left( (x_1y_2 + x_2y_1)(c^2) \right) \\
+    \iff R^2 \cdot 0 \cdot 0 &= \half \cycsum \left( (x_1y_2 + x_2y_1)(c^2) \right) \\
+    \iff 0 &= \cycsum \left( (x_1y_2 + x_2y_1)(c^2) \right)
+  \end{align*}
+  since $x_1+y_1+z_1 = x_2+y_2+z_2 = 0$ (remember that $(x_1, y_1, z_1)$ is a displacement vector!).
+\end{proof}
+We will see later, in Section \ref{sec:notnormal}, that this holds for \textit{scaled} displacement vectors.
+
+This will be abbreviated EFFT\footnote{Hi Simon.} throughout this document.  As we shall see, EFFT increases the scope of solvable problems by providing a usable method for constructing perpendiculars, and in particular, perpendicular bisectors.
+
+EFFT is particularly useful when one of the displacement vectors is the side of the triangle.  For instance, we may deduce
+\begin{StoreCode}{tech}
+\begin{corollary}
+  Consider a displacement vector $\overrightarrow{PQ} = (x_1,y_1,z_1)$.  Then $PQ \perp BC$ if and only if
+  \[ 0 = a^2(z_1-y_1) + x_1(c^2-b^2) \]
+\end{corollary}
+\begin{corollary}
+  \label{tech:perpbis}
+  The perpendicular bisector of $BC$ has equation
+  \[ 0 = a^2(z-y) + x(c^2-b^2) \]
+\end{corollary}
+\end{StoreCode}
+\begin{exercise}
+  Prove the above corollaries, and deduce the Pythagorean Theorem.
+\end{exercise}
+
+EFFT is used in many problems, e.g. problems \ref{exam:2008usamo2} and \ref{exam:2012wootpo47}.  Its generalization Strong EFFT (cf. Theorem \ref{tech:strongefft}) is also useful and is invoked in problem \ref{exam:2005islg5}.
+
+
+
+
+
+
+\section{Distance Formula}
+The distance formula \cite{infinity} can be proved by precisely the same means as EFFT:
+\begin{StoreCode}{tech}
+\begin{theorem}[Distance Formula]
+  \label{tech:distance}
+  Consider a displacement vector $\overrightarrow{PQ} = (x,y,z)$.  Then \[ |PQ|^2 = -a^2yz - b^2zx - c^2xy \]
+\end{theorem}
+\end{StoreCode}
+\begin{exercise}
+  Prove the distance formula by using \[ PQ^2 = (x\vec A + y\vec B + z \vec C) \cdot (x \vec A + y \vec B + z \vec C) \] and the fact that $x+y+z=0$.
+\end{exercise}
+
+
+
+
+
+
+
+
+
+\section{Circles}
+
+\subsection{Equation of the Circle}
+Not surprisingly, the equation of a circle \cite{infinity} is much more annoying than anything that has showed up so far.  Nonetheless, it is certainly usable, particularly in certain situations described below.
+
+\begin{StoreCode}{tech}
+\begin{theorem}
+  \label{tech:circle}
+  The general equation of a circle is \[ -a^2yz - b^2zx -c^2xy + (ux+vy+wz)(x+y+z) = 0 \] for reals $u,v,w$.
+\end{theorem}
+\end{StoreCode}
+\begin{proof}
+  Assume the circle has center $(j,k,l)$ and radius $r$.  Then this is just
+  \[ -a^2(y-k)(z-l) - b^2(z-l)(x-j) - c^2(x-j)(y-k) = r^2 \]
+  Expand everything, and collect terms to get
+  \[ -a^2yz - b^2zx - c^2xy + C_1 x + C_2 y + C_3 z = C \]
+  for some hideous constants $C_i$ and $C$.  Since $x+y+z = 1$, we can rewrite this as
+  \[ -a^2yz - b^2zx - c^2xy + ux + vy + wz = 0 \iff -a^2xy - b^2yz -c^2zx + (ux+vy+wz)(x+y+z) = 0\]
+  where $u=C_1-C$, et cetera.
+\end{proof}
+
+Fortunately, most circles that we are concerned with have much cleaner forms.  For example, as in \cite{infinity},
+\begin{StoreCode}{tech}
+\begin{corollary}
+  The circumcircle has equation \[ a^2yz + b^2zx + c^2xy = 0 \]
+\end{corollary}
+\end{StoreCode}
+\begin{exercise}
+  Prove the above corollary.
+\end{exercise}
+
+Furthermore, circles passing through vertices of the triangle make for more elegant circle formulas, since many terms in the circle equation vanish.
+
+\begin{note}
+  Notice that the equation of the circle is homogeneous, so it is possible to scale $(x,y,z)$ arbitrarily and still have a true equation.  See section \ref{sec:notnormal}.
+\end{note}

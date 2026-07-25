@@ -1,0 +1,35 @@
+\section{2012 WOOT PO4/7}
+\label{exam:2012wootpo47}
+We now exhibit yet another problem in which perpendicular bisectors can be constructed via EFFT, which are then used to determine a circumcenter.  The method was used by v\_Enhance during the actual test and received $7/.7$.  See \cite{woot}.
+
+\secps
+\begin{problem}[2012 WOOT PO4/7]
+  Let $\omega$ be the circumcircle of acute triangle $ABC$.  The tangents to $\omega$ at $B$ and $C$ intersect at $P$, and $AP$ and $BC$ intersect at $D$.  Points $E$, $F$ are on $AC$ and $AB$, respectively, such that $DE \parallel BA$ and $DF \parallel CA$.
+  \be[(a)]
+  \ii Prove that points $F$, $B$, $C$, and $E$ are concyclic.
+  \ii Let $A_1$ denote the circumcenter of cyclic quadrilateral $FBCE$.  Points $B_1$ and $C_1$ are defined similarly.  Prove that $AA_1$, $BB_1$, and $CC_1$ are concurrent.
+  \ee
+\end{problem}
+
+\barydiagram{WOOT Practice Olympiad 4, Problem 7}{2012wootpo47}
+
+\begin{soln}
+  (Evan Chen) Let $A=(1,0,0)$, etc.  Since the symmedian point has $K = (a^2:b^2:c^2)$, we find that $D = \left(0, \frac{b^2}{b^2+c^2}, \frac{c^2}{b^2+c^2} \right)$.  Then, it's obvious that $E = \left( \frac{b^2}{b^2+c^2}, 0, \frac{c^2}{b^2+c^2} \right)$ and $F = \left( \frac{c^2}{b^2+c^2}, \frac{b^2}{b^2+c^2}, 0 \right)$.  In that case, notice that since the general form of a circle is $a^2yz + b^2zx + c^2xy + (ux + vy + wz)(x+y+z) = 0$, the circle passing through \[ \omega: a^2yz + b^2zx + c^2xy - \frac{b^2c^2}{b^2+c^2} \cdot x(x+y+z) =0 \] passes through BFEC, so it's cyclic.
+
+Suppose $A_1 = (x_0, y_0, z_0)$.  Let $M_1 = \frac{B+F}{2} = \left( \frac{1}{2} \frac{c^2}{b^2+c^2}, \frac{1}{2} + \frac12 \frac{b^2}{b^2+c^2}, 0 \right)$.  Then $A_1M_1 \perp AB$, applying EFFT and rearranging yields \[ x_0 - y_0 + \frac{a^2-b^2}{c^2} z_0 = \frac{c^2}{b^2+c^2} \]
+Doing a similar thing, we find that $A_1$ is given by
+\begin{align*}
+x_0 + y_0 + z_0 &= 1 \\
+x_0 - y_0 + \frac{a^2-b^2}{c^2} z_0 &= \frac{c^2}{b^2+c^2} \\
+x_0 + \frac{a^2-c^2}{b^2} y_0 - z_0 &= \frac{b^2}{b^2+c^2}
+\end{align*}
+
+Then by Cramer's rule, we can bash and get $\frac{y_0}{z_0} = \frac{a^2+b^2-c^2}{a^2-b^2+c^2}$.  Then it's easy to get the desired conclusion by Ceva.
+\end{soln}
+
+\seccm
+Once we realize that $AD$ is a symmedian, the symmedian point immediately gives us a nice form for $D$, and hence $E$ and $F$ by similar triangles.  The condition that $FBCE$ is cyclic is made easier since two of the points are vertices of the triangle, making both $v$ and $w$ vanish; hence the end computation is no longer hard.
+
+For the second part, EFFT allows us to use perpendicular bisectors to construct the circumcenter; we can then compute the ratio that the cevian $AA_1$ divides $BC$ into.  Ceva's Theorem guarantees that these will cancel cyclically, so we just compute the proper determinants, knowing that they will cancel cyclically at the end.
+
+The part about Ceva is worth remembering: any time you are trying to prove three cevians are concurrent, barycentric coordinates may provide an easy way to compute the ratios in Ceva's Theorem.

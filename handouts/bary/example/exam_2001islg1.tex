@@ -1,0 +1,20 @@
+\section{ISL 2001 G1}
+\label{exam:2001islg1}
+We now present an application of Conway's Formula to an ISL G1.
+
+\secps
+
+
+\begin{problem}[ISL 2001/G1]
+  Let $A_1$ be the center of the square inscribed in acute triangle $ABC$ with two vertices of the square on side $BC$.  Thus one of the two remaining vertices of the square is on side $AB$ and the other is on $AC$. Points $B_1,\ C_1$ are defined in a similar way for inscribed squares with two vertices on sides $AC$ and $AB$, respectively. Prove that lines $AA_1,\ BB_1,\ CC_1$ are concurrent.
+\end{problem}
+
+\barydiagram{ISL 2001 G1}{2001islg1}
+
+\begin{soln}
+  (Max Schindler) There is an obvious homothety centered on $A$ that maps the inscribed square with center $A_1$ to one with center $A_2$, which is constructed externally off side $BC$. $B_2$ and $C_2$ can be defined similarly. It then suffices to show that $AA_2,\ BB_2,\ CC_2$ concur.
+
+By Conway's formula, $A_2=(-a^2:S_C+S\cot{45}:S_B+S\cot{45})=(-a^2:S_C+S:S_B+S)$. It can be very easily verified that $AA_2$, and similarly $BB_2$ and $CC_2$, all go through the point $((S_B+S)(S_C+S):(S_A+S)(S_C+S):(S_B+S)(S_A+S))$ and are thus concurrent (this point is called the Outer Vecten Point).
+\end{soln}
+\seccm
+Homothety (similar to that in problem \ref{exam:2008usamo2}) allowed us to create a convenient expression for $S$ by Conway's Formula, at which point Conway's Formula cleared the problem.

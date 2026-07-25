@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[nohdr]{evan}
+
+%Renumber sections and whatnot
+\let\achapter\section
+\let\asection\subsection
+\let\asubsection\subsubsection
+%\let\realchapter\chapter
+%\let\realsection\section
+\newcommand{\chapter}[1]{\achapter{#1}}
+\renewcommand{\section}[1]{\asection{#1}}
+\renewcommand{\subsection}[1]{\asubsection{#1}}
+
+%\renewcommand{\vec}[1]{\overrightarrow{#1}}
+
+\newif\iflong
+\longfalse
+
+\begin{document}
+
+\title{Barycentric Coordinates for the Impatient}
+\author{
+  Max Schindler\thanks{Mewto55555, Missouri.
+  I can be contacted at \href{mailto:igoroogenflagenstein@gmail.com}{igoroogenflagenstein@gmail.com}.}
+  \and
+  Evan Chen\thanks{v\_Enhance, SFBA.
+  %I am much indebted to Max Schindler for this fantastic technique.
+  I can be reached at \href{mailto:chen.evan6@gmail.com}{chen.evan6@gmail.com}.}
+  }
+
+\date{July 13, 2012}
+
+\maketitle
+\begin{center}
+\begin{minipage}{8.4cm}
+  \textit{I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.}
+\end{minipage}
+\end{center}
+
+%\begin{abstract}
+%So, the other version was getting pretty long.
+%\end{abstract}
+
+\chapter{Introduction}
+\begin{quote}
+  Stop practicing your bash.  It gives you an unfair advantage. \\ --dragon96
+\end{quote}
+This is intended to be an abridged version of the more thorough ``Barycentric Coordinates in Olympiad Geometry''.  It contains three things: formula sheet, examples, and problems.
+
+Most of the space, as one can see, is consumed by the example problems; after all, this is a bash technique, and any real bash which is less than two pages long is considered very successful.
+
+Enjoy!
+
+
+\section{Standard Formulas}
+\input{bary-full-tech.tmp}
+
+\section{More Obscure Formulas}
+\input{content/ch_formulaobscure}
+
+\include{content/ch_example}
+\include{content/ch_exer}
+\include{content/ch_mop}
+
+\eject
+\renewcommand{\section}[2]{\chapter{#2}}
+\include{content/ch_bib}
+
+
+
+\end{document}

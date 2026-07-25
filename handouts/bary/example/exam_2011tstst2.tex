@@ -1,0 +1,80 @@
+\section{USA TSTST 2011/2}
+Finally, to complete the section, we present an example of a bash which is possibly not feasible by hand.  Incidentally, this is the only problem in the section that was not done by hand.  Max Schindler claims this is doable if you have the computational fortitude.
+
+The problem has been inverted around the point $A$, and the constant $c$ has been replaced by $1/c$.
+
+\secps
+\begin{problem}[TSTST Problem 2, Inverted]
+  Let $APQ$ be an obtuse triangle with $\angle A > 90\dg$.  The tangents at $P$ and $Q$ to the circumcircle of $APQ$ meet at the point $B$.  Points $X$ and $Y$ are selected on segments $PB$ and $QS$, respectively, such that $PX = c \cdot QA$, and $QY = c \cdot PA$.  Then, $PA$ and $QA$ are extended through $A$ to $R$ and $S$, so that $AR = AS = c \cdot \frac{PA \cdot QA}{PQ}$.  $O$ is the point such that $AROS$ is a parallelogram.   Given that $AXOY$ is cyclic, prove that $\angle PXA = \angle QYA$.
+\end{problem}
+
+\barydiagram{2011 TSTST, Problem 2}{2011tstst2}
+
+\begin{soln}
+  The reference triangle is $APQ$, with $A=(1,0,0)$, $P=(0,1,0)$ and $Q=(0,0,1)$.  To avoid confusion, let $a=PQ$, $q=AP$ and $p=AQ$.
+
+  It is not hard at all to compute $R$ and $S$.  Since $AR = AS = \frac{cpq}{a}$, and $A=(1,0,0)$, $P=(0,1,0)$ and $Q=(0,0,1)$, a quick application of ratios of lengths yields \[ R=\left(\frac{c q}{a}+1,\frac{-c q}{a},0\right) \] and \[ S=\left(\frac{c p}{a}+1,0,\frac{-c p}{a}\right)\]
+
+  Next we want to compute $X=(x,y,z)$.  Since $X$ lies on the tangent $PB$, it satisfies $0=b^2y+c^2z$ (see the earlier problem, \ref{exam:2011tstst4}).  Letting $x+y+z=1$, and invoking the distance formula, we find that $(cq)^2 = a^2(y-1)z + b^2zx + c^2x(y-1)$.  Solving this system by writing everything in $z$, and taking the negative root, gives $X = \left( \frac{a c}{p},\frac{-a^2 c+a p+c q^2}{a p},-\frac{c q^2}{a p} \right)$.
+
+  Similarly, $Y = \left( \frac{a c}{q},-\frac{c p^2}{a q},\frac{a^2 (-c)+a q+c p^2}{a q} \right)$.  We then obtain that $O = \left( 1+\frac{c p}{a}+\frac{c q}{a},-\frac{c p}{a},-\frac{c q}{a}\right)$
+
+  We'd like to find criteria for when $\angle PXA = \angle QYA$.  Noting the equal angles $\angle BPQ = \angle BQP$, we extend $XA$ and $YA$ through $A$ to points $X'$ and $Y'$ respectively.  Then $X' = (0 : pa + q^2c - a^2c : -q^2c)$ and $Y'=(0 : -p^2c : qa + p^2c - a^2 c)$ (aren't cevians wonderful?).  In that case, we obtain the lengths \[ PX' = \frac{-q^2c}{pa-a^2c} a = \frac{-q^2c}{p-ac} \] and similarly, \[ QY' = \frac{-p^2c}{q-ac} \]
+
+  Now $\angle PXA = \angle QYA$ if and only if the triangles $XPX'$ and $YQY'$ are similar!  Recall that $PX=cq$ and $QY=cp$; by SAS, this occurs if and only if
+  \[ \frac{ \frac{-q^2c}{p-ac} }{cq} = \frac{ \frac{-p^2c}{q-ac} }{cp} \iff q(q-ac) = p(p-ac) \iff c = \frac{p+q}{a}\]
+
+  So we just need to show that if $AROS$ is cyclic, then $c=\frac{p+q}{a}$.
+
+  \bigskip \bigskip
+
+  Unfortunately, this is where the calculations get heavy.\footnote{I wonder if there's any synthetic interpretation that would lead directly to this expression for $c$.  That would be nice too.  Tell me if you find one!}
+
+  Putting $A,X,Y$ into the circle formula and solving for $u$, $v$, $w$ yields
+  \begin{align*}
+    u &= 0 \\
+    v &= (c^2 p q^2 (-a^2 c + a q + c p (p + q)))/(-a^3 c^2 + a^2 c (p + q) - c (p^3 + q^3) + a (-p q + c^2 (p^2 + q^2))) \\
+      w &= ( c^2 p^2 q (-a^2 c + a p + c q (p + q)))/(-a^3 c^2 + a^2 c (p + q) - c (p^3 + q^3) + a (-p q + c^2 (p^2 + q^2)))
+  \end{align*}
+
+  Substituting the point $O$ into the equation and simplifying, we get that
+  \[ \scriptstyle { \frac{-(c p q (a^5 c^3 - 2 a^4 c^2 (p + q) -
+       c^2 (p + q)^3 (p^2 - p q + q^2) +
+       a^3 c ((1 - 2 c^2) p^2 + 3 p q + (1 - 2 c^2) q^2) +
+       a c (p + q)^2 ((-1 + c^2) p^2 - c^2 p q + (-1 + c^2) q^2) +
+       a^2 (p + q) (-p q + 3 c^2 (p^2 + q^2))))}{
+       (a^2 (a^3 c^2 -
+       a^2 c (p + q) + c (p^3 + q^3) - a (-p q + c^2 (p^2 + q^2))))} = 0 }\]
+
+    Clearing the denominator, this is just
+    \begin{align*}
+  0 =& -c p q (a^5 c^3 - 2 a^4 c^2 (p + q)  \\
+   & -c^2 (p + q)^3 (p^2 - p q + q^2) \\
+   & + a^3 c ((1 - 2 c^2) p^2 + 3 p q + (1 - 2 c^2) q^2) \\
+   & + a c (p + q)^2 ((-1 + c^2) p^2 - c^2 p q + (-1 + c^2) q^2) \\
+   & + a^2 (p + q) (-p q + 3 c^2 (p^2 + q^2)))
+  \end{align*}
+
+   Noting that $c=0$ and $c=\frac{p+q}{a}$ are solutions (the latter ``by inspection'') we can divide this out and collect terms in $c$ to get
+   \[ c^2 \left(-a^4-p^4-p^3 q-p q^3-q^4+2 a^2 \left(p^2+q^2\right)\right)+c \left(a^3 (p+q)-a \left(p^3+p^2 q+p q^2+q^3\right)\right) - a^2pq = 0 \]
+
+   We need to show that there are no positive reals $c$ satisfying this.  A quick glance at the constant term tells us that we should probably use the discriminant; our only hope is that there are no real roots at all.  Computing, we get
+   \begin{align*}
+   \Delta =& a^6 p^2 - 2 a^4 p^4 + a^2 p^6 - 2 a^6 p q + 4 a^4 p^3 q - 2 a^2 p^5 q \\ &+ a^6 q^2 - 4 a^4 p^2 q^2 - a^2 p^4 q^2 + 4 a^4 p q^3 + 4 a^2 p^3 q^3 \\ &- 2 a^4 q^4 - a^2 p^2 q^4 - 2 a^2 p q^5 + a^2 q^6 \end{align*}
+   which factors as
+   \[ \Delta = -a^2 (-a+p+q) (p-q)^2 (a+p-q) (a-p+q) (a+p+q) \]
+
+   Since $a$, $p$ and $q$ are the sides of a triangle, this is always negative.
+
+\end{soln}
+
+\seccm
+The calculations are relatively easy up until incorporating the condition that $AROS$ is cyclic.  Despite the fact that the ``cyclic'' condition was fairly brutal, it illustrates a few points worth making:
+\begin{parlist}
+  \item similar triangles are your friends in barycentrics too, because they can yield equal angles,
+  \item inversion can provide a way to eliminate awkward circle conditions,
+  \item unusual side length conditions related to the sides of the triangles is not a problem, and
+  \item cyclic quadrilaterals suck.
+\end{parlist}
+
+Please let us know if you find a cyclic criteria which completes a reasonable solution!  We'd like to have a human to attribute the solution to...

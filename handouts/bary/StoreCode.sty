@@ -1,0 +1,132 @@
+% Environment StoreCode. Usage:
+% \begin{StoreCode}{foo}
+%   code
+% \end{StoreCode}
+% It typesets all the code that lies inside and saves it to the auxiliary file \fooTempFile.
+
+
+% --------------------------------------------
+% --------------------------------------------
+% Select the appropriate switch depending on your operating system
+\newif\ifOSisUnix
+\OSisUnixtrue % Unix, Linux, Mac OS X...
+%\OSisUnixfalse % Windows
+
+% Load fancyvrb
+\usepackage{fancyvrb}
+
+% Name of the scratch file: \ScratchFile is <jobname>.tmp
+\newcommand{\ScratchFile}{\jobname.tmp}
+
+% Command \SetTempFile to set names of auxiliary files where to store code.
+% \SetTempFile{foo} defines \fooTempFile as <jobname>-foo.tmp and writes in this file
+% the line \let\label\@gobble (this avoids warnings about multiply defined labels).
+% Any existing file \fooTempFile is overwritten.
+
+\newwrite\outputstream
+\makeatletter
+\newcommand{\SetTempFile}[1]{%
+   \@namedef{#1TempFile}{\jobname-#1.tmp}%
+   \@namedef{#1TeXFile}{\jobname-#1.tex}%
+   \immediate\openout\outputstream=\ScratchFile
+   \immediate\write\outputstream{}
+   \immediate\closeout\outputstream
+	\ifOSisUnix%
+		\immediate\write18{cat \ScratchFile > \@nameuse{#1TempFile}}
+	\else%
+		\immediate\write18{type \ScratchFile > \@nameuse{#1TempFile}}
+	\fi	}
+\makeatother
+
+% Command \AppendScratchFile.
+% \AppendScratchFile{foo} appends the contents of \ScratchFile to those of
+% the auxiliary file \fooTempFile
+\makeatletter
+\newcommand{\AppendScratchFile}[1]{%
+   \ifOSisUnix%
+      \immediate\write18{cat \ScratchFile >> \@nameuse{#1TempFile}}%
+   \else%
+      \immediate\write18{type \ScratchFile >> \@nameuse{#1TempFile}}%
+   \fi}
+\makeatother
+
+% Environment StoreCode. Usage:
+% \begin{StoreCode}{foo}
+%   code
+% \end{StoreCode}
+% It typesets  all the code that lies inside and saves it to the auxiliary file \fooTempFile.
+% The definition is a bit tricky. It is not done through \newenvironment
+
+\makeatletter
+\newcommand{\StoreCode}[1]%
+  {\gdef\TempFileSuffix{#1}%
+   \StoreCounterValue{theorem}{#1}%hehe
+   \VerbatimEnvironment
+   \begin{VerbatimOut}{\ScratchFile}}
+\def\endStoreCode{%
+   \end{VerbatimOut}
+   \input{\ScratchFile}%
+   \AppendScratchFile{\TempFileSuffix}}
+\makeatother
+
+% Command \StoreCounterValue.
+% \StoreCounterValue{count}{foo} writes in the file \fooTempFile the line
+% \setcounter{count}{counter_value}. It is useful to control numbering the second
+% time the code is processed.
+
+\newcommand{\StoreCounterValue}[2]{%
+   \immediate\openout\outputstream=\ScratchFile%
+   \immediate\write\outputstream{\string\setcounter{#1}{\arabic{#1}}}%
+   \immediate\closeout\outputstream%
+   \AppendScratchFile{#2}}
+
+\newcommand{\StoreText}[2]{%
+   \immediate\openout\outputstream=\ScratchFile%
+   \immediate\write\outputstream{\string#1}%
+   \immediate\closeout\outputstream%
+   \AppendScratchFile{#2}}
+
+%% Command \InputTempFile.
+%% \InputTempFile{foo} inputs the file \fooTempFile
+%\makeatletter
+%\newcommand{\InputTempFile}[1]{\input{\@nameuse{#1TempFile}}}
+%\makeatother
+
+% Command \InputTempFile.
+% \InputTempFile{foo} inputs the file \fooTempFile. It is assumed that this is done in an appendix
+% chapter (so the \appendix command has already been issued). We initially need to save the actual
+% value of the chapter counter and change its format to arabic (used in the main chapters). Then
+% the contents of \fooTempFile are processed. Finally, the value and format of the chapter counter
+% is restored.
+\newcounter{TempChapter}
+\makeatletter
+\newcommand{\InputTempFile}[1]{%
+  \setcounter{TempChapter}{\value{chapter}}%
+  \renewcommand{\thechapter}{\arabic{chapter}}%
+  \input{\@nameuse{#1TempFile}}%
+  \setcounter{chapter}{\value{TempChapter}}%
+  \renewcommand{\thechapter}{\Alph{chapter}}}
+
+
+%\newenvironment{tech}{\begin{StoreCode}{tech}}{\end{StoreCode}}
+\makeatother
+
+
+%hi
+\makeatletter
+%Hi
+\newcommand{\TempToTeX}[1]{%
+\ifOSisUnix%
+	\immediate\write18{cat \@nameuse{#1TempFile} > \@nameuse{#1TeXFile}}
+	%\immediate\write18{more +4 \@nameuse{#1TempFile} > \@nameuse{#1TeXFile}}
+\else%
+	\immediate\write18{type \@nameuse{#1TempFile} > \@nameuse{#1TeXFile}}
+\fi
+}
+\makeatother
+
+% --------------------------------------------
+% --------------------------------------------
+
+% We set the auxiliary files for storing code.
+\SetTempFile{tech}
