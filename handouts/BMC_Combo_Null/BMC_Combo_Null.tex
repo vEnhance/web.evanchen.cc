@@ -6,15 +6,15 @@
 \let\c@theorem\undefined
 \makeatother
 \newmdtheoremenv[outerlinewidth=2,leftmargin=20,
-	rightmargin=20,backgroundcolor=white,
-	outerlinecolor=blue,innertopmargin=0.5\topskip,
-	splittopskip=\topskip,skipbelow=\baselineskip,
-	skipabove=\baselineskip]
-	{theorem}
-	{Theorem}
+  rightmargin=20,backgroundcolor=white,
+  outerlinecolor=blue,innertopmargin=0.5\topskip,
+  splittopskip=\topskip,skipbelow=\baselineskip,
+  skipabove=\baselineskip]
+  {theorem}
+  {Theorem}
 
-\lhead{Berkeley Math Circle}
-\rhead{Combinatorial Nullstellensatz}
+\ihead{Berkeley Math Circle}
+\ohead{Combinatorial Nullstellensatz}
 
 \begin{document}
 \title{Combinatorial Nullstellensatz}
@@ -25,58 +25,58 @@
 %\setcounter{section}{-1}
 %\section{Abstract Nonsense}
 \begin{definition*}
-	A \emph{field} is a structure in which one can add, subtract, multiply, and divide\footnote{Except for dividing by zero.}.  The operations are commutative and associative, and multiplication is distributive.
+  A \emph{field} is a structure in which one can add, subtract, multiply, and divide\footnote{Except for dividing by zero.}.  The operations are commutative and associative, and multiplication is distributive.
 \end{definition*}
 For example, the real numbers $\RR$ and the rational numbers $\QQ$ are a field.  For any prime number $p$, $\ZZ_p$ is a field as well.  Here $\ZZ_p$ denotes the integers modulo $p$.
 \begin{definition*}
-	Let $R[x_1, x_2, \dots, x_n]$ denote the set of polynomials in $n$ variables $x_1, \dots, x_n$, with coefficients in $R$.
+  Let $R[x_1, x_2, \dots, x_n]$ denote the set of polynomials in $n$ variables $x_1, \dots, x_n$, with coefficients in $R$.
 \end{definition*}
 Thus $\RR[x,y]$ is the set of real polynomials in $x$ and $y$.  This includes, say, $x^2+\pi x^3y$.
 
 \begin{fact*}[Fermat's Little Theorem]
-	Let $p$ be a prime, and suppose $x$ is an integer not $0$ modulo $p$.  Then \[ x^{p-1} \equiv 1 \pmod{p}. \]
+  Let $p$ be a prime, and suppose $x$ is an integer not $0$ modulo $p$.  Then \[ x^{p-1} \equiv 1 \pmod{p}. \]
 \end{fact*}
 
 \section{Combinatorial Nullstellensatz}
 \setcounter{theorem}{-1}
 Consider the following ``theorem'':
 \begin{theorem}
-	Let $f \in F[x]$ be a polynomial of degree $t$.  If $S \subseteq F$ satisfies $\left\lvert S \right\rvert \ge t+1$, then \[ \exists s \in S: f(s) \neq 0. \]
+  Let $f \in F[x]$ be a polynomial of degree $t$.  If $S \subseteq F$ satisfies $\left\lvert S \right\rvert \ge t+1$, then \[ \exists s \in S: f(s) \neq 0. \]
 \end{theorem}
 Combinatorial nullstellensatz generalizes this to multiple variables:
 \begin{theorem}[Combinatorial Nullstellensatz]
-	Let $f \in F[x_1, x_2, \dots, x_n]$ be a polynomial of degree $t_1 + \dots + t_n$.  If $S_1, S_2, \dots, S_n$ are nonempty subsets of $F$ such that $\left\lvert S_i \right\rvert \ge t_i + 1$ for all $i$, then there exists $s_1 \in S_1$, $s_2 \in S_2$, \dots, $s_n \in S_n$ for which \[ f(s_1, s_2, \dots, s_n) \neq 0 \]
-	as long as the coefficient of $x_1^{t_1}x_2^{t_2}\dots x_n^{t_n}$ is nonzero.
+  Let $f \in F[x_1, x_2, \dots, x_n]$ be a polynomial of degree $t_1 + \dots + t_n$.  If $S_1, S_2, \dots, S_n$ are nonempty subsets of $F$ such that $\left\lvert S_i \right\rvert \ge t_i + 1$ for all $i$, then there exists $s_1 \in S_1$, $s_2 \in S_2$, \dots, $s_n \in S_n$ for which \[ f(s_1, s_2, \dots, s_n) \neq 0 \]
+  as long as the coefficient of $x_1^{t_1}x_2^{t_2}\dots x_n^{t_n}$ is nonzero.
 \end{theorem}
 Note the extra condition at the end!  The above theorems follows from the lemma:
 \begin{lemma}
-	Let $f \in F[x_1, \dots, x_n]$ be a polynomial, and $S_1, S_2, \dots, S_n$ be nonempty subsets of $F$.  If $f(s_1, s_2, \dots, s_n) = 0 \text{ for all } s_1 \in S_1, s_2 \in S_2, \dots, s_n \in S_n$ then there exist polynomials $h_1, h_2, \dots, h_n \in F[x_1, x_2, \dots, x_n]$ for which $f = \sum_{i=1}^n \left( h_i \cdot \prod_{s_i \in S_i} (x_i-s_i) \right)$.
+  Let $f \in F[x_1, \dots, x_n]$ be a polynomial, and $S_1, S_2, \dots, S_n$ be nonempty subsets of $F$.  If $f(s_1, s_2, \dots, s_n) = 0 \text{ for all } s_1 \in S_1, s_2 \in S_2, \dots, s_n \in S_n$ then there exist polynomials $h_1, h_2, \dots, h_n \in F[x_1, x_2, \dots, x_n]$ for which $f = \sum_{i=1}^n \left( h_i \cdot \prod_{s_i \in S_i} (x_i-s_i) \right)$.
 \end{lemma}
 
 \section{Problems}
 In what follows, $p$ will denote an odd prime.
 \begin{enumerate}
-	\ii (Russia MO 2007/5) Two distinct numbers are written on each vertex of a convex $100$-gon. Prove one can remove a number from each vertex so that the remaining numbers on any two adjacent vertices differ.
-	\ii (IMO 2007/6) Let $n$ be a positive integer. Consider \[ S = \left\{ (x,y,z) \mid x,y,z \in \{ 0, 1, \ldots, n\}, (x,y,z) \neq (0,0,0) \right \} \] as a set of $(n + 1)^{3} - 1$ points in the three-dimensional space. Determine the smallest possible number of planes, the union of which contains $S$ but does not include $(0,0,0)$.
-	\ii (Cauchy-Davenport) If $A$ and $B$ are subsets of $\ZZ_p$, then \[ |A+B| \ge \min(p, |A| + |B| - 1). \]
-	\ii (Erd\H{o}s-Heilbronn Conjecture) Let $A$ be a subset of $\ZZ_p$.  Then \[ |\{x+y \mid x,y \in A, x \neq y \} | \ge \min(p, 2|A|-3). \]
-	\ii (Chevalley-Warning) Let $f_1,f_2,\cdots,f_k$ be polynomials in $\ZZ_p[x_1,x_2,\cdots,x_n]$ with $\sum_{i=1}^k \deg f_i < n$.  Show that if the polynomials $f_i$ have a common zero $(c_1,c_2,\cdots,c_n)$, then they have another common zero.
-	% \ii (Troi-Zannier) Let $S_1,S_2,\cdots,S_k$ be sets of nonnegative integers, each containing $0$ and having pairwise distinct elements modulo $p$.  Suppose that $\sum_i\left(|S_i|-1\right) \ge p$.  Then for any elements $a_1,\cdots,a_k \in \ZZ_p$, the equation $\sum_i x_ia_i = 0$ has a solution $(x_1,\cdots,x_k) \in S_1 \times \cdots \times S_k$ other than the all-zero solution.
-	\ii (Alon) Show that any loopless graph with average degree at least $2p-2$ and maximum degree at most $2p-1$ contains a $p$-regular subgraph.
-	% \ii (Gabriel Caroll, MOP) Let $x_0$ and $n$ be positive integers.  Prove that there exist $x_1, x_2, \cdots, x_n$ such that \[ 0 \equiv x_0 + x_1^n + x_2^n + \cdots + x_n^n \pmod{p}. \]
-	\ii (Shirazi-Verstra\"ete) Let $G=(V,E)$ be a graph. For each vertex $v \in V$ we are given a \emph{bad set} $B(v)$ of positive integers.
-	\begin{enumerate}[(i)]
-		\ii Prove that if $\sum_{v \in V} \left\lvert B(v) \right\rvert < \left\lvert E \right\rvert$, then there exists a nontrivial subgraph $H$ for which $\deg_H v \notin B(v)$ for any $v$.
-		\ii Now suppose we allow $0 \in B(v)$ as well. Prove that if, $\left\lvert B(v) \right\rvert \le \half \deg v$ for any $v$, then we can still find such an $H$ (not necessarily nontrivial).
-	\end{enumerate}
-	\ii (Alon, Knuth) Let $n \ge 2$ be even and let $v_1, v_2, \dots, v_k \in \left\{ \pm 1 \right\}^n$ be vectors of length $n$ such that any $v \in \left\{ \pm 1 \right\}^n$ is orthogonal to at least one of the $v_i$.  Prove that $k \ge n$ and that this estimate is sharp.
+  \ii (Russia MO 2007/5) Two distinct numbers are written on each vertex of a convex $100$-gon. Prove one can remove a number from each vertex so that the remaining numbers on any two adjacent vertices differ.
+  \ii (IMO 2007/6) Let $n$ be a positive integer. Consider \[ S = \left\{ (x,y,z) \mid x,y,z \in \{ 0, 1, \ldots, n\}, (x,y,z) \neq (0,0,0) \right \} \] as a set of $(n + 1)^{3} - 1$ points in the three-dimensional space. Determine the smallest possible number of planes, the union of which contains $S$ but does not include $(0,0,0)$.
+  \ii (Cauchy-Davenport) If $A$ and $B$ are subsets of $\ZZ_p$, then \[ |A+B| \ge \min(p, |A| + |B| - 1). \]
+  \ii (Erd\H{o}s-Heilbronn Conjecture) Let $A$ be a subset of $\ZZ_p$.  Then \[ |\{x+y \mid x,y \in A, x \neq y \} | \ge \min(p, 2|A|-3). \]
+  \ii (Chevalley-Warning) Let $f_1,f_2,\cdots,f_k$ be polynomials in $\ZZ_p[x_1,x_2,\cdots,x_n]$ with $\sum_{i=1}^k \deg f_i < n$.  Show that if the polynomials $f_i$ have a common zero $(c_1,c_2,\cdots,c_n)$, then they have another common zero.
+  % \ii (Troi-Zannier) Let $S_1,S_2,\cdots,S_k$ be sets of nonnegative integers, each containing $0$ and having pairwise distinct elements modulo $p$.  Suppose that $\sum_i\left(|S_i|-1\right) \ge p$.  Then for any elements $a_1,\cdots,a_k \in \ZZ_p$, the equation $\sum_i x_ia_i = 0$ has a solution $(x_1,\cdots,x_k) \in S_1 \times \cdots \times S_k$ other than the all-zero solution.
+  \ii (Alon) Show that any loopless graph with average degree at least $2p-2$ and maximum degree at most $2p-1$ contains a $p$-regular subgraph.
+  % \ii (Gabriel Caroll, MOP) Let $x_0$ and $n$ be positive integers.  Prove that there exist $x_1, x_2, \cdots, x_n$ such that \[ 0 \equiv x_0 + x_1^n + x_2^n + \cdots + x_n^n \pmod{p}. \]
+  \ii (Shirazi-Verstra\"ete) Let $G=(V,E)$ be a graph. For each vertex $v \in V$ we are given a \emph{bad set} $B(v)$ of positive integers.
+  \begin{enumerate}[(i)]
+    \ii Prove that if $\sum_{v \in V} \left\lvert B(v) \right\rvert < \left\lvert E \right\rvert$, then there exists a nontrivial subgraph $H$ for which $\deg_H v \notin B(v)$ for any $v$.
+    \ii Now suppose we allow $0 \in B(v)$ as well. Prove that if, $\left\lvert B(v) \right\rvert \le \half \deg v$ for any $v$, then we can still find such an $H$ (not necessarily nontrivial).
+  \end{enumerate}
+  \ii (Alon, Knuth) Let $n \ge 2$ be even and let $v_1, v_2, \dots, v_k \in \left\{ \pm 1 \right\}^n$ be vectors of length $n$ such that any $v \in \left\{ \pm 1 \right\}^n$ is orthogonal to at least one of the $v_i$.  Prove that $k \ge n$ and that this estimate is sharp.
 \end{enumerate}
 
 \section{Further Links}
 \begin{itemize}
-	\ii Alon's original paper: \url{http://www.tau.ac.il/~nogaa/PDFS/null2.pdf}
-	\ii Slides from a presentation I gave: \url{http://db.tt/G4xx3fdJ}
-	\ii \url{http://www.math.uiuc.edu/~jobal/teach/nullstellensatz.pdf}
+  \ii Alon's original paper: \url{http://www.tau.ac.il/~nogaa/PDFS/null2.pdf}
+  \ii Slides from a presentation I gave: \url{http://db.tt/G4xx3fdJ}
+  \ii \url{http://www.math.uiuc.edu/~jobal/teach/nullstellensatz.pdf}
 \end{itemize}
 
 

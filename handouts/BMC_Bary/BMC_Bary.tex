@@ -1,18 +1,78 @@
 \documentclass{scrartcl}
 \usepackage{evan}
 %\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
-\usepackage{titlesec}
-\setlength{\droptitle}{-4em}
 
-\renewcommand{\footrulewidth}{0pt}
-\lhead{Barycentric Coordinates}
-\rhead{Berkeley Math Circle}
-\lfoot{}
+\begin{asydef}
+  // Old cse5/olympiad.asy helpers this handout's diagrams still rely on,
+  // reimplemented against stock Asymptote + evan.sty's own asydef.
+  real markscalefactor = 0.03;
+
+  // Right-angle mark at B for angle ABC.
+  path rightanglemark(pair A, pair B, pair C, real s = 8) {
+    pair P = s * markscalefactor * unit(A - B) + B;
+    pair R = s * markscalefactor * unit(C - B) + B;
+    pair Q = P + R - B;
+    return P -- Q -- R;
+  }
+
+  // Ticks marking path g, matching the old pathticks().
+  picture pathticks(path g, int n = 1, real r = .5, real spacing = 6,
+      real s = 8, pen p = currentpen) {
+    picture pict;
+    real l = arclength(g);
+    real space = spacing * markscalefactor;
+    real halftick = s * markscalefactor / 2;
+    if (n > 0) {
+      pair direct = unit(dir(g, arctime(g, r * l)));
+      real startpt = r * l - (n - 1) / 2 * space;
+      for (int i = 0; i < n; ++i) {
+        real t = startpt + i * space;
+        pair B = point(g, arctime(g, t)) + (0, 1) * halftick * direct;
+        pair C = B + 2 * (0, -1) * halftick * direct;
+        draw(pict, B -- C, p);
+      }
+    }
+    return pict;
+  }
+
+  // The point one unit from B along the internal bisector of angle ABC
+  // (note: the vertex of the bisected angle is the *second* argument,
+  // matching the old call sites).
+  pair bisectorpoint(pair A, pair B, pair C) {
+    pair P = unit(A - B) + B;
+    pair R = unit(C - B) + B;
+    return unit((P + R) / 2 - B) + B;
+  }
+
+  // The point one unit from the midpoint M of AB, along the perpendicular
+  // bisector of AB.
+  pair bisectorpoint(pair A, pair B) {
+    pair M = midpoint(A -- B);
+    return unit(rotate(90, M) * A - M) + M;
+  }
+
+  // The second point where circle c (assumed to pass through P) meets the
+  // line through P and Q, other than P itself -- e.g. "let the
+  // circumcircle meet side AB again at ...". Uses the analytic
+  // circle-line intersection (geometry.asy), which is robust even when P
+  // sits exactly on the circle, unlike intersecting c with the finite
+  // segment P--Q via generic path intersection.
+  pair secondIntersection(circle c, pair P, pair Q) {
+    point[] pts = intersectionpoints(c, line(P, Q));
+    return (abs(pts[0] - P) > abs(pts[1] - P)) ? (pair)pts[0] : (pair)pts[1];
+  }
+
+  pen pointpen = black;
+  pen pathpen = black;
+  pair D(pair p, pen q=pointpen) { return Drawing("", p, plain.S, q); }
+  path D(path p, pen q=pathpen, arrowbar ar=None) { return Drawing(p, q, ar); }
+  pair IntersectionPoint(path p, path q, int m=0) { return m == 0 ? IP(p, q) : OP(p, q); }
+\end{asydef}
+
+\ihead{Barycentric Coordinates}
+\ohead{Berkeley Math Circle}
+\ifoot{}
 \cfoot{\thepage}
-
-\titlespacing*{\subsection}{4pt}{15pt}{4pt}
-\titlespacing*{\section}{0pt}{15pt}{2pt}
-%zzz titlesec
 
 
 \begin{document}
@@ -21,10 +81,9 @@
 \date{October 23, 2012}
 
 \maketitle
-\thispagestyle{fancy}
 
 \begin{abstract}
-	\noindent \footnotesize Much of this lecture is drawn from the significantly more extensive article \textit{Barycentric Coordinates in Olympiad Geometry}, which is \cite{bary} in the references.  It is a featured article on AoPS and can be found at \\ \url{http://www.artofproblemsolving.com/Resources/Papers/Bary_full.pdf}.
+  \noindent \footnotesize Much of this lecture is drawn from the significantly more extensive article \textit{Barycentric Coordinates in Olympiad Geometry}, which is \cite{bary} in the references.  It is a featured article on AoPS and can be found at \\ \url{http://www.artofproblemsolving.com/Resources/Papers/Bary_full.pdf}.
 \end{abstract}
 
 \section{Introduction}
@@ -37,8 +96,10 @@ In this lecture, we will present these tools ``on the fly'' as they appear in a 
 \section{The Problem}
 (Almost TSTST 2012) Triangle $ABC$ is inscribed in circle $\Omega$.  The interior angle bisector of angle $A$ intersects side $BC$ and $\Omega$ at $D$ and $L$ (other than $A$), respectively.  Let $M$ be the midpoint of side $BC$.  The circumcircle of triangle $ADM$ intersects sides $AB$ and $AC$ again at $Q$ and $P$ (other than $A$), respectively.  If $N$ is the midpoint of segment $PQ$, show that $MN \parallel AD$.  %Let $N$ be the midpoint of segment $PQ$, and let $H$ be the foot of the perpendicular from $L$ to line $ND$.  Prove that line $ML$ is tangent to the circumcircle of triangle $HMN$.
 
-\begin{fasy}
-import olympiad; import cse5; size(7cm); real lsf=0.9001; real lisf=2011.0; defaultpen(fontsize(8pt));
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+size(7cm); real lsf=0.9001; real lisf=2011.0; defaultpen(fontsize(8pt));
 
 /* Initialize Objects */
 pair A = (-5.0, 6.0);
@@ -49,9 +110,9 @@ path a = B--C;
 path b = C--A;
 pair M = midpoint(a);
 pair D = IntersectionPoint(Line(A,bisectorpoint(B,A,C),lisf),a);
-path w = circumcircle(A,D,M);
-pair Q = IntersectionPoint(w,c,1);
-pair P = IntersectionPoint(w,b,1);
+circle w = circumcircle(A,D,M);
+pair Q = secondIntersection(w,A,B);
+pair P = secondIntersection(w,A,C);
 pair L = IntersectionPoint(Line(A,D,lisf),Line(midpoint(relpoint(a, 0)--relpoint(a, 1)),bisectorpoint(relpoint(a, 0),relpoint(a, 1)),lisf));
 pair N = midpoint(P--Q);
 pair H = foot(L,N,D);
@@ -94,7 +155,7 @@ label("$N$", N, lsf*dir(45));
 // label("$H$", H, lsf*dir(-115)*2);
 \end{asy}
 \caption{The Big Diagram}
-\end{fasy}
+\end{figure}
 
 %For those of you with a lot of olympiad experience, it is an easy exercise to show that the problem is equivalent to proving that $MN \parallel AD$; thus, we can ignore the points $H$ and $L$ and focus on proving the parallel lines.
 \eject
@@ -109,121 +170,127 @@ In barycentric coordinates, points are defined with three coordinates (instead o
 
 In Cartesian coordinates, the equation of a line is of the form $Ax + By + C = 0$.  The analogous form in barycentric coordinates is as follows.
 \begin{theorem}[Line]
-	The equation of a line in barycentric coordinates is $ux + vy + wz = 0$, where $u,v,w$ are real numbers, unique up to scaling.
-	\label{thm:line}
+  The equation of a line in barycentric coordinates is $ux + vy + wz = 0$, where $u,v,w$ are real numbers, unique up to scaling.
+  \label{thm:line}
 \end{theorem}
 \begin{ques*}
-	What does the line $z=0$ correspond to?
+  What does the line $z=0$ correspond to?
 \end{ques*}
 
-\begin{fasy}
-	import graph; size(8.01cm); real lsf=0.5; pathpen=linewidth(0.7); pointpen=black; pen fp=fontsize(10); pointfontpen=fp; real xmin=-4,xmax=4.01,ymin=-2.29,ymax=2.29;
-	pen zzttqq=rgb(0.6,0.2,0), cqcqcq=rgb(0.75,0.75,0.75);
-	pair A=(-1,2), B=(-2,-1), C=(2,-1), P=(-0.26,0.13), D=(0.19,-1), E=(0.43,0.57), F=(-1.43,0.71);
-	D(A--B--C--cycle,zzttqq);
-	fill(P--B--C--cycle, green);
-	fill(P--C--A--cycle, cyan);
-	fill(P--A--B--cycle, lightmagenta);
-	D(A); MP("A",(-0.97,2.04),NE*lsf); D(B); MP("B",(-1.97,-0.96),NW*lsf); D(C); MP("C",(2.03,-0.96),NE*lsf); D(P); MP("P",(-0.23,0.17),dir(70)*lsf); D(D); MP("D",(0.22,-0.96),NE*lsf); D(E); MP("E",(0.46,0.61),NE*lsf); MP("F",(-1.4,0.76),NW*lsf); D(F);
-	D(A--B,zzttqq); D(B--C,zzttqq); D(C--A,zzttqq); D(A--P); D(P--B); D(P--C); D(P--(0.43,0.57),linetype("4 4")); D(P--D,linetype("4 4")); D(P--F,linetype("4 4"));
-	MP("x",incenter(P,B,C));
-	MP("y",centroid(P,C,A));
-	MP("z",incenter(P,A,B));
-	\end{asy}
-	\caption{Areas and barycentrics}
-	\label{fig:area}
-\end{fasy}
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+  size(8.01cm); real lsf=0.5; pathpen=linewidth(0.7); pointpen=black; real xmin=-4,xmax=4.01,ymin=-2.29,ymax=2.29;
+  pen zzttqq=rgb(0.6,0.2,0), cqcqcq=rgb(0.75,0.75,0.75);
+  pair A=(-1,2), B=(-2,-1), C=(2,-1), P=(-0.26,0.13), D=(0.19,-1), E=(0.43,0.57), F=(-1.43,0.71);
+  D(A--B--C--cycle,zzttqq);
+  fill(P--B--C--cycle, green);
+  fill(P--C--A--cycle, cyan);
+  fill(P--A--B--cycle, lightmagenta);
+  D(A); MP("A",(-0.97,2.04),NE*lsf); D(B); MP("B",(-1.97,-0.96),NW*lsf); D(C); MP("C",(2.03,-0.96),NE*lsf); D(P); MP("P",(-0.23,0.17),dir(70)*lsf); D(D); MP("D",(0.22,-0.96),NE*lsf); D(E); MP("E",(0.46,0.61),NE*lsf); MP("F",(-1.4,0.76),NW*lsf); D(F);
+  D(A--B,zzttqq); D(B--C,zzttqq); D(C--A,zzttqq); D(A--P); D(P--B); D(P--C); D(P--(0.43,0.57),linetype("4 4")); D(P--D,linetype("4 4")); D(P--F,linetype("4 4"));
+  MP("x",incenter(P,B,C));
+  MP("y",centroid(P,C,A));
+  MP("z",incenter(P,A,B));
+  \end{asy}
+  \caption{Areas and barycentrics}
+  \label{fig:area}
+\end{figure}
 
 There's a second (equivalent) definition we can use: if $P = (x,y,z)$, then $P$ is the point for which the areas\footnote{These areas are signed, so when $P$ lies on the opposite side as $A$ of $BC$, the area $[PBC]$ is considered negative.} $[PBC]$, $[PCA]$, and $[PAB]$ are in the ratio $x : y : z$.  For this reason, barycentric coordinates are sometimes called \textit{areal coordinates}.  See figure \ref{fig:area}.
 
 %\begin{ques*}
-%	In figure \ref{fig:area}, what are the coordinates of the point $D$?
+%  In figure \ref{fig:area}, what are the coordinates of the point $D$?
 %\end{ques*}
 
 \subsection{The Centroid}
 
-\begin{fasy}
-	size(6cm);
-	pair A=(2.1,3.7), B=(0,0), C=(5.9,0);
-	D(A--B--C--cycle);
-	pair M_A = midpoint(B--C), M_B = midpoint(C--A), M_C = midpoint(A--B);
-	D(A--M_A);
-	D(B--M_B);
-	D(C--M_C);
-	pair G = centroid(A,B,C);
-	D(A); D(B); D(C); D(M_A); D(M_B); D(M_C); D(G);
-	add(pathticks(B--M_A, 1));
-	add(pathticks(C--M_A, 1));
-	add(pathticks(C--M_B, 2));
-	add(pathticks(A--M_B, 2));
-	add(pathticks(A--M_C, 3));
-	add(pathticks(B--M_C, 3));
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+  size(6cm);
+  pair A=(2.1,3.7), B=(0,0), C=(5.9,0);
+  D(A--B--C--cycle);
+  pair M_A = midpoint(B--C), M_B = midpoint(C--A), M_C = midpoint(A--B);
+  D(A--M_A);
+  D(B--M_B);
+  D(C--M_C);
+  pair G = centroid(A,B,C);
+  D(A); D(B); D(C); D(M_A); D(M_B); D(M_C); D(G);
+  add(pathticks(B--M_A, 1));
+  add(pathticks(C--M_A, 1));
+  add(pathticks(C--M_B, 2));
+  add(pathticks(A--M_B, 2));
+  add(pathticks(A--M_C, 3));
+  add(pathticks(B--M_C, 3));
 
-	MP("A", A, dir(45));
-	MP("B", B, dir(135));
-	MP("C", C, dir(45));
-	MP("M_A", M_A, dir(45));
-	MP("M_B", M_B, dir(45));
-	MP("M_C", M_C, dir(135));
-	MP("G", G, dir(65)*2);
+  MP("A", A, dir(45));
+  MP("B", B, dir(135));
+  MP("C", C, dir(45));
+  MP("M_A", M_A, dir(45));
+  MP("M_B", M_B, dir(45));
+  MP("M_C", M_C, dir(135));
+  MP("G", G, dir(65)*2);
 \end{asy}
 \caption{The centroid $G$ of $\triangle ABC$.  $AM_A$, $BM_B$ and $CM_C$ are medians.}
-\end{fasy}
+\end{figure}
 The first thing we need to find in our original problem is the coordinates of the point $M$.  While we're here, we will also look at the other two midpoints, and the centroid, denoted $G$.
 
 \begin{ques*}
-	Determine the coordinates of the midpoints of $BC$, $CA$ and $AB$.
+  Determine the coordinates of the midpoints of $BC$, $CA$ and $AB$.
 \end{ques*}
 \begin{ques*}
-	Determine the equation of the medians.
+  Determine the equation of the medians.
 \end{ques*}
 \begin{ques*}
-	Determine the coordinates of the centroid $G$.
+  Determine the coordinates of the centroid $G$.
 \end{ques*}
 Notice that we managed to establish the existence of the point $G$ almost by accident; these same ideas can be modified to yield a proof of Ceva's Theorem.
 
 \subsection{The Incenter}
 The next point we need to find the coordinates of is the point $D$.  Along the way, we'll derive the angle bisector theorem.\footnote{Conversely, if you know the angle bisector theorem, you can find the coordinates of $D$ pretty quickly.  But shh!}
 
-\begin{fasy}
-	size(6cm);
-	pair A=(1.6,3.7), B=(0,0), C=(5.9,0);
-	pair I=incenter(A,B,C);
-	D(A--B--C--cycle);
-	D(A--I);
-	D(B--I);
-	D(C--I);
-	D(A); D(B); D(C); D(I);
+\begin{figure}[ht]
+  \centering
+  \begin{asy}
+  size(6cm);
+  pair A=(1.6,3.7), B=(0,0), C=(5.9,0);
+  pair I=incenter(A,B,C);
+  D(A--B--C--cycle);
+  D(A--I);
+  D(B--I);
+  D(C--I);
+  D(A); D(B); D(C); D(I);
 
-	D(incircle(A,B,C), grey);
-	D(I--foot(I,B,C), grey);
-	D(I--foot(I,C,A), grey);
-	D(I--foot(I,A,B), grey);
-	D(rightanglemark(I,foot(I,B,C),C), grey);
-	D(rightanglemark(I,foot(I,C,A),A), grey);
-	D(rightanglemark(I,foot(I,A,B),B), grey);
+  D(incircle(A,B,C), grey);
+  D(I--foot(I,B,C), grey);
+  D(I--foot(I,C,A), grey);
+  D(I--foot(I,A,B), grey);
+  D(rightanglemark(I,foot(I,B,C),C), grey);
+  D(rightanglemark(I,foot(I,C,A),A), grey);
+  D(rightanglemark(I,foot(I,A,B),B), grey);
 
-	MP("A", A, dir(45));
-	MP("B", B, dir(135));
-	MP("C", C, dir(45));
-	MP("I", I, dir(65)*2);
-	\end{asy}
-	\caption{The incenter $I$ of $\triangle ABC$.  $AI$, $BI$ and $CI$ are angle bisectors.}
-\end{fasy}
+  MP("A", A, dir(45));
+  MP("B", B, dir(135));
+  MP("C", C, dir(45));
+  MP("I", I, dir(65)*2);
+  \end{asy}
+  \caption{The incenter $I$ of $\triangle ABC$.  $AI$, $BI$ and $CI$ are angle bisectors.}
+\end{figure}
 
 \begin{ques*}
-	Show that $[IBC] : [ICA] : [IAB] = a : b : c$.
+  Show that $[IBC] : [ICA] : [IAB] = a : b : c$.
 \end{ques*}
 Using this, we can write $I = \left( \frac{a}{a+b+c} , \frac{b}{a+b+c} , \frac{c}{a+b+c} \right)$.  At this point, writing the denominators is getting cubersome, so we will abbreviate this as just $I = (a : b: c)$.  More generally, We will let $(x : y : z)$, where $x+y+z \neq 0$, denote the point $\left( \frac{x}{x+y+z}, \frac{y}{x+y+z}, \frac{z}{x+y+z} \right)$.
 
 \begin{ques*}
-	Can we plug $(a : b : c)$ instead of $\left( \frac{a}{a+b+c}, \frac{b}{a+b+c}, \frac{c}{a+b+c} \right)$ into the line formula (Theorem \ref{thm:line}) and still get valid results?
+  Can we plug $(a : b : c)$ instead of $\left( \frac{a}{a+b+c}, \frac{b}{a+b+c}, \frac{c}{a+b+c} \right)$ into the line formula (Theorem \ref{thm:line}) and still get valid results?
 \end{ques*}
 \begin{ques*}
-	What are the coordinates of point $D$?
+  What are the coordinates of point $D$?
 \end{ques*}
 \begin{ques*}
-	Deduce the angle bisector theorem from the coordinates of $D$.
+  Deduce the angle bisector theorem from the coordinates of $D$.
 \end{ques*}
 
 
@@ -232,28 +299,28 @@ The next thing we need to do is find the equation of the circumcircle of $\trian
 
 In Cartesian Coordinates, the general equation of a circle is $x^2 + y^2 + Ax + By + C = 0$.  The analog in barycentric coordinates is as follows:
 \begin{theorem}[Circle]
-	The equation of a circle in barycentric coordinates has the form \[ -a^2yz - b^2zx - c^2xy + (x+y+z)(ux+vy+wz) = 0 \]
+  The equation of a circle in barycentric coordinates has the form \[ -a^2yz - b^2zx - c^2xy + (x+y+z)(ux+vy+wz) = 0 \]
 \end{theorem}
 Like its Cartesian analog, this isn't in general much fun to use.  Thankfully, in barycentric coordinates, several terms die if any of $\{x,y,z\}$ are zero.
 
 \begin{ques*}
-	Show that if a circle passes through $A=(1,0,0)$, then $u=0$.
+  Show that if a circle passes through $A=(1,0,0)$, then $u=0$.
 \end{ques*}
 \begin{ques*}
-	Again, are we allowed to plug in $(a:b:c)$ instead of $\left( \frac{a}{a+b+c} , \frac{b}{a+b+c} , \frac{c}{a+b+c} \right)$ into the circle formula?
+  Again, are we allowed to plug in $(a:b:c)$ instead of $\left( \frac{a}{a+b+c} , \frac{b}{a+b+c} , \frac{c}{a+b+c} \right)$ into the circle formula?
 \end{ques*}
 
 We can get the equation of $\omega$ just as we might in Cartesian coordinates.  We know from our earlier work that it passes through the points $A=(1:0:0)$, $M=(0:1:1)$ and $D=(0:b:c)$.  If we plug each of these in, we'll get three (linear) equations in three unknowns $u,v,w$
 
 \begin{ques*}
-	Show that $u=0$ and that \[ v = \frac{a^2c}{2(b+c)}, \quad w = \frac{a^2b}{2(b+c)}. \]
+  Show that $u=0$ and that \[ v = \frac{a^2c}{2(b+c)}, \quad w = \frac{a^2b}{2(b+c)}. \]
 \end{ques*}
 
 \subsection[The Points P and Q]{The Points $P$ and $Q$}
 \begin{figure}[t]
-	\centering
-	\begin{asy}
-import olympiad; import cse5; size(6cm); real lsf=0.9001; real lisf=2011.0; defaultpen(fontsize(10pt));
+  \centering
+  \begin{asy}
+size(6cm); real lsf=0.9001; real lisf=2011.0; defaultpen(fontsize(10pt));
 
 /* Initialize Objects */
 pair A = (-5.0, 6.0);
@@ -264,9 +331,9 @@ path a = B--C;
 path b = C--A;
 pair M = midpoint(a);
 pair D = IntersectionPoint(Line(A,bisectorpoint(B,A,C),lisf),a);
-path w = circumcircle(A,D,M);
-pair Q = IntersectionPoint(w,c,1);
-pair P = IntersectionPoint(w,b,1);
+circle w = circumcircle(A,D,M);
+pair Q = secondIntersection(w,A,B);
+pair P = secondIntersection(w,A,C);
 pair N = midpoint(P--Q);
 
 /* Draw objects */
@@ -300,54 +367,54 @@ label("$N$", N, lsf*dir(45));
 \caption{The Diagram Again}
 \end{figure}
 \begin{ques*}
-	Find two constraints on the coordinates of $Q$, and use these to solve for $Q$.
+  Find two constraints on the coordinates of $Q$, and use these to solve for $Q$.
 \end{ques*}
 \begin{ques*}
-	Find the coordinates of $P$.  (Hint: use symmetry!)
+  Find the coordinates of $P$.  (Hint: use symmetry!)
 \end{ques*}
 
 
 \subsection[Finding N]{Finding $N$}
 To take the midpoint of two points, simply normalize them, and take the average of their coordinates.  This is valid by the vector definition $x \vec A + y \vec B + z \vec C$.
 \begin{ques*}
-	Why is it important that the coordinates be normalized?
+  Why is it important that the coordinates be normalized?
 \end{ques*}
 \begin{ques*}
-	What is $N$?
+  What is $N$?
 \end{ques*}
 
 \subsection{The Area Formula}
 We're almost done now, because we've obtained the coordinates of all the points.  All that's left to do is show that $MN \parallel AD$.  But how do we do this?  We need one last tool, the area formula.\footnote{Can you show that this theorem implies the form for the equation of a line?}
 \begin{theorem}[Area Formula]
-	Let $P_i = \left( x_i, y_i, z_i \right)$ for $i=1,2,3$.  Then the area of $\triangle P_1P_2P_3$ is given by
-	\[ [P_1P_2P_3] = [ABC] \cdot \left| \begin{array}{ccc} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{array} \right| \]
-	This area is positive when $P_1$, $P_2$ and $P_3$ are labelled counterclockwise, and negative otherwise.
-	\label{thm:area}
+  Let $P_i = \left( x_i, y_i, z_i \right)$ for $i=1,2,3$.  Then the area of $\triangle P_1P_2P_3$ is given by
+  \[ [P_1P_2P_3] = [ABC] \cdot \left| \begin{array}{ccc} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{array} \right| \]
+  This area is positive when $P_1$, $P_2$ and $P_3$ are labelled counterclockwise, and negative otherwise.
+  \label{thm:area}
 \end{theorem}
 \begin{ques*}
-	Is it important that the $P_i$ are normalized?
+  Is it important that the $P_i$ are normalized?
 \end{ques*}
 \begin{ques*}
-	We're trying to prove that $MN \parallel AD$.  What does this have to do with areas?
+  We're trying to prove that $MN \parallel AD$.  What does this have to do with areas?
 \end{ques*}
 \begin{ques*}
-	Show that the problem is solved upon verifying \[
-	\left|
-	\begin{array}{ccc}
-		\frac{a^2}{4bc} & \half - \frac{a^2b}{4bc(b+c)} & \half-\frac{a^2c}{4bc(b+c)} \\
-		0 & b & c \\
-		1 & 0 & 0
-	\end{array}
-	\right|
-	=
-	\left|
-	\begin{array}{ccc}
-		0 & \half & \half \\
-		0 & b & c \\
-		1 & 0 & 0
-	\end{array}
-	\right|.
-	\]
+  Show that the problem is solved upon verifying \[
+  \left|
+  \begin{array}{ccc}
+    \frac{a^2}{4bc} & \half - \frac{a^2b}{4bc(b+c)} & \half-\frac{a^2c}{4bc(b+c)} \\
+    0 & b & c \\
+    1 & 0 & 0
+  \end{array}
+  \right|
+  =
+  \left|
+  \begin{array}{ccc}
+    0 & \half & \half \\
+    0 & b & c \\
+    1 & 0 & 0
+  \end{array}
+  \right|.
+  \]
 \end{ques*}
 
 \section{Summary}
@@ -355,45 +422,45 @@ Here's a recap of the formulae that appeared:
 
 \newcommand{\tableskip}{0.4cm}
 \begin{table}[h]
-	\centering
-	\begin{tabular}{r|p{0.35\textwidth}|p{0.45\textwidth}}
-		& Cartesian & Barycentric \\ \hline
-		Definition & If $P=(x,y)$, then $\vec P = x \hat i + y \hat j$. & If $P=(x,y,z)$, where $x+y+z=1$, then $\vec P = x \vec A + y \vec B + z \vec C$. \\[\tableskip]
-		Origin & Arbitrary point $(0,0)$. & Vertices of triangle $(1,0,0)$ etc. \\[\tableskip]
-		Axes & Two perpendiculars $x,y=0$. & Sides of triangle $x,y,z=0$ \\[\tableskip]
-		Line & $Ax + By + C = 0$ & $ux + vy + wz = 0$ \\[\tableskip]
-		Circle & $x^2+y^2+Ax+By+C = 0$ & $-a^2yz-b^2zx-c^2xy \newline + (x+y+z)(ux+vy+wz)=0$ \\[\tableskip]
-		Area & $\half \left|
-		\begin{array}{ccc}
-			x_1 & y_1 & 1 \\
-			x_2 & y_2 & 1 \\
-			x_3 & y_3 & 1
-		\end{array}
-		\right|$ &
-		$[ABC] \cdot \left|
-		\begin{array}{ccc}
-			x_1 & y_1 & z_1 \\
-			x_2 & y_2 & z_2 \\
-			x_3 & y_3 & z_3 \\
-		\end{array}
-		\right|$
-	\end{tabular}
-	\caption{Cartesian vs. Barycentric}
-	\label{tab:compare}
+  \centering
+  \begin{tabular}{r|p{0.35\textwidth}|p{0.45\textwidth}}
+    & Cartesian & Barycentric \\ \hline
+    Definition & If $P=(x,y)$, then $\vec P = x \hat i + y \hat j$. & If $P=(x,y,z)$, where $x+y+z=1$, then $\vec P = x \vec A + y \vec B + z \vec C$. \\[\tableskip]
+    Origin & Arbitrary point $(0,0)$. & Vertices of triangle $(1,0,0)$ etc. \\[\tableskip]
+    Axes & Two perpendiculars $x,y=0$. & Sides of triangle $x,y,z=0$ \\[\tableskip]
+    Line & $Ax + By + C = 0$ & $ux + vy + wz = 0$ \\[\tableskip]
+    Circle & $x^2+y^2+Ax+By+C = 0$ & $-a^2yz-b^2zx-c^2xy \newline + (x+y+z)(ux+vy+wz)=0$ \\[\tableskip]
+    Area & $\half \left|
+    \begin{array}{ccc}
+      x_1 & y_1 & 1 \\
+      x_2 & y_2 & 1 \\
+      x_3 & y_3 & 1
+    \end{array}
+    \right|$ &
+    $[ABC] \cdot \left|
+    \begin{array}{ccc}
+      x_1 & y_1 & z_1 \\
+      x_2 & y_2 & z_2 \\
+      x_3 & y_3 & z_3 \\
+    \end{array}
+    \right|$
+  \end{tabular}
+  \caption{Cartesian vs. Barycentric}
+  \label{tab:compare}
 \end{table}
 
 \eject
 \section{Additional Problems}
 \begin{enumerate}
-	\item (Mongolia TST 2000/6) In a triangle $ABC$, the angle bisector at $A$,$B$,$C$ meet the opposite sides at $A_1$,$B_1$,$C_1$, respectively. Prove that if the quadrilateral $BA_1B_1C_1$ is cyclic, then \[ \frac{AC}{AB+BC} = \frac{AB}{AC+BC} + \frac{BC}{BA+AC}. \]
-	\item (USA TST 2012) In acute triangle $ABC$, $\angle A < \angle B$ and $\angle A < \angle C$.  Let $P$ be a variable point on side $BC$.  Points $D$ and $E$ lie on sides $AB$ and $AC$, respectively, such that $BP = PD$ and $CP = PE$.  Prove that if $P$ moves along side $BC$, the circumcircle of triangle $ADE$ passes through a fixed point other than $A$.
- 	\item (USA TST 2003/2) Let $ABC$ be a triangle and let $P$ be a point in its interior. Lines $PA$, $PB$, $PC$ intersect sides $BC$, $CA$, $AB$ at $D$, $E$, $F$, respectively. Prove that \[ [PAF]+[PBD]+[PCE]=\frac{1}{2}[ABC]  \] if and only if $P$ lies on at least one of the medians of triangle $ABC$. (Here $[XYZ]$ denotes the area of triangle $XYZ$.)
-	\item (Saudi Arabia TST 2012) Let $ABCD$ be a convex quadrilateral such that $AB = AC = BD$.  The lines $AC$ and $BD$ meet at point $O$, the circles $ABC$ and $ADO$ meet again at point $P$, and the lines $AP$ and $BC$ meet at point $Q$.  Show that $\angle COQ = \angle DOQ$.
+  \item (Mongolia TST 2000/6) In a triangle $ABC$, the angle bisector at $A$,$B$,$C$ meet the opposite sides at $A_1$,$B_1$,$C_1$, respectively. Prove that if the quadrilateral $BA_1B_1C_1$ is cyclic, then \[ \frac{AC}{AB+BC} = \frac{AB}{AC+BC} + \frac{BC}{BA+AC}. \]
+  \item (USA TST 2012) In acute triangle $ABC$, $\angle A < \angle B$ and $\angle A < \angle C$.  Let $P$ be a variable point on side $BC$.  Points $D$ and $E$ lie on sides $AB$ and $AC$, respectively, such that $BP = PD$ and $CP = PE$.  Prove that if $P$ moves along side $BC$, the circumcircle of triangle $ADE$ passes through a fixed point other than $A$.
+   \item (USA TST 2003/2) Let $ABC$ be a triangle and let $P$ be a point in its interior. Lines $PA$, $PB$, $PC$ intersect sides $BC$, $CA$, $AB$ at $D$, $E$, $F$, respectively. Prove that \[ [PAF]+[PBD]+[PCE]=\frac{1}{2}[ABC]  \] if and only if $P$ lies on at least one of the medians of triangle $ABC$. (Here $[XYZ]$ denotes the area of triangle $XYZ$.)
+  \item (Saudi Arabia TST 2012) Let $ABCD$ be a convex quadrilateral such that $AB = AC = BD$.  The lines $AC$ and $BD$ meet at point $O$, the circles $ABC$ and $ADO$ meet again at point $P$, and the lines $AP$ and $BC$ meet at point $Q$.  Show that $\angle COQ = \angle DOQ$.
 \end{enumerate}
 
 \begin{thebibliography}{99}
-	\bibitem{bary} Max Schindler and C.  ``Barycentric Coordinates in Olympiad Geometry.'' \\ \url{http://www.artofproblemsolving.com/Resources/Papers/Bary_full.pdf}.
-	\bibitem{abel} Zachary Abel.  ``Barycentric Coordinates.'' \\ \url{http://zacharyabel.com/papers/Barycentric\_A07.pdf}.
+  \bibitem{bary} Max Schindler and C.  ``Barycentric Coordinates in Olympiad Geometry.'' \\ \url{http://www.artofproblemsolving.com/Resources/Papers/Bary_full.pdf}.
+  \bibitem{abel} Zachary Abel.  ``Barycentric Coordinates.'' \\ \url{http://zacharyabel.com/papers/Barycentric\_A07.pdf}.
 \end{thebibliography}
 
 \end{document}
