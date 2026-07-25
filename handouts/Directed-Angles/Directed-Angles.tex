@@ -1,15 +1,15 @@
 \documentclass[11pt]{scrartcl}
-\usepackage[sexy,noasy]{evan}
-\usepackage{asymptote}
+\usepackage[sexy]{evan}
 
-%% Legacy code
 \begin{asydef}
-import olympiad;
-import cse5;
-size(8cm);
-usepackage("amsmath");
-usepackage("amssymb");
-pointpen = black;
+  // Old-style angle mark, matching the long-retired olympiad.asy version:
+  // a single arc "pie slice" of radius t*markscalefactor centered at B.
+  real markscalefactor = 0.03;
+  path anglemark(pair A, pair B, pair C, real t = 8) {
+    pair M = t * markscalefactor * unit(A - B) + B;
+    pair N = t * markscalefactor * unit(C - B) + B;
+    return arc(B, M, N) -- B -- cycle;
+  }
 \end{asydef}
 
 \begin{document}
@@ -140,8 +140,8 @@ Here's the very general definition.
     draw(M--MM);
     MP("\ell", L, L);
     MP("m", M, M);
-    draw(arc(origin,0.4*L,0.4*M), EndArrow);
-    MP("50^{\circ}", 0.6*dir(105), origin);
+    draw(arc((0,0),0.4*L,0.4*M), EndArrow);
+    MP("50^{\circ}", 0.6*dir(105), (0,0));
   \end{asy}
   \caption{The directed angle $\dang(\ell, m) = 50\dg$.}
   \label{fig:dir_angle_first}
@@ -196,13 +196,13 @@ as the angle between the two lines $AO$ and $BO$.
     draw(M--MM);
     label("$\ell$", L, L);
     label("$m$", M, M);
-    draw(arc(origin,0.4*L,0.4*M), EndArrow);
-    draw(arc(origin,-0.3*M,0.3*L), dotted, BeginArrow);
+    draw(arc((0,0),0.4*L,0.4*M), EndArrow);
+    draw(arc((0,0),-0.3*M,0.3*L), dotted, BeginArrow);
     dot("$A$", 0.8*L, dir(-10));
     dot("$B$", -0.6*M, dir(20));
-    dot("$O$", origin, dir(190));
-    label("$50^{\circ}$", 0.6*dir(105), origin);
-    label("$-130^{\circ}$", 0.5*dir(15), origin);
+    dot("$O$", (0,0), dir(190));
+    label("$50^{\circ}$", 0.6*dir(105), (0,0));
+    label("$-130^{\circ}$", 0.5*dir(15), (0,0));
   \end{asy}
   \caption{The directed angle $\dang AOB = -130\dg = 50\dg$.}
 \end{figure}
@@ -267,9 +267,9 @@ for three concurrent lines $\ell$, $m$, $n$.
     draw(arc(B, B+r*dir(A-B), B+r*dir(C-B)), EndArrow);
     draw(arc(C, C+r*dir(B-C), C+r*dir(A-C)), EndArrow);
     real k = 0.6;
-    label("$\measuredangle CAB$", k*dir(A), origin);
-    label("$\measuredangle ABC$", k*dir(B), origin);
-    label("$\measuredangle BCA$", 0.9*k*dir(C), origin);
+    label("$\measuredangle CAB$", k*dir(A), (0,0));
+    label("$\measuredangle ABC$", k*dir(B), (0,0));
+    label("$\measuredangle BCA$", 0.9*k*dir(C), (0,0));
   \end{asy}
   \caption{Triangle Sum}
 \end{figure}
@@ -452,7 +452,7 @@ See if you can follow along the logic.
     pair K = Drawing("K", dir(-64), dir(-90));
     pair M = Drawing("M", reflect(B,C) * K, dir(180));
     pair L = Drawing("L", reflect(B,A) * K, dir(90));
-    pair E = Drawing("E'", 2*foot(origin,M,Ha)-Ha, dir(70));
+    pair E = Drawing("E'", 2*foot((0,0),M,Ha)-Ha, dir(70));
     Drawing(A--Ha--B--Hc--C);
     Drawing(L--Hc); Drawing(Hc--E, dotted);
     draw(unitcircle);
@@ -476,7 +476,7 @@ See if you can follow along the logic.
     pair K = Drawing("K", dir(-84), dir(-70));
     pair M = Drawing("M", reflect(B,C) * K, dir(-10));
     pair L = Drawing("L", reflect(B,A) * K, dir(240));
-    pair E = Drawing("E'", 2*foot(origin,M,Ha)-Ha, dir(70));
+    pair E = Drawing("E'", 2*foot((0,0),M,Ha)-Ha, dir(70));
     Drawing(A--Ha--B--Hc--C);
     Drawing(L--Hc); Drawing(Hc--E, dotted);
     draw(unitcircle);
@@ -534,7 +534,7 @@ See if you can solve them and then write a single proof which does not need to c
   \end{asy}
   \begin{asy}
     size(3.5cm);
-    pair Y = Drawing("Y", origin, dir(225));
+    pair Y = Drawing("Y", (0,0), dir(225));
     pair A = Drawing("A", dir(130), dir(130));
     pair B = Drawing("B", 1.3*dir(70), dir(110));
     pair r = 1.7*dir(-40);
@@ -553,7 +553,7 @@ See if you can solve them and then write a single proof which does not need to c
     pair A = Drawing("A", dir(130), dir(130));
     pair B = Drawing("B", dir(210), dir(210));
     pair C = Drawing("C", dir(330), dir(330));
-    pair I = Drawing(incenter(A,B,C));
+    pair I = Drawing((pair)incenter(A,B,C));
     pair D = Drawing("D", foot(I,B,C), dir(-90));
     pair E = Drawing("E", foot(I,C,A), dir(70));
     pair F = Drawing("F", foot(I,A,B), dir(160));
