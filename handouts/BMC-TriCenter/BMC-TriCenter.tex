@@ -1,0 +1,715 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{evan}
+
+\newtheorem{game}{Game}
+\setcounter{game}{-1}
+\usepackage{multicol}
+\lhead{Nine-Point Circle}
+\lhead{Berkeley Math Circle}
+
+\begin{asydef}
+	pointfontsize=11;
+	defaultpen(fontsize(11pt));
+\end{asydef}
+
+
+\begin{document}
+\addtolength{\droptitle}{-4em}
+\title{BMC Intermediate II: Triangle Centers}
+\date{January 20, 2015}
+\maketitle
+
+\section{The Eyeballing Game}
+\begin{multicols}{2}
+\begin{game}
+	Given a point $O$, the locus of points
+	$P$ such that the length of $OP$ is $5$.
+	\begin{center}
+		\begin{asy}
+			size(4cm);
+			pair O = Drawing("O", origin, dir(225));
+			pair P1 = Drawing("P_1", dir(40), dir(40));
+			pair P2 = Drawing("P_2", dir(130), dir(130));
+			pair P3 = Drawing("P_3", dir(-80), dir(-80));
+			draw(O--P1);
+			draw(O--P2);
+			draw(O--P3);
+		\end{asy}
+	\end{center}
+\end{game}
+\begin{game}
+	Given a triangle $ABC$, the locus of points $P$ such that $PB = PC$.
+	\begin{center}
+		\begin{asy}
+			size(5cm);
+			pair A = Drawing("A", dir(110), dir(110));
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			pair P1 = Drawing("P_1", dir(90)*0.8, dir(75));
+			pair P2 = Drawing("P_2", dir(90)*0.1, dir(45));
+			pair P3 = Drawing("P_3", dir(90)*(-0.3), dir(-45));
+			draw(B--P1--C, dotted);
+			draw(A--B--C--cycle, heavyred);
+		\end{asy}
+	\end{center}
+	\label{game:circumcenter}
+\end{game}
+\begin{game}
+	Given a triangle $ABC$, the locus of points $P$ in $\triangle ABC$
+	such that the distance from $P$ to $\ol{AB}$ and $\ol{AC}$
+	is the same.
+	\begin{center}
+		\begin{asy}
+			size(6cm);
+			pair A = Drawing("A", dir(110), dir(110));
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			draw(A--B--C--cycle, heavyred);
+			pair P1 = Drawing("P_1", incenter(A,B,C), dir(-90));
+			pair P2 = Drawing("P_2", extension(A,P1,B,C), dir(-90));
+			draw(foot(P1,A,B)--P1--foot(P1,A,C), dashed);
+			draw(foot(P2,A,B)--P2--foot(P2,A,C), dashed);
+		\end{asy}
+	\end{center}
+	\label{game:incenter}
+\end{game}
+\columnbreak
+\begin{game}
+	Given a triangle $ABC$, the locus of points $P$
+	such that the triangles $PAB$ and $PAC$ have the same area.
+	(This one's a little harder, you might want to skip it
+	and come back later.)
+	\begin{center}
+		\begin{asy}
+			size(6cm);
+			pair A = Drawing("A", dir(110), dir(110));
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			draw(A--B--C--cycle, heavyred);
+			pair P1 = Drawing("P_1", centroid(A,B,C), dir(-90));
+			pair P2 = Drawing("P_2", midpoint(B--C), dir(-90));
+			draw(A--P1--B, dashed);
+			draw(A--P1--C, dashed);
+		\end{asy}
+	\end{center}
+	\label{game:centroid}
+\end{game}
+%\begin{game}
+%	Fix point $A$ on a circle $\omega$,
+%	and vary a point $P$ on $\omega$.
+%	What is the locus of midpoints $M$ of $AP$?
+%	\begin{center}
+%		\begin{asy}
+%			size(6cm);
+%			draw(unitcircle);
+%			pair A = Drawing("A", (-1,0), dir(180));
+%			pair P1 = Drawing("P_1", dir(80), dir(80));
+%			pair P2 = Drawing("P_2", dir(10), dir(10));
+%			pair P3 = Drawing("P_3", dir(-40), dir(-40));
+%			pair M1 = Drawing("M_1", midpoint(Drawing(A--P1)), dir(140));
+%			pair M2 = Drawing("M_2", midpoint(Drawing(A--P2)), dir(100));
+%			pair M3 = Drawing("M_3", midpoint(Drawing(A--P3)), dir(100));
+%		\end{asy}
+%	\end{center}
+%	\label{game:homotangent}
+%\end{game}
+\begin{game}
+	Let $A$ be a point and consider a circle.
+	Let $P$ be any point on the circle, and $M$ the midpoint of $\ol{AP}$.
+	As $P$ varies, what is the locus of $M$?
+	\begin{center}
+		\begin{asy}
+			size(6cm);
+			draw(unitcircle, blue);
+			pair A = Drawing("A", (-0.6,0), dir(140));
+			pair P1 = Drawing("P_1", dir(80), dir(80));
+			pair P2 = Drawing("P_2", dir(10), dir(10));
+			pair P3 = Drawing("P_3", dir(230), dir(230));
+			pair M1 = Drawing("M_1", midpoint(Drawing(A--P1)), dir(140));
+			pair M2 = Drawing("M_2", midpoint(Drawing(A--P2)), dir(100));
+			pair M3 = Drawing("M_3", midpoint(Drawing(A--P3)), dir(10));
+		\end{asy}
+	\end{center}
+	\label{game:homocircle}
+\end{game}
+\end{multicols}
+\eject
+
+\section{Triangle Centers}
+\begin{multicols}{2}
+	\textbf{Circumcenter} $O$ (via \Cref{game:circumcenter})
+	\begin{center}
+		\begin{asy}
+			size(6cm);
+			pair A = Drawing("A", dir(110), dir(110));
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			draw(A--B--C--cycle, heavyred);
+			draw(unitcircle, blue);
+			pair O = Drawing("O", origin, dir(45));
+			draw(O--A); draw(O--B); draw(O--C);
+			draw(O--(B+C)/2, dotted);
+			draw(O--(C+A)/2, dotted);
+			draw(O--(A+B)/2, dotted);
+		\end{asy}
+	\end{center}
+
+	\textbf{Centroid} $G$ (via \Cref{game:centroid})
+	\begin{center}
+		\begin{asy}
+			size(6cm);
+			pair A = Drawing("A", dir(110), dir(110));
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			draw(A--B--C--cycle, heavyred);
+			pair G = Drawing("G", (A+B+C)/3, 1.4*dir(80));
+			draw(A--D(midpoint(B--C)), dashed);
+			draw(B--D(midpoint(C--A)), dashed);
+			draw(C--D(midpoint(A--B)), dashed);
+		\end{asy}
+	\end{center}
+
+	\columnbreak
+
+	\textbf{Incenter} $I$ (via \Cref{game:incenter})
+	\begin{center}
+		\begin{asy}
+			size(6cm);
+			pair A = Drawing("A", dir(110), dir(110));
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			draw(A--B--C--cycle, heavyred);
+			draw(incircle(A,B,C), blue);
+			pair I = Drawing("I", incenter(A,B,C), dir(80));
+			draw(A--I, dashed);
+			draw(B--I, dashed);
+			draw(C--I, dashed);
+			draw(I--Drawing(foot(I,B,C)), dotted);
+			draw(I--Drawing(foot(I,C,A)), dotted);
+			draw(I--Drawing(foot(I,A,B)), dotted);
+		\end{asy}
+	\end{center}
+
+	\textbf{Orthocenter} $H$ (via \Cref{game:circumcenter}! How?)
+	\begin{center}
+		\begin{asy}
+			size(6cm);
+			pair A = Drawing("A", dir(110), dir(110));
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			draw(A--B--C--cycle, heavyred);
+			draw(A--D(foot(A,B,C)));
+			draw(B--D(foot(B,C,A)));
+			draw(C--D(foot(C,A,B)));
+			pair H = Drawing("H", orthocenter(A,B,C), dir(70)*2);
+		\end{asy}
+	\end{center}
+\end{multicols}
+
+In words:
+\begin{itemize}
+	\ii Every triangle has exactly one circle passing through
+	all of its vertices.
+	This is called the \textbf{circumcircle},
+	and its center $O$ is called the \textbf{circumcenter}.
+	The point $O$ is the intersection of the perpendicular bisectors.
+
+	\ii Every triangle has exactly one circle which is inscribed inside it.
+	This is called the \textbf{incircle},
+	and the center $I$ is called the \textbf{incenter}.
+	It is the intersection of the angle bisectors.
+
+	\ii The three \textbf{medians} of a triangle concur at
+	a center $G$ called the \textbf{centroid} of the triangle.
+
+	\ii The three \textbf{altitudes} of a triangle concur at
+	a center $H$ called the \textbf{orthocenter} of the triangle.
+\end{itemize}
+
+
+\eject
+
+\section{Orthocenter Flipping}
+\begin{game}
+	Given a triangle $ABC$, the points $P$ such
+	that $\angle BPC = 180\dg - \angle A$.
+	\begin{center}
+		\begin{asy}
+			size(6cm);
+			pair A = Drawing("A", dir(110), dir(110));
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			draw(A--B--C--cycle, heavyred);
+			pair P1 = Drawing("P_1", orthocenter(A,B,C), dir(90));
+			pair P2 = Drawing("P_2", -B*C/A, dir(-90));
+			pair P3 = Drawing("P_3", -A, dir(-90));
+			draw(B--P1--C, dashed);
+			draw(B--P2--C, dashed);
+			draw(B--P3--C, dashed);
+		\end{asy}
+	\end{center}
+	\label{game:orthoflip}
+\end{game}
+Some hints for the above game:
+\begin{itemize}
+	\ii Can you identify the point $P_1$ I've drawn?
+	\ii How are $P_2$ and $P_3$ related to $P_1$?
+	\ii What's the relation between $A$, $B$, $P_2$, $P_3$, and $C$?
+\end{itemize}
+
+\section{Circle Theorems}
+\begin{theorem}
+	The sum of the angles in a triangle is $180\dg$.
+\end{theorem}
+\begin{theorem}
+	[Inscribed Angle Theorem, also ``Star Trek Theorem'']
+	An inscribed angle in a circle cuts out an arc equal to twice its measure.
+\end{theorem}
+\begin{center}
+	\begin{asy}
+		size(4cm);
+		draw(unitcircle);
+		pair A = dir(110);
+		pair X = dir(210);
+		pair Y = dir(330);
+		pair B = dir( 50);
+		Drawing("A", A, A);
+		Drawing("B", B, B);
+		Drawing("X", X, X);
+		Drawing("Y", Y, Y);
+		draw(X--A--Y);
+		draw(X--B--Y);
+		draw(anglemark(X,A,Y));
+		draw(anglemark(X,B,Y));
+	\end{asy}
+	\quad
+	\begin{asy}
+		size(6cm);
+		pair A = Drawing("A", dir(110), dir(110));
+		pair B = Drawing("B", dir(210), dir(210));
+		pair C = Drawing("C", dir(330), dir(330));
+		draw(A--B--C--cycle);
+		draw(unitcircle, blue);
+		pair O = Drawing("O", origin, dir(50));
+		draw(B--O--C);
+		draw(O--A, dotted);
+		markscalefactor *= 0.7;
+		draw(anglemark(B,A,C));
+		markscalefactor *= 0.7;
+		draw(anglemark(B,O,C));
+	\end{asy}
+	\quad
+	\begin{asy}
+		size(4cm);
+		draw(unitcircle);
+		pair A = dir(110);
+		pair X = dir(210);
+		pair Y = dir(330);
+		pair B = dir(280);
+		Drawing("A", A, A);
+		Drawing("B", B, B);
+		Drawing("X", X, X);
+		Drawing("Y", Y, Y);
+		draw(X--A--Y);
+		draw(X--B--Y);
+		draw(anglemark(X,A,Y));
+		pair Z = 1.5*B-0.5*X;
+		draw(anglemark(Z,B,Y));
+		draw(B--Z);
+	\end{asy}
+\end{center}
+
+The inscribed angle theorem has important special cases.
+As in the left diagram, suppose $A$, $B$, $Y$, $X$ lie on a circle in that order.
+Then $\angle XAY = \angle XBY$, because both are equal to $\half \widehat{XY}$!
+Similarly, if $A$, $X$, $B$, $Y$ lie on a circle in that order,
+then $\angle XAY + \angle XBY = 180\dg$, because the two angles
+mark out the entire circle: the sum of those arcs is $360\dg$.
+
+It turns out the reverse is true: if points $A$, $B$, $X$, $Y$
+satisfy the conditions above, all four lie on a circle.
+
+\eject
+
+
+\section{The Nine-Point Circle}
+What happens when we combine \Cref{game:homocircle} and \Cref{game:orthoflip}?
+
+\begin{theorem}
+	[Nine-Point Circle]
+	Let $ABC$ be a triangle with orthocenter $H$.
+	The feet of the altitudes, the midpoints of the sides,
+	as well as the three midpoints of $\ol{AH}$, $\ol{BH}$, $\ol{CH}$
+	all lie on a single circle, called the \textbf{nine-point circle}
+	of triangle $ABC$.
+	Its center is the midpoint of $\ol{OH}$.
+\end{theorem}
+
+\begin{center}
+	\begin{asy}
+		size(12cm);
+		pair A = Drawing("A", dir(110), dir(110));
+		pair B = Drawing("B", dir(210), dir(210));
+		pair C = Drawing("C", dir(330), dir(330));
+		draw(A--B--C--cycle);
+		draw(unitcircle, blue);
+		pair H = Drawing("H", orthocenter(A,B,C), dir(45));
+		pair A1 = Drawing("A_1", -B*C/A, dir(B+C));
+		pair B1 = Drawing("B_1", -C*A/B, dir(C+A));
+		pair C1 = Drawing("C_1", -A*B/C, dir(A+B));
+		pair A2 = Drawing("A_2", -A, dir(B+C));
+		pair B2 = Drawing("B_2", -B, dir(C+A));
+		pair C2 = Drawing("C_2", -C, dir(A+B));
+
+		pair M_A = Drawing("M_A", (B+C)/2, dir(B+C));
+		pair M_B = Drawing("M_B", (C+A)/2, dir(C+A));
+		pair M_C = Drawing("M_C", (A+B)/2, dir(A+B));
+		pair D = Drawing("D", foot(A,B,C), dir(-A));
+		pair E = Drawing("E", foot(B,C,A), dir(-B));
+		pair F = Drawing("F", foot(C,A,B), dir(-C));
+		pair H_A = Drawing(A+(B+C)/2);
+		pair H_B = Drawing(B+(C+A)/2);
+		pair H_C = Drawing(C+(A+B)/2);
+		draw(circumcircle(D,E,F), dashed+red);
+		draw(A--A1);
+		draw(B--B1);
+		draw(C--C1);
+		draw(H--A2, dotted);
+		draw(H--B2, dotted);
+		draw(H--C2, dotted);
+
+		pair O = Drawing("O", origin, dir(45));
+		pair N9 = Drawing("N_9", midpoint(O--H), dir(65));
+		draw(H--O, dotted);
+	\end{asy}
+\end{center}
+
+Summary of work:
+\begin{itemize}
+	\ii $\angle BHC = 180\dg - \angle A$.
+	\ii As we saw in \Cref{game:orthoflip}, the reflections of
+	$H$ across $\ol{BC}$ and its midpoint all lie on the
+	circumcircle of $\triangle ABC$.
+	\ii Now apply \Cref{game:homocircle}.
+\end{itemize}
+
+\eject
+
+\section{Euler's Line}
+Now let $\overline{AM_A}$ intersect $\overline{OH}$ at $S$.
+
+\begin{center}
+	\begin{asy}
+		size(12cm);
+		pair A = Drawing("A", dir(110), dir(110));
+		pair B = Drawing("B", dir(210), dir(210));
+		pair C = Drawing("C", dir(330), dir(330));
+		draw(A--B--C--cycle, blue);
+		pair H = Drawing("H", orthocenter(A,B,C), dir(45));
+
+		pair M_A = Drawing("M_A", (B+C)/2, dir(B+C));
+		pair M_B = Drawing("M_B", (C+A)/2, dir(C+A));
+		pair M_C = Drawing("M_C", (A+B)/2, dir(A+B));
+		pair D = Drawing("D", foot(A,B,C), dir(-A));
+		pair E = Drawing("E", foot(B,C,A), dir(-B));
+		pair F = Drawing("F", foot(C,A,B), dir(-C));
+		pair H_A = Drawing(A+(B+C)/2);
+		pair H_B = Drawing(B+(C+A)/2);
+		pair H_C = Drawing(C+(A+B)/2);
+		draw(circumcircle(D,E,F), dashed+red);
+
+		pair O = Drawing("O", origin, dir(45));
+		draw(H--O, dotted+heavycyan);
+
+		pair S = Drawing("S", centroid(A,B,C), dir(65));
+		draw(A--H, heavycyan);
+		draw(A--M_A, heavycyan);
+		draw(O--M_A, heavycyan);
+		draw(M_A--M_B--M_C--cycle, blue);
+	\end{asy}
+\end{center}
+
+\begin{itemize}
+	\ii Why are triangles $AHS$ and $OM_AS$ similar?
+	\ii Why are triangles $ABC$ and $M_AM_BM_C$ similar? What ratio?
+	\ii Which center of $M_AM_BM_C$ is $O$? (Not the circumcenter!)
+	\ii Compute $AH / OM_A$.
+	\ii Compute $HS / SO$ and $AS / SM_A$.
+\end{itemize}
+
+So let's give $S$ a new definition: it is the ``$\frac13$-way point of $O$ and $H$''. Our work above tells us that $A$, $S$, $M_A$ are collinear.
+That means $BM_B$ and $CM_C$ must also pass through it.
+
+So, what is $S$?
+
+\begin{theorem}
+	[Euler Line]
+	The centroid, circumcenter, orthocenter, and nine-point center
+	are all collinear.
+\end{theorem}
+
+\eject
+
+\section{The Incenter}
+% So we've got orthocenter, centroid, circumcenter
+
+\begin{game}
+	Let $ABC$ be a triangle with circumcircle $\Gamma$ and incenter $I$.
+	We hold $\Gamma$, $B$, $C$ fixed and let $A$ vary on $\Gamma$.
+	What is the locus of $I$?
+	\begin{center}
+		\begin{asy}
+			size(7cm);
+			pair B = Drawing("B", dir(210), dir(210));
+			pair C = Drawing("C", dir(330), dir(330));
+			draw(unitcircle, blue);
+			draw(B--C, blue);
+
+			pair A1 = Drawing("A_1", dir(130), dir(130));
+			draw(B--A1--C);
+			pair I1 = Drawing("I_1", incenter(A1,B,C), dir(A1));
+
+			pair A2 = Drawing("A_2", dir(80), dir(80));
+			draw(B--A2--C);
+			pair I2 = Drawing("I_2", incenter(A2,B,C), dir(A2));
+
+			pair A3 = Drawing("A_3", dir(40), dir(40));
+			draw(B--A3--C);
+			pair I3 = Drawing("I_3", incenter(A3,B,C), dir(A3));
+		\end{asy}
+	\end{center}
+	Can you prove it?
+\end{game}
+
+To fully appreciate the result of this problem, I define the $A$-excenter $I_A$ to be the intersection of the \emph{external angles} of $\angle B$ and $\angle C$.
+Then we get the following result.
+
+\begin{theorem}
+	[Incenter/Excenter Lemma]
+	Let $ABC$ be a triangle with incenter $I$, $A$-excenter $I_A$, and denote by $L$ the midpoint of arc $BC$.  Then $L$ is the center of a circle through $I$, $I_A$, $B$, $C$.
+\end{theorem}
+\begin{center}
+	\begin{asy}
+		size(8cm);
+		pair A = dir(110);
+		pair B = dir(210);
+		pair C = dir(330);
+		pair I = incenter(A, B, C);
+		draw(A--B--C--cycle);
+		draw(unitcircle);
+		pair L = dir(270);
+		pair I_A = 2*L-I;
+		draw(CP(L, I), blue);
+
+		draw(A--I_A, dotted);
+
+		dot("$A$", A, dir(A));
+		dot("$B$", B, dir(190));
+		dot("$C$", C, dir(-10));
+		dot("$I$", I, dir(60));
+		dot("$L$", L, dir(225));
+		dot("$I_A$", I_A, dir(I_A));
+
+		/* Source generated by TSQ */
+	\end{asy}
+\end{center}
+
+You can do this entirely by just computing angles. Try it!
+
+\eject
+
+\section{Tying It All Together}
+What happens if we add in all the excenters?
+
+\begin{center}
+	\begin{asy}
+		size(12cm);
+		pair A = dir(130);
+		pair B = dir(210);
+		pair C = dir(330);
+		pair I = Drawing("I", incenter(A, B, C), dir(45));
+		draw(A--B--C--cycle);
+		draw(unitcircle, blue+dashed);
+		Drawing("A", A, A);
+		Drawing("B", B, B);
+		Drawing("C", C, C);
+		pair M_A = Drawing("M_A", dir(270), dir(225));
+		pair M_B = Drawing("M_B", dir(50), dir(100));
+		pair M_C = Drawing("M_C", dir(170), dir(200));
+		pair I_A = Drawing("I_A", 2*M_A-I, dir(I-A));
+		pair I_B = Drawing("I_B", 2*M_B-I, dir(I-B));
+		pair I_C = Drawing("I_C", 2*M_C-I, dir(I-C));
+
+		draw(I_A--I_B--I_C--cycle, heavyred);
+		draw(A--I_A);
+		draw(B--I_B);
+		draw(C--I_C);
+	\end{asy}
+\end{center}
+
+
+
+%%fakesection Not Using
+
+%\section{A Couple Theorems I Won't Prove}
+%\begin{multicols}{2}
+%	\begin{theorem}
+%		[Symmedian] In the figure below, $\angle BAX = \angle CAM$.
+%	\end{theorem}
+%	\begin{center}
+%		\begin{asy}
+%			pair A = Drawing("A", dir(130), dir(130));
+%			pair B = Drawing("B", dir(210), dir(210));
+%			pair C = Drawing("C", dir(330), dir(330));
+%			draw(A--B--C--cycle);
+%			draw(unitcircle);
+%			pair M = Drawing("M", midpoint(B--C), dir(-90));
+%			pair X = Drawing("X", 2*B*C/(B+C), dir(-90));
+%			draw(B--X--C);
+%			draw(X--A--M);
+%			draw(anglemark(B,A,X));
+%			draw(anglemark(M,A,C));
+%		\end{asy}
+%	\end{center}
+%	\columnbreak
+%	\begin{theorem}
+%		[Pascal's Theorem] In the figure below, $X$, $Y$, $Z$ collinear.
+%	\end{theorem}
+%	\begin{center}
+%		\begin{asy}
+%			draw(unitcircle);
+%			pair A,B,C,D,E,F;
+%			A = Drawing(dir(100));
+%			B = Drawing(dir(210));
+%			C = Drawing(dir(30));
+%			D = Drawing(dir(260));
+%			E = Drawing(dir(140));
+%			F = Drawing(dir(350));
+%			draw(A--B--C--D--E--F--cycle);
+%			pair X = Drawing("X", extension(A,B,D,E), dir(180));
+%			pair Y = Drawing("Y", extension(B,C,E,F), dir(90));
+%			pair Z = Drawing("Z", extension(C,D,F,A), dir(0));
+%			draw(X--Z, dashed);
+%		\end{asy}
+%	\end{center}
+%\end{multicols}
+
+\section{A Problem To Think About If You're Bored}
+
+\begin{center}
+	\begin{asy}
+		size(6cm);
+		pair A = Drawing("A", dir(110), dir(110));
+		pair B = Drawing("B", dir(210), dir(210));
+		pair C = Drawing("C", dir(330), dir(330));
+		pair M = Drawing("M", dir(-80), dir(-80));
+		draw(A--B--C--cycle, heavyred+1);
+		pair O = circumcenter(A,B,C);
+		pair I = incenter(A,B,C);
+		draw(unitcircle, blue);
+		draw(incircle(A,B,C), blue+1);
+		pair L = dir(90);
+		pair T = Drawing("T", 2*foot(O,I,L)-L, dir(I-L));
+		real pow = inradius(A,B,C)*inradius(A,B,C);
+		pair Mc = I+pow/conj(M-I);
+		pair[] K = IPs(incircle(A,B,C),
+			L(Mc-(M-I)*dir(90), Mc+(M-I)*dir(90)));
+		pair K1 = K[1];
+		pair K2 = K[0];
+		pair X1 = Drawing("X_1", extension(K1,M,B,C), dir(-45));
+		pair X2 = Drawing("X_2", extension(K2,M,B,C), dir(225));
+		draw(K1--M--K2, darkgreen);
+		pair MB = dir(40);
+		pair MC = dir(160);
+		pair TB = extension(T,MC,A,B);
+		pair TC = extension(T,MB,A,C);
+		draw(circumcircle(TB, TC, T), heavygreen);
+		draw(circumcircle(T, X1, X2), cyan+dashed);
+	\end{asy}
+\end{center}
+\begin{problem*}
+	Let $ABC$ be a triangle and let $M$ be a point on its circumcircle.
+	The tangents from $M$ to the incircle of $ABC$ intersect
+	at points $X_1$ and $X_2$.
+	A circle $\omega$ (called the $A$-mixtilinear incircle)
+	touches $\ol{AB}$ and $\ol{AC}$, as well as the circumcircle internally
+	at the point $T$.
+	Prove that points $T$, $M$, $X_1$, $X_2$ lie on a circle.
+\end{problem*}
+
+
+
+Here is the diagram for the solution I gave. See if you can find some of the things we talked about hiding in this picture!
+(For those of you that were here in October, there's also Pascal's Theorem
+hiding somewhere in there.)
+\begin{center}
+	\begin{asy}
+		size(16cm);
+		pair A = Drawing("A", dir(110), dir(110));
+		pair B = Drawing("B", dir(210), dir(210));
+		pair C = Drawing("C", dir(330), dir(330));
+		pair M = Drawing("M", dir(-80), dir(-80));
+		draw(A--B--C--cycle, heavyred+1);
+		pair O = circumcenter(A,B,C);
+		pair I = incenter(A,B,C);
+		draw(unitcircle, blue);
+		draw(incircle(A,B,C), blue+1);
+		pair L = Drawing("L", dir(90), dir(90));
+		pair D = Drawing("D", foot(I,B,C), dir(B+C));
+		pair E = Drawing("E", foot(I,C,A), dir(C+A));
+		pair F = Drawing("F", foot(I,A,B), dir(A+B));
+		pair H = Drawing("H", orthocenter(D,E,F), dir(160));
+		draw(D--Drawing(foot(D,E,F)), darkmagenta);
+		draw(D--E--F--cycle, blue+1);
+		pair T = Drawing("T", 2*foot(O,I,L)-L, dir(I-L));
+		pair Ac = Drawing("A^\ast", (E+F)/2, dir(60));
+		pair Bc = Drawing("B^\ast", (F+D)/2, dir(B-I));
+		pair Cc = Drawing("C^\ast", (D+E)/2, dir(0));
+		draw(circumcircle(Ac,Bc,Cc), heavycyan+1);
+		real pow = inradius(A,B,C)*inradius(A,B,C);
+		pair Mc = Drawing("M^\ast", I+pow/conj(M-I), dir(100)*1.5);
+		pair Lc = Drawing("L^\ast", I+pow/conj(L-I), dir( 10)*1.5);
+		pair Tc = Drawing("T^\ast", I+pow/conj(T-I), dir(110)*1.5);
+		Drawing("I", I, dir(45));
+		draw(Ac--Bc--Cc--cycle, heavycyan);
+		pair[] K = IPs(incircle(A,B,C),
+			L(Mc-(M-I)*dir(90), Mc+(M-I)*dir(90)));
+		pair K1 = Drawing("K_1", K[1], dir(K[1]-K[0]));
+		pair K2 = Drawing("K_2", K[0], dir(K[0]-K[1]));
+		pair X1 = Drawing("X_1", extension(K1,M,B,C), dir(-45));
+		pair X2 = Drawing("X_2", extension(K2,M,B,C), dir(225));
+		pair X1c = Drawing("X_1^\ast", (D+K1)/2, dir(100));
+		pair X2c = Drawing("X_2^\ast", (D+K2)/2, dir(80));
+		draw(K1--D--K2, darkgreen);
+		draw(K1--M--K2, darkgreen);
+		draw(K1--K2, darkgreen);
+		draw(Ac--Lc, darkmagenta);
+		draw(L--T, green+dashed);
+		draw(I--A, green+dashed);
+		pair Dp = Drawing("D'", 2*Mc-D, dir(115));
+		draw(D--Dp, dotted);
+		pair Hp = Drawing("H'", 2*Mc-H, dir(-20));
+		draw(H--Hp, dotted);
+		pair MB = Drawing("M_B", dir(40), dir(40));
+		pair MC = Drawing("M_C", dir(160), dir(160));
+		pair TB = Drawing("T_B", extension(T,MC,A,B), dir(F-I));
+		pair TC = Drawing("T_C", extension(T,MB,A,C), dir(E-I));
+		draw(circumcircle(TB, TC, T), heavygreen);
+		draw(T--MC--C, orange+dashed);
+		draw(T--MB--B, orange+dashed);
+		draw(MB--MC, heavymagenta+dashed);
+		draw(A--L, heavymagenta+dashed);
+		draw(TB--TC, orange+dotted);
+		draw(circumcircle(T, X1, X2), cyan+dashed);
+		draw(X2--I--X1, green+dotted);
+		draw(I--M, green+dotted);
+		draw( (MC+0.3*dir(B-A))--(MC+0.3*dir(A-B)), heavyred );
+		draw( (MB+0.3*dir(C-A))--(MB+0.3*dir(A-C)), heavyred );
+	\end{asy}
+\end{center}
+
+This problem is by Cosmin Poahata.
+It appeared as the most difficult problem of the 2014 Taiwan Team Selection Tests for the International Mathematical Olympiad.
+No one solved it during the time limit, although we discovered the above solution afterwards.
+
+\end{document}

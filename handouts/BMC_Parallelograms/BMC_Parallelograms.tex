@@ -1,0 +1,252 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{evan}
+\lhead{Berkeley Math Circle}
+\rhead{Parallelograms}
+
+\usepackage{wrapfig}
+\begin{asydef}
+	real m = 1;
+	pair bisect(pair X, pair Y, int n=2, real r=0.5, real spacing=4*m, real s=7*m, pen p=currentpen) {
+		pair M = midpoint(X--Y);
+		add(pathticks(X--M, n, r, spacing, s, p));
+		add(pathticks(Y--M, n, r, spacing, s, p));
+		return M;
+	}
+\end{asydef}
+
+\renewcommand{\figurename}{Problem}
+\renewcommand{\thefigure}{\thetheorem}
+
+\begin{document}
+\title{All you have to do is construct a parallelogram!}
+\author{Evan Chen\plusemail{evanchen@mit.edu}}
+\date{Berkeley Math Circle \\ January 9, 2014}
+\maketitle
+
+\begin{abstract}
+	As the name suggests, all of these problems can be solved by constructing the fourth vertex of a parallelogram. Most require just one point to be drawn in. A few will require constructing multiple points or even multiple parallelograms.
+\end{abstract}
+
+
+\section{Samples}
+\begin{problem}
+	Let $M$ and $N$ be the midpoints of $\ol{AB}$ and $\ol{AC}$ in triangle $ABC$.  Prove $MN = \half BC$ without using similar triangles.
+\end{problem}
+
+
+
+\section{Appetizers}
+\begin{problem}
+	Let $M$ be the midpoint of $\ol{BC}$ in a triangle $ABC$.  Given that $AM=2$, $AB = 3$, $AC = 4$, find the area of $ABC$.
+\end{problem}
+
+\begin{problem}[AIME 2011]
+	In rectangle $ABCD$, $AB=12$ and $BC=10$. Points $E$ and $F$ lie inside rectangle $ABCD$ so that $BE=9$, $DF=8$, $\overline{BE} \parallel \overline{DF}$, $\overline{EF} \parallel \overline{AB}$, and line $BE$ intersects segment $\overline{AD}$.  Find $EF$.
+\end{problem}
+
+\begin{problem}
+	Let $ABC$ be a triangle and $M$ be the midpoint of $\ol{BC}$.  Squares $ABQP$ and $ACYX$ are erected. Show that $PX = 2AM$.
+\end{problem}
+
+\begin{figure}[ht]
+	\centering
+	\begin{minipage}{6cm}
+	\centering
+	\begin{asy}
+		size(4cm);
+		pair D = Drawing("D", (5,7), dir(45));
+		pair A = Drawing("A", (0,D.y), dir(135));
+		pair B = Drawing("B", origin, dir(225));
+		pair C = Drawing("C", (D.x,0), dir(-45));
+		pair E = Drawing("E", (3,6), dir(180));
+		pair F = Drawing("F", (3,1), dir(0));
+		draw(A--B--C--D--cycle);
+		draw(B--E--F--D);
+	\end{asy}
+	\addtocounter{theorem}{-1}
+	\caption{AIME 2011.}
+	\stepcounter{theorem}
+	\end{minipage}
+	\begin{minipage}{8cm}
+	\begin{asy}
+		size(7cm);
+		pair A = Drawing("A", origin, dir(110));
+		pair B = Drawing("B", (-0.8,-1.9), dir(-90));
+		pair C = Drawing("C", (1.8,-1.9), dir(-90));
+		pair P = Drawing("P", rotate(-90)*B, dir(160));
+		pair Q = Drawing("Q", P+B, dir(P+B));
+		pair X = Drawing("X", rotate(90)*C, dir(60));
+		pair Y = Drawing("Y", X+C, dir(X+C));
+		pair M = Drawing("M", bisect(B,C), dir(-90));
+		draw(B--Q--P--A--X--Y--C--B--A--C);
+		draw(P--X, dotted); draw(A--M, dotted);
+	\end{asy}
+	\caption{If $APQB$ and $AXYC$ are squares, prove $PX=2AM$.}
+\end{minipage}
+\end{figure}
+
+
+
+\section{Meals}
+\begin{problem}
+	The area of triangle $ABC$ is $4$, and the length of the medians are $m_a$, $m_b$, and $m_c$. A second triangle has side lengths $m_a$, $m_b$, and $m_c$.  What is its area?
+\end{problem}
+
+\begin{problem}[USAMO 2003]
+	Let $ABC$ be a triangle. A circle passing through $A$ and $B$ intersects segments $AC$ and $BC$ at $D$ and $E$, respectively. Lines $AB$ and $DE$ intersect at $F$, while lines $BD$ and $CF$ intersect at $M$. Prove that $MF = MC$ if and only if $MB\cdot MD = MC^2$.
+\end{problem}
+
+\begin{problem}[NIMO 8.8]
+	The diagonals of convex quadrilateral $BSCT$ meet at the midpoint $M$ of $\overline{ST}$.  Lines $BT$ and $SC$ meet at $A$, and $AB = 91$, $BC = 98$, $CA = 105$.  Given that $\overline{AM} \perp \overline{BC}$, find the positive difference between the areas of $\triangle SMC$ and $\triangle BMT$.
+\end{problem}
+
+\begin{figure}[ht]
+	\centering
+	\begin{minipage}{8cm}
+	\begin{asy}
+		size(7.5cm);
+		pair C = Drawing("C", (3,0), dir(-45));
+		pair D = Drawing("D", (0,0));
+		pair M = Drawing("M", (1,-0.7));
+		pair F = Drawing("F", 2*M-C);
+		pair B = Drawing("B", conj(C/M) * (M-C)+C, dir(130));
+		pair E = Drawing("E", extension(D,F,B,C), dir(40));
+		pair A = Drawing("A", extension(D,C,B,F), dir(225));
+		draw(A--B--C--cycle);
+		draw(circumcircle(B,D,E), dashed);
+		draw(A--F, dotted);
+		draw(E--F--C, dotted);
+		draw(B--M, dotted);
+		bisect(F,C);
+	\end{asy}
+	\addtocounter{theorem}{-1}
+	\caption{USAMO 2003.}
+	\stepcounter{theorem}
+	\end{minipage}
+	\begin{minipage}{6cm}
+	\begin{asy}
+		size(5.5cm);
+		pair M = Drawing("M", (0,0), dir(-90));
+		pair S = Drawing("S", (2,1.6), dir(45));
+		pair T = Drawing("T", -S, dir(225));
+		pair A = Drawing("A", (0,3.7), dir(90));
+		pair z = (1,0);
+		pair B = Drawing("B", extension(M,z,A,T), dir(180));
+		pair C = Drawing("C", extension(M,z,A,S), dir(0));
+		draw(A--B--C--cycle);
+		bisect(S,T);
+		draw(A--M);
+		draw(B--T, dotted);
+		draw(S--T);
+		draw(B--S, dashed);
+		draw(T--C, dashed);
+	\end{asy}
+	\caption{NIMO 8.8.}
+	\end{minipage}
+\end{figure}
+
+\begin{problem}
+	Let $ABC$ be a triangle with circumcenter $O$ and orthocenter $H$, and let $M$ and $N$ be the midpoints of $\ol{AB}$ and $\ol{AC}$.  Rays $MO$ and $NO$ meet line $BC$ at $Y$ and $X$, respectively.  Lines $MX$ and $NY$ meet at $P$.  Prove that $\ol{OP}$ bisects $\ol{AH}$.
+\end{problem}
+
+\begin{figure}[h]
+	\centering
+	\begin{asy}
+		size(7.5cm);
+		pair A = Drawing("A", dir(110), dir(110));
+		pair B = Drawing("B", dir(210), dir(-90));
+		pair C = Drawing("C", dir(330), dir(-90));
+		pair H = Drawing("H", orthocenter(A,B,C), dir(135));
+		pair O = Drawing("O", circumcenter(A,B,C), dir(-90));
+		pair M = Drawing("M", midpoint(A--B), dir(A+B));
+		pair N = Drawing("N", midpoint(A--C), dir(A+C));
+		pair X = Drawing("X", extension(O,N,B,C), dir(-90));
+		pair Y = Drawing("Y", extension(O,M,B,C), dir(-90));
+		pair P = Drawing("P", extension(M,X,N,Y), dir(180));
+		draw(A--B--C--cycle);
+		draw(A--H);
+		draw(P--O);
+		draw(M--Y, dashed);
+		draw(N--X, dashed);
+		draw(X--P--Y, dotted);
+		draw(C--Y, dotted);
+		markscalefactor *= 0.3;
+		dot(bisect(A,H));
+	\end{asy}
+	\caption{Show that $\ol{PO}$ bisects $\ol{AH}$.}
+\end{figure}
+
+
+
+\section{Buffets}
+\begin{problem}
+	Let $ABC$ be a triangle with orthocenter $H$ and let $P$ be a point on the circumcircle of $ABC$.  The \emph{Simson line} from $P$ is the line passing through the feet of the altitudes from $P$ to $\ol{BC}$, $\ol{CA}$, $\ol{AB}$.  Prove that it bisects $\ol{PH}$.
+\end{problem}
+You may want to use this lemma: the reflection of $H$ over $\ol{BC}$ lies on the circumcircle.
+
+\begin{figure}[ht]
+	\centering
+	\begin{asy}
+		size(7cm);
+		pair A = dir(110);
+		pair B = dir(200);
+		pair C = dir(340);
+		pair P = dir(50);
+		Drawing("A", A, A);
+		Drawing("B", B, B);
+		Drawing("C", C, C);
+		Drawing("P", P, P);
+		pair X = Drawing(foot(P,B,C));
+		pair Y = Drawing(foot(P,C,A));
+		pair Z = Drawing(foot(P,A,B));
+		draw(P--X, dotted);
+		draw(P--Y, dotted);
+		draw(P--Z, dotted);
+		draw(A--B--C--cycle);
+		pair H = Drawing("H", orthocenter(A,B,C), dir(225));
+		draw(Line(X,Z,0.3,0.2), black, Arrows);
+		draw(P--H);
+		draw(A--Z, dashed);
+		draw(unitcircle, dashed);
+		markscalefactor*=0.3;
+		dot(bisect(P,H));
+	\end{asy}
+	\caption{The Simson line bisects $\ol{PH}$.}
+\end{figure}
+
+\begin{problem}
+	Let $ABCDE$ be a convex pentagon with $AB=BC$ and $CD=DE$.  If $\angle ABC = 2\angle CDE = 120\dg$ and $BD=2$, find the area of $ABCDE$.
+\end{problem}
+\begin{figure}[ht]
+	\centering
+	\begin{asy}
+		size(6cm);
+		pair D = Drawing("D", (0,0), dir(180));
+		pair B = Drawing("B", (1,0), dir(0));
+		pair C = Drawing("C", (0.6,-0.2), dir(-90));
+		pair E = Drawing("E", rotate(60) * C, dir(90));
+		pair A = Drawing("A", rotate(-120,B)*C, dir(90));
+		draw(A--B--C--D--E--cycle);
+		draw(B--D);
+		MP("2", foot(C,B,D), dir(90));
+		add(pathticks(C--D, 1, 0.5, 1, 1.5));
+		add(pathticks(E--D, 1, 0.5, 1, 1.5));
+		add(pathticks(A--B, 2, 0.5, 1, 1.5));
+		add(pathticks(C--B, 2, 0.5, 1, 1.5));
+		markscalefactor *= 0.4;
+		MP("60^{\circ}", D, dir(19)*5);
+		draw(anglemark(C,D,E));
+		MP("120^{\circ}", B, dir(130)*4);
+		draw(anglemark(A,B,C));
+	\end{asy}
+	\caption{If $\angle ABC = 2\angle CDE = 120\dg$ and $BD=2$, find the area of $ABCDE$.}
+\end{figure}
+
+\begin{problem}
+	[ELMO 2012] Let $ABC$ be an acute triangle with $AB<AC$, and let $D$ and $E$ be points on side $BC$ such that $BD=CE$ and $D$ lies between $B$ and $E$. Suppose there exists a point $P$ inside $ABC$ such that $\ol{PD} \parallel \ol{AE}$ and $\angle PAB=\angle EAC$.
+	Prove that $\angle PBA = \angle PCA$.
+\end{problem}
+
+
+
+\end{document}

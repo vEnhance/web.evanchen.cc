@@ -1,0 +1,261 @@
+\documentclass[11pt]{scrreprt}
+\usepackage{evan}
+\usepackage{csvsimple}
+\lhead{Online Math Open}
+
+\begin{document}
+\title{Spring 2014 Executive Report \\ or: How to Write an OMO}
+\author{Evan Chen}
+\date{November 2013 - April 2014}
+\maketitle
+
+\begin{abstract}
+This is some documentation about the process of preparing the 2014 Spring Online Math Open. It is intended to help future contest directors in preparing for future contests. We hope it also helps others aspiring to organize their own contests with an idea of how to proceed.
+\end{abstract}
+
+\tableofcontents
+
+\chapter{General Remarks}
+\section{Mission Statement}
+Every leader of the Online Math Open will likely have a different vision for the purpose of the Online Math Open, and as such what follows is not an official mission statement (none exists), but rather my interpretation of it.
+
+\textbf{Above all, the Online Math Open is about sharing nice problems with the rest of the contest community.} I am not interested in identifying the top scoring teams, I'm interested in the problems.\footnote{In particular, you might notice problems placed on the test which can be bashed or solved by engineer's induction or some equally ugly means. This is IMO not a huge loss. A nice problem will make the test, period. I just might try and edit it.} In other words, the over-arching goal above everything is problem quality.
+
+I believe that the Online Math Open promotes problem-solving and problem-writing as something done by people.
+The problems are all visibly identified by author, and this is intentional -- I want the contestants to see that the problems are written by other high schoolers from all over the United States.
+In that sense, it is a way of giving back.
+
+\section{Development Goals}
+Here are the goals which I set forth in the inaugural email for the Spring 2014 contest.
+\begin{enumerate}
+	\ii I want to have \emph{at least 60 problems written} no later than \emph{February 3, 2014}. This gives us the flexibility to assemble a contest that is balanced in both topics and difficulty.
+	\ii We should prepare a \emph{penultimate draft} of the problems within four weeks, by \emph{March 3, 2014}. Over these four weeks we will be selecting and editing the problems to appear on the contest. By the deadline, we should commit to a selection of thirty problems.
+	\ii Over the next four weeks, I want the contest to be extensively proofread. In particular, I would like every problem on the penultimate draft to be \emph{read and test-solved by at least two people other than the author}. By the end of this process, there should be \emph{no wrong answers} and \emph{as few places for ambiguity as possible}.
+	\ii The \emph{final draft of the problems} should be finished no later than \emph{March 31, 2014}.
+	\ii The \emph{final draft of the solutions} should be finished within \emph{two days of the end of the contest}. That means solutions should primarily be written between the completion of the penultimate draft and the start of the contest. This is about four weeks to write 30 solutions. We should then rapidly add any new solutions from the forum and publish quickly.
+	\ii \emph{Publicity} should be started no later than \emph{March 14, 2014}. I hope that this contest we can get at least \emph{250 teams}.
+\end{enumerate}
+I hope these goals are reasonable. I estimate that the hardest part will be the problem-writing. It is actually IMO fairly difficult to come up with one high-quality problem a week, and there are only nine weeks. At the moment, there are only seven left-over problems from last year.
+
+This was designed to combat some issues from last year, including the following.
+\begin{itemize}
+	\ii Last year, I was editing problems up to four hours before the contest started (where I said ``convex quadrilateral'' by habit on a nonconvex quadrilateral). This kind of timing is not acceptable. This year we are starting 18 weeks ahead of time instead of 10 weeks, so we have no excuse.
+	\ii New problems were being written within a few days of the contest to fill in gaps in difficulty and subject. In short, we had a problem shortage. This year, by having a surplus of problems, this should be a non-issue. Because nine weeks have been given for problem writing this time, and because we have winter break and more writers, we have no excuse.
+	\ii Solutions did not come out until three weeks after the contest because I was lazy and used the excuse of waiting for forum solutions. I want the solutions to be basically done by end-day this time around. Because we have plenty of time to write solutions, and because I actually committed to this ahead of time, we have no excuse.
+	\ii Publicity was not started until one or two weeks before the contest due to the website not being ready. This year, we have no excuse.
+\end{itemize}
+
+\section{Collaborative Infrastructure}
+The OMO had a lot of infrastructure already set up from previous years; new contests will need to think this part out.
+
+The two tools we used most were \textbf{Dropbox} (for sharing PDF's, etc.), and \textbf{KARL}.  We actually get by without using Google Docs much; the main use of Google Docs was spreadsheets for answer checking.
+
+\href{https://github.com/vEnhance/karl}{KARL} is the problem-writing server which I wrote for the NIMO and OMO.  It's kind of hacked together, but works well enough.  I wrote it to replace the dreadful unhighlighted page-long Google docs that had been used for Winter 2013; it was hard even to read a problem without reading its solution, let alone move problems around en-masse or look at topics and difficulties easily.  I designed KARL to solve all these problems.  So far it seems to be working great, as long as the web host it is placed on is stable.\footnote{This was not always the case. I had originally hosted KARL on a free web server, which turned out to have intolerable downtimes.}
+
+Some features of KARL include:
+\begin{itemize}
+	\ii Problems can be assigned subjects (a short string like ``$A$'') and difficulties (a positive integer).
+	Problems can be sorted by difficulty.\footnote{This is something I really, really wish HMMT had.}
+	\ii Comments system. It is very primitive, just a text box where people can write things.
+	It is customary to leave a brief ``--Evan'' or something related since the comments really are that primitive.
+	\ii Voting system, where users can $+1$ or $-1$ a problem; the vote-count, if nonzero, is displayed next to the problem.
+	It is customary to make a note in the comments when you $+1$ and $-1$ since the system does not record this.
+	\ii Multiple sets where problems can be moved around. For the OMO, we have a set called ``OMO Storage'', then a set for every contest.
+	\ii \LaTeX\ support via MathJax.
+	\ii Solution and answer boxes which are initially ``hidden'' to prevent spoilers.
+	\ii User logins. It is possible to set up the system so that only certain users can view certain sets,
+	so multiple contests can run on one KARL instance.
+\end{itemize}
+
+Dropbox handles the PDF's of the test, etc., as well as solution-writing later on.  That is basically it.  All the problem-writing happens on KARL.
+
+Beyond that, we always have a fairly large e-mail thread.  This is important for prodding and other communication, because no one will check KARL more than they check e-mail.
+
+\section{The Dictatorship}
+Politically, the Online Math Open follows the model of a \textbf{benevolent dictatorship}. That is, one person (the dictator) takes charge of conceptualizing the entire process, and then relays instructions to the team.
+In general, the dictator does not consult other members of the team before making a decision.
+
+Of course, the dictator should be open to suggestions, but in my experience this is generally something that OMO dictators are good about as the team members usually know each other well. Larger organizations may need to be more cautious.
+
+The primary advantage of the dictatorship is that it is \textbf{highly efficient and decisive}. It is efficient because decisions can be made instantaneously by someone with complete knowledge of the entire contest.
+It is decisive in the sense that no one is unsure what they should be doing; the dictator tells them what to do.
+
+The primary drawback of this method is that it places significant strain on the dictator. The dictator can and should assume that \textbf{nothing is done unless explicitly requested and confirmed as completed}. This means {e.g.} the dictator should assume that problems are not being written unless he/she actually sees the new problems appearing. As a result, the dictator must assume complete responsibility for every aspect of the contest development, ranging from problem-writing to test-solving to publicity to things as simple as uploading the actual test\footnote{I averted a small crisis in the NIMO when I realized, six hours before the April Round was to start, that no one had actually uploaded the PDF to the website yet}.
+
+Your role as dictator is to set a good example; no one will work if the dictator isn't working.
+
+\chapter{Summary of Events}
+\section{Initialization}
+Development for the Spring 2014 OMO was kicked off on November 27, 2013 when I sent out a big email to everyone and invited two additional problem writers, Robin Park and Sammy Luo.
+Due to a wrong email address, Robin did not actually receive the invitation until very late in the development.
+
+\section{Problem-Writing Phase}
+As is usually the case with very early emails, few problems were actually written during the upcoming December.
+In retrospect, I think this is largely my fault -- I did not have much in terms of problem ideas at the time,
+and so by not actually acting on my own words I lost the momentum that the kick-off announcement should have brought.
+This is a good example of how hypocrisy is especially bad in these types of organizations.
+
+At the start of January I started prodding again, and since by this time I had a bunch of proposals to submit
+the prod was a lot more effective.
+I got some discussion of new problem ideas to happen in the email thread, which lead to the creation of some
+of the nice hard problems, like \#20, \#21, \#22, and \#29.
+I wonder if I should set up some other structure where people can just discuss problem ideas.
+KARL was designed for completed problems.
+Maybe a private AoPS forum would do the trick here\dots
+
+In the spirit of procrastination, February was a mad rush to fill in problem gaps,
+now that we were behind the deadline.
+It was fortunate that problem quality didn't seem to noticeably dip but I would not count
+on this happening again.
+We did have a nice number of problems but the difficulty was concentrated towards the hard end,
+meaning we now had a shortage of easy problems.
+This seems to be a recurrent issue.
+I am forced to make up some things quickly -- ``filler'' problems -- to try and close up the gap.
+I personally hate filler problems and think they should not exist, but you have to do what you have to do.
+Though it's interesting that note that in the process of trying to invent some non-terrible fillers,
+I did get some good things out.
+People work incredibly well with deadlines.
+
+Things looked okay by the end of February. I wrote
+\begin{quote}
+	We're in fairly good shape right now in terms of problems since we have a 20\% margin now. If we could get one or two more problems from everyone (more or less of any difficulty/subject) then we'll be very well off (probably a 50\% margin at that point, which would be fantastic). I'm hoping to hold onto the self-imposed goal of having a problem draft selected by March 3, 2014, so I'll probably start moving problems around over the weekend.
+\end{quote}
+We did not in fact get the ``one or two more problems'' but nonetheless we had a reasonable margin to select a decent contest.
+
+\section{Publicity}
+Publicity was a disaster.
+First of all I completely forgot about this until Michael pointed out on March 14
+that I had set a deadline of March 14 for publicity.
+In response I wrote
+\begin{quote}
+Oh shoot I forgot about this, thanks for holding me to my word. I don't think we're doing much differently from last time but I might not have time over the next few days to actually carry this out.
+
+So the things that need to get done are
+
+\begin{itemize}
+	\ii Posts on AoPS in AMC, OMO, WOOT forums. I don't have privileges in the WOOT forum but I can do the one in the AMC/OMO forums.
+    \ii Facebook status.
+    \ii Emails to people.
+\end{itemize}
+
+I'd appreciate it if someone else could take charge of the emails as probably Ray/Victor know better than I do how coordination for that works.  I can have the NIMO send an email out to everyone registered on io.org; this should hit a lot of people.
+
+I have to leave pretty soon but I made a doc for the publicity so that we can decide what we're going to say before posting. I think we might get more attention if we don't straight c/p from last year but hmm idk.
+\end{quote}
+
+The clause I wrote about emails is a prime example of what \emph{not} to do as dictator,
+since the emails were never written.
+The Facebook and AoPS forums, however, did go through.
+
+
+\section{Test-Solving}
+Now, the set has been finalized.
+At this point I quickly request that the OMO website code is edited so that the answers appear 24 hours after the deadline,
+then proceed to coordinate the test-solving.
+
+As usual, we set up a spreadsheet for coordinating the test-solving.
+Unfortunately, no one likes test-solving, so it is somewhat of a battle to get people to check problems.
+Similarly, it is quite difficult to convince people to write solutions to problems; this is not such a huge deal
+since I am very fast with Vim and so doing the majority of solution-writing does not take too much time.
+I feel like gloating about this, so in \Cref{appendix:coordination} I have included a copy of the spreadsheet.
+
+Fortunately, we get this done, but not without a broken problem (\#17).
+
+\section{Contest Day}
+Or ``days'' if you are pedantic.
+This is usually a less stressful time.
+Just watch the clarifications roll in and enjoy the scoreboard.
+
+I say ``usually'' because this time two things went very wrong.
+\begin{itemize}
+	\ii We actually had a broken problem -- the ``convex'' pentagon in problem 17 did not actually exist.
+	The problem originally asked for a convex $AXYZB$, but in fact, we need $AXYBZ$.
+	\ii A bug in the site caused the answers to be displayed twenty-four hours \emph{early}
+	rather than twenty-four hours late.
+\end{itemize}
+
+I think the first one could have been reasonably avoided with better testing.
+The second issue is something that seems like it could not have been reasonably avoided.
+(It's easy to say ``check the code'' or ``test the website'' but that would be hindsight bias.)
+
+By Murphy's Law, most teams log in towards the end of the contest.
+Fortunately, the issue was reported soon enough that I was able to rush in and change all the answers
+stored in the site to $-1$.
+I then looked at the logs of teams which had logged in.
+The answers were not exactly conspicuously displayed, so most teams which did log in had not noticed them,
+only noticing that there were now ``correct/incorrect'' gradings on the site.
+The one team that did notice, fortunately, already had all the correct answers prior to the bug.
+Using the server logs I was (barely) able to prove that no other team could have placed in the top
+eighteen on the basis of the leaked answers.
+I do not know what I would have done if I had been a few hours later in checking the OMO email.
+
+
+\section{Afterwards}
+Due to the late and/or nonexistent publicity issue,
+only $153$ teams participated this time, with a total of $436$ students.
+Predictably the scores are lower than last year, with top scores of $30$, $29$, $26$.
+
+I then post all the problems on the forums, as is customary.
+This is now done by a Python script, so it is finished quickly.
+
+At this point I finish up the solutions, compile the results, and post them on the website.
+The top seventeen teams are recognized, as usual.
+I breathe a sigh of relief and go to sleep.
+
+
+\chapter{General Suggestions and Guidelines}
+\section{New Problem Writers}
+Ideally you would only write a new problem when you had an idea for one, but this kind of production schedule isn't fast enough.
+
+I suggest, though, keeping a list (digital or otherwise; I use \href{http://www.workflowy.com}{Workflowy}) of problem ideas that you have. Any time you have an idea, just record it to the list. Then when, you have time, go back to it and see if you can construct problems out of your musings.
+
+In that vein, you should probably be keeping your eyes open for new ideas basically all the time. Probably you are already doing this to some extent, but it helps to deliberately remember to do so.
+
+Actually sitting down trying to come up with a new idea for a problem is a lot like doing math; in particular, it's pretty hard. I don't have any real advice on how to approach this.
+
+Here are some points on problem design that are more specific to the OMO.
+\begin{enumerate}
+	\ii Probably the most important facet of an OMO problem is that it should be nonstandard and nice. Things such as separating scores are strictly secondary.
+	\ii Guess-ability is a lot more okay, because teams have enough time to at least try and prove their guesses. (On say, the NIMO, one can just guess, see the answer is correct, and then ignore the problem.)
+	\ii Problems should be submitted on KARL (\url{http://karl.internetolympiad.org}).
+	\ii I will be looking at basically every single problem, so I will try and polish ideas and make problem statements look more natural and such. I just need something to work with.
+	\ii \textbf{Be proud of your problems!} We put a very human face on our problems by prominently featuring the author name. This is your chance to shine!
+\end{enumerate}
+
+Good luck!
+
+\section{New Dictators}
+The \#1 rule here is to \textbf{trust your own judgement}. Do not wait around or nothing will get done. Instead, be aggressive with giving instructions, and don't be too shy to give orders. You are leading a team here of some of the brightest, most dedicated students in the nation.
+They will be happy to help so long as you make it easy for them to help.\footnote{I remember Moor Xu commenting to me that he proposed his problems to the Stanford Math Tournament rather than the Berkeley Math Tournament because Stanford made it easier to help.}
+So make it easy to help by being clear about what needs to be done.
+
+As a dictator you should also try very hard to set a good example. During the problem-writing phase, you should propose problems.
+People will take your instructions far more seriously once they see others, including yourself, following the instructions.
+
+Moreover, try to be early about things.
+Any time you write ``we can discuss $X$ later'' gives $X$ a nontrivial chance of never actually being discussed.
+It's fine to have a big queue of things that needs to be done as long as they're well-defined; big queues tend to scare people
+into actually doing stuff anyways.
+
+\appendix
+\chapter{Spring Coordination}
+\label{appendix:coordination}
+
+By the way, I would just like to thank right now Thomas F.\ Sturm for
+the \verb+csvsimple+ package.  You are a good man.
+
+\begin{center}
+	\csvautotabular{spring_coord.csv}
+\end{center}
+
+\chapter{Problems and Internal Comments}
+Problems are classified into five categories, $d \in \{10,20,30,40,50\}$.
+This was based on the old 50-problem exams, but we still retain this division of difficulty.
+
+\lstset{breaklines=true,numbers=none,basicstyle=\footnotesize,aboveskip=-2ex,belowskip=1ex}
+\input{problems.txt}
+
+\chapter{Contest Statistics}
+\lstset{breaklines=true,numbers=none,basicstyle=\tiny,aboveskip=-2ex,belowskip=1ex}
+\lstinputlisting{statistics.txt}
+\end{document}

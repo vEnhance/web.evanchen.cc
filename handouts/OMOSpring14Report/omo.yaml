@@ -1,0 +1,516 @@
+# Problem 1
+author: Evan Chen
+answer: 75
+title: Diminishing Marginal Returns
+difficulty: 10
+statement: |
+  In English class, you have discovered a mysterious phenomenon -- if you spend $n$ hours on an essay, your score on the essay will be $100\left( 1-4^{-n} \right)$ points if $2n$ is an integer, and $0$ otherwise. For example, if you spend $30$ minutes on an essay you will get a score of $50$, but if you spend $35$ minutes on the essay you somehow do not earn any points.
+
+  It is 4AM, your English class starts at 8:05AM the same day, and you have four essays due at the start of class. If you can only work on one essay at a time, what is the maximum possible average of your essay scores?
+solution: |
+  lol Jensen
+---
+# Problem 2
+author: Evan Chen
+answer: 1007
+title: Some Trivial Geo
+difficulty: 10
+statement: |
+  Consider two circles of radius one, and let $O$ and $O'$ denote their centers.  Point $M$ is selected on either circle.  If $OO' = 2014$, what is the largest possible area of triangle $OMO'$?
+solution: |
+  very easy
+comments: |
+  This can be like #2 or so.
+---
+# Problem 3
+author: Evan Chen
+answer: 2015
+title: Let's Mock the AMC Again
+difficulty: 10
+statement: |
+  Suppose that $m$ and $n$ are relatively prime positive integers with $A = \tfrac mn$, where
+  \[ A = \frac{2+4+6+\dots+2014}{1+3+5+\dots+2013} - \frac{1+3+5+\dots+2013}{2+4+6+\dots+2014}. \] Find $m$. In other words, find the numerator of $A$ when $A$ is written as a fraction in simplest form.
+solution: |
+  It's just $\frac{1008}{1007}-\frac{1007}{1008} = \frac{2015}{1007 \cdot 1008}$.
+---
+# Problem 4
+author: Evan Chen
+answer: 2014
+title: Medians
+difficulty: 10
+votes: 1
+statement: |
+  The integers $1, 2, \dots, n$ are written in order on a long slip of paper. The slip is then cut into five pieces, so that each piece consists of some (nonempty) consecutive set of integers.  The averages of the numbers on the five slips are $1234$, $345$, $128$, $19$, and $9.5$ in some order.  Compute $n$.
+solution: |
+  The smallest slip must be $1, \dots, 18$.  Follow through.
+comments: |
+  I like this problem-it's nice for an easy one --Michael
+---
+# Problem 5
+author: Yang Liu
+answer: 814
+title: Bad at Rounding
+difficulty: 10
+statement: |
+  Joe the teacher is bad at rounding. Because of this, he has come up with his own way to round grades, where a \emph{grade} is a nonnegative decimal number with finitely many digits after the decimal point.
+
+  Given a grade with digits $a_1a_2 \dots a_m.b_1b_2 \dots b_n$, Joe first rounds the number to the nearest $10^{-n+1}$th place. He then repeats the procedure on the new number, rounding to the nearest $10^{-n+2}$th, then rounding the result to the nearest $10^{-n+3}$th, and so on, until he obtains an integer.  For example, he rounds the number $2014.456$ via $2014.456 \to 2014.46 \to 2014.5 \to 2015$.
+
+  There exists a rational number $M$ such that a grade $x$ gets rounded to at least $90$ if and only if $x \ge M$.  If $M = \tfrac pq$ for relatively prime integers $p$ and $q$, compute $p+q$.
+solution: |
+  The way to make this this as small as possible is to make it of the form $89.4444\ldots 445$. This limit clearly approaches $89+\frac{4}{9} = \frac{805}{9}$. So the answer is $805+9 = \boxed{814}$.
+comments: |
+  This is inspired by a mistake that someone made at school... -- Yang
+  Rephrased without limits -- Yang
+---
+# Problem 6
+author: Evan Chen
+answer: 46800
+title: LCM's
+difficulty: 10
+statement: |
+  Let $L_n$ be the least common multiple of the integers $1,2,\dots,n$. For example, $L_{10} = 2{,}520$ and $L_{30} = 2{,}329{,}089{,}562{,}800$. Find the remainder when $L_{31}$ is divided by $100{,}000$.
+solution: |
+  lol
+comments: |
+  This problem is pretty troll lol
+  I thought I would actually have to some v_p stuff until I noticed d=10
+  and then I was like darn
+---
+# Problem 7
+author: Evan Chen
+answer: 84
+title: Changing Hundreds Digit
+difficulty: 20
+statement: |
+  How many integers $n$ with $10 \le n \le 500$ have the property that the hundreds digit of $17n$ and $17n+17$ are different?
+solution: |
+  This is kinda discrete IVT like.
+comments: |
+  This is probably around #8 or so.
+---
+# Problem 8
+author: Evan Chen
+answer: 2
+title: Power of Two
+difficulty: 20
+statement: |
+  Let $a_1$, $a_2$, $a_3$, $a_4$, $a_5$ be real numbers satisfying
+  \begin{align*}
+    2a_1+a_2+a_3+a_4+a_5 &= 1 + \tfrac{1}{8}a_4 \\
+        2a_2+a_3+a_4+a_5 &= 2 + \tfrac{1}{4}a_3 \\
+            2a_3+a_4+a_5 &= 4 + \tfrac{1}{2}a_2 \\
+                2a_4+a_5 &= 6 + a_1
+  \end{align*}
+  Compute $a_1+a_2+a_3+a_4+a_5$.
+solution: |
+  Add eight times the first equation, four times the second, and two times the third to the fourth.  We obtain that
+  \[ 16a_1 + 16a_2 + 16a_3 + 16a_4 + 15a_5 = 30 + a_4 + a_3 + a_2 + a_1. \]
+  Letting $S$ be the desired sum, we readily derive $16S = 30+ S$, so $S = \boxed{2}$.
+comments: |
+  This should be like #10 or so.
+---
+# Problem 9
+author: Yang Liu
+answer: 131072
+title: Misreading Olympiad Results
+difficulty: 20
+votes: 2
+statement: |
+  Eighteen students participate in a team selection test with three problems, each worth up to seven points. All scores are nonnegative integers. After the competition, the results are posted by Evan in a table with 3 columns: the student's name, score, and rank (allowing ties), respectively. Here, a student's rank is one greater than the number of students with strictly higher scores (for example, if seven students score $0, 0, 7, 8, 8, 14, 21$ then their ranks would be $6, 6, 5, 3, 3, 2, 1$ respectively).
+
+  When Richard comes by to read the results, he accidentally reads the rank column as the score column and vice versa. Coincidentally, the results still made sense! If the scores of the students were $x_1 \le x_2 \le \dots \le x_{18}$, determine the number of possible values of the $18$-tuple $(x_1, x_2, \dots, x_{18})$. In other words, determine the number of possible multisets (sets with repetition) of scores.
+solution: |
+  It's not too hard. The general answer is $2^{n-1}$ with $n$ students and $ \ge n$ possible points. Engineer's induction may be bad though...
+comments: |
+  This is great. +1 -- Evan
+  Hmm engineer's induction is not necessarily a bad thing for d=20 -- Michael
+---
+# Problem 10
+author: Evan Chen
+answer: 2
+title: Regular 4000-gon
+difficulty: 20
+statement: |
+  Let $A_1A_2 \dots A_{4000}$ be a regular $4000$-gon. Let $X$ be the foot of the altitude from $A_{1986}$ onto diagonal $A_{1000}A_{3000}$, and let $Y$ be the foot of the altitude from $A_{2014}$ onto $A_{2000}A_{4000}$. If $XY = 1$, what is the area of square $A_{500}A_{1500}A_{2500}A_{3500}$?
+solution: |
+  $XY$ is a radius of the circumcircle. lol.
+---
+# Problem 11
+author: Michael Kural
+answer: 90
+title: Sum of Areas
+difficulty: 20
+statement: |
+  Let $X$ be a point inside convex quadrilateral $ABCD$ with $\angle AXB+\angle CXD=180^{\circ}$. If $AX=14$, $BX=11$, $CX=5$, $DX=10$, and $AB=CD$, find the sum of the areas of $\triangle AXB$ and $\triangle CXD$.
+solution: |
+  WLOG assume $AB\parallel CD$ (we can rotate either triangle without changing anything.) Then translate $CD$ to $AB$ and $X$ to $X'$ such that $X'AXB$ is a cyclic quadrilateral, so it suffices to find $[X'AXB]$. Also, note that $X'A^2+XB^2=X'B^2+XA^2$. Since we're finding the area of a cyclic quadrilateral, we can rearrange the side lengths, so if we make the order $14,5,11,10$, we get two right triangles with diameter $\sqrt{221}$. Thus the area is $\frac{1}{2}(14\cdot 5+11\cdot 10)$.
+
+  There is also a solution with LoC.
+---
+# Problem 12
+author: Yang Liu
+answer: 954
+title: Points on a Line
+difficulty: 20
+statement: |
+  The points $A$, $B$, $C$, $D$, $E$ lie on a line $\ell$ in this order.  Suppose $T$ is a point not on $\ell$ such that $\angle BTC = \angle DTE$, and $\overline{AT}$ is tangent to the circumcircle of triangle $BTE$.  If $AB = 2$, $BC = 36$, and $CD = 15$, compute $DE$.
+solution: |
+  By angle chasing, you can show that $AT$ is tangent to $\odot TEF$. (Is this well known? I never knew this before a few days ago.) Therefore $AE \cdot AF = AT^2 = AB \cdot AC$.
+---
+# Problem 13
+author: Yang Liu
+answer: 2047
+title: Factoring Binomial Polynomial
+difficulty: 20
+statement: |
+  Suppose that $g$ and $h$ are polynomials of degree $10$ with integer coefficients such that $g(2) < h(2)$ and
+  \[ g(x) h(x)
+    = \sum_{k=0}^{10} \left( \binom{k+11}{k} x^{20-k} - \binom{21-k}{11} x^{k-1} + \binom{21}{11}x^{k-1} \right) \]
+  holds for all nonzero real numbers $x$. Find $g(2)$.
+solution: |
+  By the hockey stick identity, \[ p(x) = \left(x^n+x^{n-1}+x^{n-2}+ \ldots + x+1 \right) \left(\sum_{i = 0}^{n} \binom{n+i}{n} x^{n-i} \right).\]
+comments: |
+  wait lol you can replace $S(f(x))$ with $f(1)$ ;) -- Evan
+  OK, I just set $n=222$ to ensure $g(x)$ is irreducible (cyclotomic polynomial of the prime 223). Actually I just picked $223$ as the prime by typing "random prime number" into Wolfram Alpha, so if you can think of a "rounder" $p-1$ I'm all for it :) -- Evan
+  Hmmm, let's just use Fermat Primes for all primes in this contest. $p = 2^{16}+1$.
+  Fixed a bunch of dumb typos that I had made earlier.
+  If we want it to be less guessable, then maybe it would be a good idea to ask for $h(1)$ instead of $g(1)$ (since this also telescopes by hockey stick, and it could have a simple form if $n$ is small (like $9,12,$ or $16$)). What do you guys think about this possible adjustment? -- Michael
+  As I said below if they see that $g(1)h(1) = (n+1) \binom{2n+1}{n+1}$, then its pretty natural to just guess that $g(1) = n+1, h(1) = \binom{2n+1}{n+1}$. So asking for $h(1)$ wouldn't help against this. I was thinking that we should change it to $n = 10$, and simply just ask for $g(2)$, since I don't think that $g(2) h(2)$ is that easy to evaluate. But $g(2)$ is easy by geometric series, so this wouldn't be a bad change. --Yang
+---
+# Problem 14
+author: Evan Chen
+answer: 1186
+title: BAMO Ripoff
+difficulty: 30
+statement: |
+  Let $ABC$ be a triangle with incenter $I$ and $AB = 1400$, $AC = 1800$, $BC = 2014$.  The circle centered at $I$ passing through $A$ intersects line $BC$ at two points $X$ and $Y$. Compute the length $XY$.
+solution: |
+  Find isosceles triangles.
+---
+# Problem 15
+author: Ray Li
+answer: 147
+title: Random Walk
+difficulty: 30
+statement: |
+  In Prime Land, there are seven major cities, labelled $C_0$, $C_1$, \dots, $C_6$. For convenience, we let $C_{n+7} = C_n$ for each $n=0,1,\dots,6$; {i.e.} we take the indices modulo $7$.  Al initially starts at city $C_0$.
+
+  Each minute for ten minutes, Al flips a fair coin.  If the coin land heads, and he is at city $C_k$, he moves to city $C_{2k}$; otherwise he moves to city $C_{2k+1}$.  If the probability that Al is back at city $C_0$ after $10$ moves is $\frac{m}{1024}$, find $m$.
+solution: |
+  You are basically choosing a 10-digit binary number and checking whether it is divisible by 7. There are 147 multiples of 7 that are at most 1023, so the answer is 147/1024.
+---
+# Problem 16
+author: Evan Chen
+answer: 119
+title: Radioactive Numbers
+difficulty: 30
+statement: |
+  Say a positive integer $n$ is \emph{radioactive} if one of its prime factors is strictly greater than $\sqrt{n}$. For example, $2012 = 2^2 \cdot 503$, $2013 = 3 \cdot 11 \cdot 61$ and $2014 = 2 \cdot 19 \cdot 53$ are all radioactive, but $2015 = 5 \cdot 13 \cdot 31$ is not. How many radioactive numbers have all prime factors less than $30$?
+solution: |
+  Notice that counting $N$ is just equivalent to counting multisets of primes such that one prime exceeds the product of the others. Let $p$ be the largest prime, and put $N = px$.  Note that $1 \le x \le p-1$ and that any value of $x$ is achievable in exactly one way (by unique prime factorization). Hence for a fixed value of $p$ there are exactly $p-1$ values of $x$ possible, and hence $p-1$ ways.
+
+  The answer is thus \[ \sum_{\substack{p \le 30 \\ p \text{ prime}}} p-1 = 129 - 1 \cdot 10 = \boxed{119}. \qedhere \]
+---
+# Problem 17
+author: Evan Chen
+answer: 343
+title: Another pentagon AXYZB
+difficulty: 40
+statement: |
+  Let $AXYBZ$ be a convex pentagon inscribed in a circle with diameter $\overline{AB}$.  The tangent to the circle at $Y$ intersects lines $BX$ and $BZ$ at $L$ and $K$, respectively.  Suppose that $\overline{AY}$ bisects $\angle LAZ$ and $AY=YZ$.  If the minimum possible value of \[ \frac{AK}{AX} + \left( \frac{AL}{AB} \right)^2 \] can be written as $\frac{m}{n} + \sqrt{k}$, where $m$, $n$ and $k$ are positive integers with $\gcd(m,n)=1$, compute $m+10n+100k$.
+solution: |
+  Let $O$ be the midpoint of $AB$, and let $AB = 2r$.  The key observation which will let us set up the algebra is that $\triangle LOY \sim \triangle YBK$.
+  First, because $\angle YZA = \angle YAZ = \angle LAZ$, we find $LA$ is a tangent to the semicircle.  This follows because \[ \angle AOL = \frac12 \angle AOY = \angle OBY \implies LO \parallel YB \quad\text{and}\quad \angle AOY = \frac12 \angle AOZ = \angle OBZ \implies YO \parallel ZB. \] So, we may set $YK = kh$ and $KB = kr$, where $AL = LY = h$.
+
+  First, we claim have $\frac{AK}{AX} = \frac{3}{2}k+1$.  By Ptolemy's Theorem on $ABKL$, \[ BL \cdot AK = AL \cdot BK + AB \cdot LK = 2(k+1)rh + khr = (3k+2)hr. \] But $\frac{1}{2} [LAB] = BL \cdot AX = AL \cdot AB = h(2r)$ and the conclusion follows.
+
+  Next we claim $k = \frac{2r^2}{r^2+h^2}$.  This follows from $LB^2 = AL^2 + AB^2 = KL^2 + KB^2$, whence $h^2+4r^2 = (k+1)^2h^2+k^2r^2$.  Then, $k(k+2)h^2 = (4-k^2)r^2$.  Cancelling a factor of $2+k$ gives $kh^2 = (2-k)r^2$, so $k = \frac{2r^2}{r^2+h^2}$.
+
+  Thus, if we let $x = \frac{h}{r}$, we get that
+  \begin{align*}
+    \frac{AK}{AX} + \left( \frac{AL}{AB} \right)^2 &= \frac{3}{2}k+1 + \left( \frac{h}{2r} \right)^2 \\
+    &= \frac{3}{1+x^2} + 1 + \frac{x^2}{4} \\
+    &= \frac{3}{4} + \frac{3}{1+x^2} + \frac{1+x^2}{4} \\
+    &\ge \frac{3}{4} + 2\sqrt{\frac{3}{4}} \\
+    &= \frac{3}{4} + \sqrt{3}
+  \end{align*}
+  and the answer is $\boxed{343}$.
+---
+# Problem 18
+author: Victor Wang
+answer: 25
+title: When Diophantine has infinitely many solutions
+difficulty: 40
+statement: |
+  Find the number of pairs $(m,n)$ of integers with $-2014\le m,n\le 2014$ such that $x^3+y^3 = m + 3nxy$ has infinitely many integer solutions $(x,y)$.
+solution: |
+  This is equivalent to $(x+y+n)(x^2+y^2+n^2-xy-n(x+y)) = m+n^3$, so infinitely many solutions exist if and only if $m = -n^3$.  This permits $-12 \le m \le 12$, giving $25$ solutions.
+---
+# Problem 19
+author: Michael Kural
+answer: 100
+title: Diophantine with divisor function
+difficulty: 30
+statement: |
+  Find the sum of all positive integers $n$ such that $\tau(n)^2=2n$, where $\tau(n)$ is the number of positive integers dividing $n$.
+solution: |
+  Note that $n$ is in the form $2u^2$, and $g(n)=d(n)^2/n$ is multiplicative. Now the power of $2$ in $n$ is odd, so we check and obtain $g(2)=g(8)=2$, $g(2^j)<2$ for $j\ge 5$. The power of $p$ for $p>2$ in $n$ is even, and we can check $g(p^{2k})\le 1$ with equality at $p=3,k=0,1$. So $g(n)$ is at most $2$, with equality at $n=2,8,18,72$.
+---
+# Problem 20
+author: Evan Chen
+answer: 47
+title: Angles in a Triangle
+difficulty: 40
+statement: |
+  Let $ABC$ be an acute triangle with circumcenter $O$, and select $E$ on $\overline{AC}$ and $F$ on $\overline{AB}$ so that $\overline{BE} \perp \overline{AC}$, $\overline{CF} \perp \overline{AB}$.  Suppose $\angle EOF - \angle A = 90^{\circ}$ and $\angle AOB - \angle B = 30^{\circ}$.  If the maximum possible measure of $\angle C$ is $\tfrac mn \cdot 180^{\circ}$ for some positive integers $m$ and $n$ with $m < n$ and $\gcd(m,n)=1$, compute $m+n$.
+solution: |
+  The key is the following lemma: if $O$ lies in $AEF$ and $\angle EOF - \angle A = 90^{\circ}$ then $\angle A = 45^{\circ}$.  Indeed, the conditions imply that pentagon $BEOFC$ is cyclic, so $\angle BOC = 90^{\circ}$.
+
+  Simple calculations give that $\angle C = 70^{\circ} - \frac 13 \angle A$.  So we wish to minimize $\angle A$.  Note that if $\angle A \le 45^{\circ}$, then $\angle BOC \le 90^{\circ}$ which implies that $O$ lies outside the circle with diameter $\overline{BC}$ while inside $ABC$, which causes the lemma to apply. In other words $\angle A \le 45^{\circ} \implies \angle A = 45^{\circ}$.  So the minimum possible value of $\angle C$ is $55^{\circ}$. This is achieved if $(\angle A, \angle B, \angle C) = (45^{\circ}, 80^{\circ}, 55^{\circ})$.
+
+  Converting to radians, $55^{\circ} = \frac{11}{36} \pi$ and $11+36 = \boxed{47}$.
+comments: |
+  Hard for a d=40. Maybe early d=50.
+---
+# Problem 21
+author: Michael Kural and Evan Chen
+answer: 15
+title: Number Bases
+difficulty: 40
+votes: 1
+statement: |
+  Let $b = \frac 12 (-1 + 3\sqrt{5})$.  Determine the number of rational numbers which can be written in the form \[ a_{2014}b^{2014} + a_{2013}b^{2013} + \dots + a_1b + a_0 \] where $a_0, a_1, \dots, a_{2014}$ are nonnegative integers less than $b$.
+solution: |
+  Basically Kural's solution for the $b^2+b=3$ version, but this time $b^2+b=11$.
+
+  Let $c_n = \frac{1}{3\sqrt{5}} \left( b^n - \overline b^n \right)$, and compute $c_0 = 0$, $c_1 = 1$, and $c_{n} = -c_{n-1} + 11c_{n-2}$.  The first few terms of the sequence are $0,1,-1,12,-23,155,-408,2113,\dots$.
+
+  The problem is equivalent to finding the $a_i$ such that $a_0c_0 + a_1c_1 + \dots + a_nc_n = 0$.  This is because if $\sum_n a_nb^n$ is rational, so is its conjugate, implying the difference is zero.
+
+  It's not hard to verify that $\left\lvert c_n \right\rvert > 2\left\lvert c_{n-1} + c_{n-3} + \dots \right\rvert$ for each $n \ge 5$.  Hence we only need to consider the case where $a_5=a_6=\dots=0$.  This is simple casework (noting that $12$ and $-23$ are overwhelming the largest terms), and the solutions are \[ (a_1,a_2,a_3,a_4) \in \left\{ (0,0,0,0), (1,1,0,0), (2,2,0,0), (0,1,2,1), (1,2,2,1) \right\}. \] where $a_0$ can be arbitrary (as $c_0 = 0$).  Hence there are $\boxed{15}$ $5$-tuples.
+---
+# Problem 22
+author: Michael Kural and Evan Chen
+answer: 620
+title: Polynomial Congruence
+difficulty: 40
+votes: 2
+statement: |
+  Let $f(x)$ be a polynomial with integer coefficients such that $f(15) f(21) f(35) - 10$ is divisible by $105$. Given $f(-34) = 2014$ and $f(0) \ge 0$, find the smallest possible value of $f(0)$.
+solution: |
+  Let $p=3,q=5,r=7$.
+  Note that
+  \[
+  f(pq)f(qr)f(rp)=f(pq+qr+rp)f(0)^2\pmod{pqr}
+  \]
+  This can be proven by considering mod p,mod q, mod r separately.
+
+  For this modified guy, let $x= f(0)$.  We want to solve $f(0)^2 \equiv 10 \cdot 2014^{-1} \equiv (-95) \cdot 19^{-1} \equiv -5 \pmod{105}$.  The solutions are $x \equiv 10, 25, 80, 95 \pmod{105}$ by the Chinese Remainder Theorem.
+
+  In addition, we require $x \equiv f(-34) \equiv 2014 \pmod{34}$; that is, we also need $x \equiv 8\pmod{34}$.  In short we must find the smallest solution for
+  \[ x \equiv 10, 25, 80, 95 \pmod{105} \qquad x \equiv 8 \pmod{34} \]
+  The $x \equiv 8 \pmod{34}$ becomes $x \equiv 110 \pmod{170}$ (since $5 \mid x$).  We then discover that $x = 620$ is the smallest working value (after trying $110, 280, 450$).
+  A working construction is $f(x)=-41x+620$.
+comments: |
+  sidenote:
+  idk if this problem is actually a good "numberification", but the point is I wanted to use the fact that $f(p)f(q)=f(p+q)f(0)\pmod{pq}$, and generalizations for multiple primes.
+
+  Edited and +1. Your earlier version claimed $r^2 \equiv 4 \pmod{105}$ implies $r \equiv \pm 2$.  BTW, I think this is hard for a d=30. -- Evan
+  This is much more well hidden now, nice. With the new edit, it's definitely harder-maybe a hard 30 or easy 40? -- Michael
+  My pleasure :) I'd say even mid-40 is fine. -- Evan
+---
+# Problem 23
+author: Michael Kural
+answer: 16909
+title: Tangent Circles
+difficulty: 40
+statement: |
+  Let $\Gamma_1$ and $\Gamma_2$ be circles in the plane with centers $O_1$ and $O_2$ and radii $13$ and $10$, respectively. Assume $O_1O_2=2$.  Fix a circle $\Omega$ with radius $2$, internally tangent to $\Gamma_1$ at $P$ and externally tangent to $\Gamma_2$ at $Q$ . Let $\omega$ be a second variable circle internally tangent to $\Gamma_1$ at $X$ and externally tangent to $\Gamma_2$ at $Y$.  Line $PQ$ meets $\Gamma_2$ again at $R$, line $XY$ meets $\Gamma_2$ again at $Z$, and lines $PZ$ and $XR$ meet at $M$.
+
+  As $\omega$ varies, the locus of point $M$ encloses a region of area $\frac{p}{q} \pi$, where $p$ and $q$ are relatively prime positive integers.  Compute $p+q$.
+solution: |
+  One can show $PX\parallel RZ$ in a variety of ways. If $XZ$ meets $PR$ at $A$, there is a negative homothety taking $PX$ on $\Gamma_1$ to $RZ$ on $\Gamma_2$, so $PX/RZ=13/10$. Then because $RZ\parallel PX$ in triangle $XPM$, $PM/ZM=13/10$, so $PM/PZ=13/3$. Then the locus of $M$ is a circle homothetic to $\Gamma_2$. The radius of this circle is $\frac{13}{3}\cdot 10$, which doesn't actually depend on $O_1O_2$ or the radius of $\Omega_1$.
+comments: |
+  This seems hard D: I can't even tell why the homothety implies a circle. -- Evan
+  I added some details to the solution- this is probably too hard for a 30 -- Michael
+  Yeah okay bumped up to d=40, although even then I guess it's probably at the harder end. -- Evan
+---
+# Problem 24
+author: Sammy Luo
+answer: 21
+title: Fixed intercept sum locus
+difficulty: 40
+statement: |
+  Let $\mathcal P$ denote the set of planes in three-dimensional space with positive $x$, $y$, and $z$ intercepts summing to one. A point $(x,y,z)$ with $\min \{x,y,z\} > 0$ lies on exactly one plane in $\mathcal P$. What is the maximum possible integer value of $\left(\frac{1}{4} x^2 + 2y^2 + 16z^2\right)^{-1}$?
+solution: |
+  The points on the planes in $P$ are of the form $(x,y,z) = (a_1 e_1, a_2 e_2, a_3 e_3)$, where the $a_i$ (axis intercepts) and $e_i$ (weights) both sum to 1. So by Cauchy-Schwarz,
+  $1 = (a_1+a_2+a_3)(e_1+e_2+e_3) \geq (\sqrt{a_1 e_1} + \sqrt{a_2 e_2} + \sqrt{a_3 e_3})^2$
+  which gives $\sqrt{x}+\sqrt{y}+\sqrt{z}\leq 1$. Equality can be attained for any choice of $x,y,z$ satisfying the equality by (and only by) setting $a_1=e_1=\sqrt{x}$ and so forth.
+  So $S$ is the set of points with $\sqrt{x}+\sqrt{y}+\sqrt{z} = 1$. Then by HÃ¶lder (or weighted power mean),
+  $(x^3+32y^3+243z^3)(1+\frac{1}{2}+\frac{1}{3})^5\geq (\sqrt{x}+\sqrt{y}+\sqrt{z})^6=1$, with equality when $x=4y=9z$. This gives $x^3+32y^3+243z^3=\frac{1}{(1+\frac{1}{2}+\frac{1}{3})^5}=(\frac{6}{11})^5$, so the answer is $6*11*5*1=\boxed{330}$.
+
+  EDITED version: $\frac{1}{16} ( 1+2+4 )^3 = \frac{343}{16} \to 21$.
+comments: |
+  Edited. I think this can be easy side of d=40. -- Evan
+  Er wait the edit doesn't work... you can't maximize by [the intended method] here, only minimize. I think we have to specify lying on at most (or perhaps only?) one of the planes, and minimize. We also have to bound to the positive octant. Also you forgot to invert the constant we're multiplying by so the extraction doesn't work. -- Sammy
+  oops how did I forget to invert.  Does this work? -- Evan
+  Yep, I think so (fixed a typo that used to say "summing to one $1$"). -- Sammy
+---
+# Problem 25
+author: Michael Kural
+answer: 9901
+title: Infinite harmonic Sum
+difficulty: 50
+statement: |
+  If
+  \[
+  \sum_{n=1}^{\infty}\frac{\frac11 + \frac12 + \dots + \frac 1n}{\binom{n+100}{100}} = \frac pq
+  \]
+  for relatively prime positive integers $p,q$, find $p+q$.
+solution: |
+  It is not hard to show that
+  \[
+  \frac{1}{\binom{n+99}{99}}-\frac{1}{\binom{n+100}{99}}=\frac{\frac{99}{100}}{\binom{n+100}{100}}.
+  \]
+  So the sum is
+  \[
+  \frac{100}{99}\left(H_1\left(\binom{100}{99}^{-1}-\binom{101}{99}^{-1}\right)+H_2\left(\binom{101}{99}^{-1}-\binom{102}{99}^{-1}\right)+\cdots\right).
+  \]
+  which equals
+  \[
+  100/99\left(\binom{100}{99}^{-1}+\frac{1}{2}\binom{101}{99}^{-1}+\frac{1}{3}\binom{102}{99}^{-1}\cdots\right).
+  \]
+  Note that $n\binom{99+n}{100}=100\binom{99+n}{100}$, so this becomes
+  \[
+  \frac{1}{99}\left(\binom{100}{100}^{-1}+\binom{101}{100}^{-1}+\binom{102}{100}^{-1}+\cdots\right).
+  \]
+  Now again using the first identity, this telescopes and becomes
+  \[
+  \frac{100}{99^2}\left(\binom{99}{99}\right)=\frac{100}{9801}.
+  \]
+  Replacing $100$ with a general $k$, the answer is $\frac{k}{(k-1)^2}$.
+comments: |
+  Probably on the easy side of 50.
+  Maybe we can make this less guessable by shifting the sequence (i.e. $\sum_{n\ge1} \frac{H_{n+1}}{\binom{n+101}{100}}$). -- Evan
+  Wait hmm, why is this especially guessable right now? (Like even if you replace $100$ with smaller values, you still have to go through most of this process to get an answer, if I'm not mistaken.)--Michael
+  Oh okay, that's fine then. I just saw $\frac{k}{(k-1)^2}$ and was like oh god engineer's induction. (A bunch of our hard problems got trolled like this). -- Evan
+---
+# Problem 26
+author: Evan Chen
+answer: 720
+title: NT Invariant
+difficulty: 50
+statement: |
+  Qing initially writes the ordered pair $(1,0)$ on a blackboard. Each minute, if the pair $(a,b)$ is on the board, she erases it and replaces it with one of the pairs $(2a-b,a)$, $(2a+b+2,a)$ or $(a+2b+2,b)$.  Eventually, the board reads $(2014,k)$ for some nonnegative integer $k$.  How many possible values of $k$ are there?
+solution: |
+  This is pretty unoriginal.  Increase both entries in the pair by one.  Then it's just \url{http://en.wikipedia.org/wiki/Coprime#Generating_all_coprime_pairs}.  I thought the tree was cool enough to warrant the stealing though.
+
+  Proof of said Wikipedia lemma is some induction.
+
+  $\frac12 \varphi(2015) = \frac12 \cdot 4 \cdot 12 \cdot 30 = 720$.
+comments: |
+  Easy for a d=50. We need some killer problems.
+---
+# Problem 27
+author: Michael Kural
+answer: 301
+title: Expected Length of a Game
+difficulty: 50
+statement: |
+  A frog starts at $0$ on a number line and plays a game. On each turn the frog chooses at random to jump $1$ or $2$ integers to the right or left. It stops moving if it lands on a nonpositive number or a number on which it has already landed. If the expected number of times it will jump is $\frac{p}{q}$ for relatively prime positive integers $p$ and $q$, find $p+q$.
+solution: |
+  Let $f(n)$ be the number of paths of length $n$, and let $f(n,k)$ be the number of paths of length $n$ that start with $k$ $2$-jumps to the right. (Note $f(n)=f(n,0)+\cdots+f(n,n)$.) When it either goes back or forward $1$, it either has to keep going back between numbers it has already landed on, or go forward in a state similar to the beginning position. We get a recursion for $f(n,k)$ and then the recursion
+  \[f(n)=2f(n-1)+f(n-3)+1\]
+  The expected value is just $\sum n\cdot g(n)$, where $g(n)$ is the probability that it jumps $n-1$ times and fails on its $n$th. Note that $g(0)+g(1)+g(2)+\cdots+g(k)+\frac{f(k)}{4^k}=1$, so manipulation yields
+  \[
+  \sum n\cdot g(n)=\sum \frac{f(n)}{4^n}
+  \]
+  Which can be calculated with the above recursion.
+comments: |
+  dammit I accidentally checked this instead of the final #25. But I did get 301 (208/93) as well, so at least nobody needs to check this if we decide to use it in the future. A bit too computational for me though. -- Victor
+---
+# Problem 28
+author: Sammy Luo
+answer: 7800
+title: Losing positions in 3-player Nim
+difficulty: 50
+statement: |
+  In the game of Nim, players are given several piles of stones. On each turn, a player picks a nonempty pile and removes any positive integer number of stones from that pile. The player who removes the last stone wins, while the first player who cannot move loses.
+
+  Alice, Bob, and Chebyshev play a 3-player version of Nim where each player wants to win but avoids losing at all costs (there is always a player who neither wins nor loses). Initially, the piles have sizes $43$, $99$, $x$, $y$, where $x$ and $y$ are positive integers. Assuming that the first player loses when all players play optimally, compute the maximum possible value of $xy$.
+solution: |
+  Call a game position an A-position if it results in a win for the next player, a C-position if it results in a loss, and a B position otherwise. We use the following definitions to make thing simpler:
+  For a nonnegative integer $a = \overline{a_n a_{n-1} \cdots a_1 a_0}_2$ written in base 2, define the ternation of $a$, $a_T$, to be $\overline{a_n a_{n-1} \cdots a_1 a_0}_3$, i.e. the number that results when the base 2 representation of $a$ is interpreted as a base 3 integer.
+  Define the trim-sum of two numbers $a = \overline{a_n a_{n-1} \cdots a_1 a_0}_3$ and $b = \overline{b_n b_{n-1} \cdots b_1 b_0}_3$ written in base 3 (possibly with leading zeroes), represented by $a \boxplus b$, such that \[ a \boxplus b = \overline{c_n c_{n-1} \cdots c_1 c_0}_3 \] where $c_i \equiv a_i+b_i \pmod{3}$ is $0,1,$ or $2$.
+  The key is the following proposition: A position $P=(x_1,x_2,\cdots,x_n)$ in 3-Nim is a C-position if and only if
+  \[ (x_1)_T \boxplus (x_2)_T \boxplus \cdots \boxplus (x_n)_T = 0 \]
+
+  In this case, we want $101011_3 \boxplus 1100011_3 \boxplus x_T \boxplus y_T = 0$, so we need $x_T \boxplus y_T = 2102011_3$. Since the base 3 digits in $x_T$ and $y_T$ are all zero or one, we see that $x_T + y_T = 2102011_3$, so to maximize their product, we make them as close as possible. This is done by assigning the first occurrence of a $1$ in the sum's base 3 representation to $x$ and every other occurrence of a $1$ to $y$, yielding $x=1101000_2=104, y=1001011_2=75$. These multiply to give $\boxed{7800}$.
+
+  The proof of the key result used can actually generalize to more than 3 players, but for simplicity we'll just include the 3-player version.
+  We use strong induction on $s:= x_1+x_2+\cdots + x_n$. The theorem statement is trivial for $s=0$ by the definition of a C-position.
+  Assume for some $k>0$ that the statement holds for all $s < k$. Consider a position $P=(x_1,x_2,\cdots, x_n)$ with $s=k$. Clearly any move will decrease $s$.
+  Let $s_3(P) = (x_1)_T \boxplus (x_2)_T \boxplus \cdots \boxplus (x_n)_T$. We will prove and use the following lemma:
+  \textbf{Lemma 1:} Any position $P$ with $s_3(P) \ne 0$ can be moved to one with $s_3(P) = 0$ in at most two moves, while a position $P$ with $s_3(P) = 0$ cannot be moved to another such position in at most two moves.
+  For the first part of the lemma:
+  Let $s_3(P) = \overline{c_{d-1} c_{d-2} \cdots c_1 c_0}_3$ in base $3$ with $c_{d-1}$ nonzero. If we can show that the lemma is true when the sizes of all piles have $\leq d$ digits in base 2, then in any other case we can ignore all but the last $d$ digits of each pile and perform the same operation on these digits to get the same result.
+  Let the largest $3$ piles in $P$ have sizes $a_1>a_2 >a_3$. We are assuming that $a_1$ has at most $d$ digits in base 2. Let $c_{d-1} = j$.
+  We use strong induction on $d$ to show that it is possible to perform the operation specified in the lemma with all of $a_1,a_2,\cdots,a_j$ changed. For $d=0$, this is trivial because all the nonempty piles are $1$s, so we remove the $c_0$ biggest piles and are done.
+  Now assume it's true for all $d < d_0$ for some $d_0>0$, and consider $d=d_0$.
+  Let $c_{d0-1} = j_0$. Then replace $a_1,a_2,\cdots,a_{j0}$ with $a^* = 2^{d_0-1}-1$. This results in a position $P'$ with $d = d' \leq d_0-1$ (since $c_{d_0-1}$ is now 0), so by induction the $c_{d'-1}'$ piles whose last $d'$ digits form the largest base 2 integers possible can be used to do the operation demanded by the lemma. Since all digits of $a^*$ in base 2 are $1$, clearly $a_1,a_2,\cdots,a_j$, which have all been replaced by $a^*$, can be used from now on for any number of digits $d < d_0$ until more than $j_0$ digits are needed for some future digit, in which case we continue using them along with as many of the next largest integers as necessary.
+  So the statement holds for $d=d_0$ as well, and by strong induction holds for all $d$.
+  Now we prove the second part of the lemma. Assume the opposite, so there are piles $a,b$ in $P$ such that there exist nonnegative integers $a' < a$, $b'\leq b$ with $a_T \boxplus b_T = s_3(P) \boxplus a'_T \boxplus b'_T = a'_T \boxplus b'_T$. Since the digits of $a_T,b_T,a'_T,b'_T$ in base 3 are $0$s and $1$s, summing them pairwise cannot produce "`carry-overs"', so $a_T \boxplus b_T = a_T + b_T$ and $a'_T \boxplus b'_T = a'_T + b'_T$. But then we get $a_T + b_T = a'_T + b'_T$, which is impossible if $a' < a$ and $b' \leq b$ (since it is simple to see, e.g. by expanding out the integers' base representations into polynomials of the base, that $a > a'$ implies $a_T > a'_T$, etc.). This completes the proof of the lemma.
+  - - -
+  Now we continue with the main proof. If $s_3(P)$ is nonzero, then there exist two piles $a,b$ that can be altered (with $b$ possibly not changed) to produce a position $P'$ with $s_3(P')=0$. Then the player (WLOG player 1) who is faced with position $P$ can alter $a$. If this leaves a position $P'$ with $s_3(P')=0$ already, then $P'$ is a $C$ position by the inductive hypothesis, and $P$ is an $A$ position. Otherwise, player 2 can alter $b$ to leave a position $P'$ with $s_3(P')=0$, which is a $C$ position for player 2, so player 1 would be in an $A$ position, implying $P$ is a $B$ position. In either case, $P$ is not a $C$ position if $s_3(P) \neq 0$.
+  If instead $s_3(P) = 0$, notice that altering any pile will result in a position $P'$ with $s_3(P') \neq 0$ (by, e.g., the lemma). $P'$ is then either an A position or a B position. However, by the lemma applied to $P$, $P'$ cannot be moved to a position $P''$ with $s_3(P'')=0$ in one move, and since by the inductive hypothesis such positions are the only $C$ positions, $P'$ cannot be an A position, so it must be a B position, and $P$ is a C position as wanted.
+  So the theorem holds for $s=k$ as well, and therefore for all $s$.
+comments: |
+  This is a simple application of a result I found doing a research project last year (which turns out to be obscurely known).
+  Yeah d=40 might actually be closer. The solution is not as hard to think of as the long write-up makes it seem -- Sammy
+  Wait nvm maybe d=50 actually is closer? idk, can't tell... someone else should check maybe
+---
+# Problem 29
+author: Sammy Luo and Evan Chen
+answer: 15000
+title: Tetrahedron and Perpendiculars
+difficulty: 50
+statement: |
+  Let $ABCD$ be a tetrahedron whose six side lengths are all integers, and let $N$ denote the sum of these side lengths. There exists a point $P$ inside $ABCD$ such that the feet from $P$ onto the faces of the tetrahedron are the orthocenter of $\triangle ABC$, centroid of $\triangle BCD$, circumcenter of $\triangle CDA$, and orthocenter of $\triangle DAB$. If $CD = 3$ and $N < 100{,}000$, determine the maximum possible value of $N$.
+solution: |
+  Let $H$, $G$, $O$, $H'$ denote the orthocenter of $\triangle ABC$, centroid of $\triangle BCD$, circumcenter of $\triangle CDA$, and orthocenter of $\triangle DAB$, respectively.
+
+  The standard perpendicularity criterion applied to $PH$ and $BC$ and to $PG$ and $BC$ gives $BH^2-CH^2=BP^2-CP^2=BG^2-CG^2$ (so $BC\perp GH$), and similarly for the other five pairs of sides between $ABCD$ and $GOH'H$.
+
+  We can cancel a whole bunch of terms in these expressions (using e.g. $BH^2 = 4R_{ABC}^2-AC^2$ and $BG^2 = \frac 29 (BC^2+CD^2+DB^2) - \frac 13CD^2$). Due to the circumcenter we get $GC^2-GD^2=HA^2-HC^2=H'D^2-H'A^2=0$, so $BC=BD=BA=s$. The remaining equations give \[ \frac{CD^2-s^2}{3}=DA^2-s^2=AC^2-s^2. \]
+  Let $DA=AC=a$, so the equation is $3a^2-2s^2=9$. This is a Pell-type equation, and the only solutions small enough are $(a,s)=(3,3),(27,33),(267,327), (2643, 3237)$. So, using the largest one, the answer is $3 + 2 \cdot 2643 + 3 \cdot 3237 = 15000$.
+comments: |
+  Ok, I think it at least works now :P -Sammy
+---
+# Problem 30
+author: Yang Liu
+answer: 76
+title: Perfect Trees
+difficulty: 50
+statement: |
+  For a positive integer $n$, an \textit{$n$-branch} $B$ is an ordered tuple $(S_1, S_2, \dots, S_m)$ of nonempty sets (where $m$ is any positive integer) satisfying $S_1 \subset S_2 \subset \dots \subset S_m \subseteq \{1,2,\dots,n\}$. An integer $x$ is said to \textit{appear} in $B$ if it is an element of the last set $S_m$.  Define an \textit{$n$-plant} to be an (unordered) set of $n$-branches $\{ B_1, B_2, \dots, B_k\}$, and call it \textit{perfect} if each of $1$, $2$, \dots, $n$ appears in exactly one of its branches.
+
+  Let $T_n$ be the number of distinct perfect $n$-plants (where $T_0=1$), and suppose that for some positive real number $x$ we have the convergence \[ \ln \left( \sum_{n \ge 0} T_n \cdot \frac{\left( \ln x \right)^n}{n!} \right) = \frac{6}{29}. \] If $x = \frac mn$ for relatively prime positive integers $m$ and $n$, compute $m+n$.
+solution: |
+  The generating function is $e^\frac{e^x-1}{2-e^x}$. I'll supply a proof later.
+  Ok, here's a proof:
+  Of course we use generating functions. $S(n, k)$ are Stirling numbers of the second kind.
+
+  Lemma 1: The sum is over the nonegative integers $a_i$ for a fixed $n$, \[\sum_{n \ge 0} \left( x^n \cdot \sum_{a_1+2a_2+\ldots na_n} \frac{1}{a_1!a_2! \ldots a_n!} \right) = e^\frac{x}{1-x} \]
+
+  Proof: \[ \sum_{n \ge 0} \left( x^n \cdot \sum_{a_1+2a_2+\ldots na_n} \frac{1}{a_1!a_2! \ldots a_n!} \right) = \prod_{i \ge 1} \left(\sum_{j \ge 0} \frac{x^{ij}}{j!} \right) = \prod_{i \ge 1} e^{x^i} = e^\frac{x}{1-x} \]
+
+  For simplicity later, let \[T_k = \sum_{a_1+2a_2+\ldots na_n} \frac{1}{a_1!a_2! \ldots a_n!} .\]
+
+  Now, we directly count $P_n$. To do this, we do casework on how many vertices we have not including the root. Say we have $k$ vertices, and say from under the root, we have $i$ branches of length $a_i$. Then clearly, $a_1+2a_2+\ldots+ka_k = k$. Now, it's well-known that there are $k! S(n, k)$ ways to assign the numbers $1$ to $n$ to $k$ vertices such that each vertex has at least one number assigned to it. But this overcounts slightly. In fact, we need to divide by $a_1!a_2! \ldots a_n!$ in order to account for permutations of the branches of equal length. So \[P_n = \sum_{k \ge 0} k! S(n, k) T_k \] To finish,
+
+  \[ \sum_{n \ge 0}P_n \cdot \frac{x^n}{n!} = \sum_{n \ge 0} \sum_{k \ge 0} k! S(n, k) T_k \cdot \frac{x^n}{n!} = \sum_{k \ge 0} k! T_k \sum_{n \ge 0} S(n, k) \cdot \frac{x^n}{n!} = \sum_{k \ge 0}T_k (e^x-1)^k = e^\frac{e^x-1}{2-e^x}, \] by Lemma 1. We used the fact that \[ \sum_{n \ge 0} S(n, k) \cdot \frac{x^n}{n!} = \frac{(e^x-1)^k}{k!} \]
+comments: |
+  Can someone read and check that it's understandable? Also, $P_0 = 1, P_1 = 1, P_2 = 4, P_3 = 23$, if you want to check. There probably is a better way to word the statement.
+  Edited to make much more impossible to guess. -- Evan
+---

@@ -1,0 +1,187 @@
+\documentclass{beamer}
+\usetheme{UNLTheme}
+\usepackage[nothm,nosetup]{evan}
+\usepackage{ulem}
+
+\setbeamercovered{dynamic}
+
+\theoremstyle{definition}
+\newtheorem{problem*}{Problem}
+\newtheorem{answer*}{Answer}
+\newtheorem{fact*}{Fact}
+
+\begin{document}
+
+\title{Combinatorial Nullstellensatz}
+\author{Richard (Evan) Chen}
+\institute{SPARC 2013 \\ Summer Program for Applied Rationality and Cognition}
+\date{\today}
+\maketitle
+
+\section{Introduction}
+\begin{frame}
+	\frametitle{The Theorem Statement}
+	Let $F$ be a field (e.g. $\RR$ or $\ZZ_p$).
+	\only<1>{
+	\begin{theorem}[A Trivial Theorem]
+		Let $f \in F[x]$ be a polynomial of degree $t$.  If $S \subseteq F$ satisfies $\left\lvert S \right\rvert > t$, then \[ \exists s \in S: f(s) \neq 0. \]
+	\end{theorem}
+	}
+	\only<2>{
+	\begin{theorem}[Combinatorial Nullstellensatz]
+		Let $f \in F[x_1, x_2, \dots, x_n]$ be a polynomial of degree $t_1 + \dots + t_n$.  If $S_1, S_2, \dots, S_n \subseteq F$ satisfies $\left\lvert S_i \right\rvert > t_i$ for all $i$, \[ \exists s_i \in S_i:  f(s_1, s_2, \dots, s_n) \neq 0 \]
+		whenever \alert{the coefficient of $x_1^{t_1}x_2^{t_2}\dots x_n^{t_n}$ is nonzero}.
+	\end{theorem}
+	}
+\end{frame}
+
+\section{Contest Practice}
+\begin{frame}
+	\frametitle{Small Fry}
+	\begin{problem*}[Russia 2007, Day 2, Problem 1]
+		Two distinct numbers are written on each vertex of a convex 100-gon. Prove one can remove a number from each vertex so that the remaining numbers on any two adjacent vertices differ.
+	\end{problem*}
+	\pause
+	\begin{proof}
+		Define $P\left(x_1,\dots,x_{100}\right)$ by \[ \left( x_1-x_2 \right)\left( x_2-x_3 \right)\left( x_3-x_4 \right)\dots\left( x_{99}-x_{100} \right)\left( x_{100}-x_1 \right). \]
+		The coefficient of $x_1x_2\dots x_{100}$ is $2$.
+	\end{proof}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\#1's are easy, let's kill IMO \#6's}
+	\begin{problem*}[IMO 2007 Problem 6]
+		Let $n$ be a positive integer. Consider \[ S = \left\{ (x,y,z) \mid x,y,z \in \{ 0, 1, \ldots, n\}, (x,y,z) \neq (0,0,0) \right \} \] as a set of $(n + 1)^{3} - 1$ points in the three-dimensional space. Determine the smallest possible number of planes, the union of which contains $S$ but does not include $(0,0,0)$.
+	\end{problem*}
+	\pause
+	\begin{answer*}
+		$3n$.  Use the planes $x=1,2,\dots,n$, $y=1,2,\dots,n$ and $z=1,2,\dots,n$.
+	\end{answer*}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Solution to IMO 2007/6}
+	Suppose for contradiction we have $k < 3n$ planes.
+	Let them be $a_ix+b_iy+c_iz+d_i=0$. \pause
+	\begin{align*}
+		A(x,y,z) &\defeq \prod_{i=1}^k \left( a_ix + b_iy + c_iz + d_i \right) \\
+		B(x,y,z) &\defeq \prod_{i=1}^n (x-i) \prod_{i=1}^n (y-i) \prod_{i=1}^n (z-i)
+	\end{align*}
+	\pause
+	\begin{itemize}
+		%\ii Note that $A(0,0,0), B(0,0,0) \neq 0$ but $A(x,y,z) = B(x,y,z) = 0$ for any $(x,y,z) \in S$.
+		\ii The coefficient of $x^ny^nz^n$ in $A$ is $0$.
+		\ii The coefficient of $x^ny^nz^n$ in $B$ is $1$.
+	\end{itemize}
+\end{frame}
+\begin{frame}
+	\frametitle{Solution to IMO 2007/6, continued}
+	\[ P(x,y,z) \defeq A(x,y,z) - \frac{A(0,0,0)}{B(0,0,0)} B(x,y,z). \]
+	\begin{itemize}
+		\ii Now $P(x,y,z) = 0$ for any $x,y,z \in \left\{ 0,1,\dots,n \right\}^3$. \pause
+		\ii But the coefficient of $x^ny^nz^n$ is $-\frac{A(0,0,0)}{B(0,0,0)}$.
+		\ii This is a contradiction of the nullstellensatz.
+	\end{itemize}
+\end{frame}
+
+\section{Additive Combinatorics}
+\begin{frame}
+	\frametitle{Taking mod $p$}
+	Let $p$ denote an odd prime.
+
+	Let $\ZZ_p$ denote the integers modulo $p$; this is a field.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Cauchy-Davenport}
+	\begin{theorem}[Cauchy-Davenport]
+		If $A$ and $B$ are subsets of $\ZZ_p$, where $p$ is prime, then \[ |A+B| \ge \min(p, |A| + |B| - 1). \]
+	\end{theorem}
+	\pause
+	\begin{proof}
+		\begin{itemize}
+			\ii If $\left\lvert A \right\rvert + \left\lvert B \right\rvert > p$ you can just use Pigeonhole. \pause
+			\ii Otherwise, take any set $C$ with $\abs{C} = \abs{A} + \abs{B} - 2$.  We want to show $\exists (a,b) \in A \times B$ for which $a+b \notin C$.
+		\end{itemize}
+		\pause
+		\[ f(a,b) \defeq \prod_{c \in C} \left( a+b-c \right). \]
+		\pause
+		The coefficient of $a^{\abs{A}-1}b^{\abs{B}-1}$ is $\binom{\abs{A} + \abs{B} - 2}{\abs{A} - 1} \not\equiv 0 \pmod{p}$.
+	\end{proof}
+\end{frame}
+
+\begin{frame}
+	\frametitle{A 30-year Conjecture}
+	\begin{theorem}[Erd\H{o}s-Heilbronn Conjecture]
+		Let $A$ be a subset of $\ZZ_p$.  Then \[ |\{x+y \mid x,y \in A, x \neq y \} | \ge \min(p, 2|A|-3). \]
+	\end{theorem}
+	\pause
+	\begin{proof}
+		Similarly, suppose $\left\lvert C \right\rvert = 2\left\lvert A \right\rvert - 4 < p$.  Define
+		\[ f(x,y) = \alert{(x-y)} \prod_{c \in C} (x+y-c). \]
+		\pause
+		The coefficient of $x^{|A|-1}y^{|A|-2}$ is \[ \binom{2|A|-4}{|A|-2} - \binom{2|A|-4}{|A|-3} = \left( \frac{|A|-3}{|A|-1} - 1 \right)\binom{2|A|-4}{|A|-3} \neq 0. \qedhere \]
+	\end{proof}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Chevalley's Theorem}
+	\begin{corollary}[Chevalley, 1935]
+		Let $f_1,f_2,\cdots,f_k \in \ZZ_p[X_1,X_2,\cdots,X_n]$ satisfy $\sum_{i=1}^k \deg f_i < n$.  If the polynomials $f_i$ have a common zero $(c_1,c_2,\cdots,c_n)$, then they have another common zero.
+	\end{corollary}
+	\pause
+	\begin{proof}
+		\vspace*{-1.4em}
+		\begin{align*}
+			A(x_1,x_2,\dots,x_n) &\defeq \prod_{i=1}^k \left( f(x_1,x_2,\dots,x_n)^{p-1}-1 \right) \\
+			B(x_1,x_2,\dots,x_n) &\defeq \prod_{i=1}^n \left( (x_i-c_i)^{p-1}-1 \right) \\
+			F(x_1,\dots,x_n) &\defeq A(x_1,\dots,x_n) - \delta B(x_1,\dots,x_n)
+		\end{align*}
+		where $\delta = \frac{A(c_1,\dots,c_n)}{B(c_1,\dots,c_n)}$. \pause
+		$[x_1^{p-1}x_2^{p-1}\dots x_n^{p-1}] \ F = -\delta \neq 0$.
+	\end{proof}
+\end{frame}
+
+\section{Other Results}
+\begin{frame}
+	\frametitle{More Treats}
+	\begin{theorem}[Troi-Zannier]
+		Let $p$ be a prime and let $S_1,S_2,\cdots,S_k \subseteq \ZZ_{\ge 0}$, each containing $0$ and having pairwise distinct elements modulo $p$.  Suppose that $\sum_i(|S_i|-1) \ge p$.  Then for any elements $a_1,\cdots,a_k \in \ZZ_p$, the equation $\sum_i x_ia_i = 0$ has a solution $(x_1,\cdots,x_k) \in S_1 \times \cdots \times S_k$ other than the all-zero solution.
+	\end{theorem}
+	\begin{problem*}[TSTST 2011/9]
+		Let $n \in \ZZ^+$.  Suppose we're given $2^n+1$ distinct sets, each containing finitely many objects.  Place each set into one of two categories, the red sets and the blue sets, with at least one set in each category.  We define the \textit{symmetric difference} of two sets as the set of objects belonging to exactly one of the two sets.  Prove that there are at least $2^n$ different sets which can be obtained as the symmetric difference of a red and blue set.
+	\end{problem*}
+\end{frame}
+
+\begin{frame}
+	\frametitle{And More Treats\dots}
+	\begin{theorem}
+		Let $H_1, H_2,\ldots, H_m$ be a family of hyperplanes in $R^n$ that cover all vertices of the unit cube $\{0,1\}^n$ but one. Then $m \leq n$.
+	\end{theorem}
+	\begin{theorem}[Alon]
+		For any prime $p$, any loopless graph $G=(V,E)$ with average degree at least $2p-2$ and maximum degree at most $2p-1$ contains a $p$-regular subgraph.
+	\end{theorem}
+	Corollary of above is the \alert{Berge-Saurer Conjecture}: any simple $4$-regular graph contains a $3$-regular subgraph.
+\end{frame}
+
+\begin{frame}
+	\frametitle{And Even More Treats\dots}
+	\begin{theorem}[Alon]
+		A graph $G=(V,E)$ on the vertices $\{1,2,\ldots,n\}$ is \emph{not} $k$-colorable if and only if the graph polynomial\footnote{The graph polynomial $f_G=f_G(x_1,x_2,\ldots,x_n)=\prod\{(x_i-x_j):i<j,\{v_i,v_j\}\in E\}$.} $f_G$ lies in the ideal generated by the polynomials $x_{i}^k-1$, where $1 \leq i \leq n$.
+	\end{theorem}
+	\begin{theorem}[Alon]
+		Let $p$ be a prime, and let $G = (V, E)$ be a graph on a set of $\abs{V} > d(p-1)$ vertices.  Then there is a nonempty subset $U$ of vertices of $G$ such that the number of cliques of $d$ vertices of $G$ that intersect $U$ is $0$ modulo $p$.
+	\end{theorem}
+\end{frame}
+
+\section{Summary}
+\begin{frame}
+	\frametitle{Summary}
+	\begin{enumerate}
+		\ii Encode condition in a polynomial.
+		\ii Check a coefficient is nonzero.
+		\ii Profit.
+	\end{enumerate}
+\end{frame}
+
+\end{document}

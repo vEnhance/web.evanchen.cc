@@ -1,0 +1,61 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{evan}
+\lhead{BAMO Preparation}
+\rhead{Berkeley Math Circle}
+
+\begin{document}
+\title{BAMO Preparation}
+\author{Evan Chen\plusemail{evanchen@mit.edu}}
+\date{BMC Intermediate \\ February 11, 2014}
+\maketitle
+
+\begin{itemize}
+	\ii Suppose you have some quantity $X$ and you wish to prove that the minimum of $X$ is $100$. There are always two steps to this. First, one must show that $X \ge 100$ is true. Then, one must prove that $X=100$ can actually occur.
+	\ii On the same lines, suppose you are asked to ``find all $n$\dots'' with a certain property, and you think the answer is all even numbers. You must first prove that the even numbers all have the property, and then that none of the odd numbers do.
+\end{itemize}
+
+\section{Problems}
+\begin{enumerate}
+	\ii (NIMO 2014) Determine, with proof, the smallest positive integer $c$ such that for any positive integer $n$, the decimal representation of the number $c^n+2014$ has digits all less than $5$.
+	\ii (MC1) Several ones are written in a row. It is permitted to insert one $+$ or $-$ sign between any two of them or leave the space blank. For example, using six ones one can achieve \[ \newcommand{\php}{\mathop{\phantom{+}}} 1 \php 1 \php 1 + 1 - 1 \php 1 = 101.  \]
+	Is it possible to achieve the result $2013$ using
+	\begin{enumerate}[(a)]
+		\item twenty ones and eight signs; % explicit construction
+		\item twenty ones and nine signs?  % parity
+	\end{enumerate}
+	\ii (MC2) Two players, Cat and Mouse, play the following game on a $4\times 4$ checkerboard. Each player places a checker on a cell of the board (Cat goes first). Then, the two players take turns moving their checkers to an adjacent square, either vertically or horizontally (Cat again goes first). If, after either player's move, the two checkers occupy the same square, Cat wins. Otherwise, if each checker has made $2013$ moves without this happening, Mouse wins. Determine, with proof, which player has a winning strategy. % parity
+	\ii (MC4) A building has the plan of a $5 \times 5$ grid of rooms, each of which has a door in each of its four walls: thus there are $20$ doors leading to the outside. The doors are to be opened and closed so that every room has exactly $3$ open doors leading from it. Determine the minimum and maximum number of doors to the outside that may be left open. % parity, construction
+	\ii Consider a broken line with $11$ segments. Can a straight line not through any vertex intersect all eleven segments? % parity
+	% \ii Three pucks are placed in the plane. At each step, one puck $A$ can be kicked through the midpoint of $\ol{BC}$ (where $B$ and $C$ are the other two pucks). Is it possible after 25 moves, we return to the original position?
+
+
+	\ii (BAMO 2009) A $4 \times 4$ square grid of $16$ dots contains the corners of nine $1 \times 1$ squares, four $2 \times 2$ squares, and one $3 \times 3$ square, for a total of $14$ squares whose sides are parallel to the sides of the grid. What is the smallest possible number of dots you can remove so that, after removing those dots, each of the $14$ squares is missing at least one corner?
+	\ii (NIMO 2014) The numbers $1,2,\dots,10$ are written on a board. Every minute, one can select three numbers $a$, $b$, $c$ on the board, erase them, and write $\sqrt{a^2+b^2+c^2}$ in their place. This process continues until no more numbers can be erased. What is the largest possible number that can remain on the board at this point?
+
+	\ii (BAMO 2010)
+	Place eight rooks on a standard $8 \times 8$ chessboard, no two attacking. Now paint 27 of the remaining squares red.  Prove that no matter how the rooks are arranged and which set of 27 squares are painted, it is always possible to move some or all of the rooks so that:
+	\begin{itemize}
+		\ii All the rooks are still on unpainted squares.
+		\ii The rooks are still not attacking each other.
+		\ii At least one formerly empty square now has a rook on it.
+	\end{itemize} % PHP
+
+	\ii Can a regular $13$-gon cannot be dissected into parallelograms? % parity
+	\ii (BAMO 2013) Let $n \ge 2$ be an integer. Consider the product
+	\[ \frac{2}{1} \times \frac{3}{2} \times \dots \times \frac{n}{n-1} = n. \]
+	Determine all values of $n$ such that, by reciprocating some of the fractions, the value becomes equal to $1$.
+	% invariants
+
+	%\ii (MC3) Define an \emph{$n$-staircase} to be the union of all squares of an $n \times n$ grid lying on or below its main diagonal. How many ways are there to divide a $10$-staircase into $10$ rectangles, each having a side of length $1$? (Reflections are not included.)
+\end{enumerate}
+
+\section{Bonus Problems}
+\begin{enumerate}
+	\ii (ELMO 2013) Let $a_1$, $a_2$, \dots, $a_9$ be nine real numbers (not necessarily distinct) with average $m$. Let $A$ denote the number of triples $1 \le i < j < k \le 9$ for which $a_i + a_j + a_k \ge 3m$. What is the minimum possible value of $A$?
+	\ii (IMO 2011) Let $n$ be a positive integer. We are given a balance and $n$ weights of weight $2^0, 2^1, \cdots, 2^{n-1}$. We are to place each of the $n$ weights on the balance, one after another, in such a way that the right pan is never heavier than the left pan. At each step we choose one of the weights that has not yet been placed on the balance, and place it on either the left pan or the right pan, until all of the weights have been placed.
+Determine the number of ways in which this can be done.
+	\ii (IMO Shortlist 2011) Let $m$ be a positive integer, and consider a $m\times m$ checkerboard. At the center of some of these unit squares there is an ant. At time $0$, each ant starts moving with speed $1$ parallel to some edge of the checkerboard. When two ants moving in opposite directions meet, they both turn $90^{\circ}$ clockwise and continue moving with speed $1$. When more than $2$ ants meet, or when two ants moving in perpendicular directions meet, the ants continue moving in the same direction as before they met. When an ant reaches one of the edges of the checkerboard, it falls off and will not re-appear. \par Considering all possible starting positions (determine the latest possible moment at which the last ant falls off the checkerboard, or prove that such a moment does not necessarily exist).
+\end{enumerate}
+
+
+\end{document}
