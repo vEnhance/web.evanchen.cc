@@ -37,83 +37,83 @@ Here is a [listing of all my papers on arXiv](https://arxiv.org/a/chen_e_2).
 I'm also [MR Author ID 1158569](https://mathscinet.ams.org/mathscinet/MRAuthorID/1158569)
 and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
 
-- [arXiv:1709.05753](https://arxiv.org/abs/1709.05753).<br>
+1. [arXiv:1709.05753](https://arxiv.org/abs/1709.05753).<br>
   <b>A family of partially ordered sets with small balance constant</b>.<br>
   E. Chen. [Electronic Journal of Combinatorics][ejc-poset].
 
-- [arXiv:2603.29970](https://arxiv.org/abs/2603.29970).<br>
+1. [arXiv:2603.29970](https://arxiv.org/abs/2603.29970).<br>
   <b>ABC implies that Ramanujan's tau function misses almost all primes</b>.<br>
   D. K. Angdinata, E. Chen, S. Lee, K. Ono, and J. Zhang. [Indagationes Mathematicae][indag-tau].
 
-- [arXiv:2602.05090](https://arxiv.org/abs/2602.05090).<br>
+1. [arXiv:2602.05090](https://arxiv.org/abs/2602.05090).<br>
   <b>Almost all primes are partially regular</b>.<br>
   E. Chen, K. Lau, S. Lee, K. Ono, and J. Zhang. [Archiv der Mathematik][arch-partialreg].
 
-- [arXiv:1608.04146](https://arxiv.org/abs/1608.04146).<br>
+1. [arXiv:1608.04146](https://arxiv.org/abs/1608.04146).<br>
   <b>Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures</b>.<br>
   E. Chen. [Proceedings of the AMS][pams-algint].
 
-- [arXiv:1507.07122](https://arxiv.org/abs/1507.07122).<br>
+1. [arXiv:1507.07122](https://arxiv.org/abs/1507.07122).<br>
   <b>Elliptic curve variants of the least quadratic nonresidue problem and Linnik's Theorem</b>.<br>
   E. Chen, P. Park, and A. Swaminathan. [Intl Journal of Number Theory][ijnt].
 
-- [arXiv:2602.03716](https://arxiv.org/abs/2602.03716).<br>
+1. [arXiv:2602.03716](https://arxiv.org/abs/2602.03716).<br>
   <b>Fel's Conjecture on Syzygies of Numerical Semigroups</b>.<br>
   E. Chen, K. Lau, K. Ono, and J. Zhang. [Journal of Combinatorial Theory, Series A][jcta-fel].
 
-- [arXiv:2602.20439](https://arxiv.org/abs/2602.20439).<br>
+1. [arXiv:2602.20439](https://arxiv.org/abs/2602.20439).<br>
   <b>Four-digit Kaprekar dynamics in odd bases</b>.<br>
   Submitted for publication.
 
-- [arXiv:2411.04872](https://arxiv.org/abs/2411.04872).<br>
+1. [arXiv:2411.04872](https://arxiv.org/abs/2411.04872).<br>
   <b>FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI</b>.<br>
   arXiv preprint.
 
-- [arXiv:1609.01247](https://arxiv.org/abs/1609.01247).<br>
+1. [arXiv:1609.01247](https://arxiv.org/abs/1609.01247).<br>
   <b>Linear polychromatic colorings of hypercube faces</b>.<br>
   E. Chen. [Electronic Journal of Combinatorics][ejc-hypercube].
 
-- [arXiv:1506.09170](https://arxiv.org/abs/1506.09170).<br>
+1. [arXiv:1506.09170](https://arxiv.org/abs/1506.09170).<br>
   <b>Linnik's Theorem on Sato-Tate Laws on elliptic curves with complex multiplication</b>.<br>
   E. Chen, P. Park, and A. Swaminathan. [Research in Number Theory][rnut].
 
-- [arXiv:1710.02734](https://arxiv.org/abs/1710.02734).<br>
+1. [arXiv:1710.02734](https://arxiv.org/abs/1710.02734).<br>
   <b>Multiplicative and exponential orthomorphisms</b>.<br>
   E. Chen. [Journal of Combinatorics][joc-orthomorphism].
 
-- [arXiv:1507.02629](https://arxiv.org/abs/1507.02629).<br>
+1. [arXiv:1507.02629](https://arxiv.org/abs/1507.02629).<br>
   <b>On Logarithmically Benford Sequences</b>.<br>
   E. Chen, P. Park, and A. Swaminathan. [Proceedings of the AMS][pams-benford].
 
-- [arXiv:2603.23928](https://arxiv.org/abs/2603.23928).<br>
+1. [arXiv:2603.23928](https://arxiv.org/abs/2603.23928).<br>
   <b>On the paucity of lattice triangles</b>.<br>
   Submitted for publication.
 
-- [arXiv:2602.03722](https://arxiv.org/abs/2602.03722).<br>
+1. [arXiv:2602.03722](https://arxiv.org/abs/2602.03722).<br>
   <b>Parity of $k$-differentials in genus zero and one</b>.<br>
   Accepted for publication in Quarterly Journal of Mathematics (Oxford).
 
-- [arXiv:2607.12873](https://arxiv.org/abs/2607.12873).<br>
+1. [arXiv:2607.12873](https://arxiv.org/abs/2607.12873).<br>
   <b>Record compositions of alternating permutations and noncommutative symmetric functions</b>.<br>
   Submitted for publication.
 
-- [arXiv:2605.21718](https://arxiv.org/abs/2605.21718).<br>
+1. [arXiv:2605.21718](https://arxiv.org/abs/2605.21718).<br>
   <b>Reciprocals of Partition Polynomials</b>.<br>
   Accepted for publication in Annals of Acad. Rom. Sci.
 
-- [arXiv:1708.01350](https://arxiv.org/abs/1708.01350).<br>
+1. [arXiv:1708.01350](https://arxiv.org/abs/1708.01350).<br>
   <b>Schur-concavity for avoidance of increasing subsequences in block-ascending permutations</b>.<br>
   E. Chen. [Electronic Journal of Combinatorics][ejc-schur].
 
-- [arXiv:2502.06078](https://arxiv.org/abs/2502.06078).<br>
+1. [arXiv:2502.06078](https://arxiv.org/abs/2502.06078).<br>
   <b>Semi-Lie arithmetic fundamental lemma for the full spherical Hecke algebra</b>.<br>
   Submitted for publication.
 
-- [arXiv:2606.16239](https://arxiv.org/abs/2606.16239).<br>
+1. [arXiv:2606.16239](https://arxiv.org/abs/2606.16239).<br>
   <b>Thakur's hypotheses on power sums of $\mathbb{F}_q[t]$</b>.<br>
   Submitted for publication.
 
-- [arXiv:1609.04626](https://arxiv.org/abs/1609.04626).<br>
+1. [arXiv:1609.04626](https://arxiv.org/abs/1609.04626).<br>
   <b>The 26 Wilf-equivalence classes of length five quasi-consecutive patterns</b>.<br>
   E. Chen, S. Narayanam. [Discrete Math and Theoretical CS][dmtcs-wilf].
 
