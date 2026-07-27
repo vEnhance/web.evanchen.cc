@@ -41,9 +41,13 @@ and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
   <b>A family of partially ordered sets with small balance constant</b>.<br>
   E. Chen. [Electronic Journal of Combinatorics][ejc-poset].
 
+- [arXiv:2603.29970](https://arxiv.org/abs/2603.29970).<br>
+  <b>ABC implies that Ramanujan's tau function misses almost all primes</b>.<br>
+  D. K. Angdinata, E. Chen, S. Lee, K. Ono, and J. Zhang. [Indagationes Mathematicae][indag-tau].
+
 - [arXiv:2602.05090](https://arxiv.org/abs/2602.05090).<br>
   <b>Almost all primes are partially regular</b>.<br>
-  arXiv preprint.
+  E. Chen, K. Lau, S. Lee, K. Ono, and J. Zhang. [Archiv der Mathematik][arch-partialreg].
 
 - [arXiv:1608.04146](https://arxiv.org/abs/1608.04146).<br>
   <b>Avoiding algebraic integers of bounded house in orbits of rational functions over cyclotomic closures</b>.<br>
@@ -55,7 +59,11 @@ and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
 
 - [arXiv:2602.03716](https://arxiv.org/abs/2602.03716).<br>
   <b>Fel's Conjecture on Syzygies of Numerical Semigroups</b>.<br>
-  arXiv preprint.
+  E. Chen, K. Lau, K. Ono, and J. Zhang. [Journal of Combinatorial Theory, Series A][jcta-fel].
+
+- [arXiv:2602.20439](https://arxiv.org/abs/2602.20439).<br>
+  <b>Four-digit Kaprekar dynamics in odd bases</b>.<br>
+  Submitted for publication.
 
 - [arXiv:2411.04872](https://arxiv.org/abs/2411.04872).<br>
   <b>FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI</b>.<br>
@@ -77,9 +85,21 @@ and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
   <b>On Logarithmically Benford Sequences</b>.<br>
   E. Chen, P. Park, and A. Swaminathan. [Proceedings of the AMS][pams-benford].
 
+- [arXiv:2603.23928](https://arxiv.org/abs/2603.23928).<br>
+  <b>On the paucity of lattice triangles</b>.<br>
+  Submitted for publication.
+
 - [arXiv:2602.03722](https://arxiv.org/abs/2602.03722).<br>
-  <b>Parity of k-differentials in genus zero and one</b>.<br>
-  arXiv preprint.
+  <b>Parity of $k$-differentials in genus zero and one</b>.<br>
+  Accepted for publication in Quarterly Journal of Mathematics (Oxford).
+
+- [arXiv:2607.12873](https://arxiv.org/abs/2607.12873).<br>
+  <b>Record compositions of alternating permutations and noncommutative symmetric functions</b>.<br>
+  Submitted for publication.
+
+- [arXiv:2605.21718](https://arxiv.org/abs/2605.21718).<br>
+  <b>Reciprocals of Partition Polynomials</b>.<br>
+  Accepted for publication in Annals of Acad. Rom. Sci.
 
 - [arXiv:1708.01350](https://arxiv.org/abs/1708.01350).<br>
   <b>Schur-concavity for avoidance of increasing subsequences in block-ascending permutations</b>.<br>
@@ -87,7 +107,11 @@ and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
 
 - [arXiv:2502.06078](https://arxiv.org/abs/2502.06078).<br>
   <b>Semi-Lie arithmetic fundamental lemma for the full spherical Hecke algebra</b>.<br>
-  arXiv preprint.
+  Submitted for publication.
+
+- [arXiv:2606.16239](https://arxiv.org/abs/2606.16239).<br>
+  <b>Thakur's hypotheses on power sums of $\mathbb{F}_q[t]$</b>.<br>
+  Submitted for publication.
 
 - [arXiv:1609.04626](https://arxiv.org/abs/1609.04626).<br>
   <b>The 26 Wilf-equivalence classes of length five quasi-consecutive patterns</b>.<br>
@@ -149,4 +173,7 @@ To compile these documents in LaTeX, you will need [evan.sty][evan.sty].
 [dmtcs-wilf]: https://dmtcs.episciences.org/paper/view/id/4912
 [ejc-poset]: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i4p43
 [joc-orthomorphism]: https://www.intlpress.com/site/pub/pages/journals/items/joc/content/_home/index.php
+[indag-tau]: https://www.sciencedirect.com/science/article/abs/pii/S001935772600039X
+[arch-partialreg]: https://link.springer.com/article/10.1007/s00013-026-02261-y
+[jcta-fel]: https://www.sciencedirect.com/science/article/abs/pii/S0097316526000804
 [parallelogram-sols]: https://github.com/vEnhance/web.evanchen.cc/blob/main/static/docs/parallelogram-sols.md
