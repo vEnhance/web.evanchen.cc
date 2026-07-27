@@ -96,6 +96,18 @@ def _resolve_url(url_path: str, skip_prefixes: tuple) -> Path | None:
     return None
 
 
+def asset_exists(fspath: Path) -> bool:
+    if fspath.exists():
+        return True
+    # Handout PDFs are LaTeX build artifacts, absent from a fresh checkout;
+    # check the source instead.
+    return (
+        fspath.suffix == ".pdf"
+        and fspath.is_relative_to(PROJECT / "handouts")
+        and fspath.with_suffix(".tex").exists()
+    )
+
+
 def _broken_links(path: Path, skip_prefixes: tuple) -> list[str]:
     extractor = _LinkExtractor()
     extractor.feed(path.read_text(encoding="utf-8"))
@@ -111,7 +123,7 @@ def _broken_links(path: Path, skip_prefixes: tuple) -> list[str]:
             continue
         abs_path = urlparse(urljoin(base, raw)).path
         fspath = _resolve_url(abs_path, skip_prefixes)
-        if fspath is not None and not fspath.exists():
+        if fspath is not None and not asset_exists(fspath):
             bad.append(raw)
     return bad
 
