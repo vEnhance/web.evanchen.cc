@@ -21,7 +21,7 @@ MOUNTPOINTS: list[tuple[str, Path]] = [
 # =============================================================================
 
 
-class _HTMLAuditor(HTMLParser):
+class HTMLAuditor(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self.errors: list[str] = []
@@ -50,21 +50,21 @@ class _HTMLAuditor(HTMLParser):
                 self.errors.append(f"empty {attr} on <{tag}>")
 
 
-def _validate_html(path: Path) -> list[str]:
+def validate_html(path: Path) -> list[str]:
     html = path.read_text(encoding="utf-8")
     errors = []
 
     if not html.lstrip().startswith("<!DOCTYPE html>"):
         errors.append("missing or malformed <!DOCTYPE html>")
 
-    auditor = _HTMLAuditor()
+    auditor = HTMLAuditor()
     auditor.feed(html)
     errors.extend(auditor.errors)
     return errors
 
 
-class _LinkExtractor(HTMLParser):
-    _ATTRS: dict[str, str] = {
+class LinkExtractor(HTMLParser):
+    ATTRS: dict[str, str] = {
         "a": "href",
         "img": "src",
         "link": "href",
@@ -77,14 +77,14 @@ class _LinkExtractor(HTMLParser):
         self.links: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        attr = self._ATTRS.get(tag)
+        attr = self.ATTRS.get(tag)
         if attr:
             for name, value in attrs:
                 if name == attr and value:
                     self.links.append(value)
 
 
-def _resolve_url(url_path: str, skip_prefixes: tuple) -> Path | None:
+def resolve_url(url_path: str, skip_prefixes: tuple) -> Path | None:
     if any(url_path.startswith(p) for p in skip_prefixes):
         return None
     for prefix, directory in MOUNTPOINTS:
@@ -108,8 +108,8 @@ def asset_exists(fspath: Path) -> bool:
     )
 
 
-def _broken_links(path: Path, skip_prefixes: tuple) -> list[str]:
-    extractor = _LinkExtractor()
+def broken_links(path: Path, skip_prefixes: tuple) -> list[str]:
+    extractor = LinkExtractor()
     extractor.feed(path.read_text(encoding="utf-8"))
     bad = []
     base = f"/{path.name}"
@@ -122,7 +122,7 @@ def _broken_links(path: Path, skip_prefixes: tuple) -> list[str]:
         if not p.path:
             continue
         abs_path = urlparse(urljoin(base, raw)).path
-        fspath = _resolve_url(abs_path, skip_prefixes)
+        fspath = resolve_url(abs_path, skip_prefixes)
         if fspath is not None and not asset_exists(fspath):
             bad.append(raw)
     return bad
@@ -137,9 +137,9 @@ def audit() -> bool:
 
     results: dict[str, list[str]] = defaultdict(list)
     for path in sorted(DIR_OUT.glob("*.html")):
-        results[path.name].extend(f"html: {e}" for e in _validate_html(path))
+        results[path.name].extend(f"html: {e}" for e in validate_html(path))
         results[path.name].extend(
-            f"broken link: {url}" for url in _broken_links(path, skip_prefixes)
+            f"broken link: {url}" for url in broken_links(path, skip_prefixes)
         )
 
     errors = {k: v for k, v in results.items() if v}
