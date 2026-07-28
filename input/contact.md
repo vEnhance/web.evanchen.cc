@@ -67,9 +67,9 @@ Here are some hints:
 - Please include a descriptive nonempty subject.
   My mail client doesn't always sort replies correctly if the subject is left empty.
 
-- Prefer text to images or screenshots.
-  [I check my email in a terminal](https://neomutt.org/).
-  So images will not show up inline.
+- Plain text is preferred over images or screenshots.
+  [I check my email in a terminal](https://neomutt.org/),
+  so images will not show up inline.
 
 - In general,
   [How to ask questions the smart way](http://www.catb.org/~esr/faqs/smart-questions.html)
