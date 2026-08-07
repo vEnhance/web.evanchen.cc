@@ -77,17 +77,18 @@ MP4G, RMM, APMO, and the Putnam.
 
 A few feathers in my ever-growing Olympiad cap.
 
-1. I became a member of the Problem Selection Committee (PSC)
+1. I served as the Leader of the Indian IMO Team for IMO 2026 and have been a leading coach for the Indian IMO team since 2019.
+2. Among the students I taught, 49 competed at IMO 2026, collectively earning 5 gold medals, 8 silver medals, 14 bronze medals, and 9 honourable mentions. In the United States, four of my students qualified for MOP 2026, and nine were named to the USA(J)MO Honor Roll. 
+3. I became a member of the Problem Selection Committee (PSC)
    of IMO 2025 held in Sunshine Coast, Australia.
-2. I am now the Director of the United States Ersatz Maths Olympiad (USEMO)
+4. I am now the Director of the United States Ersatz Maths Olympiad (USEMO)
    for USEMO 2026 and onwards.
-3. I have mentored IMO teams of dozens of countries,
-   and my students so far have come from 25+ nations across all six continents.
-4. I have proposed problems to many national and international olympiads.
+5. I have mentored IMO teams of dozens of countries,
+   and my students so far have come from 40+ nations across all six continents.
+6. I have proposed problems to many national and international olympiads.
    Most notably, I proposed IMO 2019/6 and all six problems on INMO 2026.
-5. In Fall 2025, I ran the largest cohort of OTIS students by an authorised instructor.
-   Spring 2026 has already beaten my previous record as well.
-6. I was the first student on the OTIS online platform. My dashboard lists "Student ID: 1".
+7. In academic year 2025-2026, I ran the largest cohort of OTIS students by an authorised instructor.
+8. I was the first student on the OTIS online platform. My dashboard lists "Student ID: 1".
 
 I prefer "maths" to "math".
 
