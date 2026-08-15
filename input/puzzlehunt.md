@@ -146,7 +146,7 @@ with puzzle contributions from David Shukan, Jen McTeague and Michael Ma.
 - [Black or White](https://2025.teammatehunt.com/puzzles/black-or-white)
 - [Black or White or Moon or Sun](https://2025.teammatehunt.com/puzzles/black-or-white-or-moon-or-sun)
 - [Digits](https://2025.teammatehunt.com/puzzles/digits)
-- [Behold a Puzzle](https://2025.teammatehunt.com/puzzles/behold-a-puzzle), with Kaity Du and Sebastian Cordova
+- [Behold, a Puzzle](https://2025.teammatehunt.com/puzzles/behold-a-puzzle), with Kaity Du and Sebastian Cordova
 - The sequence of six [Tetrogram](https://2025.teammatehunt.com/puzzles/tetrogram) puzzles, with Olga Vinogradova
 
 [betaveros]: https://blog.vero.site/post/puzzlehunts
