@@ -41,7 +41,7 @@ def page_footer(src: str) -> str:
     else:
         commit = next(repo.iter_commits(paths=blob.path, max_count=1))
         last_update_dt = datetime.datetime.fromtimestamp(
-            commit.committed_date, tz=datetime.timezone.utc
+            commit.committed_date, tz=datetime.UTC
         )
         last_update_str = last_update_dt.strftime("%a %-d %b %Y, %H:%M:%S UTC")
         return (
@@ -66,11 +66,9 @@ def get_twitch_table() -> str:
     with open(url_path, "rb") as f:
         url_dict = tomllib.load(f)
 
-    data = []
     with open(csv_path) as f:
         reader = csv.DictReader(f)
-        for row in reader:
-            data.append(row)
+        data = list(reader)
 
     data.sort(key=lambda row: (-int(row["N"]), row["Source"]))
 
@@ -109,7 +107,7 @@ def get_twitch_table() -> str:
         else:
             # HACK: empty string should be convert backed into None at this step
             url = url_dict.get(key) or None
-            basename = "Ep%03d" % int(n) + "-"
+            basename = f"Ep{int(n):03d}" + "-"
             basename += key.replace(" ", "-").replace("/", "-").replace(".", "-")
             basename += "-Solution"
             if key in url_dict:
@@ -122,11 +120,11 @@ def get_twitch_table() -> str:
                 src_type = None
 
         out += "<tr>"
-        out += "<td>Ep %s</td>" % n
+        out += f"<td>Ep {n}</td>"
         if url is not None:
-            out += '<td><a href="%s">%s</a></td>' % (url, key)
+            out += f'<td><a href="{url}">{key}</a></td>'
         else:
-            out += "<td>%s</td>" % key
+            out += f"<td>{key}</td>"
         if pdf_url is not None:
             out += f'<td><a href="{escape(pdf_url)}">(pdf)</a></td>'
         else:
@@ -165,7 +163,7 @@ def get_card_trick() -> str:
     ]
     suits = ["...", "♣Clubs", "♦Diamonds", "♥Hearts", "♠Spades"]
     out = ""
-    for n in range(0, 4):
+    for n in range(4):
         out += f"<h2>Card {n + 1}</h2>" + "\n"
         out += r'<div class="container trick-container">' + "\n"
         out += f'<select class="rank-select" id="rank-{n}">' + "\n"

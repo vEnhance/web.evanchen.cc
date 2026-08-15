@@ -4,6 +4,7 @@ import sys
 from collections import defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
+from typing import ClassVar
 from urllib.parse import urljoin, urlparse
 
 PROJECT = Path(__file__).parent.parent
@@ -64,7 +65,7 @@ def validate_html(path: Path) -> list[str]:
 
 
 class LinkExtractor(HTMLParser):
-    ATTRS: dict[str, str] = {
+    ATTRS: ClassVar[dict[str, str]] = {
         "a": "href",
         "img": "src",
         "link": "href",

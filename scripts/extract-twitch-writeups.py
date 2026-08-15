@@ -29,11 +29,9 @@ OUT_FOLDER = Path.home() / "Freezer" / "youtube-tex"
 
 assert OUT_FOLDER.exists(), f"{OUT_FOLDER} does not exist on this computer"
 
-data = []
 with open(TWITCH_DATA_DIR / "problems.csv") as f:
     reader = csv.DictReader(f)
-    for row in reader:
-        data.append(row)
+    data = list(reader)
 url_dict: dict[str, str] = {}
 
 LATEX_TEMPLATE = r"""\documentclass[11pt]{scrartcl}
@@ -76,7 +74,7 @@ for row in data:
         video_tex = (
             r"\section*{Video}"
             + "\n"
-            + r"\href{%s}{\texttt{%s}}" % (youtube, short_url)
+            + rf"\href{{{youtube}}}{{\texttt{{{short_url}}}}}"
         )
     else:
         video_tex = ""
@@ -101,7 +99,7 @@ for row in data:
             e.bodies[1],
         )
         basename = (
-            "Ep%03d" % int(n)
+            f"Ep{int(n):03d}"
             + "-"
             + key.replace(" ", "-").replace("/", "-").replace(".", "-")
             + "-Solution"
@@ -123,7 +121,7 @@ with open(urls_path, "w") as f:
     print("# urls.lock auto-generated from problems.csv", file=f)
     print("# DO NOT EDIT BY HAND", file=f)
     print("# vim: " + "readonly filetype=toml", file=f)
-    print("", file=f)
+    print(file=f)
     for source, url in url_dict.items():
         # HACK: None is not a supported TOML type, so I cope with an empty string
         print(f'"{source}" = "{url or ""}"', file=f)
