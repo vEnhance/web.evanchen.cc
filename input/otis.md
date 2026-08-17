@@ -49,8 +49,8 @@ though some of the chapters are more challenging.
 
 # {{ hl("apply", "Application &mdash; Year XII (2026-2027)") }}
 
-Applications for the 2026-2027 school year are open now
-and will remain open until **August 1, 2026, 23:59 UTC**.
+Late applications for the 2026-2027 school year are open now until April 2027,
+with rolling admissions (so apply earlier to get more time in the program).
 See instructions below:
 
 - [Application homework and instructions](/upload/otis-app-xii.pdf)
