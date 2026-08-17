@@ -1,0 +1,266 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #d8d4c8;
+  --lcd-bg: #aec06a;
+  --lcd-fg: #1a2802;
+  --lcd-dim: #5a6c30;
+  --bezel: #888078;
+  --k-num: #222;
+  --k-op: #182a60;
+  --k-del: #541c1c;
+  --k-clr: #543010;
+  --k-ok: #164418;
+  --k-txt: #e8e4d8;
+  --k-sh: #050505;
+}
+
+body {
+  background: var(--bg);
+  color: var(--lcd-fg);
+  font-family: "Computer Modern", "Latin Modern", Georgia, serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100dvh;
+  padding: 0 0.75rem;
+}
+
+.calc {
+  width: 100%;
+  max-width: 380px;
+  height: 100dvh;
+  max-height: 780px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.875rem 0 max(0.875rem, env(safe-area-inset-bottom));
+  gap: 0.625rem;
+}
+
+/* ── Header ── */
+
+header {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #3a3630;
+}
+
+/* ── Input hint ── */
+
+.input-hint {
+  font-size: 0.78rem;
+  color: #6a6050;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* ── Input bar ── */
+
+.input-bar {
+  background: #ccc8b8;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.18);
+  flex-shrink: 0;
+}
+
+#expr {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  color: #2a2416;
+  font-size: 1.1rem;
+  font-family: ui-monospace, "Courier New", monospace;
+  caret-color: #2a2416;
+  line-height: 1.4;
+  overflow-y: auto;
+}
+
+#expr::placeholder {
+  color: #6a6050;
+  opacity: 0.7;
+}
+
+/* ── LCD stack ── */
+
+.lcd-stack {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lcd-pane {
+  flex: 2;
+  min-height: 0;
+  background: var(--lcd-bg);
+  border-radius: 5px;
+  border: 2px solid var(--bezel);
+  box-shadow:
+    inset 0 2px 8px rgba(0, 0, 0, 0.22),
+    0 1px 0 rgba(255, 255, 255, 0.6);
+  padding: 0.5rem 0.875rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pane-head {
+  font-size: 0.72rem;
+  color: var(--lcd-dim);
+  flex-shrink: 0;
+  margin-bottom: 0.4rem;
+}
+
+.pane-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ── n section (pane 1) ── */
+
+.n-grid {
+  display: grid;
+  grid-template-columns: 1.4rem 1.4rem 1fr;
+  align-items: baseline;
+  row-gap: 0.3rem;
+  font-size: 1rem;
+}
+
+.ng-lhs {
+  text-align: right;
+  font-style: italic;
+}
+
+.ng-eq {
+  text-align: center;
+  color: var(--lcd-dim);
+}
+
+.ng-val {
+  padding-left: 0.2em;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.ng-val::-webkit-scrollbar {
+  display: none;
+}
+
+.lcd-pane:first-child {
+  flex: 1;
+}
+
+.warn-base {
+  color: #7a3a0a;
+}
+
+/* ── A(n) section (pane 2) ── */
+
+#out-ratio {
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+/* Typeset fraction with vinculum */
+.vfrac {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.vfrac-num {
+  border-bottom: 1.5px solid var(--lcd-fg);
+  padding: 0 0.15em 0.08em;
+  text-align: center;
+  min-width: 1ch;
+}
+
+.vfrac-den {
+  padding: 0.08em 0.15em 0;
+  text-align: center;
+  min-width: 1ch;
+}
+
+#out-dec {
+  font-size: 0.9rem;
+  color: var(--lcd-dim);
+  margin-top: 0.55rem;
+  padding-left: 0.2rem;
+}
+
+/* ── Keypad ── */
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.keypad button {
+  background: var(--k-num);
+  border: none;
+  border-radius: 5px;
+  color: var(--k-txt);
+  font-size: 1.375rem;
+  font-weight: 600;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  height: 3.5rem;
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 0 var(--k-sh);
+  transition:
+    box-shadow 0.05s,
+    transform 0.05s;
+}
+
+.keypad button.pressed,
+.keypad button:active {
+  box-shadow: 0 1px 0 var(--k-sh);
+  transform: translateY(4px);
+}
+
+.key-op {
+  background: var(--k-op);
+}
+.key-del {
+  background: var(--k-del);
+}
+.key-clr {
+  background: var(--k-clr);
+}
+.key-enter {
+  background: var(--k-ok);
+}
+.key-wide {
+  grid-column: span 2;
+}

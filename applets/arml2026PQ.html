@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>ARML 2026 Power Question</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css"
+    />
+    <link rel="stylesheet" href="arml2026PQ.css" />
+  </head>
+  <body>
+    <div class="calc">
+      <header>
+        <h1>ARML PQ</h1>
+      </header>
+
+      <div class="lcd-stack">
+        <!-- Pane 1: Input value -->
+        <div class="lcd-pane">
+          <div class="pane-body">
+            <div class="n-grid">
+              <em class="ng-lhs">n</em>
+              <span class="ng-eq">=</span>
+              <span id="out-n" class="ng-val">…</span>
+
+              <span class="ng-lhs"></span>
+              <span class="ng-eq" id="eq2">=</span>
+              <span id="out-fac" class="ng-val"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pane 2: Value of A(n) -->
+        <div class="lcd-pane">
+          <div class="pane-body">
+            <div id="out-ratio">…</div>
+            <div id="out-dec"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-bar">
+        <textarea
+          id="expr"
+          rows="2"
+          inputmode="none"
+          placeholder="e.g. 2^3 * 3 * 5"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        ></textarea>
+      </div>
+
+      <div class="keypad" id="keypad">
+        <button data-k="7">7</button>
+        <button data-k="8">8</button>
+        <button data-k="9">9</button>
+        <button data-k="back" class="key-del">⌫</button>
+
+        <button data-k="4">4</button>
+        <button data-k="5">5</button>
+        <button data-k="6">6</button>
+        <button data-k="^" class="key-op">^</button>
+
+        <button data-k="1">1</button>
+        <button data-k="2">2</button>
+        <button data-k="3">3</button>
+        <button data-k="*" class="key-op">×</button>
+
+        <button data-k="0" class="key-wide">0</button>
+        <button data-k="clear" class="key-clr">C</button>
+        <button data-k="enter" class="key-enter">↵</button>
+      </div>
+    </div>
+    <script src="arml2026PQ.js"></script>
+  </body>
+</html>
