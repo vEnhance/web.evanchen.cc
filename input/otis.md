@@ -11,20 +11,17 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 
 # {{ hl("about", "About OTIS") }}
 
-## {{ hl("syllabus", "Syllabus") }}
-
-<p style="text-align: center;"><a href="/upload/otis-syllabus.pdf">🗎 <b>DOWNLOAD SYLLABUS</b></a></p>
-
-## {{ hl("docs", "Other documents") }}
-
-**Read the above syllabus first** if you're new to OTIS.
-
+- <a href="/upload/otis-syllabus.pdf">🗎 <b>DOWNLOAD SYLLABUS</b></a>.
+  This is the most important document and spells out how most parts of OTIS work.
+  Read this first!
 - [Video tour of website](https://youtu.be/VCSmRQtwOwo)
-- [OTIS Unit Catalog Wiki](https://catalog.evanchen.cc) (now featuring artwork)
+- [OTIS Unit Catalog Wiki](https://catalog.evanchen.cc) (now featuring artwork).
+  Lists all the mathematical topics covered within OTIS.
 - Example materials from each of the three difficulty tracks:
   - B-level track [handout][sample-bcw] (easiest track)
   - D-level track [handout][sample-dny] and [solutions][sample-dnysol]
   - Z-level track [handout][sample-zgx] (hardest track)
+- [OTIS Excerpts](excerpts.html), public mini-textbook derived from OTIS materials
 - Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 - [OPAL puzzle hunt](opal.html)
 
@@ -36,15 +33,6 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 [sample-usamo]: /upload/otis-samples/Exam-Sample-08-USAMO.pdf
 [sample-sol]: /upload/otis-samples/Exam-Sample-08-Soln.pdf
 
-## {{ hl("excerpts", "The OTIS Excerpts") }}
-
-Around the start of 2019, I posted publicly a
-[collection of 202 problems and solutions](excerpts.html)
-based on materials for OTIS.
-This mini-book was named _The OTIS Excerpts_.
-It's designed to mostly be beginner-friendly
-though some of the chapters are more challenging.
-
 ---
 
 # {{ hl("apply", "Application &mdash; Year XII (2026-2027)") }}
@@ -55,22 +43,6 @@ See instructions below:
 
 - [Application homework and instructions](/upload/otis-app-xii.pdf)
 - [Application portal at apply.evanchen.cc](https://apply.evanchen.cc)
-
-This is still using the new application portal[^aidbad].
-I hope this is smoother than the previous years' Google forms!
-
-If you miss the regular deadline,
-you can also submit late applications up until April 30, 2027.
-
-[^aidbad]:
-    The main sore point before was that the financial aid application
-    used to be a separate Google form that people would often
-    forget to fill out, or put a wrong email address or different name, etc.
-    The script I used to upload financial aid onto OTIS-WEB
-    from the Google Form was also janky as hell and often mismatched.
-    I hope that with `apply.evanchen.cc`
-    I can stop having to deal with financial aid not making
-    it onto OTIS-WEB correctly.
 
 ## {{ hl("prereq", "Who can apply (aka, everyone)") }}
 
@@ -97,6 +69,8 @@ Currently [Evan Chen](index.html) (Game Master)
 is the only employee.
 
 ## {{ hl("photos", "Photos") }}
+
+Back when OTIS was still small.
 
 ![OTIS x IMO 2018 gathering](/static/images/otis-imo-2018.jpg)
 
