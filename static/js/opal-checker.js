@@ -146,14 +146,15 @@ function setupChecker(puzzles, solved) {
     try {
       const hash = await hashAnswer(normalizeAnswer(userAnswer));
       const solvedPuzzle = puzzles.find((p) => p.answerHash === hash);
+      const partialPuzzle = puzzles.find((p) => p.partialHashes.includes(hash));
       if (solvedPuzzle) {
         solved[hash] = userAnswer.toUpperCase();
         saveSolved(solved);
         renderSolved(puzzles, solved);
         showResult(`✓ Correct! (${solvedPuzzle.title})`, "success");
         input.value = "";
-      } else if (puzzles.some((p) => p.partialHashes.includes(hash))) {
-        showResult("‼ Keep going!", "partial");
+      } else if (partialPuzzle) {
+        showResult(`‼ Keep going! (${partialPuzzle.title})`, "partial");
       } else {
         showResult("✗ Incorrect answer", "error");
       }

@@ -14,6 +14,8 @@ _md = MarkdownIt()
 
 DATA_DIR = Path(__file__).parent
 OPAL_JSON_PATH = DATA_DIR / "opal.json"
+# the only per-puzzle fields opal-checker.js reads at runtime
+OPAL_CHECKER_FIELDS = ("title", "answer_hash", "partial_hashes", "hints_rot13")
 
 # Reusable chunks of HTML that macros render; unlike the pages themselves these
 # are already HTML, so they get autoescaping.
@@ -282,9 +284,11 @@ def opal(hunt_slug: str, label: str | None = None) -> str:
     if hunt_slug not in hunts:
         raise KeyError(f"No hunt {hunt_slug!r} in {OPAL_JSON_PATH}")
     puzzles = hunts[hunt_slug]
-    # < can't appear outside a JSON string, so escaping it is enough to keep the
-    # blob from ever closing its own <script> early
-    data_json = json.dumps(puzzles, ensure_ascii=False).replace("<", "\\u003c")
+    # everything else in opal.json is used here at build time, so it needn't be
+    # shipped; < can't appear outside a JSON string, so escaping it is enough to
+    # keep the blob from ever closing its own <script> early
+    for_checker = [{k: p[k] for k in OPAL_CHECKER_FIELDS} for p in puzzles]
+    data_json = json.dumps(for_checker, ensure_ascii=False).replace("<", "\\u003c")
     return _component_env.get_template("opal-list.html.j2").render(
         slug=hunt_slug,
         label=label or hunt_slug,
