@@ -1,13 +1,28 @@
 import csv
 import datetime
+import functools
+import json
 import tomllib
 from html import escape
 from pathlib import Path
 
 from git.repo import Repo
+from jinja2 import Environment, FileSystemLoader
 from markdown_it_pyrs import MarkdownIt
 
 _md = MarkdownIt()
+
+DATA_DIR = Path(__file__).parent
+OPAL_JSON_PATH = DATA_DIR / "opal.json"
+
+# Reusable chunks of HTML that macros render; unlike the pages themselves these
+# are already HTML, so they get autoescaping.
+_component_env = Environment(
+    loader=FileSystemLoader(str(DATA_DIR / "components")),
+    autoescape=True,
+    trim_blocks=True,
+    lstrip_blocks=True,
+)
 
 repo = Repo(Path(__file__).parent, search_parent_directories=True)
 tree = repo.head.commit.tree
@@ -250,3 +265,33 @@ def chooser_link(dirname: str, header_str: str) -> str:
             s += _md.render(f.read())
         s += "</div>" + "\n"
     return s
+
+
+@functools.cache
+def _opal_hunts() -> dict[str, list[dict]]:
+    """The per-puzzle data for every public OPAL hunt, in unlock order, as
+    written by gen-opaldata.py in the OPAL repository."""
+    with open(OPAL_JSON_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def opal(hunt_slug: str, label: str | None = None) -> str:
+    """Print one hunt's puzzle list, plus the data that opal-checker.js grades
+    and hints from. The label names the hunt in the hint dropdown."""
+    hunts = _opal_hunts()
+    if hunt_slug not in hunts:
+        raise KeyError(f"No hunt {hunt_slug!r} in {OPAL_JSON_PATH}")
+    puzzles = hunts[hunt_slug]
+    # < can't appear outside a JSON string, so escaping it is enough to keep the
+    # blob from ever closing its own <script> early
+    data_json = json.dumps(puzzles, ensure_ascii=False).replace("<", "\\u003c")
+    return _component_env.get_template("opal-list.html.j2").render(
+        slug=hunt_slug,
+        label=label or hunt_slug,
+        puzzles=puzzles,
+        data_json=data_json,
+    )
+
+
+def opal_checker() -> str:
+    return _component_env.get_template("opal-checker.html.j2").render()

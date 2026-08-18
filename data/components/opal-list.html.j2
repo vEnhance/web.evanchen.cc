@@ -1,0 +1,8 @@
+<script type="application/json" class="opal-data" data-hunt="{{ slug }}" data-label="{{ label }}">
+{{ data_json | safe }}
+</script>
+<ol class="opal-list" data-hunt="{{ slug }}">
+{% for puzzle in puzzles %}
+<li data-index="{{ loop.index }}">{% if puzzle["filename"] %}<a href="/opals/{{ puzzle["filename"] }}">{{ puzzle["title"] }}</a>{% else %}{{ puzzle["title"] }}{% endif %}{% if puzzle["is_metapuzzle"] %} (meta){% endif %}, by {{ puzzle["credits"] or "Unknown" }}</li>
+{% endfor %}
+</ol>

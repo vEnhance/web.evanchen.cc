@@ -1,0 +1,22 @@
+<div class="opal-controls">
+<button type="button" id="opalCheckToggle" class="opal-btn opal-btn-check" aria-expanded="false" aria-controls="opalCheckPanel">Check an answer</button>
+<button type="button" id="opalHintToggle" class="opal-btn opal-btn-hint" aria-expanded="false" aria-controls="opalHintPanel">Read a hint</button>
+</div>
+<div id="opalCheckPanel" class="opal-panel" hidden>
+<div class="answer-form">
+<input type="text" id="answerInput" placeholder="Enter your answer here..." autocomplete="off">
+<button type="button" id="submitButton">Submit</button>
+</div>
+<div id="result" class="result" style="display: none;"></div>
+<div class="opal-footnote">Solved puzzles are remembered in this browser only.
+<button type="button" id="opalReset" class="opal-link-btn">Clear saved progress</button>
+</div>
+</div>
+<div id="opalHintPanel" class="opal-panel" hidden>
+<div class="opal-hint-controls">
+<select id="opalHintSelect" aria-label="Choose a puzzle"></select>
+<button type="button" id="opalHintButton" class="opal-btn opal-btn-hint">Show hint</button>
+</div>
+<ol id="opalHintList" class="opal-hints"></ol>
+</div>
+<script defer src="/static/js/opal-checker.js"></script>

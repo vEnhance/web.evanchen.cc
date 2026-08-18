@@ -148,3 +148,98 @@ div.photo-gallery {
   color: #856404;
   border: 1px solid #ffeaa7;
 }
+
+.opal-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.opal-btn {
+  padding: 6px 14px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.opal-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.opal-btn-check {
+  background-color: #4caf50;
+}
+
+.opal-btn-check:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.opal-btn-hint {
+  background-color: #6c757d;
+}
+
+.opal-btn-hint:hover:not(:disabled) {
+  background-color: #5c636a;
+}
+
+.opal-panel {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.opal-footnote {
+  margin-top: 10px;
+  font-size: 90%;
+  color: #666;
+}
+
+.opal-link-btn {
+  padding: 0;
+  background: none;
+  border: none;
+  color: #666;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.opal-hint-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+#opalHintSelect {
+  padding: 4px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.opal-hints:empty {
+  display: none;
+}
+
+.opal-hints {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.opal-solved {
+  font-style: italic;
+}
+
+.opal-answer {
+  color: #14532d;
+  text-transform: uppercase;
+  font-family: "JetBrains Mono", monospace;
+}

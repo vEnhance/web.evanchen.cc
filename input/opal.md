@@ -17,59 +17,27 @@ Expect a lot of math and OTIS references[^idiosyn].
     All needed information is publicly available (e.g. in the OTIS syllabus),
     but you may have to know to look for it.
 
-## {{ hl("check", "Static answer checker") }}
+## {{ hl("check", "Static answer checker and hints") }}
 
-<div class="answer-form">
-  <input type="text" id="answerInput" placeholder="Enter your answer here..." autocomplete="off">
-  <button id="submitButton">Submit</button>
-</div>
-<div id="result" class="result" style="display: none;"></div>
-
-<script src="/opals/opal-hashes.js"></script>
-<script src="/static/js/opal-checker.js"></script>
-
-The static checker above can be used to check a final answer to any OPAL puzzle.
-A few puzzles will also confirm partial answers if you're close
+Requires JavaScript.
+Includes a few partial answer confirmations too
 (the checker will say "keep going!" instead of just "incorrect").
-Current or past otters should solve on OTIS-WEB, not here.[^otisweb]
+Current or past otters should solve on OTIS-WEB for a full experience.
 
-[^otisweb]:
-    The live website will track your progress, provide pre-written hints,
-    and grant rewards on completing the metapuzzle.
+{{ opal_checker() }}
+
+---
 
 ## {{ hl("opal2", "OPAL 2: Museum of OTIS Things") }}
 
-OPAL 2 started on September 5, 2025.
+OPAL 2 aired on September 5, 2025.
+All puzzles and hints are available now.
 
-1. [patri〇TISm](/opals/patriotism.pdf), by Evan Chen
-2. [Sine](/opals/sine.pdf), by Evan Chen
-3. [Flower](/opals/flower.pdf), by Evan Chen
-4. [Word Search](/opals/word-search.pdf), by Abel George Mathew, Evan Chen, and Manu Param
-5. [Protoss Cookbook](/opals/protoss-cookbook.pdf), by Evan Chen
-6. [The Menu](/opals/the-menu.pdf), by Calvin Wang
-7. [Chain](/opals/chain.pdf), by Evan Chen
-8. [Forged Under Pressure](/opals/forged-under-pressure.pdf), by Žiga Oštir
-9. [Bitstream Player](/opals/bitstream-player.pdf), by Evan Chen
-10. [Conundrum](/opals/conundrum.pdf), by Evan Chen and Patrick Du
-11. [Function Composition](/opals/function-composition.pdf), by Jason Mao
-12. [The Great Debate](/opals/the-great-debate.pdf), by Calvin Wang and Patrick Du
-13. [Cryptanalysis](/opals/cryptanalysis.pdf), by Evan Chen
-14. [OTIS Art Gallery Problem](/opals/otis-art-gallery-problem.pdf) (meta), by Elaine Hou and Evan Chen
+{{ opal("museum-of-otis-things", "OPAL 2") }}
 
 ## {{ hl("opal1", "OPAL 1: Alice in OTISLand") }}
 
-OPAL 1 started on August 30, 2024.
+OPAL 1 aired on August 30, 2024.
+All puzzles and hints are available now.
 
-1. [Plot](/opals/plot.pdf), by Evan Chen
-2. [Binary](/opals/binary.pdf), by Evan Chen
-3. [elemeNT](/opals/element.pdf), by Rachel Chen, Rohan Garg, Sean Yeh
-4. [eIGen-bIGrams](/opals/eigen-bigrams.pdf), by Evan Chen
-5. [Learn to Code](/opals/learn-to-code.pdf), by Evan Chen
-6. [Diagramless Crossword](/opals/diagramless-crossword.pdf), by Calvin Wang and Royce Yao
-7. [Steam](/opals/steam.pdf), by Evan Chen
-8. [Catalog](/opals/catalog.pdf), by Evan Chen
-9. [Last Layer Magic](/opals/last-layer-magic.pdf), by Ethan Lee
-10. [Digitized](/opals/digitized.pdf), by Jiya Dani and Charles Zhang
-11. [r/AnarchyChess](/opals/r-anarchy-chess.pdf), by Arul Kolla
-12. [Operators](/opals/operators.pdf), by Elijah Liu
-13. [Alice in OTISLand](/opals/alice-in-otisland.pdf) (meta), by Evan Chen
+{{ opal("alice-in-otisland", "OPAL 1") }}

@@ -14,7 +14,8 @@ The [build script](scripts/build.py) is intentionally short, less than 100 lines
 - Content is written in `input/`, and written to `output/`.
   A page `filename.md` is written directly to `output/filename.html`.
   To keep things simple, directory structures are explicitly not supported.
-- There is only one Jinja template: `data/page.html.j2`.
+- Every page uses the Jinja template `data/page.html.j2`;
+  chunks of HTML that macros render live in `data/components/`.
 - Navigation links on the right are controlled by `data/nav.toml`.
 - Python macros are written in `data/macros.py`, available to Jinja.
 
