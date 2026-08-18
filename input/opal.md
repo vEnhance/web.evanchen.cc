@@ -28,6 +28,14 @@ Current or past otters should solve on OTIS-WEB for a full experience.
 
 ---
 
+## {{ hl("opal3", "OPAL 3: The OTIS Archives") }}
+
+For current and past OTIS students,
+OPAL 3 will begin on September 4, 2026 at 6:28pm ET.
+Shortly after that, a teaser of the first three puzzles will be posted here.
+
+I plan to publish the rest of the hunt sometime on September 14, 2026.
+
 ## {{ hl("opal2", "OPAL 2: Museum of OTIS Things") }}
 
 OPAL 2 aired on September 5, 2025.
