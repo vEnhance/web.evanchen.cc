@@ -307,7 +307,7 @@ But then I realized it's actually easier once you get used to it,
 because you don't need to keep track of $x$ vs $180^{\circ}-x$ anymore.
 So I don't think I would go back to using normal angles even if I could.
 
-### {{ faq("C-12", "How long should I spend on an olympiad problem before I give up?") }}
+### {{ faq("C-12", "How long should I spend on an olympiad problem before I give up or ask for a hint?") }}
 
 You should have a lower bound (1 hour is a good rule of thumb).
 But I think for the upper bound,
