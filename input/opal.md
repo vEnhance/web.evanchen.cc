@@ -6,8 +6,7 @@ description: OTIS puzzle hunt
 
 OPAL is an annual one-round beginner-level [puzzle hunt](puzzlehunt.html)
 hosted for [OTIS students](otis.html).
-
-I don't have solutions, but you can email me with hint requests.
+I don't have solutions, but you can email me with additional help requests.
 Expect a lot of math and OTIS references[^idiosyn].
 
 [^idiosyn]:
@@ -36,12 +35,21 @@ Shortly after that, a teaser of the first three puzzles will be posted here.
 
 I plan to publish the rest of the hunt sometime on September 14, 2026.
 
+[![Round artwork for OPAL 3][opal3-thumb]][opal3-full]
+
+[opal3-thumb]: https://gallery.evanchen.cc/thumb-md/opal3.webp
+[opal3-full]: https://gallery.evanchen.cc/webp/opal3.webp
+
+---
+
 ## {{ hl("opal2", "OPAL 2: Museum of OTIS Things") }}
 
 OPAL 2 aired on September 5, 2025.
 All puzzles and hints are available now.
 
 {{ opal("museum-of-otis-things", "OPAL 2") }}
+
+---
 
 ## {{ hl("opal1", "OPAL 1: Alice in OTISLand") }}
 
