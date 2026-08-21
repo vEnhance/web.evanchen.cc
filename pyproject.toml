@@ -22,8 +22,5 @@ ignore-words-list = "inthe,ro,progamer,alph,ques,non-useful,nd,ABD,Wil,ANS,ot,Al
 
 [dependency-groups]
 dev = [
-    "codespell>=2.4.3",
-    "djlint>=1.44.2",
-    "prek>=0.4.13",
-    "ruff>=0.16.2",
+    "prek>=0.4.14",
 ]
