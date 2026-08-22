@@ -88,8 +88,7 @@ In descending order of importance for new solvers:
 5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
    given only some of the letters.
 6. Always ask what **information is not used yet**.
-   In a well-designed puzzle, there will rarely be any superfluous information
-   (much like in USAMO, usually there are no extraneous conditions on problems).
+   In a well-designed puzzle, there will rarely be any superfluous information.
    Good puzzle writers will tend to "destroy" information if it’s not relevant.
    In particular, it's extremely common for lists to be in **alphabetical order**
    if either order is irrelevant or the solver needs to re-order themselves.
