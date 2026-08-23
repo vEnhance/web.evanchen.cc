@@ -8,4 +8,4 @@ if [ "$USER" != "evan" ]; then
   exit 1
 fi
 
-rclone sync -v ~/Freezer/youtube-tex/ web:twitch/ --include 'Ep[0-9][0-9][0-9]-*-Solution.{pdf,tex}'
+rclone sync -v --progress ~/Freezer/youtube-tex/ web:twitch/ --include 'Ep[0-9][0-9][0-9]-*-Solution.{pdf,tex}'

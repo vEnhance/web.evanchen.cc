@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
-rclone sync -v . web:handouts \
+rclone sync -v --progress . web:handouts \
   --exclude '\.gitignore' \
   --exclude 'sync.sh' \
   --exclude '*.pkl' \
