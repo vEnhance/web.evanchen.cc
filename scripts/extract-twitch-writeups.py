@@ -118,7 +118,7 @@ for row in data:
 
 urls_path = TWITCH_DATA_DIR / "urls.lock"
 with open(urls_path, "w") as f:
-    print("# urls.lock auto-generated from problems.csv", file=f)
+    print("# Auto-generated from problems.csv by extract-twitch-writeups.py", file=f)
     print("# DO NOT EDIT BY HAND", file=f)
     print("# vim: " + "readonly filetype=toml", file=f)
     print(file=f)
