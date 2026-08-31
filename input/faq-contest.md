@@ -498,7 +498,20 @@ or the [MOHS chart][mohs] if you like colors.
 
 Thus, if you find yourself surprised at being unable to solve a problem,
 your reaction should be something like
-"wow, this year's P2 is harder than usual".
+"wow, this year's P2 is harder than usual".[^difficulty]
+
+[^difficulty]:
+    Actually, this is still the wrong reaction.
+    The only thing that matters is the problem difficulty _for you personally_.
+    Trying to judge the difficulty of the problem for everyone else
+    is a completely academic debate which just serves as a distraction.
+
+    If the problem is easy for you, maybe because you've seen the right idea
+    recently, or the problem just clicks, then it doesn't matter that it's hard for
+    other contestants; go solve that one.
+    Whereas if the problem is impossible for you,
+    it doesn't matter that other contestants might solve it;
+    feeling sorry for yourself won't give you more progress.
 
 **Do not misinterpret the difficulty of an exam as a skill issue**.
 This is one of the most common ways to underperform.
