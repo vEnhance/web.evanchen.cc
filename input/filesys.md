@@ -163,9 +163,9 @@ Suppose you give Monty a piece of paper called `beer.py` as follows:
 ```python
 n = 100
 while n >= 0:
-  print(f"{n} bottles of beer on the wall, {n} bottles of beer!")
-  print(f"Take it down, pass it around, {n-1} bottles of beer on the wall")
-  n -= 1
+    print(f"{n} bottles of beer on the wall, {n} bottles of beer!")
+    print(f"Take it down, pass it around, {n - 1} bottles of beer on the wall")
+    n -= 1
 ```
 
 Monty will read these instructions, and happily begin singing
