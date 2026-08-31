@@ -299,3 +299,11 @@ def opal(hunt_slug: str, label: str | None = None) -> str:
 
 def opal_checker() -> str:
     return _component_env.get_template("opal-checker.html.j2").render()
+
+
+def gallery_art(filename: str, alt: str) -> str:
+    return (
+        f'<a href="https://gallery.evanchen.cc/webp/{filename}.webp">'
+        f'<img src="https://gallery.evanchen.cc/thumb-md/{filename}.webp" alt="{alt}" />'
+        r"</a>"
+    )

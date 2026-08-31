@@ -35,10 +35,7 @@ Shortly after that, a teaser of the first three puzzles will be posted here.
 
 I plan to publish the rest of the hunt sometime on September 14, 2026.
 
-[![Round artwork for OPAL 3][opal3-thumb]][opal3-full]
-
-[opal3-thumb]: https://gallery.evanchen.cc/thumb-md/opal3.webp
-[opal3-full]: https://gallery.evanchen.cc/webp/opal3.webp
+{{ gallery_art("opal3", "Round artwork for OPAL 1") }}
 
 ---
 
@@ -49,6 +46,8 @@ All puzzles and hints are available now.
 
 {{ opal("museum-of-otis-things", "OPAL 2") }}
 
+{{ gallery_art("opal2", "Round artwork for OPAL 2") }}
+
 ---
 
 ## {{ hl("opal1", "OPAL 1: Alice in OTISLand") }}
@@ -57,3 +56,5 @@ OPAL 1 aired on August 30, 2024.
 All puzzles and hints are available now.
 
 {{ opal("alice-in-otisland", "OPAL 1") }}
+
+{{ gallery_art("opal1", "Round artwork for OPAL 1") }}
