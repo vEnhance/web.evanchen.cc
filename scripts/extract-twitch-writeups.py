@@ -1,28 +1,19 @@
+#!/usr/bin/python3
+
 """
 Use only on von-enabled machines
 
 (1) Reads problems.csv from TWITCH_DATA_DIR
-(2) Writes ~/youtube-tex/ with TeX files that you can compile
+(2) Writes ~/Freezer/youtube-tex/ with TeX files that you can compile
 (3) Updates urls.lock (DO NOT EDIT MANUALLY but version control it)
 
 To actually upload the TeX files, run upload-twitch-writeups.sh.
 """
 
 import csv
-import sys
 from pathlib import Path
 
-# von is a system module (not in venv); add system site-packages to path
-_py = f"python{sys.version_info.major}.{sys.version_info.minor}"
-_system_site = f"{sys.base_prefix}/lib/{_py}/site-packages"
-if _system_site not in sys.path:
-    sys.path.insert(0, _system_site)
-
-try:
-    from von import api
-except ImportError:
-    sys.exit(f"Error: system module 'von' not found in {_system_site}")
-
+from von import api
 
 TWITCH_DATA_DIR = Path(__file__).parent.parent / "data" / "twitch"
 OUT_FOLDER = Path.home() / "Freezer" / "youtube-tex"
