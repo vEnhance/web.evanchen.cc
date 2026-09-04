@@ -295,3 +295,12 @@ If your expression is so complicated that it isn't legible without using
 [Thought you'd never ask][petpeeve].
 
 [petpeeve]: /handouts/LaTeXPetPeeve/LaTeXPetPeeve.pdf
+
+### {{ faq("L-24", "Why are the default margins so large?") }}
+
+Because the paper is too big, as
+[Paul Stanley explains here](https://tex.stackexchange.com/a/71211).
+To parrot what I've heard, the rough consensus seems to be that no more than
+80-ish characters per line is a good target for readability
+(disclaimer: I haven't actually read the relevant studies myself).
+For the same reason, `evanchen.cc` deliberately uses a fairly narrow layout.
