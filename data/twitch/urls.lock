@@ -1,4 +1,4 @@
-# urls.lock auto-generated from problems.csv
+# Auto-generated from problems.csv by extract-twitch-writeups.py
 # DO NOT EDIT BY HAND
 # vim: readonly filetype=toml
 
@@ -427,3 +427,6 @@
 "USAMO 2026/1" = "https://aops.com/community/p37578108"
 "JMO 2026/3" = "https://aops.com/community/p37578105"
 "EGMO 2026/6" = "https://aops.com/community/p37802621"
+"Florida 2025/30" = ""
+"HMMT 2026 T3" = ""
+"ToT Spring 2018 J-A7" = "https://aops.com/community/p14263973"
