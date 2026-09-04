@@ -93,7 +93,7 @@
       "partial_hashes": [],
       "hints_rot13": [
         "Tbbtyr gur vgrzf.",
-        "Gur ahzoref gryy lbh juvpu yrggref gb gnxr. Gur svefg yrggre vf na vaqrk, gur frpbaq yrggre vf gur gbgny yratgu bs gur pyhrcuenfr. Fb 3/5 jbhyq zrna gb gnxr gur guveq yrggre bs gur svir-jbeq nafjre."
+        "Gur ahzoref gryy lbh juvpu yrggref gb gnxr. Gur svefg yrggre vf na vaqrk, gur frpbaq yrggre vf gur gbgny yratgu bs gur pyhrcuenfr. Fb 3/5 jbhyq zrna gb gnxr gur guveq yrggre bs gur svir-yrggre nafjre."
       ]
     },
     {
@@ -259,7 +259,7 @@
       "answer_hash": "94e9cc25256db813d47d8ad175daec4cc0f415230cfc25ce6a7305fb06e684fc",
       "partial_hashes": [],
       "hints_rot13": [
-        "Sbe rknzcyr, gur 0.86 ragel qrfpevorf n JVAQZVYY, juvpu lbh znl unir urneq bs orsber.",
+        "Sbe rknzcyr, gur frpbaq-gb-ynfg ragel qrfpevorf n JVAQZVYY, juvpu lbh znl unir urneq bs orsber.",
         "Gur inevbhf nqwrpgvirf nyy ersre gb jbeqf yvxr \"obamn\" va erprag VZB ceboyrzf. Gur ceboyrz ahzore vf abg eryrinag sbe guvf chmmyr.",
         "Hfr pheerapl pbairefvba onfrq ba gur ubfg pbhagel bs gur VZB."
       ]
@@ -377,6 +377,38 @@
         "BGVF unf na neg tnyyrel cntr.",
         "Vaqrk ol thneqf arrqrq, fbeg ol havg anzr."
       ]
+    }
+  ],
+  "otis-archives": [
+    {
+      "title": "Golden",
+      "filename": "golden.pdf",
+      "is_metapuzzle": false,
+      "credits": "CJ Quines",
+      "num_to_unlock": 0,
+      "answer_hash": "da7c12b1a08932c1f7c69edc597b0f802e155ef3654404059c9169bd605ebd9d",
+      "partial_hashes": [],
+      "hints_rot13": []
+    },
+    {
+      "title": "Twelve Integrals",
+      "filename": "twelve-integrals.pdf",
+      "is_metapuzzle": false,
+      "credits": "Bryan Leung",
+      "num_to_unlock": 0,
+      "answer_hash": "a4d5701d5cf42b514c268cb8eaaa3e9f48880c749fe812423ff778f245891de7",
+      "partial_hashes": [],
+      "hints_rot13": []
+    },
+    {
+      "title": "Labeled Trees",
+      "filename": "labeled-trees-3.pdf",
+      "is_metapuzzle": false,
+      "credits": "CJ Quines",
+      "num_to_unlock": 0,
+      "answer_hash": "7dca752da260d7bbe7d1cde98895063bee9173cefb3561ab9587100ca4730ca4",
+      "partial_hashes": [],
+      "hints_rot13": []
     }
   ]
 }
