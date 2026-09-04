@@ -36,8 +36,10 @@ USEMO 2026 will be the first USEMO directed by Anant Mudgal.
 Note the new email address
 $\text{usersatzmo}@\text{gmail}.\text{com}$ for contact.
 
-[Problem proposals for USEMO 2026 are open][propose].
-They are due 31 May 2026.
+The competition dates are **October 24 & 25, 2026 from 12:30pm to 5:00pm ET**.
+
+Problem proposals for USEMO 2026 were due on 31 May.
+(You can [see the instructions anyway][propose].)
 
 <!--
 - [Solutions and results for 2025 are now posted](/exams/report-usemo-2025.pdf).
