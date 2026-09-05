@@ -36,7 +36,8 @@ USEMO 2026 will be the first USEMO directed by Anant Mudgal.
 Note the new email address
 $\text{usersatzmo}@\text{gmail}.\text{com}$ for contact.
 
-The competition dates are **October 24 & 25, 2026 from 12:30pm to 5:00pm ET**.
+The dates are **October 24 & 25, 2026, 12:30pm to 5:00pm ET**.
+You can register via the [Mathelots portal](https://mathelots.global/usemo-2026/).
 
 Problem proposals for USEMO 2026 were due on 31 May.
 (You can [see the instructions anyway][propose].)
