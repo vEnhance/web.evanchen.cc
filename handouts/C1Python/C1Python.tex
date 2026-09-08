@@ -13,6 +13,8 @@ My goal is to explain enough Python to solve the programming problem in the OTIS
 Some statements here are technically false for the purpose of simplifying the exposition.
 Sample programs are given for each section.
 
+Anything after a hashtag \# is a \emph{comment} and not read by Python.
+
 \section{Variables}
 A variable is a name assigned to a value.
 To create or change a variable, put the variable name before an = sign,
@@ -77,7 +79,7 @@ def double(a):
     b = 2 * a
     c = 1434
     return b
-    return 665
+    return 665 # the program will never reach this line
 z = double(5) # z is 10
 y = c # invalid
 \end{lstlisting}
