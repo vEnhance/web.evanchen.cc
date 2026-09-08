@@ -164,6 +164,10 @@ I suggest reading through the [beginner's page](wherestart.html) first.
   I use traditional characters, but you can also find a version with
   [simplified characters](/handouts/Chinese/chn-simplified.pdf) too.
 
+- <b>Enough Python to Solve $N = p^2+q^3$</b> {{ handout_link_src("C1Python") }}
+  Guest article written by Andrew Lin (edited by myself).
+  Meant for incoming OTIS students who don't know how to code.
+
 - <b>EXCL 2023: Thoughts and Q/A on math olympiad coaching</b> {{ handout_link_src("EXCL-2023-11-04-slides") }}
   Slides from a talk I gave in November 2023
   about experiences with coaching students for math olympiads.
