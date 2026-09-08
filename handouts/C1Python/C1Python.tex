@@ -1,0 +1,158 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage{listings}
+
+\begin{document}
+\title{Enough Python to solve $N = p^2 + q^3$}
+\author{Andrew Lin}
+\date{September 2026}
+\maketitle
+
+My goal is to explain enough Python to solve the programming problem in the OTIS application.
+Some statements here are technically false for the purpose of simplifying the exposition.
+Sample programs are given for each section.
+
+\section{Variables}
+A variable is a name assigned to a value.
+To create or change a variable, put the variable name before an = sign,
+then put the value (which can include variables already created). Variables can be the following:
+\begin{itemize}
+    \item A real number, written in decimal form.
+    \item A comma-separated list of numbers bounded by [ ].
+\end{itemize}
+The value of a variable will not change unless you change it directly.
+\begin{lstlisting}[language=Python]
+x = 3
+y = [-1/4, 3/4]
+z = x # z is 3
+x = 4 # z is still 3
+\end{lstlisting}
+Some words are \emph{keywords} with a special purpose and cannot be used as the name of a variable.
+When using a keyword for its special purpose,
+there must be a space between the keyword and any letter or number.
+
+\section{Math operations}
+Python supports the following operations:
+\begin{center}
+\begin{tabular}{|c|c|}
+    \hline
+    Symbol & Operation, when placed between two numbers \\ \hline
+    + & addition \\ \hline
+    - & subtraction \\ \hline
+    * & multiplication \\ \hline
+    / & division \\ \hline
+    ** & exponentiation \\ \hline
+    \% & modulo \\ \hline
+\end{tabular}
+\end{center}
+The + sign, when placed between two lists of numbers, concatenates them.
+\begin{lstlisting}[language=Python]
+x = 10
+y = 3
+a = x + y # a is 13
+b = x - y # b is 7
+c = x * y # c is 30
+d = x / y # d is 10/3
+e = x ** y # e is 1000
+f = x % y # f is 10 (mod 3) = 1
+z = [1, 2, 3] + [4, 5] # z is [1, 2, 3, 4, 5]
+\end{lstlisting}
+
+\section{Functions}
+Like in math, functions produce some output given some inputs.
+Define a function using the \textbf{def} keyword, followed by the function name,
+a comma-separated list of parameters bounded by parentheses, and a colon.
+
+The following lines should be an indented block of code that determines the output given the parameters.
+To specify the output, use the \textbf{return} keyword followed by the data that should be outputted.
+The function can now be used by using the function name followed by a separated
+list of values bounded by parentheses (your inputs).
+
+Once the program reads a single return statement, the rest of the function is not read.
+Any variables defined in a function cannot be accessed by the rest of the program.
+\begin{lstlisting}[language=Python]
+def double(a):
+    b = 2 * a
+    c = 1434
+    return b
+    return 665
+z = double(5) # z is 10
+y = c # invalid
+\end{lstlisting}
+There are some \emph{built-in} functions.
+The built-in \textbf{print} function takes one input and outputs it to the screen so you can see it.
+\begin{lstlisting}[language=Python]
+x = 264
+print(x ** 2) # your screen will show 69696
+\end{lstlisting}
+
+\section{Conditionals}
+An if statement allows you to run a block of code only if a condition is satisfied.
+Use the \textbf{if} keyword, followed by a condition and a colon.
+The following lines should be an indented block of code that runs if and only if the condition is satisfied.
+Optionally, immediately after this indented block, use the \textbf{else} keyword, followed by a colon.
+Again, the following lines should be an indented block of code.
+This block of code will run only if the original condition does not hold.
+\subsection{Conditions}
+The following symbols can be used to create conditions:
+\begin{center}
+\begin{tabular}{|c|c|}
+    \hline
+    Symbol & Meaning \\ \hline
+    == & equal to \\ \hline
+    $>$ & greater than \\ \hline
+    $<$ & less than \\ \hline
+    $>=$ & greater than or equal to \\ \hline
+    $<=$ & less than or equal to \\ \hline
+    != & not equal to \\ \hline
+\end{tabular}
+\end{center}
+Python supports the following logical operators:
+\begin{itemize}
+    \item The \textbf{not} keyword, placed in front of a condition $C$, creates a condition which holds if and only if $C$ does not hold.
+    \item The \textbf{and} keyword, placed between two conditions $C$ and $C'$, creates a condition that holds if and only if both $C$ and $C'$ hold.
+    \item The \textbf{or} keyword, placed between two conditions $C$ and $C'$, creates a condition that holds if and only if at least one of $C$ and $C'$ holds.
+\end{itemize}
+
+\begin{lstlisting}[language=Python]
+x = 7
+if x > 0 and x % 2 == 0:
+    x = x / 2
+else:
+    x = 3 * x + 1
+# only the second body runs, so x is now 22
+\end{lstlisting}
+
+\section{Loops}
+Loops allow you to run the same piece of code multiple times.
+\subsection{For loops}
+Use the \textbf{for} keyword, followed by a name used nowhere else in the program, the \textbf{in} keyword,
+a list of numbers, and a colon. The following lines should contain an indented block of code.
+The program iterates over the list of numbers,
+setting a variable with the specified name equal to the number in the list, and running the code block.
+
+The built-in \textbf{range} function takes as input two integer inputs $a < b$
+and outputs a list of all integers in order from $a$ to $b$, including $a$ but not $b$.
+\begin{lstlisting}[language=Python]
+a = 0
+for i in range(1, 11):
+    a = a + i
+# range(1, 11) is [1, 2, ..., 10]; for each number in turn we set i equal to the number and add it to a
+# a = 1 + 2 + ... + 10 = 55
+\end{lstlisting}
+
+\subsection{While loops}
+Use the \textbf{while} keyword, followed by a condition and a colon.
+The following lines should contain an indented block of code.
+The program runs the code in the block until the condition does not hold;
+it is possible that the code is never run at all.
+\begin{lstlisting}[language=Python]
+a = 7
+while a != 1:
+    if a % 2 == 0:
+        a = a / 2
+    else:
+        a = 3 * a + 1
+# runs the Collatz process starting with 7 until we reach 1
+\end{lstlisting}
+\end{document}
