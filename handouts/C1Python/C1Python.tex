@@ -1,6 +1,7 @@
 \documentclass[11pt]{scrartcl}
 \usepackage[sexy]{evan}
 \usepackage{listings}
+\usepackage{booktabs}
 
 \begin{document}
 \title{Enough Python to solve $N = p^2 + q^3$}
@@ -34,15 +35,16 @@ there must be a space between the keyword and any letter or number.
 \section{Math operations}
 Python supports the following operations:
 \begin{center}
-\begin{tabular}{|c|c|}
-    \hline
-    Symbol & Operation, when placed between two numbers \\ \hline
-    + & addition \\ \hline
-    - & subtraction \\ \hline
-    * & multiplication \\ \hline
-    / & division \\ \hline
-    ** & exponentiation \\ \hline
-    \% & modulo \\ \hline
+\begin{tabular}{cc}
+    \toprule
+    Symbol & Operation, when placed between two numbers \\ \midrule
+    + & addition \\
+    - & subtraction \\
+    * & multiplication \\
+    / & division \\
+    ** & exponentiation \\
+    \% & modulo \\
+    \bottomrule
 \end{tabular}
 \end{center}
 The + sign, when placed between two lists of numbers, concatenates them.
@@ -96,15 +98,16 @@ This block of code will run only if the original condition does not hold.
 \subsection{Conditions}
 The following symbols can be used to create conditions:
 \begin{center}
-\begin{tabular}{|c|c|}
-    \hline
-    Symbol & Meaning \\ \hline
-    == & equal to \\ \hline
-    $>$ & greater than \\ \hline
-    $<$ & less than \\ \hline
-    $>=$ & greater than or equal to \\ \hline
-    $<=$ & less than or equal to \\ \hline
-    != & not equal to \\ \hline
+\begin{tabular}{cc}
+    \toprule
+    Symbol & Meaning \\ \midrule
+    == & equal to \\
+    $>$ & greater than \\
+    $<$ & less than \\
+    $>=$ & greater than or equal to \\
+    $<=$ & less than or equal to \\
+    != & not equal to \\
+    \bottomrule
 \end{tabular}
 \end{center}
 Python supports the following logical operators:
