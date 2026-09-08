@@ -171,7 +171,7 @@ you can terminate the loop early by using \textbf{break}.
 
 \begin{lstlisting}[language=Python]
 # Look for a prime p for which 3^(p-1)-1 is divisible by p^2
-guesses = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 57, 61, 67]
+guesses = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67]
 
 for p in guesses:
     if (3**(p-1)-1) % (p**2) == 0:
