@@ -2,6 +2,7 @@
 \usepackage[sexy]{evan}
 \usepackage{listings}
 \usepackage{booktabs}
+\lstset{keepspaces=true}
 
 \begin{document}
 \title{Enough Python to solve $N = p^2 + q^3$}
@@ -10,12 +11,15 @@
 \maketitle
 
 My goal is to explain enough Python to solve the programming problem in the OTIS application.
-Some statements here are technically false for the purpose of simplifying the exposition.
+\textbf{Some statements here are technically false}
+for the purpose of simplifying the exposition.
 Sample programs are given for each section.
 
 Anything after a hashtag \# is a \emph{comment} and not read by Python.
 
-\section{Variables}
+\section{Basics}
+\label{sec:basic}
+\subsection{Variables}
 A variable is a name assigned to a value.
 To create or change a variable, put the variable name before an = sign,
 then put the value (which can include variables already created). Variables can be the following:
@@ -27,25 +31,25 @@ The value of a variable will not change unless you change it directly.
 \begin{lstlisting}[language=Python]
 x = 3
 y = [-1/4, 3/4]
-z = x # z is 3
-x = 4 # z is still 3
+z = x           # z is 3
+x = 4           # z is still 3
 \end{lstlisting}
 Some words are \emph{keywords} with a special purpose and cannot be used as the name of a variable.
 When using a keyword for its special purpose,
 there must be a space between the keyword and any letter or number.
 
-\section{Math operations}
+\subsection{Math operations}
 Python supports the following operations:
 \begin{center}
-\begin{tabular}{cc}
+\begin{tabular}{cl}
     \toprule
-    Symbol & Operation, when placed between two numbers \\ \midrule
-    + & addition \\
-    - & subtraction \\
-    * & multiplication \\
-    / & division \\
-    ** & exponentiation \\
-    \% & modulo \\
+    Symbol & Binary operation \\ \midrule
+    \texttt{+} & addition \\
+    \texttt{-} & subtraction \\
+    \texttt{*} & multiplication \\
+    \texttt{/} & division \\
+    \texttt{**} & exponentiation \\
+    \texttt{\%} & modulo \\
     \bottomrule
 \end{tabular}
 \end{center}
@@ -53,16 +57,129 @@ The + sign, when placed between two lists of numbers, concatenates them.
 \begin{lstlisting}[language=Python]
 x = 10
 y = 3
-a = x + y # a is 13
-b = x - y # b is 7
-c = x * y # c is 30
-d = x / y # d is 10/3
-e = x ** y # e is 1000
-f = x % y # f is 10 (mod 3) = 1
+a = x + y              # a is 13
+b = x - y              # b is 7
+c = x * y              # c is 30
+d = x / y              # d is 10/3
+e = x ** y             # e is 1000
+f = x % y              # f is 10 (mod 3) = 1
 z = [1, 2, 3] + [4, 5] # z is [1, 2, 3, 4, 5]
 \end{lstlisting}
+Use \texttt{int(x)} to take the floor of a real number.
+\begin{lstlisting}[language=Python]
+g = int(d)             # g is int(d) = int(10/3) = 3
+\end{lstlisting}
 
-\section{Functions}
+\subsection{Printing}
+There are some \emph{built-in} functions.
+The built-in \textbf{print} function takes one input and outputs it to the screen so you can see it.
+\begin{lstlisting}[language=Python]
+x = 264
+print(x ** 2)          # your screen will show 69696
+\end{lstlisting}
+
+\subsection{Conditionals}
+An if statement allows you to run a block of code only if a condition is satisfied.
+Use the \textbf{if} keyword, followed by a condition and a colon.
+The following lines should be an indented block of code that runs if and only if the condition is satisfied.
+Optionally, immediately after this indented block, use the \textbf{else} keyword, followed by a colon.
+Again, the following lines should be an indented block of code.
+This block of code will run only if the original condition does not hold.
+\subsubsection{Conditions}
+The following symbols can be used to create conditions:
+\begin{center}
+\begin{tabular}{cl}
+    \toprule
+    Symbol & Meaning \\ \midrule
+    \texttt{==}& equal to \\
+    \texttt{>} & greater than \\
+    \texttt{<} & less than \\
+    \texttt{>=} & greater than or equal to \\
+    \texttt{<=} & less than or equal to \\
+    \texttt{!=} & not equal to \\
+    \bottomrule
+\end{tabular}
+\end{center}
+For conditions $X$ and $Y$, the primitives
+\texttt{not X}, \texttt{X and Y}, \texttt{X or Y}
+behave exactly as expected.
+
+\begin{lstlisting}[language=Python]
+x = 7
+if x > 0 and x % 2 == 0:  # does not fire because x is odd
+    x = x / 2
+else:
+    x = 3 * x + 1         # fires, so x is now 22
+\end{lstlisting}
+
+\subsection{Loops}
+Loops allow you to run the same piece of code multiple times.
+\subsubsection{For loops}
+Use the \textbf{for} keyword, followed by a new variable name, the \textbf{in} keyword,
+a list of numbers, and a colon. The following lines should contain an indented block of code.
+The program iterates over the list of numbers,
+setting a variable with the specified name equal to the number in the list, and running the code block.
+
+The built-in \textbf{range} function takes as input two integer inputs $a < b$
+and outputs a list of all integers in order from $a$ to $b$, including $a$ but not $b$.
+\begin{lstlisting}[language=Python]
+a = 0
+for i in range(1, 101):
+    a = a + i
+# range(1, 101) is [1, 2, ..., 100]
+# for each such i, we set i equal to the number and add it to a
+# a = 1 + 2 + ... + 100 = 5050
+\end{lstlisting}
+
+\subsubsection{While loops}
+Use the \textbf{while} keyword, followed by a condition and a colon.
+The following lines should contain an indented block of code.
+The program runs the code in the block until the condition does not hold;
+it is possible that the code is never run at all.
+
+For example, this would print the smallest power of $2$ greater than $10^6$:
+\begin{lstlisting}[language=Python]
+n = 1
+while n < 10**6:
+    n = n * 2     # doubles n
+print(n)          # prints 1048576
+\end{lstlisting}
+
+\section{Optional things that could make life easier}
+\Cref{sec:basic} is already sufficient for solving C.1,
+so if you prefer to learn as little as possible, you could stop reading now.
+
+\subsection{Strings}
+In addition to real numbers and lists, Python supports strings like \texttt{"hunter2"}.
+For the purposes of C.1, the only two primitives you'll care about are:
+\begin{itemize}
+\ii You can convert a number to its decimal string using \texttt{str(number)}, and
+\ii You can use \texttt{x in y} to check whether the string \texttt{x} appears in \texttt{y}.
+\end{itemize}
+For example, we can make a list of powers of $2$ up to $2^{100}$ that contain $67$.
+\begin{lstlisting}[language=Python]
+powers_of_2_with_67 = []
+for n in range(0, 101):     # loop over 0 <= n <= 100
+    if "67" in str(2**n):
+        powers_of_2_with_67 = powers_of_2_with_67 + [2**n]
+# Now, powers_of_2_with_67 = [16777216, 67108864, 4294967296, ...]
+\end{lstlisting}
+
+\subsection{The break keyword ends a while or for loop early}
+If you are in a \textbf{for} or \textbf{while} loop,
+you can terminate the loop early by using \textbf{break}.
+
+\begin{lstlisting}[language=Python]
+# Look for a prime p for which 3^(p-1)-1 is divisible by p^2
+guesses = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 57, 61, 67]
+
+for p in guesses:
+    if (3**(p-1)-1) % (p**2) == 0:
+        print(p)  # print the prime we found
+        break     # exit right away; no need to waste time on more primes
+\end{lstlisting}
+
+\subsection{Define your own functions}
 Like in math, functions produce some output given some inputs.
 Define a function using the \textbf{def} keyword, followed by the function name,
 a comma-separated list of parameters bounded by parentheses, and a colon.
@@ -78,86 +195,30 @@ Any variables defined in a function cannot be accessed by the rest of the progra
 def double(a):
     b = 2 * a
     c = 1434
-    return b
-    return 665 # the program will never reach this line
-z = double(5) # z is 10
-y = c # invalid
+    return b      # the program will exit here
+    return 665    # the program will never reach this line
+z = double(5)     # z is 10
+y = c             # INVALID: c cannot be read outside the function body
 \end{lstlisting}
-There are some \emph{built-in} functions.
-The built-in \textbf{print} function takes one input and outputs it to the screen so you can see it.
+
+Here is a more serious example that prints \url{https://oeis.org/A006577},
+the number of Collatz steps for the first twenty values of $n$.
 \begin{lstlisting}[language=Python]
-x = 264
-print(x ** 2) # your screen will show 69696
+def collatz_time(a):
+    count = 0
+    while a > 1:
+        if a % 2 == 0:
+            a = a / 2
+        else:
+            a = 3 * a + 1
+        count = count + 1
+    return count
+for n in range(1, 20):
+    print(collatz(n)) # prints 0, 1, 7, 2, 5, 8, 16, 3, ...
 \end{lstlisting}
 
-\section{Conditionals}
-An if statement allows you to run a block of code only if a condition is satisfied.
-Use the \textbf{if} keyword, followed by a condition and a colon.
-The following lines should be an indented block of code that runs if and only if the condition is satisfied.
-Optionally, immediately after this indented block, use the \textbf{else} keyword, followed by a colon.
-Again, the following lines should be an indented block of code.
-This block of code will run only if the original condition does not hold.
-\subsection{Conditions}
-The following symbols can be used to create conditions:
-\begin{center}
-\begin{tabular}{cc}
-    \toprule
-    Symbol & Meaning \\ \midrule
-    == & equal to \\
-    $>$ & greater than \\
-    $<$ & less than \\
-    $>=$ & greater than or equal to \\
-    $<=$ & less than or equal to \\
-    != & not equal to \\
-    \bottomrule
-\end{tabular}
-\end{center}
-Python supports the following logical operators:
-\begin{itemize}
-    \item The \textbf{not} keyword, placed in front of a condition $C$, creates a condition which holds if and only if $C$ does not hold.
-    \item The \textbf{and} keyword, placed between two conditions $C$ and $C'$, creates a condition that holds if and only if both $C$ and $C'$ hold.
-    \item The \textbf{or} keyword, placed between two conditions $C$ and $C'$, creates a condition that holds if and only if at least one of $C$ and $C'$ holds.
-\end{itemize}
+\subsection{Speed}
+As an extremely crude rule of thumb,
+you can assume Python can perform about a million operations a second.
 
-\begin{lstlisting}[language=Python]
-x = 7
-if x > 0 and x % 2 == 0:
-    x = x / 2
-else:
-    x = 3 * x + 1
-# only the second body runs, so x is now 22
-\end{lstlisting}
-
-\section{Loops}
-Loops allow you to run the same piece of code multiple times.
-\subsection{For loops}
-Use the \textbf{for} keyword, followed by a name used nowhere else in the program, the \textbf{in} keyword,
-a list of numbers, and a colon. The following lines should contain an indented block of code.
-The program iterates over the list of numbers,
-setting a variable with the specified name equal to the number in the list, and running the code block.
-
-The built-in \textbf{range} function takes as input two integer inputs $a < b$
-and outputs a list of all integers in order from $a$ to $b$, including $a$ but not $b$.
-\begin{lstlisting}[language=Python]
-a = 0
-for i in range(1, 11):
-    a = a + i
-# range(1, 11) is [1, 2, ..., 10]; for each number in turn we set i equal to the number and add it to a
-# a = 1 + 2 + ... + 10 = 55
-\end{lstlisting}
-
-\subsection{While loops}
-Use the \textbf{while} keyword, followed by a condition and a colon.
-The following lines should contain an indented block of code.
-The program runs the code in the block until the condition does not hold;
-it is possible that the code is never run at all.
-\begin{lstlisting}[language=Python]
-a = 7
-while a != 1:
-    if a % 2 == 0:
-        a = a / 2
-    else:
-        a = 3 * a + 1
-# runs the Collatz process starting with 7 until we reach 1
-\end{lstlisting}
 \end{document}
