@@ -29,7 +29,7 @@ Current or past otters should solve on OTIS-WEB for a full experience.
 
 ## {{ hl("opal3", "OPAL 3: The OTIS Archives") }}
 
-For current and past OTIS students, OPAL 3 started on September 4, 2026 at 6:28pm ET.
+OPAL 3 aired on September 4, 2026.
 All puzzles and hints are available now.
 
 {{ opal("otis-archives", "OPAL 3") }}
