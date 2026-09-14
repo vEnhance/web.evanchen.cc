@@ -388,7 +388,10 @@
       "num_to_unlock": 0,
       "answer_hash": "da7c12b1a08932c1f7c69edc597b0f802e155ef3654404059c9169bd605ebd9d",
       "partial_hashes": [],
-      "hints_rot13": []
+      "hints_rot13": [
+        "Gur ylevpf sbe \"Tbyqra\" unir Xberna jbeqf gung, jura jevggra va Unathy, tb va gur oynaxf, fhpu gung rnpu punenpgre'f cnegf zngpu hc jvgu gur bhgyvarf.",
+        "Hfr gur uvtuyvtugrq cnegf gb sbez n arj Xberna jbeq, naq genafyngr vg gb Ratyvfu. Tbbtyr Genafyngr yrgf lbh vachg Unathy ol unaqjevgvat."
+      ]
     },
     {
       "title": "Twelve Integrals",
@@ -397,8 +400,14 @@
       "credits": "Bryan Leung",
       "num_to_unlock": 0,
       "answer_hash": "a4d5701d5cf42b514c268cb8eaaa3e9f48880c749fe812423ff778f245891de7",
-      "partial_hashes": [],
-      "hints_rot13": []
+      "partial_hashes": [
+        "7cfbe9dfd36922b4aa7ab9a9f9323c2c904ed35135080222bc7a6dc152763f8b"
+      ],
+      "hints_rot13": [
+        "Bofreir gung gur erfhyg bs rnpu vagrteny vf n cevzr cbjre.",
+        "Gur onfrf bs rnpu vagrteny erfhyg ner pbafrphgvir cevzrf sebz 2 gb 37. Ernq gurve rkcbaragf nf N1M26.",
+        "Ervagrecerg rnpu vagrtre, gura hfr gur fnzr rkgenpgvba zrgubq, gb trg gur nafjre."
+      ]
     },
     {
       "title": "Labeled Trees",
@@ -408,7 +417,114 @@
       "num_to_unlock": 0,
       "answer_hash": "7dca752da260d7bbe7d1cde98895063bee9173cefb3561ab9587100ca4730ca4",
       "partial_hashes": [],
-      "hints_rot13": []
+      "hints_rot13": [
+        "Gur pebffjbeq pyhrf ner nyy inthr, rkprcg sbe bar, juvpu tvirf n uvag sbe gur arkg fgrc.",
+        "Gur Ce\u00fcsre pbqrf sbe gur gerrf pbeerfcbaqf gb gur pyhrf' nafjref. Fbzr bs gur yrggref ner ercynprq jvgu flzobyf, ohg lbh pna fgvyy svaq n cnegvny Ce\u00fcsre pbqr.",
+        "Rnpu gerr unf gur fnzr frg bs iregrk ynoryf. Gur fnzr flzoby nyjnlf ercynprf gur fnzr yrggre. Vg zvtug uryc gb hfr gur snpg gung gur qrterr bs n abqr vf bar cyhf gur ahzore bs gvzrf vg nccrnef va gur Ce\u00fcsre pbqr.",
+        "Gur erq rqtrf pna or pbzovarq gb sbez nabgure gerr. Svaq vgf Ce\u00fcsre pbqr."
+      ]
+    },
+    {
+      "title": "By the Numbers",
+      "filename": "by-the-numbers.pdf",
+      "is_metapuzzle": false,
+      "credits": "CJ Quines",
+      "num_to_unlock": 1,
+      "answer_hash": "28aac1216c3b6eb066d3daa110cbb5e79c091f5523d0a157fc8039b588c81bb5",
+      "partial_hashes": [],
+      "hints_rot13": [
+        "Rnpu pncvgny yrggre ercynprf n jbeq fgnegvat jvgu gung yrggre. Rnpu ahzore va gur yrsg-unaq fvqr vf na vagrtre, naq gurl ner fbegrq va nfpraqvat beqre.",
+        "Gur cuenfrf \"B H P\", \"B F\", \"B N U\", naq \"B R\" ner funerq orgjrra gur pyhrf.",
+        "Gur cuenfrf \"B H P\", \"B F\", \"B N U\", naq \"B R\" fgnaq sbe gur BGVF Havg Pngnybt, gur BGVF Flyynohf, gur BGVF Nccyvpngvba Ubzrjbex, naq gur BGVF Rkprecgf.",
+        "Sbe gur svany cneg, nyy erfhygf ner vagrtref. Frnepuvat sbe gur vagrtre, naq bar bs gur yrggref, fubhyq uryc lbh svyy va gur oynaxf."
+      ]
+    },
+    {
+      "title": "OTIS-WEB",
+      "filename": "otis-web.pdf",
+      "is_metapuzzle": false,
+      "credits": "Jefferson Zhou",
+      "num_to_unlock": 2,
+      "answer_hash": "c8f5f0fa71c2829dee718eb879fd0aaba4da0d6d76dfe05ee832bc02279633b7",
+      "partial_hashes": [],
+      "hints_rot13": [
+        "Rnpu pyhr fbyirf gb n gjb-jbeq cuenfr. Gur yratguf bs gur jbeqf ner tvira ol gur gvzr.",
+        "Gur nafjre gb rnpu pyhr pbagnvaf bar bs gur qverpgbevrf va gur BGVF-JRO fbhepr pbqr. Sbe rknzcyr, \"TENVA PENQYR\" pbagnvaf \"NVAPENQ\".",
+        "Gur pbagnvarq qverpgbel anzr vf \"fbzrguvat rkgen\", juvpu jr erzbir. Vagrecerg gur qngr nf na vaqrk: Sro 4 zrnaf 2/4, fb gnxr gur frpbaq yrggre, bhg bs gur sbhe erznvavat yrggref.",
+        "Gur BGVF-JRO fbhepr pbqr pbagnvaf n qngrf.zq svyr. Vaqrk vagb gur erznvavat yrggref hfvat gurfr qngrf, gura fbeg ol gur lrne."
+      ]
+    },
+    {
+      "title": "Triangle Centers",
+      "filename": "triangle-centers.pdf",
+      "is_metapuzzle": false,
+      "credits": "CJ Quines and Siddharth Singh",
+      "num_to_unlock": 3,
+      "answer_hash": "4fc0842ba8b5a9beb3546f8b6e17f8046fbe8c7d29cfe8b0735a73542c70b52a",
+      "partial_hashes": [],
+      "hints_rot13": [
+        "Gur Kf ersre gb gur ahzorevat va gur Raplpybcrqvn bs Gevnatyr Pragref. Sbe rknzcyr, K1 vf gur vapragre."
+      ]
+    },
+    {
+      "title": "Hard Problems",
+      "filename": "hard-problems.pdf",
+      "is_metapuzzle": false,
+      "credits": "Aatmik Krishna",
+      "num_to_unlock": 3,
+      "answer_hash": "2ecb243249a537abf2230bcb0402a71e3422e697ef1c8b5e0311d6fd8a6e160d",
+      "partial_hashes": [],
+      "hints_rot13": [
+        "Rnpu ceboyrz vf na rkvfgvat VZB ceboyrz, jvgu n fznyy zbqvsvpngvba gb lvryq na vagrtre nafjre.",
+        "Rina Pura unf n \"uneqarff fpnyr\" qvssvphygl engvat, pnyyrq gur ZBUF engvat; rnpu yvfgrq VZB ceboyrz unf n qvssrerag ZBUF engvat sebz 5 gb 50.",
+        "Pbeerfcbaq gur ZBUF engvatf jvgu gur Zbuf fpnyr sbe zvareny uneqarff, sebz 5 orvat gnyp, gb 50 orvat qvnzbaq.",
+        "Rdhngr gur purzvpny sbezhynf sbe rnpu Zbuf zvareny gb gur vagrtre nafjre sbe rnpu ceboyrz, gura fbyir sbe gur vagrtre inyhr bs rnpu ryrzrag. Ernq gur ahzoref ivn N1M26."
+      ]
+    },
+    {
+      "title": "Variant Nonogram",
+      "filename": "variant-nonogram.pdf",
+      "is_metapuzzle": false,
+      "credits": "Archis Arole and Calvin Wang",
+      "num_to_unlock": 4,
+      "answer_hash": "382d33d88709df6c4a4463d58943921a06273888dc86b8f8a7e111176d836580",
+      "partial_hashes": [],
+      "hints_rot13": [
+        "Lbh jvyy arrq gb pbzovar gur Ababtenz ehyrf jvgu gur ybbc ehyrf gb fbyir gur chmmyr. Sbe rknzcyr, gur ybbc ehyrf zrna gung rnpu hafunqrq fdhner unf ng yrnfg gjb hafunqrq arvtuobef. Guvf yrgf lbh svyy va gur gbc ebj.",
+        "Ernq gur funqrq fdhnerf, vtabevat gur ahzoref. Guvf vafgehpgf lbh gb fbyir gjb zber ybtvp chmmyrf, hfvat gur ahzoref tvira va gur tevq.",
+        "Vagrefrpg gur funqrq fdhnerf va gur Ahevxnor naq Gncn fbyhgvbaf. Ernq gur yrggref va gurfr funqrq fdhnerf va gur beqre bs gur ybbc gb trg gur nafjre."
+      ]
+    },
+    {
+      "title": "A Ubiquitous Concept",
+      "filename": "a-ubiquitous-concept.pdf",
+      "is_metapuzzle": false,
+      "credits": "Martin Flisar and \u017diga O\u0161tir",
+      "num_to_unlock": 5,
+      "answer_hash": "cb11912a53771f9844cc32b0b6260623a84bd4e89022c8103e80aa3ea17e34c5",
+      "partial_hashes": [],
+      "hints_rot13": [
+        "Gurfr ner nyy nobhg \"vairefvba\" be \"vairefrf\", nf vg nccrnef va qvssrerag zngurzngvpny pbagrkgf.",
+        "Rnpu fhocneg tvirf guerr \"yrggref\", juvpu tb va gur oynaxf ba gur gbc bs gur chmmyr. Gur 1, 2, 4 pbeerfcbaqf gb gur cneg sbe Yvarne Nytroen.",
+        "Sbe Ehffvna Pbzob, lbh'er hfvat gur vairefvba pbhag. Pbaireg gur erfhygf gb yrggref ol n zrgubq fvzvyne gb N1M26, ohg jvgu gur Ehffvna nycunorg.",
+        "Gur yrggref va gur oynaxf arrq gb or \"vairegrq\" nabgure gvzr gb trg gur nafjre."
+      ]
+    },
+    {
+      "title": "Meta Data (PDF)",
+      "filename": "",
+      "is_metapuzzle": true,
+      "credits": "Becca Chang, Evan Chen, and CJ Quines",
+      "num_to_unlock": 6,
+      "answer_hash": "172897ce0d9bde77df8ee79de305544f7a9cbcde96b39593574625c4695bc0c5",
+      "partial_hashes": [],
+      "hints_rot13": [
+        "Gurer vf ab svyr gb qbjaybnq sbe gur zrgnchmmyr.",
+        "Rnpu srrqre nafjre pbeerfcbaqf gb n CQS zrgnqngn svryq.",
+        "Zbfg oebjfre CQS ernqref unir n jnl gb ivrj zrgnqngn. Va Sversbk, pyvpx gur \u00bb ohggba va gur gbc-yrsg, gura pyvpx Qbphzrag Cebcregvrf. Va Puebzr, pyvpx gur \u22ee ohggba va gur gbc-yrsg, gura pyvpx Qbphzrag Cebcregvrf. Lbh pna nyfb hfr pbzznaq-yvar gbbyf, yvxr cqsvasb be rkvsgbby.",
+        "Gur pyhr nobhg n ebj'f avar-qvtvg ahzore orvat qvivfvoyr ol 119417 pna or hfrq gb svyy vgf jubyr ebj. Sebz gurer, gur erfg bs gur tevq pna or svyyrq jvgubhg thrffvat.",
+        "5 Gb rkgenpg, vaqrk rnpu nafjre jvgu gur fhqbxh pryy pbeerfcbaqvat gb vg. Guvf vf rdhvinyrag gb hfvat gur znva qvntbany ragevrf."
+      ]
     }
   ]
 }
