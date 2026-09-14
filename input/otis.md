@@ -35,9 +35,9 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 
 ---
 
-# {{ hl("apply", "Application &mdash; Year XII (2026-2027)") }}
+# {{ hl("apply", "Application &mdash; Year XII (2026–2027)") }}
 
-Late applications for the 2026-2027 school year are open now until April 2027,
+Late applications for the 2026–2027 school year are open now until April 2027,
 with rolling admissions (so apply earlier to get more time in the program).
 See instructions below:
 
@@ -65,7 +65,7 @@ See the application PDF for more details.
 
 # {{ hl("people", "People") }}
 
-For 2026-2027, your game masters will be:
+For 2026–2027, your game masters will be:
 
 - [Evan Chen](index.html)
 - [CJ Quines](https://cjquines.com)
