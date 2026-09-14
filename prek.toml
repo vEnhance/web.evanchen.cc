@@ -82,12 +82,11 @@ rev = "0.12.12"
 hooks = [{ id = "uv-lock" }]
 
 [[repos]]
-# Only on the single file data/page.html
 repo = "https://github.com/djlint/djLint"
 rev = "v1.46.1"
 hooks = [
-  { id = "djlint-reformat", types = ["html"], files = "data/page.html" },
-  { id = "djlint", types = ["html"], files = "data/page.html" }
+  { id = "djlint-reformat", types = ["html"], files = '\.j2$' },
+  { id = "djlint", types = ["html"], files = '\.j2$' }
 ]
 
 [[repos]]
