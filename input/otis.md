@@ -65,8 +65,13 @@ See the application PDF for more details.
 
 # {{ hl("people", "People") }}
 
-Currently [Evan Chen](index.html) (Game Master)
-is the only employee.
+For 2026-2027, your game masters will be:
+
+- [Evan Chen](index.html)
+- [CJ Quines](https://cjquines.com)
+
+We're supported by a STEM Talent Fellowship
+from the [Global Talent Fund](https://globtalent.org).
 
 ## {{ hl("photos", "Photos") }}
 
