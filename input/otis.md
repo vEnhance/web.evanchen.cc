@@ -67,9 +67,11 @@ See the application PDF for more details.
 # {{ hl("people", "People") }}
 
 <span style="float:right;padding:10px;border:1px solid gray;">
-  <img src="/static/images/gtf.svg"
-  alt="Global Talent Fund logo"
-  width="150" />
+  <a href="https://www.globtalent.org/">
+    <img src="/static/images/gtf.svg"
+      alt="Global Talent Fund logo"
+      width="150" />
+  </a>
 </span>
 
 For 2026–2027, your game masters will be:
