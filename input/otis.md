@@ -65,12 +65,18 @@ See the application PDF for more details.
 
 # {{ hl("people", "People") }}
 
+<span style="float:right;padding:10px;border:1px solid gray;">
+  <img src="/static/images/gtf.svg"
+  alt="Global Talent Fund logo"
+  width="150" />
+</span>
+
 For 2026–2027, your game masters will be:
 
 - [Evan Chen](index.html)
 - [CJ Quines](https://cjquines.com)
 
-We're supported by a STEM Talent Fellowship
+The OTIS financial aid program is supported by a STEM Talent Fellowship
 from the [Global Talent Fund](https://globtalent.org).
 
 ## {{ hl("photos", "Photos") }}
