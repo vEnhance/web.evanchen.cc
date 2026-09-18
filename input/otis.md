@@ -24,6 +24,7 @@ OTIS (officially _OTIS Math LLC_) is a proof-based olympiad training program.
 - [OTIS Excerpts](excerpts.html), public mini-textbook derived from OTIS materials
 - Example practice exam: [JMO][sample-jmo], [USAMO][sample-usamo], and [solutions][sample-sol]
 - [OPAL puzzle hunt](opal.html)
+- [OTIS mock AIME](mockaime.html)
 
 [sample-dny]: /upload/otis-samples/DNY-ntconstruct.pdf
 [sample-dnysol]: /upload/otis-samples/DNY-sol-ntconstruct.pdf
