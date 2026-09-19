@@ -14,9 +14,9 @@ I would break it down into the following steps
 
 1. Learning how to use a command prompt to navigate files and folders
    in a terminal, and execute commands.
-   You can learn this in a day or two from [Zed Shaw][term]
-   or [missing.csail.mit.edu][missing-csail] or [djangogirls][term2] or
-   whatever you find on Google.
+   A good starting point is [missing.csail.mit.edu][missing-csail]
+   or [Appendix A of Zed Shaw][term] or the
+   [command-line chapter from Django Girls tutorial][term2].
 2. Find a text editor you like (as stated, any text editor opens any plain
    text file). Be able to open, edit, and save an arbitrary text file. (This
    is likely to be covered in step 1 already; LaTeX users may also know this
