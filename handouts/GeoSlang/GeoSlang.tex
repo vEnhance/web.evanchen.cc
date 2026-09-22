@@ -33,7 +33,8 @@ Instead, this handout is meant as an encyclopedic reference that you can refer t
 when you hear some bizarre name on the Internet that does not appear
 in the textbook EGMO.
 
-Trying to prove the various properties listed here without checking the solutions
+If you've completed EGMO,
+trying to prove the various properties listed here without checking the solutions
 is also another reasonable use of this material,
 i.e.\ as a source of exercises that happen to also have silly names is above board.
 
@@ -609,19 +610,21 @@ We define some additional slang names of points with respect a triangle.
 These points have many, many properties that we defer to external references.
 Here, I try and name the 1--3 ``most important'' properties (beyond the definition).
 The way I try to pick ``most important'' is (i) the property is easy to remember;
-(ii) the additional facts in the literature are mostly within
-one or two logical steps from one of the listed properties.
-Hints for proofs of the theorems are in \Cref{sec:hints}.
+(ii) additional facts in literature are mostly within
+one or two logical steps from one of mine.
 
-\subsection{Humpty and Dumpty point}
+Hints for proofs of the theorems are in \Cref{sec:hints}.
+They use theory from all of my EGMO textbook, particularly projective geometry.
+
+\subsection{Humpty and Dumpty points}
 As shown in \Cref{fig:HM}, let $ABC$ be a triangle with orthic triangle $DEF$,
 and orthocenter $H$. Let $M$ be the midpoint of $\ol{BC}$.
 \begin{definition}
   The foot of the altitude from $H$ to $\ol{AM}$,
   denoted $H_A$ in \Cref{fig:HM},
   is called the \alert{$A$-Humpty point}.
+  (An older name is the $A$-HM point.)
 \end{definition}
-An older name is the $A$-HM point.
 \begin{theorem}
   [Most important properties of the $A$-Humpty point]
   \label{thm:humpty}
@@ -716,7 +719,7 @@ The isogonal conjugate of the $A$-Humpty point is appropriately named:
 \begin{definition}
   The \alert{$A$-Dumpty point} $Q_A$ is the isogonal conjugate $H_A$.
 \end{definition}
-This definition combines well with \eqref{eq:humpty_angle} to give
+Using the definition of isogonal conjugate to rewrite \eqref{eq:humpty_angle} gives
 \begin{equation}
   \dang Q_A B A = \dang Q_A A C, \quad \text{and} \quad \dang Q_A C A = \dang Q_A A B.
   \label{eq:dumpty_angle}
@@ -740,12 +743,11 @@ References for these points include:
 
 \subsection{Queue and ex points}
 In the Humpty configuration, the point $G$ in \Cref{fig:HM}
-also plays an important role.
-It is named as follows:
+also plays an important role:
 \begin{definition}
   The \alert{$A$-queue point} is the second intersection of $(AEF)$ and $(ABC)$,
   denoted $G$ in \Cref{fig:HM}.
-  In other words, it is the Miquel point of the cyclic quadrilateral $BFEC$.
+  In other words, it's the Miquel point of cyclic quadrilateral $BFEC$.
 \end{definition}
 \begin{theorem}
   [Most important properties of the $A$-queue point]
@@ -764,12 +766,11 @@ which documents several additional properties.
 As shown in \Cref{fig:sharkydevil},
 let $ABC$ be a triangle with intouch triangle $DEF$.
 \begin{definition}
-  The \alert{$A$-Sharkydevil point}, denoted $K$ below,
-  is defined as the Miquel point $K$ of $BFEC$;
-  i.e.\ the intersection of the $(AEF)$ and $(ABC)$.
+  The \alert{$A$-Sharkydevil point}, denoted $K$ in \Cref{fig:sharkydevil},
+  is the second intersection of $(AEF)$ and $(ABC)$.
+  In other words, it's the Miquel point of $BFEC$.
 \end{definition}
-The name seems coined by \texttt{aops29} in the blog post
-\emph{Properties Of The Sharky-Devil Point} \cite{SDP19}.
+The name seems coined by \texttt{aops29} in a blog post \cite{SDP19}.
 
 \begin{figure}[ht]
   \centering
@@ -907,7 +908,7 @@ In protest of the hideous name $E_O$, I instead use the name $Y$ for ``Young''.
   \label{thm:evanisold}
   In the notation of \Cref{fig:sharkydevil}:
   \begin{enumerate}
-    \ii We have $(KY;BC) = -1$.
+    \ii We have the harmonic quadrilateral $(KY;BC) = -1$.
     \ii Line $YD$ passes through the midpoint $L$ of arc $BAC$ (the antipode of $M$).
     \ii Lines $APY$ and $IL$ meet at the point $R$ on $BC$ such that $(TR;BC) = -1$.
   \end{enumerate}
@@ -983,10 +984,48 @@ It also features a long set of problems and solutions.
 \section{One-sentence hints for proofs in \Cref{sec:named}}
 \label{sec:hints}
 
-\subsection{Humpty point (\Cref{thm:humpty})}
-\subsection{Dumpty point (\Cref{thm:dumpty})}
+I think it is better for you to try these yourself as exercises,
+but here are some one-sentence hints if you're feeling stuck on a part.
+
+\subsection{Humpty point (\Cref{thm:humpty}) and Dumpty point (\Cref{thm:dumpty})}
+For Humpty (\Cref{thm:humpty}):
+\begin{enumerate}
+  \ii Use radical axis on $(EFHH_A)$, $(HH_AM)$, $(EFBC)$, $(EFDM)$ to define $X$
+  and finish with power of a point from $X$.
+  \ii After the previous item, this is direct angle chasing.
+\end{enumerate}
+For Dumpty (\Cref{thm:dumpty}), let $L$ be the point on $(ABC)$ so that $(AL;BC) = -1$.
+\begin{quote}
+  Notice that \eqref{eq:dumpty_angle} gives $\dang Q_A AC = \dang LAC = \dang LBC$,
+  so $\ol{BQ_A}$ is the $B$-median of $\triangle BAL$.
+\end{quote}
+
 \subsection{Queue point (\Cref{thm:queue})}
+\begin{enumerate}
+  \ii Use radical axis on $(AEF)$, $(BFEC)$, $(ABC)$, $(BHH_AC)$.
+  \ii By Brokard theorem on $BEFC$.
+\end{enumerate}
+
 \subsection{Sharkydevil point (\Cref{thm:sharkydevil})}
+\begin{enumerate}
+  \ii By spiral similarity, note that \[ \frac{KB}{KC} = \frac{DF}{CE} = \frac{BD}{DC}. \]
+  \ii Inversion around the incircle maps $(ABC)$ to the nine-point circle of $DEF$
+  and $(AEF)$ to the line $EF$, so it maps $K$ to $P$.
+  \ii Noting $AFIE$ is a kite, project $-1 = (AI;EF) \overset{K}{=} (AK \cap EF, P; EF)$.
+  \ii Use radical axis on $(AKFIE)$, $(BIC)$, $(AKBC)$
+  since the former two circles are tangent at $I$.
+\end{enumerate}
+
 \subsection{Evan Is Old point (\Cref{thm:evanisold})}
+\begin{enumerate}
+  \ii Project $(AK,AP;AE,AF) = -1$ through $A$ onto the circumcircle.
+  \ii Noting $LBMC$ is a kite, project $(ML;CB) = -1$ and $(KY;BC) = -1$ through $D$.
+  \ii First, $R \in \ol{APY}$ follows from the first part.
+  Second, $R \in \ol{LI}$ follows since $\ol{LI}$ is the $I$-symmedian of $\triangle IBC$
+  and $\ol{TI}$ is tangent to $(IBC)$ at $I$.
+
+  (In \cite{M21}, the proof of this item additionally incorporates mixtilinear theory.
+  Our proof here does not do this to keep things simpler.)
+\end{enumerate}
 
 \end{document}
