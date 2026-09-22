@@ -79,7 +79,7 @@ I will be sassy in my reply.
 \begin{figure}[ht]
   \centering
   \begin{asy}
-    size(10cm);
+    size(12cm);
     pair A = dir(110);
     pair B = dir(70);
     pair C = dir(30);
@@ -606,8 +606,17 @@ have been largely unsuccessful, and Evan has given up.
 
 \newpage
 \section{Special named points inside a triangle}
-Here we only give the definition of the points
-and leave the (many) properties of the handouts to provided external links.
+We define some additional slang names of points with respect a triangle.
+
+These points have many, many properties that we defer to external references.
+Our basic strategy is to try and name the 1--3 ``most important'' properties
+(beyond the definition).
+The way I try to pick ``most important'' is via two criteria:
+(i) the property is easy to remember;
+(ii) the additional facts in the literature are mostly within
+one or two logical steps from one of the listed properties.
+
+
 
 \subsection{Humpty and Dumpty point}
 As shown in \Cref{fig:HM}, let $ABC$ be a triangle with orthic triangle $DEF$,
@@ -626,7 +635,7 @@ An older name is the $A$-HM point.
     \ii Line $BC$ is tangent to both $(AH_AB)$ and $(AH_AC)$.
     Equivalently,
     \begin{equation}
-      \dang H_AAC = \dang H_ACB, \quad\text{and}\quad \dang H_AAB = \dang H_ABC
+      \dang H_AAC = \dang H_ACB, \quad\text{and}\quad \dang H_AAB = \dang H_ABC.
       \label{eq:humpty_angle}
     \end{equation}
   \end{enumerate}
@@ -772,6 +781,7 @@ The name seems coined by \texttt{aops29} in a blog post,
 \begin{figure}[ht]
   \centering
   \begin{asy}
+    size(10cm);
     pair A = dir(130);
     pair B = dir(210);
     pair C = dir(330);
@@ -795,14 +805,21 @@ The name seems coined by \texttt{aops29} in a blog post,
 
     pair L = dir(90);
     pair Y = foot(M, L, D);
-    draw(A--Y, dotted);
-    draw(Y--L, dotted);
+    draw(A--Y, purple);
+    draw(Y--L, purple);
+
+    pair T = extension(A, K, B, C);
+    draw(T--I, dotted);
+    draw(A--T--B, dotted);
+
+    pair R = extension(L, I, B, C);
+    draw(L--R, gray);
 
     dot("$A$", A, dir(A));
     dot("$B$", B, dir(B));
     dot("$C$", C, dir(C));
     dot("$I$", I, dir(270));
-    dot("$D$", D, dir(220));
+    dot("$D$", D, dir(330));
     dot("$M$", M, dir(M));
     dot("$K$", K, dir(K));
     dot("$E$", E, dir(45));
@@ -810,6 +827,8 @@ The name seems coined by \texttt{aops29} in a blog post,
     dot("$P$", P, dir(P));
     dot("$L$", L, dir(L));
     dot("$Y$", Y, dir(Y));
+    dot("$T$", T, dir(T));
+    dot("$R$", R, dir(R));
 
     /* --------------------------------+
     | TSQX: by Evan Chen and CJ Quines |
@@ -821,7 +840,7 @@ The name seems coined by \texttt{aops29} in a blog post,
     unitcircle / 0.1 palecyan / lightblue
     A--B--C--cycle / lightblue
     I 270 = incenter A B C
-    D 220 = foot I B C
+    D 330 = foot I B C
     incircle A B C / lightblue
     M = dir 270
     K = extension -A I M D
@@ -838,11 +857,18 @@ The name seems coined by \texttt{aops29} in a blog post,
 
     L = dir 90
     Y = foot M L D
-    A--Y / dotted
-    Y--L / dotted
+    A--Y / purple
+    Y--L / purple
+
+    T = extension A K B C
+    T--I / dotted
+    A--T--B / dotted
+
+    R = extension L I B C
+    L--R / gray
     */
   \end{asy}
-  \caption{The $A$-Sharkydevil point.}
+  \caption{The $A$-Sharkydevil point (denoted $K$) and its harmonic conjugate, the Evan is Old point (denoted $Y$).}
   \label{fig:sharkydevil}
 \end{figure}
 
@@ -852,12 +878,16 @@ The name seems coined by \texttt{aops29} in a blog post,
   \begin{enumerate}
     \ii Line $\ol{KD}$ bisects $\angle BKC$
     and hence passes through the midpoint $M$ of $\arc{BC}$.
-    \ii Line $\ol{KD}$ passes through
-    the exsimilicenter of the incircle and circumcircle.
     \ii Let $P$ denote the foot from $D$ to $\ol{EF}$.
     Then $K$ is the inverse of $P$ with respect to the incircle.
+    \ii We have $(AK,AP;AE,AF) = -1$.
+    \ii Lines $AK$ and $BC$ meet at a point $T$ such that $\angle AIT = 90\dg$.
   \end{enumerate}
 \end{theorem}
+Note that the first property of the preceding theorem
+implies that $KDM$ passes through $X_{56}$,
+the center of the positive homothety between the incircle and circumcircle.
+(This is said homothety, centered at $X_{56}$, maps the south poles $D$ and $M$.)
 
 \subsection{Evan Is Old point}
 Retain the context of \Cref{fig:sharkydevil}.
@@ -865,6 +895,7 @@ The name seems to be from i3435 in \url{https://aops.com/community/p20459825},
 although I did not find about this until more than five years later.
 The original source material explains the name as such:
 \begin{quote}
+  \slshape
   The next point I'll bring up in this section is $E_O$,
   the intersection of $\ol{AP}$ and $(ABC)$.
   The reason this is named as such is because it showed up in TSTST 2020/2,
@@ -879,17 +910,13 @@ In protest of the hideous name $E_O$, I instead use the name $Y$ for ``Young''.
 
 \begin{theorem}
   [Most important properties of the Evan is Old point]
-  As shown in \Cref{fig:sharkydevil}:
+  In the notation of \Cref{fig:sharkydevil}:
   \begin{enumerate}
-    \ii $(KY;BC) = -1$.
+    \ii We have $(KY;BC) = -1$.
     \ii Line $YD$ passes through the midpoint $L$ of arc $BAC$ (the antipode of $M$).
-    \ii Lines $KL$, $MY$, $BC$, and $EF$ are concurrent.
+    \ii Lines $APY$ and $IL$ meet at the point $R$ on $BC$ such that $(TR;BC) = -1$.
   \end{enumerate}
 \end{theorem}
-
-\begin{remark*}
-  Not related to $Y$, but in \Cref{fig:sharkydevil} the lines $APY$, $LI$, and $BC$ are also concurrent.
-\end{remark*}
 
 \section{’Muricaaaaaaa, by \texttt{i3435}}
 I tried to keep this handout brief and to-the-point,
