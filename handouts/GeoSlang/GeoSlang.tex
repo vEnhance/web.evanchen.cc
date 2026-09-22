@@ -4,7 +4,7 @@
 \begin{document}
 \title{Lemmas in AoPS Geometry}
 \subtitle{aka: how you can tell who's done too much olympiad geo}
-\date{13 August 2023}
+\date{22 September 2026}
 \maketitle
 
 \begin{center}
@@ -32,6 +32,10 @@ The reason is:
 Instead, this handout is meant as an encyclopedic reference that you can refer to
 when you hear some bizarre name on the Internet that does not appear
 in the textbook EGMO.
+
+Trying to prove the various properties listed here without checking the solutions
+is also another reasonable use of this material,
+i.e.\ as a source of exercises that happen to also have silly names is above board.
 
 \newpage
 
@@ -479,6 +483,7 @@ Similarly, the parallelogram $BPCQ$ is noteworthy.
   Then $\ol{AX}$ and $\ol{AY}$ are isogonal with respect to $\angle A$.
 \end{remark}
 
+\newpage
 \section{Length-based lemmas}
 \subsection{Ratio lemma}
 In the United States, the following fact is sometimes called the ratio lemma.
@@ -599,21 +604,33 @@ have been largely unsuccessful, and Evan has given up.
   \[ 0 = a^2(z_1y_2 + y_1z_2) + b^2(x_1z_2 + z_1x_2) + c^2(y_1x_2 + x_1y_2). \]
 \end{theorem}
 
-
+\newpage
 \section{Special named points inside a triangle}
 Here we only give the definition of the points
 and leave the (many) properties of the handouts to provided external links.
 
-\subsection{HM/Humpty and Dumpty point}
+\subsection{Humpty and Dumpty point}
 As shown in \Cref{fig:HM}, let $ABC$ be a triangle with orthic triangle $DEF$,
 and orthocenter $H$. Let $M$ be the midpoint of $\ol{BC}$.
 \begin{definition}
   The foot of the altitude from $H$ to $\ol{AM}$,
-  denoted $Q$ in \Cref{fig:HM},
-  is called either the \alert{$A$-Humpty point} or the \alert{$A$-HM point}.
+  denoted $H_A$ in \Cref{fig:HM},
+  is called the \alert{$A$-Humpty point}.
 \end{definition}
-Some basic properties of the $A$-Humpty point are that lines $QH$, $BC$, $EF$
-are concurrent, and that it lies on the circle $(BHC)$.
+An older name is the $A$-HM point.
+\begin{theorem}
+  [Most important properties of the $A$-Humpty point]
+  In the notation of \Cref{fig:HM}:
+  \begin{enumerate}
+    \ii The points $B$, $H$, $C$, $H_A$ are concyclic.
+    \ii Line $BC$ is tangent to both $(AH_AB)$ and $(AH_AC)$.
+    Equivalently,
+    \begin{equation}
+      \dang H_AAC = \dang H_ACB, \quad\text{and}\quad \dang H_AAB = \dang H_ABC
+      \label{eq:humpty_angle}
+    \end{equation}
+  \end{enumerate}
+\end{theorem}
 \begin{figure}[ht]
   \centering
   \begin{asy}
@@ -624,7 +641,7 @@ are concurrent, and that it lies on the circle $(BHC)$.
     pair M = midpoint(B--C);
     pair H = orthocenter(A, B, C);
     pair G = foot(A, M, H);
-    pair Q = foot(H, A, M);
+    pair H_A = foot(H, A, M);
     pair D = foot(A, B, C);
     pair E = foot(B, C, A);
     pair F = foot(C, A, B);
@@ -635,25 +652,25 @@ are concurrent, and that it lies on the circle $(BHC)$.
     draw(B--E, red);
     draw(C--F, red);
 
-    pair T = extension(E, F, B, C);
+    pair X = extension(E, F, B, C);
     draw(A--M, red);
-    draw(A--T--Q, orange+dashed);
-    draw(E--T--B, red);
+    draw(A--X--H_A, orange+dashed);
+    draw(E--X--B, red);
     draw(G--M, orange+dashed);
 
     filldraw(circumcircle(A, E, F), opacity(0.1)+yellow, orange);
+    draw(B..H..H_A..C, gray);
 
     dot("$A$", A, dir(A));
     dot("$B$", B, dir(B));
     dot("$C$", C, dir(C));
     dot("$M$", M, dir(M));
     dot("$H$", H, dir(H));
-    dot("$Q$", Q, dir(335));
+    dot("$H_A$", H_A, dir(335));
     dot("$D$", D, dir(D));
     dot("$E$", E, dir(20));
     dot("$F$", F, dir(F));
-    // dot("$T$", T, dir(T));
-    dot(T);
+    dot("$X$", X, dir(X));
     dot("$G$", G, dir(G));
 
     /* TSQ Source:
@@ -664,7 +681,7 @@ are concurrent, and that it lies on the circle $(BHC)$.
     M = midpoint B--C
     H = orthocenter A B C
     G = foot A M H
-    Q = foot H A M R335
+    H_A = foot H A M R335
     D = foot A B C
     E = foot B C A R20
     F = foot C A B
@@ -675,38 +692,51 @@ are concurrent, and that it lies on the circle $(BHC)$.
     B--E red
     C--F red
 
-    T = extension E F B C
+    X = extension E F B C
     A--M red
-    A--T--Q orange dashed
-    E--T--B red
+    A--X--H_A orange dashed
+    E--X--B red
     G--M orange dashed
 
     circumcircle A E F 0.1 yellow / orange
 
     */
   \end{asy}
-  \caption{The Humpty point (denoted $Q$) and the $A$-queue point (denoted $G$).}
+  \caption{The Humpty point (denoted $H_A$) and the $A$-queue point (denoted $G$).}
   \label{fig:HM}
 \end{figure}
 
-Less commonly seen is:
+The isogonal conjugate of the $A$-Humpty point is appropriately named:
 \begin{definition}
-  The \alert{$A$-Dumpty point} is the isogonal conjugate of the $A$-Humpty point.
-  It turns out to coincide with the midpoint of the $A$-symmedian chord.
+  The \alert{$A$-Dumpty point} $Q_A$ is the isogonal conjugate $H_A$.
 \end{definition}
+This definition combines well with \eqref{eq:humpty_angle} to give
+\begin{equation}
+  \dang Q_A B A = \dang Q_A A C, \quad \text{and} \quad \dang Q_A C A = \dang Q_A A B.
+  \label{eq:dumpty_angle}
+\end{equation}
+However, the real important property of the $A$-Dumpty point (not pictured) is:
+\begin{theorem}
+  [Most important property of the $A$-Dumpty point]
+  The $A$-Dumpty point $Q_A$ coincides with the midpoint of the $A$-symmedian chord.
+\end{theorem}
 
 References for these points include:
 \begin{itemize}
   \ii \url{https://math.stackexchange.com/a/3894697/229197}
   \ii \href{https://pregatirematematicaolimpiadejuniori.files.wordpress.com/2018/05/two_special_points__1_.pdf}
-  {On Two Special Points in a Triangle},
+  {On Two Special Points in a Triangle} (Kapil Pause),
   which seems to be the origin of the name Humpty and Dumpty.
-  \ii \href{https://www.awesomemath.org/wp-pdf-files/math-reflections/mr-2017-02/article_1_a_special_point_on_the_median.pdf}
-  {A Special Point on the Median}
+  \ii A Special Point on the Median (Gunmay Handa and Anant mudgal),
   which seems to be the origin of the name HM.
+  The link for this file seems to be offline now.
+
+  \ii \href{https://www.awesomemath.org/wp-pdf-files/math-reflections/mr-2021-04/mr_4_2021_midpoint_of_symmedian_chord.pdf}
+  {Midpoint of Symmedian Chord} (Srijon Sarkar),
+  on the $A$-Dumpty point.
 \end{itemize}
 
-\subsection{Queue points}
+\subsection{Queue and ex points}
 In the Humpty configuration, the point $G$ in \Cref{fig:HM}
 also plays an important role.
 It is named as follows:
@@ -715,20 +745,17 @@ It is named as follows:
   denoted $G$ in \Cref{fig:HM}.
   In other words, it is the Miquel point of the cyclic quadrilateral $BFEC$.
 \end{definition}
-The most important properties of the $A$-queue point are:
 \begin{theorem}
-  [Important properties of the $A$-queue point]
+  [Most important properties of the $A$-queue point]
   In the notation of \Cref{fig:HM}:
   \begin{enumerate}
-    \ii Line $AG$ is concurrent with lines $EF$, $HQ$, $BC$ defined before.
-    \ii Point $G$ lies on line $HM$.
+    \ii Lines $AG$, $EF$, $HH_A$, $BC$ meet at the point $X$ satisfying $(XD;BC) = -1$.
+    \ii Point $G$ lies on line $HM$, and $\ol{MHG} \perp \ol{AGX}$.
   \end{enumerate}
 \end{theorem}
-The name seems to have come from the blog post by \texttt{math\_pi\_rate} at
-\url{https://aops.com/community/c701535h1754217}\footnote{The
-  concurrence point $\ol{AG} \cap \ol{EF} \cap \ol{HQ} \cap \ol{BC}$
-  is named the $A$-ex point in that blog post,
-  but that name seems to not have caught on.},
+The point $X$ is called the \alert{$A$-ex point} sometimes.
+The names seem to have come from the blog post by \texttt{math\_pi\_rate} at
+\url{https://aops.com/community/c701535h1754217},
 which documents several additional properties of the line.
 
 \subsection{Sharky-Devil point}
@@ -739,79 +766,88 @@ let $ABC$ be a triangle with intouch triangle $DEF$.
   is defined as the Miquel point $K$ of $BFEC$;
   i.e.\ the intersection of the $(AEF)$ and $(ABC)$.
 \end{definition}
+The name seems coined by \texttt{aops29} in a blog post,
+\url{https://aops.com/community/c946900h1911664}.
 
 \begin{figure}[ht]
   \centering
   \begin{asy}
-  size(9cm);
-  pair A = dir(110);
-  pair B = dir(210);
-  pair C = dir(330);
-  filldraw(unitcircle, opacity(0.1)+palecyan, lightblue);
-  draw(A--B--C--cycle, lightblue);
-  pair I = incenter(A, B, C);
-  pair D = foot(I, B, C);
-  draw(incircle(A, B, C), lightblue);
-  pair M = dir(270);
-  pair K = extension(-A, I, M, D);
-  pair E = foot(I, A, C);
-  pair F = foot(I, A, B);
-  draw(circumcircle(A, E, F), heavygreen);
-  pair S = -A;
-  pair P = foot(D, E, F);
-  draw(I--K, lightblue);
-  draw(K--M, heavygreen);
-  draw(B--K--C, lightblue);
-  draw(D--E--F--cycle, heavycyan);
-  draw(D--P, heavycyan);
+    pair A = dir(130);
+    pair B = dir(210);
+    pair C = dir(330);
+    filldraw(unitcircle, opacity(0.1)+palecyan, lightblue);
+    draw(A--B--C--cycle, lightblue);
+    pair I = incenter(A, B, C);
+    pair D = foot(I, B, C);
+    draw(incircle(A, B, C), lightblue);
+    pair M = dir(270);
+    pair K = extension(-A, I, M, D);
+    pair E = foot(I, A, C);
+    pair F = foot(I, A, B);
+    draw(circumcircle(A, E, F), heavygreen);
+    pair S = -A;
+    pair P = foot(D, E, F);
+    draw(S--K, lightblue);
+    draw(K--M, heavygreen);
+    draw(B--K--C, lightblue);
+    draw(D--E--F--cycle, heavycyan);
+    draw(D--P, heavycyan);
 
-  dot("$A$", A, dir(A));
-  dot("$B$", B, dir(B));
-  dot("$C$", C, dir(C));
-  dot("$I$", I, dir(I));
-  dot("$D$", D, dir(D));
-  dot("$M$", M, dir(M));
-  dot("$K$", K, dir(K));
-  dot("$E$", E, dir(E));
-  dot("$F$", F, dir(F));
-  // dot("$S$", S, dir(S));
-  dot("$P$", P, dir(P));
+    pair L = dir(90);
+    pair Y = foot(M, L, D);
+    draw(A--Y, dotted);
+    draw(Y--L, dotted);
 
-  /* TSQ Source:
+    dot("$A$", A, dir(A));
+    dot("$B$", B, dir(B));
+    dot("$C$", C, dir(C));
+    dot("$I$", I, dir(270));
+    dot("$D$", D, dir(220));
+    dot("$M$", M, dir(M));
+    dot("$K$", K, dir(K));
+    dot("$E$", E, dir(45));
+    dot("$F$", F, dir(200));
+    dot("$P$", P, dir(P));
+    dot("$L$", L, dir(L));
+    dot("$Y$", Y, dir(Y));
 
-  A = dir 110
-  B = dir 210
-  C = dir 330
-  unitcircle 0.1 palecyan / lightblue
-  A--B--C--cycle lightblue
-  I = incenter A B C
-  D = foot I B C
-  incircle A B C lightblue
-  M = dir 270
-  K = extension -A I M D
-  E = foot I A C
-  F = foot I A B
-  circumcircle A E F heavygreen
-  S = -A
-  P = foot D E F
-  S--K lightblue
-  K--M heavygreen
-  B--K--C lightblue
-  D--E--F--cycle heavycyan
-  D--P heavycyan
+    /* --------------------------------+
+    | TSQX: by Evan Chen and CJ Quines |
+    | https://github.com/vEnhance/tsqx |
+    +----------------------------------+
+    A = dir 130
+    B = dir 210
+    C = dir 330
+    unitcircle / 0.1 palecyan / lightblue
+    A--B--C--cycle / lightblue
+    I 270 = incenter A B C
+    D 220 = foot I B C
+    incircle A B C / lightblue
+    M = dir 270
+    K = extension -A I M D
+    E 45 = foot I A C
+    F 200 = foot I A B
+    circumcircle A E F / heavygreen
+    S := -A
+    P = foot D E F
+    S--K / lightblue
+    K--M / heavygreen
+    B--K--C / lightblue
+    D--E--F--cycle / heavycyan
+    D--P / heavycyan
 
-  */
+    L = dir 90
+    Y = foot M L D
+    A--Y / dotted
+    Y--L / dotted
+    */
   \end{asy}
   \caption{The $A$-Sharkydevil point.}
   \label{fig:sharkydevil}
 \end{figure}
 
-The name seems coined by \texttt{aops29} in a blog post,
-\url{https://aops.com/community/c946900h1911664}.
-
-The most important properties are:
 \begin{theorem}
-  [Important properties of the Sharkydevil point]
+  [Most important properties of the Sharkydevil point]
   In the notation of \Cref{fig:sharkydevil}:
   \begin{enumerate}
     \ii Line $\ol{KD}$ bisects $\angle BKC$
@@ -822,6 +858,38 @@ The most important properties are:
     Then $K$ is the inverse of $P$ with respect to the incircle.
   \end{enumerate}
 \end{theorem}
+
+\subsection{Evan Is Old point}
+Retain the context of \Cref{fig:sharkydevil}.
+The name seems to be from i3435 in \url{https://aops.com/community/p20459825},
+although I did not find about this until more than five years later.
+The original source material explains the name as such:
+\begin{quote}
+  The next point I'll bring up in this section is $E_O$,
+  the intersection of $\ol{AP}$ and $(ABC)$.
+  The reason this is named as such is because it showed up in TSTST 2020/2,
+  and Evan Chen said he he hadn't seen it before, which means that it isn't well known\dots
+  Thus the point is named $E_O$ for Evan is Old.
+\end{quote}
+In protest of the hideous name $E_O$, I instead use the name $Y$ for ``Young''.
+\begin{definition}
+  The \alert{Evan Is Old} point, denoted $Y$, is the second intersection
+  of line $AP$ with the circumcircle of $ABC$.
+\end{definition}
+
+\begin{theorem}
+  [Most important properties of the Evan is Old point]
+  As shown in \Cref{fig:sharkydevil}:
+  \begin{enumerate}
+    \ii $(KY;BC) = -1$.
+    \ii Line $YD$ passes through the midpoint $L$ of arc $BAC$ (the antipode of $M$).
+    \ii Lines $KL$, $MY$, $BC$, and $EF$ are concurrent.
+  \end{enumerate}
+\end{theorem}
+
+\begin{remark*}
+  Not related to $Y$, but in \Cref{fig:sharkydevil} the lines $APY$, $LI$, and $BC$ are also concurrent.
+\end{remark*}
 
 \section{’Muricaaaaaaa, by \texttt{i3435}}
 I tried to keep this handout brief and to-the-point,
