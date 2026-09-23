@@ -6,46 +6,36 @@ indent: 1
 
 This is a [now page](https://nownownow.com/about).
 It's my public answer to "what have you been up to lately"?
-Last updated 15 June 2026.
+Last updated 23 September 2026.
 
 ## Coordinates
 
-I'm all over the place for summer 2026.
-I don't know if anyone believes me when I say I don't like traveling.
-
-Most notably though I will be attending IMO 2026 as a coordinator.
-(At least if my visa application ever gets read. It's taking a while.)
+I'm mostly near Duke University for fall 2026.
 
 ## Jobs
 
 - I'm still running [OTIS](otis.html), which is
   [accepting applications for its 12th year](otis.html).
+  We [hired CJ Quines as the first staff,
+  with support from Global Talent Fund](https://blog.evanchen.cc/otis-xii/).
 
-- I work as Head Writer for [OMEGA](https://omegausa.org).
+- I renewed another one-year term as Head Writer for
+  [OMEGA](https://omegausa.org), for 2026-2027.
   OMEGA is a new organization hoping to develop their own math contest series
   for students in the United States.
 
-- I am a math consultant for [Axiom Math](https://axiommath.ai)[^ai-in-math]
+  We have a regional event planned in January 2027 and another
+  Denver event in May 2027.
+
+- I am a math consultant for [Axiom Math](https://axiommath.ai)
   where I now work with my former mentor [Ken Ono](https://w.wiki/N4uN).
   This has resulted in [several new papers](https://arxiv.org/a/chen_e_2.html).
 
-[^ai-in-math]:
-    To state my allegiances on the AI-in-math issue,
-    I'm most interested in formalization, rather than just
-    feeding contest problems to LLM's for medal-bragging on Twitter
-    (see [Epoch][epoch] and [Xena][xena] on IMO 2025).
-    I think making Lean into something that's practically usable
-    as a way to both verify and digitize proofs actually sounds pretty cool.
-    [arXiv:2311.00007](https://arxiv.org/pdf/2311.00007v1) has some food for thought.
+- I've been maintaining [athe-web](https://github.com/vEnhance/athe-web),
+  a Django website for [athemath.org](https://athemath.org).
+  The code is kind of a mess though.
 
 ## Side quests
-
-- My blog got a [complete redesign](https://blog.evanchen.cc/pelican/)!
-  This took several months of slowly migrating all the posts off WordPress.
-  It has a new [mailing list](https://list.evanchen.cc/), too.
-
-- There's a new [microblog as well too](https://wall.evanchen.cc/).
-  (Same mailing list.)
 
 - I've been trying to get faster at reading
   [braille, Morse, and semaphore](https://github.com/vEnhance/borse),
@@ -60,24 +50,23 @@ Most notably though I will be attending IMO 2026 as a coordinator.
 - A few other secret projects I haven't told anyone about yet 😉
   (mostly because they're going nowhere fast).
 
-[epoch]: https://epoch.ai/gradient-updates/we-didnt-learn-much-from-the-imo
-[xena]: https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/
-
 ## Recent checkpoints
+
+- In September 2026, the third year of the [OPAL puzzle hunt](opal.html) is now published.
+
+- I finished my third year as an on-site coordinator at IMO 2026.
+
+- I turned 30 recently and it sucks.
 
 - OMEGA held its first event, the [AMM 2026](https://blog.evanchen.cc/after-amm-2026/).
   The event seemed to be received quite well.
   We even had our own [puzzle hunt](https://hunt.omegausa.org/).
 
-- OTIS completed its eleventh year with around 800 students in the most recent class.
-  This included the second year of the [OPAL hunt](opal.html),
-  and the third year of the [OTIS Mock AIME](mockaime.html).
-
-- I had a busy summer in 2025, where among other things,
-  I taught at [MOP](mop.html) as assistant director,
-  visited the [Duluth REU](https://sites.google.com/view/gallian-reu/home),
-  and attended [IMO 2025][coord] as a coordinator
-  (I was on problem 3 with Gheehyun Nahm).
+- In 2025 my blog got a [complete redesign](https://blog.evanchen.cc/pelican/)!
+  This took several months of slowly migrating all the posts off WordPress.
+  It has a new [mailing list](https://list.evanchen.cc/), too.
+  There's a new [microblog as well too](https://wall.evanchen.cc/).
+  (Same mailing list.)
 
 - In March 2025, the [2025 Teammate Hunt](https://teammatehunt.com) aired.
   See the [wrapup](https://2025.teammatehunt.com/wrapup) and
@@ -93,5 +82,3 @@ Most notably though I will be attending IMO 2026 as a coordinator.
   and in February 2025 I finally received my
   [diploma](https://credentials.mit.edu/certificate/fb5dea8b0db8537293e2967b64e97777).
   (It went to the spam folder in my email, which is hilarious.)
-
-[coord]: https://blog.evanchen.cc/coord/
