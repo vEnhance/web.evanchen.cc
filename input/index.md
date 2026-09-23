@@ -24,7 +24,7 @@ and [my university transcript](/upload/math-coursework.pdf).
 Outside of math, I hate cooking.
 
 See my [now page](now.html) for what I've been thinking about recently
-and my currently employer list.
+and my current employer list.
 
 I also have a [serious blog](https://blog.evanchen.cc)
 as well as a [less serious microblog](https://wall.evanchen.cc),
