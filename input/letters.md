@@ -74,7 +74,7 @@ I do not use any AI to write or edit letters.
 ## {{ hl("sample", "Sample letter") }}
 
 Here is a [sample letter for an imaginary student named
-Eva Chan](upload/dummy-letter-eva-chan.pdf),
+Eva Chan](/upload/dummy-letter-eva-chan.pdf),
 so you know roughly what you're signing up for.
 (And those of you writing your first reference letter
 are welcome to use this as an example.)

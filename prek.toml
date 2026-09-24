@@ -43,7 +43,7 @@ hooks = [{ id = "check-useless-excludes" }]
 
 [[repos]]
 repo = "https://github.com/astral-sh/ruff-pre-commit"
-rev = "v0.16.6"
+rev = "v0.16.8"
 hooks = [{ id = "ruff-check" }, { id = "ruff-format" }]
 
 [[repos]]
@@ -53,12 +53,12 @@ hooks = [{ id = "codespell" }]
 
 [[repos]]
 repo = "https://github.com/JoC0de/pre-commit-prettier"
-rev = "v3.9.6"
+rev = "v3.9.9"
 hooks = [{ id = "prettier", types_or = ["css", "javascript", "json", "scss", "ts", "yaml"] }]
 
 [[repos]]
 repo = "https://github.com/rvben/rumdl-pre-commit"
-rev = "v0.2.70"
+rev = "v0.2.77"
 hooks = [{ id = "rumdl" }, { id = "rumdl-fmt" }]
 
 [[repos]]
@@ -73,17 +73,17 @@ hooks = [{ id = "shellcheck", files = '\.sh$'}]
 
 [[repos]]
 repo = "https://github.com/scop/pre-commit-shfmt"
-rev = "v3.13.1-1"
+rev = "v3.14.1-1"
 hooks = [{ id = "shfmt", args = ["-i", "2", "-ci"], files = '\.sh$' }]
 
 [[repos]]
 repo = "https://github.com/astral-sh/uv-pre-commit"
-rev = "0.12.12"
+rev = "0.12.18"
 hooks = [{ id = "uv-lock" }]
 
 [[repos]]
 repo = "https://github.com/djlint/djLint"
-rev = "v1.46.1"
+rev = "v1.46.2"
 hooks = [
   { id = "djlint-reformat", types = ["html"], files = '\.j2$' },
   { id = "djlint", types = ["html"], files = '\.j2$' }
