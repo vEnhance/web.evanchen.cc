@@ -156,6 +156,7 @@
         // Redirect to the lesson URL
         window.location.href = lessons[q];
       } else if (q) {
+        document.title = q + " ∙ Wiktionary / Naver";
         document.getElementById("west").src =
           "https://en.m.wiktionary.org/wiki/" + q;
         document.getElementById("east").src =
