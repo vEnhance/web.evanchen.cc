@@ -4,6 +4,7 @@
 Use only on von-enabled machines
 
 (1) Reads problems.csv from TWITCH_DATA_DIR
+    (rows with a nonempty KnownMissing column won't be reported as missing)
 (2) Writes ~/Freezer/youtube-tex/ with TeX files that you can compile
 (3) Updates urls.lock (DO NOT EDIT MANUALLY but version control it)
 
@@ -53,6 +54,7 @@ for row in data:
     n = row["N"]
     key = row["Source"]
     youtube = row["YouTube"]
+    known_missing = bool(row["KnownMissing"])
 
     if youtube:
         if "&" in youtube:
@@ -73,6 +75,8 @@ for row in data:
 
     if api.has(key):
         e = api.get(key)
+        if known_missing:
+            print(f"Ep{int(n):3d} has VON {key} now, unset KnownMissing")
 
         if e.url:
             external_tex = r"\section*{External Link}" + "\n" + r"\url{" + e.url + "}"
@@ -100,7 +104,7 @@ for row in data:
 
         with open(filename, "w") as f:
             print(tex, file=f)
-    elif key.startswith("!"):
+    elif key.startswith("!") or known_missing:
         pass
     else:
         print(f"Ep{int(n):3d} MISSING VON {key}: {short_url}")
