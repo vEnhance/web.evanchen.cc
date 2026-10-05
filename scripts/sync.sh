@@ -1,4 +1,5 @@
 #!/bin/bash
+cd "$(git -C "$(dirname "$0")" rev-parse --show-toplevel)" || exit 1
 rclone -v --progress copy output/  web:
 rclone -v --progress sync static/  web:static/
 rclone -v --progress sync applets/ web:applets/
