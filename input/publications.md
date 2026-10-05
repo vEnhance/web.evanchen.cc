@@ -61,7 +61,7 @@ and [ORCID 0000-0001-9550-5068](https://orcid.org/0000-0001-9550-5068).
   <b>Fel's Conjecture on Syzygies of Numerical Semigroups</b>.<br>
   E. Chen, K. Lau, K. Ono, and J. Zhang. [Journal of Combinatorial Theory, Series A][jcta-fel].
 
-1. [arXiv:2602.20439](https://arxiv.org/abs/2602.20439).<br>
+1. [arXiv:2606.20439](https://arxiv.org/abs/2606.20439).<br>
   <b>Four-digit Kaprekar dynamics in odd bases</b>.<br>
   Submitted for publication.
 
