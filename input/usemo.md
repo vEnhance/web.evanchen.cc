@@ -17,7 +17,8 @@ develop interest and ability in mathematics (rather than measure it).
 However, it is one of few proof-based contests
 **open to all middle and high school students**.
 
-The USEMO is hosted on the [Art of Problem-Solving website][aops-usemo].
+The USEMO is hosted on the [Mathelots portal](https://mathelots.global/usemo-2026/).
+(In 2025 and earlier, it was hosted by [AoPS][aops-usemo].)
 This contest is _not_ sponsored by the Math Association of America
 (which runs the [USAMO][usamo]).
 
