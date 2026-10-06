@@ -5,6 +5,7 @@
 // in localStorage, and reveals rot13'd hints one at a time.
 
 const SALT = "opal_puzzle_hunt_secret_salt";
+const HASH_ITERATIONS = 600000;
 const STORAGE_KEY = "opal-solved";
 
 function normalizeAnswer(answer) {
@@ -12,19 +13,24 @@ function normalizeAnswer(answer) {
   return answer.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 }
 
-async function hashAnswer(normalizedAnswer) {
-  // Hash the normalized answer with salt using SHA-256
-  const saltedAnswer = normalizedAnswer + SALT;
+async function hashGuess(guess, salt, iterations) {
+  // PBKDF2-HMAC-SHA256 of the normalized guess, as a hex string
   const encoder = new TextEncoder();
-  const data = encoder.encode(saltedAnswer);
-  const hashBuffer = await crypto.subtle.digest("SHA-256", data);
-
-  // Convert buffer to hex string
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  const hashHex = hashArray
+  const key = await crypto.subtle.importKey(
+    "raw",
+    encoder.encode(normalizeAnswer(guess)),
+    "PBKDF2",
+    false,
+    ["deriveBits"],
+  );
+  const bits = await crypto.subtle.deriveBits(
+    { name: "PBKDF2", hash: "SHA-256", salt: encoder.encode(salt), iterations },
+    key,
+    256,
+  );
+  return Array.from(new Uint8Array(bits))
     .map((b) => b.toString(16).padStart(2, "0"))
     .join("");
-  return hashHex;
 }
 
 // Hint text comes out of otis-web in a light markdown; render the two bits of
@@ -144,7 +150,7 @@ function setupChecker(puzzles, solved) {
     button.disabled = true;
     button.textContent = "Checking...";
     try {
-      const hash = await hashAnswer(normalizeAnswer(userAnswer));
+      const hash = await hashGuess(userAnswer, SALT, HASH_ITERATIONS);
       const solvedPuzzle = puzzles.find((p) => p.answerHash === hash);
       const partialPuzzle = puzzles.find((p) => p.partialHashes.includes(hash));
       if (solvedPuzzle) {

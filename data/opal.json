@@ -6,7 +6,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 0,
-      "answer_hash": "0057f33ea3f46cf42f955c66b68701355b2c5d74f012f8cd9d218a8274058490",
+      "answer_hash": "0677c0a3c4bd7806b16bae830bb8b134d90146a7f5c3de16174117afbb0ae6a3",
       "partial_hashes": [],
       "hints_rot13": [
         "Cybg gur tencu bs gur ertvba va gur kl-cynar. Lbh fubhyq qb guvf ol unaq, V guvax gur fbsgjner bsgra trgf vg jebat orpnhfr vg pna'g unaqyr gur sybbe.",
@@ -19,9 +19,9 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 0,
-      "answer_hash": "bd65b0bb41bb53951a0666848a1af917dfe0280697aadfaa699940430c0553f8",
+      "answer_hash": "2edc64390b08eff75866516b93e9f477fc04ab4684974a7445bd0a8c8d9845de",
       "partial_hashes": [
-        "41ef3f492e603bd4b70b07a7fd82d2f664dc82ba9507befa49079dd7e1d08379"
+        "7a0a8f664fcdffc852a98cca747d11ee374146fb94f1ec8f345aeba26b3b0dd9"
       ],
       "hints_rot13": [
         "Jevgr rnpu ahzore ng gur obggbz va ovanel naq hfr vg gb svyy gur pbyhzaf va, cnqqvat yrnqvat mrebf nf arprffnel.",
@@ -34,7 +34,7 @@
       "is_metapuzzle": false,
       "credits": "Rachel Chen, Rohan Garg, Sean Yeh",
       "num_to_unlock": 0,
-      "answer_hash": "2b4dddb09741d833d854851bc93e35f56613f4cc829495e99f80b87fd4a1d90a",
+      "answer_hash": "50c785ac36207639f865d28f2779eabad176c51284b768a04413d22d388de677",
       "partial_hashes": [],
       "hints_rot13": [
         "Rnpu pyhr tvirf n 3 be 4 yrggre jbeq gung raqf jvgu `AG`.",
@@ -48,7 +48,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 1,
-      "answer_hash": "0561796699645724d604d465cffbbefe3625c0564f91611169979fc057d40511",
+      "answer_hash": "db34260a0d053597eebc656e6069075c6d270721fbcccc1bfd18f934141b5736",
       "partial_hashes": [],
       "hints_rot13": [
         "Gur jbeqf ner nycunorgvpny, v.r. gur beqre qbrfa'g znggre. Lbh pna hfr gur beqre gb uryc purpx  lbhe jbex.",
@@ -62,9 +62,9 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 1,
-      "answer_hash": "a2255573765d735611eebcab855d7770bb8acd5fb2431c73e0096a24ba2f272d",
+      "answer_hash": "a4a4c4cb78cbf4cf1bab939221c8510b8b7d6a2508659de51491467845069087",
       "partial_hashes": [
-        "a2e89a6a32a51f7d605f8438c571b3fddab85e0afc2fb4fcedde38859b3ffe0f"
+        "5aac95c206a76713f6dd52dc968ec29ddddb16cd7a70a5de53e7f64fa62cf3af"
       ],
       "hints_rot13": [
         "Sbe rnpu ahzore tvira, ercrng gur pbqr sebz P.1 bs gur BGVF nccyvpngvba; gung vf, svaq c naq d fhpu gung c\u00b2+d\u00b3=A."
@@ -76,7 +76,7 @@
       "is_metapuzzle": false,
       "credits": "Calvin Wang and Royce Yao",
       "num_to_unlock": 2,
-      "answer_hash": "3a3aa762c13158777a8b05a6ad42c6ba4833e2140783a331b5d86191feee591d",
+      "answer_hash": "240e76d32727537ec79fdee222e7ffb275e0187994a33d37e8f2226a99437c3f",
       "partial_hashes": [],
       "hints_rot13": [
         "Vs lbh'ir arire qbar n qvntenzyrff pebffjbeq orsber, gel gb ybbx hc fgengrtvrf. Gurl ner rnfvre guna gurl zvtug svefg nccrne, orpnhfr gurl fngvfsl evtvq flzzrgel naq ahzorevat erdhverzragf. Sbe rknzcyr, whfg sebz gur snpg gung 1N, 5N, 10N, 14N ner gur svefg npebff pyhrf, lbh pna svther bhg gung gur nafjref unir yratguf 4, 5, 4 erfcrpgviryl.",
@@ -89,7 +89,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 2,
-      "answer_hash": "68cad012167334ed3d0ca81f5c2849790a47ea5ad10bfc7ad122ab2d9bc4825e",
+      "answer_hash": "9dadffd4d0035a9226fa26afcc4fa2befacd9078c7414a74118f8c80ff70b8ea",
       "partial_hashes": [],
       "hints_rot13": [
         "Tbbtyr gur vgrzf.",
@@ -102,9 +102,9 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 3,
-      "answer_hash": "c39ad9050a78dbb0f368844285c10b983abbb9c52c1f1d6fd772fb6ff4ce891e",
+      "answer_hash": "5a10ba29b07ab2d0fb503df8c13f29141bdf33344f42afef15a57d8661f1dc9c",
       "partial_hashes": [
-        "b67b0a7ed8b8767529837a65877ebf10262ba722511b3772303a3b9465cc8aea"
+        "bd3faff544484bbc6cbf107fa6798959395deaedd955c4ec504153418420666d"
       ],
       "hints_rot13": [
         "Gur synibegrkg qrfpevorf n YBT PNGNYBT.",
@@ -117,7 +117,7 @@
       "is_metapuzzle": false,
       "credits": "Ethan Lee",
       "num_to_unlock": 4,
-      "answer_hash": "93bcd07943448e9eed4de8916b5b5a2890fc82f0839c6ffeaad40ad1ecb5e2ba",
+      "answer_hash": "4b23c2936de7cd12a91ac9890ece6156023d2740b517c40910e35df606e01086",
       "partial_hashes": [],
       "hints_rot13": [
         "Vzntvar lbh'er fbyivat gur ynfg ynlre bs n Ehovx'f phor."
@@ -129,7 +129,7 @@
       "is_metapuzzle": false,
       "credits": "Jiya Dani and Charles Zhang",
       "num_to_unlock": 5,
-      "answer_hash": "b195ab12d18831941ad97b60f86883cc20ea4359791d08892bb9ffc66eec06da",
+      "answer_hash": "4377acfc7e9d47c696ed61a8e3da00d41aff5dc12c202e1192a767dc8662b3eb",
       "partial_hashes": [],
       "hints_rot13": [
         "Zngpu gur cnegf ng gur obggbz gb gur oynaxf ng gur gbc gb trg VFOA ahzoref. (Gurer vf bayl bar jnl gb qb fb fngvfslvat gur purpxfhz erdhverzragf bs VFOA ahzoref.)",
@@ -143,7 +143,7 @@
       "is_metapuzzle": false,
       "credits": "Arul Kolla",
       "num_to_unlock": 6,
-      "answer_hash": "45692d92d597e4ce1db2cb17ae1ce629b0b0601404631a16b90c2ca0e5727cbb",
+      "answer_hash": "70b961e9db9e9063e2fabc9b4a4cb6502ff6e054a4b43c16b005ceadd87a70a0",
       "partial_hashes": [],
       "hints_rot13": [
         "Tb gb e/NanepulPurff erqqvg gb svaq evqvphybhf zbirf gung jbhyq cerirag gurfr fvghngvbaf sebz orvat purpxzngrf. Hfr gung gb svyy va gur ahzoref.",
@@ -157,7 +157,7 @@
       "is_metapuzzle": false,
       "credits": "Elijah Liu",
       "num_to_unlock": 7,
-      "answer_hash": "b99213543d37ab9c99951c503170040cd9936a493c4af8c9836c0852360cf544",
+      "answer_hash": "36a52c32e4453c03b5379be7eebb53b0cef0b46b73021454ecb726a7e0699b6a",
       "partial_hashes": [],
       "hints_rot13": [
         "Guvf vf na Nexavtugf chmmyr. Svaq gur bcrengbef anzrq naq zngpu gurz gb flzobyf.",
@@ -170,7 +170,7 @@
       "is_metapuzzle": true,
       "credits": "Evan Chen",
       "num_to_unlock": 8,
-      "answer_hash": "14ff1bd424aeab6ec451757218889afef096b959b4434a10cba4ee84a3e12e40",
+      "answer_hash": "4acb5bc9aaccc91c24733f83287030348105c849c4c998966f7f426bd65cd95c",
       "partial_hashes": [],
       "hints_rot13": [
         "Cnl nggragvba gb gur yratguf bs gur nafjref. Gurer ner sbhe nafjref bs rnpu yratgu 10, 11, 12.",
@@ -188,7 +188,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 0,
-      "answer_hash": "960e877a7118b9b43e804ecedfe9b90389e19b6925608e729919c073fbd5e04e",
+      "answer_hash": "08d84291f8f02196eb08d7964dae6a667c342c439b1e2a9349021769669928c5",
       "partial_hashes": [],
       "hints_rot13": [
         "Sbe rknzcyr, n qbpgbe sbe grrgu vf n QRAGVFG naq na rlr-nyvtazrag qbpgbe vf na BEGUBCGVFG.",
@@ -201,7 +201,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 0,
-      "answer_hash": "25be7b3c40616082e4f4848c575ee250efeb99f8712cecd1116d7a5fee4663d7",
+      "answer_hash": "27795c04c197aca4b8e7a6bc751781daafc272b6cbf59704cfe6813f423eb1cd",
       "partial_hashes": [],
       "hints_rot13": [
         "Sbe rknzcyr, gur zvpebcubar jvgu zhfvpny abgrf pyhrf gur jbeq FVAT.",
@@ -215,7 +215,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 0,
-      "answer_hash": "22e0efe9b1c2ba95965437265c3eebe5e4260b6b864fae8619da930a019cdd0f",
+      "answer_hash": "1b187639dc25d78ff65908e941de5ee6e1abb9b148219b71ab89a5c5a915b30b",
       "partial_hashes": [],
       "hints_rot13": [
         "Guvf vf n sybjre fhqbxh. Rnpu pbagvahbhf 9k9 vf vgfrys n fhqbxh.",
@@ -229,7 +229,7 @@
       "is_metapuzzle": false,
       "credits": "Abel George Mathew, Evan Chen, and Manu Param",
       "num_to_unlock": 0,
-      "answer_hash": "eb453dba35380c48585fc219eebccd21c9760491fda9922133493ba2e04d6708",
+      "answer_hash": "ac7b9c437d9f8157b4f1027b20269a7209622441950f927f2c2df447aa165b20",
       "partial_hashes": [],
       "hints_rot13": [
         "Gur jbeqf va gur jbeq frnepu ner fbegrq nycunorgvpnyyl, ohg bayl n srj ner cerfrag va gur tevq ng gur ortvaavat.",
@@ -243,7 +243,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 1,
-      "answer_hash": "0b96d7760cacb96de94143aa16156a21477bd971cb252bbbbd65f72f91ed4b39",
+      "answer_hash": "c4c72346819e0538ed34c990b72852dac12811e70212b0df9fa26428debeaa70",
       "partial_hashes": [],
       "hints_rot13": [
         "Gerng rnpu havg nf n 3-irpgbe bs (zvareny pbfg, tnf pbfg, fhccyl pbfg). Guvf tvirf lbh n jnl gb svyy va gur dhrfgvba znexf ba gur yrsg-unaq fvqr.",
@@ -256,7 +256,7 @@
       "is_metapuzzle": false,
       "credits": "Calvin Wang",
       "num_to_unlock": 1,
-      "answer_hash": "94e9cc25256db813d47d8ad175daec4cc0f415230cfc25ce6a7305fb06e684fc",
+      "answer_hash": "ffc35ffbd2ea896a9464d711cf55303c41145f62cc8e11fde90c64f5aede9571",
       "partial_hashes": [],
       "hints_rot13": [
         "Sbe rknzcyr, gur frpbaq-gb-ynfg ragel qrfpevorf n JVAQZVYY, juvpu lbh znl unir urneq bs orsber.",
@@ -270,7 +270,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 2,
-      "answer_hash": "11c000712c80339f9fa0cd3199338ad1e9e8efb4ed1add20eee3d56c4ae56eb8",
+      "answer_hash": "8c51ea3a999284c1c9d2a005b032155ac49c3994036dc057e9176b8df4dcc49b",
       "partial_hashes": [],
       "hints_rot13": [
         "Sbe rknzcyr, va X-cbc fynat, gur snibevgr zrzore bs n tebhc vf n OVNF.",
@@ -284,7 +284,7 @@
       "is_metapuzzle": false,
       "credits": "\u017diga O\u0161tir",
       "num_to_unlock": 3,
-      "answer_hash": "be8bd9aec5d62fba1372a5a6e06deb3e8cce27dfb47bf51ea28219603533f2bb",
+      "answer_hash": "14b68798375c76d2cfa4add271da8b3aaf9e04a2c86ec2f118e58e9ab3299106",
       "partial_hashes": [],
       "hints_rot13": [
         "Sbe rknzcyr, WNFCRE vf gur anzr bs gur zhavpvcnyvgl va Nyoregn.",
@@ -298,7 +298,7 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 4,
-      "answer_hash": "d9f341dad49855aec9012279fe76e3c9ab42e77527fa38b7f7244d0e31729bd5",
+      "answer_hash": "a95d7e02b9bee96cc5378a32c15841ae4c7c05dff6ba382e7c820ecb3b23374a",
       "partial_hashes": [],
       "hints_rot13": [
         "Fgneg ol pbairegvat gur ahzore sebz qrpvzny gb ovanel.",
@@ -311,10 +311,10 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen and Patrick Du",
       "num_to_unlock": 5,
-      "answer_hash": "fafd91a5cdcf6bef995ef9f11661749f4476acd2b147afe183ce4f723fa8961c",
+      "answer_hash": "268f642fd6192c42f489a446d9bb49479809368dfaf6eee985bfcdc3962d2de2",
       "partial_hashes": [
-        "27d44f44714fe3154e60ee816fdaa415cb87180a0058343eb3c31292dda22a90",
-        "79400d02f2d7367996cb36fcba77a4d5a1611269c3827a7dc9d49648755a5a23"
+        "a5d8bd527b586eff977619ab8a46d000f5c645cb837e96d347267f841ee720e7",
+        "a47e48850468a0c3c6984f20ae2137b6d93edb6123374f7c5bc6b7c4a29e2f14"
       ],
       "hints_rot13": [
         "Hc hagvy vgrz 21, gurer ernyyl vf ab gevpx naq lbh whfg unir gb sbyybj vafgehpgvbaf irel pnershyyl.",
@@ -327,9 +327,9 @@
       "is_metapuzzle": false,
       "credits": "Jason Mao",
       "num_to_unlock": 5,
-      "answer_hash": "1410d31496fef7403612339b10e9012ca86d3be6396c56d270b73af9a56908c6",
+      "answer_hash": "09212dd61853e54bda7b88c812e5006965513f66380c4d51c480aa2a98b8b6ed",
       "partial_hashes": [
-        "36663eb5e62cd40c0e99e84a63a4b37c0108b9639ceaecd1c9360b2ad8187dea"
+        "36c30a40ec9bdf58294deac9ac23c75c603e716f2f28dedfd11ef9362c1f8c79"
       ],
       "hints_rot13": [
         "Sbe rknzcyr, gur 2 bcrengvba punatrf FGNE gb ENGF naq ANZRGNT gb TNGRZNA.",
@@ -343,7 +343,7 @@
       "is_metapuzzle": false,
       "credits": "Calvin Wang and Patrick Du",
       "num_to_unlock": 6,
-      "answer_hash": "f32e7d475357b71621c4128b4b9d8b75f397bce88836cf02a964eecf85b31ca8",
+      "answer_hash": "a111abcbb2442c45d348ac50f1b45eb8598718127075208547fe3b262eb5d722",
       "partial_hashes": [],
       "hints_rot13": [
         "Gur svefg fgrc bs gur chmmyr vf gb pbzcyrgr gur oneerq pebffjbeq. Guvf pna or qbar qverpgyl; gurer vf ab gevpx gb vg.",
@@ -357,10 +357,10 @@
       "is_metapuzzle": false,
       "credits": "Evan Chen",
       "num_to_unlock": 7,
-      "answer_hash": "9f12c2e33ec608141e58de29560006cd3f3eb2a83d93e3809d26ee7f732b7ed4",
+      "answer_hash": "15a0633c9906b86d0970c1f136594c9ed5c1960a80b15411b27bc52ca09daa9d",
       "partial_hashes": [
-        "c90c4a5e4323250434d41fde6ea4b970d32fb4d811b0628563d978e2178e41ae",
-        "decabaf9601c2ccd1f2b6a9bb72de42d23afdabc878452b05eac885c44951e52"
+        "6fe28a8b23ed7989e2ab5d750b22c2adcbff10ba7752d7cd7d7cb0a27d628099",
+        "c3556b33ff2860745a0a5340d0cef7ac68ce836fae29138775f14e934a0e6908"
       ],
       "hints_rot13": ["Frnepu sbe \"avuvyvfg pvcure\"."]
     },
@@ -370,7 +370,7 @@
       "is_metapuzzle": true,
       "credits": "Elaine Hou and Evan Chen",
       "num_to_unlock": 8,
-      "answer_hash": "55d4da6ced92b169a3359acb45f49c37d8e7b712c802480c99797ac11b85e680",
+      "answer_hash": "e185a504ed2d7fa909079b4b5b3a8bd2996914b1aef4755bcf831406e2e4d14b",
       "partial_hashes": [],
       "hints_rot13": [
         "Gur \"neg tnyyrel ceboyrz\" vf n snzbhf zngu ceboyrz.",
@@ -386,7 +386,7 @@
       "is_metapuzzle": false,
       "credits": "CJ Quines",
       "num_to_unlock": 0,
-      "answer_hash": "da7c12b1a08932c1f7c69edc597b0f802e155ef3654404059c9169bd605ebd9d",
+      "answer_hash": "8df1780aee0a01bc848e2c561d40540c6a77c0a4bba4b19e91c41897c0f62599",
       "partial_hashes": [],
       "hints_rot13": [
         "Gur ylevpf sbe \"Tbyqra\" unir Xberna jbeqf gung, jura jevggra va Unathy, tb va gur oynaxf, fhpu gung rnpu punenpgre'f cnegf zngpu hc jvgu gur bhgyvarf.",
@@ -399,9 +399,9 @@
       "is_metapuzzle": false,
       "credits": "Bryan Leung",
       "num_to_unlock": 0,
-      "answer_hash": "a4d5701d5cf42b514c268cb8eaaa3e9f48880c749fe812423ff778f245891de7",
+      "answer_hash": "e38a88ca460d3f87c6940488289de50d894ebe3c0f7408b4c49a793cd11bb786",
       "partial_hashes": [
-        "7cfbe9dfd36922b4aa7ab9a9f9323c2c904ed35135080222bc7a6dc152763f8b"
+        "d6e7b740eee9216984d36e9dc9ace65caf30d88a082f9287d285405a27f7ad43"
       ],
       "hints_rot13": [
         "Bofreir gung gur erfhyg bs rnpu vagrteny vf n cevzr cbjre.",
@@ -415,7 +415,7 @@
       "is_metapuzzle": false,
       "credits": "CJ Quines",
       "num_to_unlock": 0,
-      "answer_hash": "7dca752da260d7bbe7d1cde98895063bee9173cefb3561ab9587100ca4730ca4",
+      "answer_hash": "685aaae689fd9d838f1ca9d03ce979e2057b744887d4445046728fc0df5fc03e",
       "partial_hashes": [],
       "hints_rot13": [
         "Gur pebffjbeq pyhrf ner nyy inthr, rkprcg sbe bar, juvpu tvirf n uvag sbe gur arkg fgrc.",
@@ -430,7 +430,7 @@
       "is_metapuzzle": false,
       "credits": "CJ Quines",
       "num_to_unlock": 1,
-      "answer_hash": "28aac1216c3b6eb066d3daa110cbb5e79c091f5523d0a157fc8039b588c81bb5",
+      "answer_hash": "f6afb36cdb5e4fda0f804676136d80fa19ca0c2bdaa52e96707dfd6d1b8be52f",
       "partial_hashes": [],
       "hints_rot13": [
         "Rnpu pncvgny yrggre ercynprf n jbeq fgnegvat jvgu gung yrggre. Rnpu ahzore va gur yrsg-unaq fvqr vf na vagrtre, naq gurl ner fbegrq va nfpraqvat beqre.",
@@ -445,7 +445,7 @@
       "is_metapuzzle": false,
       "credits": "Jefferson Zhou",
       "num_to_unlock": 2,
-      "answer_hash": "c8f5f0fa71c2829dee718eb879fd0aaba4da0d6d76dfe05ee832bc02279633b7",
+      "answer_hash": "721b602551f1a0134d9871b2dc97a4f4d416574439a95b912e6539d6de2d8b03",
       "partial_hashes": [],
       "hints_rot13": [
         "Rnpu pyhr fbyirf gb n gjb-jbeq cuenfr. Gur yratguf bs gur jbeqf ner tvira ol gur gvzr.",
@@ -460,7 +460,7 @@
       "is_metapuzzle": false,
       "credits": "CJ Quines and Siddharth Singh",
       "num_to_unlock": 3,
-      "answer_hash": "4fc0842ba8b5a9beb3546f8b6e17f8046fbe8c7d29cfe8b0735a73542c70b52a",
+      "answer_hash": "b03f8d3add14919f4e8b9646fb8d7f7efab79bcb0d2e659b68cc9e5783aa62e0",
       "partial_hashes": [],
       "hints_rot13": [
         "Gur Kf ersre gb gur ahzorevat va gur Raplpybcrqvn bs Gevnatyr Pragref. Sbe rknzcyr, K1 vf gur vapragre."
@@ -472,7 +472,7 @@
       "is_metapuzzle": false,
       "credits": "Aatmik Krishna",
       "num_to_unlock": 3,
-      "answer_hash": "2ecb243249a537abf2230bcb0402a71e3422e697ef1c8b5e0311d6fd8a6e160d",
+      "answer_hash": "0089f39d5b7d6319068e10b4973cfbff6a926e55405a98942470c5200005e4a9",
       "partial_hashes": [],
       "hints_rot13": [
         "Rnpu ceboyrz vf na rkvfgvat VZB ceboyrz, jvgu n fznyy zbqvsvpngvba gb lvryq na vagrtre nafjre.",
@@ -487,7 +487,7 @@
       "is_metapuzzle": false,
       "credits": "Archis Arole and Calvin Wang",
       "num_to_unlock": 4,
-      "answer_hash": "382d33d88709df6c4a4463d58943921a06273888dc86b8f8a7e111176d836580",
+      "answer_hash": "740bd0811f2d5c0fe568a14a71ee49eefb7d9decf94e337302f21ac2a3db7614",
       "partial_hashes": [],
       "hints_rot13": [
         "Lbh jvyy arrq gb pbzovar gur Ababtenz ehyrf jvgu gur ybbc ehyrf gb fbyir gur chmmyr. Sbe rknzcyr, gur ybbc ehyrf zrna gung rnpu hafunqrq fdhner unf ng yrnfg gjb hafunqrq arvtuobef. Guvf yrgf lbh svyy va gur gbc ebj.",
@@ -501,7 +501,7 @@
       "is_metapuzzle": false,
       "credits": "Martin Flisar and \u017diga O\u0161tir",
       "num_to_unlock": 5,
-      "answer_hash": "cb11912a53771f9844cc32b0b6260623a84bd4e89022c8103e80aa3ea17e34c5",
+      "answer_hash": "c365b6ecfb075a67c188d2ae482b996526436c7564b6377e733ce5340cdc3964",
       "partial_hashes": [],
       "hints_rot13": [
         "Gurfr ner nyy nobhg \"vairefvba\" be \"vairefrf\", nf vg nccrnef va qvssrerag zngurzngvpny pbagrkgf.",
@@ -516,7 +516,7 @@
       "is_metapuzzle": true,
       "credits": "Becca Chang, Evan Chen, and CJ Quines",
       "num_to_unlock": 6,
-      "answer_hash": "172897ce0d9bde77df8ee79de305544f7a9cbcde96b39593574625c4695bc0c5",
+      "answer_hash": "548ef5ae5a4d15ec2715bc3f1e2d6836175f02e20bf38eaeb9aeec87ef5dcdc4",
       "partial_hashes": [],
       "hints_rot13": [
         "Gurer vf ab svyr gb qbjaybnq sbe gur zrgnchmmyr.",
