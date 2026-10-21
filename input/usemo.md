@@ -17,7 +17,7 @@ develop interest and ability in mathematics (rather than measure it).
 However, it is one of few proof-based contests
 **open to all middle and high school students**.
 
-The USEMO is hosted on the [Mathelots portal](https://mathelots.global/usemo-2026/).
+The USEMO is hosted on the [Mathelots portal][portal].
 (In 2025 and earlier, it was hosted by [AoPS][aops-usemo].)
 This contest is _not_ sponsored by the Math Association of America
 (which runs the [USAMO][usamo]).
@@ -56,7 +56,7 @@ $\text{usersatzmo}@\text{gmail}.\text{com}$.
 
 ## {{ hl("links", "Links and downloads") }}
 
-- [Registration and submission portal][aops-usemo]
+- [Registration and submission portal][portal]
 - [Answer sheet template][answersheet]
 - [Full rules and procedures][rules]
 - [Mission statement][mission]
@@ -115,3 +115,4 @@ or if you have other ideas on how you could help out.
 [grading-info]: /upload/usemo/grading-brief-usemo.pdf
 [propose]: /upload/usemo/proposal-guidelines-usemo.pdf
 [aops-usemo]: https://www.aops.com/contests/usemo
+[portal]: https://mathelots.global/usemo-2026/
