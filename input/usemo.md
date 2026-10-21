@@ -37,26 +37,16 @@ USEMO 2026 will be the first USEMO directed by Anant Mudgal.
 Note the new email address
 $\text{usersatzmo}@\text{gmail}.\text{com}$ for contact.
 
-The dates are **October 24 & 25, 2026, 12:30pm to 5:00pm ET**.
+There are two possible dates:
+
+- October 24 & 25, 2026, 12:30pm to 5:00pm Eastern time (for Western zone)
+- October 24 & 25, 2026, 12:30pm to 5:00pm Singapore time (for Eastern zone)
+
+(You could technically do both sessions, but we don't recommend that.)
 You can register via the [Mathelots portal](https://mathelots.global/usemo-2026/).
 
 Problem proposals for USEMO 2026 were due on 31 May.
 (You can [see the instructions anyway][propose].)
-
-<!--
-- [Solutions and results for 2025 are now posted](/exams/report-usemo-2025.pdf).
-- [Day 1 and 2 problems for 2025 are posted here now](/exams/USEMO-2025.pdf),
-  for people not participating who still want to see them.
-- Day I was Saturday **25 October 2025**, from 12:30pm ET to 5:00pm ET.
-- Day II was Sunday **26 October 2025**, from 12:30pm ET to 5:00pm ET.
-- Discussion of problems opened at 7:00pm ET each evening after the exam.
-- Problem proposals were due May 10, 2025.
--->
-
-The organizers of the USEMO are grateful to be sponsored in 2025
-by the [CoRe Lab, Institute of Artificial Intelligence, Peking University](https://pku.ai/).
-
-[![CoRE Lab](/upload/usemo/core.jpg)](https://pku.ai/)
 
 ## {{ hl("contact", "Contact") }}
 
