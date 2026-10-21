@@ -37,11 +37,12 @@ USEMO 2026 will be the first USEMO directed by Anant Mudgal.
 Note the new email address
 $\text{usersatzmo}@\text{gmail}.\text{com}$ for contact.
 
-There are two possible dates:
+There are two possible dates, meant to accommodate time zones:
 
-- October 24 & 25, 2026, 12:30pm to 5:00pm Eastern time (for Western zone)
-- October 24 & 25, 2026, 12:30pm to 5:00pm Singapore time (for Eastern zone)
+- October 24 & 25, 2026, 12:30pm to 5:00pm Eastern time
+- October 24 & 25, 2026, 12:30pm to 5:00pm Singapore time
 
+The two zones have different problems.
 (You could technically do both sessions, but we don't recommend that.)
 You can register via the [Mathelots portal](https://mathelots.global/usemo-2026/).
 
