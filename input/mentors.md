@@ -121,18 +121,18 @@ I'm Luka Macharashvili, a mathematician who loves helping young students grow
 and sharing my passion for mathematics. My journey in problem-solving began
 with earning a medal at the 2019 International Mathematical Olympiad (IMO).
 In 2023, I had the honor of leading the Georgian team at the Romanian Master
-of Mathematics (RMM) and the Balkan Mathematical Olympiad (BMO). I’m also proud
+of Mathematics (RMM) and the Balkan Mathematical Olympiad (BMO). I'm also proud
 to have taught the 2023 and 2024 IMO Gold medalists.
 In 2025, my students achieved great results — one represented the USA team at
 RMM 2025 and won a Silver Medal, while another took 2nd place at the European
-Girls’ Mathematical Olympiad (EGMO 2025) as an official participant.
+Girls' Mathematical Olympiad (EGMO 2025) as an official participant.
 I have worked with many students preparing for American competitions such as
 the AMC and AIME, helping them improve problem-solving skills, qualify for the
 AIME, and advance toward USA(J)MO level.
-If you’d like to explore the exciting world of mathematics, you can find me
+If you'd like to explore the exciting world of mathematics, you can find me
 on my YouTube channel (<https://www.youtube.com/@OlympicMathTutor>).
 With over five years of experience in IMO training and strong knowledge of
-AIME and AMC preparation, I’m ready to help you reach your goals.
+AIME and AMC preparation, I'm ready to help you reach your goals.
 
 ## {{ hl("soroush", "Soroush Rezaei") }}
 

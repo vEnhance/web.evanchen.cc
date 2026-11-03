@@ -681,7 +681,7 @@ or idea with real cohesion.
 
 Wind down.
 
-In general, usually it’s more important to be rested (e.g. sleeping enough)
+In general, usually it's more important to be rested (e.g. sleeping enough)
 and have a clear head in the last few weeks leading up to the contest,
 rather than trying to do additional math practice.
 Math olympiads studying should be year-round.

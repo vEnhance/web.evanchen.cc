@@ -82,10 +82,10 @@ Euler Circle itself.[^prof]
 [^prof]:
     Sometimes people advise emailing random professors.
     I am bit more pessimistic about this.
-    It’s probably true that there _exist_ professors out there who are able
+    It's probably true that there _exist_ professors out there who are able
     and excited to help mentor a research project,
     but I suspect they would be pretty rare
-    (like less than one percent rare) and don’t know how I would find them.
+    (like less than one percent rare) and don't know how I would find them.
     Note also that professors at prestigious schools are also flooded with
     emails from rando's who think they've proved Goldbach's conjecture
     and probably don't want additional emails from strangers.

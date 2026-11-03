@@ -82,14 +82,14 @@ In descending order of importance for new solvers:
 3. **Check your work!** (Better yet, have teammates help you check your work.)
    Quote from [Allen Rabinovich's advice][advice]:
    "A good friend of mine once said that if he were to write a guide
-   on how to solve puzzles, that’s all he would say."
+   on how to solve puzzles, that's all he would say."
 4. Print out a [code sheet][codes] of **common encodings**.
    There are other equivalent charts like [Puzzled Pint][ppint] or [Microsoft][msenc].
 5. Use [Nutrimatic](https://nutrimatic.org) to find phrases
    given only some of the letters.
 6. Always ask what **information is not used yet**.
    In a well-designed puzzle, there will rarely be any superfluous information.
-   Good puzzle writers will tend to "destroy" information if it’s not relevant.
+   Good puzzle writers will tend to "destroy" information if it's not relevant.
    In particular, it's extremely common for lists to be in **alphabetical order**
    if either order is irrelevant or the solver needs to re-order themselves.
 7. Look at the **puzzle title** and **flavor text** for clues.

@@ -37,7 +37,7 @@ or better yet, [submit a pull request](https://github.com/vEnhance/web.evanchen.
 - Fellow MO coaches are always welcome to email me with questions or for advice.
   Specific inquiries are usually better than generic ones. Something like "can
   you look at this lesson plan and give suggestions" is both easier for me to
-  answer (because it’s so concrete) and also more informative for you (because
+  answer (because it's so concrete) and also more informative for you (because
   it's so targeted). In general the more concrete the better.
 
 [fishquote]: https://en.wiktionary.org/wiki/give_a_man_a_fish_and_you_feed_him_for_a_day;_teach_a_man_to_fish_and_you_feed_him_for_a_lifetime
