@@ -2,7 +2,7 @@
 
 v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
-Last edited 15 May 2026
+Last edited 13 Nov 2026
 
 To use the fonts specified in this stylesheet,
 add the following lines to your HTML preamble:
@@ -33,16 +33,19 @@ SOFTWARE.
 
 */
 
+/*
+ * Units: 1rem is the reader's default font size (16px unless they changed
+ * it). Type and spacing use rem/em so the whole site scales with that
+ * preference; only hairlines (borders, outlines, shadows) stay in px.
+ */
+
 body {
   font-family: "Mate", serif;
   background-color: #f6f6f6; /* It's #5368C1 on KARL */
   color: #121212;
-  max-width: 800px; /* Don't overwhelm large displays */
+  max-width: 50rem; /* Don't overwhelm large displays */
   margin: 0 auto;
   padding: 0;
-  display: block;
-  float: none;
-  font-size: 16px;
 }
 
 strong {
@@ -50,8 +53,8 @@ strong {
 }
 
 blockquote {
-  margin-left: 40px;
-  margin-right: 56px;
+  margin-left: 2.5rem;
+  margin-right: 3.5rem;
 }
 
 pre,
@@ -60,7 +63,7 @@ code {
 }
 
 /*
- * LINKS, IMAGES
+ * LINKS
  */
 
 a:link,
@@ -86,13 +89,9 @@ h3 a:link,
 h3 a:visited {
   color: #a40f71;
 }
-#main img {
-  border: 0 none;
-  max-width: 90%;
-}
 
 a.hash-link {
-  padding-left: 7px;
+  padding-left: 0.35em;
 }
 a.hash-link:link,
 a.hash-link:visited {
@@ -110,149 +109,140 @@ a.emoji-link:active {
 }
 
 /*
- * HEADERS H1, H2, ..., H5
+ * HEADINGS
  */
 
-h1 {
-  display: block;
-  font-weight: normal;
-  letter-spacing: 1px;
-  font-size: 22px;
-  color: #224488;
-  font-weight: 600;
+h1,
+h2,
+h3 {
   font-family: "Roboto Slab", serif;
+  font-weight: 600;
+}
+h1 {
+  font-size: 1.375rem;
+  letter-spacing: 0.05em;
+  color: #224488;
 }
 h2 {
+  font-size: 1.25rem;
+  padding-top: 0.3em;
   color: #004824;
-  font-size: 20px;
-  font-weight: 600;
-  padding-top: 6px;
-  font-family: "Roboto Slab", serif;
 }
 h3 {
+  font-size: 1.125rem;
   color: #450060;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: "Roboto Slab", serif;
 }
 h4 {
-  margin-top: 6px;
-  margin-bottom: 4px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
+  margin: 0.375rem 0 0.25rem;
 }
 h5,
 h6 {
-  margin-top: 4px;
-  margin-bottom: 2px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
+  margin: 0.25rem 0 0.125rem;
 }
 
 /*
- * ID'ed elements
- * #header, #main, #side, #email_box, #feed
+ * PAGE HEADER: #header, #sitetitle, #sitelogo
  */
 
-#main {
-  padding: 5px;
-  border: 1px solid #2e8b57;
-  border-radius: 11px;
-  moz-border-radius: 11px;
-  -webkit-border-radius: 11px;
-  background-color: #b2fee1; /* light green color */
-  margin-top: 7px;
-  margin-left: 0px;
-}
-
 #header {
-  background: none repeat scroll 0 0;
-  clear: both;
   font-family: "Roboto Slab", serif;
-  font-size: 24px;
-  line-height: 28px;
-  overflow: auto;
-  vertical-align: middle;
+  font-size: 1.5rem;
   white-space: nowrap;
   overflow: hidden;
-  background-color: #faebd7; /* red background */
-
-  border-top: 5px solid #cccccc;
-  border-bottom: 5px solid #cccccc;
+  background-color: #faebd7;
   border: 3px solid #b22222;
-  border-radius: 11px;
-  -moz-border-radius: 11px;
-  -webkit-border-radius: 11px;
-  margin-top: 5px;
-  padding-left: 12px;
+  border-radius: 0.75rem;
+  margin-top: 0.25rem;
+  padding-left: 0.75rem;
 }
 #header a:hover {
   text-decoration: none;
 }
 
 #sitetitle {
-  text-align: left;
-  font-size: 40px;
-  position: relative;
-  top: 10px;
-  left: 3px;
-  margin: 0;
-  color: #ff6600; /* reddish, for head */
-  line-height: 2.4;
-  font-weight: 500;
   font-family: "Noto Serif TC", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.4;
+  letter-spacing: 0.025em;
+  color: #ff6600;
+  margin: 0;
+  position: relative;
+  top: 0.25em;
+  left: 0.1em;
+}
+#sitelogo {
+  height: 1.35em;
+  vertical-align: text-bottom;
 }
 
-#pagetitle {
-  font-weight: 700;
-  margin-left: 16px;
+/*
+ * TOP STRIP: #feed (Instagram widget), #latest_blog, #email_box
+ */
+
+#feed {
+  background-color: #ffffaa;
+  border: 1px solid #ffcc00;
+  border-radius: 0.75rem;
+  margin-top: 0.25rem;
 }
+#feed iframe {
+  /* the third-party widget renders at a fixed pixel size */
+  width: 100%;
+  height: 96px;
+  border: 0;
+  overflow: hidden;
+}
+
+#latest_blog {
+  background-color: #abdeab;
+  font-family: "PT Sans", sans-serif;
+}
+
+#email_box {
+  display: inline-block;
+  font-size: 80%;
+  background-color: #87ceeb;
+  border: 2px solid #48d1cc;
+  border-radius: 0.5rem;
+  margin-top: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+#email_box img {
+  height: 1.5rem;
+}
+
+/*
+ * SIDEBAR: #side, #navtitle, #kofi
+ */
 
 #side {
-  border: 1px solid #6a5acd;
-  border-radius: 11px;
-  -moz-border-radius: 11px;
-  -webkit-border-radius: 11px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
   background-color: #afeeee;
-  /* light blue background for side */
-  line-height: 20px;
-  padding-top: 9px;
-  padding-bottom: 0px;
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-top: 7px;
+  border: 1px solid #6a5acd;
+  border-radius: 0.75rem;
+  line-height: 1.25;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem 0;
 }
 #side:hover {
   outline: 1px solid #6a5acd;
-}
-
-#feed {
-  border: 1px solid #ffcc00;
-  border-radius: 11px;
-  -moz-border-radius: 11px;
-  -webkit-border-radius: 11px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  background-color: #ffffaa;
-  margin-top: 4px;
 }
 
 #side h4,
 #side h5,
 #side h6 {
   font-family: "PT Sans", sans-serif;
+  font-weight: normal;
 }
 #side h4 {
-  font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
 }
 #side h5 {
-  font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: italic;
 }
 #side h4 strong,
@@ -261,93 +251,77 @@ h6 {
   color: #7d0081;
 }
 
-#email_box {
-  margin-top: 3px;
-  background-color: #87ceeb;
-  border-radius: 9px;
-  -moz-border-radius: 9px;
-  -webkit-border-radius: 9px;
-  border: 2px solid #48d1cc;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 80%;
-  display: inline-block;
-}
-
 #navtitle {
-  color: blue;
-  font-weight: 700;
-  font-size: 18px;
-  margin-left: 10px;
-  margin-right: 10px;
   float: left;
+  color: blue;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0 0.5rem;
 }
 
-#latest_blog {
-  background-color: #abdeab;
-  font-family: "PT Sans", sans-serif;
+#kofi {
+  width: 7.25rem;
+  height: auto;
 }
 
-/* ENTRY AND ENTRY WRAP */
+/*
+ * MAIN CONTENT: #main, #pagetitle, div.entry, div.entrywrap
+ */
+
+#main {
+  background-color: #b2fee1;
+  border: 1px solid #2e8b57;
+  border-radius: 0.75rem;
+  margin-top: 0.5rem;
+  padding: 0.25rem;
+}
+#main img {
+  border: 0 none;
+  max-width: 90%;
+}
+
+#pagetitle {
+  font-weight: 700;
+  margin-left: 1rem;
+}
 
 div.entry {
   border-bottom: 1px dashed #cccccc;
-  margin-top: 9px;
+  margin-top: 0.5rem;
+  padding-bottom: 1rem;
   overflow: hidden;
-  padding-bottom: 16px;
 }
 div.entrywrap {
   background-color: #dedede;
-  border: 1px solid black;
-  margin: 8px;
-  overflow: auto;
-  padding-top: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 16px;
-  height: 99%;
-  border-radius: 7px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
   border: 1px solid #000000;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 0.75rem 0.75rem 1rem;
+  overflow: auto;
 }
 
-/* Bootstrap monkey patching */
+/*
+ * BOOTSTRAP: keep our link colors from overriding button text
+ */
 
 a:link.btn,
-a:visited.btn {
-  color: #212529;
-}
-a:link.btn-primary,
-a:visited.btn-primary {
-  color: #fff;
-}
-a:link.btn-secondary,
-a:visited.btn-secondary {
-  color: #fff;
-}
-a:link.btn-success,
-a:visited.btn-success {
-  color: #fff;
-}
-a:link.btn-danger,
-a:visited.btn-danger {
-  color: #fff;
-}
+a:visited.btn,
 a:link.btn-warning,
-a:visited.btn-warning {
-  color: #212529;
-}
-a:link.btn-info,
-a:visited.btn-info {
-  color: #fff;
-}
+a:visited.btn-warning,
 a:link.btn-light,
 a:visited.btn-light {
   color: #212529;
 }
+a:link.btn-primary,
+a:visited.btn-primary,
+a:link.btn-secondary,
+a:visited.btn-secondary,
+a:link.btn-success,
+a:visited.btn-success,
+a:link.btn-danger,
+a:visited.btn-danger,
+a:link.btn-info,
+a:visited.btn-info,
 a:link.btn-dark,
 a:visited.btn-dark {
   color: #fff;

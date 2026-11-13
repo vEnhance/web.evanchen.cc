@@ -6,36 +6,35 @@
 }
 
 a img.tshirt {
-  width: 150px;
+  width: 9.375rem;
   border: 2px grey solid;
-  border-radius: 5px;
-  margin: 7px 7px;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
 }
 a img:hover {
-  box-shadow: 0px 0px 35px #dddd33;
+  box-shadow: 0 0 35px #dddd33;
   background-color: #eeee88;
 }
 div.hidden {
   display: none;
   border: 2px solid #660000;
-  border-radius: 8px;
-  padding: 5px 5px;
+  border-radius: 0.5rem;
   background-color: #e4fbf9;
-  padding: 6px;
+  padding: 0.375rem;
 }
 
 .chooser {
   text-align: center;
 }
 div.chooser {
-  margin-top: -5px;
-  margin-bottom: 5px;
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
 }
 .chooser ul {
   list-style: none;
-  padding: 0 10px 0 10px;
-  margin-bottom: 0px;
-  border-radius: 4px;
+  padding: 0 0.625rem;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
 }
 .list-chooser ul {
   border: 2px dotted #0033dd;
@@ -57,10 +56,10 @@ div.chooser {
 
 @keyframes glow-yellow {
   from {
-    box-shadow: 0px 0px 35px #bbbb33;
+    box-shadow: 0 0 35px #bbbb33;
   }
   to {
-    box-shadow: 0px 0px 45px #eeeecc;
+    box-shadow: 0 0 45px #eeeecc;
   }
 }
 
@@ -69,11 +68,11 @@ div.photo-gallery {
   flex-wrap: wrap;
 }
 .entrywrap div.photo-gallery a > img {
-  height: 96px;
-  width: 96px;
+  height: 6rem;
+  width: 6rem;
   object-fit: cover;
-  margin: 6px 6px 6px 6px;
-  box-shadow: 0px 0px 15px #6666dd;
+  margin: 0.375rem;
+  box-shadow: 0 0 15px #6666dd;
 }
 .entrywrap div.photo-gallery a:hover > img {
   animation-name: glow-yellow;
@@ -83,10 +82,10 @@ div.photo-gallery {
 /* For OPAL answer checker */
 
 #answerInput {
-  padding: 4px;
-  font-size: 16px;
+  padding: 0.25rem;
+  font-size: 1rem;
   border: 2px solid #ddd;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   outline: none;
   transition: border-color 0.3s;
   min-width: 20em;
@@ -98,12 +97,12 @@ div.photo-gallery {
 }
 
 #submitButton {
-  padding: 4px 8px;
-  font-size: 16px;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
   background-color: #4caf50;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -118,11 +117,11 @@ div.photo-gallery {
 }
 
 .result {
-  padding: 15px;
-  border-radius: 5px;
+  padding: 1rem;
+  border-radius: 0.25rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 1rem;
 }
 
 .result.success {
@@ -152,15 +151,15 @@ div.photo-gallery {
 .opal-controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .opal-btn {
-  padding: 6px 14px;
-  font-size: 16px;
+  padding: 0.375rem 0.875rem;
+  font-size: 1rem;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -187,15 +186,15 @@ div.photo-gallery {
 }
 
 .opal-panel {
-  margin-top: 15px;
-  padding: 15px;
+  margin-top: 1rem;
+  padding: 1rem;
   background-color: white;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 0.25rem;
 }
 
 .opal-footnote {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   font-size: 90%;
   color: #666;
 }
@@ -213,15 +212,15 @@ div.photo-gallery {
 .opal-hint-controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 0.625rem;
   align-items: center;
 }
 
 #opalHintSelect {
-  padding: 4px;
-  font-size: 16px;
+  padding: 0.25rem;
+  font-size: 1rem;
   border: 2px solid #ddd;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   max-width: 100%;
 }
 
@@ -230,7 +229,7 @@ div.photo-gallery {
 }
 
 .opal-hints {
-  margin-top: 15px;
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 
