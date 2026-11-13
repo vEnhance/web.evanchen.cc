@@ -117,7 +117,7 @@ To reiterate, the 3 commands you should be running
 
 ```sh
 pdflatex meow
-asy meow-1.asy
+asy -pdf meow-1.asy
 pdflatex meow
 ```
 
