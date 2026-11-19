@@ -38,7 +38,7 @@ or my [archive of past problems and solutions](problems.html).
 
 ---
 
-![Diagram to Taiwan TST 2014 problem](/static/images/home-art.webp)
+![Diagram to Taiwan TST 2014 problem](/static/images/home-art.svg)
 
 <p style="text-align:center;">
 <small>The nine-point circle of $\triangle BIC$ is orthogonal to
