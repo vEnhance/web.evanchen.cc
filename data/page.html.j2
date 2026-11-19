@@ -67,11 +67,16 @@
       </div>
       <div class="row">
         <div class="col-12 d-none d-md-block">
-          <div id="feed" class="px-1 pt-1 pb-0">
-            <iframe src="https://cdn.lightwidget.com/widgets/90dc888fdd63572186f83253c9a50415.html"
-                    scrolling="no"
-                    allowtransparency="true"
-                    class="lightwidget-widget"></iframe>
+          <div id="feed">
+            {% for id in instagram_ids %}
+              <a href="https://www.instagram.com/p/{{ id }}/">
+                <img src="/instagram/{{ id }}.webp"
+                     width="192"
+                     height="192"
+                     loading="lazy"
+                     alt="Instagram post" />
+              </a>
+            {% endfor %}
           </div>
         </div>
         <div class="col-10 col-sm-6 col-md-7 d-none d-md-block">
@@ -181,7 +186,6 @@
       </div>
     </div>
     <!-- end container -->
-    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
     <script src="/static/js/blog.js"></script>
     <script src="/static/js/k.js"></script>
   </body>

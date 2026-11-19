@@ -12,6 +12,7 @@ MOUNTPOINTS: list[tuple[str, Path]] = [
     ("/static/", REPO / "static"),
     ("/applets/", REPO / "applets"),
     ("/handouts/", REPO / "handouts"),
+    ("/instagram/", REPO / "instagram"),
     ("/", REPO / "output"),
 ]
 REDIRECT_PREFIXES = tuple(
@@ -31,7 +32,10 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self) -> None:
         for prefix in REDIRECT_PREFIXES:
-            if self.path.startswith(prefix):
+            if (
+                self.path.startswith(prefix)
+                and not Path(self.translate_path(self.path)).is_file()
+            ):
                 self.send_response(302)
                 self.send_header("Location", LIVE + self.path)
                 self.end_headers()

@@ -36,6 +36,7 @@ This website has some subfolders.
 
 - `applets/`: direct copy of `$REPO/applets/`
 - `handouts/`: managed using `$REPO/handouts/sync.sh`
+- `instagram/`: banner thumbnails locally from `$REPO/scripts/instagram.py`
 - `opals/`: mirrored from an external OPAL repository,
   contains published puzzle PDF files for the
   [OPAL hunt](https://web.evanchen.cc/opal.html)

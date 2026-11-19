@@ -16,6 +16,8 @@ REPO_ROOT = Path(__file__).parent.parent
 MACROS_PATH = REPO_ROOT / "data" / "macros.py"
 DIR_IN = REPO_ROOT / "input"
 DIR_OUT = REPO_ROOT / "output"
+INSTAGRAM_LIST = REPO_ROOT / "data" / "instagram.txt"
+INSTAGRAM_COUNT = 8  # keep in sync with scripts/instagram.py
 MARKDOWN_EXTENSIONS = ["table", "footnote", "smartquotes", "deflist", "strikethrough"]
 
 RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
@@ -43,6 +45,13 @@ def get_nav_data(toml_path: Path) -> list[dict]:
     return out
 
 
+def get_instagram_ids(path: Path) -> list[str]:
+    """Most recent posts, newest first (the file is oldest first)."""
+    lines = (line.strip() for line in path.read_text().splitlines())
+    ids = [line for line in lines if line and not line.startswith("#")]
+    return ids[::-1][:INSTAGRAM_COUNT]
+
+
 def build() -> None:
     os.chdir(REPO_ROOT)
     DIR_OUT.mkdir(exist_ok=True)
@@ -55,6 +64,7 @@ def build() -> None:
         keep_trailing_newline=True,
     )
     tmpl_env.globals["nav_links"] = get_nav_data(REPO_ROOT / "data" / "nav.toml")
+    tmpl_env.globals["instagram_ids"] = get_instagram_ids(INSTAGRAM_LIST)
     tmpl_env.globals.update(macros)
     template = tmpl_env.get_template("page.html.j2")
     md_converter = MarkdownIt().enable_many(MARKDOWN_EXTENSIONS)

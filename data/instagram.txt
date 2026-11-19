@@ -1,0 +1,20 @@
+# Instagram posts shown in the banner at the top of every page.
+# One post ID per line, oldest first; the last 8 are displayed, newest on the left.
+# Add new posts with `uv run scripts/instagram.py <url>`.
+# Images live at web:instagram/<id>.webp (local copy in instagram/, git-ignored).
+DMSvLHou1WP
+DMl_2h0JV-1
+DNjUbNEu9ps
+DPpAtWQj3rJ
+DTLTTQmDrI7
+DUMWhcFD4cs
+DU0lLf0ju6g
+DVeYIziD8-l
+DWCcC56D39L
+DWPFefQjkHL
+DWzIKuXDpeq
+DXwrNAEjiiU
+DaTA5nxHCST
+DctE23JHMBj
+DdR_jYvHFYE
+DeXE4VWHIqw
