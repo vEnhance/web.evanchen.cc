@@ -8,7 +8,7 @@ description: Evan records himself doing dumb stuff
 <tr>
   <td style="text-align: center;">
   <a href="https://youtube.com/c/vEnhance">
-  <img src="static/icons/social-youtube.png" width="70" alt="YouTube logo" />
+  <img src="static/icons/social-youtube.webp" width="70" alt="YouTube logo" />
   </a>
   <br />
   <h3><a href="https://www.youtube.com/c/vEnhance">
@@ -22,7 +22,7 @@ description: Evan records himself doing dumb stuff
 <tr>
   <td style="text-align:center;">
   <a href="https://twitch.tv/vEnhance/">
-  <img src="static/icons/social-twitch.png" width="70" alt="Twitch logo" />
+  <img src="static/icons/social-twitch.webp" width="70" alt="Twitch logo" />
   </a>
   <br />
   <h3><a href="https://twitch.tv/vEnhance/">

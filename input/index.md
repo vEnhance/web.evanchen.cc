@@ -5,7 +5,7 @@ description: Homepage of Evan Chen. Course notes, olympiad materials, writings, 
 
 <span class="d-none d-sm-block" style="float:right;padding:10px;">
 <a href="https://www.instagram.com/p/DMl_2h0JV-1">
-<img src="/static/images/top-self.jpg" width="200" alt="Self-portrait of Evan Chen." />
+<img src="/static/images/top-self.webp" width="200" alt="Self-portrait of Evan Chen." />
 </a>
 </span>
 
@@ -38,7 +38,7 @@ or my [archive of past problems and solutions](problems.html).
 
 ---
 
-![Diagram to Taiwan TST 2014 problem](/static/images/home-art.png)
+![Diagram to Taiwan TST 2014 problem](/static/images/home-art.webp)
 
 <p style="text-align:center;">
 <small>The nine-point circle of $\triangle BIC$ is orthogonal to
