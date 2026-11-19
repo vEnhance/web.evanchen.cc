@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
 import importlib.util
+import json
 import os
 import re
 import sys
 import tomllib
 import urllib.parse
+import urllib.request
 from pathlib import Path
 
 import frontmatter
@@ -18,6 +20,9 @@ DIR_IN = REPO_ROOT / "input"
 DIR_OUT = REPO_ROOT / "output"
 INSTAGRAM_LIST = REPO_ROOT / "data" / "instagram.txt"
 INSTAGRAM_COUNT = 8  # keep in sync with scripts/instagram.py
+LATEST_BLOG_URL = "https://blog.evanchen.cc/latest.json"
+LATEST_BLOG_TIMEOUT = 5  # seconds
+LATEST_BLOG_TITLE_LENGTH = 45  # keep in sync with static/js/blog.js
 MARKDOWN_EXTENSIONS = ["table", "footnote", "smartquotes", "deflist", "strikethrough"]
 
 RE_REL_URL = re.compile(r'(?<=(?:(?:\n| )src|href)=")([^#/&%].*?)(?=")')
@@ -52,6 +57,24 @@ def get_instagram_ids(path: Path) -> list[str]:
     return ids[::-1][:INSTAGRAM_COUNT]
 
 
+def get_latest_blog() -> dict | None:
+    """Latest blog post as a no-JS fallback; blog.js refreshes it client-side."""
+    try:
+        # Cloudflare rejects the default Python-urllib User-Agent
+        req = urllib.request.Request(
+            LATEST_BLOG_URL, headers={"User-Agent": "web.evanchen.cc-build"}
+        )
+        with urllib.request.urlopen(req, timeout=LATEST_BLOG_TIMEOUT) as r:
+            data = json.load(r)
+        title, url, date = data["title"], data["url"], data["date"]
+    except (OSError, ValueError, KeyError, TypeError) as e:  # never break the build
+        print(f"! Could not fetch latest blog post: {e!r}", file=sys.stderr)
+        return None
+    if len(title) >= LATEST_BLOG_TITLE_LENGTH:
+        title = title[:LATEST_BLOG_TITLE_LENGTH] + "…"
+    return {"title": title, "url": url, "date": date[:10]}
+
+
 def build() -> None:
     os.chdir(REPO_ROOT)
     DIR_OUT.mkdir(exist_ok=True)
@@ -65,6 +88,7 @@ def build() -> None:
     )
     tmpl_env.globals["nav_links"] = get_nav_data(REPO_ROOT / "data" / "nav.toml")
     tmpl_env.globals["instagram_ids"] = get_instagram_ids(INSTAGRAM_LIST)
+    tmpl_env.globals["latest_blog"] = get_latest_blog()
     tmpl_env.globals.update(macros)
     template = tmpl_env.get_template("page.html.j2")
     md_converter = MarkdownIt().enable_many(MARKDOWN_EXTENSIONS)

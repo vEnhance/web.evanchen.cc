@@ -84,8 +84,13 @@
         </div>
         <div class="col-10 col-sm-6 col-md-7 d-none d-md-block">
           <div id="latest_blog" class="badge px-2 pt-2 pb-1 mx-0 mt-1 mb-0">
-            <a id="latest_blog_anchor"></a>
-            <span class="badge bg-success" id="latest_blog_date"></span>
+            {% if latest_blog %}
+              <a id="latest_blog_anchor" href="{{ latest_blog.url | e }}">{{ latest_blog.title | e }}</a>
+              <span class="badge bg-success" id="latest_blog_date">{{ latest_blog.date | e }}</span>
+            {% else %}
+              <a id="latest_blog_anchor"></a>
+              <span class="badge bg-success" id="latest_blog_date"></span>
+            {% endif %}
           </div>
         </div>
         <div class="col-10 col-sm-6 col-md-5 text-sm-end d-none d-md-block">
