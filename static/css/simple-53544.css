@@ -190,6 +190,31 @@ h6 {
   aspect-ratio: 1;
   object-fit: cover;
 }
+#feed a {
+  position: relative;
+  display: block;
+}
+#feed a::after {
+  /* "open in new tab" on hover */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/static/icons/external-link.svg") center / 35% no-repeat;
+  filter: drop-shadow(0 0 0.125rem rgb(0 0 0 / 60%));
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+#feed img {
+  transition: filter 0.2s;
+}
+#feed a:hover img,
+#feed a:focus-visible img {
+  filter: grayscale(60%) brightness(50%);
+}
+#feed a:hover::after,
+#feed a:focus-visible::after {
+  opacity: 1;
+}
 
 #latest_blog {
   background-color: #abdeab;

@@ -69,7 +69,10 @@
         <div class="col-12 d-none d-md-block">
           <div id="feed">
             {% for id in instagram_ids %}
-              <a href="https://www.instagram.com/p/{{ id }}/">
+              <a href="https://www.instagram.com/p/{{ id }}/"
+                 target="_blank"
+                 rel="noopener"
+                 title="Open on Instagram (new tab)">
                 <img src="/instagram/{{ id }}.webp"
                      width="192"
                      height="192"
