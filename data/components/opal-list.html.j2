@@ -1,6 +1,7 @@
-<script type="application/json" class="opal-data" data-hunt="{{ slug }}" data-label="{{ label }}">
-{{ data_json | safe }}
-</script>
+<script type="application/json"
+        class="opal-data"
+        data-hunt="{{ slug }}"
+        data-label="{{ label }}">{{ data_json | safe }}</script>
 <ol class="opal-list" data-hunt="{{ slug }}">
   {% for puzzle in puzzles %}
     <li data-index="{{ loop.index }}">

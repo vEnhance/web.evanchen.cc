@@ -85,8 +85,8 @@ hooks = [{ id = "uv-lock" }]
 repo = "https://github.com/djlint/djLint"
 rev = "v1.50.0"
 hooks = [
-  { id = "djlint-reformat", types = ["html"], files = '\.j2$' },
-  { id = "djlint", types = ["html"], files = '\.j2$' }
+  { id = "djlint-reformat-jinja" },
+  { id = "djlint-jinja" }
 ]
 
 [[repos]]
