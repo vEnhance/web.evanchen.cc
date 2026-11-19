@@ -34,13 +34,15 @@ This website has some subfolders.
 
 ### Directories managed with a single authoritative source
 
-- `applets/`: direct copy of `$REPO/applets/`
+- `applets/`: direct copy of `$REPO/applets/`, deployed by CI on push
 - `handouts/`: managed using `$REPO/handouts/sync.sh`
 - `instagram/`: banner thumbnails locally from `$REPO/scripts/instagram.py`
 - `opals/`: mirrored from an external OPAL repository,
   contains published puzzle PDF files for the
   [OPAL hunt](https://web.evanchen.cc/opal.html)
-- `static/`: direct copy of `$REPO/static/`
+- `static/`: direct copy of `$REPO/static/`;
+  CI deploys `static/css/` and `static/js/` on push,
+  the rest needs `scripts/sync.sh`
 - `twitch/`: managed using `scripts/upload-twitch-tex-and-pdfs.sh`
 
 ### Directories with lots of stuff

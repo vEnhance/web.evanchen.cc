@@ -1,6 +1,7 @@
 import csv
 import datetime
 import functools
+import hashlib
 import json
 import tomllib
 from html import escape
@@ -25,6 +26,16 @@ _component_env = Environment(
     trim_blocks=True,
     lstrip_blocks=True,
 )
+
+
+@functools.cache
+def asset(url: str) -> str:
+    """Append a content hash to a /static/{css,js} URL for cache busting."""
+    digest = hashlib.sha256((DATA_DIR.parent / url.lstrip("/")).read_bytes())
+    return f"{url}?v={digest.hexdigest()[:8]}"
+
+
+_component_env.globals["asset"] = asset
 
 repo = Repo(Path(__file__).parent, search_parent_directories=True)
 tree = repo.head.commit.tree
@@ -205,7 +216,7 @@ def get_card_trick() -> str:
         r'<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slim-select@latest/dist/slimselect.min.js"></script>'
         + "\n"
     )
-    out += r'<script type="text/javascript" src="/static/js/trick.js"></script>' + "\n"
+    out += f'<script type="text/javascript" src="{asset("/static/js/trick.js")}"></script>\n'
     return out
 
 

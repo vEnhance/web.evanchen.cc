@@ -46,8 +46,8 @@
     <link rel="shortcut icon" href="/static/icons/favicon.ico" />
     <meta name="msapplication-config" content="/static/icons/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
-    <link type="text/css" rel="stylesheet" href="/static/css/simple-53544.css" />
-    <link type="text/css" rel="stylesheet" href="/static/css/extras.css" />
+    <link type="text/css" rel="stylesheet" href="{{ asset('/static/css/simple-53544.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ asset('/static/css/extras.css') }}" />
   </head>
   <body>
     <div class="container">
@@ -189,7 +189,7 @@
       </div>
     </div>
     <!-- end container -->
-    <script src="/static/js/blog.js"></script>
-    <script src="/static/js/k.js"></script>
+    <script src="{{ asset('/static/js/blog.js') }}"></script>
+    <script src="{{ asset('/static/js/k.js') }}"></script>
   </body>
 </html>
