@@ -4,6 +4,9 @@ v_Enhance's CSS Stylesheet
 Theme Name: SIMPLE-53544
 Last edited 18 Nov 2026
 
+Believe it or not, this was originally written for my 2011-era AoPS blog.
+Those were the days. It's changed a whole lot since then.
+
 To use the fonts specified in this stylesheet,
 add the following lines to your HTML preamble:
 
@@ -56,9 +59,7 @@ code {
   font-family: "JetBrains Mono", monospace;
 }
 
-/*
- * LINKS
- */
+/* LINKS */
 
 a:link,
 a:visited {
@@ -102,9 +103,7 @@ a.emoji-link:active {
   text-decoration: none;
 }
 
-/*
- * HEADINGS
- */
+/* HEADINGS */
 
 h1,
 h2,
@@ -138,9 +137,7 @@ h6 {
   margin: 0.25rem 0 0.125rem;
 }
 
-/*
- * PAGE HEADER: #header, #sitetitle, #sitelogo
- */
+/* PAGE HEADER: #header, #sitetitle, #sitelogo */
 
 #header {
   font-family: "Roboto Slab", serif;
@@ -174,9 +171,7 @@ h6 {
   vertical-align: text-bottom;
 }
 
-/*
- * TOP STRIP: #feed (Instagram banner), #latest_blog, #email_box
- */
+/* TOP STRIP: #feed (Instagram banner), #latest_blog, #email_box */
 
 #feed {
   background-color: #ffffaa;
@@ -214,9 +209,7 @@ h6 {
   height: 1.5rem;
 }
 
-/*
- * SIDEBAR: #side, #navtitle, #kofi
- */
+/* SIDEBAR: #side, #navtitle, #kofi */
 
 #side {
   background-color: #afeeee;
@@ -262,9 +255,7 @@ h6 {
   height: auto;
 }
 
-/*
- * MAIN CONTENT: #main, #pagetitle, div.entry, div.entrywrap
- */
+/* MAIN CONTENT: #main, #pagetitle, div.entry, div.entrywrap */
 
 #main {
   background-color: #b2fee1;
@@ -298,9 +289,7 @@ div.entrywrap {
   overflow: auto;
 }
 
-/*
- * BOOTSTRAP: keep our link colors from overriding button text
- */
+/* BOOTSTRAP: keep our link colors from overriding button text */
 
 a:link.btn,
 a:visited.btn,
@@ -324,6 +313,3 @@ a:link.btn-dark,
 a:visited.btn-dark {
   color: #fff;
 }
-
-/* vim: expandtab
- */
