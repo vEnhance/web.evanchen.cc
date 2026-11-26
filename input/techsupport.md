@@ -23,7 +23,28 @@ I would break it down into the following steps
    step already.)
 3. You should then learn your first programming language. The hardest part!
 
-## {{ hl("language", "Picking a language") }}
+## {{ hl("ssg", "Learning the toolkit by building a static website") }}
+
+For the first two steps, a good project I recommend is learning
+enough about the terminal and tools to build a simple static website,
+a lot like this one!
+Having a personal website is also just a nice professional thing.
+
+Here's a tutorial I wrote for this,
+which starts from working in a terminal and the Vim editor
+and works up to deploying your site via Git:
+
+<a href="https://ssg.evanchen.cc" class="btn btn-primary" target="_blank">
+  https://ssg.evanchen.cc (new page)
+</a>
+
+Once you've done that you can check
+[FAQs on Linux](faq-linux.html) for elaborations on the advanced stuff.
+
+## {{ hl("language", "Picking a programming language") }}
+
+Once you know your way around a terminal and editor,
+the next step is to learn a programming language.
 
 In programming culture, choices of language draw the same visceral reactions as
 discussions about race and religion.
@@ -68,8 +89,9 @@ here is Evan's tier list:
 [cpp]: https://en.wikipedia.org/wiki/C%2B%2B
 [java]: https://en.wikipedia.org/wiki/Java_(programming_language)
 
-Second-hand, I've also heard a lot of good things about [Go](https://go.dev/)
-and [Rust](https://www.rust-lang.org/).
+Second-hand, I've also heard a lot of good things about
+[Rust](https://www.rust-lang.org/).
+At the moment I am hoping Python and Rust can take over the world.
 
 Sidenote: HTML+CSS and LaTeX are
 [markup languages](https://stackoverflow.com/a/145179),
@@ -84,52 +106,6 @@ and not programming languages in practice.[^pedant]
 [^pedant]:
     Pedants may argue they are _technically_ Turing-complete
     if abused enough, but why would you do that?
-
-## {{ hl("editors", "Picking an editor") }}
-
-For beginners, there are a _ton_ of "basic" text editors that
-support syntax highlighting and some basic quality-of-life features,
-and are simple to use.
-Some of the popular ones include
-
-- [FeatherPad](https://en.wikipedia.org/wiki/FeatherPad);
-- [Geany](https://en.wikipedia.org/wiki/Geany);
-- [gedit](https://en.wikipedia.org/wiki/Gedit);
-- [Notepad++](https://notepad-plus-plus.org/) (only Windows);
-- [Sublime](https://www.sublimetext.com/).
-
-[Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code)
-(abbreviated VS Code) is also extremely popular,
-although it's a bit more sophisticated than the beginner ones above.
-
-On the other extreme, the two most famous text editors in the
-world of hackers are [NeoVim](https://www.neovim.io/)
-and [Emacs](https://en.wikipedia.org/wiki/Emacs).
-These editors are really powerful and efficient,
-but they take a long time to learn how to use
-(there is even a [video game for learning Vim](https://vim-adventures.com/)).
-Therefore, if you are just learning how to code,
-I would stay with a simpler editor to start
-to avoid learning too many things at once.
-Unless you don't mind learning multiple things at once,
-in which case you do you.
-
-If you do want to try out Vim and don't want to build your own setup,
-I recommend starting with [LazyVim](https://www.lazyvim.org/#-learn),
-which has a lot of pre-configured plugins and shortcuts.
-
-## {{ hl("advanced", "Advanced stuff (skip for now)") }}
-
-Some other advanced things you can do involve
-learning [git](https://duckduckgo.com/?q=git+tutorial),
-switching to Linux, and learning an advanced text editor like
-[Vim](https://www.vim.org) or
-[Emacs](https://en.wikipedia.org/wiki/Emacs).
-I'm not going to talk about the expert stuff here for brevity.
-For now, your job is to pick a language and mess with it.
-
-Once you've done that you can check
-[FAQs on Linux](faq-linux.html) for elaborations on the advanced stuff.
 
 ## {{ hl("euler", "Shout-out to Project Euler") }}
 
