@@ -16,6 +16,7 @@ also known by my screen name `vEnhance`.
 I recently finished my [number theory PhD at MIT](https://credentials.mit.edu/certificate/fb5dea8b0db8537293e2967b64e97777).
 My [thesis](/textbooks/chen-evanchen-phd-math-2025-thesis.pdf)
 was supervised by [Wei Zhang](https://w.wiki/DDok).
+See my [now page](now.html) for my current employer and project list.
 
 Here's [my CV](/upload/public-CV.pdf),
 my [publications](publications.html)
@@ -23,16 +24,13 @@ and [research](https://arxiv.org/a/chen_e_2.html),
 and [my university transcript](/upload/math-coursework.pdf).
 Outside of math, I hate cooking.
 
-See my [now page](now.html) for what I've been thinking about recently
-and my current employer list.
-
-I also have a [serious blog](https://blog.evanchen.cc)
+I have a [serious blog](https://blog.evanchen.cc)
 as well as a [less serious microblog](https://wall.evanchen.cc),
 both with a [mailing list](https://list.evanchen.cc).
 You can also see my [personal page](personal.html) for trivia about myself.
 
-If you are a high school student interested in math olympiads,
-you may visit the [beginner's page](wherestart.html),
+If you're interested in math olympiads,
+see the [beginner's page](wherestart.html),
 my [collection of handouts](olympiad.html),
 or my [archive of past problems and solutions](problems.html).
 
@@ -47,6 +45,13 @@ the circle with diameter $ST$.</small><br />
 <a href="https://artofproblemsolving.com/community/c6h1113644p5087419">
 Taiwan TST Quiz 2015
 </a></small></p>
+
+## {{ hl("colophony", "Colophony") }}
+
+This is a [open source static website](https://github.com/vEnhance/web.evanchen.cc)
+made using dinosaur-era technology.
+If you want to learn how to build antiquated websites like this,
+see my tutorial [ssg.evanchen.cc](https://ssg.evanchen.cc).
 
 ## {{ hl("about", "About Evan") }}
 
