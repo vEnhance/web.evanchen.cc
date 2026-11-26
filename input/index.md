@@ -46,7 +46,7 @@ the circle with diameter $ST$.</small><br />
 Taiwan TST Quiz 2015
 </a></small></p>
 
-## {{ hl("colophony", "Colophony") }}
+## {{ hl("colophon", "Colophon") }}
 
 This is a [open source static website](https://github.com/vEnhance/web.evanchen.cc)
 made using dinosaur-era technology.
